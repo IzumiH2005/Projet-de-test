@@ -178,6 +178,41 @@ class Planner:
             out.append(self.cas(si, f"M{len(out) + 1}", kind="sujet_blanc"))
         return out
 
+    def probables(self, prev: dict, n_ex: int = 8) -> list[dict]:
+        """Plans tirés de la prévision : passages les plus probables l'an prochain, posés comme
+        l'enseignant les pose, avec ce qu'il évalue sans le dire. Puis le sujet le plus probable."""
+        t = self.t
+        top = prev["passages_les_plus_probables"]
+
+        def enrich(pl, r):
+            pl.update({"passage_vise": r["texte"], "probabilite_de_tomber": r["probabilite"], "deja_tombe": r["deja_tombe"],
+                       "intention_cachee": {"evaluer_sans_le_dire": r["evalue_sans_etre_dit"], "deja_nomme_d_habitude": r["toujours_nomme"],
+                                            "type": r.get("intention")},
+                       "manieres_probables": r["manieres_de_demander"], "questions_passees_proches": r["questions_passees_proches"],
+                       "regle": "La question la plus lourde porte sur le passage visé. L'énoncé ne nomme pas les notions de "
+                                "« evaluer_sans_le_dire » ; le corrigé les exige."})
+            return pl
+        out, seen = [], set()
+        for k, r in enumerate(top):
+            if len(out) == n_ex:
+                break
+            if r["section"] in seen:
+                continue
+            seen.add(r["section"])
+            out.append(enrich(self.cas(r["section"], f"P{len(out) + 1}", kind="probable"), r))
+        per_exam = Counter(e for e, _ in t.parts)
+        n_parts = max(1, int(np.median(list(per_exam.values()))))
+        mock, themes = [], set()
+        for r in top:
+            th = t.sections[r["section"]].parent
+            if th in themes and len(themes) < len({s.parent for s in t.sections}):
+                continue
+            themes.add(th)
+            mock.append(enrich(self.cas(r["section"], f"SP-{len(mock) + 1}", kind="sujet_le_plus_probable"), r))
+            if len(mock) == n_parts:
+                break
+        return out + mock
+
     def all(self, n_drill: int = 4, n_mock: int = 3) -> list[dict]:
         plans = []
         for si, s in enumerate(self.t.sections):
