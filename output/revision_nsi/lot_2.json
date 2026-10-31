@@ -1,0 +1,278 @@
+[
+ {
+  "fichier": "output/generated/I-k_ppv.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "k_ppv",
+  "enonce_actuel": "Écrire le code de la méthode k_voisins de la classe Classifieur qui renvoie la liste des k exemples les plus proches du point p.",
+  "fin_du_contexte": ". On dispose de la classe suivante :\n```python\nclass Classifieur:\n    def __init__(self, exemples):\n        # exemples : liste de tuples (masse, diametre, etiquette)\n        self.exemples = exemples\n\n    def distance(self, a, b):\n        return ((a[0] - b[0])**2 + (a[1] - b[1])**2) ** 0.5\n```\nOn souhaite ajouter une méthode k_voisins qui prend en paramètres un point p = (masse, diametre) et un entier k, et qui renvoie la liste des k exemples les plus proches de p, du plus proche au plus éloigné.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire le code d'une méthode",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-k_ppv.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "k_ppv",
+  "enonce_actuel": "Quelle est la classe attribuée à X pour k = 3, puis pour k = 9 ? Justifier, et indiquer quel est l'inconvénient d'un k trop grand.",
+  "fin_du_contexte": "Un jeu de données d'entraînement contient 9 points étiquetés : - 4 points « chat » très proches du point inconnu X (distances 1, 1,5, 2 et 2,5) ; - 5 points « chien » plus éloignés (distances 4, 4,5, 5, 5,5 et 6). On applique l'algorithme des k plus proches voisins au point X avec vote majoritaire.",
+  "support_vise": {
+   "id": "S11",
+   "nom": "Texte contenant des tirets",
+   "geste": "Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.",
+   "gabarit": "[Énoncé] - [élément] - [consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Question directe « quel est »",
+  "exemples_reels_du_support": [
+   "4. La relation Message comporte-t-elle une clé primaire, une ou des clés étrangère(s) ? Si oui, lesquelles ?",
+   "2. Quelle est la liste triée de tous les éléments de l sauf le premier ? On appelle l1 cette liste.",
+   "6. Écrire une requête SQL permettant d'obtenir les rayons des exo planètes\norbitant autour de l'étoile nommée Kepler-11, dont l'identifiant est supposé non\nconnu.",
+   "2. Pour la structure d'ABR de l'arbre, que repr ´esente chacun\nde ces successeurs vis-a-vis du nœud initial ?\nM´ethode 2.8 En utilisant la structure d'un ABR, on d´eduit la m´ethode suivante pour d´eterminer le successeur d'un nœud n :\n\u000e si le sous-arbre droit de n est non vide, alors le successeur de n est . . . . . . . . . . . . . . . . . . . . . . . . . situ´ee dans ce sous-arbre droit ;\n\u000e si le sous-arbre droit de n est vide et que n a un successeur m, alors m est . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . den dont\n. . . . . . . . . . . . . . . . . . . . . . . . . est aussi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-liste_chainee.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "liste_chainee",
+  "enonce_actuel": "Recopier et compléter les lignes 7, 9 et 11 de la fonction longueur.",
+  "fin_du_contexte": "Une liste chaînée est construite à partir de cellules :\n```python\n1 class Cellule:\n2     def __init__(self, valeur, suivante):\n3         self.valeur = valeur\n4         self.suivante = suivante\n5\n6 def longueur(lst):\n7     n = ...\n8     c = lst\n9     while ...:\n10        n = n + 1\n11        c = ...\n12    return n\n```\nLa liste vide est représentée par None. Par exemple, la liste 8 → 3 → 15 est créée par l = Cellule(8, Cellule(3, Cellule(15, None))) et longueur(l) doit renvoyer 3.",
+  "support_vise": {
+   "id": "S9",
+   "nom": "Prose ponctuée de nombres isolés",
+   "geste": "Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.",
+   "gabarit": "[Énoncé avec nombre]. [Consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Compléter des lignes de code numérotées",
+  "exemples_reels_du_support": [
+   "2. Ecrire un code Python permettant d'afficher les ´el´ements d'indice 2 a 4 de la listenotes.",
+   "b. Représenter graphiquement et de manière sommaire les 5 routeurs\nainsi que les liaisons existantes entre ceux-ci.",
+   "1. On consid ere une image de hauteur 1 000 pixels et de largeur 1 500 pixels. Combien de m ´egaoctets faut-il pour repr ´esenter\nl'ensemble des pixels de cette image en omettant l'entˆete ?",
+   "6. Recopier et compléter les lignes 3, 4, 5 et 7 de la fonction eff_dico suivante qui prend en\nparamètre une liste lst et qui renvoie un dictionnaire dont les clés sont les éléments de lst et\nles valeurs les effectifs de chacun de ces éléments dans lst."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-liste_chainee.json",
+  "exercice": 2,
+  "slot": 2,
+  "notion": "liste_chainee",
+  "enonce_actuel": "Donner la séquence des valeurs de la liste l, de la tête à la fin, à l'issue de ces instructions, puis la valeur de l.suivante.suivante.valeur.",
+  "fin_du_contexte": "Un lecteur audio enregistre sa file de lecture sous forme de liste chaînée, en utilisant la classe Cellule (attributs valeur et suivante, None marquant la fin). On exécute, dans l'ordre, les instructions suivantes, où chaque valeur est un numéro de morceau : l = Cellule(42, None), puis l = Cellule(17, l), puis l = Cellule(5, l), puis l.suivante.suivante = Cellule(99, l.suivante.suivante).",
+  "support_vise": {
+   "id": "S10",
+   "nom": "Prose riche en virgules",
+   "geste": "Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.",
+   "gabarit": "[Énoncé], [précisions], [consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Donner la valeur ou l'élément demandé",
+  "exemples_reels_du_support": [
+   "9. Écrire en Python une fonction classement prenant en paramètre un\ndictionnaire dont les clés sont les noms des candidats et les valeurs sont leurs\nnotes et qui, en utilisant la fonction enigme, renvoie la liste des couples\n((prénom, nom), note) des candidats classés par notes décroissantes.",
+   "2. On suppose maintenant que les trois processus précédents s'exécutent et utilisent une ou\nplusieurs ressources parmi R1, R2 et R3.",
+   "9. Si, ni lst1 ni lst2 n'admet d'élément absolument majoritaire, expliquer\npourquoi lst n'admet pas d'élément absolument majoritaire.",
+   "2. D ´eterminer la hauteur de B, la profondeur moyenne de ses nœuds et la profondeur moyenne externe de ses feuilles."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-mise_au_point.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "mise_au_point",
+  "enonce_actuel": "Expliquer le rôle de la ligne 2 de la fonction preparer_insertion et décrire ce qui se passe lors de l'appel preparer_insertion([1, 2, 3], 2, 'VTT').",
+  "fin_du_contexte": "Une base de données de location de vélos contient la table Velo(id_velo, modele, km) dont id_velo est la clé primaire. Avant toute insertion, un programme Python vérifie que l'identifiant n'est pas déjà utilisé ; ids est la liste des id_velo déjà présents dans la table.\n```python\n1 def preparer_insertion(ids, nouveau_id, modele):\n2     assert nouveau_id not in ids, \"identifiant déjà utilisé\"\n3     return (nouveau_id, modele, 0)\n```",
+  "support_vise": {
+   "id": "S2",
+   "nom": "Prose sur un modèle relationnel",
+   "geste": "Texte court sur une base de données (clés, relations, suppression). L'élève raisonne sur le schéma décrit.",
+   "gabarit": "[Contexte BDD]. [Identifier|Expliquer] [élément du schéma].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Analyser une ligne de code précise",
+  "exemples_reels_du_support": [
+   "c. Expliquer comment construire un arbre binaire de hauteur h quelconque ayant\n2\nh+1\n−1 nœuds.",
+   "Quelle commande permet de connaître le répertoire courant dans un système UNIX ?\nA. cd\nB. ls\nC. pwd\nD. chmod",
+   "On cherche à connaitre l’itinéraire vers une destination sur un réseau. On utilisera la commande :\nA. ping\nB. traceroute\nC. ipconfig\nD. arp",
+   "b. Compléter sur le document réponse le tableau des routes et des nombres de sauts\nrespectifs établis par chacun des routeurs pour rejoindre le routeur D."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-modele_relationnel.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "modele_relationnel",
+  "enonce_actuel": "Écrire une requête SQL permettant d'afficher le nom et le prénom des adhérents habitant à Lyon, triés par ordre alphabétique de nom.",
+  "fin_du_contexte": "Une médiathèque utilise une base de données dont le schéma relationnel est :\n- Adherent(<u>id_adh</u>, nom, prenom, ville)\n- Livre(<u>id_livre</u>, titre, annee)\n- Emprunt(<u>id_emp</u>, #id_adh, #id_livre, date_emp)\n\nLes attributs soulignés sont des clés primaires, ceux précédés de # des clés étrangères (id_adh fait référence à Adherent, id_livre à Livre).\n\nLa médiathèque veut contacter ses adhérents de Lyon.",
+  "support_vise": {
+   "id": "S8",
+   "nom": "Phrases courtes isolées",
+   "geste": "Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.",
+   "gabarit": "[Phrase courte].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Écrire une requête SQL",
+  "exemples_reels_du_support": [
+   "1. Indiquer ce que renvoie la requête suivante lorsqu'on l'applique aux extraits précédents.\nSELECTnomFROMlacWHEREaltitude <= 2000",
+   "4. Ecrire une requ ˆete SQL permettant d'ajouter la chanson dont le titre est Megalomania de l'album Hullabaloo du groupe Muse.",
+   "3. Préciser la clé primaire et la clé étrangère de la relation ComptesAbonnes.\n\nL'entreprise gérant le service de VOD demande une adaptation du modèle relationnel.",
+   "8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-modele_relationnel.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "modele_relationnel",
+  "enonce_actuel": "Donner la requête SQL qui renvoie le nombre d'emprunts effectués par l'adhérent d'identifiant 3, puis la valeur renvoyée sur les données ci-dessus.",
+  "fin_du_contexte": "ee)\n- Emprunt(<u>id_emp</u>, #id_adh, #id_livre, date_emp)\n\nLes attributs soulignés sont des clés primaires, ceux précédés de # des clés étrangères (id_adh fait référence à Adherent, id_livre à Livre).\n\nLa table Emprunt contient les 6 enregistrements suivants :\n\n| id_emp | id_adh | id_livre | date_emp |\n|---|---|---|---|\n| 1 | 3 | 12 | '2026-01-04' |\n| 2 | 1 | 7 | '2026-01-05' |\n| 3 | 3 | 7 | '2026-01-09' |\n| 4 | 2 | 15 | '2026-01-12' |\n| 5 | 3 | 15 | '2026-02-01' |\n| 6 | 4 | 12 | '2026-02-03' |",
+  "support_vise": {
+   "id": "S6",
+   "nom": "Prose technique avec valeurs numériques",
+   "geste": "Texte contenant des nombres (masques, suffixes, tables de vérité, scores). Mélange réseaux, booléens et données sans forme commune nette.",
+   "gabarit": "[Texte avec valeurs chiffrées]. [Consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Donner la valeur ou l'élément demandé",
+  "exemples_reels_du_support": [
+   "Quelle est la valeur de x à la fin de l'exécution du script Python suivant ?\nx = 1\nfor i in range(10):\n x = x * 2\nA. 2\nB. 1024\nC. 2048\nD. 20000000000",
+   "Un entier positif est représenté sur 8 bits par 0001 0110. \nEn utilisant le complément à 2, quelle est la représentation sur 8 bits de son opposé ?\nA. 1001 0110\nB. 1110 1001\nC. 1110 1010\nD. 1001 0111",
+   "5. À l'aide des extraits des tables de routage ci -dessus, donner un chemin (c'est-\nà-dire nommer les routeurs traversés) suivi par un message envoyé du réseau\nL1 vers le réseau L2.",
+   "2. On considère à présent le protocole OSPF qui se base sur le coût total\nminimal de la communication. Le coût entre deux routeurs se calcule en\nfonction du débit selon la formule suivante :\n𝑐𝑜û𝑡 = 108\n𝑑é𝑏𝑖𝑡"
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-modularite.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "modularite",
+  "enonce_actuel": "Donner la ligne d'importation à écrire en tête du programme principal.",
+  "fin_du_contexte": "Un élève a écrit un module geometrie.py, rangé dans le même dossier que son programme principal. Sa documentation indique qu'il fournit une constante PI, une fonction aire_disque(r), une fonction perimetre_disque(r), une fonction aire_rectangle(longueur, largeur) et une fonction aire_triangle(base, hauteur), toutes renvoyant un flottant.\n\nDans son programme principal, il ne souhaite utiliser que les fonctions aire_disque et aire_rectangle, en les appelant directement par leur nom, sans préfixe.",
+  "support_vise": {
+   "id": "S10",
+   "nom": "Prose riche en virgules",
+   "geste": "Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.",
+   "gabarit": "[Énoncé], [précisions], [consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Donner la valeur ou l'élément demandé",
+  "exemples_reels_du_support": [
+   "9. Écrire en Python une fonction classement prenant en paramètre un\ndictionnaire dont les clés sont les noms des candidats et les valeurs sont leurs\nnotes et qui, en utilisant la fonction enigme, renvoie la liste des couples\n((prénom, nom), note) des candidats classés par notes décroissantes.",
+   "2. On suppose maintenant que les trois processus précédents s'exécutent et utilisent une ou\nplusieurs ressources parmi R1, R2 et R3.",
+   "9. Si, ni lst1 ni lst2 n'admet d'élément absolument majoritaire, expliquer\npourquoi lst n'admet pas d'élément absolument majoritaire.",
+   "2. D ´eterminer la hauteur de B, la profondeur moyenne de ses nœuds et la profondeur moyenne externe de ses feuilles."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-os_commandes.json",
+  "exercice": 2,
+  "slot": 2,
+  "notion": "os_commandes",
+  "enonce_actuel": "Écrire la commande chmod qui attribue au fichier rapport.txt exactement les droits rwxr-x---.",
+  "fin_du_contexte": "Le fichier rapport.txt appartient à Lina. Elle veut que son propriétaire puisse le lire, le modifier et l'exécuter, que les membres de son groupe puissent seulement le lire et l'exécuter, et que les autres utilisateurs n'aient aucun droit, c'est-à-dire obtenir les droits rwxr-x---.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire la fonction ou commande nommée",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-os_commandes.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "os_commandes",
+  "enonce_actuel": "Quel est le répertoire courant après cette commande ? Justifier.",
+  "fin_du_contexte": "Lina est dans le répertoire /home/lina/projets/nsi. Elle tape cd ..",
+  "support_vise": {
+   "id": "S8",
+   "nom": "Phrases courtes isolées",
+   "geste": "Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.",
+   "gabarit": "[Phrase courte].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Question directe « quel est »",
+  "exemples_reels_du_support": [
+   "1. Indiquer ce que renvoie la requête suivante lorsqu'on l'applique aux extraits précédents.\nSELECTnomFROMlacWHEREaltitude <= 2000",
+   "4. Ecrire une requ ˆete SQL permettant d'ajouter la chanson dont le titre est Megalomania de l'album Hullabaloo du groupe Muse.",
+   "3. Préciser la clé primaire et la clé étrangère de la relation ComptesAbonnes.\n\nL'entreprise gérant le service de VOD demande une adaptation du modèle relationnel.",
+   "8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-paradigmes.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "paradigmes",
+  "enonce_actuel": "Recopier et compléter les lignes 2, 4 et 8.",
+  "fin_du_contexte": "On veut calculer la somme des carrés des éléments d'une liste d'entiers, par exemple 14 pour [1, 2, 3], d'abord en style impératif (lignes 1 à 5), puis en style fonctionnel sans variable modifiée (lignes 7 et 8).\n\n```python\n1 def somme_carres_imp(tab):\n2     total = ...\n3     for x in tab:\n4         total = ...\n5     return total\n6\n7 def somme_carres_fonc(tab):\n8     return sum(...)\n```",
+  "support_vise": {
+   "id": "S9",
+   "nom": "Prose ponctuée de nombres isolés",
+   "geste": "Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.",
+   "gabarit": "[Énoncé avec nombre]. [Consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Compléter des lignes de code numérotées",
+  "exemples_reels_du_support": [
+   "2. Ecrire un code Python permettant d'afficher les ´el´ements d'indice 2 a 4 de la listenotes.",
+   "b. Représenter graphiquement et de manière sommaire les 5 routeurs\nainsi que les liaisons existantes entre ceux-ci.",
+   "1. On consid ere une image de hauteur 1 000 pixels et de largeur 1 500 pixels. Combien de m ´egaoctets faut-il pour repr ´esenter\nl'ensemble des pixels de cette image en omettant l'entˆete ?",
+   "6. Recopier et compléter les lignes 3, 4, 5 et 7 de la fonction eff_dico suivante qui prend en\nparamètre une liste lst et qui renvoie un dictionnaire dont les clés sont les éléments de lst et\nles valeurs les effectifs de chacun de ces éléments dans lst."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-paradigmes.json",
+  "exercice": 2,
+  "slot": 2,
+  "notion": "paradigmes",
+  "enonce_actuel": "Écrire le code de la méthode retirer de la classe Compte.",
+  "fin_du_contexte": "Dans le paradigme objet, on modélise un compte bancaire par la classe suivante :\n\n```python\nclass Compte:\n    def __init__(self, titulaire, solde):\n        self.titulaire = titulaire\n        self.solde = solde\n```\n\nLa méthode retirer prend en paramètre un montant positif ; si le solde est suffisant, elle le diminue de ce montant et renvoie True, sinon elle ne modifie rien et renvoie False.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire le code d'une méthode",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ }
+]

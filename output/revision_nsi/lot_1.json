@@ -1,0 +1,278 @@
+[
+ {
+  "fichier": "output/generated/I-algo_simples.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "algo_simples",
+  "enonce_actuel": "Écrire la fonction nb_occurrences décrite ci-dessus, sans utiliser la méthode count.",
+  "fin_du_contexte": "On souhaite disposer d'une fonction nb_occurrences qui prend en paramètres un tableau tab et une valeur x, et qui renvoie le nombre de fois où x apparaît dans tab. Par exemple nb_occurrences([3, 1, 3, 3, 2], 3) renvoie 3 et nb_occurrences([], 5) renvoie 0.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire la fonction ou commande nommée",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-arbre_binaire.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "arbre_binaire",
+  "enonce_actuel": "Recopier et compléter les lignes 10 et 12 de la méthode taille pour qu'elle renvoie la taille de l'arbre.",
+  "fin_du_contexte": "On définit un arbre binaire à l'aide de la classe suivante, l'arbre vide étant représenté par None. La taille d'un arbre est son nombre de nœuds.\n\n```python\n1 class Arbre:\n2     def __init__(self, g, v, d):\n3         self.gauche = g\n4         self.valeur = v\n5         self.droit = d\n6\n7     def taille(self):\n8         t = 1\n9         if self.gauche is not None:\n10            ...\n11        if self.droit is not None:\n12            ...\n13        return t\n```",
+  "support_vise": {
+   "id": "S4",
+   "nom": "Prose multi-lignes sans forme distinctive",
+   "geste": "Texte d'énoncé courant sur plusieurs lignes, sujets divers (algorithmes, graphes, Huffman). Forme générique, pas de matériau spécifique.",
+   "gabarit": "[Énoncé en prose]. [Consigne].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Lire ou compléter une classe Python fournie",
+  "exemples_reels_du_support": [
+   "2. D ´eterminer un conduit de score de confiance maximal dans la pyramideex2 et donner son score.",
+   "5. Proposer un algorithme en langage naturel permettant de d ´eterminer apres quel mot d'un texte revenir a la ligne, ´etant donn´e une\ncertaine justification. On attend uniquement une explication pr´ecise de l'algorithme, pas sa programmation en Python.",
+   "1. Calculer la taille en octets du texte contenu dans la variable txt. En déduire la\ntaille en bits nécessaire pour le stocker.",
+   "2. Réinscrire Turing et vérifier à nouveau la base de données.\n\n{!{ sqlide titre=\"Ajouter Turing\" sql=\"sql/a_vous_3_2.sql\" espace=\"eleves\"}!}"
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-calculabilite.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "calculabilite",
+  "enonce_actuel": "Écrire la fonction appliquer_n qui prend en paramètres f, n et x et qui renvoie f(f(...f(x)...)) avec n applications de f.",
+  "fin_du_contexte": "En Python, une fonction est une donnée comme une autre : elle peut être passée en paramètre à une autre fonction. On souhaite une fonction appliquer_n qui prend en paramètres une fonction f, un entier n positif ou nul et une valeur x, et qui renvoie le résultat de n applications successives de f à partir de x. Par exemple, si double est définie par def double(y): return 2 * y, alors appliquer_n(double, 3, 1) renvoie 8.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire une fonction avec paramètres spécifiés",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-calculabilite.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "calculabilite",
+  "enonce_actuel": "Donner le nom de ce problème et le qualificatif qui désigne un problème qu'aucun algorithme ne peut résoudre.",
+  "fin_du_contexte": "Alan Turing a démontré en 1936 qu'aucun programme ne peut décider, pour tout programme et toute entrée, si l'exécution se termine.",
+  "support_vise": {
+   "id": "S8",
+   "nom": "Phrases courtes isolées",
+   "geste": "Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.",
+   "gabarit": "[Phrase courte].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Donner le nom ou l'instruction",
+  "exemples_reels_du_support": [
+   "1. Indiquer ce que renvoie la requête suivante lorsqu'on l'applique aux extraits précédents.\nSELECTnomFROMlacWHEREaltitude <= 2000",
+   "4. Ecrire une requ ˆete SQL permettant d'ajouter la chanson dont le titre est Megalomania de l'album Hullabaloo du groupe Muse.",
+   "3. Préciser la clé primaire et la clé étrangère de la relation ComptesAbonnes.\n\nL'entreprise gérant le service de VOD demande une adaptation du modèle relationnel.",
+   "8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-chaines.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "chaines",
+  "enonce_actuel": "Écrire le code de la méthode est_palindrome de la classe Mot, sans utiliser de tranche (slicing).",
+  "fin_du_contexte": "Un jeu de lettres manipule des mots à l'aide de la classe Mot :\n\n```python\nclass Mot:\n    def __init__(self, texte):\n        self.texte = texte\n```\n\nOn souhaite ajouter une méthode est_palindrome qui renvoie True si l'attribut texte se lit de la même façon de gauche à droite et de droite à gauche, et False sinon. Par exemple Mot('kayak').est_palindrome() renvoie True et Mot('kayaks').est_palindrome() renvoie False.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire le code d'une méthode",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-complexite.json",
+  "exercice": 2,
+  "slot": 2,
+  "notion": "complexite",
+  "enonce_actuel": "Écrire une fonction resultats qui prend en paramètres la liste mesures et une chaîne algo et qui renvoie la liste des tuples (n, comparaisons) des mesures concernant algo, dans l'ordre de la liste.",
+  "fin_du_contexte": "re d'une table de base de données mesure(algo, n, comparaisons), par exemple :\n\n```python\nmesures = [{'algo': 'insertion', 'n': 100, 'comparaisons': 4950},\n           {'algo': 'fusion', 'n': 100, 'comparaisons': 541},\n           {'algo': 'insertion', 'n': 200, 'comparaisons': 19900}]\n```\n\nBesoin : on veut obtenir, pour un algorithme donné, la liste des couples (n, comparaisons) correspondant à cet algorithme, comme le ferait la requête SELECT n, comparaisons FROM mesure WHERE algo = 'insertion';",
+  "support_vise": {
+   "id": "S5",
+   "nom": "Besoin formulé pour requête SQL",
+   "geste": "Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.",
+   "gabarit": "Écrire une requête qui renvoie [attributs] des [entités] [condition].",
+   "coherence": "forte"
+  },
+  "consigne_visee": "Écrire une fonction avec paramètres spécifiés",
+  "exemples_reels_du_support": [
+   "9. Comparer le coût en nombre d'opérations des deux stratégies en fonction du\nnombre n de maisons dans la rue. On admet que le coût de la fonction append\nest constant.",
+   "10. Expliquer pourquoi il n'obtient pas le résultat attendu alors que Quentin n'a fait\naucune erreur dans sa liste de champignons.",
+   "5. Écrire une requête SQL qui donne les couleurs des pizzas dont le prix est\nstrictement supérieur à 15 €.\nEN_OOTgzNT7QzNjAc0ND8UzMsTYxMj0A2NTAAwMDzAxNOjIx",
+   "8. Expliquer pourquoi il est plus intéressant dans ce cas précis d'utiliser une file\nplutôt qu'une pile."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-dictionnaire.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "dictionnaire",
+  "enonce_actuel": "Quelle est la valeur de l'expression `catalogue['978-2-25-315']['annee']` ? Expliquer pourquoi l'attribut isbn convient comme clé de ce dictionnaire.",
+  "fin_du_contexte": "Une base de données de bibliothèque contient la relation Livre(isbn, titre, annee), dont la clé primaire est isbn (un identifiant unique de chaque livre). Pour traiter ces données en Python, on transforme chaque ligne en un dictionnaire, puis on range ces dictionnaires dans un dictionnaire `catalogue` indexé par la clé primaire :\n```python\ncatalogue = {\n    '978-2-07-036': {'titre': 'Dune', 'annee': 1965},\n    '978-2-25-315': {'titre': 'Fondation', 'annee': 1951},\n}\n```",
+  "support_vise": {
+   "id": "S2",
+   "nom": "Prose sur un modèle relationnel",
+   "geste": "Texte court sur une base de données (clés, relations, suppression). L'élève raisonne sur le schéma décrit.",
+   "gabarit": "[Contexte BDD]. [Identifier|Expliquer] [élément du schéma].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Question directe « quelle est »",
+  "exemples_reels_du_support": [
+   "c. Expliquer comment construire un arbre binaire de hauteur h quelconque ayant\n2\nh+1\n−1 nœuds.",
+   "Quelle commande permet de connaître le répertoire courant dans un système UNIX ?\nA. cd\nB. ls\nC. pwd\nD. chmod",
+   "On cherche à connaitre l’itinéraire vers une destination sur un réseau. On utilisera la commande :\nA. ping\nB. traceroute\nC. ipconfig\nD. arp",
+   "b. Compléter sur le document réponse le tableau des routes et des nombres de sauts\nrespectifs établis par chacun des routeurs pour rejoindre le routeur D."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-file.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "file",
+  "enonce_actuel": "Écrire le code de la méthode `defiler` de la classe `File` décrite ci-dessus.",
+  "fin_du_contexte": "on utilisées comme piles : `self.entree` (où l'on empile les éléments enfilés) et `self.sortie` (d'où l'on dépile les éléments défilés).\n```python\nclass File:\n    def __init__(self):\n        self.entree = []\n        self.sortie = []\n\n    def enfiler(self, x):\n        self.entree.append(x)\n```\nLa méthode `defiler` retire et renvoie l'élément le plus ancien de la file (supposée non vide) : si `self.sortie` est vide, on y transfère d'abord tous les éléments de `self.entree` en les dépilant un à un.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire le code d'une méthode",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-glouton.json",
+  "exercice": 2,
+  "slot": 2,
+  "notion": "glouton",
+  "enonce_actuel": "Écrire le code de la méthode `remplir` de la classe `Sac` décrite ci-dessus.",
+  "fin_du_contexte": "Une classe `Sac` modélise un sac à dos de capacité `capacite` (en kg). On donne :\n```python\nclass Sac:\n    def __init__(self, capacite):\n        self.capacite = capacite\n        self.contenu = []\n```\nLa méthode `remplir` prend en paramètre une liste `objets` de couples (nom, masse) et ajoute au contenu du sac, de manière gloutonne, les objets pris par masse croissante tant que la masse totale ne dépasse pas la capacité ; elle renvoie la liste des noms ajoutés.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire le code d'une méthode",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-graphe.json",
+  "exercice": 1,
+  "slot": 1,
+  "notion": "graphe",
+  "enonce_actuel": "Donner les valeurs renvoyées par la requête ci-dessus et expliquer en une phrase ce qu'elles représentent dans le graphe.",
+  "fin_du_contexte": " d'une commune est un graphe non orienté. Chaque arête est stockée une seule fois dans la table Piste(id_piste, depart, arrivee, longueur_km). Contenu de la table :\n\n| id_piste | depart | arrivee | longueur_km |\n|---|---|---|---|\n| 1 | Gare | Mairie | 2 |\n| 2 | Mairie | Lycee | 3 |\n| 3 | Gare | Port | 4 |\n| 4 | Port | Lycee | 1 |\n| 5 | Lycee | Stade | 5 |\n\nOn considère la requête :\n```sql\nSELECT arrivee FROM Piste WHERE depart = 'Lycee'\nUNION\nSELECT depart FROM Piste WHERE arrivee = 'Lycee';\n```",
+  "support_vise": {
+   "id": "S8",
+   "nom": "Phrases courtes isolées",
+   "geste": "Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.",
+   "gabarit": "[Phrase courte].",
+   "coherence": "faible"
+  },
+  "consigne_visee": "Exécuter mentalement une requête ou instruction suivante",
+  "exemples_reels_du_support": [
+   "1. Indiquer ce que renvoie la requête suivante lorsqu'on l'applique aux extraits précédents.\nSELECTnomFROMlacWHEREaltitude <= 2000",
+   "4. Ecrire une requ ˆete SQL permettant d'ajouter la chanson dont le titre est Megalomania de l'album Hullabaloo du groupe Muse.",
+   "3. Préciser la clé primaire et la clé étrangère de la relation ComptesAbonnes.\n\nL'entreprise gérant le service de VOD demande une adaptation du modèle relationnel.",
+   "8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-graphe.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "graphe",
+  "enonce_actuel": "Recopier et compléter la ligne 1 et la fonction successeurs donnée ci-dessus (lignes 6 et 7).",
+  "fin_du_contexte": ", ville_arr) puis construit la liste des successeurs d'une ville.\n```python\n1 REQUETE = \"SELECT ... FROM Trajet WHERE ... ;\"\n2\n3 def successeurs(lignes, ville):\n4     res = []\n5     for (ident, dep, arr) in lignes:\n6         if ...:\n7             res.append(...)\n8     return res\n```\nLa variable REQUETE doit contenir la requête SQL renvoyant les villes d'arrivée des trajets partant de Nantes ; la fonction successeurs, elle, fait le même travail en Python à partir de toutes les lignes de la table.",
+  "support_vise": {
+   "id": "S5",
+   "nom": "Besoin formulé pour requête SQL",
+   "geste": "Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.",
+   "gabarit": "Écrire une requête qui renvoie [attributs] des [entités] [condition].",
+   "coherence": "forte"
+  },
+  "consigne_visee": "Recopier et compléter un élément",
+  "exemples_reels_du_support": [
+   "9. Comparer le coût en nombre d'opérations des deux stratégies en fonction du\nnombre n de maisons dans la rue. On admet que le coût de la fonction append\nest constant.",
+   "10. Expliquer pourquoi il n'obtient pas le résultat attendu alors que Quentin n'a fait\naucune erreur dans sa liste de champignons.",
+   "5. Écrire une requête SQL qui donne les couleurs des pizzas dont le prix est\nstrictement supérieur à 15 €.\nEN_OOTgzNT7QzNjAc0ND8UzMsTYxMj0A2NTAAwMDzAxNOjIx",
+   "8. Expliquer pourquoi il est plus intéressant dans ce cas précis d'utiliser une file\nplutôt qu'une pile."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ },
+ {
+  "fichier": "output/generated/I-interface_tad.json",
+  "exercice": 3,
+  "slot": 3,
+  "notion": "interface_tad",
+  "enonce_actuel": "Écrire une fonction ordonner qui prend en paramètres une liste taches de chaînes de caractères et une liste priorites d'entiers de même longueur, et qui renvoie la liste des tâches rangées par priorité croissante en n'utilisant que l'interface de la file de priorité.",
+  "fin_du_contexte": "Une file de priorité est un type abstrait dont l'interface comporte : creer_fp() qui renvoie une file vide, est_vide_fp(f), inserer(f, element, priorite) et extraire_min(f) qui retire et renvoie l'élément de plus petite priorité (on suppose f non vide). On veut s'en servir pour trier des tâches sans connaître son implémentation.",
+  "support_vise": {
+   "id": "S1",
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "consigne_visee": "Écrire une fonction avec paramètres spécifiés",
+  "exemples_reels_du_support": [
+   "b. Expliquer pourquoi, suite à cette requête, l'attribut ref_licence ne peut plus\nêtre une clé primaire de la relation collectionneurs.",
+   "1. Écrire une méthode ajouter_beurre(self, qt) qui ajoute la quantité qt\nde beurre à un objet de la classe Stock .\n\nOn admet que l'on a écrit deux autres méthodes ajouter_farine et\najouter_oeufs qui ont des fonctionnements analogues.",
+   "6. Écrire une méthode est_homogene de la classe tube qui renvoie True si le\ntube est plein et si son contenu est composé de trois fois la même couleur, et\nqui renvoie False sinon.",
+   "a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre\ninitial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup."
+  ],
+  "diagnostic": "le validateur ne reconnaît pas le type de support visé dans l'énoncé (ni dans la fin du contexte)"
+ }
+]
