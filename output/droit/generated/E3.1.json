@@ -1,45 +1,47 @@
 {
-  "id": "E3.1",
-  "type": "exercices",
-  "titre": "Exercices sur la personne juridique",
-  "situation": "",
-  "annexes": [],
-  "questions": [
-    {
-      "slot": 1,
-      "situation": "Arthur Delaunay, architecte à Tours, découvre qu’une SAS récemment immatriculée a pris pour dénomination sociale « Delaunay Rénovation ». Cette société, dont le siège est à Blois, a été créée par Camille Delaunay, sa cousine, qui en est la présidente. Arthur Delaunay lui demande de changer de dénomination, estimant que son nom de famille lui appartient.",
-      "enonce": "Proposez les arguments juridiques que la SAS « Delaunay Rénovation » pourrait opposer à Arthur Delaunay.",
-      "points": 2,
-      "reponse_attendue": "Le nom est un élément d’identification de la personne physique et constitue un droit extrapatrimonial : il est en principe hors commerce, imprescriptible et protégé contre les usurpations. Mais le nom de famille n’appartient pas à un seul membre de la famille : tous ceux qui le portent légitimement peuvent l’utiliser.\nLa SAS, personne morale, est identifiée par sa dénomination sociale, qui joue pour elle le rôle du nom, et par son siège social. Elle peut faire valoir que sa présidente, Camille Delaunay, porte légitimement le nom Delaunay et a consenti à son utilisation comme dénomination sociale lors de la création de la société.\nElle peut ensuite soutenir qu’aucune confusion n’est possible : Arthur Delaunay exerce une activité d’architecte à Tours, alors que la société exerce une activité de rénovation à Blois, à son propre nom. Il ne démontre ni usurpation, ni atteinte à sa réputation, ni préjudice.\nPar conséquent, la demande d’Arthur Delaunay devrait être rejetée, sauf s’il prouvait un risque réel de confusion lui causant un préjudice.",
-      "articles_cites": []
-    },
-    {
-      "slot": 2,
-      "situation": "Le 14 mai 2025, Rex, le berger allemand de Pascal Girard, s’échappe du jardin de son maître par un trou du grillage et pénètre dans la propriété voisine. Il tue Mistral, le chat de Sofia Benali, âgé de 12 ans, sous les yeux de ses enfants. Pascal Girard refuse de payer quoi que ce soit, affirmant qu’« un chat de gouttière ne vaut rien ».",
-      "enonce": "Développez l’argumentation juridique que Sofia Benali peut avancer pour obtenir réparation de son préjudice.",
-      "points": 2,
-      "reponse_attendue": "Sofia Benali et Pascal Girard ne sont liés par aucun contrat : elle peut agir sur le fondement de la responsabilité civile extracontractuelle du fait des animaux.\nSelon l’article 1243 du Code civil, « le propriétaire d’un animal […] est responsable du dommage que l’animal a causé, soit que l’animal fût sous sa garde, soit qu’il fût égaré ou échappé ». Il s’agit d’une responsabilité sans faute : Sofia Benali n’a pas à prouver une négligence de Pascal Girard.\nEn l’espèce, Pascal Girard est propriétaire de Rex et en a la garde. Le fait que le chien se soit échappé par un trou du grillage ne l’exonère pas. Le fait de l’animal (l’attaque) est la cause directe de la mort de Mistral.\nLe dommage est certain. L’animal n’est pas une personne juridique : il est un être vivant doué de sensibilité, mais soumis au régime des biens. Sofia Benali, propriétaire, subit donc un préjudice matériel (valeur du chat, frais éventuels), qui ne se limite pas à sa valeur marchande. Elle peut surtout invoquer un préjudice moral lié à la perte d’un animal de compagnie présent depuis 12 ans, d’autant que la scène s’est déroulée devant ses enfants, eux aussi victimes par ricochet.\nPar conséquent, Pascal Girard doit être condamné à réparer l’intégralité de ces préjudices.",
-      "articles_cites": [
-        "1243"
-      ]
-    },
-    {
-      "slot": 3,
-      "situation": "La SARL Boulangerie Roux, dont le gérant est Damien Roux, a fait l’objet d’une liquidation judiciaire en juin 2025. La société Minoterie du Berry, l’un de ses fournisseurs, n’a pas été payée d’une facture de farine de 9 400 €. Elle envisage de faire saisir la voiture personnelle de Damien Roux et une partie de son salaire de cadre dans une autre entreprise.",
-      "enonce": "Développez l’argumentation juridique que Damien Roux pourrait lui opposer.",
-      "points": 2,
-      "reponse_attendue": "Damien Roux peut invoquer le principe de la personnalité juridique des sociétés. Une fois immatriculée, la SARL Boulangerie Roux est une personne morale distincte de la personne physique de son gérant : elle dispose de son propre nom (dénomination sociale), de son propre siège et surtout de son propre patrimoine, ensemble de ses droits patrimoniaux et de ses dettes.\nEn l’espèce, le contrat de fourniture de farine a été conclu entre la Minoterie du Berry et la SARL. La débitrice de la facture de 9 400 € est donc la société, et non Damien Roux, qui n’a agi qu’en qualité de représentant légal de la personne morale.\nPar ailleurs, dans une SARL, la responsabilité des associés est limitée au montant de leurs apports. Les créanciers sociaux ne peuvent pas poursuivre le patrimoine personnel du gérant ou des associés : la voiture personnelle et le salaire de Damien Roux, qui font partie de son propre patrimoine, sont à l’abri.\nLa Minoterie du Berry doit donc déclarer sa créance dans la procédure de liquidation judiciaire auprès du mandataire judiciaire, qui informe les créanciers connus (article L645-8 du Code de commerce dans le cas d’un entrepreneur, logique comparable ici).\nIl en irait autrement si Damien Roux s’était porté caution personnelle de la société ou si une faute de gestion lui était reprochée.",
-      "articles_cites": [
-        "L645-8"
-      ]
-    },
-    {
-      "slot": 4,
-      "situation": "Karim Haddad, 34 ans, domicilié à Villeurbanne, crée en janvier 2025 avec deux amis une SAS dénommée « Vélocité », dont le siège social est fixé à Lyon. La société, immatriculée le 20 février 2025, loue et répare des vélos électriques. Le 3 mars, Karim Haddad, président, signe au nom de la SAS un contrat d’achat de 40 vélos auprès de la société Cyclonix pour 52 000 €.",
-      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-      "points": 2,
-      "reponse_attendue": "Karim Haddad est une personne physique, identifiée notamment par son nom, son genre et son domicile, lieu de son principal établissement, situé à Villeurbanne.\nAvec deux autres personnes physiques, associés, il a conclu un contrat de société pour créer une société par actions simplifiée (SAS). Depuis son immatriculation au registre national des entreprises le 20 février 2025, la SAS « Vélocité » est une personne morale de droit privé : elle est identifiée par sa dénomination sociale « Vélocité » et par son siège social situé à Lyon, qui joue pour elle le rôle du domicile. Elle dispose d’un patrimoine propre, distinct de celui de ses associés.\nUne personne morale ne pouvant agir seule, elle est représentée par son président, Karim Haddad, représentant légal. En signant le contrat de vente de 40 vélos pour 52 000 € avec la société Cyclonix, autre personne morale, Karim Haddad n’agit pas en son nom personnel mais au nom et pour le compte de la SAS. C’est donc la SAS, et non Karim Haddad, qui est acheteuse et débitrice du prix.",
-      "articles_cites": []
-    }
-  ]
+ "id": "E3.1",
+ "type": "exercices",
+ "titre": "Exercices sur la personne juridique",
+ "situation": "",
+ "annexes": [],
+ "questions": [
+  {
+   "slot": 1,
+   "situation": "Arthur Delaunay, architecte à Tours, découvre qu’une SAS récemment immatriculée a pris pour dénomination sociale « Delaunay Rénovation ». Cette société, dont le siège est à Blois, a été créée par Camille Delaunay, sa cousine, qui en est la présidente. Arthur Delaunay lui demande de changer de dénomination, estimant que son nom de famille lui appartient.",
+   "enonce": "Proposez les arguments juridiques que la SAS « Delaunay Rénovation » pourrait opposer à Arthur Delaunay.",
+   "points": 2,
+   "reponse_attendue": "Le nom est un élément d’identification de la personne physique et constitue un droit extrapatrimonial : il est en principe hors commerce, imprescriptible et protégé contre les usurpations. Mais le nom de famille n’appartient pas à un seul membre de la famille : tous ceux qui le portent légitimement peuvent l’utiliser.\nLa SAS, personne morale, est identifiée par sa dénomination sociale, qui joue pour elle le rôle du nom, et par son siège social. Elle peut faire valoir que sa présidente, Camille Delaunay, porte légitimement le nom Delaunay et a consenti à son utilisation comme dénomination sociale lors de la création de la société.\nElle peut ensuite soutenir qu’aucune confusion n’est possible : Arthur Delaunay exerce une activité d’architecte à Tours, alors que la société exerce une activité de rénovation à Blois, à son propre nom. Il ne démontre ni usurpation, ni atteinte à sa réputation, ni préjudice.\nPar conséquent, la demande d’Arthur Delaunay devrait être rejetée, sauf s’il prouvait un risque réel de confusion lui causant un préjudice.",
+   "articles_cites": []
+  },
+  {
+   "slot": 2,
+   "situation": "Le 14 mai 2025, Rex, le berger allemand de Pascal Girard, s’échappe du jardin de son maître par un trou du grillage et pénètre dans la propriété voisine. Il tue Mistral, le chat de Sofia Benali, âgé de 12 ans, sous les yeux de ses enfants. Pascal Girard refuse de payer quoi que ce soit, affirmant qu’« un chat de gouttière ne vaut rien ».",
+   "enonce": "Développez l’argumentation juridique que Sofia Benali peut avancer pour obtenir réparation de son préjudice.",
+   "points": 2,
+   "reponse_attendue": "Sofia Benali et Pascal Girard ne sont liés par aucun contrat : elle peut agir sur le fondement de la responsabilité civile extracontractuelle du fait des animaux.\nSelon l’article 1243 du Code civil, « le propriétaire d’un animal […] est responsable du dommage que l’animal a causé, soit que l’animal fût sous sa garde, soit qu’il fût égaré ou échappé ». Il s’agit d’une responsabilité sans faute : Sofia Benali n’a pas à prouver une négligence de Pascal Girard.\nEn l’espèce, Pascal Girard est propriétaire de Rex et en a la garde. Le fait que le chien se soit échappé par un trou du grillage ne l’exonère pas. Le fait de l’animal (l’attaque) est la cause directe de la mort de Mistral.\nLe dommage est certain. L’animal n’est pas une personne juridique : il est un être vivant doué de sensibilité, mais soumis au régime des biens. Sofia Benali, propriétaire, subit donc un préjudice matériel (valeur du chat, frais éventuels), qui ne se limite pas à sa valeur marchande. Elle peut surtout invoquer un préjudice moral lié à la perte d’un animal de compagnie présent depuis 12 ans, d’autant que la scène s’est déroulée devant ses enfants, eux aussi victimes par ricochet.\nPar conséquent, Pascal Girard doit être condamné à réparer l’intégralité de ces préjudices.",
+   "articles_cites": [
+    "1243"
+   ]
+  },
+  {
+   "slot": 3,
+   "situation": "La SARL Boulangerie Roux, dont le gérant est Damien Roux, a fait l’objet d’une liquidation judiciaire en juin 2025. La société Minoterie du Berry, l’un de ses fournisseurs, n’a pas été payée d’une facture de farine de 9 400 €. Elle envisage de faire saisir la voiture personnelle de Damien Roux et une partie de son salaire de cadre dans une autre entreprise.",
+   "enonce": "Développez l’argumentation juridique que Damien Roux pourrait lui opposer.",
+   "points": 2,
+   "reponse_attendue": "Damien Roux peut invoquer le principe de la personnalité juridique des sociétés. Une fois immatriculée, la SARL Boulangerie Roux est une personne morale distincte de la personne physique de son gérant : elle dispose de son propre nom (dénomination sociale), de son propre siège et surtout de son propre patrimoine, ensemble de ses droits patrimoniaux et de ses dettes.\nEn l’espèce, le contrat de fourniture de farine a été conclu entre la Minoterie du Berry et la SARL. La débitrice de la facture de 9 400 € est donc la société, et non Damien Roux, qui n’a agi qu’en qualité de représentant légal de la personne morale.\nPar ailleurs, dans une SARL, la responsabilité des associés est limitée au montant de leurs apports. Les créanciers sociaux ne peuvent pas poursuivre le patrimoine personnel du gérant ou des associés : la voiture personnelle et le salaire de Damien Roux, qui font partie de son propre patrimoine, sont à l’abri.\nLa Minoterie du Berry doit donc déclarer sa créance dans la procédure de liquidation judiciaire auprès du mandataire judiciaire, qui informe les créanciers connus (article L645-8 du Code de commerce dans le cas d’un entrepreneur, logique comparable ici).\nIl en irait autrement si Damien Roux s’était porté caution personnelle de la société ou si une faute de gestion lui était reprochée.",
+   "articles_cites": [
+    "L645-8"
+   ]
+  },
+  {
+   "slot": 4,
+   "situation": "Élodie Marchal, née Roux, 29 ans, domiciliée à Rennes, est gérante de la SARL « Pattes & Co », toilettage canin, dont le siège social est fixé à Saint-Malo. Le 2 juin 2025, Oslo, le chien appartenant à la société, s’échappe du salon et mord un passant, Paul Kerneis. Celui-ci veut « porter plainte contre le chien » et réclamer des dommages-intérêts à Élodie Marchal personnellement.",
+   "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+   "points": 2,
+   "reponse_attendue": "Élodie Marchal est une personne physique, de genre féminin, identifiée par son nom (nom de famille Roux, nom d’usage Marchal), son prénom et son domicile, lieu de son principal établissement, situé à Rennes.\nLa SARL « Pattes & Co » est une personne morale de droit privé, dotée de la personnalité juridique depuis son immatriculation. Elle est identifiée par sa dénomination sociale et par son siège social à Saint-Malo, qui joue le rôle de domicile. Elle a un patrimoine propre, distinct de celui de sa gérante, qui la représente sans engager ses propres biens.\nOslo est un animal : être vivant doué de sensibilité, il n’est pas une personne juridique et ne peut être ni titulaire de droits ni poursuivi en justice ; il reste soumis au régime des biens. Il appartient ici à la société, son propriétaire.\nPaul Kerneis, personne physique, victime d’une morsure, subit un dommage corporel (atteinte à son intégrité physique, droit extrapatrimonial) et des préjudices patrimoniaux (frais médicaux).\nLa question qui se pose est de savoir quelle personne juridique doit répondre du dommage causé par un animal : selon l’article 1243 du Code civil, c’est le propriétaire de l’animal, donc la SARL, personne morale, et non sa gérante ni l’animal lui-même.",
+   "articles_cites": [
+    "1243"
+   ]
+  }
+ ]
 }

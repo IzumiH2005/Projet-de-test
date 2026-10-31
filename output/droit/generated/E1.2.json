@@ -1,51 +1,51 @@
 {
-  "id": "E1.2",
-  "type": "exercices",
-  "titre": "La règle de droit",
-  "situation": "",
-  "annexes": [
-    {
-      "titre": "Annexe – Le sens des arrêts de la Cour de cassation du 9 mai 1984",
-      "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr",
-      "source": "documents_reels"
-    }
-  ],
-  "questions": [
-    {
-      "slot": 1,
-      "situation": "Inès, élève de terminale, s’étonne qu’une même règle du Code civil s’applique de la même façon à un enfant de 6 ans et à un adulte, alors que « leurs situations n’ont rien à voir ». Elle se demande s’il ne vaudrait pas mieux que le juge décide au cas par cas.",
-      "enonce": "Après avoir rappelé les caractères de la règle de droit, vous répondrez à la question suivante à l’aide de l’annexe et de vos connaissances personnelles : Pourquoi la règle de droit doit-elle être générale ?",
-      "points": 2,
-      "reponse_attendue": "La règle de droit est générale et impersonnelle : elle ne vise pas une personne déterminée mais toutes celles qui se trouvent dans la même situation. Elle est obligatoire : son respect est garanti par l’autorité publique et sa violation est sanctionnée. Elle est légitime : elle émane d’une autorité compétente.\nLa généralité est d’abord une garantie d’égalité : toutes les personnes placées dans la même situation juridique sont traitées de la même façon. L’annexe le montre : « la victime d’un dommage causé par un enfant est dans la même situation de préjudice que la victime d’un dommage causé par un être humain plus âgé ». Une règle qui prive la victime de réparation selon l’âge de l’auteur crée une inégalité que la Cour de cassation a supprimée.\nElle permet ensuite de saisir toutes les situations de la vie en société. Le droit ne peut pas décrire chaque cas ; il raisonne par catégories (victime, enfant mineur, parents) et procède par qualification juridique. Une même règle s’applique ainsi au jeune Gabillet comme à tout autre enfant.\nEnfin, la généralité assure la sécurité juridique : chacun peut connaître à l’avance la règle applicable et adapter son comportement (par exemple, les parents s’assurent).\nLa règle générale n’est pas figée pour autant : l’annexe rappelle que la Cour a modifié sa jurisprudence « parce que la société avait changé ».",
-      "articles_cites": []
-    },
-    {
-      "slot": 2,
-      "situation": "Camille ROUSSEL loue le 2 juin 2025 à la SARL Évent’Sono une sonorisation pour une soirée payante de 400 personnes dans un entrepôt désaffecté, non déclarée et sans issue de secours. Elle verse un acompte de 600 euros. Prévenue par la mairie que la soirée sera interdite, elle veut faire annuler le contrat et récupérer son acompte.",
-      "enonce": "Développez l’argumentation juridique que Camille ROUSSEL peut avancer pour obtenir l’annulation du contrat.",
-      "points": 2,
-      "reponse_attendue": "Fondement : l’article 1179 du Code civil distingue deux sanctions. La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l’intérêt général ; elle est relative lorsque la règle violée protège seulement un intérêt privé.\nEn l’espèce, le contrat de location conclu entre Camille ROUSSEL et la SARL Évent’Sono porte sur un matériel de sonorisation destiné à une soirée organisée sans aucune déclaration, dans un local ne respectant pas les règles de sécurité imposées aux établissements recevant du public. Ces règles ont pour objet la sécurité de tous : elles sauvegardent l’intérêt général.\nLe contrat, dont l’objet est de permettre une activité contraire à ces règles, viole donc une règle d’ordre public. La sanction est la nullité absolue, qui peut être invoquée par toute personne justifiant d’un intérêt, y compris par Camille ROUSSEL elle-même, partie au contrat.\nLa nullité anéantit le contrat de manière rétroactive : les parties doivent être remises dans l’état où elles se trouvaient avant sa conclusion. Camille ROUSSEL peut donc demander la restitution de l’acompte de 600 euros.\nEn conclusion, Camille ROUSSEL est fondée à obtenir l’annulation du contrat et la restitution de son acompte.",
-      "articles_cites": [
-        "1179"
-      ]
-    },
-    {
-      "slot": 3,
-      "situation": "Reprenez la situation de Camille ROUSSEL (question 2). La SARL Évent’Sono refuse de restituer l’acompte.",
-      "enonce": "Développez l’argumentation juridique que la SARL Évent’Sono pourrait lui opposer.",
-      "points": 2,
-      "reponse_attendue": "La SARL Évent’Sono pourrait d’abord soutenir que le contrat de location en lui-même est parfaitement licite : louer un matériel de sonorisation n’est pas interdit, et elle n’est pas l’organisatrice de la soirée. Selon elle, la règle de sécurité violée concerne l’organisateur et le propriétaire du local, non le loueur du matériel.\nElle pourrait ensuite invoquer la force obligatoire du contrat : Camille ROUSSEL s’est engagée librement, en connaissance de cause, et ne peut se dégager unilatéralement d’un contrat légalement formé.\nElle pourrait encore faire valoir que Camille ROUSSEL connaissait elle-même l’illicéité de la soirée qu’elle organisait : il serait injuste qu’elle tire profit de sa propre faute pour obtenir la restitution de l’acompte. La société pourrait enfin demander des dommages et intérêts pour le préjudice subi (matériel réservé, autres clients refusés).\nToutefois, si le juge estime que le contrat avait pour but de permettre une activité contraire à des règles d’intérêt général, la nullité absolue s’imposera (article 1179 du Code civil) ; la société ne pourra alors discuter que les conséquences de l’annulation.",
-      "articles_cites": [
-        "1179"
-      ]
-    },
-    {
-      "slot": 4,
-      "situation": "Bastien LEROY, chauffeur-livreur salarié de la SAS Transalp à Grenoble, livre avec trois heures de retard un client important le 14 avril 2025. Son employeur, appliquant une note de service, retient 250 euros sur son salaire d’avril « à titre de sanction ». Bastien LEROY conteste cette retenue.",
-      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-      "points": 2,
-      "reponse_attendue": "Un salarié (Bastien LEROY), lié par un contrat de travail à un employeur, personne morale (la SAS Transalp), a fait l’objet d’une retenue sur salaire de 250 euros décidée unilatéralement par l’employeur, à titre de sanction, à la suite d’un retard de livraison.\nLe salarié subit un préjudice matériel (perte de 250 euros de rémunération).\nIl conteste cette sanction pécuniaire qu’il estime contraire à la loi. L’employeur invoque son pouvoir disciplinaire et une note de service affichée dans l’entreprise.\nLa question qui se pose est de savoir si un employeur peut, en vertu de son pouvoir disciplinaire, infliger à un salarié une sanction consistant en une retenue sur salaire.",
-      "articles_cites": []
-    }
-  ]
+ "id": "E1.2",
+ "type": "exercices",
+ "titre": "La règle de droit",
+ "situation": "",
+ "annexes": [
+  {
+   "titre": "Annexe – Le sens des arrêts de la Cour de cassation du 9 mai 1984",
+   "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr",
+   "source": "documents_reels"
+  }
+ ],
+ "questions": [
+  {
+   "slot": 1,
+   "situation": "Inès, élève de terminale, s’étonne qu’une même règle du Code civil s’applique de la même façon à un enfant de 6 ans et à un adulte, alors que « leurs situations n’ont rien à voir ». Elle se demande s’il ne vaudrait pas mieux que le juge décide au cas par cas.",
+   "enonce": "Après avoir rappelé les caractères de la règle de droit, vous répondrez à la question suivante à l’aide de l’annexe et de vos connaissances personnelles : Pourquoi la règle de droit doit-elle être générale ?",
+   "points": 2,
+   "reponse_attendue": "La règle de droit est générale et impersonnelle : elle ne vise pas une personne déterminée mais toutes celles qui se trouvent dans la même situation. Elle est obligatoire : son respect est garanti par l’autorité publique et sa violation est sanctionnée. Elle est légitime : elle émane d’une autorité compétente.\nLa généralité est d’abord une garantie d’égalité : toutes les personnes placées dans la même situation juridique sont traitées de la même façon. L’annexe le montre : « la victime d’un dommage causé par un enfant est dans la même situation de préjudice que la victime d’un dommage causé par un être humain plus âgé ». Une règle qui prive la victime de réparation selon l’âge de l’auteur crée une inégalité que la Cour de cassation a supprimée.\nElle permet ensuite de saisir toutes les situations de la vie en société. Le droit ne peut pas décrire chaque cas ; il raisonne par catégories (victime, enfant mineur, parents) et procède par qualification juridique. Une même règle s’applique ainsi au jeune Gabillet comme à tout autre enfant.\nEnfin, la généralité assure la sécurité juridique : chacun peut connaître à l’avance la règle applicable et adapter son comportement (par exemple, les parents s’assurent).\nLa règle générale n’est pas figée pour autant : l’annexe rappelle que la Cour a modifié sa jurisprudence « parce que la société avait changé ».",
+   "articles_cites": []
+  },
+  {
+   "slot": 2,
+   "situation": "Camille ROUSSEL loue le 2 juin 2025 à la SARL Évent’Sono une sonorisation pour une soirée payante de 400 personnes dans un entrepôt désaffecté, non déclarée et sans issue de secours. Elle verse un acompte de 600 euros. Prévenue par la mairie que la soirée sera interdite, elle veut faire annuler le contrat et récupérer son acompte.",
+   "enonce": "Développez l’argumentation juridique que Camille ROUSSEL peut avancer pour obtenir l’annulation du contrat.",
+   "points": 2,
+   "reponse_attendue": "Fondement : l’article 1179 du Code civil distingue deux sanctions. La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l’intérêt général ; elle est relative lorsque la règle violée protège seulement un intérêt privé.\nEn l’espèce, le contrat de location conclu entre Camille ROUSSEL et la SARL Évent’Sono porte sur un matériel de sonorisation destiné à une soirée organisée sans aucune déclaration, dans un local ne respectant pas les règles de sécurité imposées aux établissements recevant du public. Ces règles ont pour objet la sécurité de tous : elles sauvegardent l’intérêt général.\nLe contrat, dont l’objet est de permettre une activité contraire à ces règles, viole donc une règle d’ordre public. La sanction est la nullité absolue, qui peut être invoquée par toute personne justifiant d’un intérêt, y compris par Camille ROUSSEL elle-même, partie au contrat.\nLa nullité anéantit le contrat de manière rétroactive : les parties doivent être remises dans l’état où elles se trouvaient avant sa conclusion. Camille ROUSSEL peut donc demander la restitution de l’acompte de 600 euros.\nEn conclusion, Camille ROUSSEL est fondée à obtenir l’annulation du contrat et la restitution de son acompte.",
+   "articles_cites": [
+    "1179"
+   ]
+  },
+  {
+   "slot": 3,
+   "situation": "Reprenez la situation de Camille ROUSSEL (question 2). La SARL Évent’Sono refuse de restituer l’acompte.",
+   "enonce": "Développez l’argumentation juridique que la SARL Évent’Sono pourrait lui opposer.",
+   "points": 2,
+   "reponse_attendue": "La SARL Évent’Sono pourrait d’abord soutenir que le contrat de location en lui-même est parfaitement licite : louer un matériel de sonorisation n’est pas interdit, et elle n’est pas l’organisatrice de la soirée. Selon elle, la règle de sécurité violée concerne l’organisateur et le propriétaire du local, non le loueur du matériel.\nElle pourrait ensuite invoquer la force obligatoire du contrat : Camille ROUSSEL s’est engagée librement, en connaissance de cause, et ne peut se dégager unilatéralement d’un contrat légalement formé.\nElle pourrait encore faire valoir que Camille ROUSSEL connaissait elle-même l’illicéité de la soirée qu’elle organisait : il serait injuste qu’elle tire profit de sa propre faute pour obtenir la restitution de l’acompte. La société pourrait enfin demander des dommages et intérêts pour le préjudice subi (matériel réservé, autres clients refusés).\nToutefois, si le juge estime que le contrat avait pour but de permettre une activité contraire à des règles d’intérêt général, la nullité absolue s’imposera (article 1179 du Code civil) ; la société ne pourra alors discuter que les conséquences de l’annulation.",
+   "articles_cites": [
+    "1179"
+   ]
+  },
+  {
+   "slot": 4,
+   "situation": "Le 3 mai 2025, Inès BARRAL, 19 ans, circule à vélo à Bordeaux en tenant son téléphone à la main. Un agent de police la verbalise : le Code de la route, issu d’un décret du Premier ministre, interdit l’usage d’un téléphone tenu en main par le conducteur d’un véhicule, y compris d’un vélo, et prévoit une amende de 135 euros. Inès BARRAL refuse de payer : elle affirme qu’elle ignorait cette règle et qu’elle « ne vise que les automobilistes ».",
+   "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+   "points": 2,
+   "reponse_attendue": "Une personne physique majeure (Inès BARRAL), conductrice d’un véhicule (un vélo), a utilisé un téléphone tenu en main en circulant sur la voie publique.\nCette conduite est contraire à une règle de droit : une disposition du Code de la route, édictée par une autorité légitime et compétente, le pouvoir réglementaire (décret du Premier ministre).\nCette règle est générale et impersonnelle : elle vise tous les conducteurs placés dans la même situation, sans distinction, ce qui garantit l’égalité devant la règle. Elle est obligatoire et assortie d’une sanction étatique : une amende de 135 euros, prononcée par un agent de la force publique.\nLa contrevenante conteste l’application de la règle en invoquant son ignorance de celle-ci et en soutenant que la règle ne concerne que les automobilistes.\nLa question qui se pose est de savoir si une personne peut échapper à l’application d’une règle de droit générale et obligatoire en invoquant son ignorance de la règle ou en contestant qu’elle relève de la catégorie juridique visée (le « conducteur d’un véhicule »).",
+   "articles_cites": []
+  }
+ ]
 }
