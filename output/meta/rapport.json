@@ -109,7 +109,114 @@
      "version": "v6 inutile",
      "raison": "convergence (moins de 1 % de réponses changées)"
     }
-   ]
+   ],
+   "boucle_intentions_alignement": [
+    {
+     "generation": 0,
+     "vrai_top3": 0.87,
+     "auc_intention": 0.853,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.808
+    },
+    {
+     "generation": 1,
+     "vrai_top3": 0.891,
+     "auc_intention": 0.903,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.776
+    },
+    {
+     "generation": 2,
+     "vrai_top3": 0.87,
+     "auc_intention": 0.914,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.763,
+     "arret": "convergence"
+    }
+   ],
+   "intentions_propres_a_la_matiere": {
+    "auc_par_famille": {
+     "logistique_12_generiques": 0.862,
+     "arbres_12_generiques": 0.895,
+     "arbres_generiques_et_propres_a_la_matiere": 0.914
+    },
+    "auc_famille_choisie_seule": 0.914,
+    "famille_choisie": "arbres_generiques_et_propres_a_la_matiere",
+    "choix_par_annee": {
+     "arbres_generiques_et_propres_a_la_matiere": 6
+    },
+    "auc_popularite": 0.805,
+    "regles_decouvertes": [
+     {
+      "variable": "longueur",
+      "importance": 0.0383,
+      "sens": "+",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "theme:licenciement/motif/rupture × section déjà tombée",
+      "importance": 0.0069,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "section_deja_tombee",
+      "importance": 0.0038,
+      "sens": "+",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "centralite",
+      "importance": 0.0021,
+      "sens": "+",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "forme:iga/igat/liga × section déjà tombée",
+      "importance": 0.0019,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "theme:commerce/europeenne/articles × déjà tombé",
+      "importance": 0.0017,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "forme:l'/l'/'a × section déjà tombée",
+      "importance": 0.0014,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "theme:societe/apports/cooperative × section déjà tombée",
+      "importance": 0.0014,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     }
+    ],
+    "variables_propres_decouvertes": [
+     "theme:preuve/civil/par",
+     "theme:travail/contrat/duree",
+     "theme:licenciement/motif/rupture",
+     "theme:responsabilite/fait/faute",
+     "theme:personne/patrimoine/activite",
+     "theme:inexecution/resolution/demeure",
+     "theme:comite/social/libertes",
+     "theme:commerce/europeenne/articles",
+     "theme:contrats/que/etude",
+     "theme:societe/apports/cooperative",
+     "theme:obligation/professionnel/consommateur",
+     "theme:concurrence/deloyale/principe",
+     "forme:’e/d’/d’",
+     "forme:vail/rava/avai",
+     "forme:l'/l'/'a",
+     "forme:iga/igat/liga",
+     "forme:pons/nsab/spon",
+     "forme:lic/icen/ciem"
+    ]
+   }
   },
   "nsi": {
    "regle_de_lecture_apprise_sans_cette_matiere": true,
@@ -129,7 +236,133 @@
      "raison": "diversité du cours écrasée",
      "vrai_top3": 0.798
     }
-   ]
+   ],
+   "boucle_intentions_alignement": [
+    {
+     "generation": 0,
+     "vrai_top3": 0.816,
+     "auc_intention": 0.84,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.796
+    },
+    {
+     "generation": 1,
+     "vrai_top3": 0.823,
+     "auc_intention": 0.858,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.782
+    },
+    {
+     "generation": 2,
+     "vrai_top3": 0.823,
+     "auc_intention": 0.873,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.775
+    },
+    {
+     "generation": 3,
+     "vrai_top3": 0.83,
+     "auc_intention": 0.874,
+     "famille": "arbres_generiques_et_propres_a_la_matiere",
+     "diversite": 0.776
+    }
+   ],
+   "intentions_propres_a_la_matiere": {
+    "auc_par_famille": {
+     "logistique_12_generiques": 0.861,
+     "arbres_12_generiques": 0.865,
+     "arbres_generiques_et_propres_a_la_matiere": 0.876
+    },
+    "auc_famille_choisie_seule": 0.874,
+    "famille_choisie": "arbres_generiques_et_propres_a_la_matiere",
+    "choix_par_annee": {
+     "arbres_generiques_et_propres_a_la_matiere": 5,
+     "arbres_12_generiques": 1
+    },
+    "auc_popularite": 0.769,
+    "regles_decouvertes": [
+     {
+      "variable": "taille_section",
+      "importance": 0.024,
+      "sens": "+",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "theme:est/par/que",
+      "importance": 0.0165,
+      "sens": "-",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "rang",
+      "importance": 0.0159,
+      "sens": "+",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "longueur",
+      "importance": 0.0128,
+      "sens": "+",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "symboles",
+      "importance": 0.0105,
+      "sens": "-",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "forme:es/qu/ent",
+      "importance": 0.0065,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "insistance",
+      "importance": 0.0063,
+      "sens": "-",
+      "propre_a_la_matiere": false
+     },
+     {
+      "variable": "forme:``/```/` × section déjà tombée",
+      "importance": 0.0045,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "forme:``/../=",
+      "importance": 0.0043,
+      "sens": "-",
+      "propre_a_la_matiere": true
+     },
+     {
+      "variable": "theme:les/des/sont × déjà tombé",
+      "importance": 0.0043,
+      "sens": "+",
+      "propre_a_la_matiere": true
+     }
+    ],
+    "variables_propres_decouvertes": [
+     "theme:python/linenums/exemple",
+     "theme:les/des/sont",
+     "theme:self/def/class",
+     "theme:arbre/right/left",
+     "theme:return/def/for",
+     "theme:sujet/exercice/amerique",
+     "theme:motif/texte/recherche",
+     "theme:correction/true/false",
+     "theme:une/fonction/qui",
+     "theme:est/par/que",
+     "theme:time/print/import",
+     "theme:sommet/parcours/graphe",
+     "forme:es/qu/ent",
+     "forme:``/../=",
+     "forme:202/02/20",
+     "forme:self/elf/lf",
+     "forme:rbr/arbr/rbre",
+     "forme:``/```/`"
+    ]
+   }
   }
  },
  "intentions": {
@@ -138,244 +371,235 @@
     "questions": 168,
     "taches": {
      "ordre": {
-      "score_sujets_exclus": 0.639,
+      "score_sujets_exclus": 0.635,
       "unite": "corrélation de rang (0 = rien)",
       "variables_retenues": [
        {
         "variable": "forme_interrogative",
-        "importance": 0.4597,
+        "importance": 0.4411,
         "sens": 1.0
        },
        {
         "variable": "vocabulaire_hors_cours_dans_l_enonce",
-        "importance": 0.1431,
+        "importance": 0.1622,
         "sens": 1.0
        },
        {
         "variable": "longueur_enonce",
-        "importance": 0.1142,
-        "sens": 1.0
-       },
-       {
-        "variable": "notion_nommee_dans_enonce",
-        "importance": 0.0998,
-        "sens": 1.0
-       },
-       {
-        "variable": "proximite_corrige_section",
-        "importance": 0.0694,
-        "sens": 1.0
-       },
-       {
-        "variable": "proximite_enonce_passage",
-        "importance": 0.0618,
+        "importance": 0.1201,
         "sens": 1.0
        },
        {
         "variable": "proximite_enonce_section",
-        "importance": 0.046,
+        "importance": 0.073,
         "sens": 1.0
        },
        {
-        "variable": "proximite_corrige_passage",
-        "importance": 0.0426,
+        "variable": "notion_nommee_dans_enonce",
+        "importance": 0.0728,
         "sens": 1.0
        },
        {
-        "variable": "annees_depuis_la_derniere_fois",
-        "importance": 0.0296,
+        "variable": "proximite_enonce_passage",
+        "importance": 0.0667,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_corrige_section",
+        "importance": 0.0557,
+        "sens": 1.0
+       },
+       {
+        "variable": "taille_de_la_section",
+        "importance": 0.0226,
         "sens": 0.0
        },
        {
-        "variable": "proximite_situation_passage",
-        "importance": 0.0234,
+        "variable": "annees_depuis_la_derniere_fois",
+        "importance": 0.0199,
+        "sens": 0.0
+       },
+       {
+        "variable": "rang_du_passage_dans_la_section",
+        "importance": 0.0105,
         "sens": -1.0
        },
        {
-        "variable": "redondance_du_passage",
-        "importance": 0.0109,
-        "sens": -1.0
-       },
-       {
-        "variable": "frequence_passee_de_la_section",
-        "importance": 0.0088,
+        "variable": "centralite_de_la_section",
+        "importance": 0.0047,
         "sens": 0.0
        }
       ]
      },
      "consigne": {
-      "score_sujets_exclus": 0.18,
+      "score_sujets_exclus": 0.156,
       "unite": "gain de log-vraisemblance sur le seul rang (> 0 = la relation au cours explique la consigne)",
       "variables_retenues": [
        {
         "variable": "rang_dans_la_partie",
-        "importance": 0.4087,
+        "importance": 0.3951,
         "sens": null
        },
        {
         "variable": "longueur_enonce",
-        "importance": 0.257,
+        "importance": 0.25,
         "sens": null
        },
        {
         "variable": "forme_interrogative",
-        "importance": 0.1599,
+        "importance": 0.1711,
         "sens": null
        },
        {
         "variable": "vocabulaire_hors_cours_dans_l_enonce",
-        "importance": 0.1356,
-        "sens": null
-       },
-       {
-        "variable": "questions_dans_la_partie",
-        "importance": 0.0708,
+        "importance": 0.1361,
         "sens": null
        },
        {
         "variable": "proximite_enonce_passage",
-        "importance": 0.0555,
+        "importance": 0.07,
+        "sens": null
+       },
+       {
+        "variable": "questions_dans_la_partie",
+        "importance": 0.0688,
         "sens": null
        },
        {
         "variable": "notion_nommee_dans_enonce",
-        "importance": 0.052,
+        "importance": 0.0484,
         "sens": null
        },
        {
         "variable": "annees_depuis_la_derniere_fois",
-        "importance": 0.036,
+        "importance": 0.0461,
         "sens": null
        },
        {
-        "variable": "centralite_du_passage",
-        "importance": 0.0296,
-        "sens": null
-       },
-       {
-        "variable": "densite_symboles_du_passage",
-        "importance": 0.0271,
+        "variable": "taille_de_la_section",
+        "importance": 0.0277,
         "sens": null
        },
        {
         "variable": "longueur_du_passage",
-        "importance": 0.0262,
+        "importance": 0.0223,
+        "sens": null
+       },
+       {
+        "variable": "centralite_du_passage",
+        "importance": 0.0173,
         "sens": null
        },
        {
         "variable": "proximite_enonce_section",
-        "importance": 0.0239,
+        "importance": 0.0147,
         "sens": null
        }
       ],
       "log_loss_rang_seul": 0.983,
-      "log_loss_avec_relation_au_cours": 0.803
+      "log_loss_avec_relation_au_cours": 0.827
      },
      "testabilite": {
-      "score_sujets_exclus": 0.841,
+      "score_sujets_exclus": 0.879,
       "unite": "AUC, année exclue (0,5 = hasard)",
       "variables_retenues": [
        {
-        "variable": "longueur_du_passage",
-        "importance": 0.0892,
+        "variable": "frequence_passee_du_passage",
+        "importance": 0.0353,
         "sens": 1.0
        },
        {
         "variable": "centralite_du_passage",
-        "importance": 0.0571,
+        "importance": 0.0343,
         "sens": 1.0
        },
        {
         "variable": "densite_symboles_du_passage",
-        "importance": 0.028,
+        "importance": 0.0088,
         "sens": -1.0
        },
        {
-        "variable": "frequence_passee_du_passage",
-        "importance": 0.0231,
+        "variable": "frequence_passee_de_la_section",
+        "importance": 0.0064,
         "sens": 1.0
        }
       ],
-      "auc_popularite_de_la_section": 0.599,
-      "auc_popularite_du_passage": 0.762,
+      "auc_popularite_de_la_section": 0.631,
+      "auc_popularite_du_passage": 0.805,
       "passages": 274
      }
     },
     "types_d_intention": {
-     "k": 7,
+     "k": 6,
      "variables_utilisees": [
       "annees_depuis_la_derniere_fois",
+      "centralite_de_la_section",
       "centralite_du_passage",
-      "densite_symboles_du_passage",
       "forme_interrogative",
-      "frequence_passee_de_la_section",
       "longueur_du_passage",
       "longueur_enonce",
       "notion_nommee_dans_enonce",
-      "proximite_corrige_passage",
       "proximite_corrige_section",
       "proximite_enonce_passage",
       "proximite_enonce_section",
-      "proximite_situation_passage",
       "questions_dans_la_partie",
       "rang_dans_la_partie",
-      "redondance_du_passage",
+      "rang_du_passage_dans_la_section",
+      "taille_de_la_section",
       "vocabulaire_hors_cours_dans_l_enonce"
      ],
      "types": [
       {
        "id": 0,
-       "n": 28,
-       "part": 0.167,
+       "n": 17,
+       "part": 0.101,
        "fort": [
-        "annees_depuis_la_derniere_fois"
+        "taille_de_la_section",
+        "centralite_du_passage",
+        "longueur_du_passage"
        ],
        "faible": [
-        "frequence_passee_de_la_section",
-        "densite_symboles_du_passage",
-        "questions_dans_la_partie"
+        "questions_dans_la_partie",
+        "proximite_enonce_section",
+        "annees_depuis_la_derniere_fois"
        ],
        "exemples": [
         {
-         "enonce": "Qualifiez juridiquement les faits et les dommages.",
-         "notion_du_cours": "L’étude de cas concrets doit permettre aux élèves de comprendre la notion de dommages réparables et de qualifier ceux-ci en ayant recours à l’une des deux classifications juridiques classiques : --les"
+         "enonce": "Développez l’argumentation juridique que Madame SIMON peut avancer pour contester son licenciement.",
+         "notion_du_cours": "Le contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération. La présence d’un lien de subordination juridique fond"
         },
         {
-         "enonce": "Développez l’argumentation juridique que l’entreprise Energymax peut avancer pour s’exonérer de sa responsabilité.",
-         "notion_du_cours": "L’étude de cas concrets doit permettre aux élèves de comprendre la notion de dommages réparables et de qualifier ceux-ci en ayant recours à l’une des deux classifications juridiques classiques : --les"
+         "enonce": "Développez l’argumentation juridique que la société SécuritéPlus peut lui opposer.",
+         "notion_du_cours": "Le contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération. La présence d’un lien de subordination juridique fond"
         },
         {
-         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-         "notion_du_cours": "Ces situations seront suffisamment détaillées pour que leur exploitation par l’élève suppose le recours à une qualification juridique pour déterminer le régime juridique applicable et permette la disc"
+         "enonce": "Présentez les arguments juridiques que Jean peut leur opposer.",
+         "notion_du_cours": "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles "
         }
        ]
       },
       {
        "id": 1,
-       "n": 15,
-       "part": 0.089,
-       "fort": [
-        "forme_interrogative",
-        "rang_dans_la_partie",
-        "longueur_enonce"
-       ],
+       "n": 39,
+       "part": 0.232,
+       "fort": [],
        "faible": [
-        "vocabulaire_hors_cours_dans_l_enonce",
-        "annees_depuis_la_derniere_fois",
-        "proximite_corrige_passage"
+        "rang_dans_la_partie",
+        "longueur_enonce",
+        "vocabulaire_hors_cours_dans_l_enonce"
        ],
        "exemples": [
         {
-         "enonce": "En quoi la Cour de cassation est-elle indispensable au système juridique français ?",
+         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
          "notion_du_cours": "L’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. L"
         },
         {
-         "enonce": "Pourquoi la bonne foi est-elle exigée en droit des contrats ?",
-         "notion_du_cours": "Article L1237-11 du Code du travail : L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du lice"
+         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+         "notion_du_cours": "Article L1243-11-1 du Code du travail : Lorsque l'employeur propose que la relation contractuelle de travail se poursuive après l'échéance du terme du contrat à durée déterminée sous la forme d'un con"
         },
         {
-         "enonce": "Le droit assure-t-il une protection renforcée du consommateur et du cyberconsommateur ?",
-         "notion_du_cours": "La liberté d’entreprendre permet à un individu d’exercer son activité professionnelle en entreprenant. L’entreprise individuelle est la forme la plus ancienne et la plus simple de l’exercice d’une act"
+         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+         "notion_du_cours": "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles "
         }
        ]
       },
@@ -384,18 +608,14 @@
        "n": 48,
        "part": 0.286,
        "fort": [
-        "frequence_passee_de_la_section"
+        "vocabulaire_hors_cours_dans_l_enonce"
        ],
        "faible": [
-        "annees_depuis_la_derniere_fois",
         "proximite_corrige_section",
-        "proximite_corrige_passage"
+        "annees_depuis_la_derniere_fois",
+        "taille_de_la_section"
        ],
        "exemples": [
-        {
-         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-         "notion_du_cours": "Le contrat de travail à durée indéterminée prend fin par : - la démission du salarié ; - le départ en retraite ; - le licenciement ; - la rupture conventionnelle. Le droit du travail encadre particuli"
-        },
         {
          "enonce": "Exposez les conséquences juridiques possibles de ce vol pour Matthieu FONTET.",
          "notion_du_cours": "Le contrat de travail à durée indéterminée prend fin par : - la démission du salarié ; - le départ en retraite ; - le licenciement ; - la rupture conventionnelle. Le droit du travail encadre particuli"
@@ -403,96 +623,70 @@
         {
          "enonce": "Exposez les arguments juridiques que Pascal MADANI, gérant de la SARL HIFITOP pourrait avancer pour justifier sa décision de licenciement.",
          "notion_du_cours": "Le contrat de travail à durée indéterminée prend fin par : - la démission du salarié ; - le départ en retraite ; - le licenciement ; - la rupture conventionnelle. Le droit du travail encadre particuli"
+        },
+        {
+         "enonce": "Présentez l’argumentation juridique que Matthieu FONTET pourrait opposer à Pascal MADANI pour contester son licenciement.",
+         "notion_du_cours": "Le contrat de travail à durée indéterminée prend fin par : - la démission du salarié ; - le départ en retraite ; - le licenciement ; - la rupture conventionnelle. Le droit du travail encadre particuli"
         }
        ]
       },
       {
        "id": 3,
-       "n": 10,
-       "part": 0.06,
+       "n": 36,
+       "part": 0.214,
        "fort": [
-        "densite_symboles_du_passage",
         "annees_depuis_la_derniere_fois",
-        "longueur_enonce"
+        "proximite_corrige_section",
+        "questions_dans_la_partie"
        ],
-       "faible": [
-        "centralite_du_passage",
-        "longueur_du_passage",
-        "frequence_passee_de_la_section"
-       ],
+       "faible": [],
        "exemples": [
         {
-         "enonce": "Présentez l’argumentation juridique que la SA Répar’mobile pourrait mettre en avant pour justifier la rupture du contrat de franchise.",
-         "notion_du_cours": "Article 1217 du Code civil : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été imparfaitement, peut : - refuser d'exécuter ou suspendre l'exécution de sa propre obligation ; - pou"
+         "enonce": "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement.",
+         "notion_du_cours": "L’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. L"
         },
         {
-         "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
-         "notion_du_cours": "L’existence d’un dommage, c'est-à-dire une atteinte portée à un droit, est la condition première de la responsabilité civile. L’étude porte sur la qualification des différents types de dommages : corp"
+         "enonce": "Justifiez les restrictions à la liberté de choix de l’employeur lors du recrutement de ses collaborateurs.",
+         "notion_du_cours": "Article L1321-3 du Code du travail : Le règlement intérieur ne peut contenir : 1° Des dispositions contraires aux lois et règlements ainsi qu'aux stipulations des conventions et accords collectifs de "
         },
         {
-         "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable.",
-         "notion_du_cours": "L’existence d’un dommage, c'est-à-dire une atteinte portée à un droit, est la condition première de la responsabilité civile. L’étude porte sur la qualification des différents types de dommages : corp"
+         "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+         "notion_du_cours": "L’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. L"
         }
        ]
       },
       {
        "id": 4,
-       "n": 9,
-       "part": 0.054,
+       "n": 19,
+       "part": 0.113,
        "fort": [
-        "redondance_du_passage",
-        "frequence_passee_de_la_section",
-        "proximite_enonce_passage"
+        "forme_interrogative",
+        "rang_dans_la_partie",
+        "longueur_enonce"
        ],
        "faible": [
-        "proximite_corrige_section",
-        "proximite_corrige_passage",
-        "annees_depuis_la_derniere_fois"
+        "vocabulaire_hors_cours_dans_l_enonce",
+        "proximite_corrige_section"
        ],
        "exemples": [
         {
-         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-         "notion_du_cours": "Capacités attendues : l'élève est capable de distinguer la responsabilité civile de la responsabilité pénale ; d’analyser ; et de qualifier les faits pour identifier le ou les régimes de responsabilit"
+         "enonce": "Le législateur doit-il envisager d’accorder la personnalité juridique aux animaux domestiques ?",
+         "notion_du_cours": "Article 1243 du Code civil : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, s"
         },
         {
-         "enonce": "Développez l’argumentation juridique que la société PLESSIS pourrait utiliser pour justifier le licenciement.",
-         "notion_du_cours": "Capacités attendues : l'élève est capable d’expliquer les principes de l’entreprise individuelle et d’en apprécier les enjeux ; de proposer et de justifier le choix d’une forme juridique d’entreprise "
+         "enonce": "En quoi la Cour de cassation est-elle indispensable au système juridique français ?",
+         "notion_du_cours": "L’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. L"
         },
         {
-         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-         "notion_du_cours": "Capacités attendues : l'élève est capable d’expliquer les principes de l’entreprise individuelle et d’en apprécier les enjeux ; de proposer et de justifier le choix d’une forme juridique d’entreprise "
+         "enonce": "Pourquoi la bonne foi est-elle exigée en droit des contrats ?",
+         "notion_du_cours": "Article L1237-11 du Code du travail : L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du lice"
         }
        ]
       },
       {
        "id": 5,
-       "n": 46,
-       "part": 0.274,
-       "fort": [
-        "proximite_corrige_section",
-        "proximite_corrige_passage",
-        "annees_depuis_la_derniere_fois"
-       ],
-       "faible": [],
-       "exemples": [
-        {
-         "enonce": "Proposez l’argumentation juridique qu’Erwan pourrait développer pour obtenir cette requalification.",
-         "notion_du_cours": "L’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en de"
-        },
-        {
-         "enonce": "Déterminez les enjeux de la requalification d’un contrat en contrat de travail pour le salarié et pour l’entreprise.",
-         "notion_du_cours": "L’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en de"
-        },
-        {
-         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
-         "notion_du_cours": "Article L1321-3 du Code du travail : Le règlement intérieur ne peut contenir : 1° Des dispositions contraires aux lois et règlements ainsi qu'aux stipulations des conventions et accords collectifs de "
-        }
-       ]
-      },
-      {
-       "id": 6,
-       "n": 12,
-       "part": 0.071,
+       "n": 9,
+       "part": 0.054,
        "fort": [
         "notion_nommee_dans_enonce",
         "proximite_enonce_passage",
@@ -500,8 +694,8 @@
        ],
        "faible": [
         "longueur_du_passage",
-        "centralite_du_passage",
-        "densite_symboles_du_passage"
+        "centralite_de_la_section",
+        "vocabulaire_hors_cours_dans_l_enonce"
        ],
        "exemples": [
         {
@@ -509,12 +703,12 @@
          "notion_du_cours": "Article 1131 du Code civil : Les vices du consentement sont une cause de nullité relative du contrat."
         },
         {
-         "enonce": "Justifiez l’existence des règles de procédure en matière de licenciement individuel.",
-         "notion_du_cours": "L’étude de la rupture du contrat de travail porte sur les ruptures traditionnelles (démission, retraite, licenciement) mais aussi sur des ruptures plus récentes (rupture conventionnelle individuelle e"
+         "enonce": "Expliquez pourquoi une victime ne peut agir sur le fondement de la responsabilité extracontractuelle en cas de dommages causés à l’occasion de l’exécution d’un contrat.",
+         "notion_du_cours": "L’étude porte sur les seuls éléments constitutifs de la responsabilité que devra prouver la victime pour obtenir la réparation de ses dommages. Ces éléments sont étudiés dans des situations juridiques"
         },
         {
-         "enonce": "Proposez l'argumentation juridique que la SARL « Ardicuisines » pourrait développer pour s’exonérer de sa responsabilité.",
-         "notion_du_cours": "Le responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’untiers."
+         "enonce": "Dans la plupart des régimes de responsabilité, il existe des moyens d’exonération. Justifiez de leur intérêt pour l’auteur du dommage et pour la victime.",
+         "notion_du_cours": "Dans tous les autres cas, les règles de la responsabilité civile extracontractuelle (anciennement délictuelle) sont seules applicables. Le régime de la responsabilité du fait personnel est le plus sou"
         }
        ]
       }
@@ -580,161 +774,156 @@
     "questions": 1470,
     "taches": {
      "ordre": {
-      "score_sujets_exclus": 0.158,
+      "score_sujets_exclus": 0.157,
       "unite": "corrélation de rang (0 = rien)",
       "variables_retenues": [
        {
         "variable": "longueur_enonce",
-        "importance": 0.0531,
-        "sens": 1.0
-       },
-       {
-        "variable": "proximite_enonce_passage",
-        "importance": 0.0076,
-        "sens": -1.0
-       },
-       {
-        "variable": "forme_interrogative",
-        "importance": 0.0064,
-        "sens": -1.0
-       },
-       {
-        "variable": "centralite_du_passage",
-        "importance": 0.0042,
+        "importance": 0.0538,
         "sens": 1.0
        },
        {
         "variable": "longueur_du_passage",
-        "importance": 0.0037,
+        "importance": 0.0081,
+        "sens": 1.0
+       },
+       {
+        "variable": "forme_interrogative",
+        "importance": 0.0059,
+        "sens": -1.0
+       },
+       {
+        "variable": "proximite_enonce_passage",
+        "importance": 0.0047,
+        "sens": -1.0
+       },
+       {
+        "variable": "largeur_du_cours_mobilise",
+        "importance": 0.0028,
+        "sens": 1.0
+       },
+       {
+        "variable": "frequence_passee_de_la_section",
+        "importance": 0.0028,
         "sens": 1.0
        },
        {
         "variable": "taille_de_la_section",
-        "importance": 0.0035,
-        "sens": 1.0
-       },
-       {
-        "variable": "proximite_documents_section",
-        "importance": 0.003,
-        "sens": -1.0
-       },
-       {
-        "variable": "frequence_passee_de_la_section",
-        "importance": 0.0027,
+        "importance": 0.0024,
         "sens": 1.0
        },
        {
         "variable": "annees_depuis_la_derniere_fois",
-        "importance": 0.0025,
-        "sens": 1.0
+        "importance": 0.0023,
+        "sens": -1.0
        },
        {
         "variable": "redondance_du_passage",
-        "importance": 0.0021,
+        "importance": 0.0022,
         "sens": 1.0
        }
       ]
      },
      "consigne": {
-      "score_sujets_exclus": -0.01,
+      "score_sujets_exclus": -0.008,
       "unite": "gain de log-vraisemblance sur le seul rang (> 0 = la relation au cours explique la consigne)",
       "variables_retenues": [
        {
         "variable": "centralite_du_passage",
-        "importance": 0.074,
+        "importance": 0.075,
         "sens": null
        },
        {
         "variable": "longueur_du_passage",
-        "importance": 0.0554,
+        "importance": 0.0722,
         "sens": null
        },
        {
         "variable": "longueur_enonce",
-        "importance": 0.051,
+        "importance": 0.0517,
         "sens": null
        },
        {
         "variable": "proximite_enonce_section",
-        "importance": 0.027,
+        "importance": 0.028,
         "sens": null
        },
        {
         "variable": "taille_de_la_section",
-        "importance": 0.0164,
-        "sens": null
-       },
-       {
-        "variable": "place_de_la_section_dans_le_cours",
-        "importance": 0.0156,
+        "importance": 0.0137,
         "sens": null
        },
        {
         "variable": "vocabulaire_hors_cours_dans_l_enonce",
+        "importance": 0.0123,
+        "sens": null
+       },
+       {
+        "variable": "place_de_la_section_dans_le_cours",
         "importance": 0.0118,
         "sens": null
        },
        {
-        "variable": "notion_nommee_dans_documents",
-        "importance": 0.0095,
-        "sens": null
-       },
-       {
-        "variable": "sections_dans_la_partie",
-        "importance": 0.0095,
+        "variable": "centralite_de_la_section",
+        "importance": 0.0104,
         "sens": null
        },
        {
         "variable": "rang_dans_la_partie",
-        "importance": 0.0083,
+        "importance": 0.008,
+        "sens": null
+       },
+       {
+        "variable": "sections_dans_la_partie",
+        "importance": 0.0076,
         "sens": null
        },
        {
         "variable": "forme_interrogative",
-        "importance": 0.0068,
+        "importance": 0.0072,
         "sens": null
        }
       ],
       "log_loss_rang_seul": 0.596,
-      "log_loss_avec_relation_au_cours": 0.606
+      "log_loss_avec_relation_au_cours": 0.604
      },
      "testabilite": {
-      "score_sujets_exclus": 0.83,
+      "score_sujets_exclus": 0.861,
       "unite": "AUC, année exclue (0,5 = hasard)",
       "variables_retenues": [
        {
         "variable": "frequence_passee_de_la_section",
-        "importance": 0.0543,
+        "importance": 0.0891,
         "sens": 1.0
        },
        {
         "variable": "frequence_passee_du_passage",
-        "importance": 0.0484,
-        "sens": 1.0
-       },
-       {
-        "variable": "longueur_du_passage",
-        "importance": 0.0204,
+        "importance": 0.045,
         "sens": 1.0
        },
        {
         "variable": "rang_du_passage_dans_la_section",
-        "importance": 0.0118,
+        "importance": 0.0166,
         "sens": -1.0
        },
        {
-        "variable": "densite_symboles_du_passage",
-        "importance": 0.0103,
+        "variable": "longueur_du_passage",
+        "importance": 0.0163,
+        "sens": 1.0
+       },
+       {
+        "variable": "insistance_typographique",
+        "importance": 0.0068,
         "sens": -1.0
        },
        {
         "variable": "centralite_du_passage",
-        "importance": 0.0055,
+        "importance": 0.0021,
         "sens": 1.0
        }
       ],
-      "auc_popularite_de_la_section": 0.624,
-      "auc_popularite_du_passage": 0.751,
+      "auc_popularite_de_la_section": 0.668,
+      "auc_popularite_du_passage": 0.769,
       "passages": 2201
      }
     },
@@ -742,14 +931,14 @@
      "k": 7,
      "variables_utilisees": [
       "annees_depuis_la_derniere_fois",
+      "centralite_de_la_section",
       "centralite_du_passage",
       "forme_interrogative",
       "frequence_passee_de_la_section",
+      "largeur_du_cours_mobilise",
       "longueur_du_passage",
       "longueur_enonce",
-      "notion_nommee_dans_documents",
       "place_de_la_section_dans_le_cours",
-      "proximite_documents_section",
       "proximite_enonce_passage",
       "proximite_enonce_section",
       "rang_dans_la_partie",
@@ -761,14 +950,14 @@
      "types": [
       {
        "id": 0,
-       "n": 462,
-       "part": 0.314,
+       "n": 173,
+       "part": 0.118,
        "fort": [
         "taille_de_la_section"
        ],
        "faible": [
-        "centralite_du_passage",
         "longueur_du_passage",
+        "centralite_du_passage",
         "redondance_du_passage"
        ],
        "exemples": [
@@ -788,120 +977,145 @@
       },
       {
        "id": 1,
-       "n": 43,
-       "part": 0.029,
+       "n": 121,
+       "part": 0.082,
        "fort": [
-        "proximite_documents_section",
-        "annees_depuis_la_derniere_fois",
-        "centralite_du_passage"
+        "centralite_du_passage",
+        "longueur_du_passage",
+        "redondance_du_passage"
        ],
        "faible": [
-        "taille_de_la_section",
+        "annees_depuis_la_derniere_fois",
         "frequence_passee_de_la_section",
-        "sections_dans_la_partie"
+        "proximite_enonce_section"
        ],
        "exemples": [
         {
-         "enonce": "Recopier le schéma ci-dessous et le compléter sur votre copie en exécutant les appels de fonctions donnés. On écrira ce que renvoie la fonction utilisée dans chaque cas, et on indiquera None si la fonction ne retourne au",
-         "notion_du_cours": "Les files : Terminale - Spécialité NSI IFS Singapour Chapitre 7 - Les files Objectifs : ▷ Connaître et comprendre le type abstrait file. ▷ Modéliser puis simuler le comportement d'une file. ▷ Distingu"
+         "enonce": "On se propose d’écrire une fonction récursive anagramme qui a pour paramètres deux chaînes de caractères mot1 et mot2 et qui renvoie True si mot2 est une anagramme de mot1 et False sinon.",
+         "notion_du_cours": "Recursivite : Terminale - Spécialité NSI IFS Singapour Chapitre 2 - Récursivité Objectifs : ▷ Écrire un programme récursif ▷ Analyser le fonctionnement d'un programme récursif. ▷ Connaître des exemple"
         },
         {
-         "enonce": "On propose la fonction ci-dessous, qui prend en argument une pile P et renvoie un couple de piles : def transforme(P) : Q = creer_pile() while not est_vide(P) : v = depile(P) empile(Q,v) return (P,Q) Recopier et compléte",
-         "notion_du_cours": "Les files : Terminale - Spécialité NSI IFS Singapour Chapitre 7 - Les files Objectifs : ▷ Connaître et comprendre le type abstrait file. ▷ Modéliser puis simuler le comportement d'une file. ▷ Distingu"
+         "enonce": "Donner toutes les chaînes possibles renvoyées par les appels B(0), B(1) et B(2).",
+         "notion_du_cours": "Recursivite : Terminale - Spécialité NSI IFS Singapour Chapitre 2 - Récursivité Objectifs : ▷ Écrire un programme récursif ▷ Analyser le fonctionnement d'un programme récursif. ▷ Connaître des exemple"
         },
         {
-         "enonce": "Ecrire une fonction en langage Python maximum(P) recevant une pile P comme argument et qui renvoie la valeur maximale de cette pile. On ne s’interdit pas qu’après exécution de la fonction, la pile soit vide.",
-         "notion_du_cours": "Les files : Terminale - Spécialité NSI IFS Singapour Chapitre 7 - Les files Objectifs : ▷ Connaître et comprendre le type abstrait file. ▷ Modéliser puis simuler le comportement d'une file. ▷ Distingu"
+         "enonce": "On propose trois blocs d'instructions pour parcourir le tableau et afficher le nombre de places des lieux de covoiturage.",
+         "notion_du_cours": "Programmation dynamique : Terminale - Spécialité NSI IFS Singapour Chapitre 22 - Programmation dynamique Objectifs : ▷ Utiliser la programmation dynamique pour écrire un algorithme. ▷ Comprendre les e"
         }
        ]
       },
       {
        "id": 2,
-       "n": 18,
-       "part": 0.012,
+       "n": 41,
+       "part": 0.028,
        "fort": [
-        "proximite_enonce_passage",
-        "proximite_documents_section",
-        "proximite_enonce_section"
+        "sections_dans_la_partie",
+        "largeur_du_cours_mobilise",
+        "centralite_du_passage"
        ],
        "faible": [
-        "longueur_du_passage",
-        "centralite_du_passage",
-        "redondance_du_passage"
+        "frequence_passee_de_la_section"
        ],
        "exemples": [
         {
-         "enonce": "Pour déterminer l'adresse IP du réseau, recopier le tableau ci-dessous et compléter les cases vides, en suivant l'ordre des instructions suivantes :",
-         "notion_du_cours": "- La machine A calcule (grâce au masque de sous-réseau) si B est dans le même sous-réseau qu'elle, ou pas. - Si oui, elle peut donc connaître l'adresse MAC de la carte réseau de la machine B (soit ell"
+         "enonce": "Expliquer pourquoi le couple (1, 3) est une inversion dans le tableau [4, 8, 3, 7].",
+         "notion_du_cours": "Diviser pour regner : Terminale - Spécialité NSI IFS Singapour Chapitre 24 - Diviser pour régner Objectifs : ▷ Ecrire un algorithme en utilisant la méthode\"diviser pour régner\". 1 Introduction Nous av"
         },
         {
-         "enonce": "Dans le cadre d'une future \"LAN PARTY\", l'organisateur veut gérer la liste des IPv4 pour éviter que deux machines aient la même adresse. Il décide de commencer son étude en créant une fonction Python adresse.",
-         "notion_du_cours": "- La machine A calcule (grâce au masque de sous-réseau) si B est dans le même sous-réseau qu'elle, ou pas. - Si oui, elle peut donc connaître l'adresse MAC de la carte réseau de la machine B (soit ell"
+         "enonce": "Justifier que le couple (2, 3) n’en est pas une.",
+         "notion_du_cours": "Diviser pour regner : Terminale - Spécialité NSI IFS Singapour Chapitre 24 - Diviser pour régner Objectifs : ▷ Ecrire un algorithme en utilisant la méthode\"diviser pour régner\". 1 Introduction Nous av"
         },
         {
-         "enonce": "Adresse du réseau 3.",
-         "notion_du_cours": "- La machine A calcule (grâce au masque de sous-réseau) si B est dans le même sous-réseau qu'elle, ou pas. - Si oui, elle peut donc connaître l'adresse MAC de la carte réseau de la machine B (soit ell"
+         "enonce": "Voici une implémentation en Python de cet algorithme. Recopier et compléter les lignes 6 et 7 surlignées (uniquement celles-ci).",
+         "notion_du_cours": "Diviser pour regner : Terminale - Spécialité NSI IFS Singapour Chapitre 24 - Diviser pour régner Objectifs : ▷ Ecrire un algorithme en utilisant la méthode\"diviser pour régner\". 1 Introduction Nous av"
         }
        ]
       },
       {
        "id": 3,
-       "n": 190,
-       "part": 0.129,
+       "n": 433,
+       "part": 0.295,
        "fort": [
-        "taille_de_la_section",
-        "notion_nommee_dans_documents",
-        "frequence_passee_de_la_section"
+        "longueur_du_passage",
+        "centralite_du_passage",
+        "redondance_du_passage"
        ],
        "faible": [
-        "place_de_la_section_dans_le_cours",
-        "longueur_du_passage",
-        "redondance_du_passage"
+        "taille_de_la_section",
+        "frequence_passee_de_la_section"
        ],
        "exemples": [
         {
-         "enonce": "4. Pour passer le temps entre deux tours, Lucien décide de chercher les anagrammes d’un mot. L’anagramme d’un mot est un nouveau mot formé en changeant de place les lettres du mot initial.",
-         "notion_du_cours": "Dès que deux lettres identiques mais de casse différente (majuscule-minuscule ou minuscule-majuscule) sont côte à côte dans la chaîne, on les supprime de la chaîne."
+         "enonce": "Soit la classe CodeCesar définie ci-dessous : class CodeCesar: def __init__(self, cle): self.cle = cle self.alphabet = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\" def decale(self, lettre): num1 = self.alphabet.find(lettre) num2 = num1+",
+         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
         },
         {
-         "enonce": "Ainsi CARTE est une anagramme du mot ACTER.",
-         "notion_du_cours": "Dès que deux lettres identiques mais de casse différente (majuscule-minuscule ou minuscule-majuscule) sont côte à côte dans la chaîne, on les supprime de la chaîne."
+         "enonce": "La méthode de chiffrement du « code César » consiste à décaler les lettres du message dans l’alphabet d'un nombre de rangs fixé par la clé. Par exemple, avec la clé 3, toutes les lettres sont décalées de 3 rangs vers la ",
+         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
         },
         {
-         "enonce": "Pour cela, on dispose d’une fonction enlever : enlever (mot , c) renvoie mot privé de la première occurence du caractère c Ainsi l’instruction enlever(‘scrabble’,’b’) renvoie ‘scrable’.",
-         "notion_du_cours": "Dès que deux lettres identiques mais de casse différente (majuscule-minuscule ou minuscule-majuscule) sont côte à côte dans la chaîne, on les supprime de la chaîne."
+         "enonce": "Ecrire un programme qui :  demande de saisir la clé de chiffrement  crée un objet de classe CodeCesar  demande de saisir le texte à chiffrer  affiche le texte chiffré en appelant la méthode cryptage",
+         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
         }
        ]
       },
       {
        "id": 4,
-       "n": 287,
-       "part": 0.195,
+       "n": 456,
+       "part": 0.31,
        "fort": [
-        "frequence_passee_de_la_section",
+        "taille_de_la_section",
+        "frequence_passee_de_la_section"
+       ],
+       "faible": [
+        "redondance_du_passage",
         "longueur_du_passage",
         "centralite_du_passage"
+       ],
+       "exemples": [
+        {
+         "enonce": "Sachant que le protocole OSPF est utilisé, déterminer, en justifiant, le coût du chemin allant de la machine dont l’adresse IP est 172.16.0.10 jusqu’au réseau 192.168.0.0/24.",
+         "notion_du_cours": "Dans cet exercice, les adresses IP sont composées de 4 octets, soit 32 bits. Elles sont notées X1.X2.X3.X4, où X1, X2, X3 et X4 sont les valeurs des 4 octets, convertis en notation décimale. La notati"
+        },
+        {
+         "enonce": "Dans cette question tous les routeurs utilisent le protocole OSPF (distance en coût des routes). Le coût d'une liaison est modélisé par la formule 10଼ ݀ où ݀ est le débit de cette liaison exprimé en bit par seconde.",
+         "notion_du_cours": "b. La liaison entre le routeur B et D a un coût de 5. Quel est le débit de cette liaison ?"
+        },
+        {
+         "enonce": "Indiquer sur votre copie les adresses IP du(des) réseau(x) directement connectés à ce routeur.",
+         "notion_du_cours": "| Destination | Interface | Passerelle | |:-:|-|-| | F | 192.168.0.254 | | | A | 10.0.5.152 | | | E | 172.17.1.254 | | | B | 172.17.1.254 |172.17.1.123| | C | 10.0.5.152 |10.0.5.135|"
+        }
+       ]
+      },
+      {
+       "id": 5,
+       "n": 207,
+       "part": 0.141,
+       "fort": [
+        "frequence_passee_de_la_section",
+        "centralite_de_la_section",
+        "redondance_du_passage"
        ],
        "faible": [
         "taille_de_la_section"
        ],
        "exemples": [
         {
-         "enonce": "Expliquer pourquoi cette requête produit une erreur.",
+         "enonce": "Expliquer pourquoi il n'est pas possible d'insérer une entrée dans la relation Role si les relations Piece et Acteur sont vides.",
          "notion_du_cours": "SQL : Terminale - Spécialité NSI IFS Singapour Chapitre 9 - Le langage SQL Objectifs : ▷ Identifier les composants d'une requête. ▷ Savoir utiliser des requêtes d'interrogation et de mise à jour d'une"
         },
         {
-         "enonce": "Écrire une requête SQL permettant de mettre à jour la table equipe avec le nombre de points gagnés par l’équipe “Volley Warriors”.",
+         "enonce": "Dans la pièce « Le Tartuffe », l'acteur Micha Lescot a joué le rôle de Tartuffe.",
          "notion_du_cours": "SQL : Terminale - Spécialité NSI IFS Singapour Chapitre 9 - Le langage SQL Objectifs : ▷ Identifier les composants d'une requête. ▷ Savoir utiliser des requêtes d'interrogation et de mise à jour d'une"
         },
         {
-         "enonce": "Écrire une requête SQL permettant d’obtenir le nom et le prénom du joueur j_1 de l’équipe “Les Kangourous”.",
+         "enonce": "Expliquer ce que fait la requête SQL suivante.",
          "notion_du_cours": "SQL : Terminale - Spécialité NSI IFS Singapour Chapitre 9 - Le langage SQL Objectifs : ▷ Identifier les composants d'une requête. ▷ Savoir utiliser des requêtes d'interrogation et de mise à jour d'une"
         }
        ]
       },
       {
-       "id": 5,
+       "id": 6,
        "n": 39,
        "part": 0.027,
        "fort": [
@@ -909,7 +1123,6 @@
         "annees_depuis_la_derniere_fois"
        ],
        "faible": [
-        "sections_dans_la_partie",
         "rang_dans_la_partie"
        ],
        "exemples": [
@@ -924,34 +1137,6 @@
         {
          "enonce": "Préciser toutes les valeurs entières que l’on peut stocker dans le nœud fils gauche du nœud04 (vide pour l'instant), en respectant les règles sur les arbres binaires de recherche ?",
          "notion_du_cours": "Ainsi, par exemple, toutes les valeurs des nœuds G1, G2 et G3 sont strictement inférieures à la valeur du nœud X et toutes les valeurs des nœuds D1, D2 et D3 sont supérieures ou égales à la valeur du "
-        }
-       ]
-      },
-      {
-       "id": 6,
-       "n": 431,
-       "part": 0.293,
-       "fort": [
-        "redondance_du_passage",
-        "centralite_du_passage",
-        "longueur_du_passage"
-       ],
-       "faible": [
-        "frequence_passee_de_la_section",
-        "taille_de_la_section"
-       ],
-       "exemples": [
-        {
-         "enonce": "Soit la classe CodeCesar définie ci-dessous : class CodeCesar: def __init__(self, cle): self.cle = cle self.alphabet = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\" def decale(self, lettre): num1 = self.alphabet.find(lettre) num2 = num1+",
-         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
-        },
-        {
-         "enonce": "La méthode de chiffrement du « code César » consiste à décaler les lettres du message dans l’alphabet d'un nombre de rangs fixé par la clé. Par exemple, avec la clé 3, toutes les lettres sont décalées de 3 rangs vers la ",
-         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
-        },
-        {
-         "enonce": "Ecrire un programme qui :  demande de saisir la clé de chiffrement  crée un objet de classe CodeCesar  demande de saisir le texte à chiffrer  affiche le texte chiffré en appelant la méthode cryptage",
-         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
         }
        ]
       }
@@ -994,12 +1179,12 @@
      {
       "enonce": "Un pisteur-secouriste de permanence au point de secours D est appelé pour une intervention en urgence au point de secours A. La motoneige de la station étant en panne, il ne peut s",
       "mots": [
-       "decider",
-       "morceaux",
-       "pourra",
-       "principal",
-       "outil",
-       "pointes"
+       "train",
+       "eleve",
+       "chien",
+       "instance",
+       "moyenne",
+       "sable"
       ]
      },
      {
@@ -1032,18 +1217,8 @@
     "variable": "longueur_enonce",
     "meme_sens": true,
     "importance": {
-     "droit": 0.257,
-     "nsi": 0.051
-    },
-    "sens": null
-   },
-   {
-    "tache": "consigne",
-    "variable": "centralite_du_passage",
-    "meme_sens": true,
-    "importance": {
-     "droit": 0.0296,
-     "nsi": 0.074
+     "droit": 0.25,
+     "nsi": 0.0517
     },
     "sens": null
    },
@@ -1052,8 +1227,18 @@
     "variable": "longueur_du_passage",
     "meme_sens": true,
     "importance": {
-     "droit": 0.0262,
-     "nsi": 0.0554
+     "droit": 0.0223,
+     "nsi": 0.0722
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "centralite_du_passage",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0173,
+     "nsi": 0.075
     },
     "sens": null
    },
@@ -1062,8 +1247,18 @@
     "variable": "proximite_enonce_section",
     "meme_sens": true,
     "importance": {
-     "droit": 0.0239,
-     "nsi": 0.027
+     "droit": 0.0147,
+     "nsi": 0.028
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "taille_de_la_section",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0277,
+     "nsi": 0.0137
     },
     "sens": null
    },
@@ -1072,8 +1267,8 @@
     "variable": "vocabulaire_hors_cours_dans_l_enonce",
     "meme_sens": true,
     "importance": {
-     "droit": 0.1356,
-     "nsi": 0.0118
+     "droit": 0.1361,
+     "nsi": 0.0123
     },
     "sens": null
    },
@@ -1082,8 +1277,8 @@
     "variable": "rang_dans_la_partie",
     "meme_sens": true,
     "importance": {
-     "droit": 0.4087,
-     "nsi": 0.0083
+     "droit": 0.3951,
+     "nsi": 0.008
     },
     "sens": null
    },
@@ -1092,8 +1287,8 @@
     "variable": "forme_interrogative",
     "meme_sens": true,
     "importance": {
-     "droit": 0.1599,
-     "nsi": 0.0068
+     "droit": 0.1711,
+     "nsi": 0.0072
     },
     "sens": null
    },
@@ -1102,38 +1297,38 @@
     "variable": "longueur_enonce",
     "meme_sens": true,
     "importance": {
-     "droit": 0.1142,
-     "nsi": 0.0531
+     "droit": 0.1201,
+     "nsi": 0.0538
     },
     "sens": 1.0
-   },
-   {
-    "tache": "ordre",
-    "variable": "proximite_enonce_passage",
-    "meme_sens": false,
-    "importance": {
-     "droit": 0.0618,
-     "nsi": 0.0076
-    },
-    "sens": "variable"
    },
    {
     "tache": "ordre",
     "variable": "forme_interrogative",
     "meme_sens": false,
     "importance": {
-     "droit": 0.4597,
-     "nsi": 0.0064
+     "droit": 0.4411,
+     "nsi": 0.0059
     },
     "sens": "variable"
    },
    {
     "tache": "ordre",
-    "variable": "frequence_passee_de_la_section",
+    "variable": "proximite_enonce_passage",
     "meme_sens": false,
     "importance": {
-     "droit": 0.0088,
-     "nsi": 0.0027
+     "droit": 0.0667,
+     "nsi": 0.0047
+    },
+    "sens": "variable"
+   },
+   {
+    "tache": "ordre",
+    "variable": "taille_de_la_section",
+    "meme_sens": false,
+    "importance": {
+     "droit": 0.0226,
+     "nsi": 0.0024
     },
     "sens": "variable"
    },
@@ -1142,18 +1337,8 @@
     "variable": "annees_depuis_la_derniere_fois",
     "meme_sens": false,
     "importance": {
-     "droit": 0.0296,
-     "nsi": 0.0025
-    },
-    "sens": "variable"
-   },
-   {
-    "tache": "ordre",
-    "variable": "redondance_du_passage",
-    "meme_sens": false,
-    "importance": {
-     "droit": 0.0109,
-     "nsi": 0.0021
+     "droit": 0.0199,
+     "nsi": 0.0023
     },
     "sens": "variable"
    },
@@ -1162,38 +1347,28 @@
     "variable": "frequence_passee_du_passage",
     "meme_sens": true,
     "importance": {
-     "droit": 0.0231,
-     "nsi": 0.0484
+     "droit": 0.0353,
+     "nsi": 0.045
     },
     "sens": 1.0
    },
    {
     "tache": "testabilite",
-    "variable": "longueur_du_passage",
+    "variable": "frequence_passee_de_la_section",
     "meme_sens": true,
     "importance": {
-     "droit": 0.0892,
-     "nsi": 0.0204
+     "droit": 0.0064,
+     "nsi": 0.0891
     },
     "sens": 1.0
-   },
-   {
-    "tache": "testabilite",
-    "variable": "densite_symboles_du_passage",
-    "meme_sens": true,
-    "importance": {
-     "droit": 0.028,
-     "nsi": 0.0103
-    },
-    "sens": -1.0
    },
    {
     "tache": "testabilite",
     "variable": "centralite_du_passage",
     "meme_sens": true,
     "importance": {
-     "droit": 0.0571,
-     "nsi": 0.0055
+     "droit": 0.0343,
+     "nsi": 0.0021
     },
     "sens": 1.0
    }
@@ -1202,29 +1377,29 @@
    "droit": {
     "ordre": {
      "avant": 0.642,
-     "apres": 0.639
+     "apres": 0.635
     },
     "consigne": {
      "avant": 0.111,
-     "apres": 0.18
+     "apres": 0.156
     },
     "testabilite": {
      "avant": 0.858,
-     "apres": 0.841
+     "apres": 0.879
     }
    },
    "nsi": {
     "ordre": {
      "avant": 0.157,
-     "apres": 0.158
+     "apres": 0.157
     },
     "consigne": {
      "avant": 0.006,
-     "apres": -0.01
+     "apres": -0.008
     },
     "testabilite": {
      "avant": 0.826,
-     "apres": 0.83
+     "apres": 0.861
     }
    }
   },
@@ -1232,32 +1407,32 @@
    "variables_generees": 312,
    "par_matiere": {
     "droit": {
-     "auc_annee_exclue_popularite": 0.762,
-     "auc_annee_exclue_12_variables": 0.834,
-     "auc_annee_exclue_variables_stables": 0.869,
+     "auc_annee_exclue_popularite": 0.805,
+     "auc_annee_exclue_12_variables": 0.862,
+     "auc_annee_exclue_variables_stables": 0.866,
      "variables_stables": 2,
      "variables_par_matiere_rejetees": 310,
      "regles": [
       {
        "variable": "max(longueur,deja_tombe)",
-       "frequence": 0.88,
+       "frequence": 0.7,
        "sens": "+"
       },
       {
        "variable": "haut(centralite)",
-       "frequence": 0.95,
+       "frequence": 1.0,
        "sens": "+"
       }
      ],
      "modele_retenu": "variables stables",
-     "auc_modele_retenu": 0.869
+     "auc_modele_retenu": 0.866
     },
     "nsi": {
-     "auc_annee_exclue_popularite": 0.751,
-     "auc_annee_exclue_12_variables": 0.831,
-     "auc_annee_exclue_variables_stables": 0.818,
-     "variables_stables": 27,
-     "variables_par_matiere_rejetees": 285,
+     "auc_annee_exclue_popularite": 0.769,
+     "auc_annee_exclue_12_variables": 0.861,
+     "auc_annee_exclue_variables_stables": 0.865,
+     "variables_stables": 29,
+     "variables_par_matiere_rejetees": 283,
      "regles": [
       {
        "variable": "haut(taille_section)",
@@ -1265,75 +1440,75 @@
        "sens": "+"
       },
       {
-       "variable": "rang(place_section)×rang(deja_tombe)",
+       "variable": "ecart(place_section,section_deja_tombee)",
        "frequence": 0.93,
+       "sens": "-"
+      },
+      {
+       "variable": "max(rang,deja_tombe)",
+       "frequence": 0.72,
        "sens": "+"
       },
       {
-       "variable": "ecart(reference,taille_section)",
-       "frequence": 1.0,
+       "variable": "deja_tombe",
+       "frequence": 0.78,
        "sens": "-"
       },
       {
        "variable": "longueur",
-       "frequence": 0.82,
+       "frequence": 0.72,
        "sens": "+"
       },
       {
-       "variable": "ecart(place_section,section_deja_tombee)",
-       "frequence": 0.8,
-       "sens": "-"
-      },
-      {
-       "variable": "ecart(centralite_section,deja_tombe)",
-       "frequence": 0.88,
+       "variable": "extreme(deja_tombe)",
+       "frequence": 0.6,
        "sens": "+"
       },
       {
-       "variable": "haut(centralite_section)",
-       "frequence": 0.8,
-       "sens": "-"
+       "variable": "rang(place_section)×rang(deja_tombe)",
+       "frequence": 0.62,
+       "sens": "+"
+      },
+      {
+       "variable": "rang(redondance)×rang(deja_tombe)",
+       "frequence": 0.6,
+       "sens": "+"
+      },
+      {
+       "variable": "ecart(reference,place_section)",
+       "frequence": 0.85,
+       "sens": "+"
       },
       {
        "variable": "ecart(redondance,deja_tombe)",
-       "frequence": 0.95,
+       "frequence": 0.88,
        "sens": "-"
       },
       {
-       "variable": "haut(redondance)",
-       "frequence": 0.6,
-       "sens": "+"
-      },
-      {
-       "variable": "rang(deja_tombe)×rang(section_deja_tombee)",
-       "frequence": 0.6,
-       "sens": "-"
-      },
-      {
-       "variable": "insistance×centralite_section",
+       "variable": "ecart(taille_section,deja_tombe)",
        "frequence": 0.62,
        "sens": "-"
       },
       {
-       "variable": "rang(symboles)",
-       "frequence": 0.95,
+       "variable": "symboles×section_deja_tombee",
+       "frequence": 0.72,
        "sens": "-"
       }
      ],
-     "modele_retenu": "12 variables",
-     "auc_modele_retenu": 0.831
+     "modele_retenu": "variables stables",
+     "auc_modele_retenu": 0.865
     }
    },
    "transfert_a_froid": {
     "droit->nsi": {
-     "auc_12_variables": 0.795,
-     "auc_variables_stables": 0.77,
-     "auc_appris_dans_la_matiere": 0.818
+     "auc_12_variables": 0.834,
+     "auc_variables_stables": 0.781,
+     "auc_appris_dans_la_matiere": 0.865
     },
     "nsi->droit": {
-     "auc_12_variables": 0.835,
-     "auc_variables_stables": 0.707,
-     "auc_appris_dans_la_matiere": 0.869
+     "auc_12_variables": 0.858,
+     "auc_variables_stables": 0.709,
+     "auc_appris_dans_la_matiere": 0.866
     }
    },
    "regles_universelles": [
