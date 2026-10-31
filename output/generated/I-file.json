@@ -1,0 +1,61 @@
+{
+ "id": "I-file",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "File d'attente en base de données",
+   "contexte": "Un guichet enregistre sa file d'attente dans la table `Attente(num, nom)` (num : entier, clé primaire, attribué dans l'ordre croissant d'arrivée ; nom : texte). La personne en tête de file est donc celle de plus petit numéro (et non celle de nom le plus petit).",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "file",
+     "enonce": "Donner la requête SQL permettant de défiler, c'est-à-dire de supprimer de la table Attente la personne en tête de file.",
+     "points": 1,
+     "reponse_attendue": "DELETE FROM Attente WHERE num = (SELECT MIN(num) FROM Attente);"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "File avec deux piles",
+   "contexte": "On implémente une file avec deux listes Python utilisées comme piles : `entree` reçoit les éléments enfilés (append), `sortie` fournit les éléments défilés (pop). Quand `sortie` est vide, on y transvase tous les éléments de `entree`.\n\n```python\n1 class File:\n2     def __init__(self):\n3         self.entree = []\n4         self.sortie = []\n5     def enfiler(self, x):\n6         self.entree.append(x)\n7     def defiler(self):\n8         ...\n```\n\nOn suppose que defiler n'est appelée que sur une file non vide.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "file",
+     "enonce": "Recopier et compléter la méthode defiler à partir de la ligne 8, qui renvoie et retire l'élément le plus ancien de la file.",
+     "points": 1,
+     "reponse_attendue": "```python\nclass File:\n    def __init__(self):\n        self.entree = []\n        self.sortie = []\n    def enfiler(self, x):\n        self.entree.append(x)\n    def defiler(self):\n        if self.sortie == []:\n            while self.entree != []:\n                self.sortie.append(self.entree.pop())\n        return self.sortie.pop()\n\nf = File()\nfor x in [1, 2, 3]:\n    f.enfiler(x)\nassert f.defiler() == 1 and f.defiler() == 2\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Taille d'une file",
+   "contexte": "On dispose de l'interface : `creer_file_vide()`, `est_vide(f)`, `enfiler(f, x)`, `defiler(f)` (renvoie et retire la tête). La fonction taille doit renvoyer le nombre d'éléments de f, f devant retrouver son état initial à la fin.\n\n```python\n1 def taille(f):\n2     aux = creer_file_vide()\n3     n = 0\n4     while not est_vide(f):\n5         ...\n6         ...\n7     while not est_vide(aux):\n8         ...\n9     return n\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "file",
+     "enonce": "Recopier et compléter les lignes 5 à 8 de la fonction taille afin qu'elle renvoie le nombre d'éléments sans modifier la file f.",
+     "points": 1,
+     "reponse_attendue": "```python\nfrom collections import deque\ndef creer_file_vide(): return deque()\ndef est_vide(f): return len(f) == 0\ndef enfiler(f, x): f.append(x)\ndef defiler(f): return f.popleft()\n\ndef taille(f):\n    aux = creer_file_vide()\n    n = 0\n    while not est_vide(f):\n        enfiler(aux, defiler(f))\n        n = n + 1\n    while not est_vide(aux):\n        enfiler(f, defiler(aux))\n    return n\n\nf = deque([4, 5, 6])\nassert taille(f) == 3 and list(f) == [4, 5, 6]\n```"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Interface minimale d'une file",
+   "contexte": "On considère les opérations suivantes : (a) créer une file vide, (b) tester si la file est vide, (c) enfiler un élément en queue, (d) défiler l'élément de tête, (e) trier la file, (f) accéder au i-ème élément, (g) inverser la file.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "file",
+     "enonce": "Indiquer les opérations qui constituent a minima l'interface d'une file.",
+     "points": 1,
+     "reponse_attendue": "(a), (b), (c) et (d) : création d'une file vide, test de vacuité, enfiler et défiler (FIFO). Les opérations (e), (f), (g) ne font pas partie de l'interface minimale."
+    }
+   ]
+  }
+ ]
+}

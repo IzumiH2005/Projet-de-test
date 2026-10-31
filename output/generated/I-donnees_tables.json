@@ -1,0 +1,61 @@
+{
+ "id": "I-donnees_tables",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Filtrer une table de licenciés",
+   "contexte": "Un club sportif stocke ses licenciés dans une table, liste de dictionnaires de la forme `{'nom': 'Diallo', 'ville': 'Lyon', 'age': 16}`. La fonction suivante doit renvoyer la liste des noms des licenciés habitant la ville donnée en paramètre.\n\n```python\n1 def noms_par_ville(table, ville):\n2     resultat = []\n3     for ligne in table:\n4         if ...:\n5             ...\n6     return resultat\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "donnees_tables",
+     "enonce": "Recopier et compléter les lignes 4 et 5 de la fonction noms_par_ville afin qu'elle respecte sa spécification.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef noms_par_ville(table, ville):\n    resultat = []\n    for ligne in table:\n        if ligne['ville'] == ville:\n            resultat.append(ligne['nom'])\n    return resultat\n```"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Moyenne d'une colonne",
+   "contexte": "Une table est représentée par une liste de dictionnaires ayant tous les mêmes clés (les attributs). On souhaite une fonction moyenne_attribut prenant deux paramètres : table, la liste de dictionnaires, attribut, une chaîne désignant un attribut à valeurs numériques ; elle renvoie la moyenne des valeurs de cet attribut, ou None si la table est vide.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "donnees_tables",
+     "enonce": "Écrire une fonction moyenne_attribut(table, attribut) qui prend en paramètre une table et un nom d'attribut et qui renvoie la moyenne des valeurs de cet attribut (None si la table est vide).",
+     "points": 1,
+     "reponse_attendue": "```python\ndef moyenne_attribut(table, attribut):\n    if len(table) == 0:\n        return None\n    total = 0\n    for ligne in table:\n        total = total + ligne[attribut]\n    return total / len(table)\n\nassert moyenne_attribut([{'x': 2}, {'x': 4}], 'x') == 3\nassert moyenne_attribut([], 'x') is None\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Tri d'une table de mesures",
+   "contexte": "Une table de mesures est donnée sous forme de liste de tuples (identifiant, valeur) :\n\n```python\nmesures = [(1, 14), (2, 9), (3, 21), (4, 9)]\n\ndef valeur(m):\n    return m[1]\n\nres = [m[0] for m in sorted(mesures, key=valeur, reverse=True)]\n```\n\nOn rappelle que le tri de Python est stable : deux éléments de même clé gardent leur ordre initial.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "donnees_tables",
+     "enonce": "Donner le contenu de la liste res après l'exécution de ce code.",
+     "points": 1,
+     "reponse_attendue": "[3, 1, 2, 4]"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Vérifier un fichier téléchargé",
+   "contexte": "Un site d'open data propose le fichier `communes.csv` et indique son empreinte MD5 : `9e107d9d372bb6826bd81d3542a419d6`. Cette empreinte est le résultat que doit donner le fichier lorsqu'il est haché par la fonction MD5. Après téléchargement, Léa calcule l'empreinte MD5 de son fichier et obtient `e4d909c290d0fb1ca068ffaddf22cbd0`.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "donnees_tables",
+     "enonce": "Le fichier téléchargé par Léa est-il identique au fichier proposé par le site ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "Non : une même donnée donne toujours la même empreinte par la fonction de hachage ; les deux empreintes étant différentes, le fichier de Léa diffère de l'original (téléchargement incomplet ou altéré). Il faut le télécharger à nouveau."
+    }
+   ]
+  }
+ ]
+}

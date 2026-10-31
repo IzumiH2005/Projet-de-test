@@ -1,0 +1,61 @@
+{
+ "id": "I-reseau_ip",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Nouvel ordinateur",
+   "contexte": "Le réseau local d'un CDI a pour adresse 192.168.20.0/24. Le routeur utilise 192.168.20.254 et les postes existants vont de 192.168.20.1 à 192.168.20.30.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "reseau_ip",
+     "enonce": "Proposer une adresse IP et un masque pour un nouvel ordinateur du CDI.",
+     "points": 1,
+     "reponse_attendue": "Par exemple 192.168.20.31 avec le masque 255.255.255.0 (toute adresse libre de 192.168.20.31 à 192.168.20.253 convient, ni .0 ni .255)."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Adresse sous forme de tableau",
+   "contexte": "Dans un logiciel de supervision, une adresse IPv4 est représentée par un tableau de 4 entiers, par exemple [192, 168, 1, 37]. Le masque est représenté de la même façon, par exemple [255, 255, 255, 0]. L'adresse du réseau s'obtient en faisant, octet par octet, un ET logique (opérateur & en Python) entre l'adresse et le masque.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "reseau_ip",
+     "enonce": "Écrire une fonction adresse_reseau(ip, masque) qui prend en paramètres deux tableaux de 4 entiers et renvoie le tableau de 4 entiers de l'adresse du réseau.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef adresse_reseau(ip, masque):\n    res = []\n    for i in range(4):\n        res.append(ip[i] & masque[i])\n    return res\n\nprint(adresse_reseau([192, 168, 1, 37], [255, 255, 255, 0]))  # [192, 168, 1, 0]\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Configuration d'un poste",
+   "contexte": "La commande ip addr exécutée sur un poste affiche notamment les informations suivantes :\n- interface : eth0\n- adresse : 172.16.5.12/22\n- passerelle par défaut : 172.16.4.1\n- adresse de diffusion : ?",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "reseau_ip",
+     "enonce": "À l'aide des informations ci-dessus, donner l'adresse du réseau et l'adresse de diffusion du réseau de ce poste.",
+     "points": 1,
+     "reponse_attendue": "/22 → masque 255.255.252.0. 5 = 000001|01 → troisième octet réseau 4. Réseau : 172.16.4.0 ; diffusion : 172.16.7.255."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Masque et partie hôte",
+   "contexte": "Une entreprise reçoit le réseau 10.4.0.0 avec le masque 255.255.240.0. Le cours rappelle qu'on associe une adresse IP et un masque pour savoir quelle partie de l'adresse identifie le réseau et quelle partie identifie la machine.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "reseau_ip",
+     "enonce": "Donner la notation CIDR de ce masque, indiquer combien de bits identifient la machine, puis justifier le nombre maximal de machines adressables.",
+     "points": 1,
+     "reponse_attendue": "255.255.240.0 = /20. 32 - 20 = 12 bits pour la machine. 2^12 - 2 = 4094 machines (on retire l'adresse du réseau et celle de diffusion)."
+    }
+   ]
+  }
+ ]
+}

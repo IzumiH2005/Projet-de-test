@@ -1,0 +1,47 @@
+{
+ "id": "I-routage",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Protocole à état de liens",
+   "contexte": "Une collectivité relie ses médiathèques par des routeurs. L'administrateur souhaite que chaque routeur connaisse toute la topologie du réseau et choisisse les routes en tenant compte du débit des liaisons, et non du simple nombre de sauts.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "routage",
+     "enonce": "Donner le nom du protocole de routage adapté à cette demande et le nom de l'algorithme de calcul de plus court chemin qu'il utilise.",
+     "points": 1,
+     "reponse_attendue": "OSPF ; algorithme de Dijkstra."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Métrique RIP",
+   "contexte": "Le routeur R1 utilise le protocole RIP. Il connaît les routes suivantes vers le réseau 10.8.0.0/16 :\n- via R2 : 3 sauts\n- via R3 : 2 sauts\n- via R4 : 5 sauts",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "routage",
+     "enonce": "Donner le routeur choisi par R1 comme passerelle vers 10.8.0.0/16 et la métrique inscrite dans sa table.",
+     "points": 1,
+     "reponse_attendue": "R3, métrique 2."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Réseau d'entreprise",
+   "contexte": "Le réseau d'une entreprise comporte quatre routeurs reliés ainsi : R1–R2, R1–R3, R2–R4, R3–R4. Le réseau local LAN-A (192.168.1.0/24) est relié à R1 et le réseau LAN-B (192.168.4.0/24) est relié à R4. Le protocole RIP est utilisé ; la métrique est le nombre de sauts (routeurs à traverser) et, en cas d'égalité, on choisit la passerelle de plus petit numéro.\n\nTable de R1 (extrait) :\n\n| Destination | Passerelle | Métrique |\n|---|---|---|\n| 192.168.1.0/24 | directe | 0 |\n| 192.168.4.0/24 | ? | ? |",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "routage",
+     "enonce": "Recopier et compléter la ligne de la table de routage de R1 vers le réseau 192.168.4.0/24.",
+     "points": 1,
+     "reponse_attendue": "192.168.4.0/24 | R2 | 2 (R1 → R2 → R4, égalité avec R3, on choisit R2)."
+    }
+   ]
+  }
+ ]
+}

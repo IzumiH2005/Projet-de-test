@@ -129,3 +129,25 @@ python -m examgen.cli validate                        # -> output/validation.jso
 | Courbe de difficulté (Spearman moyen) | +0,34 |
 
 Le classifieur reconnaît mal les notions rares dans les annales (sgbd, prog_dynamique, algo_simples, web_http). Il en a vu trop peu d'exemples pour bien les apprendre ; ce n'est pas un défaut des questions.
+
+## Résultats des questions inédites (148 questions, 42 notions)
+
+| Contrôle | Score |
+|---|---|
+| Manière de demander remesurée = celle du plan (top-3) | 71 % (exacte : 57 %) |
+| Type de support remesuré = celui du plan (top-3) | 81 % |
+| Combinaison (notion, manière, support) absente des annales écrites | 74 % |
+| Notion reconnue (lexique / top-3 du classifieur) | 83 % / 62 % |
+| Quasi-copies d'annales | 0 % |
+| Python qui compile / SQL bien formé | 100 % / 100 % |
+| Au-dessus de la plausibilité médiane des vraies questions | 31 % (référence : 50 %) |
+
+Exemples :
+- *recherche textuelle × « prédire le résultat d'un appel »* : « Donner la valeur renvoyée par cet appel. »
+- *parcours d'arbre × « expliquer un fonctionnement »* : « Expliquer pourquoi le parcours infixe d'un ABR fournit ses valeurs dans l'ordre croissant. »
+- *SoC, savoir jamais évalué* : « Quel élément d'un SoC permet à un smartphone de communiquer avec d'autres machines ? »
+
+Limites :
+- 9 des 25 manières de demander et 5 des 8 types de support sont jugés peu cohérents.
+- La grammaire de plausibilité reste modeste (AUC 0,69).
+- Une question inédite reste en moyenne un peu moins « typique » qu'une vraie question.

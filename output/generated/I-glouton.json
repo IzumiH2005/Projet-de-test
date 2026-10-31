@@ -1,0 +1,61 @@
+{
+ "id": "I-glouton",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Rendu de monnaie",
+   "contexte": "Une caisse automatique rend la monnaie avec les pièces de `pieces = [200, 100, 50, 20, 10, 5, 2, 1]` (en centimes, ordre décroissant). Elle choisit à chaque étape la plus grande pièce ne dépassant pas la somme restante.\n\n```python\n1 def rendu(somme, pieces):\n2     rendues = []\n3     i = 0\n4     while somme > 0:\n5         if ...:\n6             ...\n7             ...\n8         else:\n9             i = i + 1\n10    return rendues\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "glouton",
+     "enonce": "Recopier et compléter les lignes 5 à 7 de la fonction rendu afin qu'elle renvoie la liste des pièces rendues selon la stratégie gloutonne.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef rendu(somme, pieces):\n    rendues = []\n    i = 0\n    while somme > 0:\n        if pieces[i] <= somme:\n            rendues.append(pieces[i])\n            somme = somme - pieces[i]\n        else:\n            i = i + 1\n    return rendues\n\nassert rendu(263, [200, 100, 50, 20, 10, 5, 2, 1]) == [200, 50, 10, 2, 1]\n```"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Planning d'une salle",
+   "contexte": "Une salle de sport accueille des activités, chacune représentée par un tuple (debut, fin) d'heures entières. La fonction planning prend en paramètre activites, une liste de tuples, quelconque, éventuellement vide ; elle trie les activités par heure de fin croissante, choisit la première, puis retient chaque activité dont le début est supérieur ou égal à la fin de la dernière activité retenue ; elle renvoie la liste des activités retenues.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "glouton",
+     "enonce": "Écrire une fonction planning(activites) qui prend en paramètre une liste de tuples (debut, fin) et qui renvoie la liste des activités retenues selon cette stratégie gloutonne.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef fin(a):\n    return a[1]\n\ndef planning(activites):\n    retenues = []\n    for a in sorted(activites, key=fin):\n        if retenues == [] or a[0] >= retenues[-1][1]:\n            retenues.append(a)\n    return retenues\n\nassert planning([(9, 12), (8, 10), (10, 11), (11, 13)]) == [(8, 10), (10, 11), (11, 13)]\nassert planning([]) == []\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Sac à dos glouton",
+   "contexte": "Un randonneur dispose d'un sac de capacité 10 kg. Les objets sont donnés par des tuples (masse, valeur) et triés par rapport valeur/masse décroissant :\n\n```python\nobjets = [(2, 10), (5, 20), (4, 12), (3, 6)]\n\ndef sac(objets, capacite):\n    total = 0\n    for m, v in objets:\n        if m <= capacite:\n            capacite = capacite - m\n            total = total + v\n    return total\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "glouton",
+     "enonce": "Donner la valeur renvoyée par l'appel sac(objets, 10).",
+     "points": 1,
+     "reponse_attendue": "36 : on prend (2, 10) (reste 8), (5, 20) (reste 3), on ne peut pas prendre (4, 12), on prend (3, 6) (reste 0) ; total 10 + 20 + 6 = 36."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Descente d'une pyramide",
+   "contexte": "Une pyramide de nombres est représentée par une liste de listes : `p = [[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]`. Depuis l'élément p[i][j], on peut descendre vers p[i+1][j] ou p[i+1][j+1]. La fonction suivante calcule de manière gloutonne la somme d'un « meilleur » trajet en choisissant à chaque étage le plus grand des deux voisins du dessous.\n\n```python\n1 def _glouton(p):\n2     j = 0\n3     somme = p[0][0]\n4     for i in range(1, len(p)):\n5         if p[i][j + 1] > p[i][j]:\n6             ...\n7         somme = somme + p[i][j]\n8     return somme\n```\n\nInstructions proposées : (A) `j = j - 1` ; (B) `j = j + 1` ; (C) `i = i + 1` ; (D) `somme = somme + p[i][j + 1]`.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "glouton",
+     "enonce": "Parmi les instructions (A) à (D), sélectionner celle qui complète la ligne 6, puis donner la valeur renvoyée par _glouton(p).",
+     "points": 1,
+     "reponse_attendue": "(B) j = j + 1. Trajet 3 → 7 → 4 → 9, valeur renvoyée 23.\n```python\ndef _glouton(p):\n    j = 0\n    somme = p[0][0]\n    for i in range(1, len(p)):\n        if p[i][j + 1] > p[i][j]:\n            j = j + 1\n        somme = somme + p[i][j]\n    return somme\n\nassert _glouton([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]) == 23\n```"
+    }
+   ]
+  }
+ ]
+}

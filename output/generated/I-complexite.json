@@ -1,0 +1,61 @@
+{
+ "id": "I-complexite",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Compteur d'opérations",
+   "contexte": "Une classe Compteur sert à mesurer le coût d'un algorithme. Elle possède un attribut nb (entier, initialisé à 0) et une méthode recherche(self, tab, x) : celle-ci parcourt la liste tab, incrémente nb à chaque comparaison avec x, renvoie True dès que x est trouvé, False sinon.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "complexite",
+     "enonce": "Écrire la classe Compteur avec son constructeur et la méthode recherche décrite ci-dessus.",
+     "points": 1,
+     "reponse_attendue": "```python\nclass Compteur:\n    def __init__(self):\n        self.nb = 0\n\n    def recherche(self, tab, x):\n        for v in tab:\n            self.nb += 1\n            if v == x:\n                return True\n        return False\n\nc = Compteur()\nassert c.recherche([4, 8, 1], 7) is False and c.nb == 3\n```"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Doubler la taille",
+   "contexte": "Un programme de tri par sélection met 2 secondes pour trier une liste de 10 000 éléments. On sait que son coût est quadratique en la taille n de la liste, quel que soit l'ordre initial des éléments.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "complexite",
+     "enonce": "Donner une estimation du temps nécessaire pour trier une liste de 20 000 éléments.",
+     "points": 1,
+     "reponse_attendue": "Environ 8 secondes : doubler n multiplie un coût en n² par 4."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Dichotomie contre recherche séquentielle",
+   "contexte": "On compare deux fonctions de recherche dans une liste triée de n entiers (n très grand) : recherche_seq(tab, x) (parcours de gauche à droite) et recherche_dicho(tab, x) (on coupe l'intervalle en deux à chaque étape). Pour n = 1 000 000, la première peut effectuer jusqu'à 1 000 000 de comparaisons, la seconde au plus une vingtaine.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "complexite",
+     "enonce": "Expliquer pourquoi la recherche dichotomique n'effectue qu'une vingtaine de comparaisons dans le pire cas pour n = 1 000 000.",
+     "points": 1,
+     "reponse_attendue": "À chaque étape la taille de l'intervalle est divisée par 2 ; après k étapes il reste n/2^k éléments. Comme 2^20 ≈ 1 048 576 > 10^6, au plus environ 20 étapes suffisent : coût logarithmique O(log2 n)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Classer des algorithmes",
+   "contexte": "Trois algorithmes traitent une liste de n éléments :\n- tri fusion : O(n log n) ;\n- tri par insertion (pire cas) : O(n²) ;\n- calcul du maximum : O(n).\nUne complexité quasi-linéaire se situe entre une complexité linéaire et une complexité quadratique.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "complexite",
+     "enonce": "Déterminer l'ordre des trois algorithmes, du plus rapide au plus lent pour n grand.",
+     "points": 1,
+     "reponse_attendue": "Maximum O(n), puis tri fusion O(n log n), puis tri par insertion O(n²)."
+    }
+   ]
+  }
+ ]
+}

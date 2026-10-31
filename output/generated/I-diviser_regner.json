@@ -1,0 +1,47 @@
+{
+ "id": "I-diviser_regner",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Maximum par dichotomie",
+   "contexte": "On considère la fonction suivante (t est une liste non vide d'entiers, g et d sont des indices inclus avec g <= d) :\n\n```python\ndef maximum(t, g, d):\n    if g == d:\n        return t[g]\n    m = (g + d) // 2\n    a = maximum(t, g, m)       # moitié gauche (indices g à m)\n    b = maximum(t, m + 1, d)   # moitié droite (indices m+1 à d)\n    if a > b:\n        return a\n    return b\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "diviser_regner",
+     "enonce": "Donner la valeur renvoyée par l'appel maximum([4, 9, 2, 7, 5], 2, 4) ainsi que la liste des couples (g, d) des appels récursifs effectués (appel initial compris).",
+     "points": 1,
+     "reponse_attendue": "Valeur renvoyée : 7. Appels : (2, 4), (2, 3), (2, 2), (3, 3), (4, 4)."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Exponentiation rapide",
+   "contexte": "Pour calculer x puissance n (n entier positif), on utilise la méthode « diviser pour régner » suivante, implémentée par une fonction récursive expo(x, n) : si n vaut 0, le résultat est 1 ; sinon on calcule une seule fois p = expo(x, n // 2), puis on renvoie p * p si n est pair et p * p * x si n est impair. On appelle expo(2, 13).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "diviser_regner",
+     "enonce": "Donner la valeur renvoyée par l'appel expo(2, 13) et la suite des valeurs de n prises par les appels successifs.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef expo(x, n):\n    if n == 0:\n        return 1\n    p = expo(x, n // 2)\n    if n % 2 == 0:\n        return p * p\n    return p * p * x\n\nassert expo(2, 13) == 8192\n```\nValeurs de n : 13, 6, 3, 1, 0. Valeur renvoyée : 8192."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Comparaison de tris",
+   "contexte": "Une animation compare trois tris sur une liste de 100 000 entiers aléatoires : le tri par sélection (coût quadratique), le tri par insertion (coût quadratique dans le cas moyen) et le tri fusion, qui coupe la liste en deux, trie récursivement chaque moitié puis fusionne les deux moitiés triées.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "diviser_regner",
+     "enonce": "Déterminer le tri qui termine le premier dans cette animation, en justifiant par sa complexité.",
+     "points": 1,
+     "reponse_attendue": "Le tri fusion : grâce à la stratégie diviser pour régner, il a une complexité en O(n log n), alors que les tris par sélection et par insertion sont en O(n²) ; pour n = 100 000, n log n ≈ 1,7 million contre n² = 10 milliards."
+    }
+   ]
+  }
+ ]
+}

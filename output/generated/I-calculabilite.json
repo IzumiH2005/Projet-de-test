@@ -1,0 +1,61 @@
+{
+ "id": "I-calculabilite",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Problèmes décidables ?",
+   "contexte": "Voici une liste de problèmes :\n- P1 : déterminer si un entier n donné est pair ;\n- P2 : déterminer si un programme Python quelconque s'arrête sur une entrée donnée ;\n- P3 : déterminer si une liste d'entiers donnée est triée ;\n- P4 : déterminer si deux programmes quelconques calculent toujours le même résultat.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "calculabilite",
+     "enonce": "Parmi les problèmes ci-dessus, sélectionner ceux qui sont décidables.",
+     "points": 1,
+     "reponse_attendue": "P1 et P3 (un algorithme qui termine toujours les résout). P2 (problème de l'arrêt) et P4 sont indécidables."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Le problème de l'arrêt",
+   "contexte": "En 1936, un mathématicien britannique a démontré qu'il n'existe aucun programme capable de dire, pour tout programme P et toute entrée e, si P s'arrête sur e. Sa démonstration raisonne par l'absurde : on suppose l'existence d'une fonction arret(P, e) puis on construit un programme qui contredit sa réponse.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "calculabilite",
+     "enonce": "Donner le nom de ce mathématicien et le nom du problème dont il a démontré l'indécidabilité.",
+     "points": 1,
+     "reponse_attendue": "Alan Turing ; le problème de l'arrêt."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Suite de Syracuse",
+   "contexte": "On considère la fonction :\n\n```python\ndef syracuse(n):\n    etapes = 0\n    while n != 1:\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n        etapes += 1\n    return etapes\n```\n\nPersonne n'a encore démontré que cette boucle termine pour tout entier n >= 1. Valeurs de test : 1, 3, 6.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "calculabilite",
+     "enonce": "Donner les valeurs renvoyées par syracuse(1), syracuse(3) et syracuse(6).",
+     "points": 1,
+     "reponse_attendue": "syracuse(1) = 0 ; syracuse(3) = 7 (3,10,5,16,8,4,2,1) ; syracuse(6) = 8 (6,3,10,5,16,8,4,2,1)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Un vérificateur universel",
+   "contexte": "Une entreprise annonce un logiciel « Verif » qui, pour tout programme Python et toute entrée, indique en un temps fini si le programme finira par afficher « erreur ». L'indécidabilité est un concept fondamental en logique : certains problèmes ne peuvent être résolus par aucun algorithme.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "calculabilite",
+     "enonce": "En étudiant cette annonce, dire si un tel logiciel peut exister. Justifier la réponse.",
+     "points": 1,
+     "reponse_attendue": "Non. Si Verif existait, on décide l'arrêt d'un programme P sur e en construisant Q qui exécute P(e) puis affiche « erreur » : Q affiche « erreur » si et seulement si P s'arrête. Verif résoudrait le problème de l'arrêt, qui est indécidable : contradiction."
+    }
+   ]
+  }
+ ]
+}

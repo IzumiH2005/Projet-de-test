@@ -1,0 +1,61 @@
+{
+ "id": "I-algo_simples",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Relevés de température",
+   "contexte": "Une station météo enregistre une température par heure dans une liste temp de n valeurs. Pour trouver la température maximale de la journée, le programme initialise une variable m avec temp[0], puis parcourt une seule fois les éléments restants en remplaçant m dès qu'il rencontre une valeur plus grande.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "algo_simples",
+     "enonce": "Donner le nombre de comparaisons entre éléments effectuées par cet algorithme pour une liste de n valeurs, et sa complexité.",
+     "points": 1,
+     "reponse_attendue": "n - 1 comparaisons ; complexité linéaire O(n)."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Quel algorithme ?",
+   "contexte": "Un élève propose quatre façons de calculer la moyenne d'une liste notes de n nombres :\n- A : trier la liste puis prendre l'élément du milieu ;\n- B : parcourir la liste en ajoutant chaque élément à un accumulateur s, puis renvoyer s / n ;\n- C : renvoyer (max(notes) + min(notes)) / 2 ;\n- D : pour chaque élément, parcourir toute la liste et additionner.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "algo_simples",
+     "enonce": "Quelle proposition calcule correctement la moyenne avec un coût linéaire ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "B : elle somme tous les éléments en un seul parcours (n additions, coût O(n)) puis divise par n. A donne la médiane, C le milieu de l'étendue, D est quadratique et ne donne pas la moyenne sans division supplémentaire."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Plus longue série",
+   "contexte": "Dans un jeu de pile ou face, les lancers sont stockés dans une liste de chaînes 'P' ou 'F'. On veut une fonction qui prend en paramètre une liste lancers, éventuellement vide, et renvoie la longueur de la plus longue suite de valeurs identiques consécutives, 0 pour une liste vide.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "algo_simples",
+     "enonce": "Écrire une fonction plus_longue_serie(lancers) qui renvoie la longueur de la plus longue suite de valeurs identiques consécutives de lancers.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef plus_longue_serie(lancers):\n    if len(lancers) == 0:\n        return 0\n    meilleur = 1\n    courant = 1\n    for i in range(1, len(lancers)):\n        if lancers[i] == lancers[i - 1]:\n            courant += 1\n        else:\n            courant = 1\n        if courant > meilleur:\n            meilleur = courant\n    return meilleur\n\nassert plus_longue_serie(['P', 'F', 'F', 'F', 'P', 'P']) == 3\nassert plus_longue_serie([]) == 0\n```"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Itinéraire le moins coûteux",
+   "contexte": "Le protocole OSPF choisit la route qui minimise la somme des coûts des liaisons empruntées. Les coûts entre routeurs sont donnés dans le dictionnaire : couts = {('A','B'): 10, ('B','D'): 10, ('A','C'): 1, ('C','D'): 50, ('C','B'): 1}. Les seules routes sans boucle de A vers D sont : A-B-D, A-C-D, A-C-B-D. Un algorithme simple calcule la somme des coûts de chaque route (somme par accumulation) puis garde le minimum.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "algo_simples",
+     "enonce": "Déterminer la route de A vers D retenue par cet algorithme, en donnant le coût total de chaque route.",
+     "points": 1,
+     "reponse_attendue": "A-B-D : 20 ; A-C-D : 51 ; A-C-B-D : 1 + 1 + 10 = 12. Route retenue : A-C-B-D (coût 12)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "I-representation_nombres",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Conversion en binaire",
+   "contexte": "Un capteur transmet des entiers naturels compris entre 0 et 255 sur 8 bits. La fonction ci-dessous doit renvoyer la chaîne de 8 caractères '0'/'1' représentant n en binaire ; par exemple binaire8(13) renvoie '00001101'.\n\n```\n1 def binaire8(n):\n2     s = ''\n3     for i in range(8):\n4         s = ... + s\n5         n = ...\n6     return s\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "representation_nombres",
+     "enonce": "Recopier et compléter les lignes 4 et 5 de la fonction binaire8.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef binaire8(n):\n    s = ''\n    for i in range(8):\n        s = str(n % 2) + s\n        n = n // 2\n    return s\n\nprint(binaire8(13))  # '00001101'\n```"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Somme de flottants",
+   "contexte": "On exécute en Python les instructions suivantes :\n\n```python\n>>> 0.1 + 0.2\n0.30000000000000004\n>>> 0.5 + 0.25\n0.75\n>>> 0.1 + 0.2 == 0.3\nFalse\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "representation_nombres",
+     "enonce": "Expliquer pourquoi 0.5 + 0.25 est calculé exactement alors que 0.1 + 0.2 ne donne pas exactement 0.3.",
+     "points": 1,
+     "reponse_attendue": "Les flottants sont stockés en binaire sur un nombre fini de bits. 0.5 = 2^-1 et 0.25 = 2^-2 ont une écriture binaire finie, donc sont représentés exactement. 0.1 et 0.2 ont une écriture binaire infinie périodique : ils sont arrondis, et la somme des approximations diffère de l'approximation de 0.3."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Codage d'une température",
+   "contexte": "Une station météo doit stocker des températures entières comprises entre -40 °C et +60 °C. Le concepteur dispose de mots de 8 bits et hésite sur la façon de représenter les valeurs négatives.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "representation_nombres",
+     "enonce": "Proposer une représentation sur 8 bits permettant de coder toutes ces températures, et donner le code de -40 avec cette représentation.",
+     "points": 1,
+     "reponse_attendue": "Par exemple le complément à deux sur 8 bits (de -128 à 127, suffisant). -40 : 40 = 00101000, inversion 11010111, +1 → 11011000. (Autre solution valable : décalage de +40, -40 codé 00000000.)"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Coût OSPF et débits",
+   "contexte": "Dans un réseau utilisant OSPF, le coût d'une liaison est calculé par la formule coût = 10^8 / d, où d est le débit en bits/s. Les débits sont notés en puissances de 10 :\n- A–B : 10^8 bit/s (Fast Ethernet)\n- A–C : 10^7 bit/s\n- C–B : 10^9 bit/s\n- B–D : 10^7 bit/s\n- C–D : 10^8 bit/s",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "representation_nombres",
+     "enonce": "Déterminer le coût de chaque liaison puis le chemin de coût minimal de A vers D.",
+     "points": 1,
+     "reponse_attendue": "Coûts : A–B = 1, A–C = 10, C–B = 0,1, B–D = 10, C–D = 1. Chemins : A-B-D = 11 ; A-C-D = 11 ; A-B-C-D = 1 + 0,1 + 1 = 2,1. Chemin minimal : A → B → C → D (coût 2,1)."
+    }
+   ]
+  }
+ ]
+}

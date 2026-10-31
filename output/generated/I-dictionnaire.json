@@ -1,0 +1,61 @@
+{
+ "id": "I-dictionnaire",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Dépouillement d'un vote",
+   "contexte": "Lors de l'élection des délégués, chaque bulletin contient le prénom d'un candidat. Les bulletins sont rangés dans une liste de chaînes. Un élève propose la fonction suivante, qui doit renvoyer un dictionnaire associant à chaque candidat son nombre de voix :\n\n```python\n1 def compter_voix(bulletins):\n2     resultats = {}\n3     for nom in bulletins:\n4         resultats[nom] = resultats[nom] + 1\n5     return resultats\n```\n\nL'appel `compter_voix(['Lina', 'Hugo', 'Lina'])` provoque l'erreur `KeyError: 'Lina'`.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "dictionnaire",
+     "enonce": "Modifier le code de la fonction compter_voix pour qu'elle renvoie le bon dictionnaire, y compris lorsqu'un candidat apparaît pour la première fois.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef compter_voix(bulletins):\n    resultats = {}\n    for nom in bulletins:\n        if nom in resultats:\n            resultats[nom] = resultats[nom] + 1\n        else:\n            resultats[nom] = 1\n    return resultats\n\nassert compter_voix(['Lina', 'Hugo', 'Lina']) == {'Lina': 2, 'Hugo': 1}\n```\nL'erreur venait de la lecture de resultats[nom] alors que la clé nom n'existait pas encore."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Contrôle des badges",
+   "contexte": "Le portique d'un lycée de 2 000 élèves doit décider, à chaque passage, si un numéro de badge est autorisé. Le service informatique hésite entre deux représentations : une liste `badges` contenant les 2 000 numéros autorisés, testée avec `num in badges`, ou un dictionnaire `autorisations` dont les clés sont les numéros autorisés (valeur : le nom de l'élève), testé avec `num in autorisations`. Les passages sont très nombreux le matin.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "dictionnaire",
+     "enonce": "Expliquer pourquoi le dictionnaire est préférable à la liste dans le cas de ce portique.",
+     "points": 1,
+     "reponse_attendue": "Le test `num in badges` sur une liste parcourt les éléments un par un : coût linéaire en la taille (jusqu'à 2 000 comparaisons). Un dictionnaire est une table de hachage : la clé est hachée pour accéder directement à son emplacement, le test d'appartenance se fait en temps constant en moyenne, indépendamment du nombre d'élèves. De plus le dictionnaire associe directement le nom à la clé."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Relevés de températures",
+   "contexte": "On dispose des relevés de températures (en degrés, entiers) suivants et du script :\n\n```python\nreleves = [12, 15, 12, 9, 15, 12]\nfreq = {}\nfor t in releves:\n    freq[t] = freq.get(t, 0) + 1\n```\n\nOn rappelle que `d.get(cle, defaut)` renvoie `d[cle]` si la clé existe et `defaut` sinon.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "dictionnaire",
+     "enonce": "Donner le contenu du dictionnaire freq après l'exécution de ce script.",
+     "points": 1,
+     "reponse_attendue": "{12: 3, 15: 2, 9: 1}"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Mise à jour d'un stock",
+   "contexte": "Une épicerie représente son stock par un dictionnaire :\n\n```python\nstock = {'pomme': 12, 'poire': 5, 'kiwi': 20}\nstock['poire'] = 8\n```",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "dictionnaire",
+     "enonce": "Indiquer la clé concernée par la seconde instruction et préciser son rôle, puis donner le contenu de stock après cette instruction.",
+     "points": 1,
+     "reponse_attendue": "La clé est 'poire' : elle identifie de façon unique l'entrée du dictionnaire. Comme elle existe déjà, l'affectation ne crée pas de nouvelle entrée mais remplace la valeur associée (5 devient 8). stock = {'pomme': 12, 'poire': 8, 'kiwi': 20}."
+    }
+   ]
+  }
+ ]
+}

@@ -2306,6 +2306,2894 @@ SELECT Hotel.nom, Hotel.ville FROM Hotel JOIN Service ON Hotel.id_hotel = Servic
 
 </details>
 
+## I-abr
+### Exercice 1 — Mystère dans un ABR
+
+Une médiathèque range les cotes numériques de ses ouvrages dans un arbre binaire de recherche. Un nœud est un objet de la classe Noeud (attributs valeur, gauche, droit ; None représente l'arbre vide).
+
+```python
+1 def mystere(a):
+2     if a is None:
+3         return None
+4     if a.droit is None:
+5         return a.valeur
+6     return mystere(a.droit)
+```
+
+L'ABR contient les cotes 50 (racine), 30 et 70 (fils de 50), 20 et 40 (fils de 30), 60 et 80 (fils de 70).
+
+**Q1** (1 pt, abr) Donner la valeur renvoyée par l'appel mystere(racine) puis expliquer en une phrase ce que calcule cette fonction pour un ABR quelconque.
+
+<details><summary>Corrigé</summary>
+
+80. La fonction descend toujours vers le fils droit : elle renvoie la plus grande valeur de l'ABR (None si l'arbre est vide).
+
+</details>
+
+### Exercice 2 — Compter les cotes d'un intervalle
+
+On reprend la classe Noeud (attributs valeur, gauche, droit ; None pour l'arbre vide). La fonction demandée prend trois paramètres : un ABR a, un entier bas, un entier haut ; elle renvoie le nombre de valeurs v de l'arbre telles que bas <= v <= haut, en n'explorant un sous-arbre que s'il peut contenir de telles valeurs.
+
+**Q2** (1 pt, abr) Écrire une fonction compte_intervalle(a, bas, haut) qui renvoie le nombre de valeurs de l'ABR a comprises entre bas et haut (inclus).
+
+<details><summary>Corrigé</summary>
+
+```python
+class Noeud:
+    def __init__(self, v, g=None, d=None):
+        self.valeur, self.gauche, self.droit = v, g, d
+
+def compte_intervalle(a, bas, haut):
+    if a is None:
+        return 0
+    if a.valeur < bas:
+        return compte_intervalle(a.droit, bas, haut)
+    if a.valeur > haut:
+        return compte_intervalle(a.gauche, bas, haut)
+    return 1 + compte_intervalle(a.gauche, bas, haut) + compte_intervalle(a.droit, bas, haut)
+
+r = Noeud(50, Noeud(30, Noeud(20), Noeud(40)), Noeud(70, Noeud(60), Noeud(80)))
+assert compte_intervalle(r, 35, 65) == 3
+```
+
+</details>
+
+### Exercice 3 — Index d'une base de données
+
+Un SGBD indexe la colonne age d'une table à l'aide d'un ABR : c'est l'une des utilisations classiques des ABR (bases de données indexées). Les âges sont insérés dans l'ordre 41, 25, 63, 25, 30, 70 avec la règle du cours : une valeur inférieure ou égale à celle d'un nœud va dans son sous-arbre gauche, une valeur strictement supérieure dans son sous-arbre droit.
+
+**Q3** (1 pt, abr) Donner la liste obtenue par le parcours infixe de l'ABR après ces six insertions, puis la hauteur de l'arbre (un arbre réduit à sa racine a une hauteur de 1).
+
+<details><summary>Corrigé</summary>
+
+Infixe : [25, 25, 30, 41, 63, 70]. Arbre : 41 → gauche 25 (dont le fils gauche est 25 et le fils droit 30), droite 63 → droit 70. Hauteur 3.
+
+</details>
+
+## I-algo_simples
+### Exercice 1 — Relevés de température
+
+Une station météo enregistre une température par heure dans une liste temp de n valeurs. Pour trouver la température maximale de la journée, le programme initialise une variable m avec temp[0], puis parcourt une seule fois les éléments restants en remplaçant m dès qu'il rencontre une valeur plus grande.
+
+**Q1** (1 pt, algo_simples) Donner le nombre de comparaisons entre éléments effectuées par cet algorithme pour une liste de n valeurs, et sa complexité.
+
+<details><summary>Corrigé</summary>
+
+n - 1 comparaisons ; complexité linéaire O(n).
+
+</details>
+
+### Exercice 2 — Quel algorithme ?
+
+Un élève propose quatre façons de calculer la moyenne d'une liste notes de n nombres :
+- A : trier la liste puis prendre l'élément du milieu ;
+- B : parcourir la liste en ajoutant chaque élément à un accumulateur s, puis renvoyer s / n ;
+- C : renvoyer (max(notes) + min(notes)) / 2 ;
+- D : pour chaque élément, parcourir toute la liste et additionner.
+
+**Q2** (1 pt, algo_simples) Quelle proposition calcule correctement la moyenne avec un coût linéaire ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+B : elle somme tous les éléments en un seul parcours (n additions, coût O(n)) puis divise par n. A donne la médiane, C le milieu de l'étendue, D est quadratique et ne donne pas la moyenne sans division supplémentaire.
+
+</details>
+
+### Exercice 3 — Plus longue série
+
+Dans un jeu de pile ou face, les lancers sont stockés dans une liste de chaînes 'P' ou 'F'. On veut une fonction qui prend en paramètre une liste lancers, éventuellement vide, et renvoie la longueur de la plus longue suite de valeurs identiques consécutives, 0 pour une liste vide.
+
+**Q3** (1 pt, algo_simples) Écrire une fonction plus_longue_serie(lancers) qui renvoie la longueur de la plus longue suite de valeurs identiques consécutives de lancers.
+
+<details><summary>Corrigé</summary>
+
+```python
+def plus_longue_serie(lancers):
+    if len(lancers) == 0:
+        return 0
+    meilleur = 1
+    courant = 1
+    for i in range(1, len(lancers)):
+        if lancers[i] == lancers[i - 1]:
+            courant += 1
+        else:
+            courant = 1
+        if courant > meilleur:
+            meilleur = courant
+    return meilleur
+
+assert plus_longue_serie(['P', 'F', 'F', 'F', 'P', 'P']) == 3
+assert plus_longue_serie([]) == 0
+```
+
+</details>
+
+### Exercice 4 — Itinéraire le moins coûteux
+
+Le protocole OSPF choisit la route qui minimise la somme des coûts des liaisons empruntées. Les coûts entre routeurs sont donnés dans le dictionnaire : couts = {('A','B'): 10, ('B','D'): 10, ('A','C'): 1, ('C','D'): 50, ('C','B'): 1}. Les seules routes sans boucle de A vers D sont : A-B-D, A-C-D, A-C-B-D. Un algorithme simple calcule la somme des coûts de chaque route (somme par accumulation) puis garde le minimum.
+
+**Q4** (1 pt, algo_simples) Déterminer la route de A vers D retenue par cet algorithme, en donnant le coût total de chaque route.
+
+<details><summary>Corrigé</summary>
+
+A-B-D : 20 ; A-C-D : 51 ; A-C-B-D : 1 + 1 + 10 = 12. Route retenue : A-C-B-D (coût 12).
+
+</details>
+
+## I-arbre_binaire
+### Exercice 1 — Arbre complet en tableau
+
+On représente un arbre binaire complet de taille n par un tableau t de taille n + 1 : t[0] contient n, la racine est en t[1], et le nœud d'indice i a son fils gauche à l'indice 2*i et son fils droit à l'indice 2*i + 1.
+
+t = [7, 'A', 'B', 'C', 'D', 'E', 'F', 'G']
+
+**Q1** (1 pt, arbre_binaire) Déterminer le nombre de feuilles de l'arbre représenté par t, puis écrire une fonction nb_feuilles(t) qui renvoie ce nombre pour un tel tableau.
+
+<details><summary>Corrigé</summary>
+
+4 feuilles (D, E, F, G). Un nœud i est une feuille si 2*i > n.
+```python
+def nb_feuilles(t):
+    n = t[0]
+    c = 0
+    for i in range(1, n + 1):
+        if 2 * i > n:
+            c += 1
+    return c
+
+assert nb_feuilles([7, 'A', 'B', 'C', 'D', 'E', 'F', 'G']) == 4
+```
+
+</details>
+
+## I-calculabilite
+### Exercice 1 — Problèmes décidables ?
+
+Voici une liste de problèmes :
+- P1 : déterminer si un entier n donné est pair ;
+- P2 : déterminer si un programme Python quelconque s'arrête sur une entrée donnée ;
+- P3 : déterminer si une liste d'entiers donnée est triée ;
+- P4 : déterminer si deux programmes quelconques calculent toujours le même résultat.
+
+**Q1** (1 pt, calculabilite) Parmi les problèmes ci-dessus, sélectionner ceux qui sont décidables.
+
+<details><summary>Corrigé</summary>
+
+P1 et P3 (un algorithme qui termine toujours les résout). P2 (problème de l'arrêt) et P4 sont indécidables.
+
+</details>
+
+### Exercice 2 — Le problème de l'arrêt
+
+En 1936, un mathématicien britannique a démontré qu'il n'existe aucun programme capable de dire, pour tout programme P et toute entrée e, si P s'arrête sur e. Sa démonstration raisonne par l'absurde : on suppose l'existence d'une fonction arret(P, e) puis on construit un programme qui contredit sa réponse.
+
+**Q2** (1 pt, calculabilite) Donner le nom de ce mathématicien et le nom du problème dont il a démontré l'indécidabilité.
+
+<details><summary>Corrigé</summary>
+
+Alan Turing ; le problème de l'arrêt.
+
+</details>
+
+### Exercice 3 — Suite de Syracuse
+
+On considère la fonction :
+
+```python
+def syracuse(n):
+    etapes = 0
+    while n != 1:
+        if n % 2 == 0:
+            n = n // 2
+        else:
+            n = 3 * n + 1
+        etapes += 1
+    return etapes
+```
+
+Personne n'a encore démontré que cette boucle termine pour tout entier n >= 1. Valeurs de test : 1, 3, 6.
+
+**Q3** (1 pt, calculabilite) Donner les valeurs renvoyées par syracuse(1), syracuse(3) et syracuse(6).
+
+<details><summary>Corrigé</summary>
+
+syracuse(1) = 0 ; syracuse(3) = 7 (3,10,5,16,8,4,2,1) ; syracuse(6) = 8 (6,3,10,5,16,8,4,2,1).
+
+</details>
+
+### Exercice 4 — Un vérificateur universel
+
+Une entreprise annonce un logiciel « Verif » qui, pour tout programme Python et toute entrée, indique en un temps fini si le programme finira par afficher « erreur ». L'indécidabilité est un concept fondamental en logique : certains problèmes ne peuvent être résolus par aucun algorithme.
+
+**Q4** (1 pt, calculabilite) En étudiant cette annonce, dire si un tel logiciel peut exister. Justifier la réponse.
+
+<details><summary>Corrigé</summary>
+
+Non. Si Verif existait, on décide l'arrêt d'un programme P sur e en construisant Q qui exécute P(e) puis affiche « erreur » : Q affiche « erreur » si et seulement si P s'arrête. Verif résoudrait le problème de l'arrêt, qui est indécidable : contradiction.
+
+</details>
+
+## I-chaines
+### Exercice 1 — Mot de passe valide
+
+Un site impose les règles suivantes à un mot de passe mdp : longueur au moins 8, au moins une lettre majuscule, au moins un chiffre, aucun espace. La fonction renvoie True si toutes les règles sont respectées, False sinon.
+
+**Q1** (1 pt, chaines) Écrire une fonction est_valide(mdp) qui renvoie True si la chaîne mdp respecte toutes les règles. Exemple : est_valide('Nsi2026ok') renvoie True.
+
+<details><summary>Corrigé</summary>
+
+```python
+def est_valide(mdp):
+    if len(mdp) < 8:
+        return False
+    maj = False
+    chiffre = False
+    for c in mdp:
+        if c == ' ':
+            return False
+        if 'A' <= c <= 'Z':
+            maj = True
+        if '0' <= c <= '9':
+            chiffre = True
+    return maj and chiffre
+
+assert est_valide('Nsi2026ok')
+assert not est_valide('nsi2026ok')
+assert not est_valide('Nsi 2026ok')
+```
+
+</details>
+
+### Exercice 2 — Palindrome à compléter
+
+On considère la fonction à trous suivante, qui doit renvoyer True si la chaîne s se lit de la même façon dans les deux sens :
+
+```python
+1 def est_palindrome(s):
+2     i = 0
+3     j = ...
+4     while i < j:
+5         if s[i] != s[j]:
+6             return ...
+7         i = i + 1
+8         j = ...
+9     return True
+```
+
+**Q2** (1 pt, chaines) Recopier et compléter les lignes 3, 6 et 8 de la fonction est_palindrome.
+
+<details><summary>Corrigé</summary>
+
+```python
+def est_palindrome(s):
+    i = 0
+    j = len(s) - 1
+    while i < j:
+        if s[i] != s[j]:
+            return False
+        i = i + 1
+        j = j - 1
+    return True
+
+assert est_palindrome('radar') and not est_palindrome('nsi')
+```
+
+</details>
+
+### Exercice 3 — Bandeau de caractères
+
+Une enseigne lumineuse affiche la chaîne s = 'TERMINALE' : la figure 1 la représente comme une rangée de 9 cases numérotées de 0 à 8, chaque case contenant un caractère (case 0 : 'T', case 8 : 'E'). Le programme d'affichage lit s[k] pour allumer la case k.
+
+**Q3** (1 pt, chaines) En vous appuyant sur la figure 1, donner la valeur de s[4], de s[-1] et de s[2:5].
+
+<details><summary>Corrigé</summary>
+
+s[4] = 'I' ; s[-1] = 'E' ; s[2:5] = 'RMI'.
+
+</details>
+
+### Exercice 4 — Texte sur une seule chaîne
+
+Avant une recherche textuelle, on récupère tout le texte d'un fichier dans une seule chaîne. Le contenu lu est fourni sous forme d'une liste de lignes, chacune terminée par '\n', par exemple lignes = ['Le chat\n', 'dort.\n'].
+
+**Q4** (1 pt, chaines) Écrire une fonction texte_unique(lignes) qui renvoie une seule chaîne où les lignes sont mises bout à bout et chaque '\n' remplacé par une espace. Exemple : texte_unique(['Le chat\n', 'dort.\n']) renvoie 'Le chat dort. '.
+
+<details><summary>Corrigé</summary>
+
+```python
+def texte_unique(lignes):
+    texte = ''
+    for ligne in lignes:
+        for c in ligne:
+            if c == '\n':
+                texte = texte + ' '
+            else:
+                texte = texte + c
+    return texte
+
+assert texte_unique(['Le chat\n', 'dort.\n']) == 'Le chat dort. '
+```
+
+</details>
+
+## I-complexite
+### Exercice 1 — Compteur d'opérations
+
+Une classe Compteur sert à mesurer le coût d'un algorithme. Elle possède un attribut nb (entier, initialisé à 0) et une méthode recherche(self, tab, x) : celle-ci parcourt la liste tab, incrémente nb à chaque comparaison avec x, renvoie True dès que x est trouvé, False sinon.
+
+**Q1** (1 pt, complexite) Écrire la classe Compteur avec son constructeur et la méthode recherche décrite ci-dessus.
+
+<details><summary>Corrigé</summary>
+
+```python
+class Compteur:
+    def __init__(self):
+        self.nb = 0
+
+    def recherche(self, tab, x):
+        for v in tab:
+            self.nb += 1
+            if v == x:
+                return True
+        return False
+
+c = Compteur()
+assert c.recherche([4, 8, 1], 7) is False and c.nb == 3
+```
+
+</details>
+
+### Exercice 2 — Doubler la taille
+
+Un programme de tri par sélection met 2 secondes pour trier une liste de 10 000 éléments. On sait que son coût est quadratique en la taille n de la liste, quel que soit l'ordre initial des éléments.
+
+**Q2** (1 pt, complexite) Donner une estimation du temps nécessaire pour trier une liste de 20 000 éléments.
+
+<details><summary>Corrigé</summary>
+
+Environ 8 secondes : doubler n multiplie un coût en n² par 4.
+
+</details>
+
+### Exercice 3 — Dichotomie contre recherche séquentielle
+
+On compare deux fonctions de recherche dans une liste triée de n entiers (n très grand) : recherche_seq(tab, x) (parcours de gauche à droite) et recherche_dicho(tab, x) (on coupe l'intervalle en deux à chaque étape). Pour n = 1 000 000, la première peut effectuer jusqu'à 1 000 000 de comparaisons, la seconde au plus une vingtaine.
+
+**Q3** (1 pt, complexite) Expliquer pourquoi la recherche dichotomique n'effectue qu'une vingtaine de comparaisons dans le pire cas pour n = 1 000 000.
+
+<details><summary>Corrigé</summary>
+
+À chaque étape la taille de l'intervalle est divisée par 2 ; après k étapes il reste n/2^k éléments. Comme 2^20 ≈ 1 048 576 > 10^6, au plus environ 20 étapes suffisent : coût logarithmique O(log2 n).
+
+</details>
+
+### Exercice 4 — Classer des algorithmes
+
+Trois algorithmes traitent une liste de n éléments :
+- tri fusion : O(n log n) ;
+- tri par insertion (pire cas) : O(n²) ;
+- calcul du maximum : O(n).
+Une complexité quasi-linéaire se situe entre une complexité linéaire et une complexité quadratique.
+
+**Q4** (1 pt, complexite) Déterminer l'ordre des trois algorithmes, du plus rapide au plus lent pour n grand.
+
+<details><summary>Corrigé</summary>
+
+Maximum O(n), puis tri fusion O(n log n), puis tri par insertion O(n²).
+
+</details>
+
+## I-dictionnaire
+### Exercice 1 — Dépouillement d'un vote
+
+Lors de l'élection des délégués, chaque bulletin contient le prénom d'un candidat. Les bulletins sont rangés dans une liste de chaînes. Un élève propose la fonction suivante, qui doit renvoyer un dictionnaire associant à chaque candidat son nombre de voix :
+
+```python
+1 def compter_voix(bulletins):
+2     resultats = {}
+3     for nom in bulletins:
+4         resultats[nom] = resultats[nom] + 1
+5     return resultats
+```
+
+L'appel `compter_voix(['Lina', 'Hugo', 'Lina'])` provoque l'erreur `KeyError: 'Lina'`.
+
+**Q1** (1 pt, dictionnaire) Modifier le code de la fonction compter_voix pour qu'elle renvoie le bon dictionnaire, y compris lorsqu'un candidat apparaît pour la première fois.
+
+<details><summary>Corrigé</summary>
+
+```python
+def compter_voix(bulletins):
+    resultats = {}
+    for nom in bulletins:
+        if nom in resultats:
+            resultats[nom] = resultats[nom] + 1
+        else:
+            resultats[nom] = 1
+    return resultats
+
+assert compter_voix(['Lina', 'Hugo', 'Lina']) == {'Lina': 2, 'Hugo': 1}
+```
+L'erreur venait de la lecture de resultats[nom] alors que la clé nom n'existait pas encore.
+
+</details>
+
+### Exercice 2 — Contrôle des badges
+
+Le portique d'un lycée de 2 000 élèves doit décider, à chaque passage, si un numéro de badge est autorisé. Le service informatique hésite entre deux représentations : une liste `badges` contenant les 2 000 numéros autorisés, testée avec `num in badges`, ou un dictionnaire `autorisations` dont les clés sont les numéros autorisés (valeur : le nom de l'élève), testé avec `num in autorisations`. Les passages sont très nombreux le matin.
+
+**Q2** (1 pt, dictionnaire) Expliquer pourquoi le dictionnaire est préférable à la liste dans le cas de ce portique.
+
+<details><summary>Corrigé</summary>
+
+Le test `num in badges` sur une liste parcourt les éléments un par un : coût linéaire en la taille (jusqu'à 2 000 comparaisons). Un dictionnaire est une table de hachage : la clé est hachée pour accéder directement à son emplacement, le test d'appartenance se fait en temps constant en moyenne, indépendamment du nombre d'élèves. De plus le dictionnaire associe directement le nom à la clé.
+
+</details>
+
+### Exercice 3 — Relevés de températures
+
+On dispose des relevés de températures (en degrés, entiers) suivants et du script :
+
+```python
+releves = [12, 15, 12, 9, 15, 12]
+freq = {}
+for t in releves:
+    freq[t] = freq.get(t, 0) + 1
+```
+
+On rappelle que `d.get(cle, defaut)` renvoie `d[cle]` si la clé existe et `defaut` sinon.
+
+**Q3** (1 pt, dictionnaire) Donner le contenu du dictionnaire freq après l'exécution de ce script.
+
+<details><summary>Corrigé</summary>
+
+{12: 3, 15: 2, 9: 1}
+
+</details>
+
+### Exercice 4 — Mise à jour d'un stock
+
+Une épicerie représente son stock par un dictionnaire :
+
+```python
+stock = {'pomme': 12, 'poire': 5, 'kiwi': 20}
+stock['poire'] = 8
+```
+
+**Q4** (1 pt, dictionnaire) Indiquer la clé concernée par la seconde instruction et préciser son rôle, puis donner le contenu de stock après cette instruction.
+
+<details><summary>Corrigé</summary>
+
+La clé est 'poire' : elle identifie de façon unique l'entrée du dictionnaire. Comme elle existe déjà, l'affectation ne crée pas de nouvelle entrée mais remplace la valeur associée (5 devient 8). stock = {'pomme': 12, 'poire': 8, 'kiwi': 20}.
+
+</details>
+
+## I-diviser_regner
+### Exercice 1 — Maximum par dichotomie
+
+On considère la fonction suivante (t est une liste non vide d'entiers, g et d sont des indices inclus avec g <= d) :
+
+```python
+def maximum(t, g, d):
+    if g == d:
+        return t[g]
+    m = (g + d) // 2
+    a = maximum(t, g, m)       # moitié gauche (indices g à m)
+    b = maximum(t, m + 1, d)   # moitié droite (indices m+1 à d)
+    if a > b:
+        return a
+    return b
+```
+
+**Q1** (1 pt, diviser_regner) Donner la valeur renvoyée par l'appel maximum([4, 9, 2, 7, 5], 2, 4) ainsi que la liste des couples (g, d) des appels récursifs effectués (appel initial compris).
+
+<details><summary>Corrigé</summary>
+
+Valeur renvoyée : 7. Appels : (2, 4), (2, 3), (2, 2), (3, 3), (4, 4).
+
+</details>
+
+### Exercice 2 — Exponentiation rapide
+
+Pour calculer x puissance n (n entier positif), on utilise la méthode « diviser pour régner » suivante, implémentée par une fonction récursive expo(x, n) : si n vaut 0, le résultat est 1 ; sinon on calcule une seule fois p = expo(x, n // 2), puis on renvoie p * p si n est pair et p * p * x si n est impair. On appelle expo(2, 13).
+
+**Q2** (1 pt, diviser_regner) Donner la valeur renvoyée par l'appel expo(2, 13) et la suite des valeurs de n prises par les appels successifs.
+
+<details><summary>Corrigé</summary>
+
+```python
+def expo(x, n):
+    if n == 0:
+        return 1
+    p = expo(x, n // 2)
+    if n % 2 == 0:
+        return p * p
+    return p * p * x
+
+assert expo(2, 13) == 8192
+```
+Valeurs de n : 13, 6, 3, 1, 0. Valeur renvoyée : 8192.
+
+</details>
+
+### Exercice 3 — Comparaison de tris
+
+Une animation compare trois tris sur une liste de 100 000 entiers aléatoires : le tri par sélection (coût quadratique), le tri par insertion (coût quadratique dans le cas moyen) et le tri fusion, qui coupe la liste en deux, trie récursivement chaque moitié puis fusionne les deux moitiés triées.
+
+**Q3** (1 pt, diviser_regner) Déterminer le tri qui termine le premier dans cette animation, en justifiant par sa complexité.
+
+<details><summary>Corrigé</summary>
+
+Le tri fusion : grâce à la stratégie diviser pour régner, il a une complexité en O(n log n), alors que les tris par sélection et par insertion sont en O(n²) ; pour n = 100 000, n log n ≈ 1,7 million contre n² = 10 milliards.
+
+</details>
+
+## I-donnees_tables
+### Exercice 1 — Filtrer une table de licenciés
+
+Un club sportif stocke ses licenciés dans une table, liste de dictionnaires de la forme `{'nom': 'Diallo', 'ville': 'Lyon', 'age': 16}`. La fonction suivante doit renvoyer la liste des noms des licenciés habitant la ville donnée en paramètre.
+
+```python
+1 def noms_par_ville(table, ville):
+2     resultat = []
+3     for ligne in table:
+4         if ...:
+5             ...
+6     return resultat
+```
+
+**Q1** (1 pt, donnees_tables) Recopier et compléter les lignes 4 et 5 de la fonction noms_par_ville afin qu'elle respecte sa spécification.
+
+<details><summary>Corrigé</summary>
+
+```python
+def noms_par_ville(table, ville):
+    resultat = []
+    for ligne in table:
+        if ligne['ville'] == ville:
+            resultat.append(ligne['nom'])
+    return resultat
+```
+
+</details>
+
+### Exercice 2 — Moyenne d'une colonne
+
+Une table est représentée par une liste de dictionnaires ayant tous les mêmes clés (les attributs). On souhaite une fonction moyenne_attribut prenant deux paramètres : table, la liste de dictionnaires, attribut, une chaîne désignant un attribut à valeurs numériques ; elle renvoie la moyenne des valeurs de cet attribut, ou None si la table est vide.
+
+**Q2** (1 pt, donnees_tables) Écrire une fonction moyenne_attribut(table, attribut) qui prend en paramètre une table et un nom d'attribut et qui renvoie la moyenne des valeurs de cet attribut (None si la table est vide).
+
+<details><summary>Corrigé</summary>
+
+```python
+def moyenne_attribut(table, attribut):
+    if len(table) == 0:
+        return None
+    total = 0
+    for ligne in table:
+        total = total + ligne[attribut]
+    return total / len(table)
+
+assert moyenne_attribut([{'x': 2}, {'x': 4}], 'x') == 3
+assert moyenne_attribut([], 'x') is None
+```
+
+</details>
+
+### Exercice 3 — Tri d'une table de mesures
+
+Une table de mesures est donnée sous forme de liste de tuples (identifiant, valeur) :
+
+```python
+mesures = [(1, 14), (2, 9), (3, 21), (4, 9)]
+
+def valeur(m):
+    return m[1]
+
+res = [m[0] for m in sorted(mesures, key=valeur, reverse=True)]
+```
+
+On rappelle que le tri de Python est stable : deux éléments de même clé gardent leur ordre initial.
+
+**Q3** (1 pt, donnees_tables) Donner le contenu de la liste res après l'exécution de ce code.
+
+<details><summary>Corrigé</summary>
+
+[3, 1, 2, 4]
+
+</details>
+
+### Exercice 4 — Vérifier un fichier téléchargé
+
+Un site d'open data propose le fichier `communes.csv` et indique son empreinte MD5 : `9e107d9d372bb6826bd81d3542a419d6`. Cette empreinte est le résultat que doit donner le fichier lorsqu'il est haché par la fonction MD5. Après téléchargement, Léa calcule l'empreinte MD5 de son fichier et obtient `e4d909c290d0fb1ca068ffaddf22cbd0`.
+
+**Q4** (1 pt, donnees_tables) Le fichier téléchargé par Léa est-il identique au fichier proposé par le site ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+Non : une même donnée donne toujours la même empreinte par la fonction de hachage ; les deux empreintes étant différentes, le fichier de Léa diffère de l'original (téléchargement incomplet ou altéré). Il faut le télécharger à nouveau.
+
+</details>
+
+## I-file
+### Exercice 1 — File d'attente en base de données
+
+Un guichet enregistre sa file d'attente dans la table `Attente(num, nom)` (num : entier, clé primaire, attribué dans l'ordre croissant d'arrivée ; nom : texte). La personne en tête de file est donc celle de plus petit numéro (et non celle de nom le plus petit).
+
+**Q1** (1 pt, file) Donner la requête SQL permettant de défiler, c'est-à-dire de supprimer de la table Attente la personne en tête de file.
+
+<details><summary>Corrigé</summary>
+
+DELETE FROM Attente WHERE num = (SELECT MIN(num) FROM Attente);
+
+</details>
+
+### Exercice 2 — File avec deux piles
+
+On implémente une file avec deux listes Python utilisées comme piles : `entree` reçoit les éléments enfilés (append), `sortie` fournit les éléments défilés (pop). Quand `sortie` est vide, on y transvase tous les éléments de `entree`.
+
+```python
+1 class File:
+2     def __init__(self):
+3         self.entree = []
+4         self.sortie = []
+5     def enfiler(self, x):
+6         self.entree.append(x)
+7     def defiler(self):
+8         ...
+```
+
+On suppose que defiler n'est appelée que sur une file non vide.
+
+**Q2** (1 pt, file) Recopier et compléter la méthode defiler à partir de la ligne 8, qui renvoie et retire l'élément le plus ancien de la file.
+
+<details><summary>Corrigé</summary>
+
+```python
+class File:
+    def __init__(self):
+        self.entree = []
+        self.sortie = []
+    def enfiler(self, x):
+        self.entree.append(x)
+    def defiler(self):
+        if self.sortie == []:
+            while self.entree != []:
+                self.sortie.append(self.entree.pop())
+        return self.sortie.pop()
+
+f = File()
+for x in [1, 2, 3]:
+    f.enfiler(x)
+assert f.defiler() == 1 and f.defiler() == 2
+```
+
+</details>
+
+### Exercice 3 — Taille d'une file
+
+On dispose de l'interface : `creer_file_vide()`, `est_vide(f)`, `enfiler(f, x)`, `defiler(f)` (renvoie et retire la tête). La fonction taille doit renvoyer le nombre d'éléments de f, f devant retrouver son état initial à la fin.
+
+```python
+1 def taille(f):
+2     aux = creer_file_vide()
+3     n = 0
+4     while not est_vide(f):
+5         ...
+6         ...
+7     while not est_vide(aux):
+8         ...
+9     return n
+```
+
+**Q3** (1 pt, file) Recopier et compléter les lignes 5 à 8 de la fonction taille afin qu'elle renvoie le nombre d'éléments sans modifier la file f.
+
+<details><summary>Corrigé</summary>
+
+```python
+from collections import deque
+def creer_file_vide(): return deque()
+def est_vide(f): return len(f) == 0
+def enfiler(f, x): f.append(x)
+def defiler(f): return f.popleft()
+
+def taille(f):
+    aux = creer_file_vide()
+    n = 0
+    while not est_vide(f):
+        enfiler(aux, defiler(f))
+        n = n + 1
+    while not est_vide(aux):
+        enfiler(f, defiler(aux))
+    return n
+
+f = deque([4, 5, 6])
+assert taille(f) == 3 and list(f) == [4, 5, 6]
+```
+
+</details>
+
+### Exercice 4 — Interface minimale d'une file
+
+On considère les opérations suivantes : (a) créer une file vide, (b) tester si la file est vide, (c) enfiler un élément en queue, (d) défiler l'élément de tête, (e) trier la file, (f) accéder au i-ème élément, (g) inverser la file.
+
+**Q4** (1 pt, file) Indiquer les opérations qui constituent a minima l'interface d'une file.
+
+<details><summary>Corrigé</summary>
+
+(a), (b), (c) et (d) : création d'une file vide, test de vacuité, enfiler et défiler (FIFO). Les opérations (e), (f), (g) ne font pas partie de l'interface minimale.
+
+</details>
+
+## I-fonctions
+### Exercice 1 — De la fonction à la requête
+
+Les élèves sont représentés en Python par une liste de dictionnaires et en base de données par la relation `Eleve(id, nom, classe, moyenne)`.
+
+```python
+def admis(eleves, classe):
+    res = []
+    for e in eleves:
+        if e['classe'] == classe and e['moyenne'] >= 10:
+            res.append(e['nom'])
+    return res
+```
+
+**Q1** (1 pt, fonctions) Donner la requête SQL permettant d'obtenir, dans la base, le même résultat que l'appel admis(eleves, 'TG2').
+
+<details><summary>Corrigé</summary>
+
+SELECT nom FROM Eleve WHERE classe = 'TG2' AND moyenne >= 10;
+
+</details>
+
+### Exercice 2 — Effet de bord
+
+La fonction ajoute_bonus prend deux paramètres : notes, une liste de nombres, b, un nombre ; elle ajoute b à chaque élément de notes, modifie la liste en place, ne contient aucune instruction return.
+
+```python
+def ajoute_bonus(notes, b):
+    for i in range(len(notes)):
+        notes[i] = notes[i] + b
+
+L = [8, 12]
+r = ajoute_bonus(L, 2)
+```
+
+**Q2** (1 pt, fonctions) Expliquer pourquoi, après ces instructions, L vaut [10, 14] alors que r vaut None.
+
+<details><summary>Corrigé</summary>
+
+La liste est un objet mutable passé par référence : notes et L désignent la même liste, donc la modification en place est visible dans L (effet de bord). La fonction ne contenant pas de return, elle renvoie implicitement None, valeur affectée à r.
+
+</details>
+
+### Exercice 3 — Réutiliser une fonction
+
+On dispose de la fonction suivante :
+
+```python
+def est_premier(n):
+    if n < 2:
+        return False
+    for d in range(2, n):
+        if n % d == 0:
+            return False
+    return True
+```
+
+**Q3** (1 pt, fonctions) Écrire une fonction premiers_jusqua(n) qui prend en paramètre un entier n et qui renvoie la liste croissante des nombres premiers inférieurs ou égaux à n, en utilisant est_premier.
+
+<details><summary>Corrigé</summary>
+
+```python
+def est_premier(n):
+    if n < 2:
+        return False
+    for d in range(2, n):
+        if n % d == 0:
+            return False
+    return True
+
+def premiers_jusqua(n):
+    res = []
+    for k in range(2, n + 1):
+        if est_premier(k):
+            res.append(k)
+    return res
+
+assert premiers_jusqua(10) == [2, 3, 5, 7]
+assert premiers_jusqua(1) == []
+```
+
+</details>
+
+### Exercice 4 — Recherche dans un arbre
+
+On considère l'arbre binaire de recherche de racine 8, dont le fils gauche est 3 (fils gauche 1, fils droit 6) et le fils droit est 10 (sans fils gauche, fils droit 14). La fonction suivante renvoie True si element est dans l'arbre et False sinon :
+
+```python
+def appartient(arbre, element):
+    if arbre is None:
+        return False
+    if element == arbre.valeur:
+        return True
+    if element < arbre.valeur:
+        return appartient(arbre.gauche, element)
+    return appartient(arbre.droit, element)
+```
+
+**Q4** (1 pt, fonctions) Indiquer les valeurs des nœuds visités lors de l'appel appartient(a, 7), où a est cet arbre, ainsi que la valeur renvoyée.
+
+<details><summary>Corrigé</summary>
+
+Nœuds visités : 8, 3, 6 (puis le sous-arbre droit vide de 6). Valeur renvoyée : False.
+
+</details>
+
+## I-glouton
+### Exercice 1 — Rendu de monnaie
+
+Une caisse automatique rend la monnaie avec les pièces de `pieces = [200, 100, 50, 20, 10, 5, 2, 1]` (en centimes, ordre décroissant). Elle choisit à chaque étape la plus grande pièce ne dépassant pas la somme restante.
+
+```python
+1 def rendu(somme, pieces):
+2     rendues = []
+3     i = 0
+4     while somme > 0:
+5         if ...:
+6             ...
+7             ...
+8         else:
+9             i = i + 1
+10    return rendues
+```
+
+**Q1** (1 pt, glouton) Recopier et compléter les lignes 5 à 7 de la fonction rendu afin qu'elle renvoie la liste des pièces rendues selon la stratégie gloutonne.
+
+<details><summary>Corrigé</summary>
+
+```python
+def rendu(somme, pieces):
+    rendues = []
+    i = 0
+    while somme > 0:
+        if pieces[i] <= somme:
+            rendues.append(pieces[i])
+            somme = somme - pieces[i]
+        else:
+            i = i + 1
+    return rendues
+
+assert rendu(263, [200, 100, 50, 20, 10, 5, 2, 1]) == [200, 50, 10, 2, 1]
+```
+
+</details>
+
+### Exercice 2 — Planning d'une salle
+
+Une salle de sport accueille des activités, chacune représentée par un tuple (debut, fin) d'heures entières. La fonction planning prend en paramètre activites, une liste de tuples, quelconque, éventuellement vide ; elle trie les activités par heure de fin croissante, choisit la première, puis retient chaque activité dont le début est supérieur ou égal à la fin de la dernière activité retenue ; elle renvoie la liste des activités retenues.
+
+**Q2** (1 pt, glouton) Écrire une fonction planning(activites) qui prend en paramètre une liste de tuples (debut, fin) et qui renvoie la liste des activités retenues selon cette stratégie gloutonne.
+
+<details><summary>Corrigé</summary>
+
+```python
+def fin(a):
+    return a[1]
+
+def planning(activites):
+    retenues = []
+    for a in sorted(activites, key=fin):
+        if retenues == [] or a[0] >= retenues[-1][1]:
+            retenues.append(a)
+    return retenues
+
+assert planning([(9, 12), (8, 10), (10, 11), (11, 13)]) == [(8, 10), (10, 11), (11, 13)]
+assert planning([]) == []
+```
+
+</details>
+
+### Exercice 3 — Sac à dos glouton
+
+Un randonneur dispose d'un sac de capacité 10 kg. Les objets sont donnés par des tuples (masse, valeur) et triés par rapport valeur/masse décroissant :
+
+```python
+objets = [(2, 10), (5, 20), (4, 12), (3, 6)]
+
+def sac(objets, capacite):
+    total = 0
+    for m, v in objets:
+        if m <= capacite:
+            capacite = capacite - m
+            total = total + v
+    return total
+```
+
+**Q3** (1 pt, glouton) Donner la valeur renvoyée par l'appel sac(objets, 10).
+
+<details><summary>Corrigé</summary>
+
+36 : on prend (2, 10) (reste 8), (5, 20) (reste 3), on ne peut pas prendre (4, 12), on prend (3, 6) (reste 0) ; total 10 + 20 + 6 = 36.
+
+</details>
+
+### Exercice 4 — Descente d'une pyramide
+
+Une pyramide de nombres est représentée par une liste de listes : `p = [[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]`. Depuis l'élément p[i][j], on peut descendre vers p[i+1][j] ou p[i+1][j+1]. La fonction suivante calcule de manière gloutonne la somme d'un « meilleur » trajet en choisissant à chaque étage le plus grand des deux voisins du dessous.
+
+```python
+1 def _glouton(p):
+2     j = 0
+3     somme = p[0][0]
+4     for i in range(1, len(p)):
+5         if p[i][j + 1] > p[i][j]:
+6             ...
+7         somme = somme + p[i][j]
+8     return somme
+```
+
+Instructions proposées : (A) `j = j - 1` ; (B) `j = j + 1` ; (C) `i = i + 1` ; (D) `somme = somme + p[i][j + 1]`.
+
+**Q4** (1 pt, glouton) Parmi les instructions (A) à (D), sélectionner celle qui complète la ligne 6, puis donner la valeur renvoyée par _glouton(p).
+
+<details><summary>Corrigé</summary>
+
+(B) j = j + 1. Trajet 3 → 7 → 4 → 9, valeur renvoyée 23.
+```python
+def _glouton(p):
+    j = 0
+    somme = p[0][0]
+    for i in range(1, len(p)):
+        if p[i][j + 1] > p[i][j]:
+            j = j + 1
+        somme = somme + p[i][j]
+    return somme
+
+assert _glouton([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]) == 23
+```
+
+</details>
+
+## I-graphe
+### Exercice 1 — Réseau de pistes cyclables
+
+Un graphe non orienté est représenté par un dictionnaire de listes d'adjacence :
+
+```python
+pistes = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'D'], 'D': ['B', 'C', 'E'], 'E': ['D']}
+```
+
+Spécification de la fonction `ajouter_arete` : elle prend en paramètres un graphe g (dictionnaire), deux sommets s1 et s2, ajoute s2 aux voisins de s1 et s1 aux voisins de s2, crée un sommet absent avec une liste vide, et n'ajoute jamais un voisin déjà présent.
+
+**Q1** (1 pt, graphe) Écrire la fonction ajouter_arete(g, s1, s2) permettant d'ajouter l'arête entre s1 et s2 en respectant la spécification.
+
+<details><summary>Corrigé</summary>
+
+def ajouter_arete(g, s1, s2):
+    if s1 not in g:
+        g[s1] = []
+    if s2 not in g:
+        g[s2] = []
+    if s2 not in g[s1]:
+        g[s1].append(s2)
+    if s1 not in g[s2]:
+        g[s2].append(s1)
+
+</details>
+
+### Exercice 2 — Chaîne la plus courte
+
+On reprend le graphe non orienté des pistes cyclables : A–B, A–C, B–D, C–D, D–E (toutes les arêtes ont la même longueur).
+
+**Q2** (1 pt, graphe) Donner une chaîne de longueur minimale reliant A à E, ainsi que sa longueur.
+
+<details><summary>Corrigé</summary>
+
+A - B - D - E (ou A - C - D - E), de longueur 3.
+
+</details>
+
+### Exercice 3 — Matrice d'adjacence symétrique
+
+Un graphe à 4 sommets numérotés 0 à 3 est représenté par la matrice d'adjacence :
+
+```python
+M = [[0, 1, 1, 0],
+     [1, 0, 0, 1],
+     [1, 0, 0, 1],
+     [0, 1, 1, 0]]
+```
+
+**Q3** (1 pt, graphe) Expliquer pourquoi cette matrice permet d'affirmer que le graphe représenté est non orienté.
+
+<details><summary>Corrigé</summary>
+
+La matrice est symétrique : M[i][j] == M[j][i] pour tous i, j ; chaque arête i–j est donc présente dans les deux sens, ce qui caractérise un graphe non orienté.
+
+</details>
+
+### Exercice 4 — Ordre de visite en largeur
+
+Graphe : `g = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'D'], 'D': ['B', 'C', 'E'], 'E': ['D']}`. La fonction `parcours_largeur(g, depart)` renvoie la liste des sommets parcourus en partant du sommet depart, les voisins étant traités dans l'ordre des listes, à l'aide d'une file.
+
+**Q4** (1 pt, graphe) Donner la liste renvoyée par parcours_largeur(g, 'B').
+
+<details><summary>Corrigé</summary>
+
+['B', 'A', 'D', 'C', 'E']
+
+</details>
+
+## I-interface_tad
+### Exercice 1 — Une pile par son interface
+
+On dispose d'un module implémentant le type abstrait Pile avec l'interface : `creer_pile()`, `est_vide(p)`, `empiler(p, x)`, `depiler(p)` (renvoie l'élément retiré).
+
+```python
+1 def mystere(p):
+2     q = creer_pile()
+3     while not est_vide(p):
+4         empiler(q, depiler(p))
+5     return q
+```
+
+La pile p contient, de la base au sommet, 1, 2, 3.
+
+**Q1** (1 pt, interface_tad) Donner le contenu de la pile renvoyée par mystere(p), de la base au sommet, et préciser l'état de p après l'appel.
+
+<details><summary>Corrigé</summary>
+
+La pile renvoyée contient 3, 2, 1 (base → sommet) : 1 est au sommet. La pile p est vide.
+
+</details>
+
+### Exercice 2 — Choisir une interface
+
+On propose les opérations suivantes pour un type abstrait :
+- `creer()` : crée une structure vide
+- `ajouter(s, x)` : ajoute x à la fin
+- `retirer(s)` : retire et renvoie l'élément le plus anciennement ajouté
+- `est_vide(s)` : teste si la structure est vide
+
+**Q2** (1 pt, interface_tad) Quel type abstrait de données cette interface décrit-elle ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+Une file : l'élément retiré est le premier entré (FIFO).
+
+</details>
+
+### Exercice 3 — Taille d'une file via l'interface
+
+On ne peut utiliser que l'interface File : `creer_file()`, `est_vide(f)`, `enfiler(f, x)`, `defiler(f)`.
+
+```python
+1 def taille(f):
+2     aux = creer_file()
+3     n = 0
+4     while not est_vide(f):
+5         ...
+6         ...
+7     while not est_vide(aux):
+8         ...
+9     return n
+```
+
+**Q3** (1 pt, interface_tad) Recopier et compléter les lignes 5, 6 et 8 de la fonction taille afin qu'elle renvoie le nombre d'éléments de f, f étant restaurée à la fin.
+
+<details><summary>Corrigé</summary>
+
+5        enfiler(aux, defiler(f))
+6        n = n + 1
+8        enfiler(f, defiler(aux))
+
+</details>
+
+### Exercice 4 — Le SGBD comme interface
+
+Une médiathèque stocke ses données dans la relation `Livre(id, titre, auteur, annee)`. Les bibliothécaires n'accèdent jamais directement aux fichiers de stockage : ils passent par le SGBD, qui joue le rôle d'interface entre l'humain et la base.
+
+**Q4** (1 pt, interface_tad) Donner la requête SQL permettant d'ajouter le livre d'id 412, intitulé « Dune », de Frank Herbert, paru en 1965, puis expliquer en une phrase pourquoi l'utilisateur n'a pas à connaître l'organisation physique des données.
+
+<details><summary>Corrigé</summary>
+
+INSERT INTO Livre (id, titre, auteur, annee) VALUES (412, 'Dune', 'Frank Herbert', 1965);
+Le SGBD est une interface : il traduit la requête en opérations sur le stockage, dont l'implémentation reste cachée.
+
+</details>
+
+## I-k_ppv
+### Exercice 1 — Vote des voisins
+
+On classe un fruit à partir de ses k plus proches voisins.
+
+```python
+1 def vote(voisins):
+2     compte = {}
+3     for (distance, classe) in voisins:
+4         if classe in compte:
+5             compte[classe] = compte[classe] + 1
+6         else:
+7             compte[classe] = 1
+8     meilleure = None
+9     for c in compte:
+10        if meilleure is None or compte[c] > compte[meilleure]:
+11            meilleure = c
+12    return meilleure
+```
+
+**Q1** (1 pt, k_ppv) Donner la valeur renvoyée par vote([(1.2, 'pomme'), (0.8, 'poire'), (1.5, 'pomme')]).
+
+<details><summary>Corrigé</summary>
+
+'pomme'
+
+</details>
+
+### Exercice 2 — Sélection des k plus proches
+
+```python
+1 def distance(a, b):
+2     return ((a[0]-b[0])**2 + (a[1]-b[1])**2) ** 0.5
+3
+4 def k_plus_proches(donnees, cible, k):
+5     liste = []
+6     for (point, classe) in donnees:
+7         liste.append(( ... , classe))
+8     liste.sort()
+9     return ...
+```
+`donnees` est une liste de couples (point, classe), un point étant un tuple (x, y).
+
+**Q2** (1 pt, k_ppv) Recopier et compléter les lignes 7 et 9 de la fonction k_plus_proches afin qu'elle renvoie la liste des k couples (distance, classe) les plus proches de cible.
+
+<details><summary>Corrigé</summary>
+
+7        liste.append((distance(point, cible), classe))
+9    return liste[:k]
+
+</details>
+
+### Exercice 3 — Distance de Manhattan
+
+On souhaite utiliser une autre distance pour l'algorithme des k plus proches voisins. Spécification : la fonction manhattan prend en paramètres deux points a et b, tuples de deux nombres (x, y), et renvoie la somme des valeurs absolues des différences de leurs coordonnées.
+
+**Q3** (1 pt, k_ppv) Écrire une fonction manhattan(a, b) qui prend en paramètres deux points et qui renvoie leur distance de Manhattan.
+
+<details><summary>Corrigé</summary>
+
+def manhattan(a, b):
+    return abs(a[0] - b[0]) + abs(a[1] - b[1])
+
+</details>
+
+## I-liste_chainee
+### Exercice 1 — Longueur d'une liste chaînée
+
+```python
+1 class Maillon:
+2     def __init__(self, valeur, suivant=None):
+3         self.valeur = valeur
+4         self.suivant = suivant
+5
+6 def longueur(m):
+7     n = 0
+8     while ... :
+9         n = n + 1
+10        m = ...
+11    return n
+```
+
+**Q1** (1 pt, liste_chainee) Recopier et compléter les lignes 8 et 10 de la fonction longueur afin qu'elle renvoie le nombre de maillons de la liste commençant par m (m vaut None pour une liste vide).
+
+<details><summary>Corrigé</summary>
+
+8    while m is not None:
+10        m = m.suivant
+
+</details>
+
+### Exercice 2 — Insertion en tête
+
+On utilise la classe `Maillon(valeur, suivant)` et la fonction :
+
+```python
+def inserer_tete(m, x):
+    return Maillon(x, m)
+
+l = None
+for x in [4, 7, 2]:
+    l = inserer_tete(l, x)
+```
+
+**Q2** (1 pt, liste_chainee) Donner la suite des valeurs de la liste l, de la tête à la fin, après exécution de ce code.
+
+<details><summary>Corrigé</summary>
+
+2 -> 7 -> 4
+
+</details>
+
+### Exercice 3 — Parcours jusqu'au maillon
+
+Une liste chaînée contient les valeurs 5, 12, 9, 30 et 41, dans cet ordre depuis la tête. On ne peut accéder à un maillon qu'en suivant les liens depuis la tête.
+
+**Q3** (1 pt, liste_chainee) Donner le chemin de maillons suivi pour atteindre la valeur 30, et le nombre de liens empruntés.
+
+<details><summary>Corrigé</summary>
+
+5 -> 12 -> 9 -> 30 : 3 liens suivis.
+
+</details>
+
+### Exercice 4 — Insertions en queue
+
+On considère une liste chaînée initialement vide. On y insère successivement les valeurs 10, 20 et 30 en queue de liste.
+
+**Q4** (1 pt, liste_chainee) Indiquer les valeurs de la liste de la tête à la queue, puis indiquer la valeur contenue dans le maillon dont l'attribut suivant vaut None.
+
+<details><summary>Corrigé</summary>
+
+10 -> 20 -> 30 ; le maillon dont suivant vaut None contient 30.
+
+</details>
+
+## I-matrice
+### Exercice 1 — Transposée
+
+```python
+def transposee(m):
+    n = len(m)
+    t = [[0] * n] * n
+    for i in range(n):
+        for j in range(n):
+            t[j][i] = m[i][j]
+    return t
+```
+Appliquée à [[1, 2], [3, 4]], cette fonction renvoie [[2, 4], [2, 4]] au lieu de [[1, 3], [2, 4]].
+
+**Q1** (1 pt, matrice) Modifier le code de transposee pour qu'elle renvoie la transposée correcte d'une matrice carrée.
+
+<details><summary>Corrigé</summary>
+
+def transposee(m):
+    n = len(m)
+    t = [[0] * n for _ in range(n)]
+    for i in range(n):
+        for j in range(n):
+            t[j][i] = m[i][j]
+    return t
+
+</details>
+
+### Exercice 2 — Somme d'une diagonale
+
+```python
+1 def f(m):
+2     s = 0
+3     for i in range(len(m)):
+4         s = s + m[i][len(m) - 1 - i]
+5     return s
+```
+
+**Q2** (1 pt, matrice) Donner la valeur renvoyée par f([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).
+
+<details><summary>Corrigé</summary>
+
+15 (3 + 5 + 7)
+
+</details>
+
+### Exercice 3 — Maximum d'une matrice
+
+```python
+1 def maximum(m):
+2     maxi = m[0][0]
+3     for ligne in m:
+4         ...
+5             ...
+6                 ...
+7     return maxi
+```
+
+**Q3** (1 pt, matrice) Recopier et compléter la fonction maximum (à partir de la ligne 4) qui renvoie le plus grand élément d'une matrice non vide.
+
+<details><summary>Corrigé</summary>
+
+def maximum(m):
+    maxi = m[0][0]
+    for ligne in m:
+        for x in ligne:
+            if x > maxi:
+                maxi = x
+    return maxi
+
+</details>
+
+### Exercice 4 — Bloc AES
+
+Le chiffrement AES travaille par blocs de 128 bits, répartis dans une matrice de 16 octets (matrice carrée de taille 4).
+
+**Q4** (1 pt, matrice) Expliquer pourquoi une matrice carrée de taille 4 suffit exactement à contenir un bloc de 128 bits.
+
+<details><summary>Corrigé</summary>
+
+Une matrice 4×4 contient 16 cases ; chacune contient un octet de 8 bits ; 16 × 8 = 128 bits.
+
+</details>
+
+## I-mise_au_point
+### Exercice 1 — Fonction testée par assertions
+
+On fournit les tests suivants :
+
+```python
+assert compte_pairs([]) == 0
+assert compte_pairs([1, 3, 5]) == 0
+assert compte_pairs([2, 4, 7, 8]) == 3
+```
+
+```python
+1 def compte_pairs(t):
+2     n = 0
+3     ...
+```
+
+**Q1** (1 pt, mise_au_point) Recopier et compléter la fonction compte_pairs (à partir de la ligne 3) qui renvoie le nombre d'éléments pairs de t, de sorte que tous les tests passent.
+
+<details><summary>Corrigé</summary>
+
+def compte_pairs(t):
+    n = 0
+    for x in t:
+        if x % 2 == 0:
+            n = n + 1
+    return n
+
+</details>
+
+### Exercice 2 — Bug d'indice
+
+```python
+def dernier_positif(t):
+    for i in range(len(t) - 1, 0, -1):
+        if t[i] > 0:
+            return i
+    return -1
+```
+
+**Q2** (1 pt, mise_au_point) Donner la valeur renvoyée par dernier_positif([5, -2, -3]) et expliquer l'erreur révélée.
+
+<details><summary>Corrigé</summary>
+
+-1 ; l'indice 0 n'est jamais examiné car range(len(t)-1, 0, -1) s'arrête avant 0 : il faut range(len(t)-1, -1, -1), qui renverrait 0.
+
+</details>
+
+### Exercice 3 — Type d'erreur
+
+Lors de l'exécution d'un programme, l'interpréteur affiche l'un des messages suivants :
+- `IndexError: list index out of range`
+- `TypeError: unsupported operand type(s) for +: 'int' and 'str'`
+- `NameError: name 'totl' is not defined`
+
+Le programme contient l'instruction `total = 3 + input('nombre ? ')`.
+
+**Q3** (1 pt, mise_au_point) Quel message cette instruction provoque-t-elle ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+TypeError : input renvoie une chaîne (str), qu'on ne peut pas additionner à un entier.
+
+</details>
+
+### Exercice 4 — Configuration manuelle des routes
+
+Une entreprise configure à la main les tables de routage de ses routeurs. Le réseau : R1 relié à R2 et R3, R2 relié à R4, R3 relié à R4 ; le réseau 192.168.4.0/24 est derrière R4. L'administrateur a saisi dans R2 la route « 192.168.4.0/24 → passerelle R1 », et dans R1 la route « 192.168.4.0/24 → passerelle R2 ».
+
+**Q4** (1 pt, mise_au_point) Donner le chemin suivi par un paquet partant de R1 vers 192.168.4.0/24 avec ces tables, et la route corrigée à saisir dans R2.
+
+<details><summary>Corrigé</summary>
+
+R1 → R2 → R1 → R2 … : boucle de routage (le paquet est détruit quand son TTL atteint 0). Dans R2 il faut saisir : 192.168.4.0/24 → passerelle R4.
+
+</details>
+
+## I-modele_relationnel
+### Exercice 1 — Relevés de capteurs
+
+Une station météo stocke ses relevés dans la relation Releve(id_capteur, horodatage, temperature). Voici quatre tuples :
+
+| id_capteur | horodatage | temperature |
+|---|---|---|
+| 3 | 1200 | 14.5 |
+| 3 | 1260 | 14.7 |
+| 5 | 1200 | 13.9 |
+| 5 | 1260 | 14.7 |
+
+**Q1** (1 pt, modele_relationnel) Expliquer pourquoi ni id_capteur seul ni horodatage seul ne peut être clé primaire, puis proposer une clé primaire pour cette relation.
+
+<details><summary>Corrigé</summary>
+
+id_capteur seul : la valeur 3 apparaît deux fois ; horodatage seul : 1200 apparaît deux fois. Une clé primaire doit identifier chaque tuple de façon unique : on choisit le couple (id_capteur, horodatage).
+
+</details>
+
+### Exercice 2 — Contrôle d'unicité
+
+Une table Eleve a pour clé primaire num_eleve. On représente en Python les valeurs de num_eleve qu'on tente d'insérer successivement par la liste [12, 7, 31, 7, 18, 12]. Le SGBD refuse toute insertion qui viole la contrainte de clé primaire.
+
+**Q2** (1 pt, modele_relationnel) Donner la liste des valeurs effectivement insérées dans la table, dans l'ordre, et le nombre d'insertions refusées.
+
+<details><summary>Corrigé</summary>
+
+[12, 7, 31, 18] ; 2 insertions refusées (le second 7 et le second 12).
+
+</details>
+
+### Exercice 3 — Médiathèque
+
+Schéma : Adherent(id_adh, nom, prenom) avec id_adh clé primaire ; Emprunt(id_emp, #id_adh, titre, date) où id_adh est clé étrangère vers Adherent. La table Adherent contient les id_adh 1, 2 et 4.
+
+**Q3** (1 pt, modele_relationnel) La requête INSERT INTO Emprunt VALUES (10, 3, 'Dune', '2026-03-01'); est-elle acceptée ? Justifier à l'aide du rôle de la clé étrangère.
+
+<details><summary>Corrigé</summary>
+
+Non : la valeur 3 de la clé étrangère id_adh doit exister comme clé primaire dans Adherent, ce qui n'est pas le cas ; la contrainte d'intégrité référentielle est violée et l'insertion est refusée.
+
+</details>
+
+## I-modularite
+### Exercice 1 — Module géométrie
+
+Un module geometrie.py propose :
+- aire_disque(r)
+- perimetre_disque(r)
+- _verifier_positif(x) (fonction interne)
+- la constante PI = 3.14159
+
+Un élève écrit dans un autre fichier : from geometrie import *
+
+**Q1** (1 pt, modularite) Quelles fonctions sont rendues disponibles par cette instruction ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+aire_disque, perimetre_disque et PI ; _verifier_positif n'est pas importée par import * car son nom commence par un tiret bas (convention de nom privé/interne). Elle reste accessible via import geometrie puis geometrie._verifier_positif.
+
+</details>
+
+### Exercice 2 — Chaîne de dépendances
+
+Un projet comporte quatre modules. main importe interface et calcul ; interface importe affichage ; calcul importe outils ; affichage importe outils. Le module outils n'importe rien.
+
+**Q2** (1 pt, modularite) Dresser la liste de tous les chemins d'import qui mènent du module main au module outils, puis indiquer quels modules sont touchés si l'on modifie outils.
+
+<details><summary>Corrigé</summary>
+
+Chemins : main → interface → affichage → outils et main → calcul → outils. Si outils change, affichage et calcul (directement), interface et main (indirectement) peuvent être affectés.
+
+</details>
+
+### Exercice 3 — Utiliser une API
+
+On dispose du module pile.py suivant :
+```python
+1 def creer():
+2     return []
+3 def empiler(p, x):
+4     p.append(x)
+5 def depiler(p):
+6     return p.pop()
+7 def est_vide(p):
+8     return p == []
+```
+
+**Q3** (1 pt, modularite) Écrire, dans un autre fichier, une fonction inverser(lst) qui renvoie la liste lst inversée en n'utilisant que les fonctions de l'interface du module pile.
+
+<details><summary>Corrigé</summary>
+
+```python
+import pile
+
+def inverser(lst):
+    p = pile.creer()
+    for x in lst:
+        pile.empiler(p, x)
+    res = []
+    while not pile.est_vide(p):
+        res.append(pile.depiler(p))
+    return res
+```
+
+</details>
+
+### Exercice 4 — Origine d'une fonction
+
+Un script de chiffrement commence ainsi :
+```python
+from Crypto.Util.number import bytes_to_long, long_to_bytes
+from Crypto.Random import get_random_bytes
+```
+Plus loin, on lit : cle = get_random_bytes(16) puis n = bytes_to_long(b'NSI').
+
+**Q4** (1 pt, modularite) Déterminer le chemin complet (paquetage et sous-module) d'où provient chacune des fonctions get_random_bytes et bytes_to_long.
+
+<details><summary>Corrigé</summary>
+
+get_random_bytes provient du sous-module Random du paquetage Crypto (Crypto.Random) ; bytes_to_long provient du module number du sous-paquetage Util de Crypto (Crypto.Util.number).
+
+</details>
+
+## I-os_commandes
+### Exercice 1 — Simuler cd
+
+On représente le répertoire courant par une chaîne de chemin absolu, par exemple '/home/alice/docs'. On veut simuler la commande cd : la fonction cd(courant, arg) prend le chemin courant, un argument arg qui vaut soit '..', soit le nom d'un sous-répertoire (sans '/'), et renvoie le nouveau chemin. cd('/', '..') renvoie '/'.
+
+**Q1** (1 pt, os_commandes) Écrire la fonction cd(courant, arg) conforme à cette spécification.
+
+<details><summary>Corrigé</summary>
+
+```python
+def cd(courant, arg):
+    if arg == '..':
+        if courant == '/':
+            return '/'
+        i = courant.rfind('/')
+        return '/' if i == 0 else courant[:i]
+    if courant == '/':
+        return '/' + arg
+    return courant + '/' + arg
+```
+
+</details>
+
+### Exercice 2 — Droits d'un fichier
+
+Sur un serveur Linux, la commande ls -l affiche la ligne : -rwxr-x--- 1 bob profs 2048 mars 3 notes.sh. L'utilisateur alice appartient au groupe profs, l'utilisatrice carla n'appartient pas à ce groupe.
+
+**Q2** (1 pt, os_commandes) Donner la commande chmod en notation octale qui produit exactement ces droits, et indiquer si carla peut lire notes.sh.
+
+<details><summary>Corrigé</summary>
+
+chmod 750 notes.sh ; carla (autres) n'a aucun droit (---) : elle ne peut pas lire le fichier.
+
+</details>
+
+### Exercice 3 — Séquence de commandes
+
+Le répertoire courant est /home/eve et il est vide. On exécute :
+1. mkdir a b
+2. cd a
+3. touch f1.txt f2.txt
+4. cd ..
+5. mv a/f1.txt b
+6. rm a/f2.txt
+7. ls a b
+
+**Q3** (1 pt, os_commandes) Donner l'état des répertoires a et b après la commande 6, puis l'affichage de la commande 7.
+
+<details><summary>Corrigé</summary>
+
+a est vide ; b contient f1.txt. ls a b affiche :
+a:
+
+b:
+f1.txt
+
+</details>
+
+### Exercice 4 — Tester une machine
+
+Un administrateur veut savoir si l'imprimante d'adresse 192.168.1.40 est joignable depuis son poste Linux, sans connaître le chemin suivi par les paquets.
+
+**Q4** (1 pt, os_commandes) Quelle commande doit-il utiliser : ping ou traceroute ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+ping 192.168.1.40 : ping teste l'accessibilité d'une machine sur un réseau IP ; traceroute sert à afficher les routeurs traversés, ce qui n'est pas demandé.
+
+</details>
+
+## I-paradigmes
+### Exercice 1 — Deux versions d'un calcul
+
+```python
+1 def somme_carres_a(lst):
+2     s = 0
+3     for x in lst:
+4         s = s + x * x
+5     return s
+6
+7 def somme_carres_b(lst):
+8     return sum(map(lambda x: x * x, lst))
+```
+
+**Q1** (1 pt, paradigmes) Indiquer le paradigme de chaque fonction en justifiant à l'aide des lignes du code, puis donner la valeur de somme_carres_b([1, 2, 3]).
+
+<details><summary>Corrigé</summary>
+
+somme_carres_a est impérative : variable s modifiée par affectations successives dans une boucle (lignes 2-4). somme_carres_b est fonctionnelle : pas d'affectation ni d'état modifié, composition de fonctions (map, lambda, sum, ligne 8). Valeur : 14.
+
+</details>
+
+### Exercice 2 — Version fonctionnelle
+
+On veut écrire, dans le paradigme fonctionnel, une fonction compter(lst, x) : paramètres une liste lst et une valeur x, résultat le nombre d'occurrences de x dans lst, sans boucle ni affectation de variable, sans modifier lst, en utilisant la récursivité.
+
+**Q2** (1 pt, paradigmes) Écrire la fonction compter(lst, x) respectant cette spécification.
+
+<details><summary>Corrigé</summary>
+
+```python
+def compter(lst, x):
+    if lst == []:
+        return 0
+    return (1 if lst[0] == x else 0) + compter(lst[1:], x)
+```
+
+</details>
+
+### Exercice 3 — Caractéristiques
+
+Propriétés d'un langage :
+- les fonctions peuvent être passées en paramètre
+- les données sont immuables
+- pas d'effet de bord
+- on décrit des classes, des attributs et des méthodes
+
+**Q3** (1 pt, paradigmes) Quelle propriété de cette liste n'appartient pas au paradigme fonctionnel ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+La dernière : classes, attributs et méthodes caractérisent le paradigme objet, pas le paradigme fonctionnel.
+
+</details>
+
+### Exercice 4 — Table des valeurs de Fibonacci
+
+On veut calculer le n-ième terme de la suite de Fibonacci (F0 = 0, F1 = 1, Fn = Fn-1 + Fn-2) de façon impérative, avec deux variables a et b initialisées à 0 et 1 et mises à jour par a, b = b, a + b à chaque tour de boucle.
+
+**Q4** (1 pt, paradigmes) Dresser le tableau des valeurs de a et b après chacun des 5 premiers tours de boucle, puis écrire la fonction fibo_imperatif(n).
+
+<details><summary>Corrigé</summary>
+
+Tours 1 à 5 : (a,b) = (1,1), (1,2), (2,3), (3,5), (5,8).
+```python
+def fibo_imperatif(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+```
+
+</details>
+
+## I-parcours_arbre
+### Exercice 1 — Feuilles de gauche à droite
+
+Un arbre binaire est représenté par None (arbre vide) ou par un tuple (gauche, valeur, droit). On veut la fonction feuilles(a) : paramètre un arbre a, résultat la liste des valeurs des feuilles (nœuds sans enfant), dans l'ordre d'un parcours en profondeur de gauche à droite, liste vide si a est vide.
+
+**Q1** (1 pt, parcours_arbre) Écrire la fonction feuilles(a).
+
+<details><summary>Corrigé</summary>
+
+```python
+def feuilles(a):
+    if a is None:
+        return []
+    g, v, d = a
+    if g is None and d is None:
+        return [v]
+    return feuilles(g) + feuilles(d)
+```
+
+</details>
+
+### Exercice 2 — Infixe et ABR
+
+On considère un arbre binaire de recherche (ABR) (valeurs du sous-arbre gauche inférieures à la racine, celles du sous-arbre droit supérieures) et son parcours infixe (gauche, racine, droite).
+
+**Q2** (1 pt, parcours_arbre) Expliquer pourquoi le parcours infixe d'un ABR fournit ses valeurs dans l'ordre croissant.
+
+<details><summary>Corrigé</summary>
+
+Par récurrence : le parcours infixe liste d'abord tout le sous-arbre gauche (valeurs plus petites, déjà triées par hypothèse), puis la racine, puis le sous-arbre droit (valeurs plus grandes, triées) ; la concaténation est donc triée.
+
+</details>
+
+### Exercice 3 — Reconnaître un parcours
+
+Arbre : racine 8 ; enfants de 8 : 3 (gauche) et 10 (droit) ; enfants de 3 : 1 et 6 ; enfant droit de 10 : 14.
+Listes proposées :
+- 8, 3, 1, 6, 10, 14
+- 1, 3, 6, 8, 10, 14
+- 1, 6, 3, 14, 10, 8
+
+**Q3** (1 pt, parcours_arbre) Quel parcours (préfixe, infixe ou suffixe) correspond à la troisième liste ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+Suffixe : chaque nœud apparaît après ses deux sous-arbres (1, 6 avant 3 ; 14 avant 10 ; la racine 8 en dernier).
+
+</details>
+
+### Exercice 4 — Organigramme
+
+Une entreprise représente son organigramme par un arbre binaire : la directrice Ana a pour subordonnés Bilal (gauche) et Chloé (droite) ; Bilal a pour subordonnés Dina et Elio ; Chloé a pour subordonné droit Fanny. On veut lister les employés niveau hiérarchique par niveau hiérarchique.
+
+**Q4** (1 pt, parcours_arbre) Donner l'ordre de visite des employés par un parcours en largeur d'abord.
+
+<details><summary>Corrigé</summary>
+
+Ana, Bilal, Chloé, Dina, Elio, Fanny.
+
+</details>
+
+## I-parcours_graphe
+### Exercice 1 — Parcours à analyser
+
+On donne le graphe orienté g = {'A': ['B', 'C'], 'B': ['D'], 'C': ['D', 'E'], 'D': ['F'], 'E': ['F'], 'F': []} et la fonction :
+```python
+1 def parcours(g, s):
+2     vus = [s]
+3     file = [s]
+4     while file:
+5         u = file.pop(0)
+6         for v in g[u]:
+7             if v not in vus:
+8                 vus.append(v)
+9                 file.append(v)
+10    return vus
+```
+
+**Q1** (1 pt, parcours_graphe) Indiquer le type de parcours réalisé et donner la valeur renvoyée par parcours(g, 'A').
+
+<details><summary>Corrigé</summary>
+
+Parcours en largeur (file FIFO, ligne 5) ; renvoie ['A', 'B', 'C', 'D', 'E', 'F'].
+
+</details>
+
+### Exercice 2 — Degrés sortants
+
+Un graphe orienté à n sommets numérotés de 0 à n-1 est donné par sa matrice d'adjacence m (liste de listes d'entiers 0 ou 1, m[i][j] == 1 s'il existe un arc de i vers j). Exemple : m = [[0, 1, 1], [0, 0, 1], [0, 0, 0]] (le sommet 0 a deux successeurs).
+
+**Q2** (1 pt, parcours_graphe) Écrire une fonction puits(m) qui renvoie la liste des sommets sans successeur (ici [2]), en parcourant chaque ligne de la matrice.
+
+<details><summary>Corrigé</summary>
+
+```python
+def puits(m):
+    res = []
+    for i in range(len(m)):
+        if sum(m[i]) == 0:
+            res.append(i)
+    return res
+```
+
+</details>
+
+### Exercice 3 — Accessibilité
+
+Un graphe est représenté par un dictionnaire de listes de successeurs, par exemple g = {'A': ['B', 'C'], 'B': ['D'], 'C': ['D', 'E'], 'D': ['F'], 'E': ['F'], 'F': []}. On veut la fonction accessible(g, s, t) : paramètres le graphe g, un sommet de départ s, un sommet d'arrivée t, résultat True si t est atteignable depuis s (True si s == t), False sinon, en utilisant un parcours en profondeur.
+
+**Q3** (1 pt, parcours_graphe) Écrire la fonction accessible(g, s, t).
+
+<details><summary>Corrigé</summary>
+
+```python
+def accessible(g, s, t):
+    vus = set()
+    pile = [s]
+    while pile:
+        u = pile.pop()
+        if u == t:
+            return True
+        if u not in vus:
+            vus.add(u)
+            for v in g[u]:
+                pile.append(v)
+    return False
+```
+
+</details>
+
+### Exercice 4 — Dépendances de processus
+
+Le tableau ci-dessous décrit quatre processus : durée d'exécution (en cycles), instant d'arrivée (en cycles depuis 0), numéro de priorité, et processus dont il dépend (il ne peut démarrer qu'après la fin de celui-ci).
+
+| Processus | Durée | Arrivée | Priorité | Dépend de |
+|---|---|---|---|---|
+| P1 | 3 | 0 | 2 | — |
+| P2 | 2 | 1 | 1 | P1 |
+| P3 | 4 | 1 | 3 | P1 |
+| P4 | 1 | 2 | 1 | P2, P3 |
+
+On modélise les dépendances par un graphe orienté (arc de X vers Y si Y dépend de X).
+
+**Q4** (1 pt, parcours_graphe) À partir du tableau ci-dessus, donner la liste des successeurs de chaque sommet puis un ordre d'exécution des processus compatible avec toutes les dépendances.
+
+<details><summary>Corrigé</summary>
+
+Successeurs : P1 → [P2, P3] ; P2 → [P4] ; P3 → [P4] ; P4 → []. Ordre possible : P1, P2, P3, P4 (ou P1, P3, P2, P4).
+
+</details>
+
+## I-pile
+### Exercice 1 — Hauteur maximale d'une pile
+
+Un tableau d'entiers t décrit une suite d'opérations sur une pile initialement vide (chaque entier strictement positif signifie « empiler cet entier », chaque 0 signifie « dépiler » ; on suppose qu'on ne dépile jamais une pile vide). Exemple : pour t = [4, 7, 0, 2, 5, 0, 0, 9] la pile atteint au plus 3 éléments.
+
+**Q1** (1 pt, pile) Écrire une fonction hauteur_max(t) (paramètre : un tableau d'entiers positifs ou nuls) qui renvoie le nombre maximal d'éléments présents simultanément dans la pile.
+
+<details><summary>Corrigé</summary>
+
+def hauteur_max(t):
+    h = 0
+    m = 0
+    for x in t:
+        if x == 0:
+            h = h - 1
+        else:
+            h = h + 1
+            if h > m:
+                m = h
+    return m
+
+assert hauteur_max([4, 7, 0, 2, 5, 0, 0, 9]) == 3
+
+</details>
+
+### Exercice 2 — Annuler dans un éditeur
+
+Un éditeur de texte mémorise chaque action de l'utilisateur (saisie, suppression, mise en gras) dans une structure historique ; la commande « Annuler » (Ctrl+Z) défait toujours l'action la plus récente non encore annulée (et peut être répétée plusieurs fois).
+
+**Q2** (1 pt, pile) Expliquer pourquoi une pile, plutôt qu'une file, est la structure adaptée pour stocker l'historique des actions.
+
+<details><summary>Corrigé</summary>
+
+Annuler doit défaire d'abord la dernière action effectuée, puis l'avant-dernière, etc. : c'est le principe LIFO (dernier entré, premier sorti) de la pile ; une file (FIFO) renverrait la plus ancienne action, ce qui est incorrect.
+
+</details>
+
+### Exercice 3 — Choisir la structure
+
+Pour chacune des situations suivantes, on hésite entre une pile et une file :
+- a. l'impression de documents envoyés à une imprimante partagée ;
+- b. le bouton « Page précédente » d'un navigateur web ;
+- c. la vérification du bon parenthésage d'une expression.
+
+**Q3** (1 pt, pile) Quelle structure (pile ou file) convient à chacune des situations a, b et c ? Justifier brièvement.
+
+<details><summary>Corrigé</summary>
+
+a. file (premier envoyé, premier imprimé, FIFO) ; b. pile (on revient à la dernière page visitée, LIFO) ; c. pile (chaque parenthèse fermante correspond à la dernière ouvrante non fermée, LIFO).
+
+</details>
+
+### Exercice 4 — Mode de fonctionnement d'une pile
+
+On empile successivement les valeurs 3, 8 puis 5 dans une pile vide p, puis on exécute une fois depile(p).
+
+**Q4** (1 pt, pile) Donner le nom (et la signification) du mode de fonctionnement d'une pile, puis la valeur renvoyée par depile(p).
+
+<details><summary>Corrigé</summary>
+
+Mode LIFO (Last In, First Out : dernier entré, premier sorti) ; depile(p) renvoie 5.
+
+</details>
+
+## I-poo
+### Exercice 1 — Compter les instances
+
+On dispose de la classe suivante (attention : compteur est un attribut de classe, partagé par toutes les instances) :
+
+class Ticket:
+    compteur = 0
+    def __init__(self, nom):
+        self.nom = nom
+        Ticket.compteur = Ticket.compteur + 1
+
+On exécute : t1 = Ticket('A') ; t2 = Ticket('B') ; t3 = t1 ; t4 = Ticket('C').
+
+**Q1** (1 pt, poo) Donner la valeur de Ticket.compteur après ces instructions et le nombre d'objets Ticket distincts créés.
+
+<details><summary>Corrigé</summary>
+
+Ticket.compteur vaut 3 : trois objets ont été construits ; t3 = t1 ne crée pas d'objet (même référence).
+
+</details>
+
+### Exercice 2 — Identifiant d'un adhérent
+
+Une médiathèque modélise ses adhérents par une classe Adherent dont les attributs sont numero, nom et prenom. Le numero est attribué à l'inscription, unique pour chaque adhérent, et jamais réutilisé. Plusieurs adhérents peuvent porter le même nom et le même prénom. Les objets Emprunt possèdent un attribut num_adherent.
+
+**Q2** (1 pt, poo) Expliquer le rôle de l'attribut numero de la classe Adherent, et celui de l'attribut num_adherent d'un objet Emprunt.
+
+<details><summary>Corrigé</summary>
+
+numero identifie de façon unique un adhérent (comme une clé), car nom/prénom ne suffisent pas ; num_adherent référence l'adhérent emprunteur et relie l'emprunt à un unique objet Adherent.
+
+</details>
+
+### Exercice 3 — Méthode sur une chaîne
+
+On considère la classe :
+
+class Mot:
+    def __init__(self, texte):
+        self.texte = texte
+
+**Q3** (1 pt, poo) Écrire une méthode est_palindrome(self) de la classe Mot qui renvoie True si l'attribut texte se lit de la même façon dans les deux sens, False sinon.
+
+<details><summary>Corrigé</summary>
+
+class Mot:
+    def __init__(self, texte):
+        self.texte = texte
+
+    def est_palindrome(self):
+        n = len(self.texte)
+        for i in range(n // 2):
+            if self.texte[i] != self.texte[n - 1 - i]:
+                return False
+        return True
+
+assert Mot('radar').est_palindrome()
+assert not Mot('route').est_palindrome()
+
+</details>
+
+### Exercice 4 — Hauteur d'un arbre objet
+
+Un arbre binaire est représenté par la classe suivante ; l'arbre vide est représenté par None et la hauteur d'un arbre réduit à une feuille vaut 1 :
+
+class Arbre:
+    def __init__(self, valeur, gauche=None, droit=None):
+        self.valeur = valeur
+        self.gauche = gauche
+        self.droit = droit
+
+**Q4** (1 pt, poo) Écrire la méthode hauteur(self) de la classe Arbre qui renvoie la hauteur de l'arbre.
+
+<details><summary>Corrigé</summary>
+
+class Arbre:
+    def __init__(self, valeur, gauche=None, droit=None):
+        self.valeur = valeur
+        self.gauche = gauche
+        self.droit = droit
+
+    def hauteur(self):
+        hg = 0 if self.gauche is None else self.gauche.hauteur()
+        hd = 0 if self.droit is None else self.droit.hauteur()
+        return 1 + max(hg, hd)
+
+a = Arbre(1, Arbre(2, Arbre(4)), Arbre(3))
+assert a.hauteur() == 3
+
+</details>
+
+## I-processus
+### Exercice 1 — Graphe d'attente
+
+La figure 1 décrit la situation suivante : le processus P1 détient la ressource R1 et attend R2 ; le processus P2 détient R2 et attend R3 ; le processus P3 détient R3 et attend R1. Dans la figure 1, une flèche Pi → Rj signifie « Pi attend Rj » et Rj → Pi signifie « Rj est détenue par Pi ».
+
+**Q1** (1 pt, processus) À partir de la figure 1, déterminer si les processus sont en situation d'interblocage. Justifier.
+
+<details><summary>Corrigé</summary>
+
+Oui : la figure contient le cycle P1 → R2 → P2 → R3 → P3 → R1 → P1 ; chaque processus attend une ressource détenue par le suivant, aucun ne peut progresser : interblocage.
+
+</details>
+
+### Exercice 2 — Chemin d'un processus
+
+Un processus est créé puis passe à l'état prêt. L'ordonnanceur l'élit. Après 20 ms il demande une lecture disque, puis la lecture se termine, il est de nouveau élu et termine son exécution.
+
+**Q2** (1 pt, processus) Donner la suite des états (prêt, élu, bloqué, terminé) par lesquels passe ce processus.
+
+<details><summary>Corrigé</summary>
+
+prêt → élu → bloqué → prêt → élu → terminé.
+
+</details>
+
+### Exercice 3 — Commande Unix
+
+Sur un serveur Linux, un administrateur constate qu'un programme de calcul consomme toute la mémoire. Il exécute la commande ps qui affiche notamment la ligne « 4187 pts/0 00:12:41 calcul ». Il souhaite arrêter ce seul processus.
+
+**Q3** (1 pt, processus) Donner la commande à saisir pour interrompre ce processus.
+
+<details><summary>Corrigé</summary>
+
+kill 4187 (4187 est le PID du processus calcul).
+
+</details>
+
+### Exercice 4 — Ordonnancement FIFO
+
+Quatre processus arrivent tous à l'instant 0 dans la file et y sont placés dans l'ordre C1, C2, C3 et C4. Leurs durées d'exécution sont respectivement 4, 2, 3 et 1 unités de temps. L'ordonnanceur suit la politique « premier arrivé, premier servi », sans interruption.
+
+**Q4** (1 pt, processus) Donner l'instant de fin d'exécution de chacun des quatre processus.
+
+<details><summary>Corrigé</summary>
+
+C1 : 4 ; C2 : 6 ; C3 : 9 ; C4 : 10.
+
+</details>
+
+## I-prog_dynamique
+### Exercice 1 — Appels de Fibonacci
+
+On considère la fonction récursive naïve :
+
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n - 1) + fib(n - 2)
+
+En programmation dynamique (mémoïsation), chaque valeur fib(k) n'est calculée qu'une fois, ce qui minimise le nombre d'opérations.
+
+**Q1** (1 pt, prog_dynamique) Dénombrer le nombre total d'appels à fib lors de l'exécution de fib(5) avec la version naïve, puis le nombre de valeurs distinctes calculées avec la version mémoïsée.
+
+<details><summary>Corrigé</summary>
+
+Version naïve : 15 appels (A(n)=1+A(n-1)+A(n-2), A(0)=A(1)=1 : A(2)=3, A(3)=5, A(4)=9, A(5)=15). Version mémoïsée : 6 valeurs distinctes fib(0) à fib(5).
+
+</details>
+
+## I-recherche_dichotomique
+### Exercice 1 — Compléter la dichotomie
+
+On donne la fonction à compléter :
+
+1 def recherche(tab, val):
+2     debut = 0
+3     fin = len(tab) - 1
+4     while debut <= fin:
+5         milieu = (debut + fin) // 2
+6         if tab[milieu] == val:
+7             return True
+8         elif tab[milieu] < val:
+9             ...
+10        else:
+11            ...
+12    return False
+
+**Q1** (1 pt, recherche_dichotomique) Compléter les lignes 9 et 11 de la fonction recherche.
+
+<details><summary>Corrigé</summary>
+
+def recherche(tab, val):
+    debut = 0
+    fin = len(tab) - 1
+    while debut <= fin:
+        milieu = (debut + fin) // 2
+        if tab[milieu] == val:
+            return True
+        elif tab[milieu] < val:
+            debut = milieu + 1
+        else:
+            fin = milieu - 1
+    return False
+
+assert recherche([1, 5, 7, 9, 12, 13], 12)
+assert not recherche([1, 5, 7, 9, 12, 13], 17)
+
+</details>
+
+### Exercice 2 — Tableaux candidats
+
+On souhaite appliquer une recherche dichotomique sur l'un des tableaux suivants :
+- t1 = [2, 9, 4, 11, 15]
+- t2 = [3, 3, 8, 14, 20]
+- t3 = [20, 14, 8, 3, 1]
+
+**Q2** (1 pt, recherche_dichotomique) Sur quel(s) tableau(x) la recherche dichotomique croissante classique fonctionne-t-elle correctement ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+Seulement t2 : il est trié dans l'ordre croissant (les doublons n'empêchent pas la recherche). t1 n'est pas trié, t3 est trié décroissant.
+
+</details>
+
+### Exercice 3 — Complexité
+
+Un annuaire numérique contient un million de noms triés par ordre alphabétique. Le logiciel cherche un nom en comparant au nom situé au milieu de la zone restante, puis ne garde que la moitié pertinente.
+
+**Q3** (1 pt, recherche_dichotomique) Donner le nom de cet algorithme et sa complexité en temps en fonction du nombre n de noms.
+
+<details><summary>Corrigé</summary>
+
+Recherche dichotomique ; complexité logarithmique O(log2 n).
+
+</details>
+
+### Exercice 4 — Nombre d'étapes
+
+À chaque étape, la recherche dichotomique divise par deux la taille de la zone de travail. On l'applique à un tableau trié de 1000 éléments, la valeur cherchée étant absente.
+
+**Q4** (1 pt, recherche_dichotomique) Dénombrer le nombre maximal de tours de boucle effectués.
+
+<details><summary>Corrigé</summary>
+
+10 tours au plus (2^9 = 512 < 1000 < 1024 = 2^10 ; la taille passe 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1).
+
+</details>
+
+## I-recherche_textuelle
+### Exercice 1 — Positions d'un motif
+
+On donne la fonction naïve :
+
+def positions(texte, motif):
+    res = []
+    for i in range(len(texte) - len(motif) + 1):
+        if texte[i:i + len(motif)] == motif:
+            res.append(i)
+    return res
+
+On considère l'appel positions('1011010110', '101').
+
+**Q1** (1 pt, recherche_textuelle) Donner la valeur renvoyée par cet appel.
+
+<details><summary>Corrigé</summary>
+
+[0, 3, 5]
+
+</details>
+
+### Exercice 2 — Arrêt à la première occurrence
+
+On souhaite réécrire l'algorithme naïf de recherche d'un motif pour qu'il s'arrête dès qu'une occurrence du motif est trouvée (renvoyer sa position, ou -1).
+
+**Q2** (1 pt, recherche_textuelle) Expliquer en quoi cette modification réduit le nombre de comparaisons, et écrire la fonction premiere(texte, motif).
+
+<details><summary>Corrigé</summary>
+
+On ne parcourt plus la suite du texte une fois l'occurrence trouvée : dans le meilleur cas, on économise presque tout le parcours.
+
+def premiere(texte, motif):
+    n, m = len(texte), len(motif)
+    for i in range(n - m + 1):
+        j = 0
+        while j < m and texte[i + j] == motif[j]:
+            j = j + 1
+        if j == m:
+            return i
+    return -1
+
+assert premiere('abracadabra', 'cad') == 4
+assert premiere('abc', 'z') == -1
+
+</details>
+
+## I-recursivite
+### Exercice 1 — Somme des chiffres
+
+Un club de calcul mental veut vérifier la somme des chiffres d'un entier naturel. On propose la fonction suivante :
+
+```python
+def somme_chiffres(n):
+    if n < 10:
+        return n
+    return n % 10 + somme_chiffres(n // 10)
+```
+
+On appelle somme_chiffres(4071). Chaque appel récursif est empilé dans la pile d'appels.
+
+**Q1** (1 pt, recursivite) Donner le nombre total d'appels de la fonction somme_chiffres effectués lors de l'appel somme_chiffres(4071), ainsi que la valeur renvoyée.
+
+<details><summary>Corrigé</summary>
+
+4 appels (4071, 407, 40, 4) ; valeur renvoyée : 12.
+
+</details>
+
+### Exercice 2 — Reste par soustractions
+
+On souhaite calculer le reste de la division euclidienne de a par b (a ≥ 0, b > 0) sans utiliser l'opérateur %, à l'aide d'une fonction récursive _mod(a, b). On trace les appels successifs dans un tableau, à la manière d'une table de routage où chaque ligne indique l'appel courant et l'appel « suivant » :
+
+| Appel courant | Appel suivant | Valeur renvoyée |
+|---|---|---|
+| _mod(17, 5) | _mod(12, 5) | ? |
+| _mod(12, 5) | ? | ? |
+| ? | ? | ? |
+| _mod(2, 5) | aucun (cas de base) | 2 |
+
+**Q2** (1 pt, recursivite) Écrire la fonction récursive _mod(a, b) puis recopier et compléter le tableau des appels pour _mod(17, 5).
+
+<details><summary>Corrigé</summary>
+
+```python
+def _mod(a, b):
+    if a < b:
+        return a
+    return _mod(a - b, b)
+
+print(_mod(17, 5))  # 2
+```
+Tableau : _mod(17,5) -> _mod(12,5) -> 2 ; _mod(12,5) -> _mod(7,5) -> 2 ; _mod(7,5) -> _mod(2,5) -> 2 ; _mod(2,5) : cas de base, renvoie 2.
+
+</details>
+
+## I-representation_nombres
+### Exercice 1 — Conversion en binaire
+
+Un capteur transmet des entiers naturels compris entre 0 et 255 sur 8 bits. La fonction ci-dessous doit renvoyer la chaîne de 8 caractères '0'/'1' représentant n en binaire ; par exemple binaire8(13) renvoie '00001101'.
+
+```
+1 def binaire8(n):
+2     s = ''
+3     for i in range(8):
+4         s = ... + s
+5         n = ...
+6     return s
+```
+
+**Q1** (1 pt, representation_nombres) Recopier et compléter les lignes 4 et 5 de la fonction binaire8.
+
+<details><summary>Corrigé</summary>
+
+```python
+def binaire8(n):
+    s = ''
+    for i in range(8):
+        s = str(n % 2) + s
+        n = n // 2
+    return s
+
+print(binaire8(13))  # '00001101'
+```
+
+</details>
+
+### Exercice 2 — Somme de flottants
+
+On exécute en Python les instructions suivantes :
+
+```python
+>>> 0.1 + 0.2
+0.30000000000000004
+>>> 0.5 + 0.25
+0.75
+>>> 0.1 + 0.2 == 0.3
+False
+```
+
+**Q2** (1 pt, representation_nombres) Expliquer pourquoi 0.5 + 0.25 est calculé exactement alors que 0.1 + 0.2 ne donne pas exactement 0.3.
+
+<details><summary>Corrigé</summary>
+
+Les flottants sont stockés en binaire sur un nombre fini de bits. 0.5 = 2^-1 et 0.25 = 2^-2 ont une écriture binaire finie, donc sont représentés exactement. 0.1 et 0.2 ont une écriture binaire infinie périodique : ils sont arrondis, et la somme des approximations diffère de l'approximation de 0.3.
+
+</details>
+
+### Exercice 3 — Codage d'une température
+
+Une station météo doit stocker des températures entières comprises entre -40 °C et +60 °C. Le concepteur dispose de mots de 8 bits et hésite sur la façon de représenter les valeurs négatives.
+
+**Q3** (1 pt, representation_nombres) Proposer une représentation sur 8 bits permettant de coder toutes ces températures, et donner le code de -40 avec cette représentation.
+
+<details><summary>Corrigé</summary>
+
+Par exemple le complément à deux sur 8 bits (de -128 à 127, suffisant). -40 : 40 = 00101000, inversion 11010111, +1 → 11011000. (Autre solution valable : décalage de +40, -40 codé 00000000.)
+
+</details>
+
+### Exercice 4 — Coût OSPF et débits
+
+Dans un réseau utilisant OSPF, le coût d'une liaison est calculé par la formule coût = 10^8 / d, où d est le débit en bits/s. Les débits sont notés en puissances de 10 :
+- A–B : 10^8 bit/s (Fast Ethernet)
+- A–C : 10^7 bit/s
+- C–B : 10^9 bit/s
+- B–D : 10^7 bit/s
+- C–D : 10^8 bit/s
+
+**Q4** (1 pt, representation_nombres) Déterminer le coût de chaque liaison puis le chemin de coût minimal de A vers D.
+
+<details><summary>Corrigé</summary>
+
+Coûts : A–B = 1, A–C = 10, C–B = 0,1, B–D = 10, C–D = 1. Chemins : A-B-D = 11 ; A-C-D = 11 ; A-B-C-D = 1 + 0,1 + 1 = 2,1. Chemin minimal : A → B → C → D (coût 2,1).
+
+</details>
+
+## I-reseau_ip
+### Exercice 1 — Nouvel ordinateur
+
+Le réseau local d'un CDI a pour adresse 192.168.20.0/24. Le routeur utilise 192.168.20.254 et les postes existants vont de 192.168.20.1 à 192.168.20.30.
+
+**Q1** (1 pt, reseau_ip) Proposer une adresse IP et un masque pour un nouvel ordinateur du CDI.
+
+<details><summary>Corrigé</summary>
+
+Par exemple 192.168.20.31 avec le masque 255.255.255.0 (toute adresse libre de 192.168.20.31 à 192.168.20.253 convient, ni .0 ni .255).
+
+</details>
+
+### Exercice 2 — Adresse sous forme de tableau
+
+Dans un logiciel de supervision, une adresse IPv4 est représentée par un tableau de 4 entiers, par exemple [192, 168, 1, 37]. Le masque est représenté de la même façon, par exemple [255, 255, 255, 0]. L'adresse du réseau s'obtient en faisant, octet par octet, un ET logique (opérateur & en Python) entre l'adresse et le masque.
+
+**Q2** (1 pt, reseau_ip) Écrire une fonction adresse_reseau(ip, masque) qui prend en paramètres deux tableaux de 4 entiers et renvoie le tableau de 4 entiers de l'adresse du réseau.
+
+<details><summary>Corrigé</summary>
+
+```python
+def adresse_reseau(ip, masque):
+    res = []
+    for i in range(4):
+        res.append(ip[i] & masque[i])
+    return res
+
+print(adresse_reseau([192, 168, 1, 37], [255, 255, 255, 0]))  # [192, 168, 1, 0]
+```
+
+</details>
+
+### Exercice 3 — Configuration d'un poste
+
+La commande ip addr exécutée sur un poste affiche notamment les informations suivantes :
+- interface : eth0
+- adresse : 172.16.5.12/22
+- passerelle par défaut : 172.16.4.1
+- adresse de diffusion : ?
+
+**Q3** (1 pt, reseau_ip) À l'aide des informations ci-dessus, donner l'adresse du réseau et l'adresse de diffusion du réseau de ce poste.
+
+<details><summary>Corrigé</summary>
+
+/22 → masque 255.255.252.0. 5 = 000001|01 → troisième octet réseau 4. Réseau : 172.16.4.0 ; diffusion : 172.16.7.255.
+
+</details>
+
+### Exercice 4 — Masque et partie hôte
+
+Une entreprise reçoit le réseau 10.4.0.0 avec le masque 255.255.240.0. Le cours rappelle qu'on associe une adresse IP et un masque pour savoir quelle partie de l'adresse identifie le réseau et quelle partie identifie la machine.
+
+**Q4** (1 pt, reseau_ip) Donner la notation CIDR de ce masque, indiquer combien de bits identifient la machine, puis justifier le nombre maximal de machines adressables.
+
+<details><summary>Corrigé</summary>
+
+255.255.240.0 = /20. 32 - 20 = 12 bits pour la machine. 2^12 - 2 = 4094 machines (on retire l'adresse du réseau et celle de diffusion).
+
+</details>
+
+## I-routage
+### Exercice 1 — Protocole à état de liens
+
+Une collectivité relie ses médiathèques par des routeurs. L'administrateur souhaite que chaque routeur connaisse toute la topologie du réseau et choisisse les routes en tenant compte du débit des liaisons, et non du simple nombre de sauts.
+
+**Q1** (1 pt, routage) Donner le nom du protocole de routage adapté à cette demande et le nom de l'algorithme de calcul de plus court chemin qu'il utilise.
+
+<details><summary>Corrigé</summary>
+
+OSPF ; algorithme de Dijkstra.
+
+</details>
+
+### Exercice 2 — Métrique RIP
+
+Le routeur R1 utilise le protocole RIP. Il connaît les routes suivantes vers le réseau 10.8.0.0/16 :
+- via R2 : 3 sauts
+- via R3 : 2 sauts
+- via R4 : 5 sauts
+
+**Q2** (1 pt, routage) Donner le routeur choisi par R1 comme passerelle vers 10.8.0.0/16 et la métrique inscrite dans sa table.
+
+<details><summary>Corrigé</summary>
+
+R3, métrique 2.
+
+</details>
+
+### Exercice 3 — Réseau d'entreprise
+
+Le réseau d'une entreprise comporte quatre routeurs reliés ainsi : R1–R2, R1–R3, R2–R4, R3–R4. Le réseau local LAN-A (192.168.1.0/24) est relié à R1 et le réseau LAN-B (192.168.4.0/24) est relié à R4. Le protocole RIP est utilisé ; la métrique est le nombre de sauts (routeurs à traverser) et, en cas d'égalité, on choisit la passerelle de plus petit numéro.
+
+Table de R1 (extrait) :
+
+| Destination | Passerelle | Métrique |
+|---|---|---|
+| 192.168.1.0/24 | directe | 0 |
+| 192.168.4.0/24 | ? | ? |
+
+**Q3** (1 pt, routage) Recopier et compléter la ligne de la table de routage de R1 vers le réseau 192.168.4.0/24.
+
+<details><summary>Corrigé</summary>
+
+192.168.4.0/24 | R2 | 2 (R1 → R2 → R4, égalité avec R3, on choisit R2).
+
+</details>
+
+## I-securite_crypto
+### Exercice 1 — Chiffrement de César
+
+On chiffre un message écrit en lettres majuscules (A à Z) et espaces par un décalage. La fonction cesar prend en paramètres une chaîne message et un entier cle compris entre 0 et 25, renvoie une nouvelle chaîne où chaque lettre est décalée de cle positions dans l'alphabet (Z suivi de A), laisse les espaces inchangés. On rappelle que ord('A') vaut 65 et que chr est la fonction réciproque de ord.
+
+**Q1** (1 pt, securite_crypto) Écrire la fonction cesar(message, cle) et donner la valeur de cesar('ZOO', 3).
+
+<details><summary>Corrigé</summary>
+
+```python
+def cesar(message, cle):
+    res = ''
+    for c in message:
+        if c == ' ':
+            res = res + c
+        else:
+            res = res + chr((ord(c) - 65 + cle) % 26 + 65)
+    return res
+
+print(cesar('ZOO', 3))  # 'CRR'
+```
+
+</details>
+
+### Exercice 2 — Échange de clés
+
+Alice veut envoyer un document volumineux à Bob de façon confidentielle. Elle chiffre le document avec une clé AES générée aléatoirement, puis chiffre cette clé AES avec la clé publique de Bob avant de tout lui envoyer.
+
+**Q2** (1 pt, securite_crypto) Donner le nom de ce type de chiffrement combinant les deux méthodes, et la clé que Bob utilise pour retrouver la clé AES.
+
+<details><summary>Corrigé</summary>
+
+Chiffrement hybride ; Bob utilise sa clé privée.
+
+</details>
+
+### Exercice 3 — Choix de la clé
+
+Bob possède une paire de clés RSA. Charlie veut lui envoyer un message que seul Bob pourra lire. Clés disponibles :
+- clé publique de Bob
+- clé privée de Bob
+- clé publique de Charlie
+- clé privée de Charlie
+
+**Q3** (1 pt, securite_crypto) Quelle clé Charlie doit-il utiliser pour chiffrer son message ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+La clé publique de Bob : seule la clé privée correspondante, connue de Bob uniquement, permet de déchiffrer.
+
+</details>
+
+### Exercice 4 — Partage d'une clé secrète
+
+Une entreprise utilise un chiffrement symétrique pour protéger ses échanges avec 50 partenaires. Le cours précise qu'un chiffrement est dit symétrique lorsque la connaissance de la clé ayant servi au chiffrement permet de déchiffrer le message.
+
+**Q4** (1 pt, securite_crypto) Expliquer pourquoi la transmission de la clé est le point faible de ce mode de chiffrement.
+
+<details><summary>Corrigé</summary>
+
+La même clé chiffre et déchiffre : si elle est interceptée lors de sa transmission, l'attaquant peut lire tous les messages. Il faut donc un canal sûr pour l'échanger avec chaque partenaire (50 clés distinctes), ce qui est difficile.
+
+</details>
+
+## I-sgbd
+### Exercice 1 — Requête depuis Python
+
+Un script interroge une base SQLite contenant la table eleve(id, nom, classe) remplie avec : (1, 'Lina', 'T1'), (2, 'Hugo', 'T2'), (3, 'Malo', 'T1').
+
+```python
+import sqlite3
+conn = sqlite3.connect(':memory:')
+cur = conn.cursor()
+cur.execute("CREATE TABLE eleve (id INTEGER PRIMARY KEY, nom TEXT, classe TEXT)")
+cur.executemany("INSERT INTO eleve VALUES (?, ?, ?)", [(1, 'Lina', 'T1'), (2, 'Hugo', 'T2'), (3, 'Malo', 'T1')])
+cur.execute("SELECT nom FROM eleve WHERE classe = 'T1' ORDER BY nom DESC")
+res = cur.fetchall()
+```
+
+**Q1** (1 pt, sgbd) Donner la valeur de la variable res après l'exécution de ce script.
+
+<details><summary>Corrigé</summary>
+
+[('Malo',), ('Lina',)]
+
+</details>
+
+### Exercice 2 — Propriétés d'un SGBD
+
+Une médiathèque remplace ses fichiers tableurs par un système de gestion de base de données. On liste des services possibles :
+- gestion des accès concurrents de plusieurs utilisateurs
+- mise en forme graphique des cellules
+- vérification des contraintes d'intégrité
+- persistance et sécurisation des données
+
+**Q2** (1 pt, sgbd) Quel service de la liste n'est pas assuré par un SGBD ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+La mise en forme graphique des cellules : c'est une fonction de tableur ; un SGBD gère le stockage, l'intégrité, la concurrence et la sécurité des données, pas leur présentation.
+
+</details>
+
+### Exercice 3 — Transaction
+
+On donne le code suivant, qui transfère des points entre deux comptes d'une base SQLite :
+
+```
+1 import sqlite3
+2 conn = sqlite3.connect(':memory:')
+3 cur = conn.cursor()
+4 cur.execute("CREATE TABLE compte (id INTEGER PRIMARY KEY, points INTEGER CHECK (points >= 0))")
+5 cur.execute("INSERT INTO compte VALUES (1, 10), (2, 5)")
+6 conn.commit()
+7 try:
+8     cur.execute("UPDATE compte SET points = points + 20 WHERE id = 2")
+9     cur.execute("UPDATE compte SET points = points - 20 WHERE id = 1")
+10    conn.commit()
+11 except sqlite3.IntegrityError:
+12    conn.rollback()
+```
+
+**Q3** (1 pt, sgbd) Indiquer les points des comptes 1 et 2 à la fin de l'exécution en expliquant le rôle de la ligne 12.
+
+<details><summary>Corrigé</summary>
+
+La ligne 9 viole la contrainte CHECK (10 - 20 < 0) : exception, rollback annule aussi la ligne 8. Compte 1 : 10 points, compte 2 : 5 points. La ligne 12 garantit l'atomicité de la transaction.
+
+</details>
+
+### Exercice 4 — Langage d'un SGBD-R
+
+La plupart des SGBD-R (R de relationnelle) utilisent le langage SQL, Structured Query Language. Un développeur d'application web interroge le SGBD de son site pour afficher la liste des produits.
+
+**Q4** (1 pt, sgbd) Donner la signification de l'acronyme SGBD-R et préciser le rôle du langage SQL dans les échanges entre l'application et le SGBD.
+
+<details><summary>Corrigé</summary>
+
+Système de Gestion de Bases de Données Relationnelles. SQL est le langage de requêtes que l'application envoie au SGBD pour créer, lire, modifier ou supprimer des données ; le SGBD exécute la requête et renvoie le résultat.
+
+</details>
+
+## I-soc_architecture
+### Exercice 1 — Composants d'un SoC
+
+Un SoC de montre connectée est modélisé en Python par un dictionnaire associant à chaque composant intégré sa fonction :
+
+```python
+1| soc = {'CPU': 'calcul', 'GPU': 'affichage', 'RAM': 'memoire',
+2|        'modem': 'communication', 'DSP': 'signal'}
+3| def composants(soc, fonction):
+4|     res = []
+5|     for c in soc:
+6|         if soc[c] == fonction:
+7|             res.append(c)
+8|     return res
+```
+
+**Q1** (1 pt, soc_architecture) Donner la valeur renvoyée par composants(soc, 'communication') et expliquer ce que fait la fonction composants.
+
+<details><summary>Corrigé</summary>
+
+['modem'] : la fonction renvoie la liste des composants du SoC qui assurent la fonction passée en paramètre.
+
+</details>
+
+### Exercice 2 — Consommation d'un SoC
+
+Un SoC regroupe sur une même puce plusieurs composants. Les puissances consommées (en mW) par ses composants sont données dans la liste p = [450, 300, 120, 80, 50] (CPU, GPU, RAM, modem, contrôleur USB). On exécute :
+
+```python
+total = 0
+for x in p[1:4]:
+    total = total + x
+```
+
+**Q2** (1 pt, soc_architecture) Donner la valeur de total après l'exécution de ces instructions.
+
+<details><summary>Corrigé</summary>
+
+total = 300 + 120 + 80 = 500
+
+</details>
+
+### Exercice 3 — Avantages d'un SoC
+
+On liste les propositions suivantes concernant un système sur puce (SoC) :
+- a. il réduit la distance entre les composants ;
+- b. il permet de remplacer facilement la mémoire vive par une barrette plus grande ;
+- c. il consomme généralement moins d'énergie qu'un ensemble de composants séparés ;
+- d. il nécessite obligatoirement un ventilateur.
+
+**Q3** (1 pt, soc_architecture) Quelles propositions décrivent correctement un avantage d'un SoC ? Justifier.
+
+<details><summary>Corrigé</summary>
+
+a et c : les composants étant intégrés sur une même puce, les connexions sont plus courtes, ce qui accélère les échanges et réduit la consommation. b est faux (composants soudés/intégrés, non remplaçables), d est faux (faible dissipation, souvent refroidissement passif).
+
+</details>
+
+### Exercice 4 — Communication d'un smartphone
+
+Le SoC d'un smartphone intègre notamment un CPU, un GPU, une mémoire, un contrôleur d'écran et des modules de communication sans fil.
+
+**Q4** (1 pt, soc_architecture) Quel élément d'un SoC permet à un smartphone de communiquer avec d'autres machines ?
+
+<details><summary>Corrigé</summary>
+
+Le modem (et les contrôleurs radio Wi-Fi/Bluetooth) intégré au SoC, qui gère les communications réseau (4G/5G).
+
+</details>
+
+## I-sql
+### Exercice 1 — Requêtes d'une médiathèque
+
+Une médiathèque utilise la table Emprunt(id, titre, adherent, duree) où duree est le nombre de jours d'emprunt. Le responsable souhaite :
+- connaître les titres empruntés plus de 21 jours ;
+- trier ces titres par ordre alphabétique ;
+- ne pas afficher de doublons.
+
+**Q1** (1 pt, sql) Écrire une requête SQL répondant à l'ensemble de ces besoins.
+
+<details><summary>Corrigé</summary>
+
+SELECT DISTINCT titre FROM Emprunt WHERE duree > 21 ORDER BY titre;
+
+</details>
+
+### Exercice 2 — Agence de location
+
+La base de données locations.db contient les tables Agences(id_agence, ville), Vehicules(immat, modele, id_agence) et Locations(id_loc, immat, date_debut, date_fin). L'attribut id_agence de Vehicules est une clé étrangère vers Agences, immat de Locations est une clé étrangère vers Vehicules.
+
+**Q2** (1 pt, sql) Écrire une requête SQL donnant les immatriculations des véhicules loués au moins une fois, appartenant à l'agence de la ville 'Lyon'.
+
+<details><summary>Corrigé</summary>
+
+SELECT DISTINCT Vehicules.immat FROM Vehicules JOIN Agences ON Vehicules.id_agence = Agences.id_agence JOIN Locations ON Locations.immat = Vehicules.immat WHERE Agences.ville = 'Lyon';
+
+</details>
+
+## I-tableau_liste
+### Exercice 1 — Liste chaînée de stations
+
+Une ligne de bus est représentée par une liste chaînée de stations : chaque cellule contient un nom de station et une référence vers la cellule suivante. On accède aux stations depuis la tête.
+
+**Q1** (1 pt, tableau_liste) Donner le nombre de cellules à parcourir pour atteindre la 5e station d'une liste chaînée, et comparer avec l'accès à l'élément d'indice 4 d'un tableau Python.
+
+<details><summary>Corrigé</summary>
+
+Il faut parcourir 5 cellules (coût linéaire), alors que l'accès t[4] dans un tableau se fait en temps constant.
+
+</details>
+
+### Exercice 2 — Moyenne des températures
+
+Un capteur relève 24 températures par jour, stockées dans un tableau temp de 24 nombres. On veut calculer la moyenne :
+
+```python
+1| def moyenne(temp):
+2|     s = ...
+3|     for i in range(...):
+4|         s = ...
+5|     return s / len(temp)
+```
+
+**Q2** (1 pt, tableau_liste) Recopier et compléter les lignes 2, 3 et 4 de la fonction moyenne.
+
+<details><summary>Corrigé</summary>
+
+def moyenne(temp):
+    s = 0
+    for i in range(len(temp)):
+        s = s + temp[i]
+    return s / len(temp)
+
+</details>
+
+### Exercice 3 — Tableau de scores
+
+Lors d'un tournoi, les scores des équipes sont rangés dans un tableau scores = [12, 7, 15, 9, 15, 3]. L'équipe numéro i a son score dans scores[i], la première équipe ayant le numéro 0. Le règlement indique que l'équipe ayant le plus grand score et le plus petit numéro l'emporte.
+
+**Q3** (1 pt, tableau_liste) Donner le numéro de l'équipe gagnante et la valeur de scores[len(scores) - 1].
+
+<details><summary>Corrigé</summary>
+
+Équipe 2 (score 15, avant l'équipe 4) ; scores[5] = 3.
+
+</details>
+
+### Exercice 4 — Arbre binaire dans un tableau
+
+Un arbre binaire de taille n est stocké dans un tableau : la case d'indice 0 contient n, la racine a pour indice 1, le fils gauche du nœud d'indice i a pour indice 2*i, le fils droit 2*i+1. On considère t = [5, 'A', 'B', 'C', 'D', 'E'].
+
+**Q4** (1 pt, tableau_liste) Donner les fils du nœud 'B' et l'indice du père du nœud d'indice i (i > 1).
+
+<details><summary>Corrigé</summary>
+
+Fils de 'B' (indice 2) : 'D' (indice 4) et 'E' (indice 5). Le père du nœud d'indice i a pour indice i // 2.
+
+</details>
+
+## I-tri
+### Exercice 1 — Classement d'un club
+
+Un club de course stocke ses résultats dans une table Course(id, nom, temps). On souhaite obtenir les coureurs classés du plus rapide au plus lent, ce que l'on pourrait aussi faire en Python avec un tri fusion sur la liste des temps.
+
+**Q1** (1 pt, tri) Écrire la requête SQL qui renvoie le nom et le temps des coureurs triés par temps croissant, puis donner le coût du tri fusion sur n éléments.
+
+<details><summary>Corrigé</summary>
+
+SELECT nom, temps FROM Course ORDER BY temps ASC; Le tri fusion a un coût en O(n log n).
+
+</details>
+
+## I-tuple
+### Exercice 1 — Points d'un parcours
+
+Un parcours est une liste de points représentés par des tuples (x, y) :
+
+```python
+parcours = [(0, 0), (3, 4), (3, 7)]
+p = parcours[1]
+x, y = p
+parcours[2] = (x + 1, y)
+```
+
+**Q1** (1 pt, tuple) Donner le contenu de parcours après exécution et expliquer pourquoi l'instruction p[0] = 5 provoquerait une erreur.
+
+<details><summary>Corrigé</summary>
+
+[(0, 0), (3, 4), (4, 4)] ; un tuple est immuable, on ne peut pas modifier ses éléments (TypeError).
+
+</details>
+
+### Exercice 2 — Élève le plus âgé
+
+Chaque élève est un tuple (nom, age) :
+
+```python
+1| def plus_age(eleves):
+2|     meilleur = eleves[0]
+3|     for e in eleves:
+4|         if ...:
+5|             meilleur = ...
+6|     return meilleur[0]
+```
+
+**Q2** (1 pt, tuple) Recopier et compléter les lignes 4 et 5 pour que la fonction renvoie le nom de l'élève le plus âgé.
+
+<details><summary>Corrigé</summary>
+
+def plus_age(eleves):
+    meilleur = eleves[0]
+    for e in eleves:
+        if e[1] > meilleur[1]:
+            meilleur = e
+    return meilleur[0]
+
+</details>
+
+### Exercice 3 — Bornes d'une liste
+
+La fonction bornes prend en paramètre une liste non vide d'entiers L, parcourt la liste une seule fois, et renvoie un tuple (mini, maxi) contenant la plus petite et la plus grande valeur de L.
+
+**Q3** (1 pt, tuple) Écrire la fonction bornes.
+
+<details><summary>Corrigé</summary>
+
+def bornes(L):
+    mini = L[0]
+    maxi = L[0]
+    for x in L:
+        if x < mini:
+            mini = x
+        if x > maxi:
+            maxi = x
+    return (mini, maxi)
+
+</details>
+
+### Exercice 4 — Vecteurs de distance
+
+Dans le protocole RIP, un routeur envoie à ses voisins des vecteurs de distance, couples (adresse, distance). Le routeur R reçoit de son voisin les vecteurs [('10.0.1.0', 2), ('10.0.2.0', 0)].
+
+**Q4** (1 pt, tuple) Justifier le choix d'un tuple pour représenter un vecteur de distance, puis donner les vecteurs que R enregistre pour ces réseaux.
+
+<details><summary>Corrigé</summary>
+
+Un vecteur est une donnée fixe de deux composantes hétérogènes qu'on ne modifie pas : le tuple, immuable, convient. R ajoute 1 à chaque distance : ('10.0.1.0', 3) et ('10.0.2.0', 1).
+
+</details>
+
+## I-web_http
+### Exercice 1 — Analyse d'une URL
+
+Une URL est une chaîne de la forme 'protocole://hote/chemin', par exemple 'https://www.lycee.fr/index.html'. La fonction protocole prend en paramètre une URL url, parcourt ses caractères jusqu'au premier ':', et renvoie la chaîne formée des caractères précédents.
+
+**Q1** (1 pt, web_http) Écrire la fonction protocole.
+
+<details><summary>Corrigé</summary>
+
+def protocole(url):
+    res = ''
+    i = 0
+    while url[i] != ':':
+        res = res + url[i]
+        i = i + 1
+    return res
+
+</details>
+
+### Exercice 2 — Paramètres GET
+
+Lors de l'envoi d'un formulaire en méthode GET, les paramètres sont placés dans l'URL :
+
+```python
+def requete_get(page, params):
+    """params est un dictionnaire {nom: valeur}"""
+    morceaux = []
+    for nom in params:
+        ...
+    return page + '?' + '&'.join(morceaux)
+```
+
+**Q2** (1 pt, web_http) Recopier et compléter la fonction requete_get pour que requete_get('recherche.php', {'q': 'nsi', 'p': '2'}) renvoie 'recherche.php?q=nsi&p=2'.
+
+<details><summary>Corrigé</summary>
+
+def requete_get(page, params):
+    morceaux = []
+    for nom in params:
+        morceaux.append(nom + '=' + params[nom])
+    return page + '?' + '&'.join(morceaux)
+
+</details>
+
+### Exercice 3 — Codes de réponse HTTP
+
+Un serveur web a renvoyé les codes de réponse suivants : codes = [200, 404, 200, 301, 500, 200]. On exécute :
+
+```python
+ok = [c for c in codes if c == 200]
+erreurs = [c for c in codes if c >= 400]
+```
+
+**Q3** (1 pt, web_http) Donner les valeurs de len(ok) et de erreurs.
+
+<details><summary>Corrigé</summary>
+
+len(ok) = 3 ; erreurs = [404, 500]
+
+</details>
+
+### Exercice 4 — Clé de session HTTPS
+
+Lors de l'établissement d'une connexion HTTPS, le client chiffre une clé K avec la clé publique du serveur et la lui envoie ; le serveur la déchiffre avec sa clé privée. À partir de ce moment-là, le client et le serveur sont en possession de la clé K.
+
+**Q4** (1 pt, web_http) Expliquer le rôle de la clé K dans la suite des échanges et justifier pourquoi on n'utilise pas uniquement le chiffrement asymétrique.
+
+<details><summary>Corrigé</summary>
+
+K est une clé de chiffrement symétrique qui chiffre et déchiffre toutes les données échangées ; le chiffrement symétrique est bien plus rapide, l'asymétrique ne sert qu'à échanger K de façon sûre.
+
+</details>
+
 ## S01
 ### Exercice 1 — Une station météo autonome
 

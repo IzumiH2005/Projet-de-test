@@ -1,0 +1,19 @@
+{
+ "id": "I-arbre_binaire",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Arbre complet en tableau",
+   "contexte": "On représente un arbre binaire complet de taille n par un tableau t de taille n + 1 : t[0] contient n, la racine est en t[1], et le nœud d'indice i a son fils gauche à l'indice 2*i et son fils droit à l'indice 2*i + 1.\n\nt = [7, 'A', 'B', 'C', 'D', 'E', 'F', 'G']",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "arbre_binaire",
+     "enonce": "Déterminer le nombre de feuilles de l'arbre représenté par t, puis écrire une fonction nb_feuilles(t) qui renvoie ce nombre pour un tel tableau.",
+     "points": 1,
+     "reponse_attendue": "4 feuilles (D, E, F, G). Un nœud i est une feuille si 2*i > n.\n```python\ndef nb_feuilles(t):\n    n = t[0]\n    c = 0\n    for i in range(1, n + 1):\n        if 2 * i > n:\n            c += 1\n    return c\n\nassert nb_feuilles([7, 'A', 'B', 'C', 'D', 'E', 'F', 'G']) == 4\n```"
+    }
+   ]
+  }
+ ]
+}

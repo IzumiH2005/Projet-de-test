@@ -1,0 +1,33 @@
+{
+ "id": "I-recursivite",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Somme des chiffres",
+   "contexte": "Un club de calcul mental veut vérifier la somme des chiffres d'un entier naturel. On propose la fonction suivante :\n\n```python\ndef somme_chiffres(n):\n    if n < 10:\n        return n\n    return n % 10 + somme_chiffres(n // 10)\n```\n\nOn appelle somme_chiffres(4071). Chaque appel récursif est empilé dans la pile d'appels.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recursivite",
+     "enonce": "Donner le nombre total d'appels de la fonction somme_chiffres effectués lors de l'appel somme_chiffres(4071), ainsi que la valeur renvoyée.",
+     "points": 1,
+     "reponse_attendue": "4 appels (4071, 407, 40, 4) ; valeur renvoyée : 12."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Reste par soustractions",
+   "contexte": "On souhaite calculer le reste de la division euclidienne de a par b (a ≥ 0, b > 0) sans utiliser l'opérateur %, à l'aide d'une fonction récursive _mod(a, b). On trace les appels successifs dans un tableau, à la manière d'une table de routage où chaque ligne indique l'appel courant et l'appel « suivant » :\n\n| Appel courant | Appel suivant | Valeur renvoyée |\n|---|---|---|\n| _mod(17, 5) | _mod(12, 5) | ? |\n| _mod(12, 5) | ? | ? |\n| ? | ? | ? |\n| _mod(2, 5) | aucun (cas de base) | 2 |",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "recursivite",
+     "enonce": "Écrire la fonction récursive _mod(a, b) puis recopier et compléter le tableau des appels pour _mod(17, 5).",
+     "points": 1,
+     "reponse_attendue": "```python\ndef _mod(a, b):\n    if a < b:\n        return a\n    return _mod(a - b, b)\n\nprint(_mod(17, 5))  # 2\n```\nTableau : _mod(17,5) -> _mod(12,5) -> 2 ; _mod(12,5) -> _mod(7,5) -> 2 ; _mod(7,5) -> _mod(2,5) -> 2 ; _mod(2,5) : cas de base, renvoie 2."
+    }
+   ]
+  }
+ ]
+}
