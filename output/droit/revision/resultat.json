@@ -1,0 +1,41 @@
+{
+ "fichiers_revises": 14,
+ "revises_avant": {
+  "facette_ok": 1.0,
+  "section_ok": 0.571,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 0.982,
+  "longueur_ok": 1.0
+ },
+ "revises_apres": {
+  "facette_ok": 1.0,
+  "section_ok": 0.768,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 1.0,
+  "longueur_ok": 1.0
+ },
+ "global_avant": {
+  "facette_ok": 1.0,
+  "section_ok": 0.878,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 0.995,
+  "longueur_ok": 1.0,
+  "annexes_ok": 1.0,
+  "tout_ok": 0.872,
+  "questions": 196,
+  "annexes": 124,
+  "lots": 49
+ },
+ "global_apres": {
+  "facette_ok": 1.0,
+  "section_ok": 0.934,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 1.0,
+  "longueur_ok": 1.0,
+  "annexes_ok": 1.0,
+  "tout_ok": 0.934,
+  "questions": 196,
+  "annexes": 124,
+  "lots": 49
+ }
+}

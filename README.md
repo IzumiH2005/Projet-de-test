@@ -186,3 +186,49 @@ Au total, environ 8 400 questions d'exposition.
 | Python / SQL des corrigés | 100 % / 100 % | 98 % / 100 % |
 
 La page `output/livrable.html` (construite par `python scripts/build_livrable.py`) regroupe les anciens sujets et les 368 questions générées, dont 163 inédites.
+
+## Moteur générique : le « profil du professeur » (`examgen/prof`)
+
+Il fonctionne pour n'importe quelle matière, à partir des anciens sujets (avec leurs corrigés si possible) et du cours. Rien n'est écrit à la main pour une matière donnée : le découpage repose uniquement sur la typographie (titres, numéros, « Annexe », barème). Tout le reste est appris :
+- les parties pertinentes ;
+- les manières de demander et leur ordre ;
+- les formules rituelles ;
+- les types d'annexes, recopiées ou inventées ;
+- le niveau de détail par point ;
+- les sections qui tombent ensemble ;
+- la probabilité qu'une section tombe l'an prochain.
+
+```
+python -m examgen.prof profil --sujets DIR --cours DIR --out OUT   # profil appris
+python -m examgen.prof plan   --sujets DIR --cours DIR --out OUT   # plans pour tout le cours
+(agents rédacteurs : OUT/consignes_redacteur.md)
+python -m examgen.prof check  --sujets DIR --cours DIR --out OUT   # validateur = récompense
+python scripts/prof_revise.py prepare|keep_best|compare OUT        # boucle vérifier → réviser
+```
+
+**Pas besoin d'apprentissage par renforcement complet.** Le validateur appris joue le rôle de la récompense. Le rédacteur révise d'après ses retours, et une révision n'est gardée que si la note ne baisse pas (accepter/rejeter).
+
+**Formules rituelles.** Le professeur repose les mêmes débuts de question d'un sujet à l'autre, comme « Développez l'argumentation juridique que… » (34 sujets). Ces tournures sont détectées automatiquement : un trigramme de début d'énoncé présent dans au moins 10 % des sujets. Les reprendre est admis. Recopier une ancienne situation, même avec d'autres noms, est refusé.
+
+### Droit (bac STMG droit-économie)
+
+Le corpus compte 38 sujets 2021–2026, 14 corrigés et le cours en 23 sections (programme Éduscol et articles des codes). Le moteur a gardé seul 43 parties juridiques et écarté 42 parties d'économie. Il a produit 49 documents (un cas et une série d'exercices par section, plus 3 sujets blancs), soit 196 questions et 124 annexes.
+
+| Contrôle (196 questions) | 1re écriture | + formules rituelles | + révision |
+|---|---|---|---|
+| Manière de demander reconnue | 100 % | 100 % | 100 % |
+| Section visée reconnue (top 3) | 87,8 % | 87,8 % | 93,4 % |
+| Articles cités vérifiables | 100 % | 100 % | 100 % |
+| Pas une copie | 77 % | 99,5 % | 100 % |
+| Longueur du corrigé | 100 % | 100 % | 100 % |
+| Annexes sources recopiées fidèlement | 100 % | 100 % | 100 % |
+| Question qui passe tout | 69,4 % | 87,2 % | 93,4 % |
+
+La colonne « 1re écriture » utilise l'ancien test de copie, qui confondait formules rituelles et copies ; la hausse de 77 % à 99,5 % vient de cette correction du contrôle, pas d'une réécriture. La révision a porté sur les 14 documents signalés : la section reconnue y passe de 57 % à 77 %, et les 14 révisions ont été gardées.
+
+NSI : sur 45 questions révisées, 24 révisions ont été gardées et 21 rejetées. Le support reconnu sur l'ensemble des questions inédites passe de 63 % à 70 %.
+
+Limites :
+- la section n'est prédite qu'un peu mieux que par la popularité (AUC 0,635 contre 0,622) ;
+- il n'y a que 14 corrigés ;
+- les PDF scannés ne sont pas lus (pas d'OCR).

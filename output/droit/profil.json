@@ -733,10 +733,10 @@
    "Rappelez les fonctions économiques de l’État.",
    "Qualifiez juridiquement les faits et les parties.",
    "Qualifiez juridiquement les parties et les faits.",
-   "Qualifiez juridiquement les faits et les dommages.",
    "Distinguez le taux de chômage et le taux d’emploi.",
-   "Déterminez le lien entre niveau de diplôme et chômage.",
+   "Qualifiez juridiquement les faits et les dommages.",
    "Présentez un argument que Thomas pourrait lui opposer.",
+   "Déterminez le lien entre niveau de diplôme et chômage.",
    "Commentez l’évolution des dépenses publiques en France."
   ],
   "tetes": [
@@ -765,15 +765,15 @@
     "sujets": 22
    },
    {
-    "debut": "résumez les faits",
+    "debut": "en utilisant des",
+    "sujets": 21
+   },
+   {
+    "debut": "permette de répondre",
     "sujets": 21
    },
    {
     "debut": "utilisant des qualifications",
-    "sujets": 21
-   },
-   {
-    "debut": "faits en utilisant",
     "sujets": 21
    },
    {
