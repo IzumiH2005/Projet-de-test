@@ -233,6 +233,31 @@ Limites :
 - il n'y a que 14 corrigés ;
 - les PDF scannés ne sont pas lus (pas d'OCR).
 
+### Prévoir l'année suivante (`examgen/prof/forecast.py`)
+
+Le but : écrire les questions les plus probables, dans la manière du professeur, avec ce qu'il exige sans le dire.
+
+```
+python -m examgen.prof.forecast droit                               # preuve + passages probables -> OUT/previsions.json
+python -m examgen.prof probable --out OUT                           # plans des sujets probables -> OUT/plans_probables.json
+python -m examgen.prof check --out OUT --plans plans_probables.json # contrôle de OUT/generated_probables/
+```
+
+- **Quel passage tombera.** Un modèle apprend sur les années passées quel passage du cours est interrogé. La preuve se fait « comme en vrai » : chaque année testée est prédite avec les seules années d'avant. On compte la part des vraies questions qui tombent dans les 10 % de passages retenus.
+- **Comment il le demande.** Les manières de demander déjà employées sur ce passage ou ce chapitre.
+- **L'intention cachée.** Les mots propres au chapitre que le professeur ne dit presque jamais dans ses énoncés (moins de 20 %) mais qu'il attend dans ses corrigés (au moins deux fois plus que dans l'ensemble des corrigés). Le contrôleur vérifie que le corrigé généré les exige et que l'énoncé ne les dit pas.
+
+Droit, années testées 2024–2026 (27 passages retenus sur 274) :
+
+| Méthode | Vraies questions couvertes | À un passage près |
+|---|---|---|
+| Hasard | 10 % | – |
+| Popularité (ce qui tombe souvent) | 30 % | 41 % |
+| Logistique, 12 variables (retenue pour 2027) | 46 % | 60 % |
+| Méthode choisie seule chaque année | 30 % | 45 % |
+
+Le score varie beaucoup selon l'année (95 % en 2024, 29 % en 2025, 15 % en 2026) : avec 6 années, une année surprise pèse lourd. Le chiffre prudent est celui de la méthode choisie seule. Les 3 sujets probables générés (12 questions, 8 annexes réelles ou inventées) passent tous les contrôles, et leurs corrigés couvrent toute l'intention cachée visée.
+
 ## Méta-apprentissage (`examgen/meta`)
 
 `python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.
