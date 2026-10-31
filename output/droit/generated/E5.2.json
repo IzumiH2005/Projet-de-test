@@ -1,0 +1,55 @@
+{
+  "id": "E5.2",
+  "titre": "L’exécution du contrat",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : extraits du Code civil",
+      "texte": "Article 1217 : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été imparfaitement, peut : - refuser d'exécuter ou suspendre l'exécution de sa propre obligation ; - poursuivre l'exécution forcée en nature de l'obligation ; - obtenir une réduction du prix ; - provoquer la résolution du contrat ; - demander réparation des conséquences de l'inexécution. Les sanctions qui ne sont pas incompatibles peuvent être cumulées ; des dommages et intérêts peuvent toujours s'y ajouter.\nArticle 1225 : La clause résolutoire précise les engagements dont l'inexécution entraînera la résolution du contrat. La résolution est subordonnée à une mise en demeure infructueuse, s'il n'a pas été convenu que celle-ci résulterait du seul fait de l'inexécution. La mise en demeure ne produit effet que si elle mentionne expressément la clause résolutoire.\nArticle 1226 : Le créancier peut, à ses risques et périls, résoudre le contrat par voie de notification. Sauf urgence, il doit préalablement mettre en demeure le débiteur défaillant de satisfaire à son engagement dans un délai raisonnable. La mise en demeure mentionne expressément qu'à défaut pour le débiteur de satisfaire à son obligation, le créancier sera en droit de résoudre le contrat. Lorsque l'inexécution persiste, le créancier notifie au débiteur la résolution du contrat et les raisons qui la motivent. Le débiteur peut à tout moment saisir le juge pour contester la résolution. Le créancier doit alors prouver la gravité de l'inexécution.\nArticle 1228 : Le juge peut, selon les circonstances, constater ou prononcer la résolution ou ordonner l'exécution du contrat, en accordant éventuellement un délai au débiteur, ou allouer seulement des dommages et intérêts.",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "La SARL Boulangerie Kervella a commandé le 3 mars 2025 à la société Thermofour un four professionnel livré et installé pour 18 400 euros, la mise en service étant prévue le 1er avril. Le four livré tombe en panne à six reprises au cours du mois d’avril. Malgré trois courriels de relance, Thermofour n’a envoyé aucun technicien. La boulangerie a dû fermer quatre jours et estime sa perte de chiffre d’affaires à 3 200 euros.",
+      "enonce": "Développez l’argumentation juridique que la SARL Boulangerie Kervella peut avancer pour obtenir l’exécution du contrat et la réparation du préjudice subi.",
+      "reponse_attendue": "Fondement : article 1217 du Code civil (et article 1103 en connaissances : le contrat légalement formé tient lieu de loi aux parties).\nPrincipe : la partie envers laquelle l’engagement n’a pas été exécuté ou l’a été imparfaitement peut notamment poursuivre l’exécution forcée en nature, obtenir une réduction du prix, provoquer la résolution du contrat et demander réparation des conséquences de l’inexécution ; les sanctions compatibles se cumulent et des dommages et intérêts peuvent toujours s’y ajouter.\nEn l’espèce, un contrat de vente et d’installation a été conclu entre la SARL Boulangerie Kervella (créancière de la livraison d’un four en état de fonctionner) et la société Thermofour (débitrice). Le four tombe en panne six fois en un mois : l’obligation de délivrer un matériel conforme et en état de marche est imparfaitement exécutée. La boulangerie peut d’abord adresser une mise en demeure à Thermofour, formalité qui constate l’inexécution alors que l’exécution reste possible, puis demander l’exécution forcée en nature : réparation ou remplacement du four.\nElle peut aussi demander réparation des conséquences de l’inexécution : la fermeture de quatre jours lui cause un dommage matériel (perte de chiffre d’affaires de 3 200 euros) qui est une suite immédiate et directe de l’inexécution. Ces dommages et intérêts se cumulent avec l’exécution forcée.\nConclusion : la boulangerie peut, après mise en demeure, exiger la remise en état ou le remplacement du four et obtenir 3 200 euros de dommages et intérêts.",
+      "articles_cites": [
+        "1217"
+      ],
+      "points": 2
+    },
+    {
+      "slot": 2,
+      "situation": "Lucas Ferrand a souscrit un abonnement annuel de 49 euros par mois auprès d’une salle de sport. Le contrat d’adhésion, rédigé à l’avance par la salle, prévoit qu’« en cas de retard de paiement d’une seule mensualité, l’adhérent devra verser une indemnité forfaitaire égale à la totalité des mensualités restant dues ». Lucas a payé avec dix jours de retard sa mensualité de juin.",
+      "enonce": "Expliquez pourquoi le droit encadre les clauses pénales et les clauses abusives insérées dans les contrats.",
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive. Plusieurs idées peuvent être développées.\nLa clause pénale est une clause par laquelle les parties évaluent par avance et de manière forfaitaire les dommages et intérêts dus en cas d’inexécution. Elle a une utilité réelle : elle sécurise le contrat en anticipant un aléa, elle incite le débiteur à exécuter (fonction de sanction) et évite au créancier d’avoir à prouver l’étendue de son préjudice.\nMais la liberté contractuelle trouve sa limite dans le déséquilibre entre les parties. Dans un contrat d’adhésion, comme l’abonnement de Lucas, les clauses sont rédigées à l’avance par une seule partie et ne sont pas négociables ; la partie la plus forte peut imposer une sanction sans rapport avec le préjudice réel. Ici, exiger toutes les mensualités restantes pour dix jours de retard est manifestement excessif.\nLe droit encadre donc ces clauses pour protéger la partie faible et rétablir l’équilibre contractuel : depuis la réforme de 2016, l’article 1171 du Code civil répute non écrite la clause créant un déséquilibre significatif dans un contrat d’adhésion, et le juge peut modérer une clause pénale manifestement excessive.\nCet encadrement préserve aussi la force obligatoire du contrat (article 1103) en assurant qu’elle repose sur un consentement réel : un contrat juste est mieux respecté, ce qui sert la sécurité juridique et la confiance des consommateurs dans les échanges.",
+      "articles_cites": [],
+      "points": 2
+    },
+    {
+      "slot": 3,
+      "situation": "Le 2 septembre 2025, la SAS Imprim’Ouest s’est engagée par contrat à imprimer et livrer 5 000 catalogues à l’entreprise Jardins d’Armor avant le 15 octobre, pour 7 500 euros payables à la livraison. Le contrat contient une clause résolutoire visant le retard de livraison. Le 20 octobre, aucun catalogue n’a été livré ; Jardins d’Armor a envoyé le 22 octobre une lettre recommandée mentionnant la clause et accordant huit jours à l’imprimeur, en vain.",
+      "enonce": "Qualifiez juridiquement les faits, les parties et le contrat.",
+      "reponse_attendue": "Les parties : la SAS Imprim’Ouest est une personne morale de droit privé, commerçante, débitrice de l’obligation d’imprimer et de livrer les catalogues et créancière du prix. L’entreprise Jardins d’Armor est créancière de la livraison et débitrice du paiement du prix.\nLe contrat : il s’agit d’un contrat synallagmatique (obligations réciproques : livrer / payer), à titre onéreux, commutatif, conclu entre professionnels. Il contient une clause résolutoire au sens de l’article 1225 du Code civil, c’est-à-dire une clause précisant les engagements dont l’inexécution entraînera la résolution du contrat.\nLes faits : l’absence de livraison à la date convenue du 15 octobre constitue une inexécution contractuelle de l’obligation principale de l’imprimeur. La lettre recommandée du 22 octobre, qui mentionne expressément la clause résolutoire et accorde un délai de huit jours, est une mise en demeure. Elle est restée infructueuse : l’inexécution persiste au-delà du délai.\nLes conséquences possibles : la mise en demeure infructueuse mentionnant la clause permet de mettre en œuvre la résolution du contrat (anéantissement du contrat) ; Jardins d’Armor pourra aussi refuser de payer le prix, ce qui correspond à l’exception d’inexécution (article 1217 : refuser d’exécuter sa propre obligation), et demander des dommages et intérêts si elle subit un préjudice.",
+      "articles_cites": [
+        "1225",
+        "1217"
+      ],
+      "points": 2
+    },
+    {
+      "slot": 4,
+      "situation": "Mme Hélène Roussel loue depuis 2023 un local commercial à M. Paul Dantec pour y exploiter une librairie. Depuis janvier 2025, une fuite de toiture rend inutilisable la moitié de la surface de vente ; M. Dantec, informé par écrit à deux reprises, n’a entrepris aucuns travaux. Mme Roussel a cessé de payer ses loyers de février et mars. M. Dantec lui notifie la résolution du bail pour défaut de paiement, sans mise en demeure préalable.",
+      "enonce": "Présentez l’argumentation juridique que Mme Roussel pourrait opposer à M. Dantec pour contester la résolution du bail.",
+      "reponse_attendue": "Premier argument : l’exception d’inexécution justifie le non-paiement des loyers.\nFondement : article 1217 du Code civil. La partie envers laquelle l’engagement n’a pas été exécuté peut refuser d’exécuter ou suspendre l’exécution de sa propre obligation.\nEn l’espèce, le bail est un contrat synallagmatique : M. Dantec, bailleur, doit délivrer et entretenir un local permettant l’exploitation de la librairie ; Mme Roussel doit payer le loyer. La fuite rend inutilisable la moitié de la surface depuis janvier et M. Dantec, informé par écrit à deux reprises, n’agit pas : son inexécution est grave. Mme Roussel pouvait donc suspendre le paiement des loyers. Elle pourra aussi réclamer une réduction du prix et des dommages et intérêts.\nSecond argument : la résolution unilatérale est irrégulière.\nFondement : article 1226 du Code civil. Le créancier peut résoudre le contrat par notification, à ses risques et périls, mais il doit, sauf urgence, mettre préalablement en demeure le débiteur de s’exécuter dans un délai raisonnable, en mentionnant qu’à défaut il pourra résoudre le contrat. Le débiteur peut saisir le juge pour contester la résolution, et le créancier doit alors prouver la gravité de l’inexécution.\nEn l’espèce, M. Dantec a notifié la résolution sans aucune mise en demeure, et aucune urgence n’est caractérisée. Mme Roussel peut saisir le juge ; M. Dantec aura du mal à prouver la gravité de l’inexécution qu’il reproche, puisqu’elle est la conséquence de sa propre défaillance.\nConclusion : la résolution doit être écartée et le bail maintenu.",
+      "articles_cites": [
+        "1217",
+        "1226"
+      ],
+      "points": 2
+    }
+  ],
+  "type": "exercices"
+}

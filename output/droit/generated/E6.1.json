@@ -1,0 +1,56 @@
+{
+  "id": "E6.1",
+  "titre": "Le dommage réparable",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : extraits du Code civil",
+      "texte": "Article 1218 : Il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : Chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde.\nArticle 1246 : Toute personne responsable d'un préjudice écologique est tenue de le\nréparer.\nArticle 1247 : Est réparable, dans les conditions prévues au présent titre, le préjudice\nécologique consistant en une atteinte non négligeable aux éléments ou aux fonctions\ndes écosystèmes ou aux bénéfices collectifs tirés par l'homme de l'environnement.\nArticle 1248 : L'action en réparation du préjudice écologique est ouverte à toute\npersonne ayant qualité et intérêt à agir, telle que l'Etat, l'Agence française pour la\nbiodiversité, les collectivités territoriales et leurs groupements dont le territoire est\nconcerné, ainsi que les établissements publics et les associations agréées ou créées\ndepuis au moins cinq ans à la date d'introduction de l'instance qui ont pour objet la\nprotection de la nature et la défense de l'environnement.\nArticle 1249 : La réparation du préjudice écologique s'effectue par priorité en nature.\nEn cas d'impossibilité de droit ou de fait ou d'insuffisance des mesures de réparation,\nle juge condamne le responsable à verser des dommages et intérêts, affectés à la\nréparation de l'environnement, au demandeur ou, si celui-ci ne peut prendre les\nmesures utiles à cette fin, à l'Etat. […]",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Le 14 mai 2025, la SAS Agrimix a laissé s’écouler pendant plusieurs heures 30 000 litres de lisier dans la rivière Le Léguer. Sur huit kilomètres, les poissons sont morts et la végétation aquatique est détruite. L’association Rivières vivantes du Trégor, créée en 2012 pour protéger les milieux aquatiques, a déjà dépensé 4 500 euros pour installer des barrages filtrants.",
+      "enonce": "Développez l’argumentation juridique que l’association Rivières vivantes du Trégor peut avancer pour demander la réparation du préjudice subi.",
+      "reponse_attendue": "Fondement : articles 1246, 1247, 1248 et 1249 du Code civil.\nPrincipe : toute personne responsable d’un préjudice écologique est tenue de le réparer. Le préjudice écologique est une atteinte non négligeable aux éléments ou aux fonctions des écosystèmes. L’action est ouverte notamment aux associations agréées ou créées depuis au moins cinq ans qui ont pour objet la protection de la nature. La réparation se fait par priorité en nature.\nEn l’espèce, le déversement de 30 000 litres de lisier a entraîné la mort des poissons et la destruction de la végétation sur huit kilomètres : l’atteinte aux éléments de l’écosystème de la rivière n’est pas négligeable. Ce dommage n’est pas subi par une personne mais par la nature : c’est un préjudice écologique pur. Le fait générateur est imputable à la SAS Agrimix, et le lien de causalité entre l’écoulement et la pollution est direct.\nL’association, créée en 2012, existe depuis plus de cinq ans et a pour objet la protection des milieux aquatiques : elle a qualité et intérêt à agir.\nElle peut donc demander en priorité une réparation en nature (dépollution, réempoissonnement) et, à défaut, des dommages et intérêts affectés à la réparation de l’environnement. Les 4 500 euros dépensés pour limiter l’étendue de la pollution constituent en outre un préjudice matériel certain et personnel.\nConclusion : la SAS Agrimix devra réparer le préjudice écologique.",
+      "articles_cites": [
+        "1246",
+        "1247",
+        "1248",
+        "1249"
+      ],
+      "points": 2
+    },
+    {
+      "slot": 2,
+      "situation": "Clara Benoît, 24 ans, a été renversée par un scooter alors qu’elle traversait sur un passage piéton. Fracture de la jambe, trois mois d’arrêt de travail, smartphone détruit. Ses frais médicaux ont été pris en charge par la Sécurité sociale et sa mutuelle, et son téléphone par son assurance multirisque.",
+      "enonce": "Expliquez pourquoi la réparation des dommages repose aujourd’hui largement sur des mécanismes d’assurance.",
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nLa responsabilité civile a pour fonction de réparer le dommage subi par la victime. Mais si la victime ne pouvait compter que sur le patrimoine du responsable, elle risquerait de ne jamais être indemnisée : responsable inconnu, insolvable ou procès long et coûteux.\nL’assurance repose sur la mutualisation des risques : chaque assuré verse une prime, et l’ensemble des primes permet d’indemniser ceux qui subissent un sinistre. Le coût d’un dommage important est ainsi réparti sur un grand nombre de personnes. Pour Clara, la Sécurité sociale et la mutuelle prennent en charge le dommage corporel, son assureur de biens le dommage matériel, rapidement et sans attendre la recherche du responsable.\nLa recherche de responsabilité intervient dans un second temps : l’assureur qui a indemnisé se retourne contre le responsable (ou son assureur de responsabilité) pour la part qu’il a payée, et la victime agit pour la part restée à sa charge, par exemple son préjudice moral.\nL’assurance protège aussi le responsable, dont le patrimoine n’est pas ruiné par une condamnation. Enfin, lorsque l’assurance ne joue pas, des fonds de garantie fondés sur la solidarité nationale prennent le relais.\nCe système traduit une évolution du droit : on passe d’une logique de sanction de la faute à une logique d’indemnisation des victimes.",
+      "articles_cites": [],
+      "points": 2
+    },
+    {
+      "slot": 3,
+      "situation": "Le 8 février 2025, lors d’un match amateur, Hugo Lemaire a volontairement frappé Yanis Corre au visage après une altercation. Yanis a eu le nez fracturé, ses lunettes ont été cassées (280 euros) et, défiguré pendant plusieurs semaines, il n’a pas pu participer au mariage de sa sœur dont il était le témoin.",
+      "enonce": "Qualifiez juridiquement les faits et les dommages.",
+      "reponse_attendue": "Les parties : Yanis Corre, personne physique, est la victime ; Hugo Lemaire, personne physique, est l’auteur du dommage. Aucun contrat ne les lie : la situation relève de la responsabilité civile extracontractuelle (et pénale, les violences volontaires étant une infraction).\nLes faits : le coup porté volontairement au visage constitue un fait personnel fautif, une faute intentionnelle au sens de l’article 1240 du Code civil. Le lien de causalité entre le coup et les dommages est direct.\nLes dommages :\n- la fracture du nez est un dommage corporel (atteinte à l’intégrité physique) ;\n- les lunettes cassées sont un dommage matériel, patrimonial, évaluable en argent (280 euros) ;\n- les souffrances, le préjudice esthétique temporaire et l’impossibilité d’assister au mariage de sa sœur constituent un dommage moral, extrapatrimonial.\nCes dommages sont réparables : ils sont certains (déjà réalisés), directs (conséquence immédiate du coup), personnels (subis par Yanis lui-même) et légitimes (ils portent atteinte à un intérêt protégé par le droit).\nConclusion : Yanis peut demander à Hugo réparation de l’ensemble de ces dommages sur le fondement de l’article 1240.",
+      "articles_cites": [
+        "1240"
+      ],
+      "points": 2
+    },
+    {
+      "slot": 4,
+      "situation": "M. Antoine Riou, propriétaire d’un gîte, reproche à la SARL Bâti-Côte, qui réalise des travaux sur la route voisine, de lui causer un dommage. Il réclame 15 000 euros : selon lui, « les touristes risquent d’être moins nombreux l’été prochain à cause du bruit ». À ce jour, aucune réservation n’a été annulée et le chantier doit s’achever en avril.",
+      "enonce": "Présentez l’argumentation juridique que la SARL Bâti-Côte pourrait opposer à M. Riou.",
+      "reponse_attendue": "Fondement : article 1240 du Code civil ; caractères du dommage réparable.\nPrincipe : l’existence d’un dommage est la condition première de la responsabilité civile. Pour être réparable, le dommage doit être certain, direct, personnel et légitime. Il appartient à la victime de prouver son dommage, le fait générateur et le lien de causalité.\nPremier argument : le dommage n’est pas certain. M. Riou invoque une baisse éventuelle de fréquentation l’été prochain. Or aucune réservation n’a été annulée et le chantier doit s’achever en avril, avant la saison touristique. Le dommage allégué est purement hypothétique ; un dommage éventuel n’est pas réparable.\nDeuxième argument : le lien de causalité n’est pas établi. Même si la fréquentation baissait, d’autres causes pourraient l’expliquer (météo, conjoncture, concurrence) ; rien ne permet de rattacher directement une perte de clientèle au bruit du chantier.\nTroisième argument : l’absence de faute. La SARL Bâti-Côte réalise des travaux sur la voie publique, activité normale et autorisée ; à défaut de manquement aux règles (horaires, normes de bruit), aucun fait fautif ne peut lui être reproché au sens de l’article 1240.\nConclusion : la SARL Bâti-Côte peut conclure au rejet de la demande de 15 000 euros.",
+      "articles_cites": [
+        "1240"
+      ],
+      "points": 2
+    }
+  ],
+  "type": "exercices"
+}

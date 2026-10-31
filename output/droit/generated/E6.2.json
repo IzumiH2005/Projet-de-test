@@ -1,0 +1,56 @@
+{
+  "id": "E6.2",
+  "titre": "Les différents régimes de responsabilité",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : extraits du Code civil",
+      "texte": "Article 1218 : Il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : Chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde.\nArticle 1245-17 : Les dispositions du présent chapitre ne portent pas atteinte aux droits dont la victime d'un dommage peut se prévaloir au titre du droit de la responsabilité contractuelle ou extracontractuelle ou au titre d'un régime spécial de responsabilité. Le producteur reste responsable des conséquences de sa faute et de celle des personnes dont il répond.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Le 10 juin 2025, une trottinette électrique neuve achetée par Romain Delmas a pris feu dans son garage à cause d’une batterie défectueuse. L’incendie a endommagé la voiture de son voisin, M. Kerbrat, garée dans le garage mitoyen. Romain hésite : doit-il agir contre le vendeur, contre le fabricant, et sur quel fondement ?",
+      "enonce": "Expliquez pourquoi le droit prévoit une diversité de régimes de responsabilité civile.",
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nLe régime de droit commun de la responsabilité extracontractuelle repose sur la faute (articles 1240 et 1241 du Code civil). Mais la victime a souvent du mal à prouver une faute, notamment face à des risques techniques complexes. Le droit a donc développé d’autres régimes pour mieux indemniser les victimes.\nD’abord, la diversité tient à la situation des parties : lorsque le dommage naît de l’exécution d’un contrat, la responsabilité contractuelle s’applique et le contenu du contrat (obligations de moyens ou de résultat, obligation de sécurité) guide la réparation ; à défaut de contrat, la responsabilité extracontractuelle permet à la victime d’agir.\nEnsuite, à la responsabilité pour faute se sont ajoutées des responsabilités sans faute : fait des choses, fait d’autrui (article 1242), qui permettent d’atteindre celui qui a la garde de la chose ou répond de la personne.\nEnfin, les mutations économiques et sociales et l’apparition de nouveaux risques (industrialisation, circulation automobile, production de masse, atteintes à l’environnement) ont conduit le législateur à créer des régimes spéciaux adaptés : accident du travail, accident de la circulation, produits défectueux, préjudice écologique.\nCes régimes ne s’excluent pas toujours : l’article 1245-17 permet à la victime d’un produit défectueux d’agir aussi sur le terrain contractuel ou extracontractuel. Cette diversité vise à garantir une indemnisation plus facile et plus juste des victimes.",
+      "articles_cites": [
+        "1240",
+        "1241",
+        "1242",
+        "1245-17"
+      ],
+      "points": 2
+    },
+    {
+      "slot": 2,
+      "situation": "Le 22 août 2025, lors d’un après-midi chez son ami Théo Marchal, Sarah Pinel, 16 ans, a glissé sur le carrelage mouillé de la terrasse et s’est cassé le bras. Ses parents demandent réparation au père de Théo, propriétaire de la maison. M. Marchal rappelle que les jeunes couraient autour de la piscine malgré ses avertissements répétés.",
+      "enonce": "Présentez l’argumentation juridique que M. Marchal pourrait opposer aux parents de Sarah.",
+      "reponse_attendue": "Qualification préalable : aucun contrat ne lie M. Marchal à Sarah ; la situation relève de la responsabilité extracontractuelle, du fait personnel (articles 1240 et 1241) ou du fait des choses (article 1242), le carrelage de la terrasse étant une chose dont M. Marchal a la garde.\nPremier argument : l’absence de faute personnelle.\nFondement : articles 1240 et 1241 du Code civil. Si les parents invoquent une faute, ils doivent la prouver. Or M. Marchal a averti à plusieurs reprises les jeunes de ne pas courir : aucune négligence ni imprudence ne peut lui être reprochée. Un carrelage mouillé au bord d’une piscine est une situation normale et prévisible.\nDeuxième argument : le rôle passif de la chose.\nFondement : article 1242. Pour engager la responsabilité du gardien, la chose doit avoir été l’instrument du dommage. Un sol inerte, en état normal, qui n’est ni anormal ni dangereux, n’a qu’un rôle passif : il n’est pas la cause du dommage.\nTroisième argument : la faute de la victime.\nSarah, âgée de 16 ans, a couru autour de la piscine malgré les avertissements répétés. Sa propre imprudence est la cause de la chute ; elle peut exonérer M. Marchal totalement, ou au moins partiellement, de sa responsabilité.\nConclusion : M. Marchal peut conclure au rejet, ou à la réduction, de la demande de réparation.",
+      "articles_cites": [
+        "1240",
+        "1241",
+        "1242"
+      ],
+      "points": 2
+    },
+    {
+      "slot": 3,
+      "situation": "Nadia Hamel, cariste salariée de la SAS Logistik 35, a été blessée au pied le 3 février 2025 sur la plateforme logistique de son employeur : une palette mal arrimée par un collègue est tombée d’un rayonnage pendant qu’elle préparait une commande. Elle a été arrêtée deux mois et ses chaussures de sécurité ont été détruites.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "reponse_attendue": "Nadia Hamel, personne physique, salariée de la SAS Logistik 35, personne morale de droit privé et employeur, est liée à celle-ci par un contrat de travail. Le 3 février 2025, sur son lieu de travail et pendant son temps de travail, elle a été victime d’un accident causé par la chute d’une palette mal arrimée par un collègue de travail.\nCet événement soudain, survenu par le fait ou à l’occasion du travail, doit être qualifié d’accident du travail ; il relève d’un régime spécial d’indemnisation qui n’exige pas la preuve d’une faute de l’employeur et s’applique à l’exclusion du droit commun.\nNadia subit un dommage corporel (blessure au pied et deux mois d’arrêt de travail, entraînant une perte de salaire, dommage patrimonial) et un dommage matériel (chaussures de sécurité détruites). Elle peut également invoquer des souffrances, dommage moral.\nLe lien de causalité entre la chute de la palette et ses dommages est direct.\nNadia souhaite être indemnisée de ses préjudices.",
+      "articles_cites": [],
+      "points": 2
+    },
+    {
+      "slot": 4,
+      "situation": "M. Bernard Quéré a confié sa voiture au garage Auto-Pro pour le remplacement des plaquettes de frein. Deux jours après avoir récupéré son véhicule, il ne parvient pas à freiner à un carrefour et percute un muret : sa voiture est endommagée (3 800 euros de réparations) et il souffre d’une entorse cervicale. Un expert constate que les plaquettes ont été mal montées.",
+      "enonce": "Développez l’argumentation juridique que M. Quéré peut avancer pour obtenir réparation du préjudice subi.",
+      "reponse_attendue": "Qualification : M. Quéré, client, et le garage Auto-Pro, professionnel, sont liés par un contrat d’entreprise (prestation de réparation). Le dommage naît de l’exécution de ce contrat : la responsabilité contractuelle s’applique, et non la responsabilité extracontractuelle des articles 1240 et suivants.\nPrincipe : le débiteur qui n’exécute pas correctement son obligation doit réparer le dommage qui en résulte. L’obligation du garagiste réparateur est une obligation de résultat : il doit rendre un véhicule en état de fonctionner ; la seule constatation que le résultat n’est pas atteint fait présumer sa faute. Le garagiste est aussi tenu d’une obligation de sécurité.\nEn l’espèce, le garage s’était engagé à remplacer les plaquettes de frein. Deux jours après, les freins ne fonctionnent pas ; l’expert établit que les plaquettes ont été mal montées. Le résultat promis n’est pas atteint : l’inexécution est caractérisée, et elle est même prouvée par l’expertise.\nLe lien de causalité entre le mauvais montage et l’accident est direct : M. Quéré n’a pas pu freiner.\nLes dommages sont certains et personnels : dommage matériel (réparations du véhicule, 3 800 euros) et dommage corporel (entorse cervicale), auquel peut s’ajouter un dommage moral (souffrances).\nConclusion : M. Quéré peut obtenir du garage Auto-Pro des dommages et intérêts couvrant l’ensemble de ses préjudices.",
+      "articles_cites": [],
+      "points": 2
+    }
+  ],
+  "type": "exercices"
+}
