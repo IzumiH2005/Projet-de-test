@@ -90,6 +90,39 @@ def render_prompt(plan: dict) -> str:
                     f"formulations typiques : {', '.join(q['formulations_typiques'])}")
                 for ex_ in q["exemples_reels_de_style"]:
                     lines.append(f"    style réel : « {ex_[:220].strip()} »")
+    elif plan["type"] == "inedit":
+        lines += [f"Notion : {plan['notion']} ({plan['domaine']}) — questions JAMAIS POSÉES aux annales", "",
+                  "Ces questions viennent d'une analyse non supervisée. Elle a appris, sans lexique écrit à la main, les "
+                  "manières de demander (facettes de consigne) et les types de matériau fourni (facettes de support) des "
+                  "vraies questions. Chaque slot ci-dessous associe la notion à une manière de demander ou à un support que "
+                  "les annales n'ont jamais utilisés pour elle. Le modèle juge pourtant ce mélange aussi plausible qu'une "
+                  "vraie question. Ou bien le slot vise un détail du cours jamais interrogé.", "",
+                  "Règles propres à ce mode :",
+                  "- Une question = un exercice : numero = slot ; contexte = mise en situation et matériau (code, table, "
+                  "schéma décrit, appel…), conforme au support demandé ; enonce = la consigne SEULE, une ou deux phrases.",
+                  "- La consigne applique le geste de la facette à la notion visée. Les exemples viennent d'autres notions : "
+                  "imite leur MANIÈRE de demander et le détail qu'ils évaluent, jamais leur sujet.",
+                  "- La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.",
+                  "", "Extraits du cours :"]
+        for c in plan["cours"]:
+            lines.append(f"> [{c['ref']}]\n> " + c["texte"][:900].replace("\n", "\n> "))
+        lines.append("")
+        lines.append("Questions à rédiger (points = 1 par défaut) :")
+        for q in plan["questions"]:
+            c = q["consigne"]
+            lines += ["", f"- slot {q['slot']} | {q['mode']} | {q['nouveaute']} | position visée : {q['position']}",
+                      f"    manière de demander {c['id']} : {c['nom']}" + (f" — {c['geste']}" if c["geste"] else "")]
+            if c["gabarit"]:
+                lines.append(f"    gabarit : {c['gabarit']}")
+            for e in q["exemples_de_consigne_autres_notions"]:
+                lines.append(f"    exemple réel (autre notion) : « {e[:240]} »")
+            if q["mode"] == "combinaison_inedite":
+                s = q["support"]
+                lines.append(f"    support {s['id']} : {s['nom']}" + (f" — {s['geste']}" if s["geste"] else ""))
+                for e in q["exemple_de_support_autre_notion"]:
+                    lines.append(f"    exemple de support (autre notion) : « {e[:260]} »")
+            else:
+                lines.append(f"    détail du cours à évaluer ({q['lecon']}) : « {q['atome_du_cours']} »")
     else:
         lines += [f"Notion : {plan['notion']} ({plan['domaine']}) — banque de questions isolées", "Extraits du cours :"]
         for c in plan["cours"]:

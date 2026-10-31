@@ -465,9 +465,53 @@ def run():
     course = ingest_course()
     write_jsonl(CORPUS / "exams.jsonl", written + practical)
     write_jsonl(CORPUS / "course.jsonl", course)
+    write_jsonl(CORPUS / "course_exercises.jsonl", ingest_course_exercises())
     nq = sum(len(x["questions"]) for e in written for x in e["exercises"])
     print(f"[ok] {len(written)} sujets écrits ({nq} questions), {len(practical)} sujets pratiques")
 
 
 if __name__ == "__main__":
     run()
+
+
+# ---------------------------------------------------------------------------------------------
+# Exercices du cours (blocs « !!! example » de glassus) : exposition supplémentaire pour la
+# découverte non supervisée des façons d'interroger. Les corrections sont retirées.
+EX_HEAD = re.compile(r'^!!! (?:example|question|exercice)\b.*$', re.M | re.I)
+SUBQ = re.compile(r"(?m)^\s*(?:\*\*)?(Q\d+|\d+[.)]|[a-h][.)])(?:\*\*)?\s+(?=\S)")
+
+
+def ingest_course_exercises() -> list[dict]:
+    docs = SOURCES / "glassus_terminale_nsi" / "docs"
+    out = []
+    for f in sorted(docs.glob("T[1-5]_*/*/*.md")) + sorted(docs.glob("T6_[25]_*/*.md")):
+        if "Copie en conflit" in f.name:
+            continue
+        txt = f.read_text(encoding="utf-8", errors="ignore")
+        top = f.parts[len(docs.parts)]
+        key = "T6_2" if top.startswith("T6_2") else "T6_5" if top.startswith("T6_5") else top[:2]
+        lesson = re.sub(r"^[\d.]+_", "", f.parent.name if not top.startswith("T6") else top).replace("_", " ")
+        for m in EX_HEAD.finditer(txt):
+            body = []
+            for ln in txt[m.end():].split("\n")[1:]:
+                if ln.strip() and not ln.startswith(("    ", "\t")):
+                    break
+                body.append(ln[4:] if ln.startswith("    ") else ln.lstrip("\t"))
+            b = "\n".join(body)
+            b = re.split(r"\{\{\s*correction|\?\?\?[+]? *(success|note|tip)|=== *\"Correction", b)[0]
+            b = re.sub(r"\{\{.*?\}\}", " ", b, flags=re.S)
+            b = clean_md(b).strip()
+            if len(b) < 60:
+                continue
+            cuts = [s.start() for s in SUBQ.finditer(b)]
+            if len(cuts) >= 2:
+                pre, parts = b[:cuts[0]], [b[s:e].strip() for s, e in zip(cuts, cuts[1:] + [len(b)])]
+            else:
+                pre, parts = "", [b]
+            qs = [{"label": str(i + 1), "part": None, "is_sub": False,
+                   "context_before": pre[-600:] if i == 0 else "", "text": p[:1500]} for i, p in enumerate(parts) if len(p) > 15]
+            if qs:
+                out.append({"chapter": CHAPTER_NAMES.get(key, top), "lesson": lesson, "file": f.name,
+                            "preamble": pre, "questions": qs})
+    print(f"[cours] {len(out)} exercices de cours, {sum(len(e['questions']) for e in out)} questions")
+    return out

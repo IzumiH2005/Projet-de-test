@@ -1,0 +1,4833 @@
+{
+ "corpus_d_exposition": {
+  "ecrit": 2668,
+  "pratique": 267,
+  "cours": 167
+ },
+ "separation_consigne_contenu": {
+  "mots_analyses": 1308,
+  "mots_de_consigne_decouverts": 967,
+  "signaux": "entropie thématique + grappage intra-exercice, mélange gaussien 2D",
+  "exemples_consigne": [
+   "en",
+   "un",
+   "est",
+   "et",
+   "dans",
+   "on",
+   "qui",
+   "par",
+   "les",
+   "une",
+   "des",
+   "le",
+   "sont",
+   "de",
+   "ou",
+   "du",
+   "la",
+   "renvoie",
+   "au",
+   "que",
+   "deux",
+   "il",
+   "ne",
+   "fonction",
+   "donne",
+   "chaque",
+   "ci-dessous",
+   "pas",
+   "exemple",
+   "ce",
+   "plus",
+   "avec",
+   "suivant",
+   "peut",
+   "si",
+   "d'une",
+   "considere",
+   "utilise",
+   "pour",
+   "ainsi",
+   "laquelle",
+   "cet",
+   "dont",
+   "se",
+   "puis",
+   "son",
+   "ces",
+   "sa",
+   "etre",
+   "ci-dessus"
+  ],
+  "exemples_contenu": [
+   "cpu",
+   "timbres",
+   "processus",
+   "exoplanetes",
+   "region",
+   "maya",
+   "pid",
+   "livres",
+   "arret",
+   "collection",
+   "degre",
+   "bloque",
+   "elu",
+   "lst",
+   "pret",
+   "decision",
+   "album",
+   "planche",
+   "mdp",
+   "joueuse",
+   "comptes",
+   "processeur",
+   "personnel",
+   "parite",
+   "ipv",
+   "pc",
+   "instant",
+   "joueuses",
+   "peripherique",
+   "ab"
+  ],
+  "frontiere_cote_consigne": [
+   "l'identifiant",
+   "systemes",
+   "flottant",
+   "glouton",
+   "fils",
+   "update",
+   "cycle",
+   "traverses",
+   "decimale",
+   "brievement",
+   "triplet",
+   "into",
+   "droit",
+   "relationnel",
+   "couleurs"
+  ],
+  "frontiere_cote_contenu": [
+   "langage",
+   "numero",
+   "compte",
+   "informations",
+   "fichier",
+   "texte",
+   "etat",
+   "chemins",
+   "get",
+   "rechercher",
+   "permettant",
+   "date",
+   "table",
+   "client",
+   "finale"
+  ]
+ },
+ "variables_decouvertes": {
+  "total": 95,
+  "consigne": 30,
+  "support": 10,
+  "contenu": 30,
+  "mise_en_situation": 25,
+  "fiables_>=0.7": 80
+ },
+ "facettes": {
+  "manieres_de_demander": {
+   "k": 25,
+   "silhouette": 0.326
+  },
+  "types_de_support": {
+   "k": 8,
+   "silhouette": 0.371
+  },
+  "detail_manieres_de_demander": {
+   "0": {
+    "effectif": 105,
+    "a_l_ecrit": 104,
+    "part_ecrit": 0.99,
+    "composantes": [
+     "C21",
+     "C23"
+    ],
+    "termes": [
+     "ecrire la",
+     "ecrire la X",
+     "N ecrire la",
+     "N ecrire la X",
+     "permet",
+     "la X qui"
+    ],
+    "exemples": [
+     "4. Écrire la méthode ajouter permettant d'ajouter un objet de type Personne à la liste du personnel de l'entreprise de la classe Personnel.",
+     "b. Écrire la requête permettant d'obtenir la date et l'heure de début des prestations de plus d'une heure, réalisées par Didier.",
+     "7. Écrire la méthode get_note de la classe Livre. Cette méthode devra renvoyer la note d'un livre."
+    ],
+    "position_moyenne": 0.54,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "graphe",
+     "securite_crypto"
+    ]
+   },
+   "1": {
+    "effectif": 42,
+    "a_l_ecrit": 42,
+    "part_ecrit": 1.0,
+    "composantes": [
+     "C29",
+     "C16"
+    ],
+    "termes": [
+     "X page",
+     "page",
+     "page N",
+     "X page N",
+     "N X page",
+     "N X page N"
+    ],
+    "exemples": [
+     "c. Représenter la pile p et la file f après l'exécution du code suivant. for i in range(2): enfiler(f, depiler(p)) 22-NSIJ1LR1 Page 3 sur 16",
+     "7. renvoyer mystereABR(filsgauche(a))",
+     "b. Que fait cet algorithme ? 22-NSIJ1LR1 Page 4 sur 16"
+    ],
+    "position_moyenne": 0.6,
+    "notions_frequentes": [
+     "pile",
+     "sql",
+     "arbre_binaire",
+     "poo"
+    ]
+   },
+   "2": {
+    "effectif": 94,
+    "a_l_ecrit": 79,
+    "part_ecrit": 0.84,
+    "composantes": [
+     "C1",
+     "C19"
+    ],
+    "termes": [
+     "qui prend en",
+     "X qui prend",
+     "X qui prend en",
+     "fonction X qui",
+     "fonction X qui prend",
+     "prend en parametre"
+    ],
+    "exemples": [
+     "3. Écrire une fonction etendre(pile1, pile2) qui prend en arguments deux objets Pile appelés pile1 et pile2 et qui modifie pile1 en lui ajoutant les éléments de pile2 rangés dans l'ordre inverse. Cett",
+     "7. Écrire une fonction pyramide_nulle qui prend en paramètre un entier n et construit une pyramide remplie de 0 à n niveaux.",
+     "4. Écrire une fonction verifier_contenu qui prend en paramètres une ﬁle F et trois entiers : nb_rouge, nb_vert et nb_jaune."
+    ],
+    "position_moyenne": 0.6,
+    "notions_frequentes": [
+     "poo",
+     "dictionnaire",
+     "pile",
+     "fonctions"
+    ]
+   },
+   "3": {
+    "effectif": 130,
+    "a_l_ecrit": 110,
+    "part_ecrit": 0.85,
+    "composantes": [
+     "C22",
+     "C28"
+    ],
+    "termes": [
+     "sont",
+     "X sont",
+     "sont X",
+     "X sont X",
+     "sous",
+     "X les"
+    ],
+    "exemples": [
+     "1. Dessiner sur votre copie ce graphe en représentant chaque personne par la première lettre de son prénom entourée d'un cercle et où un lien d'amitié est représenté par un trait entre deux personnes.",
+     "b) En utilisant les fonctions de l'exercice, écrire les instructions Python qui aﬃchent les coordonnées des deux points les plus proches du nuage de points nuage_points.",
+     "Question 4 L'objectif de cette question est de trier une pile de crêpes. On modélise une pile de crêpes par une pile d'entiers représentant le diamètre de chaque crêpe. On souhaite réordonner les crêp"
+    ],
+    "position_moyenne": 0.49,
+    "notions_frequentes": [
+     "routage",
+     "poo",
+     "arbre_binaire",
+     "processus"
+    ]
+   },
+   "4": {
+    "effectif": 145,
+    "a_l_ecrit": 144,
+    "part_ecrit": 0.99,
+    "composantes": [
+     "C7",
+     "C26"
+    ],
+    "termes": [
+     "expliquer",
+     "N expliquer",
+     "pourquoi",
+     "expliquer pourquoi",
+     "N expliquer pourquoi",
+     "pas"
+    ],
+    "exemples": [
+     "11. Expliquer comment une tierce personne pourrait se faire passer pour Alice sans que Bob ne s'en aperçoive.",
+     "7. Expliquer en quoi les informations m0, m0_s et cle1_a connues de Bob permettent de garantir à la fois que le message provient bien d'Alice et que Mallory n'a pas pu envoyer le message m3 à Bob en s",
+     "3. Expliquer, de façon générale, quand est-ce qu'un interblocage de processus peut survenir."
+    ],
+    "position_moyenne": 0.52,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "processus",
+     "securite_crypto"
+    ]
+   },
+   "5": {
+    "effectif": 130,
+    "a_l_ecrit": 107,
+    "part_ecrit": 0.82,
+    "composantes": [
+     "C18",
+     "C22"
+    ],
+    "termes": [
+     "QM",
+     "X QM",
+     "quelle",
+     "quel",
+     "QM X",
+     "X quelle"
+    ],
+    "exemples": [
+     "3. Depuis quelle application a-t-on exécuté la commande ps ? Donner les autres commandes qui ont été exécutées à partir de cette application.",
+     "1. Cet algorithme est-il itératif ou récursif ? Justifier en un e phrase.",
+     "1. Quel algorithme a été utilisé : le tri par insertion ou le t ri fusion ? Justifier."
+    ],
+    "position_moyenne": 0.42,
+    "notions_frequentes": [
+     "processus",
+     "modele_relationnel",
+     "reseau_ip",
+     "poo"
+    ]
+   },
+   "6": {
+    "effectif": 135,
+    "a_l_ecrit": 128,
+    "part_ecrit": 0.95,
+    "composantes": [
+     "C20",
+     "C28"
+    ],
+    "termes": [
+     "X du X",
+     "la X de X",
+     "la X de",
+     "de X du X",
+     "de X du",
+     "X de X du"
+    ],
+    "exemples": [
+     "7. Dresser la table de routage du routeur R1 suite à la panne du routeur R3. Le routeur R3 est de nouveau fonctionnel. Dans la suite de cet exercice, on utilise le protocole de routage OSPF (Open Shor",
+     "1. Recopier et co mpléter la table de routage de 𝑅𝑅 1 sachant que le protocole de routage RIP est utilisé.",
+     "b) Donner la composition de la suite des PID lorsque le quantum du tourniquet est de deux cycles CPU."
+    ],
+    "position_moyenne": 0.46,
+    "notions_frequentes": [
+     "routage",
+     "arbre_binaire",
+     "poo",
+     "sql"
+    ]
+   },
+   "7": {
+    "effectif": 136,
+    "a_l_ecrit": 103,
+    "part_ecrit": 0.76,
+    "composantes": [
+     "C15",
+     "C28"
+    ],
+    "termes": [
+     "nombre",
+     "le nombre",
+     "nombre de",
+     "le nombre de",
+     "nombre de X",
+     "le nombre de X"
+    ],
+    "exemples": [
+     "b. En déduire le nombre de machines pouvant être connectées sur ce réseau. L'administrateur réseau du centre hospitalier souhaite statuer sur les performances de deux protocoles de routage. Il étudie ",
+     "a. Indiquer deux routes qui permettent d'atteindre le routeur D et leur nombre de sauts.",
+     "b. Préciser si le protocole RIP utilise le nombre de sauts ou le délai de réception comme poids des arêtes."
+    ],
+    "position_moyenne": 0.52,
+    "notions_frequentes": [
+     "sql",
+     "routage",
+     "poo",
+     "fonctions"
+    ]
+   },
+   "8": {
+    "effectif": 88,
+    "a_l_ecrit": 78,
+    "part_ecrit": 0.89,
+    "composantes": [
+     "C11",
+     "C10"
+    ],
+    "termes": [
+     "donnees",
+     "de donnees",
+     "X de donnees",
+     "dans la X",
+     "dans la",
+     "la X de donnees"
+    ],
+    "exemples": [
+     "7. Le parking dont l'identifiant est 28 a été transformé en un parc et n'existe plus. Donner les requêtes permettant de supprimer ce parking de la base de données.",
+     "4. Donner une requête permettant d'obtenir les noms des lacs qu'il est possible d'atteindre depuis le parking situé à 1300 mètres d'altitude dans la commune de Cordon (on admet qu'un tel parking exist",
+     "10. Indiquer le problème que peut poser l'exécution de cette requête. La gérante aimerait que l'on ajoute dans la base de données un moyen de retrouver les ingrédients utilisés pour chaque pizza. Chaq"
+    ],
+    "position_moyenne": 0.5,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "modele_relationnel",
+     "file"
+    ]
+   },
+   "9": {
+    "effectif": 199,
+    "a_l_ecrit": 166,
+    "part_ecrit": 0.83,
+    "composantes": [
+     "C16",
+     "C2"
+    ],
+    "termes": [
+     "PAR N",
+     "X PAR N",
+     "N X PAR N",
+     "PAR N N",
+     "valeur",
+     "la valeur"
+    ],
+    "exemples": [
+     "10. Donner les résultats renvoyés par les deux appels suivants : • mystere([0, 1, 1], [0, 3, 1], 0) • mystere([0, 1, 1], [0, 4, 2], 0)",
+     "a. Représenter l'arbre construit suite à l'exécution de l'instruction suivante : racine = Noeud(18) racine.insere_tout([12, 13, 15, 16, 19, 21, 32, 23])",
+     "9. Déterminer la valeur de routeur_m.table après l'appel routeur_m.m_a_j((172, 64, 0, 2), 1, vecteurs)."
+    ],
+    "position_moyenne": 0.46,
+    "notions_frequentes": [
+     "poo",
+     "arbre_binaire",
+     "fonctions",
+     "pile"
+    ]
+   },
+   "10": {
+    "effectif": 84,
+    "a_l_ecrit": 83,
+    "part_ecrit": 0.99,
+    "composantes": [
+     "C5",
+     "C3"
+    ],
+    "termes": [
+     "ecrire le code",
+     "N ecrire le code",
+     "ecrire le",
+     "N ecrire le",
+     "ecrire le code de",
+     "le code de"
+    ],
+    "exemples": [
+     "3. Rectifier sur votre copie le code de la classe File pour que la function defile renvoie None lorsque la file est vide.",
+     "7. Écrire le code de la méthode est_bissextile. On rappelle qu'un entier a est divisible par l'entier n si a % n == 0.",
+     "9. Recopier le code de la fonction select_tel en proposant une modification pour que la fonction renvoie None plutôt que de provoquer une KeyError dans le cas où la situation précédente se présente. O"
+    ],
+    "position_moyenne": 0.6,
+    "notions_frequentes": [
+     "poo",
+     "graphe",
+     "fonctions",
+     "routage"
+    ]
+   },
+   "11": {
+    "effectif": 88,
+    "a_l_ecrit": 67,
+    "part_ecrit": 0.76,
+    "composantes": [
+     "C12",
+     "C1"
+    ],
+    "termes": [
+     "chaine",
+     "caracteres",
+     "de caracteres",
+     "chaine de",
+     "chaine de caracteres",
+     "une chaine"
+    ],
+    "exemples": [
+     "10. Écrire une fonction modification qui prend en paramètres une file f et une chaine de caractères nv_mdp. Si le mot de passe nv_mdp répond bien aux deux exigences des questions 7 et 9, alors elle mo",
+     "2. Donner une chaîne de caractères s_faux telle que est_operateur(s_faux) et est_nombre(s_faux) renvoient False tous les deux. On suppose qu'on dispose d'une fonction est_chiffre qui prend en paramètr",
+     "Programmer une fonction renverse, prenant en paramètre une chaîne de caractères mot et renvoie cette chaîne de caractères en ordre inverse. Exemple : >>> renverse(\"\") \"\" >>> renverse(\"abc\") \"cba\" >>> "
+    ],
+    "position_moyenne": 0.48,
+    "notions_frequentes": [
+     "fonctions",
+     "poo",
+     "chaines",
+     "representation_nombres"
+    ]
+   },
+   "12": {
+    "effectif": 164,
+    "a_l_ecrit": 139,
+    "part_ecrit": 0.85,
+    "composantes": [
+     "C27",
+     "C22"
+    ],
+    "termes": [
+     "dessous",
+     "ci dessous",
+     "X ci",
+     "X ci dessous",
+     "dessous COLON",
+     "la X ci"
+    ],
+    "exemples": [
+     "a. Sachant que le répertoire courant est le répertoire fiches, indiquer sur la copie les numéros de toutes les commandes parmi celles proposées ci - dessous qui permettent de se positionner dans le ré",
+     "5. a. Recopier sur la copie et indiquer dans le circuit ci-dessous les entrées e0 et e1 de façon à ce que ce circuit sélectionne le périphérique 1.",
+     "2. Ravel, un nouveau fabricant, a livré à l'entreprise 10 vélos du modèle 'Bovelo'. Parmi les cinq requêtes numérotées ci-dessous, en sélectionner deux qui permettent d'intégrer cette nouvelle informa"
+    ],
+    "position_moyenne": 0.49,
+    "notions_frequentes": [
+     "poo",
+     "sql",
+     "processus",
+     "routage"
+    ]
+   },
+   "13": {
+    "effectif": 112,
+    "a_l_ecrit": 104,
+    "part_ecrit": 0.93,
+    "composantes": [
+     "C24",
+     "C28"
+    ],
+    "termes": [
+     "figure N",
+     "figure",
+     "la figure N",
+     "la figure",
+     "de la figure N",
+     "de la figure"
+    ],
+    "exemples": [
+     "3) Indiquer deux avantages d 'un ordinateur monocarte (SoC) par rapport à un mini - ordinateur. Figure 1 Figure 2",
+     "4. On utilise maintenant le protocole OSPF qui minimise la somme des coû ts de la transmission entre deux nœuds. Le réseau avec les coûts est illustré par la figure 3 : Figure 3. Réseau avec coûts. Av",
+     "2. Justifier que l'écriture Maya de l'entier 3435 est : Figure 2. Ecriture Maya de l'entier 3435 On modélise l'écriture d'un entier dans sa représentation Maya par une pile formée de listes. Chacune d"
+    ],
+    "position_moyenne": 0.45,
+    "notions_frequentes": [
+     "poo",
+     "arbre_binaire",
+     "graphe",
+     "sql"
+    ]
+   },
+   "14": {
+    "effectif": 140,
+    "a_l_ecrit": 116,
+    "part_ecrit": 0.83,
+    "composantes": [
+     "C4",
+     "C17"
+    ],
+    "termes": [
+     "COLON N",
+     "def X PAR",
+     "def X",
+     "def",
+     "PAR X COLON",
+     "def X PAR X"
+    ],
+    "exemples": [
+     "10. On complète la méthode index_insertion_element. 17 def index_insertion_element(self, element): 18 \"\"\"Renvoie la position/index d'insertion 19 d'element dans liste_priorite triée 20 par ordre décro",
+     "14. Recopier et compléter sur votre copie le code python de la méthode minage_bloc. 1 def minage_bloc(self): 2 \"\"\"modifie le nonce d'un bloc pour que son hash commence par '00' en énumérant tous les e",
+     "2) Après exécution du programme Programme 1, voici le début de l'affichage obtenu : [{'dep': '56', 'nom': 'Lorient', 'nb_hab_1999': '59224', 'nb_hab_2012': '58100', 'densite': '3272', 'superficie': '1"
+    ],
+    "position_moyenne": 0.56,
+    "notions_frequentes": [
+     "poo",
+     "fonctions",
+     "graphe",
+     "arbre_binaire"
+    ]
+   },
+   "15": {
+    "effectif": 93,
+    "a_l_ecrit": 91,
+    "part_ecrit": 0.98,
+    "composantes": [
+     "C25",
+     "C28"
+    ],
+    "termes": [
+     "proposer",
+     "proposer une",
+     "N proposer",
+     "N proposer une",
+     "X proposer",
+     "X pour"
+    ],
+    "exemples": [
+     "5. Proposer un parcours en largeur du graphe G2 en partant de A. La société CarteMap décide d'implémenter la recherche des itinéraires permettant de traverser le moins de villes possible. Par exemple,",
+     "8. Cet algorithme étant a priori plus économe en antennes, proposer une fonction strategie_2, sur le modèle de strategie_1 qui implémente cette nouvelle stratégie.",
+     "4. Proposer deux adresses IP à attribuer aux interfaces des routeurs R2 et R4 pour établir ce lien. EN_NOzUzMD2M0ODAczOT7UzMmTYxMj0A2MDEO2OTpQ0OHTYx"
+    ],
+    "position_moyenne": 0.54,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "graphe",
+     "modele_relationnel"
+    ]
+   },
+   "16": {
+    "effectif": 143,
+    "a_l_ecrit": 140,
+    "part_ecrit": 0.98,
+    "composantes": [
+     "C10",
+     "C21"
+    ],
+    "termes": [
+     "ecrire une X",
+     "N ecrire une X",
+     "N ecrire une",
+     "X des",
+     "X des X",
+     "ecrire une X de"
+    ],
+    "exemples": [
+     "5. Écrire une requête permettant d'obtenir la liste des noms des tournois, ainsi que leur année, en triant par année croissante.",
+     "3. (a) L'agence souhaite envoyer un mail d'information à ses clients pour leur présenter cette nouvelle possibilité de séjour mise en place à Bastia. Écrire une requête SQL permettant d'obtenir l'adre",
+     "5. Écrire une méthode tracer_chemin de la classe Chemin qui affiche une représentation graphique d'un itinéraire."
+    ],
+    "position_moyenne": 0.56,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "modele_relationnel",
+     "routage"
+    ]
+   },
+   "17": {
+    "effectif": 108,
+    "a_l_ecrit": 108,
+    "part_ecrit": 1.0,
+    "composantes": [
+     "C14",
+     "C26"
+    ],
+    "termes": [
+     "cle",
+     "cle X",
+     "la cle",
+     "la cle X",
+     "cle X de",
+     "cle X de la"
+    ],
+    "exemples": [
+     "a. idbenevole est déclaré comme clé primaire de la table Benevole. Préciser son rôle.",
+     "b. idmission est déclaré comme clé étrangère de la table Benevole. Préciser son rôle.",
+     "6. Expliquer la différence entre une clé primaire et une clé étrangère."
+    ],
+    "position_moyenne": 0.32,
+    "notions_frequentes": [
+     "modele_relationnel",
+     "sql",
+     "poo",
+     "securite_crypto"
+    ]
+   },
+   "18": {
+    "effectif": 151,
+    "a_l_ecrit": 40,
+    "part_ecrit": 0.26,
+    "composantes": [
+     "C19",
+     "C22"
+    ],
+    "termes": [
+     "tableau",
+     "un tableau",
+     "entiers",
+     "tableau X",
+     "nombres",
+     "entier"
+    ],
+    "exemples": [
+     "Le but de l'exercice est de compléter une fonction qui détermine si une valeur est présente dans un tableau de valeurs triées dans l'ordre croissant. L'algorithme traite le cas du tableau vide. L'algo",
+     "On considère l'algorithme de tri de tableau suivant : à chaque étape, on parcourt depuis le début du tableau tous les éléments non rangés et on place en dernière position le plus grand élément. Exempl",
+     "Programmer la fonction verifie qui prend en paramètre un tableau de valeurs numériques non vide et qui renvoie True si ce tableau est trié dans l’ordre croissant, False sinon. Exemples : Exemples : >>"
+    ],
+    "position_moyenne": 0.52,
+    "notions_frequentes": [
+     "tableau_liste",
+     "fonctions",
+     "tri",
+     "poo"
+    ]
+   },
+   "19": {
+    "effectif": 211,
+    "a_l_ecrit": 195,
+    "part_ecrit": 0.92,
+    "composantes": [
+     "C28",
+     "C22"
+    ],
+    "termes": [
+     "au",
+     "au X",
+     "X au",
+     "determiner",
+     "X au X",
+     "N determiner"
+    ],
+    "exemples": [
+     "a. Indiquer le chemin emprunté par un message d'un ordinateur du réseau F à destination d'un ordinateur du réseau I. Justifier votre réponse.",
+     "9. Pour intensifier sa sécurité, le site stocke les trois derniers mots de passe dans une file et interdit au client lorsqu'il change son mot de passe d'utiliser l'un des mots de passe stockés dans ce",
+     "a) Internet b) VGA c) Ethernet d) HDMI 5) On souhaite déterminer le parcours minimisant le coût total des liaisons traversées."
+    ],
+    "position_moyenne": 0.55,
+    "notions_frequentes": [
+     "routage",
+     "poo",
+     "reseau_ip",
+     "graphe"
+    ]
+   },
+   "20": {
+    "effectif": 213,
+    "a_l_ecrit": 138,
+    "part_ecrit": 0.65,
+    "composantes": [
+     "C22",
+     "C19"
+    ],
+    "termes": [
+     "sont",
+     "X sont",
+     "sont X",
+     "X sont X",
+     "sous",
+     "X les"
+    ],
+    "exemples": [
+     "2. Indiquer la lettre correspondante aux noms ‘racine', ‘feuille', ‘nœud', ‘SAG' (Sous Arbre Gauche) et ‘SAD' (Sous Arbre Droit). Chaque lettre A, B, C, D et E devra être utilisée une seule fois. Arbr",
+     "3. On considère un arbre binaire R dont on note G le sous-arbre gauche et D le sous-arbre droit. On suppose que R est de hauteur 4 et G de hauteur 2.",
+     "7. En déduire ce que calcule la fonction enigme lorsqu'on l'applique à un dictionnaire dont les clés sont les noms des candidats et les valeurs sont leurs notes."
+    ],
+    "position_moyenne": 0.41,
+    "notions_frequentes": [
+     "arbre_binaire",
+     "poo",
+     "processus",
+     "dictionnaire"
+    ]
+   },
+   "21": {
+    "effectif": 100,
+    "a_l_ecrit": 97,
+    "part_ecrit": 0.97,
+    "composantes": [
+     "C6",
+     "C16"
+    ],
+    "termes": [
+     "le resultat",
+     "resultat",
+     "la X suivante",
+     "X suivante",
+     "suivante",
+     "le resultat de"
+    ],
+    "exemples": [
+     "15. Montrer que, pour tous bits a et b, on a la propriété suivante : (a XOR b) XOR b = a.",
+     "a. En se référant à l'extrait de la feuille tableur de la question 1, indiquer le nom d'un titre d'Adrian Smith qui n'apparaît pas dans le résultat de la requête suivante : SELECT titre FROM Titre WHE",
+     "a. Donner les valeurs renvoyées par la requête suivante : SELECT nom, telephone FROM clients WHERE ville='Montélimar';"
+    ],
+    "position_moyenne": 0.45,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "arbre_binaire",
+     "os_commandes"
+    ]
+   },
+   "22": {
+    "effectif": 97,
+    "a_l_ecrit": 95,
+    "part_ecrit": 0.98,
+    "composantes": [
+     "C0",
+     "C13"
+    ],
+    "termes": [
+     "lignes N",
+     "les lignes N",
+     "les lignes",
+     "lignes",
+     "completer les",
+     "et completer les"
+    ],
+    "exemples": [
+     "9. Compléter les lignes 7 et 8 de la fonction rechercher_enfant donnée ci-dessus.",
+     "9. Recopier et compléter les lignes 5 et 6 de cette fonction afin qu'elle renvoie la distance attendue.",
+     "2. Recopier et compléter les lignes 8, 9 et 10 et compléter les pointillés avec le code manquant."
+    ],
+    "position_moyenne": 0.58,
+    "notions_frequentes": [
+     "poo",
+     "arbre_binaire",
+     "graphe",
+     "fonctions"
+    ]
+   },
+   "23": {
+    "effectif": 108,
+    "a_l_ecrit": 108,
+    "part_ecrit": 1.0,
+    "composantes": [
+     "C23",
+     "C10"
+    ],
+    "termes": [
+     "nom",
+     "le nom",
+     "N donner",
+     "donner le",
+     "N donner le",
+     "donner le nom"
+    ],
+    "exemples": [
+     "7. Donner le coût d'exécution temporel de la méthode prediction en fonction de la taille 𝑛 des entrées.",
+     "10. Donner le nom d'un algorithme de tri plus efficace étudié en terminale, et nommer le paradigme algorithmique mis en œuvre dans cet algorithme plus efficace.",
+     "6. Donner le solde en nsicoin de Bob à l'issue du bloc2."
+    ],
+    "position_moyenne": 0.46,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "graphe",
+     "arbre_binaire"
+    ]
+   },
+   "24": {
+    "effectif": 86,
+    "a_l_ecrit": 86,
+    "part_ecrit": 1.0,
+    "composantes": [
+     "C9",
+     "C27"
+    ],
+    "termes": [
+     "completer la",
+     "et completer la",
+     "recopier et completer la",
+     "ligne",
+     "la ligne",
+     "ligne N"
+    ],
+    "exemples": [
+     "10. Compléter le corps (à partir de la ligne 6) de la fonction rechercher.",
+     "8. Recopier puis compléter la fonction traite_operateur.",
+     "8. Compléter la fonction itineraires_court."
+    ],
+    "position_moyenne": 0.56,
+    "notions_frequentes": [
+     "poo",
+     "graphe",
+     "arbre_binaire",
+     "fonctions"
+    ]
+   }
+  },
+  "detail_types_de_support": {
+   "0": {
+    "effectif": 390,
+    "a_l_ecrit": 378,
+    "part_ecrit": 0.97,
+    "composantes": [
+     "S4",
+     "S0"
+    ],
+    "termes": [
+     "W N",
+     "N W",
+     "W N W",
+     ". W N",
+     "NL W N",
+     "N . W N"
+    ],
+    "exemples": [
+     "7. Recopier et compléter la ligne à ajouter à la table de routage du routeur 2.",
+     "1. En utilisant les adresses IP des différentes interfaces et des ordinateurs portables, en déduire une adresse possible pour le portable P2.",
+     "3. Dans cette question, on suppose que le protocole de routage mis en place dans le réseau est OSPF. Ce protocole consiste à minimiser la somme des coûts des liaisons empr untées. Le schéma du réseau "
+    ],
+    "position_moyenne": 0.46,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "routage",
+     "reseau_ip"
+    ]
+   },
+   "1": {
+    "effectif": 305,
+    "a_l_ecrit": 291,
+    "part_ecrit": 0.95,
+    "composantes": [
+     "S0",
+     "S7"
+    ],
+    "termes": [
+     "W , W",
+     "W ,",
+     ", W",
+     "W , W NL",
+     ", W NL",
+     ", W NL W"
+    ],
+    "exemples": [
+     "5. Écrire la méthode effectuer_virement qui prend en paramètres :  compte_destinataire un objet du type CompteBancaire ;  somme_a_virer un nombre flottant représentant la somme à virer en euros ; et",
+     "5. Écrire le code la fonction coup_valide. La fonction changer_case prend en paramètres un tableau tab modélisant l'état du baguenaudier et un indice de case nommé case. Si le coup désigné par case es",
+     "11. Coder, en utilisant les fonctions précédentes, la fonction chercher_chemin de paramètres mot_depart, le mot de départ, et mot_final, le mot à atteindre, et qui renvoie un tableau dont les éléments"
+    ],
+    "position_moyenne": 0.54,
+    "notions_frequentes": [
+     "poo",
+     "sql",
+     "graphe",
+     "routage"
+    ]
+   },
+   "2": {
+    "effectif": 707,
+    "a_l_ecrit": 573,
+    "part_ecrit": 0.81,
+    "composantes": [
+     "S3",
+     "S9"
+    ],
+    "termes": [
+     "ID",
+     ". .",
+     "ID ID",
+     "ID ID ID",
+     "=",
+     "ID ="
+    ],
+    "exemples": [
+     "8. Compléter le script ci-dessous en recopiant les lignes 3, 7 et 9 sur votre copie : 1 from random import * 2 # créer les 104 cartes du jeu initial grâce à une liste par compréhension 3 jeu = [... fo",
+     "Compléter la fonction _recursif_memoise qui prend en paramètres une liste de pièces et la somme à rendre et qui renvoie le nombre minimal de pièces qu'il faut rendre. On utilisera le dictionnaire _ren",
+     "a. Recopier et compléter la ligne 4 de la fonction ci-dessous : 1 def chercher_mots(liste_mots,longueur,lettre,position): 2 res = [] 3 for i in range(len(liste_mots)): 4 if …………… and …………… : 5 res.app"
+    ],
+    "position_moyenne": 0.54,
+    "notions_frequentes": [
+     "poo",
+     "sql",
+     "fonctions",
+     "graphe"
+    ]
+   },
+   "3": {
+    "effectif": 304,
+    "a_l_ecrit": 293,
+    "part_ecrit": 0.96,
+    "composantes": [
+     "S1",
+     "S5"
+    ],
+    "termes": [
+     "N . W NL",
+     ". W NL W",
+     ". W NL",
+     "W NL W .",
+     "W . W NL",
+     "W NL W NL"
+    ],
+    "exemples": [
+     "2. Déterminer un conduit de score de confiance maximal dans la pyramide ex2 et donner son score. On souhaite déterminer le score de confiance maximal pouvant être atteint pour une pyramide quelconque.",
+     "7. Un adhérent a le numéro de licence ‘M23091974MARTI01'. Donner sa date de naissance et un nom de famille possible.",
+     "5. Proposer une autre solution pour éviter les problèmes d'identification des candidats portant les mêmes prénoms et noms. Cette proposition devra prendre en compte la sensibilité des données et être "
+    ],
+    "position_moyenne": 0.5,
+    "notions_frequentes": [
+     "sql",
+     "routage",
+     "poo",
+     "modele_relationnel"
+    ]
+   },
+   "4": {
+    "effectif": 501,
+    "a_l_ecrit": 451,
+    "part_ecrit": 0.9,
+    "composantes": [
+     "S9",
+     "S0"
+    ],
+    "termes": [
+     "W -",
+     "W - W",
+     "- W",
+     "-",
+     ". W -",
+     "NL W -"
+    ],
+    "exemples": [
+     "1. Clés primaires/étrangères :",
+     "3. Le propriétaire de Duke décide de lui attribuer le rôle de 'leader'. Écrire l'instruction permettant d'effectuer cette modification.",
+     "7. Écrire sur votre copie la ligne correspondant à la destination \" Internet \", telle qu'elle serait modifiée selon le protocole RIP."
+    ],
+    "position_moyenne": 0.47,
+    "notions_frequentes": [
+     "sql",
+     "routage",
+     "poo",
+     "arbre_binaire"
+    ]
+   },
+   "5": {
+    "effectif": 338,
+    "a_l_ecrit": 143,
+    "part_ecrit": 0.42,
+    "composantes": [
+     "S8",
+     "S3"
+    ],
+    "termes": [
+     "N , N",
+     ", N",
+     "N ,",
+     "N , N ,",
+     ", N ,",
+     ", N , N"
+    ],
+    "exemples": [
+     "2. Indiquer à quelle date correspond l'instance de la classe Date suivante : d = Date(1, 5, 2000)",
+     "6. Déterminer la liste auxiliaire aux_B associée à la carte représentée par carte_B. carte_B = [ [1, 1, 1, 1], [0, 1, 1, 1], [0, 1, 1, 1], [1, 0, 1, 1], ] On considère une carte carte_C de taille 6 ai",
+     "7. Dans cette question, A = [5, 4, 6, 2]. Recopier le tableau ci-dessous et le compléter (remplacer les ??)."
+    ],
+    "position_moyenne": 0.51,
+    "notions_frequentes": [
+     "tableau_liste",
+     "tri",
+     "poo",
+     "fonctions"
+    ]
+   },
+   "6": {
+    "effectif": 416,
+    "a_l_ecrit": 404,
+    "part_ecrit": 0.97,
+    "composantes": [
+     "S6",
+     "S0"
+    ],
+    "termes": [
+     "W )",
+     ") W",
+     "W ) W",
+     "( W",
+     ")",
+     "W ("
+    ],
+    "exemples": [
+     "b. Proposer un schéma relationnel qui permet d 'éviter ce(s) problème(s). On pourra donner la réponse sous la forme : Schéma relationnel : tarifs(premier attribut, deuxième attribut,…) prestations(pre",
+     "5. Recopier et compléter la fonction chaine_vers_tab(mot) ci-dessous. Cette fonction prend en paramètre une chaine de quatre caractères et renvoie un tableau (ty pe list en Python) dont les éléments s",
+     "b. Dans les extraits de tables de routage ci-dessus, pour le chemin de la question 2.a, quelle(s) ligne(s) sera (seront) modifiée(s) ?"
+    ],
+    "position_moyenne": 0.51,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "routage",
+     "arbre_binaire"
+    ]
+   },
+   "7": {
+    "effectif": 141,
+    "a_l_ecrit": 135,
+    "part_ecrit": 0.96,
+    "composantes": [
+     "S2",
+     "S5"
+    ],
+    "termes": [
+     "N . W .",
+     ". W .",
+     ". W . W",
+     ". W . NL",
+     "W . NL W",
+     ". NL W NL"
+    ],
+    "exemples": [
+     "1. Lister les attributs de la classe Piste en précisant leur type.",
+     "3. Justifier que la boucle de la fonction précédente se termine.",
+     "1. Un paquet part du réseau local L1 à destination du réseau local L2."
+    ],
+    "position_moyenne": 0.38,
+    "notions_frequentes": [
+     "sql",
+     "poo",
+     "routage",
+     "modele_relationnel"
+    ]
+   }
+  }
+ },
+ "grammaire_des_combinaisons": {
+  "AUC_vraie_vs_corrompue_validation_croisee": 0.685,
+  "plausibilite_mediane_des_vraies_questions": 0.476,
+  "combinaisons_possibles": 8400,
+  "combinaisons_observees": 1313,
+  "inedites_aussi_plausibles_que_le_reel": 250,
+  "par_type_de_nouveaute": {
+   "manière de demander jamais utilisée pour cette notion": 113,
+   "combinaison inédite d'éléments connus": 121,
+   "support jamais utilisé pour cette notion": 16
+  },
+  "exemples": [
+   {
+    "notion": "parcours_graphe",
+    "consigne": 14,
+    "support": 2,
+    "position": 2,
+    "plausibilite": 0.774,
+    "transfert_cf": 0.779,
+    "score": 0.776,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "securite_crypto",
+    "consigne": 2,
+    "support": 1,
+    "position": 2,
+    "plausibilite": 0.721,
+    "transfert_cf": 0.865,
+    "score": 0.775,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "securite_crypto",
+    "consigne": 11,
+    "support": 1,
+    "position": 2,
+    "plausibilite": 0.648,
+    "transfert_cf": 0.922,
+    "score": 0.746,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "modularite",
+    "consigne": 5,
+    "support": 4,
+    "position": 0,
+    "plausibilite": 0.617,
+    "transfert_cf": 0.942,
+    "score": 0.731,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "representation_nombres",
+    "consigne": 22,
+    "support": 0,
+    "position": 0,
+    "plausibilite": 0.678,
+    "transfert_cf": 0.809,
+    "score": 0.728,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "representation_nombres",
+    "consigne": 3,
+    "support": 0,
+    "position": 0,
+    "plausibilite": 0.632,
+    "transfert_cf": 0.887,
+    "score": 0.724,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "chaines",
+    "consigne": 11,
+    "support": 1,
+    "position": 2,
+    "plausibilite": 0.615,
+    "transfert_cf": 0.905,
+    "score": 0.718,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "matrice",
+    "consigne": 14,
+    "support": 2,
+    "position": 2,
+    "plausibilite": 0.673,
+    "transfert_cf": 0.785,
+    "score": 0.716,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "sgbd",
+    "consigne": 14,
+    "support": 2,
+    "position": 2,
+    "plausibilite": 0.668,
+    "transfert_cf": 0.776,
+    "score": 0.709,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "liste_chainee",
+    "consigne": 22,
+    "support": 2,
+    "position": 2,
+    "plausibilite": 0.583,
+    "transfert_cf": 0.904,
+    "score": 0.695,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "dictionnaire",
+    "consigne": 9,
+    "support": 5,
+    "position": 0,
+    "plausibilite": 0.782,
+    "transfert_cf": 0.559,
+    "score": 0.684,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "parcours_graphe",
+    "consigne": 20,
+    "support": 6,
+    "position": 2,
+    "plausibilite": 0.578,
+    "transfert_cf": 0.873,
+    "score": 0.682,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "dictionnaire",
+    "consigne": 24,
+    "support": 5,
+    "position": 2,
+    "plausibilite": 0.573,
+    "transfert_cf": 0.88,
+    "score": 0.68,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "parcours_arbre",
+    "consigne": 5,
+    "support": 4,
+    "position": 0,
+    "plausibilite": 0.56,
+    "transfert_cf": 0.901,
+    "score": 0.677,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "complexite",
+    "consigne": 4,
+    "support": 6,
+    "position": 2,
+    "plausibilite": 0.54,
+    "transfert_cf": 0.942,
+    "score": 0.675,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "os_commandes",
+    "consigne": 3,
+    "support": 4,
+    "position": 2,
+    "plausibilite": 0.537,
+    "transfert_cf": 0.944,
+    "score": 0.673,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "routage",
+    "consigne": 20,
+    "support": 7,
+    "position": 0,
+    "plausibilite": 0.598,
+    "transfert_cf": 0.804,
+    "score": 0.673,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "abr",
+    "consigne": 14,
+    "support": 2,
+    "position": 2,
+    "plausibilite": 0.636,
+    "transfert_cf": 0.727,
+    "score": 0.671,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "mise_au_point",
+    "consigne": 24,
+    "support": 5,
+    "position": 2,
+    "plausibilite": 0.515,
+    "transfert_cf": 0.977,
+    "score": 0.665,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "complexite",
+    "consigne": 11,
+    "support": 1,
+    "position": 2,
+    "plausibilite": 0.549,
+    "transfert_cf": 0.877,
+    "score": 0.662,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "complexite",
+    "consigne": 4,
+    "support": 1,
+    "position": 2,
+    "plausibilite": 0.546,
+    "transfert_cf": 0.872,
+    "score": 0.658,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "liste_chainee",
+    "consigne": 9,
+    "support": 2,
+    "position": 1,
+    "plausibilite": 0.557,
+    "transfert_cf": 0.842,
+    "score": 0.657,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "tuple",
+    "consigne": 9,
+    "support": 5,
+    "position": 1,
+    "plausibilite": 0.635,
+    "transfert_cf": 0.684,
+    "score": 0.654,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   },
+   {
+    "notion": "matrice",
+    "consigne": 24,
+    "support": 2,
+    "position": 1,
+    "plausibilite": 0.522,
+    "transfert_cf": 0.917,
+    "score": 0.654,
+    "nouveaute": "combinaison inédite d'éléments connus"
+   },
+   {
+    "notion": "glouton",
+    "consigne": 2,
+    "support": 1,
+    "position": 2,
+    "plausibilite": 0.54,
+    "transfert_cf": 0.864,
+    "score": 0.652,
+    "nouveaute": "manière de demander jamais utilisée pour cette notion"
+   }
+  ]
+ },
+ "savoirs_du_cours": {
+  "atomes": 3179,
+  "deja_evalues": 477,
+  "seuil_similarite": 0.762,
+  "c_Elkan_Noto": 0.478,
+  "formes_qui_rendent_evaluable": [
+   "’ W",
+   "’",
+   "W ’",
+   "W ’ W",
+   "cle",
+   "cle X",
+   "X PAR X",
+   "X de donnees",
+   "NL W ’",
+   "de donnees |",
+   ". W .",
+   "X est",
+   "expliquer",
+   "PAR X",
+   "de donnees",
+   "X de recherche",
+   "determiner le",
+   "X et",
+   "une cle X",
+   "le X pour"
+  ],
+  "formes_rarement_evaluees": [
+   "donc",
+   "par exemple",
+   "nous",
+   "X la",
+   "mais",
+   "vous",
+   "des X |",
+   "NL W :",
+   "W N",
+   "N",
+   ". .",
+   "exercice",
+   "il",
+   "elle",
+   "NL W N"
+  ],
+  "types_de_savoir_decouverts": [
+   {
+    "type": 13,
+    "termes": [
+     "’",
+     "’ W",
+     "W ’ W",
+     "W ’",
+     "NL W ’",
+     "’ W .",
+     "un",
+     "un X"
+    ],
+    "effectif": 90,
+    "part_evaluee": 0.689,
+    "evaluabilite_moyenne": 0.982,
+    "exemple": "Déterminer le tableau qui représente l’arbre binaire complet de l’exemple précédent."
+   },
+   {
+    "type": 7,
+    "termes": [
+     "QM",
+     "?",
+     "W ?",
+     "X QM",
+     "QM |",
+     "QM | NL",
+     "X QM |",
+     "NL W ?"
+    ],
+    "effectif": 136,
+    "part_evaluee": 0.191,
+    "evaluabilite_moyenne": 0.649,
+    "exemple": "Quelle est la clé étrangère de la relation Voitures ?"
+   },
+   {
+    "type": 10,
+    "termes": [
+     "ID",
+     "W ID",
+     "une",
+     "ID W",
+     "qui",
+     "W ID W",
+     "fonction",
+     "NL W ID"
+    ],
+    "effectif": 156,
+    "part_evaluee": 0.179,
+    "evaluabilite_moyenne": 0.618,
+    "exemple": "Écrire une fonction _trajet qui prend en paramètres un trajet"
+   },
+   {
+    "type": 8,
+    "termes": [
+     "X et",
+     "et",
+     "et X",
+     "X et X",
+     "les",
+     "les X",
+     "des",
+     "et X |"
+    ],
+    "effectif": 174,
+    "part_evaluee": 0.201,
+    "evaluabilite_moyenne": 0.584,
+    "exemple": "Numérique et Sciences Informatiques, Terminale, T."
+   },
+   {
+    "type": 12,
+    "termes": [
+     ". W",
+     "W . W",
+     "/ W",
+     "/",
+     "W /",
+     ". W .",
+     "W / W",
+     "/ W ."
+    ],
+    "effectif": 102,
+    "part_evaluee": 0.196,
+    "evaluabilite_moyenne": 0.566,
+    "exemple": "voir https://animations.interstices.info/interstices-rsa/rsa.html"
+   },
+   {
+    "type": 9,
+    "termes": [
+     "X",
+     "de",
+     "NL W .",
+     "de X",
+     "X de",
+     "X |",
+     "X | NL",
+     "W ."
+    ],
+    "effectif": 574,
+    "part_evaluee": 0.164,
+    "evaluabilite_moyenne": 0.547,
+    "exemple": "Deux relations modélisent la flotte de voitures d'un réseau de location de voitures."
+   },
+   {
+    "type": 3,
+    "termes": [
+     "N",
+     "N |",
+     "N | NL",
+     "N .",
+     ". N",
+     "X N |",
+     ". N .",
+     "W . N"
+    ],
+    "effectif": 268,
+    "part_evaluee": 0.131,
+    "evaluabilite_moyenne": 0.525,
+    "exemple": "S'entraîner et essayer d'établir une stratégie de victoire. 2."
+   },
+   {
+    "type": 6,
+    "termes": [
+     "- W",
+     "-",
+     "W - W",
+     "W -",
+     "NL W -",
+     "- W .",
+     "ci",
+     "- W -"
+    ],
+    "effectif": 197,
+    "part_evaluee": 0.132,
+    "evaluabilite_moyenne": 0.507,
+    "exemple": "On trouvera ci-dessous deux programmes rédigés en pseudo-code."
+   },
+   {
+    "type": 5,
+    "termes": [
+     "Q",
+     "W Q",
+     "Q W",
+     "W Q W",
+     "Q W Q",
+     "NL W Q",
+     "Q .",
+     "W Q ."
+    ],
+    "effectif": 186,
+    "part_evaluee": 0.118,
+    "evaluabilite_moyenne": 0.503,
+    "exemple": "Imaginons qu'Alice veuille transmettre le message clair \"LUNDI\"."
+   },
+   {
+    "type": 2,
+    "termes": [
+     "(",
+     ")",
+     "( W",
+     "PAR",
+     "W (",
+     "W ( W",
+     "W )",
+     "( W )"
+    ],
+    "effectif": 487,
+    "part_evaluee": 0.115,
+    "evaluabilite_moyenne": 0.49,
+    "exemple": "Donner la liste des patient(e)s ayant été examiné(e)s par un(e) psychiatre en avril 2020."
+   },
+   {
+    "type": 4,
+    "termes": [
+     ":",
+     "COLON",
+     "W :",
+     "X COLON",
+     ": W",
+     "W : W",
+     "NL W :",
+     "COLON |"
+    ],
+    "effectif": 321,
+    "part_evaluee": 0.121,
+    "evaluabilite_moyenne": 0.49,
+    "exemple": "Titre : Les Misérables Auteur : Victor Hugo Etat : 3"
+   },
+   {
+    "type": 11,
+    "termes": [
+     "STAR",
+     "W STAR",
+     "STAR W",
+     "W STAR W",
+     "STAR W STAR",
+     "NL W STAR",
+     "W STAR )",
+     "STAR )"
+    ],
+    "effectif": 76,
+    "part_evaluee": 0.079,
+    "evaluabilite_moyenne": 0.42,
+    "exemple": "Un cadencement extrêmement rapide et efficace donne l'*apparence* d'une (fausse) simultanéité."
+   },
+   {
+    "type": 0,
+    "termes": [
+     "W , W",
+     "W ,",
+     ", W",
+     ",",
+     "NL W ,",
+     ", W .",
+     ", W ,",
+     "W"
+    ],
+    "effectif": 214,
+    "part_evaluee": 0.107,
+    "evaluabilite_moyenne": 0.404,
+    "exemple": "Parmi eux, citons Oracle, MySQL, Microsoft SQL Server, PostgreSQL, Microsoft Access, SQLite, MariaDB..."
+   },
+   {
+    "type": 1,
+    "termes": [
+     "N",
+     "W N",
+     "N W",
+     "N X",
+     "X N",
+     "N N",
+     "X N N",
+     "N W -"
+    ],
+    "effectif": 198,
+    "part_evaluee": 0.025,
+    "evaluabilite_moyenne": 0.173,
+    "exemple": "Rahobisoa 12/17 AMSER02 - Le routage Terminale - Spécialité NSI IFS Singapour 10 Exercices Exercice 3 :Comparatif 1."
+   }
+  ],
+  "evaluables_jamais_evalues_top": [
+   {
+    "notion": "fonctions",
+    "atome": "Cette fonction renvoie True si element est dans l’arbre et False sinon.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.734,
+    "consigne_recommandee": 20
+   },
+   {
+    "notion": "poo",
+    "atome": "Écrire la méthode hauteur de la classe Arbre qui renvoie la hauteur de l’arbre.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.761,
+    "consigne_recommandee": 6
+   },
+   {
+    "notion": "arbre_binaire",
+    "atome": "On décide de représenter un arbre binaire complet par un tableau de taille n + 1, où n est la taille de l’arbre, de la façon suivante :",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.761,
+    "consigne_recommandee": 7
+   },
+   {
+    "notion": "securite_crypto",
+    "atome": "Un chiffrement est dit symétrique lorsque la connaissance de la clé ayant servi au chiffrement permet de déchiffrer le message.",
+    "lecon": "Cryptographie",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.71,
+    "consigne_recommandee": 4
+   },
+   {
+    "notion": "securite_crypto",
+    "atome": "Soit FP la fonction de chiffrement utilisée avec la clé publique, etFS la fonction relative à la clé privée.",
+    "lecon": "Securisation",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.761,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "arbre_binaire",
+    "atome": "La taille d’un arbre est le nombre de nœuds qu’il contient ; sa hauteur est le nombre de nœuds du plus long chemin qui joint le nœud racine à l’une des feuilles.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.692,
+    "consigne_recommandee": 6
+   },
+   {
+    "notion": "arbre_binaire",
+    "atome": "1.d Donner les valeurs entières possibles de val pour cet arbre binaire de recherche.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.734,
+    "consigne_recommandee": 9
+   },
+   {
+    "notion": "securite_crypto",
+    "atome": "puisque l'application de la clé privée sur la clé publique, ou bien de la clé publique sur la clé privée, permet de retrouver le message en clair.",
+    "lecon": "Cryptographie",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.758,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "modele_relationnel",
+    "atome": "La cohérence entre les différentes tables d'une base de données est assurée par les clés étrangères : dans une table, la valeur d'un attribut qui est clé étrangère doit obligatoirement pouvoir être retrouvée dans la table dont cet attribut est clé primaire.",
+    "lecon": "Modele relationnel",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.689,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "routage",
+    "atome": "La figure 1 ci-dessus représente le schéma d’un réseau d’entreprise.",
+    "lecon": "Protocoles de routage",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.623,
+    "consigne_recommandee": 6
+   },
+   {
+    "notion": "os_commandes",
+    "atome": "Avec un système d'exploitation de typeLinux ou MacOs, la commande similaire se nommetraceroute. 9.3 ping A retenir! ping est une commande permettant de tester l'accessibilité d'une autre machine à travers un réseau IP.",
+    "lecon": "Rappels reseaux",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.73,
+    "consigne_recommandee": 5
+   },
+   {
+    "notion": "processus",
+    "atome": "On suppose que les quatre processus arrivent dans la file et y sont placés dans l’ordre C₁, C₂, C₃ et C₄.",
+    "lecon": "Gestion des processus",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.696,
+    "consigne_recommandee": 20
+   },
+   {
+    "notion": "poo",
+    "atome": "La méthode insere permet d’insérer récursivement une nouvelle clé.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.515,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "routage",
+    "atome": "Compléter le schéma avec les coûts puis déterminer les tables de routage de A et E.",
+    "lecon": "Routage",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.578,
+    "consigne_recommandee": 19
+   },
+   {
+    "notion": "fonctions",
+    "atome": "Écrire une fonctiondechiffre qui prend en paramètres le message chiffré et la clé et qui renvoie le message déchiffré. 3.",
+    "lecon": "Securisation",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.744,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "modele_relationnel",
+    "atome": "Quelle est la clé primaire de la relationVoitures? 7.",
+    "lecon": "Base de donnees relationnelles",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.726,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "modele_relationnel",
+    "atome": "Quelle est la clé primaire de la relation Agences ? 6.",
+    "lecon": "Modele relationnel",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.749,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "poo",
+    "atome": "Si l'arbre est vide, on renvoie un nouvel objet Arbre contenant la clé.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.617,
+    "consigne_recommandee": 6
+   },
+   {
+    "notion": "processus",
+    "atome": "L'action des processus A et B est décrite ci-dessous :",
+    "lecon": "Gestion des processus",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.744,
+    "consigne_recommandee": 20
+   },
+   {
+    "notion": "fonctions",
+    "atome": "Écrire une fonction _naive qui prend en paramètres deux chaines de caractères",
+    "lecon": "Recherche textuelle",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.712,
+    "consigne_recommandee": 2
+   },
+   {
+    "notion": "routage",
+    "atome": "Donner le coût de ce chemin et préciser les routeurs utilisés.",
+    "lecon": "Protocoles de routage",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.739,
+    "consigne_recommandee": 19
+   },
+   {
+    "notion": "reseau_ip",
+    "atome": "Ainsi, on fera une association entre une adresse IP et un masque pour savoir dans cette adresse IP quelle est la partie réseau et quelle est la partie machine de l'adresse.",
+    "lecon": "Rappels reseaux",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.643,
+    "consigne_recommandee": 3
+   },
+   {
+    "notion": "matrice",
+    "atome": "chiffrement par bloc de 128 bits, répartis dans une matrice de 16 octets (matrice carrée de taille 4).",
+    "lecon": "Cryptographie",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.513,
+    "consigne_recommandee": 4
+   },
+   {
+    "notion": "tableau_liste",
+    "atome": "La racine a pour indice 1 ; - Le fils gauche du nœud d’indice i a pour indice 2 \\times i ; - Le fils droit du nœud d’indice i a pour indice 2 \\times i + 1 ; - On place la taille n de l’arbre dans la case d’indice 0.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.649,
+    "consigne_recommandee": 20
+   },
+   {
+    "notion": "reseau_ip",
+    "atome": "L’adresse IP dont tous les bits de la partie \" machine \" sont à 0 est appelée \" adresse du réseau \".",
+    "lecon": "Protocoles de routage",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.679,
+    "consigne_recommandee": 3
+   },
+   {
+    "notion": "dictionnaire",
+    "atome": "modification d'une valeur associée à une clé existante",
+    "lecon": "Dictionnaires",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.748,
+    "consigne_recommandee": 17
+   },
+   {
+    "notion": "reseau_ip",
+    "atome": "Le tableau 1 suivant indique les adresses IPv4 des machines constituants le réseau de l’entreprise.",
+    "lecon": "Protocoles de routage",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.75,
+    "consigne_recommandee": 23
+   },
+   {
+    "notion": "processus",
+    "atome": "va permettre d'afficher la liste des processus actifs.",
+    "lecon": "Gestion des processus",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.677,
+    "consigne_recommandee": 9
+   },
+   {
+    "notion": "file",
+    "atome": "Pour être utilisée, une interface de file doit proposer a minima :",
+    "lecon": "Listes Piles Files",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.542,
+    "consigne_recommandee": 20
+   },
+   {
+    "notion": "tableau_liste",
+    "atome": "L’arbre sera représenté par un tableau comme dans la question précédente.",
+    "lecon": "Arbres",
+    "evaluabilite": 1.0,
+    "similarite_max_aux_annales": 0.518,
+    "consigne_recommandee": 9
+   }
+  ]
+ },
+ "dynamique_des_exercices": {
+  "types_de_transition_decouverts": [
+   {
+    "type": 0,
+    "effectif": 119,
+    "meme_contenu": 0.43,
+    "meme_support": 0.43,
+    "reutilise_identifiants": 0.07,
+    "depend_explicitement": 1.0,
+    "la_consigne_glisse_vers": [
+     "C25:proposer proposer une",
+     "C16:PAR N X PAR N"
+    ],
+    "en_quittant": [
+     "C22:sont X sont",
+     "C1:qui prend en X qui prend"
+    ],
+    "exemple": [
+     "11. L'attribut nonce est de type entier. Miner un bloc signifie trouver une valeur de nonce de telle façon que l'attribu",
+     "12. En justifiant votre réponse, donner la valeur de l'attribut hash_bloc_precedent du bloc0."
+    ]
+   },
+   {
+    "type": 1,
+    "effectif": 128,
+    "meme_contenu": 0.44,
+    "meme_support": 0.43,
+    "reutilise_identifiants": 0.03,
+    "depend_explicitement": 1.0,
+    "la_consigne_glisse_vers": [
+     "C22:sont X sont",
+     "C6:le resultat resultat"
+    ],
+    "en_quittant": [
+     "C16:PAR N X PAR N"
+    ],
+    "exemple": [
+     "8. On considère le code de la fonction select_tel complétée. Ainsi l'exécution de l 'instruction select_tel(client, 2513",
+     "9. Recopier le code de la fonction select_tel en proposant une modification pour que la fonction renvoie None plutôt que"
+    ]
+   },
+   {
+    "type": 2,
+    "effectif": 205,
+    "meme_contenu": 0.28,
+    "meme_support": 0.73,
+    "reutilise_identifiants": 0.01,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [],
+    "en_quittant": [],
+    "exemple": [
+     "12. Proposer une requête qui renvoie sans répétition tous les noms des chefs d'agrès assignés à un véhicule le 15 févrie",
+     "13. Proposer une requête qui renvoie sans répétition tous les noms des chefs d'agrès engagés en intervention le 11 juin "
+    ]
+   },
+   {
+    "type": 3,
+    "effectif": 320,
+    "meme_contenu": 0.8,
+    "meme_support": 0.55,
+    "reutilise_identifiants": 0.01,
+    "depend_explicitement": 0.02,
+    "la_consigne_glisse_vers": [],
+    "en_quittant": [],
+    "exemple": [
+     "1. Décrire le fonctionnement d'une Pile.",
+     "2. Décrire le fonctionnement d'une File."
+    ]
+   },
+   {
+    "type": 4,
+    "effectif": 32,
+    "meme_contenu": 0.47,
+    "meme_support": 0.72,
+    "reutilise_identifiants": 0.95,
+    "depend_explicitement": 0.31,
+    "la_consigne_glisse_vers": [
+     "C18:QM X QM"
+    ],
+    "en_quittant": [],
+    "exemple": [
+     "a. Quelle valeur renvoie l'appel de suite(6) ?",
+     "b. Que se passe-t-il si on exécute suite(7) ?"
+    ]
+   },
+   {
+    "type": 5,
+    "effectif": 296,
+    "meme_contenu": 0.69,
+    "meme_support": 0.5,
+    "reutilise_identifiants": 0.02,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C28:au au X",
+     "C27:dessous ci dessous"
+    ],
+    "en_quittant": [],
+    "exemple": [
+     "b) Indiquer le plus court chemin au sens du protocole RIP, minimisant le nombre de routeurs traversés (sauts), en précis",
+     "c) La liaison R1 -R2 vient de se rompre. Indiquer le plus court chemin au sens du protocole RIP, minimisant le nombre de"
+    ]
+   },
+   {
+    "type": 6,
+    "effectif": 167,
+    "meme_contenu": 0.25,
+    "meme_support": 0.22,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C27:dessous ci dessous",
+     "C4:COLON N def X PAR"
+    ],
+    "en_quittant": [
+     "C28:au au X",
+     "C22:sont X sont"
+    ],
+    "exemple": [
+     "1. Etude du schéma relationnel",
+     "a. Proposer pour chaque attribut de la relation plat son domaine (type), on pourra s'aider de l'annexe 1 : mémento SQL"
+    ]
+   },
+   {
+    "type": 7,
+    "effectif": 75,
+    "meme_contenu": 0.18,
+    "meme_support": 0.2,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C10:ecrire une X N ecrire une X",
+     "C23:nom le nom"
+    ],
+    "en_quittant": [
+     "C6:le resultat resultat",
+     "C11:donnees de donnees"
+    ],
+    "exemple": [
+     "17. Indiquer quel sera l'effet de la requête suivante si la relation comporte_texte ne contient aucune référence au text",
+     "18. Écrire une requête SQL permettant de supprimer les éventuelles références au texte numéro 2034 dans la relation comp"
+    ]
+   },
+   {
+    "type": 8,
+    "effectif": 211,
+    "meme_contenu": 0.16,
+    "meme_support": 0.14,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C6:le resultat resultat"
+    ],
+    "en_quittant": [
+     "C7:expliquer N expliquer",
+     "C10:ecrire une X N ecrire une X"
+    ],
+    "exemple": [
+     "1. Représenter ces villes et ces routes sur sa copie en utilisant un graphe pondéré, nommé G1.",
+     "2. Déterminer le chemin le plus court possible entre les villes A et D."
+    ]
+   },
+   {
+    "type": 9,
+    "effectif": 83,
+    "meme_contenu": 0.25,
+    "meme_support": 0.27,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C7:expliquer N expliquer",
+     "C26:le role role"
+    ],
+    "en_quittant": [
+     "C22:sont X sont",
+     "C27:dessous ci dessous"
+    ],
+    "exemple": [
+     "3. Écrire en Python une fonction notes_paquet qui prend en paramètre un paquet de copies p et une correction corr et qui",
+     "4. Expliquer si on peut utiliser des listes de noms plutôt qu'un couple comme clés du dictionnaire."
+    ]
+   },
+   {
+    "type": 10,
+    "effectif": 114,
+    "meme_contenu": 0.29,
+    "meme_support": 0.34,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.01,
+    "la_consigne_glisse_vers": [
+     "C20:X du X la X de X",
+     "C0:lignes N les lignes N"
+    ],
+    "en_quittant": [
+     "C22:sont X sont",
+     "C28:au au X"
+    ],
+    "exemple": [
+     "7. Écrire une requête SQL permettant d'obtenir le numéro de série et l'année de toutes les guitares Les Paul Standard de",
+     "8. Écrire une requête SQL permettant de retirer de la collection la guitare d'identifiant id=3."
+    ]
+   },
+   {
+    "type": 11,
+    "effectif": 173,
+    "meme_contenu": 0.22,
+    "meme_support": 0.47,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C22:sont X sont",
+     "C28:au au X"
+    ],
+    "en_quittant": [
+     "C9:completer la et completer la"
+    ],
+    "exemple": [
+     "1. On observe un végétal dont les folia sont complexes (non simples), disposées de façon alternée et à bord denté. D'apr",
+     "2. On observe un végétal dont les folia sont simples, disposées de façon alternée, insérées en hélice et ne sont pas de "
+    ]
+   },
+   {
+    "type": 12,
+    "effectif": 271,
+    "meme_contenu": 0.62,
+    "meme_support": 0.4,
+    "reutilise_identifiants": 0.0,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [],
+    "en_quittant": [
+     "C27:dessous ci dessous",
+     "C28:au au X"
+    ],
+    "exemple": [
+     "11. Écrire le code de la fonction lancer_balle_automate qui prend en arguments un automate automate comme décrit plus ha",
+     "12. Écrire le code de la fonction parcours_sequence_depart. On peut utiliser la fonction lancer_balle_automate."
+    ]
+   },
+   {
+    "type": 13,
+    "effectif": 194,
+    "meme_contenu": 0.19,
+    "meme_support": 0.31,
+    "reutilise_identifiants": 0.01,
+    "depend_explicitement": 0.0,
+    "la_consigne_glisse_vers": [
+     "C25:proposer proposer une",
+     "C23:nom le nom"
+    ],
+    "en_quittant": [
+     "C27:dessous ci dessous",
+     "C4:COLON N def X PAR"
+    ],
+    "exemple": [
+     "b. A l'aide des extraits de tables de routage ci-dessus, nommer les routeurs traversés par ce paquet, lorsqu'il va du ré",
+     "2. La liaison entre R1 et R2 est rompue."
+    ]
+   }
+  ],
+  "silhouette": 0.058,
+  "motifs_de_sequence": [
+   {
+    "motif": [
+     2,
+     2
+    ],
+    "occurrences": 19,
+    "lift_vs_markov": 8.12
+   },
+   {
+    "motif": [
+     11,
+     11
+    ],
+    "occurrences": 12,
+    "lift_vs_markov": 7.13
+   },
+   {
+    "motif": [
+     16,
+     16
+    ],
+    "occurrences": 36,
+    "lift_vs_markov": 4.9
+   },
+   {
+    "motif": [
+     10,
+     10
+    ],
+    "occurrences": 16,
+    "lift_vs_markov": 6.2
+   },
+   {
+    "motif": [
+     5,
+     5
+    ],
+    "occurrences": 21,
+    "lift_vs_markov": 4.89
+   },
+   {
+    "motif": [
+     13,
+     13
+    ],
+    "occurrences": 20,
+    "lift_vs_markov": 4.93
+   },
+   {
+    "motif": [
+     17,
+     17
+    ],
+    "occurrences": 20,
+    "lift_vs_markov": 4.57
+   },
+   {
+    "motif": [
+     0,
+     0
+    ],
+    "occurrences": 17,
+    "lift_vs_markov": 4.19
+   },
+   {
+    "motif": [
+     21,
+     16
+    ],
+    "occurrences": 20,
+    "lift_vs_markov": 3.93
+   },
+   {
+    "motif": [
+     19,
+     3,
+     19
+    ],
+    "occurrences": 5,
+    "lift_vs_markov": 5.0
+   },
+   {
+    "motif": [
+     17,
+     21
+    ],
+    "occurrences": 13,
+    "lift_vs_markov": 3.31
+   },
+   {
+    "motif": [
+     9,
+     9
+    ],
+    "occurrences": 26,
+    "lift_vs_markov": 2.52
+   },
+   {
+    "motif": [
+     14,
+     14
+    ],
+    "occurrences": 15,
+    "lift_vs_markov": 2.97
+   },
+   {
+    "motif": [
+     19,
+     19
+    ],
+    "occurrences": 32,
+    "lift_vs_markov": 2.25
+   },
+   {
+    "motif": [
+     22,
+     24
+    ],
+    "occurrences": 10,
+    "lift_vs_markov": 3.27
+   },
+   {
+    "motif": [
+     24,
+     22
+    ],
+    "occurrences": 10,
+    "lift_vs_markov": 3.27
+   },
+   {
+    "motif": [
+     15,
+     15
+    ],
+    "occurrences": 10,
+    "lift_vs_markov": 3.22
+   },
+   {
+    "motif": [
+     8,
+     8
+    ],
+    "occurrences": 8,
+    "lift_vs_markov": 3.51
+   },
+   {
+    "motif": [
+     16,
+     8
+    ],
+    "occurrences": 12,
+    "lift_vs_markov": 2.93
+   },
+   {
+    "motif": [
+     16,
+     21
+    ],
+    "occurrences": 14,
+    "lift_vs_markov": 2.75
+   }
+  ]
+ },
+ "moteurs_caches": {
+  "difficulte": {
+   "R2_variables_decouvertes": 0.036,
+   "R2_variables_manuelles": 0.077,
+   "R2_les_deux": 0.09,
+   "principales": [
+    {
+     "variable": "T15",
+     "termes": [
+      "donner",
+      "nom",
+      "instruction",
+      "valeurs",
+      "valeur"
+     ],
+     "importance": 0.0539,
+     "sens": "pousse vers le début",
+     "rho": -0.121
+    },
+    {
+     "variable": "T9",
+     "termes": [
+      "adresse",
+      "reseau",
+      "machine",
+      "ipv4",
+      "adresses"
+     ],
+     "importance": 0.0521,
+     "sens": "pousse vers le début",
+     "rho": -0.113
+    },
+    {
+     "variable": "T0",
+     "termes": [
+      "qui",
+      "fonction",
+      "renvoie",
+      "prend",
+      "ecrire"
+     ],
+     "importance": 0.0517,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.143
+    },
+    {
+     "variable": "T5",
+     "termes": [
+      "cle",
+      "primaire",
+      "relation",
+      "etrangere",
+      "attribut"
+     ],
+     "importance": 0.0475,
+     "sens": "pousse vers le début",
+     "rho": -0.112
+    },
+    {
+     "variable": "S7",
+     "termes": [
+      ". W ID",
+      ". W ID W",
+      "W ID",
+      "W ID W",
+      "N . W ID"
+     ],
+     "importance": 0.0364,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.102
+    },
+    {
+     "variable": "T1",
+     "termes": [
+      "requete",
+      "permettant",
+      "sql",
+      "ecrire",
+      "obtenir"
+     ],
+     "importance": 0.0312,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.052
+    },
+    {
+     "variable": "T13",
+     "termes": [
+      "parcours",
+      "infixe",
+      "prefixe",
+      "largeur",
+      "profondeur"
+     ],
+     "importance": 0.0311,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.064
+    },
+    {
+     "variable": "T2",
+     "termes": [
+      "cout",
+      "liaison",
+      "protocole",
+      "entre",
+      "routeurs"
+     ],
+     "importance": 0.0306,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.017
+    },
+    {
+     "variable": "S5",
+     "termes": [
+      "NL W . W",
+      "W . W",
+      "W . W .",
+      "NL W NL W",
+      "W NL W ."
+     ],
+     "importance": 0.0293,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.031
+    },
+    {
+     "variable": "C22",
+     "termes": [
+      "sont",
+      "X sont",
+      "sont X",
+      "X sont X",
+      "sous"
+     ],
+     "importance": 0.0287,
+     "sens": "pousse vers le début",
+     "rho": -0.034
+    },
+    {
+     "variable": "T28",
+     "termes": [
+      "pour",
+      "proposer",
+      "utiliser",
+      "chaque",
+      "possible"
+     ],
+     "importance": 0.0273,
+     "sens": "pousse vers la fin d'exercice",
+     "rho": 0.071
+    },
+    {
+     "variable": "S2",
+     "termes": [
+      "N . W .",
+      ". W .",
+      ". W . W",
+      ". W . NL",
+      "W . NL W"
+     ],
+     "importance": 0.025,
+     "sens": "pousse vers le début",
+     "rho": -0.073
+    }
+   ]
+  },
+  "styles_en_hausse": [
+   {
+    "variable": "S7",
+    "termes": [
+     ". W ID",
+     ". W ID W",
+     "W ID",
+     "W ID W",
+     "N . W ID"
+    ],
+    "rho_annee": 0.186,
+    "ratio_recent_vs_2021_22": 2.59
+   },
+   {
+    "variable": "S1",
+    "termes": [
+     "N . W NL",
+     ". W NL W",
+     ". W NL",
+     "W NL W .",
+     "W . W NL"
+    ],
+    "rho_annee": 0.173,
+    "ratio_recent_vs_2021_22": 2.17
+   },
+   {
+    "variable": "C0",
+    "termes": [
+     "lignes N",
+     "les lignes N",
+     "les lignes",
+     "lignes",
+     "completer les"
+    ],
+    "rho_annee": 0.12,
+    "ratio_recent_vs_2021_22": 3.76
+   },
+   {
+    "variable": "T11",
+    "termes": [
+     "graphe",
+     "sommet",
+     "sommets",
+     "adjacence",
+     "dictionnaire"
+    ],
+    "rho_annee": 0.111,
+    "ratio_recent_vs_2021_22": 4.08
+   },
+   {
+    "variable": "T21",
+    "termes": [
+     "chaine",
+     "caracteres",
+     "mot",
+     "caractere",
+     "avec"
+    ],
+    "rho_annee": 0.106,
+    "ratio_recent_vs_2021_22": 1.58
+   },
+   {
+    "variable": "T4",
+    "termes": [
+     "self",
+     "classe",
+     "methode",
+     "none",
+     "init"
+    ],
+    "rho_annee": 0.098,
+    "ratio_recent_vs_2021_22": 1.83
+   },
+   {
+    "variable": "S4",
+    "termes": [
+     "W N",
+     "N W",
+     "W N W",
+     ". W N",
+     "NL W N"
+    ],
+    "rho_annee": 0.096,
+    "ratio_recent_vs_2021_22": 1.23
+   },
+   {
+    "variable": "S3",
+    "termes": [
+     "ID",
+     ". .",
+     "ID ID",
+     "ID ID ID",
+     "="
+    ],
+    "rho_annee": 0.093,
+    "ratio_recent_vs_2021_22": 1.29
+   },
+   {
+    "variable": "T7",
+    "termes": [
+     "recopier",
+     "completer",
+     "code",
+     "lignes",
+     "ligne"
+    ],
+    "rho_annee": 0.088,
+    "ratio_recent_vs_2021_22": 1.68
+   },
+   {
+    "variable": "C9",
+    "termes": [
+     "completer la",
+     "et completer la",
+     "recopier et completer la",
+     "ligne",
+     "la ligne"
+    ],
+    "rho_annee": 0.086,
+    "ratio_recent_vs_2021_22": 1.79
+   }
+  ],
+  "styles_en_baisse": [
+   {
+    "variable": "S5",
+    "termes": [
+     "NL W . W",
+     "W . W",
+     "W . W .",
+     "NL W NL W",
+     "W NL W ."
+    ],
+    "rho_annee": -0.257,
+    "ratio_recent_vs_2021_22": 0.31
+   },
+   {
+    "variable": "S6",
+    "termes": [
+     "W )",
+     ") W",
+     "W ) W",
+     "( W",
+     ")"
+    ],
+    "rho_annee": -0.197,
+    "ratio_recent_vs_2021_22": 0.45
+   },
+   {
+    "variable": "C18",
+    "termes": [
+     "QM",
+     "X QM",
+     "quelle",
+     "quel",
+     "QM X"
+    ],
+    "rho_annee": -0.171,
+    "ratio_recent_vs_2021_22": 0.3
+   },
+   {
+    "variable": "C22",
+    "termes": [
+     "sont",
+     "X sont",
+     "sont X",
+     "X sont X",
+     "sous"
+    ],
+    "rho_annee": -0.165,
+    "ratio_recent_vs_2021_22": 0.56
+   },
+   {
+    "variable": "C27",
+    "termes": [
+     "dessous",
+     "ci dessous",
+     "X ci",
+     "X ci dessous",
+     "dessous COLON"
+    ],
+    "rho_annee": -0.141,
+    "ratio_recent_vs_2021_22": 0.45
+   },
+   {
+    "variable": "T27",
+    "termes": [
+     "sur",
+     "copie",
+     "votre",
+     "page",
+     "completant"
+    ],
+    "rho_annee": -0.14,
+    "ratio_recent_vs_2021_22": 0.43
+   },
+   {
+    "variable": "C29",
+    "termes": [
+     "X page",
+     "page",
+     "page N",
+     "X page N",
+     "N X page"
+    ],
+    "rho_annee": -0.107,
+    "ratio_recent_vs_2021_22": 0.41
+   },
+   {
+    "variable": "T3",
+    "termes": [
+     "arbre",
+     "binaire",
+     "hauteur",
+     "recherche",
+     "gauche"
+    ],
+    "rho_annee": -0.09,
+    "ratio_recent_vs_2021_22": 0.38
+   },
+   {
+    "variable": "S9",
+    "termes": [
+     "W -",
+     "W - W",
+     "- W",
+     "-",
+     ". W -"
+    ],
+    "rho_annee": -0.085,
+    "ratio_recent_vs_2021_22": 0.72
+   },
+   {
+    "variable": "C15",
+    "termes": [
+     "nombre",
+     "le nombre",
+     "nombre de",
+     "le nombre de",
+     "nombre de X"
+    ],
+    "rho_annee": -0.073,
+    "ratio_recent_vs_2021_22": 0.75
+   }
+  ],
+  "styles_entraines_jamais_tombes_a_l_ecrit": [],
+  "questions_reelles_atypiques": [
+   {
+    "annee": 2022,
+    "texte": "4) Écrire un programme en langage Python permettant : a) la création d'une instance lancelot de cette classe ayant pour attributs 5,5,5 en coordonnées, 15 en point_de_vie et 3 en point_degats. b) la création d'une instan"
+   },
+   {
+    "annee": 2026,
+    "texte": "10. Recopier et compléter cette fonction afin qu'elle renvoie la valeur attendue. On rappelle que 7 % 2 est égal à 1 alors que 8 % 2 est égal à 0."
+   },
+   {
+    "annee": 2022,
+    "texte": "1. Recopier et compléter sur la copie l'instruction Python suivante permettant de créer une instance cellule de la classe Cellule possédant tous ses murs sauf le mur Est. cellule = Cellule(...)"
+   },
+   {
+    "annee": 2026,
+    "texte": "11. Donner une valeur possible de graphe_4_4[9] en supposant que graphe_4_4 est la liste d'adjacence représentant le graphe associé à une grille à 4 lignes et 4 colonnes."
+   },
+   {
+    "annee": 2023,
+    "texte": "1. Voici la définition d'une classe nommée ArbreBinaire, en Python :"
+   },
+   {
+    "annee": 2022,
+    "texte": "3. L'expression simplifiée B précédente est mal parenthésée (parenthèses fermantes manquantes) car le controleur est différent de zéro en fin d'analyse. L'expression simplifiée C précédente est également mal parenthésée "
+   },
+   {
+    "annee": 2025,
+    "texte": "8. Donner, sans justifier, la valeur à laquelle on accède avec l'instruction tab_adherents[1]['prenom']."
+   },
+   {
+    "annee": 2024,
+    "texte": "1. Compléter le constructeur qui renvoie un objet Marchandise. Utiliser le mot-clé assert afin qu'une exception soit levée si le paramètre v n'est pas strictement positif. On rappelle que si condition est une expression "
+   },
+   {
+    "annee": 2025,
+    "texte": "3. La commande cp rosier_abi.html ../adherents/abi/ crée un nouveau ﬁchier /association/adherents/abi/rosier_abi.html sans détruire /association/annonces/rosier_abi.html tandis que mv rosier_abi.html ../adherents/abi/ dé"
+   },
+   {
+    "annee": 2025,
+    "texte": "9. Décrire les modifications que doivent faire Abi, Bachir, Chen, Dana et Edie dans leur table de routage respective suite à l'arrivée de Frida."
+   },
+   {
+    "annee": 2025,
+    "texte": "3. Recopier et compléter le code de la méthode est_terminee de la classe Tache qui renvoie True si la tâche est terminée, ou False sinon. 1 def est_terminee(self): 2 ..."
+   },
+   {
+    "annee": 2025,
+    "texte": "12. Écrire une version modifiée du code de la méthode itere_rip de la classe Routeur de telle sorte que celle-ci renvoie True dans le cas où le routeur self a procédé à une modification de sa table de routage au cours de"
+   }
+  ],
+  "controle": {
+   "precision_notion_depuis_variables_decouvertes": 0.56,
+   "AUC_format_2023_depuis_variables_decouvertes": 0.774
+  }
+ },
+ "variables": {
+  "consigne": [
+   {
+    "id": "C0",
+    "termes": [
+     "lignes N",
+     "les lignes N",
+     "les lignes",
+     "lignes",
+     "completer les",
+     "et completer les",
+     "completer les lignes",
+     "completer les lignes N"
+    ],
+    "exemples": [
+     "3. Recopier et compléter les lignes 3, 5 et 6 de la fonction score.",
+     "3. Recopier et compléter les lignes 2, 3 et 4 de la fonction code_hachage.",
+     "2. Recopier et compléter les lignes 3, 4 et 5 de la fonction titre_livre."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0041,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C1",
+    "termes": [
+     "qui prend en",
+     "X qui prend",
+     "X qui prend en",
+     "fonction X qui",
+     "fonction X qui prend",
+     "prend en parametre",
+     "qui prend en parametre",
+     "parametre"
+    ],
+    "exemples": [
+     "2. Écrire une fonction former_pile qui prend en paramètre une ﬁle F et qui renvoie une pile P contenant les mêmes éléments que la ﬁle.",
+     "3. Écrire une fonction note_maxi qui prend en paramètre un dictionnaire dico (de même structure que dico_livres) et qui renvoie la note maximale.",
+     "7. Écrire une fonction comptes_dans_le_rouge qui prend en paramètre comptes une liste de comptes et qui renvoie la liste des comptes de cette liste dont le mont"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0051,
+    "sources_typiques": {
+     "ecrit": 46,
+     "pratique": 13,
+     "cours": 1
+    }
+   },
+   {
+    "id": "C2",
+    "termes": [
+     "N N N",
+     "N N N N",
+     "X N N N",
+     "X N N",
+     "N N N X",
+     "N N X",
+     "COLON N N N",
+     "COLON N N"
+    ],
+    "exemples": [
+     "10.0.1.0 10.0.3.1 10.0.1.0 10.0.4.1 10.0.2.0 10.0.3.1 10.0.2.0 10.0.4.1 10.0.3.0 - 10.0.3.0 10.0.4.1 10.0.4.0 10.0.3.1 10.0.4.0 - 10.0.5.0 - 10.0.5.0 - 0.0.0.0 ",
+     "16. e2 = L2[i2] 17. 18. 19. 20. 21. 22.",
+     "2. Même question pour l'état e3 = [0, 1, 1, 0, 1]."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0044,
+    "sources_typiques": {
+     "ecrit": 53,
+     "cours": 4,
+     "pratique": 3
+    }
+   },
+   {
+    "id": "C3",
+    "termes": [
+     "completer le",
+     "et completer le",
+     "recopier et completer le",
+     "completer le code",
+     "et completer le code",
+     "N recopier et completer",
+     "N recopier et",
+     "completer le code de"
+    ],
+    "exemples": [
+     "7. Recopier et compléter le code de la fonction meme_reseau.",
+     "6. Recopier et compléter le code de la méthode relie.",
+     "10. Recopier et compléter le code de la méthode inserer."
+    ],
+    "fiabilite": 0.44,
+    "poids_moyen": 0.0024,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C4",
+    "termes": [
+     "COLON N",
+     "def X PAR",
+     "def X",
+     "def",
+     "PAR X COLON",
+     "def X PAR X",
+     "X PAR X COLON",
+     "X COLON N"
+    ],
+    "exemples": [
+     "1. def dic_parent(mot_depart, mot_final):",
+     "10. Recopier et compléter la fonction suivant e pour permettre de répondre à cette problématique. 1 def nombre_adherents(table, annee): 2 compteur = ... 3 for a",
+     "6. Compléter la fonction distance_totale : 1 def distance_totale(dep): 2 total = 0 3 for i in range(...): 4 ... 5 return total"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0049,
+    "sources_typiques": {
+     "ecrit": 54,
+     "cours": 5,
+     "pratique": 1
+    }
+   },
+   {
+    "id": "C5",
+    "termes": [
+     "ecrire le code",
+     "N ecrire le code",
+     "ecrire le",
+     "N ecrire le",
+     "ecrire le code de",
+     "le code de",
+     "le code",
+     "le code de la"
+    ],
+    "exemples": [
+     "13. Écrire le code de la méthode communiquer_extrait_table.",
+     "10. Écrire le code de la méthode ajouter_voisin.",
+     "6. Écrire le code de la fonction changer_case."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0073,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "C6",
+    "termes": [
+     "le resultat",
+     "resultat",
+     "la X suivante",
+     "X suivante",
+     "suivante",
+     "le resultat de",
+     "resultat de",
+     "resultat de la"
+    ],
+    "exemples": [
+     "2. Donner le résultat de la requête suivante : SELECT titre, album FROM Chanson WHERE groupe = 'Guns N'Roses';",
+     "3. Donner le résultat de la requête SQL suivante : SELECT masse, rayon FROM Exoplanetes WHERE id_exoplanete = 4;",
+     "c) Donner le résultat de la requête suivante : SELECT nom, adresse, telephone FROM Equipe WHERE id_equipe = 5;"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0063,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C7",
+    "termes": [
+     "expliquer",
+     "N expliquer",
+     "pourquoi",
+     "expliquer pourquoi",
+     "N expliquer pourquoi",
+     "pas",
+     "X expliquer",
+     "ne"
+    ],
+    "exemples": [
+     "1. Expliquer pourquoi on fait cette hypothèse.",
+     "14. Expliquer pourquoi cette requête a renvoyé une erreur.",
+     "5. Expliquer pourquoi la requête proposée lève une erreur."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0073,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C8",
+    "termes": [
+     "N X PAR",
+     "N X PAR N",
+     "N X PAR X",
+     "X PAR N",
+     "gauche",
+     "PAR N",
+     "X N X PAR",
+     "PAR N X PAR"
+    ],
+    "exemples": [
+     "11. lst.est_vide()",
+     "10. lst.renvoie_tete()",
+     "11. p.est_vide()"
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0034,
+    "sources_typiques": {
+     "cours": 14,
+     "ecrit": 46
+    }
+   },
+   {
+    "id": "C9",
+    "termes": [
+     "completer la",
+     "et completer la",
+     "recopier et completer la",
+     "ligne",
+     "la ligne",
+     "ligne N",
+     "la ligne N",
+     "N recopier et"
+    ],
+    "exemples": [
+     "17. Recopier et compléter la ligne 35 du code de la fonction rechercher.",
+     "7. Recopier et compléter la ligne 2 du code de la fonction select_tel.",
+     "14. Recopier et compléter la ligne 7 du code de la fonction maj."
+    ],
+    "fiabilite": 0.76,
+    "poids_moyen": 0.0057,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C10",
+    "termes": [
+     "ecrire une X",
+     "N ecrire une X",
+     "N ecrire une",
+     "X des",
+     "X des X",
+     "ecrire une X de",
+     "une X de",
+     "une X qui"
+    ],
+    "exemples": [
+     "4. Écrire une requête permettant de lister les titres des interprètes venant des États- Unis.",
+     "10. Écrire une requête SQL qui permet d'obtenir la liste des libellés des chapitres de la discipline ‘histoire'.",
+     "1. Écrire une requête SQL permettant d'obtenir les noms et prénoms des patients ayant strictement plus de 60 ans."
+    ],
+    "fiabilite": 0.92,
+    "poids_moyen": 0.0074,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C11",
+    "termes": [
+     "donnees",
+     "de donnees",
+     "X de donnees",
+     "dans la X",
+     "dans la",
+     "la X de donnees",
+     "X dans la",
+     "X dans la X"
+    ],
+    "exemples": [
+     "2. Recherche et modification d'informations dans la base de données",
+     "11. Donner la requête SQL effectuant cette modification d'adresse dans la base de données.",
+     "5. Écrire une requête SQL permettant d'insérer cette nouvelle exoplanète dans la base de données."
+    ],
+    "fiabilite": 0.97,
+    "poids_moyen": 0.0054,
+    "sources_typiques": {
+     "ecrit": 54,
+     "cours": 6
+    }
+   },
+   {
+    "id": "C12",
+    "termes": [
+     "chaine",
+     "caracteres",
+     "de caracteres",
+     "chaine de",
+     "chaine de caracteres",
+     "une chaine",
+     "une chaine de",
+     "la chaine"
+    ],
+    "exemples": [
+     "8. Donner sans justifier la réduction de la chaîne de caractères 'bac'.",
+     "2. Donner le codage de la chaîne de caractères txt.",
+     "b. Chiffrer la chaîne de caractères \"BAGAGE\" avec le dictionnaire alpha ."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0063,
+    "sources_typiques": {
+     "ecrit": 46,
+     "pratique": 14
+    }
+   },
+   {
+    "id": "C13",
+    "termes": [
+     "N X N",
+     "X N X",
+     "N X N X",
+     "X N X N",
+     "N X N N",
+     "X N N",
+     "N N X N",
+     "N N X"
+    ],
+    "exemples": [
+     "6. n = n - 1",
+     "9. n = n - 1",
+     "13. i1 = i1 + 1"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0053,
+    "sources_typiques": {
+     "ecrit": 58,
+     "cours": 1,
+     "pratique": 1
+    }
+   },
+   {
+    "id": "C14",
+    "termes": [
+     "cle",
+     "cle X",
+     "la cle",
+     "la cle X",
+     "cle X de",
+     "cle X de la",
+     "une cle",
+     "une cle X"
+    ],
+    "exemples": [
+     "a. Donner la clé primaire de la relation matchs.",
+     "3. Donner la clé étrangère de la table champignon faisant référence à la clé primaire id de la table ordre.",
+     "a. Citer, en justifiant, la clé primaire et la clé étrangère de la relation espece."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0055,
+    "sources_typiques": {
+     "ecrit": 57,
+     "cours": 3
+    }
+   },
+   {
+    "id": "C15",
+    "termes": [
+     "nombre",
+     "le nombre",
+     "nombre de",
+     "le nombre de",
+     "nombre de X",
+     "le nombre de X",
+     "nombre X",
+     "X le nombre"
+    ],
+    "exemples": [
+     "Le protocole RIP cherche à minimiser le nombre de sauts, donc le nombre de routeurs traversés. En extrapolant un peu, on peut dire que RIP minimise la distance ",
+     "9. Convertir le nombre 240 en binaire puis déterminer le nombre de machines qu'il est encore possible d'ajouter à ce réseau local.",
+     "2. En déduire le nombre de machines pouvant être connectées à ce réseau."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0077,
+    "sources_typiques": {
+     "cours": 7,
+     "ecrit": 48,
+     "pratique": 5
+    }
+   },
+   {
+    "id": "C16",
+    "termes": [
+     "PAR N",
+     "X PAR N",
+     "N X PAR N",
+     "PAR N N",
+     "valeur",
+     "la valeur",
+     "l'appel",
+     "X PAR N N"
+    ],
+    "exemples": [
+     "4. lst.ajoute_tete(1)",
+     "7. lst.ajoute_tete(2)",
+     "2. lst.ajoute_tete(3)"
+    ],
+    "fiabilite": 0.94,
+    "poids_moyen": 0.0048,
+    "sources_typiques": {
+     "cours": 6,
+     "ecrit": 54
+    }
+   },
+   {
+    "id": "C17",
+    "termes": [
+     "self",
+     "self X",
+     "PAR self",
+     "init",
+     "init PAR",
+     "init PAR self",
+     "def init",
+     "def init PAR"
+    ],
+    "exemples": [
+     "Exercice 3 du sujet Amérique du Nord J2 2024 class Transaction: def init(self, expediteur, destinataire, montant): self.expediteur = expediteur self.destinatair",
+     "Exercice 1 du sujet Centre Étrangers J1 2025 class Balise: def init(self, numero, couleurs): self.num_balise = numero self.couleurs_balise = couleurs self.voisi",
+     "Exercice 2 du sujet Amérique du Nord J1 2025 class Colis: def init(self, id, poids, adresse): self.id = id self.poids = poids self.adresse = adresse self.etat ="
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0033,
+    "sources_typiques": {
+     "cours": 11,
+     "ecrit": 45,
+     "pratique": 4
+    }
+   },
+   {
+    "id": "C18",
+    "termes": [
+     "QM",
+     "X QM",
+     "quelle",
+     "quel",
+     "QM X",
+     "X quelle",
+     "quelle est",
+     "quelle est la"
+    ],
+    "exemples": [
+     "4. Quel est le rôle d'un switch ?",
+     "5. Quel est le rôle d'un routeur ?",
+     "3. Quel est le domaine de l'attribut _agence dans la relation Voitures ?"
+    ],
+    "fiabilite": 0.97,
+    "poids_moyen": 0.0079,
+    "sources_typiques": {
+     "ecrit": 46,
+     "cours": 14
+    }
+   },
+   {
+    "id": "C19",
+    "termes": [
+     "tableau",
+     "un tableau",
+     "entiers",
+     "tableau X",
+     "nombres",
+     "entier",
+     "list",
+     "non"
+    ],
+    "exemples": [
+     "Écrire une fonction recherche qui prend en paramètres un tableau tab de nombres entiers triés par ordre croissant et un nombre entier n, et qui effectue une rec",
+     "Écrire une fonction recherche qui prend en paramètres un tableau tab de nombres entiers triés par ordre croissant et un nombre entier n, et qui effectue une rec",
+     "Écrire une fonction recherche qui prend en paramètres elt un nombre entier et tab un tableau de nombres entiers (type list), et qui renvoie l’indice de la premi"
+    ],
+    "fiabilite": 0.96,
+    "poids_moyen": 0.0072,
+    "sources_typiques": {
+     "pratique": 57,
+     "ecrit": 3
+    }
+   },
+   {
+    "id": "C20",
+    "termes": [
+     "X du X",
+     "la X de X",
+     "la X de",
+     "de X du X",
+     "de X du",
+     "X de X du",
+     "X la X",
+     "donner la"
+    ],
+    "exemples": [
+     "1) Donner la table de routage du routeur R4.",
+     "2. Donner la table de routage de F à l'initialisation du protocole RIP.",
+     "b. Recopier et compléter la table de routage du routeur F."
+    ],
+    "fiabilite": 0.57,
+    "poids_moyen": 0.0074,
+    "sources_typiques": {
+     "ecrit": 57,
+     "pratique": 3
+    }
+   },
+   {
+    "id": "C21",
+    "termes": [
+     "ecrire la",
+     "ecrire la X",
+     "N ecrire la",
+     "N ecrire la X",
+     "permet",
+     "la X qui",
+     "qui permet",
+     "X ecrire la"
+    ],
+    "exemples": [
+     "b. Écrire la méthode bien_construit demandée.",
+     "b. Écrire la requête qui permet de compter le nombre d'oiseaux dans tout le zoo.",
+     "a. Ecrire la commande qui permet de lister le contenu du répertoire projet ."
+    ],
+    "fiabilite": 0.96,
+    "poids_moyen": 0.0064,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C22",
+    "termes": [
+     "sont",
+     "X sont",
+     "sont X",
+     "X sont X",
+     "sous",
+     "X les",
+     "on considere",
+     "considere"
+    ],
+    "exemples": [
+     "Dans cet exercice, on considère un graphe non orienté représenté sous forme de listes d’adjacence. On suppose que les sommets sont numérotés de 0 à n-1. Ainsi, ",
+     "Dans cet exercice, on considère un graphe non orienté représenté sous forme de listes d’adjacence. On suppose que les sommets sont numérotés de 0 à n-1. Ainsi, ",
+     "Dans cet exercice, on considère un graphe non orienté représenté sous forme de listes d’adjacence. On suppose que les sommets sont numérotés de 0 à n-1. Ainsi, "
+    ],
+    "fiabilite": 0.92,
+    "poids_moyen": 0.0123,
+    "sources_typiques": {
+     "pratique": 32,
+     "cours": 3,
+     "ecrit": 25
+    }
+   },
+   {
+    "id": "C23",
+    "termes": [
+     "nom",
+     "le nom",
+     "N donner",
+     "donner le",
+     "N donner le",
+     "donner le nom",
+     "N donner le nom",
+     "nom de"
+    ],
+    "exemples": [
+     "1. Donner le nom de ce type de programme.",
+     "7. Donner le nom de ce parcours de graphe.",
+     "1. Donner le nom de l'inventeur de ce modèle, ayant donné son nom au modèle."
+    ],
+    "fiabilite": 0.71,
+    "poids_moyen": 0.0063,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "C24",
+    "termes": [
+     "figure N",
+     "figure",
+     "la figure N",
+     "la figure",
+     "de la figure N",
+     "de la figure",
+     "X de la figure",
+     "de recherche"
+    ],
+    "exemples": [
+     "d. Justifier que l'arbre de la figure 1 est un arbre binaire de recherche.",
+     "2. Indiquer la modification que cela apporte dans l'arborescence de la figure 1.",
+     "4. Indiquer, sans justifier, si le graphe de la Figure 1 contient un cycle."
+    ],
+    "fiabilite": 0.5,
+    "poids_moyen": 0.0061,
+    "sources_typiques": {
+     "ecrit": 57,
+     "cours": 1,
+     "pratique": 2
+    }
+   },
+   {
+    "id": "C25",
+    "termes": [
+     "proposer",
+     "proposer une",
+     "N proposer",
+     "N proposer une",
+     "X proposer",
+     "X pour",
+     "proposer une X",
+     "pour X"
+    ],
+    "exemples": [
+     "2. Proposer une adresse IPv4 pour l'ordinateur PC02.",
+     "14. Proposer une version itérative de la fonction ordre_lex.",
+     "a. Proposer une adresse IP valide pour le routeur F."
+    ],
+    "fiabilite": 0.42,
+    "poids_moyen": 0.0063,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "C26",
+    "termes": [
+     "le role",
+     "role",
+     "expliquer le",
+     "N expliquer le",
+     "expliquer le role",
+     "N expliquer le role",
+     "expliquer",
+     "le role de"
+    ],
+    "exemples": [
+     "1. Expliquer le rôle de la fonction init.",
+     "15. Expliquer le rôle de l'attribut id_auteur de la table livres.",
+     "7. Expliquer le rôle de l'attribut id_album de la table Chanson."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0041,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "C27",
+    "termes": [
+     "dessous",
+     "ci dessous",
+     "X ci",
+     "X ci dessous",
+     "dessous COLON",
+     "la X ci",
+     "ci dessous COLON",
+     "la X ci dessous"
+    ],
+    "exemples": [
+     "5. Recopier sur la copie l'arbre binaire ci-dessous et numéroter ses nœuds de 1 en 1 en commençant à 1, en effectuant un parcours en profondeur préfixe. La fonc",
+     "2. Pourquoi la requête ci-dessous provoque-t-elle une erreur ? DELETE FROM Patientes WHERE numPatiente = 13858;",
+     "a. Décrire le résultat de la requête SQL ci-dessous : UPDATE collectionneurs SET ref_licence = 'Ythpswz' WHERE nom = 'Dupond';"
+    ],
+    "fiabilite": 0.97,
+    "poids_moyen": 0.0086,
+    "sources_typiques": {
+     "ecrit": 50,
+     "cours": 4,
+     "pratique": 6
+    }
+   },
+   {
+    "id": "C28",
+    "termes": [
+     "au",
+     "au X",
+     "X au",
+     "determiner",
+     "X au X",
+     "N determiner",
+     "determiner le",
+     "chemin"
+    ],
+    "exemples": [
+     "6. Déterminer le chemin parcouru par un paquet de données pour aller d'une machine appartenant au réseau N1 à une machine appartenant au réseau N2. Le routeur R",
+     "12. Déterminer le chemin suivi par un paquet de données pour aller du routeur R8 au routeur R3 et donner son coût en respectant le protocole OSPF. EN_NOzUzMD2M0",
+     "d. Déterminer le nouveau parcours emprunté par le paquet IP pour aller du routeur B au routeur D."
+    ],
+    "fiabilite": 0.88,
+    "poids_moyen": 0.0111,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "C29",
+    "termes": [
+     "X page",
+     "page",
+     "page N",
+     "X page N",
+     "N X page",
+     "N X page N",
+     "X page N sur",
+     "page N sur"
+    ],
+    "exemples": [
+     "9. renvoyer mystereABR(filsdroit(a)) 22-NSIJ2LR1 Page 10 sur 13",
+     "b. Que fait cet algorithme ? 22-NSIJ1LR1 Page 4 sur 16",
+     "c. Que renvoie la commande ajouter(\"a\", [\"\"]) ? 22-NSIJ2G11 Page 3 sur 13"
+    ],
+    "fiabilite": 0.45,
+    "poids_moyen": 0.0045,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   }
+  ],
+  "support": [
+   {
+    "id": "S0",
+    "termes": [
+     "W , W",
+     "W ,",
+     ", W",
+     "W , W NL",
+     ", W NL",
+     ", W NL W",
+     ". W , W",
+     ". W ,"
+    ],
+    "exemples": [
+     "⏎ 13. Expliquer pourquoi, pour sécuriser intégralement les communications sur Internet, on utilise le protocole HTTPS plutôt qu'un chiffrement asymétrique.",
+     "⏎ 6. Donner le coût de la fonction classer, c'est à dire le nombre de comparaisons d'éléments de la liste, en fonction de la taille de la liste.",
+     "⏎ 5. Écrire une requête permettant d'obtenir la liste des noms des tournois, ainsi que leur année, en triant par année croissante."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0199,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "S1",
+    "termes": [
+     "N . W NL",
+     ". W NL W",
+     ". W NL",
+     "W NL W .",
+     "W . W NL",
+     "W NL W NL",
+     "W NL W N",
+     "NL W N ."
+    ],
+    "exemples": [
+     "⏎ 1. Expliquer pourquoi il n'est pas possible d'insérer une entrée dans la relation Role si les relations Piece et Acteur sont vides.",
+     "⏎ 4. Expliquer pourquoi cette requête risque de rompre l'intégrité de la base de données.",
+     "⏎ 3. Déterminer le coût total de chacun de ces chemins puis en déduire le chemin respectant le protocole OSPF."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0211,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "S2",
+    "termes": [
+     "N . W .",
+     ". W .",
+     ". W . W",
+     ". W . NL",
+     "W . NL W",
+     ". NL W NL",
+     ". NL W",
+     "W . NL"
+    ],
+    "exemples": [
+     "⏎ 3. Justifier que la boucle de la fonction précédente se termine.",
+     "⏎ 8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions.",
+     "⏎ 1. Écrire la table des coûts des nœuds B et F."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0153,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "S3",
+    "termes": [
+     "ID",
+     ". .",
+     "ID ID",
+     "ID ID ID",
+     "=",
+     "ID =",
+     ". . .",
+     "ID ID ID ID"
+    ],
+    "exemples": [
+     "odelisation Maya. \"\"\" 35 ... 36 37 def somme(self, maya2): 38 \"\"\" ajoute maya2 à l'instance courante et renvoie le 39 resultat en modelisation Maya \"\"\" 40 if se",
+     "lse: 9 s_possibles = [] 10 l_lancers = ... 11 for lancer in l_lancers: 12 etat2 = ... 13 s_etat2 = calcule_sequences(etat2, n-1) 14 for ... 15 s_possibles.appen",
+     "⏎ 2. Le constructeur de la classe Labyrinthe ci-dessous possède un seul attribut grille. La méthode construire_grille permet de construire un tableau à deux dim"
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0311,
+    "sources_typiques": {
+     "ecrit": 58,
+     "pratique": 2
+    }
+   },
+   {
+    "id": "S4",
+    "termes": [
+     "W N",
+     "N W",
+     "W N W",
+     ". W N",
+     "NL W N",
+     "N . W N",
+     "W NL W N",
+     ". W N W"
+    ],
+    "exemples": [
+     "⏎ 12. Donner la représentation binaire sur 5 bits de l'entier 26 sous la forme d'une liste de taille 5.",
+     "⏎ 9. Déterminer la route dont le coût est minimal pour aller du routeur 1 jusqu'au routeur 4 et calculer son coût au sens du protocole OSPF.",
+     "⏎ 2. Les lignes 11 et 12 de cette description du graphe ne sont pas complètes. Recopier et compléter le code des lignes 11 et 12."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0254,
+    "sources_typiques": {
+     "ecrit": 58,
+     "cours": 2
+    }
+   },
+   {
+    "id": "S5",
+    "termes": [
+     "NL W . W",
+     "W . W",
+     "W . W .",
+     "NL W NL W",
+     "W NL W .",
+     ". W .",
+     "W . W NL",
+     ". W NL W"
+    ],
+    "exemples": [
+     "⏎ a. Donner les noms des attributs de la classe Noeud.",
+     "⏎ b. Recopier et compléter la table de routage du routeur F.",
+     "⏎ a. Définir la notion de clé primaire d'une relation."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0194,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "S6",
+    "termes": [
+     "W )",
+     ") W",
+     "W ) W",
+     "( W",
+     ")",
+     "W (",
+     "W ( W",
+     "( W )"
+    ],
+    "exemples": [
+     "⏎ 5. Écrire la méthode score(self) qui renvoie le score associé à la grille de jeu représentée par l'objet.",
+     "⏎ a. Ecrire les sept premières personnes (nom et prénom) rencontrées si on utilise le parcours en profondeur préfixe.",
+     "⏎ 9. Écrire une fonction evaluation(expression) qui prend en paramètre une expression en notation polonaise inverse dont les termes et les opérateurs sont deux "
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0235,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "S7",
+    "termes": [
+     ". W ID",
+     ". W ID W",
+     "W ID",
+     "W ID W",
+     "N . W ID",
+     "ID W",
+     "W ID W NL",
+     "ID W NL"
+    ],
+    "exemples": [
+     "⏎ 10. Écrire l'appel à la fonction calculer_solde permettant de calculer le solde actuel de Alice",
+     "⏎ 3. Écrire une fonction compte_fermante qui prend en paramètre une chaine de caractères txt et qui renvoie le nombre de parenthèses fermantes qu'il contient.",
+     "⏎ 8. Écrire une fonction est_bien_parenthesee qui prend en paramètre une chaine de caractères et qui implémente l'algorithme précédent."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0134,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "S8",
+    "termes": [
+     "N , N",
+     ", N",
+     "N ,",
+     "N , N ,",
+     ", N ,",
+     ", N , N",
+     "N ]",
+     ", N ]"
+    ],
+    "exemples": [
+     "⏎ Écrire une fonction RechercheMin qui prend en paramètre un tableau de nombres non trié tab, et qui renvoie l'indice de la première occurrence du minimum de ce",
+     "⏎ Écrire une fonction recherche_min qui prend en paramètre un tableau de nombres non trié tab, et qui renvoie l'indice de la première occurrence du minimum de c",
+     "⏎ Écrire une fonction moyenne prenant en paramètres une liste d’entiers et qui renvoie la moyenne des valeurs de cette liste. Exemple : >>> moyenne([10,20,30,40"
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0215,
+    "sources_typiques": {
+     "pratique": 50,
+     "ecrit": 9,
+     "cours": 1
+    }
+   },
+   {
+    "id": "S9",
+    "termes": [
+     "W -",
+     "W - W",
+     "- W",
+     "-",
+     ". W -",
+     "NL W -",
+     ". W - W",
+     "NL W - W"
+    ],
+    "exemples": [
+     "⏎ 10. Donner une raison pour laquelle Alice a préféré choisir le format AAAA -MM-JJ pour l'attribut renouvellement plutôt que le format JJ-MM-AAAA.",
+     "⏎ 4. Décrire le problème rencontré lorsque qu'une machine du sous -réseau Commerces envoie des données à destination d'une machine du sous-réseau Navigation.",
+     "⏎ 14. Le protocole de routage qui semble être utilisé est RIP, p uisque avec OSPF R1-R5-R4-R3 serait plus court que R1-R3."
+    ],
+    "fiabilite": 1.0,
+    "poids_moyen": 0.0281,
+    "sources_typiques": {
+     "ecrit": 54,
+     "cours": 6
+    }
+   }
+  ],
+  "contenu": [
+   {
+    "id": "T0",
+    "termes": [
+     "qui",
+     "fonction",
+     "renvoie",
+     "prend",
+     "ecrire",
+     "parametre",
+     "parametres",
+     "python"
+    ],
+    "exemples": [
+     "Écrire une fonction récursive qui prend en paramètres deux nombres et qui renvoie le nombre x^n.",
+     "2. Écrire une fonction former_pile qui prend en paramètre une ﬁle F et qui renvoie une pile P contenant les mêmes éléments que la ﬁle.",
+     "c) Écrire une fonction somme en langage Python qui prend un paramètre W du même type que la variable V et qui renvoie la somme des valeurs de W."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0064,
+    "sources_typiques": {
+     "cours": 5,
+     "ecrit": 48,
+     "pratique": 7
+    }
+   },
+   {
+    "id": "T1",
+    "termes": [
+     "requete",
+     "permettant",
+     "sql",
+     "ecrire",
+     "obtenir",
+     "des",
+     "nom",
+     "afficher"
+    ],
+    "exemples": [
+     "b. Écrire une requête SQL permettant d'obtenir le nom et le prénom des astronautes ayant décollé le '25/10/2022'.",
+     "3. Écrire une requête SQL permettant cet ajout.",
+     "8. Écrire une requête SQL permettant d'afficher le nombre total de stations."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0059,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "T2",
+    "termes": [
+     "cout",
+     "liaison",
+     "protocole",
+     "entre",
+     "routeurs",
+     "liaisons",
+     "ospf",
+     "debit"
+    ],
+    "exemples": [
+     "3. On a rétabli la liaison entre R1 et R2. Par ailleurs, pour tenir compte du débit des liaisons, on décide d'utiliser le protocole OSPF (distance liée au coût ",
+     "a. Calculer le coût d'une liaison de communication par la technologie FastEthernet.",
+     "4. La liaison entre R4 et R6 est rétablie. Par ailleur s, on décide d'utiliser le protocole OSPF (distance liée au coût \u0001 minimal des liaisons) pour effectuer l"
+    ],
+    "fiabilite": 0.96,
+    "poids_moyen": 0.0043,
+    "sources_typiques": {
+     "ecrit": 57,
+     "cours": 3
+    }
+   },
+   {
+    "id": "T3",
+    "termes": [
+     "arbre",
+     "binaire",
+     "hauteur",
+     "recherche",
+     "gauche",
+     "droit",
+     "abr",
+     "taille"
+    ],
+    "exemples": [
+     "Dessinez l'arbre créé par les instructions suivantes : >>> a = Arbre(4) >>> a.left = Arbre(3) >>> a.right = Arbre(1) >>> a.right.left = Arbre(2) >>> a.right.rig",
+     "d. Justifier que l'arbre de la figure 1 est un arbre binaire de recherche.",
+     "3. On considère un arbre binaire R dont on note G le sous-arbre gauche et D le sous-arbre droit. On suppose que R est de hauteur 4 et G de hauteur 2."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0099,
+    "sources_typiques": {
+     "cours": 5,
+     "ecrit": 44,
+     "pratique": 11
+    }
+   },
+   {
+    "id": "T4",
+    "termes": [
+     "self",
+     "classe",
+     "methode",
+     "none",
+     "init",
+     "noeud",
+     "def",
+     "class"
+    ],
+    "exemples": [
+     "2. On considère la classe Noeud définie de la façon suivante en Python : 1 class Noeud: 2 def init(self, g, v, d): 3 self.gauche = g 4 self.valeur = v 5 self.dr",
+     "3. On considère la classe Noeud définie de la façon suivante en Python : class Noeud(): def init(self, v): self.ag = None self.ad = None self.v = v def insere(s",
+     "1. Expliquer le rôle de la fonction init."
+    ],
+    "fiabilite": 0.88,
+    "poids_moyen": 0.0096,
+    "sources_typiques": {
+     "ecrit": 45,
+     "cours": 3,
+     "pratique": 12
+    }
+   },
+   {
+    "id": "T5",
+    "termes": [
+     "cle",
+     "primaire",
+     "relation",
+     "etrangere",
+     "attribut",
+     "table",
+     "relationnel",
+     "cles"
+    ],
+    "exemples": [
+     "a. Citer, en justifiant, la clé primaire et la clé étrangère de la relation espece.",
+     "6. Quelle est la clé primaire de la relation Voitures ?",
+     "5. Quelle est la clé primaire de la relation Agences ?"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0064,
+    "sources_typiques": {
+     "ecrit": 57,
+     "cours": 3
+    }
+   },
+   {
+    "id": "T6",
+    "termes": [
+     "routeur",
+     "routage",
+     "table",
+     "destination",
+     "protocole",
+     "rip",
+     "routeurs",
+     "tables"
+    ],
+    "exemples": [
+     "b. Recopier et compléter la table de routage du routeur F.",
+     "a. Recopier et compléter la table de routage du routeur F ci dessous.",
+     "4. Recopier et compléter la table de routage du routeur R1 obtenue avec le protocole RIP.  Table de routage R1 : Destination Passe par Nombre de sauts R2 R3 R4"
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0051,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "T7",
+    "termes": [
+     "recopier",
+     "completer",
+     "code",
+     "lignes",
+     "ligne",
+     "fonction",
+     "methode",
+     "dessous"
+    ],
+    "exemples": [
+     "7. Recopier et compléter les lignes 12, 16 et 20 du code de la fonction lire_parcours.",
+     "7. Recopier et compléter le code de la fonction meme_reseau.",
+     "6. Recopier et compléter les lignes 41 à 44."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0099,
+    "sources_typiques": {
+     "ecrit": 57,
+     "cours": 3
+    }
+   },
+   {
+    "id": "T8",
+    "termes": [
+     "tab",
+     "tableau",
+     "recherche",
+     "exemples",
+     "element",
+     "indice",
+     "list",
+     "entiers"
+    ],
+    "exemples": [
+     "Écrire la fonction maxliste, prenant en paramètre un tableau non vide de nombres tab (type list) et renvoyant le plus grand élément de ce tableau. Exemples : >>",
+     "Écrire la fonction maximum_tableau, prenant en paramètre un tableau non vide de nombres tab (de type list) et renvoyant le plus grand élément de ce tableau. Exe",
+     "Écrire la fonction maxliste, prenant en paramètre un tableau non vide de nombres tab (de type list) et renvoyant le plus grand élément de ce tableau. Exemples :"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0084,
+    "sources_typiques": {
+     "pratique": 52,
+     "ecrit": 8
+    }
+   },
+   {
+    "id": "T9",
+    "termes": [
+     "adresse",
+     "reseau",
+     "machine",
+     "ipv4",
+     "adresses",
+     "masque",
+     "local",
+     "machines"
+    ],
+    "exemples": [
+     "b. Déterminer l'adresse du réseau B, à partir de l'adresse IP d'une machine et du masque de ce réseau. On détaillera soigneusement chaque étape du raisonnement.",
+     "2. Pour déterminer la partie d'une adresse IPV4 qui correspond à l'adresse réseau, on effectue un ET logique entre chaque bit de l'adresse IP binaire de l'hôte ",
+     "d. ligne 5 : compléter l'adresse IP décimale du réseau 1. Adresse IP (V4) du PC3 Ligne 1 172 150 4 30"
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0087,
+    "sources_typiques": {
+     "ecrit": 57,
+     "cours": 2,
+     "pratique": 1
+    }
+   },
+   {
+    "id": "T10",
+    "termes": [
+     "from",
+     "select",
+     "where",
+     "requete",
+     "suivante",
+     "resultat",
+     "nom",
+     "count"
+    ],
+    "exemples": [
+     "2. a) Donner le résultat de la requête suivante : SELECT nom, prenom FROM Membre WHERE cp = \"69003\" ;",
+     "13. Donner le résultat de la requête SQL suivante : SELECT nom FROM ville WHERE num_dep = 74 AND superficie > 70",
+     "a. Écrire le résultat que la requête suivante renvoie : SELECT COUNT(*) FROM Fusee WHERE constructeur = 'SpaceX';"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0057,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "T11",
+    "termes": [
+     "graphe",
+     "sommet",
+     "sommets",
+     "adjacence",
+     "dictionnaire",
+     "voisins",
+     "par",
+     "listes"
+    ],
+    "exemples": [
+     "4. Écrire la fonction degre_sommets qui prend en paramètre un graphe modélisé par le dictionnaire de listes d'adjacence graphe et qui renvoie la liste des tuple",
+     "8. Écrire une fonction voisins qui prend en paramètres un graphe G et un sommet s du graphe G et qui renvoie la liste des voisins du sommet s.",
+     "2. Écrire une fonction voisins, qui prend en paramètres un dictionnaire et un entier, telle que voisins(graphe, k) renvoie une liste contenant les voisins du so"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0047,
+    "sources_typiques": {
+     "ecrit": 51,
+     "pratique": 3,
+     "cours": 6
+    }
+   },
+   {
+    "id": "T12",
+    "termes": [
+     "return",
+     "def",
+     "for",
+     "range",
+     "else",
+     "len",
+     "fonction",
+     "dessous"
+    ],
+    "exemples": [
+     "Compléter le code ci-dessous : def fibo(n): dict_fibo = {} dict_fibo[0] = ... dict_fibo[1] = ... for k in range(..., ...): dict_fibo[k] = dict_fibo[...] + dict_",
+     "7. return ...",
+     "7. return 1+ ………."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0108,
+    "sources_typiques": {
+     "cours": 10,
+     "ecrit": 43,
+     "pratique": 7
+    }
+   },
+   {
+    "id": "T13",
+    "termes": [
+     "parcours",
+     "infixe",
+     "prefixe",
+     "largeur",
+     "profondeur",
+     "postfixe",
+     "ordre",
+     "suffixe"
+    ],
+    "exemples": [
+     "3. Parcours infixe",
+     "3. Parcours infixe",
+     "2. Parcours préfixe"
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0035,
+    "sources_typiques": {
+     "cours": 10,
+     "ecrit": 49,
+     "pratique": 1
+    }
+   },
+   {
+    "id": "T14",
+    "termes": [
+     "expliquer",
+     "pourquoi",
+     "role",
+     "erreur",
+     "peut",
+     "pas",
+     "ligne",
+     "dans"
+    ],
+    "exemples": [
+     "7. Expliquer le rôle de la fonction cherche_itineraires dans le programme p1.",
+     "1. Expliquer la ligne 9 de ce code.",
+     "1. Expliquer pourquoi le couple (1, 3) est une inversion dans le tableau [4, 8, 3, 7]."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.0067,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "T15",
+    "termes": [
+     "donner",
+     "nom",
+     "instruction",
+     "valeurs",
+     "valeur",
+     "type",
+     "hauteur",
+     "variable"
+    ],
+    "exemples": [
+     "c. Donner un encadrement de ces valeurs.",
+     "1. Donner le nom de ce type de programme.",
+     "12. Donner le résultat de cette requête."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0092,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "T16",
+    "termes": [
+     "lst",
+     "ajoute_tete",
+     "renvoie_tete",
+     "est_vide",
+     "majoritaire",
+     "absolument",
+     "element",
+     "effectif"
+    ],
+    "exemples": [
+     "11. lst.est_vide()",
+     "6. lst.est_vide()",
+     "10. lst.renvoie_tete()"
+    ],
+    "fiabilite": 0.66,
+    "poids_moyen": 0.0027,
+    "sources_typiques": {
+     "cours": 16,
+     "ecrit": 40,
+     "pratique": 4
+    }
+   },
+   {
+    "id": "T17",
+    "termes": [
+     "processus",
+     "execution",
+     "temps",
+     "attente",
+     "instant",
+     "processeur",
+     "pid",
+     "des"
+    ],
+    "exemples": [
+     "b) Calculer la moyenne des temps d'exécution des quatre processus.",
+     "2. Recopier et compléter le schéma ci-dessous avec les termes suivants : élu, bloqué, prêt, élection, blocage, déblocage. Figure 1. Schéma processus On considèr",
+     "4. Recopier et compléter, à l'aide du tableau, le schéma ci -dessous avec les processus P1 à P4 en utilisant la règle du \" premier arrivé premier servi \". Figur"
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0062,
+    "sources_typiques": {
+     "ecrit": 56,
+     "cours": 4
+    }
+   },
+   {
+    "id": "T18",
+    "termes": [
+     "que",
+     "est",
+     "justifier",
+     "pas",
+     "instruction",
+     "commande",
+     "fait",
+     "suppose"
+    ],
+    "exemples": [
+     "8. Justifier que 𝑁𝑁(𝑚𝑚, 𝑛𝑛) = 𝑁𝑁(𝑚𝑚 − 1, 𝑛𝑛) + 𝑁𝑁(𝑚𝑚, 𝑛𝑛 − 1).",
+     "2. Justifier que le couple (2, 3) n'en est pas une.",
+     "a. Justifier le fait que D n'est pas l'arbre vide et déterminer sa hauteur."
+    ],
+    "fiabilite": 0.88,
+    "poids_moyen": 0.014,
+    "sources_typiques": {
+     "ecrit": 53,
+     "cours": 2,
+     "pratique": 5
+    }
+   },
+   {
+    "id": "T19",
+    "termes": [
+     "indiquer",
+     "appel",
+     "quel",
+     "type",
+     "renvoyee",
+     "termine",
+     "propositions",
+     "justifiant"
+    ],
+    "exemples": [
+     "2. Indiquer si l'appel f1(-2) se termine. Si oui, indiquer la valeur renvoyée.",
+     "c. Indiquer ce qu'est une fonction récursive.",
+     "c. Indiquer, pour la relation reservation, la ou les clés étrangères (ou secondaires) et en indiquer l'utilité."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0079,
+    "sources_typiques": {
+     "ecrit": 60
+    }
+   },
+   {
+    "id": "T20",
+    "termes": [
+     "pile",
+     "file",
+     "apres",
+     "execution",
+     "empiler",
+     "est_vide",
+     "depiler",
+     "element"
+    ],
+    "exemples": [
+     "d. Représenter la pile p et la file f après l'exécution du code suivant. for i in range(2): empiler(p, defiler(f))",
+     "b. Représenter la pile p après l'exécution du code suivant. empiler(p, depiler(p))",
+     "b. Représenter la pile p1 après cette exécution."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0068,
+    "sources_typiques": {
+     "ecrit": 49,
+     "pratique": 9,
+     "cours": 2
+    }
+   },
+   {
+    "id": "T21",
+    "termes": [
+     "chaine",
+     "caracteres",
+     "mot",
+     "caractere",
+     "avec",
+     "mots",
+     "txt",
+     "lettre"
+    ],
+    "exemples": [
+     "Programmer une fonction renverse, prenant en paramètre une chaîne de caractères non vide mot et renvoie une chaîne de caractères en inversant ceux de la chaîne ",
+     "2. Donner le codage de la chaîne de caractères txt.",
+     "2. On considère qu'un mot est une chaîne de caractères (un objet de type str ) écrite uniquement avec les 26 lettres de l'alphabet en majuscule. Par exemple, \"A"
+    ],
+    "fiabilite": 0.94,
+    "poids_moyen": 0.008,
+    "sources_typiques": {
+     "pratique": 21,
+     "ecrit": 37,
+     "cours": 2
+    }
+   },
+   {
+    "id": "T22",
+    "termes": [
+     "false",
+     "true",
+     "sinon",
+     "est",
+     "renvoie",
+     "contient",
+     "pas",
+     "booleen"
+    ],
+    "exemples": [
+     "Écrire une fonction a_doublon qui prend en paramètre une liste triée de nombres et renvoie True si la liste contient au moins deux nombres identiques, False sin",
+     "Écrire une fonction a_doublon qui prend en paramètre un tableau trié de nombres dans l’ordre croissant et renvoie True si ce tableau contient au moins deux nomb",
+     "6. Écrire le code de la fonction changer_case."
+    ],
+    "fiabilite": 0.99,
+    "poids_moyen": 0.009,
+    "sources_typiques": {
+     "pratique": 18,
+     "ecrit": 41,
+     "cours": 1
+    }
+   },
+   {
+    "id": "T23",
+    "termes": [
+     "donnees",
+     "base",
+     "jour",
+     "mettre",
+     "requetes",
+     "dans",
+     "ete",
+     "par"
+    ],
+    "exemples": [
+     "4. Donner la requête qu'il doit écrire pour mettre à jour sa base de données.",
+     "2. Recherche et modification d'informations dans la base de données",
+     "3. Écrire une requête SQL permettant de mettre à jour son état dans la base de données."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0102,
+    "sources_typiques": {
+     "ecrit": 54,
+     "cours": 6
+    }
+   },
+   {
+    "id": "T24",
+    "termes": [
+     "liste",
+     "des",
+     "par",
+     "valeurs",
+     "listes",
+     "element",
+     "elements",
+     "dans"
+    ],
+    "exemples": [
+     "Écrire une fonction enumere qui prend en paramètre une liste L et renvoie un dictionnaire d dont les clés sont les éléments de L avec pour valeur associée la li",
+     "4. Préciser, sans justifier, le coût temporel du tri par insertion d'une liste de 𝑛 éléments dans le pire des cas.",
+     "6. Donner le nom du tri utilisé dans la fonction tri_decroissant ainsi que son coût dans le pire des cas."
+    ],
+    "fiabilite": 0.91,
+    "poids_moyen": 0.0117,
+    "sources_typiques": {
+     "pratique": 13,
+     "ecrit": 44,
+     "cours": 3
+    }
+   },
+   {
+    "id": "T25",
+    "termes": [
+     "binaire",
+     "entier",
+     "ecriture",
+     "sous",
+     "forme",
+     "representation",
+     "decimale",
+     "bits"
+    ],
+    "exemples": [
+     "On considère la fonction binaire. Cette fonction prend en paramètre un entier positif a en écriture décimale et renvoie son écriture binaire sous la forme d’une",
+     "On considère la fonction binaire ci-dessous qui prend en paramètre un entier positif a en écriture décimale et qui renvoie son écriture binaire sous la forme d'",
+     "On modélise la représentation binaire d'un entier non signé par un tableau d'entiers dont les éléments sont 0 ou 1. Par exemple, le tableau [1, 0, 1, 0, 0, 1, 1"
+    ],
+    "fiabilite": 0.31,
+    "poids_moyen": 0.0079,
+    "sources_typiques": {
+     "pratique": 19,
+     "ecrit": 41
+    }
+   },
+   {
+    "id": "T26",
+    "termes": [
+     "cette",
+     "question",
+     "dans",
+     "porte",
+     "relationnel",
+     "traite",
+     "suppose",
+     "methode"
+    ],
+    "exemples": [
+     "1. On suppose dans cette question que ݇1 .",
+     "4. Cette question traite des jointures.",
+     "1. Dans cette question, on s'intéresse au modèle relationnel."
+    ],
+    "fiabilite": 0.1,
+    "poids_moyen": 0.0113,
+    "sources_typiques": {
+     "ecrit": 59,
+     "cours": 1
+    }
+   },
+   {
+    "id": "T27",
+    "termes": [
+     "sur",
+     "copie",
+     "votre",
+     "page",
+     "completant",
+     "points",
+     "suspension",
+     "annexe"
+    ],
+    "exemples": [
+     "4. Ecrivez sur votre copie le code de cette fonction en Python. def max_surface(v): ….",
+     "2. Finaliser le programme précédent en complétant les lignes 6, 7 et 8 sur votre copie.",
+     "1. Recopier sur la copie les lignes 6 et 8 en complétant les points de suspension."
+    ],
+    "fiabilite": 0.98,
+    "poids_moyen": 0.0093,
+    "sources_typiques": {
+     "ecrit": 58,
+     "cours": 2
+    }
+   },
+   {
+    "id": "T28",
+    "termes": [
+     "pour",
+     "proposer",
+     "utiliser",
+     "chaque",
+     "possible",
+     "meme",
+     "alice",
+     "algorithme"
+    ],
+    "exemples": [
+     "2. Lorsdelapériodedessoldes,lesitedeventeproposelesréductionssuivantes: — silepaniercontient5articlesouplus,uneréductionglobalede50%, — silepaniercontient4artic",
+     "1. Observez la liste des trajets pour la pyramide _exemple pour en comprendre la notation.",
+     "10. Expliquer la différence entre un algorithme de chiffrement symétrique et un algorithme de chiffrement asymétrique. EN_NOzUzMD2M0ODAczOT1UzMmTYxMj5A2MDEO2OTd"
+    ],
+    "fiabilite": 0.22,
+    "poids_moyen": 0.0155,
+    "sources_typiques": {
+     "ecrit": 55,
+     "cours": 5
+    }
+   },
+   {
+    "id": "T29",
+    "termes": [
+     "nombre",
+     "pieces",
+     "sauts",
+     "occurrences",
+     "dans",
+     "par",
+     "rip",
+     "comparaisons"
+    ],
+    "exemples": [
+     "2. Écrire une requête qui affiche le nombre de chorégraphies de 1983.",
+     "5. Déterminer le nombre de comparaisons effectuées par l'appel à majo_abs1([1, 4, 1, 6, 1, 7, 2, 1, 1]).",
+     "2. Nombre de pièces dans le pire des cas."
+    ],
+    "fiabilite": 0.54,
+    "poids_moyen": 0.0112,
+    "sources_typiques": {
+     "ecrit": 44,
+     "cours": 9,
+     "pratique": 7
+    }
+   }
+  ],
+  "mise_en_situation": [
+   {
+    "id": "M0",
+    "termes": [
+     "arbre",
+     "binaire",
+     "sous",
+     "droit",
+     "gauche",
+     "hauteur",
+     "racine",
+     "valeur"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M1",
+    "termes": [
+     "relation",
+     "langage",
+     "donnees",
+     "select",
+     "from",
+     "attribut",
+     "cles",
+     "base"
+    ],
+    "fiabilite": 0.94
+   },
+   {
+    "id": "M2",
+    "termes": [
+     "reseau",
+     "adresse",
+     "bits",
+     "partie",
+     "machine",
+     "octets",
+     "notation",
+     "reseaux"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M3",
+    "termes": [
+     "bases",
+     "requetes",
+     "donnees",
+     "relationnelles",
+     "relationnel",
+     "independantes",
+     "schema",
+     "parties"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M4",
+    "termes": [
+     "binaires",
+     "arbres",
+     "recherche",
+     "algorithmes",
+     "recursivite",
+     "notion",
+     "dans",
+     "hauteur"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M5",
+    "termes": [
+     "processus",
+     "gestion",
+     "systeme",
+     "exploitation",
+     "ressources",
+     "processeur",
+     "execution",
+     "ordonnancement"
+    ],
+    "fiabilite": 0.73
+   },
+   {
+    "id": "M6",
+    "termes": [
+     "python",
+     "algorithmique",
+     "programmation",
+     "langage",
+     "utilisant",
+     "reseaux",
+     "tableaux",
+     "aborde"
+    ],
+    "fiabilite": 0.92
+   },
+   {
+    "id": "M7",
+    "termes": [
+     "graphes",
+     "reseaux",
+     "programmation",
+     "donnees",
+     "python",
+     "algorithmes",
+     "bases",
+     "personnes"
+    ],
+    "fiabilite": 0.95
+   },
+   {
+    "id": "M8",
+    "termes": [
+     "objet",
+     "orientee",
+     "programmation",
+     "independantes",
+     "parties",
+     "deux",
+     "particulier",
+     "python"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M9",
+    "termes": [
+     "pile",
+     "vide",
+     "element",
+     "structure",
+     "sommet",
+     "file",
+     "empiler",
+     "depiler"
+    ],
+    "fiabilite": 0.96
+   },
+   {
+    "id": "M10",
+    "termes": [
+     "structures",
+     "donnees",
+     "lineaires",
+     "file",
+     "type",
+     "parties",
+     "compose",
+     "utilisant"
+    ],
+    "fiabilite": 0.16
+   },
+   {
+    "id": "M11",
+    "termes": [
+     "protocoles",
+     "routage",
+     "reseaux",
+     "adressage",
+     "independantes",
+     "parties",
+     "reseau",
+     "sont"
+    ],
+    "fiabilite": 0.97
+   },
+   {
+    "id": "M12",
+    "termes": [
+     "self",
+     "init",
+     "class",
+     "return",
+     "classe",
+     "duree",
+     "pour",
+     "code"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M13",
+    "termes": [
+     "systemes",
+     "exploitation",
+     "principalement",
+     "reseaux",
+     "base",
+     "linux",
+     "representation",
+     "theme"
+    ],
+    "fiabilite": 0.9
+   },
+   {
+    "id": "M14",
+    "termes": [
+     "regner",
+     "diviser",
+     "methode",
+     "algorithme",
+     "pour",
+     "points",
+     "dite",
+     "tableau"
+    ],
+    "fiabilite": 0.96
+   },
+   {
+    "id": "M15",
+    "termes": [
+     "architecture",
+     "materielle",
+     "theme",
+     "reseau",
+     "ordinateurs",
+     "leur",
+     "ordonnancement",
+     "communication"
+    ],
+    "fiabilite": 0.57
+   },
+   {
+    "id": "M16",
+    "termes": [
+     "rendu",
+     "parcours",
+     "donner",
+     "chaque",
+     "pieces",
+     "somme",
+     "rendre",
+     "liste"
+    ],
+    "fiabilite": 0.83
+   },
+   {
+    "id": "M17",
+    "termes": [
+     "recursivite",
+     "programmation",
+     "general",
+     "langages",
+     "dynamique",
+     "tableaux",
+     "particulier",
+     "dictionnaires"
+    ],
+    "fiabilite": 0.42
+   },
+   {
+    "id": "M18",
+    "termes": [
+     "caracteres",
+     "chaine",
+     "fonction",
+     "renvoie",
+     "palindrome",
+     "exemple",
+     "parametre",
+     "chaines"
+    ],
+    "fiabilite": 0.92
+   },
+   {
+    "id": "M19",
+    "termes": [
+     "aide",
+     "construire",
+     "requetes",
+     "jour",
+     "clauses",
+     "logiques",
+     "affiner",
+     "recherches"
+    ],
+    "fiabilite": 0.98
+   },
+   {
+    "id": "M20",
+    "termes": [
+     "securisation",
+     "communications",
+     "alice",
+     "base",
+     "programmation",
+     "passe",
+     "message",
+     "site"
+    ],
+    "fiabilite": 0.96
+   },
+   {
+    "id": "M21",
+    "termes": [
+     "case",
+     "cases",
+     "grille",
+     "droite",
+     "taquin",
+     "figure",
+     "vide",
+     "exemple"
+    ],
+    "fiabilite": 0.86
+   },
+   {
+    "id": "M22",
+    "termes": [
+     "etat",
+     "enchainement",
+     "renvoyee",
+     "etape",
+     "eventuellement",
+     "operations",
+     "ecrire",
+     "valeur"
+    ],
+    "fiabilite": 0.69
+   },
+   {
+    "id": "M23",
+    "termes": [
+     "destination",
+     "table",
+     "protocole",
+     "routeur",
+     "distance",
+     "routage",
+     "ospf",
+     "routeurs"
+    ],
+    "fiabilite": 0.4
+   },
+   {
+    "id": "M24",
+    "termes": [
+     "plus",
+     "dans",
+     "pour",
+     "chaque",
+     "deux",
+     "sont",
+     "couleur",
+     "donc"
+    ],
+    "fiabilite": 0.73
+   }
+  ]
+ }
+}

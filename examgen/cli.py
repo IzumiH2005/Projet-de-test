@@ -26,6 +26,10 @@ def main():
     p.add_argument("--seed", type=int, default=42)
     w = sub.add_parser("write")
     w.add_argument("--backend", choices=["api", "agents"], default="agents")
+    sub.add_parser("discover")
+    i = sub.add_parser("inedit")
+    i.add_argument("--combinaisons", type=int, default=3)
+    i.add_argument("--savoirs", type=int, default=1)
     sub.add_parser("validate")
     sub.add_parser("report")
     a = sub.add_parser("all")
@@ -43,13 +47,20 @@ def main():
     if args.cmd == "report":
         from . import report
         report.run()
+    if args.cmd in ("discover", "all"):
+        from . import discovery
+        discovery.run()
+    if args.cmd == "inedit":
+        from . import inedit, llm
+        llm.export_prompts(inedit.make_plans(args.combinaisons, args.savoirs))
     if args.cmd in ("plan", "all"):
         from . import blueprint, llm
         plans = blueprint.make_plans(args.sujets, args.par_notion, getattr(args, "seed", 42))
         llm.export_prompts(plans)
     if args.cmd == "write":
         from . import llm
-        plans = json.loads((OUT / "plans.json").read_text(encoding="utf-8"))
+        plans = [p for n in ("plans.json", "plans_inedit.json") if (OUT / n).exists()
+                 for p in json.loads((OUT / n).read_text(encoding="utf-8"))]
         if args.backend == "api":
             llm.generate_api(plans)
         else:

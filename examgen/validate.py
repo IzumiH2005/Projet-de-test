@@ -61,7 +61,17 @@ def sql_ok(text: str) -> bool | None:
 
 def run() -> dict:
     m = joblib.load(MODEL_DIR / "models.joblib")
-    plans = {p["id"]: p for p in json.loads((OUT / "plans.json").read_text(encoding="utf-8"))}
+    plans = {}
+    for name in ("plans.json", "plans_inedit.json"):
+        if (OUT / name).exists():
+            plans.update({p["id"]: p for p in json.loads((OUT / name).read_text(encoding="utf-8"))})
+    fm = obs = ref = None
+    if any(p["type"] == "inedit" for p in plans.values()) and (MODEL_DIR / "discovery_models.joblib").exists():
+        from .discovery import FacetModel
+        fm = FacetModel()
+        dd = joblib.load(MODEL_DIR / "discovery_data.joblib")
+        obs = {(n, int(c), int(s_)) for u, c, s_ in zip(dd["units"], dd["fs"], dd["fu"]) if u["src"] == "ecrit" for n in u["main"][:1]}
+        ref = json.loads((MODEL_DIR / "discovery.json").read_text(encoding="utf-8"))["grammaire_des_combinaisons"]["plausibilite_mediane_des_vraies_questions"]
     gen = {}
     for f in sorted(GENERATED.glob("*.json")):
         try:
@@ -77,7 +87,7 @@ def run() -> dict:
         plan = plans.get(pid)
         if not plan:
             continue
-        plan_ex = {ex["numero"]: ex for ex in plan.get("exercices", [])} if plan["type"] == "sujet" else {0: plan}
+        plan_ex = {ex["numero"]: ex for ex in plan["exercices"]} if "exercices" in plan else {0: plan}
         for ex in g["exercices"]:
             pex = plan_ex.get(ex["numero"]) or next(iter(plan_ex.values()))
             pslots = {q["slot"]: q for q in pex["questions"]}
@@ -86,7 +96,7 @@ def run() -> dict:
                     "exercises": [{"number": ex["numero"], "points": None, "theme_sentence": None,
                                    "preamble": ex["contexte"], "raw": ex["contexte"] + "\n" + "\n".join(q["enonce"] for q in qs),
                                    "questions": [{"label": str(q["slot"]), "text": q["enonce"],
-                                                  "context_before": ex["contexte"][-400:] if plan["type"] == "sujet" else ""} for q in qs]}]}
+                                                  "context_before": ex["contexte"][-400:] if plan["type"] in ("sujet", "inedit") else ""} for q in qs]}]}
             rows = F.build_question_table([fake])
             for r in rows:
                 r["main"] = F.main_concepts(r)
@@ -122,15 +132,28 @@ def run() -> dict:
                     "notion_ok": (target in top3) if target in classes else None,
                     "notion_lexique_ok": target in r["concepts"] or target in r["ex_concepts"],
                     "archetype_plan": a_plan, "archetype_predit": int(arch_pred[i]),
-                    "archetype_ok": a_plan is not None and int(arch_pred[i]) == a_plan,
-                    "tache_ok": plan_task is not None and (r["task"] == plan_task or m["arch_info"][int(arch_pred[i])]["taches"][0][0] == plan_task),
+                    "archetype_ok": (int(arch_pred[i]) == a_plan) if a_plan is not None else None,
+                    "tache_ok": (r["task"] == plan_task or m["arch_info"][int(arch_pred[i])]["taches"][0][0] == plan_task) if plan_task is not None else None,
                     "bloom_plan": lvl_target, "bloom_mesure": r["bloom"],
-                    "bloom_ok": lvl_target is not None and abs(r["bloom"] - lvl_target) <= 1,
+                    "bloom_ok": abs(r["bloom"] - lvl_target) <= 1 if lvl_target is not None else None,
                     "nouveaute_sim_max": round(float(nov[i]), 3), "quasi_copie": bool(nov[i] > 0.92),
                     "ancrage_cours": round(float(grd[i]), 3),
                     "python_ok": all(pys) if pys else None, "sql_ok": sq,
                     "position_cible": ps.get("position_cible"), "position_predite": round(float(pos_pred[i]), 3),
                 })
+                if plan["type"] == "inedit" and fm is not None:
+                    fc = fm.facets(r["text"], r["context"])
+                    c_plan, s_plan = ps.get("consigne_id"), ps.get("support_id")
+                    pl = fm.plausibility(target, fc["consigne"], fc["support"], ps.get("position_bin", 1))
+                    results[-1].update({
+                        "mode": ps.get("mode"), "consigne_plan": c_plan, "consigne_mesuree": fc["consigne"],
+                        "consigne_ok": fc["consigne"] == c_plan if c_plan is not None else None,
+                        "consigne_top3_ok": fc["rang_consigne"][c_plan] < 3 if c_plan is not None else None,
+                        "support_ok": fc["support"] == s_plan if s_plan is not None else None,
+                        "support_top3_ok": fc["rang_support"][s_plan] < 3 if s_plan is not None else None,
+                        "plausibilite_mesuree": round(pl, 3), "plausible": pl >= ref,
+                        "combinaison_jamais_vue": (target, fc["consigne"], fc["support"]) not in obs,
+                    })
     summary = summarize(results)
     (OUT / "validation.json").write_text(json.dumps({"resume": summary, "detail": results}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=1))
@@ -138,7 +161,7 @@ def run() -> dict:
 
 
 def rate(rs, key):
-    v = [r[key] for r in rs if r[key] is not None]
+    v = [r.get(key) for r in rs if r.get(key) is not None]
     return round(float(np.mean(v)), 3) if v else None
 
 
@@ -146,6 +169,14 @@ def summarize(results: list[dict]) -> dict:
     out = {"questions_validees": len(results)}
     for k in ("notion_ok", "notion_lexique_ok", "archetype_ok", "tache_ok", "bloom_ok", "python_ok", "sql_ok", "quasi_copie"):
         out[k] = rate(results, k)
+    ined = [r for r in results if r["type"] == "inedit"]
+    if ined:
+        out["inedit"] = {"n": len(ined), **{k: rate(ined, k) for k in (
+            "notion_ok", "notion_lexique_ok", "consigne_ok", "consigne_top3_ok", "support_ok", "support_top3_ok",
+            "plausible", "combinaison_jamais_vue", "quasi_copie", "python_ok", "sql_ok")},
+            "nouveaute_sim_max_moyenne": round(float(np.mean([r["nouveaute_sim_max"] for r in ined])), 3),
+            "par_mode": {md: {"n": len(rs), "consigne_top3_ok": rate(rs, "consigne_top3_ok"), "notion_ok": rate(rs, "notion_ok")}
+                         for md in {r["mode"] for r in ined} for rs in [[r for r in ined if r["mode"] == md]]}}
     out["nouveaute_sim_max_moyenne"] = round(float(np.mean([r["nouveaute_sim_max"] for r in results])), 3) if results else None
     out["ancrage_cours_moyen"] = round(float(np.mean([r["ancrage_cours"] for r in results])), 3) if results else None
     by_ex = defaultdict(list)
