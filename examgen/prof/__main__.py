@@ -28,6 +28,7 @@ def main():
     ap.add_argument("--cours", default="data/droit/cours")
     ap.add_argument("--out", default="output/droit")
     ap.add_argument("--refit", action="store_true")
+    ap.add_argument("--plans", default="plans.json")
     a = ap.parse_args()
     Path(a.out).mkdir(parents=True, exist_ok=True)
     if a.cmd == "profil":
@@ -43,8 +44,10 @@ def main():
         print(f"{len(ps)} plans probables -> {a.out}/plans_probables.json")
     else:
         t = load(a)
-        ps = json.loads((Path(a.out) / "plans.json").read_text(encoding="utf-8"))
-        s = check.run(t, ps, Path(a.out) / "generated", Path(a.out) / "validation.json")
+        ps = json.loads((Path(a.out) / a.plans).read_text(encoding="utf-8"))
+        prob = a.plans != "plans.json"
+        s = check.run(t, ps, Path(a.out) / ("generated_probables" if prob else "generated"),
+                      Path(a.out) / ("validation_probables.json" if prob else "validation.json"))
         t.save(Path(a.out))
         print(json.dumps(s, ensure_ascii=False))
 

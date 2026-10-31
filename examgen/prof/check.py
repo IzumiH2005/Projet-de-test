@@ -215,8 +215,19 @@ class Checker:
                 fb.append("énoncé trop proche d'un ancien sujet : change la situation et la tournure")
             if r["longueur_ok"] is False:
                 fb.append(f"réponse attendue de {L} caractères pour {pts} point(s) ; le professeur attend {cpp[0] * pts}–{cpp[2] * pts}")
+            hid = (plan.get("intention_cachee") or {}).get("evaluer_sans_le_dire") or []
+            if hid:  # intention cachée : notion évaluée sans être dite
+                said = set(re.findall(r"[a-z]{4,}", _n(stem)))
+                req = set(re.findall(r"[a-z]{4,}", _n(ans)))
+                r["intention_dite_dans_l_enonce"] = sorted(w for w in hid if w in said)
+                r["intention_exigee_dans_le_corrige"] = sorted(w for w in hid if w in req)
+                if r["intention_dite_dans_l_enonce"]:
+                    fb.append(f"l'énoncé nomme {r['intention_dite_dans_l_enonce']} alors que le professeur l'évalue sans le dire")
             if fb:
                 res["revision"].append(f"Question {q.get('slot')} : " + " ; ".join(fb))
+        if hid:
+            got = set().union(*[set(x.get("intention_exigee_dans_le_corrige", [])) for x in res["questions"]])
+            res["intention_cachee_couverte"] = round(len(got & set(hid)) / len(hid), 2)
         return res
 
 

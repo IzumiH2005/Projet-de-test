@@ -69,6 +69,9 @@ class Forecast:
                 self.tested[q.year].add(int(p))
                 self.q_of[q.year].append(i)
         self.years = sorted(self.tested)
+        qw = [set(re.findall(r"[a-z]{4,}", D.norm(q.stem + " " + q.situation[:2000]))) for q in t.Q]
+        df = Counter(w for x in qw for w in x)
+        self.generic = {w for w, c in df.items() if c > 0.12 * len(qw)}
         self.base = ["rang_du_passage_dans_la_section", "longueur_du_passage", "centralite_du_passage", "redondance_du_passage",
                      "insistance_typographique", "passage_avec_reference", "densite_symboles_du_passage",
                      "place_de_la_section_dans_le_cours", "taille_de_la_section", "centralite_de_la_section",
@@ -108,6 +111,9 @@ class Forecast:
     def _fit_predict(self, fam: str, Xtr, ytr, Xte) -> np.ndarray:
         if fam == "popularite":
             return Xte[:, 10] + 0.01 * Xte[:, 11]
+        if fam == "ensemble":  # moyenne des rangs des trois familles
+            from scipy.stats import rankdata
+            return np.mean([rankdata(self._fit_predict(f, Xtr, ytr, Xte)) for f in LP.FAMILIES], 0) / len(Xte)
         kind, mk = LP.FAMILIES[fam]
         Btr, Ftr = self.design(Xtr)
         Bte, Fte = self.design(Xte)
@@ -115,34 +121,46 @@ class Forecast:
         return mk().fit(A_, ytr).predict_proba(B_)[:, 1]
 
     # ------------------------------------------------------------------ preuve : comme en vrai
-    def backtest(self, k_years: int = 5, min_hist: int = 5) -> dict:
-        fams = ["popularite", "logistique_12_generiques", self.lr.get("famille_choisie", "arbres_generiques_et_propres_a_la_matiere")]
-        fams = list(dict.fromkeys(fams))
+    def backtest(self, k_years: int = 5, min_hist: int = 3) -> dict:
+        """Chaque année testée : apprentissage sur les seules années d'avant. La famille « choisie
+        seule » pour une année est celle qui a le mieux prévu les années testées précédentes."""
+        learned = list(LP.FAMILIES) + ["ensemble"]
+        fams = ["popularite"] + learned
         tests = [y for y in self.years if len([z for z in self.years if z < y]) >= min_hist][-k_years:]
-        res = {f: defaultdict(list) for f in fams}
+        res = {f: defaultdict(list) for f in fams + ["choisie_seule"]}
         top = max(1, int(TOP * self.n))
+        self.choices = []
         for y in tests:
             past = [z for z in self.years if z < y]
             Xtr, ytr = self._train(past)
             Xte = self.rows(y, past)
             yte = np.array([p in self.tested[y] for p in range(self.n)], int)
             qs = self.q_of[y]
-            for f in fams:
-                p = self._fit_predict(f, Xtr, ytr, Xte)
+            prev = {f: self._score(res[f]) for f in learned}
+            pick = max(prev, key=prev.get) if res[learned[0]]["auc"] else self.lr.get("famille_choisie", learned[-2])
+            self.choices.append(pick)
+            P = {f: self._fit_predict(f, Xtr, ytr, Xte) for f in fams}
+            P["choisie_seule"] = P[pick]
+            for f, p in P.items():
                 sel = set(np.argsort(-p)[:top])
                 near = self._near(sel)
                 res[f]["auc"].append(roc_auc_score(yte, p) if len(set(yte)) > 1 else 0.5)
                 res[f]["questions_couvertes"].append(np.mean([self.it.pas[i] in sel for i in qs]))
                 res[f]["questions_couvertes_a_un_passage_pres"].append(np.mean([self.it.pas[i] in near for i in qs]))
-                secs_pred = self._top_sections(p, 5)
                 real = {int(self.t.pass_sec[self.it.pas[i]]) for i in qs}
-                res[f]["chapitres_prevus_tombes_sur_5"].append(len(set(secs_pred) & real))
+                res[f]["chapitres_prevus_tombes_sur_5"].append(len(set(self._top_sections(p, 5)) & real))
+        self.final = max(learned, key=lambda f: self._score(res[f]))
         out = {"annees_testees": tests, "passages_du_cours": self.n, "passages_prevus": top,
-               "hasard_questions_couvertes": round(top / self.n, 3)}
+               "hasard_questions_couvertes": round(top / self.n, 3), "choix_par_annee": dict(zip(map(str, tests), self.choices)),
+               "famille_pour_l_annee_prevue": self.final}
         for f, r in res.items():
             out[f] = {k: round(float(np.mean(v)), 3) for k, v in r.items()}
             out[f]["par_annee"] = {str(y): round(float(v), 3) for y, v in zip(tests, r["questions_couvertes"])}
         return out
+
+    @staticmethod
+    def _score(r) -> float:
+        return float(np.mean(r["questions_couvertes"]) + 0.1 * np.mean(r["auc"])) if r["auc"] else 0.0
 
     def _near(self, sel: set) -> set:
         """Passage prévu ou son voisin immédiat dans la même section."""
@@ -161,7 +179,7 @@ class Forecast:
 
     # ------------------------------------------------------------------ l'année suivante
     def next_year(self) -> np.ndarray:
-        fam = self.lr.get("famille_choisie", "arbres_generiques_et_propres_a_la_matiere")
+        fam = getattr(self, "final", None) or self.lr.get("famille_choisie", "arbres_generiques_et_propres_a_la_matiere")
         Xtr, ytr = self._train(self.years)
         nxt = self.years[-1] + 1
         self.prob = self._fit_predict(fam, Xtr, ytr, self.rows(nxt, self.years))
@@ -181,11 +199,16 @@ class Forecast:
             past = list(np.argsort(-sims)[:8])
         said = [set(re.findall(r"[a-z]{4,}", D.norm(t.Q[i].stem + " " + t.Q[i].situation[:3000]))) for i in past]
         ans = [set(re.findall(r"[a-z]{4,}", D.norm(t.Q[i].answer))) for i in past if t.Q[i].answer]
+        # mot propre au chapitre : bien plus fréquent dans ses passages que dans le reste du cours
+        col = {w: it.wv.vocabulary_[w] for w in terms}
+        insec = np.asarray((it.Pw[t.pass_sec == s] > 0).mean(0)).ravel()
+        allc = np.asarray((it.Pw > 0).mean(0)).ravel()
+        terms = [w for w in terms if insec[col[w]] >= 2.5 * allc[col[w]] and w not in self.generic and allc[col[w]] < 0.06]
         cachee, dite = [], []
         for w in terms:
             r_said = np.mean([w in x for x in said])
             r_ans = np.mean([w in x for x in ans]) if ans else None
-            if r_said < 0.2 and (r_ans is None or r_ans > r_said):
+            if r_said < 0.2 and (r_ans is None or r_ans >= max(0.25, 2 * r_said)):
                 cachee.append(w)
             elif r_said >= 0.4:
                 dite.append(w)
@@ -230,7 +253,7 @@ def run(name: str, log=print) -> dict:
         k = r.pop("type_d_intention")
         r["intention"] = {"fort": lab[k]["fort"], "faible": lab[k]["faible"]} if k in lab else None
     rep = {"matiere": name, "annee_prevue": fc.annee, "annees_connues": fc.years, "preuve_comme_en_vrai": bt,
-           "famille_choisie": loop_rep.get("famille_choisie"), "passages_les_plus_probables": rk}
+           "famille_choisie": fc.final, "passages_les_plus_probables": rk}
     out = ROOT / "output" / ("droit" if name == "droit" else f"{name}_prof")
     out.mkdir(parents=True, exist_ok=True)
     (out / "previsions.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")

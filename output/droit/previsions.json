@@ -1,0 +1,806 @@
+{
+ "matiere": "droit",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 274,
+  "passages_prevus": 27,
+  "hasard_questions_couvertes": 0.099,
+  "choix_par_annee": {
+   "2024": "arbres_generiques_et_propres_a_la_matiere",
+   "2025": "logistique_12_generiques",
+   "2026": "logistique_12_generiques"
+  },
+  "famille_pour_l_annee_prevue": "logistique_12_generiques",
+  "popularite": {
+   "auc": 0.761,
+   "questions_couvertes": 0.297,
+   "questions_couvertes_a_un_passage_pres": 0.411,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.4,
+    "2025": 0.292,
+    "2026": 0.2
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.8,
+   "questions_couvertes": 0.464,
+   "questions_couvertes_a_un_passage_pres": 0.603,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.95,
+    "2025": 0.292,
+    "2026": 0.15
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.799,
+   "questions_couvertes": 0.397,
+   "questions_couvertes_a_un_passage_pres": 0.6,
+   "chapitres_prevus_tombes_sur_5": 2.333,
+   "par_annee": {
+    "2024": 0.65,
+    "2025": 0.292,
+    "2026": 0.25
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.74,
+   "questions_couvertes": 0.314,
+   "questions_couvertes_a_un_passage_pres": 0.428,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.45,
+    "2025": 0.292,
+    "2026": 0.2
+   }
+  },
+  "ensemble": {
+   "auc": 0.804,
+   "questions_couvertes": 0.314,
+   "questions_couvertes_a_un_passage_pres": 0.533,
+   "chapitres_prevus_tombes_sur_5": 2.0,
+   "par_annee": {
+    "2024": 0.65,
+    "2025": 0.292,
+    "2026": 0.0
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.753,
+   "questions_couvertes": 0.297,
+   "questions_couvertes_a_un_passage_pres": 0.453,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.45,
+    "2025": 0.292,
+    "2026": 0.15
+   }
+  }
+ },
+ "famille_choisie": "logistique_12_generiques",
+ "passages_les_plus_probables": [
+  {
+   "passage": 98,
+   "section": 11,
+   "section_titre": "5.1 La formation du contrat",
+   "probabilite": 0.981,
+   "texte": "L’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. La qualité de consommateur et de professionnel est désormais définie dans la loi (Code de la consommation article liminaire). La qualification juridique des parties permet de distinguer le consommateur du professionnel, la personne morale de la personne physique et le débiteur du créancier de l’obligation. L’étude a pour objectif de vérifier dans un contexte donné si les conditions essentielles de ",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "consentement",
+    "consommateur",
+    "validite",
+    "donne",
+    "vices"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.32
+    },
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.26
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.21
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 118,
+   "section": 12,
+   "section_titre": "5.2 L’exécution du contrat",
+   "probabilite": 0.948,
+   "texte": "L’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en demeure est une formalité exigée pour constater l’inexécution d’un débiteur. Elle est nécessaire lorsque l’exécution du contrat reste possible. On distingue résiliation et résolution d’un contrat synallagmatique. La clause pénale est une clause par laquelle les parties au contrat évaluent d’une manière forfaitaire et par avance les dommages intérêts dus par le débiteur en cas d’inexécution du contra",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "inexecution",
+    "clause",
+    "agit"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.33
+    },
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.29
+    },
+    {
+     "facette": 2,
+     "nom": "juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement",
+     "part": 0.21
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Déterminez les enjeux de la requalification d’un contrat en contrat de travail pour le salarié et pour l’entreprise."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2024-metropole",
+     "enonce": "Développez l’argumentation juridique que l’association « Les Danseuses de Caen » peut lui opposer."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 260,
+   "section": 21,
+   "section_titre": "8.3 Le respect de la concurrence",
+   "probabilite": 0.946,
+   "texte": "Article L462-3 du Code de commerce : L'Autorité peut être consultée par les juridictions sur les pratiques anticoncurrentielles définies aux articles L. 420-1 à L. 420-2-2 et L. 420-5 ainsi qu'aux articles 101 et 102 du traité sur le fonctionnement de l'Union européenne et relevées dans les affaires dont elles sont saisies. Elle ne peut donner un avis qu'après une procédure contradictoire. Toutefois, si elle dispose d'informations déjà recueillies au cours d'une procédure antérieure, elle peut émettre son avis sans avoir à mettre en oeuvre la procédure prévue au présent texte. L'Autorité de la",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "pieces",
+    "recueillies",
+    "autorite",
+    "deja",
+    "juridiction",
+    "procedure"
+   ],
+   "toujours_nomme": [
+    "affaires",
+    "memes"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.5
+    },
+    {
+     "facette": 2,
+     "nom": "juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement",
+     "part": 0.25
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+     "enonce": "Qualifiez juridiquement les faits et les parties."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+     "enonce": "Développez l’argumentation juridique que la SARL « Gastro’Burlaud » peut avancer pour obtenir réparation du préjudice subi."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 102,
+   "section": 11,
+   "section_titre": "5.1 La formation du contrat",
+   "probabilite": 0.909,
+   "texte": "Article 1124 du Code civil : La promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l'autre, le bénéficiaire, le droit d'opter pour la conclusion d'un contrat dont les éléments essentiels sont déterminés, et pour la formation duquel ne manque que le consentement du bénéficiaire. La révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n'empêche pas la formation du contrat promis. Le contrat conclu en violation de la promesse unilatérale avec un tiers qui en connaissait l'existence est nul.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "formation",
+    "consentement"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.32
+    },
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.26
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.21
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-liban",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 173,
+   "section": 16,
+   "section_titre": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
+   "probabilite": 0.899,
+   "texte": "Le contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération. La présence d’un lien de subordination juridique fonde l’existence d’un contrat de travail et justifie l’application des règles du droit du travail. Le lien de subordination est l’élément déterminant du contrat de travail. La distinction contrat de travail/contrat d’entreprise est abordée à partir d’exemples. L’étude des clauses du contrat de travail met en évidence la coexistence des règles d’ordre public et des normes conventionnelles, ainsi que l",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "subordination",
+    "clauses"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.43
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.21
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.21
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+     "enonce": "Développez l’argumentation juridique que Amina NACER peut avancer pour appuyer ses prétentions."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+     "enonce": "Développez l’argumentation juridique que la SARL NORMARKET peut lui opposer."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "taille_de_la_section"
+    ],
+    "faible": [
+     "questions_dans_la_partie",
+     "annees_depuis_la_derniere_fois",
+     "proximite_enonce_section"
+    ]
+   }
+  },
+  {
+   "passage": 122,
+   "section": 12,
+   "section_titre": "5.2 L’exécution du contrat",
+   "probabilite": 0.892,
+   "texte": "Article 1231-4 du Code civil : Dans le cas même où l'inexécution du contrat résulte d'une faute lourde ou dolosive, les dommages et intérêts ne comprennent que ce qui est une suite immédiate et directe de l'inexécution.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "inexecution",
+    "interets"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.33
+    },
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.29
+    },
+    {
+     "facette": 2,
+     "nom": "juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement",
+     "part": 0.21
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2026-asie",
+     "enonce": "Qualifiez juridiquement les parties, les faits et les dommages."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 143,
+   "section": 14,
+   "section_titre": "6.2 Les différents régimes de responsabilité régimes spéciaux responsabilité contractuelle responsabilité extra- contractuelle",
+   "probabilite": 0.842,
+   "texte": "L’étude porte sur les seuls éléments constitutifs de la responsabilité que devra prouver la victime pour obtenir la réparation de ses dommages. Ces éléments sont étudiés dans des situations juridiques concrètes qui font appel aux différents régimes de responsabilité (cf. 6.2.2. et 6.2.3.). Il ne s’agit pas de connaître le détail des règles d’indemnisation selon les régimes de responsabilité ou selon les postes de préjudices. L’analyse consiste à qualifier les faits dans leur contexte (relation contractuelle ou extra contractuelle) pour identifier le régime de responsabilité applicable. Les dom",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "regimes",
+    "victime",
+    "contractuelle"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+     "part": 0.31
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.25
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.19
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+     "enonce": "Justifiez l’intérêt de la diversité des régimes de responsabilité civile."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-polynesie",
+     "enonce": "Expliquez pourquoi une victime ne peut agir sur le fondement de la responsabilité extracontractuelle en cas de dommages causés à l’occasion de l’exécution d’un contrat."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "proximite_corrige_section",
+     "questions_dans_la_partie",
+     "annees_depuis_la_derniere_fois"
+    ],
+    "faible": [
+     "centralite_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 199,
+   "section": 17,
+   "section_titre": "7.2 La rupture du contrat de travail",
+   "probabilite": 0.832,
+   "texte": "L’étude de la rupture du contrat de travail porte sur les ruptures traditionnelles (démission, retraite, licenciement) mais aussi sur des ruptures plus récentes (rupture conventionnelle individuelle et collective) et insiste sur l’encadrement par le droit des ruptures à l’initiative de l’employeur et conventionnelles. Dans ce cadre, la validité d’un licenciement pour motif personnel ou pour motif économique nécessite un motif réel et sérieux et de suivre une procédure spécifique, éléments contrôlés par le juge à la demande d’une des parties.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "aussi"
+   ],
+   "toujours_nomme": [
+    "motif"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.48
+    },
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.19
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.14
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+     "enonce": "Résumez les faits, les parties en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+     "enonce": "Précisez le type de licenciement mis en œuvre."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 219,
+   "section": 18,
+   "section_titre": "7.3 Les libertés individuelles et collectives",
+   "probabilite": 0.83,
+   "texte": "Article L2281-10 du Code du travail : A défaut d'accord prévu à l'article L. 2242-11 ou en cas de non-respect de ses stipulations, l'accord traitant du droit d'expression comporte des stipulations sur : 1° Le niveau, le mode d'organisation, la fréquence et la durée des réunions permettant l'expression des salariés ; 2° Les outils numériques disponibles dans l'entreprise, permettant l'expression des salariés ; 3° Les mesures destinées à assurer, d'une part, la liberté d'expression de chacun et, d'autre part, la transmission à l'employeur des demandes et propositions des salariés ainsi que celle",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "salaries"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.35
+    },
+    {
+     "facette": 3,
+     "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+     "part": 0.3
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole",
+     "enonce": "Présentez les arguments juridiques que Mélina Semper pourrait réunir pour montrer l’existence d’une discrimination."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2025-polynesie",
+     "enonce": "Qualifiez juridiquement les parties et les faits."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 210,
+   "section": 18,
+   "section_titre": "7.3 Les libertés individuelles et collectives",
+   "probabilite": 0.83,
+   "texte": "Les libertés fondamentales du citoyen doivent être respectées dans la relation de travail. Elles font néanmoins l’objet d’un encadrement spécifique par le droit du travail. Les limitations des libertés individuelles des salariés sont admises dès lors qu’elles sont, comme l’indique le Code du travail, « justifiées par la nature de la tâche et proportionnées au but recherché ». Ces limitations ont une importance particulière du fait des usages des technologies numériques. Les libertés individuelles et collectives sont étudiées au travers du respect de la vie personnelle du salarié au travail et ",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "libertes",
+    "individuelles"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.35
+    },
+    {
+     "facette": 3,
+     "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+     "part": 0.3
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+     "enonce": "Pourquoi le droit protège-t-il les libertés individuelles du salarié dans le cadre de la relation de travail ?"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 207,
+   "section": 17,
+   "section_titre": "7.2 La rupture du contrat de travail",
+   "probabilite": 0.827,
+   "texte": "Article L1237-11 du Code du travail : L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du licenciement ou de la démission, ne peut être imposée par l'une ou l'autre des parties. Elle résulte d'une convention signée par les parties au contrat. Elle est soumise aux dispositions de la présente section destinées à garantir la liberté du consentement des parties.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "salarie"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.48
+    },
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.19
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.14
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole",
+     "enonce": "Développez l’argumentation juridique pouvant justifier le licenciement de Louise GENEREUX."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 195,
+   "section": 16,
+   "section_titre": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
+   "probabilite": 0.819,
+   "texte": "Article L6325-5 du Code du travail : Le contrat de professionnalisation est un contrat de travail à durée déterminée ou à durée indéterminée. Il est établi par écrit. Lorsqu'il est à durée déterminée, il est conclu en application de l'article L. 1242-3. Le contrat de professionnalisation est déposé auprès de l'autorité administrative.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+     "part": 0.43
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.21
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.21
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2024-polynesie",
+     "enonce": "Développez l’argumentation juridique que monsieur Walid SMAIN pourrait lui opposer."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-zero-1",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "taille_de_la_section"
+    ],
+    "faible": [
+     "questions_dans_la_partie",
+     "annees_depuis_la_derniere_fois",
+     "proximite_enonce_section"
+    ]
+   }
+  },
+  {
+   "passage": 234,
+   "section": 19,
+   "section_titre": "8.1 L’entreprise individuelle",
+   "probabilite": 0.802,
+   "texte": "Article 233 du Code civil : Le divorce peut être demandé conjointement par les époux lorsqu'ils acceptent le principe de la rupture du mariage sans considération des faits à l'origine de celle-ci. Il peut être demandé par l'un ou l'autre des époux ou par les deux lorsque chacun d'eux, assisté d'un avocat, a accepté le principe de la rupture du mariage par acte sous signature privée contresigné par avocats, qui peut être conclu avant l'introduction de l'instance. Le principe de la rupture du mariage peut aussi être accepté par les époux à tout moment de la procédure. L'acceptation n'est pas sus",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "principe",
+    "chacun",
+    "lorsqu"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+     "part": 0.27
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.27
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.18
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-polynesie",
+     "enonce": "Qualifiez juridiquement les faits, les parties et les dommages."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-polynesie",
+     "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 233,
+   "section": 19,
+   "section_titre": "8.1 L’entreprise individuelle",
+   "probabilite": 0.801,
+   "texte": "Article L223-1 du Code de commerce : La société à responsabilité limitée est instituée par une ou plusieurs personnes qui ne supportent les pertes qu'à concurrence de leurs apports. Lorsque la société ne comporte qu'une seule personne, celle-ci est dénommée \"associé unique\". L'associé unique exerce les pouvoirs dévolus à l'assemblée des associés par les dispositions du présent chapitre. Un décret fixe un modèle de statuts types de société à responsabilité limitée dont l'associé unique, personne physique, assume personnellement la gérance et les conditions dans lesquelles ces statuts sont porté",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+     "part": 0.27
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.27
+    },
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.18
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+     "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  },
+  {
+   "passage": 77,
+   "section": 9,
+   "section_titre": "4.1 Les droits extra- patrimoniaux",
+   "probabilite": 0.798,
+   "texte": "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles L. 228-2 à L. 228-3-1 font l'objet d'un traitement automatisé mis en œuvre par la société émettrice aux fins d'identification des propriétaires de ses titres et de communication avec ces propriétaires pour faciliter leur participation aux assemblées générales, leur accès à toute information intéressant l'activité de la société et, de façon générale, l'exercice de leurs droits. II.-Les données à ca",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "modalites",
+    "selon",
+    "identification"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+     "part": 0.27
+    },
+    {
+     "facette": 3,
+     "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+     "part": 0.27
+    },
+    {
+     "facette": 4,
+     "nom": "qm / x qm / pourquoi / pourquoi x",
+     "part": 0.27
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-metropole",
+     "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2022-metropole",
+     "enonce": "Présentez les arguments juridiques que Jean peut leur opposer."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "vocabulaire_hors_cours_dans_l_enonce"
+    ],
+    "faible": []
+   }
+  }
+ ]
+}
