@@ -11,6 +11,8 @@
 3. Intentions : variables relationnelles cours <-> question, retenues par tâches auto-supervisées,
    puis bilan d'universalité (retenues dans plusieurs matières avec le même sens d'effet).
    Mesurées avant et après auto-entraînement (meilleur alignement -> meilleures intentions ?).
+   Puis boucle (loop.py) : ce qu'il comprend des intentions de la matière (variables propres
+   découvertes dans le cours, modèle choisi seul) corrige l'alignement, génération après génération.
 4. Variables d'intention à grande échelle (deep.py) : centaines de variables générées, sélection
    par stabilité, transfert à froid entre matières.
 Sortie : output/meta/rapport.json.
@@ -29,7 +31,7 @@ import numpy as np
 from . import align as A
 from .domain import DOMAINS, eval_labels, load
 from .intent import Intent
-from . import deep as DP, selftrain as ST
+from . import deep as DP, loop as LP, selftrain as ST
 from ..prof.profile import DEFAULT_CFG
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -75,7 +77,9 @@ def selftraining(names: list[str]) -> tuple[dict, dict]:
         cfg, w, _ = A.self_tune(t, coef)
         S0 = A.combine(A.views(t, cfg), w)
         S, hist = ST.improve(t, S0, labels=eval_labels(t))
-        rep[n] = {"regle_de_lecture_apprise_sans_cette_matiere": True, "generations": hist}
+        S, cyc, it_rep = LP.run(t, S, labels=eval_labels(t))
+        rep[n] = {"regle_de_lecture_apprise_sans_cette_matiere": True, "generations": hist,
+                  "boucle_intentions_alignement": cyc, "intentions_propres_a_la_matiere": it_rep}
         start[n] = (t, S0, S)
         print(n, [h.get("vrai_top3") for h in hist])
     return rep, start

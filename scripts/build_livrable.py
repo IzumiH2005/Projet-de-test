@@ -208,7 +208,15 @@ def meta():
             "taches": tasks, "types": types, "implicite": impl, "regle": r["alignement"]["regle_finale"],
             "auto": {n: v["generations"] for n, v in r.get("auto_entrainement", {}).items()},
             "avant_apres": r["intentions"].get("avant_apres_auto_entrainement", {}),
-            "grand": r["intentions"].get("grande_echelle")}
+            "grand": r["intentions"].get("grande_echelle"),
+            "boucle": {n: {"gen": v.get("boucle_intentions_alignement", []),
+                           "familles": v.get("intentions_propres_a_la_matiere", {}).get("auc_par_famille", {}),
+                           "choisie": v.get("intentions_propres_a_la_matiere", {}).get("famille_choisie"),
+                           "auc": v.get("intentions_propres_a_la_matiere", {}).get("auc_famille_choisie_seule"),
+                           "pop": v.get("intentions_propres_a_la_matiere", {}).get("auc_popularite"),
+                           "regles": [x for x in v.get("intentions_propres_a_la_matiere", {}).get("regles_decouvertes", [])][:8],
+                           "nvar": len(v.get("intentions_propres_a_la_matiere", {}).get("variables_propres_decouvertes", []))}
+                       for n, v in r.get("auto_entrainement", {}).items() if v.get("boucle_intentions_alignement")}}
 
 
 def main():
