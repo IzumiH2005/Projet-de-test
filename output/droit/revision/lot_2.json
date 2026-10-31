@@ -1,0 +1,40 @@
+[
+ {
+  "fichier": "output/droit/generated/C8.4.json",
+  "id": "C8.4",
+  "a_corriger": [
+   "Question 4 : énoncé trop proche d'un ancien sujet : change la situation et la tournure"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E1.2.json",
+  "id": "E1.2",
+  "a_corriger": [
+   "Question 4 : la question ne porte pas assez sur « 1.2 La règle de droit » (lue comme ['4.2', '6.3', '2.2']) : ancre-la dans les notions et articles de cette section"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E2.3.json",
+  "id": "E2.3",
+  "a_corriger": [
+   "Question 2 : la question ne porte pas assez sur « 2.3 Le recours au juge » (lue comme ['6.2', '6.1', '8.1']) : ancre-la dans les notions et articles de cette section"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E3.1.json",
+  "id": "E3.1",
+  "a_corriger": [
+   "Question 4 : la question ne porte pas assez sur « 3.1 La personne juridique physique morale » (lue comme ['2.1', '2.2', '7.1']) : ancre-la dans les notions et articles de cette section"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E3.3.json",
+  "id": "E3.3",
+  "a_corriger": [
+   "Question 1 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['4.1', '1.3', '1.1']) : ancre-la dans les notions et articles de cette section",
+   "Question 2 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['6.2', '4.1', '6.1']) : ancre-la dans les notions et articles de cette section",
+   "Question 3 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['4.1', '5.2', '8.2']) : ancre-la dans les notions et articles de cette section",
+   "Question 4 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['4.2', '2.2', '3.2']) : ancre-la dans les notions et articles de cette section"
+  ]
+ }
+]

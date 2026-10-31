@@ -1,0 +1,32 @@
+[
+ {
+  "fichier": "output/droit/generated/E4.2.json",
+  "id": "E4.2",
+  "a_corriger": [
+   "Question 4 : la question ne porte pas assez sur « 4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels » (lue comme ['4.1', '6.1', '6.2']) : ancre-la dans les notions et articles de cette section"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E6.3.json",
+  "id": "E6.3",
+  "a_corriger": [
+   "Question 1 : la question ne porte pas assez sur « 6.3 Les moyens d’exonération » (lue comme ['6.1', '4.1', '6.2']) : ancre-la dans les notions et articles de cette section"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E8.3.json",
+  "id": "E8.3",
+  "a_corriger": [
+   "Question 2 : la question ne porte pas assez sur « 8.3 Le respect de la concurrence » (lue comme ['6.2', '6.1', '4.1']) : ancre-la dans les notions et articles de cette section"
+  ]
+ },
+ {
+  "fichier": "output/droit/generated/E8.4.json",
+  "id": "E8.4",
+  "a_corriger": [
+   "Question 2 : la question ne porte pas assez sur « 8.4 Les partenariats contractuels » (lue comme ['5.2', '4.1', '8.2']) : ancre-la dans les notions et articles de cette section",
+   "Question 3 : la question ne porte pas assez sur « 8.4 Les partenariats contractuels » (lue comme ['8.3', '8.2', '4.1']) : ancre-la dans les notions et articles de cette section",
+   "Question 4 : la question ne porte pas assez sur « 8.4 Les partenariats contractuels » (lue comme ['7.1', '4.2', '2.1']) : ancre-la dans les notions et articles de cette section"
+  ]
+ }
+]
