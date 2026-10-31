@@ -45,7 +45,9 @@ class InventPlanner:
                 "geste": n.get("geste", ""), "gabarit": n.get("gabarit", ""), "coherence": n.get("coherence", "?")}
 
     def weak(self, kind: str, f: int) -> bool:
-        return self.names.get(kind, {}).get(str(f), {}).get("coherence") == "faible"
+        """Facette fragile : jugée instable par le bootstrap (critère appris) ou incohérente à la lecture."""
+        info = (self.sf if kind == "consigne" else self.uf)[f]
+        return info.get("stabilite", 1.0) < 0.6 or self.names.get(kind, {}).get(str(f), {}).get("coherence") == "faible"
 
     def examples(self, lab, f: int, notion: str, k: int, with_context: bool) -> list[str]:
         """De vraies questions de la facette, prises dans d'AUTRES notions : on transfère la manière, pas le fond."""

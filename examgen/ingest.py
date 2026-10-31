@@ -27,9 +27,11 @@ CENTERS = {
     "MA": "Mayotte", "RE": "La Réunion", "PE": "Sujet zéro", "SU": "Suède",
 }
 NAME_CENTERS = [
-    ("metropole", "Métropole"), ("etranger", "Centres étrangers"), ("amerique", "Amérique du Nord"),
+    ("amerique-sud", "Amérique du Sud"), ("amerique_sud", "Amérique du Sud"), ("metropole", "Métropole"), ("etranger", "Centres étrangers"), ("amerique", "Amérique du Nord"),
     ("asie", "Asie"), ("polynesie", "Polynésie"), ("caledonie", "Nouvelle-Calédonie"),
-    ("antilles", "Antilles-Guyane"), ("liban", "Liban"), ("sujet_0", "Sujet zéro"),
+    ("antilles", "Antilles-Guyane"), ("mayotte", "Mayotte"), ("liban", "Liban"), ("sujet_0", "Sujet zéro"),
+    ("amerique-sud", "Amérique du Sud"), ("nouv-caledonie", "Nouvelle-Calédonie"), ("reunion", "La Réunion"),
+    ("suede", "Suède"), ("metro", "Métropole"), ("-zero", "Sujet zéro"),
     ("sujet0", "Sujet zéro"), ("blanc", "Bac blanc"), ("amnord", "Amérique du Nord"),
 ]
 
@@ -38,13 +40,28 @@ def strip_accents(s: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
 
+PDF_CACHE = CORPUS.parent / "cache" / "pdf"
+
+
 def pdf_text(path: Path) -> str:
+    if not path.is_file():
+        return ""
+    key = hashlib.md5(f"{path}:{path.stat().st_size}".encode()).hexdigest()
+    cached = PDF_CACHE / f"{key}.txt"
+    if cached.exists():
+        return cached.read_text(encoding="utf-8")
     try:
         reader = PdfReader(str(path))
-        return "\n".join((p.extract_text() or "") for p in reader.pages)
+        if len(reader.pages) > 60:  # recueils / livres : hors sujet
+            txt = ""
+        else:
+            txt = "\n".join((p.extract_text() or "") for p in reader.pages)
     except Exception as e:  # PDF corrompu / chiffré
         print(f"  ! {path.name}: {e}")
-        return ""
+        txt = ""
+    PDF_CACHE.mkdir(parents=True, exist_ok=True)
+    cached.write_text(txt, encoding="utf-8")
+    return txt
 
 
 HEADER_RE = re.compile(
@@ -96,7 +113,7 @@ def exam_metadata(path: Path, text: str) -> dict:
             break
     if center is None and m:
         center = CENTERS.get(m.group(3).upper(), m.group(3).upper())
-    kind = "blanc" if "blanc" in low else ("sujet0" if ("sujet_0" in low or "sujet0" in low or "sujet 0" in low) else "officiel")
+    kind = "blanc" if "blanc" in low else ("sujet0" if ("sujet_0" in low or "sujet0" in low or "sujet 0" in low or "-zero" in low) else "officiel")
     if year is None and (s := re.search(r"(20\d\d)", str(path))):
         year = int(s.group(1))
     duration = None
@@ -277,23 +294,35 @@ def segment_exam(text: str) -> list[dict]:
 EXCLUDE = re.compile(r"corr|correc|corrig|solution", re.I)
 
 
+def is_official(raw: str) -> bool:
+    h = strip_accents(raw[:2500].lower())
+    return "baccalaureat" in h and "numerique et sciences informatiques" in h and (
+        "session" in h or "epreuve de l'enseignement de specialite" in h or "duree de l'epreuve" in h)
+
+
 def ingest_written() -> list[dict]:
     pdfs = []
     for base in [
         SOURCES / "trahobisoa_Terminale_NSI" / "Sujets Epreuve Ecrite",
         SOURCES / "glassus_terminale_nsi" / "docs" / "T6_Annales" / "data",
+        SOURCES / "sujetdebac",
     ]:
         if base.exists():
-            pdfs += [p for p in base.rglob("*.pdf") if not EXCLUDE.search(p.name)]
+            pdfs += [(p, False) for p in base.rglob("*.pdf") if not EXCLUDE.search(p.name)]
+    # dépôts d'enseignants : on ne garde comme « écrit » que les PDF portant l'en-tête officiel
+    for base in sorted(SOURCES.glob("forge_*")):
+        pdfs += [(p, True) for p in base.rglob("*.pdf") if not EXCLUDE.search(str(p.relative_to(base)))]
     print(f"[écrit] {len(pdfs)} PDF candidats")
     exams = []
-    for p in sorted(pdfs):
+    for p, need_header in sorted(pdfs):
         raw = pdf_text(p)
         if len(raw) < 2000:
             continue
         txt = clean_pdf_text(raw)
         head = strip_accents(txt[:3000].lower())
         if "correction" in head[:600] or "corrige" in head[:600] or "elements de correction" in head:
+            continue
+        if need_header and not is_official(raw):
             continue
         meta = exam_metadata(p, txt)
         exs = segment_exam(txt)
@@ -466,12 +495,11 @@ def run():
     write_jsonl(CORPUS / "exams.jsonl", written + practical)
     write_jsonl(CORPUS / "course.jsonl", course)
     write_jsonl(CORPUS / "course_exercises.jsonl", ingest_course_exercises())
+    from . import ingest_extra
+    ingest_extra.run()
     nq = sum(len(x["questions"]) for e in written for x in e["exercises"])
     print(f"[ok] {len(written)} sujets écrits ({nq} questions), {len(practical)} sujets pratiques")
 
-
-if __name__ == "__main__":
-    run()
 
 
 # ---------------------------------------------------------------------------------------------
@@ -515,3 +543,7 @@ def ingest_course_exercises() -> list[dict]:
                             "preamble": pre, "questions": qs})
     print(f"[cours] {len(out)} exercices de cours, {sum(len(e['questions']) for e in out)} questions")
     return out
+
+
+if __name__ == "__main__":
+    run()

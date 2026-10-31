@@ -49,7 +49,7 @@ from sklearn.ensemble import HistGradientBoostingRegressor, IsolationForest
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.inspection import permutation_importance
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score, silhouette_score
+from sklearn.metrics import f1_score, roc_auc_score, silhouette_score
 from sklearn.mixture import GaussianMixture
 from sklearn.model_selection import GroupKFold, cross_val_predict
 from sklearn.pipeline import make_pipeline
@@ -179,6 +179,56 @@ def pick_k(Z, ks, seed=SEED, sample=2500):
     return km, bk, best
 
 
+def stable_kmeans(Z, ks, seed=SEED, n_boot=6, min_stab=0.6, sample=4000, label=""):
+    """Facettes auto-corrigées. Pour chaque k candidat : KMeans complet + KMeans sur des
+    sous-échantillons ; la stabilité d'une facette est le Jaccard moyen avec la facette la plus
+    proche des réplicats (Hennig, clusterboot). Le k retenu maximise silhouette × stabilité.
+    Puis on dissout les facettes instables (stabilité < min_stab) : leurs questions vont à la
+    facette stable la plus proche, on réajuste, et on recommence jusqu'à ce que tout soit stable."""
+    rng = np.random.default_rng(seed)
+    sub = rng.choice(len(Z), min(sample, len(Z)), replace=False)
+
+    def stability(km):
+        lab = km.predict(Z[sub])
+        per = np.zeros(km.n_clusters)
+        for b in range(n_boot):
+            bi = rng.choice(len(sub), int(0.8 * len(sub)), replace=False)
+            kb = KMeans(km.n_clusters, n_init=3, random_state=seed + 100 + b).fit(Z[sub][bi])
+            lb = kb.labels_
+            la = lab[bi]
+            for f in range(km.n_clusters):
+                A = la == f
+                if not A.any():
+                    continue
+                per[f] += max((A & (lb == g)).sum() / max((A | (lb == g)).sum(), 1) for g in range(km.n_clusters)) / n_boot
+        return per
+
+    trials = {}
+    for k in ks:
+        km = KMeans(k, n_init=4, random_state=seed).fit(Z[sub])
+        sil = silhouette_score(Z[sub], km.labels_)
+        st = stability(km)
+        trials[k] = (float(sil), float(st.mean()), float(sil * st.mean()))
+    bk = max(trials, key=lambda k: trials[k][2])
+    km = KMeans(bk, n_init=8, random_state=seed).fit(Z)
+    history = []
+    for rnd in range(4):
+        st = stability(km)
+        history.append({"tour": rnd, "k": int(km.n_clusters), "stabilite_moyenne": round(float(st.mean()), 3),
+                        "instables": int((st < min_stab).sum())})
+        bad = st < min_stab
+        if not bad.any() or km.n_clusters - bad.sum() < 4:
+            break
+        km = KMeans(int((~bad).sum()), init=km.cluster_centers_[~bad], n_init=1, random_state=seed).fit(Z)
+    st = stability(km)
+    sil = float(silhouette_score(Z[sub], km.predict(Z[sub])))
+    print(f"    {label}: k={km.n_clusters} (essais {', '.join(f'{k}:{v[2]:.2f}' for k, v in trials.items())}) ; "
+          f"stabilité {st.mean():.2f} ; tours {[h['k'] for h in history]}")
+    return km, st, {"essais_k": {str(k): {"silhouette": round(v[0], 3), "stabilite": round(v[1], 3)} for k, v in trials.items()},
+                    "auto_correction": history, "silhouette_finale": round(sil, 3),
+                    "stabilite_finale": round(float(st.mean()), 3)}
+
+
 def rownorm(W):
     return W / (np.linalg.norm(W, axis=1, keepdims=True) + 1e-9)
 
@@ -200,22 +250,73 @@ class Discoverer:
                  "exercises": [{"number": "1", "points": None, "theme_sentence": None, "preamble": e["preamble"],
                                 "raw": e["preamble"] + "\n" + "\n".join(q["text"] for q in e["questions"]),
                                 "questions": e["questions"]}]} for i, e in enumerate(cex)]
+        expo = read_jsonl(CORPUS / "exposure.jsonl") if (CORPUS / "exposure.jsonl").exists() else []
+        groups = defaultdict(list)
+        for e in expo:
+            groups[e["type"]].append(e)
         self.u = []
-        for src, ex in (("ecrit", written), ("pratique", practical), ("cours", fake)):
+        for src, ex in (("ecrit", written), ("pratique", practical), ("cours", fake), *sorted(groups.items())):
             for r in F.build_question_table(ex) if src != "cours" else self._course_rows(fake):
                 r["src"] = src
                 r["main"] = F.main_concepts(r)
                 r["text"], r["context"] = neutral(r["text"]), neutral(r["context"])
-                self.u.append(r)
+                if r["text"].strip():
+                    self.u.append(r)
+        self.difficulty_of = {e["id"]: e["difficulty"] for e in expo if e.get("difficulty")}
         self.preambles = {}
-        for e in written + practical + fake:
+        for e in written + practical + fake + expo:
             for x in e["exercises"]:
                 self.preambles[(e["id"], x["number"])] = neutral((x.get("preamble") or "") + " " + (x.get("theme_sentence") or ""))
         self.course = read_jsonl(CORPUS / "course.jsonl")
+        self.course_extra = read_jsonl(CORPUS / "course_extra.jsonl") if (CORPUS / "course_extra.jsonl").exists() else []
+        self.rep = {}
+        self.clean_exposure()
         self.W_idx = [i for i, r in enumerate(self.u) if r["src"] == "ecrit"]
-        self.rep: dict = {"corpus_d_exposition": dict(Counter(r["src"] for r in self.u))}
+        self.rep["corpus_d_exposition"] = dict(Counter(r["src"] for r in self.u))
         self.m: dict = {}
         print(f"  unités d'entraînement : {self.rep['corpus_d_exposition']}")
+
+    # -------------------------------------------------------------- 0. auto-nettoyage de la matière
+    def clean_exposure(self):
+        """La matière ajoutée (CodEx, QCM, cours et fiches d'enseignants) est extraite automatiquement
+        et contient du bruit : paragraphes d'explication pris pour des consignes, conseils, titres.
+        Le modèle apprend seul ce qu'est une question : positifs = vraies questions d'épreuve,
+        négatifs = phrases explicatives du cours. Les unités d'exposition qu'il juge être du cours
+        plutôt qu'une question sont écartées. Seuil choisi par validation croisée (F1 max)."""
+        pos = [r["text"] for r in self.u if r["src"] in ("ecrit", "pratique")]
+        neg = []
+        for s_ in self.course:
+            for para in re.split(r"\n\s*\n", neutral(s_["text"])):
+                para = re.sub(r"\s+", " ", para).strip()
+                if 40 <= len(para) <= 600 and is_prose(para) and "?" not in para:
+                    neg.append(para)
+        rng = np.random.default_rng(SEED)
+        neg = [neg[i] for i in rng.choice(len(neg), min(len(neg), 2 * len(pos)), replace=False)]
+        txt = pos + neg
+        y = np.r_[np.ones(len(pos)), np.zeros(len(neg))]
+        vec = TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 4), min_df=5, sublinear_tf=True, max_features=60000)
+        X = vec.fit_transform([F.norm(t[:300]) for t in txt])
+        best = None
+        for C in (0.3, 1.0, 3.0):
+            p = cross_val_predict(LogisticRegression(C=C, max_iter=3000), X, y, cv=5, method="predict_proba")[:, 1]
+            auc = roc_auc_score(y, p)
+            if best is None or auc > best[0]:
+                best = (auc, C, p)
+        auc, C, p = best
+        thr = max(np.linspace(0.1, 0.9, 33), key=lambda t: f1_score(y, p >= t))
+        clf = LogisticRegression(C=C, max_iter=3000).fit(X, y)
+        ex = [i for i, r in enumerate(self.u) if r["src"] not in ("ecrit", "pratique")]
+        q = clf.predict_proba(vec.transform([F.norm(self.u[i]["text"][:300]) for i in ex]))[:, 1]
+        drop = {i for i, v in zip(ex, q) if v < thr}
+        by = Counter(self.u[i]["src"] for i in ex)
+        dropped = Counter(self.u[i]["src"] for i in drop)
+        examples = [snippet(self.u[ex[j]]["text"], 140) for j in np.argsort(q)[:8]]
+        self.u = [r for i, r in enumerate(self.u) if i not in drop]
+        self.rep["auto_nettoyage"] = {
+            "principe": "classifieur question / phrase de cours appris seul, seuil par F1 en validation croisée",
+            "AUC_validation_croisee": round(float(auc), 3), "C_choisi": C, "seuil": round(float(thr), 3),
+            "ecartees_par_source": {k: f"{dropped[k]}/{by[k]}" for k in by}, "exemples_ecartes": examples}
+        print(f"    auto-nettoyage : AUC={auc:.3f}, {len(drop)} unités écartées sur {len(ex)} ({dict(dropped)})")
 
     @staticmethod
     def _course_rows(fake):
@@ -343,12 +444,13 @@ class Discoverer:
 
     # -------------------------------------------------------------- 3. facettes
     def facets(self):
-        self.kms, _, s1 = pick_k(rownorm(self.Ws), [12, 16, 20, 25, 30])
-        self.kmu, _, s2 = pick_k(rownorm(self.Wu), [8, 12, 16, 20])
+        self.kms, self.st_s, info_s = stable_kmeans(rownorm(self.Ws), [12, 16, 20, 25, 30], label="manières de demander")
+        self.kmu, self.st_u, info_u = stable_kmeans(rownorm(self.Wu), [8, 12, 16, 20], label="types de support")
+        s1, s2 = info_s["silhouette_finale"], info_u["silhouette_finale"]
         self.fs = self.kms.labels_
         self.fu = self.kmu.labels_
 
-        def describe(km, W, fac, vars_):
+        def describe(km, W, fac, vars_, st):
             out = {}
             for f in range(km.n_clusters):
                 idx = np.where(fac == f)[0]
@@ -356,17 +458,18 @@ class Discoverer:
                 comps = [vars_[j]["id"] for j in np.argsort(-prof)[:2]]
                 w_idx = [i for i in idx if self.u[i]["src"] == "ecrit"]
                 ex = sorted(idx, key=lambda i: -float((rownorm(W[i:i + 1]) @ prof)[0]))
-                out[f] = {"effectif": int(len(idx)), "a_l_ecrit": len(w_idx),
+                out[f] = {"effectif": int(len(idx)), "a_l_ecrit": len(w_idx), "stabilite": round(float(st[f]), 3),
+                          "coherence_interne": round(float((rownorm(W[idx]) @ rownorm(prof[None])[0]).mean()), 3) if len(idx) else 0.0,
                           "part_ecrit": round(len(w_idx) / max(len(idx), 1), 2),
                           "composantes": comps, "termes": vars_[int(np.argmax(prof))]["termes"][:6],
                           "exemples": [snippet(self.u[i]["text"], 200) for i in ex[:3]],
                           "position_moyenne": round(float(np.mean([self.u[i]["rel_pos"] for i in w_idx])), 2) if w_idx else None,
                           "notions_frequentes": [c for c, _ in Counter(self.u[i]["main"][0] for i in idx if self.u[i]["main"]).most_common(4)]}
             return out
-        self.style_facets = describe(self.kms, self.Ws, self.fs, self.vars["consigne"])
-        self.support_facets = describe(self.kmu, self.Wu, self.fu, self.vars["support"])
-        self.rep["facettes"] = {"manieres_de_demander": {"k": self.kms.n_clusters, "silhouette": round(s1, 3)},
-                                "types_de_support": {"k": self.kmu.n_clusters, "silhouette": round(s2, 3)}}
+        self.style_facets = describe(self.kms, self.Ws, self.fs, self.vars["consigne"], self.st_s)
+        self.support_facets = describe(self.kmu, self.Wu, self.fu, self.vars["support"], self.st_u)
+        self.rep["facettes"] = {"manieres_de_demander": {"k": self.kms.n_clusters, "silhouette": round(s1, 3), **info_s},
+                                "types_de_support": {"k": self.kmu.n_clusters, "silhouette": round(s2, 3), **info_u}}
         print(f"    facettes : {self.kms.n_clusters} manières de demander, {self.kmu.n_clusters} types de support")
 
     # -------------------------------------------------------------- 4. grammaire des combinaisons
@@ -402,11 +505,18 @@ class Discoverer:
         X = np.vstack([pos, neg])
         y = np.r_[np.ones(len(pos)), np.zeros(len(neg))]
         g = np.r_[groups, rng.choice(groups, len(neg))]
-        self.plaus = make_pipeline(OneHotEncoder(handle_unknown="ignore"),
-                                   PolynomialFeatures(2, interaction_only=True, include_bias=False),
-                                   LogisticRegression(C=0.3, max_iter=3000))
-        p = cross_val_predict(self.plaus, X, y, groups=g, cv=GroupKFold(5), method="predict_proba")[:, 1]
-        auc = roc_auc_score(y, p)
+        # réglage choisi seul (validation croisée par sujet) : force de régularisation et degré d'interaction
+        trials = {}
+        for deg in (1, 2):
+            for C in (0.1, 0.3, 1.0, 3.0):
+                pipe = make_pipeline(OneHotEncoder(handle_unknown="ignore"),
+                                     *( [PolynomialFeatures(2, interaction_only=True, include_bias=False)] if deg == 2 else []),
+                                     LogisticRegression(C=C, max_iter=3000))
+                pp = cross_val_predict(pipe, X, y, groups=g, cv=GroupKFold(5), method="predict_proba")[:, 1]
+                trials[(deg, C)] = (roc_auc_score(y, pp), pipe)
+        (deg, C), (auc, self.plaus) = max(trials.items(), key=lambda kv: kv[1][0])
+        self.rep["reglages_auto"] = {"plausibilite": {"degre_interactions": deg, "C": C,
+                                                      "essais": {f"deg{d}_C{c}": round(float(v[0]), 3) for (d, c), v in trials.items()}}}
         self.plaus.fit(X, y)
         ref = float(np.median(self.plaus.predict_proba(pos)[:, 1]))
 
@@ -467,6 +577,49 @@ class Discoverer:
         print(f"    plausibilité AUC={auc:.3f} ; {len(best)} combinaisons inédites plausibles sur {n_tot}")
 
     # -------------------------------------------------------------- 5. atomes du cours (PU)
+    def self_label_course(self):
+        """Auto-apprentissage (self-training) : les sections de cours des enseignants n'ont pas de
+        chapitre. Un classifieur appris sur le cours étiqueté leur en attribue un ; on n'ajoute que
+        les étiquettes sûres, puis on vérifie sur des leçons tenues à l'écart que l'ajout améliore
+        (ou ne dégrade pas) la précision. Sinon la matière ajoutée est refusée."""
+        lab = [c for c in self.course if c["source"] != "BO"]
+        if not self.course_extra:
+            return
+        y = np.array([c["chapter"] for c in lab])
+        g = np.array([c["lesson"] for c in lab])
+        vec = TfidfVectorizer(token_pattern=r"[a-z_][a-z_0-9]{2,}", ngram_range=(1, 2), min_df=2, max_df=0.4,
+                              sublinear_tf=True, max_features=50000)
+        vec.fit([F.norm(c["text"]) for c in lab + self.course_extra])
+        XL = vec.transform([F.norm(c["title"] + " " + c["text"]) for c in lab])
+        XU = vec.transform([F.norm(c["title"] + " " + c["text"]) for c in self.course_extra])
+        base_acc, self_acc = [], []
+        for tr, te in GroupKFold(5).split(XL, y, g):
+            m0 = LogisticRegression(C=5, max_iter=3000, class_weight="balanced").fit(XL[tr], y[tr])
+            base_acc.append((m0.predict(XL[te]) == y[te]).mean())
+            P = m0.predict_proba(XU)
+            ok = P.max(1) >= 0.7
+            m1 = LogisticRegression(C=5, max_iter=3000, class_weight="balanced").fit(
+                sparse.vstack([XL[tr], XU[ok]]), np.r_[y[tr], m0.classes_[P[ok].argmax(1)]])
+            self_acc.append((m1.predict(XL[te]) == y[te]).mean())
+        m0 = LogisticRegression(C=5, max_iter=3000, class_weight="balanced").fit(XL, y)
+        P = m0.predict_proba(XU)
+        ok = P.max(1) >= 0.7
+        accept = np.mean(self_acc) >= np.mean(base_acc) - 0.01
+        added = 0
+        if accept:
+            for c, k, pr in zip(self.course_extra, ok, P):
+                if k:
+                    self.course.append(dict(c, chapter=str(m0.classes_[pr.argmax()]), pseudo=True))
+                    added += 1
+        self.rep["auto_apprentissage_cours"] = {
+            "sections_non_etiquetees": len(self.course_extra), "etiquetees_avec_confiance_0.7": int(ok.sum()),
+            "precision_lecons_tenues_a_l_ecart_avant": round(float(np.mean(base_acc)), 3),
+            "precision_apres_auto_apprentissage": round(float(np.mean(self_acc)), 3),
+            "accepte": bool(accept), "sections_ajoutees": added,
+            "repartition": dict(Counter(str(m0.classes_[p.argmax()]) for p, k in zip(P, ok) if k))}
+        print(f"    auto-apprentissage du cours : {base_acc and np.mean(base_acc):.3f} -> {np.mean(self_acc):.3f} ; "
+              f"{added} sections ajoutées")
+
     def course_atoms(self):
         atoms = []
         for si, s in enumerate(self.course):
@@ -481,8 +634,8 @@ class Discoverer:
                     if 50 <= len(sent) <= 420 and is_prose(sent):
                         atoms.append({"sec": si, "text": sent, "lesson": s["lesson"], "chapter": s["chapter"]})
         texts_a = [F.norm(a["text"]) for a in atoms]
-        qtexts = [F.norm(self.u[i]["text"] + " " + self.u[i]["context"][-300:]) for i in range(len(self.u)) if self.u[i]["src"] != "cours"]
-        qidx = [i for i in range(len(self.u)) if self.u[i]["src"] != "cours"]
+        qtexts = [F.norm(self.u[i]["text"] + " " + self.u[i]["context"][-300:]) for i in range(len(self.u)) if self.u[i]["src"] in ("ecrit", "pratique")]
+        qidx = [i for i in range(len(self.u)) if self.u[i]["src"] in ("ecrit", "pratique")]
         vec = TfidfVectorizer(token_pattern=r"[a-z_][a-z_0-9]{2,}", ngram_range=(1, 2), min_df=2, max_df=0.3, sublinear_tf=True, max_features=40000)
         vec.fit(texts_a + qtexts)
         svd = TruncatedSVD(120, random_state=SEED).fit(vec.transform(texts_a + qtexts))
@@ -652,6 +805,23 @@ class Discoverer:
             return float(1 - ((y - pr) ** 2).sum() / ((y - y.mean()) ** 2).sum())
         manual = round(r2_of(Xm), 3)
         both = round(r2_of(np.hstack([Xm, X])), 3)
+        # difficulté externe : CodEx note chaque exercice (étiquette faible). Le modèle apprend cette
+        # difficulté depuis les variables découvertes, puis on vérifie seul si elle prédit la
+        # progression réelle dans les exercices d'écrit (validation croisée entre corpus).
+        cdx = [i for i, r in enumerate(self.u) if r["src"] == "codex" and self.difficulty_of.get(r["exam_id"])]
+        ext = {}
+        if len(cdx) >= 50:
+            Xd = np.hstack([rownorm(self.Ws)[cdx], rownorm(self.Wu)[cdx], rownorm(self.Wc)[cdx]])
+            yd = np.log([self.difficulty_of[self.u[i]["exam_id"]] for i in cdx])
+            gbd = HistGradientBoostingRegressor(max_iter=200, learning_rate=0.05, max_leaf_nodes=10, random_state=SEED)
+            pd_ = cross_val_predict(gbd, Xd, yd, cv=5)
+            gbd.fit(Xd, yd)
+            dW = gbd.predict(X)
+            ext = {"exercices_codex": len(cdx), "rho_validation_croisee_codex": round(float(spearmanr(yd, pd_).correlation), 3),
+                   "rho_difficulte_codex_predite_vs_position_ecrit": round(float(spearmanr(dW, y).correlation), 3)}
+            r2_ext = r2_of(np.hstack([X, dW[:, None]]))
+            ext["R2_position_avec_difficulte_codex"] = round(r2_ext, 3)
+            print(f"    difficulté CodEx : rho cv={ext['rho_validation_croisee_codex']}, rho vs position écrit={ext['rho_difficulte_codex_predite_vs_position_ecrit']}")
         # tendances temporelles par variable découverte
         years = np.array([self.u[i]["year"] or 0 for i in W])
         trends = []
@@ -681,7 +851,7 @@ class Discoverer:
         auc = roc_auc_score(reg, cross_val_predict(LogisticRegression(max_iter=3000), X, reg, groups=g, cv=GroupKFold(5), method="predict_proba")[:, 1])
         self.rep["moteurs_caches"] = {
             "difficulte": {"R2_variables_decouvertes": round(float(r2), 3), "R2_variables_manuelles": manual,
-                           "R2_les_deux": both, "principales": top},
+                           "R2_les_deux": both, "principales": top, "difficulte_externe_codex": ext},
             "styles_en_hausse": trends[:10], "styles_en_baisse": trends[::-1][:10],
             "styles_entraines_jamais_tombes_a_l_ecrit": transfer,
             "questions_reelles_atypiques": odd,
@@ -693,7 +863,7 @@ class Discoverer:
     # -------------------------------------------------------------- sauvegarde
     def run(self):
         for s in (self.content_view, self.style_mask, self.style_view, self.support_view, self.scenario_view,
-                  self.label_components, self.facets, self.combination_grammar, self.course_atoms,
+                  self.label_components, self.facets, self.combination_grammar, self.self_label_course, self.course_atoms,
                   self.transitions, self.hidden_drivers):
             print(f"  · {s.__name__}")
             s()

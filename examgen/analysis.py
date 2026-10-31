@@ -26,6 +26,7 @@ import joblib
 import networkx as nx
 import numpy as np
 from scipy.spatial.distance import jensenshannon
+from scipy import sparse
 from scipy.stats import chi2_contingency
 from sklearn.cluster import KMeans
 from sklearn.decomposition import NMF, TruncatedSVD
@@ -506,9 +507,56 @@ class Analyzer:
         top3 = np.argsort(-Pr, 1)[:, :3]
         hit = np.mean([Y[i, top3[i]].any() for i in range(len(Y)) if Y[i].any()])
         f1 = f1_score(Y[:, cols], (Pr[:, cols] > 0.5).astype(int), average="micro")
-        clf.fit(Xt, Y[:, cols])
+        # auto-apprentissage : la matière d'exposition (CodEx, QCM, cours et fiches d'enseignants)
+        # sert d'entraînement supplémentaire (étiquettes lexicales), puis de pseudo-étiquettes pour
+        # ce que le lexique ne reconnaît pas (prédictions sûres du modèle). Chaque variante n'est
+        # gardée que si elle améliore le top-3 sur des sujets d'écrit tenus à l'écart.
+        expo = read_jsonl(CORPUS / "exposure.jsonl") if (CORPUS / "exposure.jsonl").exists() else []
+        er = F.build_question_table(expo)
+        for r in er:
+            r["main"] = F.main_concepts(r)
+        Xe = self.vec.transform([r["text"] + "\n" + r["context"][-300:] for r in er]) if er else None
+        Ye = mlb.transform([r["main"][:2] for r in er]) if er else None
+        has = Ye.any(1) if er else None
+        variants = {"base": (hit, f1, None)}
+        if er:
+            def cv_variant(pseudo: bool):
+                Pv = np.zeros(Y.shape)
+                for tr, te in GroupKFold(5).split(Xt, Y, groups):
+                    XA, YA = sparse.vstack([Xt[tr], Xe[has]]), np.vstack([Y[tr], Ye[has]])
+                    m = OneVsRestClassifier(LogisticRegression(C=8, max_iter=2000, class_weight="balanced")).fit(XA, YA[:, cols])
+                    if pseudo:
+                        P = m.predict_proba(Xe[~has])
+                        conf = P.max(1) >= 0.8
+                        YP = np.zeros((conf.sum(), Y.shape[1]), dtype=int)
+                        YP[np.arange(conf.sum())[:, None], np.where(cols)[0][np.argsort(-P[conf], 1)[:, :1]]] = 1
+                        m = OneVsRestClassifier(LogisticRegression(C=8, max_iter=2000, class_weight="balanced")).fit(
+                            sparse.vstack([XA, Xe[~has][conf]]), np.vstack([YA, YP])[:, cols])
+                    Pv[np.ix_(te, np.where(cols)[0])] = m.predict_proba(Xt[te])
+                t3 = np.argsort(-Pv, 1)[:, :3]
+                h = np.mean([Y[i, t3[i]].any() for i in range(len(Y)) if Y[i].any()])
+                return h, f1_score(Y[:, cols], (Pv[:, cols] > 0.5).astype(int), average="micro")
+            variants["exposition"] = (*cv_variant(False), None)
+            variants["exposition+pseudo"] = (*cv_variant(True), None)
+        best = max(variants, key=lambda k: variants[k][0])
+        if best == "base":
+            clf.fit(Xt, Y[:, cols])
+        else:
+            XA, YA = sparse.vstack([Xt, Xe[has]]), np.vstack([Y, Ye[has]])
+            clf.fit(XA, YA[:, cols])
+            if best == "exposition+pseudo":
+                P = clf.predict_proba(Xe[~has])
+                conf = P.max(1) >= 0.8
+                YP = np.zeros((conf.sum(), Y.shape[1]), dtype=int)
+                YP[np.arange(conf.sum())[:, None], np.where(cols)[0][np.argsort(-P[conf], 1)[:, :1]]] = 1
+                clf = OneVsRestClassifier(LogisticRegression(C=8, max_iter=2000, class_weight="balanced")).fit(
+                    sparse.vstack([XA, Xe[~has][conf]]), np.vstack([YA, YP])[:, cols])
+        hit, f1 = variants[best][:2]
         self.clf, self.clf_classes = clf, [c for c, k in zip(F.CONCEPT_NAMES, cols) if k]
-        self.report["classifieur_notions"] = {"top3_hit_rate_cv": round(float(hit), 3), "micro_f1_cv": round(float(f1), 3), "notions": len(self.clf_classes)}
+        self.report["classifieur_notions"] = {"top3_hit_rate_cv": round(float(hit), 3), "micro_f1_cv": round(float(f1), 3), "notions": len(self.clf_classes),
+                                              "auto_apprentissage": {"variante_retenue": best, "unites_d_exposition": len(er),
+                                                                     **{k: {"top3": round(float(v[0]), 3), "f1": round(float(v[1]), 3)} for k, v in variants.items()}}}
+        print(f"  classifieur notions : {', '.join(f'{k}={v[0]:.3f}' for k, v in variants.items())} -> {best}")
 
     def practical_typology(self):
         exs = [(e, x) for e in self.practical for x in e["exercises"] if not x.get("duplicate_of_previous_year")]

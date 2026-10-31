@@ -4,3 +4,4 @@ data/sources/
 data/model/*.joblib
 __pycache__/
 *.pyc
+data/cache/
