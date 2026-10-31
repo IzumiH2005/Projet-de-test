@@ -42,6 +42,48 @@ Après dédoublonnage, le corpus compte :
 
 On y ajoute une typologie des exercices pratiques. Le rapport complet se trouve dans `output/rapport_analyse.md`.
 
+## Découverte non supervisée (`examgen/discovery.py`)
+
+Ici, aucune liste de variables n'est écrite à la main. scikit-learn lit 3 102 questions : 2 668 d'écrit, 267 de pratique et 167 exercices du cours. Il en tire lui-même 95 variables, dont 80 sont stables d'un ré-échantillonnage à l'autre.
+
+1. **Séparer la manière de demander du sujet**. Pour chaque mot, on mesure deux choses :
+   - s'il est réparti sur tous les thèmes (entropie) ;
+   - s'il revient en grappe dans un même exercice.
+
+   Un mélange gaussien en 2D classe alors les mots en « mots de consigne » (967) ou « mots de contenu ». Aucun lexique n'est fourni au départ.
+2. **Quatre vues apprises par NMF** :
+   - le contenu ;
+   - la consigne (le texte où les mots de contenu sont masqués) ;
+   - la forme du support (code, nombres, listes, tableaux) ;
+   - la mise en situation.
+
+   Le nombre de variables de chaque vue est choisi par stabilité au bootstrap.
+3. **Facettes**. Un KMeans, avec un nombre de groupes choisi par silhouette, dégage :
+   - 25 manières de demander, par exemple « Prédire le résultat d'un appel », « Compléter des lignes numérotées », « Rôle d'une clé », « Interpréter le résultat d'une requête » ;
+   - 8 types de support.
+
+   Un agent Opus 5.5 low les a seulement nommées (`data/model/facet_names.json`).
+4. **Grammaire des combinaisons**. Une régression logistique avec interactions apprend quelles combinaisons (notion × manière × support × position) existent vraiment. Elle les distingue de combinaisons corrompues, avec une AUC de 0,69 en validation croisée par sujet. Sur 8 400 combinaisons possibles, 1 313 ont déjà servi. **250 n'ont jamais été posées mais sont jugées aussi plausibles que de vraies questions.** Un filtrage collaboratif (PPMI + SVD) confirme ce transfert.
+5. **Savoirs jamais évalués**. Le cours est découpé en 3 179 phrases, dont 477 déjà interrogées aux annales. Un apprentissage positif/non étiqueté (Elkan-Noto) estime quels détails sont évaluables et n'ont pourtant jamais été demandés.
+6. **Dynamique des exercices** : 14 types de transition entre questions et 166 motifs de séquence plus fréquents que ne le prévoit Markov.
+7. **Moteurs cachés**. Les variables découvertes améliorent la prédiction de la difficulté (R² 0,077 → 0,09 avec les variables manuelles). Elles reconnaissent aussi le format 2023 (AUC 0,77). Le modèle relève enfin les styles en hausse et en baisse, et les questions atypiques.
+
+Résultats : `data/model/discovery.json` et `output/discovery/facettes.md`.
+
+### Questions inédites (`examgen/inedit.py`)
+
+Chaque plan inédit vise une notion et contient deux sortes de questions :
+- **combinaison inédite** : une manière de demander ou un support jamais utilisés pour cette notion. Le style est montré par de vraies questions d'autres notions ; on imite la forme, pas le fond.
+- **savoir jamais évalué** : un détail du cours que le modèle juge évaluable.
+
+La validation remesure, sur le texte rédigé, la facette et le support (top-3), la plausibilité et la nouveauté de la combinaison.
+
+```bash
+python -m examgen.cli discover   # apprend les variables
+python -m examgen.cli inedit     # 42 plans, 148 questions -> output/prompts/I-*.md
+python -m examgen.cli validate
+```
+
 ## Génération
 
 - `blueprint.py` tire chaque plan dans les lois apprises.
