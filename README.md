@@ -258,6 +258,19 @@ Droit, années testées 2024–2026 (27 passages retenus sur 274) :
 
 Le score varie beaucoup selon l'année (95 % en 2024, 29 % en 2025, 15 % en 2026) : avec 6 années, une année surprise pèse lourd. Le chiffre prudent est celui de la méthode choisie seule. Les 3 sujets probables générés (12 questions, 8 annexes réelles ou inventées) passent tous les contrôles, et leurs corrigés couvrent toute l'intention cachée visée.
 
+#### Programme d'entraînement sur tout le cours
+
+Le but n'est pas de deviner juste à 100 %, mais que l'élève ait travaillé tout ce qui peut tomber. `forecast` classe donc **chaque chapitre** (clé `programme` de `previsions.json`) :
+
+- **probabilité** : le modèle ci-dessus, qui tient compte de l'historique ;
+- **potentiel** : un second modèle appris sans l'historique (place, centralité, insistance, références…). Il mesure le *genre* de passage que choisit le professeur, donc s'applique à un chapitre jamais tombé ;
+- **niveau** : incontournable, probable, jamais ou peu tombé mais dans sa manière, à connaître ;
+- pour chaque chapitre : ce qui est évalué sans être dit, ses consignes habituelles, les passages à maîtriser, les questions passées proches.
+
+Preuve sur les nouveautés (questions portant sur un passage jamais interrogé avant, années 2024–2026) : la part qui tombe dans le quart des passages jugés « dans sa manière » est de 80 % en droit (23 questions) et 48 % en NSI (248 questions), contre 25 % au hasard.
+
+`scripts/build_livrable.py` relie à chaque chapitre les exercices déjà rédigés (droit : cas et séries par section ; NSI : banques et inédits par notion), par similarité avec tout le texte du chapitre. Onglet « Programme d'entraînement » du livrable : droit 23 chapitres, NSI 41 chapitres et 474 questions.
+
 ## Méta-apprentissage (`examgen/meta`)
 
 `python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.

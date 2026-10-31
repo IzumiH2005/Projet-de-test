@@ -52,6 +52,10 @@ input[type=search] { flex: 1 1 180px }
 .qhead .notion { font: 600 15px/1.3 var(--f-display) }
 .qhead .dom { color: var(--muted); font-size: 13px }
 .tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--blue-soft); color: var(--blue); white-space: nowrap }
+.chap > summary { cursor: pointer; display: grid; gap: 4px; list-style: none }
+.chap > summary::-webkit-details-marker { display: none }
+.chap[open] > summary { margin-bottom: 4px }
+.chips { display: flex; flex-wrap: wrap; gap: 6px }
 .tag.new { background: var(--red-soft); color: var(--red) }
 .facets { display: grid; grid-template-columns: max-content 1fr; gap: 2px 10px; font-size: 13px; color: var(--muted) }
 .facets b { color: var(--ink); font-weight: 500 }
@@ -95,7 +99,7 @@ td.up { color: var(--ok); font-weight: 600 }
   <div class="figures" id="figs"></div>
 </header>
 <nav class="tabs" aria-label="Sections"><div class="wrap">
-  <a href="#probable" data-v="probable">Le plus probable</a>
+  <a href="#probable" data-v="probable">Programme d'entraînement</a>
   <a href="#questions" data-v="questions">Questions</a>
   <a href="#sujets" data-v="sujets">Anciens sujets</a>
   <a href="#modele" data-v="modele">Le modèle</a>
@@ -105,9 +109,9 @@ td.up { color: var(--ok); font-weight: 600 }
 
 <main class="wrap">
   <section id="v-probable" hidden>
-    <h2>Ce qui tombera le plus probablement</h2>
-    <p class="sub">Le moteur apprend sur les anciens sujets quel passage du cours le professeur choisit, comment il le demande et ce qu'il exige sans le dire. Il le prouve sur les années passées comme en vrai : chaque année est prédite avec les seules années d'avant.</p>
-    <div class="filters"><select id="pmat" aria-label="Matière"></select></div>
+    <h2>Programme d'entraînement sur tout le cours</h2>
+    <p class="sub">Chaque chapitre, classé par ce que le professeur a le plus de chances de demander : ce qui tombe souvent, mais aussi ce qui n'est jamais tombé et qui ressemble à ce qu'il choisit. Pour chacun : ce qu'il évalue sans le dire, comment il le demande, et des exercices pour s'entraîner.</p>
+    <div class="filters"><select id="pmat" aria-label="Matière"></select><div id="pniv" class="chips" role="group" aria-label="Niveau"></div></div>
     <div id="pbody"></div>
   </section>
 
@@ -426,9 +430,31 @@ $("#es").oninput = renderE; renderE();
       ${x.annexes.map(a => `<details class="corr"><summary>${esc(a.titre)}</summary><div class="md">${txt(a.texte)}</div></details>`).join("")}
       ${qs}</article>`;
   }
+  const NIV = ["incontournable", "probable", "peu ou jamais tombé, mais dans la manière du professeur", "à connaître"];
+  const NL = ["Incontournable", "Probable", "Jamais ou peu tombé, dans sa manière", "À connaître"];
+  let niv = -1;
+  function chap(c, i) {
+    const ex = c.exercices.map(e => `<details class="corr"><summary>${esc(e.type)} · ${esc(e.titre || e.id)} <span class="m">(${e.questions.length} question${e.questions.length > 1 ? "s" : ""})</span></summary>
+      ${e.contexte ? `<div class="ctx md">${txt(e.contexte)}</div>` : ""}
+      ${e.questions.map((q, k) => `<div class="dq"><div class="enonce md"><p><b>${k + 1}.</b> ${esc(q.enonce)}${q.points ? ` <span class="m">(${q.points} pt${q.points > 1 ? "s" : ""})</span>` : ""}</p></div>
+        ${q.reponse ? `<details class="corr"><summary>Corrigé</summary><div class="md">${txt(q.reponse)}</div></details>` : ""}</div>`).join("")}</details>`).join("");
+    return `<details class="q chap"><summary><span class="qhead"><span class="notion">${i + 1}. ${esc(c.titre)}</span>
+        <span class="tag${c.rang === 2 ? " new" : ""}">${NL[c.rang] || c.niveau}</span></span>
+        <span class="dom">Tombé ${c.tombe} année${c.tombe > 1 ? "s" : ""} sur ${c.sur} · priorité ${pct(c.priorite)} · ${c.exercices.length} exercice${c.exercices.length > 1 ? "s" : ""}</span></summary>
+      ${c.cache.length ? `<p><b>Évalué sans être dit :</b> ${c.cache.map(esc).join(", ")}</p>` : ""}
+      ${c.nomme.length ? `<p class="m">Toujours nommé dans l'énoncé : ${c.nomme.map(esc).join(", ")}</p>` : ""}
+      ${c.manieres.length ? `<p><b>Comment il le demande</b>, par exemple :</p><ul>${c.manieres.map(m => `<li>« ${esc(m)} »</li>`).join("")}</ul>` : ""}
+      <p class="m"><b>À maîtriser dans le cours :</b> ${c.passages.map(t => "« " + esc(t) + " »").join(" ")}</p>
+      ${c.proches.length ? `<p class="m"><b>${c.tombe ? "Déjà demandé" : "Question passée la plus proche"} :</b> ${c.proches.map(q => "« " + esc(q) + " »").join(" ")}</p>` : ""}
+      ${ex || `<p class="m">Pas encore d'exercice pour ce chapitre.</p>`}</details>`;
+  }
   function render() {
-    const M = PR[+$("#pmat").value || 0], V = M.validation || {};
-    const ys = M.testees || [];
+    const M = PR[+$("#pmat").value || 0], V = M.validation || {}, P = M.programme || [];
+    const ys = M.testees || [], N = M.nouveautes;
+    const cnt = NIV.map((_, r) => P.filter(c => c.rang === r).length);
+    $("#pniv").innerHTML = [`<button class="chip" aria-pressed="${niv < 0}" data-n="-1">Tout (${P.length})</button>`]
+      .concat(NL.map((l, r) => cnt[r] ? `<button class="chip" aria-pressed="${niv === r}" data-n="${r}">${l} (${cnt[r]})</button>` : "")).join("");
+    $("#pniv").querySelectorAll("button").forEach(b => b.onclick = () => { niv = +b.dataset.n; render(); });
     const best = M.back.filter(b => b.cle !== "popularite" && b.cle !== "choisie_seule").reduce((a, b) => (b.couv > (a ? a.couv : -1) ? b : a), null);
     const bt = `<div class="tw"><table><thead><tr><th>Méthode</th><th>Questions couvertes</th><th>À un passage près</th>${ys.map(y => `<th>${y}</th>`).join("")}</tr></thead><tbody>
       <tr><td>Hasard</td><td>${pct(M.hasard)}</td><td>–</td>${ys.map(() => "<td>–</td>").join("")}</tr>
@@ -438,18 +464,23 @@ $("#es").oninput = renderE; renderE();
       ${p.cache.length ? `<p><b>Évalué sans être dit :</b> ${p.cache.map(esc).join(", ")}</p>` : ""}
       ${p.manieres.length ? `<p><b>Comment il le demande :</b></p><ul>${p.manieres.map(m => `<li>${pct(m.part)} · « ${esc(m.ex)} »</li>`).join("")}</ul>` : ""}
       ${p.proches.length ? `<details class="corr"><summary>Vraies questions passées sur ce passage</summary><ul>${p.proches.map(q => `<li>${esc(q)}</li>`).join("")}</ul></details>` : ""}</article>`).join("");
-    $("#pbody").innerHTML = `<div class="prose"><p><b>1. La preuve.</b> Sur ${M.n_pass} passages du cours, le moteur en retient ${M.n_prev} (10 %). On compte la part des vraies questions de l'année qui tombent sur un passage retenu. Années testées : ${ys.join(", ")}, chacune prédite sans elle ni les suivantes.</p></div>
+    const nex = P.reduce((a, c) => a + c.exercices.reduce((b, e) => b + e.questions.length, 0), 0);
+    $("#pbody").innerHTML = `<div class="prose"><p><b>${P.length} chapitres, ${nex} questions d'entraînement.</b> Commencer par les incontournables, puis les probables, sans sauter les chapitres jamais tombés qui ressemblent à ce que le professeur choisit : ce sont les surprises possibles. Les chapitres « à connaître » complètent la connaissance du cours.</p></div>
+      <div class="list">${P.map((c, i) => niv < 0 || c.rang === niv ? chap(c, i) : "").join("")}</div>
+      <details class="corr"><summary><b>La preuve : est-ce que ce classement marche ?</b></summary>
+      <div class="prose"><p>Testé comme en vrai : chaque année (${ys.join(", ")}) est prédite avec les seules années d'avant. Sur ${M.n_pass} passages du cours, le moteur en retient ${M.n_prev} (10 %) ; on compte la part des vraies questions qui tombent dessus.</p></div>
       ${bt}
-      <div class="prose"><p>Lecture : ${best ? `la meilleure méthode couvre ${pct(best.couv)} des vraies questions, contre ${pct(M.back.find(b => b.cle === "popularite")?.couv)} en misant sur ce qui tombe souvent et ${pct(M.hasard)} au hasard.` : ""} Les résultats varient beaucoup d'une année à l'autre : avec ${(M.connues || []).length} années connues, une année surprise suffit à faire chuter le score. Choisir la méthode seul, année après année, donne moins (ligne « Famille choisie seule ») : c'est le chiffre honnête à retenir. Pour ${M.annee}, la méthode retenue est : ${esc(M.famille)}.</p></div>
-      <div class="prose"><p><b>2. Les passages les plus probables en ${M.annee}</b>, avec ce que le professeur évalue sans le nommer (mots propres au passage, présents dans ses corrigés, absents de ses énoncés) et ses manières habituelles de le demander.</p></div>
-      ${ps}
-      ${M.items.length ? `<div class="prose"><p><b>3. Sujets probables générés</b> dans la manière du professeur, sur les passages prévus. Chaque question est contrôlée : manière de demander, chapitre, références, nouveauté, longueur ; l'intention cachée doit être exigée dans le corrigé sans être dite dans l'énoncé.</p></div>
+      <div class="prose"><p>Lecture : ${best ? `la meilleure méthode couvre ${pct(best.couv)} des vraies questions, contre ${pct(M.back.find(b => b.cle === "popularite")?.couv)} en misant sur ce qui tombe souvent et ${pct(M.hasard)} au hasard.` : ""} Les résultats varient d'une année à l'autre : avec ${(M.connues || []).length} années connues, une année surprise suffit à faire chuter le score. La ligne « Famille choisie seule » est le chiffre honnête à retenir.</p>
+      ${N && N.nouvelles_couvertes_par_le_quart_retenu != null ? `<p><b>Et ce qui n'était jamais tombé ?</b> Sur ${N.questions_nouvelles} questions portant sur un passage jamais interrogé avant, ${pct(N.nouvelles_couvertes_par_le_quart_retenu)} tombent dans le quart des passages que le moteur juge « dans la manière du professeur », contre ${pct(N.hasard)} au hasard. C'est ce qui justifie de travailler aussi les chapitres jamais tombés.</p>` : ""}</div></details>
+      <details class="corr"><summary><b>Les 10 passages les plus probables en ${M.annee}</b></summary>${ps}</details>
+      ${M.items.length ? `<details class="corr"><summary><b>Sujets probables générés</b> (${M.items.length})</summary>
+      <div class="prose"><p>Rédigés dans la manière du professeur sur les passages prévus. Chaque question est contrôlée ; l'intention cachée doit être exigée dans le corrigé sans être dite dans l'énoncé.</p></div>
       <div class="tw"><table><thead><tr><th>Contrôle</th><th>Réussite</th></tr></thead><tbody>
         ${Object.entries(DK).map(([k, l]) => V[k] == null ? "" : `<tr><td>${l}</td><td>${pct(V[k])}</td></tr>`).join("")}
         ${V.tout_ok != null ? `<tr><td><b>Question qui passe tout</b></td><td><b>${pct(V.tout_ok)}</b></td></tr>` : ""}</tbody></table></div>
-      <div class="list">${M.items.map(card).join("")}</div>` : `<div class="prose"><p>Sujets probables pas encore générés pour cette matière.</p></div>`}`;
+      <div class="list">${M.items.map(card).join("")}</div></details>` : ""}`;
   }
-  $("#pmat").onchange = render; render();
+  $("#pmat").onchange = () => { niv = -1; render(); }; render();
 })();
 
 // ---- onglets

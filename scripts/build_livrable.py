@@ -196,6 +196,73 @@ FAM = {"popularite": "Popularité (déjà tombé souvent)", "logistique_12_gener
        "ensemble": "Moyenne des familles", "choisie_seule": "Famille choisie seule chaque année"}
 
 
+NIV = ["incontournable", "probable", "peu ou jamais tombé, mais dans la manière du professeur", "à connaître"]
+
+
+def _pool(D):
+    """Tous les exercices déjà rédigés pour une matière : (id, titre, texte pour la similarité, questions)."""
+    files = [("generated", D / "generated"), ("probables", D / "generated_probables")]
+    if D.name == "nsi_prof":
+        files = [("generated", OUT / "generated")]
+    pool = []
+    for _, d in files:
+        for f in sorted(d.glob("*.json")) if d.exists() else []:
+            g = json.loads(f.read_text(encoding="utf-8"))
+            blocs = g.get("exercices") or [g]
+            for x in blocs:
+                qs = [{"enonce": q.get("enonce", ""), "reponse": q.get("reponse_attendue", ""), "points": q.get("points")} for q in x.get("questions", [])]
+                if not qs:
+                    continue
+                kind = {"I": "Inédit", "B": "Banque", "S": "Sujet", "C": "Cas pratique", "E": "Série"}.get(g["id"][0], "Sujet probable")
+                ctx = x.get("contexte") or x.get("situation") or ""
+                nots = {LABELS.get(q.get("notion", ""), q.get("notion", "")) for q in x.get("questions", []) if q.get("notion")}
+                pool.append({"id": g["id"] + (f"-{x['numero']}" if "numero" in x else ""), "type": kind, "titre": x.get("titre") or g.get("titre", ""),
+                             "contexte": "" if ctx.startswith("Banque") else ctx[:1500], "questions": qs,
+                             "_num": g["id"][1:] if g["id"][:1] in "CE" else None,
+                             "_txt": " ".join([x.get("titre") or g.get("titre", "")] * 2 + [" ".join(nots)] * 3 + [ctx[:600]] + [q["enonce"] for q in qs])})
+    return pool
+
+
+def programme(D, pv, fac=None):
+    """Tout le cours, chapitre par chapitre, avec les exercices qui s'y rapportent."""
+    from sklearn.feature_extraction.text import TfidfVectorizer
+    prog, pool = pv.get("programme") or [], _pool(D)
+    if not prog:
+        return None
+    ch_txt = [(r["titre"] + " ") * 3 + " ".join(k["texte"] for k in r["passages_cles"]) for r in prog]
+    cache = ROOT / "data" / "cache" / f"prevision_{'droit' if D.name == 'droit' else D.name.replace('_prof', '')}.joblib"
+    if cache.exists():  # tout le texte du chapitre, pas seulement ses passages clés
+        import joblib
+        sys.path.insert(0, str(ROOT))
+        t = joblib.load(cache)[0]
+        ch_txt = [(r["titre"] + " ") * 3 + " ".join(t.pass_text[p] for p in range(len(t.pass_text)) if int(t.pass_sec[p]) == r["section"])
+                  for r in prog]
+    vec = TfidfVectorizer(sublinear_tf=True, strip_accents="unicode", min_df=1).fit(ch_txt + [e["_txt"] for e in pool])
+    S = (vec.transform(ch_txt) @ vec.transform([e["_txt"] for e in pool]).T).toarray() if pool else None
+    out = []
+    for i, r in enumerate(prog):
+        exs = []
+        if S is not None:
+            num = r["titre"].split(" ")[0]
+            exact = [j for j, e in enumerate(pool) if e.get("_num") == num
+                     or (e["titre"] and e["titre"].strip().lower() == r["titre"].strip().lower())]
+            best = [j for j in S[i].argsort()[::-1] if S[i, j] >= 0.12 and j not in exact][: max(0, 4 - len(exact))]
+            exs = [{k: v for k, v in pool[j].items() if not k.startswith("_")} for j in exact + best]
+        if not exs and r["passages"] < 5:  # page d'introduction, rien à réviser
+            continue
+        k0 = r["passages_cles"]
+        out.append({"titre": r["titre"], "niveau": r["niveau"], "rang": NIV.index(r["niveau"]) if r["niveau"] in NIV else 9,
+                    "priorite": r["priorite"], "proba": r["proba"], "potentiel": r["potentiel"],
+                    "tombe": r["annees_tombees"], "sur": r["sur"],
+                    "cache": list(dict.fromkeys(w for k in k0 for w in k.get("evalue_sans_etre_dit", [])))[:8],
+                    "nomme": list(dict.fromkeys(w for k in k0 for w in k.get("toujours_nomme", [])))[:5],
+                    "manieres": [(fac or {}).get(m["facette"], m["nom"]) for m in (k0[0].get("manieres_de_demander") or [])][:3] if k0 else [],
+                    "passages": [clean(k["texte"], 240) for k in k0[:2]],
+                    "proches": list(dict.fromkeys(q["enonce"] for k in k0 for q in k.get("questions_passees_proches", [])))[:2],
+                    "exercices": exs})
+    return out
+
+
 def probable():
     """Onglet « Le plus probable » : preuve sur les années passées, passages prévus, sujets probables."""
     out = []
@@ -242,7 +309,8 @@ def probable():
         out.append({"nom": nom, "annee": pv.get("annee_prevue"), "connues": pv.get("annees_connues"), "testees": pr.get("annees_testees"),
                     "n_pass": pr.get("passages_du_cours"), "n_prev": pr.get("passages_prevus"), "hasard": pr.get("hasard_questions_couvertes"),
                     "famille": FAM.get(pv.get("famille_choisie"), pv.get("famille_choisie")), "back": back, "passages": pas,
-                    "items": items, "validation": val["resume"]})
+                    "items": items, "validation": val["resume"], "nouveautes": pv.get("preuve_sur_les_nouveautes"),
+                    "programme": programme(D, pv, fac)})
     return out or None
 
 
