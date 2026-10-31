@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Dépouillement d'un vote",
-   "contexte": "Lors de l'élection des délégués, chaque bulletin contient le prénom d'un candidat. Les bulletins sont rangés dans une liste de chaînes. Un élève propose la fonction suivante, qui doit renvoyer un dictionnaire associant à chaque candidat son nombre de voix :\n\n```python\n1 def compter_voix(bulletins):\n2     resultats = {}\n3     for nom in bulletins:\n4         resultats[nom] = resultats[nom] + 1\n5     return resultats\n```\n\nL'appel `compter_voix(['Lina', 'Hugo', 'Lina'])` provoque l'erreur `KeyError: 'Lina'`.",
+   "titre": "Inventaire d'une ludothèque",
+   "contexte": "Une ludothèque note chaque jour les identifiants (entiers) des jeux empruntés dans une liste Python, par exemple :\n```python\nemprunts = [12, 7, 12, 3, 7, 12]\n```\nOn souhaite compter le nombre d'emprunts de chaque jeu à l'aide d'un dictionnaire dont les clés sont les identifiants et les valeurs les nombres d'emprunts.\n```python\n>>> compter_emprunts([12, 7, 12, 3, 7, 12])\n{12: 3, 7: 2, 3: 1}\n>>> compter_emprunts([])\n{}\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "dictionnaire",
-     "enonce": "Modifier le code de la fonction compter_voix pour qu'elle renvoie le bon dictionnaire, y compris lorsqu'un candidat apparaît pour la première fois.",
+     "enonce": "Écrire la fonction `compter_emprunts` qui prend en paramètre une liste d'entiers `emprunts` et renvoie le dictionnaire associant à chaque identifiant présent son nombre d'apparitions dans la liste.",
      "points": 1,
-     "reponse_attendue": "```python\ndef compter_voix(bulletins):\n    resultats = {}\n    for nom in bulletins:\n        if nom in resultats:\n            resultats[nom] = resultats[nom] + 1\n        else:\n            resultats[nom] = 1\n    return resultats\n\nassert compter_voix(['Lina', 'Hugo', 'Lina']) == {'Lina': 2, 'Hugo': 1}\n```\nL'erreur venait de la lecture de resultats[nom] alors que la clé nom n'existait pas encore."
+     "reponse_attendue": "```python\ndef compter_emprunts(emprunts):\n    d = {}\n    for j in emprunts:\n        if j in d:\n            d[j] = d[j] + 1\n        else:\n            d[j] = 1\n    return d\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Contrôle des badges",
-   "contexte": "Le portique d'un lycée de 2 000 élèves doit décider, à chaque passage, si un numéro de badge est autorisé. Le service informatique hésite entre deux représentations : une liste `badges` contenant les 2 000 numéros autorisés, testée avec `num in badges`, ou un dictionnaire `autorisations` dont les clés sont les numéros autorisés (valeur : le nom de l'élève), testé avec `num in autorisations`. Les passages sont très nombreux le matin.",
+   "titre": "Un annuaire orienté objet",
+   "contexte": "On donne la classe `Annuaire` ci-dessous, qui stocke des numéros de téléphone dans un dictionnaire dont les clés sont des noms (chaînes) et les valeurs des numéros (chaînes).\n```python\n1  class Annuaire:\n2      def __init__(self):\n3          self.contacts = {}\n4\n5      def ajouter(self, nom, numero):\n6          self.contacts[nom] = numero\n7\n8      def chercher(self, nom):\n9          if ...:\n10             return ...\n11         else:\n12             return None\n```\n| nom | numero |\n|---|---|\n| 'Lina' | '0601020304' |\n| 'Omar' | '0699887766' |",
    "questions": [
     {
      "slot": 2,
      "notion": "dictionnaire",
-     "enonce": "Expliquer pourquoi le dictionnaire est préférable à la liste dans le cas de ce portique.",
+     "enonce": "Recopier et compléter les lignes 9 et 10 de la méthode `chercher`, qui renvoie le numéro associé à `nom` s'il est présent dans l'annuaire et `None` sinon.",
      "points": 1,
-     "reponse_attendue": "Le test `num in badges` sur une liste parcourt les éléments un par un : coût linéaire en la taille (jusqu'à 2 000 comparaisons). Un dictionnaire est une table de hachage : la clé est hachée pour accéder directement à son emplacement, le test d'appartenance se fait en temps constant en moyenne, indépendamment du nombre d'élèves. De plus le dictionnaire associe directement le nom à la clé."
+     "reponse_attendue": "```python\n    def chercher(self, nom):\n        if nom in self.contacts:\n            return self.contacts[nom]\n        else:\n            return None\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Relevés de températures",
-   "contexte": "On dispose des relevés de températures (en degrés, entiers) suivants et du script :\n\n```python\nreleves = [12, 15, 12, 9, 15, 12]\nfreq = {}\nfor t in releves:\n    freq[t] = freq.get(t, 0) + 1\n```\n\nOn rappelle que `d.get(cle, defaut)` renvoie `d[cle]` si la clé existe et `defaut` sinon.",
+   "titre": "Des enregistrements comme dictionnaires",
+   "contexte": "Une base de données de bibliothèque contient la relation Livre(isbn, titre, annee), dont la clé primaire est isbn (un identifiant unique de chaque livre). Pour traiter ces données en Python, on transforme chaque ligne en un dictionnaire, puis on range ces dictionnaires dans un dictionnaire `catalogue` indexé par la clé primaire :\n```python\ncatalogue = {\n    '978-2-07-036': {'titre': 'Dune', 'annee': 1965},\n    '978-2-25-315': {'titre': 'Fondation', 'annee': 1951},\n}\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "dictionnaire",
-     "enonce": "Donner le contenu du dictionnaire freq après l'exécution de ce script.",
+     "enonce": "Quelle est la valeur de l'expression `catalogue['978-2-25-315']['annee']` ? Expliquer pourquoi l'attribut isbn convient comme clé de ce dictionnaire.",
      "points": 1,
-     "reponse_attendue": "{12: 3, 15: 2, 9: 1}"
+     "reponse_attendue": "La valeur est `1951`. isbn est la clé primaire de la relation : chaque valeur est unique, donc deux livres ne peuvent pas avoir la même clé ; or les clés d'un dictionnaire doivent être uniques (et immuables, ce qu'est une chaîne)."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Mise à jour d'un stock",
-   "contexte": "Une épicerie représente son stock par un dictionnaire :\n\n```python\nstock = {'pomme': 12, 'poire': 5, 'kiwi': 20}\nstock['poire'] = 8\n```",
+   "titre": "Mots de passe et hachage",
+   "contexte": "Un site web conserve, côté serveur, un dictionnaire `comptes` associant à chaque identifiant d'utilisateur l'empreinte (le hash) de son mot de passe, et non le mot de passe lui-même. Lors de la connexion, l'utilisateur saisit son mot de passe dans un formulaire ; celui-ci transite sur le réseau jusqu'au serveur, qui calcule son empreinte et la compare à celle stockée dans `comptes`.",
    "questions": [
     {
      "slot": 4,
      "notion": "dictionnaire",
-     "enonce": "Indiquer la clé concernée par la seconde instruction et préciser son rôle, puis donner le contenu de stock après cette instruction.",
+     "enonce": "Indiquer quel protocole doit être utilisé pour que le mot de passe ne circule pas en clair sur le réseau, et préciser ce que ce protocole protège, en tenant compte du fait que le dictionnaire `comptes` ne contient que des empreintes.",
      "points": 1,
-     "reponse_attendue": "La clé est 'poire' : elle identifie de façon unique l'entrée du dictionnaire. Comme elle existe déjà, l'affectation ne crée pas de nouvelle entrée mais remplace la valeur associée (5 devient 8). stock = {'pomme': 12, 'poire': 8, 'kiwi': 20}."
+     "reponse_attendue": "Il faut utiliser HTTPS (HTTP sécurisé par TLS) : les échanges sont chiffrés pendant le transit, donc un attaquant qui intercepte les paquets ne lit pas le mot de passe. Le chiffrement ne protège que le transport ; le stockage est protégé séparément par le hachage : même si le dictionnaire `comptes` fuit, on n'y trouve que des empreintes, dont on ne peut pas retrouver facilement le mot de passe."
     }
    ]
   }

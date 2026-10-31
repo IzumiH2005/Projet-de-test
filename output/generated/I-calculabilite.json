@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Problèmes décidables ?",
-   "contexte": "Voici une liste de problèmes :\n- P1 : déterminer si un entier n donné est pair ;\n- P2 : déterminer si un programme Python quelconque s'arrête sur une entrée donnée ;\n- P3 : déterminer si une liste d'entiers donnée est triée ;\n- P4 : déterminer si deux programmes quelconques calculent toujours le même résultat.",
+   "titre": "Un programme comme donnée",
+   "contexte": "En Python, une fonction est une donnée comme une autre : elle peut être passée en paramètre à une autre fonction. On souhaite une fonction appliquer_n qui prend en paramètres une fonction f, un entier n positif ou nul et une valeur x, et qui renvoie le résultat de n applications successives de f à partir de x. Par exemple, si double est définie par def double(y): return 2 * y, alors appliquer_n(double, 3, 1) renvoie 8.",
    "questions": [
     {
      "slot": 1,
      "notion": "calculabilite",
-     "enonce": "Parmi les problèmes ci-dessus, sélectionner ceux qui sont décidables.",
+     "enonce": "Écrire la fonction appliquer_n qui prend en paramètres f, n et x et qui renvoie f(f(...f(x)...)) avec n applications de f.",
      "points": 1,
-     "reponse_attendue": "P1 et P3 (un algorithme qui termine toujours les résout). P2 (problème de l'arrêt) et P4 sont indécidables."
+     "reponse_attendue": "```python\ndef appliquer_n(f, n, x):\n    resultat = x\n    for _ in range(n):\n        resultat = f(resultat)\n    return resultat\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Le problème de l'arrêt",
-   "contexte": "En 1936, un mathématicien britannique a démontré qu'il n'existe aucun programme capable de dire, pour tout programme P et toute entrée e, si P s'arrête sur e. Sa démonstration raisonne par l'absurde : on suppose l'existence d'une fonction arret(P, e) puis on construit un programme qui contredit sa réponse.",
+   "titre": "Le programme paradoxe",
+   "contexte": "On suppose, par l'absurde, qu'il existe une fonction arret(prog, x) qui renvoie True si l'exécution de prog(x) se termine et False sinon. On construit la fonction paradoxe ci-dessous, de 6 lignes : elle doit boucler indéfiniment (lignes 3 et 4) lorsque arret affirme que prog appliqué à lui-même s'arrête, et renvoyer 1 (ligne 6) sinon.\n\n```python\n1 def paradoxe(prog):\n2     if ...:\n3         while ...:\n4             pass\n5     else:\n6         return 1\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "calculabilite",
-     "enonce": "Donner le nom de ce mathématicien et le nom du problème dont il a démontré l'indécidabilité.",
+     "enonce": "Recopier et compléter les lignes 2 et 3 de la fonction paradoxe.",
      "points": 1,
-     "reponse_attendue": "Alan Turing ; le problème de l'arrêt."
+     "reponse_attendue": "```python\n2     if arret(prog, prog):\n3         while True:\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Suite de Syracuse",
-   "contexte": "On considère la fonction :\n\n```python\ndef syracuse(n):\n    etapes = 0\n    while n != 1:\n        if n % 2 == 0:\n            n = n // 2\n        else:\n            n = 3 * n + 1\n        etapes += 1\n    return etapes\n```\n\nPersonne n'a encore démontré que cette boucle termine pour tout entier n >= 1. Valeurs de test : 1, 3, 6.",
+   "titre": "Un problème célèbre",
+   "contexte": "Alan Turing a démontré en 1936 qu'aucun programme ne peut décider, pour tout programme et toute entrée, si l'exécution se termine.",
    "questions": [
     {
      "slot": 3,
      "notion": "calculabilite",
-     "enonce": "Donner les valeurs renvoyées par syracuse(1), syracuse(3) et syracuse(6).",
+     "enonce": "Donner le nom de ce problème et le qualificatif qui désigne un problème qu'aucun algorithme ne peut résoudre.",
      "points": 1,
-     "reponse_attendue": "syracuse(1) = 0 ; syracuse(3) = 7 (3,10,5,16,8,4,2,1) ; syracuse(6) = 8 (6,3,10,5,16,8,4,2,1)."
+     "reponse_attendue": "Le problème de l'arrêt ; il est dit indécidable (la fonction qui le résoudrait n'est pas calculable)."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Un vérificateur universel",
-   "contexte": "Une entreprise annonce un logiciel « Verif » qui, pour tout programme Python et toute entrée, indique en un temps fini si le programme finira par afficher « erreur ». L'indécidabilité est un concept fondamental en logique : certains problèmes ne peuvent être résolus par aucun algorithme.",
+   "titre": "Raisonnement par l'absurde",
+   "contexte": "On reprend la fonction supposée halt(prog, x) (renvoie True si prog(x) termine, False sinon) et le programme :\n\n```python\ndef sym(prog):\n    if halt(prog, prog):\n        while True:\n            pass\n    else:\n        return 1\n```\n\nOn étudie l'appel sym(sym).",
    "questions": [
     {
      "slot": 4,
      "notion": "calculabilite",
-     "enonce": "En étudiant cette annonce, dire si un tel logiciel peut exister. Justifier la réponse.",
+     "enonce": "Décrire l'exécution de sym(sym) dans le cas où halt(sym, sym) renvoie False, puis expliquer la contradiction obtenue et conclure.",
      "points": 1,
-     "reponse_attendue": "Non. Si Verif existait, on décide l'arrêt d'un programme P sur e en construisant Q qui exécute P(e) puis affiche « erreur » : Q affiche « erreur » si et seulement si P s'arrête. Verif résoudrait le problème de l'arrêt, qui est indécidable : contradiction."
+     "reponse_attendue": "Si halt(sym, sym) renvoie False, sym(sym) exécute le else : l'exécution se termine correctement et renvoie 1. Donc sym(sym) termine, alors que halt affirmait le contraire : contradiction. (Symétriquement, si halt renvoie True, sym(sym) boucle à l'infini.) Dans les deux cas halt se trompe : une telle fonction halt ne peut pas exister, le problème de l'arrêt est indécidable."
     }
    ]
   }

@@ -14,6 +14,7 @@ from __future__ import annotations
 import ast
 import json
 import re
+import textwrap
 from collections import defaultdict
 
 import joblib
@@ -36,7 +37,12 @@ def code_blocks(text: str) -> list[str]:
 
 
 def python_ok(code: str) -> bool | None:
-    code = re.sub(r"^\s*\d{1,3}\s{1,4}", "", code, flags=re.M) if re.search(r"^\s*\d{1,3}\s+(def|class|return|if|for|while)", code, re.M) else code
+    # une méthode « à compléter » est souvent donnée indentée comme dans la classe
+    lines = [l for l in code.splitlines() if l.strip()]
+    if lines and all(re.match(r"\s*\d{1,3}\s+\S", l) for l in lines):
+        # lignes numérotées du sujet (« ligne 10 : … ») : on retire les numéros
+        code = "\n".join(re.sub(r"^\s*\d{1,3} ", "", l) for l in code.splitlines())
+    code = textwrap.dedent(code)
     if re.search(r"\b(SELECT|INSERT|UPDATE|DELETE)\b", code):
         return None
     try:
@@ -47,7 +53,12 @@ def python_ok(code: str) -> bool | None:
 
 
 def sql_ok(text: str) -> bool | None:
-    q = re.findall(r"((?:SELECT|INSERT|UPDATE|DELETE)\b.*?(?:;|$))", text, re.S | re.I)
+    # on ne vérifie que les requêtes écrites comme du code (bloc ``` ou ligne qui commence par le mot-clé),
+    # pas les phrases du corrigé qui citent « SELECT … FROM … »
+    blocks = re.findall(r"```[a-zA-Z]*\n(.*?)```", text, re.S)
+    src = "\n".join(blocks) if blocks else text
+    q = re.findall(r"^\s*((?:SELECT|INSERT|UPDATE|DELETE)\b.*?(?:;|\Z))", src, re.S | re.I | re.M)
+    q = [s for s in q if "…" not in s]
     if not q:
         return None
     for s in q:

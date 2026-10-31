@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Compléter la dichotomie",
-   "contexte": "On donne la fonction à compléter :\n\n1 def recherche(tab, val):\n2     debut = 0\n3     fin = len(tab) - 1\n4     while debut <= fin:\n5         milieu = (debut + fin) // 2\n6         if tab[milieu] == val:\n7             return True\n8         elif tab[milieu] < val:\n9             ...\n10        else:\n11            ...\n12    return False",
+   "titre": "Retrouver un numéro de dossard",
+   "contexte": "Les 2000 dossards d'une course sont rangés dans une liste `tab` triée par ordre croissant. La fonction `recherche` renvoie l'indice du dossard `val` dans `tab`, ou -1 s'il est absent ; elle doit effectuer une recherche dichotomique.\n\n```python\n1  def recherche(tab, val):\n2      debut = 0\n3      fin = len(tab) - 1\n4      while debut <= fin:\n5          milieu = ...\n6          if tab[milieu] == val:\n7              return milieu\n8          elif tab[milieu] < val:\n9              debut = ...\n10         else:\n11             fin = ...\n12     return -1\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "recherche_dichotomique",
-     "enonce": "Compléter les lignes 9 et 11 de la fonction recherche.",
+     "enonce": "Recopier et compléter les lignes 5, 9 et 11 de la fonction `recherche`.",
      "points": 1,
-     "reponse_attendue": "def recherche(tab, val):\n    debut = 0\n    fin = len(tab) - 1\n    while debut <= fin:\n        milieu = (debut + fin) // 2\n        if tab[milieu] == val:\n            return True\n        elif tab[milieu] < val:\n            debut = milieu + 1\n        else:\n            fin = milieu - 1\n    return False\n\nassert recherche([1, 5, 7, 9, 12, 13], 12)\nassert not recherche([1, 5, 7, 9, 12, 13], 17)"
+     "reponse_attendue": "Ligne 5 : `milieu = (debut + fin) // 2` ; ligne 9 : `debut = milieu + 1` ; ligne 11 : `fin = milieu - 1`."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Tableaux candidats",
-   "contexte": "On souhaite appliquer une recherche dichotomique sur l'un des tableaux suivants :\n- t1 = [2, 9, 4, 11, 15]\n- t2 = [3, 3, 8, 14, 20]\n- t3 = [20, 14, 8, 3, 1]",
+   "titre": "Annuaire trié",
+   "contexte": "On donne la classe `Annuaire` dont l'attribut `noms` est une liste de chaînes triée par ordre alphabétique.\n\n```python\n1  class Annuaire:\n2      def __init__(self, noms):\n3          self.noms = sorted(noms)\n4\n5      def contient(self, nom):\n6          g = 0\n7          d = len(self.noms) - 1\n8          while g <= d:\n9              m = (g + d) // 2\n10             if self.noms[m] == nom:\n11                 return ...\n12             elif self.noms[m] < nom:\n13                 ...\n14             else:\n15                 ...\n16         return ...\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "recherche_dichotomique",
-     "enonce": "Sur quel(s) tableau(x) la recherche dichotomique croissante classique fonctionne-t-elle correctement ? Justifier.",
+     "enonce": "Recopier et compléter les lignes 11, 13, 15 et 16 de la méthode `contient`, qui renvoie True si `nom` est présent, False sinon.",
      "points": 1,
-     "reponse_attendue": "Seulement t2 : il est trié dans l'ordre croissant (les doublons n'empêchent pas la recherche). t1 n'est pas trié, t3 est trié décroissant."
+     "reponse_attendue": "Ligne 11 : `return True` ; ligne 13 : `g = m + 1` ; ligne 15 : `d = m - 1` ; ligne 16 : `return False`."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Complexité",
-   "contexte": "Un annuaire numérique contient un million de noms triés par ordre alphabétique. Le logiciel cherche un nom en comparant au nom situé au milieu de la zone restante, puis ne garde que la moitié pertinente.",
+   "titre": "Nombre de comparaisons",
+   "contexte": "On applique la recherche dichotomique dans une liste triée de 1024 éléments :\n- à chaque tour de boucle, on compare la valeur cherchée à l'élément du milieu ;\n- la zone de recherche est ensuite (environ) divisée par deux ;\n- la recherche s'arrête si la valeur est trouvée ou si la zone est vide.",
    "questions": [
     {
      "slot": 3,
      "notion": "recherche_dichotomique",
-     "enonce": "Donner le nom de cet algorithme et sa complexité en temps en fonction du nombre n de noms.",
+     "enonce": "Quel est le nombre maximal de tours de boucle nécessaires dans le pire cas ? Quel est le coût de cet algorithme en fonction de la taille n ? Justifier.",
      "points": 1,
-     "reponse_attendue": "Recherche dichotomique ; complexité logarithmique O(log2 n)."
+     "reponse_attendue": "Au plus 11 tours (1024 = 2^10 : la zone passe de 1024 à 512, …, 1, soit 10 divisions puis un dernier tour). Le coût est logarithmique, en O(log2 n), car la taille est divisée par 2 à chaque étape."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Nombre d'étapes",
-   "contexte": "À chaque étape, la recherche dichotomique divise par deux la taille de la zone de travail. On l'applique à un tableau trié de 1000 éléments, la valeur cherchée étant absente.",
+   "titre": "Index trié d'une base",
+   "contexte": "La table `client` de la base `boutique` contient 1 000 000 de lignes. Le SGBD maintient un index : la liste des valeurs de la clé primaire `id_client` triée par ordre croissant, dans laquelle il cherche par dichotomie. Sans index, il parcourt les lignes une par une.",
    "questions": [
     {
      "slot": 4,
      "notion": "recherche_dichotomique",
-     "enonce": "Dénombrer le nombre maximal de tours de boucle effectués.",
+     "enonce": "On cherche à exécuter `SELECT * FROM client WHERE id_client = 734512;` dans la base `boutique`. Expliquer pourquoi l'index accélère la recherche, en donnant un ordre de grandeur du nombre de comparaisons dans chaque cas.",
      "points": 1,
-     "reponse_attendue": "10 tours au plus (2^9 = 512 < 1000 < 1024 = 2^10 ; la taille passe 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1)."
+     "reponse_attendue": "La dichotomie divise par deux la taille de la zone de recherche à chaque étape : environ log2(10^6) ≈ 20 comparaisons au plus, contre jusqu'à 1 000 000 pour un parcours séquentiel. L'index trié est nécessaire car la dichotomie ne fonctionne que sur des données triées."
     }
    ]
   }

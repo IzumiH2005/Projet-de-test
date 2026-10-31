@@ -3,15 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Classement d'un club",
-   "contexte": "Un club de course stocke ses résultats dans une table Course(id, nom, temps). On souhaite obtenir les coureurs classés du plus rapide au plus lent, ce que l'on pourrait aussi faire en Python avec un tri fusion sur la liste des temps.",
+   "titre": "Trace d'un tri",
+   "contexte": "On considère la fonction suivante.\n\n```python\n1 def tri(t):\n2     for i in range(1, len(t)):\n3         x = t[i]\n4         j = i\n5         while j > 0 and t[j - 1] > x:\n6             t[j] = t[j - 1]\n7             j = j - 1\n8         t[j] = x\n9         print(t)\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "tri",
-     "enonce": "Écrire la requête SQL qui renvoie le nom et le temps des coureurs triés par temps croissant, puis donner le coût du tri fusion sur n éléments.",
+     "enonce": "Déterminer les affichages produits par l'appel `tri([5, 2, 4, 1])`.",
      "points": 1,
-     "reponse_attendue": "SELECT nom, temps FROM Course ORDER BY temps ASC; Le tri fusion a un coût en O(n log n)."
+     "reponse_attendue": "```\n[2, 5, 4, 1]\n[2, 4, 5, 1]\n[1, 2, 4, 5]\n```"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Choisir un tri",
+   "contexte": "Une application doit trier, parfois plusieurs millions de fois par jour, des tableaux de grande taille dans un ordre quelconque, et on hésite entre le tri par sélection, le tri par insertion, le tri fusion.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "tri",
+     "enonce": "Quel est, parmi ces trois tris, celui dont la complexité dans le pire des cas est la meilleure ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "Le tri fusion : sa complexité est en O(n log n) dans tous les cas (diviser pour régner : log n niveaux de découpage, fusions en O(n) par niveau), alors que les tris par sélection et par insertion sont en O(n²) dans le pire des cas."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "États successifs",
+   "contexte": "Un tri est appliqué au tableau `[7, 3, 9, 1]`. On relève le tableau après chaque étape :\n\n| étape | tableau |\n|---|---|\n| 0 | [7, 3, 9, 1] |\n| 1 | [1, 3, 9, 7] |\n| 2 | [1, 3, 9, 7] |\n| 3 | [1, 3, 7, 9] |",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "tri",
+     "enonce": "Donner le nom de l'algorithme de tri utilisé.",
+     "points": 1,
+     "reponse_attendue": "Le tri par sélection : à l'étape k, le minimum de la partie non triée est échangé avec l'élément d'indice k (1 échangé avec 7, puis 3 déjà en place, puis 7 échangé avec 9)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Enquête policière",
+   "contexte": "À partir d'un témoignage (« le suspect est grand et habite Lille ») et de la base dont la relation est `suspect(id, nom, taille, ville)`, il s'agit de trouver le meurtrier. L'enquêteur exécute :\n\n```sql\nSELECT nom, taille FROM suspect\nWHERE ville = 'Lille'\nORDER BY taille DESC;\n```",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "tri",
+     "enonce": "On cherche à classer les suspects lillois dans la base de l'enquête. Expliquer l'ordre dans lequel les lignes sont renvoyées et le rôle de DESC.",
+     "points": 1,
+     "reponse_attendue": "Seuls les suspects de Lille sont sélectionnés ; `ORDER BY taille DESC` trie les lignes selon la taille par ordre décroissant : le plus grand suspect apparaît en premier. Sans DESC (ou avec ASC), l'ordre serait croissant."
     }
    ]
   }

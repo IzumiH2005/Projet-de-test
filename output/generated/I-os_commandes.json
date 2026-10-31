@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Simuler cd",
-   "contexte": "On représente le répertoire courant par une chaîne de chemin absolu, par exemple '/home/alice/docs'. On veut simuler la commande cd : la fonction cd(courant, arg) prend le chemin courant, un argument arg qui vaut soit '..', soit le nom d'un sous-répertoire (sans '/'), et renvoie le nouveau chemin. cd('/', '..') renvoie '/'.",
+   "titre": "Se repérer dans l'arborescence",
+   "contexte": "Lina travaille dans un terminal sous Linux. Après plusieurs commandes cd, elle ne sait plus dans quel répertoire elle se trouve.\nElle souhaite afficher le chemin absolu du répertoire courant avant de créer un nouveau dossier.",
    "questions": [
     {
      "slot": 1,
      "notion": "os_commandes",
-     "enonce": "Écrire la fonction cd(courant, arg) conforme à cette spécification.",
+     "enonce": "Donner le nom de la commande permettant d'afficher le chemin absolu du répertoire courant.",
      "points": 1,
-     "reponse_attendue": "```python\ndef cd(courant, arg):\n    if arg == '..':\n        if courant == '/':\n            return '/'\n        i = courant.rfind('/')\n        return '/' if i == 0 else courant[:i]\n    if courant == '/':\n        return '/' + arg\n    return courant + '/' + arg\n```"
+     "reponse_attendue": "pwd (print working directory)."
     }
    ]
   },
   {
    "numero": 2,
    "titre": "Droits d'un fichier",
-   "contexte": "Sur un serveur Linux, la commande ls -l affiche la ligne : -rwxr-x--- 1 bob profs 2048 mars 3 notes.sh. L'utilisateur alice appartient au groupe profs, l'utilisatrice carla n'appartient pas à ce groupe.",
+   "contexte": "Le fichier rapport.txt appartient à Lina. Elle veut que son propriétaire puisse le lire, le modifier et l'exécuter, que les membres de son groupe puissent seulement le lire et l'exécuter, et que les autres utilisateurs n'aient aucun droit, c'est-à-dire obtenir les droits rwxr-x---.",
    "questions": [
     {
      "slot": 2,
      "notion": "os_commandes",
-     "enonce": "Donner la commande chmod en notation octale qui produit exactement ces droits, et indiquer si carla peut lire notes.sh.",
+     "enonce": "Écrire la commande chmod qui attribue au fichier rapport.txt exactement les droits rwxr-x---.",
      "points": 1,
-     "reponse_attendue": "chmod 750 notes.sh ; carla (autres) n'a aucun droit (---) : elle ne peut pas lire le fichier."
+     "reponse_attendue": "chmod 750 rapport.txt\n(équivalent : chmod u=rwx,g=rx,o= rapport.txt ; 7 = rwx, 5 = r-x, 0 = ---)."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Séquence de commandes",
-   "contexte": "Le répertoire courant est /home/eve et il est vide. On exécute :\n1. mkdir a b\n2. cd a\n3. touch f1.txt f2.txt\n4. cd ..\n5. mv a/f1.txt b\n6. rm a/f2.txt\n7. ls a b",
+   "titre": "Remonter d'un niveau",
+   "contexte": "Lina est dans le répertoire /home/lina/projets/nsi. Elle tape cd ..",
    "questions": [
     {
      "slot": 3,
      "notion": "os_commandes",
-     "enonce": "Donner l'état des répertoires a et b après la commande 6, puis l'affichage de la commande 7.",
+     "enonce": "Quel est le répertoire courant après cette commande ? Justifier.",
      "points": 1,
-     "reponse_attendue": "a est vide ; b contient f1.txt. ls a b affiche :\na:\n\nb:\nf1.txt"
+     "reponse_attendue": "/home/lina/projets : cd .. remonte d'un niveau, vers le répertoire parent du répertoire courant."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Tester une machine",
-   "contexte": "Un administrateur veut savoir si l'imprimante d'adresse 192.168.1.40 est joignable depuis son poste Linux, sans connaître le chemin suivi par les paquets.",
+   "titre": "Tester une machine distante",
+   "contexte": "Depuis son ordinateur sous Linux, Lina n'arrive pas à accéder à l'imprimante réseau d'adresse IP 192.168.1.20. Elle veut d'abord vérifier que cette machine est accessible à travers le réseau IP.",
    "questions": [
     {
      "slot": 4,
      "notion": "os_commandes",
-     "enonce": "Quelle commande doit-il utiliser : ping ou traceroute ? Justifier.",
+     "enonce": "Quelle est la commande complète que Lina doit taper pour tester l'accessibilité de l'imprimante ?",
      "points": 1,
-     "reponse_attendue": "ping 192.168.1.40 : ping teste l'accessibilité d'une machine sur un réseau IP ; traceroute sert à afficher les routeurs traversés, ce qui n'est pas demandé."
+     "reponse_attendue": "ping 192.168.1.20 (ping teste l'accessibilité d'une machine à travers un réseau IP ; traceroute donnerait en plus la liste des routeurs traversés)."
     }
    ]
   }

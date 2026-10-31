@@ -3,43 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Relevés de capteurs",
-   "contexte": "Une station météo stocke ses relevés dans la relation Releve(id_capteur, horodatage, temperature). Voici quatre tuples :\n\n| id_capteur | horodatage | temperature |\n|---|---|---|\n| 3 | 1200 | 14.5 |\n| 3 | 1260 | 14.7 |\n| 5 | 1200 | 13.9 |\n| 5 | 1260 | 14.7 |",
+   "titre": "Médiathèque : adhérents lyonnais",
+   "contexte": "Une médiathèque utilise une base de données dont le schéma relationnel est :\n- Adherent(<u>id_adh</u>, nom, prenom, ville)\n- Livre(<u>id_livre</u>, titre, annee)\n- Emprunt(<u>id_emp</u>, #id_adh, #id_livre, date_emp)\n\nLes attributs soulignés sont des clés primaires, ceux précédés de # des clés étrangères (id_adh fait référence à Adherent, id_livre à Livre).\n\nLa médiathèque veut contacter ses adhérents de Lyon.",
    "questions": [
     {
      "slot": 1,
      "notion": "modele_relationnel",
-     "enonce": "Expliquer pourquoi ni id_capteur seul ni horodatage seul ne peut être clé primaire, puis proposer une clé primaire pour cette relation.",
+     "enonce": "Écrire une requête SQL permettant d'afficher le nom et le prénom des adhérents habitant à Lyon, triés par ordre alphabétique de nom.",
      "points": 1,
-     "reponse_attendue": "id_capteur seul : la valeur 3 apparaît deux fois ; horodatage seul : 1200 apparaît deux fois. Une clé primaire doit identifier chaque tuple de façon unique : on choisit le couple (id_capteur, horodatage)."
+     "reponse_attendue": "SELECT nom, prenom FROM Adherent WHERE ville = 'Lyon' ORDER BY nom;"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Contrôle d'unicité",
-   "contexte": "Une table Eleve a pour clé primaire num_eleve. On représente en Python les valeurs de num_eleve qu'on tente d'insérer successivement par la liste [12, 7, 31, 7, 18, 12]. Le SGBD refuse toute insertion qui viole la contrainte de clé primaire.",
+   "titre": "Médiathèque : rôle d'un attribut",
+   "contexte": "Une médiathèque utilise une base de données dont le schéma relationnel est :\n- Adherent(<u>id_adh</u>, nom, prenom, ville)\n- Livre(<u>id_livre</u>, titre, annee)\n- Emprunt(<u>id_emp</u>, #id_adh, #id_livre, date_emp)\n\nLes attributs soulignés sont des clés primaires, ceux précédés de # des clés étrangères (id_adh fait référence à Adherent, id_livre à Livre).\n\nOn s'intéresse à l'attribut id_adh de la relation Emprunt. Trois termes sont proposés :\na) clé primaire de la relation Emprunt ;\nb) clé étrangère de la relation Emprunt ;\nc) domaine de l'attribut.",
    "questions": [
     {
      "slot": 2,
      "notion": "modele_relationnel",
-     "enonce": "Donner la liste des valeurs effectivement insérées dans la table, dans l'ordre, et le nombre d'insertions refusées.",
+     "enonce": "Donner la lettre (a, b ou c) du terme correspondant au rôle de l'attribut id_adh dans la relation Emprunt, puis donner le nom de la relation à laquelle il fait référence.",
      "points": 1,
-     "reponse_attendue": "[12, 7, 31, 18] ; 2 insertions refusées (le second 7 et le second 12)."
+     "reponse_attendue": "b) id_adh est une clé étrangère de Emprunt ; elle fait référence à la clé primaire id_adh de la relation Adherent."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Médiathèque",
-   "contexte": "Schéma : Adherent(id_adh, nom, prenom) avec id_adh clé primaire ; Emprunt(id_emp, #id_adh, titre, date) où id_adh est clé étrangère vers Adherent. La table Adherent contient les id_adh 1, 2 et 4.",
+   "titre": "Médiathèque : comptage des emprunts",
+   "contexte": "Une médiathèque utilise une base de données dont le schéma relationnel est :\n- Adherent(<u>id_adh</u>, nom, prenom, ville)\n- Livre(<u>id_livre</u>, titre, annee)\n- Emprunt(<u>id_emp</u>, #id_adh, #id_livre, date_emp)\n\nLes attributs soulignés sont des clés primaires, ceux précédés de # des clés étrangères (id_adh fait référence à Adherent, id_livre à Livre).\n\nLa table Emprunt contient les 6 enregistrements suivants :\n\n| id_emp | id_adh | id_livre | date_emp |\n|---|---|---|---|\n| 1 | 3 | 12 | '2026-01-04' |\n| 2 | 1 | 7 | '2026-01-05' |\n| 3 | 3 | 7 | '2026-01-09' |\n| 4 | 2 | 15 | '2026-01-12' |\n| 5 | 3 | 15 | '2026-02-01' |\n| 6 | 4 | 12 | '2026-02-03' |",
    "questions": [
     {
      "slot": 3,
      "notion": "modele_relationnel",
-     "enonce": "La requête INSERT INTO Emprunt VALUES (10, 3, 'Dune', '2026-03-01'); est-elle acceptée ? Justifier à l'aide du rôle de la clé étrangère.",
+     "enonce": "Donner la requête SQL qui renvoie le nombre d'emprunts effectués par l'adhérent d'identifiant 3, puis la valeur renvoyée sur les données ci-dessus.",
      "points": 1,
-     "reponse_attendue": "Non : la valeur 3 de la clé étrangère id_adh doit exister comme clé primaire dans Adherent, ce qui n'est pas le cas ; la contrainte d'intégrité référentielle est violée et l'insertion est refusée."
+     "reponse_attendue": "SELECT COUNT(*) FROM Emprunt WHERE id_adh = 3;\nValeur renvoyée : 3 (emprunts 1, 3 et 5)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Médiathèque : cohérence des tables",
+   "contexte": "Une médiathèque utilise une base de données dont le schéma relationnel est :\n- Adherent(<u>id_adh</u>, nom, prenom, ville)\n- Livre(<u>id_livre</u>, titre, annee)\n- Emprunt(<u>id_emp</u>, #id_adh, #id_livre, date_emp)\n\nLes attributs soulignés sont des clés primaires, ceux précédés de # des clés étrangères (id_adh fait référence à Adherent, id_livre à Livre).\n\nLa table Adherent contient uniquement les adhérents d'identifiants 1, 2, 3 et 4. Les livres d'identifiants 7, 12 et 15 existent dans la table Livre. Un bibliothécaire exécute :\n\nINSERT INTO Emprunt (id_emp, id_adh, id_livre, date_emp) VALUES (7, 9, 12, '2026-03-01');",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "modele_relationnel",
+     "enonce": "Indiquer, en tenant compte des contraintes de clé étrangère, si cette insertion est acceptée par le SGBD, et justifier.",
+     "points": 1,
+     "reponse_attendue": "L'insertion est refusée : id_adh est une clé étrangère qui doit faire référence à une valeur existante de la clé primaire id_adh de Adherent. Or aucun adhérent d'identifiant 9 n'existe ; la contrainte d'intégrité référentielle serait violée (id_livre = 12 existe bien, id_emp = 7 est nouveau)."
     }
    ]
   }

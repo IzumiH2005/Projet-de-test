@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Hauteur maximale d'une pile",
-   "contexte": "Un tableau d'entiers t décrit une suite d'opérations sur une pile initialement vide (chaque entier strictement positif signifie « empiler cet entier », chaque 0 signifie « dépiler » ; on suppose qu'on ne dépile jamais une pile vide). Exemple : pour t = [4, 7, 0, 2, 5, 0, 0, 9] la pile atteint au plus 3 éléments.",
+   "titre": "Pile de livres à ranger",
+   "contexte": "Une bibliothécaire empile des livres sur un chariot. On utilise la classe suivante :\n\n```python\nclass Pile:\n    def __init__(self):\n        self.contenu = []\n\n    def est_vide(self):\n        return self.contenu == []\n\n    def empiler(self, x):\n        self.contenu.append(x)\n\n    def depiler(self):\n        return self.contenu.pop()\n```\n\nOn exécute les instructions du tableau ci-dessous, dans l'ordre :\n\n| Étape | Instruction |\n|---|---|\n| 1 | `p = Pile()` |\n| 2 | `p.empiler('Hugo')` |\n| 3 | `p.empiler('Zola')` |\n| 4 | `p.empiler('Sand')` |\n| 5 | `a = p.depiler()` |\n| 6 | `p.empiler('Verne')` |\n| 7 | `b = p.depiler()` |\n| 8 | `c = p.depiler()` |",
    "questions": [
     {
      "slot": 1,
      "notion": "pile",
-     "enonce": "Écrire une fonction hauteur_max(t) (paramètre : un tableau d'entiers positifs ou nuls) qui renvoie le nombre maximal d'éléments présents simultanément dans la pile.",
+     "enonce": "Quelle est la valeur de la variable `c` à l'issue de l'étape 8 ? Quel est alors le contenu de la pile `p` ?",
      "points": 1,
-     "reponse_attendue": "def hauteur_max(t):\n    h = 0\n    m = 0\n    for x in t:\n        if x == 0:\n            h = h - 1\n        else:\n            h = h + 1\n            if h > m:\n                m = h\n    return m\n\nassert hauteur_max([4, 7, 0, 2, 5, 0, 0, 9]) == 3"
+     "reponse_attendue": "`c` vaut 'Zola' (a = 'Sand', b = 'Verne'). La pile contient alors seulement 'Hugo'."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Annuler dans un éditeur",
-   "contexte": "Un éditeur de texte mémorise chaque action de l'utilisateur (saisie, suppression, mise en gras) dans une structure historique ; la commande « Annuler » (Ctrl+Z) défait toujours l'action la plus récente non encore annulée (et peut être répétée plusieurs fois).",
+   "titre": "Consulter le sommet",
+   "contexte": "On reprend la classe `Pile` ci-dessous, dont le contenu est stocké dans une liste Python dont le dernier élément est le sommet.\n\n```python\nclass Pile:\n    def __init__(self):\n        self.contenu = []\n\n    def est_vide(self):\n        return self.contenu == []\n\n    def empiler(self, x):\n        self.contenu.append(x)\n\n    def depiler(self):\n        return self.contenu.pop()\n```\n\nLa méthode `sommet` ne prend aucun paramètre (autre que `self`) et renvoie l'élément situé au sommet de la pile sans le retirer ; elle renvoie `None` si la pile est vide.",
    "questions": [
     {
      "slot": 2,
      "notion": "pile",
-     "enonce": "Expliquer pourquoi une pile, plutôt qu'une file, est la structure adaptée pour stocker l'historique des actions.",
+     "enonce": "Écrire le code de la méthode `sommet` de la classe `Pile` qui renvoie l'élément au sommet de la pile sans modifier la pile.",
      "points": 1,
-     "reponse_attendue": "Annuler doit défaire d'abord la dernière action effectuée, puis l'avant-dernière, etc. : c'est le principe LIFO (dernier entré, premier sorti) de la pile ; une file (FIFO) renverrait la plus ancienne action, ce qui est incorrect."
+     "reponse_attendue": "```python\n    def sommet(self):\n        if self.est_vide():\n            return None\n        return self.contenu[-1]\n```\n(Variante acceptée : x = self.depiler(); self.empiler(x); return x.)"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Choisir la structure",
-   "contexte": "Pour chacune des situations suivantes, on hésite entre une pile et une file :\n- a. l'impression de documents envoyés à une imprimante partagée ;\n- b. le bouton « Page précédente » d'un navigateur web ;\n- c. la vérification du bon parenthésage d'une expression.",
+   "titre": "Pile et boucle",
+   "contexte": "On dispose de la classe `Pile` suivante :\n\n```python\nclass Pile:\n    def __init__(self):\n        self.contenu = []\n\n    def est_vide(self):\n        return self.contenu == []\n\n    def empiler(self, x):\n        self.contenu.append(x)\n\n    def depiler(self):\n        return self.contenu.pop()\n```\n\nOn exécute les instructions :\n\n```python\nvaleurs = [4, 7, 1, 9, 3]\np = Pile()\nfor i in range(len(valeurs)):\n    if valeurs[i] % 2 == 1:\n        p.empiler(valeurs[i])\nresultat = []\nwhile not p.est_vide():\n    resultat.append(p.depiler())\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "pile",
-     "enonce": "Quelle structure (pile ou file) convient à chacune des situations a, b et c ? Justifier brièvement.",
+     "enonce": "Déterminer la valeur de la variable `resultat` à l'issue de ces instructions.",
      "points": 1,
-     "reponse_attendue": "a. file (premier envoyé, premier imprimé, FIFO) ; b. pile (on revient à la dernière page visitée, LIFO) ; c. pile (chaque parenthèse fermante correspond à la dernière ouvrante non fermée, LIFO)."
+     "reponse_attendue": "`resultat` vaut `[3, 9, 1, 7]` : seuls les impairs 7, 1, 9, 3 sont empilés, puis dépilés dans l'ordre inverse (LIFO)."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Mode de fonctionnement d'une pile",
-   "contexte": "On empile successivement les valeurs 3, 8 puis 5 dans une pile vide p, puis on exécute une fois depile(p).",
+   "titre": "Annulation dans un éditeur",
+   "contexte": "Un éditeur de texte enregistre chaque action de l'utilisateur dans une pile d'annulation. L'utilisateur effectue successivement les actions : « taper bonjour », « mettre en gras », « changer la police », « souligner ». Il appuie ensuite trois fois sur le bouton « Annuler », chaque appui annulant une action retirée de la pile.",
    "questions": [
     {
      "slot": 4,
      "notion": "pile",
-     "enonce": "Donner le nom (et la signification) du mode de fonctionnement d'une pile, puis la valeur renvoyée par depile(p).",
+     "enonce": "Indiquer, dans l'ordre, les trois actions annulées, en tenant compte du mode de fonctionnement d'une pile, puis nommer ce mode (acronyme et signification).",
      "points": 1,
-     "reponse_attendue": "Mode LIFO (Last In, First Out : dernier entré, premier sorti) ; depile(p) renvoie 5."
+     "reponse_attendue": "Ordre d'annulation : « souligner », puis « changer la police », puis « mettre en gras ». Il reste « taper bonjour ». La pile fonctionne en mode LIFO : Last In, First Out (dernier arrivé, premier sorti)."
     }
    ]
   }

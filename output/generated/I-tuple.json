@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Points d'un parcours",
-   "contexte": "Un parcours est une liste de points représentés par des tuples (x, y) :\n\n```python\nparcours = [(0, 0), (3, 4), (3, 7)]\np = parcours[1]\nx, y = p\nparcours[2] = (x + 1, y)\n```",
+   "titre": "Points du plan",
+   "contexte": "Un point du plan est représenté par un tuple `(x, y)` de deux nombres. On souhaite une fonction `milieu` qui prend en paramètres deux points `a` et `b` et renvoie le tuple représentant le milieu du segment [ab] ; par exemple `milieu((0, 2), (4, 6))` renvoie `(2.0, 4.0)`.",
    "questions": [
     {
      "slot": 1,
      "notion": "tuple",
-     "enonce": "Donner le contenu de parcours après exécution et expliquer pourquoi l'instruction p[0] = 5 provoquerait une erreur.",
+     "enonce": "Écrire la fonction `milieu` qui prend en paramètres `a` et `b` et qui renvoie le milieu du segment.",
      "points": 1,
-     "reponse_attendue": "[(0, 0), (3, 4), (4, 4)] ; un tuple est immuable, on ne peut pas modifier ses éléments (TypeError)."
+     "reponse_attendue": "```python\ndef milieu(a, b):\n    return ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Élève le plus âgé",
-   "contexte": "Chaque élève est un tuple (nom, age) :\n\n```python\n1| def plus_age(eleves):\n2|     meilleur = eleves[0]\n3|     for e in eleves:\n4|         if ...:\n5|             meilleur = ...\n6|     return meilleur[0]\n```",
+   "titre": "Point le plus bas",
+   "contexte": "On considère les instructions suivantes.\n\n```python\npoints = [(2, 5), (7, 1), (4, 4), (3, 1)]\nm = points[0]\nfor p in points:\n    if p[1] < m[1]:\n        m = p\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "tuple",
-     "enonce": "Recopier et compléter les lignes 4 et 5 pour que la fonction renvoie le nom de l'élève le plus âgé.",
+     "enonce": "Quelle est la valeur de `m` à la fin de ces instructions ? Justifier.",
      "points": 1,
-     "reponse_attendue": "def plus_age(eleves):\n    meilleur = eleves[0]\n    for e in eleves:\n        if e[1] > meilleur[1]:\n            meilleur = e\n    return meilleur[0]"
+     "reponse_attendue": "`(7, 1)` : m prend la valeur du premier point d'ordonnée strictement plus petite ; (3, 1) a la même ordonnée 1, la comparaison stricte ne remplace donc pas (7, 1)."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Bornes d'une liste",
-   "contexte": "La fonction bornes prend en paramètre une liste non vide d'entiers L, parcourt la liste une seule fois, et renvoie un tuple (mini, maxi) contenant la plus petite et la plus grande valeur de L.",
+   "titre": "Modifier un tuple",
+   "contexte": "On exécute `t = (1, 2, 3)` puis `t[0] = 4`. On propose :\n\nA - t vaut (4, 2, 3)\nB - t vaut (4, 1, 2, 3)\nC - une erreur TypeError est levée\nD - t vaut [4, 2, 3]",
    "questions": [
     {
      "slot": 3,
      "notion": "tuple",
-     "enonce": "Écrire la fonction bornes.",
+     "enonce": "Quel est l'effet de l'instruction `t[0] = 4` ? Justifier.",
      "points": 1,
-     "reponse_attendue": "def bornes(L):\n    mini = L[0]\n    maxi = L[0]\n    for x in L:\n        if x < mini:\n            mini = x\n        if x > maxi:\n            maxi = x\n    return (mini, maxi)"
+     "reponse_attendue": "C. Un tuple n'est pas mutable : on ne peut pas affecter un de ses éléments (TypeError: 'tuple' object does not support item assignment). Il faut créer un nouveau tuple, par exemple `t = (4,) + t[1:]`."
     }
    ]
   },
   {
    "numero": 4,
    "titre": "Vecteurs de distance",
-   "contexte": "Dans le protocole RIP, un routeur envoie à ses voisins des vecteurs de distance, couples (adresse, distance). Le routeur R reçoit de son voisin les vecteurs [('10.0.1.0', 2), ('10.0.2.0', 0)].",
+   "contexte": "Dans le protocole RIP, un vecteur de distance est un couple (adresse, distance), la distance étant un nombre de sauts. Le routeur R reçoit de son voisin direct V les vecteurs de distance :\n\n```python\n[(\"10.0.1.0\", 2), (\"10.0.2.0\", 0), (\"10.0.5.0\", 1)]\n```",
    "questions": [
     {
      "slot": 4,
      "notion": "tuple",
-     "enonce": "Justifier le choix d'un tuple pour représenter un vecteur de distance, puis donner les vecteurs que R enregistre pour ces réseaux.",
+     "enonce": "Donner la liste des vecteurs de distance que R en déduit pour joindre ces réseaux en passant par V.",
      "points": 1,
-     "reponse_attendue": "Un vecteur est une donnée fixe de deux composantes hétérogènes qu'on ne modifie pas : le tuple, immuable, convient. R ajoute 1 à chaque distance : ('10.0.1.0', 3) et ('10.0.2.0', 1)."
+     "reponse_attendue": "Passer par V ajoute un saut : `[(\"10.0.1.0\", 3), (\"10.0.2.0\", 1), (\"10.0.5.0\", 2)]`."
     }
    ]
   }

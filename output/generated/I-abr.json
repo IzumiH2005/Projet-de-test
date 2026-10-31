@@ -3,43 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Mystère dans un ABR",
-   "contexte": "Une médiathèque range les cotes numériques de ses ouvrages dans un arbre binaire de recherche. Un nœud est un objet de la classe Noeud (attributs valeur, gauche, droit ; None représente l'arbre vide).\n\n```python\n1 def mystere(a):\n2     if a is None:\n3         return None\n4     if a.droit is None:\n5         return a.valeur\n6     return mystere(a.droit)\n```\n\nL'ABR contient les cotes 50 (racine), 30 et 70 (fils de 50), 20 et 40 (fils de 30), 60 et 80 (fils de 70).",
+   "titre": "Bibliothèque de prix",
+   "contexte": "Une librairie range les prix (en euros, entiers) de ses livres dans un arbre binaire de recherche (ABR). Un arbre vide est représenté par None. On dispose du code suivant :\n\n```python\n1 class Noeud:\n2     def __init__(self, g, v, d):\n3         self.gauche = g\n4         self.valeur = v\n5         self.droit = d\n6\n7 def inserer(arbre, v):\n8     if arbre is None:\n9         return Noeud(None, v, None)\n10    if v < arbre.valeur:\n11        arbre.gauche = inserer(arbre.gauche, v)\n12    else:\n13        arbre.droit = inserer(arbre.droit, v)\n14    return arbre\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "abr",
-     "enonce": "Donner la valeur renvoyée par l'appel mystere(racine) puis expliquer en une phrase ce que calcule cette fonction pour un ABR quelconque.",
+     "enonce": "Écrire une fonction compter_entre qui prend en paramètres un ABR arbre et deux entiers a et b (avec a <= b) et qui renvoie le nombre de clés de arbre comprises entre a et b inclus, en n'explorant un sous-arbre que s'il peut contenir de telles clés.",
      "points": 1,
-     "reponse_attendue": "80. La fonction descend toujours vers le fils droit : elle renvoie la plus grande valeur de l'ABR (None si l'arbre est vide)."
+     "reponse_attendue": "```python\ndef compter_entre(arbre, a, b):\n    if arbre is None:\n        return 0\n    if arbre.valeur < a:\n        return compter_entre(arbre.droit, a, b)\n    if arbre.valeur > b:\n        return compter_entre(arbre.gauche, a, b)\n    return 1 + compter_entre(arbre.gauche, a, b) + compter_entre(arbre.droit, a, b)\n```\nSi la valeur du nœud est < a, seules les clés du sous-arbre droit peuvent convenir ; si elle est > b, seules celles du sous-arbre gauche."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Compter les cotes d'un intervalle",
-   "contexte": "On reprend la classe Noeud (attributs valeur, gauche, droit ; None pour l'arbre vide). La fonction demandée prend trois paramètres : un ABR a, un entier bas, un entier haut ; elle renvoie le nombre de valeurs v de l'arbre telles que bas <= v <= haut, en n'explorant un sous-arbre que s'il peut contenir de telles valeurs.",
+   "titre": "Insertions successives",
+   "contexte": "On reprend la classe Noeud et la fonction inserer ci-dessous.\n\n```python\n1 class Noeud:\n2     def __init__(self, g, v, d):\n3         self.gauche = g\n4         self.valeur = v\n5         self.droit = d\n6\n7 def inserer(arbre, v):\n8     if arbre is None:\n9         return Noeud(None, v, None)\n10    if v < arbre.valeur:\n11        arbre.gauche = inserer(arbre.gauche, v)\n12    else:\n13        arbre.droit = inserer(arbre.droit, v)\n14    return arbre\n```\n\nOn exécute :\n\n```python\nabr = None\nfor v in [15, 8, 22, 4, 11, 19, 30, 9]:\n    abr = inserer(abr, v)\n```\n\n| Expression | Valeur |\n|---|---|\n| abr.valeur | 15 |\n| abr.gauche.valeur | 8 |\n| abr.gauche.droit.gauche.valeur | ? |",
    "questions": [
     {
      "slot": 2,
      "notion": "abr",
-     "enonce": "Écrire une fonction compte_intervalle(a, bas, haut) qui renvoie le nombre de valeurs de l'ABR a comprises entre bas et haut (inclus).",
+     "enonce": "Quelle est la valeur de abr.gauche.droit.gauche.valeur après l'exécution de ce code ?",
      "points": 1,
-     "reponse_attendue": "```python\nclass Noeud:\n    def __init__(self, v, g=None, d=None):\n        self.valeur, self.gauche, self.droit = v, g, d\n\ndef compte_intervalle(a, bas, haut):\n    if a is None:\n        return 0\n    if a.valeur < bas:\n        return compte_intervalle(a.droit, bas, haut)\n    if a.valeur > haut:\n        return compte_intervalle(a.gauche, bas, haut)\n    return 1 + compte_intervalle(a.gauche, bas, haut) + compte_intervalle(a.droit, bas, haut)\n\nr = Noeud(50, Noeud(30, Noeud(20), Noeud(40)), Noeud(70, Noeud(60), Noeud(80)))\nassert compte_intervalle(r, 35, 65) == 3\n```"
+     "reponse_attendue": "9 : 9 < 15 donc à gauche de 15, 9 > 8 donc à droite de 8 (nœud 11), 9 < 11 donc fils gauche de 11."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Index d'une base de données",
-   "contexte": "Un SGBD indexe la colonne age d'une table à l'aide d'un ABR : c'est l'une des utilisations classiques des ABR (bases de données indexées). Les âges sont insérés dans l'ordre 41, 25, 63, 25, 30, 70 avec la règle du cours : une valeur inférieure ou égale à celle d'un nœud va dans son sous-arbre gauche, une valeur strictement supérieure dans son sous-arbre droit.",
+   "titre": "Arbre dégénéré",
+   "contexte": "On considère la fonction hauteur ci-dessous (la hauteur d'un arbre vide vaut 0, celle d'un arbre réduit à sa racine vaut 1), ainsi que la fonction inserer d'un ABR (insertion à gauche si la clé est strictement inférieure, à droite sinon).\n\n```python\ndef hauteur(arbre):\n    if arbre is None:\n        return 0\n    return 1 + max(hauteur(arbre.gauche), hauteur(arbre.droit))\n\nabr = None\nfor k in range(1, 7):\n    abr = inserer(abr, k * 10)\nh = hauteur(abr)\n```\n\n(On rappelle que, pour un ABR équilibré de taille n, la hauteur est de l'ordre de log2(n).)",
    "questions": [
     {
      "slot": 3,
      "notion": "abr",
-     "enonce": "Donner la liste obtenue par le parcours infixe de l'ABR après ces six insertions, puis la hauteur de l'arbre (un arbre réduit à sa racine a une hauteur de 1).",
+     "enonce": "Déterminer la valeur de h à l'issue des instructions ci-dessus, puis expliquer ce que ce résultat implique pour le coût d'une recherche dans cet arbre.",
      "points": 1,
-     "reponse_attendue": "Infixe : [25, 25, 30, 41, 63, 70]. Arbre : 41 → gauche 25 (dont le fils gauche est 25 et le fils droit 30), droite 63 → droit 70. Hauteur 3."
+     "reponse_attendue": "Les clés 10, 20, 30, 40, 50, 60 sont insérées dans l'ordre croissant : chacune devient le fils droit de la précédente, l'arbre est un « peigne ». h = 6. La recherche d'une clé absente plus grande que 60 parcourt les 6 nœuds : le coût est linéaire en la taille (n étapes) au lieu d'être de l'ordre de log2(n) pour un ABR équilibré."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Vérification par le parcours infixe",
+   "contexte": "On considère l'arbre binaire suivant, décrit nœud par nœud :\n\n- racine : 9, de fils gauche 5 et de fils droit 12 ;\n- 5 a pour fils gauche 3 et pour fils droit 7 ;\n- 7 a pour fils droit 10 ;\n- 12 n'a pas de fils.\n\nOn rappelle qu'un arbre binaire est un ABR si et seulement si son parcours infixe donne une suite strictement croissante de clés (clés distinctes).",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "abr",
+     "enonce": "Donner le parcours infixe de cet arbre et indiquer, en tenant compte de ce parcours, si cet arbre est un arbre binaire de recherche.",
+     "points": 1,
+     "reponse_attendue": "Parcours infixe : 3, 5, 7, 10, 9, 12. La suite n'est pas croissante (10 précède 9) : ce n'est pas un ABR (10 est dans le sous-arbre gauche de 9 alors que 10 > 9)."
     }
    ]
   }

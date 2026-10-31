@@ -3,29 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Requêtes d'une médiathèque",
-   "contexte": "Une médiathèque utilise la table Emprunt(id, titre, adherent, duree) où duree est le nombre de jours d'emprunt. Le responsable souhaite :\n- connaître les titres empruntés plus de 21 jours ;\n- trier ces titres par ordre alphabétique ;\n- ne pas afficher de doublons.",
+   "titre": "Ventes d'une librairie",
+   "contexte": "La table `vente` d'une librairie contient :\n\n| id | titre | qte |\n|---|---|---|\n| 1 | Dune | 3 |\n| 2 | Ubik | 1 |\n| 3 | Solaris | 5 |\n| 4 | Dune | 2 |\n\n```sql\nSELECT COUNT(*) FROM vente WHERE qte >= 2 AND titre <> 'Solaris';\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "sql",
-     "enonce": "Écrire une requête SQL répondant à l'ensemble de ces besoins.",
+     "enonce": "Quelle est la valeur renvoyée par cette requête ? Justifier.",
      "points": 1,
-     "reponse_attendue": "SELECT DISTINCT titre FROM Emprunt WHERE duree > 21 ORDER BY titre;"
+     "reponse_attendue": "2 : seules les lignes 1 (Dune, 3) et 4 (Dune, 2) vérifient qte >= 2 et titre différent de 'Solaris'."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Agence de location",
-   "contexte": "La base de données locations.db contient les tables Agences(id_agence, ville), Vehicules(immat, modele, id_agence) et Locations(id_loc, immat, date_debut, date_fin). L'attribut id_agence de Vehicules est une clé étrangère vers Agences, immat de Locations est une clé étrangère vers Vehicules.",
+   "titre": "Requête construite en Python",
+   "contexte": "Un programme Python construit le texte d'une requête SQL à partir d'une liste de villes.\n\n```python\nvilles = [\"Lyon\", \"Nantes\", \"Lille\"]\nrequete = \"SELECT nom FROM client WHERE\"\nfor i in range(len(villes)):\n    if i > 0:\n        requete = requete + \" OR\"\n    requete = requete + \" ville = '\" + villes[i] + \"'\"\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "sql",
-     "enonce": "Écrire une requête SQL donnant les immatriculations des véhicules loués au moins une fois, appartenant à l'agence de la ville 'Lyon'.",
+     "enonce": "Déterminer la valeur de la variable `requete` à l'issue de ces instructions.",
      "points": 1,
-     "reponse_attendue": "SELECT DISTINCT Vehicules.immat FROM Vehicules JOIN Agences ON Vehicules.id_agence = Agences.id_agence JOIN Locations ON Locations.immat = Vehicules.immat WHERE Agences.ville = 'Lyon';"
+     "reponse_attendue": "`\"SELECT nom FROM client WHERE ville = 'Lyon' OR ville = 'Nantes' OR ville = 'Lille'\"`"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Nettoyage d'un catalogue",
+   "contexte": "La table `livre(id, titre, annee)` recense les livres d'une médiathèque. On veut supprimer uniquement les livres parus avant 1950. On propose :\n\na) `DELETE FROM livre WHERE annee < 1950;`\nb) `DELETE livre WHERE annee < 1950;`\nc) `DROP TABLE livre WHERE annee < 1950;`\nd) `UPDATE livre SET annee = NULL WHERE annee < 1950;`",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "sql",
+     "enonce": "Quelle est la requête correcte ? Justifier en expliquant ce que fait une des autres propositions.",
+     "points": 1,
+     "reponse_attendue": "a). La syntaxe est DELETE FROM table WHERE condition. b) est syntaxiquement incorrecte (FROM manquant) ; c) DROP TABLE supprime toute la table et n'accepte pas de WHERE ; d) modifie l'année sans supprimer les lignes."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Stock d'un supermarché",
+   "contexte": "On considère le schéma de la base de données du stock d'un supermarché :\n\n- `rayon(id_rayon, nom)` ; clé primaire `id_rayon` ;\n- `produit(id_produit, nom, prix, id_rayon)` ; clé primaire `id_produit`, `id_rayon` clé étrangère vers `rayon` ;\n- `stock(id_produit, quantite)` ; `id_produit` clé étrangère vers `produit`.\n\nLa table `rayon` contient les rayons d'identifiants 1 à 8. On exécute :\n\n```sql\nINSERT INTO produit VALUES (12, 'Riz', 2.10, 9);\n```",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "sql",
+     "enonce": "On cherche à ajouter le produit 'Riz' dans la base du supermarché. Expliquer pourquoi cette insertion est refusée et indiquer comment la rendre possible.",
+     "points": 1,
+     "reponse_attendue": "La valeur 9 de la clé étrangère `id_rayon` ne correspond à aucun rayon existant : l'insertion violerait la contrainte d'intégrité référentielle. Il faut insérer le produit dans un rayon existant (id_rayon entre 1 et 8), ou créer d'abord le rayon : `INSERT INTO rayon VALUES (9, 'Épicerie');`."
     }
    ]
   }

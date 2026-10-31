@@ -3,29 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Positions d'un motif",
-   "contexte": "On donne la fonction naïve :\n\ndef positions(texte, motif):\n    res = []\n    for i in range(len(texte) - len(motif) + 1):\n        if texte[i:i + len(motif)] == motif:\n            res.append(i)\n    return res\n\nOn considère l'appel positions('1011010110', '101').",
+   "titre": "Rechercher un motif dans une base",
+   "contexte": "Une base `bibli` contient la table `livre(id, titre, resume)`. On veut les livres dont le résumé contient le mot « dragon ». On compare deux solutions :\n\n```sql\nSELECT titre FROM livre WHERE resume LIKE '%dragon%';\n```\n\n```python\ndef contient(texte, motif):\n    n, m = len(texte), len(motif)\n    for i in range(n - m + 1):\n        j = 0\n        while j < m and texte[i + j] == motif[j]:\n            j = j + 1\n        if j == m:\n            return True\n    return False\n```\n\n| id | titre | resume |\n|---|---|---|\n| 1 | Le Val | un Dragon garde la vallée |\n| 2 | Braises | les dragons dorment |",
    "questions": [
     {
      "slot": 1,
      "notion": "recherche_textuelle",
-     "enonce": "Donner la valeur renvoyée par cet appel.",
+     "enonce": "On cherche à sélectionner les livres de la base `bibli` dont le résumé contient « dragon ». Indiquer le résultat de la fonction `contient` sur chacun des deux résumés, et expliquer le phénomène observé pour le livre 1.",
      "points": 1,
-     "reponse_attendue": "[0, 3, 5]"
+     "reponse_attendue": "contient('un Dragon garde la vallée', 'dragon') renvoie False ; contient('les dragons dorment', 'dragon') renvoie True. Pour le livre 1, la recherche naïve compare les caractères exactement : 'D' ≠ 'd', la recherche est sensible à la casse, donc le motif n'est pas trouvé (il faudrait par exemple comparer texte.lower())."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Arrêt à la première occurrence",
-   "contexte": "On souhaite réécrire l'algorithme naïf de recherche d'un motif pour qu'il s'arrête dès qu'une occurrence du motif est trouvée (renvoyer sa position, ou -1).",
+   "titre": "Recherche naïve",
+   "contexte": "On recherche le motif `motif` de longueur 3 dans un texte de longueur 12. La fonction `recherche_naive` renvoie la liste des positions de toutes les occurrences.\n\n```python\n1  def recherche_naive(texte, motif):\n2      positions = []\n3      for i in range(...):\n4          j = 0\n5          while j < len(motif) and ...:\n6              j = j + 1\n7          if ...:\n8              positions.append(i)\n9      return positions\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "recherche_textuelle",
-     "enonce": "Expliquer en quoi cette modification réduit le nombre de comparaisons, et écrire la fonction premiere(texte, motif).",
+     "enonce": "Recopier et compléter les lignes 3, 5 et 7 de la fonction `recherche_naive`.",
      "points": 1,
-     "reponse_attendue": "On ne parcourt plus la suite du texte une fois l'occurrence trouvée : dans le meilleur cas, on économise presque tout le parcours.\n\ndef premiere(texte, motif):\n    n, m = len(texte), len(motif)\n    for i in range(n - m + 1):\n        j = 0\n        while j < m and texte[i + j] == motif[j]:\n            j = j + 1\n        if j == m:\n            return i\n    return -1\n\nassert premiere('abracadabra', 'cad') == 4\nassert premiere('abc', 'z') == -1"
+     "reponse_attendue": "Ligne 3 : `for i in range(len(texte) - len(motif) + 1):` ; ligne 5 : `while j < len(motif) and texte[i + j] == motif[j]:` ; ligne 7 : `if j == len(motif):`. Exemple : recherche_naive('abracadabra', 'abr') renvoie [0, 7]."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Table des décalages",
+   "contexte": "On donne la classe `Motif` utilisée par l'algorithme de Boyer-Moore-Horspool. La méthode `table_sauts` renvoie un dictionnaire associant à chaque caractère du motif, sauf le dernier, la distance entre sa dernière occurrence (hors dernière position) et la fin du motif.\n\n```python\n1  class Motif:\n2      def __init__(self, chaine):\n3          self.chaine = chaine\n4\n5      def table_sauts(self):\n6          m = len(self.chaine)\n7          d = {}\n8          for i in range(...):\n9              d[self.chaine[i]] = ...\n10         return d\n11\n12     def saut(self, c):\n13         d = self.table_sauts()\n14         if c in d:\n15             return d[c]\n16         return ...\n```\n\nPar exemple `Motif('maman').table_sauts()` renvoie `{'m': 2, 'a': 1}`.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "recherche_textuelle",
+     "enonce": "Recopier et compléter les lignes 8, 9 et 16 de la classe `Motif`, la méthode `saut` renvoyant la longueur du motif si le caractère n'y figure pas.",
+     "points": 1,
+     "reponse_attendue": "Ligne 8 : `for i in range(m - 1):` ; ligne 9 : `d[self.chaine[i]] = m - 1 - i` ; ligne 16 : `return len(self.chaine)`. Vérification : pour 'maman', m=5 : 'm'→4 puis 2, 'a'→3 puis 1, donc {'m': 2, 'a': 1}."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Arrêt à la première occurrence",
+   "contexte": "On dispose de la fonction suivante, qui compte les occurrences d'un motif :\n\n```python\ndef compte(texte, motif):\n    n, m = len(texte), len(motif)\n    nb = 0\n    for i in range(n - m + 1):\n        if texte[i:i + m] == motif:\n            nb = nb + 1\n    return nb\n```",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "recherche_textuelle",
+     "enonce": "Ré-écrire cet algorithme sous la forme d'une fonction `premiere` qui s'arrête dès qu'une occurrence du motif est trouvée et renvoie sa position, ou -1 en l'absence d'occurrence.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef premiere(texte, motif):\n    n, m = len(texte), len(motif)\n    i = 0\n    while i <= n - m:\n        if texte[i:i + m] == motif:\n            return i\n        i = i + 1\n    return -1\n```\nExemple : premiere('banane', 'an') renvoie 1."
     }
    ]
   }

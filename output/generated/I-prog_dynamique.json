@@ -3,15 +3,43 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Appels de Fibonacci",
-   "contexte": "On considère la fonction récursive naïve :\n\ndef fib(n):\n    if n < 2:\n        return n\n    return fib(n - 1) + fib(n - 2)\n\nEn programmation dynamique (mémoïsation), chaque valeur fib(k) n'est calculée qu'une fois, ce qui minimise le nombre d'opérations.",
+   "titre": "Chemins dans une grille",
+   "contexte": "On cherche le nombre de chemins allant du coin supérieur gauche au coin inférieur droit d'une grille de n lignes et m colonnes de cases, en se déplaçant le long des traits uniquement vers la droite ou vers le bas. On note c(i, j) le nombre de chemins menant au point d'intersection (i, j) ; on a c(i, 0) = c(0, j) = 1 et c(i, j) = c(i-1, j) + c(i, j-1).\n\nLa fonction `nb_chemins` prend en paramètres deux entiers `n` et `m` et renvoie le nombre de chemins, calculé par programmation dynamique ascendante à l'aide d'un tableau de (n+1) lignes et (m+1) colonnes.",
    "questions": [
     {
      "slot": 1,
      "notion": "prog_dynamique",
-     "enonce": "Dénombrer le nombre total d'appels à fib lors de l'exécution de fib(5) avec la version naïve, puis le nombre de valeurs distinctes calculées avec la version mémoïsée.",
+     "enonce": "Écrire la fonction `nb_chemins` qui renvoie ce nombre de chemins en utilisant la programmation dynamique.",
      "points": 1,
-     "reponse_attendue": "Version naïve : 15 appels (A(n)=1+A(n-1)+A(n-2), A(0)=A(1)=1 : A(2)=3, A(3)=5, A(4)=9, A(5)=15). Version mémoïsée : 6 valeurs distinctes fib(0) à fib(5)."
+     "reponse_attendue": "```python\ndef nb_chemins(n, m):\n    c = [[1] * (m + 1) for _ in range(n + 1)]\n    for i in range(1, n + 1):\n        for j in range(1, m + 1):\n            c[i][j] = c[i - 1][j] + c[i][j - 1]\n    return c[n][m]\n```\nPar exemple nb_chemins(2, 3) renvoie 10."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Rendu de monnaie",
+   "contexte": "On dispose d'un système de pièces (une liste d'entiers strictement positifs contenant 1) et d'une somme à rendre (un entier positif). On veut le nombre minimal de pièces (chaque pièce pouvant être utilisée plusieurs fois). On note nb[s] ce minimum pour la somme s (avec nb[0] = 0).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "prog_dynamique",
+     "enonce": "Écrire une fonction `rendu_min` qui prend en paramètres `pieces` (liste d'entiers) et `somme` (entier) et qui renvoie le nombre minimal de pièces, par programmation dynamique.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef rendu_min(pieces, somme):\n    nb = [0] * (somme + 1)\n    for s in range(1, somme + 1):\n        nb[s] = s  # avec uniquement des pièces de 1\n        for p in pieces:\n            if p <= s and nb[s - p] + 1 < nb[s]:\n                nb[s] = nb[s - p] + 1\n    return nb[somme]\n```\nExemple : rendu_min([1, 4, 6], 8) renvoie 2 (4 + 4), alors que le glouton donne 3."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Mémoïser dans une base",
+   "contexte": "Un site de calcul stocke, dans une table `fibo(n, valeur)` de la base `cache` dont `n` est la clé primaire, les termes de la suite de Fibonacci déjà calculés. Pour calculer F(n), le programme cherche d'abord F(n-1) et F(n-2) dans la table ; s'ils y figurent, il calcule F(n) = F(n-1) + F(n-2) puis l'insère. La table contient actuellement les lignes (0, 0), (1, 1), …, (40, 102334155).",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "prog_dynamique",
+     "enonce": "On cherche à obtenir F(41) dans la base `cache`. Expliquer pourquoi ce calcul est immédiat, et le lien avec la programmation dynamique.",
+     "points": 1,
+     "reponse_attendue": "F(40) et F(39) sont déjà dans la table : il suffit de deux lectures et d'une addition (F(41) = 102334155 + 63245986 = 165580141), sans recalculer les sous-problèmes. C'est le principe de la programmation dynamique : déterminer un résultat à partir de résultats précédents mémorisés (mémoïsation), au prix d'un coût en mémoire."
     }
    ]
   }

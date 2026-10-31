@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Fonction testée par assertions",
-   "contexte": "On fournit les tests suivants :\n\n```python\nassert compte_pairs([]) == 0\nassert compte_pairs([1, 3, 5]) == 0\nassert compte_pairs([2, 4, 7, 8]) == 3\n```\n\n```python\n1 def compte_pairs(t):\n2     n = 0\n3     ...\n```",
+   "titre": "Assertion et modèle relationnel",
+   "contexte": "Une base de données de location de vélos contient la table Velo(id_velo, modele, km) dont id_velo est la clé primaire. Avant toute insertion, un programme Python vérifie que l'identifiant n'est pas déjà utilisé ; ids est la liste des id_velo déjà présents dans la table.\n```python\n1 def preparer_insertion(ids, nouveau_id, modele):\n2     assert nouveau_id not in ids, \"identifiant déjà utilisé\"\n3     return (nouveau_id, modele, 0)\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "mise_au_point",
-     "enonce": "Recopier et compléter la fonction compte_pairs (à partir de la ligne 3) qui renvoie le nombre d'éléments pairs de t, de sorte que tous les tests passent.",
+     "enonce": "Expliquer le rôle de la ligne 2 de la fonction preparer_insertion et décrire ce qui se passe lors de l'appel preparer_insertion([1, 2, 3], 2, 'VTT').",
      "points": 1,
-     "reponse_attendue": "def compte_pairs(t):\n    n = 0\n    for x in t:\n        if x % 2 == 0:\n            n = n + 1\n    return n"
+     "reponse_attendue": "La ligne 2 vérifie une précondition : la clé primaire doit rester unique. Si la condition est fausse, l'exécution s'arrête en levant une AssertionError avec le message « identifiant déjà utilisé ». Pour l'appel donné, 2 est déjà dans ids : AssertionError, aucun tuple n'est renvoyé et l'insertion qui violerait la contrainte de clé primaire est évitée."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Bug d'indice",
-   "contexte": "```python\ndef dernier_positif(t):\n    for i in range(len(t) - 1, 0, -1):\n        if t[i] > 0:\n            return i\n    return -1\n```",
+   "titre": "Jeu de tests",
+   "contexte": "La fonction suivante doit renvoyer la mention correspondant à une note sur 20.\n```python\ndef mention(note):\n    if note >= 16:\n        return 'TB'\n    elif note >= 14:\n        return 'B'\n    elif note > 12:\n        return 'AB'\n    else:\n        return 'Aucune'\n```\nTableau des mentions attendues :\n\n| note | mention |\n|---|---|\n| [16 ; 20] | TB |\n| [14 ; 16[ | B |\n| [12 ; 14[ | AB |\n| [0 ; 12[ | Aucune |",
    "questions": [
     {
      "slot": 2,
      "notion": "mise_au_point",
-     "enonce": "Donner la valeur renvoyée par dernier_positif([5, -2, -3]) et expliquer l'erreur révélée.",
+     "enonce": "Donner l'instruction assert correspondant à un test qui met en évidence l'erreur de cette fonction, puis la correction à apporter.",
      "points": 1,
-     "reponse_attendue": "-1 ; l'indice 0 n'est jamais examiné car range(len(t)-1, 0, -1) s'arrête avant 0 : il faut range(len(t)-1, -1, -1), qui renverrait 0."
+     "reponse_attendue": "assert mention(12) == 'AB' échoue (la fonction renvoie 'Aucune'). Correction : remplacer elif note > 12: par elif note >= 12:."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Type d'erreur",
-   "contexte": "Lors de l'exécution d'un programme, l'interpréteur affiche l'un des messages suivants :\n- `IndexError: list index out of range`\n- `TypeError: unsupported operand type(s) for +: 'int' and 'str'`\n- `NameError: name 'totl' is not defined`\n\nLe programme contient l'instruction `total = 3 + input('nombre ? ')`.",
+   "titre": "Trouver le bug par la trace",
+   "contexte": "On souhaite calculer la moyenne des éléments d'une liste non vide.\n```python\n1 def moyenne(tab):\n2     s = 0\n3     for i in range(1, len(tab)):\n4         s = s + tab[i]\n5     return s / len(tab)\n6\n7 m = moyenne([10, 4, 7])\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "mise_au_point",
-     "enonce": "Quel message cette instruction provoque-t-elle ? Justifier.",
+     "enonce": "Déterminer la valeur de m à l'issue des instructions ci-dessus, puis indiquer la ligne erronée et la corriger.",
      "points": 1,
-     "reponse_attendue": "TypeError : input renvoie une chaîne (str), qu'on ne peut pas additionner à un entier."
+     "reponse_attendue": "La boucle commence à 1 : s = 4 + 7 = 11, donc m = 11 / 3 ≈ 3.67 au lieu de 7.0. Ligne 3 erronée ; correction : for i in range(len(tab)): (ou range(0, len(tab)))."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Configuration manuelle des routes",
-   "contexte": "Une entreprise configure à la main les tables de routage de ses routeurs. Le réseau : R1 relié à R2 et R3, R2 relié à R4, R3 relié à R4 ; le réseau 192.168.4.0/24 est derrière R4. L'administrateur a saisi dans R2 la route « 192.168.4.0/24 → passerelle R1 », et dans R1 la route « 192.168.4.0/24 → passerelle R2 ».",
+   "titre": "Configuration de routes statiques",
+   "contexte": "Un administrateur configure à la main les tables de routage d'un réseau de 6 routeurs. Pour éviter les erreurs de saisie, il écrit un script qui vérifie chaque table : routes est un dictionnaire {destination: passerelle} et voisins est la liste des routeurs directement reliés.\n```python\ndef verifier(routes, voisins):\n    for dest in routes:\n        assert routes[dest] in voisins, dest\n```\nPour le routeur R1, voisins = ['R2', 'R3'] et routes = {'R4': 'R2', 'R5': 'R3', 'R6': 'R5'}.",
    "questions": [
     {
      "slot": 4,
      "notion": "mise_au_point",
-     "enonce": "Donner le chemin suivi par un paquet partant de R1 vers 192.168.4.0/24 avec ces tables, et la route corrigée à saisir dans R2.",
+     "enonce": "Indiquer le résultat de verifier(routes, voisins) pour R1 en tenant compte du fait que la configuration manuelle d'un grand réseau est fastidieuse et source d'erreurs, et citer une solution pour éviter ces erreurs.",
      "points": 1,
-     "reponse_attendue": "R1 → R2 → R1 → R2 … : boucle de routage (le paquet est détruit quand son TTL atteint 0). Dans R2 il faut saisir : 192.168.4.0/24 → passerelle R4."
+     "reponse_attendue": "La passerelle 'R5' indiquée pour la destination R6 n'est pas un voisin de R1 : l'assertion échoue et lève AssertionError: R6 (erreur de configuration détectée). Sur un réseau complexe, on utilise plutôt un protocole de routage dynamique (RIP ou OSPF) qui construit automatiquement les tables."
     }
    ]
   }

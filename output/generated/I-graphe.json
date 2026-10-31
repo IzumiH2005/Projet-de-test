@@ -4,56 +4,56 @@
   {
    "numero": 1,
    "titre": "Réseau de pistes cyclables",
-   "contexte": "Un graphe non orienté est représenté par un dictionnaire de listes d'adjacence :\n\n```python\npistes = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'D'], 'D': ['B', 'C', 'E'], 'E': ['D']}\n```\n\nSpécification de la fonction `ajouter_arete` : elle prend en paramètres un graphe g (dictionnaire), deux sommets s1 et s2, ajoute s2 aux voisins de s1 et s1 aux voisins de s2, crée un sommet absent avec une liste vide, et n'ajoute jamais un voisin déjà présent.",
+   "contexte": "Le plan des pistes cyclables d'une commune est un graphe non orienté. Chaque arête est stockée une seule fois dans la table Piste(id_piste, depart, arrivee, longueur_km). Contenu de la table :\n\n| id_piste | depart | arrivee | longueur_km |\n|---|---|---|---|\n| 1 | Gare | Mairie | 2 |\n| 2 | Mairie | Lycee | 3 |\n| 3 | Gare | Port | 4 |\n| 4 | Port | Lycee | 1 |\n| 5 | Lycee | Stade | 5 |\n\nOn considère la requête :\n```sql\nSELECT arrivee FROM Piste WHERE depart = 'Lycee'\nUNION\nSELECT depart FROM Piste WHERE arrivee = 'Lycee';\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "graphe",
-     "enonce": "Écrire la fonction ajouter_arete(g, s1, s2) permettant d'ajouter l'arête entre s1 et s2 en respectant la spécification.",
+     "enonce": "Donner les valeurs renvoyées par la requête ci-dessus et expliquer en une phrase ce qu'elles représentent dans le graphe.",
      "points": 1,
-     "reponse_attendue": "def ajouter_arete(g, s1, s2):\n    if s1 not in g:\n        g[s1] = []\n    if s2 not in g:\n        g[s2] = []\n    if s2 not in g[s1]:\n        g[s1].append(s2)\n    if s1 not in g[s2]:\n        g[s2].append(s1)"
+     "reponse_attendue": "Valeurs renvoyées : Stade, Mairie, Port (ordre indifférent). Ce sont les voisins (sommets adjacents) du sommet Lycee ; leur nombre, 3, est le degré de Lycee."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Chaîne la plus courte",
-   "contexte": "On reprend le graphe non orienté des pistes cyclables : A–B, A–C, B–D, C–D, D–E (toutes les arêtes ont la même longueur).",
+   "titre": "Degré maximal d'un graphe",
+   "contexte": "Un graphe non orienté est représenté en Python par un dictionnaire de listes d'adjacence, par exemple :\n```python\nG = {'A': ['B', 'C'], 'B': ['A', 'C', 'D'], 'C': ['A', 'B'], 'D': ['B']}\n```\nOn souhaite connaître le sommet ayant le plus de voisins. La fonction sommet_max prend en paramètre un graphe G non vide sous cette forme et renvoie un sommet de degré maximal.",
    "questions": [
     {
      "slot": 2,
      "notion": "graphe",
-     "enonce": "Donner une chaîne de longueur minimale reliant A à E, ainsi que sa longueur.",
+     "enonce": "Écrire la fonction sommet_max qui prend en paramètre un graphe G et renvoie un sommet de degré maximal.",
      "points": 1,
-     "reponse_attendue": "A - B - D - E (ou A - C - D - E), de longueur 3."
+     "reponse_attendue": "```python\ndef sommet_max(G):\n    meilleur = None\n    for s in G:\n        if meilleur is None or len(G[s]) > len(G[meilleur]):\n            meilleur = s\n    return meilleur\n```\nAvec l'exemple, sommet_max(G) renvoie 'B' (degré 3)."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Matrice d'adjacence symétrique",
-   "contexte": "Un graphe à 4 sommets numérotés 0 à 3 est représenté par la matrice d'adjacence :\n\n```python\nM = [[0, 1, 1, 0],\n     [1, 0, 0, 1],\n     [1, 0, 0, 1],\n     [0, 1, 1, 0]]\n```",
+   "titre": "Successeurs dans un graphe orienté stocké en base",
+   "contexte": "Une application de covoiturage stocke les trajets proposés dans la table Trajet(id, ville_dep, ville_arr). Ce graphe est orienté : un trajet va de ville_dep à ville_arr. On souhaite obtenir la liste des villes que l'on peut atteindre directement depuis Nantes. Le programme Python suivant récupère les lignes de la table sous la forme d'une liste de tuples (id, ville_dep, ville_arr) puis construit la liste des successeurs d'une ville.\n```python\n1 REQUETE = \"SELECT ... FROM Trajet WHERE ... ;\"\n2\n3 def successeurs(lignes, ville):\n4     res = []\n5     for (ident, dep, arr) in lignes:\n6         if ...:\n7             res.append(...)\n8     return res\n```\nLa variable REQUETE doit contenir la requête SQL renvoyant les villes d'arrivée des trajets partant de Nantes ; la fonction successeurs, elle, fait le même travail en Python à partir de toutes les lignes de la table.",
    "questions": [
     {
      "slot": 3,
      "notion": "graphe",
-     "enonce": "Expliquer pourquoi cette matrice permet d'affirmer que le graphe représenté est non orienté.",
+     "enonce": "Recopier et compléter la ligne 1 et la fonction successeurs donnée ci-dessus (lignes 6 et 7).",
      "points": 1,
-     "reponse_attendue": "La matrice est symétrique : M[i][j] == M[j][i] pour tous i, j ; chaque arête i–j est donc présente dans les deux sens, ce qui caractérise un graphe non orienté."
+     "reponse_attendue": "Ligne 1 : REQUETE = \"SELECT ville_arr FROM Trajet WHERE ville_dep = 'Nantes';\"\n```python\ndef successeurs(lignes, ville):\n    res = []\n    for (ident, dep, arr) in lignes:\n        if dep == ville:\n            res.append(arr)\n    return res\n```"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Ordre de visite en largeur",
-   "contexte": "Graphe : `g = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'D'], 'D': ['B', 'C', 'E'], 'E': ['D']}`. La fonction `parcours_largeur(g, depart)` renvoie la liste des sommets parcourus en partant du sommet depart, les voisins étant traités dans l'ordre des listes, à l'aide d'une file.",
+   "titre": "Quand un graphe est un arbre",
+   "contexte": "Un club de randonnée relie ses 5 refuges R1, R2, R3, R4, R5 par des sentiers (graphe non orienté) : R1–R2, R1–R3, R3–R4, R3–R5, R4–R5. On rappelle qu'un arbre, dans le vocabulaire des graphes, est un graphe non orienté, connexe, sans cycle, dans lequel un sommet joue le rôle de racine.",
    "questions": [
     {
      "slot": 4,
      "notion": "graphe",
-     "enonce": "Donner la liste renvoyée par parcours_largeur(g, 'B').",
+     "enonce": "Donner la liste des sentiers à supprimer, en nombre minimal, pour que le graphe devienne un arbre de racine R1 dont R3 a exactement deux fils, puis donner la propriété des arbres qui justifie ce nombre.",
      "points": 1,
-     "reponse_attendue": "['B', 'A', 'D', 'C', 'E']"
+     "reponse_attendue": "Le seul cycle est R3–R4–R5–R3. Il faut supprimer un seul sentier, et pour que R3 garde deux fils (R4 et R5) on supprime R4–R5. On obtient les 4 arêtes R1–R2, R1–R3, R3–R4, R3–R5 : graphe connexe, sans cycle. Justification : un arbre à n sommets possède exactement n − 1 arêtes, ici 5 − 1 = 4, donc on supprime 5 − 4 = 1 sentier."
     }
    ]
   }

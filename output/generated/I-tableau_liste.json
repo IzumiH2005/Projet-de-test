@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Liste chaînée de stations",
-   "contexte": "Une ligne de bus est représentée par une liste chaînée de stations : chaque cellule contient un nom de station et une référence vers la cellule suivante. On accède aux stations depuis la tête.",
+   "titre": "Relevés de températures",
+   "contexte": "Une station relève 7 températures par semaine, stockées dans un tableau `t` non vide. La fonction `indice_max` doit renvoyer l'indice de la plus grande valeur (le premier en cas d'égalité) ; par exemple `indice_max([12, 17, 9, 17])` renvoie 1.\n\n```python\n1 def indice_max(t):\n2     i_max = 0\n3     for i in range(...):\n4         if ...:\n5             i_max = ...\n6     return i_max\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "tableau_liste",
-     "enonce": "Donner le nombre de cellules à parcourir pour atteindre la 5e station d'une liste chaînée, et comparer avec l'accès à l'élément d'indice 4 d'un tableau Python.",
+     "enonce": "Recopier et compléter les lignes 3, 4 et 5 de la fonction `indice_max`.",
      "points": 1,
-     "reponse_attendue": "Il faut parcourir 5 cellules (coût linéaire), alors que l'accès t[4] dans un tableau se fait en temps constant."
+     "reponse_attendue": "```python\ndef indice_max(t):\n    i_max = 0\n    for i in range(1, len(t)):\n        if t[i] > t[i_max]:\n            i_max = i\n    return i_max\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Moyenne des températures",
-   "contexte": "Un capteur relève 24 températures par jour, stockées dans un tableau temp de 24 nombres. On veut calculer la moyenne :\n\n```python\n1| def moyenne(temp):\n2|     s = ...\n3|     for i in range(...):\n4|         s = ...\n5|     return s / len(temp)\n```",
+   "titre": "Une base dans un tableau",
+   "contexte": "Un club stocke ses adhérents dans un tableau de tableaux `[identifiant, nom]`, sans SGBD. Pour supprimer l'adhérent d'identifiant 3, on exécute :\n\n```python\nadherents = [[1, 'Ana'], [2, 'Bo'], [3, 'Cy'], [4, 'Dan']]\nfor i in range(len(adherents)):\n    if adherents[i][0] == 3:\n        del adherents[i]\n```\nL'exécution provoque `IndexError: list index out of range`.",
    "questions": [
     {
      "slot": 2,
      "notion": "tableau_liste",
-     "enonce": "Recopier et compléter les lignes 2, 3 et 4 de la fonction moyenne.",
+     "enonce": "On cherche à supprimer un enregistrement de cette base stockée dans un tableau. Expliquer l'erreur obtenue et proposer une instruction correcte.",
      "points": 1,
-     "reponse_attendue": "def moyenne(temp):\n    s = 0\n    for i in range(len(temp)):\n        s = s + temp[i]\n    return s / len(temp)"
+     "reponse_attendue": "`range(len(adherents))` est calculé une seule fois (0 à 3). À i = 2 on supprime un élément, le tableau n'a plus que 3 cases ; à i = 3, `adherents[3]` n'existe plus d'où IndexError. Correction : `adherents = [a for a in adherents if a[0] != 3]`."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Tableau de scores",
-   "contexte": "Lors d'un tournoi, les scores des équipes sont rangés dans un tableau scores = [12, 7, 15, 9, 15, 3]. L'équipe numéro i a son score dans scores[i], la première équipe ayant le numéro 0. Le règlement indique que l'équipe ayant le plus grand score et le plus petit numéro l'emporte.",
+   "titre": "Écarts successifs",
+   "contexte": "On considère le programme suivant.\n\n```python\n1 t = [3, 1, 4, 1, 5]\n2 s = []\n3 for i in range(len(t) - 1):\n4     s.append(t[i + 1] - t[i])\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "tableau_liste",
-     "enonce": "Donner le numéro de l'équipe gagnante et la valeur de scores[len(scores) - 1].",
+     "enonce": "Déterminer la valeur de `s` à l'issue de ces instructions.",
      "points": 1,
-     "reponse_attendue": "Équipe 2 (score 15, avant l'équipe 4) ; scores[5] = 3."
+     "reponse_attendue": "`[-2, 3, -3, 4]`"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Arbre binaire dans un tableau",
-   "contexte": "Un arbre binaire de taille n est stocké dans un tableau : la case d'indice 0 contient n, la racine a pour indice 1, le fils gauche du nœud d'indice i a pour indice 2*i, le fils droit 2*i+1. On considère t = [5, 'A', 'B', 'C', 'D', 'E'].",
+   "titre": "Liste chaînée",
+   "contexte": "Une liste chaînée est représentée par des objets `Cellule` ; la liste vide est représentée par `None`.\n\n```python\nclass Cellule:\n    def __init__(self, valeur, suivant):\n        self.valeur = valeur\n        self.suivant = suivant\n\nl = Cellule(4, Cellule(7, None))\n```",
    "questions": [
     {
      "slot": 4,
      "notion": "tableau_liste",
-     "enonce": "Donner les fils du nœud 'B' et l'indice du père du nœud d'indice i (i > 1).",
+     "enonce": "Écrire une fonction `est_vide` qui prend en paramètre une liste `l` et qui renvoie le booléen True si la liste est vide, False sinon.",
      "points": 1,
-     "reponse_attendue": "Fils de 'B' (indice 2) : 'D' (indice 4) et 'E' (indice 5). Le père du nœud d'indice i a pour indice i // 2."
+     "reponse_attendue": "```python\ndef est_vide(l):\n    return l is None\n```\n`est_vide(l)` renvoie False et `est_vide(None)` renvoie True."
     }
    ]
   }

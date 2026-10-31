@@ -3,43 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Maximum par dichotomie",
-   "contexte": "On considère la fonction suivante (t est une liste non vide d'entiers, g et d sont des indices inclus avec g <= d) :\n\n```python\ndef maximum(t, g, d):\n    if g == d:\n        return t[g]\n    m = (g + d) // 2\n    a = maximum(t, g, m)       # moitié gauche (indices g à m)\n    b = maximum(t, m + 1, d)   # moitié droite (indices m+1 à d)\n    if a > b:\n        return a\n    return b\n```",
+   "titre": "Mesures de performances de tris",
+   "contexte": "Un élève a chronométré deux algorithmes de tri sur des listes de tailles croissantes et a enregistré les résultats dans la table Mesure(id, algo, taille, duree_ms) :\n\n| id | algo | taille | duree_ms |\n|---|---|---|---|\n| 1 | insertion | 1000 | 40 |\n| 2 | fusion | 1000 | 3 |\n| 3 | insertion | 10000 | 4100 |\n| 4 | fusion | 10000 | 38 |\n\nIl exécute la requête :\n```sql\nSELECT algo, duree_ms FROM Mesure WHERE taille = 10000 ORDER BY duree_ms;\n```",
    "questions": [
     {
      "slot": 1,
-     "notion": "diviser_regner",
-     "enonce": "Donner la valeur renvoyée par l'appel maximum([4, 9, 2, 7, 5], 2, 4) ainsi que la liste des couples (g, d) des appels récursifs effectués (appel initial compris).",
+     "notion": "diviser pour régner",
+     "enonce": "Quel est l'algorithme qui apparaît sur la première ligne du résultat de cette requête ? Justifier ce résultat à l'aide de la complexité des deux tris.",
      "points": 1,
-     "reponse_attendue": "Valeur renvoyée : 7. Appels : (2, 4), (2, 3), (2, 2), (3, 3), (4, 4)."
+     "reponse_attendue": "La requête renvoie (fusion, 38) puis (insertion, 4100) : la première ligne est le tri fusion. Le tri fusion, de type diviser pour régner, a une complexité en O(n log n), alors que le tri par insertion est en O(n²) dans le pire cas et en moyenne : quand la taille est multipliée par 10, sa durée est multipliée par environ 100, contre environ 13 pour le tri fusion."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Exponentiation rapide",
-   "contexte": "Pour calculer x puissance n (n entier positif), on utilise la méthode « diviser pour régner » suivante, implémentée par une fonction récursive expo(x, n) : si n vaut 0, le résultat est 1 ; sinon on calcule une seule fois p = expo(x, n // 2), puis on renvoie p * p si n est pair et p * p * x si n est impair. On appelle expo(2, 13).",
+   "titre": "Recherche dichotomique récursive",
+   "contexte": "On considère la fonction suivante, qui renvoie `True` si `x` est présent dans la liste triée `t` entre les indices `g` et `d` inclus, et `False` sinon.\n```python\n1  def cherche(t, x, g, d):\n2      if g > d:\n3          return False\n4      m = (g + d) // 2\n5      if t[m] == x:\n6          return True\n7      elif t[m] < x:\n8          return cherche(t, x, m + 1, d)\n9      else:\n10         return cherche(t, x, g, m - 1)\n```",
    "questions": [
     {
      "slot": 2,
-     "notion": "diviser_regner",
-     "enonce": "Donner la valeur renvoyée par l'appel expo(2, 13) et la suite des valeurs de n prises par les appels successifs.",
+     "notion": "diviser pour régner",
+     "enonce": "Expliquer le rôle des lignes 2 et 3 de la fonction `cherche`, et ce qui se passerait si on les supprimait.",
      "points": 1,
-     "reponse_attendue": "```python\ndef expo(x, n):\n    if n == 0:\n        return 1\n    p = expo(x, n // 2)\n    if n % 2 == 0:\n        return p * p\n    return p * p * x\n\nassert expo(2, 13) == 8192\n```\nValeurs de n : 13, 6, 3, 1, 0. Valeur renvoyée : 8192."
+     "reponse_attendue": "Les lignes 2 et 3 constituent le cas de base : si g > d, la zone de recherche est vide et x n'est pas dans la liste, on renvoie False. Sans elles, quand x est absent, les appels récursifs continueraient avec une zone vide : on accéderait à des indices invalides (IndexError) ou la récursion ne s'arrêterait pas (RecursionError)."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Comparaison de tris",
-   "contexte": "Une animation compare trois tris sur une liste de 100 000 entiers aléatoires : le tri par sélection (coût quadratique), le tri par insertion (coût quadratique dans le cas moyen) et le tri fusion, qui coupe la liste en deux, trie récursivement chaque moitié puis fusionne les deux moitiés triées.",
+   "titre": "Maximum d'une liste par diviser pour régner",
+   "contexte": "On veut calculer le maximum d'une liste non vide d'entiers `t` (de type list) en appliquant la méthode diviser pour régner : on coupe la zone étudiée (délimitée par deux indices `g` et `d`, inclus) en deux moitiés, on calcule récursivement le maximum de chaque moitié (sous-problèmes), puis on combine les deux résultats (en gardant le plus grand).",
    "questions": [
     {
      "slot": 3,
-     "notion": "diviser_regner",
-     "enonce": "Déterminer le tri qui termine le premier dans cette animation, en justifiant par sa complexité.",
+     "notion": "diviser pour régner",
+     "enonce": "Écrire une fonction récursive `maximum` qui prend en paramètres une liste `t` et deux entiers `g` et `d` (avec 0 ≤ g ≤ d < len(t)) et qui renvoie le plus grand élément de `t[g..d]`, en suivant cette méthode.",
      "points": 1,
-     "reponse_attendue": "Le tri fusion : grâce à la stratégie diviser pour régner, il a une complexité en O(n log n), alors que les tris par sélection et par insertion sont en O(n²) ; pour n = 100 000, n log n ≈ 1,7 million contre n² = 10 milliards."
+     "reponse_attendue": "```python\ndef maximum(t, g, d):\n    if g == d:\n        return t[g]\n    m = (g + d) // 2\n    m1 = maximum(t, g, m)\n    m2 = maximum(t, m + 1, d)\n    if m1 > m2:\n        return m1\n    return m2\n```\nAppel : `maximum(t, 0, len(t) - 1)`."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Comparer les tris",
+   "contexte": "Une animation compare visuellement, sur une même liste de 1000 entiers mélangés, le tri par sélection et le tri fusion. Chaque élément est représenté par une barre ; à chaque étape, l'animation montre les barres déplacées. Le tri fusion découpe la liste en deux moitiés, les trie récursivement, puis les fusionne.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "diviser pour régner",
+     "enonce": "Décrire ce que l'on observe dans l'animation pour le tri fusion (ordre dans lequel des zones de la liste deviennent triées), et indiquer lequel des deux tris se termine le premier, en tenant compte de leurs complexités.",
+     "points": 1,
+     "reponse_attendue": "Pour le tri fusion, on voit d'abord apparaître de petits blocs triés (paires, puis groupes de 4, 8…) qui sont fusionnés en blocs de plus en plus grands, jusqu'à une moitié triée puis la liste entière. Le tri fusion se termine le premier : il est en O(n log n), contre O(n²) pour le tri par sélection (environ 10 000 opérations contre environ 500 000 pour n = 1000)."
     }
    ]
   }

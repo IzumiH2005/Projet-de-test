@@ -1,0 +1,15 @@
+{"lignes": [
+ ["Questions d'exposition (matière lue)", "3 102", "≈ 8 400 (après tri automatique)", true],
+ ["Sujets écrits officiels", "83", "96", true],
+ ["Manières de demander découvertes", "25 (silhouette 0,33)", "21 stables (silhouette 0,37, stabilité 0,89)", true],
+ ["Types de support découverts", "8 (silhouette 0,37)", "16 stables (stabilité 0,89)", true],
+ ["Reconnaissance de la notion (top 3, sujets tenus à l'écart)", "90,1 %", "95,6 %", true],
+ ["Prédiction de la difficulté (R²)", "0,036", "0,081", true],
+ ["Plausibilité (AUC)", "0,685", "0,681 (réglages choisis seuls)", false],
+ ["Inédites : manière de demander respectée (top 3)", "70,9 %", "85,3 %", true],
+ ["Inédites : notion reconnue", "62,4 %", "73,6 %", true],
+ ["Inédites : jugées plausibles", "31,1 %", "36,2 %", true],
+ ["Inédites : combinaison jamais vue aux annales", "74,3 %", "77,3 %", true],
+ ["Inédites : support respecté (top 3)", "81,3 % sur 8 types", "63,1 % sur 16 types", false],
+ ["Questions inédites produites", "148", "163", true]
+]}

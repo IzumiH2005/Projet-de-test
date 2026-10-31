@@ -3,57 +3,29 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "De la fonction à la requête",
-   "contexte": "Les élèves sont représentés en Python par une liste de dictionnaires et en base de données par la relation `Eleve(id, nom, classe, moyenne)`.\n\n```python\ndef admis(eleves, classe):\n    res = []\n    for e in eleves:\n        if e['classe'] == classe and e['moyenne'] >= 10:\n            res.append(e['nom'])\n    return res\n```",
+   "titre": "Portée des variables",
+   "contexte": "On considère le programme suivant :\n```python\ndef f(x, y=2):\n    z = x * y\n    return z + 1\n\na = f(3)\nb = f(3, 5)\n```\n| variable | valeur |\n|---|---|\n| a | ? |\n| b | ? |",
    "questions": [
     {
      "slot": 1,
      "notion": "fonctions",
-     "enonce": "Donner la requête SQL permettant d'obtenir, dans la base, le même résultat que l'appel admis(eleves, 'TG2').",
+     "enonce": "Quelle est la valeur de `a` et celle de `b` à l'issue de l'exécution ?",
      "points": 1,
-     "reponse_attendue": "SELECT nom FROM Eleve WHERE classe = 'TG2' AND moyenne >= 10;"
+     "reponse_attendue": "`a = 7` (y prend sa valeur par défaut 2 : 3*2+1) et `b = 16` (3*5+1)."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Effet de bord",
-   "contexte": "La fonction ajoute_bonus prend deux paramètres : notes, une liste de nombres, b, un nombre ; elle ajoute b à chaque élément de notes, modifie la liste en place, ne contient aucune instruction return.\n\n```python\ndef ajoute_bonus(notes, b):\n    for i in range(len(notes)):\n        notes[i] = notes[i] + b\n\nL = [8, 12]\nr = ajoute_bonus(L, 2)\n```",
+   "titre": "Recherche dans un arbre",
+   "contexte": "Un arbre binaire est représenté par des objets de la classe `Noeud` ; l'arbre vide est `None`.\n```python\nclass Noeud:\n    def __init__(self, valeur, gauche=None, droit=None):\n        self.valeur = valeur\n        self.gauche = gauche\n        self.droit = droit\n```\nOn souhaite une fonction `appartient(arbre, element)` qui renvoie `True` si `element` est dans l'arbre et `False` sinon (l'arbre n'est pas forcément un arbre binaire de recherche).",
    "questions": [
     {
      "slot": 2,
      "notion": "fonctions",
-     "enonce": "Expliquer pourquoi, après ces instructions, L vaut [10, 14] alors que r vaut None.",
+     "enonce": "Écrire la fonction récursive `appartient`, en tenant compte du cas de l'arbre vide.",
      "points": 1,
-     "reponse_attendue": "La liste est un objet mutable passé par référence : notes et L désignent la même liste, donc la modification en place est visible dans L (effet de bord). La fonction ne contenant pas de return, elle renvoie implicitement None, valeur affectée à r."
-    }
-   ]
-  },
-  {
-   "numero": 3,
-   "titre": "Réutiliser une fonction",
-   "contexte": "On dispose de la fonction suivante :\n\n```python\ndef est_premier(n):\n    if n < 2:\n        return False\n    for d in range(2, n):\n        if n % d == 0:\n            return False\n    return True\n```",
-   "questions": [
-    {
-     "slot": 3,
-     "notion": "fonctions",
-     "enonce": "Écrire une fonction premiers_jusqua(n) qui prend en paramètre un entier n et qui renvoie la liste croissante des nombres premiers inférieurs ou égaux à n, en utilisant est_premier.",
-     "points": 1,
-     "reponse_attendue": "```python\ndef est_premier(n):\n    if n < 2:\n        return False\n    for d in range(2, n):\n        if n % d == 0:\n            return False\n    return True\n\ndef premiers_jusqua(n):\n    res = []\n    for k in range(2, n + 1):\n        if est_premier(k):\n            res.append(k)\n    return res\n\nassert premiers_jusqua(10) == [2, 3, 5, 7]\nassert premiers_jusqua(1) == []\n```"
-    }
-   ]
-  },
-  {
-   "numero": 4,
-   "titre": "Recherche dans un arbre",
-   "contexte": "On considère l'arbre binaire de recherche de racine 8, dont le fils gauche est 3 (fils gauche 1, fils droit 6) et le fils droit est 10 (sans fils gauche, fils droit 14). La fonction suivante renvoie True si element est dans l'arbre et False sinon :\n\n```python\ndef appartient(arbre, element):\n    if arbre is None:\n        return False\n    if element == arbre.valeur:\n        return True\n    if element < arbre.valeur:\n        return appartient(arbre.gauche, element)\n    return appartient(arbre.droit, element)\n```",
-   "questions": [
-    {
-     "slot": 4,
-     "notion": "fonctions",
-     "enonce": "Indiquer les valeurs des nœuds visités lors de l'appel appartient(a, 7), où a est cet arbre, ainsi que la valeur renvoyée.",
-     "points": 1,
-     "reponse_attendue": "Nœuds visités : 8, 3, 6 (puis le sous-arbre droit vide de 6). Valeur renvoyée : False."
+     "reponse_attendue": "```python\ndef appartient(arbre, element):\n    if arbre is None:\n        return False\n    if arbre.valeur == element:\n        return True\n    return appartient(arbre.gauche, element) or appartient(arbre.droit, element)\n```"
     }
    ]
   }

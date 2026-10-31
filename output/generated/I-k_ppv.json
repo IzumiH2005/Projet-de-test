@@ -3,43 +3,43 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Vote des voisins",
-   "contexte": "On classe un fruit à partir de ses k plus proches voisins.\n\n```python\n1 def vote(voisins):\n2     compte = {}\n3     for (distance, classe) in voisins:\n4         if classe in compte:\n5             compte[classe] = compte[classe] + 1\n6         else:\n7             compte[classe] = 1\n8     meilleure = None\n9     for c in compte:\n10        if meilleure is None or compte[c] > compte[meilleure]:\n11            meilleure = c\n12    return meilleure\n```",
+   "titre": "Classifieur de fruits",
+   "contexte": "Un maraîcher classe ses fruits à partir de deux mesures : masse (g) et diamètre (cm). On dispose de la classe suivante :\n```python\nclass Classifieur:\n    def __init__(self, exemples):\n        # exemples : liste de tuples (masse, diametre, etiquette)\n        self.exemples = exemples\n\n    def distance(self, a, b):\n        return ((a[0] - b[0])**2 + (a[1] - b[1])**2) ** 0.5\n```\nOn souhaite ajouter une méthode k_voisins qui prend en paramètres un point p = (masse, diametre) et un entier k, et qui renvoie la liste des k exemples les plus proches de p, du plus proche au plus éloigné.",
    "questions": [
     {
      "slot": 1,
      "notion": "k_ppv",
-     "enonce": "Donner la valeur renvoyée par vote([(1.2, 'pomme'), (0.8, 'poire'), (1.5, 'pomme')]).",
+     "enonce": "Écrire le code de la méthode k_voisins de la classe Classifieur qui renvoie la liste des k exemples les plus proches du point p.",
      "points": 1,
-     "reponse_attendue": "'pomme'"
+     "reponse_attendue": "```python\n    def k_voisins(self, p, k):\n        triee = sorted(self.exemples, key=lambda e: self.distance(e, p))\n        return triee[:k]\n```\n(Une version sans sorted, par tri par sélection ou insertion selon la distance, est acceptée.)"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Sélection des k plus proches",
-   "contexte": "```python\n1 def distance(a, b):\n2     return ((a[0]-b[0])**2 + (a[1]-b[1])**2) ** 0.5\n3\n4 def k_plus_proches(donnees, cible, k):\n5     liste = []\n6     for (point, classe) in donnees:\n7         liste.append(( ... , classe))\n8     liste.sort()\n9     return ...\n```\n`donnees` est une liste de couples (point, classe), un point étant un tuple (x, y).",
+   "titre": "Vote majoritaire",
+   "contexte": "Après avoir calculé les voisins d'un nouveau fruit, on détermine sa classe par vote majoritaire avec le programme suivant :\n```python\n 1 voisins = [(150, 7, 'pomme'), (160, 8, 'orange'),\n 2            (140, 7, 'pomme'), (170, 8, 'orange'),\n 3            (155, 7, 'pomme')]\n 4 k = 3\n 5 votes = {}\n 6 for i in range(k):\n 7     etiq = voisins[i][2]\n 8     if etiq in votes:\n 9         votes[etiq] = votes[etiq] + 1\n10     else:\n11         votes[etiq] = 1\n12 classe = max(votes, key=lambda e: votes[e])\n```\nLa liste voisins est déjà triée par distance croissante.",
    "questions": [
     {
      "slot": 2,
      "notion": "k_ppv",
-     "enonce": "Recopier et compléter les lignes 7 et 9 de la fonction k_plus_proches afin qu'elle renvoie la liste des k couples (distance, classe) les plus proches de cible.",
+     "enonce": "Déterminer la valeur de votes puis celle de classe à l'issue des instructions ci-dessus. Indiquer ce que deviendrait classe avec k = 4 en justifiant la difficulté rencontrée.",
      "points": 1,
-     "reponse_attendue": "7        liste.append((distance(point, cible), classe))\n9    return liste[:k]"
+     "reponse_attendue": "Avec k = 3 : votes = {'pomme': 2, 'orange': 1} et classe = 'pomme'. Avec k = 4 : votes = {'pomme': 2, 'orange': 2} : égalité ; max renvoie la première clé rencontrée de valeur maximale, ici 'pomme', mais le résultat dépend de l'ordre d'insertion et non des données : un k pair peut créer des égalités, d'où le choix d'un k impair pour deux classes."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Distance de Manhattan",
-   "contexte": "On souhaite utiliser une autre distance pour l'algorithme des k plus proches voisins. Spécification : la fonction manhattan prend en paramètres deux points a et b, tuples de deux nombres (x, y), et renvoie la somme des valeurs absolues des différences de leurs coordonnées.",
+   "titre": "Effet du choix de k",
+   "contexte": "Un jeu de données d'entraînement contient 9 points étiquetés : - 4 points « chat » très proches du point inconnu X (distances 1, 1,5, 2 et 2,5) ; - 5 points « chien » plus éloignés (distances 4, 4,5, 5, 5,5 et 6). On applique l'algorithme des k plus proches voisins au point X avec vote majoritaire.",
    "questions": [
     {
      "slot": 3,
      "notion": "k_ppv",
-     "enonce": "Écrire une fonction manhattan(a, b) qui prend en paramètres deux points et qui renvoie leur distance de Manhattan.",
+     "enonce": "Quelle est la classe attribuée à X pour k = 3, puis pour k = 9 ? Justifier, et indiquer quel est l'inconvénient d'un k trop grand.",
      "points": 1,
-     "reponse_attendue": "def manhattan(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])"
+     "reponse_attendue": "k = 3 : les 3 plus proches sont trois « chat » → « chat ». k = 9 : tous les points votent, 5 « chien » contre 4 « chat » → « chien ». Un k trop grand fait intervenir des points éloignés et non représentatifs : la prédiction tend vers la classe majoritaire du jeu entier."
     }
    ]
   }

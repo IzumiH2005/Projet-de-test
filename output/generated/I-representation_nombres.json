@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Conversion en binaire",
-   "contexte": "Un capteur transmet des entiers naturels compris entre 0 et 255 sur 8 bits. La fonction ci-dessous doit renvoyer la chaîne de 8 caractères '0'/'1' représentant n en binaire ; par exemple binaire8(13) renvoie '00001101'.\n\n```\n1 def binaire8(n):\n2     s = ''\n3     for i in range(8):\n4         s = ... + s\n5         n = ...\n6     return s\n```",
+   "titre": "Capteur de température",
+   "contexte": "Un capteur de température, installé dans une chambre froide, mesure, toutes les minutes, une valeur entière comprise entre -128 et 127, la code sur un octet, en complément à deux, puis l'envoie, par liaison série, à un microcontrôleur. Ce matin, la valeur relevée, affichée, contrôlée et archivée est -45.",
    "questions": [
     {
      "slot": 1,
      "notion": "representation_nombres",
-     "enonce": "Recopier et compléter les lignes 4 et 5 de la fonction binaire8.",
+     "enonce": "Donner la représentation binaire sur 8 bits, en complément à deux, de l'entier -45.",
      "points": 1,
-     "reponse_attendue": "```python\ndef binaire8(n):\n    s = ''\n    for i in range(8):\n        s = str(n % 2) + s\n        n = n // 2\n    return s\n\nprint(binaire8(13))  # '00001101'\n```"
+     "reponse_attendue": "45 = 0010 1101. On inverse les bits : 1101 0010, puis on ajoute 1 : 1101 0011. Donc -45 s'écrit 11010011."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Somme de flottants",
-   "contexte": "On exécute en Python les instructions suivantes :\n\n```python\n>>> 0.1 + 0.2\n0.30000000000000004\n>>> 0.5 + 0.25\n0.75\n>>> 0.1 + 0.2 == 0.3\nFalse\n```",
+   "titre": "Conversion en binaire",
+   "contexte": "Le casier numéro 13 d'un vestiaire possède une serrure électronique qui affiche son numéro en binaire. La fonction ci-dessous doit renvoyer l'écriture binaire (chaîne de caractères) d'un entier n positif ou nul ; par exemple binaire(13) renvoie '1101' et binaire(0) renvoie '0'.\n```python\n1 def binaire(n):\n2     if n == 0:\n3         return \"0\"\n4     s = \"\"\n5     while ...:\n6         s = ... + s\n7         n = ...\n8     return s\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "representation_nombres",
-     "enonce": "Expliquer pourquoi 0.5 + 0.25 est calculé exactement alors que 0.1 + 0.2 ne donne pas exactement 0.3.",
+     "enonce": "Recopier et compléter les lignes 5, 6 et 7 de la fonction binaire.",
      "points": 1,
-     "reponse_attendue": "Les flottants sont stockés en binaire sur un nombre fini de bits. 0.5 = 2^-1 et 0.25 = 2^-2 ont une écriture binaire finie, donc sont représentés exactement. 0.1 et 0.2 ont une écriture binaire infinie périodique : ils sont arrondis, et la somme des approximations diffère de l'approximation de 0.3."
+     "reponse_attendue": "```python\ndef binaire(n):\n    if n == 0:\n        return \"0\"\n    s = \"\"\n    while n > 0:\n        s = str(n % 2) + s\n        n = n // 2\n    return s\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Codage d'une température",
-   "contexte": "Une station météo doit stocker des températures entières comprises entre -40 °C et +60 °C. Le concepteur dispose de mots de 8 bits et hésite sur la façon de représenter les valeurs négatives.",
+   "titre": "Décodage d'un mot binaire",
+   "contexte": "Un journal de bord stocke des mesures sous forme de chaînes de '0' et de '1'. Le besoin est le suivant : « obtenir, pour une chaîne binaire donnée (bit de poids fort à gauche), l'entier positif qu'elle représente en base 10 ». Par exemple, la chaîne '101101' doit donner 45. On s'interdit d'utiliser int(mot, 2).",
    "questions": [
     {
      "slot": 3,
      "notion": "representation_nombres",
-     "enonce": "Proposer une représentation sur 8 bits permettant de coder toutes ces températures, et donner le code de -40 avec cette représentation.",
+     "enonce": "Écrire une fonction valeur_decimale qui prend en paramètre une chaîne mot composée de '0' et de '1' et qui renvoie l'entier positif qu'elle représente en base 10.",
      "points": 1,
-     "reponse_attendue": "Par exemple le complément à deux sur 8 bits (de -128 à 127, suffisant). -40 : 40 = 00101000, inversion 11010111, +1 → 11011000. (Autre solution valable : décalage de +40, -40 codé 00000000.)"
+     "reponse_attendue": "```python\ndef valeur_decimale(mot):\n    v = 0\n    for c in mot:\n        v = 2 * v + int(c)\n    return v\n```\n(Méthode de Horner ; valeur_decimale('101101') renvoie 45.)"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Coût OSPF et débits",
-   "contexte": "Dans un réseau utilisant OSPF, le coût d'une liaison est calculé par la formule coût = 10^8 / d, où d est le débit en bits/s. Les débits sont notés en puissances de 10 :\n- A–B : 10^8 bit/s (Fast Ethernet)\n- A–C : 10^7 bit/s\n- C–B : 10^9 bit/s\n- B–D : 10^7 bit/s\n- C–D : 10^8 bit/s",
+   "titre": "Notation CIDR",
+   "contexte": "Un établissement a reçu le bloc d'adresses 192.168.12.0/22. On rappelle que la notation X1.X2.X3.X4/n signifie que les n premiers bits de poids forts de l'adresse représentent la partie « réseau » et que les bits suivants représentent la partie « hôte ».",
    "questions": [
     {
      "slot": 4,
      "notion": "representation_nombres",
-     "enonce": "Déterminer le coût de chaque liaison puis le chemin de coût minimal de A vers D.",
+     "enonce": "Écrire le masque de ce réseau en binaire puis en notation décimale pointée, et indiquer, en tenant compte de la notation /22, le nombre de bits de la partie hôte.",
      "points": 1,
-     "reponse_attendue": "Coûts : A–B = 1, A–C = 10, C–B = 0,1, B–D = 10, C–D = 1. Chemins : A-B-D = 11 ; A-C-D = 11 ; A-B-C-D = 1 + 0,1 + 1 = 2,1. Chemin minimal : A → B → C → D (coût 2,1)."
+     "reponse_attendue": "Masque : 11111111.11111111.11111100.00000000, soit 255.255.252.0. La partie hôte comporte 32 - 22 = 10 bits."
     }
    ]
   }

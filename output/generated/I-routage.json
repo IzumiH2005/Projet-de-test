@@ -3,43 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Protocole à état de liens",
-   "contexte": "Une collectivité relie ses médiathèques par des routeurs. L'administrateur souhaite que chaque routeur connaisse toute la topologie du réseau et choisisse les routes en tenant compte du débit des liaisons, et non du simple nombre de sauts.",
+   "titre": "Table de routage RIP",
+   "contexte": "Cinq routeurs A, B, C, D et E sont reliés par les liaisons suivantes : A–B, B–C, C–E, A–D et D–E. Le protocole RIP est utilisé ; la distance est le nombre de sauts (liaisons) jusqu'à la destination.\nOn s'intéresse à la table de routage de A, pour les destinations :\na) C ;\nb) E.",
    "questions": [
     {
      "slot": 1,
      "notion": "routage",
-     "enonce": "Donner le nom du protocole de routage adapté à cette demande et le nom de l'algorithme de calcul de plus court chemin qu'il utilise.",
+     "enonce": "Donner, pour chacune des destinations a) et b), la passerelle et la distance figurant dans la table de routage de A.",
      "points": 1,
-     "reponse_attendue": "OSPF ; algorithme de Dijkstra."
+     "reponse_attendue": "a) C : passerelle B, distance 2 (A–B–C ; via D il faudrait 3 sauts).\nb) E : passerelle D, distance 2 (A–D–E ; via B il faudrait 3 sauts)."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Métrique RIP",
-   "contexte": "Le routeur R1 utilise le protocole RIP. Il connaît les routes suivantes vers le réseau 10.8.0.0/16 :\n- via R2 : 3 sauts\n- via R3 : 2 sauts\n- via R4 : 5 sauts",
+   "titre": "Calcul du coût OSPF",
+   "contexte": "En OSPF, le coût d'une liaison vaut 10^8 / d, où d est le débit en bits/s. Un technicien saisit les débits en Mb/s (par exemple 10, 100 ou 1000) et utilise la fonction suivante :\n```python\n1 def cout(debit_mbps):\n2     \"\"\"débit en Mb/s -> coût OSPF\"\"\"\n3     d = debit_mbps * 10**6\n4     return 10**8 / d\n```\nAinsi cout(10) renvoie 10.0 et cout(1000) renvoie 0.1.",
    "questions": [
     {
      "slot": 2,
      "notion": "routage",
-     "enonce": "Donner le routeur choisi par R1 comme passerelle vers 10.8.0.0/16 et la métrique inscrite dans sa table.",
+     "enonce": "Expliquer le rôle de la ligne 3 de la fonction cout et donner le résultat renvoyé par cout(1000) si on supprime cette ligne en remplaçant d par debit_mbps à la ligne 4.",
      "points": 1,
-     "reponse_attendue": "R3, métrique 2."
+     "reponse_attendue": "La ligne 3 convertit le débit de Mb/s en bits/s (multiplication par 10^6) afin d'appliquer la formule, qui attend un débit en bits/s. Sans elle, cout(1000) renverrait 10**8 / 1000 = 100000.0 au lieu de 0.1, ce qui est faux."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Réseau d'entreprise",
-   "contexte": "Le réseau d'une entreprise comporte quatre routeurs reliés ainsi : R1–R2, R1–R3, R2–R4, R3–R4. Le réseau local LAN-A (192.168.1.0/24) est relié à R1 et le réseau LAN-B (192.168.4.0/24) est relié à R4. Le protocole RIP est utilisé ; la métrique est le nombre de sauts (routeurs à traverser) et, en cas d'égalité, on choisit la passerelle de plus petit numéro.\n\nTable de R1 (extrait) :\n\n| Destination | Passerelle | Métrique |\n|---|---|---|\n| 192.168.1.0/24 | directe | 0 |\n| 192.168.4.0/24 | ? | ? |",
+   "titre": "Mise à jour RIP d'un routeur",
+   "contexte": "On modélise un routeur par la classe Routeur. L'attribut nom (chaîne) est le nom du routeur et l'attribut table est un dictionnaire qui associe à chaque destination un couple (passerelle, distance). Par exemple : {'B': ('B', 1), 'C': ('B', 2)}.\nLorsqu'un voisin (de nom nom_voisin) envoie sa table table_voisin (même structure), le routeur applique la règle RIP : pour chaque destination autre que lui-même, la distance passant par ce voisin vaut (distance annoncée + 1) ; la route est ajoutée si la destination est inconnue, ou remplacée si elle est strictement plus courte.\n```python\nclass Routeur:\n    def __init__(self, nom):\n        self.nom = nom\n        self.table = {}\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "routage",
-     "enonce": "Recopier et compléter la ligne de la table de routage de R1 vers le réseau 192.168.4.0/24.",
+     "enonce": "Écrire le code de la méthode mise_a_jour(self, nom_voisin, table_voisin) de la classe Routeur qui modifie self.table selon la règle RIP décrite.",
      "points": 1,
-     "reponse_attendue": "192.168.4.0/24 | R2 | 2 (R1 → R2 → R4, égalité avec R3, on choisit R2)."
+     "reponse_attendue": "```python\n    def mise_a_jour(self, nom_voisin, table_voisin):\n        for dest in table_voisin:\n            nouvelle = table_voisin[dest][1] + 1\n            if dest != self.nom:\n                if dest not in self.table or nouvelle < self.table[dest][1]:\n                    self.table[dest] = (nom_voisin, nouvelle)\n```"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Routes OSPF",
+   "contexte": "Un réseau comporte cinq routeurs reliés par les liaisons suivantes (débits) :\n\n| liaison | débit |\n|---|---|\n| A–B | 100 Mb/s |\n| A–C | 10 Mb/s |\n| B–C | 100 Mb/s |\n| B–D | 10 Mb/s |\n| C–D | 100 Mb/s |\n| C–E | 10 Mb/s |\n| D–E | 1 Gb/s |\n\nLe coût d'une liaison est 10^8 / d (d en bits/s). Le protocole OSPF est utilisé.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "routage",
+     "enonce": "Calculer le coût de chaque liaison puis déterminer, en tenant compte du protocole OSPF, les tables de routage (destination, passerelle, coût total) des routeurs A et E.",
+     "points": 1,
+     "reponse_attendue": "Coûts : A–B 1, A–C 10, B–C 1, B–D 10, C–D 1, C–E 10, D–E 0,1.\nTable de A : B → B, 1 ; C → B, 2 (A–B–C) ; D → B, 3 (A–B–C–D) ; E → B, 3,1 (A–B–C–D–E).\nTable de E : D → D, 0,1 ; C → D, 1,1 (E–D–C) ; B → D, 2,1 (E–D–C–B) ; A → D, 3,1 (E–D–C–B–A)."
     }
    ]
   }

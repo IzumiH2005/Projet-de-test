@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Nouvel ordinateur",
-   "contexte": "Le réseau local d'un CDI a pour adresse 192.168.20.0/24. Le routeur utilise 192.168.20.254 et les postes existants vont de 192.168.20.1 à 192.168.20.30.",
+   "titre": "Adresse d'un réseau",
+   "contexte": "Une imprimante a pour adresse 10.4.7.130/25.",
    "questions": [
     {
      "slot": 1,
      "notion": "reseau_ip",
-     "enonce": "Proposer une adresse IP et un masque pour un nouvel ordinateur du CDI.",
+     "enonce": "Quelle est l'adresse du réseau auquel appartient cette imprimante ? Justifier.",
      "points": 1,
-     "reponse_attendue": "Par exemple 192.168.20.31 avec le masque 255.255.255.0 (toute adresse libre de 192.168.20.31 à 192.168.20.253 convient, ni .0 ni .255)."
+     "reponse_attendue": "Le masque /25 est 255.255.255.128. 130 = 1000 0010 ; en gardant le premier bit du dernier octet : 1000 0000 = 128. L'adresse du réseau est 10.4.7.128."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Adresse sous forme de tableau",
-   "contexte": "Dans un logiciel de supervision, une adresse IPv4 est représentée par un tableau de 4 entiers, par exemple [192, 168, 1, 37]. Le masque est représenté de la même façon, par exemple [255, 255, 255, 0]. L'adresse du réseau s'obtient en faisant, octet par octet, un ET logique (opérateur & en Python) entre l'adresse et le masque.",
+   "titre": "Test d'appartenance à un même réseau",
+   "contexte": "Deux machines d'adresses 192.168.40.17 et 192.168.47.200 utilisent un masque /21 (255.255.248.0, car 248 = 1111 1000). Pour savoir si elles sont dans le même réseau, on utilise la fonction suivante, où une adresse est représentée par une liste de 4 entiers :\n```python\n1 def meme_reseau(ip1, ip2, masque):\n2     for i in range(4):\n3         if ip1[i] & masque[i] != ip2[i] & masque[i]:\n4             return False\n5     return True\n```\nOn rappelle que a & b calcule le ET logique bit à bit de a et b.",
    "questions": [
     {
      "slot": 2,
      "notion": "reseau_ip",
-     "enonce": "Écrire une fonction adresse_reseau(ip, masque) qui prend en paramètres deux tableaux de 4 entiers et renvoie le tableau de 4 entiers de l'adresse du réseau.",
+     "enonce": "Expliquer le rôle de la ligne 3 de la fonction meme_reseau, puis donner la valeur renvoyée par meme_reseau([192, 168, 40, 17], [192, 168, 47, 200], [255, 255, 248, 0]).",
      "points": 1,
-     "reponse_attendue": "```python\ndef adresse_reseau(ip, masque):\n    res = []\n    for i in range(4):\n        res.append(ip[i] & masque[i])\n    return res\n\nprint(adresse_reseau([192, 168, 1, 37], [255, 255, 255, 0]))  # [192, 168, 1, 0]\n```"
+     "reponse_attendue": "La ligne 3 calcule, pour l'octet i, la partie réseau de chaque adresse (ET avec le masque) et compare : si elles diffèrent, les machines ne sont pas dans le même réseau. Ici 40 & 248 = 40 et 47 & 248 = 40 (0010 1111 → 0010 1000) ; les octets 17 & 0 et 200 & 0 valent 0. Les parties réseau sont égales : la fonction renvoie True."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Configuration d'un poste",
-   "contexte": "La commande ip addr exécutée sur un poste affiche notamment les informations suivantes :\n- interface : eth0\n- adresse : 172.16.5.12/22\n- passerelle par défaut : 172.16.4.1\n- adresse de diffusion : ?",
+   "titre": "Plan d'adressage",
+   "contexte": "L'administrateur du réseau 172.16.8.0/24 a noté ses machines :\n- poste-accueil : 172.16.8.10\n- serveur-fichiers : 172.16.8.2\n- borne-wifi : 172.16.8.254\n\nIl a commencé le tableau suivant :\n\n| élément | valeur |\n|---|---|\n| adresse du réseau | 172.16.8.0 |\n| adresse de diffusion (broadcast) | ... |\n| nombre d'adresses attribuables aux machines | ... |\n| première adresse attribuable | ... |",
    "questions": [
     {
      "slot": 3,
      "notion": "reseau_ip",
-     "enonce": "À l'aide des informations ci-dessus, donner l'adresse du réseau et l'adresse de diffusion du réseau de ce poste.",
+     "enonce": "Recopier et compléter le tableau ci-dessus.",
      "points": 1,
-     "reponse_attendue": "/22 → masque 255.255.252.0. 5 = 000001|01 → troisième octet réseau 4. Réseau : 172.16.4.0 ; diffusion : 172.16.7.255."
+     "reponse_attendue": "Adresse de diffusion : 172.16.8.255 ; nombre d'adresses attribuables : 2^8 - 2 = 254 ; première adresse attribuable : 172.16.8.1."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Masque et partie hôte",
-   "contexte": "Une entreprise reçoit le réseau 10.4.0.0 avec le masque 255.255.240.0. Le cours rappelle qu'on associe une adresse IP et un masque pour savoir quelle partie de l'adresse identifie le réseau et quelle partie identifie la machine.",
+   "titre": "Partie réseau commune",
+   "contexte": "Dans un réseau local, trois ordinateurs ont pour adresses 172.20.14.3/16, 172.20.200.17/16 et 172.20.0.99/16. On veut y connecter un quatrième ordinateur.",
    "questions": [
     {
      "slot": 4,
      "notion": "reseau_ip",
-     "enonce": "Donner la notation CIDR de ce masque, indiquer combien de bits identifient la machine, puis justifier le nombre maximal de machines adressables.",
+     "enonce": "Donner la partie réseau commune à toutes les machines de ce réseau local, puis donner une adresse valide pour le quatrième ordinateur.",
      "points": 1,
-     "reponse_attendue": "255.255.240.0 = /20. 32 - 20 = 12 bits pour la machine. 2^12 - 2 = 4094 machines (on retire l'adresse du réseau et celle de diffusion)."
+     "reponse_attendue": "Avec /16, la partie réseau est formée des deux premiers octets : 172.20 (réseau 172.20.0.0). Toute adresse 172.20.x.y non encore utilisée, différente de 172.20.0.0 et de 172.20.255.255, convient, par exemple 172.20.14.4."
     }
    ]
   }

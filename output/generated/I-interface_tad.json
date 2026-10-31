@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Une pile par son interface",
-   "contexte": "On dispose d'un module implémentant le type abstrait Pile avec l'interface : `creer_pile()`, `est_vide(p)`, `empiler(p, x)`, `depiler(p)` (renvoie l'élément retiré).\n\n```python\n1 def mystere(p):\n2     q = creer_pile()\n3     while not est_vide(p):\n4         empiler(q, depiler(p))\n5     return q\n```\n\nLa pile p contient, de la base au sommet, 1, 2, 3.",
+   "titre": "File implémentée par deux piles",
+   "contexte": "On donne la classe File ci-dessous, dont l'interface comporte est_vide, enfiler et defiler. Son implémentation interne utilise deux listes Python employées comme des piles ; l'utilisateur de la classe n'a pas à le savoir.\n```python\n 1 class File:\n 2     def __init__(self):\n 3         self.entree = []\n 4         self.sortie = []\n 5\n 6     def est_vide(self):\n 7         return self.entree == [] and self.sortie == []\n 8\n 9     def enfiler(self, x):\n10         self.entree.append(x)\n11\n12     def defiler(self):\n13         if self.sortie == []:\n14             while ...:\n15                 self.sortie.append(...)\n16         return ...\n```\nLa méthode defiler suppose la file non vide et renvoie l'élément le plus anciennement enfilé.",
    "questions": [
     {
      "slot": 1,
      "notion": "interface_tad",
-     "enonce": "Donner le contenu de la pile renvoyée par mystere(p), de la base au sommet, et préciser l'état de p après l'appel.",
+     "enonce": "Recopier et compléter les lignes 14, 15 et 16 de la méthode defiler.",
      "points": 1,
-     "reponse_attendue": "La pile renvoyée contient 3, 2, 1 (base → sommet) : 1 est au sommet. La pile p est vide."
+     "reponse_attendue": "```python\n    def defiler(self):\n        if self.sortie == []:\n            while self.entree != []:\n                self.sortie.append(self.entree.pop())\n        return self.sortie.pop()\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Choisir une interface",
-   "contexte": "On propose les opérations suivantes pour un type abstrait :\n- `creer()` : crée une structure vide\n- `ajouter(s, x)` : ajoute x à la fin\n- `retirer(s)` : retire et renvoie l'élément le plus anciennement ajouté\n- `est_vide(s)` : teste si la structure est vide",
+   "titre": "Utiliser une pile sans connaître son implémentation",
+   "contexte": "Un module fournit le type abstrait Pile par l'interface suivante : creer_pile() renvoie une pile vide ; est_vide(p) renvoie True si p est vide ; empiler(p, x) ajoute x au sommet ; depiler(p) retire et renvoie le sommet. On empile successivement 4, 7 puis 12 et on souhaite écrire, en n'utilisant que ces 4 fonctions, une fonction taille qui renvoie le nombre d'éléments d'une pile sans la modifier (ici 3).\n```python\n1 def taille(p):\n2     q = creer_pile()\n3     n = 0\n4     while not est_vide(p):\n5         empiler(q, ...)\n6         n = ...\n7     while not est_vide(q):\n8         empiler(p, ...)\n9     return n\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "interface_tad",
-     "enonce": "Quel type abstrait de données cette interface décrit-elle ? Justifier.",
+     "enonce": "Recopier et compléter les lignes 5, 6 et 8 de la fonction taille.",
      "points": 1,
-     "reponse_attendue": "Une file : l'élément retiré est le premier entré (FIFO)."
+     "reponse_attendue": "Ligne 5 : empiler(q, depiler(p)) ; ligne 6 : n = n + 1 ; ligne 8 : empiler(p, depiler(q)). La seconde boucle remet les éléments dans p dans leur ordre initial."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Taille d'une file via l'interface",
-   "contexte": "On ne peut utiliser que l'interface File : `creer_file()`, `est_vide(f)`, `enfiler(f, x)`, `defiler(f)`.\n\n```python\n1 def taille(f):\n2     aux = creer_file()\n3     n = 0\n4     while not est_vide(f):\n5         ...\n6         ...\n7     while not est_vide(aux):\n8         ...\n9     return n\n```",
+   "titre": "Une file de priorité vue par son interface",
+   "contexte": "Une file de priorité est un type abstrait dont l'interface comporte : creer_fp() qui renvoie une file vide, est_vide_fp(f), inserer(f, element, priorite) et extraire_min(f) qui retire et renvoie l'élément de plus petite priorité (on suppose f non vide). On veut s'en servir pour trier des tâches sans connaître son implémentation.",
    "questions": [
     {
      "slot": 3,
      "notion": "interface_tad",
-     "enonce": "Recopier et compléter les lignes 5, 6 et 8 de la fonction taille afin qu'elle renvoie le nombre d'éléments de f, f étant restaurée à la fin.",
+     "enonce": "Écrire une fonction ordonner qui prend en paramètres une liste taches de chaînes de caractères et une liste priorites d'entiers de même longueur, et qui renvoie la liste des tâches rangées par priorité croissante en n'utilisant que l'interface de la file de priorité.",
      "points": 1,
-     "reponse_attendue": "5        enfiler(aux, defiler(f))\n6        n = n + 1\n8        enfiler(f, defiler(aux))"
+     "reponse_attendue": "```python\ndef ordonner(taches, priorites):\n    f = creer_fp()\n    for i in range(len(taches)):\n        inserer(f, taches[i], priorites[i])\n    res = []\n    while not est_vide_fp(f):\n        res.append(extraire_min(f))\n    return res\n```"
     }
    ]
   },
   {
    "numero": 4,
    "titre": "Le SGBD comme interface",
-   "contexte": "Une médiathèque stocke ses données dans la relation `Livre(id, titre, auteur, annee)`. Les bibliothécaires n'accèdent jamais directement aux fichiers de stockage : ils passent par le SGBD, qui joue le rôle d'interface entre l'humain et la base.",
+   "contexte": "Une médiathèque gère la base Mediatheque, qui contient les tables Livre(isbn, titre, annee) et Emprunt(id, isbn, date_retour), isbn étant clé étrangère de Emprunt vers Livre. Les bibliothécaires n'écrivent jamais dans les fichiers de la base : ils envoient des requêtes SQL au SGBD. L'un d'eux exécute :\n```sql\nDELETE FROM Livre WHERE isbn = '978-2-07-036822-8';\n```\nalors qu'un emprunt de ce livre est encore enregistré. Le SGBD refuse la requête.",
    "questions": [
     {
      "slot": 4,
      "notion": "interface_tad",
-     "enonce": "Donner la requête SQL permettant d'ajouter le livre d'id 412, intitulé « Dune », de Frank Herbert, paru en 1965, puis expliquer en une phrase pourquoi l'utilisateur n'a pas à connaître l'organisation physique des données.",
+     "enonce": "On cherche à supprimer ce livre dans la base Mediatheque. Expliquer pourquoi le SGBD refuse la requête et en quoi ce refus illustre son rôle d'interface entre l'utilisateur et les données.",
      "points": 1,
-     "reponse_attendue": "INSERT INTO Livre (id, titre, auteur, annee) VALUES (412, 'Dune', 'Frank Herbert', 1965);\nLe SGBD est une interface : il traduit la requête en opérations sur le stockage, dont l'implémentation reste cachée."
+     "reponse_attendue": "La ligne d'Emprunt référence ce isbn par une clé étrangère : la supprimer dans Livre violerait la contrainte d'intégrité référentielle, donc le SGBD rejette la requête. L'utilisateur n'accède pas directement aux données stockées : il formule une demande (SQL) et le SGBD, intermédiaire entre l'humain et la base, l'exécute ou la refuse en garantissant la cohérence (il faudrait d'abord supprimer l'emprunt correspondant)."
     }
    ]
   }

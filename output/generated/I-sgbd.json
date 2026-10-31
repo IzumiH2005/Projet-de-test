@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Requête depuis Python",
-   "contexte": "Un script interroge une base SQLite contenant la table eleve(id, nom, classe) remplie avec : (1, 'Lina', 'T1'), (2, 'Hugo', 'T2'), (3, 'Malo', 'T1').\n\n```python\nimport sqlite3\nconn = sqlite3.connect(':memory:')\ncur = conn.cursor()\ncur.execute(\"CREATE TABLE eleve (id INTEGER PRIMARY KEY, nom TEXT, classe TEXT)\")\ncur.executemany(\"INSERT INTO eleve VALUES (?, ?, ?)\", [(1, 'Lina', 'T1'), (2, 'Hugo', 'T2'), (3, 'Malo', 'T1')])\ncur.execute(\"SELECT nom FROM eleve WHERE classe = 'T1' ORDER BY nom DESC\")\nres = cur.fetchall()\n```",
+   "titre": "Interroger une médiathèque",
+   "contexte": "Une médiathèque gère, avec un SGBD relationnel, ses livres, ses adhérents, ses emprunts et ses retours. La relation Livre possède les attributs id (clé primaire), titre, auteur, annee et genre, par exemple (12, 'Dune', 'Herbert', 1965, 'SF'), (31, 'Klara et le Soleil', 'Ishiguro', 2021, 'SF'), (40, 'Le Petit Prince', 'Saint-Exupéry', 1943, 'conte').",
    "questions": [
     {
      "slot": 1,
      "notion": "sgbd",
-     "enonce": "Donner la valeur de la variable res après l'exécution de ce script.",
+     "enonce": "Donner la requête SQL qui renvoie le titre et l'auteur des livres du genre 'SF' publiés après 2000, triés par année croissante.",
      "points": 1,
-     "reponse_attendue": "[('Malo',), ('Lina',)]"
+     "reponse_attendue": "```sql\nSELECT titre, auteur\nFROM Livre\nWHERE genre = 'SF' AND annee > 2000\nORDER BY annee ASC;\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Propriétés d'un SGBD",
-   "contexte": "Une médiathèque remplace ses fichiers tableurs par un système de gestion de base de données. On liste des services possibles :\n- gestion des accès concurrents de plusieurs utilisateurs\n- mise en forme graphique des cellules\n- vérification des contraintes d'intégrité\n- persistance et sécurisation des données",
+   "titre": "Contrainte de clé primaire",
+   "contexte": "Pour comprendre le rôle d'un SGBD, on simule une table en Python. Une ligne est un dictionnaire ; la méthode inserer doit refuser une ligne dont la clé primaire existe déjà (contrainte d'entité), comme le ferait un SGBD.\n```python\n 1 class Table:\n 2     def __init__(self, cle):\n 3         self.cle = cle        # nom de l'attribut clé primaire\n 4         self.lignes = []\n 5\n 6     def inserer(self, ligne):\n 7         \"\"\"Ajoute ligne et renvoie True, ou renvoie False\n 8         si sa clé primaire est déjà présente.\"\"\"\n 9         for l in self.lignes:\n10             if ...:\n11                 return False\n12         ...\n13         return True\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "sgbd",
-     "enonce": "Quel service de la liste n'est pas assuré par un SGBD ? Justifier.",
+     "enonce": "Recopier et compléter les lignes 10 et 12 de la méthode inserer de la classe Table.",
      "points": 1,
-     "reponse_attendue": "La mise en forme graphique des cellules : c'est une fonction de tableur ; un SGBD gère le stockage, l'intégrité, la concurrence et la sécurité des données, pas leur présentation."
+     "reponse_attendue": "```python\n    def inserer(self, ligne):\n        for l in self.lignes:\n            if l[self.cle] == ligne[self.cle]:\n                return False\n        self.lignes.append(ligne)\n        return True\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Transaction",
-   "contexte": "On donne le code suivant, qui transfère des points entre deux comptes d'une base SQLite :\n\n```\n1 import sqlite3\n2 conn = sqlite3.connect(':memory:')\n3 cur = conn.cursor()\n4 cur.execute(\"CREATE TABLE compte (id INTEGER PRIMARY KEY, points INTEGER CHECK (points >= 0))\")\n5 cur.execute(\"INSERT INTO compte VALUES (1, 10), (2, 5)\")\n6 conn.commit()\n7 try:\n8     cur.execute(\"UPDATE compte SET points = points + 20 WHERE id = 2\")\n9     cur.execute(\"UPDATE compte SET points = points - 20 WHERE id = 1\")\n10    conn.commit()\n11 except sqlite3.IntegrityError:\n12    conn.rollback()\n```",
+   "titre": "Équivalent Python d'une requête",
+   "contexte": "On représente la relation Livre par une liste de dictionnaires (clés 'id', 'titre', 'auteur', 'annee'). La fonction suivante imite une requête SQL :\n```python\n1 def requete(livres, auteur):\n2     resultat = []\n3     for l in livres:\n4         if l['auteur'] == auteur:\n5             resultat.append(l['titre'])\n6     return resultat\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "sgbd",
-     "enonce": "Indiquer les points des comptes 1 et 2 à la fin de l'exécution en expliquant le rôle de la ligne 12.",
+     "enonce": "Expliquer le rôle de la ligne 4 de la fonction requete en nommant la clause SQL à laquelle elle correspond, puis écrire la requête SQL équivalente à l'appel requete(livres, 'Herbert').",
      "points": 1,
-     "reponse_attendue": "La ligne 9 viole la contrainte CHECK (10 - 20 < 0) : exception, rollback annule aussi la ligne 8. Compte 1 : 10 points, compte 2 : 5 points. La ligne 12 garantit l'atomicité de la transaction."
+     "reponse_attendue": "La ligne 4 ne garde que les lignes dont l'auteur vaut le paramètre : c'est une sélection, qui correspond à la clause WHERE (la ligne 5 réalise la projection sur titre).\n```sql\nSELECT titre FROM Livre WHERE auteur = 'Herbert';\n```"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Langage d'un SGBD-R",
-   "contexte": "La plupart des SGBD-R (R de relationnelle) utilisent le langage SQL, Structured Query Language. Un développeur d'application web interroge le SGBD de son site pour afficher la liste des produits.",
+   "titre": "Langage d'un SGBD relationnel",
+   "contexte": "La médiathèque utilise SQLite pour ses données, tandis qu'un lycée voisin utilise PostgreSQL et une mairie MySQL. Un développeur doit écrire un même programme d'extraction des emprunts du mois pour les trois établissements.",
    "questions": [
     {
      "slot": 4,
      "notion": "sgbd",
-     "enonce": "Donner la signification de l'acronyme SGBD-R et préciser le rôle du langage SQL dans les échanges entre l'application et le SGBD.",
+     "enonce": "On cherche à interroger ces trois bases avec les mêmes requêtes. Expliquer pourquoi c'est possible en nommant le langage commun utilisé et le type de logiciel qui exécute les requêtes.",
      "points": 1,
-     "reponse_attendue": "Système de Gestion de Bases de Données Relationnelles. SQL est le langage de requêtes que l'application envoie au SGBD pour créer, lire, modifier ou supprimer des données ; le SGBD exécute la requête et renvoie le résultat."
+     "reponse_attendue": "SQLite, PostgreSQL et MySQL sont des SGBD relationnels (SGBD-R) : ils exécutent les requêtes et gèrent l'accès aux données. La plupart des SGBD-R utilisent le langage SQL (Structured Query Language), langage standard ; des requêtes SQL standard (SELECT … FROM … WHERE …) sont donc comprises par les trois."
     }
    ]
   }

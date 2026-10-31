@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Transposée",
-   "contexte": "```python\ndef transposee(m):\n    n = len(m)\n    t = [[0] * n] * n\n    for i in range(n):\n        for j in range(n):\n            t[j][i] = m[i][j]\n    return t\n```\nAppliquée à [[1, 2], [3, 4]], cette fonction renvoie [[2, 4], [2, 4]] au lieu de [[1, 3], [2, 4]].",
+   "titre": "Classe Matrice",
+   "contexte": "On donne la classe Matrice ci-dessous, qui représente une matrice d'entiers par une liste de listes (une liste par ligne).\n```python\n 1 class Matrice:\n 2     def __init__(self, lignes):\n 3         self.lignes = lignes\n 4         self.n = len(lignes)\n 5         self.p = len(lignes[0])\n 6\n 7     def transposee(self):\n 8         res = []\n 9         for j in range(...):\n10             ligne = []\n11             for i in range(...):\n12                 ligne.append(...)\n13             res.append(ligne)\n14         return Matrice(res)\n```\nPar exemple Matrice([[1, 2, 3], [4, 5, 6]]).transposee().lignes vaut [[1, 4], [2, 5], [3, 6]].",
    "questions": [
     {
      "slot": 1,
      "notion": "matrice",
-     "enonce": "Modifier le code de transposee pour qu'elle renvoie la transposée correcte d'une matrice carrée.",
+     "enonce": "Recopier et compléter les lignes 9, 11 et 12 de la méthode transposee.",
      "points": 1,
-     "reponse_attendue": "def transposee(m):\n    n = len(m)\n    t = [[0] * n for _ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            t[j][i] = m[i][j]\n    return t"
+     "reponse_attendue": "Ligne 9 : for j in range(self.p): ; ligne 11 : for i in range(self.n): ; ligne 12 : ligne.append(self.lignes[i][j])."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Somme d'une diagonale",
-   "contexte": "```python\n1 def f(m):\n2     s = 0\n3     for i in range(len(m)):\n4         s = s + m[i][len(m) - 1 - i]\n5     return s\n```",
+   "titre": "Stocker une matrice dans une base",
+   "contexte": "Un service météo stocke des relevés de température dans une matrice : ligne = station, colonne = jour. Pour l'enregistrer dans la base Meteo, on utilise la table Releve(station, jour, temperature), une ligne par case de la matrice :\n```python\nT = [[12, 14, 13],\n     [9, 10, 11]]\n```\n| station | jour | temperature |\n|---|---|---|\n| 0 | 0 | 12 |\n| 0 | 1 | 14 |\n| 0 | 2 | 13 |\n| 1 | 0 | 9 |\n| 1 | 1 | 10 |\n| 1 | 2 | 11 |\n\nUn technicien propose station comme clé primaire de Releve.",
    "questions": [
     {
      "slot": 2,
      "notion": "matrice",
-     "enonce": "Donner la valeur renvoyée par f([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).",
+     "enonce": "On cherche à enregistrer la matrice T dans la base Meteo. Expliquer pourquoi station ne peut pas être la clé primaire et proposer une clé primaire correcte.",
      "points": 1,
-     "reponse_attendue": "15 (3 + 5 + 7)"
+     "reponse_attendue": "station prend plusieurs fois la même valeur (0 apparaît 3 fois) : une clé primaire doit être unique pour chaque ligne, l'insertion échouerait. Une case de la matrice est identifiée par son couple (ligne, colonne) : la clé primaire est le couple (station, jour)."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Maximum d'une matrice",
-   "contexte": "```python\n1 def maximum(m):\n2     maxi = m[0][0]\n3     for ligne in m:\n4         ...\n5             ...\n6                 ...\n7     return maxi\n```",
+   "titre": "Somme des colonnes",
+   "contexte": "La fonction suivante prend une matrice M non vide (liste de listes de même longueur) et renvoie la liste des sommes de chaque colonne.\n```python\n1 def sommes_colonnes(M):\n2     s = [0] * len(M[0])\n3     for i in range(len(M)):\n4         for j in range(len(M[0])):\n5             s[j] = s[j] + M[i][j]\n6     return s\n```\nPar exemple sommes_colonnes([[1, 2], [3, 4], [5, 6]]) renvoie [9, 12].",
    "questions": [
     {
      "slot": 3,
      "notion": "matrice",
-     "enonce": "Recopier et compléter la fonction maximum (à partir de la ligne 4) qui renvoie le plus grand élément d'une matrice non vide.",
+     "enonce": "Expliquer le rôle de la ligne 2 de la fonction sommes_colonnes et indiquer pourquoi on utilise len(M[0]) plutôt que len(M).",
      "points": 1,
-     "reponse_attendue": "def maximum(m):\n    maxi = m[0][0]\n    for ligne in m:\n        for x in ligne:\n            if x > maxi:\n                maxi = x\n    return maxi"
+     "reponse_attendue": "La ligne 2 crée la liste des accumulateurs, une case par colonne, toutes initialisées à 0. Le nombre de colonnes est la longueur d'une ligne, len(M[0]) ; len(M) est le nombre de lignes (3 dans l'exemple, alors qu'il y a 2 colonnes) et donnerait une liste de mauvaise taille, voire une erreur d'indice."
     }
    ]
   },
   {
    "numero": 4,
    "titre": "Bloc AES",
-   "contexte": "Le chiffrement AES travaille par blocs de 128 bits, répartis dans une matrice de 16 octets (matrice carrée de taille 4).",
+   "contexte": "L'algorithme de chiffrement symétrique AES chiffre les données par blocs de 128 bits. Chaque bloc est réparti dans une matrice carrée de taille 4 contenant 16 octets, remplie colonne par colonne. On chiffre le message de 16 caractères ASCII \"NSI-TERMINALE-24\".",
    "questions": [
     {
      "slot": 4,
      "notion": "matrice",
-     "enonce": "Expliquer pourquoi une matrice carrée de taille 4 suffit exactement à contenir un bloc de 128 bits.",
+     "enonce": "Indiquer le caractère placé à la ligne 1, colonne 2 de la matrice (indices commençant à 0) en tenant compte du remplissage colonne par colonne, et justifier que 16 octets correspondent bien à 128 bits.",
      "points": 1,
-     "reponse_attendue": "Une matrice 4×4 contient 16 cases ; chacune contient un octet de 8 bits ; 16 × 8 = 128 bits."
+     "reponse_attendue": "Remplissage par colonnes : la case (i, j) contient le caractère d'indice 4 × j + i, soit 4 × 2 + 1 = 9. Le caractère d'indice 9 de \"NSI-TERMINALE-24\" est 'N' (N0 S1 I2 -3 T4 E5 R6 M7 I8 N9). 16 octets × 8 bits = 128 bits."
     }
    ]
   }

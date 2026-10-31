@@ -151,3 +151,38 @@ Limites :
 - 9 des 25 manières de demander et 5 des 8 types de support sont jugés peu cohérents.
 - La grammaire de plausibilité reste modeste (AUC 0,69).
 - Une question inédite reste en moyenne un peu moins « typique » qu'une vraie question.
+
+## Deuxième entraînement : plus de matière, auto-correction
+
+Aucune variable n'a été ajoutée à la main. Le modèle a reçu plus de matière, et de nouveaux mécanismes lui permettent de se corriger seul.
+
+**Nouvelle matière** (`scripts/fetch_sources.sh`, `examgen/ingest_extra.py`) :
+- 96 sujets écrits officiels, dont ceux de [sujetdebac.fr](https://www.sujetdebac.fr) pour 2021–2026 ;
+- [CodEx](https://codex.forge.apps.education.fr) : exercices avec étiquettes et difficulté ;
+- une banque de QCM de Terminale ;
+- 7 dépôts d'enseignants sur la Forge des communs numériques éducatifs.
+
+Au total, environ 8 400 questions d'exposition.
+
+**Mécanismes d'auto-correction** (`examgen/discovery.py`) :
+- **Tri automatique.** Un classifieur sépare les vraies questions de la prose. Son seuil est choisi par F1 et il a écarté 1 303 unités.
+- **Facettes stables.** Chaque groupe de k-means est rééchantillonné (Jaccard *clusterboot*). k est choisi par silhouette × stabilité, puis les groupes instables sont dissous en un seul tour. Les facettes sont apprises sur les sujets seulement, et les autres sources y sont projetées. Une première version avait fait s'effondrer les facettes (6 manières de demander) ; cette contrainte a corrigé le problème.
+- **Réglages par validation croisée groupée.** La plausibilité et le classifieur de notions choisissent eux-mêmes leurs hyperparamètres.
+- **Auto-apprentissage contrôlé.** Pseudo-étiquettes et auto-étiquetage du cours ne sont gardés que s'ils améliorent le score sur des sujets tenus à l'écart. Pour le cours, ce n'était pas le cas, et ils ont été refusés.
+- **Validateur corrigé.** Il accepte les méthodes « à compléter » indentées et les lignes numérotées. Il ne vérifie plus le SQL cité dans une phrase.
+
+| Mesure | Avant | Après |
+|---|---|---|
+| Sujets écrits / unités d'exposition | 83 / 3 102 | 96 / ≈ 8 400 |
+| Manières de demander | 25 (silhouette 0,33) | 21 stables (0,37 ; stabilité 0,89) |
+| Types de support | 8 | 16 stables (stabilité 0,89) |
+| Notion top-3 (sujets tenus à l'écart) | 90,1 % | 95,6 % |
+| Difficulté (R²) | 0,036 | 0,081 |
+| Inédites : manière de demander respectée (top-3) | 71 % | 85 % |
+| Inédites : notion reconnue (top-3) | 62 % | 74 % |
+| Inédites : jugées plausibles | 31 % | 36 % |
+| Inédites : combinaison jamais vue | 74 % | 77 % |
+| Inédites : support respecté (top-3) | 81 % sur 8 types | 63 % sur 16 types |
+| Python / SQL des corrigés | 100 % / 100 % | 98 % / 100 % |
+
+La page `output/livrable.html` (construite par `python scripts/build_livrable.py`) regroupe les anciens sujets et les 368 questions générées, dont 163 inédites.

@@ -4,56 +4,56 @@
   {
    "numero": 1,
    "titre": "Rendu de monnaie",
-   "contexte": "Une caisse automatique rend la monnaie avec les pièces de `pieces = [200, 100, 50, 20, 10, 5, 2, 1]` (en centimes, ordre décroissant). Elle choisit à chaque étape la plus grande pièce ne dépassant pas la somme restante.\n\n```python\n1 def rendu(somme, pieces):\n2     rendues = []\n3     i = 0\n4     while somme > 0:\n5         if ...:\n6             ...\n7             ...\n8         else:\n9             i = i + 1\n10    return rendues\n```",
+   "contexte": "On considère la fonction suivante qui rend la monnaie de manière gloutonne (la liste `pieces` est triée par ordre décroissant).\n```python\n1  def rendu(somme, pieces):\n2      res = []\n3      for p in pieces:\n4          while somme >= p:\n5              res.append(p)\n6              somme = somme - p\n7      return res\n8\n9  r = rendu(48, [20, 10, 5, 2, 1])\n```",
    "questions": [
     {
      "slot": 1,
-     "notion": "glouton",
-     "enonce": "Recopier et compléter les lignes 5 à 7 de la fonction rendu afin qu'elle renvoie la liste des pièces rendues selon la stratégie gloutonne.",
+     "notion": "algorithmes gloutons",
+     "enonce": "Déterminer la valeur de `r` à l'issue de l'exécution de la ligne 9.",
      "points": 1,
-     "reponse_attendue": "```python\ndef rendu(somme, pieces):\n    rendues = []\n    i = 0\n    while somme > 0:\n        if pieces[i] <= somme:\n            rendues.append(pieces[i])\n            somme = somme - pieces[i]\n        else:\n            i = i + 1\n    return rendues\n\nassert rendu(263, [200, 100, 50, 20, 10, 5, 2, 1]) == [200, 50, 10, 2, 1]\n```"
+     "reponse_attendue": "`[20, 20, 5, 2, 1]` (48 → 28 → 8 → 3 → 1 → 0)."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Planning d'une salle",
-   "contexte": "Une salle de sport accueille des activités, chacune représentée par un tuple (debut, fin) d'heures entières. La fonction planning prend en paramètre activites, une liste de tuples, quelconque, éventuellement vide ; elle trie les activités par heure de fin croissante, choisit la première, puis retient chaque activité dont le début est supérieur ou égal à la fin de la dernière activité retenue ; elle renvoie la liste des activités retenues.",
+   "titre": "Remplir un sac",
+   "contexte": "Une classe `Sac` modélise un sac à dos de capacité `capacite` (en kg). On donne :\n```python\nclass Sac:\n    def __init__(self, capacite):\n        self.capacite = capacite\n        self.contenu = []\n```\nLa méthode `remplir` prend en paramètre une liste `objets` de couples (nom, masse) et ajoute au contenu du sac, de manière gloutonne, les objets pris par masse croissante tant que la masse totale ne dépasse pas la capacité ; elle renvoie la liste des noms ajoutés.",
    "questions": [
     {
      "slot": 2,
-     "notion": "glouton",
-     "enonce": "Écrire une fonction planning(activites) qui prend en paramètre une liste de tuples (debut, fin) et qui renvoie la liste des activités retenues selon cette stratégie gloutonne.",
+     "notion": "algorithmes gloutons",
+     "enonce": "Écrire le code de la méthode `remplir` de la classe `Sac` décrite ci-dessus.",
      "points": 1,
-     "reponse_attendue": "```python\ndef fin(a):\n    return a[1]\n\ndef planning(activites):\n    retenues = []\n    for a in sorted(activites, key=fin):\n        if retenues == [] or a[0] >= retenues[-1][1]:\n            retenues.append(a)\n    return retenues\n\nassert planning([(9, 12), (8, 10), (10, 11), (11, 13)]) == [(8, 10), (10, 11), (11, 13)]\nassert planning([]) == []\n```"
+     "reponse_attendue": "```python\n    def remplir(self, objets):\n        tries = sorted(objets, key=lambda o: o[1])\n        total = 0\n        for nom, masse in tries:\n            if total + masse <= self.capacite:\n                self.contenu.append(nom)\n                total = total + masse\n        return self.contenu\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Sac à dos glouton",
-   "contexte": "Un randonneur dispose d'un sac de capacité 10 kg. Les objets sont donnés par des tuples (masse, valeur) et triés par rapport valeur/masse décroissant :\n\n```python\nobjets = [(2, 10), (5, 20), (4, 12), (3, 6)]\n\ndef sac(objets, capacite):\n    total = 0\n    for m, v in objets:\n        if m <= capacite:\n            capacite = capacite - m\n            total = total + v\n    return total\n```",
+   "titre": "Choix d'activités",
+   "contexte": "Une salle accueille des activités, chacune représentée par un couple (debut, fin) d'entiers (heures). Deux activités sont compatibles si l'une finit avant (ou au moment où) l'autre commence. La stratégie gloutonne consiste à choisir à chaque étape l'activité compatible qui finit le plus tôt.",
    "questions": [
     {
      "slot": 3,
-     "notion": "glouton",
-     "enonce": "Donner la valeur renvoyée par l'appel sac(objets, 10).",
+     "notion": "algorithmes gloutons",
+     "enonce": "Écrire une fonction `planning` qui prend en paramètres une liste `activites` de couples (debut, fin) et un entier `ouverture` (heure d'ouverture de la salle) et qui renvoie la liste des activités choisies par cette stratégie (aucune ne commence avant `ouverture`).",
      "points": 1,
-     "reponse_attendue": "36 : on prend (2, 10) (reste 8), (5, 20) (reste 3), on ne peut pas prendre (4, 12), on prend (3, 6) (reste 0) ; total 10 + 20 + 6 = 36."
+     "reponse_attendue": "```python\ndef planning(activites, ouverture):\n    tries = sorted(activites, key=lambda a: a[1])\n    choisies = []\n    t = ouverture\n    for debut, fin in tries:\n        if debut >= t:\n            choisies.append((debut, fin))\n            t = fin\n    return choisies\n```"
     }
    ]
   },
   {
    "numero": 4,
    "titre": "Descente d'une pyramide",
-   "contexte": "Une pyramide de nombres est représentée par une liste de listes : `p = [[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]`. Depuis l'élément p[i][j], on peut descendre vers p[i+1][j] ou p[i+1][j+1]. La fonction suivante calcule de manière gloutonne la somme d'un « meilleur » trajet en choisissant à chaque étage le plus grand des deux voisins du dessous.\n\n```python\n1 def _glouton(p):\n2     j = 0\n3     somme = p[0][0]\n4     for i in range(1, len(p)):\n5         if p[i][j + 1] > p[i][j]:\n6             ...\n7         somme = somme + p[i][j]\n8     return somme\n```\n\nInstructions proposées : (A) `j = j - 1` ; (B) `j = j + 1` ; (C) `i = i + 1` ; (D) `somme = somme + p[i][j + 1]`.",
+   "contexte": "Une pyramide de nombres est représentée par une liste de listes : la ligne i contient i+1 entiers.\n```python\np = [[3],\n     [7, 4],\n     [2, 4, 6],\n     [8, 5, 9, 3]]\n```\nOn part du sommet et, à chaque ligne, on descend vers l'un des deux nombres situés juste en dessous (indice j ou j+1). On cherche un trajet de somme maximale. La classe `Pyramide` a un attribut `self.lignes` contenant cette liste. La méthode `glouton` doit calculer de manière gloutonne un « meilleur » trajet : à chaque étape on descend vers le plus grand des deux voisins. Elle renvoie la somme obtenue.",
    "questions": [
     {
      "slot": 4,
-     "notion": "glouton",
-     "enonce": "Parmi les instructions (A) à (D), sélectionner celle qui complète la ligne 6, puis donner la valeur renvoyée par _glouton(p).",
+     "notion": "algorithmes gloutons",
+     "enonce": "Écrire le code de la méthode `glouton` de la classe `Pyramide` décrite ci-dessus, puis donner sa valeur pour la pyramide `p`.",
      "points": 1,
-     "reponse_attendue": "(B) j = j + 1. Trajet 3 → 7 → 4 → 9, valeur renvoyée 23.\n```python\ndef _glouton(p):\n    j = 0\n    somme = p[0][0]\n    for i in range(1, len(p)):\n        if p[i][j + 1] > p[i][j]:\n            j = j + 1\n        somme = somme + p[i][j]\n    return somme\n\nassert _glouton([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]]) == 23\n```"
+     "reponse_attendue": "```python\n    def glouton(self):\n        j = 0\n        somme = self.lignes[0][0]\n        for i in range(1, len(self.lignes)):\n            if self.lignes[i][j + 1] > self.lignes[i][j]:\n                j = j + 1\n            somme = somme + self.lignes[i][j]\n        return somme\n```\nPour p : 3 → 7 → 4 → 9 (4 > 2, puis 9 > 5), somme 23 (ici égale à l'optimum ; en général la méthode gloutonne n'est pas optimale)."
     }
    ]
   }

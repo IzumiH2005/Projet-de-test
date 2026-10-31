@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Chiffrement de César",
-   "contexte": "On chiffre un message écrit en lettres majuscules (A à Z) et espaces par un décalage. La fonction cesar prend en paramètres une chaîne message et un entier cle compris entre 0 et 25, renvoie une nouvelle chaîne où chaque lettre est décalée de cle positions dans l'alphabet (Z suivi de A), laisse les espaces inchangés. On rappelle que ord('A') vaut 65 et que chr est la fonction réciproque de ord.",
+   "titre": "Établissement d'une connexion HTTPS",
+   "contexte": "Lina se connecte au site de sa banque en HTTPS. Le serveur envoie d'abord au navigateur son certificat, qui contient sa clé publique.\nLe navigateur génère alors une clé de session aléatoire, destinée à un chiffrement symétrique.\nIl doit transmettre cette clé au serveur sans qu'un espion présent sur le réseau puisse la lire.",
    "questions": [
     {
      "slot": 1,
      "notion": "securite_crypto",
-     "enonce": "Écrire la fonction cesar(message, cle) et donner la valeur de cesar('ZOO', 3).",
+     "enonce": "Donner le nom de la clé utilisée par le navigateur pour chiffrer la clé de session, et le nom de la clé utilisée par le serveur pour la déchiffrer.",
      "points": 1,
-     "reponse_attendue": "```python\ndef cesar(message, cle):\n    res = ''\n    for c in message:\n        if c == ' ':\n            res = res + c\n        else:\n            res = res + chr((ord(c) - 65 + cle) % 26 + 65)\n    return res\n\nprint(cesar('ZOO', 3))  # 'CRR'\n```"
+     "reponse_attendue": "Le navigateur chiffre la clé de session avec la clé publique du serveur ; le serveur la déchiffre avec sa clé privée (chiffrement asymétrique), puis les échanges sont chiffrés symétriquement avec la clé de session."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Échange de clés",
-   "contexte": "Alice veut envoyer un document volumineux à Bob de façon confidentielle. Elle chiffre le document avec une clé AES générée aléatoirement, puis chiffre cette clé AES avec la clé publique de Bob avant de tout lui envoyer.",
+   "titre": "Chiffrement par OU exclusif",
+   "contexte": "Un message est représenté par une liste d'entiers entre 0 et 255 (codes des octets) et une clé par une liste non vide d'entiers entre 0 et 255. On chiffre l'octet d'indice i du message par un OU exclusif (opérateur ^ en Python) avec l'octet d'indice i % len(cle) de la clé (la clé est répétée autant que nécessaire). Par exemple chiffre_xor([72, 105, 33], [5, 9]) renvoie [77, 96, 36].",
    "questions": [
     {
      "slot": 2,
      "notion": "securite_crypto",
-     "enonce": "Donner le nom de ce type de chiffrement combinant les deux méthodes, et la clé que Bob utilise pour retrouver la clé AES.",
+     "enonce": "Écrire la fonction chiffre_xor qui prend en paramètres une liste message et une liste cle et qui renvoie la liste des octets chiffrés.",
      "points": 1,
-     "reponse_attendue": "Chiffrement hybride ; Bob utilise sa clé privée."
+     "reponse_attendue": "```python\ndef chiffre_xor(message, cle):\n    resultat = []\n    for i in range(len(message)):\n        resultat.append(message[i] ^ cle[i % len(cle)])\n    return resultat\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Choix de la clé",
-   "contexte": "Bob possède une paire de clés RSA. Charlie veut lui envoyer un message que seul Bob pourra lire. Clés disponibles :\n- clé publique de Bob\n- clé privée de Bob\n- clé publique de Charlie\n- clé privée de Charlie",
+   "titre": "Chiffrement par décalage",
+   "contexte": "On donne la fonction suivante, qui chiffre un mot écrit en majuscules par décalage (chiffre de César), ainsi qu'un extrait de la table des codes :\n```python\ndef chiffre(mot, k):\n    r = \"\"\n    for c in mot:\n        r = r + chr((ord(c) - 65 + k) % 26 + 65)\n    return r\n```\n\n| lettre | I | L | N | Q | S | V |\n|---|---|---|---|---|---|---|\n| ord(lettre) | 73 | 76 | 78 | 81 | 83 | 86 |",
    "questions": [
     {
      "slot": 3,
      "notion": "securite_crypto",
-     "enonce": "Quelle clé Charlie doit-il utiliser pour chiffrer son message ? Justifier.",
+     "enonce": "Quelle est la valeur renvoyée par l'appel chiffre('NSI', 3) ?",
      "points": 1,
-     "reponse_attendue": "La clé publique de Bob : seule la clé privée correspondante, connue de Bob uniquement, permet de déchiffrer."
+     "reponse_attendue": "N (78) → 81 = Q ; S (83) → 86 = V ; I (73) → 76 = L. L'appel renvoie 'QVL'."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Partage d'une clé secrète",
-   "contexte": "Une entreprise utilise un chiffrement symétrique pour protéger ses échanges avec 50 partenaires. Le cours précise qu'un chiffrement est dit symétrique lorsque la connaissance de la clé ayant servi au chiffrement permet de déchiffrer le message.",
+   "titre": "Symétrie du chiffrement XOR",
+   "contexte": "On reprend le chiffrement par OU exclusif : chaque octet m du message est chiffré en c = m ^ k, où k est l'octet de clé correspondant. On rappelle qu'un chiffrement est dit symétrique lorsque la connaissance de la clé ayant servi au chiffrement permet de déchiffrer le message. On rappelle aussi que, pour tous entiers a et b : a ^ b ^ b = a.",
    "questions": [
     {
      "slot": 4,
      "notion": "securite_crypto",
-     "enonce": "Expliquer pourquoi la transmission de la clé est le point faible de ce mode de chiffrement.",
+     "enonce": "Justifier, en tenant compte de la définition rappelée, que ce chiffrement est symétrique, et indiquer comment Bob déchiffre le message reçu.",
      "points": 1,
-     "reponse_attendue": "La même clé chiffre et déchiffre : si elle est interceptée lors de sa transmission, l'attaquant peut lire tous les messages. Il faut donc un canal sûr pour l'échanger avec chaque partenaire (50 clés distinctes), ce qui est difficile."
+     "reponse_attendue": "Pour déchiffrer, Bob applique la même opération avec la même clé : c ^ k = m ^ k ^ k = m. La clé ayant servi au chiffrement suffit donc à déchiffrer : le chiffrement est symétrique (en pratique, Bob appelle chiffre_xor(message_chiffre, cle))."
     }
    ]
   }

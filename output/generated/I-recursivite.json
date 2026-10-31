@@ -3,29 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Somme des chiffres",
-   "contexte": "Un club de calcul mental veut vérifier la somme des chiffres d'un entier naturel. On propose la fonction suivante :\n\n```python\ndef somme_chiffres(n):\n    if n < 10:\n        return n\n    return n % 10 + somme_chiffres(n // 10)\n```\n\nOn appelle somme_chiffres(4071). Chaque appel récursif est empilé dans la pile d'appels.",
+   "titre": "Comptage récursif dans une liste",
+   "contexte": "Une station météo enregistre chaque jour un code d'alerte entier. Les relevés sont stockés dans des listes Python. On veut compter le nombre de jours où un code donné apparaît, sans utiliser de boucle.\n\nExemples attendus :\n```python\n>>> compte([3, 1, 3, 3, 2], 3)\n3\n>>> compte([0, 2, 2], 1)\n0\n>>> compte([], 5)\n0\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "recursivite",
-     "enonce": "Donner le nombre total d'appels de la fonction somme_chiffres effectués lors de l'appel somme_chiffres(4071), ainsi que la valeur renvoyée.",
+     "enonce": "Écrire une fonction récursive compte qui prend en paramètres une liste tab et une valeur x et qui renvoie le nombre d'occurrences de x dans tab.",
      "points": 1,
-     "reponse_attendue": "4 appels (4071, 407, 40, 4) ; valeur renvoyée : 12."
+     "reponse_attendue": "```python\ndef compte(tab, x):\n    if tab == []:\n        return 0\n    if tab[0] == x:\n        return 1 + compte(tab[1:], x)\n    return compte(tab[1:], x)\n```\nCas de base : liste vide → 0 ; sinon on traite le premier élément et on appelle récursivement sur le reste."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Reste par soustractions",
-   "contexte": "On souhaite calculer le reste de la division euclidienne de a par b (a ≥ 0, b > 0) sans utiliser l'opérateur %, à l'aide d'une fonction récursive _mod(a, b). On trace les appels successifs dans un tableau, à la manière d'une table de routage où chaque ligne indique l'appel courant et l'appel « suivant » :\n\n| Appel courant | Appel suivant | Valeur renvoyée |\n|---|---|---|\n| _mod(17, 5) | _mod(12, 5) | ? |\n| _mod(12, 5) | ? | ? |\n| ? | ? | ? |\n| _mod(2, 5) | aucun (cas de base) | 2 |",
+   "titre": "Longueur d'une liste chaînée",
+   "contexte": "Un lecteur audio stocke sa file de lecture sous forme de liste chaînée. On dispose de la classe suivante :\n```python\nclass Maillon:\n    def __init__(self, titre, suivant=None):\n        self.titre = titre\n        self.suivant = suivant\n\n    def longueur(self):\n        ...\n```\nLa méthode longueur ne prend pas d'autre paramètre que self et renvoie le nombre de maillons de la chaîne qui commence au maillon self (self compris). Par exemple, Maillon('A', Maillon('B', Maillon('C'))).longueur() renvoie 3.",
    "questions": [
     {
      "slot": 2,
      "notion": "recursivite",
-     "enonce": "Écrire la fonction récursive _mod(a, b) puis recopier et compléter le tableau des appels pour _mod(17, 5).",
+     "enonce": "Écrire le code récursif de la méthode longueur de la classe Maillon qui renvoie le nombre de maillons de la chaîne commençant à self.",
      "points": 1,
-     "reponse_attendue": "```python\ndef _mod(a, b):\n    if a < b:\n        return a\n    return _mod(a - b, b)\n\nprint(_mod(17, 5))  # 2\n```\nTableau : _mod(17,5) -> _mod(12,5) -> 2 ; _mod(12,5) -> _mod(7,5) -> 2 ; _mod(7,5) -> _mod(2,5) -> 2 ; _mod(2,5) : cas de base, renvoie 2."
+     "reponse_attendue": "```python\n    def longueur(self):\n        if self.suivant is None:\n            return 1\n        return 1 + self.suivant.longueur()\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Lecture d'une fonction récursive",
+   "contexte": "On considère la fonction suivante :\n```python\ndef mystere(n):\n    if n <= 1:\n        return n\n    return mystere(n - 1) + 2 * mystere(n - 2)\n```\nOn a commencé à remplir le tableau des valeurs renvoyées :\n\n| n | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| mystere(n) | 0 | 1 | 1 | 3 | ... | ... |",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "recursivite",
+     "enonce": "Quelle est la valeur renvoyée par l'appel mystere(5) ? Justifier à l'aide du tableau.",
+     "points": 1,
+     "reponse_attendue": "mystere(4) = mystere(3) + 2 × mystere(2) = 3 + 2 = 5 ; mystere(5) = mystere(4) + 2 × mystere(3) = 5 + 6 = 11. L'appel renvoie 11."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Stratégie de victoire au jeu des allumettes",
+   "contexte": "Deux joueurs disposent d'un tas de n allumettes. Chacun leur tour, ils retirent 1, 2 ou 3 allumettes. Le joueur qui retire la dernière allumette gagne. On appelle position gagnante un nombre n d'allumettes pour lequel le joueur qui doit jouer peut gagner à coup sûr. On donne la fonction :\n```python\ndef gagnante(n):\n    if n == 0:\n        return False\n    for k in (1, 2, 3):\n        if k <= n and not gagnante(n - k):\n            return True\n    return False\n```",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "recursivite",
+     "enonce": "Déterminer, en tenant compte de la fonction gagnante, si le premier joueur peut gagner à coup sûr avec n = 8 allumettes, puis décrire une stratégie de victoire dans le cas général.",
+     "points": 1,
+     "reponse_attendue": "gagnante(0)=False, 1, 2, 3 → True, gagnante(4)=False (tout coup laisse 3, 2 ou 1, positions gagnantes pour l'adversaire), 5, 6, 7 → True, gagnante(8)=False. Avec 8 allumettes, le premier joueur perd si l'adversaire joue bien. Stratégie : les positions perdantes sont les multiples de 4 ; il faut toujours retirer n % 4 allumettes pour laisser à l'adversaire un multiple de 4 (impossible si n est déjà multiple de 4)."
     }
    ]
   }

@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Mot de passe valide",
-   "contexte": "Un site impose les règles suivantes à un mot de passe mdp : longueur au moins 8, au moins une lettre majuscule, au moins un chiffre, aucun espace. La fonction renvoie True si toutes les règles sont respectées, False sinon.",
+   "titre": "Mots palindromes",
+   "contexte": "Un jeu de lettres manipule des mots à l'aide de la classe Mot :\n\n```python\nclass Mot:\n    def __init__(self, texte):\n        self.texte = texte\n```\n\nOn souhaite ajouter une méthode est_palindrome qui renvoie True si l'attribut texte se lit de la même façon de gauche à droite et de droite à gauche, et False sinon. Par exemple Mot('kayak').est_palindrome() renvoie True et Mot('kayaks').est_palindrome() renvoie False.",
    "questions": [
     {
      "slot": 1,
      "notion": "chaines",
-     "enonce": "Écrire une fonction est_valide(mdp) qui renvoie True si la chaîne mdp respecte toutes les règles. Exemple : est_valide('Nsi2026ok') renvoie True.",
+     "enonce": "Écrire le code de la méthode est_palindrome de la classe Mot, sans utiliser de tranche (slicing).",
      "points": 1,
-     "reponse_attendue": "```python\ndef est_valide(mdp):\n    if len(mdp) < 8:\n        return False\n    maj = False\n    chiffre = False\n    for c in mdp:\n        if c == ' ':\n            return False\n        if 'A' <= c <= 'Z':\n            maj = True\n        if '0' <= c <= '9':\n            chiffre = True\n    return maj and chiffre\n\nassert est_valide('Nsi2026ok')\nassert not est_valide('nsi2026ok')\nassert not est_valide('Nsi 2026ok')\n```"
+     "reponse_attendue": "```python\n    def est_palindrome(self):\n        n = len(self.texte)\n        for i in range(n // 2):\n            if self.texte[i] != self.texte[n - 1 - i]:\n                return False\n        return True\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Palindrome à compléter",
-   "contexte": "On considère la fonction à trous suivante, qui doit renvoyer True si la chaîne s se lit de la même façon dans les deux sens :\n\n```python\n1 def est_palindrome(s):\n2     i = 0\n3     j = ...\n4     while i < j:\n5         if s[i] != s[j]:\n6             return ...\n7         i = i + 1\n8         j = ...\n9     return True\n```",
+   "titre": "Fonction mystère",
+   "contexte": "On considère la fonction suivante :\n\n```python\n1 def mystere(mot):\n2     res = ''\n3     for c in mot:\n4         if c not in 'aeiouy':\n5             res = c + res\n6     return res\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "chaines",
-     "enonce": "Recopier et compléter les lignes 3, 6 et 8 de la fonction est_palindrome.",
+     "enonce": "Quelle est la valeur renvoyée par l'appel mystere('python') ? Justifier en décrivant le rôle de la ligne 5.",
      "points": 1,
-     "reponse_attendue": "```python\ndef est_palindrome(s):\n    i = 0\n    j = len(s) - 1\n    while i < j:\n        if s[i] != s[j]:\n            return False\n        i = i + 1\n        j = j - 1\n    return True\n\nassert est_palindrome('radar') and not est_palindrome('nsi')\n```"
+     "reponse_attendue": "'nhtp'. Les voyelles (ici 'y' et 'o') sont ignorées ; la ligne 5 ajoute chaque consonne au début de res, ce qui inverse leur ordre : p, t, h, n donnent successivement 'p', 'tp', 'htp', 'nhtp'."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Bandeau de caractères",
-   "contexte": "Une enseigne lumineuse affiche la chaîne s = 'TERMINALE' : la figure 1 la représente comme une rangée de 9 cases numérotées de 0 à 8, chaque case contenant un caractère (case 0 : 'T', case 8 : 'E'). Le programme d'affichage lit s[k] pour allumer la case k.",
+   "titre": "Manipulations élémentaires",
+   "contexte": "Dans un programme de gestion de classes, on dispose de la variable s = 'Terminale'. On rappelle que les indices d'une chaîne commencent à 0, qu'un indice négatif compte à partir de la fin, et que les chaînes sont comparées dans l'ordre lexicographique.",
    "questions": [
     {
      "slot": 3,
      "notion": "chaines",
-     "enonce": "En vous appuyant sur la figure 1, donner la valeur de s[4], de s[-1] et de s[2:5].",
+     "enonce": "Donner la valeur de chacune des expressions suivantes : len(s), s[3], s[-1], s[0:4] et s < 'Test'.",
      "points": 1,
-     "reponse_attendue": "s[4] = 'I' ; s[-1] = 'E' ; s[2:5] = 'RMI'."
+     "reponse_attendue": "len(s) = 9 ; s[3] = 'm' ; s[-1] = 'e' ; s[0:4] = 'Term' ; s < 'Test' vaut True (les deux premiers caractères 'Te' sont égaux, puis 'r' < 's')."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Texte sur une seule chaîne",
-   "contexte": "Avant une recherche textuelle, on récupère tout le texte d'un fichier dans une seule chaîne. Le contenu lu est fourni sous forme d'une liste de lignes, chacune terminée par '\\n', par exemple lignes = ['Le chat\\n', 'dort.\\n'].",
+   "titre": "Préparer une recherche textuelle",
+   "contexte": "Avant d'appliquer un algorithme de recherche textuelle, on veut récupérer tout le texte d'un fichier dans une seule chaîne de caractères. On rappelle qu'avec f = open(nom, 'r', encoding='utf-8'), f.readlines() renvoie la liste des lignes du fichier (chacune se terminant éventuellement par '\\n'), et f.close() ferme le fichier.",
    "questions": [
     {
      "slot": 4,
      "notion": "chaines",
-     "enonce": "Écrire une fonction texte_unique(lignes) qui renvoie une seule chaîne où les lignes sont mises bout à bout et chaque '\\n' remplacé par une espace. Exemple : texte_unique(['Le chat\\n', 'dort.\\n']) renvoie 'Le chat dort. '.",
+     "enonce": "Écrire une fonction texte_complet qui prend en paramètres une chaîne nom_fichier et une chaîne separateur, et qui renvoie le contenu du fichier en une seule chaîne où chaque fin de ligne '\\n' est remplacée par separateur.",
      "points": 1,
-     "reponse_attendue": "```python\ndef texte_unique(lignes):\n    texte = ''\n    for ligne in lignes:\n        for c in ligne:\n            if c == '\\n':\n                texte = texte + ' '\n            else:\n                texte = texte + c\n    return texte\n\nassert texte_unique(['Le chat\\n', 'dort.\\n']) == 'Le chat dort. '\n```"
+     "reponse_attendue": "```python\ndef texte_complet(nom_fichier, separateur):\n    f = open(nom_fichier, 'r', encoding='utf-8')\n    lignes = f.readlines()\n    f.close()\n    res = ''\n    for ligne in lignes:\n        if ligne.endswith('\\n'):\n            res = res + ligne[:-1] + separateur\n        else:\n            res = res + ligne\n    return res\n```"
     }
    ]
   }

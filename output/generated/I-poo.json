@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Compter les instances",
-   "contexte": "On dispose de la classe suivante (attention : compteur est un attribut de classe, partagé par toutes les instances) :\n\nclass Ticket:\n    compteur = 0\n    def __init__(self, nom):\n        self.nom = nom\n        Ticket.compteur = Ticket.compteur + 1\n\nOn exécute : t1 = Ticket('A') ; t2 = Ticket('B') ; t3 = t1 ; t4 = Ticket('C').",
+   "titre": "Objets persistés en base",
+   "contexte": "Une application de gestion de vélos en libre-service utilise une classe `Velo` dont chaque instance possède les attributs `num`, `station` et `km`. Les objets sont sauvegardés dans une table `velo(num, station, km)` d'une base de données, chaque attribut d'objet correspondant à un attribut de la table.",
    "questions": [
     {
      "slot": 1,
      "notion": "poo",
-     "enonce": "Donner la valeur de Ticket.compteur après ces instructions et le nombre d'objets Ticket distincts créés.",
+     "enonce": "Écrire une requête SQL permettant d'afficher le numéro des vélos de la station 'Gare' ayant parcouru plus de 1000 km.",
      "points": 1,
-     "reponse_attendue": "Ticket.compteur vaut 3 : trois objets ont été construits ; t3 = t1 ne crée pas d'objet (même référence)."
+     "reponse_attendue": "```sql\nSELECT num FROM velo WHERE station = 'Gare' AND km > 1000;\n```"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Identifiant d'un adhérent",
-   "contexte": "Une médiathèque modélise ses adhérents par une classe Adherent dont les attributs sont numero, nom et prenom. Le numero est attribué à l'inscription, unique pour chaque adhérent, et jamais réutilisé. Plusieurs adhérents peuvent porter le même nom et le même prénom. Les objets Emprunt possèdent un attribut num_adherent.",
+   "titre": "Classe et table",
+   "contexte": "On donne la classe Python et un extrait de la table `adherent` d'une base `club` :\n\n```python\nclass Adherent:\n    def __init__(self, id_adh, nom, age):\n        self.id_adh = id_adh\n        self.nom = nom\n        self.age = age\n```\n\n| id_adh | nom | age |\n|---|---|---|\n| 1 | Lina | 16 |\n| 2 | Tom | 17 |\n\nL'attribut `id_adh` est la clé primaire de la table. Un programme crée l'objet `a = Adherent(2, 'Inès', 15)` puis tente d'exécuter `INSERT INTO adherent VALUES (2, 'Inès', 15);`.",
    "questions": [
     {
      "slot": 2,
      "notion": "poo",
-     "enonce": "Expliquer le rôle de l'attribut numero de la classe Adherent, et celui de l'attribut num_adherent d'un objet Emprunt.",
+     "enonce": "On cherche à enregistrer l'objet `a` dans la base `club`. Expliquer pourquoi la création de l'objet réussit en Python alors que l'insertion échoue.",
      "points": 1,
-     "reponse_attendue": "numero identifie de façon unique un adhérent (comme une clé), car nom/prénom ne suffisent pas ; num_adherent référence l'adhérent emprunteur et relie l'emprunt à un unique objet Adherent."
+     "reponse_attendue": "Python n'impose aucune contrainte d'unicité sur l'attribut id_adh : l'instanciation crée simplement un nouvel objet. En revanche, dans la base, id_adh est clé primaire et la valeur 2 existe déjà (Tom) : la contrainte d'unicité de la clé primaire (contrainte de relation) est violée, l'insertion est refusée."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Méthode sur une chaîne",
-   "contexte": "On considère la classe :\n\nclass Mot:\n    def __init__(self, texte):\n        self.texte = texte",
+   "titre": "Filtrer des objets",
+   "contexte": "Une classe `Film` possède les attributs `titre`, `annee` et `duree` (en minutes). Une classe `Catalogue` possède un attribut `films`, liste d'objets `Film`. On souhaite obtenir, sans base de données, l'équivalent du besoin « les titres des films sortis après l'an 2000 dont la durée est inférieure à 120 minutes ».\n\n```python\nclass Film:\n    def __init__(self, titre, annee, duree):\n        self.titre = titre\n        self.annee = annee\n        self.duree = duree\n\nclass Catalogue:\n    def __init__(self):\n        self.films = []\n\n    def ajouter(self, film):\n        self.films.append(film)\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "poo",
-     "enonce": "Écrire une méthode est_palindrome(self) de la classe Mot qui renvoie True si l'attribut texte se lit de la même façon dans les deux sens, False sinon.",
+     "enonce": "Écrire le code de la méthode `courts_recents` de la classe `Catalogue` qui renvoie la liste des titres des films sortis strictement après 2000 et de durée strictement inférieure à 120 minutes.",
      "points": 1,
-     "reponse_attendue": "class Mot:\n    def __init__(self, texte):\n        self.texte = texte\n\n    def est_palindrome(self):\n        n = len(self.texte)\n        for i in range(n // 2):\n            if self.texte[i] != self.texte[n - 1 - i]:\n                return False\n        return True\n\nassert Mot('radar').est_palindrome()\nassert not Mot('route').est_palindrome()"
+     "reponse_attendue": "```python\n    def courts_recents(self):\n        res = []\n        for f in self.films:\n            if f.annee > 2000 and f.duree < 120:\n                res.append(f.titre)\n        return res\n```"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Hauteur d'un arbre objet",
-   "contexte": "Un arbre binaire est représenté par la classe suivante ; l'arbre vide est représenté par None et la hauteur d'un arbre réduit à une feuille vaut 1 :\n\nclass Arbre:\n    def __init__(self, valeur, gauche=None, droit=None):\n        self.valeur = valeur\n        self.gauche = gauche\n        self.droit = droit",
+   "titre": "Insertion dans un arbre objet",
+   "contexte": "On représente un arbre binaire de recherche par la classe suivante, où un arbre vide est représenté par `None` :\n\n```python\nclass Arbre:\n    def __init__(self, cle, gauche=None, droit=None):\n        self.cle = cle\n        self.gauche = gauche\n        self.droit = droit\n\ndef inserer(a, cle):\n    if a is None:\n        return Arbre(cle)\n    if cle < a.cle:\n        a.gauche = inserer(a.gauche, cle)\n    else:\n        a.droit = inserer(a.droit, cle)\n    return a\n\nr = inserer(None, 8)\nr = inserer(r, 3)\nr = inserer(r, 11)\nr = inserer(r, 5)\n```",
    "questions": [
     {
      "slot": 4,
      "notion": "poo",
-     "enonce": "Écrire la méthode hauteur(self) de la classe Arbre qui renvoie la hauteur de l'arbre.",
+     "enonce": "Donner la valeur de `r.cle`, de `r.gauche.droit.cle` ainsi que la nature de l'objet renvoyé par l'appel `inserer(None, 8)`.",
      "points": 1,
-     "reponse_attendue": "class Arbre:\n    def __init__(self, valeur, gauche=None, droit=None):\n        self.valeur = valeur\n        self.gauche = gauche\n        self.droit = droit\n\n    def hauteur(self):\n        hg = 0 if self.gauche is None else self.gauche.hauteur()\n        hd = 0 if self.droit is None else self.droit.hauteur()\n        return 1 + max(hg, hd)\n\na = Arbre(1, Arbre(2, Arbre(4)), Arbre(3))\nassert a.hauteur() == 3"
+     "reponse_attendue": "`r.cle` vaut 8 ; `r.gauche.droit.cle` vaut 5 (3 à gauche de 8, 5 à droite de 3). L'appel `inserer(None, 8)` porte sur un arbre vide : il renvoie un nouvel objet `Arbre` contenant la clé 8 et deux sous-arbres vides (None)."
     }
    ]
   }

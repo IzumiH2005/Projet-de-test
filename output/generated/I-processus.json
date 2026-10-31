@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Graphe d'attente",
-   "contexte": "La figure 1 décrit la situation suivante : le processus P1 détient la ressource R1 et attend R2 ; le processus P2 détient R2 et attend R3 ; le processus P3 détient R3 et attend R1. Dans la figure 1, une flèche Pi → Rj signifie « Pi attend Rj » et Rj → Pi signifie « Rj est détenue par Pi ».",
+   "titre": "États d'un processus",
+   "contexte": "Un processus peut se trouver dans l'un des trois états suivants :\n- Prêt : il attend que l'ordonnanceur lui attribue le processeur ;\n- Élu : il est en cours d'exécution ;\n- Bloqué : il attend une ressource indisponible.\n\nLe tableau suivant décrit des transitions, mais certaines cases sont manquantes :\n\n| Événement | État de départ | État d'arrivée |\n|---|---|---|\n| l'ordonnanceur choisit le processus | Prêt | ... |\n| le processus demande la lecture d'un fichier sur disque | ... | Bloqué |\n| la lecture du fichier est terminée | Bloqué | ... |\n| le quantum de temps est écoulé | Élu | ... |",
    "questions": [
     {
      "slot": 1,
      "notion": "processus",
-     "enonce": "À partir de la figure 1, déterminer si les processus sont en situation d'interblocage. Justifier.",
+     "enonce": "Recopier et compléter le tableau des transitions donné ci-dessus.",
      "points": 1,
-     "reponse_attendue": "Oui : la figure contient le cycle P1 → R2 → P2 → R3 → P3 → R1 → P1 ; chaque processus attend une ressource détenue par le suivant, aucun ne peut progresser : interblocage."
+     "reponse_attendue": "Ligne 1 : Élu. Ligne 2 : Élu (départ). Ligne 3 : Prêt (un processus débloqué ne repasse pas directement Élu). Ligne 4 : Prêt."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Chemin d'un processus",
-   "contexte": "Un processus est créé puis passe à l'état prêt. L'ordonnanceur l'élit. Après 20 ms il demande une lecture disque, puis la lecture se termine, il est de nouveau élu et termine son exécution.",
+   "titre": "Commande ps",
+   "contexte": "Sur un système Linux, la commande `ps -ef` affiche, pour chaque processus, l'utilisateur, le PID, le PPID, l'heure de lancement, le terminal et la commande. On obtient l'extrait suivant :\n\n| UID | PID | PPID | CMD |\n|---|---|---|---|\n| root | 1 | 0 | /sbin/init |\n| alice | 812 | 1 | bash |\n| alice | 954 | 812 | python3 jeu.py |\n| alice | 960 | 954 | python3 son.py |",
    "questions": [
     {
      "slot": 2,
      "notion": "processus",
-     "enonce": "Donner la suite des états (prêt, élu, bloqué, terminé) par lesquels passe ce processus.",
+     "enonce": "Donner la valeur du PID du processus parent du processus `python3 son.py`, puis la commande de ce processus parent.",
      "points": 1,
-     "reponse_attendue": "prêt → élu → bloqué → prêt → élu → terminé."
+     "reponse_attendue": "Le PPID de son.py est 954 ; ce processus parent est `python3 jeu.py`."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Commande Unix",
-   "contexte": "Sur un serveur Linux, un administrateur constate qu'un programme de calcul consomme toute la mémoire. Il exécute la commande ps qui affiche notamment la ligne « 4187 pts/0 00:12:41 calcul ». Il souhaite arrêter ce seul processus.",
+   "titre": "Interblocage",
+   "contexte": "Deux processus P1 et P2 utilisent deux ressources R1 (imprimante) et R2 (scanner).\na) P1 obtient R1, puis demande R2.\nb) P2 obtient R2, puis demande R1.\nChaque processus ne libère une ressource qu'après avoir terminé son travail.",
    "questions": [
     {
      "slot": 3,
      "notion": "processus",
-     "enonce": "Donner la commande à saisir pour interrompre ce processus.",
+     "enonce": "Quel est l'état de P1 et de P2 après les étapes a) et b) ? Quel est le nom de cette situation ? Justifier.",
      "points": 1,
-     "reponse_attendue": "kill 4187 (4187 est le PID du processus calcul)."
+     "reponse_attendue": "P1 et P2 sont tous deux dans l'état Bloqué : chacun attend une ressource détenue par l'autre, qui ne la libérera jamais. C'est un interblocage (deadlock)."
     }
    ]
   },
   {
    "numero": 4,
    "titre": "Ordonnancement FIFO",
-   "contexte": "Quatre processus arrivent tous à l'instant 0 dans la file et y sont placés dans l'ordre C1, C2, C3 et C4. Leurs durées d'exécution sont respectivement 4, 2, 3 et 1 unités de temps. L'ordonnanceur suit la politique « premier arrivé, premier servi », sans interruption.",
+   "contexte": "Quatre processus arrivent dans la file d'attente de l'ordonnanceur au même instant t = 0 et y sont placés dans l'ordre C1, C2, C3 et C4. Leurs durées d'exécution sont : C1 : 3 unités, C2 : 1 unité, C3 : 4 unités, C4 : 2 unités. L'ordonnanceur suit la politique « premier arrivé, premier servi » (FIFO), sans interruption.",
    "questions": [
     {
      "slot": 4,
      "notion": "processus",
-     "enonce": "Donner l'instant de fin d'exécution de chacun des quatre processus.",
+     "enonce": "Indiquer l'instant de fin de chacun des quatre processus en tenant compte de leur ordre d'arrivée dans la file.",
      "points": 1,
-     "reponse_attendue": "C1 : 4 ; C2 : 6 ; C3 : 9 ; C4 : 10."
+     "reponse_attendue": "C1 se termine à t = 3, C2 à t = 4, C3 à t = 8, C4 à t = 10."
     }
    ]
   }

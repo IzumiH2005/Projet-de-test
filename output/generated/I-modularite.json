@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Module géométrie",
-   "contexte": "Un module geometrie.py propose :\n- aire_disque(r)\n- perimetre_disque(r)\n- _verifier_positif(x) (fonction interne)\n- la constante PI = 3.14159\n\nUn élève écrit dans un autre fichier : from geometrie import *",
+   "titre": "Module de géométrie",
+   "contexte": "Un élève a écrit un module geometrie.py, rangé dans le même dossier que son programme principal. Sa documentation indique qu'il fournit une constante PI, une fonction aire_disque(r), une fonction perimetre_disque(r), une fonction aire_rectangle(longueur, largeur) et une fonction aire_triangle(base, hauteur), toutes renvoyant un flottant.\n\nDans son programme principal, il ne souhaite utiliser que les fonctions aire_disque et aire_rectangle, en les appelant directement par leur nom, sans préfixe.",
    "questions": [
     {
      "slot": 1,
      "notion": "modularite",
-     "enonce": "Quelles fonctions sont rendues disponibles par cette instruction ? Justifier.",
+     "enonce": "Donner la ligne d'importation à écrire en tête du programme principal.",
      "points": 1,
-     "reponse_attendue": "aire_disque, perimetre_disque et PI ; _verifier_positif n'est pas importée par import * car son nom commence par un tiret bas (convention de nom privé/interne). Elle reste accessible via import geometrie puis geometrie._verifier_positif."
+     "reponse_attendue": "from geometrie import aire_disque, aire_rectangle"
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Chaîne de dépendances",
-   "contexte": "Un projet comporte quatre modules. main importe interface et calcul ; interface importe affichage ; calcul importe outils ; affichage importe outils. Le module outils n'importe rien.",
+   "titre": "Lancers de dés",
+   "contexte": "On utilise la fonction randint du module random : randint(a, b) renvoie un entier aléatoire compris entre a et b inclus. On veut simuler n lancers d'un dé à 6 faces, numérotées de 1 à 6.\n\n```python\n1 import random\n2\n3 def lancer_des(n):\n4     \"\"\"Renvoie la liste des résultats de n lancers d'un dé à 6 faces.\"\"\"\n5     resultats = ...\n6     for i in range(...):\n7         resultats.append(random.randint(..., ...))\n8     return resultats\n```",
    "questions": [
     {
      "slot": 2,
      "notion": "modularite",
-     "enonce": "Dresser la liste de tous les chemins d'import qui mènent du module main au module outils, puis indiquer quels modules sont touchés si l'on modifie outils.",
+     "enonce": "Recopier et compléter les lignes 5, 6 et 7 de la fonction lancer_des.",
      "points": 1,
-     "reponse_attendue": "Chemins : main → interface → affichage → outils et main → calcul → outils. Si outils change, affichage et calcul (directement), interface et main (indirectement) peuvent être affectés."
+     "reponse_attendue": "5     resultats = []\n6     for i in range(n):\n7         resultats.append(random.randint(1, 6))"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Utiliser une API",
-   "contexte": "On dispose du module pile.py suivant :\n```python\n1 def creer():\n2     return []\n3 def empiler(p, x):\n4     p.append(x)\n5 def depiler(p):\n6     return p.pop()\n7 def est_vide(p):\n8     return p == []\n```",
+   "titre": "Un module pile",
+   "contexte": "Le fichier pile.py ci-dessous constitue un module fournissant une classe Pile. Il est importé dans d'autres programmes par from pile import Pile.\n\n```python\n 1 class Pile:\n 2     \"\"\"Pile implémentée à l'aide d'une liste Python.\"\"\"\n 3     def __init__(self):\n 4         self.contenu = []\n 5\n 6     def est_vide(self):\n 7         \"\"\"Renvoie True si la pile est vide, False sinon.\"\"\"\n 8         return ...\n 9\n10     def empiler(self, x):\n11         \"\"\"Ajoute x au sommet de la pile.\"\"\"\n12         self.contenu.append(x)\n13\n14     def depiler(self):\n15         \"\"\"Retire et renvoie l'élément au sommet de la pile non vide.\"\"\"\n16         return ...\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "modularite",
-     "enonce": "Écrire, dans un autre fichier, une fonction inverser(lst) qui renvoie la liste lst inversée en n'utilisant que les fonctions de l'interface du module pile.",
+     "enonce": "Recopier et compléter les lignes 8 et 16 des méthodes est_vide et depiler de la classe Pile.",
      "points": 1,
-     "reponse_attendue": "```python\nimport pile\n\ndef inverser(lst):\n    p = pile.creer()\n    for x in lst:\n        pile.empiler(p, x)\n    res = []\n    while not pile.est_vide(p):\n        res.append(pile.depiler(p))\n    return res\n```"
+     "reponse_attendue": " 8         return len(self.contenu) == 0\n16         return self.contenu.pop()"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Origine d'une fonction",
-   "contexte": "Un script de chiffrement commence ainsi :\n```python\nfrom Crypto.Util.number import bytes_to_long, long_to_bytes\nfrom Crypto.Random import get_random_bytes\n```\nPlus loin, on lit : cle = get_random_bytes(16) puis n = bytes_to_long(b'NSI').",
+   "titre": "Exploiter les docstrings",
+   "contexte": "En Python, la docstring d'une fonction f est accessible par l'attribut f.__doc__ (qui vaut None si la fonction n'est pas documentée) ou par help(f). Par exemple :\n\n```python\ndef carre(x):\n    \"\"\"Renvoie le carré du nombre x.\"\"\"\n    return x * x\n\n>>> carre.__doc__\n'Renvoie le carré du nombre x.'\n```",
    "questions": [
     {
      "slot": 4,
      "notion": "modularite",
-     "enonce": "Déterminer le chemin complet (paquetage et sous-module) d'où provient chacune des fonctions get_random_bytes et bytes_to_long.",
+     "enonce": "Écrire une fonction doc_contient qui prend en paramètres une fonction f et une chaîne mot, et qui renvoie True si la docstring de f contient mot, False sinon (y compris si f n'a pas de docstring).",
      "points": 1,
-     "reponse_attendue": "get_random_bytes provient du sous-module Random du paquetage Crypto (Crypto.Random) ; bytes_to_long provient du module number du sous-paquetage Util de Crypto (Crypto.Util.number)."
+     "reponse_attendue": "def doc_contient(f, mot):\n    doc = f.__doc__\n    if doc is None:\n        return False\n    return mot in doc\n\n# doc_contient(carre, 'carré') renvoie True ; doc_contient(carre, 'cube') renvoie False."
     }
    ]
   }

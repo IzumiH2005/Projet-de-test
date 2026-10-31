@@ -3,57 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "File d'attente en base de données",
-   "contexte": "Un guichet enregistre sa file d'attente dans la table `Attente(num, nom)` (num : entier, clé primaire, attribué dans l'ordre croissant d'arrivée ; nom : texte). La personne en tête de file est donc celle de plus petit numéro (et non celle de nom le plus petit).",
+   "titre": "File d'attente à la cantine",
+   "contexte": "On modélise une file d'attente par une liste Python : on enfile en fin de liste avec `append` et on défile en tête avec `pop(0)`.\n```python\nf = []\nfor i in range(1, 6):\n    f.append(i)\n    if i % 2 == 0:\n        f.pop(0)\n```",
    "questions": [
     {
      "slot": 1,
      "notion": "file",
-     "enonce": "Donner la requête SQL permettant de défiler, c'est-à-dire de supprimer de la table Attente la personne en tête de file.",
+     "enonce": "Déterminer la valeur de `f` à l'issue des instructions ci-dessus.",
      "points": 1,
-     "reponse_attendue": "DELETE FROM Attente WHERE num = (SELECT MIN(num) FROM Attente);"
+     "reponse_attendue": "i=1 : [1] ; i=2 : [1, 2] puis défile 1 → [2] ; i=3 : [2, 3] ; i=4 : [2, 3, 4] puis défile 2 → [3, 4] ; i=5 : [3, 4, 5]. Donc `f = [3, 4, 5]`."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "File avec deux piles",
-   "contexte": "On implémente une file avec deux listes Python utilisées comme piles : `entree` reçoit les éléments enfilés (append), `sortie` fournit les éléments défilés (pop). Quand `sortie` est vide, on y transvase tous les éléments de `entree`.\n\n```python\n1 class File:\n2     def __init__(self):\n3         self.entree = []\n4         self.sortie = []\n5     def enfiler(self, x):\n6         self.entree.append(x)\n7     def defiler(self):\n8         ...\n```\n\nOn suppose que defiler n'est appelée que sur une file non vide.",
+   "titre": "Commandes en attente",
+   "contexte": "Un site de vente enregistre les commandes dans une base de données avec la relation Commande(id_commande, client, date_heure, statut) (statut valant 'attente' ou 'traitee'). Les commandes en attente doivent être traitées dans leur ordre d'arrivée (première arrivée, première servie). Un programme récupère les commandes en attente puis les traite une par une.",
    "questions": [
     {
      "slot": 2,
      "notion": "file",
-     "enonce": "Recopier et compléter la méthode defiler à partir de la ligne 8, qui renvoie et retire l'élément le plus ancien de la file.",
+     "enonce": "On cherche à traiter les commandes en attente dans la base. Expliquer pourquoi elles doivent être gérées comme une file, et donner la requête SQL qui les renvoie dans l'ordre où elles doivent être traitées.",
      "points": 1,
-     "reponse_attendue": "```python\nclass File:\n    def __init__(self):\n        self.entree = []\n        self.sortie = []\n    def enfiler(self, x):\n        self.entree.append(x)\n    def defiler(self):\n        if self.sortie == []:\n            while self.entree != []:\n                self.sortie.append(self.entree.pop())\n        return self.sortie.pop()\n\nf = File()\nfor x in [1, 2, 3]:\n    f.enfiler(x)\nassert f.defiler() == 1 and f.defiler() == 2\n```"
+     "reponse_attendue": "Il faut traiter en premier la commande arrivée en premier : c'est le principe FIFO d'une file. Requête :\n```sql\nSELECT id_commande, client FROM Commande\nWHERE statut = 'attente'\nORDER BY date_heure;\n```"
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Taille d'une file",
-   "contexte": "On dispose de l'interface : `creer_file_vide()`, `est_vide(f)`, `enfiler(f, x)`, `defiler(f)` (renvoie et retire la tête). La fonction taille doit renvoyer le nombre d'éléments de f, f devant retrouver son état initial à la fin.\n\n```python\n1 def taille(f):\n2     aux = creer_file_vide()\n3     n = 0\n4     while not est_vide(f):\n5         ...\n6         ...\n7     while not est_vide(aux):\n8         ...\n9     return n\n```",
+   "titre": "Une file avec deux piles",
+   "contexte": "On implémente une classe `File` à l'aide de deux listes Python utilisées comme piles : `self.entree` (où l'on empile les éléments enfilés) et `self.sortie` (d'où l'on dépile les éléments défilés).\n```python\nclass File:\n    def __init__(self):\n        self.entree = []\n        self.sortie = []\n\n    def enfiler(self, x):\n        self.entree.append(x)\n```\nLa méthode `defiler` retire et renvoie l'élément le plus ancien de la file (supposée non vide) : si `self.sortie` est vide, on y transfère d'abord tous les éléments de `self.entree` en les dépilant un à un.",
    "questions": [
     {
      "slot": 3,
      "notion": "file",
-     "enonce": "Recopier et compléter les lignes 5 à 8 de la fonction taille afin qu'elle renvoie le nombre d'éléments sans modifier la file f.",
+     "enonce": "Écrire le code de la méthode `defiler` de la classe `File` décrite ci-dessus.",
      "points": 1,
-     "reponse_attendue": "```python\nfrom collections import deque\ndef creer_file_vide(): return deque()\ndef est_vide(f): return len(f) == 0\ndef enfiler(f, x): f.append(x)\ndef defiler(f): return f.popleft()\n\ndef taille(f):\n    aux = creer_file_vide()\n    n = 0\n    while not est_vide(f):\n        enfiler(aux, defiler(f))\n        n = n + 1\n    while not est_vide(aux):\n        enfiler(f, defiler(aux))\n    return n\n\nf = deque([4, 5, 6])\nassert taille(f) == 3 and list(f) == [4, 5, 6]\n```"
+     "reponse_attendue": "```python\n    def defiler(self):\n        if self.sortie == []:\n            while self.entree != []:\n                self.sortie.append(self.entree.pop())\n        return self.sortie.pop()\n```"
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Interface minimale d'une file",
-   "contexte": "On considère les opérations suivantes : (a) créer une file vide, (b) tester si la file est vide, (c) enfiler un élément en queue, (d) défiler l'élément de tête, (e) trier la file, (f) accéder au i-ème élément, (g) inverser la file.",
+   "titre": "Interface d'une file",
+   "contexte": "Un développeur doit fournir une structure de file à ses collègues sans leur imposer l'implémentation (liste, deux piles, liste chaînée…). Il doit donc spécifier une interface.",
    "questions": [
     {
      "slot": 4,
      "notion": "file",
-     "enonce": "Indiquer les opérations qui constituent a minima l'interface d'une file.",
+     "enonce": "Indiquer les opérations que doit proposer a minima l'interface d'une file, en précisant pour chacune son rôle.",
      "points": 1,
-     "reponse_attendue": "(a), (b), (c) et (d) : création d'une file vide, test de vacuité, enfiler et défiler (FIFO). Les opérations (e), (f), (g) ne font pas partie de l'interface minimale."
+     "reponse_attendue": "Créer une file vide ; tester si une file est vide (est_vide) ; enfiler (ajouter un élément en queue) ; défiler (retirer et renvoyer l'élément en tête, le plus ancien)."
     }
    ]
   }

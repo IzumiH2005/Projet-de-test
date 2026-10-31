@@ -1,0 +1,247 @@
+<title>Annales NSI et questions générées</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Mise en page : copie d'examen. Encre bleue pour l'énoncé, encre rouge pour la correction, onglets collés en haut. */
+:root {
+  --paper: #f6f8fb; --sheet: #ffffff; --ink: #18213a; --muted: #5b6684; --line: #dde3ee;
+  --blue: #1f3fbf; --blue-soft: #e7ecfb; --red: #c0333d; --red-soft: #fbe9ea;
+  --ok: #1d7a4a; --warn: #a86400; --code: #f0f3f9;
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #0f1424; --sheet: #161c30; --ink: #e5e9f4; --muted: #9aa5c2; --line: #2a3350;
+  --blue: #8ea6ff; --blue-soft: #1e2850; --red: #ff8a8f; --red-soft: #3a1d24;
+  --ok: #5fd39a; --warn: #f0b45a; --code: #10162a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #0f1424; --sheet: #161c30; --ink: #e5e9f4; --muted: #9aa5c2; --line: #2a3350;
+  --blue: #8ea6ff; --blue-soft: #1e2850; --red: #ff8a8f; --red-soft: #3a1d24;
+  --ok: #5fd39a; --warn: #f0b45a; --code: #10162a; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--paper); color: var(--ink); font: 15px/1.55 var(--f-body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--sheet) }
+.wrap { max-width: 980px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header.top { padding-block: 28px 18px; display: grid; gap: 10px }
+.eyebrow { font: 600 12px/1 var(--f-body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+h1 { font: 700 clamp(26px, 5vw, 38px)/1.1 var(--f-display); margin: 0; text-wrap: balance }
+h1 em { font-style: normal; color: var(--blue) }
+.lead { margin: 0; color: var(--muted); max-width: 65ch }
+.figures { display: flex; flex-wrap: wrap; gap: 8px 22px; font-variant-numeric: tabular-nums; color: var(--muted); font-size: 14px }
+.figures b { color: var(--ink); font-weight: 600 }
+nav.tabs { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--sheet); border-bottom: 1px solid var(--line) }
+nav.tabs .wrap { display: flex; gap: 4px; overflow-x: auto }
+nav.tabs a { flex: none; padding: 12px 14px; color: var(--muted); text-decoration: none; font-weight: 500; border-bottom: 2px solid transparent }
+nav.tabs a[aria-current="page"] { color: var(--blue); border-bottom-color: var(--blue) }
+nav.tabs a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px }
+main { padding-block: 20px 60px }
+h2 { font: 700 22px/1.2 var(--f-display); margin: 0 0 6px }
+.sub { color: var(--muted); margin: 0 0 16px; max-width: 70ch }
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; align-items: center }
+.chip { border: 1px solid var(--line); background: var(--sheet); color: var(--ink); padding: 6px 12px; border-radius: 999px; font: inherit; font-size: 14px; cursor: pointer }
+.chip[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: var(--sheet) }
+select, input[type=search] { font: inherit; font-size: 14px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--sheet); color: var(--ink); min-width: 0 }
+input[type=search] { flex: 1 1 180px }
+.count { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; margin-bottom: 10px }
+.list { display: grid; gap: 14px }
+.q { background: var(--sheet); border: 1px solid var(--line); border-radius: 10px; padding: 16px; display: grid; gap: 10px; min-width: 0 }
+.qhead { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline }
+.qhead .notion { font: 600 15px/1.3 var(--f-display) }
+.qhead .dom { color: var(--muted); font-size: 13px }
+.tag { font-size: 12px; padding: 2px 8px; border-radius: 6px; background: var(--blue-soft); color: var(--blue); white-space: nowrap }
+.tag.new { background: var(--red-soft); color: var(--red) }
+.facets { display: grid; grid-template-columns: max-content 1fr; gap: 2px 10px; font-size: 13px; color: var(--muted) }
+.facets b { color: var(--ink); font-weight: 500 }
+.ctx { font-size: 14px; color: var(--ink); border-left: 3px solid var(--line); padding-left: 12px; min-width: 0 }
+.enonce { color: var(--blue); font-weight: 500; min-width: 0 }
+.enonce::before { content: "Question — "; color: var(--muted); font-weight: 400 }
+.md p { margin: 0 0 8px } .md p:last-child { margin: 0 }
+pre { background: var(--code); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; overflow-x: auto; font: 13px/1.5 var(--f-mono); margin: 6px 0; color: var(--ink) }
+code { font: 13px var(--f-mono); background: var(--code); padding: 1px 4px; border-radius: 4px }
+pre code { background: none; padding: 0 }
+details.corr summary { cursor: pointer; color: var(--red); font-weight: 500; font-size: 14px }
+details.corr .md { margin-top: 8px; border-left: 3px solid var(--red); padding-left: 12px; color: var(--ink) }
+details.borrow summary { cursor: pointer; color: var(--muted); font-size: 13px }
+details.borrow ul { margin: 6px 0 0; padding-left: 18px; color: var(--muted); font-size: 13px }
+.checks { display: flex; flex-wrap: wrap; gap: 6px; font-size: 12px }
+.ck { padding: 1px 7px; border-radius: 6px; border: 1px solid var(--line); color: var(--muted) }
+.ck.y { color: var(--ok); border-color: currentColor } .ck.n { color: var(--warn); border-color: currentColor }
+.more { justify-self: center; margin-top: 8px }
+.year { margin: 22px 0 8px; font: 700 18px/1.2 var(--f-display); display: flex; gap: 10px; align-items: baseline }
+.year span { font: 400 13px var(--f-body); color: var(--muted) }
+.exams { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px }
+.ex { background: var(--sheet); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0 }
+.ex .t { font-weight: 600 } .ex .m { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums }
+.ex ol { margin: 0; padding-left: 18px; font-size: 13px } .ex a { color: var(--blue); font-size: 13px }
+.ex details summary { cursor: pointer; font-size: 13px; color: var(--muted) }
+.ex details p { font-size: 13px; margin: 6px 0 0; color: var(--ink) }
+table { border-collapse: collapse; width: 100%; font-size: 14px; font-variant-numeric: tabular-nums }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); vertical-align: top }
+th { color: var(--muted); font-weight: 500 }
+td.up { color: var(--ok); font-weight: 600 }
+.tw { overflow-x: auto; background: var(--sheet); border: 1px solid var(--line); border-radius: 10px; margin-bottom: 18px }
+.prose { max-width: 70ch } .prose li { margin-bottom: 6px }
+@media (prefers-reduced-motion: no-preference) { .q, .ex { transition: border-color .15s } .q:hover, .ex:hover { border-color: var(--blue) } }
+</style>
+
+<header class="top wrap">
+  <div class="eyebrow">Bac NSI · épreuve écrite · 2021 – 2026</div>
+  <h1>Annales réelles et <em>questions générées</em></h1>
+  <p class="lead">Les sujets officiels analysés par le modèle, puis les questions qu'il a planifiées : des questions jamais posées aux annales mais jugées plausibles, une banque par notion et des sujets complets.</p>
+  <div class="figures" id="figs"></div>
+</header>
+<nav class="tabs" aria-label="Sections"><div class="wrap">
+  <a href="#questions" data-v="questions">Questions</a>
+  <a href="#sujets" data-v="sujets">Anciens sujets</a>
+  <a href="#modele" data-v="modele">Le modèle</a>
+</div></nav>
+
+<main class="wrap">
+  <section id="v-questions">
+    <h2>Questions générées</h2>
+    <p class="sub">« Inédite » : une notion, une manière de demander et un type de support que les annales n'ont jamais réunis, ou un point du cours jamais évalué. Le modèle juge chaque combinaison plausible. La correction est repliée sous chaque question.</p>
+    <div class="filters" role="group" aria-label="Type de question">
+      <button class="chip" data-t="inedit" aria-pressed="true">Inédites</button>
+      <button class="chip" data-t="sujet" aria-pressed="false">Sujets complets</button>
+      <button class="chip" data-t="banque" aria-pressed="false">Banque par notion</button>
+    </div>
+    <div class="filters">
+      <select id="dom" aria-label="Domaine"><option value="">Tous les domaines</option></select>
+      <select id="not" aria-label="Notion"><option value="">Toutes les notions</option></select>
+      <input type="search" id="qs" placeholder="Rechercher (ex. récursif, SQL, pile)" aria-label="Rechercher">
+    </div>
+    <div class="count" id="qcount"></div>
+    <div class="list" id="qlist"></div>
+    <button class="chip more" id="qmore" hidden>Afficher plus</button>
+  </section>
+
+  <section id="v-sujets" hidden>
+    <h2>Anciens sujets</h2>
+    <p class="sub">Les sujets officiels de l'épreuve écrite lus par le modèle, avec les thèmes de chaque exercice. Le lien ouvre le PDF d'origine.</p>
+    <div class="filters"><input type="search" id="es" placeholder="Filtrer (ex. Métropole, graphes, SQL)" aria-label="Filtrer les sujets"></div>
+    <div id="elist"></div>
+  </section>
+
+  <section id="v-modele" hidden>
+    <h2>Ce que le modèle a appris</h2>
+    <p class="sub">scikit-learn trouve seul les variables : manières de demander, types de support, savoirs jamais évalués. On lui a seulement donné plus de matière et des moyens de se corriger.</p>
+    <div id="mbody"></div>
+  </section>
+</main>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function md(t) {
+  const parts = String(t || "").split(/```[a-zA-Z]*\n?/);
+  return parts.map((p, i) => i % 2 ? `<pre><code>${esc(p.replace(/\n$/, ""))}</code></pre>` :
+    p.split(/\n\s*\n/).filter(x => x.trim()).map(x => `<p>${esc(x).replace(/`([^`]+)`/g, "<code>$1</code>").replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\n/g, "<br>")}</p>`).join("")).join("");
+}
+const fmt = n => n == null ? "–" : (typeof n === "number" ? n.toLocaleString("fr-FR") : n);
+const pct = x => x == null ? "–" : Math.round(x * 100) + " %";
+
+// chiffres d'en-tête
+const Q = D.questions, E = D.exams, M = D.modele;
+const nIn = Q.filter(q => q.type === "inedit").length;
+$("#figs").innerHTML = `<span><b>${E.length}</b> sujets officiels</span><span><b>${Q.length}</b> questions générées</span><span><b>${nIn}</b> inédites</span><span><b>${M.k_consigne}</b> manières de demander découvertes</span>`;
+
+// ---- questions
+let type = "inedit", shown = 30;
+const doms = [...new Set(Q.map(q => q.domaine))].sort();
+$("#dom").innerHTML += doms.map(d => `<option>${esc(d)}</option>`).join("");
+function fillNotions() {
+  const d = $("#dom").value;
+  const ns = [...new Map(Q.filter(q => !d || q.domaine === d).map(q => [q.notion, q.label])).entries()].sort((a, b) => a[1].localeCompare(b[1]));
+  const cur = $("#not").value;
+  $("#not").innerHTML = `<option value="">Toutes les notions</option>` + ns.map(([k, l]) => `<option value="${k}">${esc(l)}</option>`).join("");
+  if (ns.some(([k]) => k === cur)) $("#not").value = cur;
+}
+const CK = {notion_ok: "notion reconnue", consigne_top3_ok: "manière de demander respectée", support_top3_ok: "support respecté",
+  plausible: "jugée plausible", combinaison_jamais_vue: "combinaison jamais vue", python_ok: "Python exécuté", sql_ok: "SQL exécuté"};
+function card(q) {
+  const ck = Object.entries(q.checks || {}).filter(([k, v]) => CK[k] && v != null)
+    .map(([k, v]) => `<span class="ck ${v ? "y" : "n"}">${v ? "✓" : "✗"} ${CK[k]}</span>`).join("");
+  const mode = q.mode === "savoir_jamais_evalue" ? "point du cours jamais évalué" : q.mode === "combinaison_inedite" ? "combinaison inédite" : "";
+  const fac = q.type === "inedit" ? `<div class="facets">
+      ${q.consigne ? `<span>Manière de demander</span><b>${esc(q.consigne)}</b>` : ""}
+      ${q.support ? `<span>Support</span><b>${esc(q.support)}</b>` : ""}
+      ${q.savoir ? `<span>Savoir visé</span><b>${esc(q.savoir)}</b>` : ""}
+      ${q.plausibilite != null ? `<span>Plausibilité</span><b>${pct(q.plausibilite)}</b>` : ""}
+      ${q.position ? `<span>Place</span><b>${esc(q.position)}</b>` : ""}</div>` : "";
+  const borrow = q.emprunts && q.emprunts.length ? `<details class="borrow"><summary>Manière empruntée à ces vraies questions d'autres notions</summary><ul>${q.emprunts.map(t => `<li>${esc(t)}</li>`).join("")}</ul></details>` : "";
+  return `<article class="q">
+    <div class="qhead"><span class="notion">${esc(q.label)}</span><span class="dom">${esc(q.domaine)}${q.type === "sujet" ? " · " + esc(q.lot) : ""}</span>
+      ${mode ? `<span class="tag new">${mode}</span>` : ""}${q.titre && q.type !== "banque" ? `<span class="tag">${esc(q.titre)}</span>` : ""}</div>
+    ${fac}
+    ${q.contexte ? `<div class="ctx md">${md(q.contexte)}</div>` : ""}
+    <div class="enonce md">${md(q.enonce)}</div>
+    ${q.reponse ? `<details class="corr"><summary>Correction</summary><div class="md">${md(q.reponse)}</div></details>` : ""}
+    ${borrow}
+    ${ck ? `<div class="checks">${ck}</div>` : ""}
+  </article>`;
+}
+function renderQ() {
+  const d = $("#dom").value, n = $("#not").value, s = $("#qs").value.trim().toLowerCase();
+  const L = Q.filter(q => q.type === type && (!d || q.domaine === d) && (!n || q.notion === n) &&
+    (!s || (q.enonce + " " + q.contexte + " " + q.label + " " + (q.consigne || "")).toLowerCase().includes(s)));
+  $("#qcount").textContent = `${L.length} question${L.length > 1 ? "s" : ""}`;
+  $("#qlist").innerHTML = L.slice(0, shown).map(card).join("") || `<p class="sub">Aucune question ne correspond. Élargissez le domaine ou effacez la recherche.</p>`;
+  $("#qmore").hidden = L.length <= shown;
+}
+document.querySelectorAll(".chip[data-t]").forEach(b => b.onclick = () => {
+  type = b.dataset.t; shown = 30;
+  document.querySelectorAll(".chip[data-t]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  renderQ();
+});
+$("#dom").onchange = () => { fillNotions(); shown = 30; renderQ(); };
+$("#not").onchange = () => { shown = 30; renderQ(); };
+$("#qs").oninput = () => { shown = 30; renderQ(); };
+$("#qmore").onclick = () => { shown += 30; renderQ(); };
+fillNotions(); renderQ();
+
+// ---- sujets
+function renderE() {
+  const s = $("#es").value.trim().toLowerCase();
+  const L = E.filter(e => !s || (e.centre + " " + e.annee + " " + e.themes.join(" ")).toLowerCase().includes(s));
+  const years = [...new Set(L.map(e => e.annee))].sort((a, b) => b - a);
+  $("#elist").innerHTML = years.map(y => {
+    const ys = L.filter(e => e.annee === y);
+    return `<div class="year">${y}<span>${ys.length} sujet${ys.length > 1 ? "s" : ""}</span></div><div class="exams">${ys.map(e => `
+      <div class="ex"><div class="t">${esc(e.centre)}${e.jour ? " · jour " + e.jour : ""}${e.type === "sujet0" ? " · sujet zéro" : ""}</div>
+        <div class="m">${e.n_ex} exercices · ${e.n_q} questions lues</div>
+        ${e.themes.length ? `<ol>${e.themes.map(t => `<li>${esc(t)}</li>`).join("")}</ol>` : ""}
+        ${e.extraits.length ? `<details><summary>Extraits de questions</summary>${e.extraits.map(t => `<p>${esc(t)}</p>`).join("")}</details>` : ""}
+        <a href="${esc(e.url)}" target="_blank" rel="noopener">Ouvrir le PDF (${esc(e.src)})</a></div>`).join("")}</div>`;
+  }).join("") || `<p class="sub">Aucun sujet ne correspond à ce filtre.</p>`;
+}
+$("#es").oninput = renderE; renderE();
+
+// ---- modèle
+(function () {
+  const ba = M.avant_apres || {}, v = M.validation || {}, ex = M.exposition || {};
+  const rows = (ba.lignes || []).map(r => `<tr><td>${esc(r[0])}</td><td>${esc(r[1])}</td><td class="${r[3] ? "up" : ""}">${esc(r[2])}</td></tr>`).join("");
+  const SRC = {ecrit: "Sujets écrits", pratique: "Épreuve pratique", cours: "Exercices du cours", codex: "CodEx", entrainement: "Sujets d'entraînement", prof: "Exercices d'enseignants", qcm: "QCM"};
+  $("#mbody").innerHTML = `
+    ${rows ? `<div class="tw"><table><thead><tr><th>Mesure</th><th>Avant</th><th>Après</th></tr></thead><tbody>${rows}</tbody></table></div>` : ""}
+    <div class="tw"><table><thead><tr><th>Matière d'entraînement</th><th>Questions retenues</th></tr></thead><tbody>
+      ${Object.entries(ex).map(([k, n]) => `<tr><td>${esc(SRC[k] || k)}</td><td>${fmt(n)}</td></tr>`).join("")}</tbody></table></div>
+    <div class="prose"><ul>
+      <li><b>Tri automatique de la matière.</b> Un classifieur appris seul sépare les vraies questions de la prose de cours (AUC ${M.nettoyage.AUC_validation_croisee ?? "–"}). Il a écarté ce qui n'était pas une question.</li>
+      <li><b>Facettes stables.</b> ${M.k_consigne} manières de demander et ${M.k_support} types de support. Chaque groupe est retesté sur des sous-échantillons (stabilité ${M.stab_consigne} et ${M.stab_support}) ; les groupes instables sont dissous ou mis de côté.</li>
+      <li><b>Réglages choisis par validation croisée.</b> Le modèle de plausibilité teste lui-même ses hyperparamètres et garde le meilleur.</li>
+      <li><b>Auto-apprentissage contrôlé.</b> Les étiquettes qu'il se donne ne sont gardées que si elles améliorent le score sur des sujets tenus à l'écart. Pour le cours, ce n'était pas le cas : il les a refusées.</li>
+    </ul></div>`;
+})();
+
+// ---- onglets
+function route() {
+  const v = ["questions", "sujets", "modele"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "questions";
+  ["questions", "sujets", "modele"].forEach(k => { $("#v-" + k).hidden = k !== v; });
+  document.querySelectorAll("nav.tabs a").forEach(a => a.toggleAttribute("aria-current", a.dataset.v === v) || a.dataset.v === v && a.setAttribute("aria-current", "page"));
+}
+window.addEventListener("hashchange", route); route();
+</script>

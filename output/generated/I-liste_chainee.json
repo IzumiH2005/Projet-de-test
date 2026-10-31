@@ -4,56 +4,56 @@
   {
    "numero": 1,
    "titre": "Longueur d'une liste chaînée",
-   "contexte": "```python\n1 class Maillon:\n2     def __init__(self, valeur, suivant=None):\n3         self.valeur = valeur\n4         self.suivant = suivant\n5\n6 def longueur(m):\n7     n = 0\n8     while ... :\n9         n = n + 1\n10        m = ...\n11    return n\n```",
+   "contexte": "Une liste chaînée est construite à partir de cellules :\n```python\n1 class Cellule:\n2     def __init__(self, valeur, suivante):\n3         self.valeur = valeur\n4         self.suivante = suivante\n5\n6 def longueur(lst):\n7     n = ...\n8     c = lst\n9     while ...:\n10        n = n + 1\n11        c = ...\n12    return n\n```\nLa liste vide est représentée par None. Par exemple, la liste 8 → 3 → 15 est créée par l = Cellule(8, Cellule(3, Cellule(15, None))) et longueur(l) doit renvoyer 3.",
    "questions": [
     {
      "slot": 1,
      "notion": "liste_chainee",
-     "enonce": "Recopier et compléter les lignes 8 et 10 de la fonction longueur afin qu'elle renvoie le nombre de maillons de la liste commençant par m (m vaut None pour une liste vide).",
+     "enonce": "Recopier et compléter les lignes 7, 9 et 11 de la fonction longueur.",
      "points": 1,
-     "reponse_attendue": "8    while m is not None:\n10        m = m.suivant"
+     "reponse_attendue": "Ligne 7 : n = 0 ; ligne 9 : while c is not None: ; ligne 11 : c = c.suivante."
     }
    ]
   },
   {
    "numero": 2,
-   "titre": "Insertion en tête",
-   "contexte": "On utilise la classe `Maillon(valeur, suivant)` et la fonction :\n\n```python\ndef inserer_tete(m, x):\n    return Maillon(x, m)\n\nl = None\nfor x in [4, 7, 2]:\n    l = inserer_tete(l, x)\n```",
+   "titre": "Suivre les maillons",
+   "contexte": "Un lecteur audio enregistre sa file de lecture sous forme de liste chaînée, en utilisant la classe Cellule (attributs valeur et suivante, None marquant la fin). On exécute, dans l'ordre, les instructions suivantes, où chaque valeur est un numéro de morceau : l = Cellule(42, None), puis l = Cellule(17, l), puis l = Cellule(5, l), puis l.suivante.suivante = Cellule(99, l.suivante.suivante).",
    "questions": [
     {
      "slot": 2,
      "notion": "liste_chainee",
-     "enonce": "Donner la suite des valeurs de la liste l, de la tête à la fin, après exécution de ce code.",
+     "enonce": "Donner la séquence des valeurs de la liste l, de la tête à la fin, à l'issue de ces instructions, puis la valeur de l.suivante.suivante.valeur.",
      "points": 1,
-     "reponse_attendue": "2 -> 7 -> 4"
+     "reponse_attendue": "Après les trois premières instructions : 5 → 17 → 42. La quatrième insère 99 après 17 : 5 → 17 → 99 → 42. l.suivante.suivante.valeur vaut 99."
     }
    ]
   },
   {
    "numero": 3,
-   "titre": "Parcours jusqu'au maillon",
-   "contexte": "Une liste chaînée contient les valeurs 5, 12, 9, 30 et 41, dans cet ordre depuis la tête. On ne peut accéder à un maillon qu'en suivant les liens depuis la tête.",
+   "titre": "Insertion en fin de liste",
+   "contexte": "On reprend la classe Cellule (attributs valeur et suivante). La fonction ci-dessous ajoute une valeur v à la fin d'une liste chaînée non vide lst.\n```python\n1 def ajouter_fin(lst, v):\n2     c = lst\n3     while c.suivante is not None:\n4         c = c.suivante\n5     c.suivante = Cellule(v, None)\n```",
    "questions": [
     {
      "slot": 3,
      "notion": "liste_chainee",
-     "enonce": "Donner le chemin de maillons suivi pour atteindre la valeur 30, et le nombre de liens empruntés.",
+     "enonce": "Expliquer le rôle de la ligne 3 de la fonction ajouter_fin, et indiquer pourquoi la fonction échoue si lst vaut None.",
      "points": 1,
-     "reponse_attendue": "5 -> 12 -> 9 -> 30 : 3 liens suivis."
+     "reponse_attendue": "La ligne 3 fait avancer c tant que la cellule courante a une suivante : la boucle s'arrête sur la dernière cellule, à laquelle on accroche la nouvelle cellule en ligne 5. Si lst vaut None, l'accès c.suivante provoque une erreur (AttributeError) car None n'a pas d'attribut suivante : la liste vide doit être traitée à part."
     }
    ]
   },
   {
    "numero": 4,
-   "titre": "Insertions en queue",
-   "contexte": "On considère une liste chaînée initialement vide. On y insère successivement les valeurs 10, 20 et 30 en queue de liste.",
+   "titre": "Chaîne de cellules",
+   "contexte": "Une liste chaînée est une chaîne de cellules : chaque cellule contient une valeur et l'adresse (la référence) de la cellule suivante ; la dernière référence vaut None. On considère la liste créée par l = Cellule('a', Cellule('b', Cellule('c', None))).",
    "questions": [
     {
      "slot": 4,
      "notion": "liste_chainee",
-     "enonce": "Indiquer les valeurs de la liste de la tête à la queue, puis indiquer la valeur contenue dans le maillon dont l'attribut suivant vaut None.",
+     "enonce": "Dessiner la chaîne de cellules représentant l en tenant compte de la référence de fin, puis indiquer le nombre de cellules à parcourir pour accéder à la valeur 'c' depuis l.",
      "points": 1,
-     "reponse_attendue": "10 -> 20 -> 30 ; le maillon dont suivant vaut None contient 30."
+     "reponse_attendue": "Schéma : l → [ 'a' | • ] → [ 'b' | • ] → [ 'c' | None ]. Pour atteindre 'c', on part de la première cellule et on suit deux références (l.suivante.suivante) : on parcourt donc les 3 cellules ; l'accès au k-ième élément nécessite de suivre k − 1 liens, contrairement à un tableau (accès direct)."
     }
    ]
   }

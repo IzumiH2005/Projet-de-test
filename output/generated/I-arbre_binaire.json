@@ -3,15 +3,57 @@
  "exercices": [
   {
    "numero": 1,
-   "titre": "Arbre complet en tableau",
-   "contexte": "On représente un arbre binaire complet de taille n par un tableau t de taille n + 1 : t[0] contient n, la racine est en t[1], et le nœud d'indice i a son fils gauche à l'indice 2*i et son fils droit à l'indice 2*i + 1.\n\nt = [7, 'A', 'B', 'C', 'D', 'E', 'F', 'G']",
+   "titre": "Arbre généalogique de chats",
+   "contexte": "Un éleveur décrit l'arbre binaire de ses lignées ainsi :\n\n- Tigre est la racine ; ses fils sont Mina (gauche) et Rex (droit) ;\n- Mina a pour fils Lou (gauche) et Pixel (droit) ;\n- Rex a pour seul fils Nala (droit) ;\n- Nala a pour seul fils Zou (gauche) ;\n- Lou, Pixel et Zou n'ont pas de fils.\n\nOn rappelle que la profondeur de la racine vaut 1.",
    "questions": [
     {
      "slot": 1,
      "notion": "arbre_binaire",
-     "enonce": "Déterminer le nombre de feuilles de l'arbre représenté par t, puis écrire une fonction nb_feuilles(t) qui renvoie ce nombre pour un tel tableau.",
+     "enonce": "Quel est le nœud de plus grande profondeur dans cet arbre, et quelle est cette profondeur ? Justifier.",
      "points": 1,
-     "reponse_attendue": "4 feuilles (D, E, F, G). Un nœud i est une feuille si 2*i > n.\n```python\ndef nb_feuilles(t):\n    n = t[0]\n    c = 0\n    for i in range(1, n + 1):\n        if 2 * i > n:\n            c += 1\n    return c\n\nassert nb_feuilles([7, 'A', 'B', 'C', 'D', 'E', 'F', 'G']) == 4\n```"
+     "reponse_attendue": "Zou, de profondeur 4 : chemin Zou - Nala - Rex - Tigre (4 nœuds). Les autres feuilles Lou et Pixel sont de profondeur 3."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Arbre sous forme de tuples",
+   "contexte": "On représente un arbre binaire non vide par un tuple (gauche, valeur, droit) (gauche et droit étant eux-mêmes des arbres), et l'arbre vide par None (convention : hauteur de l'arbre vide 0, hauteur d'une feuille 1). On considère :\n\n```python\na = ((None, 'D', None), 'B', ((None, 'F', None), 'E', None)), 'A', (None, 'C', None)\n```\n\n(la variable a est donc un tuple de trois éléments).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "arbre_binaire",
+     "enonce": "Quelle est la hauteur de l'arbre a ?",
+     "points": 1,
+     "reponse_attendue": "4 : le plus long chemin est A - B - E - F (4 nœuds)."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Classe Arbre",
+   "contexte": "On définit un arbre binaire à l'aide de la classe suivante, l'arbre vide étant représenté par None. La taille d'un arbre est son nombre de nœuds.\n\n```python\n1 class Arbre:\n2     def __init__(self, g, v, d):\n3         self.gauche = g\n4         self.valeur = v\n5         self.droit = d\n6\n7     def taille(self):\n8         t = 1\n9         if self.gauche is not None:\n10            ...\n11        if self.droit is not None:\n12            ...\n13        return t\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "arbre_binaire",
+     "enonce": "Recopier et compléter les lignes 10 et 12 de la méthode taille pour qu'elle renvoie la taille de l'arbre.",
+     "points": 1,
+     "reponse_attendue": "```python\n10            t = t + self.gauche.taille()\n12            t = t + self.droit.taille()\n```"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Taille et hauteur",
+   "contexte": "On considère l'arbre binaire dont la racine R a deux fils S et T ; S a deux fils U et V ; T a un fils droit W ; W a un fils gauche X. On rappelle : la taille d'un arbre est le nombre de nœuds qu'il contient ; sa hauteur est le nombre de nœuds du plus long chemin qui joint le nœud racine à l'une des feuilles.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "arbre_binaire",
+     "enonce": "Donner la taille et la hauteur de cet arbre.",
+     "points": 1,
+     "reponse_attendue": "Taille : 7 (R, S, T, U, V, W, X). Hauteur : 4 (chemin R - T - W - X)."
     }
    ]
   }
