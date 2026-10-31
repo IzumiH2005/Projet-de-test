@@ -1,0 +1,243 @@
+{
+ "id": "S02",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Réseau d'une station de recherche polaire",
+   "contexte": "Une station de recherche polaire relie ses bâtiments par six routeurs R1 à R6. Le réseau du laboratoire, 192.168.10.0/24, est raccordé à R1 ; le réseau des capteurs météo, 172.16.0.0/16, est raccordé à R6.\n\nLes liaisons et leur débit sont les suivants :\n\n| Liaison | Débit |\n|---|---|\n| R1 - R2 | 100 Mbit/s |\n| R1 - R3 | 1 Gbit/s |\n| R2 - R4 | 1 Gbit/s |\n| R3 - R4 | 10 Mbit/s |\n| R3 - R5 | 1 Gbit/s |\n| R5 - R6 | 1 Gbit/s |\n| R4 - R6 | 1 Gbit/s |\n\nLe réseau est modélisé en Python par un graphe donné sous forme de dictionnaire d'adjacence :\n\n```python\nreseau = {\"R1\": [\"R2\", \"R3\"], \"R2\": [\"R1\", \"R4\"],\n          \"R3\": [\"R1\", \"R4\", \"R5\"], \"R4\": [\"R2\", \"R3\", \"R6\"],\n          \"R5\": [\"R3\", \"R6\"], \"R6\": [\"R4\", \"R5\"]}\n```\n\nUne adresse IPv4 ou un masque est représenté par un tuple de quatre entiers, par exemple (192, 168, 10, 37).",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "parcours_graphe",
+     "enonce": "Écrire, dans l'ordre, les routeurs visités lors d'un parcours en largeur du graphe reseau depuis R1, les voisins étant explorés dans l'ordre des listes du dictionnaire.",
+     "points": 0.5,
+     "reponse_attendue": "R1, R2, R3, R4, R5, R6"
+    },
+    {
+     "slot": 2,
+     "notion": "reseau_ip",
+     "enonce": "Écrire une fonction adresse_reseau(ip, masque) qui prend en paramètres deux tuples de quatre entiers, une adresse IP et un masque, et qui renvoie le tuple représentant l'adresse du réseau (ET logique bit à bit, opérateur & en Python).",
+     "points": 0.5,
+     "reponse_attendue": "def adresse_reseau(ip, masque):\n    return tuple(ip[i] & masque[i] for i in range(4))"
+    },
+    {
+     "slot": 3,
+     "notion": "parcours_graphe",
+     "enonce": "Écrire une fonction nb_liaisons(graphe) qui prend en paramètre un graphe non orienté représenté par un dictionnaire d'adjacence et qui renvoie le nombre de liaisons (arêtes) du graphe. Par exemple nb_liaisons(reseau) renvoie 7.",
+     "points": 0.5,
+     "reponse_attendue": "def nb_liaisons(graphe):\n    total = 0\n    for s in graphe:\n        total = total + len(graphe[s])\n    return total // 2"
+    },
+    {
+     "slot": 4,
+     "notion": "reseau_ip",
+     "enonce": "Donner la valeur renvoyée par adresse_reseau((192, 168, 10, 37), (255, 255, 255, 0)).",
+     "points": 0.5,
+     "reponse_attendue": "(192, 168, 10, 0)"
+    },
+    {
+     "slot": 5,
+     "notion": "routage",
+     "enonce": "Le protocole OSPF est utilisé avec un coût de liaison égal à 10^9 / d, où d est le débit en bit/s. Donner le coût d'une liaison à 1 Gbit/s, à 100 Mbit/s et à 10 Mbit/s.",
+     "points": 0.5,
+     "reponse_attendue": "1 Gbit/s : coût 1 ; 100 Mbit/s : coût 10 ; 10 Mbit/s : coût 100."
+    },
+    {
+     "slot": 6,
+     "notion": "routage",
+     "enonce": "En utilisant les coûts de la question précédente, donner le chemin emprunté selon OSPF par un paquet allant du réseau du laboratoire vers le réseau des capteurs, ainsi que son coût total. Compléter la ligne correspondante de la table de routage de R1 (destination, passerelle, coût).",
+     "points": 0.5,
+     "reponse_attendue": "Chemin R1 - R3 - R5 - R6, coût 1 + 1 + 1 = 3. Ligne de R1 : 172.16.0.0/16 | passerelle R3 | coût 3."
+    },
+    {
+     "slot": 7,
+     "notion": "reseau_ip",
+     "enonce": "Donner la représentation binaire sur 8 bits du nombre 172.",
+     "points": 0.5,
+     "reponse_attendue": "10101100"
+    },
+    {
+     "slot": 8,
+     "notion": "reseau_ip",
+     "enonce": "Recopier et compléter les lignes 4 et 5 de la fonction octet_binaire, qui renvoie la chaîne de 8 caractères représentant en binaire un entier n compris entre 0 et 255.\n\n```\n1 def octet_binaire(n):\n2     resultat = ''\n3     for i in range(8):\n4         resultat = ...\n5         n = ...\n6     return resultat\n```",
+     "points": 0.5,
+     "reponse_attendue": "def octet_binaire(n):\n    resultat = ''\n    for i in range(8):\n        resultat = str(n % 2) + resultat\n        n = n // 2\n    return resultat"
+    },
+    {
+     "slot": 9,
+     "notion": "reseau_ip",
+     "enonce": "Déterminer le nombre maximal de machines pouvant recevoir une adresse dans le réseau 192.168.10.0/24. Justifier.",
+     "points": 0.5,
+     "reponse_attendue": "8 bits pour la partie machine : 2^8 = 256 adresses, moins l'adresse du réseau (.0) et celle de diffusion (.255), soit 254 machines (routeur R1 compris)."
+    },
+    {
+     "slot": 10,
+     "notion": "routage",
+     "enonce": "Le routeur R5 tombe en panne. Déterminer la nouvelle route OSPF de R1 vers le réseau des capteurs et donner la ligne modifiée de la table de routage de R1.",
+     "points": 0.5,
+     "reponse_attendue": "Chemins possibles : R1-R2-R4-R6 (10 + 1 + 1 = 12) et R1-R3-R4-R6 (1 + 100 + 1 = 102). Route retenue R1-R2-R4-R6. Ligne : 172.16.0.0/16 | passerelle R2 | coût 12."
+    },
+    {
+     "slot": 11,
+     "notion": "routage",
+     "enonce": "Tous les routeurs fonctionnent à nouveau, mais on utilise désormais le protocole RIP. Indiquer la route entre R1 et R5 et la distance correspondante.",
+     "points": 0.5,
+     "reponse_attendue": "RIP minimise le nombre de sauts : R1 - R3 - R5, distance 2."
+    },
+    {
+     "slot": 12,
+     "notion": "parcours_graphe",
+     "enonce": "Écrire une fonction nb_sauts(graphe, depart, arrivee) qui renvoie le nombre minimal de liaisons à traverser pour aller du routeur depart au routeur arrivee, en utilisant un parcours en largeur. On suppose le graphe connexe. Par exemple nb_sauts(reseau, 'R1', 'R6') renvoie 3.",
+     "points": 0.5,
+     "reponse_attendue": "def nb_sauts(graphe, depart, arrivee):\n    distance = {depart: 0}\n    file = [depart]\n    while file:\n        s = file.pop(0)\n        if s == arrivee:\n            return distance[s]\n        for v in graphe[s]:\n            if v not in distance:\n                distance[v] = distance[s] + 1\n                file.append(v)"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Le sentier des cairns",
+   "contexte": "Un sentier de randonnée comporte n cairns numérotés de 1 à n. Un randonneur part du point 0 et avance à chaque pas d'un ou de deux cairns. On souhaite compter le nombre de façons différentes d'atteindre le cairn n, puis gérer les temps des randonneurs.\n\n```python\ndef nb_facons(n):\n    if n <= 1:\n        return 1\n    return nb_facons(n - 1) + nb_facons(n - 2)\n```\n\nUn module temps.py est également fourni :\n\n```python\ndef en_secondes(minutes, secondes):\n    return 60 * minutes + secondes\n\ndef formater(total):\n    return str(total // 60) + ' min ' + str(total % 60) + ' s'\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recursivite",
+     "enonce": "Rappeler ce qu'est une fonction récursive.",
+     "points": 0.5,
+     "reponse_attendue": "Une fonction qui s'appelle elle-même dans sa définition, avec un ou plusieurs cas de base qui arrêtent les appels."
+    },
+    {
+     "slot": 2,
+     "notion": "prog_dynamique",
+     "enonce": "Énumérer les façons d'atteindre le cairn 4 et donner leur nombre.",
+     "points": 0.5,
+     "reponse_attendue": "1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2 : 5 façons."
+    },
+    {
+     "slot": 3,
+     "notion": "prog_dynamique",
+     "enonce": "On propose une version ascendante utilisant un tableau t où t[i] est le nombre de façons d'atteindre le cairn i. En s'appuyant sur la question précédente, recopier et compléter la ligne 5.\n\n```\n1 def nb_facons_dyn(n):\n2     t = [1] * (n + 1)\n3     for i in range(2, n + 1):\n4         # à compléter\n5         t[i] = ...\n6     return t[n]\n```",
+     "points": 0.5,
+     "reponse_attendue": "def nb_facons_dyn(n):\n    t = [1] * (n + 1)\n    for i in range(2, n + 1):\n        t[i] = t[i - 1] + t[i - 2]\n    return t[n]"
+    },
+    {
+     "slot": 4,
+     "notion": "recursivite",
+     "enonce": "La fonction nb_facons est-elle récursive ? Justifier.",
+     "points": 0.5,
+     "reponse_attendue": "Oui : dans son corps elle s'appelle elle-même (nb_facons(n - 1) et nb_facons(n - 2))."
+    },
+    {
+     "slot": 5,
+     "notion": "recursivite",
+     "enonce": "Expliquer le rôle du test n <= 1 dans la fonction nb_facons.",
+     "points": 0.5,
+     "reponse_attendue": "C'est le cas de base : il renvoie directement 1 sans appel récursif, ce qui garantit l'arrêt des appels (terminaison)."
+    },
+    {
+     "slot": 6,
+     "notion": "recursivite",
+     "enonce": "Recopier et compléter les lignes 3 et 4 de la fonction récursive denivele(liste) qui renvoie la somme des éléments d'une liste de dénivelés.\n\n```\n1 def denivele(liste):\n2     if len(liste) == 0:\n3         return ...\n4     return ...\n```",
+     "points": 0.5,
+     "reponse_attendue": "def denivele(liste):\n    if len(liste) == 0:\n        return 0\n    return liste[0] + denivele(liste[1:])"
+    },
+    {
+     "slot": 7,
+     "notion": "modularite",
+     "enonce": "Donner la valeur renvoyée par l'appel formater(en_secondes(2, 75)) des fonctions du module temps.",
+     "points": 0.5,
+     "reponse_attendue": "en_secondes(2, 75) vaut 195, donc '3 min 15 s'."
+    },
+    {
+     "slot": 8,
+     "notion": "modularite",
+     "enonce": "Dans un autre fichier, on veut utiliser les fonctions du module temps. Recopier et compléter la ligne 1.\n\n```\n1 from ... import ...\n2 print(formater(en_secondes(5, 30)))\n```",
+     "points": 0.5,
+     "reponse_attendue": "from temps import en_secondes, formater"
+    },
+    {
+     "slot": 9,
+     "notion": "prog_dynamique",
+     "enonce": "Expliquer pourquoi nb_facons_dyn est bien plus rapide que nb_facons pour de grandes valeurs de n.",
+     "points": 0.5,
+     "reponse_attendue": "nb_facons recalcule de nombreuses fois les mêmes sous-problèmes (nombre d'appels exponentiel) ; nb_facons_dyn calcule chaque t[i] une seule fois et le mémorise : coût linéaire en n."
+    },
+    {
+     "slot": 10,
+     "notion": "recursivite",
+     "enonce": "On supprime les deux premières lignes du corps de nb_facons. Expliquer ce qui se passe lors de l'appel nb_facons(3).",
+     "points": 0.5,
+     "reponse_attendue": "Sans cas de base, les appels se poursuivent avec n = 2, 1, 0, -1, ... sans jamais s'arrêter : la pile d'appels déborde et Python lève une RecursionError."
+    },
+    {
+     "slot": 11,
+     "notion": "modularite",
+     "enonce": "On définit la classe Chrono. Recopier et compléter la ligne 5 pour que l'attribut total contienne la durée en secondes, en utilisant le module temps.\n\n```\n1 import temps\n2 class Chrono:\n3     def __init__(self, nom, minutes, secondes):\n4         self.nom = nom\n5         self.total = ...\n```",
+     "points": 0.5,
+     "reponse_attendue": "self.total = temps.en_secondes(minutes, secondes)"
+    },
+    {
+     "slot": 12,
+     "notion": "recursivite",
+     "enonce": "En utilisant la classe Chrono de la question précédente, écrire une fonction récursive plus_rapide(chronos) qui prend en paramètre une liste non vide d'objets Chrono et renvoie le plus petit attribut total.",
+     "points": 0.5,
+     "reponse_attendue": "def plus_rapide(chronos):\n    if len(chronos) == 1:\n        return chronos[0].total\n    m = plus_rapide(chronos[1:])\n    if chronos[0].total < m:\n        return chronos[0].total\n    return m"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Catalogue d'une médiathèque",
+   "contexte": "Une médiathèque range les codes de ses ouvrages dans un arbre binaire de recherche : pour chaque nœud, les codes du sous-arbre gauche sont strictement inférieurs et ceux du sous-arbre droit strictement supérieurs. Un arbre vide est représenté par None.\n\n```python\nclass Noeud:\n    def __init__(self, valeur, gauche=None, droit=None):\n        self.valeur = valeur\n        self.gauche = gauche\n        self.droit = droit\n```\n\nOn insère successivement les codes 50, 30, 70, 20, 40, 60, 80, 45, ce qui donne l'arbre A :\n\n```\n        50\n      /    \\\n    30      70\n   /  \\    /  \\\n  20  40  60  80\n        \\\n         45\n```\n\nOn convient que la hauteur d'un arbre réduit à sa racine vaut 1 et celle de l'arbre vide vaut 0.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "arbre_binaire",
+     "enonce": "Donner la taille et la hauteur de l'arbre A.",
+     "points": 1.0,
+     "reponse_attendue": "Taille 8, hauteur 4."
+    },
+    {
+     "slot": 2,
+     "notion": "abr",
+     "enonce": "Recopier et compléter les lignes 4, 6 et 8 de la fonction récursive contient(abr, code) qui renvoie True si code est présent dans l'ABR abr, False sinon.\n\n```\n1 def contient(abr, code):\n2     if abr is None:\n3         return False\n4     if ...:\n5         return True\n6     if code < abr.valeur:\n7         return ...\n8     return ...\n```",
+     "points": 1.0,
+     "reponse_attendue": "def contient(abr, code):\n    if abr is None:\n        return False\n    if abr.valeur == code:\n        return True\n    if code < abr.valeur:\n        return contient(abr.gauche, code)\n    return contient(abr.droit, code)"
+    },
+    {
+     "slot": 3,
+     "notion": "arbre_binaire",
+     "enonce": "Écrire une fonction récursive hauteur(arbre) qui renvoie la hauteur d'un arbre binaire, avec la convention de l'énoncé.",
+     "points": 2.0,
+     "reponse_attendue": "def hauteur(arbre):\n    if arbre is None:\n        return 0\n    return 1 + max(hauteur(arbre.gauche), hauteur(arbre.droit))"
+    },
+    {
+     "slot": 4,
+     "notion": "arbre_binaire",
+     "enonce": "On remplace la feuille 45 par 55. Indiquer si l'arbre obtenu est encore un arbre binaire de recherche. Justifier.",
+     "points": 1.0,
+     "reponse_attendue": "Non : 55 se trouve dans le sous-arbre gauche de la racine 50 alors qu'il est supérieur à 50."
+    },
+    {
+     "slot": 5,
+     "notion": "parcours_arbre",
+     "enonce": "Indiquer dans quel ordre sont visités les nœuds de l'arbre A lors d'un parcours en profondeur postfixe (suffixe).",
+     "points": 1.0,
+     "reponse_attendue": "20, 45, 40, 30, 60, 80, 70, 50"
+    },
+    {
+     "slot": 6,
+     "notion": "arbre_binaire",
+     "enonce": "Combien de nœuds sont examinés par la fonction contient lors de la recherche du code 45 dans l'arbre A ? Les citer.",
+     "points": 1.0,
+     "reponse_attendue": "4 nœuds : 50, 30, 40, 45."
+    },
+    {
+     "slot": 7,
+     "notion": "parcours_arbre",
+     "enonce": "Donner la liste des codes obtenue par un parcours infixe de l'arbre A, puis la particularité de ce parcours pour un arbre binaire de recherche.",
+     "points": 1.0,
+     "reponse_attendue": "20, 30, 40, 45, 50, 60, 70, 80 : le parcours infixe d'un ABR donne les valeurs dans l'ordre croissant."
+    }
+   ]
+  }
+ ]
+}
