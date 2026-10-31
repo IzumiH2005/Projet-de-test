@@ -46,3 +46,27 @@ for y in 2021 2022 2023 2024 2025 2026; do
       done
 done
 echo "ok sujetdebac ($(ls sujetdebac | wc -l) PDF)"
+
+# Droit : annales STMG droit-économie (sujets + corrigés) et matière du cours
+mkdir -p droit_stmg droit_cours
+for y in 2021 2022 2023 2024 2025 2026; do
+  curl -fsSL "https://www.sujetdebac.fr/annales/serie-stmg/spe-droit-economie/$y/" \
+    | grep -oE "/annales/stmg-spe-droit-economie-$y-[a-z0-9-]+" | sort -u \
+    | while read -r page; do
+        curl -fsSL "https://www.sujetdebac.fr$page" | grep -oE "/annales-pdf/$y/[^\"']*\.pdf" | sort -u \
+          | while read -r u; do
+              f="droit_stmg/$(basename "$u")"
+              [ -s "$f" ] || curl -fsSL "https://www.sujetdebac.fr$u" -o "$f" || echo "! $u"
+            done
+      done
+done
+echo "ok droit_stmg ($(ls droit_stmg | wc -l) PDF)"
+# programmes et indications complémentaires Éduscol (1re, Tle)
+for id in 25015 25021 25252; do
+  [ -s "droit_cours/eduscol_$id.pdf" ] || curl -fsSL "https://eduscol.education.fr/document/$id/download" -o "droit_cours/eduscol_$id.pdf"
+done
+# codes en vigueur (tricoteuses.fr), puis : python scripts/build_droit_cours.py data/sources/codes
+mkdir -p codes
+for c in code_civil code_du_travail code_de_la_consommation code_de_commerce; do
+  [ -d "codes/$c" ] || git clone -q --depth 1 "https://git.tricoteuses.fr/codes/$c.git" "codes/$c"
+done
