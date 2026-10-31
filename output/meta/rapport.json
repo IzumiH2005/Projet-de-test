@@ -1,0 +1,1012 @@
+{
+ "alignement": {
+  "matiere_exclue": {
+   "appris_sans_droit": {
+    "poids": {
+     "coherence_partie": 1.677,
+     "accord_des_vues": -0.298,
+     "retrouve_partie": 0.085,
+     "marge": -0.065,
+     "diversite": -1.107
+    },
+    "choisi_par_le_meta_modele": 0.764,
+    "reglage_par_defaut": 0.708,
+    "meilleur_possible_oracle": 0.879,
+    "pire_reglage": 0.489,
+    "episodes": 12
+   },
+   "appris_sans_nsi": {
+    "poids": {
+     "coherence_partie": 0.16,
+     "accord_des_vues": -0.128,
+     "retrouve_partie": 0.111,
+     "marge": -0.065,
+     "diversite": -0.044
+    },
+    "choisi_par_le_meta_modele": 0.726,
+    "reglage_par_defaut": 0.57,
+    "meilleur_possible_oracle": 0.745,
+    "pire_reglage": 0.549,
+    "episodes": 12
+   }
+  },
+  "correlation_signal_reussite": {
+   "droit": {
+    "coherence_partie": 0.13,
+    "accord_des_vues": -0.08,
+    "retrouve_partie": 0.1,
+    "marge": -0.04,
+    "diversite": 0.01
+   },
+   "nsi": {
+    "coherence_partie": 0.6,
+    "accord_des_vues": 0.27,
+    "retrouve_partie": 0.28,
+    "marge": -0.44,
+    "diversite": 0.18
+   }
+  },
+  "regle_finale": {
+   "signaux": [
+    "coherence_partie",
+    "accord_des_vues",
+    "retrouve_partie",
+    "marge",
+    "diversite"
+   ],
+   "poids": [
+    0.3663,
+    -0.1423,
+    0.0771,
+    -0.162,
+    -0.1509
+   ],
+   "appris_sur": [
+    "droit",
+    "nsi"
+   ]
+  }
+ },
+ "intentions": {
+  "par_matiere": {
+   "droit": {
+    "questions": 168,
+    "taches": {
+     "ordre": {
+      "score_sujets_exclus": 0.672,
+      "unite": "corrélation de rang (0 = rien)",
+      "variables_retenues": [
+       {
+        "variable": "forme_interrogative",
+        "importance": 0.397,
+        "sens": 1.0
+       },
+       {
+        "variable": "vocabulaire_hors_cours_dans_l_enonce",
+        "importance": 0.2153,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_corrige_section",
+        "importance": 0.2061,
+        "sens": 1.0
+       },
+       {
+        "variable": "longueur_enonce",
+        "importance": 0.1751,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_enonce_section",
+        "importance": 0.0713,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_situation_passage",
+        "importance": 0.0504,
+        "sens": -1.0
+       },
+       {
+        "variable": "annees_depuis_la_derniere_fois",
+        "importance": 0.0483,
+        "sens": 1.0
+       },
+       {
+        "variable": "sections_dans_la_partie",
+        "importance": 0.0347,
+        "sens": 0.0
+       },
+       {
+        "variable": "proximite_situation_section",
+        "importance": 0.0255,
+        "sens": -1.0
+       },
+       {
+        "variable": "proximite_enonce_passage",
+        "importance": 0.0237,
+        "sens": 1.0
+       },
+       {
+        "variable": "notion_nommee_dans_situation",
+        "importance": 0.0215,
+        "sens": -1.0
+       },
+       {
+        "variable": "notion_nommee_dans_enonce",
+        "importance": 0.0142,
+        "sens": 1.0
+       },
+       {
+        "variable": "centralite_de_la_section",
+        "importance": 0.0136,
+        "sens": 1.0
+       }
+      ]
+     },
+     "consigne": {
+      "score_sujets_exclus": 0.111,
+      "unite": "gain de log-vraisemblance sur le seul rang (> 0 = la relation au cours explique la consigne)",
+      "variables_retenues": [
+       {
+        "variable": "rang_dans_la_partie",
+        "importance": 0.4141,
+        "sens": null
+       },
+       {
+        "variable": "longueur_enonce",
+        "importance": 0.1939,
+        "sens": null
+       },
+       {
+        "variable": "forme_interrogative",
+        "importance": 0.1594,
+        "sens": null
+       },
+       {
+        "variable": "vocabulaire_hors_cours_dans_l_enonce",
+        "importance": 0.1496,
+        "sens": null
+       },
+       {
+        "variable": "questions_dans_la_partie",
+        "importance": 0.108,
+        "sens": null
+       },
+       {
+        "variable": "proximite_enonce_section",
+        "importance": 0.0825,
+        "sens": null
+       },
+       {
+        "variable": "redondance_du_passage",
+        "importance": 0.0472,
+        "sens": null
+       },
+       {
+        "variable": "insistance_typographique",
+        "importance": 0.0458,
+        "sens": null
+       },
+       {
+        "variable": "centralite_du_passage",
+        "importance": 0.0411,
+        "sens": null
+       },
+       {
+        "variable": "proximite_enonce_passage",
+        "importance": 0.0191,
+        "sens": null
+       },
+       {
+        "variable": "notion_implicite_dans_l_enonce",
+        "importance": 0.0172,
+        "sens": null
+       },
+       {
+        "variable": "notion_nommee_dans_corrige",
+        "importance": 0.0162,
+        "sens": null
+       },
+       {
+        "variable": "proximite_documents_passage",
+        "importance": 0.0131,
+        "sens": null
+       },
+       {
+        "variable": "proximite_corrige_passage",
+        "importance": 0.0123,
+        "sens": null
+       },
+       {
+        "variable": "proximite_corrige_section",
+        "importance": 0.0079,
+        "sens": null
+       }
+      ],
+      "log_loss_rang_seul": 0.983,
+      "log_loss_avec_relation_au_cours": 0.872
+     },
+     "testabilite": {
+      "score_sujets_exclus": 0.681,
+      "unite": "AUC, année exclue (0,5 = hasard)",
+      "variables_retenues": [
+       {
+        "variable": "centralite_du_passage",
+        "importance": 0.1574,
+        "sens": 1.0
+       },
+       {
+        "variable": "frequence_passee_du_passage",
+        "importance": 0.0423,
+        "sens": 1.0
+       }
+      ],
+      "auc_popularite_de_la_section": 0.614,
+      "auc_popularite_du_passage": 0.659,
+      "passages": 274
+     }
+    },
+    "types_d_intention": {
+     "k": 2,
+     "variables_utilisees": [
+      "annees_depuis_la_derniere_fois",
+      "centralite_de_la_section",
+      "centralite_du_passage",
+      "forme_interrogative",
+      "insistance_typographique",
+      "longueur_enonce",
+      "notion_implicite_dans_l_enonce",
+      "notion_nommee_dans_corrige",
+      "notion_nommee_dans_enonce",
+      "notion_nommee_dans_situation",
+      "proximite_corrige_passage",
+      "proximite_corrige_section",
+      "proximite_documents_passage",
+      "proximite_enonce_passage",
+      "proximite_enonce_section",
+      "proximite_situation_passage",
+      "proximite_situation_section",
+      "questions_dans_la_partie",
+      "rang_dans_la_partie",
+      "redondance_du_passage",
+      "sections_dans_la_partie",
+      "vocabulaire_hors_cours_dans_l_enonce"
+     ],
+     "types": [
+      {
+       "id": 0,
+       "n": 105,
+       "part": 0.625,
+       "fort": [],
+       "faible": [
+        "proximite_corrige_section",
+        "proximite_corrige_passage",
+        "notion_nommee_dans_corrige"
+       ],
+       "exemples": [
+        {
+         "enonce": "Qualifiez juridiquement les faits et les dommages.",
+         "notion_du_cours": "L’étude de cas concrets doit permettre aux élèves de comprendre la notion de dommages réparables et de qualifier ceux-ci en ayant recours à l’une des deux classifications juridiques classiques : --les"
+        },
+        {
+         "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+         "notion_du_cours": "Article 1252 du Code civil : Indépendamment de la réparation du préjudice écologique, le juge, saisi d'une demande en ce sens par une personne mentionnée à l'article 1248, peut prescrire les mesures r"
+        },
+        {
+         "enonce": "Développez l’argumentation juridique que l’entreprise Energymax peut avancer pour s’exonérer de sa responsabilité.",
+         "notion_du_cours": "L’étude de cas concrets doit permettre aux élèves de comprendre la notion de dommages réparables et de qualifier ceux-ci en ayant recours à l’une des deux classifications juridiques classiques : --les"
+        }
+       ]
+      },
+      {
+       "id": 1,
+       "n": 63,
+       "part": 0.375,
+       "fort": [
+        "proximite_corrige_section",
+        "proximite_corrige_passage",
+        "notion_nommee_dans_corrige"
+       ],
+       "faible": [],
+       "exemples": [
+        {
+         "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+         "notion_du_cours": "Article 1231-4 du Code civil : Dans le cas même où l'inexécution du contrat résulte d'une faute lourde ou dolosive, les dommages et intérêts ne comprennent que ce qui est une suite immédiate et direct"
+        },
+        {
+         "enonce": "Présentez l’argumentation juridique que la SA Répar’mobile pourrait mettre en avant pour justifier la rupture du contrat de franchise.",
+         "notion_du_cours": "Article 1217 du Code civil : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été imparfaitement, peut : - refuser d'exécuter ou suspendre l'exécution de sa propre obligation ; - pou"
+        },
+        {
+         "enonce": "Proposez l’argumentation juridique qu’Erwan pourrait développer pour obtenir cette requalification.",
+         "notion_du_cours": "Article L6222-12 du Code du travail : Le contrat d'apprentissage porte mention de la date du début de l'exécution du contrat d'apprentissage, de la période de formation pratique chez l'employeur et de"
+        }
+       ]
+      }
+     ]
+    },
+    "ce_qui_est_evalue_sans_etre_dit": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "mots": []
+     },
+     {
+      "enonce": "Justifiez l’existence des règles de procédure en matière de licenciement individuel.",
+      "mots": [
+       "notification",
+       "salarie",
+       "droit"
+      ]
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la SARL NORMARKET peut lui opposer.",
+      "mots": [
+       "syndical",
+       "delegue",
+       "comite",
+       "social",
+       "entreprises",
+       "economique"
+      ]
+     },
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "mots": [
+       "parties",
+       "rupture",
+       "imposee",
+       "destinees",
+       "resulte",
+       "section"
+      ]
+     },
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "mots": [
+       "obligation",
+       "prix",
+       "executer"
+      ]
+     },
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "mots": [
+       "expression",
+       "salaries",
+       "destinees",
+       "responsabilites",
+       "stipulations",
+       "demandes"
+      ]
+     }
+    ]
+   },
+   "nsi": {
+    "questions": 1470,
+    "taches": {
+     "ordre": {
+      "score_sujets_exclus": 0.174,
+      "unite": "corrélation de rang (0 = rien)",
+      "variables_retenues": [
+       {
+        "variable": "centralite_du_passage",
+        "importance": 0.0731,
+        "sens": -1.0
+       },
+       {
+        "variable": "centralite_de_la_section",
+        "importance": 0.0365,
+        "sens": 1.0
+       },
+       {
+        "variable": "longueur_du_passage",
+        "importance": 0.0361,
+        "sens": 1.0
+       },
+       {
+        "variable": "longueur_enonce",
+        "importance": 0.0248,
+        "sens": 1.0
+       },
+       {
+        "variable": "taille_de_la_section",
+        "importance": 0.0222,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_enonce_section",
+        "importance": 0.0136,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_documents_section",
+        "importance": 0.0118,
+        "sens": -1.0
+       },
+       {
+        "variable": "largeur_du_cours_mobilise",
+        "importance": 0.0095,
+        "sens": 1.0
+       },
+       {
+        "variable": "notion_nommee_dans_enonce",
+        "importance": 0.0065,
+        "sens": 1.0
+       },
+       {
+        "variable": "forme_interrogative",
+        "importance": 0.0061,
+        "sens": -1.0
+       },
+       {
+        "variable": "frequence_passee_de_la_section",
+        "importance": 0.0047,
+        "sens": 1.0
+       },
+       {
+        "variable": "proximite_situation_section",
+        "importance": 0.0044,
+        "sens": -1.0
+       },
+       {
+        "variable": "rang_du_passage_dans_la_section",
+        "importance": 0.0034,
+        "sens": 1.0
+       },
+       {
+        "variable": "notion_nommee_dans_documents",
+        "importance": 0.0027,
+        "sens": -1.0
+       }
+      ]
+     },
+     "consigne": {
+      "score_sujets_exclus": -0.003,
+      "unite": "gain de log-vraisemblance sur le seul rang (> 0 = la relation au cours explique la consigne)",
+      "variables_retenues": [
+       {
+        "variable": "longueur_enonce",
+        "importance": 0.0406,
+        "sens": null
+       },
+       {
+        "variable": "centralite_de_la_section",
+        "importance": 0.0138,
+        "sens": null
+       },
+       {
+        "variable": "rang_du_passage_dans_la_section",
+        "importance": 0.0108,
+        "sens": null
+       },
+       {
+        "variable": "vocabulaire_hors_cours_dans_l_enonce",
+        "importance": 0.0085,
+        "sens": null
+       },
+       {
+        "variable": "proximite_documents_section",
+        "importance": 0.008,
+        "sens": null
+       },
+       {
+        "variable": "frequence_passee_de_la_section",
+        "importance": 0.0072,
+        "sens": null
+       },
+       {
+        "variable": "redondance_du_passage",
+        "importance": 0.0068,
+        "sens": null
+       },
+       {
+        "variable": "forme_interrogative",
+        "importance": 0.0066,
+        "sens": null
+       },
+       {
+        "variable": "proximite_situation_passage",
+        "importance": 0.0065,
+        "sens": null
+       },
+       {
+        "variable": "centralite_du_passage",
+        "importance": 0.0064,
+        "sens": null
+       },
+       {
+        "variable": "sections_dans_la_partie",
+        "importance": 0.0063,
+        "sens": null
+       },
+       {
+        "variable": "rang_dans_la_partie",
+        "importance": 0.0051,
+        "sens": null
+       },
+       {
+        "variable": "largeur_du_cours_mobilise",
+        "importance": 0.0042,
+        "sens": null
+       },
+       {
+        "variable": "densite_symboles_du_passage",
+        "importance": 0.0037,
+        "sens": null
+       },
+       {
+        "variable": "place_de_la_section_dans_le_cours",
+        "importance": 0.0037,
+        "sens": null
+       },
+       {
+        "variable": "proximite_enonce_section",
+        "importance": 0.0034,
+        "sens": null
+       }
+      ],
+      "log_loss_rang_seul": 0.596,
+      "log_loss_avec_relation_au_cours": 0.599
+     },
+     "testabilite": {
+      "score_sujets_exclus": 0.717,
+      "unite": "AUC, année exclue (0,5 = hasard)",
+      "variables_retenues": [
+       {
+        "variable": "frequence_passee_du_passage",
+        "importance": 0.1292,
+        "sens": 1.0
+       },
+       {
+        "variable": "densite_symboles_du_passage",
+        "importance": 0.0342,
+        "sens": -1.0
+       },
+       {
+        "variable": "insistance_typographique",
+        "importance": 0.02,
+        "sens": 1.0
+       },
+       {
+        "variable": "centralite_du_passage",
+        "importance": 0.0197,
+        "sens": 1.0
+       },
+       {
+        "variable": "redondance_du_passage",
+        "importance": 0.0053,
+        "sens": -1.0
+       }
+      ],
+      "auc_popularite_de_la_section": 0.505,
+      "auc_popularite_du_passage": 0.682,
+      "passages": 2201
+     }
+    },
+    "types_d_intention": {
+     "k": 7,
+     "variables_utilisees": [
+      "centralite_de_la_section",
+      "centralite_du_passage",
+      "densite_symboles_du_passage",
+      "forme_interrogative",
+      "frequence_passee_de_la_section",
+      "largeur_du_cours_mobilise",
+      "longueur_du_passage",
+      "longueur_enonce",
+      "notion_nommee_dans_documents",
+      "notion_nommee_dans_enonce",
+      "place_de_la_section_dans_le_cours",
+      "proximite_documents_section",
+      "proximite_enonce_section",
+      "proximite_situation_passage",
+      "proximite_situation_section",
+      "rang_dans_la_partie",
+      "rang_du_passage_dans_la_section",
+      "redondance_du_passage",
+      "sections_dans_la_partie",
+      "taille_de_la_section",
+      "vocabulaire_hors_cours_dans_l_enonce"
+     ],
+     "types": [
+      {
+       "id": 0,
+       "n": 135,
+       "part": 0.092,
+       "fort": [
+        "redondance_du_passage",
+        "proximite_documents_section",
+        "densite_symboles_du_passage"
+       ],
+       "faible": [
+        "place_de_la_section_dans_le_cours",
+        "longueur_du_passage",
+        "proximite_situation_section"
+       ],
+       "exemples": [
+        {
+         "enonce": "On dispose d'une table de données des positions GPS de toutes les stations, dont un extrait est donné ci-dessous. Cette table est stockée sous forme d’un dictionnaire.",
+         "notion_du_cours": "#2. Une seule simplification de la chaîne de caractères"
+        },
+        {
+         "enonce": "Recopier le schéma ci-dessous et le compléter sur votre copie en exécutant les appels de fonctions donnés. On écrira ce que renvoie la fonction utilisée dans chaque cas, et on indiquera None si la fonction ne retourne au",
+         "notion_du_cours": "Sur une case noire, on écrira le nombre 0."
+        },
+        {
+         "enonce": "On considère la fonction voisine ci-dessous, écrite en langage Python, qui prend en paramètres deux cases données sous forme de couple.",
+         "notion_du_cours": "Écrire une fonction récursive ```puissance``` qui prend en paramètres deux nombres ```x``` et ```n``` qui renvoie le nombre $x^n$."
+        }
+       ]
+      },
+      {
+       "id": 1,
+       "n": 56,
+       "part": 0.038,
+       "fort": [
+        "longueur_du_passage",
+        "centralite_du_passage",
+        "rang_du_passage_dans_la_section"
+       ],
+       "faible": [
+        "notion_nommee_dans_enonce",
+        "densite_symboles_du_passage",
+        "frequence_passee_de_la_section"
+       ],
+       "exemples": [
+        {
+         "enonce": "Que devient la liste ['7','8','9','10','V','D','R','A'] si on lui applique cette méthode de mélange ?",
+         "notion_du_cours": "Recursivite : Terminale - Spécialité NSI IFS Singapour Chapitre 2 - Récursivité Objectifs : ▷ Écrire un programme récursif ▷ Analyser le fonctionnement d'un programme récursif. ▷ Connaître des exemple"
+        },
+        {
+         "enonce": "Compléter la dernière ligne du code de la fonction affichage_pile pour qu’elle fonctionne de manière récursive.",
+         "notion_du_cours": "Programmation dynamique : Terminale - Spécialité NSI IFS Singapour Chapitre 22 - Programmation dynamique Objectifs : ▷ Utiliser la programmation dynamique pour écrire un algorithme. ▷ Comprendre les e"
+        },
+        {
+         "enonce": "Écrire une fonction etendre(pile1, pile2) qui prend en arguments deux objets",
+         "notion_du_cours": "Recursivite : Terminale - Spécialité NSI IFS Singapour Chapitre 2 - Récursivité Objectifs : ▷ Écrire un programme récursif ▷ Analyser le fonctionnement d'un programme récursif. ▷ Connaître des exemple"
+        }
+       ]
+      },
+      {
+       "id": 2,
+       "n": 39,
+       "part": 0.027,
+       "fort": [
+        "forme_interrogative",
+        "place_de_la_section_dans_le_cours",
+        "rang_du_passage_dans_la_section"
+       ],
+       "faible": [
+        "centralite_de_la_section",
+        "sections_dans_la_partie",
+        "centralite_du_passage"
+       ],
+       "exemples": [
+        {
+         "enonce": "a. Que renvoie l'instruction flotte[26] ?",
+         "notion_du_cours": "{{ correction(True, \"\"\" \\\"Correction Q1.a. \\\" ```flotte[26]``` renvoie ```{'type' : 'classique', 'etat' : 1, 'station' : 'Coliseum'}``` \"\"\" ) }}"
+        },
+        {
+         "enonce": "Voici le script d'une fonction : def proposition(choix): for v in flotte: if flotte[v][\"type\"] == choix and flotte[v][\"etat\"] == 1: return flotte[v][\"station\"] a. Quelles sont les valeurs possibles de la variable choix ?",
+         "notion_du_cours": "{{ correction(True, \"\"\" \\\"Correction Q1.a. \\\" ```flotte[26]``` renvoie ```{'type' : 'classique', 'etat' : 1, 'station' : 'Coliseum'}``` \"\"\" ) }}"
+        },
+        {
+         "enonce": "Quelle est l’ordre de grandeur de la complexité en temps de l'algorithme obtenu ?",
+         "notion_du_cours": "- la recherche dans une liste prend un ordre de grandeur à chaque fois : elle est environ 10 fois plus grande quand la taille de la liste est 10 fois plus grande. - la recherche dans le dictionnaire r"
+        }
+       ]
+      },
+      {
+       "id": 3,
+       "n": 29,
+       "part": 0.02,
+       "fort": [
+        "notion_nommee_dans_documents",
+        "proximite_documents_section",
+        "densite_symboles_du_passage"
+       ],
+       "faible": [
+        "sections_dans_la_partie",
+        "centralite_du_passage",
+        "place_de_la_section_dans_le_cours"
+       ],
+       "exemples": [
+        {
+         "enonce": "On propose la fonction ci-dessous, qui prend en argument une pile P et renvoie un couple de piles : def transforme(P) : Q = creer_pile() while not est_vide(P) : v = depile(P) empile(Q,v) return (P,Q) Recopier et compléte",
+         "notion_du_cours": "- ```est_vide``` : indique si la pile est vide (renvoie un booléen) - ```empile``` : insère un élément (passé en paramètre) en haut de la pile. Ne renvoie rien. - ```depile``` : renvoie la valeur de l"
+        },
+        {
+         "enonce": "a. Proposer une stratégie écrite en langage naturel et/ou expliquée à l’aide de schémas, qui permette de mettre en place une telle fonction.",
+         "notion_du_cours": "**6.** On souhaite écrire une méthode `bien_construit` de la classe `Arbre` qui renvoie la valeur `True` si l’arbre est « bien construit » et `False` sinon."
+        },
+        {
+         "enonce": "Compréhension des méthodes avec un bandeau de 8 LEDs Un script a été exécuté au préalable et le bandeau de LEDs est dans l’état suivant : toutes les LEDs sont éteintes sauf trois La LED « LED0 » est rouge La LED « LED1 »",
+         "notion_du_cours": "- **Résultat :** Dans DB Browser, il faut avoir au préalable créé une nouvelle base de données."
+        }
+       ]
+      },
+      {
+       "id": 4,
+       "n": 446,
+       "part": 0.303,
+       "fort": [
+        "frequence_passee_de_la_section",
+        "proximite_situation_passage",
+        "proximite_situation_section"
+       ],
+       "faible": [],
+       "exemples": [
+        {
+         "enonce": "Préciser toutes les valeurs entières que l’on peut stocker dans le nœud fils gauche du nœud04 (vide pour l'instant), en respectant les règles sur les arbres binaires de recherche ?",
+         "notion_du_cours": "- les valeurs de tous les nœuds du sous-arbre gauche sont **strictement inférieures** à la valeur du nœud X - les valeurs de tous les nœuds du sous-arbre droit sont **supérieures ou égales** à la vale"
+        },
+        {
+         "enonce": "On insère la valeur 25 dans l'arbre, dans un nouveau nœud nommé nœud11.",
+         "notion_du_cours": "- les valeurs de tous les nœuds du sous-arbre gauche sont **strictement inférieures** à la valeur du nœud X - les valeurs de tous les nœuds du sous-arbre droit sont **supérieures ou égales** à la vale"
+        },
+        {
+         "enonce": "En vous inspirant de l’algorithme précédent, écrire un algorithme Parcours2 permettant de parcourir et d'afficher les valeurs de l'arbre A dans l'ordre croissant.",
+         "notion_du_cours": "- les valeurs de tous les nœuds du sous-arbre gauche sont **strictement inférieures** à la valeur du nœud X - les valeurs de tous les nœuds du sous-arbre droit sont **supérieures ou égales** à la vale"
+        }
+       ]
+      },
+      {
+       "id": 5,
+       "n": 711,
+       "part": 0.484,
+       "fort": [],
+       "faible": [],
+       "exemples": [
+        {
+         "enonce": "Citer un des avantages d'avoir plusieurs processeurs.",
+         "notion_du_cours": "3.1 L'intégration de composants différents au sein d'une même puce : Le principe d'un **système sur puce** ou **System On a Chip** (SoC) est d'intégrer au sein d'une puce unique un ensemble de composa"
+        },
+        {
+         "enonce": "Expliquer pourquoi les systèmes sur puces intègrent en général des bus ayant des vitesses de transmission différentes.",
+         "notion_du_cours": "Ces dispositifs utilisent des systèmes sur puces (SoC : System on a Chip)."
+        },
+        {
+         "enonce": "Tournoi d’Angers",
+         "notion_du_cours": "| | Patients | |-----|----| | id | ```Int``` | | nom | ```Text``` | | prenom | ```Text``` | | genre | ```Text``` | | annee_naissance | ```Int``` |"
+        }
+       ]
+      },
+      {
+       "id": 6,
+       "n": 54,
+       "part": 0.037,
+       "fort": [
+        "longueur_du_passage",
+        "centralite_du_passage",
+        "proximite_enonce_section"
+       ],
+       "faible": [
+        "taille_de_la_section",
+        "frequence_passee_de_la_section",
+        "rang_du_passage_dans_la_section"
+       ],
+       "exemples": [
+        {
+         "enonce": "Ecrire un programme qui :  demande de saisir la clé de chiffrement  crée un objet de classe CodeCesar  demande de saisir le texte à chiffrer  affiche le texte chiffré en appelant la méthode cryptage",
+         "notion_du_cours": "Securisation : Terminale - Spécialité NSI IFS Singapour Chapitre 19 - Sécurisation des communications Objectifs : ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/cle"
+        },
+        {
+         "enonce": "Ecrire une fonction en langage Python maximum(P) recevant une pile P comme argument et qui renvoie la valeur maximale de cette pile. On ne s’interdit pas qu’après exécution de la fonction, la pile soit vide.",
+         "notion_du_cours": "Les files : Terminale - Spécialité NSI IFS Singapour Chapitre 7 - Les files Objectifs : ▷ Connaître et comprendre le type abstrait file. ▷ Modéliser puis simuler le comportement d'une file. ▷ Distingu"
+        },
+        {
+         "enonce": "Quel est le nom de la première commande exécutée par le système d'exploitation lors",
+         "notion_du_cours": "Processus : Terminale - Spécialité NSI IFS Singapour Chapitre 17 - Les processus Objectifs : ▷ Décrire la création d'un processus, l'ordonnancement de plusieurs processus par le système. ▷ Mettre en é"
+        }
+       ]
+      }
+     ]
+    },
+    "ce_qui_est_evalue_sans_etre_dit": [
+     {
+      "enonce": "Soit la classe CodeCesar définie ci-dessous : class CodeCesar: def __init__(self, cle): self.cle = cle self.alphabet = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\" def decale(self, lettre): num1 =",
+      "mots": [
+       "none",
+       "noeud",
+       "droit",
+       "gauche",
+       "linenums"
+      ]
+     },
+     {
+      "enonce": "creneaux plage_horaire id_creneau 1 2 3 4 5 6 7 8 9 10 11 12 22-NSIJ2JA1 8h-9h 9h-10h 10h-11h 11h-12h 12h-13h 13h-14h 14h-15h 15h-16h 16h-17h 17h-18h 18h-19h 19h-20h Page : 9 /14 1",
+      "mots": [
+       "voitures",
+       "agences",
+       "quelle",
+       "quel",
+       "cardinal",
+       "comporte"
+      ]
+     },
+     {
+      "enonce": "2. Indiquer le type du paramètre nom_region de la méthode __init__ de la classe Region.",
+      "mots": [
+       "self",
+       "depart",
+       "tableau",
+       "orange",
+       "jaune",
+       "attribuee"
+      ]
+     },
+     {
+      "enonce": "Un pisteur-secouriste de permanence au point de secours D est appelé pour une intervention en urgence au point de secours A. La motoneige de la station étant en panne, il ne peut s",
+      "mots": [
+       "python"
+      ]
+     },
+     {
+      "enonce": "Écrire une requête permettant d’obtenir le nom, le prénom des joueuses et le nom des compétitions auxquelles elles ont participé en 2023.",
+      "mots": [
+       "patients"
+      ]
+     },
+     {
+      "enonce": "Indiquer pourquoi il n’est pas réaliste d’utiliser cet algorithme pour explorer l’ensemble des parties, ce qui correspond à la valeur 42 pour niveau_max.",
+      "mots": [
+       "python"
+      ]
+     }
+    ]
+   }
+  },
+  "universelles": [
+   {
+    "tache": "consigne",
+    "variable": "longueur_enonce",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.1939,
+     "nsi": 0.0406
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "vocabulaire_hors_cours_dans_l_enonce",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.1496,
+     "nsi": 0.0085
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "redondance_du_passage",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0472,
+     "nsi": 0.0068
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "forme_interrogative",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.1594,
+     "nsi": 0.0066
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "centralite_du_passage",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0411,
+     "nsi": 0.0064
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "rang_dans_la_partie",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.4141,
+     "nsi": 0.0051
+    },
+    "sens": null
+   },
+   {
+    "tache": "consigne",
+    "variable": "proximite_enonce_section",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0825,
+     "nsi": 0.0034
+    },
+    "sens": null
+   },
+   {
+    "tache": "ordre",
+    "variable": "longueur_enonce",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.1751,
+     "nsi": 0.0248
+    },
+    "sens": 1.0
+   },
+   {
+    "tache": "ordre",
+    "variable": "proximite_enonce_section",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0713,
+     "nsi": 0.0136
+    },
+    "sens": 1.0
+   },
+   {
+    "tache": "ordre",
+    "variable": "centralite_de_la_section",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0136,
+     "nsi": 0.0365
+    },
+    "sens": 1.0
+   },
+   {
+    "tache": "ordre",
+    "variable": "notion_nommee_dans_enonce",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0142,
+     "nsi": 0.0065
+    },
+    "sens": 1.0
+   },
+   {
+    "tache": "ordre",
+    "variable": "forme_interrogative",
+    "meme_sens": false,
+    "importance": {
+     "droit": 0.397,
+     "nsi": 0.0061
+    },
+    "sens": "variable"
+   },
+   {
+    "tache": "ordre",
+    "variable": "proximite_situation_section",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0255,
+     "nsi": 0.0044
+    },
+    "sens": -1.0
+   },
+   {
+    "tache": "testabilite",
+    "variable": "frequence_passee_du_passage",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.0423,
+     "nsi": 0.1292
+    },
+    "sens": 1.0
+   },
+   {
+    "tache": "testabilite",
+    "variable": "centralite_du_passage",
+    "meme_sens": true,
+    "importance": {
+     "droit": 0.1574,
+     "nsi": 0.0197
+    },
+    "sens": 1.0
+   }
+  ]
+ }
+}

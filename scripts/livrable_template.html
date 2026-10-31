@@ -99,6 +99,7 @@ td.up { color: var(--ok); font-weight: 600 }
   <a href="#sujets" data-v="sujets">Anciens sujets</a>
   <a href="#modele" data-v="modele">Le modèle</a>
   <a href="#droit" data-v="droit">Droit (STMG)</a>
+  <a href="#general" data-v="general">Généralisation</a>
 </div></nav>
 
 <main class="wrap">
@@ -151,6 +152,11 @@ td.up { color: var(--ok); font-weight: 600 }
     <h2>Ce que le modèle a appris</h2>
     <p class="sub">scikit-learn trouve seul les variables : manières de demander, types de support, savoirs jamais évalués. On lui a seulement donné plus de matière et des moyens de se corriger.</p>
     <div id="mbody"></div>
+  </section>
+  <section id="v-general" hidden>
+    <h2>Apprendre à se débrouiller dans n'importe quelle matière</h2>
+    <p class="sub">Le moteur ne reçoit que deux choses : les anciens sujets et le cours. Il se règle seul à l'aide de signaux qu'il calcule sans aide humaine, et découvre seul les variables qui expliquent les choix du professeur. Chaque résultat est mesuré sur une matière ou des sujets qu'il n'a pas vus.</p>
+    <div id="gbody"></div>
   </section>
 </main>
 
@@ -326,10 +332,39 @@ $("#es").oninput = renderE; renderE();
   });
 })();
 
+// ---- généralisation (méta-apprentissage)
+(function () {
+  const G = D.meta;
+  if (!G) { document.querySelector('nav.tabs a[data-v="general"]').remove(); return; }
+  const lab = v => esc(String(v).replace(/_/g, " ").replace(/ l /g, " l'").replace(/ d /g, " d'"));
+  const NM = {droit: "Droit", nsi: "NSI"};
+  const TK = {testabilite: "Quel passage du cours tombera (année exclue)", ordre: "Place de la question dans la partie", consigne: "Manière de demander", bareme: "Poids au barème"};
+  const al = Object.entries(G.alignement).map(([k, v]) => { const n = k.replace("appris_sans_", "");
+    return `<tr><td>${NM[n] || n}</td><td>${pct(v.reglage_par_defaut)}</td><td class="up">${pct(v.choisi_par_le_meta_modele)}</td><td>${pct(v.meilleur_possible_oracle)}</td></tr>`; }).join("");
+  const sc = (k, v) => v.score_sujets_exclus == null ? "–" : k === "testabilite" ? `AUC ${v.score_sujets_exclus} (popularité ${v.auc_popularite_du_passage})`
+    : k === "consigne" ? `perte ${v.log_loss_rang_seul} → ${v.log_loss_avec_relation_au_cours}` : `corrélation ${v.score_sujets_exclus}`;
+  const ns = Object.keys(G.taches);
+  const tk = Object.keys(TK).filter(k => ns.some(n => G.taches[n][k]));
+  const uni = G.universelles.map(u => `<tr><td>${esc(TK[u.tache] || u.tache)}</td><td>${lab(u.variable)}</td><td>${u.sens == null ? "–" : u.sens > 0 ? "plus il y en a, plus c'est le cas" : "moins il y en a, plus c'est le cas"}</td></tr>`).join("");
+  $("#gbody").innerHTML = `
+    <div class="prose"><p><b>1. Se régler seul.</b> Pour relier une question au cours, il existe des dizaines de façons de lire le texte. Le moteur les essaie toutes et garde celle que désignent cinq signaux auto-supervisés (les questions d'une même partie visent-elles des chapitres voisins ? l'énoncé et les documents désignent-ils le même chapitre ?…). La règle qui combine ces signaux a été apprise sur une matière et testée sur l'autre.</p></div>
+    <div class="tw"><table><thead><tr><th>Matière jamais vue</th><th>Réglage par défaut</th><th>Choisi seul</th><th>Maximum possible</th></tr></thead><tbody>${al}</tbody></table></div>
+    <div class="prose"><p><b>2. Comprendre les intentions.</b> Pour chaque question, le moteur calcule mécaniquement une trentaine de relations avec le cours : la place du passage visé, son importance (centralité, redondance, insistance), ce que l'énoncé nomme ou tait, l'histoire du chapitre dans les autres sujets. Il ne garde que celles qui expliquent les choix du professeur sur des sujets exclus.</p></div>
+    <div class="tw"><table><thead><tr><th>Ce que le moteur cherche à expliquer</th>${ns.map(n => `<th>${NM[n] || n}</th>`).join("")}</tr></thead><tbody>
+      ${tk.map(k => `<tr><td>${TK[k]}</td>${ns.map(n => `<td>${G.taches[n][k] ? sc(k, G.taches[n][k]) : "–"}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <div class="prose"><p><b>Variables universelles</b> : retenues seules dans les deux matières, avec le même effet.</p></div>
+    <div class="tw"><table><thead><tr><th>Choix du professeur</th><th>Variable découverte</th><th>Effet</th></tr></thead><tbody>${uni}</tbody></table></div>
+    <div class="prose"><p><b>3. Types d'intention découverts</b> (mélange gaussien sur les variables retenues).</p></div>
+    ${ns.map(n => `<div class="tw"><table><thead><tr><th>${NM[n] || n} · type</th><th>Questions</th><th>Exemple réel</th></tr></thead><tbody>
+      ${G.types[n].slice(0, 4).map(t => `<tr><td>${t.fort.length ? "fort : " + t.fort.map(lab).join(", ") : ""}${t.faible.length ? (t.fort.length ? "<br>" : "") + "faible : " + t.faible.map(lab).join(", ") : ""}${!t.fort.length && !t.faible.length ? "cas ordinaire" : ""}</td><td>${t.n}</td><td>${esc(t.ex.enonce.slice(0, 140))}…<br><span class="m">notion : ${esc(t.ex.notion_du_cours.slice(0, 100))}…</span></td></tr>`).join("")}</tbody></table></div>`).join("")}
+    <div class="prose"><p><b>Ce qui est évalué sans être dit</b> : mots propres au passage visé que l'énoncé ne prononce pas.</p><ul>
+      ${ns.flatMap(n => G.implicite[n].map(x => `<li>${NM[n] || n} · « ${esc(x.enonce)} » → ${x.mots.map(esc).join(", ")}</li>`)).join("")}</ul></div>`;
+})();
+
 // ---- onglets
 function route() {
-  const v = ["questions", "sujets", "modele", "droit"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "questions";
-  ["questions", "sujets", "modele", "droit"].forEach(k => { $("#v-" + k).hidden = k !== v; });
+  const v = ["questions", "sujets", "modele", "droit", "general"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "questions";
+  ["questions", "sujets", "modele", "droit", "general"].forEach(k => { $("#v-" + k).hidden = k !== v; });
   document.querySelectorAll("nav.tabs a").forEach(a => a.toggleAttribute("aria-current", a.dataset.v === v) || a.dataset.v === v && a.setAttribute("aria-current", "page"));
 }
 window.addEventListener("hashchange", route); route();

@@ -192,10 +192,26 @@ def droit():
     return {"profil": prof_out, "items": items, "validation": val["resume"], "annales": ann}
 
 
+def meta():
+    f = OUT / "meta" / "rapport.json"
+    if not f.exists():
+        return None
+    r = json.loads(f.read_text(encoding="utf-8"))
+    al = r["alignement"]["matiere_exclue"]
+    per = r["intentions"]["par_matiere"]
+    tasks = {n: {k: {kk: v.get(kk) for kk in ("score_sujets_exclus", "auc_popularite_du_passage", "log_loss_rang_seul", "log_loss_avec_relation_au_cours")}
+                 for k, v in p["taches"].items()} for n, p in per.items()}
+    types = {n: [{k: t[k] for k in ("n", "fort", "faible")} | {"ex": t["exemples"][0]} for t in sorted(p["types_d_intention"]["types"], key=lambda t: -t["n"])]
+             for n, p in per.items()}
+    impl = {n: [x for x in p["ce_qui_est_evalue_sans_etre_dit"] if x["mots"]][:3] for n, p in per.items()}
+    return {"alignement": al, "universelles": [u for u in r["intentions"]["universelles"] if u["meme_sens"]],
+            "taches": tasks, "types": types, "implicite": impl, "regle": r["alignement"]["regle_finale"]}
+
+
 def main():
     ex = exams()
     qs, resume = questions()
-    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit()}
+    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "meta": meta()}
     tpl = (ROOT / "scripts" / "livrable_template.html").read_text(encoding="utf-8")
     html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     (OUT / "livrable.html").write_text(html, encoding="utf-8")

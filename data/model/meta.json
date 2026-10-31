@@ -1,0 +1,20 @@
+{
+ "signaux": [
+  "coherence_partie",
+  "accord_des_vues",
+  "retrouve_partie",
+  "marge",
+  "diversite"
+ ],
+ "poids": [
+  0.3663,
+  -0.1423,
+  0.0771,
+  -0.162,
+  -0.1509
+ ],
+ "appris_sur": [
+  "droit",
+  "nsi"
+ ]
+}

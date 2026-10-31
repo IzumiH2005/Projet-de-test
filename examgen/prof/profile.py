@@ -212,6 +212,16 @@ class Teacher:
     # ------------------------------------------------------------------ 2. alignement
     def align(self):
         Q = [self.qs[i] for i in self.keep_idx]
+        # sans corrigé qui cite le cours : le moteur règle seul sa lecture avec la règle méta-apprise
+        self.meta_tune = None
+        meta = Path(__file__).resolve().parents[2] / "data" / "model" / "meta.json"
+        if not any(self.refs.get(q.exam) for q in Q) and meta.exists():
+            from ..meta.align import self_tune
+            self.Q = Q
+            cfg, w_meta, px = self_tune(self, json.loads(meta.read_text(encoding="utf-8"))["poids"])
+            self.meta_tune = {"reglage_de_lecture": {**cfg, "ngram": list(cfg["ngram"])}, "poids": list(w_meta),
+                              "signaux": {k: round(float(v), 3) for k, v in px.items()}}
+            print(f"  alignement auto-réglé (méta) : {cfg} poids {w_meta}")
         S_stem = self.sec_scores([q.stem + " " + q.preamble for q in Q])
         S_ans = self.sec_scores([q.answer or q.stem for q in Q])
         anx = [" ".join(t + " " + x for t, x in q.annexes)[:8000] for q in Q]
@@ -246,7 +256,7 @@ class Teacher:
             w = max(grid, key=lambda w: score(combo(w), tr))
             s1, s3 = score(combo(w), te)
             loo1 += s1 * len(te); loo3 += s3 * len(te); n += len(te)
-        self.w = max(grid, key=lambda w: score(combo(w), labelled))
+        self.w = tuple(self.meta_tune["poids"]) if self.meta_tune else max(grid, key=lambda w: score(combo(w), labelled))
         S = combo(self.w)
         # popularité : la section la plus citée par les autres corrigés
         pop = Counter(x for e in exams for x in self.refs[e])
@@ -260,6 +270,7 @@ class Teacher:
             "verite_terrain": "« références au programme » lues dans les corrigés",
             "sujets_avec_references": len(exams), "questions_evaluees": len(labelled),
             "poids_appris": dict(zip(["corrige", "annexes", "situation", "identifiants_communs"], self.w)),
+            "auto_reglage_meta": self.meta_tune,
             "enonce_seul_top1_top3": [round(x, 3) for x in base],
             "appris_validation_croisee_top1_top3": [round(loo1 / max(n, 1), 3), round(loo3 / max(n, 1), 3)],
             "popularite_top1": round(float(pop_h), 3),

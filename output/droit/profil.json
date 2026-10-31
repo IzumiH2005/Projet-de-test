@@ -33,6 +33,7 @@
    "situation": 0.5,
    "identifiants_communs": 1
   },
+  "auto_reglage_meta": null,
   "enonce_seul_top1_top3": [
    0.37,
    0.696
@@ -329,7 +330,7 @@
    },
    {
     "id": 3,
-    "nom": "travail code contrat indeterminee",
+    "nom": "travail code contrat duree",
     "n": 25,
     "stabilite": 0.81,
     "exemples_de_titres": [
@@ -345,13 +346,13 @@
    "cassation cour arret mai": 0.17,
    "des contrat code entre": 0.04,
    "code civil articles extraits": 0.94,
-   "travail code contrat indeterminee": 0.48
+   "travail code contrat duree": 0.48
   },
   "part_de_documents_dates": {
    "cassation cour arret mai": 1.0,
    "des contrat code entre": 0.06,
    "code civil articles extraits": 0.0,
-   "travail code contrat indeterminee": 0.0
+   "travail code contrat duree": 0.0
   }
  },
  "operations_mentales": {
@@ -530,7 +531,7 @@
    1539
   ],
   "chars_par_question_p50": 1485,
-  "articles_cites_par_reponse_moyenne": 0.84,
+  "references_citees_par_reponse_moyenne": 0.86,
   "enumerations_par_reponse_moyenne": 1.03,
   "longueur_mediane_par_facette": {
    "0": 2507,
@@ -733,10 +734,10 @@
    "Rappelez les fonctions économiques de l’État.",
    "Qualifiez juridiquement les faits et les parties.",
    "Qualifiez juridiquement les parties et les faits.",
-   "Distinguez le taux de chômage et le taux d’emploi.",
    "Qualifiez juridiquement les faits et les dommages.",
-   "Présentez un argument que Thomas pourrait lui opposer.",
+   "Distinguez le taux de chômage et le taux d’emploi.",
    "Déterminez le lien entre niveau de diplôme et chômage.",
+   "Présentez un argument que Thomas pourrait lui opposer.",
    "Commentez l’évolution des dépenses publiques en France."
   ],
   "tetes": [
@@ -757,15 +758,15 @@
     "sujets": 29
    },
    {
-    "debut": "une argumentation qui",
-    "sujets": 22
-   },
-   {
     "debut": "argumentation qui vous",
     "sujets": 22
    },
    {
-    "debut": "en utilisant des",
+    "debut": "une argumentation qui",
+    "sujets": 22
+   },
+   {
+    "debut": "utilisant des qualifications",
     "sujets": 21
    },
    {
@@ -773,15 +774,15 @@
     "sujets": 21
    },
    {
-    "debut": "utilisant des qualifications",
+    "debut": "faits en utilisant",
     "sujets": 21
    },
    {
-    "debut": "qui vous permette",
+    "debut": "résumez les faits",
     "sujets": 21
    },
    {
-    "debut": "vous permette de",
+    "debut": "en utilisant des",
     "sujets": 21
    },
    {

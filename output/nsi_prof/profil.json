@@ -35,9 +35,32 @@
   "questions_evaluees": 0,
   "poids_appris": {
    "corrige": 0,
-   "annexes": 0,
-   "situation": 0,
+   "annexes": 1,
+   "situation": 0.5,
    "identifiants_communs": 0
+  },
+  "auto_reglage_meta": {
+   "reglage_de_lecture": {
+    "analyzer": "char_wb",
+    "ngram": [
+     3,
+     5
+    ],
+    "a": 0.8
+   },
+   "poids": [
+    0,
+    1,
+    0.5,
+    0
+   ],
+   "signaux": {
+    "coherence_partie": 0.531,
+    "accord_des_vues": 0.305,
+    "retrouve_partie": 0.162,
+    "marge": 0.114,
+    "diversite": 0.859
+   }
   },
   "enonce_seul_top1_top3": [
    0.0,
@@ -64,71 +87,71 @@
   "exemples_consigne": [
    "nsij",
    "expliquer",
-   "pourquoi",
    "justifiant",
    "justifier",
-   "precisant",
-   "renvoye",
+   "pourquoi",
    "proposer",
-   "citer",
-   "brievement",
-   "obtenu",
-   "coureur",
-   "realise",
-   "assertion",
-   "enregistrer",
-   "desormais",
-   "correspondant",
-   "initialiser",
-   "independantes",
-   "anagramme",
-   "piste",
-   "pistes",
-   "juin",
-   "voisine",
+   "atomes",
    "preciser",
-   "dupont",
-   "strategie",
+   "brievement",
    "erreur",
-   "vides",
-   "mots",
-   "strictement",
-   "decrire",
+   "precisant",
+   "corriger",
+   "correspondant",
+   "obtenu",
+   "assertion",
+   "renvoye",
+   "independantes",
+   "cidessous",
+   "anagramme",
+   "initialiser",
+   "doe",
+   "desormais",
+   "realise",
+   "strategie",
+   "citer",
+   "prenant",
    "inserer",
-   "modification",
+   "coureur",
    "utilisant",
-   "instancier",
-   "decrit",
-   "chacun",
+   "interesse",
+   "propositions",
    "ayant",
-   "apporter"
+   "modification",
+   "aide",
+   "presents",
+   "strictement",
+   "mettre",
+   "completant",
+   "pistes",
+   "succinctement"
   ],
   "exemples_contenu": [
-   "fils",
-   "privee",
-   "programmation",
-   "decision",
-   "parent",
-   "energie",
    "balise",
-   "livres",
-   "application",
-   "agence",
+   "fils",
    "pyramide",
-   "courant",
-   "titre",
-   "parentheses",
-   "processus",
-   "local",
-   "serveur",
-   "reseaux",
-   "enfant",
-   "locaux",
-   "chiffrement",
-   "cpu",
-   "passerelle",
    "vehicule",
-   "trame"
+   "privee",
+   "agence",
+   "reseaux",
+   "parentheses",
+   "maison",
+   "parent",
+   "locaux",
+   "decision",
+   "chiffrement",
+   "groupes",
+   "ordonnancement",
+   "processus",
+   "colis",
+   "npi",
+   "paquets",
+   "agences",
+   "repertoire",
+   "lab",
+   "foret",
+   "courant",
+   "livres"
   ]
  },
  "manieres_de_demander": {
@@ -202,7 +225,7 @@
    },
    {
     "id": 2,
-    "nom": "x colon / colon / pourquoi x / proposer",
+    "nom": "x colon / colon / quels / x desormais",
     "n": 13,
     "stabilite": 0.08,
     "position_moyenne": 0.49,
@@ -279,7 +302,7 @@
   "types": [
    {
     "id": 0,
-    "nom": "eponse exercice",
+    "nom": "exercice eponse",
     "n": 3,
     "stabilite": 1.0,
     "exemples_de_titres": [
@@ -292,7 +315,7 @@
    },
    {
     "id": 1,
-    "nom": "avec copie rendre exercice",
+    "nom": "rendre copie avec exercice",
     "n": 4,
     "stabilite": 0.84,
     "exemples_de_titres": [
@@ -305,7 +328,7 @@
    },
    {
     "id": 2,
-    "nom": "langage sql",
+    "nom": "sql langage",
     "n": 3,
     "stabilite": 1.0,
     "exemples_de_titres": [
@@ -329,7 +352,7 @@
    },
    {
     "id": 4,
-    "nom": "eponse obligatoirement rendre dans",
+    "nom": "obligatoirement dans eponse rendre",
     "n": 2,
     "stabilite": 1.0,
     "exemples_de_titres": [
@@ -340,7 +363,7 @@
    },
    {
     "id": 5,
-    "nom": "linux commandes",
+    "nom": "commandes linux",
     "n": 1,
     "stabilite": 0.5,
     "exemples_de_titres": [
@@ -369,30 +392,80 @@
   "operations": [
    {
     "id": 0,
-    "n": 977,
+    "n": 6,
+    "fort": [
+     "appui_sur_les_documents",
+     "forme_interrogative",
+     "longueur_enonce"
+    ],
+    "faible": [],
+    "profil": {
+     "appui_sur_le_cas": 0.26,
+     "appui_sur_les_documents": 4.2,
+     "appui_sur_le_cours": 0.72,
+     "largeur_du_cours": 0.79,
+     "rang_dans_le_sujet": 0.17,
+     "forme_interrogative": 3.98,
+     "acteurs_nommes": 0.61,
+     "longueur_enonce": 0.82
+    },
+    "exemples": [
+     "a. Quelle est la solution du problème si les éléments du tableau sont tous positifs ?",
+     "Recopier et compléter la fonction chemin ci-dessous qui prend en paramètre les coordonnées du point arrivee et qui renvoie un déplacement de 8 pas qui permette d’atteindre le point arrivee. Quelles sont les préconditions",
+     "La fonction int(ch,2) renvoie l’écriture décimale d’un nombre donné en binaire sous forme d’une chaîne de caractères ch. Par exemple int('00000101',2) renvoie 5. Quelle est la plus grande valeur possible renvoyée par int"
+    ]
+   },
+   {
+    "id": 1,
+    "n": 252,
+    "fort": [
+     "acteurs_nommes",
+     "appui_sur_le_cas",
+     "longueur_enonce"
+    ],
+    "faible": [],
+    "profil": {
+     "appui_sur_le_cas": 0.46,
+     "appui_sur_les_documents": -0.18,
+     "appui_sur_le_cours": 0.08,
+     "largeur_du_cours": 0.17,
+     "rang_dans_le_sujet": 0.09,
+     "forme_interrogative": -0.17,
+     "acteurs_nommes": 0.61,
+     "longueur_enonce": 0.41
+    },
+    "exemples": [
+     "Les classes Noeud et Arbre ci-dessous permettent de mettre en œuvre en Python la structure d’arbre binaire de recherche. La méthode insere permet d’insérer récursivement une nouvelle clé.",
+     "class Region: '''Modélise une région d'un pays sur une carte.''' def __init__(self, nom_region): ''' initialise une région : param nom_region (str) le nom de la région ''' self.nom = nom_region # tableau des régions vois",
+     "1. On rappelle que lors d’un parcours en profondeur d’un arbre binaire, on définit trois parcours des nœuds de l’arbre : • le parcours préfixe; • le parcours infixe; • le parcours suffixe (ou postfixe)."
+    ]
+   },
+   {
+    "id": 2,
+    "n": 990,
     "fort": [],
     "faible": [
      "acteurs_nommes"
     ],
     "profil": {
-     "appui_sur_le_cas": -0.2,
-     "appui_sur_les_documents": -0.14,
-     "appui_sur_le_cours": -0.12,
-     "largeur_du_cours": -0.05,
-     "rang_dans_le_sujet": 0.01,
+     "appui_sur_le_cas": -0.18,
+     "appui_sur_les_documents": -0.18,
+     "appui_sur_le_cours": -0.05,
+     "largeur_du_cours": -0.06,
+     "rang_dans_le_sujet": 0.02,
      "forme_interrogative": -0.17,
      "acteurs_nommes": -0.44,
-     "longueur_enonce": -0.22
+     "longueur_enonce": -0.2
     },
     "exemples": [
-     "Amérique du Nord",
-     "return ...",
-     "Livres en Folie"
+     "Dupont&co.",
+     "Mont Blanc",
+     "Page : 2/10"
     ]
    },
    {
-    "id": 1,
-    "n": 108,
+    "id": 3,
+    "n": 104,
     "fort": [
      "acteurs_nommes",
      "longueur_enonce",
@@ -400,14 +473,14 @@
     ],
     "faible": [],
     "profil": {
-     "appui_sur_le_cas": 0.75,
-     "appui_sur_les_documents": -0.14,
-     "appui_sur_le_cours": -0.29,
-     "largeur_du_cours": 0.38,
-     "rang_dans_le_sujet": -0.19,
+     "appui_sur_le_cas": 0.76,
+     "appui_sur_les_documents": -0.18,
+     "appui_sur_le_cours": 0.03,
+     "largeur_du_cours": -0.03,
+     "rang_dans_le_sujet": -0.24,
      "forme_interrogative": -0.17,
-     "acteurs_nommes": 2.62,
-     "longueur_enonce": 0.79
+     "acteurs_nommes": 2.74,
+     "longueur_enonce": 0.77
     },
     "exemples": [
      "Parmi les trois requêtes suivantes, écrites dans le langage SQL, laquelle renvoie les valeurs de tous les attributs des plats de la catégorie 'entrée' : R1 : SELECT nom, prix FROM Plat WHERE categorie = 'entrée'; R2 : SE",
@@ -416,107 +489,54 @@
     ]
    },
    {
-    "id": 2,
-    "n": 53,
+    "id": 4,
+    "n": 83,
     "fort": [
      "appui_sur_les_documents",
-     "largeur_du_cours",
-     "longueur_enonce"
+     "largeur_du_cours"
     ],
     "faible": [],
     "profil": {
-     "appui_sur_le_cas": -0.04,
-     "appui_sur_les_documents": 3.07,
-     "appui_sur_le_cours": -0.3,
-     "largeur_du_cours": 0.75,
-     "rang_dans_le_sujet": -0.08,
+     "appui_sur_le_cas": -0.28,
+     "appui_sur_les_documents": 2.67,
+     "appui_sur_le_cours": -0.02,
+     "largeur_du_cours": 0.4,
+     "rang_dans_le_sujet": -0.01,
      "forme_interrogative": -0.17,
-     "acteurs_nommes": 0.36,
-     "longueur_enonce": 0.57
+     "acteurs_nommes": 0.03,
+     "longueur_enonce": 0.25
     },
     "exemples": [
      "Recopier le schéma ci-dessous et le compléter sur votre copie en exécutant les appels de fonctions donnés. On écrira ce que renvoie la fonction utilisée dans chaque cas, et on indiquera None si la fonction ne retourne au",
-     "Ecrire une fonction en langage Python maximum(P) recevant une pile P comme argument et qui renvoie la valeur maximale de cette pile. On ne s’interdit pas qu’après exécution de la fonction, la pile soit vide.",
-     "a. Proposer une stratégie écrite en langage naturel et/ou expliquée à l’aide de schémas, qui permette de mettre en place une telle fonction."
+     "On propose la fonction ci-dessous, qui prend en argument une pile P et renvoie un couple de piles : def transforme(P) : Q = creer_pile() while not est_vide(P) : v = depile(P) empile(Q,v) return (P,Q) Recopier et compléte",
+     "Ecrire une fonction en langage Python maximum(P) recevant une pile P comme argument et qui renvoie la valeur maximale de cette pile. On ne s’interdit pas qu’après exécution de la fonction, la pile soit vide."
     ]
    },
    {
-    "id": 3,
-    "n": 39,
+    "id": 5,
+    "n": 35,
     "fort": [
      "forme_interrogative",
      "appui_sur_le_cours"
     ],
     "faible": [
-     "rang_dans_le_sujet",
-     "acteurs_nommes"
+     "largeur_du_cours",
+     "rang_dans_le_sujet"
     ],
     "profil": {
-     "appui_sur_le_cas": 0.22,
-     "appui_sur_les_documents": -0.06,
-     "appui_sur_le_cours": 1.25,
-     "largeur_du_cours": -0.23,
-     "rang_dans_le_sujet": -0.42,
+     "appui_sur_le_cas": 0.25,
+     "appui_sur_les_documents": -0.18,
+     "appui_sur_le_cours": 0.84,
+     "largeur_du_cours": -0.53,
+     "rang_dans_le_sujet": -0.47,
      "forme_interrogative": 6.06,
-     "acteurs_nommes": -0.3,
-     "longueur_enonce": -0.22
+     "acteurs_nommes": -0.32,
+     "longueur_enonce": -0.29
     },
     "exemples": [
      "a. Que renvoie l'instruction flotte[26] ?",
      "Voici le script d'une fonction : def proposition(choix): for v in flotte: if flotte[v][\"type\"] == choix and flotte[v][\"etat\"] == 1: return flotte[v][\"station\"] a. Quelles sont les valeurs possibles de la variable choix ?",
      "Préciser toutes les valeurs entières que l’on peut stocker dans le nœud fils gauche du nœud04 (vide pour l'instant), en respectant les règles sur les arbres binaires de recherche ?"
-    ]
-   },
-   {
-    "id": 4,
-    "n": 249,
-    "fort": [
-     "acteurs_nommes",
-     "appui_sur_le_cas",
-     "longueur_enonce"
-    ],
-    "faible": [],
-    "profil": {
-     "appui_sur_le_cas": 0.48,
-     "appui_sur_les_documents": -0.14,
-     "appui_sur_le_cours": -0.16,
-     "largeur_du_cours": 0.06,
-     "rang_dans_le_sujet": 0.07,
-     "forme_interrogative": -0.17,
-     "acteurs_nommes": 0.61,
-     "longueur_enonce": 0.4
-    },
-    "exemples": [
-     "Expliquer le rôle de l’attribut id_album de la table Chanson.",
-     "Bob envoie un message à Alice.",
-     "Expliquer ce qui se passerait si le routeur R3 tombe en panne. On n’attend pas l’écriture des tables de routage."
-    ]
-   },
-   {
-    "id": 5,
-    "n": 44,
-    "fort": [
-     "appui_sur_le_cours",
-     "appui_sur_les_documents"
-    ],
-    "faible": [
-     "largeur_du_cours",
-     "acteurs_nommes"
-    ],
-    "profil": {
-     "appui_sur_le_cas": -0.19,
-     "appui_sur_les_documents": 0.45,
-     "appui_sur_le_cours": 3.52,
-     "largeur_du_cours": -0.94,
-     "rang_dans_le_sujet": 0.21,
-     "forme_interrogative": -0.17,
-     "acteurs_nommes": -0.32,
-     "longueur_enonce": 0.19
-    },
-    "exemples": [
-     "On modélise la topologie d’un réseau par un schéma où chaque sommet correspond à un routeur implémentant le protocole RIP (Routing Information Protocol). Le protocole RIP permet de construire les tables de routage des di",
-     "On considère la fonction mystere ci-dessous.",
-     "Les classes Noeud et Arbre ci-dessous permettent de mettre en œuvre en Python la structure d’arbre binaire de recherche. La méthode insere permet d’insérer récursivement une nouvelle clé."
     ]
    }
   ]
@@ -525,7 +545,7 @@
   "reponses_de_corrige": 0,
   "chars_par_point_p10_p50_p90": [],
   "chars_par_question_p50": 0,
-  "articles_cites_par_reponse_moyenne": 0,
+  "references_citees_par_reponse_moyenne": 0,
   "enumerations_par_reponse_moyenne": 0,
   "longueur_mediane_par_facette": {},
   "points_par_rang": {},
@@ -665,142 +685,131 @@
  "couverture_du_cours": {
   "sujets": 81,
   "frequence_par_section": {
-   "Listes Piles Files": 0.6,
-   "Dictionnaires": 0.53,
-   "Arbres": 0.85,
-   "Graphes": 0.52,
-   "Structures donnees": 0.0,
-   "Les listes": 0.05,
-   "Les piles": 0.01,
-   "Les files": 0.07,
-   "Les arbres": 0.01,
-   "Les arbres binaires": 0.04,
-   "ABR": 0.0,
-   "Les graphes": 0.01,
-   "Programmation Orientee Objet": 0.6,
-   "Recursivite": 0.49,
-   "Calculabilite Decidabilite": 0.22,
-   "Pratiques de programmation": 0.36,
-   "Pseudo-code": 0.04,
-   "Programmation objet": 0.02,
-   "Modularite": 0.0,
-   "Notion de programme": 0.0,
-   "Diviser pour regner": 0.26,
-   "Programmation dynamique": 0.72,
-   "Recherche textuelle": 0.06,
-   "Algo parcours graphes": 0.01,
-   "explRechBMH": 0.01,
-   "expl rech naive": 0.0,
-   "Modele relationnel": 0.47,
-   "Langage SQL": 0.69,
-   "Base de donnees relationnelles": 0.0,
-   "SQL": 0.05,
-   "Systemes sur puce": 0.11,
-   "Gestion des processus": 0.56,
-   "Protocoles de routage": 0.67,
-   "Cryptographie": 0.31,
-   "Rappels reseaux": 0.07,
-   "Routage": 0.05,
-   "OS": 0.06,
-   "Processus": 0.01,
-   "SoC": 0.01,
-   "Securisation": 0.01,
+   "Listes Piles Files": 0.2,
+   "Dictionnaires": 0.17,
+   "Arbres": 0.63,
+   "Graphes": 0.2,
+   "Structures donnees": 0.1,
+   "Les listes": 0.4,
+   "Les piles": 0.2,
+   "Les files": 0.21,
+   "Les arbres": 0.17,
+   "Les arbres binaires": 0.09,
+   "ABR": 0.14,
+   "Les graphes": 0.17,
+   "Programmation Orientee Objet": 0.19,
+   "Recursivite": 0.2,
+   "Calculabilite Decidabilite": 0.12,
+   "Pratiques de programmation": 0.05,
+   "Pseudo-code": 0.22,
+   "Programmation objet": 0.28,
+   "Modularite": 0.06,
+   "Notion de programme": 0.02,
+   "Diviser pour regner": 0.16,
+   "Programmation dynamique": 0.31,
+   "Recherche textuelle": 0.1,
+   "Algo parcours graphes": 0.15,
+   "explRechBMH": 0.0,
+   "expl rech naive": 0.01,
+   "Modele relationnel": 0.42,
+   "Langage SQL": 0.21,
+   "Base de donnees relationnelles": 0.4,
+   "SQL": 0.63,
+   "Systemes sur puce": 0.06,
+   "Gestion des processus": 0.35,
+   "Protocoles de routage": 0.6,
+   "Cryptographie": 0.14,
+   "Rappels reseaux": 0.12,
+   "Routage": 0.2,
+   "OS": 0.17,
+   "Processus": 0.1,
+   "SoC": 0.07,
+   "Securisation": 0.12,
    "T6 2 CoursPremiere": 0.01,
-   "T6 5 algos coeur": 0.05
+   "T6 5 algos coeur": 0.0
   },
   "jamais_ou_presque": [
-   "Structures donnees",
-   "Les piles",
-   "Les arbres",
-   "ABR",
-   "Les graphes",
-   "Modularite",
-   "Notion de programme",
-   "Algo parcours graphes",
    "explRechBMH",
    "expl rech naive",
-   "Base de donnees relationnelles",
-   "Processus",
-   "SoC",
-   "Securisation",
-   "T6 2 CoursPremiere"
+   "T6 2 CoursPremiere",
+   "T6 5 algos coeur"
   ],
   "associations_frequentes": [
-   "Arbres + Programmation dynamique (50)",
-   "Arbres + Protocoles de routage (47)",
-   "Arbres + Langage SQL (47)",
-   "Arbres + Programmation Orientee Objet (43)",
-   "Listes Piles Files + Arbres (42)",
-   "Programmation dynamique + Langage SQL (41)",
-   "Programmation dynamique + Protocoles de routage (40)",
-   "Arbres + Gestion des processus (39)",
-   "Listes Piles Files + Programmation dynamique (38)",
-   "Langage SQL + Protocoles de routage (38)"
+   "SQL + Protocoles de routage (34)",
+   "Modele relationnel + SQL (30)",
+   "Arbres + SQL (29)",
+   "Arbres + Protocoles de routage (29)",
+   "Base de donnees relationnelles + SQL (26)",
+   "Les listes + Protocoles de routage (23)",
+   "Arbres + Les listes (22)",
+   "Modele relationnel + Protocoles de routage (22)",
+   "Arbres + Modele relationnel (20)",
+   "Modele relationnel + Base de donnees relationnelles (19)"
   ]
  },
  "previsibilite_consigne": {
   "log_loss_sujet_exclu": {
    "marginale": 0.601,
    "selon_le_rang": 0.606,
-   "selon_la_section": 0.618,
+   "selon_la_section": 0.616,
    "selon_rang_et_dernier": 0.604
   },
   "verdict": "peu prévisible"
  },
  "probabilite_annee_suivante": {
-  "Arbres": 0.786,
-  "Programmation dynamique": 0.692,
-  "Langage SQL": 0.691,
-  "Programmation Orientee Objet": 0.62,
-  "Protocoles de routage": 0.594,
-  "Listes Piles Files": 0.594,
-  "Graphes": 0.565,
-  "Gestion des processus": 0.534,
-  "Dictionnaires": 0.513,
-  "Recursivite": 0.482,
-  "Modele relationnel": 0.397,
-  "Cryptographie": 0.361,
-  "Pratiques de programmation": 0.34,
-  "Diviser pour regner": 0.304,
-  "Calculabilite Decidabilite": 0.272,
-  "Recherche textuelle": 0.174,
-  "Systemes sur puce": 0.14,
-  "T6 5 algos coeur": 0.061,
-  "explRechBMH": 0.04,
-  "SQL": 0.032,
-  "Routage": 0.031,
-  "Pseudo-code": 0.031,
-  "Les arbres binaires": 0.03,
-  "T6 2 CoursPremiere": 0.028,
-  "OS": 0.025,
-  "Algo parcours graphes": 0.022,
-  "Les graphes": 0.022,
-  "Les listes": 0.019,
-  "Rappels reseaux": 0.015,
-  "Les files": 0.015,
-  "expl rech naive": 0.015,
-  "Les piles": 0.013,
-  "Les arbres": 0.013,
-  "Programmation objet": 0.01,
-  "SoC": 0.01,
-  "Securisation": 0.008,
-  "Processus": 0.008,
-  "Base de donnees relationnelles": 0.006,
-  "Notion de programme": 0.006,
-  "Modularite": 0.006,
-  "Structures donnees": 0.006,
-  "ABR": 0.006
+  "Arbres": 0.583,
+  "Protocoles de routage": 0.546,
+  "SQL": 0.524,
+  "Modele relationnel": 0.366,
+  "Les listes": 0.317,
+  "Base de donnees relationnelles": 0.311,
+  "Gestion des processus": 0.311,
+  "Programmation dynamique": 0.279,
+  "Programmation objet": 0.226,
+  "Langage SQL": 0.215,
+  "Graphes": 0.211,
+  "Recursivite": 0.2,
+  "Programmation Orientee Objet": 0.196,
+  "Dictionnaires": 0.193,
+  "Pseudo-code": 0.188,
+  "Les files": 0.187,
+  "Les piles": 0.18,
+  "Routage": 0.177,
+  "Diviser pour regner": 0.175,
+  "Cryptographie": 0.168,
+  "Les arbres": 0.167,
+  "Listes Piles Files": 0.165,
+  "OS": 0.164,
+  "Calculabilite Decidabilite": 0.157,
+  "ABR": 0.148,
+  "Algo parcours graphes": 0.147,
+  "Recherche textuelle": 0.142,
+  "Rappels reseaux": 0.14,
+  "Securisation": 0.14,
+  "Structures donnees": 0.131,
+  "Les graphes": 0.13,
+  "Processus": 0.129,
+  "Systemes sur puce": 0.126,
+  "Les arbres binaires": 0.126,
+  "SoC": 0.119,
+  "Modularite": 0.112,
+  "Pratiques de programmation": 0.095,
+  "Notion de programme": 0.076,
+  "T6 2 CoursPremiere": 0.071,
+  "expl rech naive": 0.025,
+  "explRechBMH": 0.018,
+  "T6 5 algos coeur": 0.017
  },
  "previsibilite_sections": {
   "methode": "pour chaque année, appris sur les années précédentes seulement ; AUC (0,5 = hasard)",
-  "auc_popularite": 0.891,
-  "auc_modele": 0.893,
+  "auc_popularite": 0.725,
+  "auc_modele": 0.716,
   "annees_testees": 4,
   "coefficients": {
-   "frequence_passee": 0.66,
-   "annees_depuis_derniere": -0.26,
-   "frequence_du_theme": 0.04,
-   "taille_section": 1.09
+   "frequence_passee": 0.64,
+   "annees_depuis_derniere": -0.2,
+   "frequence_du_theme": 0.08,
+   "taille_section": 0.14
   }
  }
 }

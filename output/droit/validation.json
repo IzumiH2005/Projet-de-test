@@ -99,7 +99,7 @@
    "annexes": [
     {
      "titre": "Annexe 1 – Extrait du Code du travail",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.76,
      "fidelite": 1.0,
@@ -107,7 +107,7 @@
     },
     {
      "titre": "Annexe 2 – Articles du Code du travail et du Code civil",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.69,
      "fidelite": 0.91,
@@ -2044,7 +2044,7 @@
     },
     {
      "titre": "Annexe 3 – Extraits du Code du travail et du Code civil",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.8,
      "fidelite": 0.92,
@@ -2148,7 +2148,7 @@
    "annexes": [
     {
      "titre": "Annexe 1 – Extraits du Code du travail",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.97,
      "fidelite": 1.0,
@@ -2268,7 +2268,7 @@
    "annexes": [
     {
      "titre": "Annexe 1 : Article L1121-1 du Code du travail",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 1.0,
      "fidelite": 1.0,
@@ -2284,7 +2284,7 @@
     },
     {
      "titre": "Annexe 3 : Article L1321-3 du Code du travail",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.75,
      "fidelite": 1.0,
@@ -4480,7 +4480,7 @@
    "annexes": [
     {
      "titre": "Annexe 1 : Extraits du Code du travail",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.91,
      "fidelite": 0.98,
@@ -4576,7 +4576,7 @@
    "annexes": [
     {
      "titre": "Annexe 1 : Article L1121-1 du Code du travail",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 1.0,
      "fidelite": 1.0,
@@ -5195,7 +5195,7 @@
     },
     {
      "titre": "Annexe 3 : extrait du contrat de travail de Maëlys ROCHE",
-     "type_support": "travail code contrat indeterminee",
+     "type_support": "travail code contrat duree",
      "taux_reprise_du_type": 0.48,
      "proximite_source": 0.24,
      "fidelite": 0.08,
