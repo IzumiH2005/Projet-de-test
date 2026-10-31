@@ -1,0 +1,712 @@
+{
+ "corpus": {
+  "fichiers_sujets": 38,
+  "corriges": 14,
+  "questions_lues": 355,
+  "sections_du_cours": 23,
+  "passages_du_cours": 274
+ },
+ "pertinence_des_parties": {
+  "methode": "mélange gaussien (choisi au BIC) sur la proximité maximale de chaque partie au cours",
+  "parties_gardees": 43,
+  "parties_ecartees": 42,
+  "signaux": "proximité au cours des énoncés, des annexes, de la situation ; puis vote par titre de partie",
+  "titres_gardes": {
+   "PARTIE JURIDIQUE": 31,
+   "PARTIE JURIDIQUE / SUJET 1": 6,
+   "PARTIE JURIDIQUE / SUJET 2": 6
+  },
+  "titres_ecartes": {
+   "PARTIE ÉCONOMIQUE": 30,
+   "PARTIE ÉCONOMIQUE / SUJET 1": 6,
+   "PARTIE ÉCONOMIQUE / SUJET 2": 6
+  },
+  "questions_gardees": 168
+ },
+ "alignement_sur_le_cours": {
+  "verite_terrain": "« références au programme » lues dans les corrigés",
+  "sujets_avec_references": 9,
+  "questions_evaluees": 46,
+  "poids_appris": {
+   "corrige": 0,
+   "annexes": 0.25,
+   "situation": 0.5,
+   "identifiants_communs": 1
+  },
+  "enonce_seul_top1_top3": [
+   0.37,
+   0.696
+  ],
+  "appris_validation_croisee_top1_top3": [
+   0.413,
+   0.739
+  ],
+  "popularite_top1": 0.761,
+  "hasard_top1": 0.193,
+  "second_tour_sans_mots_de_consigne": {
+   "garde": false,
+   "score": [
+    0.391,
+    0.696
+   ]
+  }
+ },
+ "vocabulaire_de_consigne": {
+  "signaux": "dispersion sur les sections, présence dans le cas, rareté dans le cours ; mélange gaussien",
+  "mots_analyses": 92,
+  "mots_de_consigne": 36,
+  "exemples_consigne": [
+   "developpez",
+   "argumentation",
+   "resumez",
+   "pourrait",
+   "pourquoi",
+   "qualifiez",
+   "qualifications",
+   "opposer",
+   "presentez",
+   "arguments",
+   "repondrez",
+   "juridiquement",
+   "juridiques",
+   "proposez",
+   "rappele",
+   "question",
+   "personnelles",
+   "expliquez",
+   "parties",
+   "justifiez",
+   "protege",
+   "appuyer",
+   "developper",
+   "exonerer",
+   "dommages",
+   "existe",
+   "exposez",
+   "liberte",
+   "rupture",
+   "exoneration",
+   "consommateur",
+   "regimes",
+   "entre",
+   "enjeux",
+   "interet",
+   "regles"
+  ],
+  "exemples_contenu": [
+   "animaux",
+   "sont",
+   "validite",
+   "dans",
+   "est",
+   "ses",
+   "travail",
+   "sur",
+   "une",
+   "employeur",
+   "requalification",
+   "jean",
+   "association",
+   "afin",
+   "licenciement",
+   "son",
+   "concurrence",
+   "societe",
+   "leur",
+   "civile",
+   "lors",
+   "monsieur",
+   "qui",
+   "salarie",
+   "contrat"
+  ]
+ },
+ "manieres_de_demander": {
+  "k": 5,
+  "essais_k": {
+   "3": {
+    "silhouette": 0.318,
+    "stabilite": 0.788
+   },
+   "4": {
+    "silhouette": 0.294,
+    "stabilite": 0.652
+   },
+   "5": {
+    "silhouette": 0.39,
+    "stabilite": 0.794
+   },
+   "6": {
+    "silhouette": 0.37,
+    "stabilite": 0.786
+   },
+   "7": {
+    "silhouette": 0.423,
+    "stabilite": 0.755
+   },
+   "8": {
+    "silhouette": 0.431,
+    "stabilite": 0.801
+   },
+   "9": {
+    "silhouette": 0.44,
+    "stabilite": 0.686
+   }
+  },
+  "auto_correction": [
+   {
+    "tour": 0,
+    "k": 8,
+    "stabilite_moyenne": 0.759,
+    "instables": 3
+   },
+   {
+    "tour": 1,
+    "k": 5,
+    "stabilite_moyenne": 0.751,
+    "instables": 1
+   }
+  ],
+  "silhouette_finale": 0.364,
+  "stabilite_finale": 0.785,
+  "facettes": [
+   {
+    "id": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "n": 42,
+    "stabilite": 0.75,
+    "position_moyenne": 0.5,
+    "exemples": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice.",
+     "Développez l’argumentation juridique que Geoffrey peut avancer pour demander la requalification de son contrat de travail."
+    ]
+   },
+   {
+    "id": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "n": 24,
+    "stabilite": 1.0,
+    "position_moyenne": 0.0,
+    "exemples": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ]
+   },
+   {
+    "id": 2,
+    "nom": "juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement",
+    "n": 19,
+    "stabilite": 1.0,
+    "position_moyenne": 0.0,
+    "exemples": [
+     "Qualifiez juridiquement les faits, les parties et les dommages.",
+     "Qualifiez juridiquement les parties, les faits et les dommages.",
+     "Qualifiez juridiquement les parties, les faits et les dommages.",
+     "Qualifiez juridiquement les faits, les parties et les dommages."
+    ]
+   },
+   {
+    "id": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "n": 29,
+    "stabilite": 0.49,
+    "position_moyenne": 0.58,
+    "exemples": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer.",
+     "Développez l’argumentation juridique que monsieur MARTIN pourrait lui opposer."
+    ]
+   },
+   {
+    "id": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "n": 54,
+    "stabilite": 0.69,
+    "position_moyenne": 0.86,
+    "exemples": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?",
+     "Après avoir défini deux exemples de comportements anti-concurrentiels, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi est-il essentiel que le droit encadre la concurrence ?"
+    ]
+   }
+  ]
+ },
+ "types_de_supports": {
+  "k": 4,
+  "essais_k": {
+   "3": {
+    "silhouette": 0.142,
+    "stabilite": 0.822
+   },
+   "4": {
+    "silhouette": 0.177,
+    "stabilite": 0.899
+   },
+   "5": {
+    "silhouette": 0.172,
+    "stabilite": 0.667
+   },
+   "6": {
+    "silhouette": 0.189,
+    "stabilite": 0.645
+   },
+   "7": {
+    "silhouette": 0.196,
+    "stabilite": 0.602
+   },
+   "8": {
+    "silhouette": 0.206,
+    "stabilite": 0.554
+   },
+   "9": {
+    "silhouette": 0.188,
+    "stabilite": 0.443
+   }
+  },
+  "auto_correction": [
+   {
+    "tour": 0,
+    "k": 4,
+    "stabilite_moyenne": 0.883,
+    "instables": 0
+   }
+  ],
+  "silhouette_finale": 0.176,
+  "stabilite_finale": 0.889,
+  "annexes_par_sujet": {
+   "0": 2,
+   "3": 10,
+   "4": 22,
+   "5": 7,
+   "6": 1,
+   "17": 1
+  },
+  "types": [
+   {
+    "id": 0,
+    "nom": "cour cassation arret mai",
+    "n": 30,
+    "stabilite": 0.91,
+    "exemples_de_titres": [
+     "Annexe 4 : arrêt de la Cour de cassation du 14 février 2018",
+     "Annexe 3 : extrait de l’arrêt de la Cour de cassation chambre sociale 18/01/2012",
+     "Annexe 5 : Arrêt de la Cour de cassation, chambre sociale 16 septembre 2015,"
+    ],
+    "longueur_mediane": 1698,
+    "exemple_texte": "[…] Attendu, selon l’arrêt attaqué (Rennes, 23 février 2010), que la société Fiventis,\nqui commercialise des produits immobiliers d’assurance-vie et d’épargne\ndéfiscalisée, a conclu, le 13 juin 2006 avec M. X..., pour le compte de deux sociétés\nen cours de constitution, un contrat intitulé “contrat de franchise” ; que la société,\nreprochant à M. X... de ne pas avoir respecté la clause d’exclusivité stipulée au\ncontrat, a résilié celui-ci le 28 décembre 2007 ; que M. X..., […] a saisi la juridict"
+   },
+   {
+    "id": 1,
+    "nom": "des contrat code entre",
+    "n": 89,
+    "stabilite": 0.9,
+    "exemples_de_titres": [
+     "ANNEXE 2 - Face au changement climatique, un nouveau visage pour la forêt",
+     "ANNEXE 6 - Une gouvernance collective des communs.",
+     "Annexe 1 : extrait du contrat de franchise conclu entre Erwan BERTHO et la"
+    ],
+    "longueur_mediane": 1066,
+    "exemple_texte": "Société Anonyme Répar’mobile\nLe franchisé s’engage à payer un droit d’entrée de 25 000 € et une redevance\nannuelle équivalant à 0,7 % du chiffre d’affaires […] ;\nLe franchisé s’engage à respecter les horaires d’ouverture et de fermeture du\npoint de vente (9h - 12h / 14h – 18h, du lundi au samedi) ;\nLe franchisé s’engage à adresser mensuellement un tableau de bord sur les\ncharges, le chiffre d’affaires, les stocks… ;\nLe franchisé s’engage à respecter les dates annuelles de fermeture imposées\npar "
+   },
+   {
+    "id": 2,
+    "nom": "code civil articles extraits",
+    "n": 31,
+    "stabilite": 0.93,
+    "exemples_de_titres": [
+     "ANNEXE 1 – Articles du Code civil",
+     "Annexe 2 : articles du Code civil",
+     "Annexe 1 : articles du Code civil"
+    ],
+    "longueur_mediane": 882,
+    "exemple_texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1217 : la partie envers laquelle l’engagement qui n’a pas été exécuté, ou l’a\nété imparfaitement peut :\nRefuser d’exécuter ou suspendre l’exécution de sa propre obligation ;\nPoursuivre l’exécution forcée en nature de l’obligation ;\nObtenir une réduction de prix ;\nProvoquer la résolution du contrat ;\nDemander réparation des conséquences de l’inexécution.\nLes sanctions qui ne sont pas incompatibles"
+   },
+   {
+    "id": 3,
+    "nom": "travail code contrat duree",
+    "n": 25,
+    "stabilite": 0.81,
+    "exemples_de_titres": [
+     "Annexe 3 : Articles du Code du travail",
+     "Annexe 1 : extrait du Code du travail",
+     "Annexe 1: Extraits du Code du travail"
+    ],
+    "longueur_mediane": 1258,
+    "exemple_texte": "Article L. 1121-1\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché.\nArticle L. 1331-1\nConstitue une sanction toute mesure, autre que les observations verbales, prise par\nl'employeur à la suite d'un agissement du salarié considéré par l'employeur comme\nfautif, que cette mesure soit de nature à affecter immédiatement ou non la présence\ndu"
+   }
+  ]
+ },
+ "operations_mentales": {
+  "methode": "8 descripteurs relationnels, mélange gaussien, k au BIC",
+  "k": 6,
+  "operations": [
+   {
+    "id": 0,
+    "n": 44,
+    "fort": [
+     "appui_sur_le_cas",
+     "appui_sur_les_documents",
+     "acteurs_nommes"
+    ],
+    "faible": [
+     "forme_interrogative"
+    ],
+    "profil": {
+     "appui_sur_le_cas": 1.01,
+     "appui_sur_les_documents": 0.9,
+     "appui_sur_le_cours": -0.2,
+     "largeur_du_cours": -0.07,
+     "rang_dans_le_sujet": -0.05,
+     "forme_interrogative": -0.4,
+     "acteurs_nommes": 0.86,
+     "longueur_enonce": 0.37
+    },
+    "exemples": [
+     "Présentez l’argumentation juridique que la SA Répar’mobile pourrait mettre en avant pour justifier la rupture du contrat de franchise.",
+     "Développez l'argumentation juridique que Maud pourrait avancer pour obtenir réparation de ses dommages.",
+     "Développez l’argumentation juridique que peut avancer Marc PONTEAU pour faire reconnaître la responsabilité de l’établissement « Animaux en vacances »."
+    ]
+   },
+   {
+    "id": 1,
+    "n": 20,
+    "fort": [
+     "largeur_du_cours"
+    ],
+    "faible": [
+     "rang_dans_le_sujet",
+     "longueur_enonce"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.91,
+     "appui_sur_les_documents": -0.54,
+     "appui_sur_le_cours": -0.09,
+     "largeur_du_cours": 0.91,
+     "rang_dans_le_sujet": -1.21,
+     "forme_interrogative": -0.4,
+     "acteurs_nommes": -0.83,
+     "longueur_enonce": -1.2
+    },
+    "exemples": [
+     "Qualifiez juridiquement les parties et les faits.",
+     "Qualifiez juridiquement les parties et les faits.",
+     "Qualifiez juridiquement les parties et les faits."
+    ]
+   },
+   {
+    "id": 2,
+    "n": 16,
+    "fort": [
+     "rang_dans_le_sujet",
+     "appui_sur_le_cours",
+     "longueur_enonce"
+    ],
+    "faible": [
+     "acteurs_nommes",
+     "appui_sur_le_cas"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.72,
+     "appui_sur_les_documents": 0.33,
+     "appui_sur_le_cours": 0.97,
+     "largeur_du_cours": -0.27,
+     "rang_dans_le_sujet": 1.18,
+     "forme_interrogative": -0.4,
+     "acteurs_nommes": -0.83,
+     "longueur_enonce": 0.43
+    },
+    "exemples": [
+     "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement.",
+     "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+     "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure."
+    ]
+   },
+   {
+    "id": 3,
+    "n": 23,
+    "fort": [
+     "forme_interrogative",
+     "appui_sur_le_cours",
+     "rang_dans_le_sujet"
+    ],
+    "faible": [
+     "largeur_du_cours",
+     "acteurs_nommes"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.72,
+     "appui_sur_les_documents": 0.46,
+     "appui_sur_le_cours": 1.53,
+     "largeur_du_cours": -0.85,
+     "rang_dans_le_sujet": 1.33,
+     "forme_interrogative": 2.51,
+     "acteurs_nommes": -0.76,
+     "longueur_enonce": 0.97
+    },
+    "exemples": [
+     "Le législateur doit-il envisager d’accorder la personnalité juridique aux animaux domestiques ?",
+     "Le RGPD protège-t-il efficacement les données formelles et informelles laissées par une personne juridique sur internet ?",
+     "En quoi la Cour de cassation est-elle indispensable au système juridique français ?"
+    ]
+   },
+   {
+    "id": 4,
+    "n": 39,
+    "fort": [
+     "acteurs_nommes",
+     "appui_sur_le_cas"
+    ],
+    "faible": [
+     "appui_sur_le_cours",
+     "appui_sur_les_documents"
+    ],
+    "profil": {
+     "appui_sur_le_cas": 0.66,
+     "appui_sur_les_documents": -0.52,
+     "appui_sur_le_cours": -0.56,
+     "largeur_du_cours": -0.0,
+     "rang_dans_le_sujet": 0.28,
+     "forme_interrogative": -0.4,
+     "acteurs_nommes": 0.8,
+     "longueur_enonce": 0.13
+    },
+    "exemples": [
+     "Développez l’argumentation juridique que les époux BASTIDE peuvent avancer pour demander l’enlèvement des gravats, pierres et barres de fer en justice.",
+     "Présentez l’argumentation juridique que Matthieu FONTET pourrait opposer à Pascal MADANI pour contester son licenciement.",
+     "Présentez les arguments que la SAS MODISTES DU NORD pourrait avancer pour rompre le contrat de travail de Myriam DUMONT."
+    ]
+   },
+   {
+    "id": 5,
+    "n": 26,
+    "fort": [
+     "largeur_du_cours"
+    ],
+    "faible": [
+     "rang_dans_le_sujet",
+     "longueur_enonce"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.92,
+     "appui_sur_les_documents": -0.94,
+     "appui_sur_le_cours": -0.71,
+     "largeur_du_cours": 0.33,
+     "rang_dans_le_sujet": -1.31,
+     "forme_interrogative": -0.4,
+     "acteurs_nommes": -0.83,
+     "longueur_enonce": -1.02
+    },
+    "exemples": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ]
+   }
+  ]
+ },
+ "niveau_de_detail": {
+  "reponses_de_corrige": 63,
+  "chars_par_point_p10_p50_p90": [
+   312,
+   659,
+   1539
+  ],
+  "chars_par_question_p50": 1485,
+  "articles_cites_par_reponse_moyenne": 0.84,
+  "enumerations_par_reponse_moyenne": 1.03,
+  "longueur_mediane_par_facette": {
+   "0": 2507,
+   "1": 697,
+   "2": 631,
+   "3": 1571,
+   "4": 1502
+  },
+  "points_par_rang": {
+   "0": 0.2,
+   "1": 0.293,
+   "2": 0.286,
+   "3": 0.3
+  },
+  "gestes_attendus_du_correcteur": [
+   "il",
+   "pas",
+   "candidat",
+   "question",
+   "donc",
+   "que le",
+   "cette",
+   "ici",
+   "doit",
+   "le candidat",
+   "points",
+   "il agit",
+   "pour le",
+   "agit",
+   "avec",
+   "consentement",
+   "employeur",
+   "la question",
+   "il est",
+   "elle",
+   "que",
+   "programme",
+   "comme",
+   "son",
+   "conclusion",
+   "savoir",
+   "doit etre",
+   "qu il",
+   "mais",
+   "de plus",
+   "attendu",
+   "sarl",
+   "salariee",
+   "bien",
+   "sa",
+   "de cassation",
+   "cour de",
+   "la cour de",
+   "cour de cassation",
+   "implique"
+  ],
+  "consignes_de_correction": [
+   "Il n’est pas attendu de phrase introductive ou conclusive.",
+   "La position doit être exprimée tout au long de la réponse rédigée.",
+   "Dans le cas où un candidat développerait deux axes, un nombre égal d’arguments n’est pas attendu dans chacun des deux axes.",
+   "Elle doit être comprise à la lecture des arguments.",
+   "Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+   "Le syllogisme juridique n’est pas la seule forme attendue.",
+   "Toute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.",
+   "(Connaissances) Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+   "Il appartient aux correcteurs de ne pas se laisser « enfermer » par la proposition de corrigé et d’analyser les productions des candidats avec intelligence en n’hésitant pas à valoriser ceux qui font preuve de capacités d’analyse et de réflexion.",
+   "Au moins deux idées sont attendues, dont l’une peut exploiter des transversalités avec d’autres enseignements de spécialité.",
+   "(Annexe 2) Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+   "Il est attendu une argumentation claire, c’est-à-dire des arguments de droit et de fait qui conduisent à la conclusion.",
+   "Tout concept mobilisé cohérent avec la réflexion doit être accepté dès l’instant où il permet de formuler une réponse logique.",
+   "On acceptera qu’un candidat développe son argumentation soit sur l’erreur soit sur le dol."
+  ]
+ },
+ "squelette": {
+  "questions_par_partie": {
+   "3": 6,
+   "4": 35,
+   "5": 2
+  },
+  "facette_par_rang": {
+   "0": {
+    "1": 24,
+    "2": 19
+   },
+   "1": {
+    "0": 28,
+    "3": 9,
+    "4": 6
+   },
+   "2": {
+    "3": 18,
+    "0": 14,
+    "4": 11
+   },
+   "3": {
+    "4": 35,
+    "3": 2
+   },
+   "4": {
+    "4": 2
+   }
+  },
+  "squelette_typique": [
+   "qualifications / qualifications juridiques / resumez x / resumez",
+   "developpez x / developpez / developpez x argumentation / argumentation x",
+   "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+   "qm / x qm / pourquoi / pourquoi x"
+  ],
+  "transitions": {
+   "4->fin": 37,
+   "début->1": 24,
+   "3->4": 20,
+   "début->2": 19,
+   "0->4": 17,
+   "1->0": 15,
+   "2->0": 13,
+   "0->0": 12,
+   "4->4": 11,
+   "0->3": 9,
+   "3->3": 7,
+   "1->4": 5,
+   "2->3": 5,
+   "1->3": 4
+  }
+ },
+ "couverture_du_cours": {
+  "sujets": 37,
+  "frequence_par_section": {
+   "1.1 Le droit et les fonctions du droit": 0.11,
+   "1.2 La règle de droit": 0.11,
+   "1.3 Les sources du droit": 0.11,
+   "2.1 Le litige": 0.19,
+   "2.2 La preuve": 0.14,
+   "2.3 Le recours au juge": 0.05,
+   "3.1 La personne juridique physique morale": 0.11,
+   "3.2 La capacité et l’incapacité": 0.05,
+   "3.3 Le patrimoine": 0.03,
+   "4.1 Les droits extra- patrimoniaux": 0.11,
+   "4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels": 0.08,
+   "5.1 La formation du contrat": 0.24,
+   "5.2 L’exécution du contrat": 0.35,
+   "6.1 Le dommage réparable": 0.16,
+   "6.2 Les différents régimes de responsabilité régimes spéciaux responsabilité contractuelle responsabilité extra- contractuelle": 0.11,
+   "6.3 Les moyens d’exonération": 0.05,
+   "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail": 0.16,
+   "7.2 La rupture du contrat de travail": 0.22,
+   "7.3 Les libertés individuelles et collectives": 0.24,
+   "8.1 L’entreprise individuelle": 0.08,
+   "8.2 La société commerciale": 0.05,
+   "8.3 Le respect de la concurrence": 0.03,
+   "8.4 Les partenariats contractuels": 0.14
+  },
+  "jamais_ou_presque": [
+   "3.3 Le patrimoine",
+   "8.3 Le respect de la concurrence"
+  ],
+  "associations_frequentes": [
+   "5.1 La formation du contrat + 5.2 L’exécution du contrat (7)",
+   "2.1 Le litige + 5.2 L’exécution du contrat (5)",
+   "7.1 Le contrat de travail à durée indéte + 7.3 Les libertés individuelles et collec (4)",
+   "4.1 Les droits extra- patrimoniaux + 7.3 Les libertés individuelles et collec (3)",
+   "1.2 La règle de droit + 5.2 L’exécution du contrat (3)",
+   "2.2 La preuve + 5.2 L’exécution du contrat (3)",
+   "5.2 L’exécution du contrat + 7.1 Le contrat de travail à durée indéte (3)",
+   "1.2 La règle de droit + 1.3 Les sources du droit (3)",
+   "1.2 La règle de droit + 6.2 Les différents régimes de responsabi (3)",
+   "1.3 Les sources du droit + 5.2 L’exécution du contrat (3)"
+  ]
+ },
+ "previsibilite_consigne": {
+  "log_loss_sujet_exclu": {
+   "marginale": 1.556,
+   "selon_le_rang": 0.837,
+   "selon_la_section": 1.604,
+   "selon_rang_et_dernier": 0.844
+  },
+  "verdict": "rituel (le rang explique la consigne)"
+ },
+ "previsibilite_sections": {
+  "methode": "pour chaque année, appris sur les années précédentes seulement ; AUC (0,5 = hasard)",
+  "auc_popularite": 0.622,
+  "auc_modele": 0.635,
+  "annees_testees": 4,
+  "coefficients": {
+   "frequence_passee": -0.06,
+   "annees_depuis_derniere": -0.39,
+   "frequence_du_theme": 0.25,
+   "taille_section": 0.14
+  }
+ }
+}
