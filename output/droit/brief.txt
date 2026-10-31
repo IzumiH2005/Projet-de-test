@@ -1,0 +1,42 @@
+PROFIL DU PROFESSEUR (appris par scikit-learn sur 38 anciens sujets et 14 corrigés)
+
+Squelette d'une partie : {3: 6, 4: 35, 5: 2} questions par partie (le plus souvent 4).
+Ordre typique des manières de demander : qualifications / qualifications juridiques / resumez x / resumez → developpez x / developpez / developpez x argumentation / argumentation x → argumentation x pourrait / pourrait / x pourrait / x argumentation → qm / x qm / pourquoi / pourquoi x.
+Verdict : rituel (le rang explique la consigne) — la forme de la question dépend surtout de sa place dans le sujet.
+
+Manières de demander découvertes :
+  - F0 « developpez x / developpez / developpez x argumentation / argumentation x » (42 questions, place moyenne 0.5) ; ex. : Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.
+  - F1 « qualifications / qualifications juridiques / resumez x / resumez » (24 questions, place moyenne 0.0) ; ex. : Résumez les faits en utilisant des qualifications juridiques.
+  - F2 « juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement » (19 questions, place moyenne 0.0) ; ex. : Qualifiez juridiquement les faits, les parties et les dommages.
+  - F3 « argumentation x pourrait / pourrait / x pourrait / x argumentation » (29 questions, place moyenne 0.58) ; ex. : Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.
+  - F4 « qm / x qm / pourquoi / pourquoi x » (54 questions, place moyenne 0.86) ; ex. : Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoi
+
+Types de documents en annexe :
+  - cassation cour arret mai (30) ; titres réels : Annexe 4 : arrêt de la Cour de cassation du 14 février 2018 | Annexe 3 : extrait de l’arrêt de la Cour de cassation chambre sociale  | Annexe 5 : Arrêt de la Cour de cassation, chambre sociale 16 septembre
+  - des contrat code entre (89) ; titres réels : ANNEXE 2 - Face au changement climatique, un nouveau visage pour la fo | ANNEXE 6 - Une gouvernance collective des communs. | Annexe 1 : extrait du contrat de franchise conclu entre Erwan BERTHO e
+  - code civil articles extraits (31) ; titres réels : ANNEXE 1 – Articles du Code civil | Annexe 2 : articles du Code civil | Annexe 1 : articles du Code civil
+  - travail code contrat indeterminee (25) ; titres réels : Annexe 3 : Articles du Code du travail | Annexe 1 : extrait du Code du travail | Annexe 1: Extraits du Code du travail
+Annexes par sujet : {0: 2, 3: 10, 4: 22, 5: 7, 6: 1, 17: 1}.
+
+Opérations mentales (ce que la question fait faire) :
+  - O0 : fort en appui_sur_le_cas, appui_sur_les_documents, acteurs_nommes ; faible en forme_interrogative
+  - O1 : fort en largeur_du_cours ; faible en rang_dans_le_sujet, longueur_enonce
+  - O2 : fort en rang_dans_le_sujet, appui_sur_le_cours, longueur_enonce ; faible en acteurs_nommes, appui_sur_le_cas
+  - O3 : fort en forme_interrogative, appui_sur_le_cours, rang_dans_le_sujet ; faible en largeur_du_cours, acteurs_nommes
+  - O4 : fort en acteurs_nommes, appui_sur_le_cas ; faible en appui_sur_le_cours, appui_sur_les_documents
+  - O5 : fort en largeur_du_cours ; faible en rang_dans_le_sujet, longueur_enonce
+
+Niveau de détail attendu dans le corrigé : [312, 659, 1539] caractères par point (bas / médian / haut),
+0.84 article(s) cité(s) par réponse en moyenne.
+Expressions typiques des corrigés : consentement, faute, reflexion, salariee, implique, cour de, de cassation, ici, il agit, principe, espece, fondement, par cette, victime, dommage, conclusion, arret, enjeux, savoir, professionnel.
+Ce que disent les corrigés au correcteur :
+  - « Il n’est pas attendu de phrase introductive ou conclusive. »
+  - « La position doit être exprimée tout au long de la réponse rédigée. »
+  - « Dans le cas où un candidat développerait deux axes, un nombre égal d’arguments n’est pas attendu dans chacun des deux axes. »
+  - « Elle doit être comprise à la lecture des arguments. »
+  - « Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat. »
+  - « Le syllogisme juridique n’est pas la seule forme attendue. »
+  - « Toute réponse argumentée doit être acceptée dès l’instant où elle répond à la question. »
+  - « (Connaissances) Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat. »
+  - « Il appartient aux correcteurs de ne pas se laisser « enfermer » par la proposition de corrigé et d’analyser les productions des candidats avec intelligence en n’hésitant pas à valoriser ceux qui font preuve de capacités d’analyse et de réflexion. »
+  - « Au moins deux idées sont attendues, dont l’une peut exploiter des transversalités avec d’autres enseignements de spécialité. »

@@ -1,0 +1,986 @@
+[
+ {
+  "id": "C1.1",
+  "type": "cas",
+  "section": 0,
+  "section_titre": "1.1 Le droit et les fonctions du droit",
+  "partenaire": 1,
+  "partenaire_titre": "1.2 La règle de droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.059,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Marie DESBOIS peut avancer pour justifier le licenciement de son salarié.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "1.1 Le droit et les fonctions du droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "Depuis l’adoption des principes du libéralisme politique issus de la philosophie des Lumières, les principes généraux d’égalité, de liberté, de solidarité et plus récemment de laïcité fondent l’organisation de la société démocratique française. Ils contribuent à faire du droit un facteur d’organisation et de pacification de la société.\nNotions : État de droit, laïcité, égalité, liberté, solidarité. Fonctions du droit. Distinction entre droit et morale. Ordre public.",
+   "articles": [
+    "Article L2314-28 du Code du travail : Les modalités d'organisation et de déroulement des opérations électorales font l'objet d'un accord entre l'employeur et les organisations syndicales, conclu conformément à l'article L. 2314-6. Cet accord respecte les principes généraux du droit électoral. Les modalités sur lesquelles aucun accord n'a pu intervenir peuvent être fixées par une décision du juge judiciaire.",
+    "Article L237-16 du Code de commerce : La dissolution de la société ne met pas fin aux fonctions du conseil de surveillance et des commissaires aux comptes.",
+    "Article L4451-1 du Code du travail : Les règles de prévention des risques pour la santé et la sécurité des travailleurs, y compris les travailleurs indépendants et les employeurs, exposés aux rayonnements ionisants sont fixées dans le respect des principes généraux de radioprotection des personnes énoncés aux articles L. 1333-2 et L. 1333-3 du code de la santé publique, sans préjudice des principes généraux de prévention prévus à l'article L. 4121-2 du présent code.",
+    "Article L812-9 du Code de commerce : Les dispositions relatives à la surveillance, à l'inspection et à la discipline des administrateurs judiciaires prévues par les articles L. 811-11 à L. 811-15-1 sont applicables aux mandataires judiciaires. La commission nationale d'inscription siège comme chambre de discipline. Le commissaire du Gouvernement y exerce les fonctions du ministère public.",
+    "Article L6112-1 du Code du travail : Pour l'application de la présente partie, aucune distinction entre les femmes et les hommes ne peut être faite.",
+    "Article L3111-3 du Code du travail : A l'exception du chapitre II du titre III ainsi que des titres VI et VII, le présent livre définit les règles d'ordre public, le champ de la négociation collective et les règles supplétives applicables en l'absence d'accord.",
+    "Article L314-26 du Code de la consommation : Les dispositions des chapitres II et III et des sections 2 à 7 du présent chapitre sont d'ordre public."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "1.2 La règle de droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "La règle de droit est légitime, générale et obligatoire. En prenant appui sur quelques règles provenant de divers codes (Code civil, Code du travail, Code pénal par exemple) et à partir de situations concrètes de mise en œuvre, les élèves comprennent que la règle de droit émane d’autorités compétentes. Sa formulation en termes généraux lui permet de garantir l’égalité devant la loi de toutes les personnes placées dans la même situation juridique. Le droit ayant vocation à saisir toutes les situations de la vie en société, il ne peut pas décrire chacune d’elles en raison du caractère général et abstrait de la règle de droit. Il se réfère donc à des catégories juridiques : la personne physique, la victime, le contrat, le salarié par exemple. C’est l’opération de qualification juridique.\nNotions : Caractères de la règle de droit. Autorité légitime.",
+   "articles": [
+    "Article 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+    "Article L643-7-1 du Code de commerce : Le créancier qui a reçu un paiement en violation de la règle de l'égalité des créanciers chirographaires ou par suite d'une erreur sur l'ordre des privilèges doit restituer les sommes ainsi versées."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole",
+    "titre": "ANNEXE 4 – Regard historique sur l’ordre public et le contrat",
+    "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 1 : extrait du Code du travail",
+    "texte": "Article L1132-1 : Aucune personne ne peut être écartée d'une procédure de\nrecrutement ou de nomination ou de l'accès à un stage ou à une période de formation\nen entreprise, aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une\nmesure discriminatoire, directe ou indirecte, […] , notamment en matière de\nrémunération, de mesures d'intéressement ou de distribution d'actions, de formation,\nde reclassement, d'affectation, de qualification, de classification, de promotion\nprofessionnelle, de mutation ou de renouvellement de contrat en raison de son origine,\nde son sexe, de ses mœurs, de son orientation sexuelle, de son identité de genre, de\nson âge, de sa situation de famille ou de sa grossesse, de ses caractéristiques\ngénétiques, de la particulière vulnérabilité résultant de sa situation économique,\napparente ou connue de son auteur, de son appartenance ou de sa non-appartenance,\nvraie ou supposée, à une ethnie, une nation ou une prétendue race, de ses opinions\npolitiques, de ses activités syndicales ou mutualistes, de ses convictions religieuses,\nde son apparence physique, de son nom de famille, de son lieu de résidence ou de sa\ndomiciliation bancaire, ou en raison de son état de santé, de sa perte d'autonomie ou\nde son handicap, de sa capacité à s'exprimer dans une langue autre que le français.\nArticle L1134-1 : l […] il incombe à la partie défenderesse de prouver que sa décision\nest justifiée par des éléments objectifs étrangers à toute discrimination. […]\nArticle L1142-1 : sous réserve des dispositions particulières du présent code, nul ne\npeut :\nfamille du candidat recherché. Cette interdiction est applicable pour toute forme de\npublicité relative à une embauche et quels que soient les caractères du contrat de\ntravail envisagé ;\nrenouveler le contrat de travail d'un salarié en considération du sexe, de la situation\nde famille ou de la grossesse sur la base de critères de choix différents selon le sexe,\nla situation de famille ou la grossesse ;\nmatière de rémunération, de formation, d'affectation, de qualification, de classification,\nde promotion professionnelle ou de mutation.\nArticle L1142-4 : les dispositions des articles L. 1142-1 et L. […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "titre": "Annexe 1 : l’employeur est tenu d’une obligation de sécurité à l’égard de ses",
+    "texte": "salariés\nSelon l’article L. 4121-1 du Code du travail, l’employeur est tenu de prendre toutes les\nmesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale\nde ses salariés.\nDans ce cadre, l’employeur ne doit pas seulement diminuer le risque, mais doit\nl’empêcher. Les mesures qui doivent être prises s’organisent autour de trois axes :\n les actions de prévention des risques professionnels et de la pénibilité […] ;\n les actions d’information et de formation […] ;\n la mise en place d’une organisation et de moyens adaptés […] ;\nCette obligation de sécurité trouve une déclinaison particulière en matière de\nprévention des risques. Conformément à l’article L. 4121-2 du Code du travail,\nl’employeur doit prendre toutes les mesures utiles […] afin de :\n éviter les risques ;\n évaluer les risques qui ne peuvent pas être évités ;\n combattre les risques à la source ;\n adapter le travail à l'homme, en particulier en ce qui concerne la conception des\npostes de travail ainsi que le choix des équipements de travail et des méthodes\nde travail et de production, en vue notamment de limiter le travail monotone et\nle travail cadencé et de réduire les effets de ceux-ci sur la santé ; […]\n prendre des mesures de protection collective en leur donnant la priorité sur les\nmesures de protection individuelle ;\n donner les instructions appropriées aux travailleurs.\nSource : https://www.entreprises.cci-paris-idf.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 2 : extraits du Code de la consommation",
+    "texte": "Article L421-3 : Les produits et les services doivent présenter, dans des conditions\nnormales d'utilisation ou dans d'autres conditions raisonnablement prévisibles par le\nprofessionnel, la sécurité à laquelle on peut légitimement s'attendre et ne pas porter\natteinte à la santé des personnes."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+    "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÉric GUERIN travaille depuis 20 ans pour la SARL « Echinox » spécialisée dans la\nfabrication de matériel industriel. Il a seul en charge la coupe, l’assemblage et la\nsoudure de plaques en inox. Pour décaper les soudures, il utilise un acide puissant sur\nles pièces métalliques, qui sont ensuite rincées à l’eau.\nÉric GUERIN a fait remarquer à plusieurs reprises à Marie DESBOIS, la gérante, que\nl’atelier devrait être mieux aéré. Les salariés n’ont jamais reçu d’équipement de\nprotection contre la toxicité de l’acide utilisé.\nAu cours d’une consultation médicale, Éric GUERIN apprend qu’il est atteint d’une\nmaladie de la peau. Il exige alors de la direction que tout soit mis en œuvre au plus\nvite pour assurer la sécurité des personnels.\nDe son coté, Marie DESBOIS estime que les normes de sécurité sont suffisantes et\nque les salariés disposent déjà du matériel de protection adéquat. Cette réponse\namène Éric GUERIN à cesser son activité pendant plusieurs jours en invoquant son\ndroit de retrait.\nÉric GUERIN étant le seul à son poste, la fabrication est bloquée entraînant des retards\ndans les livraisons. Marie DESBOIS notifie alors à Éric GUERIN son licenciement.\nRépondre aux questions 1, 2 et 3.",
+    "annexes": [
+     "Annexe 1 : l’employeur est tenu d’une obligation de sécurité à l’égard de ses",
+     "Annexe 2 : un salarié peut-il refuser de travailler dans une situation",
+     "Annexe 3 : la Cour de cassation précise le licenciement pour absences répétées"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Marie DESBOIS peut avancer pour justifier le licenciement de son salarié.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que peut avancer Éric GUERIN pour contester son licenciement.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique et répondez aux\nquestions posées.\nSituation juridique\nMélina Semper travaille en tant que commerciale dans la SAS « BT Mécanique »\ndepuis 10 ans. Située à Nevers cette société est spécialisée dans la vente de produits\ndestinés aux professionnels du bâtiment. Mélina a signé son contrat à durée\nindéterminée (CDI) en 2010.\nLe meilleur ami de Mélina se marie dans le sud de la France, elle souhaiterait obtenir\nun congé pour participer à la cérémonie. Jean Éloi, président de la SAS « BT\nMécanique » refuse sa demande, au motif que sept de ses collègues masculins seront\ndéjà en congé ce jour. L’activité de l’entreprise étant calme en cette période de l’année,\nMélina ne comprend pas ce refus, d’autant que ce n’est pas le premier.\nLassée des injustices qu’elle estime subir dans l’entreprise depuis quelques temps\nMélina sollicite un entretien avec son employeur. Elle lui fait remarquer que ses\nconditions de travail sont moins bonnes que celles de ses collègues, et que, en tant\nque commerciale, elle est la seule à ne pas bénéficier du statut de cadre malgré son\nancienneté. De plus, sa rémunération est inférieure à celle de ses collègues. Par\nailleurs, une formation lui a été refusée en raison de son âge.\nSon employeur, Jean Éloi, lui rappelle qu’elle est la seule commerciale de l’entreprise\nà toucher une prime de fin d’année et que la formation demandée n’est pas en\nadéquation avec les besoins de l’entreprise. Par ailleurs, l’attribution du statut de cadre\nest laissée à l’appréciation de l’employeur.\nMélina sort très affectée de cet entretien d’autant plus qu’elle s’est beaucoup investie\ndans les projets de développement de l’entreprise.\nAvant […]",
+    "annexes": [
+     "Annexe 1 : extrait du Code du travail",
+     "Annexe 2 : arrêt de la Cour de cassation, chambre sociale, 17 avril 2019",
+     "Annexe 3 : le Conseil constitutionnel réaffirme la liberté de l’employeur de"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits pertinents et d’utiliser les qualifications juridiques adéquates.\nMélina SEMPER est salariée en contrat à durée indéterminée de la société « BT\nMécanique ». Son employeur lui refuse un jour de congé contrairement à sept autres\ncollègues masculins. De plus, son employeur lui refuse un statut de cadre et une\nformation en raison de son âge. Elle estime être victime de discrimination."
+     },
+     {
+      "enonce": "Présentez les arguments juridiques que Mélina Semper pourrait réunir pour montrer l’existence d’une discrimination.",
+      "points": null,
+      "corrige": "montrer l’existence d’une discrimination.\nLa réponse du candidat doit contenir des arguments de fait et de droit\ncohérents montrant l’existence d’une discrimination.\nDans ce genre de contentieux, il est difficile de présager de la réponse du juge\nqui portera non pas sur chacun des éléments pris isolément mais sur\nl’ensemble des faits évoqués par les parties.\nD’après le Code du travail (article L1134-1, article L1142-1, article L3221-2), il est\ninterdit à l’employeur de faire subir des actes de discrimination envers ses salariés\nen considération de leur sexe et âge.\nEn l’espèce, la SAS BT Mécanique a accordé une journée de congé à ses salariés\nde sexe masculin et a refusé d’accorder cette même journée à Mélina SEMPER. De\nplus, il lui a refusé un statut de cadre et une formation du fait de son âge. Par\nconséquent, la salariée peut invoquer une discrimination liée au sexe et à l’âge.\nPar […]"
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que l’employeur pourra opposer à Mélina Semper.",
+      "points": null,
+      "corrige": "Semper.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents avec sa conclusion.\nEn premier lieu, l’employeur peut expliquer que ses choix reposent sur son pouvoir\nde direction.\nEn second lieu et conformément aux dispositions de l’article L1134-1 du Code du\ntravail, l’employeur peut prouver que l’ensemble des décisions prises sont justifiées.\nSes décisions sont en effet justifiées par des « éléments objectifs étrangers à toute\ndiscrimination » (Cf. décision de la Cour de cassation du 17 avril en annexe 2)\nfondée sur l’un des éléments prohibés, cités par l’article L1132-1 du Code du travail.\nEn l’espèce, la demande de congés est refusée pour des raisons de service (7\ncollègues déjà en congé) ; le refus de formation est justifié par la nature de la\nformation qui n’est pas en adéquation avec le poste.\nEnfin, Mélina SEMPER […]"
+     },
+     {
+      "enonce": "Justifiez les restrictions à la liberté de choix de l’employeur lors du recrutement de ses collaborateurs.",
+      "points": null,
+      "corrige": "recrutement de ses collaborateurs.\nIl est attendu du candidat qu’il mentionne et explique le principe de nondiscrimination à l’embauche.\nL’employeur est en principe libre de choisir les personnes qu’il embauche. C'est\nl'application du principe de la liberté contractuelle et c’est ce que rappelle le Conseil\nconstitutionnel dans une décision de juillet 1988 (annexe 3).\nIl va donc discriminer mais il ne peut fonder son choix par des motivations portant sur\nla race, le sexe, l'âge, le genre, l'orientation sexuelle…. application de l'article Article\nL1132-1.\nCes interdictions sont justifiées globalement par la volonté du législateur de protéger\nles droits humains. Cela comprend la volonté de respecter la liberté de certains choix\nindividuels, de protéger certaines personnes plus vulnérables, de promouvoir une\négalité entre les genres, d'instituer une forme d'équité et de lutter contre […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E1.1",
+  "type": "exercices",
+  "section": 0,
+  "section_titre": "1.1 Le droit et les fonctions du droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Marie DESBOIS peut avancer pour justifier le licenciement de son salarié.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "1.1 Le droit et les fonctions du droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "Depuis l’adoption des principes du libéralisme politique issus de la philosophie des Lumières, les principes généraux d’égalité, de liberté, de solidarité et plus récemment de laïcité fondent l’organisation de la société démocratique française. Ils contribuent à faire du droit un facteur d’organisation et de pacification de la société.\nNotions : État de droit, laïcité, égalité, liberté, solidarité. Fonctions du droit. Distinction entre droit et morale. Ordre public.",
+   "articles": [
+    "Article L2314-28 du Code du travail : Les modalités d'organisation et de déroulement des opérations électorales font l'objet d'un accord entre l'employeur et les organisations syndicales, conclu conformément à l'article L. 2314-6. Cet accord respecte les principes généraux du droit électoral. Les modalités sur lesquelles aucun accord n'a pu intervenir peuvent être fixées par une décision du juge judiciaire.",
+    "Article L237-16 du Code de commerce : La dissolution de la société ne met pas fin aux fonctions du conseil de surveillance et des commissaires aux comptes.",
+    "Article L4451-1 du Code du travail : Les règles de prévention des risques pour la santé et la sécurité des travailleurs, y compris les travailleurs indépendants et les employeurs, exposés aux rayonnements ionisants sont fixées dans le respect des principes généraux de radioprotection des personnes énoncés aux articles L. 1333-2 et L. 1333-3 du code de la santé publique, sans préjudice des principes généraux de prévention prévus à l'article L. 4121-2 du présent code.",
+    "Article L812-9 du Code de commerce : Les dispositions relatives à la surveillance, à l'inspection et à la discipline des administrateurs judiciaires prévues par les articles L. 811-11 à L. 811-15-1 sont applicables aux mandataires judiciaires. La commission nationale d'inscription siège comme chambre de discipline. Le commissaire du Gouvernement y exerce les fonctions du ministère public.",
+    "Article L6112-1 du Code du travail : Pour l'application de la présente partie, aucune distinction entre les femmes et les hommes ne peut être faite.",
+    "Article L3111-3 du Code du travail : A l'exception du chapitre II du titre III ainsi que des titres VI et VII, le présent livre définit les règles d'ordre public, le champ de la négociation collective et les règles supplétives applicables en l'absence d'accord.",
+    "Article L314-26 du Code de la consommation : Les dispositions des chapitres II et III et des sections 2 à 7 du présent chapitre sont d'ordre public."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole",
+    "titre": "ANNEXE 4 – Regard historique sur l’ordre public et le contrat",
+    "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 1 : extrait du Code du travail",
+    "texte": "Article L1132-1 : Aucune personne ne peut être écartée d'une procédure de\nrecrutement ou de nomination ou de l'accès à un stage ou à une période de formation\nen entreprise, aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une\nmesure discriminatoire, directe ou indirecte, […] , notamment en matière de\nrémunération, de mesures d'intéressement ou de distribution d'actions, de formation,\nde reclassement, d'affectation, de qualification, de classification, de promotion\nprofessionnelle, de mutation ou de renouvellement de contrat en raison de son origine,\nde son sexe, de ses mœurs, de son orientation sexuelle, de son identité de genre, de\nson âge, de sa situation de famille ou de sa grossesse, de ses caractéristiques\ngénétiques, de la particulière vulnérabilité résultant de sa situation économique,\napparente ou connue de son auteur, de son appartenance ou de sa non-appartenance,\nvraie ou supposée, à une ethnie, une nation ou une prétendue race, de ses opinions\npolitiques, de ses activités syndicales ou mutualistes, de ses convictions religieuses,\nde son apparence physique, de son nom de famille, de son lieu de résidence ou de sa\ndomiciliation bancaire, ou en raison de son état de santé, de sa perte d'autonomie ou\nde son handicap, de sa capacité à s'exprimer dans une langue autre que le français.\nArticle L1134-1 : l […] il incombe à la partie défenderesse de prouver que sa décision\nest justifiée par des éléments objectifs étrangers à toute discrimination. […]\nArticle L1142-1 : sous réserve des dispositions particulières du présent code, nul ne\npeut :\nfamille du candidat recherché. Cette interdiction est applicable pour toute forme de\npublicité relative à une embauche et quels que soient les caractères du contrat de\ntravail envisagé ;\nrenouveler le contrat de travail d'un salarié en considération du sexe, de la situation\nde famille ou de la grossesse sur la base de critères de choix différents selon le sexe,\nla situation de famille ou la grossesse ;\nmatière de rémunération, de formation, d'affectation, de qualification, de classification,\nde promotion professionnelle ou de mutation.\nArticle L1142-4 : les dispositions des articles L. 1142-1 et L. […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÉric GUERIN travaille depuis 20 ans pour la SARL « Echinox » spécialisée dans la\nfabrication de matériel industriel. Il a seul en charge la coupe, l’assemblage et la\nsoudure de plaques en inox. Pour décaper les soudures, il utilise un acide puissant sur\nles pièces métalliques, qui sont ensuite rincées à l’eau.\nÉric GUERIN a fait remarquer à plusieurs reprises à Marie DESBOIS, la gérante, que\nl’atelier devrait être mieux aéré. Les salariés n’ont jamais reçu d’équipement de\nprotection contre la toxicité de l’acide utilisé.\nAu cours d’une consultation médicale, Éric GUERIN apprend qu’il est atteint d’une\nmaladie de la peau. Il exige alors de la direction que tout soit mis en œuvre au plus\nvite pour assurer la sécurité des personnels.\nDe son coté, Marie DESBOIS estime que les normes de sécurité sont suffisantes et\nque les salariés disposent déjà du matériel de protection adéquat. Cette réponse\namène Éric GUERIN à cesser son activité pendant plusieurs jours en invoquant son\ndroit de retrait.\nÉric GUERIN étant le seul à son poste, la fabrication est bloquée entraînant des retards\ndans les livraisons. Marie DESBOIS notifie alors à Éric GUERIN son licenciement.\nRépondre aux questions 1, 2 et 3.",
+    "annexes": [
+     "Annexe 1 : l’employeur est tenu d’une obligation de sécurité à l’égard de ses",
+     "Annexe 2 : un salarié peut-il refuser de travailler dans une situation",
+     "Annexe 3 : la Cour de cassation précise le licenciement pour absences répétées"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Marie DESBOIS peut avancer pour justifier le licenciement de son salarié.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que peut avancer Éric GUERIN pour contester son licenciement.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C1.2",
+  "type": "cas",
+  "section": 1,
+  "section_titre": "1.2 La règle de droit",
+  "partenaire": 2,
+  "partenaire_titre": "1.3 Les sources du droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.028,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "1.2 La règle de droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "La règle de droit est légitime, générale et obligatoire. En prenant appui sur quelques règles provenant de divers codes (Code civil, Code du travail, Code pénal par exemple) et à partir de situations concrètes de mise en œuvre, les élèves comprennent que la règle de droit émane d’autorités compétentes. Sa formulation en termes généraux lui permet de garantir l’égalité devant la loi de toutes les personnes placées dans la même situation juridique. Le droit ayant vocation à saisir toutes les situations de la vie en société, il ne peut pas décrire chacune d’elles en raison du caractère général et abstrait de la règle de droit. Il se réfère donc à des catégories juridiques : la personne physique, la victime, le contrat, le salarié par exemple. C’est l’opération de qualification juridique.\nNotions : Caractères de la règle de droit. Autorité légitime.",
+   "articles": [
+    "Article 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+    "Article L643-7-1 du Code de commerce : Le créancier qui a reçu un paiement en violation de la règle de l'égalité des créanciers chirographaires ou par suite d'une erreur sur l'ordre des privilèges doit restituer les sommes ainsi versées."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "1.3 Les sources du droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "Les règles de droit émanent d’autorités légitimes. L’étude de quelques normes et de leur autorité créatrice permet d’identifier les sources du droit. L’analyse est centrée sur les sources écrites et la jurisprudence. Les sources communautaires, nationales, y compris celles issues de la négociation collective, sont étudiées sans entrer dans le détail de leur création. L’étude permet de réaffirmer le caractère européen de notre système juridique et d’observer que la cohérence de l’ordre juridique repose sur la complémentarité et la hiérarchie des sources du droit. Elle permet également de rappeler les principes d’organisation et de séparation des pouvoirs. La notion de jurisprudence est abordée ainsi que le rôle d’unification du droit de la Cour de cassation.\nNotions : Constitution. Contrôle de constitutionnalité (QPC). Droit communautaire, traités, droit dérivé (règlement, directive)/ Commission européenne, Conseil de l’Union européenne Parlement européen. Loi/parlement. Règlement/ gouvernement. Jurisprudence/autorité judiciaire. Conventions et accords collectifs/partenaires sociaux. Organisation judiciaire. Hiérarchie des normes.\nCapacités attendues : l'élève est capable d’identifier les éléments d’un ; litige : parties, faits, prétentions, question de droit ; au moyen d’une argumentation si le litige est causé par un acte ou ; de déterminer par ; un fait juridique afin d'envisager un mode de preuve adapté ; d’apprécier ; la force probante d'un élément de preuve dans une situation donnée ; de déterminer la juridiction qui a prononcé une décision de justice ; de sélectionner la juridiction susceptible de juger un litige ; de distinguer le rôle du procès civil et du procès pénal ; d’identifier les phases d’un ; d’expliquer ; les enjeux de la constitution de partie civile.",
+   "articles": [
+    "Article L232-3 du Code de la consommation : Nonobstant toute stipulation contraire, le consommateur ne peut être privé de la protection que lui assurent les dispositions prises par un Etat membre de l'Union européenne en application de la directive 2011/83/UE du Parlement européen et du Conseil du 25 octobre 2011 relative aux droits des consommateurs, modifiant la directive 93/13/CEE du Conseil et la directive 1999/44/CE du Parlement européen et du Conseil et abrogeant la directive 85/577/CEE du Conseil et la directive 97/7/CE du Parlement européen et du Conseil, lorsque le contrat conclu à distance ou hors établissement présente un lien étroit avec le territoire de cet Etat.",
+    "Article L232-4 du Code de la consommation : Lorsque les parties ont choisi la loi d'un Etat non membre de l'Union européenne pour régir le contrat, le juge devant lequel est invoquée cette loi est tenu d'en écarter l'application au profit des dispositions plus protectrices de la loi de la résidence habituelle du consommateur assurant la transposition de la directive 2023/2673 du Parlement européen et du Conseil du 22 novembre 2023, lorsque le contrat présente un lien étroit avec le territoire d'un ou plusieurs Etats membres de l'Union européenne.",
+    "Article L2231-6 du Code du travail : Les conventions et accords font l'objet d'un dépôt dans des conditions déterminées par voie réglementaire.",
+    "Article L2222-1 du Code du travail : Les conventions et accords collectifs de travail, ci-après désignés \" conventions \" et \" accords \" dans le présent livre, déterminent leur champ d'application territorial et professionnel. Le champ d'application professionnel est défini en termes d'activités économiques. Pour ce qui concerne les professions agricoles mentionnées aux 1° à 3°, 6° et 7° de l'article L. 722-20 du code rural et de la pêche maritime, le champ d'application des conventions et accords peut, en outre, tenir compte du statut juridique des entreprises concernées ou du régime de protection sociale d'affiliation de leurs salariés. Les conventions et accords collectifs de travail dont le champ d'application est national s'appliquent, sauf stipulations contraires, en Guadeloupe, en Guyane, en Martinique, à Mayotte, à La Réunion, à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, dans un délai de six mois à compter de leur date d'entrée en vigueur. Ce délai est imparti aux organisations syndicales de salariés et d'employeurs habilitées à négocier dans ces collectivités pour conclure des accords dans le même champ si elles le souhaitent."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+    "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole",
+    "titre": "ANNEXE 4 – Regard historique sur l’ordre public et le contrat",
+    "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 1 : extrait du Code civil",
+    "texte": "Article 1102 : chacun est libre de contracter ou de ne pas contracter, de choisir son\ncocontractant et de déterminer le contenu et la forme du contrat dans les limites fixées\npar la loi.\nLa liberté contractuelle ne permet pas de déroger aux règles qui intéressent l’ordre\npublic.\nArticle 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1170 : toute clause qui prive de sa substance l'obligation essentielle du\ndébiteur est réputée non écrite.\nArticle 1171 : dans un contrat d'adhésion, toute clause qui crée un déséquilibre\nsignificatif entre les droits et obligations des parties au contrat est réputée non écrite.\nArticle 1231-1 : le débiteur est condamné, s’il y a lieu, au paiement de dommages et\nintérêts soit à raison de l’inexécution de l’obligation, soit à raison du retard dans\nl’exécution, toutes les fois qu’il ne justifie pas que l’inexécution provient d’une cause\nétrangère qui ne peut lui être imputée encore qu’il n’y ait aucune mauvaise foi de sa\npart."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code de la consommation",
+    "texte": "Article L111-1\nAvant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel\ncommunique au consommateur, de manière lisible et compréhensible, les informations\nsuivantes :\nnumérique ou du contenu numérique, compte tenu de leur nature et du support de\ncommunication utilisé, et notamment les fonctionnalités […] du contenu numérique ou\ndu service numérique […] ;\nArticle L221-18\nLe consommateur dispose d’un délai de quatorze jours pour exercer son droit de\nrétractation d’un contrat conclu à distance, […], sans avoir à motiver sa décision […].\nLe délai mentionné au premier alinéa court à compter du jour : […]\ndésigné par lui, pour les contrats de vente de biens. […]\nArticle L221-28\nLe droit de rétractation ne peut être exercé pour les contrats : […]\nnettement personnalisés ;\net qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la\nsanté […].\nEN_NOjczNT7QzNjAc0ND4UzMsTYxMj7A2NTAAwMTdY5OATgx"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nClaire Vidal, 16 ans, et sa sœur Marie, 11 ans, souhaitent profiter de leur samedi\naprès-midi pour se promener et faire les boutiques en ville.\nLeurs parents acceptent, à condition qu’elles emmènent avec elles leur petite sœur de\n8 mois, Juliette, et que ce soit l’ainée, Claire, qui tienne la poussette.\nMarie prend très à cœur son rôle de grande sœur. Une fois partie de la maison, elle\nsupplie Claire d’accepter de lui confier la poussette dans laquelle dort sa sœur. Devant\nl’insistance de Marie, Claire accepte.\nAu bout d’un certain temps, Juliette se réveille et se met à pleurer. Claire la sort de la\npoussette et la prend alors dans les bras afin de la calmer.\nMarie qui tient toujours la poussette, entend soudainement une voix qui crie son\nprénom. Elle se retourne afin de voir qui l’appelle et ce faisant, elle lâche\nmalencontreusement la poussette. Celle-ci se met à dévaler le trottoir qui descend\nvers un square et percute un cycliste, Jean Palain, qui chute sur le trottoir.\nEn effet à 80 ans passés, s’il apprécie particulièrement de rouler en vélo, Jean Palain\nest effrayé par les voitures qui le frôlent lorsqu’il est sur la route. Il a ainsi pris l’habitude\nde rouler sur le trottoir afin de se protéger.\nSuite à la collision avec la poussette lâchée par Marie, Jean Palain chute et se blesse.\nUne fois arrivé à l’hôpital, les médecins lui annoncent que sa clavicule est cassée. Par\nailleurs, son vélo, auquel il tenait beaucoup, est hors d’usage.\nTrès embêté, Jean Palain vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1: articles du Code civil",
+     "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+     "Annexe 3: loi du 5 juillet 1985 dite loi Badinter (extrait)",
+     "Annexe 4: règles de circulation pour les cyclistes (extrait)"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMarie Vidal, enfant mineure des époux Vidal, lâche une poussette qui provoque la\nchute de Jean Palain, roulant à vélo sur le trottoir. Jean Palain subit des dommages\ncorporels et matériels dont il souhaite obtenir réparation."
+     },
+     {
+      "enonce": "Déterminez si la loi du 5 juillet 1985 s’applique au cas d’espèce.",
+      "points": null,
+      "corrige": "La loi du 5 juillet 1985 a pour objectif principal la protection des victimes comme\nl'indique d'ailleurs le titre même de la loi (loi \"tendant à l'amélioration de la situation\ndes victimes d'accidents de la circulation…\").\nL'article 1 limite son champ d'application aux victimes des accidents de la circulation\ncausés par un véhicule terrestre à moteur. \"Les dispositions du présent chapitre\ns'appliquent, […], aux victimes d'un accident de la circulation dans lequel est impliqué\nun véhicule terrestre à moteur…]\".\nEn l’espèce, on peut certes qualifier l'accident d'accident de la circulation, mais aucun\nvéhicule terrestre à moteur n'est impliqué dans cet accident.\nConclusion\nLa loi du 5 juillet 1985 ne s’applique pas au cas d’espèce."
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice.",
+      "points": null,
+      "corrige": "avancer pour obtenir réparation de son préjudice\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en vue d'une conclusion\nlogique.\nUne poussette appartenant aux époux Vidal a échappé au contrôle de leurs enfants\nmineurs. Elle a percuté et fait chuté M. Palain, ce qui a occasionné des dommages\npatrimoniaux (frais médicaux, dommages au vélo). Ces dommages subis par Jean\nPalain sont directs et certains. Ils présentent bien les caractères d’un dommage\nindemnisable au sens juridique.\nLes époux Vidal n'ayant pas de lien contractuel avec la victime, seule la responsabilité\nextracontractuelle est envisageable.\nIls sont en effet responsables sur le fondement de la responsabilité du fait personnel.\nLes parents ont commis une faute (articles 1240 et 1241 du Code civil) en ne\nsurveillant pas leurs enfants ou en laissant les […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+      "points": null,
+      "corrige": "lui opposer\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nJean Palain a commis une infraction au Code de la route. Cette négligence – faute de\nla victime - est la cause des dommages subis par Jean Palain. S'il n'avait pas circulé\nsur le trottoir, il n'aurait pas été percuté par la poussette.\nLe Code de la route dispose en effet que les cyclistes doivent rouler sur la chaussée\net non sur le trottoir.\nDonc, pour s’exonérer (au moins partiellement) de sa responsabilité, la famille Vidal\npourrait appuyer son argumentation sur la faute de la victime."
+     },
+     {
+      "enonce": "Justifiez l’intérêt de la diversité des régimes de responsabilité civile.",
+      "points": null,
+      "corrige": "La question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nIl existe en effet une diversité de régimes de responsabilité.\nLes différents régimes de la responsabilité civile sont :\n\nLa responsabilité du fait personnel\n\n\nLa responsabilité du fait d’autrui et du fait des choses\n\n\nLes régimes spéciaux (régime des accidents de la circulation et régime des\nproduits défectueux, …)\n\n\nLa responsabilité contractuelle.\n\n\n\n\nCes différents régimes ont été créés au fil du temps par le législateur et par la\njurisprudence pour répondre à une diversité de situation et répondre toujours plus au\nbesoin d'indemnisation des victimes.\nL’intérêt de cette diversité est donc de réparer les dommages dans toutes les situations\nen facilitant les modalités juridiques de preuve […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nFabienne et Loïc Fabre recherchent un terrain pour aller vivre à la campagne.\nLors d’une promenade en famille, dans les environs de Brest, la famille Fabre\naperçoit un terrain à céder et ils contactent monsieur Marcellin, le propriétaire depuis\n30 ans. Celui-ci leur apporte des précisions sur la surface et le prix. Monsieur\nMarcellin propose également aux époux Fabre une visite le dimanche suivant et leur\nconseille de prendre tous renseignements utiles auprès de la Mairie.\nFabienne et Loïc Fabre expliquent à M. Marcellin que ce terrain correspond\nparfaitement à ce qu’ils recherchent : situé à la campagne, au calme, loin du tumulte\nde la ville, pas trop loin de leur lieu de travail et des écoles pour les enfants. Après\nleur journée de travail, les époux Fabre retournent voir plusieurs fois le terrain et\ndécident de faire rapidement une offre à monsieur Marcellin.\nUne fois propriétaires du terrain, Fabienne et Loïc Fabre conviennent d’un rendezvous sur place avec un architecte spécialisé dans la conception de maisons en bois.\nAlors que Fabienne commence à expliquer à l’architecte ce qu’elle souhaite, elle\nentend des bruits qui semblent correspondre à des camions qui déchargent des\nmarchandises et à des engins de sciage. Ces bruits proviennent d’une scierie\ninstallée à proximité mais qui n’était pas visible depuis le terrain mais visible depuis\nla route.\nTous les espoirs de Fabienne et Loïc Fabre de vivre dans une maison au calme\ns’envolent. Finalement le terrain ne correspond pas à ce qu’ils souhaitaient.\nIls envisagent de demander l’annulation de la vente du […]",
+    "annexes": [
+     "Annexe 1 : articles du Code civil",
+     "Annexe 2 : la réticence dolosive du vendeur :",
+     "Annexe 3 : précisons sur l’erreur et le vice du consentement – Arrêt de la Cour"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nM. Marcellin (propriétaire, vendeur) a conclu un contrat de vente avec Loïc et Fabienne\nFabre (acheteurs). L’objet de ce contrat est un terrain situé à la campagne. Ils réalisent\nau bout de quelques semaines que le terrain ne correspond pas à ce qu’ils pensaient.\nIl s’agit d’un terrain situé près d’une scierie dont l’activité en journée engendre\n\nPage: 7/22\n\n\nbeaucoup de bruit (déchargement de camions, machines…) alors qu’ils recherchaient\nun terrain à la campagne pour être au calme. Ils demandent la nullité du contrat de\nvente."
+     },
+     {
+      "enonce": "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+      "points": 2.5,
+      "corrige": "pourraient avancer pour demander la nullité du contrat de vente. (2.5\npoints)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nLes acheteurs ont commis une erreur. Ils souhaitent un terrain au calme et finalement\nleur terrain est situé à proximité d'une installation bruyante.\nLeur consentement est donc vicié par l'erreur qu'ils ont commise.\nEn application de l’article 1131 Code civil, les vices du consentement sont une cause\nde nullité relative du contrat. Les vices du consentement sont l’erreur, le dol et la\nviolence.\nOn acceptera qu’un candidat développe son argumentation soit sur l’erreur soit\nsur le dol.\nEn application de l’article 1132 du Code civil et de l’annexe 3, l'erreur de droit ou de\nfait, à moins qu'elle ne soit inexcusable, est une cause de nullité du […]"
+     },
+     {
+      "enonce": "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+      "points": 2.5,
+      "corrige": "contester la nullité du contrat de vente. (2.5 points)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nMonsieur Marcellin pourrait argumenter qu’il leur a donné les informations nécessaires\npour se décider (suggestion de contacter la mairie). De plus, il n’a pas saisi que le\ncritère de calme était déterminant. Il est donc de bonne foi.\nL’existence de la scierie n’a pas été dissimilée aux époux Fabre qui pouvaient\nconnaitre l'existence de cette entreprise qui générait du bruit aux alentours. Par\nconséquent :\n\nLe consentement n’a pas été vicié par dol puisque M. Marcellin n’a pas cherché\nà dissimuler l’information que M. et Mme Fabre pouvaient déjà connaître ou\nqu'ils pouvaient découvrir avec un minimum de diligence.\n\n\nDans ce cas, il y a erreur, mais celle-ci n’est pas […]"
+     },
+     {
+      "enonce": "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement.",
+      "points": 3.0,
+      "corrige": "consentement. (3 points)\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nLe contrat est une loi entre les parties qui s'impose à elles ainsi qu'au juge. Cette loi\nne vaut que parce que les parties ont donné un consentement libre et éclairé. Dès lors\nsi le consentement a été vicié, il n’est plus à même de justifier l’existence du lien\ncontractuel.\nLes vices du consentement sont au nombre de 3 :\n\nL’erreur constitue un vice de consentement car les parties n’auraient pas\ndonné leur accord si elles avaient eu connaissance de la réalité au moment de\nla formation du contrat. Le législateur a voulu protéger la partie qui a donné son\nconsentement par erreur en lui permettant de demander la nullité du contrat.\nC’est-à-dire que les parties […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E1.2",
+  "type": "exercices",
+  "section": 1,
+  "section_titre": "1.2 La règle de droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "1.2 La règle de droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "La règle de droit est légitime, générale et obligatoire. En prenant appui sur quelques règles provenant de divers codes (Code civil, Code du travail, Code pénal par exemple) et à partir de situations concrètes de mise en œuvre, les élèves comprennent que la règle de droit émane d’autorités compétentes. Sa formulation en termes généraux lui permet de garantir l’égalité devant la loi de toutes les personnes placées dans la même situation juridique. Le droit ayant vocation à saisir toutes les situations de la vie en société, il ne peut pas décrire chacune d’elles en raison du caractère général et abstrait de la règle de droit. Il se réfère donc à des catégories juridiques : la personne physique, la victime, le contrat, le salarié par exemple. C’est l’opération de qualification juridique.\nNotions : Caractères de la règle de droit. Autorité légitime.",
+   "articles": [
+    "Article 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+    "Article L643-7-1 du Code de commerce : Le créancier qui a reçu un paiement en violation de la règle de l'égalité des créanciers chirographaires ou par suite d'une erreur sur l'ordre des privilèges doit restituer les sommes ainsi versées."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+    "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nClaire Vidal, 16 ans, et sa sœur Marie, 11 ans, souhaitent profiter de leur samedi\naprès-midi pour se promener et faire les boutiques en ville.\nLeurs parents acceptent, à condition qu’elles emmènent avec elles leur petite sœur de\n8 mois, Juliette, et que ce soit l’ainée, Claire, qui tienne la poussette.\nMarie prend très à cœur son rôle de grande sœur. Une fois partie de la maison, elle\nsupplie Claire d’accepter de lui confier la poussette dans laquelle dort sa sœur. Devant\nl’insistance de Marie, Claire accepte.\nAu bout d’un certain temps, Juliette se réveille et se met à pleurer. Claire la sort de la\npoussette et la prend alors dans les bras afin de la calmer.\nMarie qui tient toujours la poussette, entend soudainement une voix qui crie son\nprénom. Elle se retourne afin de voir qui l’appelle et ce faisant, elle lâche\nmalencontreusement la poussette. Celle-ci se met à dévaler le trottoir qui descend\nvers un square et percute un cycliste, Jean Palain, qui chute sur le trottoir.\nEn effet à 80 ans passés, s’il apprécie particulièrement de rouler en vélo, Jean Palain\nest effrayé par les voitures qui le frôlent lorsqu’il est sur la route. Il a ainsi pris l’habitude\nde rouler sur le trottoir afin de se protéger.\nSuite à la collision avec la poussette lâchée par Marie, Jean Palain chute et se blesse.\nUne fois arrivé à l’hôpital, les médecins lui annoncent que sa clavicule est cassée. Par\nailleurs, son vélo, auquel il tenait beaucoup, est hors d’usage.\nTrès embêté, Jean Palain vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1: articles du Code civil",
+     "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+     "Annexe 3: loi du 5 juillet 1985 dite loi Badinter (extrait)",
+     "Annexe 4: règles de circulation pour les cyclistes (extrait)"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMarie Vidal, enfant mineure des époux Vidal, lâche une poussette qui provoque la\nchute de Jean Palain, roulant à vélo sur le trottoir. Jean Palain subit des dommages\ncorporels et matériels dont il souhaite obtenir réparation."
+     },
+     {
+      "enonce": "Déterminez si la loi du 5 juillet 1985 s’applique au cas d’espèce.",
+      "points": null,
+      "corrige": "La loi du 5 juillet 1985 a pour objectif principal la protection des victimes comme\nl'indique d'ailleurs le titre même de la loi (loi \"tendant à l'amélioration de la situation\ndes victimes d'accidents de la circulation…\").\nL'article 1 limite son champ d'application aux victimes des accidents de la circulation\ncausés par un véhicule terrestre à moteur. \"Les dispositions du présent chapitre\ns'appliquent, […], aux victimes d'un accident de la circulation dans lequel est impliqué\nun véhicule terrestre à moteur…]\".\nEn l’espèce, on peut certes qualifier l'accident d'accident de la circulation, mais aucun\nvéhicule terrestre à moteur n'est impliqué dans cet accident.\nConclusion\nLa loi du 5 juillet 1985 ne s’applique pas au cas d’espèce."
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice.",
+      "points": null,
+      "corrige": "avancer pour obtenir réparation de son préjudice\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en vue d'une conclusion\nlogique.\nUne poussette appartenant aux époux Vidal a échappé au contrôle de leurs enfants\nmineurs. Elle a percuté et fait chuté M. Palain, ce qui a occasionné des dommages\npatrimoniaux (frais médicaux, dommages au vélo). Ces dommages subis par Jean\nPalain sont directs et certains. Ils présentent bien les caractères d’un dommage\nindemnisable au sens juridique.\nLes époux Vidal n'ayant pas de lien contractuel avec la victime, seule la responsabilité\nextracontractuelle est envisageable.\nIls sont en effet responsables sur le fondement de la responsabilité du fait personnel.\nLes parents ont commis une faute (articles 1240 et 1241 du Code civil) en ne\nsurveillant pas leurs enfants ou en laissant les […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+      "points": null,
+      "corrige": "lui opposer\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nJean Palain a commis une infraction au Code de la route. Cette négligence – faute de\nla victime - est la cause des dommages subis par Jean Palain. S'il n'avait pas circulé\nsur le trottoir, il n'aurait pas été percuté par la poussette.\nLe Code de la route dispose en effet que les cyclistes doivent rouler sur la chaussée\net non sur le trottoir.\nDonc, pour s’exonérer (au moins partiellement) de sa responsabilité, la famille Vidal\npourrait appuyer son argumentation sur la faute de la victime."
+     },
+     {
+      "enonce": "Justifiez l’intérêt de la diversité des régimes de responsabilité civile.",
+      "points": null,
+      "corrige": "La question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nIl existe en effet une diversité de régimes de responsabilité.\nLes différents régimes de la responsabilité civile sont :\n\nLa responsabilité du fait personnel\n\n\nLa responsabilité du fait d’autrui et du fait des choses\n\n\nLes régimes spéciaux (régime des accidents de la circulation et régime des\nproduits défectueux, …)\n\n\nLa responsabilité contractuelle.\n\n\n\n\nCes différents régimes ont été créés au fil du temps par le législateur et par la\njurisprudence pour répondre à une diversité de situation et répondre toujours plus au\nbesoin d'indemnisation des victimes.\nL’intérêt de cette diversité est donc de réparer les dommages dans toutes les situations\nen facilitant les modalités juridiques de preuve […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C1.3",
+  "type": "cas",
+  "section": 2,
+  "section_titre": "1.3 Les sources du droit",
+  "partenaire": 1,
+  "partenaire_titre": "1.2 La règle de droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.043,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "En quoi la Cour de cassation est-elle indispensable au système juridique français ?",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "1.3 Les sources du droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "Les règles de droit émanent d’autorités légitimes. L’étude de quelques normes et de leur autorité créatrice permet d’identifier les sources du droit. L’analyse est centrée sur les sources écrites et la jurisprudence. Les sources communautaires, nationales, y compris celles issues de la négociation collective, sont étudiées sans entrer dans le détail de leur création. L’étude permet de réaffirmer le caractère européen de notre système juridique et d’observer que la cohérence de l’ordre juridique repose sur la complémentarité et la hiérarchie des sources du droit. Elle permet également de rappeler les principes d’organisation et de séparation des pouvoirs. La notion de jurisprudence est abordée ainsi que le rôle d’unification du droit de la Cour de cassation.\nNotions : Constitution. Contrôle de constitutionnalité (QPC). Droit communautaire, traités, droit dérivé (règlement, directive)/ Commission européenne, Conseil de l’Union européenne Parlement européen. Loi/parlement. Règlement/ gouvernement. Jurisprudence/autorité judiciaire. Conventions et accords collectifs/partenaires sociaux. Organisation judiciaire. Hiérarchie des normes.\nCapacités attendues : l'élève est capable d’identifier les éléments d’un ; litige : parties, faits, prétentions, question de droit ; au moyen d’une argumentation si le litige est causé par un acte ou ; de déterminer par ; un fait juridique afin d'envisager un mode de preuve adapté ; d’apprécier ; la force probante d'un élément de preuve dans une situation donnée ; de déterminer la juridiction qui a prononcé une décision de justice ; de sélectionner la juridiction susceptible de juger un litige ; de distinguer le rôle du procès civil et du procès pénal ; d’identifier les phases d’un ; d’expliquer ; les enjeux de la constitution de partie civile.",
+   "articles": [
+    "Article L232-3 du Code de la consommation : Nonobstant toute stipulation contraire, le consommateur ne peut être privé de la protection que lui assurent les dispositions prises par un Etat membre de l'Union européenne en application de la directive 2011/83/UE du Parlement européen et du Conseil du 25 octobre 2011 relative aux droits des consommateurs, modifiant la directive 93/13/CEE du Conseil et la directive 1999/44/CE du Parlement européen et du Conseil et abrogeant la directive 85/577/CEE du Conseil et la directive 97/7/CE du Parlement européen et du Conseil, lorsque le contrat conclu à distance ou hors établissement présente un lien étroit avec le territoire de cet Etat.",
+    "Article L232-4 du Code de la consommation : Lorsque les parties ont choisi la loi d'un Etat non membre de l'Union européenne pour régir le contrat, le juge devant lequel est invoquée cette loi est tenu d'en écarter l'application au profit des dispositions plus protectrices de la loi de la résidence habituelle du consommateur assurant la transposition de la directive 2023/2673 du Parlement européen et du Conseil du 22 novembre 2023, lorsque le contrat présente un lien étroit avec le territoire d'un ou plusieurs Etats membres de l'Union européenne.",
+    "Article L2231-6 du Code du travail : Les conventions et accords font l'objet d'un dépôt dans des conditions déterminées par voie réglementaire.",
+    "Article L2222-1 du Code du travail : Les conventions et accords collectifs de travail, ci-après désignés \" conventions \" et \" accords \" dans le présent livre, déterminent leur champ d'application territorial et professionnel. Le champ d'application professionnel est défini en termes d'activités économiques. Pour ce qui concerne les professions agricoles mentionnées aux 1° à 3°, 6° et 7° de l'article L. 722-20 du code rural et de la pêche maritime, le champ d'application des conventions et accords peut, en outre, tenir compte du statut juridique des entreprises concernées ou du régime de protection sociale d'affiliation de leurs salariés. Les conventions et accords collectifs de travail dont le champ d'application est national s'appliquent, sauf stipulations contraires, en Guadeloupe, en Guyane, en Martinique, à Mayotte, à La Réunion, à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, dans un délai de six mois à compter de leur date d'entrée en vigueur. Ce délai est imparti aux organisations syndicales de salariés et d'employeurs habilitées à négocier dans ces collectivités pour conclure des accords dans le même champ si elles le souhaitent."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "1.2 La règle de droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "La règle de droit est légitime, générale et obligatoire. En prenant appui sur quelques règles provenant de divers codes (Code civil, Code du travail, Code pénal par exemple) et à partir de situations concrètes de mise en œuvre, les élèves comprennent que la règle de droit émane d’autorités compétentes. Sa formulation en termes généraux lui permet de garantir l’égalité devant la loi de toutes les personnes placées dans la même situation juridique. Le droit ayant vocation à saisir toutes les situations de la vie en société, il ne peut pas décrire chacune d’elles en raison du caractère général et abstrait de la règle de droit. Il se réfère donc à des catégories juridiques : la personne physique, la victime, le contrat, le salarié par exemple. C’est l’opération de qualification juridique.\nNotions : Caractères de la règle de droit. Autorité légitime.",
+   "articles": [
+    "Article 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+    "Article L643-7-1 du Code de commerce : Le créancier qui a reçu un paiement en violation de la règle de l'égalité des créanciers chirographaires ou par suite d'une erreur sur l'ordre des privilèges doit restituer les sommes ainsi versées."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code de la consommation",
+    "texte": "Article L111-1\nAvant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel\ncommunique au consommateur, de manière lisible et compréhensible, les informations\nsuivantes :\nnumérique ou du contenu numérique, compte tenu de leur nature et du support de\ncommunication utilisé, et notamment les fonctionnalités […] du contenu numérique ou\ndu service numérique […] ;\nArticle L221-18\nLe consommateur dispose d’un délai de quatorze jours pour exercer son droit de\nrétractation d’un contrat conclu à distance, […], sans avoir à motiver sa décision […].\nLe délai mentionné au premier alinéa court à compter du jour : […]\ndésigné par lui, pour les contrats de vente de biens. […]\nArticle L221-28\nLe droit de rétractation ne peut être exercé pour les contrats : […]\nnettement personnalisés ;\net qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la\nsanté […].\nEN_NOjczNT7QzNjAc0ND4UzMsTYxMj7A2NTAAwMTdY5OATgx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-polynesie",
+    "titre": "ANNEXE 2 – Revirement de jurisprudence majeur en matière de responsabilité",
+    "texte": "civile des parents séparés\nPar un arrêt d’Assemblée plénière du 28 juin 2024, la Cour de cassation a fait évoluer\nsa jurisprudence sur la responsabilité des parents séparés, titulaires de l’autorité\nparentale, du fait des dommages causés par leur enfant mineur.\nL’article 1242 alinéa 4 du code civil (\"Le père et la mère, en tant qu'ils exercent l'autorité\nparentale, sont solidairement responsables du dommage causé par leurs enfants\nmineurs habitant avec eux\") édicte une responsabilité de plein droit des père et mère\ndu fait des dommages causés par leur enfant mineur habitant avec eux, dont seule la\nforce majeure ou la faute de la victime peut les exonérer.\nEn cas de séparation des parents, la Cour de cassation retenait uniquement la\nresponsabilité de plein droit du seul parent chez lequel la résidence habituelle de\nl'enfant a été fixée, quand bien même l'autre parent, bénéficiaire d'un droit de visite et\nd'hébergement, exercerait conjointement l'autorité parentale. Dès lors, seul ce parent\ndétenteur de la résidence habituelle pouvait être condamné à réparer les dommages\ncausés par son enfant mineur.\nLa Cour de cassation considère dorénavant que lorsqu'ils exercent conjointement\nl'autorité parentale à l'égard de leur enfant mineur, les deux parents sont solidairement\nEN_MOTM0NT7QzNjAc0ND7UzMsTYxMj4A2NTAAwMThYyNBjYx\nresponsables des dommages causés par celui-ci, dès lors que l'enfant n'a pas été\nconfié à un tiers par une décision administrative ou judiciaire. […]\nLa Cour de cassation étend ainsi la responsabilité de plein droit aux parents détenteurs\nde l’autorité parentale titulaires d’un simple droit de visite et d’hébergement, dans un\nsens plus conforme au principe de coparentalité […].\nSource : Conseil national des barreaux, 2 juillet 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : La réparation du préjudice écologique",
+    "texte": "Confronté à l’article 1240 du Code civil, le préjudice écologique pur posait un problème\nredoutable. En effet, le préjudice écologique pur n’est pas subi par « autrui », c’est-àdire par une personne, qu’elle soit publique ou privée, mais par la nature elle-même et\npar la collectivité. Faute de caractère personnel, on pouvait donc douter que le\npréjudice écologique pur puisse être réparé sur le fondement de l’article 1240 du Code\ncivil.\nCertes, la Cour de cassation avait fini par admettre la réparation du préjudice\nécologique pur dans l’affaire ERIKA (Crim. 25 sept. 2012, n° 10-82.938). Mais\nnombreux étaient ceux qui appelaient de leurs vœux une prise en compte de la\nspécificité du préjudice écologique dans la loi, afin que la jurisprudence soit consolidée\net que le régime de la réparation soit encadré.\nC’est donc chose faite avec la loi du 8 août 2016. L’article 1246 du Code civil énonce\nque « toute personne responsable d'un préjudice écologique est tenue de le réparer »,\nle préjudice écologique étant défini comme « une atteinte non négligeable aux\néléments ou aux fonctions des écosystèmes ou aux bénéfices collectifs tirés par\nl'homme de l'environnement » (art. 1247).\nPar ailleurs, la loi donne une liste, semble-t-il non limitative, mais tout de même assez\ncomplète, des personnes qui pourront solliciter la réparation du préjudice écologique :\n« l'État, l'Agence française pour la biodiversité, les collectivités territoriales et leurs\ngroupements dont le territoire est concerné, ainsi que les établissements publics et les\nassociations, agréées ou créées depuis au moins cinq ans à la date d'introduction de\nl'instance, qui ont pour objet la protection de la nature et la défense de\nl'environnement » (art. 1248).\nEn outre, elle précise qui recevra les dommages et intérêts lorsque la réparation en\nnature ne sera pas possible, et ce qu’il devra en faire : « En cas d'impossibilité de droit\nou de fait ou d'insuffisance des mesures de réparation, le juge condamne le\nresponsable à verser des dommages et intérêts, affectés à la réparation de\nl'environnement, au demandeur ou, si celui-ci ne peut prendre les mesures utiles à\ncette fin, à l'État » (art. 1249)\nEnfin, la loi […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+    "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2025-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nAbir MONSE, a été engagée en tant qu’ingénieure par la SA ATONERGIE, spécialisée dans\nl’entretien de centrales nucléaires. La société fabrique aussi des équipements de protection\npour le personnel intervenant dans les centrales. Elle a également élargi ses activités et\npropose des formations de prévention aux risques nucléaires. Abir MONSE travaille à la\nréalisation d’un nouvel équipement innovant de protection contre les radiations.\nDepuis son ordinateur professionnel, elle dialogue régulièrement sur sa messagerie privée\nFacebook avec un ancien camarade de son école d’ingénieur qui travaille chez une\nentreprise concurrente, la SA OSMOZPRO. La SA OSMOZPRO et la SA ATONERGIE sont\nconcurrentes et elles cherchent à se différencier en innovant en permanence.\nLors d’une réunion, Abir MONSE doit s’absenter pour répondre à un appel important. Son\nemployeur utilise alors son ordinateur pour avoir accès à un document technique. Mais c’est\nla page Facebook personnelle d’Abir MONSE qui est affichée sur l’écran de l’ordinateur.\nL’employeur lit la discussion affichée. Il s’agit d’un échange entre Abir MONSE et son ancien\ncamarade.\nIl est notamment écrit : « nous avons cartonné, l’innovation dont je t’ai parlée est sur le point\nd’être mise en fabrication ». L’employeur est choqué d’autant que la réponse du camarade\nlaisse présager le pire : « super, bravo à vous ! Nous pensons faire la même chose ».\nL’employeur, inquiet, prend une photo de l’écran où apparaissent ces messages avant\nqu’Abir MONSE ne revienne dans la salle de réunion.\nL’employeur décide de convoquer Abir MONSE à un entretien préalable à son […]",
+    "annexes": [
+     "Annexe 1 – Extrait du contrat de travail d’Abir MONSE",
+     "Annexe 2 – Articles de loi",
+     "Annexe 3 – Légalité et loyauté de la preuve",
+     "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+     "Annexe 5 - Textes utilisés dans l’arrêt",
+     "Annexe 6 – Les pouvoirs de l’employeur"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qu’Abir MONSE pourrait avancer pour contester son licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que l’employeur pourrait lui opposer pour justifier ce licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

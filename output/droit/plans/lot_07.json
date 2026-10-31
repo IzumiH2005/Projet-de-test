@@ -1,0 +1,1007 @@
+[
+ {
+  "id": "C6.3",
+  "type": "cas",
+  "section": 15,
+  "section_titre": "6.3 Les moyens d’exonération",
+  "partenaire": 12,
+  "partenaire_titre": "5.2 L’exécution du contrat",
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "proba_annee_suivante": 0.042,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que madame BALZANA peut avancer pour établir la responsabilité du magasin.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Proposez l'argumentation juridique que la SARL « Ardicuisines » pourrait développer pour s’exonérer de sa responsabilité.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "6.3 Les moyens d’exonération",
+   "theme": "Thème 6 : Qu’est-ce qu’être responsable ?",
+   "texte": "Le responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’un tiers.\nNotions : L’exonération. La cause étrangère. La force majeure. d’un Le fait ou la faute tiers. Le fait ou la faute de la victime.\nLe responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’untiers.\nLes situations juridiques proposées aux élèves doivent les mettre sur la voie d’une recherche de l’exonération totale ou partielle du responsable par la preuve d’une causalité étrangère (force majeure, fait ou faute d’un tiers, fait ou faute de la victime).\nCapacités attendues : l'élève est capable de qualifier une relation de travail dans une situation donnée ; de distinguer le contrat de travail et le contrat d’entreprise ; les éléments essentiels d’un contrat de travail à partir d’un contrat donné ; de repérer ; de caractériser le contrat de travail dans une situation donnée ; la conformité d’un contrat de travail à durée indéterminée aux normes ; de vérifier ; juridiques, y compris à la convention collective ou à l’accord d’entreprise dans une ; situation donnée ; de repérer et de vérifier la validité des clauses spécifiques dans une situation ; donnée : clause de mobilité, clause de non-concurrence, clause de télétravail ; de vérifier les principales conditions de validité de la rupture du contrat de travail dans ; une situation donnée ; de distinguer les causes de licenciement (motif personnel, motif économique) ; apprécier les conséquences dans le cas du licenciement pour motif personnel ; d’apprécier le caractère licite d’une grève ; d’apprécier ; le respect des droits individuels et collectifs des salariés dans une ; situation donnée ; d’expliquer ; les rôles des partenaires sociaux et des représentants salariés dans une ; entreprise.",
+   "articles": [
+    "Article 1245-12 du Code civil : La responsabilité du producteur peut être réduite ou supprimée, compte tenu de toutes les circonstances, lorsque le dommage est causé conjointement par un défaut du produit et par la faute de la victime ou d'une personne dont la victime est responsable.",
+    "Article 1245-13 du Code civil : La responsabilité du producteur envers la victime n'est pas réduite par le fait d'un tiers ayant concouru à la réalisation du dommage.",
+    "Article L133-1 du Code de commerce : Le voiturier est garant de la perte des objets à transporter, hors les cas de la force majeure. Il est garant des avaries autres que celles qui proviennent du vice propre de la chose ou de la force majeure. Toute clause contraire insérée dans toute lettre de voiture, tarif ou autre pièce quelconque, est nulle.",
+    "Article L5134-31 du Code du travail : Les embauches réalisées en contrat d'accompagnement dans l'emploi donnent droit à l'exonération : 1° Pour les personnes morales mentionnées aux 1° et 2° de l'article L. 5134-21 du présent code, des cotisations à la charge de l'employeur au titre des assurances sociales et des allocations familiales, pendant la durée d'attribution de l'aide à l'insertion professionnelle. Toutefois, les cotisations afférentes à la partie de la rémunération qui excède un montant fixé par décret ne donnent pas lieu à exonération ; 2° De la taxe sur les salaires ; 3° De la taxe d'apprentissage ; 4° Des participations dues par les employeurs au titre de l'effort de construction.",
+    "Article 1245-11 du Code civil : Le producteur ne peut invoquer la cause d'exonération prévue au 4° de l'article 1245-10 lorsque le dommage a été causé par un élément du corps humain ou par les produits issus de celui-ci.",
+    "Article L132-4 du Code de commerce : Il est garant de l'arrivée des marchandises et effets dans le délai déterminé par la lettre de voiture, hors les cas de la force majeure légalement constatée."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "5.2 L’exécution du contrat",
+   "theme": "Thème 5 : Quel est le rôle du contrat ?",
+   "texte": "Le contrat légalement formé contraint les parties à exécuter leurs obligations. En cas d’inexécution, le recours à la mise en demeure est le plus souvent nécessaire pour exiger du débiteur l'exécution en nature ou par équivalent. Les sanctions spécifiques au contrat synallagmatique sont étudiées : exception d’inexécution et résolution. La responsabilité contractuelle est abordée dans le thème 6 : « Qu’est-ce qu’être responsable ? ».\nNotions : L’exécution, l’inexécution. L’exception d’inexécution. La mise en demeure. La résiliation, la résolution. La clause pénale. La clause abusive.\nÀ partir de l’analyse des contrats qui leur sont proposés, les élèves identifient les obligations de chacune des parties et sont à même de repérer les manquements contractuels et de déterminer les conséquences de l’inexécution de tout ou partie de ces obligations.\nEn cas d’inexécution, le recours à la mise en demeure est le plus souvent nécessaire pour exiger du débiteur l’exécution en nature ou par équivalent. On étudie les sanctions spécifiques au contrat synallagmatique : exception d’inexécution et résolution. La responsabilité contractuelle est abordée dans le thème 6 « Qu’est-ce qu’être responsable ? ».\nL’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en demeure est une formalité exigée pour constater l’inexécution d’un débiteur. Elle est nécessaire lorsque l’exécution du contrat reste possible. On distingue résiliation et résolution d’un contrat synallagmatique. La clause pénale est une clause par laquelle les parties au contrat évaluent d’une manière forfaitaire et par avance les dommages intérêts dus par le débiteur en cas d’inexécution du contrat. Elle a un objectif de sanction. Il s’agit d’un outil de sécurisation du contrat par anticipation d’un aléa. La réforme du droit des obligations de 2016 consacre l’interdiction des clauses abusives dans les contrats d’adhésion (article 1171 du Code civil) qui sont souvent ceux conclus par les consommateurs.\nCapacités attendues : l'élève est capable de distinguer la responsabilité civile de la responsabilité pénale ; d’analyser ; et de qualifier les faits pour identifier le ou les régimes de responsabilité ; applicables (régimes spéciaux, responsabilité contractuelle et extracontractuelle) ; de qualifier les dommages juridiquement réparables ; conditions d’application des règles relatives à la ; de vérifier les principales ; responsabilité ; d’appliquer ; les règles relatives aux conditions de la responsabilité pour chacun des ; régimes de responsabilité dans des situations concrètes de dommages ; d’apprécier les moyens d’exonération ; d’expliquer comment et pourquoi s’est construit ce système complexe ; d’indemnisation au profit des victimes ; d’expliquer ; comment les risques encourus sont mutualisés par le mécanisme de ; l’assurance.",
+   "articles": [
+    "Article 1225 du Code civil : La clause résolutoire précise les engagements dont l'inexécution entraînera la résolution du contrat. La résolution est subordonnée à une mise en demeure infructueuse, s'il n'a pas été convenu que celle-ci résulterait du seul fait de l'inexécution. La mise en demeure ne produit effet que si elle mentionne expressément la clause résolutoire.",
+    "Article 1226 du Code civil : Le créancier peut, à ses risques et périls, résoudre le contrat par voie de notification. Sauf urgence, il doit préalablement mettre en demeure le débiteur défaillant de satisfaire à son engagement dans un délai raisonnable. La mise en demeure mentionne expressément qu'à défaut pour le débiteur de satisfaire à son obligation, le créancier sera en droit de résoudre le contrat. Lorsque l'inexécution persiste, le créancier notifie au débiteur la résolution du contrat et les raisons qui la motivent. Le débiteur peut à tout moment saisir le juge pour contester la résolution. Le créancier doit alors prouver la gravité de l'inexécution.",
+    "Article 1217 du Code civil : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été imparfaitement, peut : - refuser d'exécuter ou suspendre l'exécution de sa propre obligation ; - poursuivre l'exécution forcée en nature de l'obligation ; - obtenir une réduction du prix ; - provoquer la résolution du contrat ; - demander réparation des conséquences de l'inexécution. Les sanctions qui ne sont pas incompatibles peuvent être cumulées ; des dommages et intérêts peuvent toujours s'y ajouter.",
+    "Article 1231-4 du Code civil : Dans le cas même où l'inexécution du contrat résulte d'une faute lourde ou dolosive, les dommages et intérêts ne comprennent que ce qui est une suite immédiate et directe de l'inexécution.",
+    "Article L6227-11 du Code du travail : Le contrat d'apprentissage est déposé auprès du représentant de l'Etat dans le département du lieu d'exécution du contrat.",
+    "Article L6222-12 du Code du travail : Le contrat d'apprentissage porte mention de la date du début de l'exécution du contrat d'apprentissage, de la période de formation pratique chez l'employeur et de la période de formation en centre de formation d'apprentis. La date de début de la formation pratique chez l'employeur ne peut être postérieure de plus de trois mois au début d'exécution du contrat. La date de début de la période de formation en centre de formation d'apprentis ne peut être postérieure de plus de trois mois au début d'exécution du contrat.",
+    "Article 1328 du Code civil : Le débiteur substitué, et le débiteur originaire s'il reste tenu, peuvent opposer au créancier les exceptions inhérentes à la dette, telles que la nullité, l'exception d'inexécution, la résolution ou la compensation de dettes connexes. Chacun peut aussi opposer les exceptions qui lui sont personnelles.",
+    "Article 1345-3 du Code civil : Les frais de la mise en demeure et de la consignation ou du séquestre sont à la charge du créancier.",
+    "Article 1344-2 du Code civil : La mise en demeure de délivrer une chose met les risques à la charge du débiteur, s'ils n'y sont déjà.",
+    "Article 1228 du Code civil : Le juge peut, selon les circonstances, constater ou prononcer la résolution ou ordonner l'exécution du contrat, en accordant éventuellement un délai au débiteur, ou allouer seulement des dommages et intérêts."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : extrait du Code civil",
+    "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1218 : il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1231-1 : le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans\nl'exécution, s'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable […] du dommage […] causé par le fait des\npersonnes dont on doit répondre, ou des choses que l'on a sous sa garde. […]\nLes maîtres et les commettants, du dommage causé par leurs domestiques et\npréposés dans les fonctions auxquelles ils les ont employés ; […]\nArticle 1253 : le cas fortuit, le fait du tiers ou de la victime sont totalement\nexonératoires s’ils remplissent les caractères de la force majeure."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "ANNEXE 3 – Dans quelle mesure est-on responsable juridiquement de son animal ?",
+    "texte": "La loi précise que donc le responsable [d’un animal] est le propriétaire ou celui qui s’en sert.\nSi une personne confie son animal à un vétérinaire, ou s’il le pensionne dans un chenil, il\nne sera pas responsable en cas de dommage. Attention toutefois, s’il confie son animal à\nun ami, le temps d’une promenade, les tribunaux considèrent généralement que le\npropriétaire reste responsable. [La jurisprudence peut considérer un tiers comme gardien\noccasionnel de l’animal dès l’instant où l’animal lui a été confié sur plusieurs jours.] […]\nUne présomption de responsabilité pèse sur le gardien de l’animal, c’est-à-dire le\npropriétaire ou celui qui en a la garde pendant une durée suffisante : il est présumé être\nfautif en cas de dommage. Concrètement cela signifie que la victime n’a pas à prouver une\nquelconque faute du gardien pour obtenir réparation. […] Si le propriétaire souhaite s’en\ndéfendre, il va devoir prouver qu’il n’est pas responsable ou que la responsabilité est\npartagée. […]\nIl existe trois cas principaux dans lesquels le propriétaire peut s’exonérer de sa\nresponsabilité. […]\nDeuxième cas : le maître peut également s’exonérer de sa responsabilité en cas de faute\nde la victime, par exemple si cette dernière s’est fait mordre après avoir elle-même excité\nl’animal. […]\nPlus précisément, s’agissant de la faute de la victime […], le propriétaire ou le gardien ne\nseront exonérés totalement que si ces fautes présentent les caractéristiques de la force\nmajeure. Dans le cas contraire, la responsabilité est dite « partagée ».\nSource : village-justice."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 1: articles du Code civil",
+    "texte": "Article 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nLe père et la mère, en tant qu'ils exercent l'autorité parentale, sont solidairement\nresponsables du dommage causé par leurs enfants mineurs habitant avec eux. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé.\nArticle1244 : Le propriétaire d'un bâtiment est responsable du dommage causé par\nsa ruine, lorsqu'elle est arrivée par une suite du défaut d'entretien ou par le vice de sa\nconstruction.\nArticle 1245 : Le producteur est responsable du dommage causé par un défaut de\nson produit, qu'il soit ou non lié par un contrat avec la victime."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "ANNEXE 4 – La nécessaire existence des causes d’exonération",
+    "texte": "Même si l’objectif du droit de la responsabilité est d’indemniser les victimes, le dommage\nrésulte parfois de causes qui sont étrangères à la personne qui peut être identifiée comme\nauteur du dommage.\nMais il n’est pas si simple pour le responsable de se libérer de sa responsabilité ; les\nconditions permettant de s’exonérer restent assez strictes.\nPar exemple, la Cour de cassation a rappelé dans un arrêt 7 avril 2022 que la faute de la\nvictime n’exonère totalement le défendeur que si cette victime est à l’origine exclusive de\nson propre dommage. Dans les faits, une personne alcoolisée et sous l’emprise de la\ndrogue, assise à la fenêtre d’un appartement située au cinquième d’un immeuble a basculé\ndans le vide et a trouvé la mort. La Cour a considéré que la responsabilité de ce drame était\npartagée entre la victime et le bailleur de l’appartement qui n’avait pas installé de gardecorps aux fenêtres.\nSource : les auteurs.\nEN_MOTczNT7QzNjAc0ND8UzMsTYxMj8A2NTAAwMTtY5NZDkx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code civil",
+    "texte": "Article 6 : On ne peut déroger, par des conventions particulières, aux lois qui intéressent\nl’ordre public et les bonnes mœurs.\nArticle 1103 : Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1217 : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été\nimparfaitement, peut :\n- refuser d'exécuter ou suspendre l'exécution de sa propre obligation ;\n- poursuivre l'exécution forcée en nature de l'obligation ;\n- obtenir une réduction du prix ;\n- provoquer la résolution du contrat ;\n- demander réparation des conséquences de l'inexécution.\nLes sanctions qui ne sont pas incompatibles peuvent être cumulées ; des dommages et\nintérêts peuvent toujours s'y ajouter.\nArticle 1219 : Une partie peut refuser d'exécuter son obligation, alors même que celle-ci\nest exigible, si l'autre n'exécute pas la sienne et si cette inexécution est suffisamment grave.\nArticle 1231-1 : Le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans l'exécution,\ns'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1231-2 : Les dommages et intérêts dus au créancier sont, en général, de la perte\nqu'il a faite et du gain dont il a été privé […]."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 2 : articles du Code civil",
+    "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1217 : la partie envers laquelle l’engagement qui n’a pas été exécuté, ou l’a\nété imparfaitement peut :\nRefuser d’exécuter ou suspendre l’exécution de sa propre obligation ;\nPoursuivre l’exécution forcée en nature de l’obligation ;\nObtenir une réduction de prix ;\nProvoquer la résolution du contrat ;\nDemander réparation des conséquences de l’inexécution.\nLes sanctions qui ne sont pas incompatibles peuvent être cumulées ; des\ndommages et intérêts peuvent toujours s’y ajouter.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage,\noblige celui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement\npar son fait, mais encore par sa négligence ou par son imprudence."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nLa SA Energymax, filiale d’un grand groupe pétrolier, située sur les côtes normandes,\nassure le stockage, la distribution et le transport de produits pétroliers en France.\nL’activité de la SA Energymax est de plus en plus contestée par les activistes\nécologistes. Des tags apparaissent régulièrement sur les murs de l’entreprise.\nUn soir de juin 2019, malgré le système de sécurité mis en œuvre (vidéosurveillance),\nun groupe d’une dizaine d'activistes écologistes s’introduit dans l’entreprise et décide\nde couper l’arrivée du pipeline1 dans la cuve de stockage du pétrole. Cependant la\nsurpression générée dans l’oléoduc entraine une explosion de celui-ci. La cuve de\nstockage est endommagée dans l’explosion. Les activistes ont été filmés par la caméra\nde l’entreprise, au niveau des installations, en possession du matériel de sabotage.\nDès le lendemain, la cuve cède, entraînant des milliers de litres de pétrole dans la mer\net sur le littoral.\nL’association de protection des animaux SLP (« Sauvons La Planète »), créée en\n2010, a constaté une atteinte à la faune et à la flore de cette partie du littoral. Elle\ndemande au pétrolier de réparer les dégâts causés qu’elle estime, avant expertise, à\n1 500 000 €.\nLa SA Energymax refuse de faire droit aux prétentions de l’association SLP, compte\ntenu du sabotage dont elle a été victime.\n1pipeline ou oléoduc : canalisation servant au transport du pétrole.\nQuestions",
+    "annexes": [
+     "Annexe 1 : Extraits du Code civil",
+     "Annexe 2 : La réparation du préjudice écologique",
+     "Annexe 3 : La jurisprudence : les cas de force majeure sont définis au cas par cas"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits et les dommages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que l’entreprise Energymax peut avancer pour s’exonérer de sa responsabilité.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nMyriam Madet a créé son entreprise de cuisiniste dans les Ardennes il y a maintenant\n12 ans, la Société à Responsabilité Limitée (SARL) « Ardicuisines ». La société\nemploie quatre personnes et assure l'installation de cuisines sur mesure chez des\nparticuliers.\nLa qualité de ses prestations est largement reconnue dans la région, et c'est pour cette\nraison que Pierre Guirat a fait appel à ses services afin de rénover entièrement sa\ncuisine. Myriam Madet a chargé Léo Pasquier, un des salariés de l’entreprise, de ce\nchantier.\nLorsque Léo Pasquier arrive chez Pierre Guirat, il s'aperçoit que la maison de ce\ndernier est en retrait de la rue et que le portail est très étroit. Pour éviter de faire une\nmanœuvre « un peu technique », pour entrer son véhicule par le portail et l’approcher\nde l’entrée de la maison, Léo décide de laisser sa camionnette dans la rue et d’en\nsortir un à un les différents éléments.\nTrès serviable, Pierre Guirat guide Léo Pasquier pour passer le portail avec les\néléments les plus volumineux. Malgré le refus du salarié, il l’aide même à porter les\nplus lourds. Cependant, en s'efforçant de suivre les indications confuses et souvent\ncontradictoires de Pierre Guirat, Léo Pasquier heurte violemment le portail et détériore\nune partie de la clôture avec l’un des colis : plusieurs montants sont brisés et la serrure\ndu portail est désormais inutilisable. Le devis réalisé par un professionnel s’élève à\n3 800€.\nPierre Guirat demande à Myriam Madet de prendre en charge le coût des réparations\ndu portail et de la clôture. Toutefois, Myriam Madet refuse catégoriquement. […]",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : arrêt de la Cour de cassation, 16 avril 2015",
+     "Annexe 3 : non-cumul des responsabilités délictuelle1 et contractuelle"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La SARL Ardicuisines (vendeur professionnel ou prestataire de services) a conclu un\ncontrat de prestation de services avec Pierre Guirat (client/ consommateur). La SARL\na confié le travail à Léo Pasquier, l’un de ses salariés ; ce dernier ayant en charge la\nrénovation de la cuisine de M. Guirat. Guidé maladroitement par le client, Léo Pasquier\na percuté le portail et a endommagé la clôture de celui-ci, lui causant un dommage."
+     },
+     {
+      "enonce": "Présentez l'argumentation juridique que Pierre Guirat pourrait avancer pour rechercher la responsabilité de la SARL « Ardicuisines ».",
+      "points": null,
+      "corrige": "rechercher la responsabilité de la SARL « Ardicuisines ».\nIl ne sera pas exigé du candidat les caractéristiques du dommage réparable.\nDans les faits qui nous sont soumis, il apparaît que les dommages ont été causés à\nl’occasion de l’exécution d’un contrat. De plus, d’après la jurisprudence (annexe 3)\nlorsque coexistent la responsabilité contractuelle et la responsabilité extracontractuelle\n(anciennement délictuelle) dans une situation donnée, on ne peut pas les cumuler (ou\nplutôt choisir entre les deux). La victime ne peut choisir, elle doit mettre en œuvre la\nresponsabilité contractuelle en application du principe de non-cumul des\nresponsabilités.\nLa mise en œuvre de la responsabilité civile contractuelle nécessite 3 éléments ; un\nfait générateur, un dommage et un lien de causalité entre les deux éléments\nprécédents. De plus, pour être réparable, le dommage doit présenter un […]"
+     },
+     {
+      "enonce": "Proposez l'argumentation juridique que la SARL « Ardicuisines » pourrait développer pour s’exonérer de sa responsabilité.",
+      "points": null,
+      "corrige": "développer pour s’exonérer de sa responsabilité.\nLe candidat doit centrer sa réponse sur les éléments de fait donnés dans la\nsituation juridique.\n\nPage: 3/21\n\n\nLe salarié est guidé de façon confuse et contradictoire par le client.\nL’article 1253 du Code civil dispose qu’un contractant peut s'exonérer totalement de\nsa responsabilité civile en démontrant la faute de la victime sous réserve que celle-ci\nprésente les caractéristiques de la force majeure énoncées dans l’article 1218 du Code\ncivil.\nPar ailleurs, l’arrêt de la Cour de cassation du 16 avril 2015 rappelle que lorsqu’un\nclient victime d’un dommage a commis une faute durant l’exécution du contrat et que\ncette faute a contribué à la réalisation de son propre dommage, il est possible de limiter\nson droit à réparation.\nOn pourrait argumenter devant le juge que la faute de la victime présente les\ncaractéristiques de la force majeure : […]"
+     },
+     {
+      "enonce": "Expliquez pourquoi une victime ne peut agir sur le fondement de la responsabilité extracontractuelle en cas de dommages causés à l’occasion de l’exécution d’un contrat.",
+      "points": null,
+      "corrige": "responsabilité extracontractuelle en cas de dommages causés à l’occasion de\nl’exécution d’un contrat.\nIl n'est pas exigé des candidats qu'ils utilisent le concept de principe de non-cumul des\ndeux ordres de responsabilité. Celui-ci porte d'ailleurs mal son nom car il s'agit en fait\nd'une interdiction d'option. La réponse attendue porte sur le principe de la force\nobligatoire des contrats.\nLes parties au contrat peuvent convenir entre elles d'une loi qui leur est propre : le\ncontrat. C'est un instrument de sécurité pour les transactions.\nComme le souligne l’article 1103 du Code civil, les contrats légalement formés tiennent\nlieu de loi à ceux qui les ont faits. Cette loi contractuelle s’impose aux contractants\nainsi qu’au juge.\nLorsque le contrat contient des clauses limitatives de responsabilité ou lorsque les\nobligations prévues dans le contrat sont des obligations de moyens qui […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E6.3",
+  "type": "exercices",
+  "section": 15,
+  "section_titre": "6.3 Les moyens d’exonération",
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que madame BALZANA peut avancer pour établir la responsabilité du magasin.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Proposez l'argumentation juridique que la SARL « Ardicuisines » pourrait développer pour s’exonérer de sa responsabilité.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "6.3 Les moyens d’exonération",
+   "theme": "Thème 6 : Qu’est-ce qu’être responsable ?",
+   "texte": "Le responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’un tiers.\nNotions : L’exonération. La cause étrangère. La force majeure. d’un Le fait ou la faute tiers. Le fait ou la faute de la victime.\nLe responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’untiers.\nLes situations juridiques proposées aux élèves doivent les mettre sur la voie d’une recherche de l’exonération totale ou partielle du responsable par la preuve d’une causalité étrangère (force majeure, fait ou faute d’un tiers, fait ou faute de la victime).\nCapacités attendues : l'élève est capable de qualifier une relation de travail dans une situation donnée ; de distinguer le contrat de travail et le contrat d’entreprise ; les éléments essentiels d’un contrat de travail à partir d’un contrat donné ; de repérer ; de caractériser le contrat de travail dans une situation donnée ; la conformité d’un contrat de travail à durée indéterminée aux normes ; de vérifier ; juridiques, y compris à la convention collective ou à l’accord d’entreprise dans une ; situation donnée ; de repérer et de vérifier la validité des clauses spécifiques dans une situation ; donnée : clause de mobilité, clause de non-concurrence, clause de télétravail ; de vérifier les principales conditions de validité de la rupture du contrat de travail dans ; une situation donnée ; de distinguer les causes de licenciement (motif personnel, motif économique) ; apprécier les conséquences dans le cas du licenciement pour motif personnel ; d’apprécier le caractère licite d’une grève ; d’apprécier ; le respect des droits individuels et collectifs des salariés dans une ; situation donnée ; d’expliquer ; les rôles des partenaires sociaux et des représentants salariés dans une ; entreprise.",
+   "articles": [
+    "Article 1245-12 du Code civil : La responsabilité du producteur peut être réduite ou supprimée, compte tenu de toutes les circonstances, lorsque le dommage est causé conjointement par un défaut du produit et par la faute de la victime ou d'une personne dont la victime est responsable.",
+    "Article 1245-13 du Code civil : La responsabilité du producteur envers la victime n'est pas réduite par le fait d'un tiers ayant concouru à la réalisation du dommage.",
+    "Article L133-1 du Code de commerce : Le voiturier est garant de la perte des objets à transporter, hors les cas de la force majeure. Il est garant des avaries autres que celles qui proviennent du vice propre de la chose ou de la force majeure. Toute clause contraire insérée dans toute lettre de voiture, tarif ou autre pièce quelconque, est nulle.",
+    "Article L5134-31 du Code du travail : Les embauches réalisées en contrat d'accompagnement dans l'emploi donnent droit à l'exonération : 1° Pour les personnes morales mentionnées aux 1° et 2° de l'article L. 5134-21 du présent code, des cotisations à la charge de l'employeur au titre des assurances sociales et des allocations familiales, pendant la durée d'attribution de l'aide à l'insertion professionnelle. Toutefois, les cotisations afférentes à la partie de la rémunération qui excède un montant fixé par décret ne donnent pas lieu à exonération ; 2° De la taxe sur les salaires ; 3° De la taxe d'apprentissage ; 4° Des participations dues par les employeurs au titre de l'effort de construction.",
+    "Article 1245-11 du Code civil : Le producteur ne peut invoquer la cause d'exonération prévue au 4° de l'article 1245-10 lorsque le dommage a été causé par un élément du corps humain ou par les produits issus de celui-ci.",
+    "Article L132-4 du Code de commerce : Il est garant de l'arrivée des marchandises et effets dans le délai déterminé par la lettre de voiture, hors les cas de la force majeure légalement constatée."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : extrait du Code civil",
+    "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1218 : il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1231-1 : le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans\nl'exécution, s'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable […] du dommage […] causé par le fait des\npersonnes dont on doit répondre, ou des choses que l'on a sous sa garde. […]\nLes maîtres et les commettants, du dommage causé par leurs domestiques et\npréposés dans les fonctions auxquelles ils les ont employés ; […]\nArticle 1253 : le cas fortuit, le fait du tiers ou de la victime sont totalement\nexonératoires s’ils remplissent les caractères de la force majeure."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "ANNEXE 3 – Dans quelle mesure est-on responsable juridiquement de son animal ?",
+    "texte": "La loi précise que donc le responsable [d’un animal] est le propriétaire ou celui qui s’en sert.\nSi une personne confie son animal à un vétérinaire, ou s’il le pensionne dans un chenil, il\nne sera pas responsable en cas de dommage. Attention toutefois, s’il confie son animal à\nun ami, le temps d’une promenade, les tribunaux considèrent généralement que le\npropriétaire reste responsable. [La jurisprudence peut considérer un tiers comme gardien\noccasionnel de l’animal dès l’instant où l’animal lui a été confié sur plusieurs jours.] […]\nUne présomption de responsabilité pèse sur le gardien de l’animal, c’est-à-dire le\npropriétaire ou celui qui en a la garde pendant une durée suffisante : il est présumé être\nfautif en cas de dommage. Concrètement cela signifie que la victime n’a pas à prouver une\nquelconque faute du gardien pour obtenir réparation. […] Si le propriétaire souhaite s’en\ndéfendre, il va devoir prouver qu’il n’est pas responsable ou que la responsabilité est\npartagée. […]\nIl existe trois cas principaux dans lesquels le propriétaire peut s’exonérer de sa\nresponsabilité. […]\nDeuxième cas : le maître peut également s’exonérer de sa responsabilité en cas de faute\nde la victime, par exemple si cette dernière s’est fait mordre après avoir elle-même excité\nl’animal. […]\nPlus précisément, s’agissant de la faute de la victime […], le propriétaire ou le gardien ne\nseront exonérés totalement que si ces fautes présentent les caractéristiques de la force\nmajeure. Dans le cas contraire, la responsabilité est dite « partagée ».\nSource : village-justice."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nLa SA Energymax, filiale d’un grand groupe pétrolier, située sur les côtes normandes,\nassure le stockage, la distribution et le transport de produits pétroliers en France.\nL’activité de la SA Energymax est de plus en plus contestée par les activistes\nécologistes. Des tags apparaissent régulièrement sur les murs de l’entreprise.\nUn soir de juin 2019, malgré le système de sécurité mis en œuvre (vidéosurveillance),\nun groupe d’une dizaine d'activistes écologistes s’introduit dans l’entreprise et décide\nde couper l’arrivée du pipeline1 dans la cuve de stockage du pétrole. Cependant la\nsurpression générée dans l’oléoduc entraine une explosion de celui-ci. La cuve de\nstockage est endommagée dans l’explosion. Les activistes ont été filmés par la caméra\nde l’entreprise, au niveau des installations, en possession du matériel de sabotage.\nDès le lendemain, la cuve cède, entraînant des milliers de litres de pétrole dans la mer\net sur le littoral.\nL’association de protection des animaux SLP (« Sauvons La Planète »), créée en\n2010, a constaté une atteinte à la faune et à la flore de cette partie du littoral. Elle\ndemande au pétrolier de réparer les dégâts causés qu’elle estime, avant expertise, à\n1 500 000 €.\nLa SA Energymax refuse de faire droit aux prétentions de l’association SLP, compte\ntenu du sabotage dont elle a été victime.\n1pipeline ou oléoduc : canalisation servant au transport du pétrole.\nQuestions",
+    "annexes": [
+     "Annexe 1 : Extraits du Code civil",
+     "Annexe 2 : La réparation du préjudice écologique",
+     "Annexe 3 : La jurisprudence : les cas de force majeure sont définis au cas par cas"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits et les dommages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que l’entreprise Energymax peut avancer pour s’exonérer de sa responsabilité.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C7.1",
+  "type": "cas",
+  "section": 16,
+  "section_titre": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
+  "partenaire": 1,
+  "partenaire_titre": "1.2 La règle de droit",
+  "frequence_passee": 0.16,
+  "inedit": false,
+  "proba_annee_suivante": 0.108,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique qui peut appuyer la rupture du contrat de travail de monsieur Walid SMAIN.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que monsieur Walid SMAIN pourrait lui opposer.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Présentez les arguments juridiques que Mélina Semper pourrait réunir pour montrer l’existence d’une discrimination.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
+   "theme": "Thème 7 : Comment le droit encadre-t-il le travail salarié ?",
+   "texte": "Le contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération. La présence d’un lien de subordination juridique fonde l’existence d’un contrat de travail et justifie l’application des règles du droit du travail. Le lien de subordination est l’élément déterminant du contrat de travail. La distinction contrat de travail/contrat d’entreprise est abordée à partir d’exemples. L’étude des clauses du contrat de travail met en évidence la coexistence des règles d’ordre public et des normes conventionnelles, ainsi que la part prépondérante de la négociation d'entreprise. L’étude exhaustive de la hiérarchie des normes en droit du travail n’est pas visée. Il existe de multiples formes de contrats de travail. L’étude porte sur le contrat à durée indéterminée qui constitue le droit commun du contrat de travail. Les entreprises adaptent la relation contractuelle de travail à leurs contraintes économiques en insérant des clauses spécifiques dans leurs contrats. Le législateur a développé différentes formes de contrats plus adaptées au cycle économique de certaines entreprises. L’étude se limite aux spécificités de ces contrats et présente leurs avantages et inconvénients pour les parties.\nNotions : Le contrat de travail. Le lien de subordination. Le pouvoir de direction. Le pouvoir règlementaire, le règlement intérieur. Le pouvoir disciplinaire. Le contrat d’entreprise (contrat de prestation de service). La négociation collective, la convention collective. Les partenaires sociaux. Le contrat à durée indéterminée (CDI). Les clauses générales du contrat de travail (période d’essai, lieu, horaire et durée du travail, rémunération, qualifications, missions). Les clauses spécifiques du contrat de travail (mobilité, non-concurrence, télétravail). Le contrat à durée déterminée (CDD). Le contrat à durée indéterminée de chantier. Le contrat saisonnier. Le contrat de travail temporaire.\nLe contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération.\nL’étude a pour objet d’identifier les éléments essentiels du contrat de travail - prestation de travail, rémunération et lien de subordination - et de montrer que ce dernier en est l’élément déterminant.\nLe lien de subordination. Le pouvoir de direction. Le pouvoir règlementaire, le règlement intérieur. Le pouvoir disciplinaire. Le contrat d’entreprise (contrat de prestation de service). La négociation collective, la convention collective. Les partenaires sociaux.\nLa présence d’un lien de subordination juridique fonde l’existence d’un contrat de travail et justifie l’application des règles du droit du travail. Le lien de subordination est l’élément déterminant du contrat de travail. La distinction contrat de travail/ contrat d’entreprise est abordée à partir d’exemples. L’étude des clauses du contrat de travail met en évidence la coexistence entre des règles d’ordre public et des normes conventionnelles, ainsi que la part prépondérante de la négociation d’entreprise. L’étude exhaustive de la hiérarchie des normes en droit du travail n’est pas visée.\nLes pouvoirs de l’employeur sont distingués et fondent le lien de subordination caractérisé par l’exécution d’un travail sous l’autorité de l’employeur qui a le pouvoir de donner des ordres et des directives, d’en contrôler l’exécution et de sanctionner les manquements de son subordonné. À partir de […]",
+   "articles": [
+    "Article L1243-11 du Code du travail : Lorsque la relation contractuelle de travail se poursuit après l'échéance du terme du contrat à durée déterminée, celui-ci devient un contrat à durée indéterminée. Le salarié conserve l'ancienneté qu'il avait acquise au terme du contrat de travail à durée déterminée. La durée du contrat de travail à durée déterminée est déduite de la période d'essai éventuellement prévue dans le nouveau contrat de travail.",
+    "Article L6222-16 du Code du travail : Si le contrat d'apprentissage est suivi de la signature d'un contrat de travail à durée indéterminée, d'un contrat à durée déterminée ou d'un contrat de travail temporaire dans la même entreprise, aucune période d'essai ne peut être imposée, sauf dispositions conventionnelles contraires. La durée du contrat d'apprentissage est prise en compte pour le calcul de la rémunération et l'ancienneté du salarié.",
+    "Article L1221-1 du Code du travail : Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.",
+    "Article L1243-11-1 du Code du travail : Lorsque l'employeur propose que la relation contractuelle de travail se poursuive après l'échéance du terme du contrat à durée déterminée sous la forme d'un contrat à durée indéterminée pour occuper le même emploi ou un emploi similaire, assorti d'une rémunération au moins équivalente pour une durée de travail équivalente, relevant de la même classification et sans changement du lieu de travail, il notifie cette proposition par écrit au salarié. En cas de refus du salarié, l'employeur en informe l'opérateur France Travail en justifiant du caractère similaire de l'emploi proposé. Un décret en Conseil d'Etat fixe les modalités d'application du présent article.",
+    "Article L1252-4 du Code du travail : Le contrat de travail à temps partagé est réputé être à durée indéterminée.",
+    "Article L1254-20 du Code du travail : <p align=\"left\">Le contrat de travail est établi par écrit avec la mention : “ contrat de travail en portage salarial à durée indéterminée ”.</p>",
+    "Article L1252-9 du Code du travail : La rupture du contrat de travail à temps partagé est réalisée selon les dispositions prévues au titre III, relative aux règles de rupture du contrat de travail à durée indéterminée.",
+    "Article L6325-5 du Code du travail : Le contrat de professionnalisation est un contrat de travail à durée déterminée ou à durée indéterminée. Il est établi par écrit. Lorsqu'il est à durée déterminée, il est conclu en application de l'article L. 1242-3. Le contrat de professionnalisation est déposé auprès de l'autorité administrative."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "1.2 La règle de droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "La règle de droit est légitime, générale et obligatoire. En prenant appui sur quelques règles provenant de divers codes (Code civil, Code du travail, Code pénal par exemple) et à partir de situations concrètes de mise en œuvre, les élèves comprennent que la règle de droit émane d’autorités compétentes. Sa formulation en termes généraux lui permet de garantir l’égalité devant la loi de toutes les personnes placées dans la même situation juridique. Le droit ayant vocation à saisir toutes les situations de la vie en société, il ne peut pas décrire chacune d’elles en raison du caractère général et abstrait de la règle de droit. Il se réfère donc à des catégories juridiques : la personne physique, la victime, le contrat, le salarié par exemple. C’est l’opération de qualification juridique.\nNotions : Caractères de la règle de droit. Autorité légitime.",
+   "articles": [
+    "Article 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+    "Article L643-7-1 du Code de commerce : Le créancier qui a reçu un paiement en violation de la règle de l'égalité des créanciers chirographaires ou par suite d'une erreur sur l'ordre des privilèges doit restituer les sommes ainsi versées."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "titre": "Annexe 1 : extraits du contrat de travail à durée indéterminée en date du 12 mai",
+    "texte": "2018 signé entre Madame SIMON et la société SécuritéPlus.\nArticle 1 : madame SIMON est engagée en contrat à durée indéterminée à temps\nplein par la société SécuritéPlus en qualité d’agent de sécurité. La durée\nhebdomadaire est fixée à 35 heures par semaine.\n(…)\nArticle 6 : clause de mobilité\nLa zone d’activité de la société est tout le territoire national. Compte tenu du caractère\nde la profession, il est expressément convenu que le lieu de travail du salarié n’a aucun\ncaractère de fixité et pourra être déplacé en fonction des besoins de la clientèle, de la\nnature des conventions ou de l’organisation générale de la société. Le refus du\nchangement du lieu de travail de la part du salarié pourra être considéré comme fautif\net entraîner la rupture du présent contrat de travail."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 1 - Extrait du contrat de travail de monsieur MARTIN",
+    "texte": "ENTRE LES SOUSSIGNÉS\nSARL Pompes à Chaleur Provençales,\nEt monsieur Gilbert MARTIN\nIL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT\nArticle 1 : Objet du contrat\nMonsieur Gilbert MARTIN entre au service exclusif de la SARL Pompes à chaleur\nProvençales à compter du 17 juin 2022 en qualité de commercial.\nArticle 2 : Durée du contrat\nLe présent contrat, régi par la convention collective du bâtiment applicable à\nl’entreprise est conclu pour une durée indéterminée de 35 heures par semaine, de 9h\nà 12h et de 14 à 18h.\nArticle 3 : Rémunération du salarié\nMonsieur Gilbert MARTIN recevra une rémunération fixe de 1500€ brut par mois, à\nlaquelle s’ajoutera une rémunération mensuelle variable composée de la façon\nsuivante :\n- 1,5% du chiffre d’affaires pour un chiffre d’affaires inférieur à 26 000€\n- 2% du chiffre d’affaires pour un chiffre d’affaires compris entre 26 000€ et\n36 000€\n- 3% du chiffre d’affaires pour un chiffre d’affaires au-delà de 36 000€.\nArticle 4 : Obligations du salarié\nLe salarié s’engage à respecter le règlement intérieur, ainsi que les instructions\ngénérales et notes de service émanant de la direction commerciale. Le salarié est libre\nd’organiser son activité selon un horaire de 35 heures, sous réserve de respecter le\nprogramme d’activité fixé et de rédiger un compte rendu journalier précis et détaillé.\nCe document fait office de preuve de l’activité du salarié et permet de vérifier les\nheures effectives de ce dernier.\nArticle 5 : Géolocalisation des véhicules\nLes véhicules à usage professionnel sont équipés d’un système de géolocalisation\npermettant d'analyser les temps nécessaires aux déplacements des commerciaux\npour une meilleure optimisation des visites effectuées et le respect des zones\nd’affectation.\nLe dispositif devra rester activé en permanence de 9h00 à 19h00. […]\nArticle 6 : Les congés payés\nConformément aux conditions légales et conventionnelles, le salarié dispose d’un droit\naux congés payés annuels."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 6 – Les pouvoirs de l’employeur",
+    "texte": "L’employeur dirige l’entreprise et ses salariés. À ce titre, il dispose du pouvoir d’édicter des\nrègles au sein de l’entreprise, à travers notamment le règlement intérieur, et du pouvoir […]\nde sanctionner la faute d’un salarié.\nLes conflits individuels entre employeurs et salariés liés au contrat de travail sont jugés par\nle conseil des prud’hommes. Tout salarié dispose du droit de grève pour défendre des\nrevendications professionnelles. Tant qu’il est exercé dans des conditions normales, il ne\npeut justifier ni sanction, ni licenciement.\nL’inspection du travail veille à l’application du droit du travail au sein des entreprises. Elle\nconseille et informe les employeurs, les salariés et les représentants du personnel sur leurs\ndroits et obligations et facilite la conciliation amiable entre les parties, notamment lors des\nconflits collectifs.\nSource : travail-emploi.gouv.fr\nEN_NODgzNT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTgY5NGDUx\nEducN_MSDgyMD4Y2MTYe0Mj3I5MwjAyNT8A5MDMExNTtUxMQTEg"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-polynesie",
+    "titre": "ANNEXE 1 - Extraits du Contrat de travail de monsieur Walid SMAIN",
+    "texte": "CONTRAT DE TRAVAIL À DURÉE INDÉTERMINÉE\nEntre les soussignés :\nLa société BATIBATOU SAS dont le siège social se situe à Auch, représentée par\nMme LALOUL Élodie, agissant en qualité d’employeur.\nD’une part,\nEt,\nM. Walid SMAIN\nDemeurant place de la libération à AUCH 32007\n[…]\nD’autre part,\nIl a été convenu ce qui suit,\nArticle 1. Engagement\nLa société BATIBATOU SAS engage Monsieur Walid SMAIN à compter du 10/09/2012. Le\nprésent contrat est régi par les dispositions de la convention collective en vigueur de\nl’entreprise, soit la convention collective du 16 juillet 2021.\nArticle 2. Fonctions et qualification\nMonsieur Walid SMAIN est recruté en qualité d’ingénieur, à temps complet.\nMonsieur Walid SMAIN exercera les fonctions suivantes : Conseiller Expert en Génie Civil.\nSes fonctions sont susceptibles d’évolution.\nArticle 3. Rémunération\nMonsieur Walid SMAIN sera soumis à la durée légale du travail applicable dans l’entreprise.\nIl percevra à ce titre une rémunération brute mensuelle de 4 800 €.\nArticle 4 : Lieu de travail\nLe lieu de travail est situé à AUCH, ville située dans le département du GERS\n[...]\nArticle 6 : Clause de non-concurrence\nEn raison des fonctions de Monsieur Walid SMAIN, celui-ci s'interdit, à compter de la\ncessation du contrat de travail, quelle qu'en soit la cause, d'entrer au service d'une\nentreprise concurrente.\nArticle 7 : Clause de mobilité\nDans le cadre de l’exercice de ses missions, Monsieur Walid SMAIN sera amené à effectuer\nses fonctions dans le département du Gers. Selon l’évolution stratégique choisi par\nl’employeur, il décidera de changer, d’étendre le lieu d’exercice de l’activité de Monsieur\nWalid SMAIN.\nArticle 8 : Rupture du contrat\nLe présent contrat est résiliable par l’une ou l’autre des parties dans le respect de disposition\nlégales et conventionnelles en vigueur.\nFait en deux exemplaires à TARBES, le 10 / 09 / 2012\nSignature du salarié\nSignature de l’employeur\nWalid SMAIN\nÉlodie LALOUL"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+    "texte": "Avant l’adoption de ces arrêts en 1984, la responsabilité de l’enfant était une condition\npour que la responsabilité des parents du fait de l’enfant puisse dans un second temps\njouer au profit des victimes. Or, parce que la faute suppose la distinction entre le bien\net le mal, la jurisprudence estimait que l’enfant en bas âge, l'infans, ne pouvait être\nresponsable, à défaut d’un tel discernement moral. Cette règle […] de droit civil était\nle pendant de la règle législative en droit pénal, posant le principe de l’irresponsabilité\nde l’être humain jusqu’à 13 ans.\nMais la victime d’un dommage causé par un enfant est dans la même situation de\npréjudice que la victime d’un dommage causé par un être humain plus âgé. Plus\nsociologiquement, les enfants sont devenus plus autonomes de leurs parents et plus\nhabiles de leurs mains, plus maîtres de ce qui les environnent, maîtrisent de nombreux\nobjets techniques, etc.\nDans l’une des quatre espèces soumises à la Cour de cassation, l’un des enfants, le\njeune Gabillet, âgé de moins de 13 ans, par sa maladresse à la balançoire, avait\néborgné un autre enfant. Est-il juste parce que le responsable était très jeune, que la\nvictime ne reçoive aucune indemnité pour ce préjudice à vie, alors que les parents de\nl’enfant ayant causé le dommage était assuré ?\nC’est pour de telles considérations, parce que la société avait changé, que la Cour de\ncassation raya d’un trait de plume le principe civiliste de l’irresponsabilité de l’infans.\nSource : Site mafr.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS BATIBATOU est une société d’études et de conseils spécialisée dans l’ingénierie\ndes bâtiments. Elle est experte dans l’accompagnement des collectivités locales pour des\nprojets environnementaux.\nLa société est installée à Auch, dans le Gers. Face au succès de son activité, la société a\ndécidé en début d’année d’installer une nouvelle agence dans la ville de Nîmes, située dans\nle Gard, à 370 km du siège. Toutefois, l’ouverture de cette agence suppose un\ninvestissement financier conséquent.\nMadame Élodie LALOUL est la présidente de la SAS. La nouvelle agence est enfin prête,\net elle a décidé d’y affecter monsieur Walid SMAIN. Ce dernier est un ingénieur en génie\ncivil très expérimenté, recruté il y a plus de 10 ans. Le jeudi 22 janvier 2024, Monsieur Walid\nSMAIN a reçu un courrier l’informant qu’il devait travailler à Nîmes à partir du 1er février\n2024. Monsieur Walid SMAIN est marié et père de deux enfants de 3 et 5 ans. Il n’accepte\npas l’idée de s’éloigner de Auch et conteste la décision de madame LALOUL en soulignant\nque cela ne pouvait se faire sans son accord. Il a donc continué à se présenter à Auch pour\naccomplir son travail après le 1er février.\nMadame Élodie LALOUL décide de mettre fin à son contrat. Elle souhaite être conseillée\nsur ce point.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extraits du Contrat de travail de monsieur Walid SMAIN",
+     "ANNEXE 2 - Extraits du Code civil",
+     "ANNEXE 3 - Article L 1121-1 du Code du travail",
+     "ANNEXE 4 - Extrait de la convention collective nationale des cabinets d’ingénieurs",
+     "ANNEXE 5 - Arrêt de Cour de cassation en date du 2 octobre 2019"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qui peut appuyer la rupture du contrat de travail de monsieur Walid SMAIN.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que monsieur Walid SMAIN pourrait lui opposer.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Pourquoi le droit encadre-t-il les clauses spécifiques du contrat de travail ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nMadame SIMON, mariée et mère de deux adolescents scolarisés au collège de\nGuillestre, dans le département des Hautes-Alpes, a été engagée en contrat à durée\nindéterminée à temps plein par la société SécuritéPlus le 12 mai 2018 en qualité\nd’agent de sécurité. Elle exerce ses fonctions à Guillestre dans le centre commercial\nsitué sur cette commune.\nLa société SécuritéPlus est informée en janvier 2021, par lettre recommandée avec\navis de réception, par le centre commercial de Guillestre que, faute de budget suffisant,\nle centre commercial n’est plus en mesure de poursuivre sa relation contractuelle avec\nla société SécuritéPlus.\nSuite à la perte de ce contrat, la société SécuritéPlus, dont l’activité s’étend sur tout le\nterritoire national, propose à Madame SIMON par lettre recommandée avec avis de\nréception en date du 21 février 2021, un poste de nature équivalente sur la zone\ncommerciale de Marseille, située à 230 km de Guillestre. La société SécuritéPlus\ninforme également Madame SIMON qu’elle prendra en charge les frais de\ndéplacement et d’hébergement liés à cette mutation.\nMadame SIMON refuse cette mutation et adresse une longue lettre à la société\nSécuritéPlus dans laquelle elle explique que ce changement de lieu de travail la\ncontraindra à déménager puisqu’un aller-retour quotidien est exclu, la durée du simple\ntransport aller étant de l’ordre de 2 heures 30 à 3 heures. Elle ajoute également que\nl’état de son conjoint agriculteur en situation de handicap partiel la contraint à le\nsuppléer quotidiennement pour certaines tâches liées à l’exploitation. Enfin, elle\nsignale […]",
+    "annexes": [
+     "Annexe 1 : extraits du contrat de travail à durée indéterminée en date du 12 mai",
+     "Annexe 2 : extraits du Code du travail",
+     "Annexe 3 : extraits du Code civil",
+     "Annexe 4 : arrêt de la Cour de cassation du 14 février 2018"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMadame SIMON est salariée en CDI de la société SécuritéPlus, son employeur. Elle\nexerce les fonctions d’agent de sécurité au centre commercial de Guillestre. Son\ncontrat de travail comporte une clause de mobilité (article 6 annexe 1). Suite à la perte\nd’un marché, l’employeur de Madame SIMON lui propose une mutation sur la zone\nd’activité d’Aix-Marseille. Madame SIMON refuse et son employeur lui notifie alors son\nlicenciement."
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Madame SIMON peut avancer pour contester son licenciement.",
+      "points": 3.0,
+      "corrige": "contester son licenciement. (3 points)\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes en\nfaveur de la prétention de Madame SIMON et de construire une argumentation\ncohérente.\nPlusieurs capacités sont à mobiliser pour formuler une réponse en adéquation\navec les attentes à savoir :\n- repérer et vérifier la validité des clauses spécifiques dans une situation donnée,\n- apprécier le respect des droits individuels des salariés dans une situation\ndonnée.\nOn attend des arguments au service d’une conclusion logique qui tiennent\ncompte des éléments de faits et de droit. Le syllogisme juridique n’est pas la\nseule forme attendue.\nSuite à la perte d’un marché, la société Sécurité Plus veut imposer une mobilité\ngéographique très éloigné du domicile de Madame Simon.\nUne clause de mobilité, pour être valable sur le fond comme dans sa mise en œuvre,\ndoit remplir […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la société SécuritéPlus peut lui opposer.",
+      "points": 2.0,
+      "corrige": "opposer. (2 points)\nIl s’agit, ici, d’amener l’élève à identifier les règles juridiques pertinentes en\nfaveur de la prétention de la société SécuritéPlus et de construire une\nargumentation cohérente.\nLa réponse formulée ici permet au candidat de lister les arguments en faveur de\nla société et ainsi, d’appliquer le principe de contradictoire vu tout au long de sa\nformation. On attend des arguments au service d’une conclusion logique qui\ntiennent compte des éléments de faits et de droit. Le syllogisme juridique n’est\npas la seule forme attendue.\nLa Cour de cassation, dans son arrêt du 14 février 2018 (annexe 4), confirme sa\njurisprudence selon laquelle est valable la clause de mobilité sur tout le territoire\nnational. La clause est considérée comme assez précise et ne confère pas à\nl’employeur le pouvoir d’en étendre unilatéralement la portée. Peu importe qu’il y ait\nune liste ou non […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E7.1",
+  "type": "exercices",
+  "section": 16,
+  "section_titre": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
+  "frequence_passee": 0.16,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Présentez les arguments juridiques que Mélina Semper pourrait réunir pour montrer l’existence d’une discrimination.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique qui peut appuyer la rupture du contrat de travail de monsieur Walid SMAIN.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que monsieur Walid SMAIN pourrait lui opposer.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
+   "theme": "Thème 7 : Comment le droit encadre-t-il le travail salarié ?",
+   "texte": "Le contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération. La présence d’un lien de subordination juridique fonde l’existence d’un contrat de travail et justifie l’application des règles du droit du travail. Le lien de subordination est l’élément déterminant du contrat de travail. La distinction contrat de travail/contrat d’entreprise est abordée à partir d’exemples. L’étude des clauses du contrat de travail met en évidence la coexistence des règles d’ordre public et des normes conventionnelles, ainsi que la part prépondérante de la négociation d'entreprise. L’étude exhaustive de la hiérarchie des normes en droit du travail n’est pas visée. Il existe de multiples formes de contrats de travail. L’étude porte sur le contrat à durée indéterminée qui constitue le droit commun du contrat de travail. Les entreprises adaptent la relation contractuelle de travail à leurs contraintes économiques en insérant des clauses spécifiques dans leurs contrats. Le législateur a développé différentes formes de contrats plus adaptées au cycle économique de certaines entreprises. L’étude se limite aux spécificités de ces contrats et présente leurs avantages et inconvénients pour les parties.\nNotions : Le contrat de travail. Le lien de subordination. Le pouvoir de direction. Le pouvoir règlementaire, le règlement intérieur. Le pouvoir disciplinaire. Le contrat d’entreprise (contrat de prestation de service). La négociation collective, la convention collective. Les partenaires sociaux. Le contrat à durée indéterminée (CDI). Les clauses générales du contrat de travail (période d’essai, lieu, horaire et durée du travail, rémunération, qualifications, missions). Les clauses spécifiques du contrat de travail (mobilité, non-concurrence, télétravail). Le contrat à durée déterminée (CDD). Le contrat à durée indéterminée de chantier. Le contrat saisonnier. Le contrat de travail temporaire.\nLe contrat de travail a pour objet la mise à disposition d’une prestation de travail sous l’autorité de l’employeur en échange d’une rémunération.\nL’étude a pour objet d’identifier les éléments essentiels du contrat de travail - prestation de travail, rémunération et lien de subordination - et de montrer que ce dernier en est l’élément déterminant.\nLe lien de subordination. Le pouvoir de direction. Le pouvoir règlementaire, le règlement intérieur. Le pouvoir disciplinaire. Le contrat d’entreprise (contrat de prestation de service). La négociation collective, la convention collective. Les partenaires sociaux.\nLa présence d’un lien de subordination juridique fonde l’existence d’un contrat de travail et justifie l’application des règles du droit du travail. Le lien de subordination est l’élément déterminant du contrat de travail. La distinction contrat de travail/ contrat d’entreprise est abordée à partir d’exemples. L’étude des clauses du contrat de travail met en évidence la coexistence entre des règles d’ordre public et des normes conventionnelles, ainsi que la part prépondérante de la négociation d’entreprise. L’étude exhaustive de la hiérarchie des normes en droit du travail n’est pas visée.\nLes pouvoirs de l’employeur sont distingués et fondent le lien de subordination caractérisé par l’exécution d’un travail sous l’autorité de l’employeur qui a le pouvoir de donner des ordres et des directives, d’en contrôler l’exécution et de sanctionner les manquements de son subordonné. À partir de […]",
+   "articles": [
+    "Article L1243-11 du Code du travail : Lorsque la relation contractuelle de travail se poursuit après l'échéance du terme du contrat à durée déterminée, celui-ci devient un contrat à durée indéterminée. Le salarié conserve l'ancienneté qu'il avait acquise au terme du contrat de travail à durée déterminée. La durée du contrat de travail à durée déterminée est déduite de la période d'essai éventuellement prévue dans le nouveau contrat de travail.",
+    "Article L6222-16 du Code du travail : Si le contrat d'apprentissage est suivi de la signature d'un contrat de travail à durée indéterminée, d'un contrat à durée déterminée ou d'un contrat de travail temporaire dans la même entreprise, aucune période d'essai ne peut être imposée, sauf dispositions conventionnelles contraires. La durée du contrat d'apprentissage est prise en compte pour le calcul de la rémunération et l'ancienneté du salarié.",
+    "Article L1221-1 du Code du travail : Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.",
+    "Article L1243-11-1 du Code du travail : Lorsque l'employeur propose que la relation contractuelle de travail se poursuive après l'échéance du terme du contrat à durée déterminée sous la forme d'un contrat à durée indéterminée pour occuper le même emploi ou un emploi similaire, assorti d'une rémunération au moins équivalente pour une durée de travail équivalente, relevant de la même classification et sans changement du lieu de travail, il notifie cette proposition par écrit au salarié. En cas de refus du salarié, l'employeur en informe l'opérateur France Travail en justifiant du caractère similaire de l'emploi proposé. Un décret en Conseil d'Etat fixe les modalités d'application du présent article.",
+    "Article L1252-4 du Code du travail : Le contrat de travail à temps partagé est réputé être à durée indéterminée.",
+    "Article L1254-20 du Code du travail : <p align=\"left\">Le contrat de travail est établi par écrit avec la mention : “ contrat de travail en portage salarial à durée indéterminée ”.</p>",
+    "Article L1252-9 du Code du travail : La rupture du contrat de travail à temps partagé est réalisée selon les dispositions prévues au titre III, relative aux règles de rupture du contrat de travail à durée indéterminée.",
+    "Article L6325-5 du Code du travail : Le contrat de professionnalisation est un contrat de travail à durée déterminée ou à durée indéterminée. Il est établi par écrit. Lorsqu'il est à durée déterminée, il est conclu en application de l'article L. 1242-3. Le contrat de professionnalisation est déposé auprès de l'autorité administrative."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "titre": "Annexe 1 : extraits du contrat de travail à durée indéterminée en date du 12 mai",
+    "texte": "2018 signé entre Madame SIMON et la société SécuritéPlus.\nArticle 1 : madame SIMON est engagée en contrat à durée indéterminée à temps\nplein par la société SécuritéPlus en qualité d’agent de sécurité. La durée\nhebdomadaire est fixée à 35 heures par semaine.\n(…)\nArticle 6 : clause de mobilité\nLa zone d’activité de la société est tout le territoire national. Compte tenu du caractère\nde la profession, il est expressément convenu que le lieu de travail du salarié n’a aucun\ncaractère de fixité et pourra être déplacé en fonction des besoins de la clientèle, de la\nnature des conventions ou de l’organisation générale de la société. Le refus du\nchangement du lieu de travail de la part du salarié pourra être considéré comme fautif\net entraîner la rupture du présent contrat de travail."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 1 - Extrait du contrat de travail de monsieur MARTIN",
+    "texte": "ENTRE LES SOUSSIGNÉS\nSARL Pompes à Chaleur Provençales,\nEt monsieur Gilbert MARTIN\nIL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT\nArticle 1 : Objet du contrat\nMonsieur Gilbert MARTIN entre au service exclusif de la SARL Pompes à chaleur\nProvençales à compter du 17 juin 2022 en qualité de commercial.\nArticle 2 : Durée du contrat\nLe présent contrat, régi par la convention collective du bâtiment applicable à\nl’entreprise est conclu pour une durée indéterminée de 35 heures par semaine, de 9h\nà 12h et de 14 à 18h.\nArticle 3 : Rémunération du salarié\nMonsieur Gilbert MARTIN recevra une rémunération fixe de 1500€ brut par mois, à\nlaquelle s’ajoutera une rémunération mensuelle variable composée de la façon\nsuivante :\n- 1,5% du chiffre d’affaires pour un chiffre d’affaires inférieur à 26 000€\n- 2% du chiffre d’affaires pour un chiffre d’affaires compris entre 26 000€ et\n36 000€\n- 3% du chiffre d’affaires pour un chiffre d’affaires au-delà de 36 000€.\nArticle 4 : Obligations du salarié\nLe salarié s’engage à respecter le règlement intérieur, ainsi que les instructions\ngénérales et notes de service émanant de la direction commerciale. Le salarié est libre\nd’organiser son activité selon un horaire de 35 heures, sous réserve de respecter le\nprogramme d’activité fixé et de rédiger un compte rendu journalier précis et détaillé.\nCe document fait office de preuve de l’activité du salarié et permet de vérifier les\nheures effectives de ce dernier.\nArticle 5 : Géolocalisation des véhicules\nLes véhicules à usage professionnel sont équipés d’un système de géolocalisation\npermettant d'analyser les temps nécessaires aux déplacements des commerciaux\npour une meilleure optimisation des visites effectuées et le respect des zones\nd’affectation.\nLe dispositif devra rester activé en permanence de 9h00 à 19h00. […]\nArticle 6 : Les congés payés\nConformément aux conditions légales et conventionnelles, le salarié dispose d’un droit\naux congés payés annuels."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS BATIBATOU est une société d’études et de conseils spécialisée dans l’ingénierie\ndes bâtiments. Elle est experte dans l’accompagnement des collectivités locales pour des\nprojets environnementaux.\nLa société est installée à Auch, dans le Gers. Face au succès de son activité, la société a\ndécidé en début d’année d’installer une nouvelle agence dans la ville de Nîmes, située dans\nle Gard, à 370 km du siège. Toutefois, l’ouverture de cette agence suppose un\ninvestissement financier conséquent.\nMadame Élodie LALOUL est la présidente de la SAS. La nouvelle agence est enfin prête,\net elle a décidé d’y affecter monsieur Walid SMAIN. Ce dernier est un ingénieur en génie\ncivil très expérimenté, recruté il y a plus de 10 ans. Le jeudi 22 janvier 2024, Monsieur Walid\nSMAIN a reçu un courrier l’informant qu’il devait travailler à Nîmes à partir du 1er février\n2024. Monsieur Walid SMAIN est marié et père de deux enfants de 3 et 5 ans. Il n’accepte\npas l’idée de s’éloigner de Auch et conteste la décision de madame LALOUL en soulignant\nque cela ne pouvait se faire sans son accord. Il a donc continué à se présenter à Auch pour\naccomplir son travail après le 1er février.\nMadame Élodie LALOUL décide de mettre fin à son contrat. Elle souhaite être conseillée\nsur ce point.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extraits du Contrat de travail de monsieur Walid SMAIN",
+     "ANNEXE 2 - Extraits du Code civil",
+     "ANNEXE 3 - Article L 1121-1 du Code du travail",
+     "ANNEXE 4 - Extrait de la convention collective nationale des cabinets d’ingénieurs",
+     "ANNEXE 5 - Arrêt de Cour de cassation en date du 2 octobre 2019"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qui peut appuyer la rupture du contrat de travail de monsieur Walid SMAIN.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que monsieur Walid SMAIN pourrait lui opposer.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Pourquoi le droit encadre-t-il les clauses spécifiques du contrat de travail ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C7.2",
+  "type": "cas",
+  "section": 17,
+  "section_titre": "7.2 La rupture du contrat de travail",
+  "partenaire": 14,
+  "partenaire_titre": "6.2 Les différents régimes de responsabilité régimes spéciaux responsabilité contractuelle responsabilité extra- contractuelle",
+  "frequence_passee": 0.22,
+  "inedit": false,
+  "proba_annee_suivante": 0.107,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits, les parties en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique pouvant justifier le licenciement de Louise GENEREUX.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Exposez l’argumentation juridique que pourrait développer Joséphine pour contester son licenciement sur le fond et sur la forme.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Précisez le type de licenciement mis en œuvre.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "7.2 La rupture du contrat de travail",
+   "theme": "Thème 7 : Comment le droit encadre-t-il le travail salarié ?",
+   "texte": "Le contrat de travail à durée indéterminée prend fin par : - la démission du salarié ; - le départ en retraite ; - le licenciement ; - la rupture conventionnelle. Le droit du travail encadre particulièrement la rupture du contrat à l’initiative de l’employeur. Pour être valable, le licenciement exige une cause réelle et sérieuse et le respect des procédures. L’étude du licenciement pour motif économique se limite à l’étude de la définition du Code du travail. Les conséquences de la rupture du contrat de travail sont abordées dans leurs aspects principaux : indemnité de licenciement, indemnité de congés payés, préavis, solde de tout compte, droits à l’assurance perte d’emploi.\nNotions : La démission. Le licenciement individuel pour motif personnel. La rupture conventionnelle individuelle. La rupture conventionnelle collective. La cause réelle et sérieuse. Le licenciement pour motif économique.\nLe contrat de travail à durée indéterminée prend fin par : --la démission du salarié ; --le départ en retraite ; --le licenciement ; --la rupture conventionnelle. Le droit du travail encadre particulièrement la rupture du contrat à l’initiative de l’employeur.\nL’étude de la rupture du contrat de travail porte sur les ruptures traditionnelles (démission, retraite, licenciement) mais aussi sur des ruptures plus récentes (rupture conventionnelle individuelle et collective) et insiste sur l’encadrement par le droit des ruptures à l’initiative de l’employeur et conventionnelles. Dans ce cadre, la validité d’un licenciement pour motif personnel ou pour motif économique nécessite un motif réel et sérieux et de suivre une procédure spécifique, éléments contrôlés par le juge à la demande d’une des parties.\nLicenciement individuel pour motif personnel. Rupture conventionnelle individuelle – Rupture conventionnelle collective. Cause réelle et sérieuse. Licenciement pour motif économique.\nPour être valable, le licenciement exige une cause réelle et sérieuse et le respect des procédures. L’étude du licenciement pour motif économique se limite à l’étude de la définition du Code du travail. Les conséquences de la rupture du contrat de travail sont abordées dans leurs aspects principaux : indemnité de licenciement, indemnité de congés payés, préavis, solde de tout compte, droits à l’assurance perte d’emploi.\nLes ruptures conventionnelles sont particulièrement encadrées par une convention écrite, des délais spécifiques et une indemnisation obligatoire.",
+   "articles": [
+    "Article L1232-1 du Code du travail : Tout licenciement pour motif personnel est motivé dans les conditions définies par le présent chapitre. Il est justifié par une cause réelle et sérieuse.",
+    "Article L1233-2 du Code du travail : Tout licenciement pour motif économique est motivé dans les conditions définies par le présent chapitre. Il est justifié par une cause réelle et sérieuse.",
+    "Article L1236-7 du Code du travail : La rupture à l'initiative de l'employeur du contrat de mission à l'exportation prévu à l'article L. 1223-5 est soumise aux dispositions du chapitre II relatives au licenciement pour motif personnel.",
+    "Article L1235-7 du Code du travail : Toute contestation portant sur le licenciement pour motif économique se prescrit par douze mois à compter de la dernière réunion du comité social et économique ou, dans le cadre de l'exercice par le salarié de son droit individuel à contester le licenciement pour motif économique, à compter de la notification de celui-ci.",
+    "Article L1237-11 du Code du travail : L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du licenciement ou de la démission, ne peut être imposée par l'une ou l'autre des parties. Elle résulte d'une convention signée par les parties au contrat. Elle est soumise aux dispositions de la présente section destinées à garantir la liberté du consentement des parties.",
+    "Article L1233-7 du Code du travail : Lorsque l'employeur procède à un licenciement individuel pour motif économique, il prend en compte, dans le choix du salarié concerné, les critères prévus à l'article L. 1233-5.",
+    "Article L1237-19-2 du Code du travail : L'acceptation par l'employeur de la candidature du salarié dans le cadre de la rupture conventionnelle collective emporte rupture du contrat de travail d'un commun accord des parties, le cas échéant dans les conditions prévues à l'article L. 1237-18-4. Les salariés bénéficiant d'une protection mentionnée au chapitre Ier du titre Ier du livre IV de la deuxième partie peuvent bénéficier des dispositions de l'accord portant rupture conventionnelle collective. Par dérogation au premier alinéa du présent article, la rupture d'un commun accord dans le cadre de la rupture conventionnelle collective est soumise à l'autorisation de l'inspecteur du travail dans les conditions prévues au chapitre Ier du titre II du livre IV de la deuxième partie. Dans ce cas la rupture du contrat de travail ne peut intervenir que le lendemain du jour de l'autorisation. Pour les médecins du travail, la rupture du contrat est soumise à l'autorisation de l'inspecteur du travail, après avis du médecin inspecteur du travail."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "6.2 Les différents régimes de responsabilité régimes spéciaux responsabilité contractuelle responsabilité extra- contractuelle",
+   "theme": "Thème 6 : Qu’est-ce qu’être responsable ?",
+   "texte": "L’étude porte sur les seuls éléments constitutifs de la responsabilité que devra prouver la victime pour obtenir la réparation de ses dommages. Ces éléments sont étudiés dans des situations juridiques concrètes qui font appel aux différents régimes de responsabilité (cf. 6.2.2. et 6.2.3.). Il ne s’agit pas de connaître le détail des règles d’indemnisation selon les régimes de responsabilité ou selon les postes de préjudices. L’analyse consiste à qualifier les faits dans leur contexte (relation contractuelle ou extra contractuelle) pour identifier le régime de responsabilité applicable. Les dommages peuvent constituer un préjudice écologique ou être occasionnés à l’occasion de la relation de travail, dans le cadre d’un accident de la circulation ou causés par le défaut de sécurité d’un produit ; dès lors, un régime spécifique d’indemnisation est applicable. Si les dommages sont nés à l’occasion de l’exécution d’un contrat, les règles spécifiques prévues dans le contrat s’appliqueront. Le juge peut également étendre les obligations des parties pour permettre une indemnisation des victimes (obligation de sécurité). Enfin, à défaut, le régime de la responsabilité civile extracontractuelle (fait personnel, fait des choses / fait d’autrui, fait des animaux, ruine des bâtiments) permettra à la victime de rechercher l’indemnisation de son préjudice.\nNotions : La fait générateur / la faute. Le dommage. Le lien de causalité. Le préjudice écologique. L’accident du travail. L’accident de la circulation. Les produits défectueux. L’obligation de moyens, l’obligation de résultat. L’obligation de sécurité. La clause de limitation ou d’exonération de responsabilité. Le fait personnel. Le fait des choses. d’autrui. Le fait Le fait des animaux. La ruine des bâtiments.\nL’étude porte sur les seuls éléments constitutifs de la responsabilité que devra prouver la victime pour obtenir la réparation de ses dommages.\nPoints communs de tous les régimes de responsabilité, les notions de : --faute ou fait générateur ; --lien de causalité entre la faute ou le fait générateur et le dommage ; sont expliquées à travers l’étude de situations juridiques concrètes.\nCes éléments sont étudiés dans des situations juridiques concrètes qui font appel aux différents régimes de responsabilité (voir plus bas).\nCes situations seront suffisamment détaillées pour que leur exploitation par l’élève suppose le recours à une qualification juridique pour déterminer le régime juridique applicable et permette la discussion.\nIl ne s’agit pas de connaitre le détail des règles d’indemnisation selon les régimes de responsabilité ou selon les postes de préjudices. L’analyse consiste à qualifier les faits dans leur contexte (relation contractuelle ou extra contractuelle) pour identifier le régime de responsabilité applicable.\n6.2.1 Les régimes spéciaux Le préjudice écologique. L’accident du travail. L’accident de la circulation. Les produits défectueux.\nLes dommages peuvent constituer un préjudice écologique ou être occasionnés à l’occasion de la relation de travail, dans le cadre d’un accident de la circulation ou causés par le défaut de sécurité d’un produit dès lors un régime spécifique d’indemnisation sera applicable.\nL’analyse et la qualification juridique des faits doivent permettre à l’élève de relever que les conditions d’application de tel ou tel régime sont réunies à l’exclusion de tout autre.\n6.2.2 La responsabilité contractuelle L’obligation de moyens, l’obligation de résultat. […]",
+   "articles": [
+    "Article 1245-17 du Code civil : Les dispositions du présent chapitre ne portent pas atteinte aux droits dont la victime d'un dommage peut se prévaloir au titre du droit de la responsabilité contractuelle ou extracontractuelle ou au titre d'un régime spécial de responsabilité. Le producteur reste responsable des conséquences de sa faute et de celle des personnes dont il répond.",
+    "Article 1246 du Code civil : Toute personne responsable d'un préjudice écologique est tenue de le réparer.",
+    "Article L921-3 du Code de commerce : Pour l'application de l'article L. 123-32, les mots : “ les organismes gérant des régimes de protection sociale relevant du code de la sécurité sociale et du code rural et de la pêche maritime ” sont remplacés par les mots : “ les organismes gérant des régimes de protection sociale à Mayotte ”."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 2 - Extraits du Code du travail",
+    "texte": "Article L1121-1\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché.\nArticle L1222-1\nLe contrat de travail est exécuté de bonne foi.\nArticle L1232-1\nTout licenciement pour motif personnel est motivé dans les conditions définies par le\nprésent chapitre. Il est justifié par une cause réelle et sérieuse.\nArticle L1233-2\nTout licenciement pour motif économique est motivé dans les conditions définies par\nle présent chapitre. Il est justifié par une cause réelle et sérieuse.\nArticle L1233-3\nConstitue un licenciement pour motif économique le licenciement effectué par un\nemployeur pour un ou plusieurs motifs non inhérents à la personne du salarié résultant\nd'une suppression ou transformation d'emploi ou d'une modification, refusée par le\nsalarié, d'un élément essentiel du contrat de travail […]\nArticle L1235-3\nSi le licenciement d'un salarié survient pour une cause qui n'est pas réelle et sérieuse,\nle juge peut proposer la réintégration du salarié dans l'entreprise, avec maintien de ses\navantages acquis.\nSi l'une ou l'autre des parties refuse cette réintégration, le juge octroie au salarié une\nindemnité à la charge de l'employeur, dont le montant est compris entre les montants\nminimaux et maximaux fixés [par la loi]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 1: Extraits du Code du travail",
+    "texte": "Article L1222-1\nLe contrat de travail est exécuté de bonne foi.\nArticle L1232-1\nTout licenciement pour motif personnel est motivé dans les conditions définies par le\nprésent chapitre.\nIl est justifié par une cause réelle et sérieuse.\nArticle L1232-2\nL'employeur qui envisage de licencier un salarié le convoque, avant toute décision, à\nun entretien préalable.\nLa convocation est effectuée par lettre recommandée ou par lettre remise en main\npropre contre décharge. Cette lettre indique l'objet de la convocation.\nL'entretien préalable ne peut avoir lieu moins de cinq jours ouvrables après la\nprésentation de la lettre recommandée ou la remise en main propre de la lettre de\nconvocation.\nArticle L1232-3\nAu cours de l'entretien préalable, l'employeur indique les motifs de la décision\nenvisagée et recueille les explications du salarié.\nArticle L1232-4\nLors de son audition, le salarié peut se faire assister par une personne de son choix\nappartenant au personnel de l'entreprise […].\nArticle L1232-6\nLorsque l'employeur décide de licencier un salarié, il lui notifie sa décision par lettre\nrecommandée avec avis de réception.\nCette lettre comporte l'énoncé du ou des motifs invoqués par l'employeur.\nElle ne peut être expédiée moins de deux jours ouvrables après la date prévue de\nl'entretien préalable au licenciement auquel le salarié a été convoqué […].\nArticle L1233-2\nTout licenciement pour motif économique est motivé dans les conditions définies par\nle présent chapitre.\nIl est justifié par une cause réelle et sérieuse.\nArticle L6321-1\nL'employeur assure l'adaptation des salariés à leur poste de travail.\nIl veille au maintien de leur capacité à occuper un emploi, au regard notamment de\nl'évolution des emplois, des technologies et des organisations […].\nIl peut proposer des formations qui participent au développement des compétences,\nainsi qu'à la lutte contre l'illettrisme […].\nArticle L6321-2\nToute action de formation suivie par un salarié pour assurer son adaptation au poste\nde travail ou liée à l'évolution ou au maintien dans l'emploi dans l'entreprise constitue\nun temps de travail effectif et donne lieu pendant sa réalisation au maintien par\nl'entreprise de la rémunération."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-asie",
+    "titre": "ANNEXE 2– Abandon de poste et présomption de démission",
+    "texte": "Un abandon de poste est une absence injustifiée, continue, volontaire, prolongée du salarié\npendant ses heures de travail et ce, sans autorisation de son employeur. En effet, toute\nabsence doit être justifiée et légitime. Le salarié absent sans justification ou autorisation ne\nperçoit pas de salaire et son contrat est légitimement suspendu.\nComment l’entreprise peut réagir face à l’abandon de poste ?\nL’abandon de poste sans justification par un salarié est un comportement fautif du salarié\nqui jusqu’à présent pouvait justifier une sanction disciplinaire pouvant aller jusqu’au\nlicenciement (même si cela n’est nullement une obligation) et ainsi permettre au salarié\nd’être indemnisé par l’assurance chômage.\nCertains salariés pouvaient préférer opter pour l’abandon de poste plutôt que démissionner\ncar en principe le salarié démissionnaire (sauf motif légitime) ne perçoit pas d’allocation\nchômage.\nDésormais, la loi du 21 décembre 2022 portant sur les mesures d'urgence relatives au\nfonctionnement du marché du travail en vue du plein emploi, dite aussi loi \"plein emploi\", loi\n\"marché du travail\" ou \"nouvelle réforme chômage\" votée par le Parlement et validée par le\nConseil constitutionnel, assimile l'abandon de poste à une démission.\n[…]\nQuelle est la nouvelle procédure concernant l'abandon de poste, aujourd’hui\nconsidéré comme une démission ?\nUn collaborateur qui abandonne son poste de travail et qui n’a pas repris ce dernier dans le\ndélai fixé par son employeur (deux semaines minimum) après une première mise en\ndemeure sera désormais, sauf cas particulier, présumé démissionnaire. Par conséquent, ce\nnouveau statut le privera de l’assurance-chômage.\nAfin d’enclencher la procédure de présomption de démission, l’employeur doit envoyer en\ncourrier recommandé une mise en demeure de justifier son absence et de regagner son\nposte (une lettre remise en main propre contre récépissé à la même valeur).\nSi l’employé ne reprend pas le travail dans un délai de 15 jours au minimum, il est\nmaintenant considéré comme démissionnaire.\nNotons cependant que si le salarié quitte volontairement son poste pour un motif “légitime”,\nil est en mesure de contester la présomption de démission […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 4 : arrêt de la Cour de cassation du 14 février 2018",
+    "texte": "Attendu, selon l'arrêt attaqué (Poitiers, 29 juin 2016), que Mme X... a été engagée le\n18 janvier 2010, suivant contrat à durée déterminée, par la société Mind, filiale du\nGroupe Excent, en qualité de technicienne nomenclatures, les relations contractuelles\ns'étant poursuivies par un contrat de travail à durée indéterminée incluant une clause\nde mobilité ; que, suite au refus de la salariée de rejoindre le site de Toulouse,\nl'employeur l'a licenciée pour faute grave ; que, contestant son licenciement, la salariée\na saisi la juridiction prud'homale ;\n[...]\nAttendu que la salariée fait grief à l'arrêt de dire son licenciement justifié par une cause\nréelle et sérieuse et de la débouter de sa demande d'indemnité pour licenciement sans\ncause réelle et sérieuse, alors, selon le moyen :\nd'application et ne peut conférer à l'employeur le pouvoir d'en étendre\nunilatéralement la portée ; qu'en l'espèce, la cour d'appel a constaté que la clause\nde mobilité est rédigée en ces termes : « .....Néanmoins, il est convenu que la\nsociété Puls Action peut être amenée à modifier le lieu de travail de Mme Sophie\nX... pour des raisons touchant à la nature de l'activité, à l'organisation et au bon\nfonctionnement de l'entreprise ou à l'évolution de son activité. Mme Sophie X...\npourrait ainsi être mutée dans l'un de nos établissements actuels et/ou futurs en\nFrance (Belfort, Bourges, Colomiers, Figeac, Rennes, Paris, Saint-Nazaire.....).\nLe refus de Mme Sophie X... d'accepter un tel changement serait susceptible\nd'entraîner un licenciement, éventuellement pour faute grave...... » […]\nau motif que cette clause prévoyait sa possible mutation en France, alors que la\nmention « en France » était suivie immédiatement d'une liste de villes indiquées\nentre parenthèses se terminant par des points de suspension permettant ainsi à\nla société Groupe Excent de dimension internationale, d'y inclure tout autre lieu\nde France relevant des départements d'Outre-mer et des régions d'Outre-mer,\nce dont il s'évinçait que la clause ne définissait pas de façon précise sa zone\ngéographique d'application et pouvait conférer à l'employeur le pouvoir d'en\nétendre unilatéralement la portée, la cour d'appel a […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole-remplacement",
+    "titre": "ANNEXE 3 – L’existence des régimes spéciaux",
+    "texte": "Il existe différents régimes spéciaux de responsabilité qui ne nécessitent pas la\ndémonstration d’une faute de la personne à l’origine du dommage. Ces régimes se sont\ndéveloppés à partir de la fin du XIXème siècle, en raison de mutations économiques et\nsociales (industrialisation…). L’apparition de nouveaux risques, plus récents, ont également\nrendu nécessaire la création de régimes appropriés.\nLe premier régime spécial date de la loi du 9 avril 1898 qui instaure une responsabilité de\nl’employeur en cas d’accident survenu sur le lieu du travail ou en raison du travail. La victime\npeut être indemnisée en prouvant un accident qui découle du travail ainsi que des\ndommages corporels et éventuellement matériels.\nPrès d’un siècle plus tard, le législateur a cherché à instaurer un régime de responsabilité\ndes accidents de la circulation (loi du 5 juillet 1985 dite « loi Badinter »). Cette loi s’applique\naux victimes d’un accident de la circulation dans lequel est impliqué un véhicule terrestre à\nmoteur (voitures, motos, camions, etc…). Toute personne non conductrice ayant subi un\naccident de la circulation impliquant un véhicule est considérée comme une victime.\nEnsuite, la loi du 19 mai 1998 a créé une responsabilité spéciale destinée à obliger le\nproducteur d’un produit défectueux à réparer le dommage causé par un bien qui n’offre pas\nla sécurité à laquelle on peut légitimement s’attendre. Trois conditions doivent être\ndémontrées : un défaut, un dommage et un lien de causalité.\nEnfin, le préjudice écologique a été prévu par la loi du 8 août 2016, avec pour objectif\nd’intensifier la lutte contre le changement climatique. Ainsi, une association peut demander\nau juge de reconnaître un préjudice « non négligeable ».\nSource : les auteurs"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 1 : Extraits du Code civil",
+    "texte": "Article 1218 : Il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : Chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde.\nArticle 1246 : Toute personne responsable d'un préjudice écologique est tenue de le\nréparer.\nArticle 1247 : Est réparable, dans les conditions prévues au présent titre, le préjudice\nécologique consistant en une atteinte non négligeable aux éléments ou aux fonctions\ndes écosystèmes ou aux bénéfices collectifs tirés par l'homme de l'environnement.\nArticle 1248 : L'action en réparation du préjudice écologique est ouverte à toute\npersonne ayant qualité et intérêt à agir, telle que l'Etat, l'Agence française pour la\nbiodiversité, les collectivités territoriales et leurs groupements dont le territoire est\nconcerné, ainsi que les établissements publics et les associations agréées ou créées\ndepuis au moins cinq ans à la date d'introduction de l'instance qui ont pour objet la\nprotection de la nature et la défense de l'environnement.\nArticle 1249 : La réparation du préjudice écologique s'effectue par priorité en nature.\nEn cas d'impossibilité de droit ou de fait ou d'insuffisance des mesures de réparation,\nle juge condamne le responsable à verser des dommages et intérêts, affectés à la\nréparation de l'environnement, au demandeur ou, si celui-ci ne peut prendre les\nmesures utiles à cette fin, à l'Etat. […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2023-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nLa société Fraîche Fontaine commercialise des fontaines à eau auprès des entreprises\net des administrations publiques. Elle est représentée légalement par sa dirigeante,\nFabienne GARNIER. Il y a 5 ans, Louise GENEREUX a été embauchée à temps\ncomplet (35 heures hebdomadaires) au service commercial : elle est en charge des\nrelations clients/fournisseurs, et effectue des déplacements fréquents avec le véhicule\nprofessionnel mis à sa disposition.\nLouise GENEREUX est par ailleurs présidente d’une association d’aide qui gère une\népicerie solidaire.\nAprès plusieurs années de croissance rapide, l’activité de la société Fraîche Fontaine\nconnaît un ralentissement lié à la crise sanitaire. Le développement du télétravail s’est\ntraduit par une baisse des ventes de fontaines à eau aux entreprises.\nDepuis plusieurs mois, Fabienne GARNIER a constaté une baisse des ventes sur le\nsecteur de Louise GENEREUX. Après investigations, elle constate que Louise\nGENEREUX consacre plus d’un jour par semaine de son temps de travail pour réaliser\nles tâches administratives de l’association en utilisant le matériel de l’entreprise\n(ordinateur, logiciels de gestion, ligne téléphonique et connexion Internet).\nPar ailleurs Louise GENEREUX fait usage du véhicule professionnel mis à sa\ndisposition pour faire des approvisionnements ponctuels de l’épicerie.\nLe licenciement de Louise GENEREUX est envisagé par Fabienne GARNIER. Cette\ndernière vous consulte.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extraits du Code civil",
+     "ANNEXE 2 - Extraits du Code du travail",
+     "ANNEXE 3 - Arrêt de la Cour de cassation du 8 décembre 2021",
+     "ANNEXE 4 - La « bonne foi » et la loyauté dans le contrat de travail"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique pouvant justifier le licenciement de Louise GENEREUX.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les arguments juridiques que Louise GENEREUX pourrait opposer à son employeur.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Pourquoi la bonne foi est-elle exigée en droit des contrats ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nJoséphine Duval, diplômée d’un master en développement commercial, est\nembauchée en CDI le 1er septembre 2019 par la SARL UNIPUR qui vend des\nsystèmes de filtration pour les climatisations. Cependant, après cinq mois, ses ventes\nne décollent pas. Elles peinent à trouver des clients et à les convaincre car elle ne\nconnaît pas suffisamment les produits.\nSon directeur commercial l’avait inscrit à une formation technique. Mais, submergée\npar le travail, elle avait décidé de ne pas la suivre. Elle en avait informé, par courriel,\nson directeur commercial qui lui avait répondu, en retour, par un autre courriel : « Je\nte remercie de m’avoir prévenu. Je comprends ta décision de vouloir avancer ton\ntravail plutôt que d’aller en formation compte tenu du retard pris dans ta prospection ».\nSon directeur commercial décide de lui proposer une deuxième formation, qu’elle\nrefusera de la même manière. Fin juin 2020, Joséphine n’a réalisé que 25% de ses\nobjectifs de ventes alors que les mois de mai et juin devaient être des plus propices.\nLe 15 juillet, comme tous les mois, elle est convoquée par son directeur commercial\npour faire le point. Il constate qu’elle ne remplit pas ses objectifs de vente car elle ne\nmaîtrise pas les aspects techniques des produits suite à ses deux refus de formation.\nCette constatation ressort d’une enquête de satisfaction faite auprès de plusieurs\nclients que Joséphine n’a pas su convaincre. A ce même entretien, il lui annonce donc\nqu’elle est licenciée.\nElle reçoit, le lendemain de cet entretien, une lettre lui notifiant son licenciement selon\nle motif « […]",
+    "annexes": [
+     "Annexe 1: Extraits du Code du travail",
+     "Annexe 2: La jurisprudence sur l’obligation de formation de l’employeur",
+     "Annexe 3: Arrêt de la Cour de cassation chambre sociale du 13 février 2008",
+     "Annexe 4: Extrait du contrat de travail à durée indéterminée de Joséphine Duval"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits, les parties en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "Joséphine Duval est salariée de la SARL UNIPUR, son employeur, dans le cadre\nd’un contrat de travail à durée indéterminée. Embauchée comme commerciale, elle\néprouve des difficultés à assimiler la technicité des produits. Son employeur l’inscrit à\ndeux formations qu’elle renonce à faire, de peur de perdre du temps. Elle en informe\nson directeur commercial qui soutient sa décision.\nDix mois après son embauche, ses ventes ne décollant pas, son directeur commercial\nla convie à un entretien où il lui explique qu’elle est licenciée car elle n’a pas acquis\n\n\n\n\nles compétences techniques nécessaires suite à un refus de formation. Le lendemain,\nelle reçoit une lettre de licenciement portant le motif suivant « Inaptitude à s’adapter\nau travail demandé suite à un refus de formation ».\nJoséphine conteste son licenciement."
+     },
+     {
+      "enonce": "Précisez le type de licenciement mis en œuvre.",
+      "points": null,
+      "corrige": "C’est un licenciement pour motif personnel car le motif évoqué par l’employeur est lié\nà la personne du salarié, ici une inaptitude suite à un refus de formation selon\nl’employeur."
+     },
+     {
+      "enonce": "Exposez l’argumentation juridique que pourrait développer Joséphine pour contester son licenciement sur le fond et sur la forme.",
+      "points": null,
+      "corrige": "contester son licenciement sur le fond et sur la forme.\nJoséphine conteste son licenciement à la fois sur le fond et sur la forme\nSur le fond, elle met en cause la recevabilité du motif du licenciement donné par\nl’employeur : “Inaptitude à s’adapter au travail demandé suite à un refus de formation”.\nEn effet, selon l'Article L1232-1 du Code du travail, tout licenciement pour motif\npersonnel doit être justifié par une cause réelle et sérieuse.\nDe plus, selon l’article L6321-1 du Code du travail, l’employeur a une obligation de\nformation envers ses salariés. Par des actions de formation, il doit veiller à l'adaptation\ndes salariés à leur poste de travail et à leur employabilité.\nEnfin, l’arrêt de la Cour de cassation du 3 mai 2018 précise que l’employeur engage\nsa responsabilité seulement si le salarié peut prouver que l’absence de\nproposition de formation par l’employeur a créé un […]"
+     },
+     {
+      "enonce": "Proposez les arguments juridiques que son employeur pourrait alors lui opposer.",
+      "points": null,
+      "corrige": "opposer.\n\nSelon le Code civil, le contrat a force obligatoire : il doit être respecté par les parties.\nDans le cas contraire, la partie défaillante engage sa responsabilité civile contractuelle.\nEn l’espèce, l’article 6 du contrat de travail de Joséphine stipule que la salariée\ns’engage à suivre les formations proposées par son employeur. En réalité, l’employeur\n\n\n\n\nn’a pu que constater le refus de la salariée de suivre la formation proposée par le\ncourriel de son directeur commercial.\nPar conséquent, manquant à ses obligations, la salariée a pu engager sa\nresponsabilité civile contractuelle envers son employeur.\n\nSelon le droit, cette obligation de formation relève du pouvoir de direction de\nl’employeur. Le salarié est obligé de suivre la formation proposée.\nSelon l’arrêt de la Cour de cassation du 13 février 2008, la salariée qui refuserait tout\nou une partie de la formation proposée […]"
+     },
+     {
+      "enonce": "Justifiez l’existence des règles de procédure en matière de licenciement individuel.",
+      "points": null,
+      "corrige": "individuel.\nSelon les articles 1232-2 et suivants du Code du travail, l’employeur doit respecter, en\nmatière de licenciement pour motif personnel, une procédure précise (convocation à\nun entretien préalable, entretien, notification de licenciement) et les délais afférents.\nUne justification générale : la protection du salarié contre l’employeur afin de rétablir\nl’équilibre des forces, le salarié étant le plus vulnérable économiquement (à mettre en\nlien avec le rôle du droit qui protège les plus faibles – programme de 1ère). Le\nlicenciement a en effet des conséquences sociales économiques, personnelles\nsouvent très importantes en période chômage massif.\nDans le détail, le respect des étapes de la procédure permet au salarié :\n- d’être prévenu de ce que l’employeur lui reproche : lettre exposant clairement les\nmotifs du licenciement.\n- de préparer sa défense : 5 jours entre la convocation […]"
+     }
+    ]
+   }
+  ]
+ }
+]

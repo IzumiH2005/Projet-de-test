@@ -1,0 +1,890 @@
+[
+ {
+  "id": "E1.3",
+  "type": "exercices",
+  "section": 2,
+  "section_titre": "1.3 Les sources du droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "En quoi la Cour de cassation est-elle indispensable au système juridique français ?",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "1.3 Les sources du droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "Les règles de droit émanent d’autorités légitimes. L’étude de quelques normes et de leur autorité créatrice permet d’identifier les sources du droit. L’analyse est centrée sur les sources écrites et la jurisprudence. Les sources communautaires, nationales, y compris celles issues de la négociation collective, sont étudiées sans entrer dans le détail de leur création. L’étude permet de réaffirmer le caractère européen de notre système juridique et d’observer que la cohérence de l’ordre juridique repose sur la complémentarité et la hiérarchie des sources du droit. Elle permet également de rappeler les principes d’organisation et de séparation des pouvoirs. La notion de jurisprudence est abordée ainsi que le rôle d’unification du droit de la Cour de cassation.\nNotions : Constitution. Contrôle de constitutionnalité (QPC). Droit communautaire, traités, droit dérivé (règlement, directive)/ Commission européenne, Conseil de l’Union européenne Parlement européen. Loi/parlement. Règlement/ gouvernement. Jurisprudence/autorité judiciaire. Conventions et accords collectifs/partenaires sociaux. Organisation judiciaire. Hiérarchie des normes.\nCapacités attendues : l'élève est capable d’identifier les éléments d’un ; litige : parties, faits, prétentions, question de droit ; au moyen d’une argumentation si le litige est causé par un acte ou ; de déterminer par ; un fait juridique afin d'envisager un mode de preuve adapté ; d’apprécier ; la force probante d'un élément de preuve dans une situation donnée ; de déterminer la juridiction qui a prononcé une décision de justice ; de sélectionner la juridiction susceptible de juger un litige ; de distinguer le rôle du procès civil et du procès pénal ; d’identifier les phases d’un ; d’expliquer ; les enjeux de la constitution de partie civile.",
+   "articles": [
+    "Article L232-3 du Code de la consommation : Nonobstant toute stipulation contraire, le consommateur ne peut être privé de la protection que lui assurent les dispositions prises par un Etat membre de l'Union européenne en application de la directive 2011/83/UE du Parlement européen et du Conseil du 25 octobre 2011 relative aux droits des consommateurs, modifiant la directive 93/13/CEE du Conseil et la directive 1999/44/CE du Parlement européen et du Conseil et abrogeant la directive 85/577/CEE du Conseil et la directive 97/7/CE du Parlement européen et du Conseil, lorsque le contrat conclu à distance ou hors établissement présente un lien étroit avec le territoire de cet Etat.",
+    "Article L232-4 du Code de la consommation : Lorsque les parties ont choisi la loi d'un Etat non membre de l'Union européenne pour régir le contrat, le juge devant lequel est invoquée cette loi est tenu d'en écarter l'application au profit des dispositions plus protectrices de la loi de la résidence habituelle du consommateur assurant la transposition de la directive 2023/2673 du Parlement européen et du Conseil du 22 novembre 2023, lorsque le contrat présente un lien étroit avec le territoire d'un ou plusieurs Etats membres de l'Union européenne.",
+    "Article L2231-6 du Code du travail : Les conventions et accords font l'objet d'un dépôt dans des conditions déterminées par voie réglementaire.",
+    "Article L2222-1 du Code du travail : Les conventions et accords collectifs de travail, ci-après désignés \" conventions \" et \" accords \" dans le présent livre, déterminent leur champ d'application territorial et professionnel. Le champ d'application professionnel est défini en termes d'activités économiques. Pour ce qui concerne les professions agricoles mentionnées aux 1° à 3°, 6° et 7° de l'article L. 722-20 du code rural et de la pêche maritime, le champ d'application des conventions et accords peut, en outre, tenir compte du statut juridique des entreprises concernées ou du régime de protection sociale d'affiliation de leurs salariés. Les conventions et accords collectifs de travail dont le champ d'application est national s'appliquent, sauf stipulations contraires, en Guadeloupe, en Guyane, en Martinique, à Mayotte, à La Réunion, à Saint-Barthélemy, à Saint-Martin et à Saint-Pierre-et-Miquelon, dans un délai de six mois à compter de leur date d'entrée en vigueur. Ce délai est imparti aux organisations syndicales de salariés et d'employeurs habilitées à négocier dans ces collectivités pour conclure des accords dans le même champ si elles le souhaitent."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code de la consommation",
+    "texte": "Article L111-1\nAvant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel\ncommunique au consommateur, de manière lisible et compréhensible, les informations\nsuivantes :\nnumérique ou du contenu numérique, compte tenu de leur nature et du support de\ncommunication utilisé, et notamment les fonctionnalités […] du contenu numérique ou\ndu service numérique […] ;\nArticle L221-18\nLe consommateur dispose d’un délai de quatorze jours pour exercer son droit de\nrétractation d’un contrat conclu à distance, […], sans avoir à motiver sa décision […].\nLe délai mentionné au premier alinéa court à compter du jour : […]\ndésigné par lui, pour les contrats de vente de biens. […]\nArticle L221-28\nLe droit de rétractation ne peut être exercé pour les contrats : […]\nnettement personnalisés ;\net qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la\nsanté […].\nEN_NOjczNT7QzNjAc0ND4UzMsTYxMj7A2NTAAwMTdY5OATgx"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C2.1",
+  "type": "cas",
+  "section": 3,
+  "section_titre": "2.1 Le litige",
+  "partenaire": 22,
+  "partenaire_titre": "8.4 Les partenariats contractuels",
+  "frequence_passee": 0.19,
+  "inedit": false,
+  "proba_annee_suivante": 0.078,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que madame DE GOUGES peut avancer pour justifier sa position.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "2.1 Le litige",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Le droit est un système de normes dont l'un des objectifs est de pacifier les relations sociales. La transformation d’un conflit en litige impose la qualification juridique des faits et la recherche des moyens de droit à l'appui des prétentions des parties. L’étude est menée à partir de situations juridiques de nature conflictuelle dans laquelle sont identifiés les éléments du litige (faits, parties, prétentions) et pour lesquelles on cherche comment le droit peut contribuer à résoudre le conflit.\nNotions : Litige. Demandeur, défendeur. Prétentions. Accord amiable.",
+   "articles": [
+    "Article 2065 du Code civil : Tant qu'elle est en cours, la convention de procédure participative conclue avant la saisine d'un juge rend irrecevable tout recours au juge pour qu'il statue sur le litige. Toutefois, l'inexécution de la convention par l'une des parties autorise une autre partie à saisir le juge pour qu'il statue sur le litige. En cas d'urgence, la convention ne fait pas obstacle à ce que des mesures provisoires ou conservatoires soient demandées par les parties.",
+    "Article 247-2 du Code civil : Si le demandeur forme une demande en divorce pour altération définitive du lien conjugal et que le défendeur demande reconventionnellement le divorce pour faute, le demandeur peut invoquer les fautes de son conjoint pour modifier le fondement de sa demande.",
+    "Article L612-2 du Code de la consommation : Un litige ne peut être examiné par le médiateur de la consommation lorsque : 1° Le consommateur ne justifie pas avoir tenté, au préalable, de résoudre son litige directement auprès du professionnel par une réclamation écrite selon les modalités prévues, le cas échéant, dans le contrat ; 2° La demande est manifestement infondée ou abusive ; 3° Le litige a été précédemment examiné ou est en cours d'examen par un autre médiateur ou par un tribunal ; 4° Le consommateur a introduit sa demande auprès du médiateur dans un délai supérieur à un an à compter de sa réclamation écrite auprès du professionnel ; 5° Le litige n'entre pas dans son champ de compétence. Le consommateur est informé par le médiateur, dans un délai de trois semaines à compter de la réception de son dossier, du rejet de sa demande de médiation.",
+    "Article L611-10-4 du Code de commerce : La caducité ou la résolution de l'accord amiable ne prive pas d'effets les clauses dont l'objet est d'en organiser les conséquences."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "8.4 Les partenariats contractuels",
+   "theme": "Thème 8 : Dans quel cadre et comment entreprendre ?",
+   "texte": "Différentes solutions contractuelles s’offrent aux entrepreneurs pour développer ou organiser leur activité économique. Elles doivent être nettement distinguées de la relation de travail qui implique un lien de subordination. Les entreprises peuvent conclure des partenariats avec d’autres entreprises tels que le contrat de franchise et le contrat d’entreprise (sous-traitance), dès lors que ces accords ne conduisent pas à une entente illicite ou un abus de position dominante. Pour chacun de ces partenariats, seules les principales obligations des contractants sont abordées, et ce à partir d’extraits de contrat.\nNotions : Le contrat d’entreprise (sous-traitance). Le contrat de franchise. L’entente, l’abus de position dominante.\nDifférentes solutions contractuelles s’offrent aux entrepreneurs pour développer ou organiser leur activité économique. Elles doivent être nettement distinguées de la relation de travail qui implique un lien de subordination.\nL’élève doit comprendre, ici, que le droit permet aux entreprises d’évoluer sous la forme de partenariat dont les contrats se font l’expression.\nLes entreprises peuvent conclure des partenariats avec d’autres entreprises tels que le contrat de franchise et le contrat d’entreprise (sous-traitance), dès lors que ces accords ne conduisent pas à une entente illicite ou un abus de position dominante. Pour chacun de ces partenariats, seules les principales obligations des contractants sont abordées, et ce à partir d’extraits de contrat.\nUne distinction est faite entre ces relations contractuelles et la relation de travail qui nécessite la présence d’un lien de subordination. À partir d’illustrations de contrats de partenariat, l’élève repère les principales obligations qui pèsent sur chaque contractant. Ce qu’on appelle sous-traitance est l’opération par laquelle un entrepreneur confie tout ou partie de son activité à un autre entrepreneur. Le contrat conclu est lui-même un contrat d’entreprise.",
+   "articles": [
+    "Article L8271-1-1 du Code du travail : Les infractions au premier alinéa de l'article 3 de la loi n° 75-1334 du 31 décembre 1975 relative à la sous-traitance sont constatées par les agents mentionnés à l'article L. 8271-1-2. Ces infractions sont punies d'une amende de 7 500 €.",
+    "Article L2312-58 du Code du travail : A défaut d'accord, lorsque le projet de restructuration et de compression des effectifs soumis au comité social et économique est de nature à affecter le volume d'activité ou d'emploi d'une entreprise sous-traitante, l'entreprise donneuse d'ordre en informe immédiatement l'entreprise sous-traitante. Le comité social et économique de cette dernière, en est immédiatement informé et reçoit toute explication utile sur l'évolution probable de l'activité et de l'emploi.",
+    "Article L7121-6 du Code du travail : Le contrat de travail d'un artiste du spectacle est individuel.",
+    "Article L132-13 du Code de la consommation : Le contrat conclu à la suite d'un abus de faiblesse est nul et de nul effet.",
+    "Article L430-9 du Code de commerce : L'Autorité de la concurrence peut, en cas d'exploitation abusive d'une position dominante ou d'un état de dépendance économique, enjoindre, par décision motivée, à l'entreprise ou au groupe d'entreprises en cause de modifier, de compléter ou de résilier, dans un délai déterminé, tous accords et tous actes par lesquels s'est réalisée la concentration de la puissance économique qui a permis les abus même si ces actes ont fait l'objet de la procédure prévue au présent titre."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code de la consommation",
+    "texte": "Article L111-1\nAvant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel\ncommunique au consommateur, de manière lisible et compréhensible, les informations\nsuivantes :\nnumérique ou du contenu numérique, compte tenu de leur nature et du support de\ncommunication utilisé, et notamment les fonctionnalités […] du contenu numérique ou\ndu service numérique […] ;\nArticle L221-18\nLe consommateur dispose d’un délai de quatorze jours pour exercer son droit de\nrétractation d’un contrat conclu à distance, […], sans avoir à motiver sa décision […].\nLe délai mentionné au premier alinéa court à compter du jour : […]\ndésigné par lui, pour les contrats de vente de biens. […]\nArticle L221-28\nLe droit de rétractation ne peut être exercé pour les contrats : […]\nnettement personnalisés ;\net qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la\nsanté […].\nEN_NOjczNT7QzNjAc0ND4UzMsTYxMj7A2NTAAwMTdY5OATgx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 4 - Les droits des consommateurs",
+    "texte": "La société de consommation est aujourd’hui devenue une réalité à laquelle nul ne peut\néchapper. La consommation est un phénomène quotidien que l’on ne peut éviter, à\nmoins de vivre en parfaite autarcie1. Bien connu en matière économique, le phénomène\nn’a été appréhendé que récemment par le droit. Il fallut attendre les années 1970 pour\nque le consommateur devienne une réalité juridique, le législateur ayant éprouvé le\nbesoin d’édicter d’importantes lois de protection des consommateurs […] C’est grâce à\nune loi du 26 juillet 1993 que le Code de la consommation a vu le jour, loi complétée par\nun décret du 27 mars 1997. […]. Comme les contrats de consommation, sont conclus\nentre un consommateur et un professionnel, le législateur présume2, à tort ou à raison,\nqu’il existe un déséquilibre en faveur du professionnel, censé être en position de force.\nSource : J-D.Pellier, Introduction, Les droits du consommateur,\nPresses Universitaires de France, 2019.\nEN_NODIzNT7QzNjAc0ND8UzMsTYxMj4A2NTAAwMTuY5OFTAx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-centres-etrangers",
+    "titre": "ANNEXE 3 - Extraits du Code de la Consommation",
+    "texte": "Article L111-1 : Avant que le consommateur ne soit lié par un contrat à titre onéreux,\nle professionnel communique au consommateur, de manière lisible et compréhensible,\nles informations suivantes :\nnumérique ou du contenu numérique\n[…].\nArticle L217-4 : Le bien est conforme au contrat s'il répond notamment, le cas\néchéant, aux critères suivants :\nce qui concerne la fonctionnalité, la compatibilité, l'interopérabilité, ou toute autre\ncaractéristique prévue au contrat ;\nconnaissance du vendeur au plus tard au moment de la conclusion du contrat et que\nce dernier a accepté ;\n[…]."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 3 - Extraits de l’article R212-2 du Code de la consommation",
+    "texte": "Dans les contrats conclus entre des professionnels et des consommateurs, sont\nprésumées abusives […], sauf au professionnel à rapporter la preuve contraire, les\nclauses ayant pour objet ou pour effet de :\nprestations du professionnel est assujettie à une condition dont la réalisation dépend\nde sa seule volonté ;\nlorsque celui-ci renonce à conclure ou à exécuter le contrat, sans prévoir\nréciproquement le droit pour le consommateur de percevoir une indemnité d'un\nmontant équivalent, ou égale au double en cas de versement d'arrhes […];\nmontant manifestement disproportionné ;\ndurée raisonnable ;\ndu consommateur et lorsque cette cession est susceptible d'engendrer une diminution\ndes droits du consommateur ;\nrelatives aux droits et obligations des parties […] ;"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 2 – Articles de loi",
+    "texte": "Article 9 du Code civil\nChacun a droit au respect de sa vie privée […].\nArticle 1103 du Code civil\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle L1121-1 du Code du travail\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de\nrestrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni\nproportionnées au but recherché.\nArticle L1222-1 du Code du travail\nLe contrat de travail est exécuté de bonne foi.\nEN_NODgzNT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTgY5NGDUx\nEducN_MSDgyMD4Y2MTYe0Mj3I5MwjAyNT8A5MDMExNTtUxMQTEg"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 3 : extrait de l’arrêt de la Cour de cassation chambre sociale 18/01/2012",
+    "texte": "[…] Attendu, selon l’arrêt attaqué (Rennes, 23 février 2010), que la société Fiventis,\nqui commercialise des produits immobiliers d’assurance-vie et d’épargne\ndéfiscalisée, a conclu, le 13 juin 2006 avec M. X..., pour le compte de deux sociétés\nen cours de constitution, un contrat intitulé “contrat de franchise” ; que la société,\nreprochant à M. X... de ne pas avoir respecté la clause d’exclusivité stipulée au\ncontrat, a résilié celui-ci le 28 décembre 2007 ; que M. X..., […] a saisi la juridiction\nprud’homale pour voir reconnaître l’existence d’un contrat de travail et obtenir la\ncondamnation de la société à lui payer diverses sommes ;\n[…] Attendu que la société Fiventis fait grief à l’arrêt de déclarer recevables les\ndemandes de M. X... et de dire que les termes du contrat dit « de franchise » signé le\n13 juin 2006 entre M. X... et la société Fiventis renferment des clauses de\nsubordination qui en font un véritable contrat de travail, que la lettre de résiliation du\n28 décembre 2007 constitue une lettre de licenciement et de la condamner à verser\nà M. X... diverses sommes pour non-respect de la procédure de licenciement, pour\nlicenciement sans cause réelle et sérieuse […].\nMais attendu que la cour d’appel a retenu que la société Fiventis avait, selon les\nstipulations du contrat de franchise, imposé à M. X... des obligations détaillées et\napplicables de bout en bout dans les relations avec les clients, renforcées ensuite\npar des instructions tout aussi détaillées, que, transformé en simple agent\nd’exécution, l’intéressé ne disposait d’aucune autonomie et qu’en résiliant le contrat,\nla société avait fait usage de son pouvoir de sanction ; qu’en l’état de ces\nconstatations, elle a pu en déduire, sans être tenue de retenir que les sociétés JPB\nconseils et JPB courtage avaient un caractère fictif, que M. X... se trouvait dans un\nlien de subordination à l’égard de la société Fiventis, caractérisant un contrat de\ntravail ; que le moyen n’est pas fondé ;\nPAR CES MOTIFS :\nREJETTE"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2026-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nRomain CARAIRE prépare une surprise à sa femme pour leur trentième anniversaire\nde mariage : il compte organiser une grande fête sur le thème « rose » le 14 avril 2026.\nIl souhaite donc acquérir du matériel pour rendre cet événement inoubliable.\nRomain CARAIRE se rend donc sur le site internet d’une société spécialisée dans le\nmatériel événementiel, la SARL FIESTAFUN. Après quelques recherches, il achète\ndivers produits : des enceintes, des micros et du matériel de cuisine, tous roses. Il\najoute ensuite des ballons et banderoles qui seront roses et qui comporteront\nl’inscription « 30 ans de pur bonheur – Romain et Yamina ». Le prix total est de 5 000\neuros. La SARL FIESTAFUN demande le versement d’un acompte de 20 %. Le 10\nfévrier 2026, Romain CARAIRE conclut le contrat et verse 1 000 euros à la SARL\nFIESTAFUN. Les produits achetés sont expédiés et seront livrés sous sept jours.\nToutefois, le 12 février 2026, c’est la surprise : les amis de Romain CARAIRE l’invitent\navec sa femme dans un endroit grandiose pour fêter leur anniversaire de mariage.\nRomain CARAIRE décide donc d’annuler son évènement prévu pour le 14 avril. Par\nconséquent, le matériel qu’il a acheté ne lui est plus utile. Une recherche par une IA\ngénérative lui indique qu’il peut annuler sa commande. Le 13 février 2026, il contacte\ndonc la SARL FIESTAFUN pour le faire, et obtenir un remboursement de ses 1 000\neuros d’acompte. La SARL FIESTAFUN refuse et exige que Romain CARAIRE verse\nles 4 000 euros restants dès la réception du matériel acheté, car tous les produits,\nmême les enceintes, micros, et ustensiles de cuisine sont […]",
+    "annexes": [
+     "ANNEXE 1 – Extraits du Code civil",
+     "ANNEXE 2 – Extraits du Code de la consommation",
+     "ANNEXE 3 – Extrait de l’arrêt de la Cour de cassation du 17 janvier 2018",
+     "ANNEXE 4 – Le développement des Intelligences Artificielles (IA) bouleverse le"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que peut avancer Romain CARAIRE pour obtenir le remboursement de son acompte.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que peut lui opposer la SARL FIESTAFUN afin d’obtenir le reste du paiement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir présenté des règles relatives à la protection du consommateur et du cyberconsommateur, vous traiterez, à l’aide des annexes 2 et 4 et de vos connaissances, la question suivante : Pourquoi le droit protège-t-il le cyberconsommateur ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E2.1",
+  "type": "exercices",
+  "section": 3,
+  "section_titre": "2.1 Le litige",
+  "frequence_passee": 0.19,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 2,
+    "nom": "juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement",
+    "exemples_reels": [
+     "Qualifiez juridiquement les faits et les parties.",
+     "Qualifiez juridiquement les faits, les parties et les dommages.",
+     "Qualifiez juridiquement les parties, les faits et les dommages."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que madame DE GOUGES peut avancer pour justifier sa position.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "2.1 Le litige",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Le droit est un système de normes dont l'un des objectifs est de pacifier les relations sociales. La transformation d’un conflit en litige impose la qualification juridique des faits et la recherche des moyens de droit à l'appui des prétentions des parties. L’étude est menée à partir de situations juridiques de nature conflictuelle dans laquelle sont identifiés les éléments du litige (faits, parties, prétentions) et pour lesquelles on cherche comment le droit peut contribuer à résoudre le conflit.\nNotions : Litige. Demandeur, défendeur. Prétentions. Accord amiable.",
+   "articles": [
+    "Article 2065 du Code civil : Tant qu'elle est en cours, la convention de procédure participative conclue avant la saisine d'un juge rend irrecevable tout recours au juge pour qu'il statue sur le litige. Toutefois, l'inexécution de la convention par l'une des parties autorise une autre partie à saisir le juge pour qu'il statue sur le litige. En cas d'urgence, la convention ne fait pas obstacle à ce que des mesures provisoires ou conservatoires soient demandées par les parties.",
+    "Article 247-2 du Code civil : Si le demandeur forme une demande en divorce pour altération définitive du lien conjugal et que le défendeur demande reconventionnellement le divorce pour faute, le demandeur peut invoquer les fautes de son conjoint pour modifier le fondement de sa demande.",
+    "Article L612-2 du Code de la consommation : Un litige ne peut être examiné par le médiateur de la consommation lorsque : 1° Le consommateur ne justifie pas avoir tenté, au préalable, de résoudre son litige directement auprès du professionnel par une réclamation écrite selon les modalités prévues, le cas échéant, dans le contrat ; 2° La demande est manifestement infondée ou abusive ; 3° Le litige a été précédemment examiné ou est en cours d'examen par un autre médiateur ou par un tribunal ; 4° Le consommateur a introduit sa demande auprès du médiateur dans un délai supérieur à un an à compter de sa réclamation écrite auprès du professionnel ; 5° Le litige n'entre pas dans son champ de compétence. Le consommateur est informé par le médiateur, dans un délai de trois semaines à compter de la réception de son dossier, du rejet de sa demande de médiation.",
+    "Article L611-10-4 du Code de commerce : La caducité ou la résolution de l'accord amiable ne prive pas d'effets les clauses dont l'objet est d'en organiser les conséquences."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code de la consommation",
+    "texte": "Article L111-1\nAvant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel\ncommunique au consommateur, de manière lisible et compréhensible, les informations\nsuivantes :\nnumérique ou du contenu numérique, compte tenu de leur nature et du support de\ncommunication utilisé, et notamment les fonctionnalités […] du contenu numérique ou\ndu service numérique […] ;\nArticle L221-18\nLe consommateur dispose d’un délai de quatorze jours pour exercer son droit de\nrétractation d’un contrat conclu à distance, […], sans avoir à motiver sa décision […].\nLe délai mentionné au premier alinéa court à compter du jour : […]\ndésigné par lui, pour les contrats de vente de biens. […]\nArticle L221-28\nLe droit de rétractation ne peut être exercé pour les contrats : […]\nnettement personnalisés ;\net qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la\nsanté […].\nEN_NOjczNT7QzNjAc0ND4UzMsTYxMj7A2NTAAwMTdY5OATgx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 4 - Les droits des consommateurs",
+    "texte": "La société de consommation est aujourd’hui devenue une réalité à laquelle nul ne peut\néchapper. La consommation est un phénomène quotidien que l’on ne peut éviter, à\nmoins de vivre en parfaite autarcie1. Bien connu en matière économique, le phénomène\nn’a été appréhendé que récemment par le droit. Il fallut attendre les années 1970 pour\nque le consommateur devienne une réalité juridique, le législateur ayant éprouvé le\nbesoin d’édicter d’importantes lois de protection des consommateurs […] C’est grâce à\nune loi du 26 juillet 1993 que le Code de la consommation a vu le jour, loi complétée par\nun décret du 27 mars 1997. […]. Comme les contrats de consommation, sont conclus\nentre un consommateur et un professionnel, le législateur présume2, à tort ou à raison,\nqu’il existe un déséquilibre en faveur du professionnel, censé être en position de force.\nSource : J-D.Pellier, Introduction, Les droits du consommateur,\nPresses Universitaires de France, 2019.\nEN_NODIzNT7QzNjAc0ND8UzMsTYxMj4A2NTAAwMTuY5OFTAx"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C2.2",
+  "type": "cas",
+  "section": 4,
+  "section_titre": "2.2 La preuve",
+  "partenaire": 7,
+  "partenaire_titre": "3.2 La capacité et l’incapacité",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "proba_annee_suivante": 0.056,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que les époux BASTIDE peuvent avancer pour demander l’enlèvement des gravats, pierres et barres de fer en justice.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "2.2 La preuve",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Au plan juridique, toute personne peut revendiquer une prétention en se prévalant d’un droit à condition d’en apporter la preuve. Sont étudiées les règles relatives à la preuve des actes et des faits juridiques, à la charge de la preuve, aux modes de preuve et à leur admissibilité.\nNotions : Acte et fait juridiques. Présomption. Charge et mode de preuve. Preuve électronique. Acte authentique et sous signature privée. Témoignage, aveu. Intime conviction du juge.",
+   "articles": [
+    "Article 1364 du Code civil : La preuve d'un acte juridique peut être préconstituée par un écrit en la forme authentique ou sous signature privée.",
+    "Article 1361 du Code civil : Il peut être suppléé à l'écrit par l'aveu judiciaire, le serment décisoire ou un commencement de preuve par écrit corroboré par un autre moyen de preuve.",
+    "Article 1200 du Code civil : Les tiers doivent respecter la situation juridique créée par le contrat. Ils peuvent s'en prévaloir notamment pour apporter la preuve d'un fait.",
+    "Article 1362 du Code civil : Constitue un commencement de preuve par écrit tout écrit qui, émanant de celui qui conteste un acte ou de celui qu'il représente, rend vraisemblable ce qui est allégué. Peuvent être considérés par le juge comme équivalant à un commencement de preuve par écrit les déclarations faites par une partie lors de sa comparution personnelle, son refus de répondre ou son absence à la comparution. La mention d'un écrit authentique ou sous signature privée sur un registre public vaut commencement de preuve par écrit.",
+    "Article 105 du Code civil : A défaut de déclaration expresse, la preuve de l'intention dépendra des circonstances.",
+    "Article L123-7 du Code de commerce : L'immatriculation d'une personne physique emporte présomption de la qualité de commerçant. Toutefois, cette présomption n'est pas opposable aux tiers et administrations qui apportent la preuve contraire. Les tiers et administrations ne sont pas admis à se prévaloir de la présomption s'ils savaient que la personne immatriculée n'était pas commerçante.",
+    "Article 259 du Code civil : Les faits invoqués en tant que causes de divorce ou comme défenses à une demande peuvent être établis par tout mode de preuve, y compris l'aveu. Toutefois, les descendants ne peuvent jamais être entendus sur les griefs invoqués par les époux.",
+    "Article L221-7 du Code de la consommation : La charge de la preuve du respect des obligations d'information mentionnées à la présente section pèse sur le professionnel.",
+    "Article 1377 du Code civil : L'acte sous signature privée n'acquiert date certaine à l'égard des tiers que du jour où il a été enregistré, du jour de la mort d'un signataire, ou du jour où sa substance est constatée dans un acte authentique.",
+    "Article 1383-1 du Code civil : L'aveu extrajudiciaire purement verbal n'est reçu que dans les cas où la loi permet la preuve par tout moyen. Sa valeur probante est laissée à l'appréciation du juge."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "3.2 La capacité et l’incapacité",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Les personnes juridiques disposent d’une capacité juridique qui débute à leur naissance et s’éteint à leur mort. Cette capacité délimite leur aptitude à avoir des droits et à les exercer eux-mêmes ou par l’intermédiaire de leurs représentants.\nNotions : Capacité – incapacité juridique. Mécanismes de la représentation. Acte de disposition, acte d’administration.",
+   "articles": [
+    "Article 751 du Code civil : La représentation est une fiction juridique qui a pour effet d'appeler à la succession les représentants aux droits du représenté.",
+    "Article 1145 du Code civil : Toute personne physique peut contracter sauf en cas d'incapacité prévue par la loi. La capacité des personnes morales est limitée par les règles applicables à chacune d'entre elles.",
+    "Article 2410 du Code civil : L'hypothèque conventionnelle ne peut être consentie que par celui qui a la capacité de disposer de l'immeuble qu'il y soumet.",
+    "Article L134-3 du Code de commerce : L'agent commercial peut accepter sans autorisation la représentation de nouveaux mandants. Toutefois, il ne peut accepter la représentation d'une entreprise concurrente de celle de l'un de ses mandants sans accord de ce dernier.",
+    "Article 222 du Code civil : Si l'un des époux se présente seul pour faire un acte d'administration, de jouissance ou de disposition sur un bien meuble qu'il détient individuellement, il est réputé, à l'égard des tiers de bonne foi, avoir le pouvoir de faire seul cet acte. Cette disposition n'est pas applicable aux meubles meublants visés à l'article 215, alinéa 3, non plus qu'aux meubles corporels dont la nature fait présumer la propriété de l'autre conjoint conformément à l'article 1404."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 3 – Légalité et loyauté de la preuve",
+    "texte": "La légalité de la preuve se réfère aux règles établies par la loi concernant les moyens\nadmissibles pour prouver un fait ou un acte juridique. Ainsi, un fait juridique se prouve par\ntout moyen alors que l’acte juridique se prouve par écrit.\nLa loyauté de la preuve suppose que les preuves doivent être obtenues de manière licite\nsans porter atteinte aux droits fondamentaux. Pour autant, la Cour de cassation a pu\nadmettre dans certains cas la recevabilité de preuves obtenues de manière déloyale.\nSource : les auteurs"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "titre": "Annexe 3 : extraits du Code civil",
+    "texte": "Article 1103 (anciennement article 1134) : « Les contrats légalement formés\ntiennent lieu de loi à ceux qui les ont faits. »\nArticle 1104 : « Les contrats doivent être négociés, formés et exécutés de bonne foi.\nCette disposition est d’ordre public. »\nArticle 1193 : « Les contrats ne peuvent être modifiés ou révoqués que du\nconsentement mutuel des parties, ou pour les causes que la loi autorise. »"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : extrait du Code de la consommation",
+    "texte": "Article L. 212-1 : dans les contrats conclus entre professionnels et consommateurs,\nsont abusives les clauses qui ont pour objet ou pour effet de créer, au détriment du\nconsommateur, un déséquilibre significatif entre les droits et obligations des parties au\ncontrat.\n[…]\nUn décret [art. R. 212-1] détermine une liste de clauses présumées abusives; en cas\nde litige concernant un contrat comportant une telle clause, le professionnel doit\napporter la preuve du caractère non abusif de la clause litigieuse.\nArticle R212-1 : dans les contrats conclus entre des professionnels et des\nconsommateurs, sont, de manière irréfragable, présumées abusives, au sens des\ndispositions des premier et quatrième alinéas de l’article L. 212-1 et dès lors interdites,\nles clauses ayant pour objet ou pour effet de :\nl’écrit qu’il accepte ou qui sont reprises dans un autre document auquel il n’est\npas fait expressément référence lors de la conclusion du contrat et dont il n’a pas\neu connaissance avant sa conclusion ;\npris par ses préposés ou ses mandataires ;\ncontrat relatives à sa durée, aux caractéristiques ou au prix du bien à livrer ou du\nservice à rendre ;\nservices fournis sont conformes ou non aux stipulations du contrat ou lui conférer\nle droit exclusif d’interpréter une quelconque clause du contrat ;\nréciproquement, le professionnel n’exécuterait pas ses obligations de délivrance\nou de garantie d’un bien ou son obligation de fourniture d’un service ;\nconsommateur en cas de manquement par le professionnel à l’une quelconque\nde ses obligations ;\ndu contrat en cas d’inexécution par le professionnel de ses obligations de\ndélivrance ou de garantie d’un bien ou de son obligation de fourniture d’un\nservice ;\nsans reconnaître le même droit au consommateur ;\n[…]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nRachida et Thomas BASTIDE sont propriétaires d’une maison entourée d’un terrain\nde 1 500 m² et située dans un hameau en montagne. De celle-ci, ils ont une vue\nmagnifique sur l’ensemble de la vallée. Cette habitation leur permet, durant l’année,\nde louer des chambres d’hôtes.\nLeur voisin, Fabrice PONS, entrepose depuis plusieurs jours des gravats, des pierres\net des barres de fer de toute taille. Au fil du temps, cet amas prend de l’ampleur au\npoint que les époux BASTIDE s’inquiètent de sa présence. En effet, ils ne peuvent plus\nprofiter pleinement de la vue reposante sur la vallée.\nFabrice PONS leur explique que les matériaux entreposés sont là pour des travaux\nfuturs. Les époux BASTIDE ne sont pas d’accord. En effet, la présence des gravats,\npierres et barres de fer les prive de la vue sur le paysage qui représente un atout dans\nleur activité d’hébergement saisonnier.\nLes époux BASTIDE envisagent de saisir la justice pour demander l’enlèvement des\nmatériaux amassés chez leur voisin.\nRépondre aux questions 1, 2 et 3.",
+    "annexes": [
+     "Annexe 1 : définition et limite du droit de propriété",
+     "Annexe 2 : extrait de l’arrêt de la Cour de cassation du 8 mars 2018",
+     "Annexe 3 : extrait du règlement sanitaire départemental (RSD)*",
+     "Annexe 4 : trouble de voisinage ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que les époux BASTIDE peuvent avancer pour demander l’enlèvement des gravats, pierres et barres de fer en justice.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez l’argumentation juridique que Fabrice PONS peut leur opposer.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E2.2",
+  "type": "exercices",
+  "section": 4,
+  "section_titre": "2.2 La preuve",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que les époux BASTIDE peuvent avancer pour demander l’enlèvement des gravats, pierres et barres de fer en justice.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "2.2 La preuve",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Au plan juridique, toute personne peut revendiquer une prétention en se prévalant d’un droit à condition d’en apporter la preuve. Sont étudiées les règles relatives à la preuve des actes et des faits juridiques, à la charge de la preuve, aux modes de preuve et à leur admissibilité.\nNotions : Acte et fait juridiques. Présomption. Charge et mode de preuve. Preuve électronique. Acte authentique et sous signature privée. Témoignage, aveu. Intime conviction du juge.",
+   "articles": [
+    "Article 1364 du Code civil : La preuve d'un acte juridique peut être préconstituée par un écrit en la forme authentique ou sous signature privée.",
+    "Article 1361 du Code civil : Il peut être suppléé à l'écrit par l'aveu judiciaire, le serment décisoire ou un commencement de preuve par écrit corroboré par un autre moyen de preuve.",
+    "Article 1200 du Code civil : Les tiers doivent respecter la situation juridique créée par le contrat. Ils peuvent s'en prévaloir notamment pour apporter la preuve d'un fait.",
+    "Article 1362 du Code civil : Constitue un commencement de preuve par écrit tout écrit qui, émanant de celui qui conteste un acte ou de celui qu'il représente, rend vraisemblable ce qui est allégué. Peuvent être considérés par le juge comme équivalant à un commencement de preuve par écrit les déclarations faites par une partie lors de sa comparution personnelle, son refus de répondre ou son absence à la comparution. La mention d'un écrit authentique ou sous signature privée sur un registre public vaut commencement de preuve par écrit.",
+    "Article 105 du Code civil : A défaut de déclaration expresse, la preuve de l'intention dépendra des circonstances.",
+    "Article L123-7 du Code de commerce : L'immatriculation d'une personne physique emporte présomption de la qualité de commerçant. Toutefois, cette présomption n'est pas opposable aux tiers et administrations qui apportent la preuve contraire. Les tiers et administrations ne sont pas admis à se prévaloir de la présomption s'ils savaient que la personne immatriculée n'était pas commerçante.",
+    "Article 259 du Code civil : Les faits invoqués en tant que causes de divorce ou comme défenses à une demande peuvent être établis par tout mode de preuve, y compris l'aveu. Toutefois, les descendants ne peuvent jamais être entendus sur les griefs invoqués par les époux.",
+    "Article L221-7 du Code de la consommation : La charge de la preuve du respect des obligations d'information mentionnées à la présente section pèse sur le professionnel.",
+    "Article 1377 du Code civil : L'acte sous signature privée n'acquiert date certaine à l'égard des tiers que du jour où il a été enregistré, du jour de la mort d'un signataire, ou du jour où sa substance est constatée dans un acte authentique.",
+    "Article 1383-1 du Code civil : L'aveu extrajudiciaire purement verbal n'est reçu que dans les cas où la loi permet la preuve par tout moyen. Sa valeur probante est laissée à l'appréciation du juge."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 3 – Légalité et loyauté de la preuve",
+    "texte": "La légalité de la preuve se réfère aux règles établies par la loi concernant les moyens\nadmissibles pour prouver un fait ou un acte juridique. Ainsi, un fait juridique se prouve par\ntout moyen alors que l’acte juridique se prouve par écrit.\nLa loyauté de la preuve suppose que les preuves doivent être obtenues de manière licite\nsans porter atteinte aux droits fondamentaux. Pour autant, la Cour de cassation a pu\nadmettre dans certains cas la recevabilité de preuves obtenues de manière déloyale.\nSource : les auteurs"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   }
+  ]
+ }
+]

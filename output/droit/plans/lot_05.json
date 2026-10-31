@@ -1,0 +1,993 @@
+[
+ {
+  "id": "C4.2",
+  "type": "cas",
+  "section": 10,
+  "section_titre": "4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "proba_annee_suivante": 0.048,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels",
+   "theme": "Thème 4 : Quels sont les droits reconnus aux personnes ?",
+   "texte": "Parmi les droits patrimoniaux, le droit de propriété est caractéristique du pouvoir juridique le plus complet qu’une personne peut exercer directement sur une chose. Le droit de propriété peut porter sur des biens corporels et incorporels. Les attributs du droit de propriété et ses caractères sont identifiés dans des situations variées. Les limites apportées au droit de propriété sont illustrées notamment dans le contexte des rapports de voisinage. La notion de bien incorporel est appréhendée à travers l’étude du droit de la propriété intellectuelle et plus particulièrement de la marque commerciale et du droit d’auteur.\nNotions : Biens corporels/biens incorporels. « Usus », « fructus », « abusus ». Caractères absolu, exclusif et perpétuel du droit de propriété. Trouble anormal du voisinage. Marque commerciale. Propriété industrielle. Monopole d’exploitation. Action en contrefaçon. Droit d’auteur.\nCapacités attendues : l'élève est capable de qualifier juridiquement un contrat et les parties au contrat ; d’apprécier les conditions de validité d’un contrat ; dans une situation donnée ; de qualifier une clause contractuelle ; de repérer et de qualifier les obligations contractuelles de chacune des parties ; d’identifier les sanctions applicables en cas d’inexécution d’un contrat ; de justifier la protection accrue du consommateur et du cyberconsommateur.",
+   "articles": [
+    "Article 543 du Code civil : On peut avoir sur les biens, ou un droit de propriété, ou un simple droit de jouissance, ou seulement des services fonciers à prétendre.",
+    "Article 2510 du Code civil : L'immatriculation d'un immeuble garantit le droit de propriété ainsi que tous les autres droits reconnus dans le titre de propriété établi au terme d'une procédure permettant de révéler l'ensemble des droits déjà constitués sur cet immeuble. Les modalités de cette procédure sont fixées par décret en Conseil d'Etat.",
+    "Article 2227 du Code civil : Le droit de propriété est imprescriptible. Sous cette réserve, les actions réelles immobilières se prescrivent par trente ans à compter du jour où le titulaire d'un droit a connu ou aurait dû connaître les faits lui permettant de l'exercer.",
+    "Article 2329 du Code civil : Les sûretés sur les meubles sont : 1° Les privilèges mobiliers ; 2° Le gage de meubles corporels ; 3° Le nantissement de meubles incorporels ; 4° La propriété retenue ou cédée à titre de garantie."
+   ]
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 4 : trouble de voisinage ?",
+    "texte": "[…] L’appréciation du trouble anormal de voisinage […] vise à mesurer le caractère\nexcessif du trouble sans le replacer dans son contexte. Elle est réalisée à l’aide des\ncritères cumulatifs de gravité et de continuité. En d’autres termes, si le trouble visuel\nest grave et continu, il est considéré comme excessif.\nLa Cour de cassation, dans un arrêt en date du 10 octobre 2012, estime que le trouble\nde voisinage n’est pas suffisamment grave dès l’instant où la vue sur la mer à partir\nde la terrasse reste possible en position debout.\nMême si théoriquement la seule atteinte à la vue est susceptible de satisfaire aux\nexigences de gravité et de continuité, très souvent, pour retenir une responsabilité sur\nle fondement du trouble anormal du voisinage suite à l’édification d’une construction,\nles juges ont tendance à associer à la perte de la vue, d’autres nuisances découlant\nde la modification de l’environnement extérieur. Ainsi, pour retenir l’existence d’un\ntrouble dont l’ampleur excède les inconvénients normaux du voisinage, sont souvent\nassociés à la perte de vue, la perte d’ensoleillement, […], l’impossibilité d’exercer une\nactivité économique en raison de la construction litigieuse, […]\nSource : d’après https://www.actu-juridique.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 4 : jurisprudences sur les troubles de voisinage liés aux animaux",
+    "texte": "L'élevage d’un poulailler avec un coq et cinq poules n’a pas été considéré comme\nconstitutif d’un trouble anormal du voisinage. Pourtant le juge de proximité avait donné\nraison aux plaignants. Mais celui-ci avait fait appel de la décision, et il a obtenu gain\nde cause, la cour considérant que les propriétaires du « gîte de charme » n’apportaient\npas la preuve d’un trouble anormal, et qu’ils devaient assumer les conséquences de\nleur installation en zone rurale (cour d'appel d'Orléans, 4 mars 2013).\nEn revanche, c’est la solution contraire qui a été retenue pour des paons recueillis par\nun propriétaire du château voisin. Ces animaux qui émettent des cris stridents ont\ntroublé la tranquillité du voisinage, abîmé les plantations et dégradé l’environnement\npar leurs souillures. Leur propriétaire a été condamné à faire cesser ces nuisances qui\nont été qualifiées de trouble anormal du voisinage sous astreinte de 500 euros par\ninfraction constatée par huissier de justice (cour d'appel de Paris, 8 janv. 2014).\nLe chant d’un coq qui s’exerce sans discontinuer la nuit à partir de quatre heures,\nconstitue un trouble à la tranquillité du voisinage demeurant à proximité de la volière\noù l’animal est enfermé, ce chant ne pouvant, compte tenu de son caractère répétitif\npendant plusieurs heures de la nuit, être considéré comme résultant du comportement\nnormal d’un tel volatile, même en milieu rural (cour d’appel de Bordeaux, 29 févr.\n1999).\nSi le chant d’un coq, le matin en zone rurale, ne peut en aucun cas constituer un trouble\nde voisinage, la présence d’un poulailler à cinq mètres de la limite séparative du fonds\nvoisin constitue un inconvénient excessif de voisinage, étant observé que ce poulailler,\nnon entretenu, génère de fortes odeurs, qualifiées de pestilentielles par l’huissier (cour\nd’appel de Chambéry, 3 janv. 2006)."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 6 – Les pouvoirs de l’employeur",
+    "texte": "L’employeur dirige l’entreprise et ses salariés. À ce titre, il dispose du pouvoir d’édicter des\nrègles au sein de l’entreprise, à travers notamment le règlement intérieur, et du pouvoir […]\nde sanctionner la faute d’un salarié.\nLes conflits individuels entre employeurs et salariés liés au contrat de travail sont jugés par\nle conseil des prud’hommes. Tout salarié dispose du droit de grève pour défendre des\nrevendications professionnelles. Tant qu’il est exercé dans des conditions normales, il ne\npeut justifier ni sanction, ni licenciement.\nL’inspection du travail veille à l’application du droit du travail au sein des entreprises. Elle\nconseille et informe les employeurs, les salariés et les représentants du personnel sur leurs\ndroits et obligations et facilite la conciliation amiable entre les parties, notamment lors des\nconflits collectifs.\nSource : travail-emploi.gouv.fr\nEN_NODgzNT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTgY5NGDUx\nEducN_MSDgyMD4Y2MTYe0Mj3I5MwjAyNT8A5MDMExNTtUxMQTEg"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nMathieu et Héloïse sont amis d’enfance et ont développé un goût commun pour la mode et\nla création de vêtements. Les études les séparent pendant quelques années. Se retrouvant\nlors d’une soirée, ils décident de concrétiser leur passion en collaborant sur la création de\nvêtements. Les deux amis se quittent enchantés, en songeant aux bénéfices qu’ils\npourraient réaliser.\nMathieu, très accaparé par son métier de styliste pour diverses enseignes, n’a pas le temps\nde s’impliquer dans le montage du projet. Héloïse décide donc de prendre en charge la\ncréation de la société et rédige intégralement les statuts : Mathieu apporterait ses\ncompétences et Héloïse la somme de 10 000 euros. Héloïse envoie les statuts à Mathieu.\nCe dernier les lit rapidement sans vraiment les comprendre et les signe entre deux rendezvous professionnels.\nPeu après, Mathieu lit attentivement les statuts et prend conscience de son engagement. Il\nse rend compte qu’une société, la SARL dénommée « Cust and Cop » a été créée et qu’elle\na pour objet social la customisation et la vente de vêtements de seconde main. Discutant\ndes statuts avec un ami, celui-ci lui indique qu’il est associé dans la SARL alors que Mathieu\ndésirait simplement collaborer en tant que salarié.\nMathieu contacte Héloïse pour l’informer de son souhait de contester la validité des statuts\nde la société « Cust and Cop ». Très inquiète, Héloïse vous consulte afin de s’assurer de la\nvalidité de ce contrat.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Articles du Code civil",
+     "ANNEXE 2 - Jurisprudence de la Cour de cassation du 3 mars 2021",
+     "ANNEXE 3 - Extrait des statuts de la société Cust and Cop",
+     "Annexe 4 – Statuts de société",
+     "Annexe 5 - Un consentement valide au sens du règlement général de protection des"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Mathieu peut lui opposer pour contester la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un contrat ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E4.2",
+  "type": "exercices",
+  "section": 10,
+  "section_titre": "4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 2,
+    "nom": "juridiquement x / juridiquement / qualifiez juridiquement x / qualifiez juridiquement",
+    "exemples_reels": [
+     "Qualifiez juridiquement les parties et les faits.",
+     "Qualifiez juridiquement les faits, les parties et les dommages.",
+     "Qualifiez juridiquement les parties, les faits et les dommages."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels",
+   "theme": "Thème 4 : Quels sont les droits reconnus aux personnes ?",
+   "texte": "Parmi les droits patrimoniaux, le droit de propriété est caractéristique du pouvoir juridique le plus complet qu’une personne peut exercer directement sur une chose. Le droit de propriété peut porter sur des biens corporels et incorporels. Les attributs du droit de propriété et ses caractères sont identifiés dans des situations variées. Les limites apportées au droit de propriété sont illustrées notamment dans le contexte des rapports de voisinage. La notion de bien incorporel est appréhendée à travers l’étude du droit de la propriété intellectuelle et plus particulièrement de la marque commerciale et du droit d’auteur.\nNotions : Biens corporels/biens incorporels. « Usus », « fructus », « abusus ». Caractères absolu, exclusif et perpétuel du droit de propriété. Trouble anormal du voisinage. Marque commerciale. Propriété industrielle. Monopole d’exploitation. Action en contrefaçon. Droit d’auteur.\nCapacités attendues : l'élève est capable de qualifier juridiquement un contrat et les parties au contrat ; d’apprécier les conditions de validité d’un contrat ; dans une situation donnée ; de qualifier une clause contractuelle ; de repérer et de qualifier les obligations contractuelles de chacune des parties ; d’identifier les sanctions applicables en cas d’inexécution d’un contrat ; de justifier la protection accrue du consommateur et du cyberconsommateur.",
+   "articles": [
+    "Article 543 du Code civil : On peut avoir sur les biens, ou un droit de propriété, ou un simple droit de jouissance, ou seulement des services fonciers à prétendre.",
+    "Article 2510 du Code civil : L'immatriculation d'un immeuble garantit le droit de propriété ainsi que tous les autres droits reconnus dans le titre de propriété établi au terme d'une procédure permettant de révéler l'ensemble des droits déjà constitués sur cet immeuble. Les modalités de cette procédure sont fixées par décret en Conseil d'Etat.",
+    "Article 2227 du Code civil : Le droit de propriété est imprescriptible. Sous cette réserve, les actions réelles immobilières se prescrivent par trente ans à compter du jour où le titulaire d'un droit a connu ou aurait dû connaître les faits lui permettant de l'exercer.",
+    "Article 2329 du Code civil : Les sûretés sur les meubles sont : 1° Les privilèges mobiliers ; 2° Le gage de meubles corporels ; 3° Le nantissement de meubles incorporels ; 4° La propriété retenue ou cédée à titre de garantie."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 4 : trouble de voisinage ?",
+    "texte": "[…] L’appréciation du trouble anormal de voisinage […] vise à mesurer le caractère\nexcessif du trouble sans le replacer dans son contexte. Elle est réalisée à l’aide des\ncritères cumulatifs de gravité et de continuité. En d’autres termes, si le trouble visuel\nest grave et continu, il est considéré comme excessif.\nLa Cour de cassation, dans un arrêt en date du 10 octobre 2012, estime que le trouble\nde voisinage n’est pas suffisamment grave dès l’instant où la vue sur la mer à partir\nde la terrasse reste possible en position debout.\nMême si théoriquement la seule atteinte à la vue est susceptible de satisfaire aux\nexigences de gravité et de continuité, très souvent, pour retenir une responsabilité sur\nle fondement du trouble anormal du voisinage suite à l’édification d’une construction,\nles juges ont tendance à associer à la perte de la vue, d’autres nuisances découlant\nde la modification de l’environnement extérieur. Ainsi, pour retenir l’existence d’un\ntrouble dont l’ampleur excède les inconvénients normaux du voisinage, sont souvent\nassociés à la perte de vue, la perte d’ensoleillement, […], l’impossibilité d’exercer une\nactivité économique en raison de la construction litigieuse, […]\nSource : d’après https://www.actu-juridique.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nMathieu et Héloïse sont amis d’enfance et ont développé un goût commun pour la mode et\nla création de vêtements. Les études les séparent pendant quelques années. Se retrouvant\nlors d’une soirée, ils décident de concrétiser leur passion en collaborant sur la création de\nvêtements. Les deux amis se quittent enchantés, en songeant aux bénéfices qu’ils\npourraient réaliser.\nMathieu, très accaparé par son métier de styliste pour diverses enseignes, n’a pas le temps\nde s’impliquer dans le montage du projet. Héloïse décide donc de prendre en charge la\ncréation de la société et rédige intégralement les statuts : Mathieu apporterait ses\ncompétences et Héloïse la somme de 10 000 euros. Héloïse envoie les statuts à Mathieu.\nCe dernier les lit rapidement sans vraiment les comprendre et les signe entre deux rendezvous professionnels.\nPeu après, Mathieu lit attentivement les statuts et prend conscience de son engagement. Il\nse rend compte qu’une société, la SARL dénommée « Cust and Cop » a été créée et qu’elle\na pour objet social la customisation et la vente de vêtements de seconde main. Discutant\ndes statuts avec un ami, celui-ci lui indique qu’il est associé dans la SARL alors que Mathieu\ndésirait simplement collaborer en tant que salarié.\nMathieu contacte Héloïse pour l’informer de son souhait de contester la validité des statuts\nde la société « Cust and Cop ». Très inquiète, Héloïse vous consulte afin de s’assurer de la\nvalidité de ce contrat.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Articles du Code civil",
+     "ANNEXE 2 - Jurisprudence de la Cour de cassation du 3 mars 2021",
+     "ANNEXE 3 - Extrait des statuts de la société Cust and Cop",
+     "Annexe 4 – Statuts de société",
+     "Annexe 5 - Un consentement valide au sens du règlement général de protection des"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Mathieu peut lui opposer pour contester la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un contrat ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C5.1",
+  "type": "cas",
+  "section": 11,
+  "section_titre": "5.1 La formation du contrat",
+  "partenaire": 19,
+  "partenaire_titre": "8.1 L’entreprise individuelle",
+  "frequence_passee": 0.24,
+  "inedit": false,
+  "proba_annee_suivante": 0.161,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "5.1 La formation du contrat",
+   "theme": "Thème 5 : Quel est le rôle du contrat ?",
+   "texte": "Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations. Le droit met à la charge des contractants une obligation d'information et de conseil pour permettre l’expression d'une volonté vraiment libre et éclairée. Pour être valablement formé, un contrat doit remplir certaines conditions de validité. On montre comment est sanctionné tout contrat ne respectant pas ces conditions (capacité, consentement, objet). Dans certains contrats, le droit de repentir permet au consommateur de revenir sur son accord.\nNotions : Le contrat. Les parties. Le consommateur, le professionnel. Le débiteur, le créancier. L’obligation d’information et de conseil. Les conditions de validité : offre, acceptation, échange des consentements, objet, capacité. Le droit de rétractation. La nullité relative, la nullité absolue. Les principes : liberté contractuelle, force obligatoire, effet relatif des conventions, bonne foi. Les clauses. L’obligation, l’obligation de moyens, l’obligation de résultat.\nLe contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.\nLe droit général des contrats repose sur un certain nombre de principes issus de la philosophie des lumières et de la jurisprudence et codifiés par la loi. On montre que ces principes érigés en promotion de la volonté individuelle sont atténués ou au contraire valorisés afin de garantir l’équilibre contractuel ou l’intérêt général.\nLe droit met à la charge des contractants une obligation d’information et de conseil pour permettre l’expression d’une volonté vraiment libre et éclairée.\nLa plupart des contrats classiques simples ou simplifiés, y compris ceux conclus par des procédés numériques, peuvent servir de supports pédagogiques dès lors que les élèves peuvent à partir de ressources complémentaires manipuler ces objets en les rattachant au droit général des contrats.\nPour être valablement formé, un contrat doit remplir certaines conditions de validité. On montre comment est sanctionné tout contrat ne respectant pas ces conditions (capacité, consentement, objet).\nL’étude permettra aux élèves de comprendre la notion de contrat et de repérer l’existence d’un contrat valable dans une situation juridique ainsi que les principales obligations de chacune des parties.\nLes parties. Le consommateur, le professionnel. Le débiteur, le créancier. L’obligation d’information et de conseil. Les conditions de validité : offre, acceptation, échange des consentements, objet, capacité. Le droit de rétractation. La nullité relative, la nullité absolue. Les principes : liberté contractuelle, force obligatoire, effet relatif des conventions, bonne foi. Les clauses. L’obligation, l’obligation de moyens, l’obligation de résultat.\nL’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. La qualité de consommateur et de professionnel est désormais définie dans la loi (Code de la consommation article liminaire). La qualification juridique des parties permet de distinguer le consommateur du professionnel, la personne morale de la personne physique et le débiteur du créancier de l’obligation. L’étude a pour objectif de vérifier dans un contexte donné si les conditions essentielles de la validité d’un contrat sont réunies. Le consentement se […]",
+   "articles": [
+    "Article 1101 du Code civil : Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.",
+    "Article L312-27 du Code de la consommation : Le prêteur est responsable de plein droit à l'égard de l'emprunteur de la bonne exécution des obligations relatives à la formation du contrat de crédit, que ces obligations soient à exécuter par le prêteur qui a conclu ce contrat ou par des intermédiaires de crédit intervenant dans le processus de formation du contrat de crédit, sans préjudice de son droit de recours contre ceux-ci.",
+    "Article 1124 du Code civil : La promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l'autre, le bénéficiaire, le droit d'opter pour la conclusion d'un contrat dont les éléments essentiels sont déterminés, et pour la formation duquel ne manque que le consentement du bénéficiaire. La révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n'empêche pas la formation du contrat promis. Le contrat conclu en violation de la promesse unilatérale avec un tiers qui en connaissait l'existence est nul.",
+    "Article L242-19 du Code de la consommation : Lorsque le professionnel n'a pas remboursé le consommateur dans les conditions prévues à l'article L. 224-35, les sommes dues par le professionnel sont de plein droit majorées de moitié.",
+    "Article L242-17 du Code de la consommation : Lorsque le professionnel n'a pas remboursé le consommateur dans les conditions prévues à l'article L. 224-23, les sommes dues par le professionnel sont de plein droit majorées de moitié.",
+    "Article 1350 du Code civil : La remise de dette est le contrat par lequel le créancier libère le débiteur de son obligation.",
+    "Article 1341 du Code civil : Le créancier a droit à l'exécution de l'obligation ; il peut y contraindre le débiteur dans les conditions prévues par la loi.",
+    "Article L4141-3 du Code du travail : L'étendue de l'obligation d'information et de formation à la sécurité varie selon la taille de l'établissement, la nature de son activité, le caractère des risques qui y sont constatés et le type d'emploi des travailleurs.",
+    "Article 1109 du Code civil : Le contrat est consensuel lorsqu'il se forme par le seul échange des consentements quel qu'en soit le mode d'expression. Le contrat est solennel lorsque sa validité est subordonnée à des formes déterminées par la loi. Le contrat est réel lorsque sa formation est subordonnée à la remise d'une chose.",
+    "Article L242-35 du Code de la consommation : Toute clause du contrat par laquelle le consommateur-vendeur abandonne son droit de rétractation est nulle."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "8.1 L’entreprise individuelle",
+   "theme": "Thème 8 : Dans quel cadre et comment entreprendre ?",
+   "texte": "La liberté d’entreprendre permet à un individu d’exercer son activité professionnelle en entreprenant. L’entreprise individuelle est la forme la plus ancienne et la plus simple de l’exercice d’une activité économique. Dans l’entreprise individuelle, l’entrepreneur est responsable des dettes de son activité sur l’ensemble de son patrimoine personnel : il n’y a pas, avec ce régime, création d’une nouvelle personne juridique. Pour protéger le patrimoine de l’entrepreneur, le législateur propose différentes modalités juridiques. Il crée ainsi un modèle de société avec un associé unique : l’entreprise unipersonnelle à responsabilité limitée (EURL), forme particulière de la société commerciale.\nNotions : Le principe de l’unicité du patrimoine. La déclaration d’insaisissabilité. Le patrimoine d’affectation.\nLa liberté d’entreprendre permet à un individu d’exercer son activité professionnelle en entreprenant. L’entreprise individuelle est la forme la plus ancienne et la plus simple de l’exercice d’une activité économique.\nLa liberté contractuelle, principe à valeur constitutionnelle, est une liberté absolue en matière d’entrepreneuriat. Les limites à la liberté contractuelle sont abordées au 8.3 Le respect de la concurrence.\nDans l’entreprise individuelle, l’entrepreneur est responsable des dettes de son activité sur l’ensemble de son patrimoine personnel : il n’y a pas, avec ce régime, création d’une nouvelle personne juridique. Pour protéger le patrimoine de l’entrepreneur, le législateur propose différentes modalités juridiques. Il crée ainsi un modèle de société avec un associé unique : l’entreprise unipersonnelle à responsabilité limitée (EURL), forme particulière de la société commerciale.\nLors de l’étude du statut de l’entreprise individuelle l’importance de la responsabilité du chef d’entreprise est mise en parallèle avec les règles relatives au patrimoine, étudiées en classe de première. L’étude de l’EURL met l’accent sur la création d’une personne morale et son intérêt pour la protection du patrimoine du gérant. Elle permet de rappeler aux élèves la distinction personne physique/personne morale qui va conduire à reconnaître une existence propre de l’EURL et par làmême sa responsabilité en cas de litige.",
+   "articles": [
+    "Article L526-6 du Code de commerce : Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, nécessaires à l'exercice de son activité professionnelle. Il peut comprendre également les biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, utilisés pour l'exercice de son activité professionnelle, qu'il décide d'y affecter et qu'il peut ensuite décider de retirer du patrimoine affecté. Un même bien, droit, obligation ou sûreté ne peut entrer dans la composition que d'un seul patrimoine affecté. Par dérogation à l'alinéa précédent, l'entrepreneur individuel exerçant une activité agricole au sens de l'article L. 311-1 du code rural et de la pêche maritime peut ne pas affecter les terres utilisées pour l'exercice de son exploitation à son activité professionnelle. Cette faculté s'applique à la […]",
+    "Article L127-1 du Code de commerce : L'appui au projet d'entreprise pour la création ou la reprise d'une activité économique est défini par un contrat par lequel une personne morale s'oblige à fournir, par les moyens dont elle dispose, une aide particulière et continue à une personne physique, non salariée à temps complet, qui s'engage à suivre un programme de préparation à la création ou à la reprise et à la gestion d'une activité économique. Ce contrat peut aussi être conclu entre une personne morale et le dirigeant associé unique d'une personne morale.",
+    "Article L223-1 du Code de commerce : La société à responsabilité limitée est instituée par une ou plusieurs personnes qui ne supportent les pertes qu'à concurrence de leurs apports. Lorsque la société ne comporte qu'une seule personne, celle-ci est dénommée \"associé unique\". L'associé unique exerce les pouvoirs dévolus à l'assemblée des associés par les dispositions du présent chapitre. Un décret fixe un modèle de statuts types de société à responsabilité limitée dont l'associé unique, personne physique, assume personnellement la gérance et les conditions dans lesquelles ces statuts sont portés à la connaissance de l'intéressé. Ces statuts types s'appliquent à moins que l'intéressé ne produise des statuts différents lors de sa demande d'immatriculation de la société. La société à responsabilité limitée dont l'associé unique, personne physique, assume personnellement la gérance est soumise à des formalités de publicité allégées déterminées par décret en Conseil d'Etat. Ce décret prévoit les conditions de dispense d'insertion au Bulletin officiel des annonces civiles et commerciales. (1) La société est désignée par une dénomination sociale, à laquelle peut être incorporé le nom d'un […]",
+    "Article 233 du Code civil : Le divorce peut être demandé conjointement par les époux lorsqu'ils acceptent le principe de la rupture du mariage sans considération des faits à l'origine de celle-ci. Il peut être demandé par l'un ou l'autre des époux ou par les deux lorsque chacun d'eux, assisté d'un avocat, a accepté le principe de la rupture du mariage par acte sous signature privée contresigné par avocats, qui peut être conclu avant l'introduction de l'instance. Le principe de la rupture du mariage peut aussi être accepté par les époux à tout moment de la procédure. L'acceptation n'est pas susceptible de rétractation, même par la voie de l'appel.",
+    "Article 2270 du Code civil : On ne peut pas prescrire contre son titre, en ce sens que l'on ne peut point se changer à soi-même la cause et le principe de sa possession.",
+    "Article L680-5 du Code de commerce : Lorsque les dispositions des titres Ier à VI du présent livre sont appliquées à raison d'une activité professionnelle exercée sans affectation de patrimoine, les éléments d'actif et de passif qui, le cas échéant, proviennent d'un patrimoine dont l'affectation a cessé de produire ses effets en application de l'article L. 526-15 sont considérés comme étant hors du patrimoine non affecté. Cette exclusion prend fin dès lors que les créances ayant composé l'ancien patrimoine sont éteintes. Le présent article n'est pas applicable si l'exercice de l'activité à laquelle le patrimoine était affecté s'est poursuivi après la cessation de l'affectation."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1131 : Les vices du consentement sont une cause de nullité relative du\ncontrat.\nArticle 1132 : L'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une\ncause de nullité du contrat lorsqu'elle porte sur les qualités essentielles de la\nprestation due ou sur celles du cocontractant.\nArticle 1133 : Les qualités essentielles de la prestation sont celles qui ont été\nexpressément ou tacitement convenues et en considération desquelles les parties\nont contracté. L'erreur est une cause de nullité qu'elle porte sur la prestation de l'une\nou de l'autre partie. L'acceptation d'un aléa sur une qualité de la prestation exclut\nl'erreur relative à cette qualité.\nArticle 1135 : L'erreur sur un simple motif, étranger aux qualités essentielles de la\nprestation due ou du cocontractant, n'est pas une cause de nullité, à moins que les\nparties n'en aient fait expressément un élément déterminant de leur consentement.\nArticle 1137 : Le dol est le fait pour un contractant d'obtenir le consentement de\nl'autre par des manœuvres ou des mensonges. Constitue également un dol la\ndissimulation intentionnelle par l'un des contractants d'une information dont il sait le\ncaractère déterminant pour l'autre partie.\nArticle 1139 : L’erreur qui résulte d’un dol est toujours excusable ; elle est une cause\nde nullité alors même qu’elle porterait sur la valeur de la prestation ou sur un simple\nmotif du contrat."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "titre": "ANNEXE 1 - Articles du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi. […]\nArticle 1130\nL'erreur, le dol et la violence vicient le consentement lorsqu'ils sont de telle nature que, sans\neux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions\nsubstantiellement différentes.\nLeur caractère déterminant s'apprécie eu égard aux personnes et aux circonstances dans\nlesquelles le consentement a été donné.\nArticle 1131\nLes vices du consentement sont une cause de nullité relative du contrat.\nArticle 1132\nL'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une cause de nullité du\ncontrat lorsqu'elle porte sur les qualités essentielles de la prestation due ou sur celles du\ncocontractant.\nArticle 1832\nLa société est instituée par deux ou plusieurs personnes qui conviennent par un contrat\nd'affecter à une entreprise commune des biens ou leur industrie en vue de partager le\nbénéfice ou de profiter de l'économie qui pourra en résulter.\nElle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule\npersonne.\nLes associés s'engagent à contribuer aux pertes."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 4 - La « bonne foi » et la loyauté dans le contrat de travail",
+    "texte": "La \"bonne foi\" est la croyance qu'a une personne de se trouver dans une situation\nconforme au droit, et la conscience d'agir sans léser les droits d'autrui. C'est une notion\nfréquemment utilisée dans notre législation pour atténuer les rigueurs de l'application\nde règles positives. Les contrats doivent être négociés, formés et exécutés de bonne\nfoi. Cette disposition est d'ordre public. De même, l'initiative, le déroulement et la\nrupture des négociations précontractuelles sont libres. Ils doivent impérativement\nsatisfaire aux exigences de la bonne foi.\nSource : https://www.dictionnaire-juridique.com/definition/bonne-foi.php (consulté le\n05/12/2022)"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 1 - Extraits du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1112\nL'initiative, le déroulement et la rupture des négociations précontractuelles sont libres.\nIls doivent impérativement satisfaire aux exigences de la bonne foi."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "ANNEXE 4 - La loyauté de la concurrence",
+    "texte": "Source : lexbase.fr\nLe principe de loyauté est une conséquence de la liberté de la concurrence, elle-même\nun principe secondaire découlant de la liberté du commerce et de l’industrie.\nIl n’est régi par aucun texte. La concurrence ne peut être exercée que dans le respect\ndes droits des autres acteurs économiques et doit être conforme aux usages du\ncommerce.\nLes entrepreneurs ne disposent d’aucun droit privatif sur leur clientèle, qui constitue\nseulement une potentialité de chiffre d’affaires. Par conséquent, ils peuvent démarcher\nla clientèle d’un concurrent.\nTraditionnellement, le domaine de la concurrence déloyale avait pour limites la\nconcurrence interdite et la concurrence réglementée. Elle avait pour finalité\nd’empêcher un usage excessif de la liberté de la concurrence. Ce domaine s’est élargi\nafin de sanctionner des comportements considérés comme dangereux pour les\nconsommateurs, ou contraires à une concurrence loyale, notamment en matière de\npublicité.\nL’utilisation de nouvelles techniques commerciales et l’apparition d’Internet ont\négalement contribué à cet élargissement, en raison de la répression du parasitisme.\nLes comportements déloyaux ont fait l’objet d’une classification créée par la doctrine\net ont été regroupés en quatre catégories : le dénigrement, la désorganisation, la\nconfusion, et le parasitisme.\nSource : C.Lebel, Titre 1. La loyauté de la concurrence,\nDroit des affaires : Cours et exercices corrigés, 2012.\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - La notion de professionnel en droit de la consommation",
+    "texte": "Le terme de « professionnel » est défini dans l’ordonnance n° 2016-301 du 14 mars\n2016 comme « toute personne physique ou morale, publique ou privée, qui agit à des\nfins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale\nou agricole, y compris lorsqu’elle agit au nom ou pour le compte d’un autre\nprofessionnel ».\nLe professionnel peut être une personne physique ou morale et la forme juridique de\nl’entreprise n’est pas à prendre en considération.\nLe « professionnel » se distingue du « non-professionnel », et se définit comme\n« toute personne morale qui n’agit pas à des fins professionnelles ». Cette notion\npermet d’étendre aux personnes morales agissant en dehors de leur activité\nprofessionnelle la protection accordée aux consommateurs.\nSource : les auteurs"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nFabienne et Loïc Fabre recherchent un terrain pour aller vivre à la campagne.\nLors d’une promenade en famille, dans les environs de Brest, la famille Fabre\naperçoit un terrain à céder et ils contactent monsieur Marcellin, le propriétaire depuis\n30 ans. Celui-ci leur apporte des précisions sur la surface et le prix. Monsieur\nMarcellin propose également aux époux Fabre une visite le dimanche suivant et leur\nconseille de prendre tous renseignements utiles auprès de la Mairie.\nFabienne et Loïc Fabre expliquent à M. Marcellin que ce terrain correspond\nparfaitement à ce qu’ils recherchent : situé à la campagne, au calme, loin du tumulte\nde la ville, pas trop loin de leur lieu de travail et des écoles pour les enfants. Après\nleur journée de travail, les époux Fabre retournent voir plusieurs fois le terrain et\ndécident de faire rapidement une offre à monsieur Marcellin.\nUne fois propriétaires du terrain, Fabienne et Loïc Fabre conviennent d’un rendezvous sur place avec un architecte spécialisé dans la conception de maisons en bois.\nAlors que Fabienne commence à expliquer à l’architecte ce qu’elle souhaite, elle\nentend des bruits qui semblent correspondre à des camions qui déchargent des\nmarchandises et à des engins de sciage. Ces bruits proviennent d’une scierie\ninstallée à proximité mais qui n’était pas visible depuis le terrain mais visible depuis\nla route.\nTous les espoirs de Fabienne et Loïc Fabre de vivre dans une maison au calme\ns’envolent. Finalement le terrain ne correspond pas à ce qu’ils souhaitaient.\nIls envisagent de demander l’annulation de la vente du […]",
+    "annexes": [
+     "Annexe 1 : articles du Code civil",
+     "Annexe 2 : la réticence dolosive du vendeur :",
+     "Annexe 3 : précisons sur l’erreur et le vice du consentement – Arrêt de la Cour"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nM. Marcellin (propriétaire, vendeur) a conclu un contrat de vente avec Loïc et Fabienne\nFabre (acheteurs). L’objet de ce contrat est un terrain situé à la campagne. Ils réalisent\nau bout de quelques semaines que le terrain ne correspond pas à ce qu’ils pensaient.\nIl s’agit d’un terrain situé près d’une scierie dont l’activité en journée engendre\n\nPage: 7/22\n\n\nbeaucoup de bruit (déchargement de camions, machines…) alors qu’ils recherchaient\nun terrain à la campagne pour être au calme. Ils demandent la nullité du contrat de\nvente."
+     },
+     {
+      "enonce": "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+      "points": 2.5,
+      "corrige": "pourraient avancer pour demander la nullité du contrat de vente. (2.5\npoints)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nLes acheteurs ont commis une erreur. Ils souhaitent un terrain au calme et finalement\nleur terrain est situé à proximité d'une installation bruyante.\nLeur consentement est donc vicié par l'erreur qu'ils ont commise.\nEn application de l’article 1131 Code civil, les vices du consentement sont une cause\nde nullité relative du contrat. Les vices du consentement sont l’erreur, le dol et la\nviolence.\nOn acceptera qu’un candidat développe son argumentation soit sur l’erreur soit\nsur le dol.\nEn application de l’article 1132 du Code civil et de l’annexe 3, l'erreur de droit ou de\nfait, à moins qu'elle ne soit inexcusable, est une cause de nullité du […]"
+     },
+     {
+      "enonce": "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+      "points": 2.5,
+      "corrige": "contester la nullité du contrat de vente. (2.5 points)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nMonsieur Marcellin pourrait argumenter qu’il leur a donné les informations nécessaires\npour se décider (suggestion de contacter la mairie). De plus, il n’a pas saisi que le\ncritère de calme était déterminant. Il est donc de bonne foi.\nL’existence de la scierie n’a pas été dissimilée aux époux Fabre qui pouvaient\nconnaitre l'existence de cette entreprise qui générait du bruit aux alentours. Par\nconséquent :\n\nLe consentement n’a pas été vicié par dol puisque M. Marcellin n’a pas cherché\nà dissimuler l’information que M. et Mme Fabre pouvaient déjà connaître ou\nqu'ils pouvaient découvrir avec un minimum de diligence.\n\n\nDans ce cas, il y a erreur, mais celle-ci n’est pas […]"
+     },
+     {
+      "enonce": "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement.",
+      "points": 3.0,
+      "corrige": "consentement. (3 points)\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nLe contrat est une loi entre les parties qui s'impose à elles ainsi qu'au juge. Cette loi\nne vaut que parce que les parties ont donné un consentement libre et éclairé. Dès lors\nsi le consentement a été vicié, il n’est plus à même de justifier l’existence du lien\ncontractuel.\nLes vices du consentement sont au nombre de 3 :\n\nL’erreur constitue un vice de consentement car les parties n’auraient pas\ndonné leur accord si elles avaient eu connaissance de la réalité au moment de\nla formation du contrat. Le législateur a voulu protéger la partie qui a donné son\nconsentement par erreur en lui permettant de demander la nullité du contrat.\nC’est-à-dire que les parties […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nMathieu et Héloïse sont amis d’enfance et ont développé un goût commun pour la mode et\nla création de vêtements. Les études les séparent pendant quelques années. Se retrouvant\nlors d’une soirée, ils décident de concrétiser leur passion en collaborant sur la création de\nvêtements. Les deux amis se quittent enchantés, en songeant aux bénéfices qu’ils\npourraient réaliser.\nMathieu, très accaparé par son métier de styliste pour diverses enseignes, n’a pas le temps\nde s’impliquer dans le montage du projet. Héloïse décide donc de prendre en charge la\ncréation de la société et rédige intégralement les statuts : Mathieu apporterait ses\ncompétences et Héloïse la somme de 10 000 euros. Héloïse envoie les statuts à Mathieu.\nCe dernier les lit rapidement sans vraiment les comprendre et les signe entre deux rendezvous professionnels.\nPeu après, Mathieu lit attentivement les statuts et prend conscience de son engagement. Il\nse rend compte qu’une société, la SARL dénommée « Cust and Cop » a été créée et qu’elle\na pour objet social la customisation et la vente de vêtements de seconde main. Discutant\ndes statuts avec un ami, celui-ci lui indique qu’il est associé dans la SARL alors que Mathieu\ndésirait simplement collaborer en tant que salarié.\nMathieu contacte Héloïse pour l’informer de son souhait de contester la validité des statuts\nde la société « Cust and Cop ». Très inquiète, Héloïse vous consulte afin de s’assurer de la\nvalidité de ce contrat.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Articles du Code civil",
+     "ANNEXE 2 - Jurisprudence de la Cour de cassation du 3 mars 2021",
+     "ANNEXE 3 - Extrait des statuts de la société Cust and Cop",
+     "Annexe 4 – Statuts de société",
+     "Annexe 5 - Un consentement valide au sens du règlement général de protection des"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Mathieu peut lui opposer pour contester la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un contrat ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E5.1",
+  "type": "exercices",
+  "section": 11,
+  "section_titre": "5.1 La formation du contrat",
+  "frequence_passee": 0.24,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "5.1 La formation du contrat",
+   "theme": "Thème 5 : Quel est le rôle du contrat ?",
+   "texte": "Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations. Le droit met à la charge des contractants une obligation d'information et de conseil pour permettre l’expression d'une volonté vraiment libre et éclairée. Pour être valablement formé, un contrat doit remplir certaines conditions de validité. On montre comment est sanctionné tout contrat ne respectant pas ces conditions (capacité, consentement, objet). Dans certains contrats, le droit de repentir permet au consommateur de revenir sur son accord.\nNotions : Le contrat. Les parties. Le consommateur, le professionnel. Le débiteur, le créancier. L’obligation d’information et de conseil. Les conditions de validité : offre, acceptation, échange des consentements, objet, capacité. Le droit de rétractation. La nullité relative, la nullité absolue. Les principes : liberté contractuelle, force obligatoire, effet relatif des conventions, bonne foi. Les clauses. L’obligation, l’obligation de moyens, l’obligation de résultat.\nLe contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.\nLe droit général des contrats repose sur un certain nombre de principes issus de la philosophie des lumières et de la jurisprudence et codifiés par la loi. On montre que ces principes érigés en promotion de la volonté individuelle sont atténués ou au contraire valorisés afin de garantir l’équilibre contractuel ou l’intérêt général.\nLe droit met à la charge des contractants une obligation d’information et de conseil pour permettre l’expression d’une volonté vraiment libre et éclairée.\nLa plupart des contrats classiques simples ou simplifiés, y compris ceux conclus par des procédés numériques, peuvent servir de supports pédagogiques dès lors que les élèves peuvent à partir de ressources complémentaires manipuler ces objets en les rattachant au droit général des contrats.\nPour être valablement formé, un contrat doit remplir certaines conditions de validité. On montre comment est sanctionné tout contrat ne respectant pas ces conditions (capacité, consentement, objet).\nL’étude permettra aux élèves de comprendre la notion de contrat et de repérer l’existence d’un contrat valable dans une situation juridique ainsi que les principales obligations de chacune des parties.\nLes parties. Le consommateur, le professionnel. Le débiteur, le créancier. L’obligation d’information et de conseil. Les conditions de validité : offre, acceptation, échange des consentements, objet, capacité. Le droit de rétractation. La nullité relative, la nullité absolue. Les principes : liberté contractuelle, force obligatoire, effet relatif des conventions, bonne foi. Les clauses. L’obligation, l’obligation de moyens, l’obligation de résultat.\nL’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. La qualité de consommateur et de professionnel est désormais définie dans la loi (Code de la consommation article liminaire). La qualification juridique des parties permet de distinguer le consommateur du professionnel, la personne morale de la personne physique et le débiteur du créancier de l’obligation. L’étude a pour objectif de vérifier dans un contexte donné si les conditions essentielles de la validité d’un contrat sont réunies. Le consentement se […]",
+   "articles": [
+    "Article 1101 du Code civil : Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.",
+    "Article L312-27 du Code de la consommation : Le prêteur est responsable de plein droit à l'égard de l'emprunteur de la bonne exécution des obligations relatives à la formation du contrat de crédit, que ces obligations soient à exécuter par le prêteur qui a conclu ce contrat ou par des intermédiaires de crédit intervenant dans le processus de formation du contrat de crédit, sans préjudice de son droit de recours contre ceux-ci.",
+    "Article 1124 du Code civil : La promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l'autre, le bénéficiaire, le droit d'opter pour la conclusion d'un contrat dont les éléments essentiels sont déterminés, et pour la formation duquel ne manque que le consentement du bénéficiaire. La révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n'empêche pas la formation du contrat promis. Le contrat conclu en violation de la promesse unilatérale avec un tiers qui en connaissait l'existence est nul.",
+    "Article L242-19 du Code de la consommation : Lorsque le professionnel n'a pas remboursé le consommateur dans les conditions prévues à l'article L. 224-35, les sommes dues par le professionnel sont de plein droit majorées de moitié.",
+    "Article L242-17 du Code de la consommation : Lorsque le professionnel n'a pas remboursé le consommateur dans les conditions prévues à l'article L. 224-23, les sommes dues par le professionnel sont de plein droit majorées de moitié.",
+    "Article 1350 du Code civil : La remise de dette est le contrat par lequel le créancier libère le débiteur de son obligation.",
+    "Article 1341 du Code civil : Le créancier a droit à l'exécution de l'obligation ; il peut y contraindre le débiteur dans les conditions prévues par la loi.",
+    "Article L4141-3 du Code du travail : L'étendue de l'obligation d'information et de formation à la sécurité varie selon la taille de l'établissement, la nature de son activité, le caractère des risques qui y sont constatés et le type d'emploi des travailleurs.",
+    "Article 1109 du Code civil : Le contrat est consensuel lorsqu'il se forme par le seul échange des consentements quel qu'en soit le mode d'expression. Le contrat est solennel lorsque sa validité est subordonnée à des formes déterminées par la loi. Le contrat est réel lorsque sa formation est subordonnée à la remise d'une chose.",
+    "Article L242-35 du Code de la consommation : Toute clause du contrat par laquelle le consommateur-vendeur abandonne son droit de rétractation est nulle."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1131 : Les vices du consentement sont une cause de nullité relative du\ncontrat.\nArticle 1132 : L'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une\ncause de nullité du contrat lorsqu'elle porte sur les qualités essentielles de la\nprestation due ou sur celles du cocontractant.\nArticle 1133 : Les qualités essentielles de la prestation sont celles qui ont été\nexpressément ou tacitement convenues et en considération desquelles les parties\nont contracté. L'erreur est une cause de nullité qu'elle porte sur la prestation de l'une\nou de l'autre partie. L'acceptation d'un aléa sur une qualité de la prestation exclut\nl'erreur relative à cette qualité.\nArticle 1135 : L'erreur sur un simple motif, étranger aux qualités essentielles de la\nprestation due ou du cocontractant, n'est pas une cause de nullité, à moins que les\nparties n'en aient fait expressément un élément déterminant de leur consentement.\nArticle 1137 : Le dol est le fait pour un contractant d'obtenir le consentement de\nl'autre par des manœuvres ou des mensonges. Constitue également un dol la\ndissimulation intentionnelle par l'un des contractants d'une information dont il sait le\ncaractère déterminant pour l'autre partie.\nArticle 1139 : L’erreur qui résulte d’un dol est toujours excusable ; elle est une cause\nde nullité alors même qu’elle porterait sur la valeur de la prestation ou sur un simple\nmotif du contrat."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "titre": "ANNEXE 1 - Articles du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi. […]\nArticle 1130\nL'erreur, le dol et la violence vicient le consentement lorsqu'ils sont de telle nature que, sans\neux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions\nsubstantiellement différentes.\nLeur caractère déterminant s'apprécie eu égard aux personnes et aux circonstances dans\nlesquelles le consentement a été donné.\nArticle 1131\nLes vices du consentement sont une cause de nullité relative du contrat.\nArticle 1132\nL'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une cause de nullité du\ncontrat lorsqu'elle porte sur les qualités essentielles de la prestation due ou sur celles du\ncocontractant.\nArticle 1832\nLa société est instituée par deux ou plusieurs personnes qui conviennent par un contrat\nd'affecter à une entreprise commune des biens ou leur industrie en vue de partager le\nbénéfice ou de profiter de l'économie qui pourra en résulter.\nElle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule\npersonne.\nLes associés s'engagent à contribuer aux pertes."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nFabienne et Loïc Fabre recherchent un terrain pour aller vivre à la campagne.\nLors d’une promenade en famille, dans les environs de Brest, la famille Fabre\naperçoit un terrain à céder et ils contactent monsieur Marcellin, le propriétaire depuis\n30 ans. Celui-ci leur apporte des précisions sur la surface et le prix. Monsieur\nMarcellin propose également aux époux Fabre une visite le dimanche suivant et leur\nconseille de prendre tous renseignements utiles auprès de la Mairie.\nFabienne et Loïc Fabre expliquent à M. Marcellin que ce terrain correspond\nparfaitement à ce qu’ils recherchent : situé à la campagne, au calme, loin du tumulte\nde la ville, pas trop loin de leur lieu de travail et des écoles pour les enfants. Après\nleur journée de travail, les époux Fabre retournent voir plusieurs fois le terrain et\ndécident de faire rapidement une offre à monsieur Marcellin.\nUne fois propriétaires du terrain, Fabienne et Loïc Fabre conviennent d’un rendezvous sur place avec un architecte spécialisé dans la conception de maisons en bois.\nAlors que Fabienne commence à expliquer à l’architecte ce qu’elle souhaite, elle\nentend des bruits qui semblent correspondre à des camions qui déchargent des\nmarchandises et à des engins de sciage. Ces bruits proviennent d’une scierie\ninstallée à proximité mais qui n’était pas visible depuis le terrain mais visible depuis\nla route.\nTous les espoirs de Fabienne et Loïc Fabre de vivre dans une maison au calme\ns’envolent. Finalement le terrain ne correspond pas à ce qu’ils souhaitaient.\nIls envisagent de demander l’annulation de la vente du […]",
+    "annexes": [
+     "Annexe 1 : articles du Code civil",
+     "Annexe 2 : la réticence dolosive du vendeur :",
+     "Annexe 3 : précisons sur l’erreur et le vice du consentement – Arrêt de la Cour"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nM. Marcellin (propriétaire, vendeur) a conclu un contrat de vente avec Loïc et Fabienne\nFabre (acheteurs). L’objet de ce contrat est un terrain situé à la campagne. Ils réalisent\nau bout de quelques semaines que le terrain ne correspond pas à ce qu’ils pensaient.\nIl s’agit d’un terrain situé près d’une scierie dont l’activité en journée engendre\n\nPage: 7/22\n\n\nbeaucoup de bruit (déchargement de camions, machines…) alors qu’ils recherchaient\nun terrain à la campagne pour être au calme. Ils demandent la nullité du contrat de\nvente."
+     },
+     {
+      "enonce": "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+      "points": 2.5,
+      "corrige": "pourraient avancer pour demander la nullité du contrat de vente. (2.5\npoints)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nLes acheteurs ont commis une erreur. Ils souhaitent un terrain au calme et finalement\nleur terrain est situé à proximité d'une installation bruyante.\nLeur consentement est donc vicié par l'erreur qu'ils ont commise.\nEn application de l’article 1131 Code civil, les vices du consentement sont une cause\nde nullité relative du contrat. Les vices du consentement sont l’erreur, le dol et la\nviolence.\nOn acceptera qu’un candidat développe son argumentation soit sur l’erreur soit\nsur le dol.\nEn application de l’article 1132 du Code civil et de l’annexe 3, l'erreur de droit ou de\nfait, à moins qu'elle ne soit inexcusable, est une cause de nullité du […]"
+     },
+     {
+      "enonce": "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+      "points": 2.5,
+      "corrige": "contester la nullité du contrat de vente. (2.5 points)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nMonsieur Marcellin pourrait argumenter qu’il leur a donné les informations nécessaires\npour se décider (suggestion de contacter la mairie). De plus, il n’a pas saisi que le\ncritère de calme était déterminant. Il est donc de bonne foi.\nL’existence de la scierie n’a pas été dissimilée aux époux Fabre qui pouvaient\nconnaitre l'existence de cette entreprise qui générait du bruit aux alentours. Par\nconséquent :\n\nLe consentement n’a pas été vicié par dol puisque M. Marcellin n’a pas cherché\nà dissimuler l’information que M. et Mme Fabre pouvaient déjà connaître ou\nqu'ils pouvaient découvrir avec un minimum de diligence.\n\n\nDans ce cas, il y a erreur, mais celle-ci n’est pas […]"
+     },
+     {
+      "enonce": "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement.",
+      "points": 3.0,
+      "corrige": "consentement. (3 points)\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nLe contrat est une loi entre les parties qui s'impose à elles ainsi qu'au juge. Cette loi\nne vaut que parce que les parties ont donné un consentement libre et éclairé. Dès lors\nsi le consentement a été vicié, il n’est plus à même de justifier l’existence du lien\ncontractuel.\nLes vices du consentement sont au nombre de 3 :\n\nL’erreur constitue un vice de consentement car les parties n’auraient pas\ndonné leur accord si elles avaient eu connaissance de la réalité au moment de\nla formation du contrat. Le législateur a voulu protéger la partie qui a donné son\nconsentement par erreur en lui permettant de demander la nullité du contrat.\nC’est-à-dire que les parties […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C5.2",
+  "type": "cas",
+  "section": 12,
+  "section_titre": "5.2 L’exécution du contrat",
+  "partenaire": 15,
+  "partenaire_titre": "6.3 Les moyens d’exonération",
+  "frequence_passee": 0.35,
+  "inedit": false,
+  "proba_annee_suivante": 0.143,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Présentez l’argumentation juridique que la SA Répar’mobile pourrait mettre en avant pour justifier la rupture du contrat de franchise.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Déterminez les enjeux de la requalification d’un contrat en contrat de travail pour le salarié et pour l’entreprise.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "5.2 L’exécution du contrat",
+   "theme": "Thème 5 : Quel est le rôle du contrat ?",
+   "texte": "Le contrat légalement formé contraint les parties à exécuter leurs obligations. En cas d’inexécution, le recours à la mise en demeure est le plus souvent nécessaire pour exiger du débiteur l'exécution en nature ou par équivalent. Les sanctions spécifiques au contrat synallagmatique sont étudiées : exception d’inexécution et résolution. La responsabilité contractuelle est abordée dans le thème 6 : « Qu’est-ce qu’être responsable ? ».\nNotions : L’exécution, l’inexécution. L’exception d’inexécution. La mise en demeure. La résiliation, la résolution. La clause pénale. La clause abusive.\nÀ partir de l’analyse des contrats qui leur sont proposés, les élèves identifient les obligations de chacune des parties et sont à même de repérer les manquements contractuels et de déterminer les conséquences de l’inexécution de tout ou partie de ces obligations.\nEn cas d’inexécution, le recours à la mise en demeure est le plus souvent nécessaire pour exiger du débiteur l’exécution en nature ou par équivalent. On étudie les sanctions spécifiques au contrat synallagmatique : exception d’inexécution et résolution. La responsabilité contractuelle est abordée dans le thème 6 « Qu’est-ce qu’être responsable ? ».\nL’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en demeure est une formalité exigée pour constater l’inexécution d’un débiteur. Elle est nécessaire lorsque l’exécution du contrat reste possible. On distingue résiliation et résolution d’un contrat synallagmatique. La clause pénale est une clause par laquelle les parties au contrat évaluent d’une manière forfaitaire et par avance les dommages intérêts dus par le débiteur en cas d’inexécution du contrat. Elle a un objectif de sanction. Il s’agit d’un outil de sécurisation du contrat par anticipation d’un aléa. La réforme du droit des obligations de 2016 consacre l’interdiction des clauses abusives dans les contrats d’adhésion (article 1171 du Code civil) qui sont souvent ceux conclus par les consommateurs.\nCapacités attendues : l'élève est capable de distinguer la responsabilité civile de la responsabilité pénale ; d’analyser ; et de qualifier les faits pour identifier le ou les régimes de responsabilité ; applicables (régimes spéciaux, responsabilité contractuelle et extracontractuelle) ; de qualifier les dommages juridiquement réparables ; conditions d’application des règles relatives à la ; de vérifier les principales ; responsabilité ; d’appliquer ; les règles relatives aux conditions de la responsabilité pour chacun des ; régimes de responsabilité dans des situations concrètes de dommages ; d’apprécier les moyens d’exonération ; d’expliquer comment et pourquoi s’est construit ce système complexe ; d’indemnisation au profit des victimes ; d’expliquer ; comment les risques encourus sont mutualisés par le mécanisme de ; l’assurance.",
+   "articles": [
+    "Article 1225 du Code civil : La clause résolutoire précise les engagements dont l'inexécution entraînera la résolution du contrat. La résolution est subordonnée à une mise en demeure infructueuse, s'il n'a pas été convenu que celle-ci résulterait du seul fait de l'inexécution. La mise en demeure ne produit effet que si elle mentionne expressément la clause résolutoire.",
+    "Article 1226 du Code civil : Le créancier peut, à ses risques et périls, résoudre le contrat par voie de notification. Sauf urgence, il doit préalablement mettre en demeure le débiteur défaillant de satisfaire à son engagement dans un délai raisonnable. La mise en demeure mentionne expressément qu'à défaut pour le débiteur de satisfaire à son obligation, le créancier sera en droit de résoudre le contrat. Lorsque l'inexécution persiste, le créancier notifie au débiteur la résolution du contrat et les raisons qui la motivent. Le débiteur peut à tout moment saisir le juge pour contester la résolution. Le créancier doit alors prouver la gravité de l'inexécution.",
+    "Article 1217 du Code civil : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été imparfaitement, peut : - refuser d'exécuter ou suspendre l'exécution de sa propre obligation ; - poursuivre l'exécution forcée en nature de l'obligation ; - obtenir une réduction du prix ; - provoquer la résolution du contrat ; - demander réparation des conséquences de l'inexécution. Les sanctions qui ne sont pas incompatibles peuvent être cumulées ; des dommages et intérêts peuvent toujours s'y ajouter.",
+    "Article 1231-4 du Code civil : Dans le cas même où l'inexécution du contrat résulte d'une faute lourde ou dolosive, les dommages et intérêts ne comprennent que ce qui est une suite immédiate et directe de l'inexécution.",
+    "Article L6227-11 du Code du travail : Le contrat d'apprentissage est déposé auprès du représentant de l'Etat dans le département du lieu d'exécution du contrat.",
+    "Article L6222-12 du Code du travail : Le contrat d'apprentissage porte mention de la date du début de l'exécution du contrat d'apprentissage, de la période de formation pratique chez l'employeur et de la période de formation en centre de formation d'apprentis. La date de début de la formation pratique chez l'employeur ne peut être postérieure de plus de trois mois au début d'exécution du contrat. La date de début de la période de formation en centre de formation d'apprentis ne peut être postérieure de plus de trois mois au début d'exécution du contrat.",
+    "Article 1328 du Code civil : Le débiteur substitué, et le débiteur originaire s'il reste tenu, peuvent opposer au créancier les exceptions inhérentes à la dette, telles que la nullité, l'exception d'inexécution, la résolution ou la compensation de dettes connexes. Chacun peut aussi opposer les exceptions qui lui sont personnelles.",
+    "Article 1345-3 du Code civil : Les frais de la mise en demeure et de la consignation ou du séquestre sont à la charge du créancier.",
+    "Article 1344-2 du Code civil : La mise en demeure de délivrer une chose met les risques à la charge du débiteur, s'ils n'y sont déjà.",
+    "Article 1228 du Code civil : Le juge peut, selon les circonstances, constater ou prononcer la résolution ou ordonner l'exécution du contrat, en accordant éventuellement un délai au débiteur, ou allouer seulement des dommages et intérêts."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "6.3 Les moyens d’exonération",
+   "theme": "Thème 6 : Qu’est-ce qu’être responsable ?",
+   "texte": "Le responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’un tiers.\nNotions : L’exonération. La cause étrangère. La force majeure. d’un Le fait ou la faute tiers. Le fait ou la faute de la victime.\nLe responsable peut chercher à s’exonérer totalement ou partiellement de la responsabilité qui pèse sur lui en invoquant une cause étrangère : la force majeure, la faute de la victime ou d’untiers.\nLes situations juridiques proposées aux élèves doivent les mettre sur la voie d’une recherche de l’exonération totale ou partielle du responsable par la preuve d’une causalité étrangère (force majeure, fait ou faute d’un tiers, fait ou faute de la victime).\nCapacités attendues : l'élève est capable de qualifier une relation de travail dans une situation donnée ; de distinguer le contrat de travail et le contrat d’entreprise ; les éléments essentiels d’un contrat de travail à partir d’un contrat donné ; de repérer ; de caractériser le contrat de travail dans une situation donnée ; la conformité d’un contrat de travail à durée indéterminée aux normes ; de vérifier ; juridiques, y compris à la convention collective ou à l’accord d’entreprise dans une ; situation donnée ; de repérer et de vérifier la validité des clauses spécifiques dans une situation ; donnée : clause de mobilité, clause de non-concurrence, clause de télétravail ; de vérifier les principales conditions de validité de la rupture du contrat de travail dans ; une situation donnée ; de distinguer les causes de licenciement (motif personnel, motif économique) ; apprécier les conséquences dans le cas du licenciement pour motif personnel ; d’apprécier le caractère licite d’une grève ; d’apprécier ; le respect des droits individuels et collectifs des salariés dans une ; situation donnée ; d’expliquer ; les rôles des partenaires sociaux et des représentants salariés dans une ; entreprise.",
+   "articles": [
+    "Article 1245-12 du Code civil : La responsabilité du producteur peut être réduite ou supprimée, compte tenu de toutes les circonstances, lorsque le dommage est causé conjointement par un défaut du produit et par la faute de la victime ou d'une personne dont la victime est responsable.",
+    "Article 1245-13 du Code civil : La responsabilité du producteur envers la victime n'est pas réduite par le fait d'un tiers ayant concouru à la réalisation du dommage.",
+    "Article L133-1 du Code de commerce : Le voiturier est garant de la perte des objets à transporter, hors les cas de la force majeure. Il est garant des avaries autres que celles qui proviennent du vice propre de la chose ou de la force majeure. Toute clause contraire insérée dans toute lettre de voiture, tarif ou autre pièce quelconque, est nulle.",
+    "Article L5134-31 du Code du travail : Les embauches réalisées en contrat d'accompagnement dans l'emploi donnent droit à l'exonération : 1° Pour les personnes morales mentionnées aux 1° et 2° de l'article L. 5134-21 du présent code, des cotisations à la charge de l'employeur au titre des assurances sociales et des allocations familiales, pendant la durée d'attribution de l'aide à l'insertion professionnelle. Toutefois, les cotisations afférentes à la partie de la rémunération qui excède un montant fixé par décret ne donnent pas lieu à exonération ; 2° De la taxe sur les salaires ; 3° De la taxe d'apprentissage ; 4° Des participations dues par les employeurs au titre de l'effort de construction.",
+    "Article 1245-11 du Code civil : Le producteur ne peut invoquer la cause d'exonération prévue au 4° de l'article 1245-10 lorsque le dommage a été causé par un élément du corps humain ou par les produits issus de celui-ci.",
+    "Article L132-4 du Code de commerce : Il est garant de l'arrivée des marchandises et effets dans le délai déterminé par la lettre de voiture, hors les cas de la force majeure légalement constatée."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole",
+    "titre": "ANNEXE 2 – Extraits du Code civil",
+    "texte": "Article 6 : On ne peut déroger, par des conventions particulières, aux lois qui intéressent\nl’ordre public et les bonnes mœurs.\nArticle 1103 : Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1217 : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été\nimparfaitement, peut :\n- refuser d'exécuter ou suspendre l'exécution de sa propre obligation ;\n- poursuivre l'exécution forcée en nature de l'obligation ;\n- obtenir une réduction du prix ;\n- provoquer la résolution du contrat ;\n- demander réparation des conséquences de l'inexécution.\nLes sanctions qui ne sont pas incompatibles peuvent être cumulées ; des dommages et\nintérêts peuvent toujours s'y ajouter.\nArticle 1219 : Une partie peut refuser d'exécuter son obligation, alors même que celle-ci\nest exigible, si l'autre n'exécute pas la sienne et si cette inexécution est suffisamment grave.\nArticle 1231-1 : Le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans l'exécution,\ns'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1231-2 : Les dommages et intérêts dus au créancier sont, en général, de la perte\nqu'il a faite et du gain dont il a été privé […]."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 2 : articles du Code civil",
+    "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1217 : la partie envers laquelle l’engagement qui n’a pas été exécuté, ou l’a\nété imparfaitement peut :\nRefuser d’exécuter ou suspendre l’exécution de sa propre obligation ;\nPoursuivre l’exécution forcée en nature de l’obligation ;\nObtenir une réduction de prix ;\nProvoquer la résolution du contrat ;\nDemander réparation des conséquences de l’inexécution.\nLes sanctions qui ne sont pas incompatibles peuvent être cumulées ; des\ndommages et intérêts peuvent toujours s’y ajouter.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage,\noblige celui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement\npar son fait, mais encore par sa négligence ou par son imprudence."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "ANNEXE 1 – Extraits du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1125\nLa voie électronique peut être utilisée pour mettre à disposition des stipulations\ncontractuelles ou des informations sur des biens ou services.\nArticle 1217\nLa partie envers laquelle l’engagement n’a pas été exécuté, ou l’a été imparfaitement,\npeut :\n- refuser d’exécuter ou suspendre l’exécution de sa propre obligation ;\n- poursuivre l’exécution forcée en nature de l’obligation ;\n- obtenir une réduction du prix ;\n- provoquer la résolution du contrat ;\n- demander réparation des conséquences de l’inexécution. […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+    "titre": "ANNEXE 1 – Articles du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1218\nIl y a force majeure en matière contractuelle lorsqu'un événement échappant au contrôle du\ndébiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion du contrat et dont\nles effets ne peuvent être évités par des mesures appropriées, empêche l'exécution de son\nobligation par le débiteur.\nArticle 1219\nUne partie peut refuser d'exécuter son obligation, alors même que celle-ci est exigible, si\nl'autre n'exécute pas la sienne et si cette inexécution est suffisamment grave.\nArticle 1220\nUne partie peut suspendre l'exécution de son obligation dès lors qu'il est manifeste que son\ncocontractant ne s'exécutera pas à l'échéance et que les conséquences de cette\ninexécution sont suffisamment graves pour elle. Cette suspension doit être notifiée dans les\nmeilleurs délais.\nArticle 1231-1\nLe débiteur est condamné, s'il y a lieu, au paiement de dommages et intérêts soit à raison\nde l'inexécution de l'obligation, soit à raison du retard dans l'exécution, s'il ne justifie pas\nque l'exécution a été empêchée par la force majeure."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : extrait du Code civil",
+    "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1218 : il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1231-1 : le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans\nl'exécution, s'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable […] du dommage […] causé par le fait des\npersonnes dont on doit répondre, ou des choses que l'on a sous sa garde. […]\nLes maîtres et les commettants, du dommage causé par leurs domestiques et\npréposés dans les fonctions auxquelles ils les ont employés ; […]\nArticle 1253 : le cas fortuit, le fait du tiers ou de la victime sont totalement\nexonératoires s’ils remplissent les caractères de la force majeure."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "ANNEXE 3 – Dans quelle mesure est-on responsable juridiquement de son animal ?",
+    "texte": "La loi précise que donc le responsable [d’un animal] est le propriétaire ou celui qui s’en sert.\nSi une personne confie son animal à un vétérinaire, ou s’il le pensionne dans un chenil, il\nne sera pas responsable en cas de dommage. Attention toutefois, s’il confie son animal à\nun ami, le temps d’une promenade, les tribunaux considèrent généralement que le\npropriétaire reste responsable. [La jurisprudence peut considérer un tiers comme gardien\noccasionnel de l’animal dès l’instant où l’animal lui a été confié sur plusieurs jours.] […]\nUne présomption de responsabilité pèse sur le gardien de l’animal, c’est-à-dire le\npropriétaire ou celui qui en a la garde pendant une durée suffisante : il est présumé être\nfautif en cas de dommage. Concrètement cela signifie que la victime n’a pas à prouver une\nquelconque faute du gardien pour obtenir réparation. […] Si le propriétaire souhaite s’en\ndéfendre, il va devoir prouver qu’il n’est pas responsable ou que la responsabilité est\npartagée. […]\nIl existe trois cas principaux dans lesquels le propriétaire peut s’exonérer de sa\nresponsabilité. […]\nDeuxième cas : le maître peut également s’exonérer de sa responsabilité en cas de faute\nde la victime, par exemple si cette dernière s’est fait mordre après avoir elle-même excité\nl’animal. […]\nPlus précisément, s’agissant de la faute de la victime […], le propriétaire ou le gardien ne\nseront exonérés totalement que si ces fautes présentent les caractéristiques de la force\nmajeure. Dans le cas contraire, la responsabilité est dite « partagée ».\nSource : village-justice."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nLa Société Anonyme Répar’mobile a développé un réseau de franchises spécialisé\ndans la réparation de matériel électronique (téléphone mobile, tablette, ordinateur…).\nEn septembre 2014, Erwan Bertho, entrepreneur individuel, a adhéré à ce concept\nnovateur en devenant franchisé du groupe Répar’mobile.\nAu terme de 5 ans d’activité, Erwan a réussi à se constituer une clientèle fidèle et à\ngénérer un revenu qui a atteint 30 000 euros en 2019. Jeune papa divorcé, Erwan a\ndécidé depuis l’an dernier de fermer sa boutique tous les samedis afin de profiter de\nses enfants. Pour la même raison, il a fermé son magasin la semaine de Noël.\nErwan Bertho réalisait 30% de son chiffre d’affaires les samedis, qui ne sont pas\ncompensés les autres jours.\nEn février 2020, la société Répar’mobile décide de rompre le contrat de franchise\navec Erwan Bertho pour non-respect des clauses contractuelles.\nCompte tenu des efforts financiers et personnels qu’il a consentis, Erwan décide de\ndemander au Conseil de Prud’hommes la requalification de son contrat de franchise\nen contrat de travail.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extrait du contrat de franchise conclu entre Erwan BERTHO et la",
+     "Annexe 2 : articles du Code civil",
+     "Annexe 3 : extrait de l’arrêt de la Cour de cassation chambre sociale 18/01/2012"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "Erwan Bertho (franchisé) a signé un contrat de franchise avec le franchiseur\nRépar’mobile. Le franchiseur Répar’mobile décide de rompre le contrat car Erwan\nn’ouvre pas son magasin le samedi et décide de fermer la semaine de Noël,\ncontrairement à ce qui est stipulé dans le contrat de franchise. Erwan souhaite voir\nrequalifier son contrat de franchise en contrat de travail afin d’être indemnisé."
+     },
+     {
+      "enonce": "Présentez l’argumentation juridique que la SA Répar’mobile pourrait mettre en avant pour justifier la rupture du contrat de franchise.",
+      "points": 2.5,
+      "corrige": "mettre en avant pour justifier la rupture du contrat de franchise. (2,5\npoints)\nD’après l’article 1217 du Code civil, la partie envers laquelle l’engagement qui n’a pas\nété exécuté, ou l’a été imparfaitement peut provoquer la résolution (résiliation) du\n\nPage: 5/22\n\n\ncontrat, c’est-à-dire l’anéantissement du contrat pour l’avenir.\nD’après l’article 1103 du Code civil, les contrats légalement formés tiennent lieu de loi\nà ceux qui les ont faits.\nD’après le contrat de franchise, tout non-respect de l’une ou l’autre de ses clauses\nentraînera la résiliation du contrat, sans indemnité.\nEn l’espèce, les deux parties ont signé un contrat stipulant l’obligation pour le\nfranchisé d’ouvrir son magasin le samedi et de poser ses congés au mois d’août.\nErwan n’a pas respecté ses obligations contractuelles.\nLa société Répar’mobile est donc dans son droit quand elle décide de résilier le contrat\nde […]"
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique qu’Erwan pourrait développer pour obtenir cette requalification.",
+      "points": 2.5,
+      "corrige": "obtenir cette requalification (2,5 points).\nLa relation contractuelle est définie par le contrat reproduit en annexe.\nLe juge n’est pas tenu de la qualification donnée au contrat par les parties.\nComme l’a établi la jurisprudence, l’existence d’un contrat de travail se démontre par\nla présence de trois éléments caractéristiques dont le premier est à lui seul essentiel :\n– le lien de subordination ;\n– la fourniture d'un travail ;\n– et sa contrepartie, la rémunération.\nEn l’espèce, le franchiseur Repar’mobil impose des horaires d’ouverture, la période de\nfermeture pour congés, la transmission mensuelle d’un tableau de bord, les méthodes\nde travail, l’utilisation des matériels fournis par Répar’mobile ce qui caractérise le lien\nde subordination.\nEn conclusion, Erwan Bertho est bien salarié du groupe Repar’mobile. Ce n’est pas\nune rupture du contrat de franchise, mais un licenciement (qui […]"
+     },
+     {
+      "enonce": "Déterminez les enjeux de la requalification d’un contrat en contrat de travail pour le salarié et pour l’entreprise.",
+      "points": 3.0,
+      "corrige": "travail pour le salarié et pour l’employeur. (3 points)\nEnjeu pour le salarié : reconnaissance du statut du salarié\n- Application du droit du travail : protection contre la rupture du contrat de travail\nprotection sociale ;\n- Requalification d’un contrat en contrat de travail obligatoirement en CDI ce qui\npermet une sécurisation de l’emploi (possibilité d’emprunter, location\nimmobilière facilitée).\nEnjeux pour l’employeur :\n- Exercice des pouvoirs réglementaire, disciplinaire et de direction ;\n- Respect des contraintes liées au droit du travail (procédure de licenciement,\n…) ;\n- Procédure en cas de licenciement.\n\nPage: 6/22"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2026-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nRomain CARAIRE prépare une surprise à sa femme pour leur trentième anniversaire\nde mariage : il compte organiser une grande fête sur le thème « rose » le 14 avril 2026.\nIl souhaite donc acquérir du matériel pour rendre cet événement inoubliable.\nRomain CARAIRE se rend donc sur le site internet d’une société spécialisée dans le\nmatériel événementiel, la SARL FIESTAFUN. Après quelques recherches, il achète\ndivers produits : des enceintes, des micros et du matériel de cuisine, tous roses. Il\najoute ensuite des ballons et banderoles qui seront roses et qui comporteront\nl’inscription « 30 ans de pur bonheur – Romain et Yamina ». Le prix total est de 5 000\neuros. La SARL FIESTAFUN demande le versement d’un acompte de 20 %. Le 10\nfévrier 2026, Romain CARAIRE conclut le contrat et verse 1 000 euros à la SARL\nFIESTAFUN. Les produits achetés sont expédiés et seront livrés sous sept jours.\nToutefois, le 12 février 2026, c’est la surprise : les amis de Romain CARAIRE l’invitent\navec sa femme dans un endroit grandiose pour fêter leur anniversaire de mariage.\nRomain CARAIRE décide donc d’annuler son évènement prévu pour le 14 avril. Par\nconséquent, le matériel qu’il a acheté ne lui est plus utile. Une recherche par une IA\ngénérative lui indique qu’il peut annuler sa commande. Le 13 février 2026, il contacte\ndonc la SARL FIESTAFUN pour le faire, et obtenir un remboursement de ses 1 000\neuros d’acompte. La SARL FIESTAFUN refuse et exige que Romain CARAIRE verse\nles 4 000 euros restants dès la réception du matériel acheté, car tous les produits,\nmême les enceintes, micros, et ustensiles de cuisine sont […]",
+    "annexes": [
+     "ANNEXE 1 – Extraits du Code civil",
+     "ANNEXE 2 – Extraits du Code de la consommation",
+     "ANNEXE 3 – Extrait de l’arrêt de la Cour de cassation du 17 janvier 2018",
+     "ANNEXE 4 – Le développement des Intelligences Artificielles (IA) bouleverse le"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que peut avancer Romain CARAIRE pour obtenir le remboursement de son acompte.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que peut lui opposer la SARL FIESTAFUN afin d’obtenir le reste du paiement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir présenté des règles relatives à la protection du consommateur et du cyberconsommateur, vous traiterez, à l’aide des annexes 2 et 4 et de vos connaissances, la question suivante : Pourquoi le droit protège-t-il le cyberconsommateur ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

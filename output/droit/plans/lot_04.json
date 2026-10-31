@@ -1,0 +1,875 @@
+[
+ {
+  "id": "E3.2",
+  "type": "exercices",
+  "section": 7,
+  "section_titre": "3.2 La capacité et l’incapacité",
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que John BEEBOP peut avancer pour demander l’annulation de la vente.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Présentez l’argumentation juridique que Fabrice PONS peut leur opposer.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "3.2 La capacité et l’incapacité",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Les personnes juridiques disposent d’une capacité juridique qui débute à leur naissance et s’éteint à leur mort. Cette capacité délimite leur aptitude à avoir des droits et à les exercer eux-mêmes ou par l’intermédiaire de leurs représentants.\nNotions : Capacité – incapacité juridique. Mécanismes de la représentation. Acte de disposition, acte d’administration.",
+   "articles": [
+    "Article 751 du Code civil : La représentation est une fiction juridique qui a pour effet d'appeler à la succession les représentants aux droits du représenté.",
+    "Article 1145 du Code civil : Toute personne physique peut contracter sauf en cas d'incapacité prévue par la loi. La capacité des personnes morales est limitée par les règles applicables à chacune d'entre elles.",
+    "Article 2410 du Code civil : L'hypothèque conventionnelle ne peut être consentie que par celui qui a la capacité de disposer de l'immeuble qu'il y soumet.",
+    "Article L134-3 du Code de commerce : L'agent commercial peut accepter sans autorisation la représentation de nouveaux mandants. Toutefois, il ne peut accepter la représentation d'une entreprise concurrente de celle de l'un de ses mandants sans accord de ce dernier.",
+    "Article 222 du Code civil : Si l'un des époux se présente seul pour faire un acte d'administration, de jouissance ou de disposition sur un bien meuble qu'il détient individuellement, il est réputé, à l'égard des tiers de bonne foi, avoir le pouvoir de faire seul cet acte. Cette disposition n'est pas applicable aux meubles meublants visés à l'article 215, alinéa 3, non plus qu'aux meubles corporels dont la nature fait présumer la propriété de l'autre conjoint conformément à l'article 1404."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C3.3",
+  "type": "cas",
+  "section": 8,
+  "section_titre": "3.3 Le patrimoine",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.03,
+  "inedit": true,
+  "proba_annee_suivante": 0.024,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Expliquez les enjeux de l’arrêt du 4 mars 2020 pour les sociétés utilisant des plateformes numériques.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "3.3 Le patrimoine",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Dans cet ensemble de droits, certains sont évaluables en argent et constituent, avec les dettes, le patrimoine de la personne.\nCapacités attendues : l'élève est capable de distinguer entre les droits patrimoniaux et les droits extrapatrimoniaux ; d’identifier ; une atteinte à un droit extrapatrimonial ; d’appliquer ; les règles relatives aux droits extrapatrimoniaux dans une situation ; d’expliquer ; les enjeux de la protection des données à caractère personnel ; de vérifier le respect des obligations liées à la protection des données à caractère ; personnel ; de distinguer entre les biens corporels et les biens incorporels ; d’identifier ; les attributs et caractères du droit de propriété ; de qualifier un trouble anormal du voisinage ; d’identifier les composantes du droit d’auteur ; de connaître les enjeux de la protection juridique de la marque commerciale ; d’identifier les conséquences de l’utilisation non autorisée d’une marque commerciale.",
+   "articles": [
+    "Article L2221-2 du Code du travail : La convention collective a vocation à traiter de l'ensemble des matières mentionnées à l'article L. 2221-1, pour toutes les catégories professionnelles intéressées. L'accord collectif traite un ou plusieurs sujets déterminés dans cet ensemble.",
+    "Article 474 du Code civil : La personne en tutelle est représentée dans les actes nécessaires à la gestion de son patrimoine dans les conditions et selon les modalités prévues au titre XII.",
+    "Article 2030 du Code civil : Lorsque le contrat de fiducie prend fin en l'absence de bénéficiaire, les droits, biens ou sûretés présents dans le patrimoine fiduciaire font de plein droit retour au constituant. Lorsqu'il prend fin par le décès du constituant, le patrimoine fiduciaire fait de plein droit retour à la succession.",
+    "Article 2024 du Code civil : L'ouverture d'une procédure de sauvegarde, de redressement judiciaire ou de liquidation judiciaire au profit du fiduciaire n'affecte pas le patrimoine fiduciaire."
+   ]
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-polynesie",
+    "titre": "ANNEXE 2 – Revirement de jurisprudence majeur en matière de responsabilité",
+    "texte": "civile des parents séparés\nPar un arrêt d’Assemblée plénière du 28 juin 2024, la Cour de cassation a fait évoluer\nsa jurisprudence sur la responsabilité des parents séparés, titulaires de l’autorité\nparentale, du fait des dommages causés par leur enfant mineur.\nL’article 1242 alinéa 4 du code civil (\"Le père et la mère, en tant qu'ils exercent l'autorité\nparentale, sont solidairement responsables du dommage causé par leurs enfants\nmineurs habitant avec eux\") édicte une responsabilité de plein droit des père et mère\ndu fait des dommages causés par leur enfant mineur habitant avec eux, dont seule la\nforce majeure ou la faute de la victime peut les exonérer.\nEn cas de séparation des parents, la Cour de cassation retenait uniquement la\nresponsabilité de plein droit du seul parent chez lequel la résidence habituelle de\nl'enfant a été fixée, quand bien même l'autre parent, bénéficiaire d'un droit de visite et\nd'hébergement, exercerait conjointement l'autorité parentale. Dès lors, seul ce parent\ndétenteur de la résidence habituelle pouvait être condamné à réparer les dommages\ncausés par son enfant mineur.\nLa Cour de cassation considère dorénavant que lorsqu'ils exercent conjointement\nl'autorité parentale à l'égard de leur enfant mineur, les deux parents sont solidairement\nEN_MOTM0NT7QzNjAc0ND7UzMsTYxMj4A2NTAAwMThYyNBjYx\nresponsables des dommages causés par celui-ci, dès lors que l'enfant n'a pas été\nconfié à un tiers par une décision administrative ou judiciaire. […]\nLa Cour de cassation étend ainsi la responsabilité de plein droit aux parents détenteurs\nde l’autorité parentale titulaires d’un simple droit de visite et d’hébergement, dans un\nsens plus conforme au principe de coparentalité […].\nSource : Conseil national des barreaux, 2 juillet 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "Annexe 4 - La méthode des « cookie walls »",
+    "texte": "À la suite de l’entrée en vigueur du règlement général sur la protection des données\n(RGPD), la Commission nationale de l’informatique et des libertés (CNIL) a adopté en\n2019 de nouvelles lignes directrices relatives aux « cookies » et autres traceurs de\nconnexion déposés par les éditeurs de sites internet dans les ordinateurs, tablettes ou\ntéléphones des utilisateurs à des fins, notamment, de ciblage publicitaire. […]\nLe Conseil d’État juge que la CNIL ne pouvait légalement interdire dans ses lignes\ndirectrices les « cookie walls », pratique qui consiste à bloquer l’accès à un site internet\nen cas de refus des cookies. […] Par sa décision du 19 juin 2020, il juge qu’en\ndéduisant une telle interdiction de la seule exigence d’un consentement libre de\nl’utilisateur au dépôt de traceurs, posée par le règlement général sur la protection des\ndonnées (RGPD), la CNIL a excédé ce qu’elle pouvait légalement faire dans le cadre\nd’un acte dit « de droit souple ». Les actes de droit souple désignent les instruments,\ntelles que les lignes directrices des autorités de régulation, qui ne créent pas de droit\nou d’obligation juridique pour quiconque mais influencent fortement, dans les faits, les\npratiques des opérateurs économiques.\nSource : https://www.conseil-etat.fr/"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 4 : jurisprudences sur les troubles de voisinage liés aux animaux",
+    "texte": "L'élevage d’un poulailler avec un coq et cinq poules n’a pas été considéré comme\nconstitutif d’un trouble anormal du voisinage. Pourtant le juge de proximité avait donné\nraison aux plaignants. Mais celui-ci avait fait appel de la décision, et il a obtenu gain\nde cause, la cour considérant que les propriétaires du « gîte de charme » n’apportaient\npas la preuve d’un trouble anormal, et qu’ils devaient assumer les conséquences de\nleur installation en zone rurale (cour d'appel d'Orléans, 4 mars 2013).\nEn revanche, c’est la solution contraire qui a été retenue pour des paons recueillis par\nun propriétaire du château voisin. Ces animaux qui émettent des cris stridents ont\ntroublé la tranquillité du voisinage, abîmé les plantations et dégradé l’environnement\npar leurs souillures. Leur propriétaire a été condamné à faire cesser ces nuisances qui\nont été qualifiées de trouble anormal du voisinage sous astreinte de 500 euros par\ninfraction constatée par huissier de justice (cour d'appel de Paris, 8 janv. 2014).\nLe chant d’un coq qui s’exerce sans discontinuer la nuit à partir de quatre heures,\nconstitue un trouble à la tranquillité du voisinage demeurant à proximité de la volière\noù l’animal est enfermé, ce chant ne pouvant, compte tenu de son caractère répétitif\npendant plusieurs heures de la nuit, être considéré comme résultant du comportement\nnormal d’un tel volatile, même en milieu rural (cour d’appel de Bordeaux, 29 févr.\n1999).\nSi le chant d’un coq, le matin en zone rurale, ne peut en aucun cas constituer un trouble\nde voisinage, la présence d’un poulailler à cinq mètres de la limite séparative du fonds\nvoisin constitue un inconvénient excessif de voisinage, étant observé que ce poulailler,\nnon entretenu, génère de fortes odeurs, qualifiées de pestilentielles par l’huissier (cour\nd’appel de Chambéry, 3 janv. 2006)."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 1 - Extrait de contrat de travail de madame DUPONT",
+    "texte": "ENTRE LES SOUSSIGNÉS\nSARL BOISIER\nEt madame Lisa DUPONT\nIL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT\nArticle 1 : Engagement et objet du contrat\nMadame Lisa DUPONT entre au service exclusif de la SARL BOISIER à compter du\n5 mars 2017. Pour l’exercice de son activité, madame Lisa DUPONT sera placée sous\nl’autorité Boisier, ou de toute personne qui pourra être substituée à ce dernier.\nLe présent contrat est régi par les dispositions de la convention collective en vigueur\ndans l’entreprise, soit la convention collective nationale des menuiseries, charpentes\net constructions industrialisées et porte planes du 19 janvier 2017.\nArticle 2 : Fonctions occupées\nMadame Lisa DUPONT occupera les fonctions de commerciale itinérante et à ce titre :\n- Se déplacera chez les clients professionnels et les fournisseurs de la société ;\n- Rendra compte à la direction commerciale de manière hebdomadaire de l’état\ndes ventes.\nArticle 3 : Rémunération\nMadame Lisa DUPONT sera soumise à la durée légale du travail applicable dans\nl’entreprise. Elle percevra à ce titre une rémunération brute mensuelle de 2 500€\n(deux-mille cinq cents euros), correspondant à son salaire de base. […]\nArticle 6 : Clause d’exclusivité\nMadame Lisa DUPONT s’engage à exercer de manière exclusive son activité\nprofessionnelle. L’exercice de toute autre activité professionnelle soit pour son compte,\nsoit pour le compte de tiers, reste soumise à approbation éventuelle de la direction.\nArticle 7 : Clause de confidentialité\nMadame Lisa DUPONT sera soumise à une clause de confidentialité durant toute la\ndurée de son contrat. […]\nArticle 12 : Clause de non-concurrence\nMadame Lisa DUPONT s’engage à ne pas entrer au service d’une entreprise\nconcurrente, ni à collaborer directement ou indirectement à toute fabrication, tout\ncommerce ou toutes autres activités pour concurrencer les articles ou produits\nfabriqués ou les activités de la société.\nCette clause de non-concurrence s’applique :\n- Aux régions suivantes : Nord de la France\n- Pendant une durée de 1 an, à compter de la date de la rupture effective du\nprésent contrat.\n- Aux activités suivantes : toutes fonctions dans le domaine de la vente, tous\nsecteurs d’activité confondus."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E3.3",
+  "type": "exercices",
+  "section": 8,
+  "section_titre": "3.3 Le patrimoine",
+  "frequence_passee": 0.03,
+  "inedit": true,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Expliquez les enjeux de l’arrêt du 4 mars 2020 pour les sociétés utilisant des plateformes numériques.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "3.3 Le patrimoine",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Dans cet ensemble de droits, certains sont évaluables en argent et constituent, avec les dettes, le patrimoine de la personne.\nCapacités attendues : l'élève est capable de distinguer entre les droits patrimoniaux et les droits extrapatrimoniaux ; d’identifier ; une atteinte à un droit extrapatrimonial ; d’appliquer ; les règles relatives aux droits extrapatrimoniaux dans une situation ; d’expliquer ; les enjeux de la protection des données à caractère personnel ; de vérifier le respect des obligations liées à la protection des données à caractère ; personnel ; de distinguer entre les biens corporels et les biens incorporels ; d’identifier ; les attributs et caractères du droit de propriété ; de qualifier un trouble anormal du voisinage ; d’identifier les composantes du droit d’auteur ; de connaître les enjeux de la protection juridique de la marque commerciale ; d’identifier les conséquences de l’utilisation non autorisée d’une marque commerciale.",
+   "articles": [
+    "Article L2221-2 du Code du travail : La convention collective a vocation à traiter de l'ensemble des matières mentionnées à l'article L. 2221-1, pour toutes les catégories professionnelles intéressées. L'accord collectif traite un ou plusieurs sujets déterminés dans cet ensemble.",
+    "Article 474 du Code civil : La personne en tutelle est représentée dans les actes nécessaires à la gestion de son patrimoine dans les conditions et selon les modalités prévues au titre XII.",
+    "Article 2030 du Code civil : Lorsque le contrat de fiducie prend fin en l'absence de bénéficiaire, les droits, biens ou sûretés présents dans le patrimoine fiduciaire font de plein droit retour au constituant. Lorsqu'il prend fin par le décès du constituant, le patrimoine fiduciaire fait de plein droit retour à la succession.",
+    "Article 2024 du Code civil : L'ouverture d'une procédure de sauvegarde, de redressement judiciaire ou de liquidation judiciaire au profit du fiduciaire n'affecte pas le patrimoine fiduciaire."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-polynesie",
+    "titre": "ANNEXE 2 – Revirement de jurisprudence majeur en matière de responsabilité",
+    "texte": "civile des parents séparés\nPar un arrêt d’Assemblée plénière du 28 juin 2024, la Cour de cassation a fait évoluer\nsa jurisprudence sur la responsabilité des parents séparés, titulaires de l’autorité\nparentale, du fait des dommages causés par leur enfant mineur.\nL’article 1242 alinéa 4 du code civil (\"Le père et la mère, en tant qu'ils exercent l'autorité\nparentale, sont solidairement responsables du dommage causé par leurs enfants\nmineurs habitant avec eux\") édicte une responsabilité de plein droit des père et mère\ndu fait des dommages causés par leur enfant mineur habitant avec eux, dont seule la\nforce majeure ou la faute de la victime peut les exonérer.\nEn cas de séparation des parents, la Cour de cassation retenait uniquement la\nresponsabilité de plein droit du seul parent chez lequel la résidence habituelle de\nl'enfant a été fixée, quand bien même l'autre parent, bénéficiaire d'un droit de visite et\nd'hébergement, exercerait conjointement l'autorité parentale. Dès lors, seul ce parent\ndétenteur de la résidence habituelle pouvait être condamné à réparer les dommages\ncausés par son enfant mineur.\nLa Cour de cassation considère dorénavant que lorsqu'ils exercent conjointement\nl'autorité parentale à l'égard de leur enfant mineur, les deux parents sont solidairement\nEN_MOTM0NT7QzNjAc0ND7UzMsTYxMj4A2NTAAwMThYyNBjYx\nresponsables des dommages causés par celui-ci, dès lors que l'enfant n'a pas été\nconfié à un tiers par une décision administrative ou judiciaire. […]\nLa Cour de cassation étend ainsi la responsabilité de plein droit aux parents détenteurs\nde l’autorité parentale titulaires d’un simple droit de visite et d’hébergement, dans un\nsens plus conforme au principe de coparentalité […].\nSource : Conseil national des barreaux, 2 juillet 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "Annexe 4 - La méthode des « cookie walls »",
+    "texte": "À la suite de l’entrée en vigueur du règlement général sur la protection des données\n(RGPD), la Commission nationale de l’informatique et des libertés (CNIL) a adopté en\n2019 de nouvelles lignes directrices relatives aux « cookies » et autres traceurs de\nconnexion déposés par les éditeurs de sites internet dans les ordinateurs, tablettes ou\ntéléphones des utilisateurs à des fins, notamment, de ciblage publicitaire. […]\nLe Conseil d’État juge que la CNIL ne pouvait légalement interdire dans ses lignes\ndirectrices les « cookie walls », pratique qui consiste à bloquer l’accès à un site internet\nen cas de refus des cookies. […] Par sa décision du 19 juin 2020, il juge qu’en\ndéduisant une telle interdiction de la seule exigence d’un consentement libre de\nl’utilisateur au dépôt de traceurs, posée par le règlement général sur la protection des\ndonnées (RGPD), la CNIL a excédé ce qu’elle pouvait légalement faire dans le cadre\nd’un acte dit « de droit souple ». Les actes de droit souple désignent les instruments,\ntelles que les lignes directrices des autorités de régulation, qui ne créent pas de droit\nou d’obligation juridique pour quiconque mais influencent fortement, dans les faits, les\npratiques des opérateurs économiques.\nSource : https://www.conseil-etat.fr/"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C4.1",
+  "type": "cas",
+  "section": 9,
+  "section_titre": "4.1 Les droits extra- patrimoniaux",
+  "partenaire": 0,
+  "partenaire_titre": "1.1 Le droit et les fonctions du droit",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.045,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l'argumentation juridique que Richard et Nicole peuvent avancer pour obtenir l'indemnisation de leur préjudice.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Monsieur Servolin pourrait développer afin de contester son licenciement.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Présentez les arguments juridiques que Jean peut leur opposer.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "4.1 Les droits extra- patrimoniaux",
+   "theme": "Thème 4 : Quels sont les droits reconnus aux personnes ?",
+   "texte": "Le droit confère à la personne, par le seul fait de son existence, des droits inaliénables, insaisissables et imprescriptibles. Les données formelles et informelles laissées par une personne juridique sur internet constituent son identité numérique. Les données à caractère personnel doivent être particulièrement protégées. Pour illustrer les caractères et la protection des droits extrapatrimoniaux, sont étudiés le droit au respect de la vie privée, avec notamment la protection des données à caractère personnel, et le droit à l’image à travers l’utilisation des technologies de l’information et de la communication.\nNotions : Droits de la personne. Protection des données à caractère personnel. Respect de la vie privée. Droit à l’image.",
+   "articles": [
+    "Article L1263-2 du Code du travail : La nature des informations communicables et les conditions dans lesquelles est assurée la protection des données à caractère personnel sont précisées par décret en Conseil d'Etat.",
+    "Article 372-1 du Code civil : Les parents protègent en commun le droit à l'image de leur enfant mineur, dans le respect du droit à la vie privée mentionné à l'article 9. Les parents associent l'enfant à l'exercice de son droit à l'image, selon son âge et son degré de maturité.",
+    "Article 9 du Code civil : Chacun a droit au respect de sa vie privée. Les juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes mesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser une atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être ordonnées en référé.",
+    "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles L. 228-2 à L. 228-3-1 font l'objet d'un traitement automatisé mis en œuvre par la société émettrice aux fins d'identification des propriétaires de ses titres et de communication avec ces propriétaires pour faciliter leur participation aux assemblées générales, leur accès à toute information intéressant l'activité de la société et, de façon générale, l'exercice de leurs droits. II.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités prévues aux mêmes articles L. 228-2 à L. 228-3-1 et par la société émettrice en application du I du présent article ne peuvent être conservées que douze mois après que les responsables de traitement ont eu connaissance du fait que la personne dont les données à caractère personnel ont été enregistrées n'était plus propriétaire des titres. Durant la même période, lorsque le propriétaire des titres est une personne morale, celle-ci a le droit d'obtenir, dans les meilleurs délais, de […]",
+    "Article 475 du Code civil : La personne en tutelle est représentée en justice par le tuteur. Celui-ci ne peut agir, en demande ou en défense, pour faire valoir les droits extra-patrimoniaux de la personne protégée qu'après autorisation ou sur injonction du juge ou du conseil de famille s'il a été constitué. Le juge ou le conseil de famille peut enjoindre également au tuteur de se désister de l'instance ou de l'action ou de transiger.",
+    "Article 479 du Code civil : Lorsque le mandat s'étend à la protection de la personne, les droits et obligations du mandataire sont définis par les articles 457-1 à 459-2. Toute stipulation contraire est réputée non écrite. Le mandat peut prévoir que le mandataire exercera les missions que le code de la santé publique et le code de l'action sociale et des familles confient au représentant de la personne en tutelle ou à la personne de confiance. Le mandat fixe les modalités de contrôle de son exécution.",
+    "Article L5151-8 du Code du travail : Les activités bénévoles ou de volontariat sont recensées dans le cadre du traitement de données à caractère personnel mentionné au II de l'article L. 6323-8. Le titulaire du compte décide des activités qu'il souhaite y recenser.",
+    "Article 259-2 du Code civil : Les constats dressés à la demande d'un époux sont écartés des débats s'il y a eu violation de domicile ou atteinte illicite à l'intimité de la vie privée."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "1.1 Le droit et les fonctions du droit",
+   "theme": "Thème 1 : Qu'est-ce que le droit ?",
+   "texte": "Depuis l’adoption des principes du libéralisme politique issus de la philosophie des Lumières, les principes généraux d’égalité, de liberté, de solidarité et plus récemment de laïcité fondent l’organisation de la société démocratique française. Ils contribuent à faire du droit un facteur d’organisation et de pacification de la société.\nNotions : État de droit, laïcité, égalité, liberté, solidarité. Fonctions du droit. Distinction entre droit et morale. Ordre public.",
+   "articles": [
+    "Article L2314-28 du Code du travail : Les modalités d'organisation et de déroulement des opérations électorales font l'objet d'un accord entre l'employeur et les organisations syndicales, conclu conformément à l'article L. 2314-6. Cet accord respecte les principes généraux du droit électoral. Les modalités sur lesquelles aucun accord n'a pu intervenir peuvent être fixées par une décision du juge judiciaire.",
+    "Article L237-16 du Code de commerce : La dissolution de la société ne met pas fin aux fonctions du conseil de surveillance et des commissaires aux comptes.",
+    "Article L4451-1 du Code du travail : Les règles de prévention des risques pour la santé et la sécurité des travailleurs, y compris les travailleurs indépendants et les employeurs, exposés aux rayonnements ionisants sont fixées dans le respect des principes généraux de radioprotection des personnes énoncés aux articles L. 1333-2 et L. 1333-3 du code de la santé publique, sans préjudice des principes généraux de prévention prévus à l'article L. 4121-2 du présent code.",
+    "Article L812-9 du Code de commerce : Les dispositions relatives à la surveillance, à l'inspection et à la discipline des administrateurs judiciaires prévues par les articles L. 811-11 à L. 811-15-1 sont applicables aux mandataires judiciaires. La commission nationale d'inscription siège comme chambre de discipline. Le commissaire du Gouvernement y exerce les fonctions du ministère public.",
+    "Article L6112-1 du Code du travail : Pour l'application de la présente partie, aucune distinction entre les femmes et les hommes ne peut être faite.",
+    "Article L3111-3 du Code du travail : A l'exception du chapitre II du titre III ainsi que des titres VI et VII, le présent livre définit les règles d'ordre public, le champ de la négociation collective et les règles supplétives applicables en l'absence d'accord.",
+    "Article L314-26 du Code de la consommation : Les dispositions des chapitres II et III et des sections 2 à 7 du présent chapitre sont d'ordre public."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée. Les juges peuvent sans\npréjudice de la réparation du dommage subi prescrire toutes mesures telles que\nséquestres, saisies et autres, propres à empêcher ou à faire cesser une atteinte à la\nvie privée ; ces mesures peuvent, s'il y a urgence, être ordonnées en référé.\nArticle 1103 : Les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1193 : Les contrats ne peuvent être modifiés ou révoqués que du\nconsentement mutuel des parties ou pour les causes que la loi autorise."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 1 : Extraits du Code civil",
+    "texte": "Article 1218 : Il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : Chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde.\nArticle 1246 : Toute personne responsable d'un préjudice écologique est tenue de le\nréparer.\nArticle 1247 : Est réparable, dans les conditions prévues au présent titre, le préjudice\nécologique consistant en une atteinte non négligeable aux éléments ou aux fonctions\ndes écosystèmes ou aux bénéfices collectifs tirés par l'homme de l'environnement.\nArticle 1248 : L'action en réparation du préjudice écologique est ouverte à toute\npersonne ayant qualité et intérêt à agir, telle que l'Etat, l'Agence française pour la\nbiodiversité, les collectivités territoriales et leurs groupements dont le territoire est\nconcerné, ainsi que les établissements publics et les associations agréées ou créées\ndepuis au moins cinq ans à la date d'introduction de l'instance qui ont pour objet la\nprotection de la nature et la défense de l'environnement.\nArticle 1249 : La réparation du préjudice écologique s'effectue par priorité en nature.\nEn cas d'impossibilité de droit ou de fait ou d'insuffisance des mesures de réparation,\nle juge condamne le responsable à verser des dommages et intérêts, affectés à la\nréparation de l'environnement, au demandeur ou, si celui-ci ne peut prendre les\nmesures utiles à cette fin, à l'Etat. […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "Annexe 4 - La méthode des « cookie walls »",
+    "texte": "À la suite de l’entrée en vigueur du règlement général sur la protection des données\n(RGPD), la Commission nationale de l’informatique et des libertés (CNIL) a adopté en\n2019 de nouvelles lignes directrices relatives aux « cookies » et autres traceurs de\nconnexion déposés par les éditeurs de sites internet dans les ordinateurs, tablettes ou\ntéléphones des utilisateurs à des fins, notamment, de ciblage publicitaire. […]\nLe Conseil d’État juge que la CNIL ne pouvait légalement interdire dans ses lignes\ndirectrices les « cookie walls », pratique qui consiste à bloquer l’accès à un site internet\nen cas de refus des cookies. […] Par sa décision du 19 juin 2020, il juge qu’en\ndéduisant une telle interdiction de la seule exigence d’un consentement libre de\nl’utilisateur au dépôt de traceurs, posée par le règlement général sur la protection des\ndonnées (RGPD), la CNIL a excédé ce qu’elle pouvait légalement faire dans le cadre\nd’un acte dit « de droit souple ». Les actes de droit souple désignent les instruments,\ntelles que les lignes directrices des autorités de régulation, qui ne créent pas de droit\nou d’obligation juridique pour quiconque mais influencent fortement, dans les faits, les\npratiques des opérateurs économiques.\nSource : https://www.conseil-etat.fr/"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-metropole",
+    "titre": "ANNEXE 4 – Regard historique sur l’ordre public et le contrat",
+    "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 1 : extrait du Code du travail",
+    "texte": "Article L1132-1 : Aucune personne ne peut être écartée d'une procédure de\nrecrutement ou de nomination ou de l'accès à un stage ou à une période de formation\nen entreprise, aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une\nmesure discriminatoire, directe ou indirecte, […] , notamment en matière de\nrémunération, de mesures d'intéressement ou de distribution d'actions, de formation,\nde reclassement, d'affectation, de qualification, de classification, de promotion\nprofessionnelle, de mutation ou de renouvellement de contrat en raison de son origine,\nde son sexe, de ses mœurs, de son orientation sexuelle, de son identité de genre, de\nson âge, de sa situation de famille ou de sa grossesse, de ses caractéristiques\ngénétiques, de la particulière vulnérabilité résultant de sa situation économique,\napparente ou connue de son auteur, de son appartenance ou de sa non-appartenance,\nvraie ou supposée, à une ethnie, une nation ou une prétendue race, de ses opinions\npolitiques, de ses activités syndicales ou mutualistes, de ses convictions religieuses,\nde son apparence physique, de son nom de famille, de son lieu de résidence ou de sa\ndomiciliation bancaire, ou en raison de son état de santé, de sa perte d'autonomie ou\nde son handicap, de sa capacité à s'exprimer dans une langue autre que le français.\nArticle L1134-1 : l […] il incombe à la partie défenderesse de prouver que sa décision\nest justifiée par des éléments objectifs étrangers à toute discrimination. […]\nArticle L1142-1 : sous réserve des dispositions particulières du présent code, nul ne\npeut :\nfamille du candidat recherché. Cette interdiction est applicable pour toute forme de\npublicité relative à une embauche et quels que soient les caractères du contrat de\ntravail envisagé ;\nrenouveler le contrat de travail d'un salarié en considération du sexe, de la situation\nde famille ou de la grossesse sur la base de critères de choix différents selon le sexe,\nla situation de famille ou la grossesse ;\nmatière de rémunération, de formation, d'affectation, de qualification, de classification,\nde promotion professionnelle ou de mutation.\nArticle L1142-4 : les dispositions des articles L. 1142-1 et L. […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nLa société « INVESTIX » gère le patrimoine de plusieurs sociétés qui représentent une\npart importante du maillage économique du bassin dijonnais. Bryan SANDERS y\noccupe le poste de secrétaire de direction auprès de Syrine BEN AHMOU, la gérante.\nLa société met un ordinateur portable et un téléphone à disposition de Bryan\nSANDERS pour exercer ses missions. Pour pouvoir les utiliser, il a signé la charte\nd’utilisation des moyens informatiques et des outils numériques de la société.\nLe 22 février 2023, une alerte sécurité bloque le système informatique de la société.\nAprès recherche, il s’avère qu’un virus a été installé suite à un téléchargement sur une\nplateforme illégale de musique à partir du poste informatique de Bryan SANDERS.\nSyrine BEN AHMOU découvre, en l’absence du salarié, un dossier identifié comme\n« PERSONNEL » sur le poste informatique de celui-ci dans lequel des œuvres\nmusicales sont téléchargées. De plus, le service informatique l’informe que Bryan\nSANDERS envoie très régulièrement des courriers électroniques à caractère privé.\nLa gérante, mécontente du risque élevé de fuite des données personnelles des clients\nprofessionnels de la société et de l’utilisation à caractère privé des outils numériques\nmis à disposition par la société, décide de licencier Bryan SANDERS. Celui-ci souhaite\ncontester cette décision et vous consulte.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extrait de la charte d’utilisation des outils numériques annexée au",
+     "ANNEXE 2 - Extrait de l’arrêt de la Cour européenne des droits de l’homme du",
+     "ANNEXE 3 - RGPD : de quoi parle-t-on ?",
+     "Annexe 4 - La méthode des « cookie walls »"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 1.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit ici, pour le candidat, de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nBryan SANDERS, salarié, est lié par un contrat de travail à la société « INVESTIX »,\nemployeur, dont Syrine BEN AHMOU est la gérante. Il exerce la fonction de secrétaire\nde direction.\nLa société met à sa disposition du matériel informatique pour exercer ses missions\nprofessionnelles. Une charte d’utilisation des moyens informatiques et des outils\nnumériques est appliquée dans la société.\nBryan SANDERS fait un usage personnel des outils professionnels mis à sa disposition\n(envoi de courrier électronique à caractère privé et téléchargement d’œuvres\nmusicales sur des plateformes […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Bryan SANDERS peut avancer pour contester le licenciement.",
+      "points": 3.0,
+      "corrige": "contester le licenciement. (3 points)\nOn attend des arguments au service d’une conclusion logique qui tiennent\ncompte des éléments de faits et de droit.\nLe syllogisme juridique n’est pas la seule forme attendue.\nPlusieurs capacités sont à mobiliser pour formuler une réponse en adéquation\navec les attentes à savoir :\n- vérifier les principales conditions de validité de la rupture du contrat de travail\ndans une situation donnée,\n- et apprécier le respect des droits individuels […] des salariés dans une\nsituation donnée.\nPour qu’un licenciement à caractère personnel soit valable, il faut qu’il y ait une cause\nréelle (qui existe) et sérieuse (suffisamment grave pour que le maintien du salarié dans\nla société n’est pas possible).\nLe principe de respect de la vie privée, mentionné à l’article 9 du Code civil, s’applique\négalement aux salariés, y compris sur leur lieu de travail. Ce principe […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la société pourrait lui opposer.",
+      "points": null,
+      "corrige": "points)\nOn attend des arguments au service d’une conclusion logique qui tiennent\ncompte des éléments de faits et de droit.\nLe syllogisme juridique n’est pas la seule forme attendue.\nPlusieurs capacités sont à mobiliser pour formuler une réponse en adéquation\navec les attentes à savoir :\n- vérifier les principales conditions de validité de la rupture du contrat de travail\ndans une situation donnée,\n- et apprécier le respect des droits individuels […] des salariés dans une\nsituation donnée.\nPour qu’un licenciement à caractère personnel soit valable, il faut qu’il y ait une cause\nréelle (qui existe) et sérieuse (suffisamment grave pour que le maintien du salarié dans\nla société n’est pas possible).\nLa société « INVESTIX » a adopté une charte d’utilisation des outils numériques qui\nencadre notamment l’utilisation privée de la message professionnelle et l’utilisation\nd’Internet à des fins […]"
+     },
+     {
+      "enonce": "Le RGPD protège-t-il efficacement les données formelles et informelles laissées par une personne juridique sur internet ?",
+      "points": 3.0,
+      "corrige": "laissées par une personne juridique sur internet ? (3 points)\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Tout concept mobilisé cohérent avec la réflexion\ndoit être accepté dès l’instant où il permet de formuler une réponse logique.\nConstruction de la réflexion\nLogique globale et structuration de la réflexion\nLe candidat doit conduire une réflexion fluide avec un fil directeur que\nle correcteur peut identifier.\n\n1 point\n\nRéponse à la problématique\nIl n’est pas attendu du candidat qu’il développe une réponse de type\nthèse/antithèse mais il peut avoir une réflexion nuancée.\n\nPertinence de la réflexion\nExpliquer le sens, les implications, ou l’évolution d’une règle juridique\nLe candidat doit développer des idées en lien avec la problématique\nen s’appuyant notamment sur les termes clefs du sujet. Au moins deux\nidées sont […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nMonsieur Servolin occupe depuis 12 ans, un poste de vendeur au sein de la boutique\n“ Berthou Luxe ”. Implantée dans une petite ville de province, cette SARL, gérée par\nMadame Berthou, est spécialisée dans la vente de chaussures haut de gamme et\nbénéficie d’une forte notoriété notamment parmi les clients aisés du centre-ville.\nJusqu’à récemment, Monsieur Servolin avait toujours été un employé modèle. Il\nréalisait un excellent chiffre d’affaires et les clients appréciaient particulièrement ses\nconseils personnalisés et sa gentillesse.\nLe mois dernier, Monsieur Servolin a divorcé et il a beaucoup de mal à se remettre de\ncette rupture. Depuis, son comportement a changé. Il arrive régulièrement en retard, il\nest constamment de mauvaise humeur, peu patient avec ses clients et ses ventes sont\nmoins bonnes que d’habitude.\nMadame Berthou est très inquiète. Elle a peur que le comportement de Monsieur\nServolin s’ébruite et nuise à l’image de “Berthou Luxe”. En effet, la plupart de ses\nclients habitent dans le centre-ville et pourraient être témoins des agissements de\nMonsieur Servolin. Madame Berthou craint que sa clientèle ne souhaite plus être\nconseillée par Monsieur Servolin et choisisse de ne plus se rendre dans son magasin.\nMadame Berthou décide, alors, de mettre fin au contrat de travail de Monsieur Servolin\net le convoque afin de lui signifier son licenciement.\nElle lui reproche de fréquenter les bars de la ville, d'avoir été vu plusieurs fois, ivre et\ntitubant dans la rue principale du centre-ville et d'être à l’origine de bagarres entre\n« ivrognes » sur la voie publique […]",
+    "annexes": [
+     "Annexe 1 : Article 8 de la Convention Européenne des Droits de l’Homme",
+     "Annexe 2 : Articles du Code civil",
+     "Annexe 3 : Articles du Code du travail",
+     "Annexe 4 : Droit à une vie privée et cause de licenciement",
+     "Annexe 5 : Arrêt de la Cour de cassation, chambre sociale 16 septembre 2015,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Monsieur Servolin pourrait développer afin de contester son licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pourquoi le droit limite le pouvoir disciplinaire de l’employeur.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E4.1",
+  "type": "exercices",
+  "section": 9,
+  "section_titre": "4.1 Les droits extra- patrimoniaux",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Monsieur Servolin pourrait développer afin de contester son licenciement.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Présentez les arguments juridiques que Jean peut leur opposer.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l'argumentation juridique que Richard et Nicole peuvent avancer pour obtenir l'indemnisation de leur préjudice.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "4.1 Les droits extra- patrimoniaux",
+   "theme": "Thème 4 : Quels sont les droits reconnus aux personnes ?",
+   "texte": "Le droit confère à la personne, par le seul fait de son existence, des droits inaliénables, insaisissables et imprescriptibles. Les données formelles et informelles laissées par une personne juridique sur internet constituent son identité numérique. Les données à caractère personnel doivent être particulièrement protégées. Pour illustrer les caractères et la protection des droits extrapatrimoniaux, sont étudiés le droit au respect de la vie privée, avec notamment la protection des données à caractère personnel, et le droit à l’image à travers l’utilisation des technologies de l’information et de la communication.\nNotions : Droits de la personne. Protection des données à caractère personnel. Respect de la vie privée. Droit à l’image.",
+   "articles": [
+    "Article L1263-2 du Code du travail : La nature des informations communicables et les conditions dans lesquelles est assurée la protection des données à caractère personnel sont précisées par décret en Conseil d'Etat.",
+    "Article 372-1 du Code civil : Les parents protègent en commun le droit à l'image de leur enfant mineur, dans le respect du droit à la vie privée mentionné à l'article 9. Les parents associent l'enfant à l'exercice de son droit à l'image, selon son âge et son degré de maturité.",
+    "Article 9 du Code civil : Chacun a droit au respect de sa vie privée. Les juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes mesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser une atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être ordonnées en référé.",
+    "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles L. 228-2 à L. 228-3-1 font l'objet d'un traitement automatisé mis en œuvre par la société émettrice aux fins d'identification des propriétaires de ses titres et de communication avec ces propriétaires pour faciliter leur participation aux assemblées générales, leur accès à toute information intéressant l'activité de la société et, de façon générale, l'exercice de leurs droits. II.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités prévues aux mêmes articles L. 228-2 à L. 228-3-1 et par la société émettrice en application du I du présent article ne peuvent être conservées que douze mois après que les responsables de traitement ont eu connaissance du fait que la personne dont les données à caractère personnel ont été enregistrées n'était plus propriétaire des titres. Durant la même période, lorsque le propriétaire des titres est une personne morale, celle-ci a le droit d'obtenir, dans les meilleurs délais, de […]",
+    "Article 475 du Code civil : La personne en tutelle est représentée en justice par le tuteur. Celui-ci ne peut agir, en demande ou en défense, pour faire valoir les droits extra-patrimoniaux de la personne protégée qu'après autorisation ou sur injonction du juge ou du conseil de famille s'il a été constitué. Le juge ou le conseil de famille peut enjoindre également au tuteur de se désister de l'instance ou de l'action ou de transiger.",
+    "Article 479 du Code civil : Lorsque le mandat s'étend à la protection de la personne, les droits et obligations du mandataire sont définis par les articles 457-1 à 459-2. Toute stipulation contraire est réputée non écrite. Le mandat peut prévoir que le mandataire exercera les missions que le code de la santé publique et le code de l'action sociale et des familles confient au représentant de la personne en tutelle ou à la personne de confiance. Le mandat fixe les modalités de contrôle de son exécution.",
+    "Article L5151-8 du Code du travail : Les activités bénévoles ou de volontariat sont recensées dans le cadre du traitement de données à caractère personnel mentionné au II de l'article L. 6323-8. Le titulaire du compte décide des activités qu'il souhaite y recenser.",
+    "Article 259-2 du Code civil : Les constats dressés à la demande d'un époux sont écartés des débats s'il y a eu violation de domicile ou atteinte illicite à l'intimité de la vie privée."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée. Les juges peuvent sans\npréjudice de la réparation du dommage subi prescrire toutes mesures telles que\nséquestres, saisies et autres, propres à empêcher ou à faire cesser une atteinte à la\nvie privée ; ces mesures peuvent, s'il y a urgence, être ordonnées en référé.\nArticle 1103 : Les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1193 : Les contrats ne peuvent être modifiés ou révoqués que du\nconsentement mutuel des parties ou pour les causes que la loi autorise."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nLa société « INVESTIX » gère le patrimoine de plusieurs sociétés qui représentent une\npart importante du maillage économique du bassin dijonnais. Bryan SANDERS y\noccupe le poste de secrétaire de direction auprès de Syrine BEN AHMOU, la gérante.\nLa société met un ordinateur portable et un téléphone à disposition de Bryan\nSANDERS pour exercer ses missions. Pour pouvoir les utiliser, il a signé la charte\nd’utilisation des moyens informatiques et des outils numériques de la société.\nLe 22 février 2023, une alerte sécurité bloque le système informatique de la société.\nAprès recherche, il s’avère qu’un virus a été installé suite à un téléchargement sur une\nplateforme illégale de musique à partir du poste informatique de Bryan SANDERS.\nSyrine BEN AHMOU découvre, en l’absence du salarié, un dossier identifié comme\n« PERSONNEL » sur le poste informatique de celui-ci dans lequel des œuvres\nmusicales sont téléchargées. De plus, le service informatique l’informe que Bryan\nSANDERS envoie très régulièrement des courriers électroniques à caractère privé.\nLa gérante, mécontente du risque élevé de fuite des données personnelles des clients\nprofessionnels de la société et de l’utilisation à caractère privé des outils numériques\nmis à disposition par la société, décide de licencier Bryan SANDERS. Celui-ci souhaite\ncontester cette décision et vous consulte.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extrait de la charte d’utilisation des outils numériques annexée au",
+     "ANNEXE 2 - Extrait de l’arrêt de la Cour européenne des droits de l’homme du",
+     "ANNEXE 3 - RGPD : de quoi parle-t-on ?",
+     "Annexe 4 - La méthode des « cookie walls »"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 1.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit ici, pour le candidat, de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nBryan SANDERS, salarié, est lié par un contrat de travail à la société « INVESTIX »,\nemployeur, dont Syrine BEN AHMOU est la gérante. Il exerce la fonction de secrétaire\nde direction.\nLa société met à sa disposition du matériel informatique pour exercer ses missions\nprofessionnelles. Une charte d’utilisation des moyens informatiques et des outils\nnumériques est appliquée dans la société.\nBryan SANDERS fait un usage personnel des outils professionnels mis à sa disposition\n(envoi de courrier électronique à caractère privé et téléchargement d’œuvres\nmusicales sur des plateformes […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Bryan SANDERS peut avancer pour contester le licenciement.",
+      "points": 3.0,
+      "corrige": "contester le licenciement. (3 points)\nOn attend des arguments au service d’une conclusion logique qui tiennent\ncompte des éléments de faits et de droit.\nLe syllogisme juridique n’est pas la seule forme attendue.\nPlusieurs capacités sont à mobiliser pour formuler une réponse en adéquation\navec les attentes à savoir :\n- vérifier les principales conditions de validité de la rupture du contrat de travail\ndans une situation donnée,\n- et apprécier le respect des droits individuels […] des salariés dans une\nsituation donnée.\nPour qu’un licenciement à caractère personnel soit valable, il faut qu’il y ait une cause\nréelle (qui existe) et sérieuse (suffisamment grave pour que le maintien du salarié dans\nla société n’est pas possible).\nLe principe de respect de la vie privée, mentionné à l’article 9 du Code civil, s’applique\négalement aux salariés, y compris sur leur lieu de travail. Ce principe […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la société pourrait lui opposer.",
+      "points": null,
+      "corrige": "points)\nOn attend des arguments au service d’une conclusion logique qui tiennent\ncompte des éléments de faits et de droit.\nLe syllogisme juridique n’est pas la seule forme attendue.\nPlusieurs capacités sont à mobiliser pour formuler une réponse en adéquation\navec les attentes à savoir :\n- vérifier les principales conditions de validité de la rupture du contrat de travail\ndans une situation donnée,\n- et apprécier le respect des droits individuels […] des salariés dans une\nsituation donnée.\nPour qu’un licenciement à caractère personnel soit valable, il faut qu’il y ait une cause\nréelle (qui existe) et sérieuse (suffisamment grave pour que le maintien du salarié dans\nla société n’est pas possible).\nLa société « INVESTIX » a adopté une charte d’utilisation des outils numériques qui\nencadre notamment l’utilisation privée de la message professionnelle et l’utilisation\nd’Internet à des fins […]"
+     },
+     {
+      "enonce": "Le RGPD protège-t-il efficacement les données formelles et informelles laissées par une personne juridique sur internet ?",
+      "points": 3.0,
+      "corrige": "laissées par une personne juridique sur internet ? (3 points)\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Tout concept mobilisé cohérent avec la réflexion\ndoit être accepté dès l’instant où il permet de formuler une réponse logique.\nConstruction de la réflexion\nLogique globale et structuration de la réflexion\nLe candidat doit conduire une réflexion fluide avec un fil directeur que\nle correcteur peut identifier.\n\n1 point\n\nRéponse à la problématique\nIl n’est pas attendu du candidat qu’il développe une réponse de type\nthèse/antithèse mais il peut avoir une réflexion nuancée.\n\nPertinence de la réflexion\nExpliquer le sens, les implications, ou l’évolution d’une règle juridique\nLe candidat doit développer des idées en lien avec la problématique\nen s’appuyant notamment sur les termes clefs du sujet. Au moins deux\nidées sont […]"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,987 @@
+[
+ {
+  "id": "C2.3",
+  "type": "cas",
+  "section": 5,
+  "section_titre": "2.3 Le recours au juge",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "proba_annee_suivante": 0.049,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "2.3 Le recours au juge",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Le recours au juge obéit à plusieurs principes fondamentaux. Sont exclusivement abordés le droit au procès équitable, le droit au double degré de juridiction, les principes relatifs à la compétence d’attribution, les droits de la la présomption d’innocence. défense, L’étude de procès civil et pénal permet d’identifier et de mesurer les enjeux des différentes phases qui caractérisent le procès : l'introduction de l’instance ou le dépôt de plainte, la saisine du tribunal, l'instruction ou la mise en état, l'audience et la clôture des débats. L’étude porte aussi sur la constitution de partie civile dans le cadre d'un procès pénal et sur le rôle de la peine. La notion de voie de recours est introduite en étudiant l’appel, le pourvoi en cassation et la saisine des tribunaux européens.\nNotions : Voies de recours. Appel. Pourvoi en cassation. Partie civile. Instance. Audience. Jugement, arrêt, délibéré. Compétence d'attribution. Assignation. Mise en examen. Infraction (contravention, délit, crime).\nCapacités attendues : l'élève est capable d’identifier ; et qualifier une personne juridique ; de distinguer une personne physique et une personne morale ; d’analyser ; les conséquences de la personnalité juridique ; d’identifier les attributs d’une personne physique ou d’une personne morale ; d’expliquer les conséquences de l’incapacité juridique d’une personne ; physique ou.",
+   "articles": [
+    "Article L464-8-2 du Code de commerce : Sans préjudice des compétences exclusives du juge de l'exécution, le recours relatif à la validité de la notification par l'Autorité de la concurrence des actes mentionnés au IV de l'article L. 462-9-1 est porté devant une cour d'appel spécialement désignée par décret dans le délai d'un mois à compter de cette notification. Le recours n'est pas suspensif. Le président de l'Autorité de la concurrence peut former un pourvoi en cassation contre l'arrêt de la cour d'appel.",
+    "Article L512-38 du Code de la consommation : L'ordonnance autorisant la prolongation d'une mesure de consignation est susceptible de recours devant le premier président de la cour d'appel suivant les règles prévues par le code de procédure pénale. Les parties ne sont pas tenues de constituer avocat. Cet appel est formé par déclaration remise ou adressée par pli recommandé au greffe de la cour dans un délai de quinze jours. Ce délai court à compter de la notification de l'ordonnance. Cet appel n'est pas suspensif. Le greffe du tribunal judiciaire transmet sans délai le dossier de l'affaire au greffe de la cour d'appel où les parties peuvent le consulter. L'ordonnance du premier président de la cour d'appel est susceptible d'un pourvoi en cassation, selon les règles prévues par le code de procédure pénale. Le délai du pourvoi en cassation est de quinze jours. L'ordonnance du juge des libertés et de la détention précise les voies de recours ouvertes et les conditions dans lesquelles elles sont exercées.",
+    "Article L464-8 du Code de commerce : Les décisions de l'Autorité de la concurrence mentionnées aux articles L. 462-8, L. 464-2, L. 464-3, L. 464-6, L. 464-6-1 et L. 752-27 sont notifiées aux parties en cause et au ministre chargé de l'économie, qui peuvent, dans le délai d'un mois, introduire un recours en annulation ou en réformation devant la cour d'appel de Paris. Le recours n'est pas suspensif. Toutefois, le premier président de la cour d'appel de Paris peut ordonner qu'il soit sursis à l'exécution de la décision si celle-ci est susceptible d'entraîner des conséquences manifestement excessives ou s'il est intervenu, postérieurement à sa notification, des faits nouveaux d'une exceptionnelle gravité. Le pourvoi en cassation, formé le cas échéant, contre l'arrêt de la cour, est exercé dans un délai d'un mois suivant sa notification. Le président de l'Autorité de la concurrence peut former un pourvoi en cassation contre l'arrêt de la cour d'appel de Paris ayant annulé ou réformé une décision de l'Autorité. Le ministre chargé de l'économie peut, dans tous les cas, former un pourvoi en cassation contre l'arrêt de la cour d'appel de Paris. L'Autorité de la concurrence veille à […]",
+    "Article L661-10 du Code de commerce : Pour l'application du présent titre, les membres du comité social et économique désignent parmi eux la personne habilitée à exercer en leur nom les voies de recours.",
+    "Article 29-2 du Code civil : La procédure suivie en matière de nationalité, et notamment la communication au ministère de la justice des assignations, conclusions et voies de recours, est déterminée par le code de procédure civile.",
+    "Article L661-7 du Code de commerce : Il ne peut être exercé de tierce opposition ou de recours en cassation contre : 1° Les décisions rendues en application du V de l'article L. 626-30 ; 2° Les jugements mentionnés à l'article L. 661-6 et les arrêts rendus en application des I et II du même article. Le pourvoi en cassation n'est ouvert qu'au ministère public à l'encontre des arrêts rendus en application du III, IV et V de l'article L. 661-6.",
+    "Article L3122-1 du Code du travail : Le recours au travail de nuit est exceptionnel. Il prend en compte les impératifs de protection de la santé et de la sécurité des travailleurs et est justifié par la nécessité d'assurer la continuité de l'activité économique ou des services d'utilité sociale.",
+    "Article L4163-19 du Code du travail : En cas de recours juridictionnel contre une décision de l'organisme gestionnaire, le salarié et l'employeur sont parties à la cause. Ils sont mis en mesure, l'un et l'autre, de produire leurs observations à l'instance. Le présent article n'est pas applicable aux recours dirigés contre la pénalité mentionnée à l'article L. 4163-16. Un décret détermine les conditions dans lesquelles le salarié peut être assisté ou représenté.",
+    "Article L722-3-1 du Code de commerce : Le président du tribunal de commerce connaît, dans les limites de la compétence d'attribution du tribunal de commerce, des demandes formées en application du règlement (CE) n° 1896/2006 du Parlement européen et du Conseil du 12 décembre 2006 instituant une procédure européenne d'injonction de payer.",
+    "Article L721-3-1 du Code de commerce : Les tribunaux de commerce connaissent, dans les limites de leur compétence d'attribution, des demandes formées en application du règlement (CE) n° 861/2007 du Parlement européen et du Conseil du 11 juillet 2007 instituant une procédure européenne de règlement des petits litiges."
+   ]
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : arrêt de la Cour de cassation, chambre sociale, 17 avril 2019",
+    "texte": "Attendu, selon l'arrêt attaqué (Paris, 21 janvier 2016), que M. W... a été engagé le 18\nmai 2009 par la société Ambulances de Championnet (la société) en qualité de\nchauffeur ambulancier ; que le 31 janvier 2012, il a saisi la juridiction prud'homale pour\ncontester les modalités d'exécution de son contrat de travail et pour faire constater un\nharcèlement moral et une discrimination ; qu'il a été convoqué le 17 septembre 2013\nà un entretien préalable à un licenciement et a été licencié pour faute grave par lettre\ndu 30 septembre 2013 ;\n[…] Attendu que le salarié fait grief à l'arrêt de le débouter de l'ensemble des\ndemandes formulées au titre du harcèlement moral et de la discrimination alors, selon\nle moyen: […]\ndiscrimination directe ou indirecte, il appartient au juge d'apprécier si ces éléments\ndans leur ensemble laissent supposer l'existence d'une telle discrimination et, dans\nl'affirmative, il incombe à l'employeur de prouver que ses décisions sont justifiées par\ndes éléments objectifs étrangers à toute discrimination ; qu'en constatant que\nl'existence d'une différence de salaire, alléguée sur la base de la comparaison avec\nun bulletin de salaire anonyme et dépourvu de mention de l'ancienneté, sans\nrechercher su cette différence était justifiée par des éléments objectifs étrangers à\ntoute discrimination, la cour d'appel a entaché sa décision d'un défaut de base légale\nau regard des articles L. 1132-1 et L. 1134-1 du Code du travail;\ndiscrimination directe ou indirecte, il appartient au juge d'apprécier si ces éléments\ndans leur ensemble laissent supposer l'existence d'une telle discrimination et, dans\nl'affirmative, il incombe à l'employeur de prouver que ses décisions sont justifiées par\ndes éléments objectifs étrangers à toute discrimination ; qu'en retenant, par motifs\nadoptés, après avoir analysé les éléments de droit de faits et de preuve, qu'en l'état\nactuel du dossier que les mesures discriminatoires n'étaient pas établies, la cour\nd'appel, qui a fait peser la charge de la preuve de la discrimination sur le salarié, a\nviolé l'article L. 1134-1 du Code du travail ;\nMais attendu qu'il n'y a de discrimination que si le traitement défavorable infligé […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 2 : extrait de l’arrêt de la Cour de cassation du 8 mars 2018",
+    "texte": "[…] Attendu que les consorts X... font grief à l'arrêt de les condamner à payer à M. et\nMme Z... des dommages-intérêts en réparation du trouble anormal de voisinage ;\nMais attendu qu'ayant constaté que de nombreux encombrants, tels que WC avec\nprésence d'excréments, fauteuil en skaï, carcasse de réfrigérateur, banquette\ndéchirée, bouteille de gaz, rouleau de grillage, étaient situés en des endroits différents\nsur le fonds des consorts X... et souverainement retenu qu'ils étaient visibles par leur\nproximité, la cour d'appel a pu en déduire l'existence d'un trouble de voisinage qu'il\nconvenait de réparer ;\nD'où il suit que le moyen n'est pas fondé ;\nPAR CES MOTIFS :\nREJETTE le pourvoi ; [...]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - La notion de professionnel en droit de la consommation",
+    "texte": "Le terme de « professionnel » est défini dans l’ordonnance n° 2016-301 du 14 mars\n2016 comme « toute personne physique ou morale, publique ou privée, qui agit à des\nfins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale\nou agricole, y compris lorsqu’elle agit au nom ou pour le compte d’un autre\nprofessionnel ».\nLe professionnel peut être une personne physique ou morale et la forme juridique de\nl’entreprise n’est pas à prendre en considération.\nLe « professionnel » se distingue du « non-professionnel », et se définit comme\n« toute personne morale qui n’agit pas à des fins professionnelles ». Cette notion\npermet d’étendre aux personnes morales agissant en dehors de leur activité\nprofessionnelle la protection accordée aux consommateurs.\nSource : les auteurs"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nJoséphine Duval, diplômée d’un master en développement commercial, est\nembauchée en CDI le 1er septembre 2019 par la SARL UNIPUR qui vend des\nsystèmes de filtration pour les climatisations. Cependant, après cinq mois, ses ventes\nne décollent pas. Elles peinent à trouver des clients et à les convaincre car elle ne\nconnaît pas suffisamment les produits.\nSon directeur commercial l’avait inscrit à une formation technique. Mais, submergée\npar le travail, elle avait décidé de ne pas la suivre. Elle en avait informé, par courriel,\nson directeur commercial qui lui avait répondu, en retour, par un autre courriel : « Je\nte remercie de m’avoir prévenu. Je comprends ta décision de vouloir avancer ton\ntravail plutôt que d’aller en formation compte tenu du retard pris dans ta prospection ».\nSon directeur commercial décide de lui proposer une deuxième formation, qu’elle\nrefusera de la même manière. Fin juin 2020, Joséphine n’a réalisé que 25% de ses\nobjectifs de ventes alors que les mois de mai et juin devaient être des plus propices.\nLe 15 juillet, comme tous les mois, elle est convoquée par son directeur commercial\npour faire le point. Il constate qu’elle ne remplit pas ses objectifs de vente car elle ne\nmaîtrise pas les aspects techniques des produits suite à ses deux refus de formation.\nCette constatation ressort d’une enquête de satisfaction faite auprès de plusieurs\nclients que Joséphine n’a pas su convaincre. A ce même entretien, il lui annonce donc\nqu’elle est licenciée.\nElle reçoit, le lendemain de cet entretien, une lettre lui notifiant son licenciement selon\nle motif « […]",
+    "annexes": [
+     "Annexe 1: Extraits du Code du travail",
+     "Annexe 2: La jurisprudence sur l’obligation de formation de l’employeur",
+     "Annexe 3: Arrêt de la Cour de cassation chambre sociale du 13 février 2008",
+     "Annexe 4: Extrait du contrat de travail à durée indéterminée de Joséphine Duval"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits, les parties en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "Joséphine Duval est salariée de la SARL UNIPUR, son employeur, dans le cadre\nd’un contrat de travail à durée indéterminée. Embauchée comme commerciale, elle\néprouve des difficultés à assimiler la technicité des produits. Son employeur l’inscrit à\ndeux formations qu’elle renonce à faire, de peur de perdre du temps. Elle en informe\nson directeur commercial qui soutient sa décision.\nDix mois après son embauche, ses ventes ne décollant pas, son directeur commercial\nla convie à un entretien où il lui explique qu’elle est licenciée car elle n’a pas acquis\n\n\n\n\nles compétences techniques nécessaires suite à un refus de formation. Le lendemain,\nelle reçoit une lettre de licenciement portant le motif suivant « Inaptitude à s’adapter\nau travail demandé suite à un refus de formation ».\nJoséphine conteste son licenciement."
+     },
+     {
+      "enonce": "Précisez le type de licenciement mis en œuvre.",
+      "points": null,
+      "corrige": "C’est un licenciement pour motif personnel car le motif évoqué par l’employeur est lié\nà la personne du salarié, ici une inaptitude suite à un refus de formation selon\nl’employeur."
+     },
+     {
+      "enonce": "Exposez l’argumentation juridique que pourrait développer Joséphine pour contester son licenciement sur le fond et sur la forme.",
+      "points": null,
+      "corrige": "contester son licenciement sur le fond et sur la forme.\nJoséphine conteste son licenciement à la fois sur le fond et sur la forme\nSur le fond, elle met en cause la recevabilité du motif du licenciement donné par\nl’employeur : “Inaptitude à s’adapter au travail demandé suite à un refus de formation”.\nEn effet, selon l'Article L1232-1 du Code du travail, tout licenciement pour motif\npersonnel doit être justifié par une cause réelle et sérieuse.\nDe plus, selon l’article L6321-1 du Code du travail, l’employeur a une obligation de\nformation envers ses salariés. Par des actions de formation, il doit veiller à l'adaptation\ndes salariés à leur poste de travail et à leur employabilité.\nEnfin, l’arrêt de la Cour de cassation du 3 mai 2018 précise que l’employeur engage\nsa responsabilité seulement si le salarié peut prouver que l’absence de\nproposition de formation par l’employeur a créé un […]"
+     },
+     {
+      "enonce": "Proposez les arguments juridiques que son employeur pourrait alors lui opposer.",
+      "points": null,
+      "corrige": "opposer.\n\nSelon le Code civil, le contrat a force obligatoire : il doit être respecté par les parties.\nDans le cas contraire, la partie défaillante engage sa responsabilité civile contractuelle.\nEn l’espèce, l’article 6 du contrat de travail de Joséphine stipule que la salariée\ns’engage à suivre les formations proposées par son employeur. En réalité, l’employeur\n\n\n\n\nn’a pu que constater le refus de la salariée de suivre la formation proposée par le\ncourriel de son directeur commercial.\nPar conséquent, manquant à ses obligations, la salariée a pu engager sa\nresponsabilité civile contractuelle envers son employeur.\n\nSelon le droit, cette obligation de formation relève du pouvoir de direction de\nl’employeur. Le salarié est obligé de suivre la formation proposée.\nSelon l’arrêt de la Cour de cassation du 13 février 2008, la salariée qui refuserait tout\nou une partie de la formation proposée […]"
+     },
+     {
+      "enonce": "Justifiez l’existence des règles de procédure en matière de licenciement individuel.",
+      "points": null,
+      "corrige": "individuel.\nSelon les articles 1232-2 et suivants du Code du travail, l’employeur doit respecter, en\nmatière de licenciement pour motif personnel, une procédure précise (convocation à\nun entretien préalable, entretien, notification de licenciement) et les délais afférents.\nUne justification générale : la protection du salarié contre l’employeur afin de rétablir\nl’équilibre des forces, le salarié étant le plus vulnérable économiquement (à mettre en\nlien avec le rôle du droit qui protège les plus faibles – programme de 1ère). Le\nlicenciement a en effet des conséquences sociales économiques, personnelles\nsouvent très importantes en période chômage massif.\nDans le détail, le respect des étapes de la procédure permet au salarié :\n- d’être prévenu de ce que l’employeur lui reproche : lettre exposant clairement les\nmotifs du licenciement.\n- de préparer sa défense : 5 jours entre la convocation […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E2.3",
+  "type": "exercices",
+  "section": 5,
+  "section_titre": "2.3 Le recours au juge",
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "2.3 Le recours au juge",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Le recours au juge obéit à plusieurs principes fondamentaux. Sont exclusivement abordés le droit au procès équitable, le droit au double degré de juridiction, les principes relatifs à la compétence d’attribution, les droits de la la présomption d’innocence. défense, L’étude de procès civil et pénal permet d’identifier et de mesurer les enjeux des différentes phases qui caractérisent le procès : l'introduction de l’instance ou le dépôt de plainte, la saisine du tribunal, l'instruction ou la mise en état, l'audience et la clôture des débats. L’étude porte aussi sur la constitution de partie civile dans le cadre d'un procès pénal et sur le rôle de la peine. La notion de voie de recours est introduite en étudiant l’appel, le pourvoi en cassation et la saisine des tribunaux européens.\nNotions : Voies de recours. Appel. Pourvoi en cassation. Partie civile. Instance. Audience. Jugement, arrêt, délibéré. Compétence d'attribution. Assignation. Mise en examen. Infraction (contravention, délit, crime).\nCapacités attendues : l'élève est capable d’identifier ; et qualifier une personne juridique ; de distinguer une personne physique et une personne morale ; d’analyser ; les conséquences de la personnalité juridique ; d’identifier les attributs d’une personne physique ou d’une personne morale ; d’expliquer les conséquences de l’incapacité juridique d’une personne ; physique ou.",
+   "articles": [
+    "Article L464-8-2 du Code de commerce : Sans préjudice des compétences exclusives du juge de l'exécution, le recours relatif à la validité de la notification par l'Autorité de la concurrence des actes mentionnés au IV de l'article L. 462-9-1 est porté devant une cour d'appel spécialement désignée par décret dans le délai d'un mois à compter de cette notification. Le recours n'est pas suspensif. Le président de l'Autorité de la concurrence peut former un pourvoi en cassation contre l'arrêt de la cour d'appel.",
+    "Article L512-38 du Code de la consommation : L'ordonnance autorisant la prolongation d'une mesure de consignation est susceptible de recours devant le premier président de la cour d'appel suivant les règles prévues par le code de procédure pénale. Les parties ne sont pas tenues de constituer avocat. Cet appel est formé par déclaration remise ou adressée par pli recommandé au greffe de la cour dans un délai de quinze jours. Ce délai court à compter de la notification de l'ordonnance. Cet appel n'est pas suspensif. Le greffe du tribunal judiciaire transmet sans délai le dossier de l'affaire au greffe de la cour d'appel où les parties peuvent le consulter. L'ordonnance du premier président de la cour d'appel est susceptible d'un pourvoi en cassation, selon les règles prévues par le code de procédure pénale. Le délai du pourvoi en cassation est de quinze jours. L'ordonnance du juge des libertés et de la détention précise les voies de recours ouvertes et les conditions dans lesquelles elles sont exercées.",
+    "Article L464-8 du Code de commerce : Les décisions de l'Autorité de la concurrence mentionnées aux articles L. 462-8, L. 464-2, L. 464-3, L. 464-6, L. 464-6-1 et L. 752-27 sont notifiées aux parties en cause et au ministre chargé de l'économie, qui peuvent, dans le délai d'un mois, introduire un recours en annulation ou en réformation devant la cour d'appel de Paris. Le recours n'est pas suspensif. Toutefois, le premier président de la cour d'appel de Paris peut ordonner qu'il soit sursis à l'exécution de la décision si celle-ci est susceptible d'entraîner des conséquences manifestement excessives ou s'il est intervenu, postérieurement à sa notification, des faits nouveaux d'une exceptionnelle gravité. Le pourvoi en cassation, formé le cas échéant, contre l'arrêt de la cour, est exercé dans un délai d'un mois suivant sa notification. Le président de l'Autorité de la concurrence peut former un pourvoi en cassation contre l'arrêt de la cour d'appel de Paris ayant annulé ou réformé une décision de l'Autorité. Le ministre chargé de l'économie peut, dans tous les cas, former un pourvoi en cassation contre l'arrêt de la cour d'appel de Paris. L'Autorité de la concurrence veille à […]",
+    "Article L661-10 du Code de commerce : Pour l'application du présent titre, les membres du comité social et économique désignent parmi eux la personne habilitée à exercer en leur nom les voies de recours.",
+    "Article 29-2 du Code civil : La procédure suivie en matière de nationalité, et notamment la communication au ministère de la justice des assignations, conclusions et voies de recours, est déterminée par le code de procédure civile.",
+    "Article L661-7 du Code de commerce : Il ne peut être exercé de tierce opposition ou de recours en cassation contre : 1° Les décisions rendues en application du V de l'article L. 626-30 ; 2° Les jugements mentionnés à l'article L. 661-6 et les arrêts rendus en application des I et II du même article. Le pourvoi en cassation n'est ouvert qu'au ministère public à l'encontre des arrêts rendus en application du III, IV et V de l'article L. 661-6.",
+    "Article L3122-1 du Code du travail : Le recours au travail de nuit est exceptionnel. Il prend en compte les impératifs de protection de la santé et de la sécurité des travailleurs et est justifié par la nécessité d'assurer la continuité de l'activité économique ou des services d'utilité sociale.",
+    "Article L4163-19 du Code du travail : En cas de recours juridictionnel contre une décision de l'organisme gestionnaire, le salarié et l'employeur sont parties à la cause. Ils sont mis en mesure, l'un et l'autre, de produire leurs observations à l'instance. Le présent article n'est pas applicable aux recours dirigés contre la pénalité mentionnée à l'article L. 4163-16. Un décret détermine les conditions dans lesquelles le salarié peut être assisté ou représenté.",
+    "Article L722-3-1 du Code de commerce : Le président du tribunal de commerce connaît, dans les limites de la compétence d'attribution du tribunal de commerce, des demandes formées en application du règlement (CE) n° 1896/2006 du Parlement européen et du Conseil du 12 décembre 2006 instituant une procédure européenne d'injonction de payer.",
+    "Article L721-3-1 du Code de commerce : Les tribunaux de commerce connaissent, dans les limites de leur compétence d'attribution, des demandes formées en application du règlement (CE) n° 861/2007 du Parlement européen et du Conseil du 11 juillet 2007 instituant une procédure européenne de règlement des petits litiges."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : arrêt de la Cour de cassation, chambre sociale, 17 avril 2019",
+    "texte": "Attendu, selon l'arrêt attaqué (Paris, 21 janvier 2016), que M. W... a été engagé le 18\nmai 2009 par la société Ambulances de Championnet (la société) en qualité de\nchauffeur ambulancier ; que le 31 janvier 2012, il a saisi la juridiction prud'homale pour\ncontester les modalités d'exécution de son contrat de travail et pour faire constater un\nharcèlement moral et une discrimination ; qu'il a été convoqué le 17 septembre 2013\nà un entretien préalable à un licenciement et a été licencié pour faute grave par lettre\ndu 30 septembre 2013 ;\n[…] Attendu que le salarié fait grief à l'arrêt de le débouter de l'ensemble des\ndemandes formulées au titre du harcèlement moral et de la discrimination alors, selon\nle moyen: […]\ndiscrimination directe ou indirecte, il appartient au juge d'apprécier si ces éléments\ndans leur ensemble laissent supposer l'existence d'une telle discrimination et, dans\nl'affirmative, il incombe à l'employeur de prouver que ses décisions sont justifiées par\ndes éléments objectifs étrangers à toute discrimination ; qu'en constatant que\nl'existence d'une différence de salaire, alléguée sur la base de la comparaison avec\nun bulletin de salaire anonyme et dépourvu de mention de l'ancienneté, sans\nrechercher su cette différence était justifiée par des éléments objectifs étrangers à\ntoute discrimination, la cour d'appel a entaché sa décision d'un défaut de base légale\nau regard des articles L. 1132-1 et L. 1134-1 du Code du travail;\ndiscrimination directe ou indirecte, il appartient au juge d'apprécier si ces éléments\ndans leur ensemble laissent supposer l'existence d'une telle discrimination et, dans\nl'affirmative, il incombe à l'employeur de prouver que ses décisions sont justifiées par\ndes éléments objectifs étrangers à toute discrimination ; qu'en retenant, par motifs\nadoptés, après avoir analysé les éléments de droit de faits et de preuve, qu'en l'état\nactuel du dossier que les mesures discriminatoires n'étaient pas établies, la cour\nd'appel, qui a fait peser la charge de la preuve de la discrimination sur le salarié, a\nviolé l'article L. 1134-1 du Code du travail ;\nMais attendu qu'il n'y a de discrimination que si le traitement défavorable infligé […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 2 : extrait de l’arrêt de la Cour de cassation du 8 mars 2018",
+    "texte": "[…] Attendu que les consorts X... font grief à l'arrêt de les condamner à payer à M. et\nMme Z... des dommages-intérêts en réparation du trouble anormal de voisinage ;\nMais attendu qu'ayant constaté que de nombreux encombrants, tels que WC avec\nprésence d'excréments, fauteuil en skaï, carcasse de réfrigérateur, banquette\ndéchirée, bouteille de gaz, rouleau de grillage, étaient situés en des endroits différents\nsur le fonds des consorts X... et souverainement retenu qu'ils étaient visibles par leur\nproximité, la cour d'appel a pu en déduire l'existence d'un trouble de voisinage qu'il\nconvenait de réparer ;\nD'où il suit que le moyen n'est pas fondé ;\nPAR CES MOTIFS :\nREJETTE le pourvoi ; [...]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nJoséphine Duval, diplômée d’un master en développement commercial, est\nembauchée en CDI le 1er septembre 2019 par la SARL UNIPUR qui vend des\nsystèmes de filtration pour les climatisations. Cependant, après cinq mois, ses ventes\nne décollent pas. Elles peinent à trouver des clients et à les convaincre car elle ne\nconnaît pas suffisamment les produits.\nSon directeur commercial l’avait inscrit à une formation technique. Mais, submergée\npar le travail, elle avait décidé de ne pas la suivre. Elle en avait informé, par courriel,\nson directeur commercial qui lui avait répondu, en retour, par un autre courriel : « Je\nte remercie de m’avoir prévenu. Je comprends ta décision de vouloir avancer ton\ntravail plutôt que d’aller en formation compte tenu du retard pris dans ta prospection ».\nSon directeur commercial décide de lui proposer une deuxième formation, qu’elle\nrefusera de la même manière. Fin juin 2020, Joséphine n’a réalisé que 25% de ses\nobjectifs de ventes alors que les mois de mai et juin devaient être des plus propices.\nLe 15 juillet, comme tous les mois, elle est convoquée par son directeur commercial\npour faire le point. Il constate qu’elle ne remplit pas ses objectifs de vente car elle ne\nmaîtrise pas les aspects techniques des produits suite à ses deux refus de formation.\nCette constatation ressort d’une enquête de satisfaction faite auprès de plusieurs\nclients que Joséphine n’a pas su convaincre. A ce même entretien, il lui annonce donc\nqu’elle est licenciée.\nElle reçoit, le lendemain de cet entretien, une lettre lui notifiant son licenciement selon\nle motif « […]",
+    "annexes": [
+     "Annexe 1: Extraits du Code du travail",
+     "Annexe 2: La jurisprudence sur l’obligation de formation de l’employeur",
+     "Annexe 3: Arrêt de la Cour de cassation chambre sociale du 13 février 2008",
+     "Annexe 4: Extrait du contrat de travail à durée indéterminée de Joséphine Duval"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits, les parties en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "Joséphine Duval est salariée de la SARL UNIPUR, son employeur, dans le cadre\nd’un contrat de travail à durée indéterminée. Embauchée comme commerciale, elle\néprouve des difficultés à assimiler la technicité des produits. Son employeur l’inscrit à\ndeux formations qu’elle renonce à faire, de peur de perdre du temps. Elle en informe\nson directeur commercial qui soutient sa décision.\nDix mois après son embauche, ses ventes ne décollant pas, son directeur commercial\nla convie à un entretien où il lui explique qu’elle est licenciée car elle n’a pas acquis\n\n\n\n\nles compétences techniques nécessaires suite à un refus de formation. Le lendemain,\nelle reçoit une lettre de licenciement portant le motif suivant « Inaptitude à s’adapter\nau travail demandé suite à un refus de formation ».\nJoséphine conteste son licenciement."
+     },
+     {
+      "enonce": "Précisez le type de licenciement mis en œuvre.",
+      "points": null,
+      "corrige": "C’est un licenciement pour motif personnel car le motif évoqué par l’employeur est lié\nà la personne du salarié, ici une inaptitude suite à un refus de formation selon\nl’employeur."
+     },
+     {
+      "enonce": "Exposez l’argumentation juridique que pourrait développer Joséphine pour contester son licenciement sur le fond et sur la forme.",
+      "points": null,
+      "corrige": "contester son licenciement sur le fond et sur la forme.\nJoséphine conteste son licenciement à la fois sur le fond et sur la forme\nSur le fond, elle met en cause la recevabilité du motif du licenciement donné par\nl’employeur : “Inaptitude à s’adapter au travail demandé suite à un refus de formation”.\nEn effet, selon l'Article L1232-1 du Code du travail, tout licenciement pour motif\npersonnel doit être justifié par une cause réelle et sérieuse.\nDe plus, selon l’article L6321-1 du Code du travail, l’employeur a une obligation de\nformation envers ses salariés. Par des actions de formation, il doit veiller à l'adaptation\ndes salariés à leur poste de travail et à leur employabilité.\nEnfin, l’arrêt de la Cour de cassation du 3 mai 2018 précise que l’employeur engage\nsa responsabilité seulement si le salarié peut prouver que l’absence de\nproposition de formation par l’employeur a créé un […]"
+     },
+     {
+      "enonce": "Proposez les arguments juridiques que son employeur pourrait alors lui opposer.",
+      "points": null,
+      "corrige": "opposer.\n\nSelon le Code civil, le contrat a force obligatoire : il doit être respecté par les parties.\nDans le cas contraire, la partie défaillante engage sa responsabilité civile contractuelle.\nEn l’espèce, l’article 6 du contrat de travail de Joséphine stipule que la salariée\ns’engage à suivre les formations proposées par son employeur. En réalité, l’employeur\n\n\n\n\nn’a pu que constater le refus de la salariée de suivre la formation proposée par le\ncourriel de son directeur commercial.\nPar conséquent, manquant à ses obligations, la salariée a pu engager sa\nresponsabilité civile contractuelle envers son employeur.\n\nSelon le droit, cette obligation de formation relève du pouvoir de direction de\nl’employeur. Le salarié est obligé de suivre la formation proposée.\nSelon l’arrêt de la Cour de cassation du 13 février 2008, la salariée qui refuserait tout\nou une partie de la formation proposée […]"
+     },
+     {
+      "enonce": "Justifiez l’existence des règles de procédure en matière de licenciement individuel.",
+      "points": null,
+      "corrige": "individuel.\nSelon les articles 1232-2 et suivants du Code du travail, l’employeur doit respecter, en\nmatière de licenciement pour motif personnel, une procédure précise (convocation à\nun entretien préalable, entretien, notification de licenciement) et les délais afférents.\nUne justification générale : la protection du salarié contre l’employeur afin de rétablir\nl’équilibre des forces, le salarié étant le plus vulnérable économiquement (à mettre en\nlien avec le rôle du droit qui protège les plus faibles – programme de 1ère). Le\nlicenciement a en effet des conséquences sociales économiques, personnelles\nsouvent très importantes en période chômage massif.\nDans le détail, le respect des étapes de la procédure permet au salarié :\n- d’être prévenu de ce que l’employeur lui reproche : lettre exposant clairement les\nmotifs du licenciement.\n- de préparer sa défense : 5 jours entre la convocation […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C3.1",
+  "type": "cas",
+  "section": 6,
+  "section_titre": "3.1 La personne juridique physique morale",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.072,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Proposez les arguments juridiques que l’établissement « Animaux en vacances » pourrait opposer à Marc PONTEAU.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "3.1 La personne juridique physique morale",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Les personnes physiques et les personnes morales se caractérisent par des éléments d’identification qui permettent de les individualiser. Malgré des évolutions récentes, l’animal n’est pas considéré comme une personne en droit.\nNotions : Genre. Nom/dénomination. Domicile/siège. Droits patrimoniaux et extrapatrimoniaux. Statut de l’animal.",
+   "articles": [
+    "Article L654-1 du Code de commerce : Les dispositions de la présente section sont applicables : 1° A toute personne exerçant une activité commerciale ou artisanale, à tout agriculteur et à toute personne physique exerçant une activité professionnelle indépendante, y compris une profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ; 2° A toute personne qui a, directement ou indirectement, en droit ou en fait, dirigé ou liquidé une personne morale de droit privé ; 3° Aux personnes physiques représentants permanents de personnes morales dirigeants des personnes morales définies au 2° ci-dessus.",
+    "Article 1243 du Code civil : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il fût égaré ou échappé.",
+    "Article L123-41 du Code de commerce : Les inscriptions d'informations et les dépôts de pièces au registre national des entreprises sont validés par le greffier du tribunal de commerce ou du tribunal judiciaire statuant en matière commerciale compétent pour les personnes physiques et les personnes morales mentionnées aux 1° et 2° de l'article L. 123-36 ainsi que pour les personnes physiques mentionnées aux 4° et 5° du même article ayant choisi d'exercer leur activité sous le régime de l'entrepreneur individuel à responsabilité limitée.",
+    "Article L645-8 du Code de commerce : Le mandataire judiciaire ou la personne choisie sur le fondement du premier alinéa du II de l'article L. 812-2 ou sur le fondement du III de ce même article informe sans délai les créanciers connus de l'ouverture de la procédure et les invite à lui communiquer, dans un délai de deux mois à compter de la réception de cet avis, le montant de leur créance avec indication des sommes à échoir et de la date des échéances ainsi que toute information utile relative aux droits patrimoniaux dont ils indiquent être titulaires à l'égard du débiteur.",
+    "Article 504 du Code civil : Le tuteur accomplit seul les actes conservatoires et, sous réserve des dispositions du second alinéa de l'article 473, les actes d'administration nécessaires à la gestion du patrimoine de la personne protégée. Il agit seul en justice pour faire valoir les droits patrimoniaux de la personne protégée. Les baux consentis par le tuteur ne confèrent au preneur, à l'encontre de la personne protégée devenue capable, aucun droit de renouvellement et aucun droit à se maintenir dans les lieux à l'expiration du bail, quand bien même il existerait des dispositions légales contraires. Ces dispositions ne sont toutefois pas applicables aux baux consentis avant l'ouverture de la tutelle et renouvelés par le tuteur."
+   ]
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "ANNEXE 1 – Articles du Code civil",
+    "texte": "Article 1240\nTout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute\nduquel il est arrivé à le réparer.\nArticle 1241\nChacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore\npar sa négligence ou par son imprudence.\nArticle 1242\nOn est responsable non seulement du dommage que l'on cause par son propre fait, mais\nencore de celui qui est causé par le fait des personnes dont on doit répondre, ou des choses\nque l'on a sous sa garde. [...] Le père et la mère, en tant qu'ils exercent l'autorité parentale,\nsont solidairement responsables du dommage causé par leurs enfants mineurs habitant\navec eux. […]\nArticle 1243\nLe propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est\nresponsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il\nfût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 1: articles du Code civil",
+    "texte": "Article 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nLe père et la mère, en tant qu'ils exercent l'autorité parentale, sont solidairement\nresponsables du dommage causé par leurs enfants mineurs habitant avec eux. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé.\nArticle1244 : Le propriétaire d'un bâtiment est responsable du dommage causé par\nsa ruine, lorsqu'elle est arrivée par une suite du défaut d'entretien ou par le vice de sa\nconstruction.\nArticle 1245 : Le producteur est responsable du dommage causé par un défaut de\nson produit, qu'il soit ou non lié par un contrat avec la victime."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-centres-etrangers",
+    "titre": "ANNEXE 2 - Extraits du Code civil",
+    "texte": "Article 515-14\nLes animaux sont des êtres vivants doués de sensibilité. Sous réserve des lois qui les\nprotègent, les animaux sont soumis au régime des biens.\nArticle 1218\nIl y a force majeure en matière contractuelle lorsqu'un événement échappant au\ncontrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion\ndu contrat et dont les effets ne peuvent être évités par des mesures appropriées,\nempêche l'exécution de son obligation par le débiteur.\nArticle 1231-1\nLe débiteur est condamné, s'il y a lieu, au paiement de dommages et intérêts soit à\nraison de l'inexécution de l'obligation, soit à raison du retard dans l'exécution, s'il ne\njustifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240\nTout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la\nfaute duquel il est arrivé à le réparer.\nArticle 1241\nChacun est responsable du dommage qu'il a causé non seulement par son fait, mais\nencore par sa négligence ou par son imprudence.\nArticle 1243\nLe propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est\nresponsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde,\nsoit qu'il fût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nA la suite de son divorce, Yanis KAMBOI s’est installé seul dans une maison avec un\njardin. Il a emménagé sans son fils Mohamed, âgé de 11 ans, qui vit chez sa mère.\nYanis KAMBOI n’a pas obtenu la garde de son fils mais exerce toujours l’autorité\nparentale sur ce dernier.\nYanis KAMBOI a rapidement sympathisé avec des voisins, Jean et Yvette NARDIS.\nAu début du printemps, Jean NARDIS décide de nettoyer lui-même les gouttières de\nsa maison. Le matin, il a demandé l’aide de Yanis KAMBOI pour installer l’échafaudage\nqu’il utilise pour atteindre les gouttières. Ce dernier lui a vivement recommandé de\ns’assurer de la stabilité et de la solidité de son matériel avant de débuter ses travaux.\nÀ l’issue du montage, Jean NARDIS ne procède néanmoins à aucune des vérifications\npréconisées par son voisin.\nDans l’après-midi, Yanis KAMBOI reçoit la visite de son fils. Ils jouent ensemble au\nrugby dans le jardin pendant que Jean NARDIS nettoie ses gouttières. En raison d’un\ncoup de pied maladroit de Mohamed, le ballon heurte l’échafaudage. L’une des\nrambardes cède et Jean NARDIS chute au sol. Il se blesse au dos au point de se\nretrouver immobilisé pendant plusieurs jours. De plus, sa montre de collection est\ncassée. Il y tenait beaucoup car elle appartenait à son grand-père. Elle avait donc une\ngrande valeur sentimentale pour lui.\nJean NARDIS vous consulte car il souhaiterait obtenir réparation des préjudices subis.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 – Articles du Code civil (extraits)",
+     "ANNEXE 2 – Revirement de jurisprudence majeur en matière de responsabilité",
+     "ANNEXE 3 – Extrait de l’arrêt de la Cour de cassation du 16 avril 2015",
+     "ANNEXE 4 – L’évolution de la responsabilité civile"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties, les faits et les dommages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Jean NARDIS pourrait avancer pour obtenir réparation des préjudices subis.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qui pourrait lui être opposée.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé la distinction entre responsabilité civile et responsabilité pénale, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi existe-t-il plusieurs régimes de responsabilité civile ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nClaire Vidal, 16 ans, et sa sœur Marie, 11 ans, souhaitent profiter de leur samedi\naprès-midi pour se promener et faire les boutiques en ville.\nLeurs parents acceptent, à condition qu’elles emmènent avec elles leur petite sœur de\n8 mois, Juliette, et que ce soit l’ainée, Claire, qui tienne la poussette.\nMarie prend très à cœur son rôle de grande sœur. Une fois partie de la maison, elle\nsupplie Claire d’accepter de lui confier la poussette dans laquelle dort sa sœur. Devant\nl’insistance de Marie, Claire accepte.\nAu bout d’un certain temps, Juliette se réveille et se met à pleurer. Claire la sort de la\npoussette et la prend alors dans les bras afin de la calmer.\nMarie qui tient toujours la poussette, entend soudainement une voix qui crie son\nprénom. Elle se retourne afin de voir qui l’appelle et ce faisant, elle lâche\nmalencontreusement la poussette. Celle-ci se met à dévaler le trottoir qui descend\nvers un square et percute un cycliste, Jean Palain, qui chute sur le trottoir.\nEn effet à 80 ans passés, s’il apprécie particulièrement de rouler en vélo, Jean Palain\nest effrayé par les voitures qui le frôlent lorsqu’il est sur la route. Il a ainsi pris l’habitude\nde rouler sur le trottoir afin de se protéger.\nSuite à la collision avec la poussette lâchée par Marie, Jean Palain chute et se blesse.\nUne fois arrivé à l’hôpital, les médecins lui annoncent que sa clavicule est cassée. Par\nailleurs, son vélo, auquel il tenait beaucoup, est hors d’usage.\nTrès embêté, Jean Palain vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1: articles du Code civil",
+     "Annexe 2: Le sens des arrêts de la Cour de Cassation du 9 mai 1984",
+     "Annexe 3: loi du 5 juillet 1985 dite loi Badinter (extrait)",
+     "Annexe 4: règles de circulation pour les cyclistes (extrait)"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMarie Vidal, enfant mineure des époux Vidal, lâche une poussette qui provoque la\nchute de Jean Palain, roulant à vélo sur le trottoir. Jean Palain subit des dommages\ncorporels et matériels dont il souhaite obtenir réparation."
+     },
+     {
+      "enonce": "Déterminez si la loi du 5 juillet 1985 s’applique au cas d’espèce.",
+      "points": null,
+      "corrige": "La loi du 5 juillet 1985 a pour objectif principal la protection des victimes comme\nl'indique d'ailleurs le titre même de la loi (loi \"tendant à l'amélioration de la situation\ndes victimes d'accidents de la circulation…\").\nL'article 1 limite son champ d'application aux victimes des accidents de la circulation\ncausés par un véhicule terrestre à moteur. \"Les dispositions du présent chapitre\ns'appliquent, […], aux victimes d'un accident de la circulation dans lequel est impliqué\nun véhicule terrestre à moteur…]\".\nEn l’espèce, on peut certes qualifier l'accident d'accident de la circulation, mais aucun\nvéhicule terrestre à moteur n'est impliqué dans cet accident.\nConclusion\nLa loi du 5 juillet 1985 ne s’applique pas au cas d’espèce."
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice.",
+      "points": null,
+      "corrige": "avancer pour obtenir réparation de son préjudice\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en vue d'une conclusion\nlogique.\nUne poussette appartenant aux époux Vidal a échappé au contrôle de leurs enfants\nmineurs. Elle a percuté et fait chuté M. Palain, ce qui a occasionné des dommages\npatrimoniaux (frais médicaux, dommages au vélo). Ces dommages subis par Jean\nPalain sont directs et certains. Ils présentent bien les caractères d’un dommage\nindemnisable au sens juridique.\nLes époux Vidal n'ayant pas de lien contractuel avec la victime, seule la responsabilité\nextracontractuelle est envisageable.\nIls sont en effet responsables sur le fondement de la responsabilité du fait personnel.\nLes parents ont commis une faute (articles 1240 et 1241 du Code civil) en ne\nsurveillant pas leurs enfants ou en laissant les […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+      "points": null,
+      "corrige": "lui opposer\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nJean Palain a commis une infraction au Code de la route. Cette négligence – faute de\nla victime - est la cause des dommages subis par Jean Palain. S'il n'avait pas circulé\nsur le trottoir, il n'aurait pas été percuté par la poussette.\nLe Code de la route dispose en effet que les cyclistes doivent rouler sur la chaussée\net non sur le trottoir.\nDonc, pour s’exonérer (au moins partiellement) de sa responsabilité, la famille Vidal\npourrait appuyer son argumentation sur la faute de la victime."
+     },
+     {
+      "enonce": "Justifiez l’intérêt de la diversité des régimes de responsabilité civile.",
+      "points": null,
+      "corrige": "La question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nIl existe en effet une diversité de régimes de responsabilité.\nLes différents régimes de la responsabilité civile sont :\n\nLa responsabilité du fait personnel\n\n\nLa responsabilité du fait d’autrui et du fait des choses\n\n\nLes régimes spéciaux (régime des accidents de la circulation et régime des\nproduits défectueux, …)\n\n\nLa responsabilité contractuelle.\n\n\n\n\nCes différents régimes ont été créés au fil du temps par le législateur et par la\njurisprudence pour répondre à une diversité de situation et répondre toujours plus au\nbesoin d'indemnisation des victimes.\nL’intérêt de cette diversité est donc de réparer les dommages dans toutes les situations\nen facilitant les modalités juridiques de preuve […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E3.1",
+  "type": "exercices",
+  "section": 6,
+  "section_titre": "3.1 La personne juridique physique morale",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Proposez les arguments juridiques que l’établissement « Animaux en vacances » pourrait opposer à Marc PONTEAU.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "3.1 La personne juridique physique morale",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Les personnes physiques et les personnes morales se caractérisent par des éléments d’identification qui permettent de les individualiser. Malgré des évolutions récentes, l’animal n’est pas considéré comme une personne en droit.\nNotions : Genre. Nom/dénomination. Domicile/siège. Droits patrimoniaux et extrapatrimoniaux. Statut de l’animal.",
+   "articles": [
+    "Article L654-1 du Code de commerce : Les dispositions de la présente section sont applicables : 1° A toute personne exerçant une activité commerciale ou artisanale, à tout agriculteur et à toute personne physique exerçant une activité professionnelle indépendante, y compris une profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ; 2° A toute personne qui a, directement ou indirectement, en droit ou en fait, dirigé ou liquidé une personne morale de droit privé ; 3° Aux personnes physiques représentants permanents de personnes morales dirigeants des personnes morales définies au 2° ci-dessus.",
+    "Article 1243 du Code civil : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il fût égaré ou échappé.",
+    "Article L123-41 du Code de commerce : Les inscriptions d'informations et les dépôts de pièces au registre national des entreprises sont validés par le greffier du tribunal de commerce ou du tribunal judiciaire statuant en matière commerciale compétent pour les personnes physiques et les personnes morales mentionnées aux 1° et 2° de l'article L. 123-36 ainsi que pour les personnes physiques mentionnées aux 4° et 5° du même article ayant choisi d'exercer leur activité sous le régime de l'entrepreneur individuel à responsabilité limitée.",
+    "Article L645-8 du Code de commerce : Le mandataire judiciaire ou la personne choisie sur le fondement du premier alinéa du II de l'article L. 812-2 ou sur le fondement du III de ce même article informe sans délai les créanciers connus de l'ouverture de la procédure et les invite à lui communiquer, dans un délai de deux mois à compter de la réception de cet avis, le montant de leur créance avec indication des sommes à échoir et de la date des échéances ainsi que toute information utile relative aux droits patrimoniaux dont ils indiquent être titulaires à l'égard du débiteur.",
+    "Article 504 du Code civil : Le tuteur accomplit seul les actes conservatoires et, sous réserve des dispositions du second alinéa de l'article 473, les actes d'administration nécessaires à la gestion du patrimoine de la personne protégée. Il agit seul en justice pour faire valoir les droits patrimoniaux de la personne protégée. Les baux consentis par le tuteur ne confèrent au preneur, à l'encontre de la personne protégée devenue capable, aucun droit de renouvellement et aucun droit à se maintenir dans les lieux à l'expiration du bail, quand bien même il existerait des dispositions légales contraires. Ces dispositions ne sont toutefois pas applicables aux baux consentis avant l'ouverture de la tutelle et renouvelés par le tuteur."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "ANNEXE 1 – Articles du Code civil",
+    "texte": "Article 1240\nTout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute\nduquel il est arrivé à le réparer.\nArticle 1241\nChacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore\npar sa négligence ou par son imprudence.\nArticle 1242\nOn est responsable non seulement du dommage que l'on cause par son propre fait, mais\nencore de celui qui est causé par le fait des personnes dont on doit répondre, ou des choses\nque l'on a sous sa garde. [...] Le père et la mère, en tant qu'ils exercent l'autorité parentale,\nsont solidairement responsables du dommage causé par leurs enfants mineurs habitant\navec eux. […]\nArticle 1243\nLe propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est\nresponsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il\nfût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 1: articles du Code civil",
+    "texte": "Article 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nLe père et la mère, en tant qu'ils exercent l'autorité parentale, sont solidairement\nresponsables du dommage causé par leurs enfants mineurs habitant avec eux. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé.\nArticle1244 : Le propriétaire d'un bâtiment est responsable du dommage causé par\nsa ruine, lorsqu'elle est arrivée par une suite du défaut d'entretien ou par le vice de sa\nconstruction.\nArticle 1245 : Le producteur est responsable du dommage causé par un défaut de\nson produit, qu'il soit ou non lié par un contrat avec la victime."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nA la suite de son divorce, Yanis KAMBOI s’est installé seul dans une maison avec un\njardin. Il a emménagé sans son fils Mohamed, âgé de 11 ans, qui vit chez sa mère.\nYanis KAMBOI n’a pas obtenu la garde de son fils mais exerce toujours l’autorité\nparentale sur ce dernier.\nYanis KAMBOI a rapidement sympathisé avec des voisins, Jean et Yvette NARDIS.\nAu début du printemps, Jean NARDIS décide de nettoyer lui-même les gouttières de\nsa maison. Le matin, il a demandé l’aide de Yanis KAMBOI pour installer l’échafaudage\nqu’il utilise pour atteindre les gouttières. Ce dernier lui a vivement recommandé de\ns’assurer de la stabilité et de la solidité de son matériel avant de débuter ses travaux.\nÀ l’issue du montage, Jean NARDIS ne procède néanmoins à aucune des vérifications\npréconisées par son voisin.\nDans l’après-midi, Yanis KAMBOI reçoit la visite de son fils. Ils jouent ensemble au\nrugby dans le jardin pendant que Jean NARDIS nettoie ses gouttières. En raison d’un\ncoup de pied maladroit de Mohamed, le ballon heurte l’échafaudage. L’une des\nrambardes cède et Jean NARDIS chute au sol. Il se blesse au dos au point de se\nretrouver immobilisé pendant plusieurs jours. De plus, sa montre de collection est\ncassée. Il y tenait beaucoup car elle appartenait à son grand-père. Elle avait donc une\ngrande valeur sentimentale pour lui.\nJean NARDIS vous consulte car il souhaiterait obtenir réparation des préjudices subis.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 – Articles du Code civil (extraits)",
+     "ANNEXE 2 – Revirement de jurisprudence majeur en matière de responsabilité",
+     "ANNEXE 3 – Extrait de l’arrêt de la Cour de cassation du 16 avril 2015",
+     "ANNEXE 4 – L’évolution de la responsabilité civile"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties, les faits et les dommages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Jean NARDIS pourrait avancer pour obtenir réparation des préjudices subis.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qui pourrait lui être opposée.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé la distinction entre responsabilité civile et responsabilité pénale, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi existe-t-il plusieurs régimes de responsabilité civile ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C3.2",
+  "type": "cas",
+  "section": 7,
+  "section_titre": "3.2 La capacité et l’incapacité",
+  "partenaire": 4,
+  "partenaire_titre": "2.2 La preuve",
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "proba_annee_suivante": 0.039,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que John BEEBOP peut avancer pour demander l’annulation de la vente.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Présentez l’argumentation juridique que Fabrice PONS peut leur opposer.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con",
+     "Après avoir défini l’entente illicite et l’abus de position dominante, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit protège la liberté de la concurrence ?"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "3.2 La capacité et l’incapacité",
+   "theme": "Thème 3 : Qui peut faire valoir ses droits ?",
+   "texte": "Les personnes juridiques disposent d’une capacité juridique qui débute à leur naissance et s’éteint à leur mort. Cette capacité délimite leur aptitude à avoir des droits et à les exercer eux-mêmes ou par l’intermédiaire de leurs représentants.\nNotions : Capacité – incapacité juridique. Mécanismes de la représentation. Acte de disposition, acte d’administration.",
+   "articles": [
+    "Article 751 du Code civil : La représentation est une fiction juridique qui a pour effet d'appeler à la succession les représentants aux droits du représenté.",
+    "Article 1145 du Code civil : Toute personne physique peut contracter sauf en cas d'incapacité prévue par la loi. La capacité des personnes morales est limitée par les règles applicables à chacune d'entre elles.",
+    "Article 2410 du Code civil : L'hypothèque conventionnelle ne peut être consentie que par celui qui a la capacité de disposer de l'immeuble qu'il y soumet.",
+    "Article L134-3 du Code de commerce : L'agent commercial peut accepter sans autorisation la représentation de nouveaux mandants. Toutefois, il ne peut accepter la représentation d'une entreprise concurrente de celle de l'un de ses mandants sans accord de ce dernier.",
+    "Article 222 du Code civil : Si l'un des époux se présente seul pour faire un acte d'administration, de jouissance ou de disposition sur un bien meuble qu'il détient individuellement, il est réputé, à l'égard des tiers de bonne foi, avoir le pouvoir de faire seul cet acte. Cette disposition n'est pas applicable aux meubles meublants visés à l'article 215, alinéa 3, non plus qu'aux meubles corporels dont la nature fait présumer la propriété de l'autre conjoint conformément à l'article 1404."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "2.2 La preuve",
+   "theme": "Thème 2 : Comment le droit permet-il de régler un litige ?",
+   "texte": "Au plan juridique, toute personne peut revendiquer une prétention en se prévalant d’un droit à condition d’en apporter la preuve. Sont étudiées les règles relatives à la preuve des actes et des faits juridiques, à la charge de la preuve, aux modes de preuve et à leur admissibilité.\nNotions : Acte et fait juridiques. Présomption. Charge et mode de preuve. Preuve électronique. Acte authentique et sous signature privée. Témoignage, aveu. Intime conviction du juge.",
+   "articles": [
+    "Article 1364 du Code civil : La preuve d'un acte juridique peut être préconstituée par un écrit en la forme authentique ou sous signature privée.",
+    "Article 1361 du Code civil : Il peut être suppléé à l'écrit par l'aveu judiciaire, le serment décisoire ou un commencement de preuve par écrit corroboré par un autre moyen de preuve.",
+    "Article 1200 du Code civil : Les tiers doivent respecter la situation juridique créée par le contrat. Ils peuvent s'en prévaloir notamment pour apporter la preuve d'un fait.",
+    "Article 1362 du Code civil : Constitue un commencement de preuve par écrit tout écrit qui, émanant de celui qui conteste un acte ou de celui qu'il représente, rend vraisemblable ce qui est allégué. Peuvent être considérés par le juge comme équivalant à un commencement de preuve par écrit les déclarations faites par une partie lors de sa comparution personnelle, son refus de répondre ou son absence à la comparution. La mention d'un écrit authentique ou sous signature privée sur un registre public vaut commencement de preuve par écrit.",
+    "Article 105 du Code civil : A défaut de déclaration expresse, la preuve de l'intention dépendra des circonstances.",
+    "Article L123-7 du Code de commerce : L'immatriculation d'une personne physique emporte présomption de la qualité de commerçant. Toutefois, cette présomption n'est pas opposable aux tiers et administrations qui apportent la preuve contraire. Les tiers et administrations ne sont pas admis à se prévaloir de la présomption s'ils savaient que la personne immatriculée n'était pas commerçante.",
+    "Article 259 du Code civil : Les faits invoqués en tant que causes de divorce ou comme défenses à une demande peuvent être établis par tout mode de preuve, y compris l'aveu. Toutefois, les descendants ne peuvent jamais être entendus sur les griefs invoqués par les époux.",
+    "Article L221-7 du Code de la consommation : La charge de la preuve du respect des obligations d'information mentionnées à la présente section pèse sur le professionnel.",
+    "Article 1377 du Code civil : L'acte sous signature privée n'acquiert date certaine à l'égard des tiers que du jour où il a été enregistré, du jour de la mort d'un signataire, ou du jour où sa substance est constatée dans un acte authentique.",
+    "Article 1383-1 du Code civil : L'aveu extrajudiciaire purement verbal n'est reçu que dans les cas où la loi permet la preuve par tout moyen. Sa valeur probante est laissée à l'appréciation du juge."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 1 : définition et limite du droit de propriété",
+    "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - La notion de professionnel en droit de la consommation",
+    "texte": "Le terme de « professionnel » est défini dans l’ordonnance n° 2016-301 du 14 mars\n2016 comme « toute personne physique ou morale, publique ou privée, qui agit à des\nfins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale\nou agricole, y compris lorsqu’elle agit au nom ou pour le compte d’un autre\nprofessionnel ».\nLe professionnel peut être une personne physique ou morale et la forme juridique de\nl’entreprise n’est pas à prendre en considération.\nLe « professionnel » se distingue du « non-professionnel », et se définit comme\n« toute personne morale qui n’agit pas à des fins professionnelles ». Cette notion\npermet d’étendre aux personnes morales agissant en dehors de leur activité\nprofessionnelle la protection accordée aux consommateurs.\nSource : les auteurs"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : La réparation du préjudice écologique",
+    "texte": "Confronté à l’article 1240 du Code civil, le préjudice écologique pur posait un problème\nredoutable. En effet, le préjudice écologique pur n’est pas subi par « autrui », c’est-àdire par une personne, qu’elle soit publique ou privée, mais par la nature elle-même et\npar la collectivité. Faute de caractère personnel, on pouvait donc douter que le\npréjudice écologique pur puisse être réparé sur le fondement de l’article 1240 du Code\ncivil.\nCertes, la Cour de cassation avait fini par admettre la réparation du préjudice\nécologique pur dans l’affaire ERIKA (Crim. 25 sept. 2012, n° 10-82.938). Mais\nnombreux étaient ceux qui appelaient de leurs vœux une prise en compte de la\nspécificité du préjudice écologique dans la loi, afin que la jurisprudence soit consolidée\net que le régime de la réparation soit encadré.\nC’est donc chose faite avec la loi du 8 août 2016. L’article 1246 du Code civil énonce\nque « toute personne responsable d'un préjudice écologique est tenue de le réparer »,\nle préjudice écologique étant défini comme « une atteinte non négligeable aux\néléments ou aux fonctions des écosystèmes ou aux bénéfices collectifs tirés par\nl'homme de l'environnement » (art. 1247).\nPar ailleurs, la loi donne une liste, semble-t-il non limitative, mais tout de même assez\ncomplète, des personnes qui pourront solliciter la réparation du préjudice écologique :\n« l'État, l'Agence française pour la biodiversité, les collectivités territoriales et leurs\ngroupements dont le territoire est concerné, ainsi que les établissements publics et les\nassociations, agréées ou créées depuis au moins cinq ans à la date d'introduction de\nl'instance, qui ont pour objet la protection de la nature et la défense de\nl'environnement » (art. 1248).\nEn outre, elle précise qui recevra les dommages et intérêts lorsque la réparation en\nnature ne sera pas possible, et ce qu’il devra en faire : « En cas d'impossibilité de droit\nou de fait ou d'insuffisance des mesures de réparation, le juge condamne le\nresponsable à verser des dommages et intérêts, affectés à la réparation de\nl'environnement, au demandeur ou, si celui-ci ne peut prendre les mesures utiles à\ncette fin, à l'État » (art. 1249)\nEnfin, la loi […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 3 – Légalité et loyauté de la preuve",
+    "texte": "La légalité de la preuve se réfère aux règles établies par la loi concernant les moyens\nadmissibles pour prouver un fait ou un acte juridique. Ainsi, un fait juridique se prouve par\ntout moyen alors que l’acte juridique se prouve par écrit.\nLa loyauté de la preuve suppose que les preuves doivent être obtenues de manière licite\nsans porter atteinte aux droits fondamentaux. Pour autant, la Cour de cassation a pu\nadmettre dans certains cas la recevabilité de preuves obtenues de manière déloyale.\nSource : les auteurs"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 4 – Arrêt de la Cour de cassation du 22 décembre 2023",
+    "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 5, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nÀ l’occasion d’un concours de chant organisé par la région Auvergne-Rhône-Alpes, le\n21 avril 2016, Maëlys et Thomas se rencontrent. Quelques mois plus tard, ils décident\nd’emménager ensemble. Le 5 mai 2017, ils donnent naissance à une adorable petite\nfille Constance.\nEn juillet 2018, Thomas se lance : il demande Maëlys en mariage. Celle-ci, heureuse,\naccepte. Lors de la fête de fiançailles, ils annoncent que la date du mariage est le 21\nmars 2021.\nCependant, Thomas, en janvier 2021, rencontre Sofia dont il est tombé amoureux.\nAprès plusieurs semaines d’interrogations, il annonce à Maëlys, le 10 mars 2021,\ndevant ses collègues de travail qu’il la quitte. De plus, il rajoute qu’elle doit se charger\ndes formalités d’annulation du mariage.\nMaëlys est choquée par la tournure des évènements. Psychologiquement, elle se sent\nanéantie et ce d’autant qu’elle a investi dans cet évènement, à titre personnel, 11 500€,\nsoit toutes ses économies, pour payer sa robe de mariée, la location de la salle et une\npartie du traiteur.\nAtteinte psychologiquement par cette situation, elle envisage de rechercher la\nresponsabilité de Thomas. Elle vous demande conseil.\nQuestions :",
+    "annexes": [
+     "Annexe 1 : extraits du Code civil",
+     "Annexe 2 : la liberté de se marier",
+     "Annexe 3 : les fiançailles, un fait juridique",
+     "Annexe 4 : la rupture des fiançailles : à qui jeter la pierre ?",
+     "Annexe 5 :la publication des bans"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les faits, les parties et les dommages.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nMaëlys et Thomas, parents d’une petite fille, sont fiancés. À quelques jours de la date\ndu mariage, Thomas rompt les fiançailles de manière brutale.\nMaëlys subit :\n- un dommage matériel (les frais engagés dans le mariage) ;\n- des dommages moraux (dépression, choc émotionnel, honte devant les collègues de\ntravail)."
+     },
+     {
+      "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas.",
+      "points": null,
+      "corrige": "la responsabilité de Thomas.\nIl n’est pas attendu du candidat qu’il rédige sa réponse en respectant un\nformalisme particulier. Sera valorisé le candidat qui mentionne et justifie\nl’exclusion de la responsabilité civile contractuelle.\nMaëlys s’estime victime de la rupture de ses fiançailles. Son préjudice est la fois\npatrimonial et extra-patrimonial. Elle considère que Thomas est responsable de ses\npréjudices.\nSur quel fondement juridique ?\nLes fiançailles ne sont pas apparentées à un contrat. Maëlys ne peut donc pas\nrechercher la responsabilité de Thomas sur le fondement de la responsabilité civile\ncontractuelle (article 1231-1 du Code civil).\n\n\nPage: 6/21\n\n\nEn revanche, Maëlys peut rechercher la responsabilité civile extracontractuelle de\nThomas en se fondant sur l’article 1240 du Code civil. En effet, au titre de cet article,\nchacun est responsable du dommage qu’il cause à autrui. […]"
+     },
+     {
+      "enonce": "Présentez un argument que Thomas pourrait lui opposer.",
+      "points": null,
+      "corrige": "Il s’agit ici d’amener le candidat à développer un argument juridique pertinent\nau regard du contexte.\n1er argument\nEn droit français, est reconnu à chaque individu la liberté de mariage. Cette liberté,\napparentée aux libertés personnelles protégées par les articles 2 et 4 de la DDHC,\nimplique :\n– la possibilité de se marier ou de ne pas se marier ;\n– ou la possibilité de renoncer à se marier.\nDe plus, les fiançailles apparaissent comme une promesse de mariage qui ne crée\naucune obligation juridique entre les futurs époux.\nDe ce fait, Thomas est libre de rompre les fiançailles avec Maëlys sans craindre de\nvoir sa responsabilité mise en œuvre.\n2ème argument\nPour que la responsabilité civile extracontractuelle du fait personnel de Thomas soit\nreconnue, il faut que celui-ci ait commis une faute. En matière de rupture des\nfiançailles, la faute est caractérisée par une rupture abusive.\nOr, […]"
+     },
+     {
+      "enonce": "L’article 1353 du Code civil dispose que la charge de la preuve incombe à « celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de procédure.",
+      "points": null,
+      "corrige": "« celui qui réclame l'exécution d'une obligation ». Justifiez ce principe de\nprocédure.\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Il est attendu du candidat qu’il développe au\nmoins une idée. Sera valorisé le candidat qui mentionne la spécificité du procès\npénal, à savoir que la charge de la preuve pèse sur l’accusation (le ministère\npublic). Il était également possible de faire la distinction entre acte et fait\njuridique.\nLe principe énoncé dans l’article 1353 du Code civil s’applique à toute personne qui\nformule une prétention et pas seulement aux personnes qui initient le procès civil.\n1er élément de réponse\nContraindre la personne qui prétend à un droit ou à une obligation à apporter la preuve\nde ce qu’il avance permet d’éviter les prétentions fondées sur de simples dires, sur de\nsimples perceptions. De plus, ce […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-nouvelle-caledonie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nÀ 38 ans, Monsieur Wilfried MARAT est pleinement satisfait des fonctions qu’il occupe\nau sein de la société d’assurance PLESSIS. Depuis peu, il a été nommé directeur des\nressources humaines par le gérant, monsieur PERRIN. Ces derniers entretiennent une\nsolide relation de confiance et Wilfried MARAT est pleinement d’accord avec la vision\nstratégique de monsieur PERRIN.\nÀ la suite d’un grave accident de ski, monsieur PERRIN est remplacé définitivement\npar madame Annick VOLVERE. D’emblée, la nouvelle gérante décide d’un\nchangement radical de stratégie impliquant un grand nombre de licenciements. En\nréunion de direction, alors qu’Annick VOLVERE présente la nouvelle stratégie, Wilfried\nMARAT s’oppose frontalement à elle, et critique ses décisions. Le ton monte, Wilfried\nMARAT considère qu’Annick VOLVERE « a perdu la tête, et que cette stratégie est de\nla pure folie ». Il est alors invité, sous la menace d’un avertissement, à quitter la\nréunion.\nL’ambiance au sein de l’entreprise se dégrade de plus en plus. Des informations,\nrelatives au plan de licenciement, qu’Annick VOLVERE voulait garder confidentielles,\nse retrouvent dans la presse. Elle suspecte Wilfried MARAT. Ce dernier ne lui inspire\nplus confiance depuis leur altercation en réunion. Pour en avoir le cœur net, elle décide\nde vérifier le poste informatique de Wilfried MARAT, en son absence. Dans un dossier\nintitulé « personnel », elle trouve l’ensemble des fichiers qui a fuité dans la presse.\nMadame VOLVERE décide de licencier Monsieur MARAT pour faute. Ce dernier\nenvisage de contester le licenciement et vous consulte pour le […]",
+    "annexes": [
+     "ANNEXE 1 - Extraits du code du travail",
+     "ANNEXE 2 - Extrait du contrat de travail de Monsieur MARAT",
+     "ANNEXE 3 - Extrait de l’arrêt de la Cour de cassation du 7 juin 2018",
+     "ANNEXE 4 - Extrait de l’arrêt de la Cour de cassation, du 17 mai 2005"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l'argumentation juridique que Wilfried MARAT peut avancer pour contester son licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la société PLESSIS pourrait utiliser pour justifier le licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Pourquoi l’exercice des droits du salarié fait-il l’objet d’un encadrement spécifique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

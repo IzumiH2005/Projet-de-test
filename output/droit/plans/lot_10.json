@@ -1,0 +1,860 @@
+[
+ {
+  "id": "E8.4",
+  "type": "exercices",
+  "section": 22,
+  "section_titre": "8.4 Les partenariats contractuels",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Déterminez si la loi du 5 juillet 1985 s’applique au cas d’espèce.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Geoffrey peut avancer pour demander la requalification de son contrat de travail.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique qu’Emma CANCARD pourrait avancer pour obtenir réparation.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   }
+  ],
+  "cours": {
+   "section": "8.4 Les partenariats contractuels",
+   "theme": "Thème 8 : Dans quel cadre et comment entreprendre ?",
+   "texte": "Différentes solutions contractuelles s’offrent aux entrepreneurs pour développer ou organiser leur activité économique. Elles doivent être nettement distinguées de la relation de travail qui implique un lien de subordination. Les entreprises peuvent conclure des partenariats avec d’autres entreprises tels que le contrat de franchise et le contrat d’entreprise (sous-traitance), dès lors que ces accords ne conduisent pas à une entente illicite ou un abus de position dominante. Pour chacun de ces partenariats, seules les principales obligations des contractants sont abordées, et ce à partir d’extraits de contrat.\nNotions : Le contrat d’entreprise (sous-traitance). Le contrat de franchise. L’entente, l’abus de position dominante.\nDifférentes solutions contractuelles s’offrent aux entrepreneurs pour développer ou organiser leur activité économique. Elles doivent être nettement distinguées de la relation de travail qui implique un lien de subordination.\nL’élève doit comprendre, ici, que le droit permet aux entreprises d’évoluer sous la forme de partenariat dont les contrats se font l’expression.\nLes entreprises peuvent conclure des partenariats avec d’autres entreprises tels que le contrat de franchise et le contrat d’entreprise (sous-traitance), dès lors que ces accords ne conduisent pas à une entente illicite ou un abus de position dominante. Pour chacun de ces partenariats, seules les principales obligations des contractants sont abordées, et ce à partir d’extraits de contrat.\nUne distinction est faite entre ces relations contractuelles et la relation de travail qui nécessite la présence d’un lien de subordination. À partir d’illustrations de contrats de partenariat, l’élève repère les principales obligations qui pèsent sur chaque contractant. Ce qu’on appelle sous-traitance est l’opération par laquelle un entrepreneur confie tout ou partie de son activité à un autre entrepreneur. Le contrat conclu est lui-même un contrat d’entreprise.",
+   "articles": [
+    "Article L8271-1-1 du Code du travail : Les infractions au premier alinéa de l'article 3 de la loi n° 75-1334 du 31 décembre 1975 relative à la sous-traitance sont constatées par les agents mentionnés à l'article L. 8271-1-2. Ces infractions sont punies d'une amende de 7 500 €.",
+    "Article L2312-58 du Code du travail : A défaut d'accord, lorsque le projet de restructuration et de compression des effectifs soumis au comité social et économique est de nature à affecter le volume d'activité ou d'emploi d'une entreprise sous-traitante, l'entreprise donneuse d'ordre en informe immédiatement l'entreprise sous-traitante. Le comité social et économique de cette dernière, en est immédiatement informé et reçoit toute explication utile sur l'évolution probable de l'activité et de l'emploi.",
+    "Article L7121-6 du Code du travail : Le contrat de travail d'un artiste du spectacle est individuel.",
+    "Article L132-13 du Code de la consommation : Le contrat conclu à la suite d'un abus de faiblesse est nul et de nul effet.",
+    "Article L430-9 du Code de commerce : L'Autorité de la concurrence peut, en cas d'exploitation abusive d'une position dominante ou d'un état de dépendance économique, enjoindre, par décision motivée, à l'entreprise ou au groupe d'entreprises en cause de modifier, de compléter ou de résilier, dans un délai déterminé, tous accords et tous actes par lesquels s'est réalisée la concentration de la puissance économique qui a permis les abus même si ces actes ont fait l'objet de la procédure prévue au présent titre."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 2 – Articles de loi",
+    "texte": "Article 9 du Code civil\nChacun a droit au respect de sa vie privée […].\nArticle 1103 du Code civil\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle L1121-1 du Code du travail\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de\nrestrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni\nproportionnées au but recherché.\nArticle L1222-1 du Code du travail\nLe contrat de travail est exécuté de bonne foi.\nEN_NODgzNT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTgY5NGDUx\nEducN_MSDgyMD4Y2MTYe0Mj3I5MwjAyNT8A5MDMExNTtUxMQTEg"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 3 : extrait de l’arrêt de la Cour de cassation chambre sociale 18/01/2012",
+    "texte": "[…] Attendu, selon l’arrêt attaqué (Rennes, 23 février 2010), que la société Fiventis,\nqui commercialise des produits immobiliers d’assurance-vie et d’épargne\ndéfiscalisée, a conclu, le 13 juin 2006 avec M. X..., pour le compte de deux sociétés\nen cours de constitution, un contrat intitulé “contrat de franchise” ; que la société,\nreprochant à M. X... de ne pas avoir respecté la clause d’exclusivité stipulée au\ncontrat, a résilié celui-ci le 28 décembre 2007 ; que M. X..., […] a saisi la juridiction\nprud’homale pour voir reconnaître l’existence d’un contrat de travail et obtenir la\ncondamnation de la société à lui payer diverses sommes ;\n[…] Attendu que la société Fiventis fait grief à l’arrêt de déclarer recevables les\ndemandes de M. X... et de dire que les termes du contrat dit « de franchise » signé le\n13 juin 2006 entre M. X... et la société Fiventis renferment des clauses de\nsubordination qui en font un véritable contrat de travail, que la lettre de résiliation du\n28 décembre 2007 constitue une lettre de licenciement et de la condamner à verser\nà M. X... diverses sommes pour non-respect de la procédure de licenciement, pour\nlicenciement sans cause réelle et sérieuse […].\nMais attendu que la cour d’appel a retenu que la société Fiventis avait, selon les\nstipulations du contrat de franchise, imposé à M. X... des obligations détaillées et\napplicables de bout en bout dans les relations avec les clients, renforcées ensuite\npar des instructions tout aussi détaillées, que, transformé en simple agent\nd’exécution, l’intéressé ne disposait d’aucune autonomie et qu’en résiliant le contrat,\nla société avait fait usage de son pouvoir de sanction ; qu’en l’état de ces\nconstatations, elle a pu en déduire, sans être tenue de retenir que les sociétés JPB\nconseils et JPB courtage avaient un caractère fictif, que M. X... se trouvait dans un\nlien de subordination à l’égard de la société Fiventis, caractérisant un contrat de\ntravail ; que le moyen n’est pas fondé ;\nPAR CES MOTIFS :\nREJETTE"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nAprès avoir été salariée d’une société d’installation de matériel électrique située en\nrégion parisienne pendant 10 ans, Karima PORTEUR décide de changer de vie. Elle\ndéménage à Nîmes (Gard) et décide de s’installer à son compte pour exercer une\nactivité de coach sportif. Elle crée donc la société à responsabilité limitée (SARL)\nSPORTEUR.\nLe 16 juin 2022, dans le cadre des travaux de rénovation de son local, elle passe\ncommande d’un système de climatisation au nom de la SARL. Elle opte pour un\nsystème performant et accepte le devis de la société AVILS CLIM située à Marseille\n(Bouches du Rhône) avec laquelle elle entretenait des relations commerciales depuis\nl’époque où elle occupait son poste en région parisienne. Le montant des travaux\ns’élève à 15 500 euros.\nLe 14 septembre 2022, la société AVILS CLIM informe par mail Karima PORTEUR,\nqu’en raison d’un retard lié à des difficultés d’importation (retards de fabrication liés à\nl’approvisionnement en matières premières), elle ne pourra pas lui installer les\nclimatiseurs à la date prévue.\nFinalement, la société AVILS CLIM procède aux travaux d’installation le 15 mars 2023.\nFace au mécontentement de Karima PORTEUR, la société AVILS CLIM lui oppose les\nclauses du contrat signé pour se dégager de toute responsabilité du fait de ce retard.\nKarima PORTEUR estime que ces clauses ne sont pas valables. Elle envisage une\naction en justice et vous consulte.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extrait du contrat d’installation conclu entre Karima PORTEUR et la",
+     "ANNEXE 2 – Article L442-1 du Code du commerce",
+     "ANNEXE 3 - Extraits de l’article R212-2 du Code de la consommation",
+     "ANNEXE 4 - La notion de professionnel en droit de la consommation"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Proposez les arguments juridiques que la société AVILS CLIM pourrait lui opposer.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Le droit assure-t-il une protection renforcée du consommateur et du cyberconsommateur ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M1",
+  "type": "sujet_blanc",
+  "section": 11,
+  "section_titre": "5.1 La formation du contrat",
+  "partenaire": 19,
+  "partenaire_titre": "8.1 L’entreprise individuelle",
+  "frequence_passee": 0.24,
+  "inedit": false,
+  "proba_annee_suivante": 0.161,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "5.1 La formation du contrat",
+   "theme": "Thème 5 : Quel est le rôle du contrat ?",
+   "texte": "Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations. Le droit met à la charge des contractants une obligation d'information et de conseil pour permettre l’expression d'une volonté vraiment libre et éclairée. Pour être valablement formé, un contrat doit remplir certaines conditions de validité. On montre comment est sanctionné tout contrat ne respectant pas ces conditions (capacité, consentement, objet). Dans certains contrats, le droit de repentir permet au consommateur de revenir sur son accord.\nNotions : Le contrat. Les parties. Le consommateur, le professionnel. Le débiteur, le créancier. L’obligation d’information et de conseil. Les conditions de validité : offre, acceptation, échange des consentements, objet, capacité. Le droit de rétractation. La nullité relative, la nullité absolue. Les principes : liberté contractuelle, force obligatoire, effet relatif des conventions, bonne foi. Les clauses. L’obligation, l’obligation de moyens, l’obligation de résultat.\nLe contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.\nLe droit général des contrats repose sur un certain nombre de principes issus de la philosophie des lumières et de la jurisprudence et codifiés par la loi. On montre que ces principes érigés en promotion de la volonté individuelle sont atténués ou au contraire valorisés afin de garantir l’équilibre contractuel ou l’intérêt général.\nLe droit met à la charge des contractants une obligation d’information et de conseil pour permettre l’expression d’une volonté vraiment libre et éclairée.\nLa plupart des contrats classiques simples ou simplifiés, y compris ceux conclus par des procédés numériques, peuvent servir de supports pédagogiques dès lors que les élèves peuvent à partir de ressources complémentaires manipuler ces objets en les rattachant au droit général des contrats.\nPour être valablement formé, un contrat doit remplir certaines conditions de validité. On montre comment est sanctionné tout contrat ne respectant pas ces conditions (capacité, consentement, objet).\nL’étude permettra aux élèves de comprendre la notion de contrat et de repérer l’existence d’un contrat valable dans une situation juridique ainsi que les principales obligations de chacune des parties.\nLes parties. Le consommateur, le professionnel. Le débiteur, le créancier. L’obligation d’information et de conseil. Les conditions de validité : offre, acceptation, échange des consentements, objet, capacité. Le droit de rétractation. La nullité relative, la nullité absolue. Les principes : liberté contractuelle, force obligatoire, effet relatif des conventions, bonne foi. Les clauses. L’obligation, l’obligation de moyens, l’obligation de résultat.\nL’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. La qualité de consommateur et de professionnel est désormais définie dans la loi (Code de la consommation article liminaire). La qualification juridique des parties permet de distinguer le consommateur du professionnel, la personne morale de la personne physique et le débiteur du créancier de l’obligation. L’étude a pour objectif de vérifier dans un contexte donné si les conditions essentielles de la validité d’un contrat sont réunies. Le consentement se […]",
+   "articles": [
+    "Article 1101 du Code civil : Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.",
+    "Article L312-27 du Code de la consommation : Le prêteur est responsable de plein droit à l'égard de l'emprunteur de la bonne exécution des obligations relatives à la formation du contrat de crédit, que ces obligations soient à exécuter par le prêteur qui a conclu ce contrat ou par des intermédiaires de crédit intervenant dans le processus de formation du contrat de crédit, sans préjudice de son droit de recours contre ceux-ci.",
+    "Article 1124 du Code civil : La promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l'autre, le bénéficiaire, le droit d'opter pour la conclusion d'un contrat dont les éléments essentiels sont déterminés, et pour la formation duquel ne manque que le consentement du bénéficiaire. La révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n'empêche pas la formation du contrat promis. Le contrat conclu en violation de la promesse unilatérale avec un tiers qui en connaissait l'existence est nul.",
+    "Article L242-19 du Code de la consommation : Lorsque le professionnel n'a pas remboursé le consommateur dans les conditions prévues à l'article L. 224-35, les sommes dues par le professionnel sont de plein droit majorées de moitié.",
+    "Article L242-17 du Code de la consommation : Lorsque le professionnel n'a pas remboursé le consommateur dans les conditions prévues à l'article L. 224-23, les sommes dues par le professionnel sont de plein droit majorées de moitié.",
+    "Article 1350 du Code civil : La remise de dette est le contrat par lequel le créancier libère le débiteur de son obligation.",
+    "Article 1341 du Code civil : Le créancier a droit à l'exécution de l'obligation ; il peut y contraindre le débiteur dans les conditions prévues par la loi.",
+    "Article L4141-3 du Code du travail : L'étendue de l'obligation d'information et de formation à la sécurité varie selon la taille de l'établissement, la nature de son activité, le caractère des risques qui y sont constatés et le type d'emploi des travailleurs.",
+    "Article 1109 du Code civil : Le contrat est consensuel lorsqu'il se forme par le seul échange des consentements quel qu'en soit le mode d'expression. Le contrat est solennel lorsque sa validité est subordonnée à des formes déterminées par la loi. Le contrat est réel lorsque sa formation est subordonnée à la remise d'une chose.",
+    "Article L242-35 du Code de la consommation : Toute clause du contrat par laquelle le consommateur-vendeur abandonne son droit de rétractation est nulle."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "8.1 L’entreprise individuelle",
+   "theme": "Thème 8 : Dans quel cadre et comment entreprendre ?",
+   "texte": "La liberté d’entreprendre permet à un individu d’exercer son activité professionnelle en entreprenant. L’entreprise individuelle est la forme la plus ancienne et la plus simple de l’exercice d’une activité économique. Dans l’entreprise individuelle, l’entrepreneur est responsable des dettes de son activité sur l’ensemble de son patrimoine personnel : il n’y a pas, avec ce régime, création d’une nouvelle personne juridique. Pour protéger le patrimoine de l’entrepreneur, le législateur propose différentes modalités juridiques. Il crée ainsi un modèle de société avec un associé unique : l’entreprise unipersonnelle à responsabilité limitée (EURL), forme particulière de la société commerciale.\nNotions : Le principe de l’unicité du patrimoine. La déclaration d’insaisissabilité. Le patrimoine d’affectation.\nLa liberté d’entreprendre permet à un individu d’exercer son activité professionnelle en entreprenant. L’entreprise individuelle est la forme la plus ancienne et la plus simple de l’exercice d’une activité économique.\nLa liberté contractuelle, principe à valeur constitutionnelle, est une liberté absolue en matière d’entrepreneuriat. Les limites à la liberté contractuelle sont abordées au 8.3 Le respect de la concurrence.\nDans l’entreprise individuelle, l’entrepreneur est responsable des dettes de son activité sur l’ensemble de son patrimoine personnel : il n’y a pas, avec ce régime, création d’une nouvelle personne juridique. Pour protéger le patrimoine de l’entrepreneur, le législateur propose différentes modalités juridiques. Il crée ainsi un modèle de société avec un associé unique : l’entreprise unipersonnelle à responsabilité limitée (EURL), forme particulière de la société commerciale.\nLors de l’étude du statut de l’entreprise individuelle l’importance de la responsabilité du chef d’entreprise est mise en parallèle avec les règles relatives au patrimoine, étudiées en classe de première. L’étude de l’EURL met l’accent sur la création d’une personne morale et son intérêt pour la protection du patrimoine du gérant. Elle permet de rappeler aux élèves la distinction personne physique/personne morale qui va conduire à reconnaître une existence propre de l’EURL et par làmême sa responsabilité en cas de litige.",
+   "articles": [
+    "Article L526-6 du Code de commerce : Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, nécessaires à l'exercice de son activité professionnelle. Il peut comprendre également les biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, utilisés pour l'exercice de son activité professionnelle, qu'il décide d'y affecter et qu'il peut ensuite décider de retirer du patrimoine affecté. Un même bien, droit, obligation ou sûreté ne peut entrer dans la composition que d'un seul patrimoine affecté. Par dérogation à l'alinéa précédent, l'entrepreneur individuel exerçant une activité agricole au sens de l'article L. 311-1 du code rural et de la pêche maritime peut ne pas affecter les terres utilisées pour l'exercice de son exploitation à son activité professionnelle. Cette faculté s'applique à la […]",
+    "Article L127-1 du Code de commerce : L'appui au projet d'entreprise pour la création ou la reprise d'une activité économique est défini par un contrat par lequel une personne morale s'oblige à fournir, par les moyens dont elle dispose, une aide particulière et continue à une personne physique, non salariée à temps complet, qui s'engage à suivre un programme de préparation à la création ou à la reprise et à la gestion d'une activité économique. Ce contrat peut aussi être conclu entre une personne morale et le dirigeant associé unique d'une personne morale.",
+    "Article L223-1 du Code de commerce : La société à responsabilité limitée est instituée par une ou plusieurs personnes qui ne supportent les pertes qu'à concurrence de leurs apports. Lorsque la société ne comporte qu'une seule personne, celle-ci est dénommée \"associé unique\". L'associé unique exerce les pouvoirs dévolus à l'assemblée des associés par les dispositions du présent chapitre. Un décret fixe un modèle de statuts types de société à responsabilité limitée dont l'associé unique, personne physique, assume personnellement la gérance et les conditions dans lesquelles ces statuts sont portés à la connaissance de l'intéressé. Ces statuts types s'appliquent à moins que l'intéressé ne produise des statuts différents lors de sa demande d'immatriculation de la société. La société à responsabilité limitée dont l'associé unique, personne physique, assume personnellement la gérance est soumise à des formalités de publicité allégées déterminées par décret en Conseil d'Etat. Ce décret prévoit les conditions de dispense d'insertion au Bulletin officiel des annonces civiles et commerciales. (1) La société est désignée par une dénomination sociale, à laquelle peut être incorporé le nom d'un […]",
+    "Article 233 du Code civil : Le divorce peut être demandé conjointement par les époux lorsqu'ils acceptent le principe de la rupture du mariage sans considération des faits à l'origine de celle-ci. Il peut être demandé par l'un ou l'autre des époux ou par les deux lorsque chacun d'eux, assisté d'un avocat, a accepté le principe de la rupture du mariage par acte sous signature privée contresigné par avocats, qui peut être conclu avant l'introduction de l'instance. Le principe de la rupture du mariage peut aussi être accepté par les époux à tout moment de la procédure. L'acceptation n'est pas susceptible de rétractation, même par la voie de l'appel.",
+    "Article 2270 du Code civil : On ne peut pas prescrire contre son titre, en ce sens que l'on ne peut point se changer à soi-même la cause et le principe de sa possession.",
+    "Article L680-5 du Code de commerce : Lorsque les dispositions des titres Ier à VI du présent livre sont appliquées à raison d'une activité professionnelle exercée sans affectation de patrimoine, les éléments d'actif et de passif qui, le cas échéant, proviennent d'un patrimoine dont l'affectation a cessé de produire ses effets en application de l'article L. 526-15 sont considérés comme étant hors du patrimoine non affecté. Cette exclusion prend fin dès lors que les créances ayant composé l'ancien patrimoine sont éteintes. Le présent article n'est pas applicable si l'exercice de l'activité à laquelle le patrimoine était affecté s'est poursuivi après la cessation de l'affectation."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1131 : Les vices du consentement sont une cause de nullité relative du\ncontrat.\nArticle 1132 : L'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une\ncause de nullité du contrat lorsqu'elle porte sur les qualités essentielles de la\nprestation due ou sur celles du cocontractant.\nArticle 1133 : Les qualités essentielles de la prestation sont celles qui ont été\nexpressément ou tacitement convenues et en considération desquelles les parties\nont contracté. L'erreur est une cause de nullité qu'elle porte sur la prestation de l'une\nou de l'autre partie. L'acceptation d'un aléa sur une qualité de la prestation exclut\nl'erreur relative à cette qualité.\nArticle 1135 : L'erreur sur un simple motif, étranger aux qualités essentielles de la\nprestation due ou du cocontractant, n'est pas une cause de nullité, à moins que les\nparties n'en aient fait expressément un élément déterminant de leur consentement.\nArticle 1137 : Le dol est le fait pour un contractant d'obtenir le consentement de\nl'autre par des manœuvres ou des mensonges. Constitue également un dol la\ndissimulation intentionnelle par l'un des contractants d'une information dont il sait le\ncaractère déterminant pour l'autre partie.\nArticle 1139 : L’erreur qui résulte d’un dol est toujours excusable ; elle est une cause\nde nullité alors même qu’elle porterait sur la valeur de la prestation ou sur un simple\nmotif du contrat."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "titre": "ANNEXE 1 - Articles du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi. […]\nArticle 1130\nL'erreur, le dol et la violence vicient le consentement lorsqu'ils sont de telle nature que, sans\neux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions\nsubstantiellement différentes.\nLeur caractère déterminant s'apprécie eu égard aux personnes et aux circonstances dans\nlesquelles le consentement a été donné.\nArticle 1131\nLes vices du consentement sont une cause de nullité relative du contrat.\nArticle 1132\nL'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une cause de nullité du\ncontrat lorsqu'elle porte sur les qualités essentielles de la prestation due ou sur celles du\ncocontractant.\nArticle 1832\nLa société est instituée par deux ou plusieurs personnes qui conviennent par un contrat\nd'affecter à une entreprise commune des biens ou leur industrie en vue de partager le\nbénéfice ou de profiter de l'économie qui pourra en résulter.\nElle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule\npersonne.\nLes associés s'engagent à contribuer aux pertes."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 4 - La « bonne foi » et la loyauté dans le contrat de travail",
+    "texte": "La \"bonne foi\" est la croyance qu'a une personne de se trouver dans une situation\nconforme au droit, et la conscience d'agir sans léser les droits d'autrui. C'est une notion\nfréquemment utilisée dans notre législation pour atténuer les rigueurs de l'application\nde règles positives. Les contrats doivent être négociés, formés et exécutés de bonne\nfoi. Cette disposition est d'ordre public. De même, l'initiative, le déroulement et la\nrupture des négociations précontractuelles sont libres. Ils doivent impérativement\nsatisfaire aux exigences de la bonne foi.\nSource : https://www.dictionnaire-juridique.com/definition/bonne-foi.php (consulté le\n05/12/2022)"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 1 - Extraits du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1112\nL'initiative, le déroulement et la rupture des négociations précontractuelles sont libres.\nIls doivent impérativement satisfaire aux exigences de la bonne foi."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "ANNEXE 4 - La loyauté de la concurrence",
+    "texte": "Source : lexbase.fr\nLe principe de loyauté est une conséquence de la liberté de la concurrence, elle-même\nun principe secondaire découlant de la liberté du commerce et de l’industrie.\nIl n’est régi par aucun texte. La concurrence ne peut être exercée que dans le respect\ndes droits des autres acteurs économiques et doit être conforme aux usages du\ncommerce.\nLes entrepreneurs ne disposent d’aucun droit privatif sur leur clientèle, qui constitue\nseulement une potentialité de chiffre d’affaires. Par conséquent, ils peuvent démarcher\nla clientèle d’un concurrent.\nTraditionnellement, le domaine de la concurrence déloyale avait pour limites la\nconcurrence interdite et la concurrence réglementée. Elle avait pour finalité\nd’empêcher un usage excessif de la liberté de la concurrence. Ce domaine s’est élargi\nafin de sanctionner des comportements considérés comme dangereux pour les\nconsommateurs, ou contraires à une concurrence loyale, notamment en matière de\npublicité.\nL’utilisation de nouvelles techniques commerciales et l’apparition d’Internet ont\négalement contribué à cet élargissement, en raison de la répression du parasitisme.\nLes comportements déloyaux ont fait l’objet d’une classification créée par la doctrine\net ont été regroupés en quatre catégories : le dénigrement, la désorganisation, la\nconfusion, et le parasitisme.\nSource : C.Lebel, Titre 1. La loyauté de la concurrence,\nDroit des affaires : Cours et exercices corrigés, 2012.\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - La notion de professionnel en droit de la consommation",
+    "texte": "Le terme de « professionnel » est défini dans l’ordonnance n° 2016-301 du 14 mars\n2016 comme « toute personne physique ou morale, publique ou privée, qui agit à des\nfins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale\nou agricole, y compris lorsqu’elle agit au nom ou pour le compte d’un autre\nprofessionnel ».\nLe professionnel peut être une personne physique ou morale et la forme juridique de\nl’entreprise n’est pas à prendre en considération.\nLe « professionnel » se distingue du « non-professionnel », et se définit comme\n« toute personne morale qui n’agit pas à des fins professionnelles ». Cette notion\npermet d’étendre aux personnes morales agissant en dehors de leur activité\nprofessionnelle la protection accordée aux consommateurs.\nSource : les auteurs"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nFabienne et Loïc Fabre recherchent un terrain pour aller vivre à la campagne.\nLors d’une promenade en famille, dans les environs de Brest, la famille Fabre\naperçoit un terrain à céder et ils contactent monsieur Marcellin, le propriétaire depuis\n30 ans. Celui-ci leur apporte des précisions sur la surface et le prix. Monsieur\nMarcellin propose également aux époux Fabre une visite le dimanche suivant et leur\nconseille de prendre tous renseignements utiles auprès de la Mairie.\nFabienne et Loïc Fabre expliquent à M. Marcellin que ce terrain correspond\nparfaitement à ce qu’ils recherchent : situé à la campagne, au calme, loin du tumulte\nde la ville, pas trop loin de leur lieu de travail et des écoles pour les enfants. Après\nleur journée de travail, les époux Fabre retournent voir plusieurs fois le terrain et\ndécident de faire rapidement une offre à monsieur Marcellin.\nUne fois propriétaires du terrain, Fabienne et Loïc Fabre conviennent d’un rendezvous sur place avec un architecte spécialisé dans la conception de maisons en bois.\nAlors que Fabienne commence à expliquer à l’architecte ce qu’elle souhaite, elle\nentend des bruits qui semblent correspondre à des camions qui déchargent des\nmarchandises et à des engins de sciage. Ces bruits proviennent d’une scierie\ninstallée à proximité mais qui n’était pas visible depuis le terrain mais visible depuis\nla route.\nTous les espoirs de Fabienne et Loïc Fabre de vivre dans une maison au calme\ns’envolent. Finalement le terrain ne correspond pas à ce qu’ils souhaitaient.\nIls envisagent de demander l’annulation de la vente du […]",
+    "annexes": [
+     "Annexe 1 : articles du Code civil",
+     "Annexe 2 : la réticence dolosive du vendeur :",
+     "Annexe 3 : précisons sur l’erreur et le vice du consentement – Arrêt de la Cour"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nM. Marcellin (propriétaire, vendeur) a conclu un contrat de vente avec Loïc et Fabienne\nFabre (acheteurs). L’objet de ce contrat est un terrain situé à la campagne. Ils réalisent\nau bout de quelques semaines que le terrain ne correspond pas à ce qu’ils pensaient.\nIl s’agit d’un terrain situé près d’une scierie dont l’activité en journée engendre\n\nPage: 7/22\n\n\nbeaucoup de bruit (déchargement de camions, machines…) alors qu’ils recherchaient\nun terrain à la campagne pour être au calme. Ils demandent la nullité du contrat de\nvente."
+     },
+     {
+      "enonce": "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente.",
+      "points": 2.5,
+      "corrige": "pourraient avancer pour demander la nullité du contrat de vente. (2.5\npoints)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nLes acheteurs ont commis une erreur. Ils souhaitent un terrain au calme et finalement\nleur terrain est situé à proximité d'une installation bruyante.\nLeur consentement est donc vicié par l'erreur qu'ils ont commise.\nEn application de l’article 1131 Code civil, les vices du consentement sont une cause\nde nullité relative du contrat. Les vices du consentement sont l’erreur, le dol et la\nviolence.\nOn acceptera qu’un candidat développe son argumentation soit sur l’erreur soit\nsur le dol.\nEn application de l’article 1132 du Code civil et de l’annexe 3, l'erreur de droit ou de\nfait, à moins qu'elle ne soit inexcusable, est une cause de nullité du […]"
+     },
+     {
+      "enonce": "Exposez les arguments que M. Marcellin pourrait leur opposer.",
+      "points": 2.5,
+      "corrige": "contester la nullité du contrat de vente. (2.5 points)\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nMonsieur Marcellin pourrait argumenter qu’il leur a donné les informations nécessaires\npour se décider (suggestion de contacter la mairie). De plus, il n’a pas saisi que le\ncritère de calme était déterminant. Il est donc de bonne foi.\nL’existence de la scierie n’a pas été dissimilée aux époux Fabre qui pouvaient\nconnaitre l'existence de cette entreprise qui générait du bruit aux alentours. Par\nconséquent :\n\nLe consentement n’a pas été vicié par dol puisque M. Marcellin n’a pas cherché\nà dissimuler l’information que M. et Mme Fabre pouvaient déjà connaître ou\nqu'ils pouvaient découvrir avec un minimum de diligence.\n\n\nDans ce cas, il y a erreur, mais celle-ci n’est pas […]"
+     },
+     {
+      "enonce": "Expliquez l’intérêt des règles de droit qui définissent les vices du consentement.",
+      "points": 3.0,
+      "corrige": "consentement. (3 points)\nLa question de réflexion permet d’amener le candidat à réfléchir au sens de la\nrègle ou aux enjeux de celle-ci. Toute réponse argumentée doit être acceptée\ndès l’instant où elle répond à la question.\nLe contrat est une loi entre les parties qui s'impose à elles ainsi qu'au juge. Cette loi\nne vaut que parce que les parties ont donné un consentement libre et éclairé. Dès lors\nsi le consentement a été vicié, il n’est plus à même de justifier l’existence du lien\ncontractuel.\nLes vices du consentement sont au nombre de 3 :\n\nL’erreur constitue un vice de consentement car les parties n’auraient pas\ndonné leur accord si elles avaient eu connaissance de la réalité au moment de\nla formation du contrat. Le législateur a voulu protéger la partie qui a donné son\nconsentement par erreur en lui permettant de demander la nullité du contrat.\nC’est-à-dire que les parties […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nMathieu et Héloïse sont amis d’enfance et ont développé un goût commun pour la mode et\nla création de vêtements. Les études les séparent pendant quelques années. Se retrouvant\nlors d’une soirée, ils décident de concrétiser leur passion en collaborant sur la création de\nvêtements. Les deux amis se quittent enchantés, en songeant aux bénéfices qu’ils\npourraient réaliser.\nMathieu, très accaparé par son métier de styliste pour diverses enseignes, n’a pas le temps\nde s’impliquer dans le montage du projet. Héloïse décide donc de prendre en charge la\ncréation de la société et rédige intégralement les statuts : Mathieu apporterait ses\ncompétences et Héloïse la somme de 10 000 euros. Héloïse envoie les statuts à Mathieu.\nCe dernier les lit rapidement sans vraiment les comprendre et les signe entre deux rendezvous professionnels.\nPeu après, Mathieu lit attentivement les statuts et prend conscience de son engagement. Il\nse rend compte qu’une société, la SARL dénommée « Cust and Cop » a été créée et qu’elle\na pour objet social la customisation et la vente de vêtements de seconde main. Discutant\ndes statuts avec un ami, celui-ci lui indique qu’il est associé dans la SARL alors que Mathieu\ndésirait simplement collaborer en tant que salarié.\nMathieu contacte Héloïse pour l’informer de son souhait de contester la validité des statuts\nde la société « Cust and Cop ». Très inquiète, Héloïse vous consulte afin de s’assurer de la\nvalidité de ce contrat.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Articles du Code civil",
+     "ANNEXE 2 - Jurisprudence de la Cour de cassation du 3 mars 2021",
+     "ANNEXE 3 - Extrait des statuts de la société Cust and Cop",
+     "Annexe 4 – Statuts de société",
+     "Annexe 5 - Un consentement valide au sens du règlement général de protection des"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Mathieu peut lui opposer pour contester la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un contrat ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M2",
+  "type": "sujet_blanc",
+  "section": 18,
+  "section_titre": "7.3 Les libertés individuelles et collectives",
+  "partenaire": 9,
+  "partenaire_titre": "4.1 Les droits extra- patrimoniaux",
+  "frequence_passee": 0.24,
+  "inedit": false,
+  "proba_annee_suivante": 0.111,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Amina NACER peut avancer pour appuyer ses prétentions.",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Proposez l’argumentation juridique que l’employeur pourra opposer à Mélina Semper.",
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Expliquez pourquoi le droit limite le pouvoir disciplinaire de l’employeur.",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "7.3 Les libertés individuelles et collectives",
+   "theme": "Thème 7 : Comment le droit encadre-t-il le travail salarié ?",
+   "texte": "Les libertés fondamentales du citoyen doivent être respectées dans la relation de travail. Elles font néanmoins l’objet d’un encadrement spécifique par le droit du travail. Les limitations des libertés individuelles des salariés sont admises dès lors qu’elles sont, comme l’indique le Code du travail, « justifiées par la nature de la tâche et proportionnées au but recherché ». Ces limitations ont une importance particulière du fait des usages des technologies numériques. Les libertés individuelles et collectives sont étudiées au travers du respect de la vie personnelle du salarié au travail et de la liberté d’expression. Le droit de grève, exemple emblématique des libertés collectives du salarié, est étudié à partir de ses conditions d’exercice et de ses conséquences. Les représentants du personnel (élus au Comité social et économique, et les délégués syndicaux) participent à l’exercice de ces libertés. L’étude se limite à mettre en évidence leurs missions essentielles.\nNotions : La limitation des libertés individuelles. La liberté d’expression, le devoir de loyauté. Le respect de la vie privée. Le droit de grève. La liberté syndicale. Le comité social et économique. Le délégué syndical.\nLes libertés fondamentales du citoyen doivent être respectées dans la relation de travail. Elles font néanmoins l’objet d’un encadrement spécifique par le droit du travail.\nLe droit du travail reconnaît aux salariés, dans l’exercice de leur travail, un certain nombre de libertés individuelles et collectives que doit respecter l’employeur.\nLiberté d’expression, devoir de loyauté. Respect de la vie privée. Droit de grève. Liberté syndicale. Comité social et économique. Délégué syndical.\nLes limitations des libertés individuelles des salariés, notamment du fait des technologies numériques, sont admises dès lors qu’elles « sont justifiées par la nature de la tâche et proportionnées au but recherché ». Elles sont étudiées au travers du respect de la vie personnelle du salarié au travail et de la liberté d’expression. Le droit de grève, exemple emblématique des libertés collectives du salarié, est étudié à partir de ses conditions d’exercice et de ses conséquences. Les représentants du personnel (élus au Comité social et économique et les délégués syndicaux) participent à l’exercice de ces libertés.\nLe respect de la vie privée du salarié au travail et de la liberté d’expression est étudié au travers de situations mobilisant les outils numériques mis à disposition des salariés par l’entreprise et leur utilisation des réseaux sociaux. On montre que, si le droit de grève est constitutionnellement reconnu, le caractère illicite d’une grève ne permet pas au salarié d’être protégé par ce droit. L’étude des représentants du personnel et des délégués syndicaux permet de les identifier et de les différencier. Les missions du CSE sont présentées dans le cadre de : --l’expression des salariés ; --l’organisation générale de l’entreprise ; --la santé et la sécurité dans l’entreprise ; --le droitd’alerte.\nCapacités attendues : l'élève est capable d’expliquer les principes de l’entreprise individuelle et d’en apprécier les enjeux ; de proposer et de justifier le choix d’une forme juridique d’entreprise dans une ; situation donnée ; de distinguer les conséquences de la forme juridique d’entreprise sur le patrimoine ; d’identifier les éléments fondamentaux du contrat de société ; d’identifier les caractéristiques de la société coopérative ; et d’identifier les obligations des […]",
+   "articles": [
+    "Article L1121-1 du Code du travail : Nul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché.",
+    "Article L1321-3 du Code du travail : Le règlement intérieur ne peut contenir : 1° Des dispositions contraires aux lois et règlements ainsi qu'aux stipulations des conventions et accords collectifs de travail applicables dans l'entreprise ou l'établissement ; 2° Des dispositions apportant aux droits des personnes et aux libertés individuelles et collectives des restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché ; 3° Des dispositions discriminant les salariés dans leur emploi ou leur travail, à capacité professionnelle égale, en raison de leur origine, de leur sexe, de leurs mœurs, de leur orientation sexuelle ou identité de genre, de leur âge, de leur situation de famille ou de leur grossesse, de leurs caractéristiques génétiques, de leur appartenance ou de leur non-appartenance, vraie ou supposée, à une ethnie, une nation ou une race, de leurs opinions politiques, de leurs activités syndicales ou mutualistes, de leurs convictions religieuses, de leur apparence physique, de leur nom de famille ou en raison de leur état de santé ou de leur handicap.",
+    "Article L2281-10 du Code du travail : A défaut d'accord prévu à l'article L. 2242-11 ou en cas de non-respect de ses stipulations, l'accord traitant du droit d'expression comporte des stipulations sur : 1° Le niveau, le mode d'organisation, la fréquence et la durée des réunions permettant l'expression des salariés ; 2° Les outils numériques disponibles dans l'entreprise, permettant l'expression des salariés ; 3° Les mesures destinées à assurer, d'une part, la liberté d'expression de chacun et, d'autre part, la transmission à l'employeur des demandes et propositions des salariés ainsi que celle des avis émis par les salariés dans les cas où ils sont consultés par l'employeur, sans préjudice des dispositions relatives aux institutions représentatives du personnel ; 4° Les mesures destinées à permettre aux salariés intéressés, aux organisations syndicales représentatives, au comité social et économique de prendre connaissance des demandes, avis et propositions émanant des groupes ainsi que des suites qui leur sont réservées ; 5° Les conditions spécifiques d'exercice du droit à l'expression dont bénéficie le personnel d'encadrement ayant des responsabilités hiérarchiques, outre leur […]",
+    "Article L1321-2-1 du Code du travail : <p align=\"left\">Le règlement intérieur peut contenir des dispositions inscrivant le principe de neutralité et restreignant la manifestation des convictions des salariés si ces restrictions sont justifiées par l'exercice d'autres libertés et droits fondamentaux ou par les nécessités du bon fonctionnement de l'entreprise et si elles sont proportionnées au but recherché.</p>",
+    "Article L2234-2 du Code du travail : Les commissions paritaires : 1° Concourent à l'élaboration et à l'application de conventions et accords collectifs de travail, négocient et concluent des accords d'intérêt local, notamment en matière d'emploi et de formation continue ; 2° Examinent les réclamations individuelles et collectives ; 3° Examinent toute autre question relative aux conditions d'emploi et de travail des salariés intéressés.",
+    "Article L7233-8 du Code du travail : L'aide financière peut être gérée par le comité social et économique ou l'entreprise ou, conjointement, par le comité social et économique et l'entreprise. La gestion de l'aide financière de l'entreprise fait l'objet d'une consultation préalable du comité social et économique en cas de gestion conjointe et d'une procédure d'évaluation associant le comité social et économique.",
+    "Article L2143-22 du Code du travail : Dans les entreprises de moins de trois cents salariés et dans les établissements appartenant à ces entreprises, le délégué syndical est, de droit, représentant syndical au comité social et économique . Le délégué syndical est, à ce titre, destinataire des informations fournies au comité social et économique ."
+   ]
+  },
+  "cours_partenaire": {
+   "section": "4.1 Les droits extra- patrimoniaux",
+   "theme": "Thème 4 : Quels sont les droits reconnus aux personnes ?",
+   "texte": "Le droit confère à la personne, par le seul fait de son existence, des droits inaliénables, insaisissables et imprescriptibles. Les données formelles et informelles laissées par une personne juridique sur internet constituent son identité numérique. Les données à caractère personnel doivent être particulièrement protégées. Pour illustrer les caractères et la protection des droits extrapatrimoniaux, sont étudiés le droit au respect de la vie privée, avec notamment la protection des données à caractère personnel, et le droit à l’image à travers l’utilisation des technologies de l’information et de la communication.\nNotions : Droits de la personne. Protection des données à caractère personnel. Respect de la vie privée. Droit à l’image.",
+   "articles": [
+    "Article L1263-2 du Code du travail : La nature des informations communicables et les conditions dans lesquelles est assurée la protection des données à caractère personnel sont précisées par décret en Conseil d'Etat.",
+    "Article 372-1 du Code civil : Les parents protègent en commun le droit à l'image de leur enfant mineur, dans le respect du droit à la vie privée mentionné à l'article 9. Les parents associent l'enfant à l'exercice de son droit à l'image, selon son âge et son degré de maturité.",
+    "Article 9 du Code civil : Chacun a droit au respect de sa vie privée. Les juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes mesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser une atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être ordonnées en référé.",
+    "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles L. 228-2 à L. 228-3-1 font l'objet d'un traitement automatisé mis en œuvre par la société émettrice aux fins d'identification des propriétaires de ses titres et de communication avec ces propriétaires pour faciliter leur participation aux assemblées générales, leur accès à toute information intéressant l'activité de la société et, de façon générale, l'exercice de leurs droits. II.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités prévues aux mêmes articles L. 228-2 à L. 228-3-1 et par la société émettrice en application du I du présent article ne peuvent être conservées que douze mois après que les responsables de traitement ont eu connaissance du fait que la personne dont les données à caractère personnel ont été enregistrées n'était plus propriétaire des titres. Durant la même période, lorsque le propriétaire des titres est une personne morale, celle-ci a le droit d'obtenir, dans les meilleurs délais, de […]",
+    "Article 475 du Code civil : La personne en tutelle est représentée en justice par le tuteur. Celui-ci ne peut agir, en demande ou en défense, pour faire valoir les droits extra-patrimoniaux de la personne protégée qu'après autorisation ou sur injonction du juge ou du conseil de famille s'il a été constitué. Le juge ou le conseil de famille peut enjoindre également au tuteur de se désister de l'instance ou de l'action ou de transiger.",
+    "Article 479 du Code civil : Lorsque le mandat s'étend à la protection de la personne, les droits et obligations du mandataire sont définis par les articles 457-1 à 459-2. Toute stipulation contraire est réputée non écrite. Le mandat peut prévoir que le mandataire exercera les missions que le code de la santé publique et le code de l'action sociale et des familles confient au représentant de la personne en tutelle ou à la personne de confiance. Le mandat fixe les modalités de contrôle de son exécution.",
+    "Article L5151-8 du Code du travail : Les activités bénévoles ou de volontariat sont recensées dans le cadre du traitement de données à caractère personnel mentionné au II de l'article L. 6323-8. Le titulaire du compte décide des activités qu'il souhaite y recenser.",
+    "Article 259-2 du Code civil : Les constats dressés à la demande d'un époux sont écartés des débats s'il y a eu violation de domicile ou atteinte illicite à l'intimité de la vie privée."
+   ]
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 3 - Article L1121-1 du Code du travail",
+    "texte": "Nul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 3 - Article L.1121-1 du Code du travail",
+    "texte": "Nul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives des restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 3 : article du Code du travail",
+    "texte": "Article L1121-1 : « Nul ne peut apporter aux droits des personnes et aux libertés\nindividuelles et collectives de restrictions qui ne seraient pas justifiées par la nature de\nla tâche à accomplir ni proportionnées au but recherché »."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 2 – Articles de loi",
+    "texte": "Article 9 du Code civil\nChacun a droit au respect de sa vie privée […].\nArticle 1103 du Code civil\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle L1121-1 du Code du travail\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et collectives de\nrestrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni\nproportionnées au but recherché.\nArticle L1222-1 du Code du travail\nLe contrat de travail est exécuté de bonne foi.\nEN_NODgzNT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTgY5NGDUx\nEducN_MSDgyMD4Y2MTYe0Mj3I5MwjAyNT8A5MDMExNTtUxMQTEg"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée. Les juges peuvent sans\npréjudice de la réparation du dommage subi prescrire toutes mesures telles que\nséquestres, saisies et autres, propres à empêcher ou à faire cesser une atteinte à la\nvie privée ; ces mesures peuvent, s'il y a urgence, être ordonnées en référé.\nArticle 1103 : Les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1193 : Les contrats ne peuvent être modifiés ou révoqués que du\nconsentement mutuel des parties ou pour les causes que la loi autorise."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 1 : articles du Code civil",
+    "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\nArticle 544 : La propriété est le droit de jouir et disposer des choses de la manière la\nplus absolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements.\nArticle 545 : Nul ne peut être contraint de céder sa propriété, si ce n'est pour cause\nd'utilité publique, et moyennant une juste et préalable indemnité.\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1242 : On est responsable non seulement du dommage que l'on cause par son\npropre fait, mais encore de celui qui est causé par le fait des personnes dont on doit\nrépondre, ou des choses que l'on a sous sa garde. […]\nArticle 1243 : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son\nusage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous\nsa garde, soit qu'il fût égaré ou échappé."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nLa SARL Pompes à Chaleur Provençales est spécialisée dans l’installation et\nl’entretien, de pompes à chaleur. Elle est dirigée par monsieur Ronald GARNIER. Son\nactivité s’est considérablement développée depuis deux ans.\nLa société a donc engagé du personnel supplémentaire. Le 17 juin 2022, monsieur\nMARTIN est recruté par la société en qualité de commercial salarié en contrat à durée\nindéterminée (CDI).\nChaque commercial se voit attribuer un programme d’activité et une zone\ngéographique d’affectation. La SARL Pompes à Chaleur Provençales s’assure du\nrespect de cette organisation par un système de géolocalisation1 des véhicules à\nusage professionnel.\nLe 29 septembre 2022, monsieur GARNIER signifie à monsieur MARTIN qu’il n’a pas\nrespecté la zone d’affectation prévue dans son contrat de travail. Son employeur lui\nreproche également de désactiver le dispositif de géolocalisation entre 12h et 14h,\npendant sa pause déjeuner, le commercial ne supportant pas d’être ainsi suivi.\nEn conséquence, le 28 octobre 2022, la société rompt le contrat de travail de monsieur\nMARTIN, considérant qu’il a commis une faute grave, et vous demande conseil.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Extrait du contrat de travail de monsieur MARTIN",
+     "ANNEXE 2 - Extraits des décisions et recommandations de la CNIL - La",
+     "ANNEXE 3 - Article L.1121-1 du Code du travail",
+     "ANNEXE 4 - Arrêt de la Cour de cassation du 19 décembre 2018"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2.0,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits pertinents et d’utiliser les qualifications juridiques adéquates.\n- identification d’un contrat de travail ;\n- repérage des obligations du salarié ;\n- constat des manquements du salarié ;\n- qualification de la rupture comme licenciement.\n\n\n\nLa SARL Pompes à chaleur Provençales a mis en place un système de géolocalisation\ndes véhicules à usage professionnel de ses commerciaux. Ce dispositif est activé en\ncontinu de 9h à 19h.\nMonsieur MARTIN, salarié de la SARL Pompes à chaleur Provençales, est licencié\npour faute. Son employeur, la SARL Pompes à Chaleur Provençales lui reproche\nd’avoir désactivé le système de géolocalisation pendant ses heures de […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qui peut appuyer la rupture du contrat du travail de monsieur MARTIN.",
+      "points": 2.0,
+      "corrige": "contrat du travail de monsieur MARTIN. (2 points)\nLa capacité du programme évaluée par cette question, à savoir d’identifier les\nrègles juridiques applicables pour la mise en place d’une situation de fait,\nimplique que le candidat mobilise un vocabulaire juridique adapté.\n- caractérisation des manquements de monsieur Martin comme cause réelle et\nsérieuse ;\n- justification d’un système de géolocalisation au sein de l’entreprise ;\n- justification d’une information au salarié.\nL’argumentaire à construire s’articule autour de la justification du licenciement de\nmonsieur Martin : il convient donc d’argumenter sur la cause réelle et sérieuse du\nlicenciement, mais aussi sur la légitimité de l’usage de la géolocalisation dans\nl’entreprise.\nCause réelle et sérieuse : monsieur MARTIN est lié à la société SARL Pompes à\nchaleur Provençales par un contrat de travail. Il doit donc respecter les […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que monsieur MARTIN pourrait lui opposer.",
+      "points": 3.0,
+      "corrige": "opposer. (3 points)\n\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue. Il s’agit, ici, d’amener le candidat à identifier les règles juridiques\npertinentes en faveur de la prétention de monsieur MARTIN et de construire une\nargumentation cohérente. Un syllogisme juridique n’est pas exigé.\n- argumentation d’une absence de cause réelle et sérieuse au licenciement ;\n- argumentation d’une atteinte portée à la vie privée du salarié ;\n- exploitation préalable de la jurisprudence de la Cour de cassation ;\n- exploitation préalable des annexes 1 et 2 sur le contenu du contrat de travail.\nD’après l’arrêt de la Cour de cassation du 19 décembre 2018 (annexe 4), l’utilisation\nd'un système de géolocalisation n’est pas justifiée lorsque le salarié dispose d'une\nliberté dans […]"
+     },
+     {
+      "enonce": "Pourquoi le droit protège-t-il les libertés individuelles du salarié dans le cadre de la relation de travail ?",
+      "points": 3.0,
+      "corrige": "cadre de la relation de travail ? » (3 points).\nLa question de réflexion demande au candidat de réfléchir au sens et aux enjeux de\nla protection des libertés individuelles des salariées dans le cadre du travail Toute\nréponse doit être acceptée dès l’instant où elle répond à la question et montre la\ncapacité du candidat à réfléchir sur la protection mais aussi sur les restrictions aux\nlibertés individuelles des salariés dans le cadre du travail. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nOn attend du candidat qu’il explicite le sujet, notamment en définissant la notion de\n« libertés individuelles ».\nConstruction de la réflexion\n\n1 point\n\nLogique globale et structuration de la réflexion\nLe candidat doit conduire une réflexion fluide avec un fil directeur que\nle correcteur peut identifier.\n\n\nRéponse à la problématique\nIl n’est pas […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-nouvelle-caledonie",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexe, analysez la situation juridique ci-dessous et répondez aux questions\nposées.\nSituation juridique\nÀ 38 ans, Monsieur Wilfried MARAT est pleinement satisfait des fonctions qu’il occupe\nau sein de la société d’assurance PLESSIS. Depuis peu, il a été nommé directeur des\nressources humaines par le gérant, monsieur PERRIN. Ces derniers entretiennent une\nsolide relation de confiance et Wilfried MARAT est pleinement d’accord avec la vision\nstratégique de monsieur PERRIN.\nÀ la suite d’un grave accident de ski, monsieur PERRIN est remplacé définitivement\npar madame Annick VOLVERE. D’emblée, la nouvelle gérante décide d’un\nchangement radical de stratégie impliquant un grand nombre de licenciements. En\nréunion de direction, alors qu’Annick VOLVERE présente la nouvelle stratégie, Wilfried\nMARAT s’oppose frontalement à elle, et critique ses décisions. Le ton monte, Wilfried\nMARAT considère qu’Annick VOLVERE « a perdu la tête, et que cette stratégie est de\nla pure folie ». Il est alors invité, sous la menace d’un avertissement, à quitter la\nréunion.\nL’ambiance au sein de l’entreprise se dégrade de plus en plus. Des informations,\nrelatives au plan de licenciement, qu’Annick VOLVERE voulait garder confidentielles,\nse retrouvent dans la presse. Elle suspecte Wilfried MARAT. Ce dernier ne lui inspire\nplus confiance depuis leur altercation en réunion. Pour en avoir le cœur net, elle décide\nde vérifier le poste informatique de Wilfried MARAT, en son absence. Dans un dossier\nintitulé « personnel », elle trouve l’ensemble des fichiers qui a fuité dans la presse.\nMadame VOLVERE décide de licencier Monsieur MARAT pour faute. Ce dernier\nenvisage de contester le licenciement et vous consulte pour le […]",
+    "annexes": [
+     "ANNEXE 1 - Extraits du code du travail",
+     "ANNEXE 2 - Extrait du contrat de travail de Monsieur MARAT",
+     "ANNEXE 3 - Extrait de l’arrêt de la Cour de cassation du 7 juin 2018",
+     "ANNEXE 4 - Extrait de l’arrêt de la Cour de cassation, du 17 mai 2005"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l'argumentation juridique que Wilfried MARAT peut avancer pour contester son licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que la société PLESSIS pourrait utiliser pour justifier le licenciement.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Pourquoi l’exercice des droits du salarié fait-il l’objet d’un encadrement spécifique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M3",
+  "type": "sujet_blanc",
+  "section": 20,
+  "section_titre": "8.2 La société commerciale",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.05,
+  "inedit": false,
+  "proba_annee_suivante": 0.102,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "qualifications / qualifications juridiques / resumez x / resumez",
+    "exemples_reels": [
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques.",
+     "Résumez les faits en utilisant des qualifications juridiques."
+    ],
+    "operation_mentale": {
+     "operation": 5,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "rang_dans_le_sujet",
+      "longueur_enonce"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     624,
+     3078
+    ],
+    "longueur_cible_car": 1318
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "developpez x / developpez / developpez x argumentation / argumentation x",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que la société « Essence des Îles » peut avancer pour engager la responsabilité de la société « Parfums Élégance ».",
+     "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+     "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi."
+    ],
+    "operation_mentale": {
+     "operation": 0,
+     "fort": [
+      "appui_sur_le_cas",
+      "appui_sur_les_documents",
+      "acteurs_nommes"
+     ],
+     "faible": [
+      "forme_interrogative"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 3,
+    "facette": 3,
+    "nom": "argumentation x pourrait / pourrait / x pourrait / x argumentation",
+    "exemples_reels": [
+     "Développez l’argumentation juridique que Madame Berthou pourrait lui opposer.",
+     "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer.",
+     "Développez l’argumentation juridique que la société pourrait lui opposer."
+    ],
+    "operation_mentale": {
+     "operation": 4,
+     "fort": [
+      "acteurs_nommes",
+      "appui_sur_le_cas"
+     ],
+     "faible": [
+      "appui_sur_le_cours",
+      "appui_sur_les_documents"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   },
+   {
+    "slot": 4,
+    "facette": 4,
+    "nom": "qm / x qm / pourquoi / pourquoi x",
+    "exemples_reels": [
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un contrat ?",
+     "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide de l’annexe 6 et de vos connaissances personnelles : Pourquoi le droit limite-t-il les pouvoirs de l’employeur ?",
+     "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un con"
+    ],
+    "operation_mentale": {
+     "operation": 3,
+     "fort": [
+      "forme_interrogative",
+      "appui_sur_le_cours",
+      "rang_dans_le_sujet"
+     ],
+     "faible": [
+      "largeur_du_cours",
+      "acteurs_nommes"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     936,
+     4617
+    ],
+    "longueur_cible_car": 1977
+   }
+  ],
+  "nb_annexes": 4,
+  "cours": {
+   "section": "8.2 La société commerciale",
+   "theme": "Thème 8 : Dans quel cadre et comment entreprendre ?",
+   "texte": "L’entreprise individuelle peut évoluer, sous certaines conditions, vers la création d’une société commerciale ayant plusieurs associés. Celle-ci naît d’un contrat de société. L’étude se limite ici à la compréhension des principes posés par l’article 1832 du Code civil sur le contrat de société. La responsabilité des associés est généralement limitée à leurs apports. Les bénéfices sont répartis au prorata de ces apports. Les décisions, au sein d’une société, sont prises soit par des organes de gestion courante soit par des organes délibératifs. Le cas de la forme coopérative de société est abordé, ainsi que l’éthique coopérative.\nNotions : Le contrat de société. L’affectio societatis. L’apport. La limitation de responsabilité aux apports. La société coopérative (SCOP).\nL’entreprise individuelle peut évoluer, sous certaines conditions, vers la création d’une société commerciale ayant plusieurs associés. Celle-ci naît d’un contrat de société. L’étude se limite ici à la compréhension des principes posés par l’article 1832 du Code civil sur le contrat de société.\nIl apparaît utile, ici, de rappeler les conditions de validité d’un contrat et ainsi de faire un parallèle avec le thème 5 avant d’aborder les principes posés par l’article 1832 du Code civil relatifs au contrat de société à savoir « affecter à une entreprise commune des biens ou leur industrie en vue de partager le bénéfice ou de profiter de l’économie qui pourra en résulter ».\nLa responsabilité des associés est généralement limitée à leurs apports. Les bénéfices sont répartis au prorata de ces apports. Les décisions, au sein d’une société, sont prises soit par des organes de gestion courante soit par des organes délibératifs. Le cas de la forme coopérative de société est abordé, ainsi que l’éthique coopérative.\nLes associés ou actionnaires réalisent des apports lors de la constitution de la société. Il n’est pas attendu que les élèves distinguent les différentes catégories d’apports. En revanche, l’élève doit comprendre ce qu’un apport implique : --droit au partage des bénéfices ; --contribution aux pertes ; --pouvoir décisionnel au sein des organes de gestion courante ou des organes délibératifs. Il n’est pas attendu une étude approfondie des différents organes décisionnels d’une société. L’élève doit savoir distinguer l’organe de gestion courante de l’organe délibératif. À partir d’exemples de société coopérative, l’élève relève les caractéristiques fondamentales de la SCOP et prend conscience de l’éthique coopérative véhiculée par cette forme de société qui s’inscrit dans l’économie sociale et solidaire.",
+   "articles": [
+    "Article 1832 du Code civil : La société est instituée par deux ou plusieurs personnes qui conviennent par un contrat d'affecter à une entreprise commune des biens ou leur industrie en vue de partager le bénéfice ou de profiter de l'économie qui pourra en résulter. Elle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule personne. Les associés s'engagent à contribuer aux pertes.",
+    "Article 1843-2 du Code civil : Les droits de chaque associé dans le capital social sont proportionnels à ses apports lors de la constitution de la société ou au cours de l'existence de celle-ci. Les apports en industrie ne concourent pas à la formation du capital social mais donnent lieu à l'attribution de parts ouvrant droit au partage des bénéfices et de l'actif net, à charge de contribuer aux pertes.",
+    "Article 1840 du Code civil : Les fondateurs, ainsi que les premiers membres des organes de gestion, de direction ou d'administration sont solidairement responsables du préjudice causé soit par le défaut d'une mention obligatoire dans les statuts, soit par l'omission ou l'accomplissement irrégulier d'une formalité prescrite pour la constitution de la société. En cas de modification des statuts, les dispositions de l'alinéa précédent sont applicables aux membres des organes de gestion, de direction ou d'administration alors en fonction. L'action se prescrira par dix ans à compter du jour où l'une ou l'autre, selon le cas, des formalités visées à l'alinéa 3 de l'article 1839 aura été accomplie.",
+    "Article L249-1 du Code de commerce : Les personnes physiques coupables des infractions prévues aux chapitres Ier à VIII du présent titre encourent également à titre de peines complémentaires l'interdiction, suivant les modalités prévues par l'article 131-27 du code pénal, soit d'exercer une fonction publique ou d'exercer l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'exercice de laquelle l'infraction a été commise, soit d'exercer une profession commerciale ou industrielle, de diriger, d'administrer, de gérer ou de contrôler à un titre quelconque, directement ou indirectement, pour leur propre compte ou pour le compte d'autrui, une entreprise commerciale ou industrielle ou une société commerciale. Ces interdictions d'exercice peuvent être prononcées cumulativement.",
+    "Article 2023 du Code civil : Dans ses rapports avec les tiers, le fiduciaire est réputé disposer des pouvoirs les plus étendus sur le patrimoine fiduciaire, à moins qu'il ne soit démontré que les tiers avaient connaissance de la limitation de ses pouvoirs.",
+    "Article L223-33 du Code de commerce : Si l'augmentation du capital est réalisée, soit en totalité, soit en partie par des apports en nature, les dispositions de l'article L. 223-9 sont applicables. Le commissaire aux apports est désigné à l'unanimité des associés ou, à défaut, par une décision de justice à la demande d'un associé ou du gérant. Lorsqu'il n'y a pas eu de commissaire aux apports ou lorsque la valeur retenue est différente de celle proposée par le commissaire aux apports, les gérants de la société et les personnes ayant souscrit à l'augmentation du capital sont solidairement responsables pendant cinq ans, à l'égard des tiers, de la valeur attribuée auxdits apports.",
+    "Article L2363-6 du Code du travail : Les dispositions des articles L. 2353-13 à L. 2353-27-1 relatives au fonctionnement du comité de la société européenne s'appliquent à la société coopérative européenne.",
+    "Article L225-262 du Code de commerce : Les actions de travail sont nominatives, inscrites au nom de la société coopérative de main-d'oeuvre, inaliénables pendant toute la durée de la société à participation ouvrière."
+   ]
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "titre": "ANNEXE 1 - Articles du Code civil",
+    "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi. […]\nArticle 1130\nL'erreur, le dol et la violence vicient le consentement lorsqu'ils sont de telle nature que, sans\neux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions\nsubstantiellement différentes.\nLeur caractère déterminant s'apprécie eu égard aux personnes et aux circonstances dans\nlesquelles le consentement a été donné.\nArticle 1131\nLes vices du consentement sont une cause de nullité relative du contrat.\nArticle 1132\nL'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une cause de nullité du\ncontrat lorsqu'elle porte sur les qualités essentielles de la prestation due ou sur celles du\ncocontractant.\nArticle 1832\nLa société est instituée par deux ou plusieurs personnes qui conviennent par un contrat\nd'affecter à une entreprise commune des biens ou leur industrie en vue de partager le\nbénéfice ou de profiter de l'économie qui pourra en résulter.\nElle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule\npersonne.\nLes associés s'engagent à contribuer aux pertes."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "titre": "ANNEXE 3 - Extrait des statuts de la société Cust and Cop",
+    "texte": "LES SOUSSIGNÉS,\n- Monsieur AMARD Mathieu […] ;\n- Madame GOUDAY Héloïse […].\nARTICLE 1 - FORME\nIl est formé […] une Société à responsabilité limitée, qui sera régie par les lois en vigueur et\nnotamment par les articles L223-1 du Code de commerce, ainsi que par les présents statuts.\nARTICLE 2 - OBJET SOCIAL\nLa société a pour objet social la customisation (personnalisation) de vêtements de seconde\nmain (d’occasion) et la vente de ces vêtements.\nARTICLE 3 - DÉNOMINATION SOCIALE\nLa société a pour dénomination sociale Cust and Cop.\nEt pour sigle C&C.\nARTICLE 4 - SIÈGE SOCIAL\nLe siège social est fixé à Lille (59 000), 42 rue des lacs. [...]\nARTICLE 7 - APPORTS\nAPPORTS EN NUMÉRAIRE\nLes associés apportent à la société la somme de 10 000 euros, soit dix mille euros.\nMadame Héloïse GOUDAY apporte l’intégralité de la somme de 10 000 euros, ce qui donne\nlieu à son profit à l’attribution de 100 parts sociales ouvrant droit au partage des bénéfices\nainsi qu’à un droit de vote dans les assemblées générales.\nAPPORT EN INDUSTRIE\nMonsieur Mathieu AMARD apporte à la société ses compétences de styliste. […]\nCet apport en industrie ne concourt pas à la formation du capital social mais donne lieu au\nprofit de monsieur Mathieu AMARD à l’attribution de 100 parts sociales ouvrant droit au\npartage des bénéfices ainsi qu’à un droit de vote dans les assemblées générales.\nARTICLE 8 - CAPITAL SOCIAL\nLe capital social est fixé à la somme de 10 000 euros. […]\nARTICLE 26 - AFFECTATION DES RÉSULTATS\n[…] Le surplus du bénéfice, s'il en existe, est attribué aux associés sous forme de dividende.\n[…] Les sommes […] sont réparties entre les associés gérants ou non gérants\nproportionnellement au nombre de leurs parts sociales.\nFait à Lille, le 5 juin 2026\nMathieu Amard\nEloïse Gouday\nEN_NODgzNT7QzNjAc0ND1UzMsTYxMj0A2NTAAwMThY5OITkx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 1 - Extrait de contrat de travail de madame DUPONT",
+    "texte": "ENTRE LES SOUSSIGNÉS\nSARL BOISIER\nEt madame Lisa DUPONT\nIL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT\nArticle 1 : Engagement et objet du contrat\nMadame Lisa DUPONT entre au service exclusif de la SARL BOISIER à compter du\n5 mars 2017. Pour l’exercice de son activité, madame Lisa DUPONT sera placée sous\nl’autorité Boisier, ou de toute personne qui pourra être substituée à ce dernier.\nLe présent contrat est régi par les dispositions de la convention collective en vigueur\ndans l’entreprise, soit la convention collective nationale des menuiseries, charpentes\net constructions industrialisées et porte planes du 19 janvier 2017.\nArticle 2 : Fonctions occupées\nMadame Lisa DUPONT occupera les fonctions de commerciale itinérante et à ce titre :\n- Se déplacera chez les clients professionnels et les fournisseurs de la société ;\n- Rendra compte à la direction commerciale de manière hebdomadaire de l’état\ndes ventes.\nArticle 3 : Rémunération\nMadame Lisa DUPONT sera soumise à la durée légale du travail applicable dans\nl’entreprise. Elle percevra à ce titre une rémunération brute mensuelle de 2 500€\n(deux-mille cinq cents euros), correspondant à son salaire de base. […]\nArticle 6 : Clause d’exclusivité\nMadame Lisa DUPONT s’engage à exercer de manière exclusive son activité\nprofessionnelle. L’exercice de toute autre activité professionnelle soit pour son compte,\nsoit pour le compte de tiers, reste soumise à approbation éventuelle de la direction.\nArticle 7 : Clause de confidentialité\nMadame Lisa DUPONT sera soumise à une clause de confidentialité durant toute la\ndurée de son contrat. […]\nArticle 12 : Clause de non-concurrence\nMadame Lisa DUPONT s’engage à ne pas entrer au service d’une entreprise\nconcurrente, ni à collaborer directement ou indirectement à toute fabrication, tout\ncommerce ou toutes autres activités pour concurrencer les articles ou produits\nfabriqués ou les activités de la société.\nCette clause de non-concurrence s’applique :\n- Aux régions suivantes : Nord de la France\n- Pendant une durée de 1 an, à compter de la date de la rupture effective du\nprésent contrat.\n- Aux activités suivantes : toutes fonctions dans le domaine de la vente, tous\nsecteurs d’activité confondus."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "titre": "Annexe 4 – Statuts de société",
+    "texte": "C'est la signature des statuts […] qui marque la constitution de la société.\nMais si la société n'acquiert la personnalité morale qu'à dater de son immatriculation, les\nfuturs associés se trouvent engagés les uns envers les autres dès la signature du pacte\nsocial : la société existe bel et bien, en tant que contrat, et l'un d'eux ne peut donc prétendre\nse voir délié de ses engagements au motif que la société n'a pas encore été immatriculée.\nLes statuts matérialisent le contrat de société. Ils régissent à la fois les rapports entre\nassociés et les rapports entre ceux-ci et la société. Comme tout contrat, ils ont force\nobligatoire. Ils s'imposent aux associés, y compris ceux qui ne sont pas fondateurs, et qui\nauraient rejoint la société en cours de vie sociale, et à la société.\nSource : dalloz.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe,\nanalysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nMathieu et Héloïse sont amis d’enfance et ont développé un goût commun pour la mode et\nla création de vêtements. Les études les séparent pendant quelques années. Se retrouvant\nlors d’une soirée, ils décident de concrétiser leur passion en collaborant sur la création de\nvêtements. Les deux amis se quittent enchantés, en songeant aux bénéfices qu’ils\npourraient réaliser.\nMathieu, très accaparé par son métier de styliste pour diverses enseignes, n’a pas le temps\nde s’impliquer dans le montage du projet. Héloïse décide donc de prendre en charge la\ncréation de la société et rédige intégralement les statuts : Mathieu apporterait ses\ncompétences et Héloïse la somme de 10 000 euros. Héloïse envoie les statuts à Mathieu.\nCe dernier les lit rapidement sans vraiment les comprendre et les signe entre deux rendezvous professionnels.\nPeu après, Mathieu lit attentivement les statuts et prend conscience de son engagement. Il\nse rend compte qu’une société, la SARL dénommée « Cust and Cop » a été créée et qu’elle\na pour objet social la customisation et la vente de vêtements de seconde main. Discutant\ndes statuts avec un ami, celui-ci lui indique qu’il est associé dans la SARL alors que Mathieu\ndésirait simplement collaborer en tant que salarié.\nMathieu contacte Héloïse pour l’informer de son souhait de contester la validité des statuts\nde la société « Cust and Cop ». Très inquiète, Héloïse vous consulte afin de s’assurer de la\nvalidité de ce contrat.\nQuestions",
+    "annexes": [
+     "ANNEXE 1 - Articles du Code civil",
+     "ANNEXE 2 - Jurisprudence de la Cour de cassation du 3 mars 2021",
+     "ANNEXE 3 - Extrait des statuts de la société Cust and Cop",
+     "Annexe 4 – Statuts de société",
+     "Annexe 5 - Un consentement valide au sens du règlement général de protection des"
+    ],
+    "questions": [
+     {
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique qu’Héloïse peut avancer pour justifier la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Mathieu peut lui opposer pour contester la validité du contrat créé.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Après avoir rappelé les conditions de validité d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 5 et de vos connaissances personnelles : Pourquoi faut-il un consentement libre et éclairé lors de la formation d’un contrat ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en\nannexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et\nrépondez aux questions posées.\nSituation juridique\nPour se rendre à la fête d’anniversaire de mariage de ses parents qui aura lieu à Paris\nfin juillet, Patrick Langlois souhaite s’acheter un nouveau costume. Profitant de sa\nvenue dans la capitale, il se rend dans un grand magasin. Il repère un beau costume\ngris. Bien que celui-ci coûte 495 €, il se laisse tenter et l’achète.\nGêné par l’étiquette, sur laquelle sont inscrites les informations relatives aux matières\nqui composent la veste ainsi que ses conditions de lavage, il l’enlève.\nSix mois après la fête d’anniversaire, il confie le nettoyage de son costume à l'employé\nd'un pressing (Société \"Teintura 2000\") sans précision particulière sur les tâches\néventuelles ou la composition du tissu. Celui-ci lui remet un ticket justifiant le dépôt de\nson vêtement.\nLorsqu'il récupère son costume cinq jours après, Patrick s’aperçoit que tous les bords\nde la veste ont été abîmés : des trous sont visibles. Très mécontent, Patrick demande\nau gérant de la société \"Teintura 2000\" le remboursement du prix du costume. Celuici lui explique que la nature du tissu est la cause de la réaction chimique qui a causé\nles trous dans la veste. Il lui indique que les conditions générales de vente qui sont\nrappelées sur le reçu en dépôt indique : « En cas de vêtements abîmés, la\nresponsabilité du pressing sera limitée à 10 % de la valeur du bien ».\nPatrick s’adresse à vous pour le conseiller sur ses droits.\nQuestions",
+    "annexes": [
+     "Annexe 1 : extrait du Code civil",
+     "Annexe 2 : extrait du Code de la consommation",
+     "Annexe 3 : arrêt de la Cour de cassation du 4 mai 2012",
+     "Annexe 4 : arrêt de la Cour de cassation du 11 décembre 2019,"
+    ],
+    "questions": [
+     {
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question, à savoir qualifier\njuridiquement une situation de fait, implique que le candidat mobilise un\nvocabulaire juridique précis. Il s’agit, ici, pour le candidat de déterminer les\néléments de faits à caractériser et de choisir la qualification juridique en\nadéquation.\nPatrick Langlois, un consommateur, a apporté au nettoyage un costume d’une\nvaleur de 495 euros à un professionnel, un pressing, contre la remise d’un reçu\nprouvant le dépôt du vêtement. Les deux parties ont conclu un contrat de prestation\nde service qualifiée de contrat de consommation.\nLors de la récupération de son costume, Patrick constate de nombreux dommages\nsur son vêtement. Il tente un règlement à l’amiable en demandant le remboursement\ndu prix de la vente, mais le professionnel refuse estimant que sa responsabilité ne\npeut être engagée au-delà de 10 % comme l’indique […]"
+     },
+     {
+      "enonce": "Développez l’argumentation juridique que Patrick Langlois peut avancer pour obtenir réparation du préjudice subi.",
+      "points": null,
+      "corrige": "pour obtenir réparation du préjudice subi.\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention de Patrick et de construire une argumentation\ncohérente.\nAvant de savoir si une réparation est envisageable, il convient de s’interroger\nsur la possibilité de mettre en cause la responsabilité du teinturier.\nUn contrat a été conclu entre les deux parties (ce contrat est un contrat d'entreprise\nqui se juxtapose d'un contrat de dépôt que l'on qualifie de dépôt nécessaire, on peut\ntrouver l'appellation contrat de prestation de services).\nCompte tenu de la qualité des parties, ce contrat peut être considéré comme un\ncontrat de consommation.\nSeules les règles de la […]"
+     },
+     {
+      "enonce": "Présentez l'argumentation que le gérant peut avancer pour s’exonérer ou limiter sa responsabilité.",
+      "points": null,
+      "corrige": "ou limiter sa responsabilité ?\nLe raisonnement tenu par le candidat est accepté dès l’instant où celui-ci\ncontient des arguments juridiques cohérents en lien avec la qualification des\nfaits retenue.\nIl s’agit, ici, d’amener le candidat à identifier les règles juridiques pertinentes\nen faveur de la prétention du pressing et de construire une argumentation\ncohérente.\nCompte tenu du droit positif, il est difficile d'argumenter sur la validité de la clause\nlimitative de responsabilité car la victime est un consommateur.\n\n\nLe professionnel peut chercher à s'exonérer en prouvant la faute de la victime ou\nchercher à contester la valeur du dommage.\nAucune faute commise\nLe professionnel peut avancer que les méthodes de nettoyage utilisées étaient\nconformes, qu’il a pris toutes les précautions habituellement nécessaires pour\nnettoyer un vêtement de ce type.\nSi un dommage a été causé c'est parce […]"
+     },
+     {
+      "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel.",
+      "points": null,
+      "corrige": "décembre 2019 (annexe 4) pour le cadre des relations contractuelles\nentre un professionnel et un non-professionnel.\nLa question de réflexion demande au candidat de réfléchir au sens et aux\nenjeux de la règle établie par la Cour de cassation.\nToute réponse doit être acceptée dès l’instant où elle répond à la question et\nmontre la capacité du candidat à réfléchir sur le sens de la décision pour les\nrelations entre professionnel et consommateur. Les élèves n'ont pas\nl'obligation de fournir une explication aussi complète que celle proposée ici.\nCet arrêt réitère le principe de protection du consommateur et rend difficile pour le\nprofessionnel de se soustraire à ses obligations puisque sont considérées comme\nabusives toutes les clauses qui ont pour objet de « supprimer ou de réduire le droit à\nréparation du préjudice subi par le consommateur en cas de manquement du\nprofessionnel », et ce […]"
+     }
+    ]
+   }
+  ]
+ }
+]

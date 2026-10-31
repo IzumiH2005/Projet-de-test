@@ -382,17 +382,38 @@ class Teacher:
         by_f = defaultdict(list)
         for r in rows:
             by_f[r["facet"]].append(r["chars"])
-        # gestes attendus : expressions sur-représentées dans les corrigés (log-odds, prior de Dirichlet)
+        # gestes attendus : expressions sur-représentées dans les corrigés (log-odds, prior de Dirichlet).
+        # Deux contrastes : contre le cours (ce n'est pas du savoir brut) et contre les énoncés/situations
+        # des sujets (ce n'est pas le registre de la prose ordinaire) ; on garde le plus petit des deux z.
+        ans = [q.answer for q in A]
+        prose = sorted({q.situation for q in self.Q if q.situation}) + [q.stem for q in self.Q]
         cv = CountVectorizer(ngram_range=(1, 3), strip_accents="unicode", min_df=3, token_pattern=r"(?u)\b\w\w+\b")
-        cv.fit([q.answer for q in A] + self.pass_text)
-        a = np.asarray(cv.transform([q.answer for q in A]).sum(0)).ravel()
-        c = np.asarray(cv.transform(self.pass_text).sum(0)).ravel()
-        prior = (a + c) / (a + c).sum() * 500
-        la = np.log((a + prior) / (a.sum() + prior.sum() - a - prior))
-        lc = np.log((c + prior) / (c.sum() + prior.sum() - c - prior))
-        z = (la - lc) / np.sqrt(1 / (a + prior) + 1 / (c + prior))
+        cv.fit(ans + self.pass_text + prose)
+
+        def z_of(a, c, k=500):
+            prior = (a + c) / (a + c).sum() * k
+            la = np.log((a + prior) / (a.sum() + prior.sum() - a - prior))
+            lc = np.log((c + prior) / (c.sum() + prior.sum() - c - prior))
+            return (la - lc) / np.sqrt(1 / (a + prior) + 1 / (c + prior))
+        # troisième contraste : le méta-texte des corrigés (en-têtes, barème, consignes au correcteur)
+        meta = []
+        for t in self.grading.values():
+            for x in ans:
+                t = t.replace(x[:3000], " ")
+            meta.append(t)
+        Xa = cv.transform(ans)
+        a = np.asarray(Xa.sum(0)).ravel()
+        z = np.minimum.reduce([z_of(a, np.asarray(cv.transform(ref).sum(0)).ravel())
+                               for ref in (self.pass_text, prose, meta)])
+        df_a = np.asarray((Xa > 0).sum(0)).ravel() / max(len(ans), 1)
         voc = cv.get_feature_names_out()
-        marks = [voc[i] for i in np.argsort(-z) if a[i] >= 4 and not re.search(r"\d", voc[i])][:40]
+        cand = [i for i in np.argsort(-z) if z[i] > 2 and a[i] >= 4 and df_a[i] < 0.5 and not re.search(r"\d", voc[i])]
+        marks = []
+        for i in cand:  # pas de doublon d'un n-gramme déjà retenu
+            if not any(voc[i] in m or m in voc[i] for m in marks):
+                marks.append(voc[i])
+            if len(marks) == 30:
+                break
         # consignes de correction : phrases des corrigés qui disent ce qui est attendu
         att = Counter()
         for t in self.grading.values():
@@ -543,6 +564,27 @@ class Teacher:
                     coef = dict(zip(["frequence_passee", "annees_depuis_derniere", "frequence_du_theme", "taille_section"],
                                     np.round(lr.coef_[0], 2)))
                     out["modele"].append(roc_auc_score(yt, np.tile(lr.predict_proba(sc.transform(Ft))[:, 1], len(test))))
+        # probabilité pour l'année suivante : même modèle, appris sur toutes les années
+        self.p_next = np.array([self.sec_freq[si] for si in range(S)])
+        if ys and "feats" in locals():
+            ynext = ys[-1] + 1
+            Xtr, ytr = [], []
+            for y2 in ys[1:]:
+                p2 = [e for e in self.ex_secs if yr.get(e) and yr[e] < y2]
+                t2 = [e for e in self.ex_secs if yr.get(e) == y2]
+                if p2:
+                    F2 = feats(p2, y2)
+                    for e in t2:
+                        Xtr.append(F2); ytr.append([si in self.ex_secs[e] for si in range(S)])
+            allp = [e for e in self.ex_secs if yr.get(e)]
+            if Xtr and allp:
+                Xa, ya = np.vstack(Xtr), np.array(ytr, int).ravel()
+                if len(set(ya)) == 2:
+                    sc = StandardScaler().fit(Xa)
+                    lr = LogisticRegression(C=0.5, max_iter=500).fit(sc.transform(Xa), ya)
+                    self.p_next = lr.predict_proba(sc.transform(feats(allp, ynext)))[:, 1]
+        self.rep["probabilite_annee_suivante"] = {self.sections[si].title: round(float(self.p_next[si]), 3)
+                                                  for si in np.argsort(-self.p_next)}
         self.rep["previsibilite_sections"] = {
             "methode": "pour chaque année, appris sur les années précédentes seulement ; AUC (0,5 = hasard)",
             "auc_popularite": round(float(np.mean(out["popularite"])), 3) if out["popularite"] else None,
