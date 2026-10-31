@@ -203,15 +203,28 @@ class Forecast:
         col = {w: it.wv.vocabulary_[w] for w in terms}
         insec = np.asarray((it.Pw[t.pass_sec == s] > 0).mean(0)).ravel()
         allc = np.asarray((it.Pw > 0).mean(0)).ravel()
-        terms = [w for w in terms if insec[col[w]] >= 2.5 * allc[col[w]] and w not in self.generic and allc[col[w]] < 0.06]
+        if not hasattr(self, "_spread"):  # part des chapitres où le mot apparaît : un mot de liaison est partout
+            ps = np.asarray(t.pass_sec)
+            M = np.vstack([np.asarray((it.Pw[ps == z] > 0).max(0).todense()).ravel() for z in np.unique(ps)])
+            self._spread = M.mean(0)
+        terms = [w for w in terms if insec[col[w]] >= 2.5 * allc[col[w]] and w not in self.generic and allc[col[w]] < 0.06
+                 and self._spread[col[w]] < 0.3]
         if not hasattr(self, "_all_ans"):  # tous les corrigés : pour écarter les mots de liaison
             self._all_ans = [set(re.findall(r"[a-z]{4,}", D.norm(q.answer))) for q in t.Q if q.answer]
+            ex_w = defaultdict(set)  # sans corrigés : vocabulaire réellement employé par l'enseignant
+            for q in t.Q:
+                for w in set(re.findall(r"[a-z]{4,}", D.norm(q.stem + " " + q.situation))):
+                    ex_w[w].add(q.exam)
+            self._exam_n = {w: len(e) for w, e in ex_w.items()}
         cachee, dite = [], []
         for w in terms:
             r_said = np.mean([w in x for x in said])
             r_ans = np.mean([w in x for x in ans]) if ans else None
             r_all = np.mean([w in x for x in self._all_ans]) if self._all_ans else 0
-            spec = r_ans is None or r_ans >= 2 * r_all  # propre aux corrigés de ce chapitre
+            if r_ans is None:  # pas de corrigé : mot de l'enseignant (≥ 3 sujets) et récurrent dans le chapitre
+                spec = self._exam_n.get(w, 0) >= 3 and insec[col[w]] >= 0.1
+            else:
+                spec = r_ans >= 2 * r_all  # propre aux corrigés de ce chapitre
             if r_said < 0.2 and spec and (r_ans is None or r_ans >= max(0.25, 2 * r_said)):
                 cachee.append(w)
             elif r_said >= 0.4:
@@ -239,6 +252,75 @@ class Forecast:
                 break
         return out
 
+    # ------------------------------------------------------------------ tout le cours
+    def _pot_model(self, train_years):
+        """Manière de l'enseignant sans l'historique : quel GENRE de passage il choisit
+        (place, centralité, insistance, références...), donc applicable à un passage jamais tombé."""
+        Xtr, ytr = self._train(train_years)
+        from sklearn.linear_model import LogisticRegression
+        from sklearn.pipeline import make_pipeline
+        from sklearn.preprocessing import StandardScaler
+        return make_pipeline(StandardScaler(), LogisticRegression(max_iter=2000, class_weight="balanced")).fit(Xtr[:, :10], ytr)
+
+    def novelty_proof(self, min_hist: int = 3) -> dict:
+        """Preuve « comme en vrai » sur les questions NOUVELLES : passage jamais interrogé avant
+        l'année testée. Le potentiel les classe-t-il mieux que le hasard ?"""
+        aucs, cov, n_new, tests = [], [], 0, []
+        for y in [z for z in self.years if len([w for w in self.years if w < z]) >= min_hist]:
+            past = [z for z in self.years if z < y]
+            seen = set().union(*(self.tested[z] for z in past))
+            fresh = np.array([p not in seen for p in range(self.n)])
+            yte = np.array([p in self.tested[y] for p in range(self.n)], int)
+            if fresh.sum() < 10 or len(set(yte[fresh])) < 2:
+                continue
+            pot = self._pot_model(past).predict_proba(self.rows(y, past)[:, :10])[:, 1]
+            aucs.append(roc_auc_score(yte[fresh], pot[fresh]))
+            idx = np.where(fresh)[0]
+            sel = set(idx[np.argsort(-pot[idx])[:max(1, int(0.25 * len(idx)))]].tolist())
+            qs = [i for i in self.q_of[y] if int(self.it.pas[i]) not in seen]
+            n_new += len(qs)
+            if qs:
+                cov.append(np.mean([int(self.it.pas[i]) in sel for i in qs]))
+            tests.append(y)
+        return {"annees_testees": tests, "questions_nouvelles": n_new,
+                "auc_potentiel_sur_passages_jamais_tombes": round(float(np.mean(aucs)), 3) if aucs else None,
+                "nouvelles_couvertes_par_le_quart_retenu": round(float(np.mean(cov)), 3) if cov else None, "hasard": 0.25}
+
+    def programme(self, per_sec: int = 3) -> list[dict]:
+        """Chaque chapitre du cours, classé par priorité d'entraînement."""
+        t, ps, K = self.t, np.asarray(self.t.pass_sec), len(self.t.sections)
+        self.pot = self._pot_model(self.years).predict_proba(self.rows(self.annee, self.years)[:, :10])[:, 1]
+        from scipy.stats import rankdata
+        rp, rq = rankdata(self.prob) / self.n, rankdata(self.pot) / self.n
+        sec_years = {s: sum(any(int(ps[p]) == s for p in self.tested[z]) for z in self.years) for s in range(K)}
+        rows = []
+        for s in range(K):
+            idx = np.where(ps == s)[0]
+            if not len(idx):
+                continue
+            score = 0.6 * rp[idx] + 0.4 * rq[idx]
+            rows.append({"section": s, "titre": t.sections[s].title, "passages": int(len(idx)),
+                         "proba": round(float(self.prob[idx].max()), 3), "potentiel": round(float(self.pot[idx].max()), 3),
+                         "annees_tombees": int(sec_years[s]), "sur": len(self.years),
+                         "priorite": round(float(score.max()), 3), "_top": idx[np.argsort(-score)[:per_sec]].tolist()})
+        rows.sort(key=lambda r: -r["priorite"])
+        q = np.quantile([r["priorite"] for r in rows], [0.5, 0.75])
+        qp = np.quantile([r["potentiel"] for r in rows], 0.5)
+        for r in rows:
+            if r["priorite"] >= q[1] and r["annees_tombees"] >= 2:
+                r["niveau"] = "incontournable"
+            elif r["annees_tombees"] <= 1 and r["potentiel"] >= qp:
+                r["niveau"] = "peu ou jamais tombé, mais dans la manière du professeur"
+            elif r["priorite"] >= q[0]:
+                r["niveau"] = "probable"
+            else:
+                r["niveau"] = "à connaître"
+            r["passages_cles"] = [{"passage": int(p), "texte": t.pass_text[p][:400], "proba": round(float(self.prob[p]), 3),
+                                   "potentiel": round(float(self.pot[p]), 3),
+                                   "deja_tombe": int(sum(p in self.tested[z] for z in self.years)), **self.hidden(int(p))}
+                                  for p in r.pop("_top")]
+        return rows
+
 
 def run(name: str, log=print) -> dict:
     warnings.filterwarnings("ignore")
@@ -252,12 +334,16 @@ def run(name: str, log=print) -> dict:
     log(f"  preuve : {json.dumps({k: v for k, v in bt.items() if isinstance(v, dict)}, ensure_ascii=False)[:600]}")
     fc.next_year()
     rk = fc.ranking()
+    nov = fc.novelty_proof()
+    log(f"  nouveautés : {nov}")
+    prog = fc.programme()
     lab = {x["id"]: x for x in ty["types"]}
-    for r in rk:
+    for r in rk + [x for g in prog for x in g["passages_cles"]]:
         k = r.pop("type_d_intention")
         r["intention"] = {"fort": lab[k]["fort"], "faible": lab[k]["faible"]} if k in lab else None
     rep = {"matiere": name, "annee_prevue": fc.annee, "annees_connues": fc.years, "preuve_comme_en_vrai": bt,
-           "famille_choisie": fc.final, "passages_les_plus_probables": rk}
+           "famille_choisie": fc.final, "passages_les_plus_probables": rk,
+           "preuve_sur_les_nouveautes": nov, "programme": prog}
     out = ROOT / "output" / ("droit" if name == "droit" else f"{name}_prof")
     out.mkdir(parents=True, exist_ok=True)
     (out / "previsions.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
