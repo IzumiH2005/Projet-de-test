@@ -1,0 +1,52 @@
+{
+  "id": "E4.2",
+  "type": "exercices",
+  "titre": "Propriété des biens corporels et incorporels",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : définition et limite du droit de propriété",
+      "texte": "Le droit de propriété est pour son titulaire un droit fondamental et absolu, qu’il s’agisse\nd’un droit portant sur un bien meuble ou immeuble. Le législateur français a toutefois\nanticipé les abus possibles du droit de propriété en énonçant, dans une même\ndéfinition, qu’il est « le droit de jouir et disposer des choses de la manière la plus\nabsolue, pourvu qu'on n'en fasse pas un usage prohibé par les lois ou par les\nrèglements » (article 544 du Code civil).\nCette définition est à rapprocher du principe même de liberté érigée en droit\nfondamental de notre société par l’article 4 de la Déclaration des droits de l’homme : «\nla liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui : ainsi, l’exercice des\ndroits naturels de chaque homme n’a de bornes que celles qui assurent aux autres\nmembres de la société la jouissance de ces mêmes droits… ».\nDès lors, une maison, un appartement, un hangar, un terrain nous appartient et cela\nsuppose que nous puissions faire ce que bon nous semble dessus. A condition\ntoutefois de ne pas abuser de ce droit au point de nuire au détenteur d’un autre droit\nde propriété à proximité. En effet, une propriété se trouve rarement isolée. La\ncroissance urbaine fait qu’à ce jour un propriétaire va se heurter aux propriétés\nvoisines, lesquelles imposent des limites à l’exercice absolu de son propre droit de\npropriété.\nAinsi, est auteur d’un abus de droit celui qui commet une faute en dépassant les limites\nde l’exercice du droit qui lui est conféré.\nL’abus de droit de propriété peut être caractérisé dans deux situations. Il peut d’abord\nl’être lorsque l’on use de sa propriété dans le but de nuire à son voisin. Il s’agit par\nexemple du fait d’édifier des pylônes de bois avec une pointe en métal, autour de son\njardin, sans utilité aucune pour le propriétaire, dans le seul but que ces pointes\ndéchirent le ballon dirigeable sortant du hangar de son voisin (Req. 3 août 1915,\nCoquerel c/ Clément Bayard). C’est également le cas lorsqu’un propriétaire plante des\narbres hauts devant la fenêtre de son voisin, lui gâchant ainsi la vue et l’ensoleillement.\nPeut ensuite également constituer un abus de droit de propriété le fait d’agir sans […]",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Lucas Benoît, graphiste indépendant, a créé en 2024 le logo et le nom « Brindille » pour une gamme de tisanes biologiques qu’il commercialise en ligne ; il a déposé la marque auprès de l’INPI. En janvier 2026, il découvre que la SARL Herbaflor vend sur les marchés des tisanes sous le nom « Brindilles », avec un logo presque identique. Les ventes de Lucas ont baissé de 15 %.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il s’agit pour le candidat de mobiliser un vocabulaire juridique précis.\nLucas Benoît, personne physique, professionnel (entrepreneur individuel), est titulaire d’un droit de propriété sur un bien incorporel : la marque commerciale « Brindille », qu’il a déposée à l’INPI. Ce dépôt lui confère un droit de propriété industrielle, c’est-à-dire un monopole d’exploitation de la marque pour les produits désignés (tisanes). Son logo, création originale, peut en outre être protégé par le droit d’auteur.\nLa SARL Herbaflor, personne morale de droit privé, commerçante, utilise sans autorisation un signe quasiment identique (« Brindilles ») et un logo très proche pour des produits identiques. Ces faits peuvent être qualifiés d’atteinte au droit de propriété sur la marque, c’est-à-dire de contrefaçon.\nLe dommage est un préjudice patrimonial : une baisse de 15 % du chiffre d’affaires de Lucas, liée au risque de confusion dans l’esprit de la clientèle.\nLe litige oppose donc le titulaire d’une marque à un concurrent qui en imite le signe. Lucas pourra exercer une action en contrefaçon afin de faire cesser l’utilisation du signe et d’obtenir réparation de son préjudice. Contrairement aux biens corporels, la propriété d’une marque n’est pas perpétuelle : elle est protégée pour dix ans, renouvelables.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "situation": "Hugo Ferrand a acheté une maison à Annecy en 2023. Il loue le rez-de-chaussée à un étudiant pour 550 euros par mois et occupe l’étage. En 2026, il décide de vendre la maison. Son frère Arnaud, qui y a entreposé depuis cinq ans une vieille moto de collection lui appartenant, prétend que cette présence lui donne des droits sur le garage.",
+      "enonce": "Qualifiez juridiquement les parties et les faits.",
+      "points": 2,
+      "reponse_attendue": "Hugo Ferrand, personne physique, est propriétaire d’un bien corporel immeuble (la maison). Il exerce sur ce bien les trois attributs du droit de propriété : l’usus, puisqu’il occupe l’étage ; le fructus, puisqu’il perçoit des fruits civils (les loyers de 550 euros versés par l’étudiant, qui est locataire, titulaire d’un simple droit de jouissance au sens de l’article 543 du Code civil) ; l’abusus, puisqu’il décide de vendre le bien.\nArnaud Ferrand, personne physique, est propriétaire d’un bien corporel meuble (la moto de collection). Il ne dispose d’aucun droit de propriété sur le garage : le simple fait d’y entreposer un bien, avec l’accord tacite de son frère, ne lui confère qu’une tolérance et non un droit réel.\nLes faits : Hugo veut exercer son droit de disposer de son bien (abusus) ; Arnaud revendique un droit sur une partie de l’immeuble. Or le droit de propriété est absolu, exclusif (Hugo est seul à pouvoir en user et en disposer) et perpétuel : selon l’article 2227 du Code civil, il est imprescriptible et ne se perd pas par le non-usage. La présence de la moto ne remet donc pas en cause le droit d’Hugo, qui pourra exiger que son frère reprenne son bien avant la vente.",
+      "articles_cites": [
+        "543",
+        "2227"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Marine Delcourt a fait planter en 2025, en limite de son terrain, une rangée de thuyas de huit mètres de haut, sans utilité particulière pour elle, juste devant les baies vitrées de son voisin, M. Chabert, avec qui elle est en conflit depuis des années. La maison de M. Chabert est désormais privée de soleil l’après-midi.",
+      "enonce": "Après avoir rappelé les attributs du droit de propriété, vous répondrez à la question suivante à l’aide de l’annexe 1 et de vos connaissances personnelles : Pourquoi le droit sanctionne-t-il l’abus du droit de propriété ?",
+      "points": 2,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive. Au moins deux idées sont attendues.\nRappel : le droit de propriété confère à son titulaire l’usus (user du bien), le fructus (en percevoir les fruits) et l’abusus (en disposer). Marine Delcourt peut donc, en principe, planter ce qu’elle veut sur son terrain.\nPourquoi le droit sanctionne-t-il l’abus ?\n- Parce que le droit de propriété n’est absolu que dans les limites fixées par la loi : l’article 544 du Code civil (annexe 1) interdit « un usage prohibé par les lois ou par les règlements ». Le droit est conféré pour servir les intérêts de son titulaire, non pour nuire.\n- Parce que la liberté de chacun s’arrête là où commence celle d’autrui (article 4 de la DDHC, annexe 1). L’annexe 1 cite précisément le cas d’un propriétaire qui plante des arbres hauts devant la fenêtre de son voisin, lui gâchant la vue et l’ensoleillement. En l’espèce, les thuyas sont sans utilité pour Marine et plantés dans un contexte de conflit : l’intention de nuire peut être retenue, comme dans l’arrêt Clément-Bayard (1915).\n- Parce que la sanction protège la paix sociale entre voisins : M. Chabert pourra obtenir l’arrachage ou l’élagage des arbres et des dommages et intérêts.",
+      "articles_cites": [
+        "544"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Le studio de photographie de Nadia Rami a publié en 2025 sur son site une série de clichés originaux de paysages bretons. En mars 2026, l’agence immobilière Kerimmo reprend trois de ces photographies dans ses annonces publicitaires, sans autorisation ni mention du nom de Nadia.",
+      "enonce": "Développez l’argumentation juridique que Nadia Rami peut avancer pour faire cesser l’utilisation de ses photographies et obtenir réparation de son préjudice.",
+      "points": 2,
+      "reponse_attendue": "Il convient d’accepter tous les autres arguments pertinents.\nSur quel fondement ? Nadia Rami est titulaire d’un droit de propriété sur un bien incorporel : le droit d’auteur sur ses photographies. Ce droit naît du seul fait de la création, sans formalité de dépôt, dès lors que l’œuvre est originale, c’est-à-dire qu’elle porte l’empreinte de la personnalité de son auteur (choix du cadrage, de la lumière, de l’instant).\nEn l’espèce, les photographies de paysages bretons publiées par Nadia sont des clichés originaux : elles constituent des œuvres de l’esprit protégées.\nLe droit d’auteur comporte des droits patrimoniaux (droit exclusif d’autoriser la reproduction et la représentation de l’œuvre, et d’en tirer une rémunération) et un droit moral (droit à la paternité, au respect de l’œuvre). Or l’agence Kerimmo a reproduit trois photographies sans autorisation, ce qui porte atteinte aux droits patrimoniaux, et sans mentionner le nom de Nadia, ce qui porte atteinte à son droit moral.\nConclusion : Nadia peut exercer une action en contrefaçon pour obtenir le retrait des photographies et des dommages et intérêts réparant la perte de la rémunération qu’elle aurait dû percevoir.",
+      "articles_cites": []
+    }
+  ]
+}

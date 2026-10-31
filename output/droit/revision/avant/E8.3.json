@@ -1,0 +1,46 @@
+{
+  "id": "E8.3",
+  "type": "exercices",
+  "titre": "Le respect de la concurrence",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : La loyauté de la concurrence",
+      "texte": "Source : lexbase.fr\nLe principe de loyauté est une conséquence de la liberté de la concurrence, elle-même\nun principe secondaire découlant de la liberté du commerce et de l’industrie.\nIl n’est régi par aucun texte. La concurrence ne peut être exercée que dans le respect\ndes droits des autres acteurs économiques et doit être conforme aux usages du\ncommerce.\nLes entrepreneurs ne disposent d’aucun droit privatif sur leur clientèle, qui constitue\nseulement une potentialité de chiffre d’affaires. Par conséquent, ils peuvent démarcher\nla clientèle d’un concurrent.\nTraditionnellement, le domaine de la concurrence déloyale avait pour limites la\nconcurrence interdite et la concurrence réglementée. Elle avait pour finalité\nd’empêcher un usage excessif de la liberté de la concurrence. Ce domaine s’est élargi\nafin de sanctionner des comportements considérés comme dangereux pour les\nconsommateurs, ou contraires à une concurrence loyale, notamment en matière de\npublicité.\nL’utilisation de nouvelles techniques commerciales et l’apparition d’Internet ont\négalement contribué à cet élargissement, en raison de la répression du parasitisme.\nLes comportements déloyaux ont fait l’objet d’une classification créée par la doctrine\net ont été regroupés en quatre catégories : le dénigrement, la désorganisation, la\nconfusion, et le parasitisme.\nSource : C.Lebel, Titre 1. La loyauté de la concurrence,\nDroit des affaires : Cours et exercices corrigés, 2012.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Plusieurs commerçants d’une même zone commerciale se plaignent auprès de la chambre de commerce : une enseigne nouvellement installée aurait copié leurs vitrines, démarché leurs clients et recruté leurs vendeurs. Le président de la chambre rappelle pourtant que « la concurrence est libre ».",
+      "enonce": "Après avoir défini deux exemples de comportements déloyaux, vous répondrez à la question suivante à l’aide de l’annexe 1 et de vos connaissances personnelles : Pourquoi la liberté de la concurrence doit-elle être limitée par le droit ?",
+      "points": 2,
+      "reponse_attendue": "Définitions :\n- La désorganisation résulte de procédés qui nuisent à l’organisation interne d’un concurrent (divulgation de fichiers clients, débauchage fautif de salariés, détournement de commandes) ou à l’organisation générale du marché.\n- La confusion consiste à créer dans l’esprit de la clientèle une assimilation entre deux entreprises ou leurs produits, par exemple en imitant un logo ou un emballage.\nLa liberté de la concurrence découle de la liberté du commerce et de l’industrie : chacun peut produire et commercer librement, et « les entrepreneurs ne disposent d’aucun droit privatif sur leur clientèle » (annexe 1). Elle doit pourtant être limitée :\n- parce qu’elle « ne peut être exercée que dans le respect des droits des autres acteurs économiques » et des usages du commerce (annexe 1) : la liberté de l’un s’arrête là où commence celle de l’autre ;\n- pour empêcher « un usage excessif de la liberté de la concurrence » (annexe 1) : sans limite, l’entreprise la plus forte ou la moins scrupuleuse pourrait évincer les autres, ce qui détruirait la concurrence elle-même ;\n- pour protéger les consommateurs contre des comportements dangereux ou trompeurs, notamment en matière de publicité et sur Internet (annexe 1) ;\n- pour sanctionner : les principes de la responsabilité civile permettent à la victime d’obtenir réparation, et l’Autorité de la concurrence veille au respect de la libre concurrence.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "situation": "La SAS « Kiwi Paddle » fabrique des planches de paddle gonflables depuis 2022. Elle a investi 45 000 euros dans des photos, vidéos et fiches techniques pour son site internet. En avril 2026, la SARL « Riviera Glisse » met en ligne un site reprenant ces contenus à l’identique et propose une gamme « Kiwi Tour ». Les ventes en ligne de Kiwi Paddle baissent de 20 % ; plusieurs clients ont commandé chez Riviera Glisse en pensant acheter chez Kiwi Paddle.",
+      "enonce": "Développez l’argumentation juridique que la société « Kiwi Paddle » peut avancer pour obtenir la réparation du préjudice subi.",
+      "points": 2,
+      "reponse_attendue": "La société Kiwi Paddle peut agir en concurrence déloyale, sur le fondement de la responsabilité civile extracontractuelle pour faute : elle doit prouver une faute, un dommage et un lien de causalité.\nLa faute : le parasitisme est le comportement par lequel un agent économique s’immisce dans le sillage d’un autre pour tirer profit, sans rien dépenser, de ses efforts et de son savoir-faire. En l’espèce, la société Riviera Glisse reprend mot pour mot les fiches techniques, les photos et les vidéos de démonstration réalisées par Kiwi Paddle, ainsi que le nom « Kiwi Tour » proche de la gamme de Kiwi Paddle. Elle profite ainsi, sans investir, de deux ans de travail et de 45 000 euros de dépenses de communication. La reprise du nom peut aussi créer une confusion dans l’esprit des clients.\nLe dommage : Kiwi Paddle subit un préjudice financier (perte de commandes, baisse de 20 % des ventes en ligne) et un préjudice moral (banalisation de son image).\nLe lien de causalité : la baisse des ventes apparaît dès la mise en ligne du site concurrent, et des clients ont commandé chez Riviera Glisse en croyant acheter chez Kiwi Paddle.\nKiwi Paddle peut donc demander des dommages et intérêts et le retrait des contenus copiés.",
+      "articles_cites": []
+    },
+    {
+      "slot": 3,
+      "situation": "Arnaud TESSIER, opticien à Reims, affiche en vitrine en janvier 2026 : « Montures à partir de 39 euros, deux fois moins cher qu’en face ». Les prix sont exacts. L’opticien d’en face, la SARL « Optique Lumen », qui vient de perdre son partenariat avec une grande mutuelle, constate une baisse de fréquentation et l’assigne pour dénigrement.",
+      "enonce": "Développez l’argumentation juridique que M. Arnaud TESSIER pourrait opposer à la société « Optique Lumen ».",
+      "points": 2,
+      "reponse_attendue": "Optique Lumen reproche à Arnaud TESSIER un dénigrement. Le dénigrement consiste à répandre des informations péjoratives et malveillantes sur un concurrent ou ses produits, qui lui apportent le discrédit et dépassent la simple liberté d’expression.\nArnaud TESSIER peut d’abord soutenir qu’il n’existe pas de faute. Il exerce sa liberté d’expression et la liberté de la concurrence : un commerçant peut mettre en valeur ses propres produits et comparer les prix, à condition de rester objectif. En l’espèce, son affiche indique « montures à partir de 39 euros, deux fois moins cher qu’en face », ce qui correspond à un relevé de prix exact et vérifiable ; il ne porte aucune appréciation sur l’honnêteté ou la compétence d’Optique Lumen.\nIl peut ensuite rappeler que les entrepreneurs ne disposent d’aucun droit privatif sur leur clientèle : attirer les clients d’un concurrent par des prix plus bas est le jeu normal de la concurrence.\nEnfin, il peut contester le lien de causalité et le dommage : la baisse de fréquentation d’Optique Lumen peut résulter de la fin du partenariat avec une mutuelle intervenue au même moment, et non de son affiche. Faute de prouver les trois conditions de la responsabilité civile, l’action en concurrence déloyale devrait être rejetée.",
+      "articles_cites": []
+    },
+    {
+      "slot": 4,
+      "situation": "La SARL « Délices de Provence » vend des produits d’épicerie fine aux restaurants. En février 2026, la SAS « Saveurs du Sud », concurrente, recrute quatre de ses six commerciaux en un mois. L’un d’eux emporte le fichier clients, que Saveurs du Sud utilise pour démarcher les restaurateurs. Délices de Provence perd 15 clients professionnels et son service commercial est paralysé.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "La SARL « Délices de Provence », personne morale de droit privé, société commerciale, demanderesse, reproche à la SAS « Saveurs du Sud », personne morale de droit privé, société commerciale concurrente, défenderesse, des actes de concurrence déloyale.\nLe fait générateur est une désorganisation : Saveurs du Sud a débauché quatre des six commerciaux de Délices de Provence en un mois, dont l’un a emporté le fichier clients de son ancien employeur, utilisé ensuite pour démarcher la clientèle.\nLes dommages subis par Délices de Provence sont un préjudice financier (perte de 15 clients professionnels, baisse du chiffre d’affaires) et une désorganisation de son service commercial.\nLe problème juridique est le suivant : une entreprise qui recrute massivement les salariés d’un concurrent et utilise ses informations commerciales engage-t-elle sa responsabilité civile au titre de la concurrence déloyale ?",
+      "articles_cites": []
+    }
+  ]
+}

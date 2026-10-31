@@ -14,7 +14,6 @@ from __future__ import annotations
 
 import json
 import shutil
-import subprocess
 import sys
 from pathlib import Path
 
@@ -39,6 +38,9 @@ def prepare(out: Path, batch: int = 5):
     for i in range(0, len(items), batch):
         (rev / f"lot_{i // batch + 1}.json").write_text(json.dumps(items[i:i + batch], ensure_ascii=False, indent=1), encoding="utf-8")
     shutil.copy(out / "validation.json", rev / "validation_avant.json")
+    (rev / "avant").mkdir(exist_ok=True)
+    for it in items:  # versions d'origine, pour pouvoir rejeter une révision
+        shutil.copy(ROOT / it["fichier"], rev / "avant" / f"{it['id']}.json")
     print(f"{len(items)} fichiers à réviser -> {rev}")
 
 
@@ -53,8 +55,7 @@ def keep_best(out: Path):
         if i in B and score(B[i]) >= score(A[i]):
             kept.append(i)
             continue
-        old = subprocess.run(["git", "show", f"HEAD:{it['fichier']}"], cwd=ROOT, capture_output=True, text=True, check=True).stdout
-        (ROOT / it["fichier"]).write_text(old, encoding="utf-8")
+        shutil.copy(rev / "avant" / f"{i}.json", ROOT / it["fichier"])
         rejected.append(i)
     res = {"gardees": kept, "rejetees": rejected}
     (rev / "acceptation.json").write_text(json.dumps(res, ensure_ascii=False), encoding="utf-8")
