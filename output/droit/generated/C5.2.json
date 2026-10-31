@@ -1,0 +1,73 @@
+{
+  "id": "C5.2",
+  "type": "cas",
+  "titre": "Le toboggan de Ludiparc",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS Ludiparc exploite un parc de loisirs aquatiques à Montélimar, ouvert de juin à septembre. Le 15 novembre 2025, elle conclut avec la SARL Aqua’Structures, entreprise spécialisée dans les équipements de loisirs, un contrat portant sur la fabrication et l’installation d’un toboggan géant pour un prix de 48 000 euros HT. Un acompte de 20 000 euros est versé à la signature. Le contrat prévoit une livraison et une mise en service au plus tard le 15 mai 2026, ainsi qu’une clause résolutoire.\nLe 20 avril 2026, la SARL Aqua’Structures informe Ludiparc que le chantier aura du retard : son fournisseur habituel de résine, en difficulté financière, a cessé ses livraisons en février. Le 18 mai 2026, le toboggan n’est toujours pas installé. Ludiparc adresse alors une mise en demeure par lettre recommandée, rappelant la clause résolutoire et accordant un délai de quinze jours. Le 5 juin 2026, les travaux n’ayant pas repris, Ludiparc notifie la résolution du contrat, refuse de verser le solde et réclame le remboursement de l’acompte ainsi que des dommages et intérêts : la campagne publicitaire annonçant « le plus grand toboggan de la Drôme » lui a coûté 6 500 euros et la fréquentation de juin a baissé de 12 %.\nLa SARL Aqua’Structures conteste, estimant que la défaillance de son fournisseur constitue un cas de force majeure.\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : articles du Code civil",
+      "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1218\nIl y a force majeure en matière contractuelle lorsqu'un événement échappant au contrôle du\ndébiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion du contrat et dont\nles effets ne peuvent être évités par des mesures appropriées, empêche l'exécution de son\nobligation par le débiteur.\nArticle 1219\nUne partie peut refuser d'exécuter son obligation, alors même que celle-ci est exigible, si\nl'autre n'exécute pas la sienne et si cette inexécution est suffisamment grave.\nArticle 1220\nUne partie peut suspendre l'exécution de son obligation dès lors qu'il est manifeste que son\ncocontractant ne s'exécutera pas à l'échéance et que les conséquences de cette\ninexécution sont suffisamment graves pour elle. Cette suspension doit être notifiée dans les\nmeilleurs délais.\nArticle 1231-1\nLe débiteur est condamné, s'il y a lieu, au paiement de dommages et intérêts soit à raison\nde l'inexécution de l'obligation, soit à raison du retard dans l'exécution, s'il ne justifie pas\nque l'exécution a été empêchée par la force majeure.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 : articles du Code civil",
+      "texte": "Article 1225 du Code civil : La clause résolutoire précise les engagements dont l'inexécution entraînera la résolution du contrat. La résolution est subordonnée à une mise en demeure infructueuse, s'il n'a pas été convenu que celle-ci résulterait du seul fait de l'inexécution. La mise en demeure ne produit effet que si elle mentionne expressément la clause résolutoire.\nArticle 1226 du Code civil : Le créancier peut, à ses risques et périls, résoudre le contrat par voie de notification. Sauf urgence, il doit préalablement mettre en demeure le débiteur défaillant de satisfaire à son engagement dans un délai raisonnable. La mise en demeure mentionne expressément qu'à défaut pour le débiteur de satisfaire à son obligation, le créancier sera en droit de résoudre le contrat. Lorsque l'inexécution persiste, le créancier notifie au débiteur la résolution du contrat et les raisons qui la motivent. Le débiteur peut à tout moment saisir le juge pour contester la résolution. Le créancier doit alors prouver la gravité de l'inexécution.\nArticle 1228 du Code civil : Le juge peut, selon les circonstances, constater ou prononcer la résolution ou ordonner l'exécution du contrat, en accordant éventuellement un délai au débiteur, ou allouer seulement des dommages et intérêts.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 : extrait du contrat conclu le 15 novembre 2025 entre la SAS Ludiparc et la SARL Aqua’Structures",
+      "texte": "Article 4 – Délai d’exécution : Le prestataire s’engage à livrer, installer et mettre en service l’équipement au plus tard le 15 mai 2026. Le respect de ce délai constitue une condition essentielle du présent contrat pour le client, dont l’activité est saisonnière.\nArticle 5 – Prix : 48 000 euros HT, dont un acompte de 20 000 euros versé à la signature ; le solde est payable à la réception de l’équipement.\nArticle 9 – Clause résolutoire : En cas de non-respect par le prestataire du délai prévu à l’article 4, le contrat sera résolu de plein droit quinze jours après une mise en demeure restée infructueuse, adressée par lettre recommandée avec accusé de réception et mentionnant expressément la présente clause.\nArticle 10 – Approvisionnement : Le prestataire fait son affaire de l’approvisionnement en matériaux et ne peut opposer au client les défaillances de ses propres fournisseurs.",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 4 : courriel de la SARL Aqua’Structures du 20 avril 2026",
+      "texte": "Objet : chantier toboggan – report\nMadame la Directrice,\nNous vous informons que notre fournisseur de résine, la société Polyfluid, a interrompu toutes ses livraisons depuis le 12 février en raison de difficultés financières. Nous recherchons actuellement un autre fournisseur, mais les délais annoncés sont de huit à dix semaines. Cet événement, totalement indépendant de notre volonté, ne nous permettra pas de respecter la date du 15 mai. Nous vous proposons une mise en service début juillet.\nCordialement,\nThierry Vallon, gérant de la SARL Aqua’Structures",
+      "source": "invente"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il s’agit pour le candidat de mobiliser un vocabulaire juridique précis. Il n’est pas attendu de phrase introductive ou conclusive.\nLa SAS Ludiparc et la SARL Aqua’Structures sont des personnes morales de droit privé, sociétés commerciales, qui agissent dans le cadre de leur activité : il s’agit d’un contrat entre professionnels.\nLe 15 novembre 2025, elles ont conclu un contrat d’entreprise (fabrication et installation d’un toboggan) synallagmatique et à titre onéreux. La SARL Aqua’Structures est débitrice d’une obligation de résultat : livrer et mettre en service l’équipement au plus tard le 15 mai 2026, délai qualifié de condition essentielle (annexe 3). La SAS Ludiparc est débitrice du prix de 48 000 euros HT, dont 20 000 euros déjà versés.\nLes faits : le délai n’a pas été respecté, ce qui constitue une inexécution contractuelle. Ludiparc a adressé une mise en demeure visant la clause résolutoire, restée infructueuse, puis a notifié la résolution du contrat et suspendu le paiement du solde (exception d’inexécution).\nLe dommage : un préjudice patrimonial (dépenses publicitaires de 6 500 euros, perte de chiffre d’affaires liée à la baisse de fréquentation).\nLe litige : Ludiparc demande la résolution, la restitution de l’acompte et des dommages et intérêts ; Aqua’Structures invoque la force majeure (défaillance de son fournisseur) pour s’exonérer de sa responsabilité contractuelle.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que la SAS Ludiparc peut avancer pour justifier la résolution du contrat et obtenir réparation du préjudice subi.",
+      "points": 3,
+      "reponse_attendue": "Il convient d’accepter tous les autres arguments pertinents. Le syllogisme juridique n’est pas la seule forme attendue.\nLa force obligatoire du contrat : selon l’article 1103 du Code civil (annexe 1), les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits. La SARL Aqua’Structures s’était engagée à mettre en service le toboggan au plus tard le 15 mai 2026. Elle ne l’a pas fait : l’inexécution est caractérisée.\nLa résolution par application de la clause résolutoire : selon l’article 1225 du Code civil (annexe 2), la clause résolutoire précise les engagements dont l’inexécution entraînera la résolution ; la résolution est subordonnée à une mise en demeure infructueuse qui doit mentionner expressément la clause. En l’espèce, l’article 9 du contrat (annexe 3) vise précisément le non-respect du délai. Ludiparc a adressé le 18 mai une mise en demeure par lettre recommandée, rappelant la clause et accordant quinze jours ; les travaux n’ayant pas repris le 5 juin, la résolution est acquise de plein droit. Ludiparc pourrait aussi se fonder sur la résolution par notification (article 1226), l’inexécution étant grave pour une activité saisonnière.\nL’exception d’inexécution : selon l’article 1219 (annexe 1), une partie peut refuser d’exécuter son obligation si l’autre n’exécute pas la sienne et si cette inexécution est suffisamment grave. Ludiparc peut donc refuser de payer le solde. La résolution entraîne en outre la restitution de l’acompte de 20 000 euros.\nLa réparation : selon l’article 1231-1 (annexe 1), le débiteur est condamné au paiement de dommages et intérêts à raison de l’inexécution ou du retard, s’il ne justifie pas d’un cas de force majeure. Ludiparc peut réclamer les 6 500 euros de publicité engagés inutilement et la perte de chiffre d’affaires liée à la baisse de fréquentation de juin, suite directe de l’inexécution.\nConclusion : Ludiparc est fondée à obtenir la résolution, la restitution de l’acompte et des dommages et intérêts.",
+      "articles_cites": [
+        "1103",
+        "1225",
+        "1226",
+        "1219",
+        "1231-1"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Présentez l’argumentation juridique que la SARL Aqua’Structures pourrait mettre en avant pour s’exonérer de sa responsabilité.",
+      "points": 3,
+      "reponse_attendue": "Il s’agit d’amener le candidat à développer des arguments pertinents au regard du contexte, puis, le cas échéant, à en apprécier la portée. Toute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.\n1er argument : l’existence d’un cas de force majeure\nSelon l’article 1231-1 du Code civil (annexe 1), le débiteur n’est pas condamné à des dommages et intérêts s’il justifie que l’exécution a été empêchée par la force majeure. L’article 1218 définit la force majeure comme un événement échappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion du contrat et dont les effets ne peuvent être évités par des mesures appropriées. Aqua’Structures soutient que la cessation brutale des livraisons de son fournisseur Polyfluid en février 2026 était extérieure à sa volonté (annexe 4), imprévisible en novembre 2025, et qu’elle n’a pas pu trouver de remplaçant dans les délais (huit à dix semaines). Si ces caractères sont réunis, elle serait totalement exonérée.\n2e argument : demander un délai plutôt que la résolution\nSelon l’article 1228 du Code civil (annexe 2), le juge peut, selon les circonstances, ordonner l’exécution du contrat en accordant un délai au débiteur. Aqua’Structures a prévenu Ludiparc dès le 20 avril et proposé une mise en service début juillet : elle peut solliciter ce délai.\nPortée de ces arguments : ils sont fragiles. La défaillance d’un fournisseur n’est en principe pas extérieure au débiteur, qui doit organiser son approvisionnement ; l’article 10 du contrat (annexe 3) prévoit d’ailleurs qu’il ne peut opposer au client les défaillances de ses propres fournisseurs. Les difficultés financières d’un partenaire sont en outre un risque prévisible, et l’existence d’autres fournisseurs montre que l’événement n’était pas irrésistible. La force majeure sera donc difficilement retenue.\nIl convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+      "articles_cites": [
+        "1231-1",
+        "1218",
+        "1228"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Déterminez les enjeux de la clause résolutoire pour le créancier et pour le débiteur.",
+      "points": 3,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive. La position doit être exprimée tout au long de la réponse rédigée.\nRappel : en cas d’inexécution, la partie victime dispose de plusieurs sanctions (article 1217 du Code civil), dont la résolution du contrat. Celle-ci peut être judiciaire (article 1228), unilatérale par notification (article 1226) ou résulter d’une clause résolutoire (article 1225), par laquelle les parties prévoient à l’avance les engagements dont l’inexécution entraînera la résolution.\nPour le créancier (ici Ludiparc), la clause résolutoire présente des avantages :\n- la rapidité et la sécurité juridique : la résolution est acquise de plein droit après une mise en demeure infructueuse, sans avoir à saisir le juge ni à prouver la gravité de l’inexécution, contrairement à la résolution par notification où le créancier agit « à ses risques et périls » ;\n- la prévisibilité : il peut anticiper l’aléa et conclure rapidement avec un autre prestataire, enjeu essentiel pour une activité saisonnière ;\n- un moyen de pression sur le débiteur pour obtenir l’exécution.\nPour le débiteur (ici Aqua’Structures), les enjeux sont différents :\n- un risque élevé : il perd le marché, doit restituer l’acompte et peut être condamné à des dommages et intérêts ;\n- mais des garanties : la clause doit préciser les engagements visés et la mise en demeure doit la mentionner expressément (article 1225), ce qui lui laisse une dernière chance d’exécuter ; il conserve la possibilité de contester en justice la mise en œuvre de la clause, notamment si elle est invoquée de mauvaise foi.\nTransversalité possible avec le management : la clause résolutoire est un outil de sécurisation des relations avec les partenaires.\nIl convient d’accepter tous les autres arguments pertinents.",
+      "articles_cites": [
+        "1217",
+        "1228",
+        "1226",
+        "1225"
+      ]
+    }
+  ]
+}

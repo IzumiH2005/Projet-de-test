@@ -1,0 +1,43 @@
+{
+  "id": "E2.3",
+  "type": "exercices",
+  "titre": "Exercices sur le recours au juge",
+  "situation": "",
+  "annexes": [],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Le 4 juin 2025, Mehdi Bouaziz, 24 ans, est interpellé à la sortie d’une bijouterie de Rouen qui vient d’être cambriolée. Dès le lendemain, un journal local publie sa photographie avec le titre « Le voleur de la rue Jeanne-d’Arc arrêté ». Mehdi Bouaziz, qui n’a encore été ni mis en examen ni jugé, conteste toute participation aux faits.",
+      "enonce": "Après avoir rappelé les droits de la défense, vous répondrez à la question suivante à l’aide de vos connaissances personnelles : Pourquoi le droit garantit-il la présomption d’innocence ?",
+      "points": 2,
+      "reponse_attendue": "Toute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.\nRappel : les droits de la défense regroupent l’ensemble des garanties permettant à une personne poursuivie de se défendre : être informée des faits qui lui sont reprochés, être assistée par un avocat, avoir accès au dossier, pouvoir garder le silence, présenter ses arguments et ses preuves devant un juge impartial, dans le respect du principe du contradictoire.\nLa présomption d’innocence signifie que toute personne suspectée ou poursuivie est considérée comme innocente tant que sa culpabilité n’a pas été établie par une décision de justice définitive. Elle est garantie car :\n- elle fait peser la charge de la preuve sur l’accusation (ministère public), et le doute profite à la personne poursuivie ; c’est une protection contre l’arbitraire et l’erreur judiciaire ;\n- elle protège l’honneur et la réputation de la personne : en l’espèce, présenter Mehdi Bouaziz comme « le voleur » avant tout jugement lui cause un préjudice qui pourrait s’avérer irréparable s’il était ensuite relaxé ;\n- elle est une condition du procès équitable : seul le juge, après une audience contradictoire, peut déclarer une personne coupable d’une infraction (contravention, délit ou crime) et prononcer une peine.\nElle limite ainsi la liberté de la presse et l’action des enquêteurs au nom de la protection des libertés individuelles.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "situation": "Le 12 septembre 2025, Lucie Perret, 67 ans, se fait arracher son sac à main sur un parking de Nantes. Elle chute et se fracture le poignet. L’auteur, Kevin Marot, est rapidement identifié et le procureur de la République décide de le poursuivre devant le tribunal correctionnel pour vol avec violence. Lucie Perret a dû engager 1 200 € de frais médicaux et ne peut plus conduire pendant deux mois.",
+      "enonce": "Développez l’argumentation juridique que Lucie Perret peut avancer pour obtenir réparation de son préjudice.",
+      "points": 2,
+      "reponse_attendue": "Lucie Perret est victime d’une infraction : le vol avec violence est un délit, jugé par le tribunal correctionnel, juridiction pénale compétente pour les délits (compétence d’attribution).\nL’action publique est exercée par le procureur de la République au nom de la société, afin d’obtenir une peine. Elle ne permet pas, à elle seule, d’indemniser la victime.\nLucie Perret peut toutefois se constituer partie civile, soit en déposant plainte avec constitution de partie civile, soit lors de l’audience devant le tribunal correctionnel. Elle exerce alors l’action civile, qui tend à la réparation du dommage directement causé par l’infraction. Le juge pénal statuera à la fois sur la culpabilité de Kevin Marot et sur les dommages-intérêts.\nEn l’espèce, elle peut démontrer un dommage corporel (fracture du poignet), un préjudice matériel (1 200 € de frais médicaux, perte du sac), un préjudice d’agrément (impossibilité de conduire pendant deux mois) et un préjudice moral. Le lien de causalité avec l’infraction est direct.\nLa constitution de partie civile lui permet en outre d’accéder au dossier, d’être assistée d’un avocat et de faire appel des dispositions civiles du jugement. Elle pourra donc obtenir la condamnation de Kevin Marot à réparer intégralement son préjudice.",
+      "articles_cites": []
+    },
+    {
+      "slot": 3,
+      "situation": "La SARL Imprimerie Vasseur a livré 5 000 catalogues à la SAS Jardins d’Armor, une entreprise de paysagisme. Estimant que les couleurs ne sont pas conformes à la commande, la SAS Jardins d’Armor refuse de payer la facture de 7 800 € et assigne la SARL Imprimerie Vasseur devant le tribunal judiciaire de Saint-Brieuc pour obtenir la résolution du contrat.",
+      "enonce": "Développez l’argumentation juridique que la SARL Imprimerie Vasseur pourrait lui opposer.",
+      "points": 2,
+      "reponse_attendue": "La SARL Imprimerie Vasseur peut d’abord contester la compétence de la juridiction saisie avant toute défense au fond, en soulevant une exception d’incompétence.\nLa compétence d’attribution détermine quel type de juridiction doit connaître d’un litige selon sa nature. Le tribunal judiciaire est la juridiction de droit commun en matière civile, mais les litiges entre commerçants ou entre sociétés commerciales relatifs à leurs actes de commerce relèvent du tribunal de commerce, composé de juges consulaires élus parmi les commerçants. Les tribunaux de commerce statuent « dans les limites de leur compétence d’attribution » (article L721-3-1 du Code de commerce).\nEn l’espèce, la SARL et la SAS sont des sociétés commerciales par la forme et le contrat de vente de catalogues est un acte de commerce conclu entre elles pour les besoins de leur activité. Le litige relève donc du tribunal de commerce de Saint-Brieuc, et non du tribunal judiciaire.\nSur le fond, la SARL pourrait ensuite rappeler que la SAS Jardins d’Armor, demanderesse, doit prouver la non-conformité alléguée (bon de commande, épreuves validées) et demander reconventionnellement le paiement de la facture de 7 800 €.\nPar conséquent, le tribunal judiciaire devrait se déclarer incompétent et renvoyer l’affaire devant le tribunal de commerce.",
+      "articles_cites": [
+        "L721-3-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Par un jugement du 2 avril 2025, le tribunal judiciaire de Dijon a condamné Arnaud Lemoine à verser 6 000 € à son ancien bailleur, Gérard Fontaine, pour des dégradations commises dans l’appartement qu’il louait. Arnaud Lemoine, qui conteste être responsable des dégâts, a fait appel le 28 avril 2025. L’audience devant la cour d’appel de Dijon est fixée au 15 janvier 2026.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Arnaud Lemoine, personne physique, était locataire d’un appartement appartenant à Gérard Fontaine, bailleur, dans le cadre d’un contrat de bail. À l’issue de ce contrat, le bailleur lui reproche des dégradations du logement, c’est-à-dire une inexécution de son obligation d’user paisiblement de la chose louée et de la restituer en bon état.\nGérard Fontaine a introduit une instance devant le tribunal judiciaire de Dijon, juridiction de premier degré compétente pour les litiges civils relatifs aux baux d’habitation. Il était demandeur et Arnaud Lemoine défendeur. Après l’audience et le délibéré, le tribunal a rendu un jugement condamnant le locataire à verser 6 000 € de dommages-intérêts.\nContestant sa responsabilité, Arnaud Lemoine a exercé une voie de recours ordinaire, l’appel, dans le délai d’un mois : il est appelant et Gérard Fontaine intimé. En vertu du principe du double degré de juridiction, la cour d’appel rejugera l’affaire en fait et en droit et rendra un arrêt, qui pourra confirmer ou infirmer le jugement.\nLe problème juridique est de savoir si le locataire doit répondre des dégradations constatées dans le logement à la fin du bail.",
+      "articles_cites": []
+    }
+  ]
+}

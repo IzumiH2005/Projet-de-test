@@ -1,0 +1,69 @@
+{
+  "id": "C3.1",
+  "type": "cas",
+  "titre": "Le chien Oslo et la pension « Pattes et Plumes »",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et répondez aux questions posées.\n\nSituation juridique\nChloé Marchand, infirmière à Annecy, part en vacances du 1er au 21 août 2025. Elle confie son chien, Oslo, un berger australien de 3 ans acheté 1 200 €, à la SARL « Pattes et Plumes », une pension pour animaux dont le siège social est situé à Sévrier. Le contrat de pension est signé le 28 juillet 2025 pour un prix de 420 €.\nLe 9 août, en fin d’après-midi, un employé de la pension laisse ouvert le portail de l’enclos pendant qu’il décharge des sacs de croquettes. Oslo s’échappe et rejoint la route départementale qui longe le lac. Il se jette dans les roues du vélo d’Hugo Ferrer, cycliste de 41 ans, qui chute lourdement. Hugo Ferrer souffre d’une fracture de la clavicule et son vélo, d’une valeur de 2 300 €, est détruit. Oslo, quant à lui, est blessé à la patte arrière ; les frais vétérinaires s’élèvent à 950 €.\nÀ son retour, Chloé Marchand, très affectée par l’état de son chien qui boite désormais, réclame à la pension le remboursement des frais vétérinaires et la réparation de son préjudice moral. Le gérant de la SARL lui répond qu’« un chien n’est qu’un bien » et qu’un violent orage, survenu le matin même, avait endommagé la clôture.\nDe son côté, Hugo Ferrer réclame la réparation de ses préjudices à la SARL « Pattes et Plumes ».",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : articles du Code civil",
+      "texte": "Article 1240\nTout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la faute\nduquel il est arrivé à le réparer.\nArticle 1241\nChacun est responsable du dommage qu'il a causé non seulement par son fait, mais encore\npar sa négligence ou par son imprudence.\nArticle 1242\nOn est responsable non seulement du dommage que l'on cause par son propre fait, mais\nencore de celui qui est causé par le fait des personnes dont on doit répondre, ou des choses\nque l'on a sous sa garde. [...] Le père et la mère, en tant qu'ils exercent l'autorité parentale,\nsont solidairement responsables du dommage causé par leurs enfants mineurs habitant\navec eux. […]\nArticle 1243\nLe propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est\nresponsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il\nfût égaré ou échappé.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 : extraits du Code civil",
+      "texte": "Article 515-14\nLes animaux sont des êtres vivants doués de sensibilité. Sous réserve des lois qui les\nprotègent, les animaux sont soumis au régime des biens.\nArticle 1218\nIl y a force majeure en matière contractuelle lorsqu'un événement échappant au\ncontrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion\ndu contrat et dont les effets ne peuvent être évités par des mesures appropriées,\nempêche l'exécution de son obligation par le débiteur.\nArticle 1231-1\nLe débiteur est condamné, s'il y a lieu, au paiement de dommages et intérêts soit à\nraison de l'inexécution de l'obligation, soit à raison du retard dans l'exécution, s'il ne\njustifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240\nTout fait quelconque de l'homme, qui cause à autrui un dommage, oblige celui par la\nfaute duquel il est arrivé à le réparer.\nArticle 1241\nChacun est responsable du dommage qu'il a causé non seulement par son fait, mais\nencore par sa négligence ou par son imprudence.\nArticle 1243\nLe propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est\nresponsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde,\nsoit qu'il fût égaré ou échappé.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 3 : extrait du contrat de pension conclu entre Chloé Marchand et la SARL « Pattes et Plumes »",
+      "texte": "Article 3 – Obligations de la pension\nLa SARL « Pattes et Plumes » s’engage à héberger, nourrir et surveiller l’animal qui lui est confié pendant toute la durée du séjour, dans des enclos sécurisés. Elle s’engage à restituer l’animal au propriétaire dans l’état où il lui a été confié.\nArticle 5 – Soins\nEn cas de blessure ou de maladie, la pension fait appel au vétérinaire de son choix. Les frais engagés sont à la charge du propriétaire, sauf faute de la pension.\nArticle 8 – Responsabilité\nLa responsabilité de la pension ne saurait être engagée en cas d’événement de force majeure.",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 4 : extrait de l’immatriculation de la SARL « Pattes et Plumes »",
+      "texte": "Dénomination sociale : Pattes et Plumes\nForme juridique : société à responsabilité limitée (SARL)\nCapital social : 15 000 €\nSiège social : 14, chemin des Crêts, 74320 Sévrier\nActivité : pension, garde et toilettage d’animaux de compagnie\nGérant : Yves Cottet\nDate d’immatriculation : 6 mars 2019",
+      "source": "invente"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Chloé Marchand, personne physique, propriétaire d’un chien, a conclu le 28 juillet 2025 un contrat de pension (contrat de prestation de services comprenant une obligation de garde) avec la SARL « Pattes et Plumes », personne morale de droit privé identifiée par sa dénomination et son siège social à Sévrier (annexe 4), représentée par son gérant.\nPendant l’exécution du contrat, à la suite de la négligence d’un salarié de la pension qui a laissé un portail ouvert, le chien s’est échappé. L’animal n’est pas une personne juridique : il est un être vivant doué de sensibilité, soumis au régime des biens (article 515-14 du Code civil).\nLe chien a provoqué la chute d’Hugo Ferrer, personne physique et tiers au contrat, qui subit un dommage corporel (fracture de la clavicule) et un dommage matériel (vélo de 2 300 € détruit). Le chien a lui-même été blessé, ce qui cause à sa propriétaire un dommage matériel (950 € de frais vétérinaires) et un préjudice moral.\nChloé Marchand recherche la responsabilité civile contractuelle de la pension ; Hugo Ferrer recherche sa responsabilité civile extracontractuelle du fait de l’animal. La pension invoque la force majeure (orage) et la qualification de bien du chien.",
+      "articles_cites": [
+        "515-14"
+      ]
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que Chloé Marchand peut avancer pour obtenir réparation de son préjudice.",
+      "points": 3,
+      "reponse_attendue": "Le raisonnement tenu par le candidat est accepté dès l’instant où il contient des arguments juridiques cohérents en lien avec la qualification des faits retenue.\nChloé Marchand et la SARL « Pattes et Plumes » sont liées par un contrat de pension, qui a force obligatoire. C’est donc sur le terrain de la responsabilité civile contractuelle qu’elle doit agir, contre la société, personne morale qui dispose d’un patrimoine propre et peut être condamnée en son nom.\nSelon l’article 1231-1 du Code civil, « le débiteur est condamné, s’il y a lieu, au paiement de dommages et intérêts […] à raison de l’inexécution de l’obligation ». En l’espèce, l’article 3 du contrat (annexe 3) oblige la pension à surveiller l’animal « dans des enclos sécurisés » et à le restituer « dans l’état où il lui a été confié ». Or Oslo s’est échappé parce qu’un employé a laissé le portail ouvert, et il a été restitué blessé : il y a inexécution du contrat. L’article 5 du contrat prévoit d’ailleurs que les frais vétérinaires restent à la charge de la pension en cas de faute de celle-ci.\nLe dommage est certain : 950 € de frais vétérinaires et la dépréciation d’un chien acheté 1 200 € qui boite désormais. Le lien de causalité entre l’évasion et la blessure est direct.\nEnfin, Chloé Marchand peut soutenir que l’article 515-14 du Code civil reconnaît les animaux comme des « êtres vivants doués de sensibilité » : le chien n’est pas un bien comme les autres. Le lien d’affection qui l’unit à son animal justifie la réparation d’un préjudice moral, la jurisprudence admettant ce type de préjudice depuis longtemps.\nPar conséquent, la SARL doit être condamnée à réparer intégralement ses préjudices matériel et moral.",
+      "articles_cites": [
+        "1231-1",
+        "515-14"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Développez l’argumentation juridique que la SARL « Pattes et Plumes » pourrait lui opposer.",
+      "points": 3,
+      "reponse_attendue": "Le raisonnement tenu par le candidat est accepté dès l’instant où il contient des arguments juridiques cohérents en lien avec la qualification des faits retenue.\nLa pension peut d’abord chercher à s’exonérer en invoquant la force majeure. Selon l’article 1218 du Code civil, il y a force majeure lorsqu’un événement échappant au contrôle du débiteur, imprévisible lors de la conclusion du contrat et irrésistible, empêche l’exécution de son obligation. L’article 1231-1 dispense alors le débiteur de dommages et intérêts, et l’article 8 du contrat (annexe 3) l’exclut expressément. La SARL soutiendra que l’orage du 9 août a endommagé la clôture.\nCet argument est toutefois fragile : l’évasion résulte du portail laissé ouvert par un employé, et non de la clôture ; un orage d’été en montagne n’est ni imprévisible ni irrésistible, et des mesures appropriées (vérifier les enclos) auraient permis d’en éviter les effets.\nLa SARL peut ensuite contester l’étendue du préjudice. L’article 515-14 précise que, « sous réserve des lois qui les protègent, les animaux sont soumis au régime des biens ». Le chien n’étant pas une personne juridique, il ne peut avoir de droits extrapatrimoniaux : seule la propriétaire peut être indemnisée. La pension peut soutenir que la réparation doit être limitée à la valeur du bien (1 200 €) et que le préjudice moral n’est pas démontré.\nEnfin, elle peut demander que les frais vétérinaires soient appréciés au regard de l’article 5 du contrat, qui les met en principe à la charge du propriétaire, en contestant toute faute de sa part.\nPar conséquent, la SARL peut au mieux obtenir une réduction de l’indemnisation, l’exonération totale paraissant difficile.",
+      "articles_cites": [
+        "1218",
+        "1231-1",
+        "515-14"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Proposez les arguments juridiques que la SARL « Pattes et Plumes » pourrait opposer à Hugo Ferrer.",
+      "points": 3,
+      "reponse_attendue": "Le raisonnement tenu par le candidat est accepté dès l’instant où il contient des arguments juridiques cohérents en lien avec la qualification des faits retenue.\nHugo Ferrer est un tiers au contrat de pension : il agit sur le fondement de la responsabilité extracontractuelle du fait des animaux. Selon l’article 1243 du Code civil, « le propriétaire d’un animal, ou celui qui s’en sert, pendant qu’il est à son usage, est responsable du dommage que l’animal a causé, soit que l’animal fût sous sa garde, soit qu’il fût égaré ou échappé ».\nPremier argument : la SARL peut soutenir qu’elle n’est pas propriétaire du chien et que Chloé Marchand, propriétaire, est présumée en avoir la garde. Elle invitera Hugo Ferrer à agir contre la propriétaire. Toutefois, la jurisprudence considère que la garde, c’est-à-dire l’usage, la direction et le contrôle de l’animal, a été transférée à la pension pendant la durée du séjour : l’argument a peu de chances d’aboutir.\nDeuxième argument : la SARL peut invoquer la faute de la victime pour s’exonérer partiellement. Elle peut soutenir qu’Hugo Ferrer roulait trop vite sur une route longeant le lac, fréquentée par les promeneurs et leurs animaux, ou ne portait pas d’équipement de protection, ce qui aurait contribué à l’aggravation de son dommage.\nTroisième argument : la force majeure, avec l’orage ayant endommagé la clôture. Elle se heurte aux mêmes limites qu’à l’égard de Chloé Marchand, l’évasion étant due au portail laissé ouvert par un salarié.\nEnfin, la SARL peut discuter le montant du préjudice matériel (valeur réelle du vélo compte tenu de sa vétusté).\nPar conséquent, la responsabilité de la SARL, gardienne de l’animal, sera vraisemblablement retenue, sauf à démontrer une faute de la victime.",
+      "articles_cites": [
+        "1243"
+      ]
+    }
+  ]
+}

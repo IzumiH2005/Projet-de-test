@@ -1,0 +1,55 @@
+{
+  "id": "E4.1",
+  "type": "exercices",
+  "titre": "Vie privée, image et données personnelles",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Article 9 du Code civil",
+      "texte": "Article 9 du Code civil : Chacun a droit au respect de sa vie privée. Les juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes mesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser une atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être ordonnées en référé.",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Élodie VASSEUR, comptable dans la société « Transports Delmas », a été licenciée en mars 2026 pour « comportement incompatible avec l’image de l’entreprise ». Son employeur lui reproche des photographies publiées sur son compte Facebook privé, accessible à ses seuls amis, où elle apparaît lors d’une soirée entre amis un samedi soir. Un collègue avait transmis ces photographies à la direction.",
+      "enonce": "Développez l’argumentation juridique qu’Élodie VASSEUR pourrait développer afin de contester son licenciement.",
+      "points": 2,
+      "reponse_attendue": "Élodie VASSEUR conteste la légitimité du motif invoqué par son employeur.\nFondement : l’article 9 du Code civil reconnaît à chacun le droit au respect de sa vie privée. Ce droit extrapatrimonial s’applique également au salarié : l’employeur ne peut pas sanctionner un salarié pour un fait relevant de sa vie personnelle, sauf si ce fait constitue un manquement à une obligation découlant du contrat de travail ou cause un trouble objectif caractérisé au fonctionnement de l’entreprise. Toute atteinte aux droits des personnes doit être justifiée par la nature de la tâche et proportionnée au but recherché.\nEn l’espèce :\n– Les photographies ont été prises un samedi soir, hors du temps et du lieu de travail, lors d’une soirée privée : elles relèvent de la vie personnelle de la salariée.\n– Elles ont été publiées sur un compte Facebook privé, accessible à ses seuls amis : elles n’étaient pas destinées au public et ne mettent pas en cause l’entreprise.\n– L’employeur en a eu connaissance par l’intermédiaire d’un collègue : la preuve obtenue par ce biais peut être considérée comme portant une atteinte disproportionnée à sa vie privée.\n– Aucun manquement à ses obligations professionnelles de comptable ni aucun trouble au fonctionnement de l’entreprise n’est établi.\nConclusion : le licenciement repose sur un motif tiré de la vie privée ; Élodie VASSEUR peut en demander la requalification en licenciement sans cause réelle et sérieuse, voire sa nullité pour atteinte à une liberté fondamentale, et obtenir des dommages et intérêts.",
+      "articles_cites": [
+        "9"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Le magazine en ligne « People Sud » publie des photographies du chanteur Nolan ARTAUD prises au téléobjectif dans le jardin de sa résidence secondaire, en compagnie d’une personne présentée comme sa nouvelle compagne. Nolan ARTAUD assigne le magazine en référé et réclame le retrait immédiat des photographies.",
+      "enonce": "Présentez les arguments juridiques que le magazine « People Sud » peut lui opposer.",
+      "points": 2,
+      "reponse_attendue": "Le magazine « People Sud » cherche à justifier la publication des photographies.\n1er argument : la notoriété de la personne et le droit à l’information. Nolan ARTAUD est une personnalité publique ; sa vie sentimentale suscite l’intérêt du public. Le magazine peut invoquer la liberté d’expression et la liberté de la presse, libertés fondamentales qui doivent être conciliées avec le droit au respect de la vie privée protégé par l’article 9 du Code civil.\n2e argument : la contribution à un débat d’intérêt général. La jurisprudence admet la publication d’informations relatives à la vie privée lorsqu’elles contribuent à un débat d’intérêt général. Le magazine pourrait soutenir que la relation du chanteur a déjà été évoquée publiquement par l’intéressé lui-même.\n3e argument : l’absence d’urgence justifiant le référé. L’article 9 permet au juge d’ordonner des mesures en référé « s’il y a urgence » ; le magazine peut soutenir que les photographies, déjà diffusées, ne justifient plus de mesure immédiate et que seule une réparation par dommages et intérêts peut être envisagée.\nLimites : les personnes célèbres ont droit, comme toute personne, au respect de leur vie privée. Les photographies ont été prises au téléobjectif, dans un lieu privé (le jardin d’une résidence), et concernent sa vie sentimentale, qui relève de l’intimité. La simple curiosité du public ne constitue pas un débat d’intérêt général : les arguments du magazine ont peu de chances d’aboutir.",
+      "articles_cites": [
+        "9"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Mme Armelle QUINTIN, retraitée, constate que la société « Habitat Confort », qui lui a vendu une pompe à chaleur en 2024, a transmis son nom, son adresse et son numéro de téléphone à plusieurs entreprises partenaires sans son accord. Elle reçoit depuis des dizaines d’appels commerciaux chaque semaine et a dû changer de numéro.",
+      "enonce": "Développez l’argumentation juridique que Mme Armelle QUINTIN peut avancer pour obtenir réparation du préjudice subi.",
+      "points": 2,
+      "reponse_attendue": "Mme QUINTIN s’estime victime d’une utilisation abusive de ses données personnelles.\nFondement : les données à caractère personnel sont des informations permettant d’identifier directement ou indirectement une personne physique (nom, adresse, numéro de téléphone). Leur protection découle du droit au respect de la vie privée reconnu par l’article 9 du Code civil et est organisée par le règlement général sur la protection des données (RGPD). Tout traitement doit reposer sur une base légale, notamment le consentement libre, spécifique et éclairé de la personne, et respecter le principe de finalité : les données ne peuvent être utilisées que pour l’objectif annoncé lors de leur collecte. La personne dispose d’un droit d’accès, de rectification, d’opposition et d’effacement.\nEn l’espèce, les données de Mme QUINTIN ont été collectées par « Habitat Confort » dans le cadre de l’exécution d’un contrat de vente. Leur transmission à des entreprises partenaires à des fins de prospection commerciale, sans son consentement, constitue un détournement de finalité et un traitement illicite.\nPréjudice : Mme QUINTIN subit un préjudice moral (harcèlement téléphonique, atteinte à sa tranquillité) et un préjudice matériel (frais et démarches liés au changement de numéro).\nConclusion : elle peut exercer son droit d’opposition et d’effacement auprès de la société, saisir la CNIL d’une plainte, et demander au juge la réparation de son préjudice ainsi que la cessation de l’atteinte.",
+      "articles_cites": [
+        "9"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Lucas FONTAINE a créé un faux compte sur un réseau social au nom de son ancienne collègue, Sarah MEUNIER, en utilisant sa photographie et son prénom. Il y publie des messages ridicules qui lui sont attribués. Sarah MEUNIER découvre ce compte en avril 2026 grâce à une amie.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Une personne physique a créé, sur un réseau social, un faux profil au nom d’une autre personne physique, en utilisant sans autorisation son image et son nom, éléments de son identité numérique.\nLes publications diffusées sous cette fausse identité sont imputées à la victime et portent atteinte à sa réputation ; ces agissements sont susceptibles d’être qualifiés d’usurpation d’identité numérique.\nIls constituent une atteinte aux droits extrapatrimoniaux de la victime : le droit à l’image, le droit au nom et, plus largement, le droit au respect de la vie privée protégé par l’article 9 du Code civil. Ces droits sont attachés à la personne, inaliénables et imprescriptibles.\nLa victime subit un préjudice moral (atteinte à l’honneur et à la considération, humiliation auprès de son entourage).\nElle peut agir en justice contre l’auteur des faits, défendeur, afin d’obtenir la suppression du compte, éventuellement en référé, et la réparation de son préjudice par l’allocation de dommages et intérêts. La question posée est de savoir si l’utilisation non autorisée de l’image et du nom d’autrui sur internet engage la responsabilité de son auteur.",
+      "articles_cites": [
+        "9"
+      ]
+    }
+  ]
+}

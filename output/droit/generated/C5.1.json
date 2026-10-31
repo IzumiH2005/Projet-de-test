@@ -1,0 +1,76 @@
+{
+  "id": "C5.1",
+  "type": "cas",
+  "titre": "Le four d’occasion d’Inès Garnier",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nInès Garnier, pâtissière, a créé en 2024 son entreprise individuelle, « Les Douceurs d’Inès », à Tours. Pour développer sa production, elle recherche un four professionnel d’occasion. Le 3 février 2026, elle se rend dans les locaux de la SARL Fourpro, spécialisée dans la revente de matériel de boulangerie. Le gérant, M. Dussart, lui présente un four ventilé de marque réputée, « révisé et en parfait état de fonctionnement », vendu 7 800 euros au lieu de 14 000 euros neuf. Inès précise qu’elle a besoin d’un four capable de cuire quotidiennement, sans interruption, et signe le bon de commande le jour même.\nDès la deuxième semaine d’utilisation, le four tombe en panne à trois reprises. Le technicien venu le réparer découvre que l’appareil a été endommagé par un incendie en 2023 et que sa carte électronique a été remplacée par une pièce non conforme. Il lui apprend que M. Dussart connaissait cet historique, puisque c’est lui qui avait racheté le four à la compagnie d’assurance.\nInès Garnier, qui a dû jeter plusieurs fournées et refuser deux commandes de mariage, souhaite remettre en cause la vente. M. Dussart refuse, estimant qu’« un appareil d’occasion n’est jamais parfait ». Inès s’inquiète aussi : un fournisseur impayé pourrait-il saisir sa maison personnelle ?\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : articles du Code civil",
+      "texte": "Article 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1131 : Les vices du consentement sont une cause de nullité relative du\ncontrat.\nArticle 1132 : L'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une\ncause de nullité du contrat lorsqu'elle porte sur les qualités essentielles de la\nprestation due ou sur celles du cocontractant.\nArticle 1133 : Les qualités essentielles de la prestation sont celles qui ont été\nexpressément ou tacitement convenues et en considération desquelles les parties\nont contracté. L'erreur est une cause de nullité qu'elle porte sur la prestation de l'une\nou de l'autre partie. L'acceptation d'un aléa sur une qualité de la prestation exclut\nl'erreur relative à cette qualité.\nArticle 1135 : L'erreur sur un simple motif, étranger aux qualités essentielles de la\nprestation due ou du cocontractant, n'est pas une cause de nullité, à moins que les\nparties n'en aient fait expressément un élément déterminant de leur consentement.\nArticle 1137 : Le dol est le fait pour un contractant d'obtenir le consentement de\nl'autre par des manœuvres ou des mensonges. Constitue également un dol la\ndissimulation intentionnelle par l'un des contractants d'une information dont il sait le\ncaractère déterminant pour l'autre partie.\nArticle 1139 : L’erreur qui résulte d’un dol est toujours excusable ; elle est une cause\nde nullité alors même qu’elle porterait sur la valeur de la prestation ou sur un simple\nmotif du contrat.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 : articles du Code civil",
+      "texte": "Article 1101 du Code civil : Le contrat est un accord de volontés entre deux ou plusieurs personnes destiné à créer, modifier, transmettre ou éteindre des obligations.\nArticle 1109 du Code civil : Le contrat est consensuel lorsqu'il se forme par le seul échange des consentements quel qu'en soit le mode d'expression. Le contrat est solennel lorsque sa validité est subordonnée à des formes déterminées par la loi. Le contrat est réel lorsque sa formation est subordonnée à la remise d'une chose.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 : article L526-6 du Code de commerce",
+      "texte": "Article L526-6 du Code de commerce : Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, nécessaires à l'exercice de son activité professionnelle. Il peut comprendre également les biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, utilisés pour l'exercice de son activité professionnelle, qu'il décide d'y affecter et qu'il peut ensuite décider de retirer du patrimoine affecté. Un même bien, droit, obligation ou sûreté ne peut entrer dans la composition que d'un seul patrimoine affecté. Par dérogation à l'alinéa précédent, l'entrepreneur individuel exerçant une activité agricole au sens de l'article L. 311-1 du code rural et de la pêche maritime peut ne pas affecter les terres utilisées pour l'exercice de son exploitation à son activité professionnelle. Cette faculté s'applique à la […]",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 4 : extrait du bon de commande n° 2026-047 de la SARL Fourpro",
+      "texte": "Vendeur : SARL Fourpro, 12 rue des Artisans, 37000 Tours – RCS Tours.\nAcheteur : Les Douceurs d’Inès – Inès Garnier, entrepreneur individuel.\nDésignation : four ventilé professionnel 10 niveaux, année 2021, matériel d’occasion révisé, en parfait état de fonctionnement.\nPrix : 7 800 euros TTC, payable à la commande.\nGarantie : 3 mois pièces, hors main-d’œuvre.\nFait à Tours, le 3 février 2026. Signature de l’acheteur précédée de la mention « Bon pour accord ».",
+      "source": "invente"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il s’agit pour le candidat de qualifier les parties, le contrat et le litige avec un vocabulaire juridique précis. Il n’est pas attendu de phrase introductive ou conclusive.\nInès Garnier est une personne physique, entrepreneur individuel exerçant une activité artisanale de pâtisserie. Elle agit ici à des fins professionnelles : elle n’est pas consommatrice mais professionnelle.\nLa SARL Fourpro est une personne morale de droit privé, société commerciale, représentée par son gérant, M. Dussart. Elle est professionnelle.\nLe 3 février 2026, les parties ont conclu un contrat de vente (accord de volontés destiné à créer des obligations, article 1101 du Code civil) portant sur un bien meuble corporel d’occasion, pour un prix de 7 800 euros. Il s’agit d’un contrat synallagmatique, à titre onéreux et consensuel (article 1109 du Code civil), entre professionnels. La SARL Fourpro est débitrice de l’obligation de délivrer le four ; Inès Garnier est débitrice du prix.\nLes faits : le vendeur a affirmé que le four était en parfait état alors qu’il connaissait son endommagement par un incendie et le remplacement d’une pièce par une pièce non conforme. Ce silence et cette affirmation mensongère peuvent être qualifiés de dol, vice du consentement.\nLe dommage : un préjudice patrimonial (fournées perdues, commandes refusées).\nLe litige porte sur la validité du contrat de vente : Inès souhaite en obtenir la nullité.",
+      "articles_cites": [
+        "1101",
+        "1109"
+      ]
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique qu’Inès Garnier peut avancer pour demander l’annulation du contrat de vente.",
+      "points": 3,
+      "reponse_attendue": "Il convient d’accepter tous les autres arguments pertinents. Le syllogisme juridique n’est pas la seule forme attendue.\nSur quel fondement ? Pour être valablement formé, un contrat suppose le consentement libre et éclairé des parties. Selon l’article 1131 du Code civil, les vices du consentement sont une cause de nullité relative du contrat. Selon l’article 1137, le dol est le fait pour un contractant d’obtenir le consentement de l’autre par des manœuvres ou des mensonges ; constitue également un dol la dissimulation intentionnelle d’une information dont il sait le caractère déterminant pour l’autre partie.\nEn l’espèce :\n- L’élément matériel : M. Dussart, gérant de la SARL Fourpro, a présenté le four comme « révisé et en parfait état de fonctionnement », mention reprise sur le bon de commande (annexe 4). C’est un mensonge. Il a de surcroît dissimulé que le four avait subi un incendie.\n- L’élément intentionnel : le vendeur connaissait cet historique puisqu’il avait lui-même racheté l’appareil à l’assureur. La dissimulation est donc intentionnelle.\n- Le caractère déterminant : Inès avait précisé qu’elle avait besoin d’un four capable de cuire quotidiennement sans interruption. Si elle avait connu l’incendie et la pièce non conforme, elle n’aurait pas contracté ou l’aurait fait à un prix très inférieur.\nPar ailleurs, l’article 1139 précise que l’erreur provoquée par un dol est toujours excusable : le vendeur ne peut donc pas reprocher à Inès de ne pas avoir fait vérifier le four.\nÀ titre subsidiaire, Inès peut invoquer l’erreur sur les qualités essentielles de la prestation (articles 1132 et 1133) : le bon fonctionnement continu du four était une qualité expressément convenue. Elle peut enfin rappeler que les contrats doivent être négociés et formés de bonne foi (article 1104).\nConclusion : Inès Garnier peut demander la nullité relative du contrat, entraînant la restitution du four et du prix, ainsi que des dommages et intérêts pour son préjudice.",
+      "articles_cites": [
+        "1131",
+        "1137",
+        "1139",
+        "1132",
+        "1133",
+        "1104"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Présentez l’argumentation juridique que la SARL Fourpro pourrait avancer pour s’opposer à l’annulation du contrat.",
+      "points": 3,
+      "reponse_attendue": "Il s’agit d’amener le candidat à développer des arguments juridiques pertinents au regard du contexte. Toute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.\n1er argument : la force obligatoire du contrat\nLe contrat a été valablement conclu : il y a eu une offre (le four présenté à 7 800 euros) et une acceptation (la signature du bon de commande « Bon pour accord »). Le contrat de vente est consensuel (article 1109 du Code civil) et s’est formé par le seul échange des consentements. Il s’impose donc aux parties.\n2e argument : l’acceptation d’un aléa\nSelon l’article 1133 du Code civil, l’acceptation d’un aléa sur une qualité de la prestation exclut l’erreur relative à cette qualité. Inès a acheté un matériel d’occasion, à un prix très inférieur au prix du neuf (7 800 euros contre 14 000 euros), avec une garantie limitée à trois mois. La SARL Fourpro peut soutenir qu’elle a accepté le risque de pannes inhérent à un appareil d’occasion.\n3e argument : l’erreur inexcusable d’un professionnel\nL’article 1132 exclut la nullité lorsque l’erreur est inexcusable. Inès est une professionnelle de la pâtisserie ; elle a signé le jour même, sans faire examiner le four ni demander son historique. Son erreur pourrait être jugée inexcusable.\n4e argument : contester l’intention dolosive\nLe dol suppose une intention de tromper (article 1137). La SARL Fourpro peut soutenir que le four avait bien été révisé après l’incendie et qu’elle pensait de bonne foi qu’il fonctionnait normalement.\nToutefois, le candidat pourra relever que ces arguments sont fragiles : selon l’article 1139, l’erreur qui résulte d’un dol est toujours excusable.",
+      "articles_cites": [
+        "1109",
+        "1133",
+        "1132",
+        "1137",
+        "1139"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir présenté le principe de l’unicité du patrimoine de l’entrepreneur individuel, vous répondrez à la question suivante à l’aide de l’annexe 3 et de vos connaissances personnelles : Pourquoi le législateur protège-t-il le patrimoine personnel de l’entrepreneur individuel ?",
+      "points": 3,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive. La position doit être exprimée tout au long de la réponse rédigée. Au moins deux idées sont attendues, dont l’une peut exploiter des transversalités avec d’autres enseignements de spécialité.\nRappel : l’entreprise individuelle ne crée pas de personne juridique nouvelle. Traditionnellement, selon le principe de l’unicité du patrimoine, une personne n’a qu’un seul patrimoine : l’entrepreneur répond donc des dettes de son activité sur l’ensemble de ses biens, y compris personnels (sa maison, son épargne).\nPourquoi le législateur le protège-t-il ?\n- Pour limiter le risque supporté par l’entrepreneur et sa famille : sans protection, un échec professionnel pourrait conduire à la saisie du logement familial. Le législateur a d’abord créé la déclaration d’insaisissabilité, puis le patrimoine d’affectation : l’article L526-6 du Code de commerce (annexe 3) permet à l’entrepreneur d’affecter à son activité professionnelle « un patrimoine séparé de son patrimoine personnel, sans création d’une personne morale ». Ici, Inès Garnier pourrait ainsi protéger sa maison des poursuites de ses créanciers professionnels.\n- Pour encourager l’esprit d’entreprise : la liberté d’entreprendre est un principe à valeur constitutionnelle. Réduire le risque personnel incite à créer une entreprise sans avoir à constituer une société (EURL), plus coûteuse et plus lourde à gérer. Transversalité possible avec le management et l’économie : la création d’entreprises soutient l’emploi et l’innovation.\n- Pour concilier ces objectifs avec la protection des créanciers : l’article L526-6 précise que le patrimoine affecté est composé des biens nécessaires à l’activité professionnelle, ce qui garantit aux créanciers professionnels un gage identifiable.\nIl appartient aux correcteurs de valoriser les candidats qui font preuve de capacités d’analyse et de réflexion.",
+      "articles_cites": [
+        "L526-6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "E3.3",
+  "type": "exercices",
+  "titre": "Patrimoine : données personnelles, droit d’auteur et marque",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – La méthode des « cookie walls »",
+      "texte": "À la suite de l’entrée en vigueur du règlement général sur la protection des données\n(RGPD), la Commission nationale de l’informatique et des libertés (CNIL) a adopté en\n2019 de nouvelles lignes directrices relatives aux « cookies » et autres traceurs de\nconnexion déposés par les éditeurs de sites internet dans les ordinateurs, tablettes ou\ntéléphones des utilisateurs à des fins, notamment, de ciblage publicitaire. […]\nLe Conseil d’État juge que la CNIL ne pouvait légalement interdire dans ses lignes\ndirectrices les « cookie walls », pratique qui consiste à bloquer l’accès à un site internet\nen cas de refus des cookies. […] Par sa décision du 19 juin 2020, il juge qu’en\ndéduisant une telle interdiction de la seule exigence d’un consentement libre de\nl’utilisateur au dépôt de traceurs, posée par le règlement général sur la protection des\ndonnées (RGPD), la CNIL a excédé ce qu’elle pouvait légalement faire dans le cadre\nd’un acte dit « de droit souple ». Les actes de droit souple désignent les instruments,\ntelles que les lignes directrices des autorités de régulation, qui ne créent pas de droit\nou d’obligation juridique pour quiconque mais influencent fortement, dans les faits, les\npratiques des opérateurs économiques.\nSource : https://www.conseil-etat.fr/",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "La société « Lectio », éditrice d’un site d’actualités en ligne, envisage de bloquer l’accès à ses articles aux internautes qui refusent le dépôt de cookies publicitaires sur leur appareil. Sa directrice, Margaux PELLEGRIN, s’interroge sur la portée de la décision du Conseil d’État présentée en annexe 1.",
+      "enonce": "Expliquez les enjeux de la décision du Conseil d’État du 19 juin 2020 pour les entreprises éditrices de sites internet.",
+      "points": 2,
+      "reponse_attendue": "Contexte : les données de navigation collectées par les cookies sont des données à caractère personnel. Le RGPD exige que leur collecte repose sur un consentement libre, spécifique, éclairé et univoque de l’internaute. La CNIL avait déduit de cette exigence l’interdiction des « cookie walls », considérant qu’un consentement obtenu sous la menace d’un blocage n’est pas libre.\nApport de la décision : le Conseil d’État juge que la CNIL ne pouvait pas, par de simples lignes directrices (acte de « droit souple »), poser une interdiction générale et absolue des « cookie walls ». Il n’affirme pas que la pratique est licite en toute hypothèse : il censure la méthode employée par l’autorité de régulation.\nEnjeux pour les entreprises :\n– Économiques : les éditeurs financent souvent un contenu gratuit grâce à la publicité ciblée. La décision leur laisse la possibilité de conditionner l’accès au site à l’acceptation des cookies, ce qui préserve leur modèle économique (Lectio pourrait donc envisager ce blocage).\n– Juridiques : la pratique reste soumise au respect du RGPD ; l’entreprise doit vérifier, au cas par cas, que le consentement demeure libre, par exemple en proposant une alternative réelle (accès payant sans traceurs). Elle s’expose sinon à des sanctions de la CNIL.\n– De confiance : l’entreprise doit concilier sa rentabilité avec la protection des données de ses utilisateurs, élément de son image et de la fidélité de son lectorat.\nLa décision rappelle enfin la hiérarchie entre les normes : un acte de droit souple ne peut créer d’obligation que la loi ou le règlement européen ne prévoit pas.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "situation": "Théo GARNIER, illustrateur indépendant à Nantes, a créé en 2023 une série de dessins originaux représentant des phares bretons, qu’il publie sur son site personnel. En février 2026, il découvre que la société « Brizh Déco » vend des coussins et des tasses reproduisant trois de ses dessins, sans l’avoir jamais contacté.",
+      "enonce": "Développez l’argumentation juridique que Théo GARNIER peut avancer pour obtenir réparation de son préjudice.",
+      "points": 2,
+      "reponse_attendue": "Théo GARNIER s’estime victime de l’exploitation non autorisée de ses dessins.\nFondement : le droit d’auteur protège toute œuvre de l’esprit originale, c’est-à-dire portant l’empreinte de la personnalité de son auteur, du seul fait de sa création, sans formalité de dépôt. Il comporte deux composantes :\n– des droits patrimoniaux : droit de reproduction et droit de représentation, qui permettent à l’auteur d’autoriser l’exploitation de son œuvre contre rémunération ; ils sont cessibles et durent toute la vie de l’auteur et soixante-dix ans après sa mort ;\n– des droits moraux, extrapatrimoniaux : droit de paternité, droit au respect de l’œuvre, droit de divulgation ; ils sont perpétuels, inaliénables et imprescriptibles.\nToute reproduction sans autorisation constitue une contrefaçon.\nEn l’espèce, les dessins de Théo GARNIER sont des créations originales : ce sont des œuvres de l’esprit protégées depuis 2023. La société « Brizh Déco » les reproduit sur des coussins et des tasses qu’elle commercialise sans autorisation ni rémunération : elle porte atteinte au droit patrimonial de reproduction. Si son nom n’apparaît pas sur les produits, elle porte aussi atteinte à son droit moral de paternité.\nConclusion : Théo GARNIER peut agir en contrefaçon afin d’obtenir la cessation de la commercialisation, le retrait des produits et des dommages et intérêts réparant son manque à gagner et son préjudice moral.",
+      "articles_cites": []
+    },
+    {
+      "slot": 3,
+      "situation": "Patricia ROLLAND, gérante d’une boulangerie, a fait l’objet d’une saisie de la part d’un créancier, la société « Farines du Centre », à qui elle doit 18 000 euros. Le commissaire de justice veut saisir son véhicule, son fichier clients et son droit à l’image. Patricia ROLLAND conteste la saisie de certains éléments.",
+      "enonce": "Développez l’argumentation juridique que la société « Farines du Centre » pourrait lui opposer.",
+      "points": 2,
+      "reponse_attendue": "La société « Farines du Centre », créancière, cherche à obtenir paiement de sa créance de 18 000 euros sur les biens de sa débitrice.\nFondement : le patrimoine est l’ensemble des droits et obligations d’une personne évaluables en argent. Il comprend un actif (les biens et les créances) et un passif (les dettes). Selon le principe du droit de gage général, l’ensemble des biens du débiteur répond de ses dettes : le créancier impayé peut faire saisir les éléments de l’actif.\nLes biens peuvent être corporels (biens matériels, comme un véhicule) ou incorporels (biens immatériels ayant une valeur économique, comme une clientèle, un fichier clients, une marque). Les uns comme les autres sont des droits patrimoniaux, donc cessibles et saisissables.\nEn l’espèce, le véhicule de Patricia ROLLAND est un bien meuble corporel et son fichier clients un bien incorporel : tous deux ont une valeur pécuniaire et font partie de son patrimoine. La société « Farines du Centre » peut donc soutenir que leur saisie est légitime, puisque la débitrice ne paie pas sa dette.\nLimite : la créancière ne peut en revanche pas saisir le droit à l’image de Patricia ROLLAND. Il s’agit d’un droit extrapatrimonial, attaché à la personne, incessible et insaisissable. Seuls les éléments évaluables en argent peuvent faire l’objet de la saisie.",
+      "articles_cites": []
+    },
+    {
+      "slot": 4,
+      "situation": "La société « Savons d’Alix », qui a déposé la marque « Alix » auprès de l’INPI en 2021 pour des cosmétiques, constate qu’une entreprise concurrente, « Bulle & Co », commercialise depuis janvier 2026 des savons sous le nom « Alyx », avec un logo très proche. Plusieurs clients ont confondu les deux produits.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Une personne morale de droit privé (une société commerciale), titulaire d’une marque commerciale régulièrement déposée auprès de l’Institut national de la propriété industrielle (INPI), dispose d’un droit de propriété industrielle : un bien incorporel faisant partie de son patrimoine, qui lui confère un monopole d’exploitation du signe pour les produits désignés.\nUne autre personne morale, entreprise concurrente, utilise sans autorisation un signe similaire (« Alyx ») et un logo proche pour des produits identiques (des savons, produits cosmétiques). Cette utilisation crée un risque de confusion dans l’esprit du public, confirmé par l’erreur de plusieurs clients.\nCes agissements sont susceptibles de constituer une contrefaçon de marque, voire des actes de concurrence déloyale.\nLa victime subit un préjudice patrimonial (perte de clientèle et de chiffre d’affaires, détournement de la valeur de la marque) et une atteinte à son image commerciale.\nLe litige oppose le titulaire de la marque, demandeur potentiel à une action en contrefaçon, à l’entreprise concurrente, défenderesse. La question posée est de savoir si l’usage d’un signe similaire constitue une atteinte au droit de marque justifiant la cessation de l’usage et l’octroi de dommages et intérêts.",
+      "articles_cites": []
+    }
+  ]
+}

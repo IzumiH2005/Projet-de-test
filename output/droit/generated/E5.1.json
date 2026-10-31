@@ -1,0 +1,60 @@
+{
+  "id": "E5.1",
+  "type": "exercices",
+  "titre": "La formation du contrat",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Articles du Code civil",
+      "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi. […]\nArticle 1130\nL'erreur, le dol et la violence vicient le consentement lorsqu'ils sont de telle nature que, sans\neux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions\nsubstantiellement différentes.\nLeur caractère déterminant s'apprécie eu égard aux personnes et aux circonstances dans\nlesquelles le consentement a été donné.\nArticle 1131\nLes vices du consentement sont une cause de nullité relative du contrat.\nArticle 1132\nL'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une cause de nullité du\ncontrat lorsqu'elle porte sur les qualités essentielles de la prestation due ou sur celles du\ncocontractant.\nArticle 1832\nLa société est instituée par deux ou plusieurs personnes qui conviennent par un contrat\nd'affecter à une entreprise commune des biens ou leur industrie en vue de partager le\nbénéfice ou de profiter de l'économie qui pourra en résulter.\nElle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule\npersonne.\nLes associés s'engagent à contribuer aux pertes.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Le 10 janvier 2026, M. Rivière a consenti à Mme Okafor une promesse unilatérale de vente de son local commercial pour 180 000 euros, lui laissant jusqu’au 31 mars pour lever l’option. Le 2 mars, ayant reçu une meilleure offre, il informe Mme Okafor qu’il retire sa promesse. Le 15 mars, Mme Okafor lève l’option et exige la vente. M. Rivière refuse.",
+      "enonce": "Exposez les arguments que Mme Okafor pourrait opposer à M. Rivière.",
+      "points": 2,
+      "reponse_attendue": "Il convient d’accepter tous les autres arguments pertinents.\n1er argument : la promesse unilatérale est un contrat qui engage le promettant. Selon l’article 1124 du Code civil, la promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l’autre, le bénéficiaire, le droit d’opter pour la conclusion d’un contrat dont les éléments essentiels sont déterminés et pour la formation duquel ne manque que le consentement du bénéficiaire. En l’espèce, M. Rivière (promettant) a accordé à Mme Okafor (bénéficiaire) un droit d’option jusqu’au 31 mars ; la chose (le local) et le prix (180 000 euros) sont déterminés.\n2e argument : la révocation est sans effet. Le même article dispose que « la révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n’empêche pas la formation du contrat promis ». Le retrait du 2 mars intervient avant l’expiration du délai : il est inefficace. La levée de l’option le 15 mars, dans le délai, forme donc le contrat de vente.\n3e argument : la force obligatoire et la bonne foi. Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits (article 1103, annexe 1) et doivent être exécutés de bonne foi (article 1104). Mme Okafor peut donc exiger la réalisation de la vente ; si M. Rivière vendait au tiers informé de la promesse, ce contrat serait nul (article 1124).",
+      "articles_cites": [
+        "1124",
+        "1103",
+        "1104"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Léa et Romain Vasseur achètent en mai 2026 une table ancienne à l’antiquaire Paul Mercier pour 4 500 euros, présentée sur l’étiquette comme « table Louis XV d’époque, XVIIIe siècle ». Un expert leur apprend ensuite qu’il s’agit d’une copie réalisée vers 1950, valant environ 600 euros.",
+      "enonce": "Présentez l’argumentation juridique que Léa et Romain Vasseur pourraient avancer pour demander la nullité du contrat de vente.",
+      "points": 2,
+      "reponse_attendue": "Sur quel fondement ? Selon l’article 1130 du Code civil (annexe 1), l’erreur vicie le consentement lorsqu’elle est de telle nature que, sans elle, l’une des parties n’aurait pas contracté ou aurait contracté à des conditions substantiellement différentes. L’article 1132 précise que l’erreur de fait est une cause de nullité lorsqu’elle porte sur les qualités essentielles de la prestation due, à moins qu’elle ne soit inexcusable. Les vices du consentement sont sanctionnés par la nullité relative du contrat (article 1131).\nEn l’espèce :\n- l’authenticité du meuble (« d’époque, XVIIIe siècle ») est une qualité essentielle expressément convenue, puisqu’elle figurait sur l’étiquette et justifiait le prix de 4 500 euros ;\n- Léa et Romain se sont trompés sur cette qualité : la table est une copie de 1950 ;\n- l’erreur est déterminante : ils n’auraient pas payé 4 500 euros pour un meuble valant 600 euros ;\n- l’erreur est excusable : ce sont des particuliers, non professionnels, qui se sont fiés à l’étiquette d’un antiquaire, professionnel tenu d’une obligation d’information.\nConclusion : ils peuvent demander au juge la nullité relative de la vente, entraînant la restitution de la table contre le remboursement du prix.",
+      "articles_cites": [
+        "1130",
+        "1132",
+        "1131"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Camille Morel, 17 ans, a acheté seule un scooter d’occasion à 2 300 euros auprès de M. Lenoir, particulier, en payant avec ses économies. Ses parents, qui n’avaient pas été consultés, veulent faire annuler la vente. M. Lenoir affirme que Camille lui avait présenté un permis AM et qu’elle « savait parfaitement ce qu’elle faisait ».",
+      "enonce": "Développez l’argumentation juridique que les parents de Camille peuvent avancer pour remettre en cause la validité du contrat.",
+      "points": 2,
+      "reponse_attendue": "Il convient d’accepter tous les autres arguments pertinents.\nSur quel fondement ? Le contrat est un accord de volontés destiné à créer des obligations (article 1101 du Code civil). Pour être valablement formé, il doit remplir des conditions de validité : le consentement des parties, leur capacité de contracter et un contenu licite et certain. Le mineur non émancipé est en principe frappé d’une incapacité d’exercice : il ne peut conclure seul que les actes de la vie courante, autorisés par la loi ou l’usage. Les actes plus importants doivent être passés par ses représentants légaux, ses parents.\nEn l’espèce, Camille a 17 ans : elle est mineure. L’achat d’un scooter d’un montant de 2 300 euros, bien d’une valeur importante pour un mineur et engageant sa sécurité, ne peut être qualifié d’acte de la vie courante. Ses parents n’ont pas donné leur accord.\nLe fait qu’elle possède un permis AM ne la rend pas capable de contracter : il l’autorise seulement à conduire.\nLa sanction : le défaut de capacité est sanctionné par la nullité relative, qui protège un intérêt privé, celui du mineur. Ses parents, représentants légaux, peuvent l’invoquer.\nConclusion : les parents de Camille peuvent demander l’annulation de la vente ; M. Lenoir devra restituer le prix et récupérer le scooter.",
+      "articles_cites": [
+        "1101"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Le 6 avril 2026, Yanis Belkacem, étudiant, est démarché à son domicile par un commercial de la société Solairéo, qui lui fait signer un contrat d’installation de panneaux solaires de 9 400 euros. Le bon de commande comporte une clause : « Le client renonce expressément à tout droit de rétractation. » Le 12 avril, Yanis, qui regrette son engagement, veut se rétracter.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il s’agit pour le candidat de mobiliser un vocabulaire juridique précis. Il n’est pas attendu de phrase introductive ou conclusive.\nYanis Belkacem est une personne physique qui agit à des fins n’entrant pas dans le cadre d’une activité professionnelle : il a la qualité de consommateur.\nLa société Solairéo est une personne morale de droit privé, qui agit dans le cadre de son activité commerciale : elle a la qualité de professionnel.\nLe 6 avril 2026, les parties ont conclu un contrat (accord de volontés destiné à créer des obligations, article 1101 du Code civil) d’entreprise et de vente pour l’installation de panneaux solaires, d’un montant de 9 400 euros. C’est un contrat synallagmatique, à titre onéreux, conclu hors établissement, à la suite d’un démarchage à domicile. Il s’agit d’un contrat de consommation.\nLe contrat comporte une clause par laquelle le consommateur renonce à son droit de rétractation. Or le droit de rétractation est une protection d’ordre public permettant au consommateur de revenir sur son engagement dans un délai de quatorze jours, sans motif ; une telle clause de renonciation est nulle (comme le prévoit par exemple l’article L242-35 du Code de la consommation pour le consommateur-vendeur).\nLe litige : Yanis souhaite exercer son droit de rétractation six jours après la conclusion du contrat ; la société pourrait lui opposer la clause de renonciation.",
+      "articles_cites": [
+        "1101",
+        "L242-35"
+      ]
+    }
+  ]
+}

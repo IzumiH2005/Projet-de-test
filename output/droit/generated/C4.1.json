@@ -1,0 +1,69 @@
+{
+  "id": "C4.1",
+  "type": "cas",
+  "titre": "La vidéo du club de handball",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexes numérotées de 1 à 4, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nInès BENALI, 14 ans, est licenciée depuis trois ans au « Handball Club Vallée du Lot » (HBCVL), association sportive située à Cahors. Ses parents, Karim et Sophie BENALI, ont signé lors de l’adhésion, en septembre 2025, un bulletin d’inscription comportant une clause relative aux photographies (annexe 3).\nLe 15 février 2026, lors d’un match de championnat, Inès se blesse au genou et quitte le terrain en pleurs, soutenue par deux coéquipières. L’entraîneur adjoint, Mathis ROQUES, filme la scène avec son téléphone. Le soir même, le club publie la vidéo sur son compte Instagram, suivi par 6 200 abonnés, avec la légende : « Inès a craqué… le handball, c’est pas pour les fragiles ! 😅 ».\nLa vidéo est partagée plus de 900 fois. Plusieurs élèves du collège d’Inès la diffusent dans des groupes de messagerie et accompagnent les images de moqueries. Inès refuse de retourner en cours pendant une semaine ; un psychologue constate un état d’anxiété.\nLe 18 février 2026, Karim et Sophie BENALI demandent au président du club, Bernard FAURE, de retirer la vidéo et de présenter des excuses. Celui-ci refuse : « Vous avez signé l’autorisation en début de saison. Et puis c’est du sport, ça arrive à tout le monde. »\nLes parents d’Inès souhaitent agir en justice.",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Articles du Code civil",
+      "texte": "Article 9 : Chacun a droit au respect de sa vie privée.\nLes juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes\nmesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser\nune atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être\nordonnées en référé.\n[…]\nArticle 1240 : Tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 – Article 372-1 du Code civil",
+      "texte": "Article 372-1 du Code civil : Les parents protègent en commun le droit à l'image de leur enfant mineur, dans le respect du droit à la vie privée mentionné à l'article 9. Les parents associent l'enfant à l'exercice de son droit à l'image, selon son âge et son degré de maturité.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 – Extrait du bulletin d’adhésion au HBCVL, saison 2025-2026",
+      "texte": "Article 7 – Droit à l’image\nLe représentant légal du licencié mineur autorise le Handball Club Vallée du Lot à photographier son enfant lors des entraînements, matchs et manifestations organisés par le club, et à utiliser ces photographies dans la plaquette annuelle et sur le site internet du club, à des fins exclusivement non commerciales de présentation des activités sportives.\nCette autorisation est valable pour la saison sportive en cours. Elle peut être retirée à tout moment par simple courrier adressé au président.\nFait à Cahors, le 6 septembre 2025.\nSignatures : Karim BENALI – Sophie BENALI",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 4 – Regard historique sur l’ordre public et le contrat",
+      "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Une personne morale de droit privé (une association sportive), par l’intermédiaire de l’un de ses membres, a capté et diffusé sur un réseau social, sans autorisation spécifique, l’image d’une personne physique mineure, licenciée du club, dans un moment de détresse consécutif à une blessure. La diffusion est accompagnée d’un commentaire moqueur.\nCette publication est susceptible de constituer une atteinte aux droits extrapatrimoniaux de l’enfant : le droit à l’image et le droit au respect de la vie privée, l’état de santé relevant de l’intimité.\nLa victime subit un préjudice moral (humiliation, moqueries, anxiété) et un préjudice corporel d’ordre psychologique constaté par un professionnel. Étant mineure, donc juridiquement incapable, elle est représentée par ses parents, titulaires de l’autorité parentale, qui exercent en commun la protection de son droit à l’image.\nLes représentants légaux ont mis en demeure l’association de retirer la vidéo ; celle-ci refuse en se prévalant d’une clause d’autorisation figurant dans le bulletin d’adhésion (contrat d’adhésion) signé en début de saison.\nLe litige oppose les représentants légaux de la mineure, demandeurs, à l’association, défenderesse, sur la portée de l’autorisation donnée et sur l’existence d’une atteinte aux droits de la personnalité ouvrant droit à réparation.",
+      "articles_cites": [
+        "9",
+        "372-1"
+      ]
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que Karim et Sophie BENALI peuvent avancer pour obtenir le retrait de la vidéo et la réparation du préjudice subi par leur fille.",
+      "points": 3,
+      "reponse_attendue": "Les parents d’Inès agissent en qualité de représentants légaux de leur fille mineure. L’article 372-1 du Code civil prévoit d’ailleurs que les parents protègent en commun le droit à l’image de leur enfant mineur.\nFondement : l’article 9 du Code civil reconnaît à chacun le droit au respect de sa vie privée, dont la jurisprudence a déduit le droit à l’image : toute personne peut s’opposer à la captation et à la diffusion de son image sans son consentement. Ces droits extrapatrimoniaux, attachés à la personne, sont protégés par le seul constat de l’atteinte. L’autorisation donnée doit être expresse et s’interprète strictement : elle ne vaut que pour l’usage et le support prévus.\nEn l’espèce :\n– L’autorisation de l’annexe 3 ne vise que la plaquette annuelle et le site internet du club, à des fins de présentation des activités sportives. Elle ne couvre ni la diffusion sur Instagram, ni une utilisation à des fins de moquerie : le club a dépassé l’autorisation consentie.\n– La vidéo montre Inès blessée et en pleurs : elle révèle son état de santé et un moment de détresse qui relèvent de l’intimité de sa vie privée.\n– Les parents ont, par leur courrier du 18 février 2026, retiré leur autorisation, ce que permet expressément l’article 7 du bulletin.\nMesures : l’article 9 permet au juge de prescrire toutes mesures propres à faire cesser l’atteinte, au besoin en référé en cas d’urgence ; les parents peuvent donc obtenir rapidement le retrait de la vidéo.\nRéparation : sur le fondement de l’article 1240 du Code civil, ils peuvent en outre engager la responsabilité civile extracontractuelle du club. La faute réside dans la diffusion non autorisée et dans le commentaire humiliant ; le dommage est moral et psychologique (anxiété constatée, déscolarisation d’une semaine) ; le lien de causalité est établi puisque les moqueries découlent directement de la publication.\nConclusion : les époux BENALI peuvent obtenir le retrait de la vidéo et des dommages et intérêts au nom de leur fille.",
+      "articles_cites": [
+        "9",
+        "372-1",
+        "1240"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Développez l’argumentation juridique que l’association HBCVL pourrait leur opposer.",
+      "points": 3,
+      "reponse_attendue": "L’association HBCVL, représentée par son président Bernard FAURE, cherche à échapper à toute condamnation.\n1er argument : le consentement des représentants légaux. Les parents d’Inès ont signé, le 6 septembre 2025, le bulletin d’adhésion dont l’article 7 autorise le club à photographier leur fille lors des matchs et à utiliser ces images pour présenter ses activités. Le club peut soutenir que ce contrat les engage, la diffusion intervenant au cours de la saison couverte par l’autorisation et dans un but non commercial.\n2e argument : une image prise dans un lieu public, au cours d’un événement sportif. Inès a été filmée lors d’un match de championnat, ouvert au public, dans l’exercice d’une activité collective. Le club peut faire valoir que la vidéo relate un événement sportif et ne porte pas sur sa vie privée familiale, et qu’une blessure est un fait ordinaire de la pratique sportive.\n3e argument : l’absence de faute et la contestation du lien de causalité. Le club peut soutenir que le commentaire relevait d’un ton humoristique et que les moqueries proviennent d’élèves du collège, tiers qui ont relayé la vidéo dans des groupes de messagerie : le dommage serait dû à leur comportement et non à la publication initiale.\nLimites : l’autorisation, interprétée strictement, ne vise que la plaquette et le site internet, et non Instagram ; elle a été retirée par les parents ; le commentaire humiliant détourne l’image de sa finalité sportive. Ces arguments ont donc peu de chances d’aboutir. Il convient d’accepter tous les autres arguments pertinents proposés par le candidat.",
+      "articles_cites": [
+        "9"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir rappelé les fonctions du droit, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit limite-t-il la liberté contractuelle lorsqu’elle porte sur les droits de la personne ?",
+      "points": 3,
+      "reponse_attendue": "Rappel des fonctions du droit : le droit organise la vie en société en fixant des règles générales, obligatoires et assorties de sanctions. Il remplit une fonction d’organisation (il répartit les droits et les pouvoirs), une fonction de pacification (il prévient et règle les conflits par le recours au juge plutôt qu’à la force) et une fonction de protection (des personnes, notamment les plus vulnérables, et des valeurs fondamentales de la société : liberté, égalité, dignité). Il se distingue de la morale par son caractère contraignant.\nRéflexion (au moins deux idées attendues) :\n– Protéger la personne contre elle-même ou contre plus fort qu’elle : les droits extrapatrimoniaux sont inaliénables, insaisissables et imprescriptibles. Une personne ne peut pas y renoncer définitivement par contrat ; elle peut seulement autoriser un usage précis, limité et révocable de son image. Comme le souligne l’annexe 4, l’ordre public « permet de contraindre les volontés individuelles » au nom d’impératifs jugés supérieurs.\n– Protéger les mineurs : un enfant ne peut mesurer les conséquences d’une diffusion de son image, d’autant plus durables à l’ère d’internet. L’article 372-1 du Code civil confie à ses deux parents la protection de son droit à l’image et impose de l’associer selon sa maturité.\n– Préserver la dignité humaine, valeur fondatrice de l’État de droit : la personne n’est pas une marchandise ; le droit encadre les contrats qui portent sur le corps, l’image ou la vie privée.\n– Garantir l’équilibre contractuel : dans un contrat d’adhésion, l’adhérent ne négocie pas les clauses ; leur interprétation stricte évite qu’une autorisation générale ne serve d’abus.\n– Une notion évolutive : l’annexe 4 rappelle le « caractère changeant » de l’ordre public ; la protection de l’identité numérique et des données personnelles en est une manifestation récente.\nToute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.",
+      "articles_cites": [
+        "372-1"
+      ]
+    }
+  ]
+}

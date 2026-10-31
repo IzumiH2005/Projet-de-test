@@ -1,0 +1,55 @@
+{
+  "id": "E3.2",
+  "type": "exercices",
+  "titre": "Capacité et incapacité : contrats conclus par des personnes vulnérables",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Article du Code civil",
+      "texte": "Article 1145 du Code civil : Toute personne physique peut contracter sauf en cas d'incapacité prévue par la loi. La capacité des personnes morales est limitée par les règles applicables à chacune d'entre elles.",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Le 12 mars 2026, Hugo LEMAIRE, 16 ans, a acheté seul, dans le magasin « Glisse & Ride » de Valence, un scooter électrique d’une valeur de 2 400 euros, payé avec les économies placées sur son livret. Ses parents, qui n’avaient pas été consultés, découvrent l’achat une semaine plus tard. Ils souhaitent rendre le scooter et récupérer la somme versée.",
+      "enonce": "Développez l’argumentation juridique que les parents d’Hugo LEMAIRE peuvent avancer pour demander l’annulation de la vente.",
+      "points": 2,
+      "reponse_attendue": "Fondement : l’article 1145 du Code civil pose le principe selon lequel toute personne physique peut contracter, sauf en cas d’incapacité prévue par la loi. Le mineur non émancipé est frappé d’une incapacité d’exercice : il est titulaire de droits (capacité de jouissance) mais ne peut pas les exercer seul. Il est représenté par ses parents, titulaires de l’autorité parentale, qui agissent en son nom (mécanisme de la représentation légale).\nPrincipe : le mineur ne peut accomplir seul que les actes de la vie courante, c’est-à-dire des actes de faible valeur, habituels pour un jeune de son âge (achat d’un livre, d’un repas…). Les autres actes, et surtout les actes de disposition qui engagent durablement son patrimoine, doivent être conclus par ses représentants légaux. L’acte accompli seul par le mineur en dehors de ce cadre est nul (nullité relative, qui protège l’incapable).\nEn l’espèce, Hugo a 16 ans et n’est pas émancipé : il est donc incapable juridiquement. L’achat d’un scooter de 2 400 euros, financé par son épargne, n’est pas un acte de la vie courante : il s’agit d’un acte de disposition qui diminue de façon importante son patrimoine. Ses parents, qui n’ont pas donné leur accord, n’ont pas représenté leur fils.\nConclusion : les parents d’Hugo, agissant en qualité de représentants légaux, peuvent demander au juge l’annulation de la vente pour incapacité. La nullité entraîne des restitutions : le scooter est rendu au vendeur et la somme de 2 400 euros est remboursée.",
+      "articles_cites": [
+        "1145"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Madame Odile FERRAND, 82 ans, placée sous curatelle depuis 2024, a confié la gestion de ses biens à son neveu Damien, désigné curateur. En janvier 2026, elle a signé seule un bail d’habitation pour louer à Sabrina COSTE l’appartement qu’elle possède à Lyon, moyennant un loyer conforme au marché. Damien conteste aujourd’hui ce bail au nom de sa tante.",
+      "enonce": "Présentez l’argumentation juridique que Sabrina COSTE peut lui opposer.",
+      "points": 2,
+      "reponse_attendue": "Sabrina COSTE cherche à faire maintenir le bail qu’elle a conclu avec Madame FERRAND.\nFondement : l’article 1145 du Code civil fait de la capacité le principe et de l’incapacité l’exception : une personne ne peut être privée du droit de contracter que dans les cas prévus par la loi. La curatelle est une mesure de protection d’un majeur qui n’est pas représenté mais assisté : la personne en curatelle continue d’accomplir seule les actes d’administration, c’est-à-dire les actes de gestion courante qui font fructifier le patrimoine sans en compromettre la valeur. Seuls les actes de disposition (vente de l’appartement, donation, emprunt) nécessitent l’assistance du curateur.\nEn l’espèce, la mise en location d’un appartement à un loyer conforme au marché est un acte d’administration : il ne fait pas sortir le bien du patrimoine de Madame FERRAND et lui procure au contraire des revenus. Madame FERRAND, placée sous curatelle et non sous tutelle, pouvait donc conclure seule ce bail. Aucune lésion ne peut en outre être invoquée puisque le loyer correspond aux prix pratiqués.\nSabrina COSTE peut ainsi soutenir que le bail est valable et que Damien, simple curateur chargé d’assister sa tante, ne peut pas en obtenir l’annulation. Le contrat doit produire tous ses effets.",
+      "articles_cites": [
+        "1145"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Lors d’un conseil de classe, des élèves de première STMG s’interrogent : « Pourquoi la loi empêche-t-elle certaines personnes, comme les mineurs ou les majeurs sous tutelle, de signer seules des contrats ? N’est-ce pas contraire à leur liberté ? »",
+      "enonce": "Après avoir rappelé la distinction entre capacité de jouissance et capacité d’exercice, vous répondrez à la question suivante à l’aide de l’annexe 1 et de vos connaissances personnelles : Pourquoi le droit organise-t-il l’incapacité de certaines personnes ?",
+      "points": 2,
+      "reponse_attendue": "Rappel : la capacité de jouissance est l’aptitude à être titulaire de droits et d’obligations ; toute personne en dispose de sa naissance à sa mort. La capacité d’exercice est l’aptitude à exercer soi-même ces droits, notamment en contractant. L’article 1145 du Code civil pose le principe de la capacité et réserve l’incapacité aux cas prévus par la loi.\nRéflexion (au moins deux idées attendues) :\n– Protéger la personne vulnérable : un mineur ou un majeur dont les facultés sont altérées peut ne pas mesurer la portée de ses engagements. L’incapacité vise à éviter qu’il soit abusé ou qu’il dilapide son patrimoine. Elle est donc une mesure de protection et non une sanction.\n– Garantir un consentement libre et éclairé : la validité du contrat repose sur un consentement réel. Lorsque le discernement est insuffisant, la représentation (tutelle, autorité parentale) ou l’assistance (curatelle) permet qu’un tiers responsable apprécie l’intérêt de l’acte.\n– Assurer la sécurité juridique : les cocontractants savent qu’un acte important conclu par un incapable peut être annulé ; ils sont incités à vérifier la capacité de leur partenaire.\n– Concilier protection et liberté : l’incapacité est graduée (actes de la vie courante, actes d’administration, actes de disposition) afin de préserver autant que possible l’autonomie de la personne.\nToute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.",
+      "articles_cites": [
+        "1145"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Lina, 17 ans, a revendu en ligne, sans en parler à sa mère, la console de jeux qu’elle avait reçue en cadeau, pour 450 euros, à Yanis MERCIER, 25 ans. Sa mère, seule titulaire de l’autorité parentale, veut récupérer la console.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Une personne physique mineure non émancipée, donc juridiquement incapable (incapacité d’exercice), a conclu seule un contrat de vente portant sur un bien meuble corporel dont elle est propriétaire, avec une personne physique majeure et capable, l’acheteur. L’acte, d’une valeur de 450 euros, constitue un acte de disposition qui excède les actes de la vie courante qu’un mineur peut accomplir seul.\nLa représentante légale de la mineure, titulaire de l’autorité parentale, n’a pas consenti à l’acte et souhaite remettre en cause le contrat afin d’obtenir la restitution du bien, ce qui pose la question de la nullité relative d’un contrat conclu par un incapable.\nLes parties : la venderesse (mineure incapable), sa mère (représentante légale, demanderesse potentielle à l’action en nullité) et l’acheteur (cocontractant, défendeur). Le litige porte sur la validité du contrat de vente au regard de la condition de capacité posée par l’article 1145 du Code civil. En cas d’annulation, les parties devront procéder à des restitutions réciproques : la console contre le prix de 450 euros.",
+      "articles_cites": [
+        "1145"
+      ]
+    }
+  ]
+}
