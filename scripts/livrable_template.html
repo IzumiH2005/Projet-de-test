@@ -95,6 +95,7 @@ td.up { color: var(--ok); font-weight: 600 }
   <div class="figures" id="figs"></div>
 </header>
 <nav class="tabs" aria-label="Sections"><div class="wrap">
+  <a href="#probable" data-v="probable">Le plus probable</a>
   <a href="#questions" data-v="questions">Questions</a>
   <a href="#sujets" data-v="sujets">Anciens sujets</a>
   <a href="#modele" data-v="modele">Le modèle</a>
@@ -103,7 +104,14 @@ td.up { color: var(--ok); font-weight: 600 }
 </div></nav>
 
 <main class="wrap">
-  <section id="v-questions">
+  <section id="v-probable" hidden>
+    <h2>Ce qui tombera le plus probablement</h2>
+    <p class="sub">Le moteur apprend sur les anciens sujets quel passage du cours le professeur choisit, comment il le demande et ce qu'il exige sans le dire. Il le prouve sur les années passées comme en vrai : chaque année est prédite avec les seules années d'avant.</p>
+    <div class="filters"><select id="pmat" aria-label="Matière"></select></div>
+    <div id="pbody"></div>
+  </section>
+
+  <section id="v-questions" hidden>
     <h2>Questions générées</h2>
     <p class="sub">« Inédite » : une notion, une manière de demander et un type de support que les annales n'ont jamais réunis, ou un point du cours jamais évalué. Le modèle juge chaque combinaison plausible. La correction est repliée sous chaque question.</p>
     <div class="filters" role="group" aria-label="Type de question">
@@ -394,10 +402,61 @@ $("#es").oninput = renderE; renderE();
     ${au}${aat}${gr}${bo}`;
 })();
 
+// ---- le plus probable
+(function () {
+  const PR = D.probable;
+  if (!PR) { document.querySelector('nav.tabs a[data-v="probable"]').remove(); return; }
+  const DK = {facette_ok: "manière de demander", section_ok: "chapitre visé", articles_ok: "références vérifiées", nouveaute_ok: "pas une copie", longueur_ok: "longueur du corrigé"};
+  const txt = t => md(String(t || "").replace(/\n(?!\n)/g, "\n\n"));
+  $("#pmat").innerHTML = PR.map((m, i) => `<option value="${i}">${esc(m.nom)}</option>`).join("");
+  function card(x) {
+    const meta = [x.section, x.partenaire ? "avec " + x.partenaire : "", x.proba != null ? "proba. " + pct(x.proba) : ""].filter(Boolean);
+    const qs = x.questions.map(q => {
+      const ck = Object.entries(q.ok).filter(([k, v]) => v != null).map(([k, v]) => `<span class="ck ${v ? "y" : "n"}">${v ? "✓" : "✗"} ${DK[k]}</span>`).join("")
+        + (q.dit && q.dit.length ? `<span class="ck n">✗ intention dite : ${q.dit.map(esc).join(", ")}</span>` : "")
+        + (q.exige && q.exige.length ? `<span class="ck y">exigé sans être dit : ${q.exige.map(esc).join(", ")}</span>` : "");
+      return `<div class="dq">${q.situation ? `<div class="ctx md">${txt(q.situation)}</div>` : ""}
+        <div class="enonce md"><p><b>${q.slot}.</b> ${esc(q.enonce)}${q.points ? ` <span class="m">(${q.points} pt${q.points > 1 ? "s" : ""})</span>` : ""}</p></div>
+        ${q.reponse ? `<details class="corr"><summary>Corrigé</summary><div class="md">${txt(q.reponse)}</div></details>` : ""}
+        <div class="checks">${ck}</div></div>`;
+    }).join("");
+    return `<article class="q"><div class="qhead"><span class="notion">${esc(x.titre || x.id)}</span><span class="dom">${meta.map(esc).join(" · ")}</span></div>
+      ${x.cache.length ? `<p class="m">Intention cachée visée : ${x.cache.map(esc).join(", ")}${x.couverte != null ? " · couverte par les corrigés : " + pct(x.couverte) : ""}</p>` : ""}
+      ${x.situation ? `<details class="corr" open><summary>Situation</summary><div class="ctx md">${txt(x.situation)}</div></details>` : ""}
+      ${x.annexes.map(a => `<details class="corr"><summary>${esc(a.titre)}</summary><div class="md">${txt(a.texte)}</div></details>`).join("")}
+      ${qs}</article>`;
+  }
+  function render() {
+    const M = PR[+$("#pmat").value || 0], V = M.validation || {};
+    const ys = M.testees || [];
+    const best = M.back.filter(b => b.cle !== "popularite" && b.cle !== "choisie_seule").reduce((a, b) => (b.couv > (a ? a.couv : -1) ? b : a), null);
+    const bt = `<div class="tw"><table><thead><tr><th>Méthode</th><th>Questions couvertes</th><th>À un passage près</th>${ys.map(y => `<th>${y}</th>`).join("")}</tr></thead><tbody>
+      <tr><td>Hasard</td><td>${pct(M.hasard)}</td><td>–</td>${ys.map(() => "<td>–</td>").join("")}</tr>
+      ${M.back.map(b => `<tr><td>${esc(b.famille)}</td><td class="${best && b.cle === best.cle ? "up" : ""}">${pct(b.couv)}</td><td>${b.pres == null ? "–" : pct(b.pres)}</td>${ys.map(y => `<td>${b.ans[y] == null ? "–" : pct(b.ans[y])}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+    const ps = M.passages.map((p, i) => `<article class="q"><div class="qhead"><span class="notion">${i + 1}. ${esc(p.section)}</span><span class="dom">proba. ${pct(p.proba)}${p.deja ? " · déjà tombé " + p.deja + " fois" : " · jamais tombé"}</span></div>
+      <p class="m">${esc(p.texte)}…</p>
+      ${p.cache.length ? `<p><b>Évalué sans être dit :</b> ${p.cache.map(esc).join(", ")}</p>` : ""}
+      ${p.manieres.length ? `<p><b>Comment il le demande :</b></p><ul>${p.manieres.map(m => `<li>${pct(m.part)} · « ${esc(m.ex)} »</li>`).join("")}</ul>` : ""}
+      ${p.proches.length ? `<details class="corr"><summary>Vraies questions passées sur ce passage</summary><ul>${p.proches.map(q => `<li>${esc(q)}</li>`).join("")}</ul></details>` : ""}</article>`).join("");
+    $("#pbody").innerHTML = `<div class="prose"><p><b>1. La preuve.</b> Sur ${M.n_pass} passages du cours, le moteur en retient ${M.n_prev} (10 %). On compte la part des vraies questions de l'année qui tombent sur un passage retenu. Années testées : ${ys.join(", ")}, chacune prédite sans elle ni les suivantes.</p></div>
+      ${bt}
+      <div class="prose"><p>Lecture : ${best ? `la meilleure méthode couvre ${pct(best.couv)} des vraies questions, contre ${pct(M.back.find(b => b.cle === "popularite")?.couv)} en misant sur ce qui tombe souvent et ${pct(M.hasard)} au hasard.` : ""} Les résultats varient beaucoup d'une année à l'autre : avec ${(M.connues || []).length} années connues, une année surprise suffit à faire chuter le score. Choisir la méthode seul, année après année, donne moins (ligne « Famille choisie seule ») : c'est le chiffre honnête à retenir. Pour ${M.annee}, la méthode retenue est : ${esc(M.famille)}.</p></div>
+      <div class="prose"><p><b>2. Les passages les plus probables en ${M.annee}</b>, avec ce que le professeur évalue sans le nommer (mots propres au passage, présents dans ses corrigés, absents de ses énoncés) et ses manières habituelles de le demander.</p></div>
+      ${ps}
+      ${M.items.length ? `<div class="prose"><p><b>3. Sujets probables générés</b> dans la manière du professeur, sur les passages prévus. Chaque question est contrôlée : manière de demander, chapitre, références, nouveauté, longueur ; l'intention cachée doit être exigée dans le corrigé sans être dite dans l'énoncé.</p></div>
+      <div class="tw"><table><thead><tr><th>Contrôle</th><th>Réussite</th></tr></thead><tbody>
+        ${Object.entries(DK).map(([k, l]) => V[k] == null ? "" : `<tr><td>${l}</td><td>${pct(V[k])}</td></tr>`).join("")}
+        ${V.tout_ok != null ? `<tr><td><b>Question qui passe tout</b></td><td><b>${pct(V.tout_ok)}</b></td></tr>` : ""}</tbody></table></div>
+      <div class="list">${M.items.map(card).join("")}</div>` : `<div class="prose"><p>Sujets probables pas encore générés pour cette matière.</p></div>`}`;
+  }
+  $("#pmat").onchange = render; render();
+})();
+
 // ---- onglets
 function route() {
-  const v = ["questions", "sujets", "modele", "droit", "general"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "questions";
-  ["questions", "sujets", "modele", "droit", "general"].forEach(k => { $("#v-" + k).hidden = k !== v; });
+  const V = [...document.querySelectorAll("nav.tabs a")].map(a => a.dataset.v);
+  const v = V.includes(location.hash.slice(1)) ? location.hash.slice(1) : V[0];
+  ["probable", "questions", "sujets", "modele", "droit", "general"].forEach(k => { $("#v-" + k).hidden = k !== v; });
   document.querySelectorAll("nav.tabs a").forEach(a => a.toggleAttribute("aria-current", a.dataset.v === v) || a.dataset.v === v && a.setAttribute("aria-current", "page"));
 }
 window.addEventListener("hashchange", route); route();

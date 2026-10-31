@@ -191,6 +191,60 @@ def droit():
     }
     return {"profil": prof_out, "items": items, "validation": val["resume"], "annales": ann}
 
+FAM = {"popularite": "Popularité (déjà tombé souvent)", "logistique_12_generiques": "Logistique, 12 variables",
+       "arbres_12_generiques": "Arbres boostés, 12 variables", "arbres_generiques_et_propres_a_la_matiere": "Arbres boostés + variables propres",
+       "ensemble": "Moyenne des familles", "choisie_seule": "Famille choisie seule chaque année"}
+
+
+def probable():
+    """Onglet « Le plus probable » : preuve sur les années passées, passages prévus, sujets probables."""
+    out = []
+    for d, nom in (("droit", "Droit (STMG)"), ("nsi_prof", "NSI")):
+        D = OUT / d
+        if not (D / "previsions.json").exists():
+            continue
+        pv = json.loads((D / "previsions.json").read_text(encoding="utf-8"))
+        pr = pv["preuve_comme_en_vrai"]
+        fac = {}
+        if (D / "profil.json").exists():
+            prof = json.loads((D / "profil.json").read_text(encoding="utf-8"))
+            fac = {i: clean(f["exemples"][0], 120) for i, f in enumerate(prof["manieres_de_demander"]["facettes"])}
+        fams = [k for k in FAM if isinstance(pr.get(k), dict)]
+        back = [{"famille": FAM[k], "cle": k, "auc": pr[k].get("auc"), "couv": pr[k].get("questions_couvertes"),
+                 "pres": pr[k].get("questions_couvertes_a_un_passage_pres"), "ans": pr[k].get("par_annee", {})} for k in fams]
+        pas = [{"section": x["section_titre"], "proba": x["probabilite"], "texte": clean(x["texte"], 260), "deja": x.get("deja_tombe"),
+                "cache": x.get("evalue_sans_etre_dit", []), "nomme": x.get("toujours_nomme", []),
+                "manieres": [{"ex": fac.get(m["facette"], m["nom"]), "part": m["part"]} for m in x.get("manieres_de_demander", [])],
+                "proches": [q["enonce"] for q in x.get("questions_passees_proches", [])][:2]}
+               for x in pv["passages_les_plus_probables"][:10]]
+        plans = {}
+        if (D / "plans_probables.json").exists():
+            pl = json.loads((D / "plans_probables.json").read_text(encoding="utf-8"))
+            plans = {p["id"]: p for p in (pl if isinstance(pl, list) else pl.get("plans", []))}
+        vf = D / "validation_probables.json"
+        val = json.loads(vf.read_text(encoding="utf-8")) if vf.exists() else {"resume": {}, "detail": []}
+        vd = {r["id"]: r for r in val["detail"]}
+        items = []
+        for f in sorted((D / "generated_probables").glob("*.json")) if (D / "generated_probables").exists() else []:
+            g = json.loads(f.read_text(encoding="utf-8"))
+            p, v = plans.get(g["id"], {}), vd.get(g["id"], {})
+            vq = {q["slot"]: q for q in v.get("questions", [])}
+            items.append({"id": g["id"], "titre": g.get("titre", ""), "section": p.get("section_titre"), "partenaire": p.get("partenaire_titre"),
+                          "proba": p.get("proba_annee_suivante"), "cache": (p.get("intention_cachee") or {}).get("evaluer_sans_le_dire", []),
+                          "couverte": v.get("intention_cachee_couverte"), "situation": g.get("situation", ""),
+                          "annexes": [{"titre": a.get("titre", ""), "texte": a.get("texte", "")} for a in g.get("annexes") or []],
+                          "questions": [{"slot": q.get("slot"), "enonce": q.get("enonce", ""), "situation": q.get("situation", ""),
+                                         "points": q.get("points"), "reponse": q.get("reponse_attendue", ""),
+                                         "exige": vq.get(q.get("slot"), {}).get("intention_exigee_dans_le_corrige", []),
+                                         "dit": vq.get(q.get("slot"), {}).get("intention_dite_dans_l_enonce", []),
+                                         "ok": {k: vq.get(q.get("slot"), {}).get(k) for k in ("facette_ok", "section_ok", "articles_ok", "nouveaute_ok", "longueur_ok")}}
+                                        for q in g.get("questions", [])]})
+        out.append({"nom": nom, "annee": pv.get("annee_prevue"), "connues": pv.get("annees_connues"), "testees": pr.get("annees_testees"),
+                    "n_pass": pr.get("passages_du_cours"), "n_prev": pr.get("passages_prevus"), "hasard": pr.get("hasard_questions_couvertes"),
+                    "famille": FAM.get(pv.get("famille_choisie"), pv.get("famille_choisie")), "back": back, "passages": pas,
+                    "items": items, "validation": val["resume"]})
+    return out or None
+
 
 def meta():
     f = OUT / "meta" / "rapport.json"
@@ -222,7 +276,7 @@ def meta():
 def main():
     ex = exams()
     qs, resume = questions()
-    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "meta": meta()}
+    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "probable": probable(), "meta": meta()}
     tpl = (ROOT / "scripts" / "livrable_template.html").read_text(encoding="utf-8")
     html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     (OUT / "livrable.html").write_text(html, encoding="utf-8")
