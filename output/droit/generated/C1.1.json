@@ -1,0 +1,64 @@
+{
+  "id": "C1.1",
+  "type": "cas",
+  "titre": "La formation refusée chez Brunel Logistique",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS « Brunel Logistique », installée à Valence, exploite un entrepôt de 85 salariés. Son règlement intérieur, mis à jour le 2 janvier 2025 par son président, Gilles BRUNEL, prévoit que la formation qualifiante de cariste (conduite de chariots élévateurs), qui ouvre droit à une prime mensuelle de 180 euros, est « réservée en priorité au personnel masculin, plus apte aux efforts physiques ».\nLéa FONTAINE, préparatrice de commandes en contrat à durée indéterminée depuis 2021, demande le 10 mars 2025 à suivre cette formation. Sa demande est rejetée le 17 mars 2025 au motif qu’elle est une femme ; deux collègues masculins, embauchés après elle, sont retenus. Lors de son entretien annuel, Gilles BRUNEL lui rappelle qu’elle a signé le règlement intérieur à son arrivée et qu’« une entreprise privée est libre de s’organiser comme elle l’entend ».\nLéa FONTAINE estime être victime d’une injustice. Elle souhaite obtenir l’accès à la formation ainsi que la réparation du préjudice financier lié à la perte de la prime depuis le mois d’avril 2025. Elle vous consulte.\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extrait du Code du travail",
+      "texte": "Article L1132-1 : Aucune personne ne peut être écartée d'une procédure de\nrecrutement ou de nomination ou de l'accès à un stage ou à une période de formation\nen entreprise, aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une\nmesure discriminatoire, directe ou indirecte, […] , notamment en matière de\nrémunération, de mesures d'intéressement ou de distribution d'actions, de formation,\nde reclassement, d'affectation, de qualification, de classification, de promotion\nprofessionnelle, de mutation ou de renouvellement de contrat en raison de son origine,\nde son sexe, de ses mœurs, de son orientation sexuelle, de son identité de genre, de\nson âge, de sa situation de famille ou de sa grossesse, de ses caractéristiques\ngénétiques, de la particulière vulnérabilité résultant de sa situation économique,\napparente ou connue de son auteur, de son appartenance ou de sa non-appartenance,\nvraie ou supposée, à une ethnie, une nation ou une prétendue race, de ses opinions\npolitiques, de ses activités syndicales ou mutualistes, de ses convictions religieuses,\nde son apparence physique, de son nom de famille, de son lieu de résidence ou de sa\ndomiciliation bancaire, ou en raison de son état de santé, de sa perte d'autonomie ou\nde son handicap, de sa capacité à s'exprimer dans une langue autre que le français.\n[…]",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 – Articles du Code du travail et du Code civil",
+      "texte": "Article L6112-1 du Code du travail\nPour l'application de la présente partie, aucune distinction entre les femmes et les hommes ne peut être faite.\nArticle L3111-3 du Code du travail\nA l'exception du chapitre II du titre III ainsi que des titres VI et VII, le présent livre définit les règles d'ordre public, le champ de la négociation collective et les règles supplétives applicables en l'absence d'accord.\nArticle 1179 du Code civil\nLa nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 – Extrait du règlement intérieur de la SAS Brunel Logistique",
+      "texte": "Article 12 – Formation professionnelle\nL’accès aux formations qualifiantes est décidé par la direction en fonction des besoins de l’entrepôt. La formation de cariste est réservée en priorité au personnel masculin, plus apte aux efforts physiques.\nArticle 13 – Prime de qualification\nTout salarié titulaire de la qualification de cariste perçoit une prime mensuelle de 180 euros bruts.\nArticle 20 – Opposabilité\nLe présent règlement s’impose à tous les salariés de l’entreprise, qui en reçoivent un exemplaire lors de leur embauche.",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 4 – Regard historique sur l’ordre public et le contrat",
+      "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Une salariée (Léa FONTAINE), liée par un contrat de travail à durée indéterminée à un employeur, personne morale (la SAS Brunel Logistique), représentée par son président (Gilles BRUNEL), s’est vu refuser l’accès à une formation qualifiante en raison de son sexe, en application d’une clause du règlement intérieur, acte unilatéral de l’employeur. Des salariés masculins, placés dans la même situation et de moindre ancienneté, ont été retenus.\nLa salariée subit un préjudice matériel (perte d’une prime mensuelle de 180 euros depuis avril 2025) et un préjudice moral (sentiment d’injustice, atteinte à son évolution professionnelle).\nElle se prétend victime d’une mesure discriminatoire et souhaite obtenir l’accès à la formation ainsi que des dommages et intérêts. L’employeur invoque son pouvoir d’organisation, la liberté d’entreprendre et l’acceptation du règlement intérieur par la salariée.\nLa question qui se pose est de savoir si un employeur peut, par une disposition de son règlement intérieur, réserver l’accès à une formation professionnelle aux seuls salariés d’un sexe.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que Léa FONTAINE peut avancer pour obtenir l’accès à la formation et la réparation du préjudice subi.",
+      "points": 3,
+      "reponse_attendue": "Fondement : l’article L1132-1 du Code du travail interdit qu’un salarié fasse l’objet d’une mesure discriminatoire, directe ou indirecte, notamment en matière de formation, de qualification ou de promotion professionnelle, en raison de son sexe. L’article L6112-1 du Code du travail précise que, pour la formation professionnelle, aucune distinction entre les femmes et les hommes ne peut être faite.\nEn l’espèce, la demande de Léa FONTAINE a été rejetée explicitement parce qu’elle est une femme ; deux collègues masculins, embauchés après elle, ont été retenus. Il s’agit d’une discrimination directe fondée sur le sexe, dans un domaine (la formation qualifiante) expressément visé par les textes. La mention d’une prétendue moindre aptitude physique repose sur un stéréotype et non sur une appréciation individuelle de ses capacités.\nCes règles sont d’ordre public : elles protègent l’égalité, principe général fondateur de notre société démocratique, et s’imposent à l’employeur comme à tous. Le fait que Léa FONTAINE ait reçu le règlement intérieur ne vaut pas renonciation : on ne peut écarter par un acte privé une règle qui sauvegarde l’intérêt général (annexe 4). L’article 12 du règlement intérieur, contraire à la loi, doit donc être écarté ; l’article 1179 du Code civil rappelle d’ailleurs que la violation d’une règle ayant pour objet la sauvegarde de l’intérêt général est sanctionnée par une nullité absolue.\nLa mesure de refus étant illicite, Léa FONTAINE peut demander au conseil de prud’hommes d’ordonner son accès à la formation et de condamner la SAS Brunel Logistique à réparer son préjudice : perte de la prime de 180 euros par mois depuis avril 2025 (préjudice matériel) et atteinte à sa dignité et à son évolution de carrière (préjudice moral).\nEn conclusion, Léa FONTAINE est fondée à obtenir l’accès à la formation et des dommages et intérêts.",
+      "articles_cites": [
+        "L1132-1",
+        "L6112-1",
+        "1179"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Développez l’argumentation juridique que la SAS Brunel Logistique pourrait lui opposer.",
+      "points": 3,
+      "reponse_attendue": "La SAS Brunel Logistique pourrait d’abord invoquer la liberté d’entreprendre et son pouvoir de direction : l’employeur organise librement le travail dans l’entreprise, choisit les salariés qu’il forme en fonction des besoins de l’entrepôt (article 12 du règlement intérieur) et n’a pas l’obligation de faire droit à toutes les demandes de formation.\nElle pourrait ensuite soutenir que Léa FONTAINE a reçu et accepté le règlement intérieur lors de son embauche (article 20) : celui-ci lui est opposable et elle ne peut aujourd’hui en contester une clause qu’elle connaissait.\nElle pourrait enfin tenter de justifier sa décision par une considération de sécurité : la conduite de chariots élévateurs comporterait des contraintes physiques, et l’employeur doit protéger la santé de ses salariés. Selon elle, la différence de traitement ne serait pas une discrimination mais une mesure de prudence.\nToutefois, ces arguments sont fragiles. Le pouvoir de direction s’exerce dans le respect de la loi ; l’article L3111-3 du Code du travail rappelle que le Code définit des règles d’ordre public auxquelles ni le règlement intérieur ni un accord ne peuvent déroger. L’acceptation du règlement ne peut couvrir une clause illicite. Quant à l’argument physique, il est général et abstrait : il ne repose sur aucune évaluation des aptitudes de Léa FONTAINE. Tout au plus l’employeur pourrait-il discuter le montant du préjudice, en soutenant que la formation n’aurait pas forcément été suivie dès avril 2025, ce qui réduirait les dommages et intérêts.",
+      "articles_cites": [
+        "L3111-3"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir rappelé les fonctions du droit, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit limite-t-il la liberté des volontés individuelles ?",
+      "points": 3,
+      "reponse_attendue": "Le droit remplit plusieurs fonctions : il organise la vie en société (il fixe les règles du jeu entre les personnes et les institutions), il pacifie les relations sociales (il prévient et règle les conflits par l’intervention du juge), et il protège les personnes, en particulier les plus faibles. Il se distingue de la morale par son caractère obligatoire et sanctionné par l’autorité publique.\nLe principe est la liberté : chacun peut contracter, entreprendre, s’organiser. Mais l’annexe 4 montre que l’ordre public permet « de contraindre les volontés individuelles et de limiter la liberté des personnes en considération d’impératifs jugés supérieurs car intéressant directement la collectivité ».\nD’abord, le droit limite les libertés pour garantir l’égalité : sans limite, le plus fort imposerait sa volonté (l’employeur au salarié, le professionnel au consommateur). Les règles d’ordre public, comme l’interdiction des discriminations, rééquilibrent ces relations.\nEnsuite, il protège les valeurs essentielles de la société démocratique : égalité, liberté, solidarité, laïcité. Ces principes issus de la philosophie des Lumières fondent l’État de droit et ne peuvent être écartés par un contrat ou un règlement privé.\nEnfin, l’annexe souligne le « caractère changeant » de l’ordre public : les intérêts protégés évoluent avec la société (égalité femmes-hommes, protection de l’environnement, des données personnelles). Le droit adapte donc les limites qu’il pose à la liberté.\nAinsi, la liberté de chacun n’a de bornes que celles qui assurent aux autres la jouissance des mêmes droits.",
+      "articles_cites": []
+    }
+  ]
+}

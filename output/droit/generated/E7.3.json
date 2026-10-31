@@ -1,0 +1,55 @@
+{
+  "id": "E7.3",
+  "type": "exercices",
+  "titre": "Les libertés du salarié dans l’entreprise",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : Article L1121-1 du Code du travail",
+      "texte": "Nul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "La SAS Bio’Marché, qui exploite cinq magasins d’alimentation biologique, a prévu dans son règlement intérieur qu’« un salarié ayant fait l’objet de deux avertissements dans l’année pourra être licencié sans entretien ». Elle souhaite aussi sanctionner les salariés qui critiqueraient, en réunion d’expression, l’organisation des plannings.",
+      "enonce": "Après avoir rappelé ce qu’est le pouvoir disciplinaire de l’employeur, expliquez pourquoi le droit le limite.",
+      "points": 2,
+      "reponse_attendue": "Le pouvoir disciplinaire est la prérogative reconnue à l’employeur de sanctionner un salarié qui commet une faute (avertissement, mise à pied, licenciement). Il découle du lien de subordination qui caractérise le contrat de travail et s’ajoute au pouvoir de direction et au pouvoir réglementaire (règlement intérieur).\nLe droit limite ce pouvoir d’abord parce que la relation de travail est déséquilibrée : le salarié dépend économiquement de son employeur et ne peut librement négocier. Le législateur protège la partie faible en encadrant la sanction (procédure, proportionnalité, interdiction des sanctions discriminatoires). Ainsi le règlement intérieur ne peut contenir de dispositions contraires aux lois ni de restrictions injustifiées aux libertés (article L1321-3 du Code du travail) : une clause supprimant l’entretien préalable serait illicite.\nEnsuite, le salarié reste un citoyen titulaire de libertés fondamentales. L’article L1121-1 n’admet de restrictions que justifiées par la nature de la tâche et proportionnées au but recherché. La liberté d’expression des salariés est même organisée par la loi (droit d’expression, article L2281-10) : sanctionner une critique exprimée dans ce cadre, sans abus, serait illégitime.\nEnfin, ces limites servent l’intérêt de l’entreprise elle-même, en préservant un climat social apaisé et la confiance des salariés.",
+      "articles_cites": [
+        "L1321-3",
+        "L1121-1",
+        "L2281-10"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Nadia BELKACEM, assistante administrative dans la SARL Domotix, a découvert le 6 janvier 2026 que son employeur avait installé, sans l’en informer, un logiciel enregistrant toutes les frappes de clavier de son ordinateur professionnel. Le gérant justifie ce dispositif par la volonté de « mesurer la productivité ». Nadia BELKACEM souhaite obtenir le retrait du logiciel.",
+      "enonce": "Développez l’argumentation juridique que Nadia BELKACEM peut avancer pour appuyer ses prétentions.",
+      "points": 2,
+      "reponse_attendue": "Nadia BELKACEM peut soutenir que le dispositif porte une atteinte injustifiée et disproportionnée à ses libertés individuelles et à sa vie personnelle au travail.\nFondement : selon l’article L1121-1 du Code du travail, nul ne peut apporter aux droits des personnes et aux libertés individuelles de restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché. L’employeur peut contrôler l’activité de ses salariés, mais ce contrôle doit être loyal : le salarié doit en être informé préalablement.\nEn l’espèce, le logiciel enregistre l’intégralité des frappes, y compris les éventuels messages personnels, mots de passe ou échanges privés : il permet une surveillance permanente et totale. Le but invoqué, « mesurer la productivité », est légitime, mais il pourrait être atteint par des moyens moins intrusifs (objectifs, comptes rendus, suivi des dossiers traités) : la mesure n’est donc pas proportionnée. Par ailleurs, la salariée n’a pas été informée, ce qui rend le dispositif déloyal et les preuves qu’il fournirait inopposables.\nNadia BELKACEM peut donc exiger le retrait du logiciel et, le cas échéant, demander réparation du préjudice moral subi.",
+      "articles_cites": [
+        "L1121-1"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Thibault RENOUX, chauffeur-livreur de la SAS TransAlpes, a publié le 20 février 2026 sur un réseau social public une vidéo tournée dans le dépôt, montrant le visage de collègues et qualifiant le directeur d’« incapable » et d’« escroc ». La SAS TransAlpes envisage de le sanctionner ; Thibault RENOUX invoque sa liberté d’expression.",
+      "enonce": "Proposez l’argumentation juridique que l’employeur pourra opposer à Thibault RENOUX.",
+      "points": 2,
+      "reponse_attendue": "La SAS TransAlpes peut soutenir que Thibault RENOUX a abusé de sa liberté d’expression et que sa sanction est justifiée.\nPrincipe : le salarié jouit, dans l’entreprise et en dehors, de sa liberté d’expression ; il ne peut y être apporté que des restrictions justifiées et proportionnées (article L1121-1 du Code du travail). Mais cette liberté n’est pas absolue : elle dégénère en abus en cas de propos injurieux, diffamatoires ou excessifs, ou lorsqu’elle porte atteinte aux droits d’autrui.\nEn l’espèce, les termes « incapable » et « escroc » visant nommément le directeur sont injurieux et dénigrants ; ils ont été diffusés sur un réseau social public, accessible à tous, ce qui aggrave l’atteinte à la réputation de l’entreprise. De plus, la vidéo montre le visage de collègues sans leur accord, ce qui porte atteinte à leur droit à l’image et à leur vie privée. Enfin, le salarié manque à son obligation d’exécuter le contrat de travail de bonne foi, qui implique une obligation de loyauté envers l’employeur.\nL’employeur, titulaire du pouvoir disciplinaire, peut donc prononcer une sanction proportionnée à la faute, après avoir respecté la procédure disciplinaire.",
+      "articles_cites": [
+        "L1121-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Le 12 mars 2026, la majorité des salariés de l’entrepôt de la SAS LogiNord ont cessé le travail pendant deux jours pour obtenir une hausse des salaires, après avoir présenté leurs revendications à la direction. La direction a retenu deux jours de salaire et adressé un avertissement à Kevin DUPRÉ, élu au comité social et économique, qu’elle considère comme le meneur.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nLa SAS LogiNord, personne morale de droit privé, est l’employeur des salariés de l’entrepôt, liés à elle par un contrat de travail. Le 12 mars 2026, ces salariés ont exercé collectivement leur droit de grève : cessation collective et concertée du travail, pendant deux jours, en vue d’appuyer des revendications professionnelles (hausse des salaires) préalablement portées à la connaissance de l’employeur. Il s’agit d’une liberté collective du salarié.\nL’employeur a procédé à une retenue sur salaire correspondant aux deux jours non travaillés, conséquence normale de la suspension du contrat de travail pendant la grève. Il a en outre prononcé une sanction disciplinaire (avertissement) à l’encontre de Kevin DUPRÉ, salarié et représentant du personnel élu au CSE, au motif de sa participation active au mouvement.\nLe litige porte sur la licéité de cette sanction : l’exercice normal du droit de grève ne peut justifier une sanction, sauf faute lourde du salarié.",
+      "articles_cites": []
+    }
+  ]
+}

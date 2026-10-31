@@ -1,0 +1,68 @@
+{
+  "id": "C8.1",
+  "type": "cas",
+  "titre": "L’atelier de Thomas",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe numérotées de 1 à 4, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nThomas LEROUX, ébéniste, exerce depuis 2019 son activité à Angers sous la forme d’une entreprise individuelle. Afin de protéger sa maison, achetée seule avec ses économies, il a déclaré en 2020 un patrimoine affecté à son activité professionnelle : y figurent son atelier, ses machines, son stock de bois et le compte bancaire professionnel. Sa maison et son épargne personnelle n’y figurent pas.\nEn septembre 2025, Thomas réalise pour Maëlys CARON une bibliothèque sur mesure pour un prix de 6 400 euros. Quelques semaines après la pose, une étagère mal fixée cède et brise une collection de vases anciens d’une valeur estimée à 3 200 euros. Maëlys réclame à Thomas la réparation de son dommage.\nAu même moment, l’association « Scènes en Loire » (SLP), à qui Thomas avait livré en 2025 des décors en bois pour un spectacle, découvre que ceux-ci présentent des fissures rendant leur utilisation dangereuse ; l’association a dû annuler deux représentations et rembourser 4 500 euros de billets. Son président, monsieur Hugo BRETON, souhaite obtenir réparation.\nLe compte professionnel de Thomas ne présente qu’un solde de 1 800 euros et son matériel est ancien. Maëlys et l’association envisagent de faire saisir la maison de Thomas. Ce dernier, inquiet, vous consulte.\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : Article L526-6 du Code de commerce",
+      "texte": "Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, nécessaires à l'exercice de son activité professionnelle. Il peut comprendre également les biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, utilisés pour l'exercice de son activité professionnelle, qu'il décide d'y affecter et qu'il peut ensuite décider de retirer du patrimoine affecté. Un même bien, droit, obligation ou sûreté ne peut entrer dans la composition que d'un seul patrimoine affecté. […]",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 2 : Article L223-1 du Code de commerce",
+      "texte": "La société à responsabilité limitée est instituée par une ou plusieurs personnes qui ne supportent les pertes qu'à concurrence de leurs apports. Lorsque la société ne comporte qu'une seule personne, celle-ci est dénommée \"associé unique\". L'associé unique exerce les pouvoirs dévolus à l'assemblée des associés par les dispositions du présent chapitre. […]",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 : Article 1179 du Code civil",
+      "texte": "La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 4 : Extrait du bon de commande signé entre Thomas LEROUX et l’association SLP",
+      "texte": "Entre : Thomas LEROUX, ébéniste, entrepreneur individuel à responsabilité limitée, 12 rue des Tanneurs, 49000 Angers,\nEt : l’association « Scènes en Loire » (SLP), représentée par son président, M. Hugo BRETON.\nObjet : fabrication et livraison de trois éléments de décor en chêne massif destinés à être montés et démontés pour une tournée de dix représentations.\nPrix : 7 200 euros TTC.\nArticle 4 – Garantie : l’ébéniste s’engage à livrer des éléments solides, conformes à l’usage scénique convenu et sans danger pour les comédiens et le public.\nArticle 6 – Responsabilité : la responsabilité de l’ébéniste ne pourra être recherchée que sur les biens composant le patrimoine affecté à son activité professionnelle.\nFait à Angers, le 4 mars 2025.",
+      "source": "invente"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nThomas LEROUX, personne physique, exerce une activité professionnelle artisanale (ébéniste) sous la forme d’une entreprise individuelle, sans création d’une personne morale. Il a opté pour le statut d’entrepreneur individuel à responsabilité limitée en déclarant un patrimoine affecté (atelier, machines, stock, compte professionnel), distinct de son patrimoine personnel (maison, épargne).\nIl a conclu deux contrats d’entreprise : l’un avec Maëlys CARON, personne physique et consommatrice, pour la fabrication d’une bibliothèque ; l’autre avec l’association SLP, personne morale de droit privé, pour des décors. Dans les deux cas, il a mal exécuté son obligation contractuelle (étagère mal fixée, décors fissurés), causant un dommage matériel à Maëlys (vases brisés, 3 200 euros) et un préjudice financier à l’association (remboursement de 4 500 euros de billets).\nLes créancières (Maëlys et l’association SLP) entendent engager la responsabilité civile contractuelle de Thomas, débiteur, et faire saisir sa maison. Le litige porte sur l’étendue du droit de gage des créanciers : peuvent-ils saisir des biens du patrimoine personnel de l’entrepreneur ?",
+      "articles_cites": [
+        "L526-6"
+      ]
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi.",
+      "points": 3,
+      "reponse_attendue": "L’association SLP doit d’abord démontrer qu’elle peut engager la responsabilité civile contractuelle de Thomas LEROUX, qui suppose la réunion de trois conditions cumulatives.\n- Une inexécution contractuelle : selon le bon de commande (annexe 4, article 4), Thomas s’est engagé à livrer des éléments « solides, conformes à l’usage scénique convenu et sans danger ». Or les décors présentent des fissures rendant leur utilisation dangereuse : l’obligation a été mal exécutée.\n- Un dommage : l’association a dû annuler deux représentations et rembourser 4 500 euros de billets ; il s’agit d’un préjudice patrimonial certain et chiffré.\n- Un lien de causalité : c’est bien la dangerosité des décors qui a contraint l’association à annuler les spectacles.\nL’association, créancière, peut donc obtenir des dommages et intérêts.\nElle doit ensuite justifier sur quels biens elle peut se faire payer. Thomas exerce sous le statut d’entrepreneur individuel à responsabilité limitée ; selon l’article L526-6 du Code de commerce (annexe 1), il a affecté à son activité un patrimoine séparé. La créance de l’association est née de l’activité professionnelle, postérieurement à la déclaration d’affectation : l’association peut donc saisir tous les biens du patrimoine affecté (compte professionnel, machines, stock, atelier). La clause de l’article 6 du bon de commande, qu’elle a acceptée, rappelle d’ailleurs ce périmètre.\nL’association pourrait enfin soutenir que ce patrimoine étant insuffisant, elle subit un préjudice, mais elle ne pourra en principe atteindre la maison qu’en démontrant une fraude ou un manquement grave de Thomas aux règles d’affectation.",
+      "articles_cites": [
+        "L526-6"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Proposez l’argumentation juridique que peut avancer Thomas pour s’opposer à la saisie de sa maison.",
+      "points": 3,
+      "reponse_attendue": "Thomas LEROUX peut d’abord rappeler le principe de l’unicité du patrimoine : en entreprise individuelle classique, l’entrepreneur, qui ne crée pas de personne morale, répond des dettes professionnelles sur l’ensemble de ses biens personnels. C’est précisément pour éviter ce risque que le législateur a créé des modalités de protection.\nFondement : selon l’article L526-6 du Code de commerce (annexe 1), l’entrepreneur individuel à responsabilité limitée affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d’une personne morale. Ce patrimoine comprend les biens nécessaires à l’activité, et un même bien ne peut entrer que dans un seul patrimoine affecté. Les créanciers professionnels dont les droits sont nés après la déclaration n’ont pour gage que le patrimoine affecté.\nEn l’espèce, Thomas a déclaré son patrimoine affecté dès 2020, soit bien avant les contrats conclus en 2025 avec Maëlys et l’association SLP. Sa maison, achetée avec ses économies et qui n’est pas nécessaire à son activité d’ébéniste, ne fait pas partie de ce patrimoine. Les dettes nées de ses chantiers sont des dettes professionnelles. Les créancières ne peuvent donc saisir que l’atelier, les machines, le stock et le compte professionnel. Le bon de commande signé avec l’association SLP (annexe 4, article 6) le stipule expressément et l’association, en le signant, en a eu connaissance.\nThomas peut ajouter que, même s’il est responsable de la mauvaise exécution, sa responsabilité est limitée au patrimoine affecté : il ne nie pas la dette, il en conteste le gage. Il pourrait enfin indiquer qu’une transformation en EURL, société à associé unique qui ne supporte les pertes qu’à concurrence de ses apports (article L223-1, annexe 2), lui offrirait à l’avenir une protection comparable grâce à une personne morale distincte.",
+      "articles_cites": [
+        "L526-6",
+        "L223-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Pourquoi le droit permet-il à l’entrepreneur individuel de protéger son patrimoine personnel ?",
+      "points": 3,
+      "reponse_attendue": "Construction de la réflexion : le candidat doit mener une réflexion guidée par un fil conducteur ; au moins deux idées sont attendues, dont l’une peut exploiter des transversalités avec l’économie ou le management.\nLe principe de l’unicité du patrimoine veut qu’une personne n’ait qu’un patrimoine, qui répond de toutes ses dettes. Appliqué à l’entrepreneur individuel, il l’expose à perdre ses biens personnels, voire son logement familial, en cas d’échec.\nLe droit l’aménage d’abord pour encourager l’entrepreneuriat. La liberté d’entreprendre, principe à valeur constitutionnelle, n’est effective que si le risque est supportable : sans protection, beaucoup renonceraient à créer leur activité. Le législateur a donc successivement créé la déclaration d’insaisissabilité, le patrimoine d’affectation (article L526-6 du Code de commerce) et l’EURL, société à associé unique dont l’associé ne supporte les pertes qu’à concurrence de ses apports (article L223-1).\nEnsuite, ces règles protègent la famille et la personne de l’entrepreneur : les biens nécessaires à sa vie privée ne doivent pas être engloutis par l’activité professionnelle, ce qui rejoint la protection des personnes vulnérables.\nEnfin, la règle de droit doit concilier des intérêts contradictoires : celui de l’entrepreneur et celui des créanciers. C’est pourquoi la protection est encadrée (déclaration, publicité, distinction des biens) afin que les créanciers connaissent l’étendue de leur gage, et elle cède en cas de fraude. Par sa généralité, la règle s’applique à tous les entrepreneurs placés dans la même situation, ce qui garantit leur égalité devant la loi.",
+      "articles_cites": [
+        "L526-6",
+        "L223-1"
+      ]
+    }
+  ]
+}

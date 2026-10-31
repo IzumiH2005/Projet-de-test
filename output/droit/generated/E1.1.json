@@ -1,0 +1,52 @@
+{
+  "id": "E1.1",
+  "type": "exercices",
+  "titre": "Fonctions du droit et ordre public",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe – Regard historique sur l’ordre public et le contrat",
+      "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "La société Vitrapack, fabricant d’emballages à Reims, a signé en 2024 un accord d’entreprise qui réserve aux salariés masculins les stages de perfectionnement organisés de nuit, « pour des raisons de sécurité dans les transports ». Karim BENALI, délégué syndical, n’a pas signé l’accord. Plusieurs salariées se plaignent auprès de lui de ne pas pouvoir suivre ces stages, qui conditionnent une promotion.",
+      "enonce": "Développez l’argumentation juridique que Karim BENALI peut avancer pour obtenir la suppression de la clause.",
+      "points": 2,
+      "reponse_attendue": "Fondement : l’article L6112-1 du Code du travail dispose qu’aucune distinction entre les femmes et les hommes ne peut être faite en matière de formation professionnelle, et l’article L3111-3 du même code rappelle que celui-ci définit des règles d’ordre public.\nPrincipe : les règles d’ordre public protègent des intérêts jugés supérieurs car intéressant la collectivité ; un accord ou un acte privé ne peut pas y déroger.\nEn l’espèce, l’accord d’entreprise de la société Vitrapack réserve les stages de perfectionnement de nuit aux seuls hommes. Cette clause opère une distinction fondée sur le sexe en matière de formation, expressément interdite par la loi. Elle porte atteinte au principe d’égalité, principe fondateur de la société démocratique. Le fait qu’elle résulte d’une négociation avec les représentants du personnel ne la rend pas licite : la négociation collective s’exerce dans le champ défini par la loi et ne peut écarter une règle d’ordre public.\nKarim BENALI, délégué syndical, peut donc demander au juge de constater l’illicéité de la clause et d’en écarter l’application.\nEn conclusion, la clause doit être supprimée et les salariées doivent avoir accès aux stages dans les mêmes conditions que leurs collègues masculins.",
+      "articles_cites": [
+        "L6112-1",
+        "L3111-3"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Hugo PERRIN a souscrit le 5 mai 2025 un abonnement de télésurveillance auprès de la SARL Domotik Alerte, pour 29 euros par mois. Le contrat type qu’il a signé prévoit que « le client renonce à toute réclamation fondée sur le Code de la consommation ». Son alarme est restée en panne trois semaines sans intervention. Il veut résilier et se faire rembourser 87 euros ; la société lui oppose la clause.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Un consommateur (Hugo PERRIN), personne physique, a conclu un contrat de prestation de services (abonnement de télésurveillance) avec un professionnel, personne morale (la SARL Domotik Alerte). Ce contrat d’adhésion, rédigé à l’avance par le professionnel, contient une clause selon laquelle le client renonce à se prévaloir des dispositions protectrices du Code de la consommation.\nÀ la suite d’une panne non réparée pendant trois semaines, le consommateur souhaite mettre fin au contrat et obtenir le remboursement des mensualités versées (préjudice matériel de 87 euros). Le professionnel lui oppose la clause de renonciation et la force obligatoire du contrat.\nLe consommateur estime que la clause est illicite car contraire à des règles d’ordre public.\nLa question qui se pose est de savoir si un consommateur peut renoncer, par une clause contractuelle, aux règles protectrices d’ordre public prévues par le Code de la consommation.",
+      "articles_cites": []
+    },
+    {
+      "slot": 3,
+      "situation": "Lors d’un débat en classe, Manon affirme que « l’ordre public ne sert qu’à empêcher les gens de faire ce qu’ils veulent » et qu’« il suffirait que chacun suive sa conscience ». Son camarade Yanis n’est pas d’accord mais ne sait pas comment le justifier.",
+      "enonce": "Après avoir rappelé la distinction entre le droit et la morale, vous répondrez à la question suivante à l’aide de l’annexe et de vos connaissances personnelles : Pourquoi l’ordre public est-il nécessaire à l’organisation de la société ?",
+      "points": 2,
+      "reponse_attendue": "Le droit et la morale sont deux ensembles de règles de conduite. La règle morale relève de la conscience individuelle ou de valeurs partagées ; sa violation n’entraîne qu’une sanction intérieure ou sociale (remords, réprobation). La règle de droit émane d’une autorité légitime, elle est générale et obligatoire, et sa violation est sanctionnée par l’autorité publique (juge, force publique). Les deux se rejoignent parfois (ne pas tuer, ne pas voler) mais ne se confondent pas.\nL’ordre public est nécessaire d’abord parce qu’il fixe les limites que les volontés individuelles ne peuvent franchir. L’annexe indique qu’il permet « de contraindre les volontés individuelles et de limiter la liberté des personnes en considération d’impératifs jugés supérieurs car intéressant directement la collectivité ». Sans lui, la liberté contractuelle permettrait au plus fort d’imposer sa loi.\nIl est ensuite un instrument de pacification : en posant des règles que nul ne peut écarter (égalité, sécurité, dignité), il prévient les conflits et garantit la cohésion sociale.\nEnfin, l’annexe rappelle son « caractère changeant » : l’ordre public évolue selon « la société considérée ». Il permet donc au droit d’adapter l’organisation sociale aux valeurs du moment (laïcité, solidarité, protection de l’environnement).\nL’ordre public occupe ainsi une « place de choix aux fondations de tout ordre juridique ».",
+      "articles_cites": []
+    },
+    {
+      "slot": 4,
+      "situation": "Reprenez la situation d’Hugo PERRIN et de la SARL Domotik Alerte (question 2). La société refuse toute résiliation et tout remboursement.",
+      "enonce": "Développez l’argumentation juridique que la SARL Domotik Alerte pourrait opposer à Hugo PERRIN.",
+      "points": 2,
+      "reponse_attendue": "La SARL Domotik Alerte pourrait d’abord invoquer la force obligatoire du contrat : Hugo PERRIN a signé l’abonnement en connaissance de cause, la clause de renonciation figurait dans le contrat et le contrat légalement formé s’impose aux parties.\nElle pourrait ensuite soutenir que la panne ne lui est pas imputable (défaillance d’un fournisseur de composants, difficultés d’accès au domicile) et que l’abonnement couvre une durée minimale, de sorte que la résiliation anticipée n’est pas possible sans frais.\nElle pourrait encore faire valoir que le montant réclamé est excessif : le service n’a été interrompu que trois semaines, et seule une fraction des mensualités pourrait être remboursée.\nToutefois, l’argument tiré de la clause est voué à l’échec : l’article L314-26 du Code de la consommation illustre que les dispositions protectrices du consommateur sont d’ordre public, et une règle d’ordre public ne peut être écartée par la volonté des parties. Le consommateur, partie faible, ne peut valablement renoncer à l’avance à la protection que la loi lui accorde. La société ne pourra utilement discuter que l’étendue du préjudice.",
+      "articles_cites": [
+        "L314-26"
+      ]
+    }
+  ]
+}

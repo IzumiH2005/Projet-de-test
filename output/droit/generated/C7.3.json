@@ -1,0 +1,68 @@
+{
+  "id": "C7.3",
+  "type": "cas",
+  "titre": "Une salariée exposée sur les réseaux",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe numérotées de 1 à 4, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS Vélocité, implantée à Nantes, conçoit et vend des vélos à assistance électrique. Elle emploie 48 salariés. Madame Inès MOREL y est embauchée depuis le 1er septembre 2022 en contrat à durée indéterminée en qualité de conseillère commerciale.\nEn janvier 2026, la direction modifie le règlement intérieur : elle y ajoute une clause interdisant aux salariés « toute utilisation de leur téléphone personnel dans l’enceinte de l’entreprise, y compris pendant les pauses », et fait installer une caméra filmant en permanence la salle de pause. Les salariés n’en sont informés que par une note affichée le lendemain de l’installation.\nLe 2 février 2026, lors d’un salon professionnel, le service communication photographie Inès MOREL en train de présenter un nouveau modèle à un client. La photographie, sur laquelle elle est parfaitement reconnaissable, est publiée le jour même sur le compte Instagram de la société avec la mention : « Inès, notre meilleure vendeuse, vous attend ! ». Inès MOREL n’a jamais été sollicitée pour donner son accord. Elle reçoit dans les jours suivants plusieurs messages déplacés d’inconnus.\nLe 10 février 2026, elle adresse un courriel à son responsable pour demander le retrait de la photographie et contester la caméra installée en salle de pause. Le 12 février, surprise par ce même responsable en train de consulter son téléphone pendant sa pause, elle reçoit un avertissement écrit pour non-respect du règlement intérieur.\nInès MOREL souhaite contester l’avertissement et obtenir réparation de l’atteinte qu’elle estime avoir subie. La direction considère au contraire que la photographie a été prise dans le cadre de son travail et qu’elle doit respecter le règlement intérieur.\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : Article L1121-1 du Code du travail",
+      "texte": "Nul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 : Article 9 du Code civil",
+      "texte": "Chacun a droit au respect de sa vie privée. Les juges peuvent, sans préjudice de la réparation du dommage subi, prescrire toutes mesures, telles que séquestre, saisie et autres, propres à empêcher ou faire cesser une atteinte à l'intimité de la vie privée : ces mesures peuvent, s'il y a urgence, être ordonnées en référé.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 : Article L1321-3 du Code du travail",
+      "texte": "Le règlement intérieur ne peut contenir : 1° Des dispositions contraires aux lois et règlements ainsi qu'aux stipulations des conventions et accords collectifs de travail applicables dans l'entreprise ou l'établissement ; 2° Des dispositions apportant aux droits des personnes et aux libertés individuelles et collectives des restrictions qui ne seraient pas justifiées par la nature de la tâche à accomplir ni proportionnées au but recherché ; […]",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 4 : Extrait du règlement intérieur de la SAS Vélocité (version du 15 janvier 2026)",
+      "texte": "Article 7 – Usage des équipements personnels\nAfin de garantir la qualité de l’accueil et la concentration de chacun, toute utilisation de son téléphone personnel par un salarié est interdite dans l’enceinte de l’entreprise, y compris pendant les temps de pause.\nArticle 8 – Sécurité des locaux\nUn système de vidéoprotection est installé dans les locaux, notamment dans la salle de pause, afin de prévenir les vols et dégradations.\nArticle 12 – Sanctions\nTout manquement au présent règlement pourra donner lieu à l’une des sanctions suivantes : avertissement, mise à pied disciplinaire, licenciement.",
+      "source": "invente"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nLa SAS Vélocité, personne morale de droit privé, est l’employeur de madame Inès MOREL, personne physique, salariée en contrat à durée indéterminée depuis le 1er septembre 2022 en qualité de conseillère commerciale. Elles sont liées par un contrat de travail qui place la salariée sous la subordination juridique de l’employeur.\nUsant de son pouvoir réglementaire, l’employeur a modifié le règlement intérieur pour interdire tout usage du téléphone personnel, même pendant les pauses, et a installé un dispositif de vidéosurveillance permanente de la salle de pause, sans information préalable des salariés. Ces mesures restreignent les libertés individuelles et la vie personnelle des salariés au travail.\nPar ailleurs, la société a diffusé sur un réseau social l’image de la salariée, identifiable, sans son consentement : il s’agit d’une atteinte possible à son droit à l’image, droit extrapatrimonial. Cette diffusion lui a causé un préjudice moral (messages déplacés d’inconnus).\nEnfin, l’employeur a usé de son pouvoir disciplinaire en lui infligeant un avertissement, sanction disciplinaire, pour non-respect du règlement intérieur.\nLe litige oppose la salariée, qui souhaite contester la sanction et obtenir réparation, à l’employeur, qui invoque son pouvoir de direction et le cadre professionnel de la photographie.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que Inès MOREL peut avancer pour appuyer ses prétentions.",
+      "points": 3,
+      "reponse_attendue": "Inès MOREL peut d’abord soutenir que l’avertissement repose sur une clause illicite du règlement intérieur.\nFondement : selon l’article L1121-1 du Code du travail (annexe 1), repris pour le règlement intérieur par l’article L1321-3 2° (annexe 3), les restrictions aux libertés individuelles ne sont admises que si elles sont justifiées par la nature de la tâche à accomplir et proportionnées au but recherché.\nEn l’espèce, l’article 7 du règlement intérieur (annexe 4) interdit l’usage du téléphone personnel « y compris pendant les temps de pause ». Si une restriction pendant l’accueil des clients peut se justifier par la nature de la tâche, aucune justification n’existe pendant la pause, temps où la salariée n’est pas à la disposition de l’employeur : l’interdiction générale et absolue est disproportionnée. De même, la caméra filmant en permanence la salle de pause, lieu de détente et de vie personnelle, sans information préalable, porte une atteinte excessive à la vie privée des salariés au regard de l’objectif de prévention des vols. La clause étant illicite, la sanction fondée sur elle est injustifiée et doit être annulée.\nInès MOREL peut ensuite invoquer son droit à l’image. Selon l’article 9 du Code civil (annexe 2), chacun a droit au respect de sa vie privée ; la jurisprudence en déduit le droit de toute personne de s’opposer à la diffusion de son image sans son autorisation. Le droit à l’image est un droit extrapatrimonial, inaliénable, dont l’exploitation exige un consentement exprès et spécial.\nEn l’espèce, elle est parfaitement reconnaissable, n’a donné aucun accord, et la photographie a été diffusée sur un réseau social public, accompagnée de son prénom, à des fins publicitaires. Le seul fait qu’elle ait été prise pendant le travail ne vaut pas autorisation de publication. Elle a subi un préjudice moral (messages déplacés).\nInès MOREL peut donc demander le retrait de la photographie, au besoin en référé, des dommages et intérêts, et l’annulation de l’avertissement.",
+      "articles_cites": [
+        "L1121-1",
+        "L1321-3",
+        "9"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Proposez l’argumentation juridique que l’employeur pourra opposer à Inès MOREL.",
+      "points": 3,
+      "reponse_attendue": "La SAS Vélocité peut d’abord invoquer ses pouvoirs de direction, réglementaire et disciplinaire, qui découlent du lien de subordination. L’employeur est en droit de fixer, par le règlement intérieur, les règles d’organisation et de discipline et de sanctionner leur non-respect. Le contrat de travail doit en outre être exécuté de bonne foi.\nElle peut ensuite soutenir que les restrictions sont justifiées au sens de l’article L1121-1 du Code du travail (annexe 1). L’interdiction du téléphone viserait à garantir la qualité de l’accueil et la concentration des conseillers face aux clients (annexe 4) : le but est légitime et lié à la nature de la tâche, qui consiste à recevoir le public. La vidéosurveillance poursuit un objectif de sécurité des biens, la salle de pause pouvant être un lieu de vols et dégradations, et les salariés en ont été informés par note affichée.\nS’agissant de la sanction, l’avertissement est la sanction la plus légère prévue à l’article 12 du règlement intérieur ; elle serait donc proportionnée au manquement constaté, la salariée n’ayant pas contesté avoir utilisé son téléphone.\nConcernant la photographie, l’employeur peut faire valoir qu’elle a été prise dans un lieu public, lors d’un salon professionnel, pendant l’exercice des fonctions de la salariée, et qu’elle la montre sous un jour valorisant (« notre meilleure vendeuse ») sans révéler d’élément de sa vie privée au sens de l’article 9 du Code civil (annexe 2). Il peut enfin proposer le retrait immédiat de la publication pour limiter le préjudice.\nCette argumentation reste toutefois fragile sur la caméra de la salle de pause et l’absence de consentement à la diffusion de l’image.",
+      "articles_cites": [
+        "L1121-1",
+        "9"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir rappelé les différents pouvoirs de l’employeur, vous répondrez à la question suivante à l’aide des annexes 1 et 3 et de vos connaissances personnelles : Pourquoi le droit limite-t-il le pouvoir de l’employeur de restreindre les libertés des salariés ?",
+      "points": 3,
+      "reponse_attendue": "Construction de la réflexion : le candidat doit mener une réflexion guidée par un fil conducteur ; au moins deux idées sont attendues.\nL’employeur dispose de trois pouvoirs : le pouvoir de direction (organiser le travail, donner des ordres et directives), le pouvoir réglementaire (édicter le règlement intérieur) et le pouvoir disciplinaire (sanctionner les fautes). Ils sont la conséquence du lien de subordination.\nLe droit limite ces pouvoirs d’abord parce que le salarié reste une personne titulaire de droits fondamentaux. Les libertés individuelles (vie privée, droit à l’image, liberté d’expression) et collectives (droit de grève, droit syndical) sont reconnues à tout citoyen ; l’entrée dans l’entreprise ne les fait pas disparaître. L’article L1121-1 du Code du travail pose donc un principe de justification et de proportionnalité, et l’article L1321-3 interdit au règlement intérieur de contenir des restrictions injustifiées.\nEnsuite, le droit protège la partie faible au contrat. Le salarié dépend économiquement de l’employeur et peut difficilement refuser une contrainte de peur de perdre son emploi : le législateur rééquilibre la relation. Les représentants du personnel (CSE, délégués syndicaux) participent aussi à ce contrôle.\nEnfin, ces limites prennent une importance particulière avec les technologies numériques, qui rendent possible une surveillance permanente (caméras, logiciels, réseaux sociaux) et brouillent la frontière entre vie professionnelle et vie personnelle.\nCes limites ne suppriment pas les pouvoirs de l’employeur : elles en assurent un usage légitime, utile aussi au bon climat social de l’entreprise.",
+      "articles_cites": [
+        "L1121-1",
+        "L1321-3"
+      ]
+    }
+  ]
+}

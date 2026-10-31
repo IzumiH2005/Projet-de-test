@@ -1,0 +1,66 @@
+{
+  "id": "E7.2",
+  "type": "exercices",
+  "titre": "La rupture du contrat de travail",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : Extraits du Code du travail",
+      "texte": "Article L1232-1\nTout licenciement pour motif personnel est motivé dans les conditions définies par le\nprésent chapitre.\nIl est justifié par une cause réelle et sérieuse.\nArticle L1232-2\nL'employeur qui envisage de licencier un salarié le convoque, avant toute décision, à\nun entretien préalable.\nLa convocation est effectuée par lettre recommandée ou par lettre remise en main\npropre contre décharge. Cette lettre indique l'objet de la convocation.\nL'entretien préalable ne peut avoir lieu moins de cinq jours ouvrables après la\nprésentation de la lettre recommandée ou la remise en main propre de la lettre de\nconvocation.\nArticle L1232-6\nLorsque l'employeur décide de licencier un salarié, il lui notifie sa décision par lettre\nrecommandée avec avis de réception.\nCette lettre comporte l'énoncé du ou des motifs invoqués par l'employeur.\nElle ne peut être expédiée moins de deux jours ouvrables après la date prévue de\nl'entretien préalable au licenciement auquel le salarié a été convoqué […].",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "La SARL Imprim’Ouest, imprimerie de 35 salariés installée à Vannes, a perdu en 2025 son principal client, qui représentait 40 % de son chiffre d’affaires. Ses comptes font apparaître une baisse importante des commandes sur trois trimestres consécutifs. Le 3 mars 2026, son gérant, monsieur Yann LE BIHAN, décide de supprimer le poste de conducteur de presse occupé par Kévin MORVAN, faute de travail suffisant pour la machine qu’il utilisait.",
+      "enonce": "Précisez le type de licenciement envisagé par la SARL Imprim’Ouest. Justifiez votre réponse.",
+      "points": 2,
+      "reponse_attendue": "Le licenciement peut être motivé soit par la personne du salarié (motif personnel), soit par un motif non inhérent à sa personne (motif économique). Dans les deux cas, l’article L1233-2 comme l’article L1232-1 du Code du travail exigent une cause réelle et sérieuse.\nLe licenciement pour motif économique est celui qui résulte d’une suppression ou d’une transformation d’emploi, ou d’une modification d’un élément essentiel du contrat de travail refusée par le salarié, consécutive notamment à des difficultés économiques ou à des mutations technologiques. Les difficultés économiques se caractérisent notamment par une baisse significative des commandes ou du chiffre d’affaires pendant plusieurs trimestres consécutifs.\nEn l’espèce, la SARL Imprim’Ouest (employeur, personne morale) supprime le poste de Kévin MORVAN (salarié). Cette suppression n’est pas liée à un comportement ou à une insuffisance de Kévin MORVAN : elle est la conséquence de la perte du principal client et d’une baisse des commandes sur trois trimestres consécutifs, ce qui caractérise des difficultés économiques.\nPar conséquent, il s’agit d’un licenciement individuel pour motif économique. L’employeur devra, conformément à l’article L1233-7 du Code du travail, respecter les critères d’ordre pour choisir le salarié concerné, et toute contestation se prescrira par douze mois à compter de la notification du licenciement (article L1235-7).",
+      "articles_cites": [
+        "L1233-2",
+        "L1232-1",
+        "L1233-7",
+        "L1235-7"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Sarah DELMAS est employée depuis 2019 en contrat à durée indéterminée comme vendeuse par la SAS Optique Lumière à Toulouse. Depuis janvier 2026, elle est arrivée en retard à douze reprises, malgré deux avertissements écrits. Le 14 février 2026, elle a quitté le magasin une heure avant la fermeture sans prévenir, laissant seule une collègue apprentie un jour de forte affluence. Le directeur, monsieur Paul RIGAUD, envisage de la licencier.",
+      "enonce": "Développez l’argumentation juridique pouvant justifier le licenciement de Sarah DELMAS.",
+      "points": 2,
+      "reponse_attendue": "Pour que le licenciement de Sarah DELMAS soit justifié, la SAS Optique Lumière doit démontrer l’existence d’une cause réelle et sérieuse et respecter la procédure de licenciement pour motif personnel.\nFondement : selon l’article L1232-1 du Code du travail, tout licenciement pour motif personnel est motivé et justifié par une cause réelle et sérieuse. La cause est réelle lorsqu’elle est objective, exacte et vérifiable ; elle est sérieuse lorsqu’elle est suffisamment grave pour rendre impossible la poursuite de la relation de travail. Le salarié doit par ailleurs exécuter son contrat de bonne foi (article L1222-1).\nEn l’espèce, les faits reprochés sont objectifs et vérifiables : douze retards depuis janvier 2026, constatés et déjà sanctionnés par deux avertissements écrits, puis un abandon de poste le 14 février 2026. La cause est donc réelle. Elle est aussi sérieuse : la répétition des retards malgré les avertissements montre que la salariée ne respecte pas ses obligations, et son départ anticipé a désorganisé le magasin un jour de forte affluence en laissant une apprentie seule.\nSur la forme, l’employeur devra convoquer Sarah DELMAS à un entretien préalable par lettre recommandée ou remise en main propre (article L1232-2), lui exposer les motifs lors de l’entretien (L1232-3) puis lui notifier le licenciement par lettre recommandée énonçant les motifs, au moins deux jours ouvrables après l’entretien (L1232-6).\nAinsi, le licenciement pour motif personnel de Sarah DELMAS pourra être justifié.",
+      "articles_cites": [
+        "L1232-1",
+        "L1222-1",
+        "L1232-2",
+        "L1232-3",
+        "L1232-6"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Le 2 février 2026, Lucas FERRAND, comptable salarié de la SA Batimo depuis huit ans, et sa directrice des ressources humaines, madame Claire VIDAL, ont signé une convention de rupture conventionnelle prévoyant une indemnité de 9 000 euros. Lucas FERRAND soutient aujourd’hui qu’il a signé sous la menace d’un licenciement pour faute qu’on lui aurait annoncé « de toute façon » s’il refusait.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nLa SA Batimo, personne morale de droit privé, est l’employeur de Lucas FERRAND, personne physique, salarié en qualité de comptable depuis huit ans dans le cadre d’un contrat de travail, vraisemblablement à durée indéterminée. Les deux parties ont conclu, le 2 février 2026, une convention de rupture conventionnelle individuelle, mode de rupture du contrat de travail d’un commun accord, exclusive du licenciement et de la démission (article L1237-11 du Code du travail), assortie d’une indemnité de rupture de 9 000 euros.\nLe salarié prétend que son consentement n’a pas été libre : il aurait signé sous la pression d’une menace de licenciement pour faute, ce qui pourrait constituer un vice du consentement (violence morale). Or la rupture conventionnelle ne peut être imposée par l’une ou l’autre des parties et doit garantir la liberté du consentement.\nLe litige porte donc sur la validité de la rupture conventionnelle : Lucas FERRAND (demandeur) pourrait en demander l’annulation, la SA Batimo (défendeur) soutenant au contraire qu’elle a été librement conclue.",
+      "articles_cites": [
+        "L1237-11"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Manon GIRARD, serveuse au restaurant « Le Comptoir des Halles » (SARL) à Dijon depuis 2021, a reçu le 9 mars 2026 une lettre recommandée lui notifiant son licenciement « pour insuffisance professionnelle », sans autre précision. Elle n’avait jamais été convoquée à un entretien. Le gérant lui reproche oralement deux erreurs de commande survenues la même semaine ; aucun reproche ne lui avait été adressé auparavant.",
+      "enonce": "Exposez l’argumentation juridique que pourrait développer Manon GIRARD pour contester son licenciement sur le fond et sur la forme.",
+      "points": 2,
+      "reponse_attendue": "Sur le fond, Manon GIRARD peut soutenir que son licenciement n’est pas justifié par une cause réelle et sérieuse. Selon l’article L1232-1 du Code du travail, tout licenciement pour motif personnel doit reposer sur une cause réelle (objective, exacte, vérifiable) et sérieuse (d’une gravité suffisante). En l’espèce, la lettre se borne à invoquer une « insuffisance professionnelle » sans aucun fait précis ; seules deux erreurs de commande, survenues la même semaine, sont évoquées oralement, alors que la salariée travaille depuis 2021 sans jamais avoir reçu de reproche. Ces faits isolés ne présentent pas une gravité suffisante : la cause n’est donc pas sérieuse.\nSur la forme, la procédure n’a pas été respectée. L’article L1232-2 impose à l’employeur de convoquer le salarié à un entretien préalable avant toute décision, par lettre recommandée ou remise en main propre, au moins cinq jours ouvrables avant l’entretien. Or Manon GIRARD n’a jamais été convoquée et n’a pas pu présenter ses explications ni se faire assister (L1232-3 et L1232-4). De plus, la lettre de licenciement doit énoncer les motifs (L1232-6) : une mention générale non précisée ne suffit pas.\nManon GIRARD peut donc saisir le conseil de prud’hommes pour faire reconnaître un licenciement sans cause réelle et sérieuse et irrégulier, et obtenir des dommages et intérêts.",
+      "articles_cites": [
+        "L1232-1",
+        "L1232-2",
+        "L1232-3",
+        "L1232-4",
+        "L1232-6"
+      ]
+    }
+  ]
+}

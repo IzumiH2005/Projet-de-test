@@ -1,0 +1,68 @@
+{
+  "id": "C1.2",
+  "type": "cas",
+  "titre": "Le vélo connecté de Lucas Ferrand",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLucas FERRAND, 34 ans, infirmier à Tours, commande le 6 janvier 2025 sur le site internet de la SAS « FitBox », vendeur d’équipements sportifs, un vélo d’appartement connecté au prix de 1 290 euros. Il coche la case « J’accepte les conditions générales de vente » sans les lire.\nLe vélo est livré le 13 janvier 2025. Après quelques séances, Lucas FERRAND constate que l’écran ne donne accès aux programmes d’entraînement qu’avec un abonnement supplémentaire de 39 euros par mois, ce qui n’apparaissait pas sur la fiche produit. Le 20 janvier 2025, il informe la SAS « FitBox » par courriel qu’il renonce à son achat et demande le remboursement du prix.\nLa société refuse : ses conditions générales de vente prévoient que les appareils connectés, une fois activés, ne sont « ni repris ni échangés » et que le client « renonce à toute action contre le vendeur ». Elle rappelle à Lucas FERRAND qu’il a accepté ces conditions et que « le contrat fait la loi des parties ».\nLucas FERRAND souhaite obtenir le remboursement de 1 290 euros.\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extrait du Code civil",
+      "texte": "Article 1102 : chacun est libre de contracter ou de ne pas contracter, de choisir son\ncocontractant et de déterminer le contenu et la forme du contrat dans les limites fixées\npar la loi.\nLa liberté contractuelle ne permet pas de déroger aux règles qui intéressent l’ordre\npublic.\nArticle 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1170 : toute clause qui prive de sa substance l'obligation essentielle du\ndébiteur est réputée non écrite.\nArticle 1171 : dans un contrat d'adhésion, toute clause qui crée un déséquilibre\nsignificatif entre les droits et obligations des parties au contrat est réputée non écrite.\nArticle 1231-1 : le débiteur est condamné, s’il y a lieu, au paiement de dommages et\nintérêts soit à raison de l’inexécution de l’obligation, soit à raison du retard dans\nl’exécution, toutes les fois qu’il ne justifie pas que l’inexécution provient d’une cause\nétrangère qui ne peut lui être imputée encore qu’il n’y ait aucune mauvaise foi de sa\npart.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 – Extraits du Code de la consommation",
+      "texte": "Article L111-1\nAvant que le consommateur ne soit lié par un contrat à titre onéreux, le professionnel\ncommunique au consommateur, de manière lisible et compréhensible, les informations\nsuivantes :\nnumérique ou du contenu numérique, compte tenu de leur nature et du support de\ncommunication utilisé, et notamment les fonctionnalités […] du contenu numérique ou\ndu service numérique […] ;\nArticle L221-18\nLe consommateur dispose d’un délai de quatorze jours pour exercer son droit de\nrétractation d’un contrat conclu à distance, […], sans avoir à motiver sa décision […].\nLe délai mentionné au premier alinéa court à compter du jour : […]\ndésigné par lui, pour les contrats de vente de biens. […]\nArticle L221-28\nLe droit de rétractation ne peut être exercé pour les contrats : […]\nnettement personnalisés ;\net qui ne peuvent être renvoyés pour des raisons d’hygiène ou de protection de la\nsanté […].",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 3 – Extrait des conditions générales de vente de la SAS FitBox",
+      "texte": "Article 7 – Retours\nLes appareils connectés, une fois activés par le client, ne sont ni repris ni échangés, quel que soit le motif invoqué.\nArticle 9 – Responsabilité\nEn validant sa commande, le client renonce à toute action contre le vendeur relative au fonctionnement de l’appareil et aux services associés.\nArticle 12 – Acceptation\nLa validation de la commande vaut acceptation pleine et entière des présentes conditions générales.",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 4 – Regard historique sur l’ordre public et le contrat",
+      "texte": "L’ordre public, qui se décline dans toutes les branches de notre droit, s’alimente à des\nsources variées et est l’objet de nombreuses définitions. Toutefois, pour envisager l’ordre\npublic en matière contractuelle, la définition découlant de l’article 6 du Code civil retient\nparticulièrement l’attention. Appréhendé par les fonctions qu’il remplit, l’ordre public permet\nde contraindre les volontés individuelles et de limiter la liberté des personnes en\nconsidération d’impératifs jugés supérieurs car intéressant directement la collectivité. Cette\ndéfinition permet d’entrevoir aussi bien le caractère nécessaire de l’ordre public, sa « place\nde choix aux fondations de tout ordre juridique », que le caractère changeant de l’ordre\npublic, l’évaluation des intérêts à protéger prioritairement dépendant largement de la société\nconsidérée.\nSource : https://www.labase-lextenso.fr",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Un consommateur (Lucas FERRAND), personne physique, a conclu à distance un contrat de vente portant sur un bien meuble (un vélo d’appartement connecté) avec un professionnel, personne morale (la SAS FitBox). Le contrat contient des conditions générales de vente, rédigées à l’avance par le professionnel (contrat d’adhésion), qui excluent toute reprise des appareils activés et toute action contre le vendeur.\nSept jours après la livraison, le consommateur a exercé par écrit son droit de rétractation et demandé le remboursement du prix (préjudice matériel de 1 290 euros). Il reproche aussi au vendeur un manquement à son obligation d’information sur une fonctionnalité essentielle (abonnement payant).\nLe professionnel refuse en invoquant les clauses du contrat et sa force obligatoire.\nLa question qui se pose est de savoir si un professionnel peut, par une clause de ses conditions générales, priver un consommateur du droit de rétractation prévu par la loi.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que Lucas FERRAND peut avancer pour obtenir le remboursement du prix.",
+      "points": 3,
+      "reponse_attendue": "Fondement : selon l’article L221-18 du Code de la consommation, le consommateur dispose d’un délai de quatorze jours pour exercer son droit de rétractation d’un contrat conclu à distance, sans avoir à motiver sa décision ; pour une vente de biens, le délai court à compter de la réception du bien.\nEn l’espèce, Lucas FERRAND a acheté le vélo sur internet : il s’agit d’un contrat conclu à distance entre un professionnel et un consommateur. Livré le 13 janvier 2025, il s’est rétracté le 20 janvier, soit dans le délai de quatorze jours. Le vélo n’est ni un bien confectionné selon ses spécifications ni un bien qui ne peut être renvoyé pour des raisons d’hygiène : aucune exception de l’article L221-28 ne s’applique.\nLa clause de l’article 7 des CGV ne peut le priver de ce droit. L’article 1102 du Code civil dispose que la liberté contractuelle ne permet pas de déroger aux règles qui intéressent l’ordre public ; or les règles protectrices du consommateur sont d’ordre public. De plus, dans un contrat d’adhésion, toute clause qui crée un déséquilibre significatif entre les droits et obligations des parties est réputée non écrite (article 1171). La clause de renonciation à toute action de l’article 9 crée un tel déséquilibre et prive de sa substance l’obligation essentielle du vendeur (article 1170).\nEnfin, le professionnel n’a pas communiqué de manière lisible et compréhensible les caractéristiques essentielles du bien, en particulier les fonctionnalités du contenu numérique (article L111-1) : l’abonnement nécessaire n’était pas indiqué.\nEn conclusion, les clauses invoquées étant réputées non écrites, Lucas FERRAND peut obtenir le remboursement des 1 290 euros.",
+      "articles_cites": [
+        "L221-18",
+        "L221-28",
+        "1102",
+        "1171",
+        "1170",
+        "L111-1"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Développez l’argumentation juridique que la SAS FitBox pourrait lui opposer.",
+      "points": 3,
+      "reponse_attendue": "La SAS FitBox pourrait d’abord invoquer la force obligatoire du contrat : selon l’article 1103 du Code civil, les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits. Lucas FERRAND a coché la case d’acceptation des CGV ; il ne peut se prévaloir de ne pas les avoir lues.\nElle pourrait ensuite invoquer la liberté contractuelle (article 1102) : chacun est libre de déterminer le contenu du contrat, et le vendeur peut fixer ses conditions de retour.\nElle pourrait encore soutenir que le vélo a été activé et utilisé plusieurs fois, ce qui le déprécie ; elle demanderait alors à ne rembourser qu’une partie du prix, en raison de la manipulation du bien au-delà de ce qui est nécessaire pour en vérifier le fonctionnement. Elle pourrait aussi faire valoir que l’abonnement était mentionné dans les CGV et que le consommateur était donc informé.\nCependant, ces arguments ont une portée limitée : l’article 1102 lui-même précise que la liberté contractuelle ne permet pas de déroger aux règles d’ordre public. Le droit de rétractation est une règle impérative, générale et obligatoire, qui s’applique à tous les consommateurs placés dans la même situation. La société ne pourra utilement discuter que l’éventuelle dépréciation du bien.",
+      "articles_cites": [
+        "1103",
+        "1102"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir rappelé les caractères de la règle de droit, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi la loi peut-elle limiter la liberté contractuelle ?",
+      "points": 3,
+      "reponse_attendue": "La règle de droit présente trois caractères. Elle est générale et impersonnelle : elle s’applique à toutes les personnes placées dans la même situation juridique, ce qui garantit l’égalité devant la loi. Elle est obligatoire : son respect est assuré par l’autorité publique et sa violation est sanctionnée. Elle est légitime : elle émane d’une autorité compétente (Parlement, gouvernement, juge).\nLa liberté contractuelle est le principe : chacun peut contracter ou non, choisir son cocontractant et le contenu du contrat. Mais la loi peut la limiter.\nD’abord, pour protéger la partie faible. Le consommateur, face à un professionnel qui rédige seul ses conditions générales, ne négocie pas ; la loi rétablit l’équilibre (droit de rétractation, clauses abusives réputées non écrites).\nEnsuite, pour préserver l’intérêt général. L’annexe 4 indique que l’ordre public permet « de contraindre les volontés individuelles et de limiter la liberté des personnes en considération d’impératifs jugés supérieurs car intéressant directement la collectivité ». La loi, expression de la volonté générale, est légitime pour fixer ces impératifs.\nEnfin, parce que les besoins de la société évoluent : l’annexe souligne le « caractère changeant de l’ordre public ». Le développement du commerce en ligne a conduit le législateur, notamment sous l’impulsion des directives européennes, à renforcer la protection des consommateurs.\nAinsi, la limitation de la liberté contractuelle est la condition d’une liberté réelle pour tous.",
+      "articles_cites": []
+    }
+  ]
+}

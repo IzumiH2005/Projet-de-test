@@ -1,0 +1,55 @@
+{
+  "id": "E8.1",
+  "type": "exercices",
+  "titre": "L’entreprise individuelle et la protection du patrimoine",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : Article L526-6 du Code de commerce",
+      "texte": "Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, nécessaires à l'exercice de son activité professionnelle. Il peut comprendre également les biens, droits, obligations ou sûretés dont l'entrepreneur individuel est titulaire, utilisés pour l'exercice de son activité professionnelle, qu'il décide d'y affecter et qu'il peut ensuite décider de retirer du patrimoine affecté. Un même bien, droit, obligation ou sûreté ne peut entrer dans la composition que d'un seul patrimoine affecté. […]",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Julie MARTEL, fleuriste à Lille en entreprise individuelle sans patrimoine affecté, a commandé le 4 février 2026 à Romain PETIT, plombier exerçant lui aussi en entreprise individuelle, l’installation d’un point d’eau dans sa boutique. Une semaine plus tard, une fuite due à un raccord mal serré inonde le magasin et détruit son stock de fleurs (1 900 euros).",
+      "enonce": "Proposez l’argumentation juridique que peut avancer Julie MARTEL pour rechercher la responsabilité de Romain PETIT.",
+      "points": 2,
+      "reponse_attendue": "Julie MARTEL peut engager la responsabilité civile contractuelle de Romain PETIT, avec qui elle a conclu un contrat d’entreprise le 4 février 2026. Trois conditions cumulatives doivent être réunies.\n- Une inexécution contractuelle : le plombier s’est engagé à installer un point d’eau en état de fonctionner ; le raccord mal serré révèle une mauvaise exécution de son obligation.\n- Un dommage : la destruction du stock de fleurs constitue un préjudice matériel certain, évalué à 1 900 euros.\n- Un lien de causalité : c’est la fuite provoquée par le raccord qui a inondé le magasin et détruit le stock.\nJulie MARTEL peut donc obtenir des dommages et intérêts. Romain PETIT exerçant en entreprise individuelle, il n’existe pas de personne morale distincte : c’est lui personnellement, en tant que personne physique, qui est débiteur. En vertu du principe de l’unicité du patrimoine, et sauf s’il a déclaré un patrimoine affecté dans les conditions de l’article L526-6 du Code de commerce, Julie MARTEL pourra se faire payer sur l’ensemble de ses biens, professionnels comme personnels.",
+      "articles_cites": [
+        "L526-6"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Ahmed SAIDI souhaite ouvrir un food-truck à Marseille. Son banquier lui explique qu’en entreprise individuelle « tout son patrimoine répondra de ses dettes », mais qu’il existe des moyens de protéger ses biens personnels.",
+      "enonce": "Pourquoi le droit permet-il à l’entrepreneur individuel de séparer son patrimoine professionnel de son patrimoine personnel ?",
+      "points": 2,
+      "reponse_attendue": "Au moins deux idées sont attendues.\nEn principe, une personne n’a qu’un seul patrimoine (principe de l’unicité du patrimoine) : l’entrepreneur individuel, qui ne crée pas de personne morale, répond donc de ses dettes professionnelles sur ses biens personnels. Ahmed SAIDI risquerait, en cas d’échec, de perdre son logement ou son épargne.\nLe droit permet d’abord de séparer les patrimoines pour encourager la création d’entreprise : la liberté d’entreprendre suppose un risque supportable. L’article L526-6 du Code de commerce permet ainsi d’affecter à l’activité un patrimoine séparé, sans créer de personne morale ; la création d’une EURL est une autre solution.\nIl s’agit ensuite de protéger la personne et sa famille : les biens de la vie privée ne doivent pas être saisis pour des dettes nées de l’activité professionnelle.\nEnfin, cette séparation est encadrée afin de préserver aussi les intérêts des créanciers, qui doivent connaître l’étendue des biens sur lesquels ils pourront se faire payer.",
+      "articles_cites": [
+        "L526-6"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "L’association « Les Jardins Partagés de Rennes » (JPR) a confié en 2025 à Léo FABRE, paysagiste en entreprise individuelle ayant déclaré un patrimoine affecté, l’aménagement de bacs potagers. Les bacs, mal traités, ont pourri en quelques mois. Le patrimoine affecté de Léo FABRE ne comprend qu’une camionnette et quelques outils ; l’association voudrait saisir l’appartement personnel de Léo FABRE.",
+      "enonce": "Développez l’argumentation juridique que Léo FABRE peut avancer pour s’opposer à la saisie de son appartement par l’association JPR.",
+      "points": 2,
+      "reponse_attendue": "Léo FABRE peut s’appuyer sur le patrimoine d’affectation, exception au principe de l’unicité du patrimoine.\nFondement : selon l’article L526-6 du Code de commerce, l’entrepreneur individuel à responsabilité limitée affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d’une personne morale. Ce patrimoine comprend les biens nécessaires à l’activité. Les créanciers dont les droits sont nés de l’activité professionnelle après la déclaration n’ont pour gage que ce patrimoine affecté.\nEn l’espèce, Léo FABRE a déclaré un patrimoine affecté avant de conclure le contrat avec l’association JPR. La dette résultant de la mauvaise exécution des bacs potagers est une dette professionnelle. Son appartement, bien personnel non nécessaire à son activité de paysagiste, n’y figure pas.\nL’association, même si sa créance est fondée, ne pourra donc saisir que la camionnette et les outils composant le patrimoine affecté, et non l’appartement, sauf à démontrer une fraude.",
+      "articles_cites": [
+        "L526-6"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Camille ROUSSEL, graphiste indépendante, a décidé le 1er mars 2026 de créer une société à responsabilité limitée dont elle est la seule associée, en y apportant 5 000 euros. Elle en est la gérante. Un fournisseur lui réclame aujourd’hui 12 000 euros pour du matériel informatique commandé au nom de la société.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Il n’est pas attendu de phrase introductive ou conclusive.\nCamille ROUSSEL, personne physique, exerçait une activité professionnelle libérale de graphiste. Le 1er mars 2026, elle a constitué une entreprise unipersonnelle à responsabilité limitée (EURL), société à responsabilité limitée ne comportant qu’une seule personne, dénommée associé unique (article L223-1 du Code de commerce). Elle a réalisé un apport en numéraire de 5 000 euros et exerce les fonctions de gérante, représentante légale de la société.\nLa société, une fois immatriculée, est une personne morale distincte de Camille ROUSSEL, titulaire de son propre patrimoine. Elle a conclu un contrat de vente de matériel informatique avec un fournisseur, professionnel, qui est son créancier pour 12 000 euros.\nLe litige porte sur la question de savoir qui doit payer cette dette : la société débitrice, seule, ou aussi Camille ROUSSEL sur ses biens personnels, alors que l’associé unique ne supporte les pertes qu’à concurrence de ses apports.",
+      "articles_cites": [
+        "L223-1"
+      ]
+    }
+  ]
+}
