@@ -1,0 +1,40 @@
+{
+ "id": "B-recursivite",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Récursivité",
+   "contexte": "Banque de questions isolées sur les fonctions récursives.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recursivite",
+     "enonce": "On considère la fonction récursive suivante :\n\n```python\ndef f(n):\n    if n <= 1:\n        return 1\n    return 2 * f(n - 1) + 1\n```\n\nCalculer les valeurs f(1), f(3) et f(5).",
+     "points": 1,
+     "reponse_attendue": "f(1) = 1, f(2) = 3, f(3) = 7, f(4) = 15, f(5) = 31."
+    },
+    {
+     "slot": 2,
+     "notion": "recursivite",
+     "enonce": "Un robot doit monter un escalier en faisant des pas d'une ou de deux marches. On note m(n) le nombre de façons de monter n marches, avec m(1) = 1 et m(2) = 2. Énumérer toutes les façons de monter 4 marches (sous forme de suites de 1 et de 2), puis déterminer la relation de récurrence liant m(n) à m(n-1) et m(n-2).",
+     "points": 1,
+     "reponse_attendue": "1+1+1+1, 1+1+2, 1+2+1, 2+1+1, 2+2 : m(4) = 5. Le premier pas est de 1 (reste n-1 marches) ou de 2 (reste n-2) : m(n) = m(n-1) + m(n-2)."
+    },
+    {
+     "slot": 3,
+     "notion": "recursivite",
+     "enonce": "Indiquer ce qu'est une fonction récursive et expliquer pourquoi une telle fonction doit comporter un cas de base.",
+     "points": 1,
+     "reponse_attendue": "Une fonction récursive est une fonction qui s'appelle elle-même. Le cas de base, traité sans appel récursif, garantit l'arrêt : sans lui les appels s'enchaîneraient indéfiniment (dépassement de la pile d'appels, RecursionError en Python)."
+    },
+    {
+     "slot": 4,
+     "notion": "recursivite",
+     "enonce": "On considère la fonction suivante :\n\n```python\ndef miroir(s):\n    if s == '':\n        return ''\n    return miroir(s[1:]) + s[0]\n```\n\nQue renvoie l'appel miroir('nsi') ? Détailler la suite des appels.",
+     "points": 1,
+     "reponse_attendue": "miroir('nsi') = miroir('si') + 'n' = (miroir('i') + 's') + 'n' = ((miroir('') + 'i') + 's') + 'n' = 'isn'."
+    }
+   ]
+  }
+ ]
+}

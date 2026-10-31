@@ -1,0 +1,33 @@
+{
+ "id": "B-recherche_textuelle",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Recherche textuelle",
+   "contexte": "Banque de questions isolées sur la recherche d'un motif dans un texte.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recherche_textuelle",
+     "enonce": "Pour préparer l'algorithme de Boyer-Moore-Horspool, on souhaite une fonction derniere_position(motif) qui renvoie un dictionnaire associant à chaque caractère du motif, sauf le dernier, l'indice de sa dernière apparition. Par exemple derniere_position('RADAR') renvoie {'R': 0, 'A': 3, 'D': 2}.\n\nRecopier et compléter le code suivant :\n\n```python\n1 def derniere_position(motif):\n2     d = ...\n3     for i in range(...):\n4         ... = i\n5     return d\n```",
+     "points": 1,
+     "reponse_attendue": "```python\ndef derniere_position(motif):\n    d = {}\n    for i in range(len(motif) - 1):\n        d[motif[i]] = i\n    return d\n```"
+    },
+    {
+     "slot": 2,
+     "notion": "recherche_textuelle",
+     "enonce": "Écrire une fonction Python positions(motif, texte) qui renvoie la liste de tous les indices du texte à partir desquels le motif apparaît, en utilisant l'algorithme de recherche naïve (comparaison caractère par caractère). Par exemple positions('ab', 'abcabab') renvoie [0, 3, 5].",
+     "points": 1,
+     "reponse_attendue": "```python\ndef positions(motif, texte):\n    res = []\n    n, m = len(texte), len(motif)\n    for i in range(n - m + 1):\n        j = 0\n        while j < m and texte[i + j] == motif[j]:\n            j = j + 1\n        if j == m:\n            res.append(i)\n    return res\n```"
+    },
+    {
+     "slot": 3,
+     "notion": "recherche_textuelle",
+     "enonce": "On considère la fonction suivante :\n\n```python\ndef compte(motif, texte):\n    c = 0\n    for i in range(len(texte) - len(motif) + 1):\n        if texte[i:i + len(motif)] == motif:\n            c = c + 1\n    return c\n```\n\nDonner le résultat de l'appel compte('ara', 'tarararam').",
+     "points": 1,
+     "reponse_attendue": "3 (occurrences aux indices 1, 3 et 5, qui se chevauchent)."
+    }
+   ]
+  }
+ ]
+}

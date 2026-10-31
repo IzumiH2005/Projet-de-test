@@ -1,0 +1,6 @@
+# Sources clonées (745 Mo) : scripts/fetch_sources.sh les récupère
+data/sources/
+# Modèles entraînés (lourds, régénérés par `python -m examgen.cli analyze`)
+data/model/*.joblib
+__pycache__/
+*.pyc

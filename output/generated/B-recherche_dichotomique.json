@@ -1,0 +1,33 @@
+{
+ "id": "B-recherche_dichotomique",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Recherche dichotomique",
+   "contexte": "Banque de questions isolées sur la recherche dichotomique dans un tableau trié.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recherche_dichotomique",
+     "enonce": "Une médiathèque range les numéros de ses ouvrages dans le tableau trié t = [3, 8, 11, 15, 19, 24, 30, 37, 42]. On recherche la valeur 37 avec l'algorithme de recherche dichotomique suivant :\n\n```python\n1 def dichotomie(t, v):\n2     debut = 0\n3     fin = len(t) - 1\n4     while debut <= fin:\n5         milieu = (debut + fin) // 2\n6         if t[milieu] == v:\n7             return True\n8         elif t[milieu] < v:\n9             debut = milieu + 1\n10        else:\n11            fin = milieu - 1\n12    return False\n```\n\nÉnumérer dans l'ordre tous les indices milieu calculés lors de l'appel dichotomie(t, 37), ainsi que les valeurs t[milieu] correspondantes.",
+     "points": 1,
+     "reponse_attendue": "milieu = 4 (t[4] = 19), puis milieu = 6 (t[6] = 30), puis milieu = 7 (t[7] = 37) : la valeur est trouvée, la fonction renvoie True."
+    },
+    {
+     "slot": 2,
+     "notion": "recherche_dichotomique",
+     "enonce": "Une base de données contient la table coureur(id, nom, temps) où temps est un temps de course en secondes. On extrait :\n\n| id | nom | temps |\n|----|-----|-------|\n| 1 | Lina | 212 |\n| 2 | Hugo | 198 |\n| 3 | Sami | 245 |\n| 4 | Zoé | 187 |\n| 5 | Noé | 230 |\n\nDonner le résultat de la requête suivante appliquée à cet extrait :\n\nSELECT temps FROM coureur WHERE temps > 190 ORDER BY temps\n\npuis indiquer le nombre de comparaisons avec t[milieu] effectuées par une recherche dichotomique de la valeur 230 dans le tableau Python obtenu (même algorithme qu'usuellement, milieu = (debut + fin) // 2).",
+     "points": 1,
+     "reponse_attendue": "Résultat : 198, 212, 230, 245 (dans cet ordre). Tableau [198, 212, 230, 245] : milieu = 1 (212 < 230), puis milieu = 2 (230 trouvé) : 2 comparaisons (2 tours de boucle)."
+    },
+    {
+     "slot": 3,
+     "notion": "recherche_dichotomique",
+     "enonce": "Définir la recherche dichotomique et citer la condition que doit vérifier le tableau pour qu'on puisse l'appliquer. Préciser sa complexité en fonction de la taille n du tableau.",
+     "points": 1,
+     "reponse_attendue": "La recherche dichotomique cherche une valeur en comparant avec l'élément du milieu de la zone de recherche, puis en ne conservant que la moitié pouvant contenir la valeur, jusqu'à la trouver ou obtenir une zone vide. Le tableau doit être trié. Complexité logarithmique, en O(log2(n))."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "type": "object",
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "exercices": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "numero": {
+      "type": "integer"
+     },
+     "titre": {
+      "type": "string"
+     },
+     "contexte": {
+      "type": "string"
+     },
+     "questions": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "slot": {
+         "type": "integer"
+        },
+        "notion": {
+         "type": "string"
+        },
+        "enonce": {
+         "type": "string"
+        },
+        "points": {
+         "type": "number"
+        },
+        "reponse_attendue": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "slot",
+        "notion",
+        "enonce",
+        "points",
+        "reponse_attendue"
+       ],
+       "additionalProperties": false
+      }
+     }
+    },
+    "required": [
+     "numero",
+     "titre",
+     "contexte",
+     "questions"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "id",
+  "exercices"
+ ],
+ "additionalProperties": false
+}
