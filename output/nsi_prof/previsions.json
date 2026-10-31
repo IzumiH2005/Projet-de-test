@@ -1,0 +1,933 @@
+{
+ "matiere": "nsi",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 2201,
+  "passages_prevus": 220,
+  "hasard_questions_couvertes": 0.1,
+  "choix_par_annee": {
+   "2024": "arbres_generiques_et_propres_a_la_matiere",
+   "2025": "ensemble",
+   "2026": "logistique_12_generiques"
+  },
+  "famille_pour_l_annee_prevue": "arbres_generiques_et_propres_a_la_matiere",
+  "popularite": {
+   "auc": 0.828,
+   "questions_couvertes": 0.787,
+   "questions_couvertes_a_un_passage_pres": 0.833,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.713,
+    "2025": 0.812,
+    "2026": 0.836
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.861,
+   "questions_couvertes": 0.827,
+   "questions_couvertes_a_un_passage_pres": 0.877,
+   "chapitres_prevus_tombes_sur_5": 4.0,
+   "par_annee": {
+    "2024": 0.837,
+    "2025": 0.82,
+    "2026": 0.824
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.867,
+   "questions_couvertes": 0.813,
+   "questions_couvertes_a_un_passage_pres": 0.872,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.817,
+    "2025": 0.787,
+    "2026": 0.836
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.872,
+   "questions_couvertes": 0.834,
+   "questions_couvertes_a_un_passage_pres": 0.877,
+   "chapitres_prevus_tombes_sur_5": 3.667,
+   "par_annee": {
+    "2024": 0.817,
+    "2025": 0.831,
+    "2026": 0.855
+   }
+  },
+  "ensemble": {
+   "auc": 0.881,
+   "questions_couvertes": 0.83,
+   "questions_couvertes_a_un_passage_pres": 0.873,
+   "chapitres_prevus_tombes_sur_5": 3.667,
+   "par_annee": {
+    "2024": 0.841,
+    "2025": 0.798,
+    "2026": 0.852
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.866,
+   "questions_couvertes": 0.813,
+   "questions_couvertes_a_un_passage_pres": 0.861,
+   "chapitres_prevus_tombes_sur_5": 3.667,
+   "par_annee": {
+    "2024": 0.817,
+    "2025": 0.798,
+    "2026": 0.824
+   }
+  }
+ },
+ "famille_choisie": "arbres_generiques_et_propres_a_la_matiere",
+ "passages_les_plus_probables": [
+  {
+   "passage": 1813,
+   "section": 29,
+   "section_titre": "SQL",
+   "probabilite": 0.98,
+   "texte": "SQL : Terminale - Spécialité NSI IFS Singapour Chapitre 9 - Le langage SQL Objectifs : ▷ Identifier les composants d'une requête. ▷ Savoir utiliser des requêtes d'interrogation et de mise à jour d'une base de données. ▷ Construire des requêtes d'interrogation à l'aide des clauses du langage SQL :SELECT, FROM, WHERE, JOIN. ▷ Construire des requêtes d'insertion et de mise à jour à l'aide de :UPDATE, INSERT, DELETE. 1 Introduction Dans le chapitre précédent sur le modèle relationnel, nous avons découvert la structure mathématique des bases de données. Maintenant que nous avons vu comment celles-c",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [
+    "traduction",
+    "isbn",
+    "titres",
+    "livre",
+    "annee",
+    "films"
+   ],
+   "toujours_nomme": [
+    "requetes"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.85
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.08
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.07
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-metro-cand-libre-1",
+     "enonce": "Expliquer pourquoi il n'est pas possible d'insérer une entrée dans la relation Role si les relations Piece et Acteur sont vides."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-metro-cand-libre-1",
+     "enonce": "Dans la pièce « Le Tartuffe », l'acteur Micha Lescot a joué le rôle de Tartuffe."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_de_la_section",
+     "centralite_du_passage"
+    ],
+    "faible": [
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 2190,
+   "section": 37,
+   "section_titre": "Processus",
+   "probabilite": 0.98,
+   "texte": "Processus : Terminale - Spécialité NSI IFS Singapour Chapitre 17 - Les processus Objectifs : ▷ Décrire la création d'un processus, l'ordonnancement de plusieurs processus par le système. ▷ Mettre en évidence le risque de l'interblocage (deadlock). 1 Introduction Dans les années 1970, les ordinateurs personnels n'étaient pas capables d'exécuter plusieurs tâches à la fois. On lançait un programme et on y restait jusqu'à ce que celui-ci \"plante\" ou se termine. Les systèmes d'exploitation récents (Windows, Linux ou MacOS par exemple) permettent d'exécuter plusieurs tâches simultanément - ou en tou",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "ressource",
+    "processeur",
+    "attend",
+    "taches",
+    "interblocage",
+    "ordonnancement"
+   ],
+   "toujours_nomme": [
+    "processus",
+    "etat"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.85
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.15
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-metro-cand-libre-1",
+     "enonce": "Quel est le nom de la première commande exécutée par le système d'exploitation lors"
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-metro-cand-libre-1",
+     "enonce": "Quels sont les identifiants des processus actifs sur cet ordinateur au moment de"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 719,
+   "section": 6,
+   "section_titre": "Les piles",
+   "probabilite": 0.98,
+   "texte": "Les piles : Terminale - Spécialité NSI IFS Singapour Chapitre 6 - Les piles Objectifs : ▷ Connaître et comprendre le type abstrait pile. ▷ Modéliser puis simuler le comportement d'une pile. ▷ Distinguer les modes FIFO et LIFO des piles et des files. 1 Introduction Dans ce chapitre nous allons décrire desstructures de données linéairesappelées piles. Il faut bien com- prendrequelorsqu'onparledestructurededonnées,onparled'unereprésentation abstraitequin'estpasenlien direct avec son implémentation qui peut être réalisée de diverses manières suivant le langage de programmation, voire au sein d'un ",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "empiler",
+    "piles",
+    "depiler",
+    "historique",
+    "depile",
+    "sommet"
+   ],
+   "toujours_nomme": [
+    "expression",
+    "pile"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.9
+    },
+    {
+     "facette": 2,
+     "nom": "x colon / colon / proposer / proposer x",
+     "part": 0.05
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.05
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2022-mayotte-liban-2",
+     "enonce": "En vous inspirant de l’exemple ci-dessus, dessiner le schéma descriptif de ce que donne l’évaluation par la NPI de l’expression 12 4 5 × + ."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2022-mayotte-liban-2",
+     "enonce": "On dispose de la pile suivante nommée p1 :"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 720,
+   "section": 7,
+   "section_titre": "Les files",
+   "probabilite": 0.98,
+   "texte": "Les files : Terminale - Spécialité NSI IFS Singapour Chapitre 7 - Les files Objectifs : ▷ Connaître et comprendre le type abstrait file. ▷ Modéliser puis simuler le comportement d'une file. ▷ Distinguer les modes FIFO et LIFO des piles et des files. 1 Introduction Dans ce chapitre nous allons décrire desstructures de données linéairesappelées files. On rappelle qu'une structure de données est une organisation logique des données permettant de simplifier ou d'accélérer leur traitement. Il faut bien comprendre que lorsqu'on parle de structure de données, on parle d'une représentationabstraite qu",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "enfiler",
+    "files",
+    "defiler",
+    "unepile",
+    "dispose",
+    "queue"
+   ],
+   "toujours_nomme": [
+    "pile",
+    "element",
+    "elements",
+    "empiler"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.79
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.15
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.06
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-centres-etranger-1",
+     "enonce": "Recopier le schéma ci-dessous et le compléter sur votre copie en exécutant les appels de fonctions donnés. On écrira ce que renvoie la fonction utilisée dans chaque cas, et on indiquera None si la fonction ne retourne au"
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-centres-etranger-1",
+     "enonce": "On propose la fonction ci-dessous, qui prend en argument une pile P et renvoie un couple de piles : def transforme(P) : Q = creer_pile() while not est_vide(P) : v = depile(P) empile(Q,v) return (P,Q) Recopier et compléte"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 2189,
+   "section": 36,
+   "section_titre": "OS",
+   "probabilite": 0.979,
+   "texte": "OS : Terminale - Spécialité NSI IFS Singapour Chapitre 16 - Systèmes d'exploitation Objectifs : ▷ Utiliser les commandes de base en ligne de commande. ▷ Gérer les droits et permissions d'accès aux fichiers. 1 Introduction Dans ce chapitre, nous allons revoir les commandes de base en ligne de commande, vues en classe de1ère, notamment celles qui sont les plus utilisées dans les deuxsystèmes d'exploitation ou OS (Operating System) les plus courants :Windows et Linux. Pour cela, au fur et à mesure que l'on présente les commandes systèmes, vous devez les tester sur chacun des systèmes d'exploitati",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "options",
+    "echo",
+    "windows",
+    "repertoires",
+    "dossier",
+    "copier"
+   ],
+   "toujours_nomme": [
+    "repertoire",
+    "fichier",
+    "exploitation"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.8
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.17
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.02
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2022-asie-1",
+     "enonce": "Ecrivez la ou les commande(s) qui permet(tent) de se déplacer du répertoire actuel musiques au répertoire projet : a. en utilisant un chemin relatif."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2022-asie-1",
+     "enonce": "Le répertoire courant est à présent le répertoire sam a. Ecrire la commande qui permet de lister le contenu du répertoire projet."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 2188,
+   "section": 35,
+   "section_titre": "Routage",
+   "probabilite": 0.979,
+   "texte": "Routage : Terminale - Spécialité NSI IFS Singapour Chapitre 15 - Le routage Objectifs : ▷ Connaître les principaux protocoles de routage ▷ Identifier, suivant le protocole de routage utilisé (RIP ou OSPF), la route empruntée par un paquet. 1 Introduction Exemple Thomas veut envoyer une lettre de remerciement à son amiPacôme Toullemonde, habitant à Toulouse (en France), qui lui a prété un manuel de NSI. 1. Il rédige donc un courrier, le place dans une enveloppe sur laquelle il inscrit le nom, le prénom, le numéro, la rue, le code postal, la ville et enfin le pays. 2. Puis il dépose le tout à la",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "destination",
+    "routes",
+    "sauts",
+    "routeur",
+    "vecteur",
+    "lien"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.72
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.19
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.08
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-2",
+     "enonce": "Parmi les propositions suivantes, quelle est la structure de données la plus appropriée pour mettre en œuvre le mode FIFO (First In First Out) ?"
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-2",
+     "enonce": "On choisit de stocker les données des processus en attente à l'aide d'une liste Python lst."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 1172,
+   "section": 17,
+   "section_titre": "Programmation objet",
+   "probabilite": 0.978,
+   "texte": "Programmation objet : Terminale - Spécialité NSI IFS Singapour Chapitre 3 - Programmation orientée objet Objectifs : ▷ Connaître le vocabulaire de la programmation objet : classes, attributs, méthodes, objets. ▷ Ecrire la définition d'une classe ▷ Accéder aux attributs et méthodes d'une classe. 1 Introduction Jusqu'à présent nous avons utilisé des objets dont le type est prédéfini :int, float, bool, str, list, tuple, dict. Sans le savoir, nous avons découvert les concepts de laprogrammation orientée objet ou POO. Ainsi, en classe de Première, nous avions déjà appris à utiliser des méthodes ass",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "train",
+    "eleve",
+    "chien",
+    "moyenne",
+    "sable",
+    "assert"
+   ],
+   "toujours_nomme": [
+    "self"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.8
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-centres-etranger-2",
+     "enonce": "Compréhension des méthodes avec un bandeau de 8 LEDs Un script a été exécuté au préalable et le bandeau de LEDs est dans l’état suivant : toutes les LEDs sont éteintes sauf trois La LED « LED0 » est rouge La LED « LED1 »"
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-centres-etranger-2",
+     "enonce": "On dispose désormais d’un bandeau de 15 LEDs Pour chacun des 2 scripts suivants, écrits en langage Python, recopier et compléter les tableaux correspondants au bandeau dans son état final après exécution des différents s"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_de_la_section",
+     "centralite_du_passage"
+    ],
+    "faible": [
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 1812,
+   "section": 28,
+   "section_titre": "Base de donnees relationnelles",
+   "probabilite": 0.978,
+   "texte": "Base de donnees relationnelles : Terminale - Spécialité NSI IFS Singapour Chapitre 8 - Les bases de données relationnelles Objectifs : ▷ Identifier les concepts définissant le modèle relationnel. ▷ Maîtriser les définitions de : relation, attribut, domaine, clé primaire, clé étrangère, schéma relationnel ▷ Exprimer les contraintes d'intégrité d'une base de données ▷ Savoir réaliser un schéma relationnel ▷ Savoir repérer les anomalies dans le schéma relationnel d'une base de données 1 Introduction Les bases de données sont aujourd'hui incontournables, car très peu d'informations restent encore ",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [
+    "domaine",
+    "films",
+    "nice",
+    "etrangere",
+    "singapour",
+    "rahobisoa"
+   ],
+   "toujours_nomme": [
+    "relationnel",
+    "relation",
+    "modele"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.89
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.06
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.05
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-1-remplacement",
+     "enonce": "L’occurrence suivante est saisie dans la table Vol de la base de données AirOne numVol"
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-1-remplacement",
+     "enonce": "L’occurrence suivante est saisie dans la table Avion de la base de données AirOne numA"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_de_la_section",
+     "centralite_du_passage"
+    ],
+    "faible": [
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 446,
+   "section": 2,
+   "section_titre": "Arbres",
+   "probabilite": 0.976,
+   "texte": "Dans cet exercice, les arbres binaires de recherche ne peuvent pas comporter plusieurs fois la même clé. De plus, un arbre binaire de recherche limité à un nœud a une hauteur de 1. On considère l’arbre binaire de recherche représenté ci-dessous (figure 1), où `val` représente un entier :",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [
+    "nœud"
+   ],
+   "toujours_nomme": [
+    "recherche",
+    "binaire",
+    "binaires",
+    "arbres"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.8
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.15
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.03
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-1",
+     "enonce": "On rappelle qu’un parcours infixe depuis un nœud consiste, dans l’ordre, à faire un parcours infixe sur le sous arbre-gauche, afficher le nœud puis faire un parcours infixe sur le sous-arbre droit."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-1",
+     "enonce": "On considère la classe Noeud définie de la façon suivante en Python : class Noeud(): def __init__(self, v): self.ag = None self.ad = None self.v = v def insere(self, v): n = self est_insere = False while not est_insere :"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "taille_de_la_section"
+    ],
+    "faible": [
+     "place_de_la_section_dans_le_cours",
+     "longueur_du_passage",
+     "redondance_du_passage"
+    ]
+   }
+  },
+  {
+   "passage": 489,
+   "section": 2,
+   "section_titre": "Arbres",
+   "probabilite": 0.974,
+   "texte": "Cet exercice traite principalement du thème « algorithmique, langages et programmation » et en particulier les arbres binaires de recherche. La première partie aborde les arbres en mode débranché via l'application d'un algorithme sur un exemple. La suivante porte sur la programmation orientée objet. La dernière partie fait le lien avec les algorithmes de tri.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "theme",
+    "aborde",
+    "traite"
+   ],
+   "toujours_nomme": [
+    "arbres",
+    "binaires",
+    "recherche"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.8
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.15
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.03
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2022-nouv-caledonie-2",
+     "enonce": "Indiquer, en justifiant la réponse, le rôle de l’algorithme suivant."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2022-nouv-caledonie-2",
+     "enonce": "On applique l’algorithme ci-dessous à l’arbre du schéma 1."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "taille_de_la_section"
+    ],
+    "faible": [
+     "place_de_la_section_dans_le_cours",
+     "longueur_du_passage",
+     "redondance_du_passage"
+    ]
+   }
+  },
+  {
+   "passage": 717,
+   "section": 4,
+   "section_titre": "Structures donnees",
+   "probabilite": 0.973,
+   "texte": "Structures donnees : Terminale - Spécialité NSI IFS Singapour Chapitre 4 - Les structures de données Objectifs : ▷ Remettre en mémoire les structures de données vues enPremière ▷ Montrer qu'il existe plusieurs implémentations possibles 1 Introduction En informatique, on manipule essentiellement des données. Lorsqu'elles sont simples comme desnombres, des chaînes de caractères ou des booléens, on peut les stocker dans des variables qui seront typées en fonction de la nature de la donnée. 2 Définition A retenir! Une structure de données est une organisation logique des données permettant de simp",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "alain",
+    "terieur",
+    "moyenne",
+    "algorithmique",
+    "projet",
+    "float"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.75
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2022-nouv-caledonie-1",
+     "enonce": "Indiquer ce que renvoie l’instruction suivante appliquée à listeVilles : >>>[(d['nom'],d['alt_max']) for d in listeVilles if d['alt_max']>100]"
+    },
+    {
+     "sujet": "spe-numerique-informatique-2022-nouv-caledonie-1",
+     "enonce": "Écrire en langage Python une fonction variations qui prend en paramètre listeV, du même type que la variable listeVilles, et renvoie la différence totale entre le nombre d’habitants en 2012 et le nombre d’habitants en 19"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 1511,
+   "section": 23,
+   "section_titre": "Algo parcours graphes",
+   "probabilite": 0.971,
+   "texte": "Algo parcours graphes : Terminale - Spécialité NSI IFS Singapour Chapitre 21 - Parcours de graphes Objectifs : ▷ Implémenter en Python des algorithmes de parcours de graphes et de recherche de chemins dans un graphe. ▷ Utiliser ces fonctions Python pour résoudre un problème utilisant des graphes (navigation GPS, laby- rinthes, mots voisins, ...,etc.) 1 Introduction Un des premiers algorithmes que l'on doit savoir utiliser sur un graphe est celui de son parcours. Parcourir un graphe , c'est visiter ses différents sommets, afin de pouvoir opérer une action tour à tour sur eux. Tous comme pour le",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "depart",
+    "visite",
+    "profondeur",
+    "rahobisoa",
+    "singapour",
+    "specialite"
+   ],
+   "toujours_nomme": [
+    "parcours",
+    "sommets",
+    "voisins"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.75
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.12
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.12
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2024-metropole-1",
+     "enonce": "Donner le nom de ce parcours de graphe."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2024-metropole-1",
+     "enonce": "La fonction parcoursGraphe renvoie une liste parcours. Indiquer la valeur renvoyée par l’appel de fonction : parcoursGraphe(s1)"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "redondance_du_passage",
+     "centralite_du_passage",
+     "longueur_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 718,
+   "section": 5,
+   "section_titre": "Les listes",
+   "probabilite": 0.968,
+   "texte": "Les listes : Terminale - Spécialité NSI IFS Singapour Chapitre 5 - Les listes Objectifs : ▷ Distinguer des structures par le jeu des méthodes qui les caractérisent. ▷ Choisir une structure de données adaptée à la situation à modéliser. ▷ Distinguer la recherche d'une valeur dans une liste et dans un dictionnaire. 1 Introduction Historique Le langage de programmationLisp (inventé parJohn McCarthy en 1958) a été un des premiers langages de programmation à introduire cette notion de liste (Lisp signifie list processing). Lisp qui fait partie de la plus ancienne famille de langages de programmatio",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "cellule",
+    "estvide",
+    "tete",
+    "queue",
+    "chainee",
+    "print"
+   ],
+   "toujours_nomme": [
+    "listes"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.91
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.06
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.03
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-centres-etranger-1",
+     "enonce": "a. Écrire un script en langage Python qui affiche les identifiants (id_velo) de tous les vélos disponibles à la station \"Citadelle\"."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-metropole-1-remplacement",
+     "enonce": "Méthode ajouter_chambres() Écrire l’instruction Python pour ajouter 'Ch1' à l’objet GiteBN."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 2187,
+   "section": 34,
+   "section_titre": "Rappels reseaux",
+   "probabilite": 0.967,
+   "texte": "Rappels reseaux : Terminale - Spécialité NSI IFS Singapour Chapitre 14 - Les réseaux (rappels) Objectifs : ▷ Rappels de la classe de Première sur les réseaux ▷ Rappels de la classe de Première sur fonctionnement du protocole TCP/IP 1 Introduction Onappelle réseauinformatique ,unensembled'équipementsinformatiquesconnectésentreeuxpardesliaisons physiques. Ces machines distantes échangent des informations sous forme de données binaires. Pourquoi utilise-t-on des réseaux? ▷ pour partager des données et des applications; ▷ pour partager l'utilisation des périphériques; ▷ pour travailler sur une mêm",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "rappels",
+    "paquets",
+    "destinataire",
+    "envoyer",
+    "singapour",
+    "rahobisoa"
+   ],
+   "toujours_nomme": [
+    "machines",
+    "masque"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.88
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.12
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2023-nouv-caledonie-1",
+     "enonce": "a. Indiquer les bits de parité associés aux représentations binaires des deux entiers naturels 9 et 16 écrits en base 10."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2023-nouv-caledonie-1",
+     "enonce": "Écrire en langage Python une fonction calcul_parite prenant en paramètre une liste Liste_bits constituée d’entiers valant 0 ou 1 et retournant l’entier 1 ou 0 correspondant à son bit de parité."
+    }
+   ],
+   "intention": {
+    "fort": [
+     "longueur_du_passage",
+     "centralite_du_passage",
+     "redondance_du_passage"
+    ],
+    "faible": [
+     "frequence_passee_de_la_section",
+     "taille_de_la_section"
+    ]
+   }
+  },
+  {
+   "passage": 2027,
+   "section": 32,
+   "section_titre": "Protocoles de routage",
+   "probabilite": 0.966,
+   "texte": "Le protocole RIP permet de construire les tables de routage des différents routeurs, en indiquant pour chaque routeur la distance, en nombre de sauts, qui le sépare d’un autre routeur. Pour le réseau ci-dessus, on dispose des tables de routage suivantes :",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "tables",
+    "separe",
+    "sauts",
+    "indiquant",
+    "distance",
+    "dessus"
+   ],
+   "toujours_nomme": [
+    "routage",
+    "routeurs"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / qm / x colon / x qm",
+     "part": 0.87
+    },
+    {
+     "facette": 1,
+     "nom": "colon x / x colon x / colon / x colon",
+     "part": 0.08
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+     "part": 0.04
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-numerique-informatique-2021-metro-cand-libre-1",
+     "enonce": "Dans cette question, tous les routeurs utilisent le protocole RIP (distance en nombre de sauts)."
+    },
+    {
+     "sujet": "spe-numerique-informatique-2021-zero-1",
+     "enonce": "Table de routage du routeur B Destination Routeur suivant A A C A D D E D F A G D Distance 1 2 1 2 3 3 Distance 1 2 2 1 1 2 Table de routage du routeur D Destination Routeur suivant A A B B C E E E F A G E Distance 1 1 2"
+    }
+   ],
+   "intention": {
+    "fort": [
+     "taille_de_la_section",
+     "place_de_la_section_dans_le_cours",
+     "frequence_passee_de_la_section"
+    ],
+    "faible": [
+     "centralite_du_passage",
+     "longueur_du_passage",
+     "redondance_du_passage"
+    ]
+   }
+  }
+ ]
+}
