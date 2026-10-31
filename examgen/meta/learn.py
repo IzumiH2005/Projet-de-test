@@ -6,8 +6,13 @@
    Preuve : apprise sur une matière, appliquée à l'autre (matière exclue). La règle finale,
    apprise sur toutes les matières, est écrite dans data/model/meta.json ; le moteur l'emploie
    seul quand une matière nouvelle n'a pas de corrigé (Teacher.align).
-2. Intentions : variables relationnelles cours <-> question, retenues par tâches auto-supervisées,
+2. Auto-entraînement : v0 (lecture auto-réglée) -> v1 -> ... chaque version entraîne la suivante,
+   avec un garde-fou sans étiquette ; règle de lecture apprise SANS la matière évaluée.
+3. Intentions : variables relationnelles cours <-> question, retenues par tâches auto-supervisées,
    puis bilan d'universalité (retenues dans plusieurs matières avec le même sens d'effet).
+   Mesurées avant et après auto-entraînement (meilleur alignement -> meilleures intentions ?).
+4. Variables d'intention à grande échelle (deep.py) : centaines de variables générées, sélection
+   par stabilité, transfert à froid entre matières.
 Sortie : output/meta/rapport.json.
 """
 from __future__ import annotations
@@ -24,6 +29,7 @@ import numpy as np
 from . import align as A
 from .domain import DOMAINS, eval_labels, load
 from .intent import Intent
+from . import deep as DP, selftrain as ST
 from ..prof.profile import DEFAULT_CFG
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -59,20 +65,44 @@ def alignment(names: list[str], refresh: bool = False) -> dict:
     return rep
 
 
-def intentions(names: list[str]) -> dict:
-    per = {}
+def selftraining(names: list[str]) -> tuple[dict, dict]:
+    rows = joblib.load(ROWS)
+    rep, start = {}, {}
     for n in names:
+        others = [r for k in names if k != n for r in rows.get(k, [])]
+        coef = A.fit_meta(others).coef_ if others else json.loads(META.read_text())["poids"]
         t = load(n)
-        t.rep = getattr(t, "rep", {})
-        V = A.views(t, DEFAULT_CFG)
-        S = A.combine(V, (1, 0.5, 0.25, 1))
-        for q, s in zip(t.Q, S.argmax(1)):
-            q.sec = int(s)
-        t.consigne_vocab()
-        t.consigne_facets()
-        it = Intent(t, S)
-        it.features()
+        cfg, w, _ = A.self_tune(t, coef)
+        S0 = A.combine(A.views(t, cfg), w)
+        S, hist = ST.improve(t, S0, labels=eval_labels(t))
+        rep[n] = {"regle_de_lecture_apprise_sans_cette_matiere": True, "generations": hist}
+        start[n] = (t, S0, S)
+        print(n, [h.get("vrai_top3") for h in hist])
+    return rep, start
+
+
+def _intent(t, S):
+    t.rep = getattr(t, "rep", {})
+    for q, s in zip(t.Q, S.argmax(1)):
+        q.sec = int(s)
+    t.consigne_vocab()
+    t.consigne_facets()
+    it = Intent(t, S)
+    it.features()
+    return it
+
+
+def intentions(names: list[str], start: dict) -> dict:
+    per, avant_apres, tdata = {}, {}, {}
+    for n in names:
+        t, S0, S = start[n]
+        it0 = _intent(t, S0)
+        r0 = it0.tasks()
+        it = _intent(t, S)
         res = it.tasks()
+        tdata[n] = it.testability_data()
+        sc = lambda r, k: r.get(k, {}).get("score_sujets_exclus")
+        avant_apres[n] = {k: {"avant": sc(r0, k), "apres": sc(res, k)} for k in res if sc(res, k) is not None}
         keep = sorted({v["variable"] for k, r in res.items() if k != "testabilite" for v in r.get("variables_retenues", [])})
         ty = it.types(keep)
         step = max(1, len(t.Q) // 6)
@@ -91,17 +121,22 @@ def intentions(names: list[str]) -> dict:
             universal.append({"tache": task, "variable": var, "meme_sens": len(signs) == 1,
                               "importance": {x[0]: x[2] for x in lst}, "sens": lst[0][1] if len(signs) == 1 else "variable"})
     universal.sort(key=lambda r: (r["tache"], -min(r["importance"].values())))
-    return {"par_matiere": per, "universelles": universal}
+    deep = DP.study({n: d for n, d in tdata.items() if d is not None})
+    return {"par_matiere": per, "universelles": universal, "avant_apres_auto_entrainement": avant_apres, "grande_echelle": deep}
 
 
 def main(argv=None):
     warnings.filterwarnings("ignore")
     names = (argv or sys.argv[1:]) or list(DOMAINS)
-    rep = {"alignement": alignment(names), "intentions": intentions(names)}
+    rep = {"alignement": alignment(names)}
+    rep["auto_entrainement"], start = selftraining(names)
+    rep["intentions"] = intentions(names, start)
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "rapport.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
     for k, v in rep["alignement"]["matiere_exclue"].items():
         print(k, {x: v[x] for x in ("choisi_par_le_meta_modele", "reglage_par_defaut", "meilleur_possible_oracle")})
+    print("avant/après", rep["intentions"]["avant_apres_auto_entrainement"])
+    print("grande échelle", {k: v for k, v in rep["intentions"]["grande_echelle"].items() if k != "par_matiere"})
     for u in rep["intentions"]["universelles"]:
         print("universelle", u["tache"], u["variable"], u["sens"], u["importance"])
     print("->", OUT / "rapport.json", "et", META)

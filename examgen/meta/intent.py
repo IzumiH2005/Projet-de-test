@@ -239,8 +239,8 @@ class Intent:
         keep.sort(key=lambda r: -r["importance"])
         return {"score_sujets_exclus": round(float(score), 3), "unite": unit, "variables_retenues": keep}
 
-    def _testability(self) -> dict:
-        """Passages : lesquels tombent une année donnée ? Appris sur les autres années."""
+    def testability_data(self):
+        """Passages : lesquels tombent une année donnée ? Variables calculées sans l'année visée."""
         t, Q = self.t, self.t.Q
         years = sorted({q.year for q in Q if q.year})
         n = len(t.pass_text)
@@ -266,8 +266,15 @@ class Intent:
             y_all.append(np.array([p in tested[y] for p in range(n)], int))
             g_all.append(np.full(n, y))
         if len(X_all) < 3:
+            return None
+        return np.vstack(X_all), np.concatenate(y_all), np.concatenate(g_all), names
+
+    def _testability(self) -> dict:
+        d = self.testability_data()
+        if d is None:
             return {}
-        X, yv, g = np.vstack(X_all), np.concatenate(y_all), np.concatenate(g_all)
+        X, yv, g, names = d
+        n = len(self.t.pass_text)
         lr = lambda: make_pipeline(StandardScaler(), LogisticRegression(C=0.3, max_iter=2000, class_weight="balanced"))
         auc = lambda m, A, b: roc_auc_score(b, m.predict_proba(A)[:, 1]) if len(set(b)) > 1 else 0.5
         old = self.names

@@ -258,6 +258,14 @@ class Teacher:
             loo1 += s1 * len(te); loo3 += s3 * len(te); n += len(te)
         self.w = tuple(self.meta_tune["poids"]) if self.meta_tune else max(grid, key=lambda w: score(combo(w), labelled))
         S = combo(self.w)
+        if self.meta_tune:  # sans corrigé : auto-entraînement par générations (meta/selftrain.py)
+            try:
+                from ..meta.selftrain import improve
+                S, hist = improve(self, S)
+                self.meta_tune["auto_entrainement"] = hist
+                print(f"  auto-entraînement : {len(hist)} étapes")
+            except Exception as e:  # le moteur reste utilisable avec la lecture auto-réglée
+                print("  auto-entraînement ignoré :", e)
         # popularité : la section la plus citée par les autres corrigés
         pop = Counter(x for e in exams for x in self.refs[e])
         pop_h = np.mean([int(pop.most_common(1)[0][0][1:]) in {int(x[1:]) for x in self.refs[Q[i].exam]} for i in labelled]) if labelled else 0

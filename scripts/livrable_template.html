@@ -346,7 +346,27 @@ $("#es").oninput = renderE; renderE();
   const ns = Object.keys(G.taches);
   const tk = Object.keys(TK).filter(k => ns.some(n => G.taches[n][k]));
   const uni = G.universelles.map(u => `<tr><td>${esc(TK[u.tache] || u.tache)}</td><td>${lab(u.variable)}</td><td>${u.sens == null ? "–" : u.sens > 0 ? "plus il y en a, plus c'est le cas" : "moins il y en a, plus c'est le cas"}</td></tr>`).join("");
+  const ST = [
+    ["★★", "Se régler seul : choisir sa façon de lire parmi une grille fixe ; une trentaine de variables d'intention", "fait"],
+    ["★★★", "S'auto-entraîner : chaque version entraîne la suivante, un garde-fou sans étiquette refuse les reculs, gain mesuré sur une matière jamais vue", "fait"],
+    ["★★★★", "Juger des centaines de variables générées seules, ne garder que les stables, transférer ses règles d'une matière à l'autre sans les réapprendre", "en partie"]];
+  const stars = ST.map(s => `<tr><td>${s[0]}</td><td>${esc(s[1])}</td><td class="${s[2] === "fait" ? "up" : ""}">${s[2]}</td></tr>`).join("");
+  const au = Object.entries(G.auto || {}).map(([n, h]) => `<div class="tw"><table><thead><tr><th>${NM[n] || n} · version</th><th>Bien relié au cours (top 3)</th></tr></thead><tbody>
+    ${h.map(x => `<tr><td>${esc(x.version)}${x.raison ? `<br><span class="m">${esc(x.raison)}</span>` : ""}</td><td>${x.vrai_top3 == null ? "–" : pct(x.vrai_top3)}</td></tr>`).join("")}</tbody></table></div>`).join("");
+  const GR = G.grand;
+  const gr = GR ? `<div class="prose"><p><b>5. À grande échelle.</b> Pour deviner quel passage du cours tombera, le moteur fabrique seul ${GR.variables_generees} variables (croisements deux à deux des 12 de base, rangs, extrêmes) et ne garde que celles qu'un modèle parcimonieux choisit à chaque tirage (sélection par stabilité). Chaque matière choisit ensuite, sur ses propres années passées, le modèle qui prédit le mieux.</p></div>
+    <div class="tw"><table><thead><tr><th>Année exclue (AUC)</th>${Object.keys(GR.par_matiere).map(n => `<th>${NM[n] || n}</th>`).join("")}</tr></thead><tbody>
+    ${[["Popularité seule", "auc_annee_exclue_popularite"], ["12 variables", "auc_annee_exclue_12_variables"], ["Variables stables", "auc_annee_exclue_variables_stables"], ["Gardées / générées", null]].map(([l, k]) =>
+      `<tr><td>${l}</td>${Object.values(GR.par_matiere).map(v => `<td class="${k && v.modele_retenu === (k.includes("stables") ? "variables stables" : k.includes("12") ? "12 variables" : "") ? "up" : ""}">${k ? v[k] : v.variables_stables + " / " + GR.variables_generees}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+    <div class="tw"><table><thead><tr><th>Transfert à froid (AUC)</th><th>12 variables</th><th>Variables stables</th><th>Appris dans la matière</th></tr></thead><tbody>
+    ${Object.entries(GR.transfert_a_froid).map(([k, v]) => `<tr><td>${k.split("->").map(n => NM[n] || n).join(" → ")}</td><td>${v.auc_12_variables}</td><td>${v.auc_variables_stables}</td><td>${v.auc_appris_dans_la_matiere}</td></tr>`).join("")}</tbody></table></div>
+    <div class="prose"><p>Limite : les règles fines transfèrent moins bien que les 12 variables de base. Elles restent propres à une matière ; seule « haut(centralité) » est stable dans les deux. C'est la partie ★★★★ encore incomplète.</p></div>` : "";
+  const aa = G.avant_apres || {};
+  const aat = Object.keys(aa).length ? `<div class="tw"><table><thead><tr><th>Intention · avant → après auto-entraînement</th>${Object.keys(aa).map(n => `<th>${NM[n] || n}</th>`).join("")}</tr></thead><tbody>
+    ${["testabilite", "ordre", "consigne"].map(k => `<tr><td>${TK[k]}</td>${Object.values(aa).map(v => `<td>${v[k] ? v[k].avant + " → " + v[k].apres : "–"}</td>`).join("")}</tr>`).join("")}</tbody></table></div>` : "";
   $("#gbody").innerHTML = `
+    <div class="prose"><p><b>Niveau atteint.</b></p></div>
+    <div class="tw"><table><thead><tr><th>Niveau</th><th>Ce qu'il faut savoir faire</th><th>État</th></tr></thead><tbody>${stars}</tbody></table></div>
     <div class="prose"><p><b>1. Se régler seul.</b> Pour relier une question au cours, il existe des dizaines de façons de lire le texte. Le moteur les essaie toutes et garde celle que désignent cinq signaux auto-supervisés (les questions d'une même partie visent-elles des chapitres voisins ? l'énoncé et les documents désignent-ils le même chapitre ?…). La règle qui combine ces signaux a été apprise sur une matière et testée sur l'autre.</p></div>
     <div class="tw"><table><thead><tr><th>Matière jamais vue</th><th>Réglage par défaut</th><th>Choisi seul</th><th>Maximum possible</th></tr></thead><tbody>${al}</tbody></table></div>
     <div class="prose"><p><b>2. Comprendre les intentions.</b> Pour chaque question, le moteur calcule mécaniquement une trentaine de relations avec le cours : la place du passage visé, son importance (centralité, redondance, insistance), ce que l'énoncé nomme ou tait, l'histoire du chapitre dans les autres sujets. Il ne garde que celles qui expliquent les choix du professeur sur des sujets exclus.</p></div>
@@ -358,7 +378,9 @@ $("#es").oninput = renderE; renderE();
     ${ns.map(n => `<div class="tw"><table><thead><tr><th>${NM[n] || n} · type</th><th>Questions</th><th>Exemple réel</th></tr></thead><tbody>
       ${G.types[n].slice(0, 4).map(t => `<tr><td>${t.fort.length ? "fort : " + t.fort.map(lab).join(", ") : ""}${t.faible.length ? (t.fort.length ? "<br>" : "") + "faible : " + t.faible.map(lab).join(", ") : ""}${!t.fort.length && !t.faible.length ? "cas ordinaire" : ""}</td><td>${t.n}</td><td>${esc(t.ex.enonce.slice(0, 140))}…<br><span class="m">notion : ${esc(t.ex.notion_du_cours.slice(0, 100))}…</span></td></tr>`).join("")}</tbody></table></div>`).join("")}
     <div class="prose"><p><b>Ce qui est évalué sans être dit</b> : mots propres au passage visé que l'énoncé ne prononce pas.</p><ul>
-      ${ns.flatMap(n => G.implicite[n].map(x => `<li>${NM[n] || n} · « ${esc(x.enonce)} » → ${x.mots.map(esc).join(", ")}</li>`)).join("")}</ul></div>`;
+      ${ns.flatMap(n => G.implicite[n].map(x => `<li>${NM[n] || n} · « ${esc(x.enonce)} » → ${x.mots.map(esc).join(", ")}</li>`)).join("")}</ul></div>
+    <div class="prose"><p><b>4. S'auto-entraîner.</b> Partant de sa lecture auto-réglée (v0), le moteur suppose que les questions d'une même partie portent sur un même thème (v1), puis entraîne un « élève » sur le seul cours ; l'élève corrige son maître et devient la version suivante. Un garde-fou, sans aucune étiquette, refuse une version qui écrase la diversité du cours ou ne change plus rien. La règle de lecture a été apprise sans la matière évaluée ; les corrigés servent seulement à mesurer.</p></div>
+    ${au}${aat}${gr}`;
 })();
 
 // ---- onglets

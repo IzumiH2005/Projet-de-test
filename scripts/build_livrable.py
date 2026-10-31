@@ -205,7 +205,10 @@ def meta():
              for n, p in per.items()}
     impl = {n: [x for x in p["ce_qui_est_evalue_sans_etre_dit"] if x["mots"]][:3] for n, p in per.items()}
     return {"alignement": al, "universelles": [u for u in r["intentions"]["universelles"] if u["meme_sens"]],
-            "taches": tasks, "types": types, "implicite": impl, "regle": r["alignement"]["regle_finale"]}
+            "taches": tasks, "types": types, "implicite": impl, "regle": r["alignement"]["regle_finale"],
+            "auto": {n: v["generations"] for n, v in r.get("auto_entrainement", {}).items()},
+            "avant_apres": r["intentions"].get("avant_apres_auto_entrainement", {}),
+            "grand": r["intentions"].get("grande_echelle")}
 
 
 def main():

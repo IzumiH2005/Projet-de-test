@@ -232,3 +232,12 @@ Limites :
 - la section n'est prédite qu'un peu mieux que par la popularité (AUC 0,635 contre 0,622) ;
 - il n'y a que 14 corrigés ;
 - les PDF scannés ne sont pas lus (pas d'OCR).
+
+## Méta-apprentissage (`examgen/meta`)
+
+`python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.
+
+- `align.py` : le moteur choisit seul sa façon de lire (règle apprise sur une matière, testée sur l'autre).
+- `selftrain.py` : auto-entraînement par générations (v0 → v1 → …). Cohérence de partie, puis un élève entraîné sur le cours corrige son maître. Un garde-fou sans étiquette refuse les reculs. Droit 78 % → 87 %, NSI 77 % → 82 % (top 3, matière exclue). Appelé par `Teacher.align` quand les corrigés ne citent pas le cours.
+- `intent.py` : environ 30 variables d'intention cours ↔ question, retenues par tâches auto-supervisées.
+- `deep.py` : 312 variables générées, sélection par stabilité, transfert à froid entre matières.
