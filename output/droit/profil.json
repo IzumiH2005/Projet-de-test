@@ -732,12 +732,12 @@
   "n_enonces": 245,
   "exemples": [
    "Rappelez les fonctions économiques de l’État.",
-   "Qualifiez juridiquement les faits et les parties.",
    "Qualifiez juridiquement les parties et les faits.",
+   "Qualifiez juridiquement les faits et les parties.",
    "Distinguez le taux de chômage et le taux d’emploi.",
    "Qualifiez juridiquement les faits et les dommages.",
-   "Déterminez le lien entre niveau de diplôme et chômage.",
    "Présentez un argument que Thomas pourrait lui opposer.",
+   "Déterminez le lien entre niveau de diplôme et chômage.",
    "Commentez l’évolution des dépenses publiques en France."
   ],
   "tetes": [
@@ -758,27 +758,23 @@
     "sujets": 29
    },
    {
-    "debut": "une argumentation qui",
-    "sujets": 22
-   },
-   {
     "debut": "argumentation qui vous",
     "sujets": 22
    },
    {
-    "debut": "permette de répondre",
-    "sujets": 21
+    "debut": "une argumentation qui",
+    "sujets": 22
    },
    {
     "debut": "utilisant des qualifications",
     "sujets": 21
    },
    {
-    "debut": "des qualifications juridiques",
+    "debut": "résumez les faits",
     "sujets": 21
    },
    {
-    "debut": "qui vous permette",
+    "debut": "en utilisant des",
     "sujets": 21
    },
    {
@@ -786,7 +782,11 @@
     "sujets": 21
    },
    {
-    "debut": "vous permette de",
+    "debut": "des qualifications juridiques",
+    "sujets": 21
+   },
+   {
+    "debut": "permette de répondre",
     "sujets": 21
    }
   ]

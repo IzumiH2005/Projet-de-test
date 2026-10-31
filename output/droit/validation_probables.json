@@ -36,7 +36,6 @@
      "car_par_point": 621,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
-      "clause",
       "inexecution"
      ]
     },
@@ -61,7 +60,6 @@
      "car_par_point": 519,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
-      "clause",
       "inexecution"
      ]
     },
@@ -110,7 +108,6 @@
      "car_par_point": 476,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
-      "clause",
       "inexecution"
      ]
     }
@@ -142,7 +139,7 @@
     }
    ],
    "revision": [],
-   "intention_cachee_couverte": 0.67
+   "intention_cachee_couverte": 1.0
   },
   {
    "id": "P4",
@@ -211,9 +208,10 @@
      "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
-     "car_par_point": 498,
+     "car_par_point": 528,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
+      "clauses",
       "subordination"
      ]
     },
@@ -235,9 +233,10 @@
      "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
-     "car_par_point": 468,
+     "car_par_point": 502,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
+      "clauses",
       "subordination"
      ]
     }
@@ -261,7 +260,7 @@
     }
    ],
    "revision": [],
-   "intention_cachee_couverte": 0.5
+   "intention_cachee_couverte": 1.0
   },
   {
    "id": "SP-1",
@@ -308,10 +307,11 @@
      "situation_sim_max": 0.151,
      "nouveaute_ok": true,
      "longueur_ok": true,
-     "car_par_point": 621,
+     "car_par_point": 644,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
       "consentement",
+      "validite",
       "vices"
      ]
     },
@@ -357,11 +357,12 @@
      "situation_sim_max": 0.151,
      "nouveaute_ok": true,
      "longueur_ok": true,
-     "car_par_point": 504,
+     "car_par_point": 523,
      "intention_dite_dans_l_enonce": [],
      "intention_exigee_dans_le_corrige": [
       "consentement",
-      "consommateur"
+      "consommateur",
+      "validite"
      ]
     }
    ],
@@ -392,7 +393,7 @@
     }
    ],
    "revision": [],
-   "intention_cachee_couverte": 0.6
+   "intention_cachee_couverte": 1.0
   }
  ]
 }

@@ -256,7 +256,6 @@
     "consentement",
     "consommateur",
     "validite",
-    "donne",
     "vices"
    ],
    "deja_nomme_d_habitude": [],
@@ -549,9 +548,7 @@
   "deja_tombe": 3,
   "intention_cachee": {
    "evaluer_sans_le_dire": [
-    "inexecution",
-    "clause",
-    "agit"
+    "inexecution"
    ],
    "deja_nomme_d_habitude": [],
    "type": {
@@ -1406,8 +1403,7 @@
   "intention_cachee": {
    "evaluer_sans_le_dire": [
     "regimes",
-    "victime",
-    "contractuelle"
+    "victime"
    ],
    "deja_nomme_d_habitude": [],
    "type": {
@@ -2283,7 +2279,6 @@
   "deja_tombe": 2,
   "intention_cachee": {
    "evaluer_sans_le_dire": [
-    "principe",
     "chacun",
     "lorsqu"
    ],
@@ -2581,7 +2576,6 @@
     "consentement",
     "consommateur",
     "validite",
-    "donne",
     "vices"
    ],
    "deja_nomme_d_habitude": [],

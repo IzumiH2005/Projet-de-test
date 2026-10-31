@@ -104,7 +104,6 @@
     "consentement",
     "consommateur",
     "validite",
-    "donne",
     "vices"
    ],
    "toujours_nomme": [],
@@ -150,9 +149,7 @@
    "texte": "L’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en demeure est une formalité exigée pour constater l’inexécution d’un débiteur. Elle est nécessaire lorsque l’exécution du contrat reste possible. On distingue résiliation et résolution d’un contrat synallagmatique. La clause pénale est une clause par laquelle les parties au contrat évaluent d’une manière forfaitaire et par avance les dommages intérêts dus par le débiteur en cas d’inexécution du contra",
    "deja_tombe": 3,
    "evalue_sans_etre_dit": [
-    "inexecution",
-    "clause",
-    "agit"
+    "inexecution"
    ],
    "toujours_nomme": [],
    "manieres_de_demander": [
@@ -250,7 +247,6 @@
    "texte": "Article 1124 du Code civil : La promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l'autre, le bénéficiaire, le droit d'opter pour la conclusion d'un contrat dont les éléments essentiels sont déterminés, et pour la formation duquel ne manque que le consentement du bénéficiaire. La révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n'empêche pas la formation du contrat promis. Le contrat conclu en violation de la promesse unilatérale avec un tiers qui en connaissait l'existence est nul.",
    "deja_tombe": 3,
    "evalue_sans_etre_dit": [
-    "formation",
     "consentement"
    ],
    "toujours_nomme": [],
@@ -393,8 +389,7 @@
    "deja_tombe": 1,
    "evalue_sans_etre_dit": [
     "regimes",
-    "victime",
-    "contractuelle"
+    "victime"
    ],
    "toujours_nomme": [],
    "manieres_de_demander": [
@@ -673,7 +668,6 @@
    "texte": "Article 233 du Code civil : Le divorce peut être demandé conjointement par les époux lorsqu'ils acceptent le principe de la rupture du mariage sans considération des faits à l'origine de celle-ci. Il peut être demandé par l'un ou l'autre des époux ou par les deux lorsque chacun d'eux, assisté d'un avocat, a accepté le principe de la rupture du mariage par acte sous signature privée contresigné par avocats, qui peut être conclu avant l'introduction de l'instance. Le principe de la rupture du mariage peut aussi être accepté par les époux à tout moment de la procédure. L'acceptation n'est pas sus",
    "deja_tombe": 2,
    "evalue_sans_etre_dit": [
-    "principe",
     "chacun",
     "lorsqu"
    ],
@@ -764,7 +758,6 @@
    "deja_tombe": 2,
    "evalue_sans_etre_dit": [
     "modalites",
-    "selon",
     "identification"
    ],
    "toujours_nomme": [],
