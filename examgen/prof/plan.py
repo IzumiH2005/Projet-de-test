@@ -21,7 +21,7 @@ from pathlib import Path
 
 import numpy as np
 
-from .profile import Teacher, art_ids
+from .profile import Teacher
 
 
 def _clip(t: str, n: int) -> str:
@@ -72,8 +72,8 @@ class Planner:
 
     def course_of(self, si: int) -> dict:
         s = self.t.sections[si]
-        arts = [p for p in s.passages if p.startswith("Article ")]
-        txt = [p for p in s.passages if not p.startswith("Article ")]
+        arts = [p for p in s.passages if self.t.ref_ids.starts_with_ref(p)]
+        txt = [p for p in s.passages if not self.t.ref_ids.starts_with_ref(p)]
         return {"section": s.title, "theme": s.parent, "texte": _clip("\n".join(txt), 3500),
                 "articles": [_clip(a, 1200) for a in arts[:10]]}
 
@@ -215,7 +215,7 @@ Opérations mentales (ce que la question fait faire) :
 {ops}
 
 Niveau de détail attendu dans le corrigé : {d['chars_par_point_p10_p50_p90']} caractères par point (bas / médian / haut),
-{d['articles_cites_par_reponse_moyenne']} article(s) cité(s) par réponse en moyenne.
+{d['references_citees_par_reponse_moyenne']} référence(s) citée(s) par réponse en moyenne.
 Expressions typiques des corrigés : {', '.join(d['gestes_attendus_du_correcteur'][:20])}.
 Ce que disent les corrigés au correcteur :
 {cons}

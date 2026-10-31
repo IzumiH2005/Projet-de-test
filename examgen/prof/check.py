@@ -3,7 +3,8 @@
 
   facette_ok    la manière de demander reconnue (top 2 du modèle de consignes) est celle du plan ;
   section_ok    l'alignement appris place la section visée (ou sa partenaire) dans le top 3 ;
-  articles_ok   chaque article cité existe dans le cours ou dans les documents réels ;
+  articles_ok   chaque référence citée (identifiant dont la forme est apprise sur le cours, ex.
+                « article 1240 ») existe dans le cours ou dans les documents réels ;
   annexes_ok    une annexe qui ressemble à une source (article, arrêt) la recopie fidèlement ;
                 une annexe inventée n'est admise que dans un type de support où le professeur
                 invente aussi (extraits de contrat, règlement…), ce que mesure le taux de reprise
@@ -26,7 +27,7 @@ from pathlib import Path
 import numpy as np
 
 from . import docs as D
-from .profile import Teacher, art_ids
+from .profile import Teacher
 
 
 def _mask(t: str) -> str:
@@ -58,8 +59,8 @@ class Checker:
         # doit retrouver chacun de ses morceaux quelque part, pas forcément dans un seul passage
         self.src_sh = set().union(*(self._shingles(x) for x in self.src_n))
         self._rituals()
-        self.known_ids = set().union(*t.sec_ids) | set().union(*(art_ids(s) for s in self.src)) | \
-            set().union(*(art_ids(q.answer) for q in t.qs if q.answer))
+        self.known_ids = set().union(*t.sec_ids) | set().union(*(t.ref_ids(s) for s in self.src)) | \
+            set().union(*(t.ref_ids(q.answer) for q in t.qs if q.answer))
         self._support_source_rate()
 
     def _rituals(self):
@@ -184,9 +185,9 @@ class Checker:
             top3 = [int(x) for x in np.argsort(-S)[:3]]
             r["section_top3"] = [t.sections[x].num for x in top3]
             r["section_ok"] = bool(targets & set(top3)) if targets else None
-            cited = {re.sub(r"[.\s]", "", str(c)).upper() for c in q.get("articles_cites", [])} | art_ids(ans)
+            cited = {re.sub(r"[.\s]", "", str(c)).upper() for c in q.get("articles_cites", [])} | self.t.ref_ids(ans)
             cited = {re.sub(r"^ARTICLES?", "", c) for c in cited}
-            unknown = sorted(c for c in cited if c and c not in self.known_ids and c not in art_ids(anx_text))
+            unknown = sorted(c for c in cited if c and c not in self.known_ids and c not in self.t.ref_ids(anx_text))
             r["articles_inconnus"] = unknown
             r["articles_ok"] = not unknown
             sims = (t.vec.transform([_mask(stem)]) @ self.past.T).toarray().ravel() if stem else np.zeros(1)

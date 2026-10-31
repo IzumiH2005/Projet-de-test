@@ -1,0 +1,806 @@
+{
+ "corpus": {
+  "fichiers_sujets": 92,
+  "corriges": 0,
+  "questions_lues": 1536,
+  "sections_du_cours": 42,
+  "passages_du_cours": 2201
+ },
+ "pertinence_des_parties": {
+  "methode": "mélange gaussien (choisi au BIC) sur la proximité maximale de chaque partie au cours",
+  "parties_gardees": 263,
+  "parties_ecartees": 20,
+  "signaux": "proximité au cours des énoncés, des annexes, de la situation ; puis vote par titre de partie",
+  "titres_gardes": {
+   "Partie A": 34,
+   "EXERCICE 1 (4 points)": 12,
+   "EXERCICE 2 (4 points)": 11,
+   "EXERCICE 3 (4 points)": 11,
+   "EXERCICE 1 (6 points)": 11,
+   "Exercice 1 (6 points)": 11
+  },
+  "titres_ecartes": {
+   "Partie A :": 3,
+   "Partie A : ETUDE DE L'ADRESSAGE IP": 1,
+   "Partie A : La recherche dichotomique": 1,
+   "Partie C : La recherche dichotomique récursive": 1,
+   "Partie A : Modèle et schéma relationnel": 1,
+   "Partie C : SQL": 1
+  },
+  "questions_gardees": 1470
+ },
+ "alignement_sur_le_cours": {
+  "verite_terrain": "« références au programme » lues dans les corrigés",
+  "sujets_avec_references": 0,
+  "questions_evaluees": 0,
+  "poids_appris": {
+   "corrige": 0,
+   "annexes": 0,
+   "situation": 0,
+   "identifiants_communs": 0
+  },
+  "enonce_seul_top1_top3": [
+   0.0,
+   0.0
+  ],
+  "appris_validation_croisee_top1_top3": [
+   0.0,
+   0.0
+  ],
+  "popularite_top1": 0.0,
+  "hasard_top1": 0,
+  "second_tour_sans_mots_de_consigne": {
+   "garde": true,
+   "avant": [
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "vocabulaire_de_consigne": {
+  "signaux": "dispersion sur les sections, présence dans le cas, rareté dans le cours ; mélange gaussien",
+  "mots_analyses": 1194,
+  "mots_de_consigne": 493,
+  "exemples_consigne": [
+   "nsij",
+   "expliquer",
+   "pourquoi",
+   "justifiant",
+   "justifier",
+   "precisant",
+   "renvoye",
+   "proposer",
+   "citer",
+   "brievement",
+   "obtenu",
+   "coureur",
+   "realise",
+   "assertion",
+   "enregistrer",
+   "desormais",
+   "correspondant",
+   "initialiser",
+   "independantes",
+   "anagramme",
+   "piste",
+   "pistes",
+   "juin",
+   "voisine",
+   "preciser",
+   "dupont",
+   "strategie",
+   "erreur",
+   "vides",
+   "mots",
+   "strictement",
+   "decrire",
+   "inserer",
+   "modification",
+   "utilisant",
+   "instancier",
+   "decrit",
+   "chacun",
+   "ayant",
+   "apporter"
+  ],
+  "exemples_contenu": [
+   "fils",
+   "privee",
+   "programmation",
+   "decision",
+   "parent",
+   "energie",
+   "balise",
+   "livres",
+   "application",
+   "agence",
+   "pyramide",
+   "courant",
+   "titre",
+   "parentheses",
+   "processus",
+   "local",
+   "serveur",
+   "reseaux",
+   "enfant",
+   "locaux",
+   "chiffrement",
+   "cpu",
+   "passerelle",
+   "vehicule",
+   "trame"
+  ]
+ },
+ "manieres_de_demander": {
+  "k": 4,
+  "essais_k": {
+   "3": {
+    "silhouette": 0.075,
+    "stabilite": 0.661
+   },
+   "4": {
+    "silhouette": 0.079,
+    "stabilite": 0.64
+   },
+   "5": {
+    "silhouette": 0.082,
+    "stabilite": 0.585
+   },
+   "6": {
+    "silhouette": 0.085,
+    "stabilite": 0.503
+   },
+   "7": {
+    "silhouette": 0.088,
+    "stabilite": 0.433
+   },
+   "8": {
+    "silhouette": 0.092,
+    "stabilite": 0.421
+   },
+   "9": {
+    "silhouette": 0.09,
+    "stabilite": 0.454
+   }
+  },
+  "auto_correction": [
+   {
+    "tour": 0,
+    "k": 4,
+    "stabilite_moyenne": 0.536,
+    "instables": 2
+   }
+  ],
+  "silhouette_finale": 0.052,
+  "stabilite_finale": 0.583,
+  "facettes": [
+   {
+    "id": 0,
+    "nom": "expliquer / expliquer x / pourquoi / pourquoi x",
+    "n": 88,
+    "stabilite": 0.43,
+    "position_moyenne": 0.45,
+    "exemples": [
+     "Expliquer ce que fait la requête SQL suivante.",
+     "Expliquer le rôle de la fonction __init__.",
+     "Expliquer ce que fait la fonction ci-dessous.",
+     "Expliquer le rôle de l’attribut id_album de la table Chanson."
+    ]
+   },
+   {
+    "id": 1,
+    "nom": "colon x / x colon x / colon / x colon",
+    "n": 149,
+    "stabilite": 0.89,
+    "position_moyenne": 0.44,
+    "exemples": [
+     "Cette question concerne le joueur n°2 (Rappel : les liaisons possédées par le joueur n°2 sont représentées par un rectangle blanc dans l’annexe 2 de l’exercice 2).",
+     "creneaux plage_horaire id_creneau 1 2 3 4 5 6 7 8 9 10 11 12 22-NSIJ2JA1 8h-9h 9h-10h 10h-11h 11h-12h 12h-13h 13h-14h 14h-15h 15h-16h 16h-17h 17h-18h 18h-19h 19h-20h Page : 9 /14 1. Clés primaires/étrangères : a. Donner la clé primaire de l",
+     "On considère le code Python ci-dessous : 6| 7| 8| 9|",
+     "22-NSIJ2ME1 Page : 3/14 EXERCICE 2  Cet exercice porte sur les structures de données."
+    ]
+   },
+   {
+    "id": 2,
+    "nom": "x colon / colon / pourquoi x / proposer",
+    "n": 13,
+    "stabilite": 0.08,
+    "position_moyenne": 0.49,
+    "exemples": [
+     "On dispose de la pile suivante nommée p1 :",
+     "On considère l’arbre binaire représenté ci-dessous:",
+     "On considère le réseau représenté ci-dessous :",
+     "On donne l’arbre binaire suivant :"
+    ]
+   },
+   {
+    "id": 3,
+    "nom": "colon / qm / x colon / x qm",
+    "n": 1220,
+    "stabilite": 0.93,
+    "position_moyenne": 0.51,
+    "exemples": [
+     "Dans la pièce « Le Tartuffe », l'acteur Micha Lescot a joué le rôle de Tartuffe.",
+     "Écrire une fonction supprime_toutes_occurences(pile, element) qui prend en",
+     "Peut-on prédire que l'une des deux commandes python programme1.py et",
+     "Le labyrinthe ci-dessous est censé être représenté par le tableau de tableaux lab2."
+    ]
+   }
+  ]
+ },
+ "types_de_supports": {
+  "k": 7,
+  "essais_k": {
+   "3": {
+    "silhouette": 0.482,
+    "stabilite": 0.832
+   },
+   "4": {
+    "silhouette": 0.569,
+    "stabilite": 0.746
+   },
+   "5": {
+    "silhouette": 0.696,
+    "stabilite": 0.837
+   },
+   "6": {
+    "silhouette": 0.746,
+    "stabilite": 0.826
+   },
+   "7": {
+    "silhouette": 0.775,
+    "stabilite": 0.952
+   },
+   "8": {
+    "silhouette": 0.737,
+    "stabilite": 0.823
+   },
+   "9": {
+    "silhouette": 0.728,
+    "stabilite": 0.819
+   }
+  },
+  "auto_correction": [
+   {
+    "tour": 0,
+    "k": 7,
+    "stabilite_moyenne": 0.954,
+    "instables": 0
+   }
+  ],
+  "silhouette_finale": 0.775,
+  "stabilite_finale": 0.906,
+  "annexes_par_sujet": {
+   "0": 246,
+   "1": 11,
+   "2": 5,
+   "3": 1
+  },
+  "types": [
+   {
+    "id": 0,
+    "nom": "eponse exercice",
+    "n": 3,
+    "stabilite": 1.0,
+    "exemples_de_titres": [
+     "Document réponse 1 (exercice 4)",
+     "Document réponse 2 (exercice 4)",
+     "Document réponse : EXERCICE 5"
+    ],
+    "longueur_mediane": 105,
+    "exemple_texte": "(à rendre avec la copie)\nPage : 15 /16"
+   },
+   {
+    "id": 1,
+    "nom": "avec copie rendre exercice",
+    "n": 4,
+    "stabilite": 0.84,
+    "exemples_de_titres": [
+     "Annexe de l’exercice 2 à rendre avec la copie.",
+     "Annexe 1 de l’exercice 2, à rendre avec la copie.",
+     "Annexe 2 de l'exercice 2, à rendre avec la copie"
+    ],
+    "longueur_mediane": 81,
+    "exemple_texte": "C1\nélu\nC2\nprêt\nélu\nterminé\nC3\nC4"
+   },
+   {
+    "id": 2,
+    "nom": "langage sql",
+    "n": 3,
+    "stabilite": 1.0,
+    "exemples_de_titres": [
+     "ANNEXE 1 – LANGAGE SQL"
+    ],
+    "longueur_mediane": 812,
+    "exemple_texte": "Types de données\nCHAR(t)\nVARCHAR(t)\nTEXT\nTexte fixe de t caractères.\nTexte de t caractères variables.\nTexte de 65 535 caractères max.\nINT\nNombre entier de -231 à 231-1 (signé) ou de 0 à 232-1 (non signé)\nFLOAT\nRéel à virgule flottante\nDATE\nDate format AAAA-MM-JJ\nQuelques exemples de syntaxe SQL :\no Insérer des enregistrements :\nINSERT INTO Table (attribut1, attribut2) VALUES(valeur1 , valeur2)\no Modifier des enregistrements :\nUPDATE Table SET attribut1=valeur1, attribut2=valeur2 WHERE Selecteur\n"
+   },
+   {
+    "id": 3,
+    "nom": "exercice",
+    "n": 7,
+    "stabilite": 1.0,
+    "exemples_de_titres": [
+     "Annexe 1 (exercice 2)",
+     "Annexe 1 (exercice 4)",
+     "Annexe 2 (exercice 5)"
+    ],
+    "longueur_mediane": 871,
+    "exemple_texte": "(à ne pas rendre avec la copie)\nAction\nInstruction et syntaxe\nCréer un dictionnaire vide\ndico={}\nObtenir un élément d'un dictionnaire existant à partir de sa clé\nrenvoie une erreur si cle n'existe pas dans le dictionnaire\ndico[cle]\nModifier la valeur d'un élément d'un dictionnaire à partir de sa clé\ndico[cle]=nouvelle_valeur\nAjouter un élément dans un dictionnaire existant\ndico[nouvelle_cle]=valeur\nSupprimer et obtenir un élément d'un dictionnaire à partir de sa clé\ndico.pop(cle)\nTester l'appart"
+   },
+   {
+    "id": 4,
+    "nom": "eponse obligatoirement rendre dans",
+    "n": 2,
+    "stabilite": 1.0,
+    "exemples_de_titres": [
+     "DOCUMENT RÉPONSE À RENDRE OBLIGATOIREMENT ET DANS"
+    ],
+    "longueur_mediane": 453,
+    "exemple_texte": "SON INTÉGRALITE AVEC LA COPIE\nExercice 1. Question 2) d.\nIndiquer sans justification les valeurs des attributs permettant de compléter l’extrait de la table\nTitre proposé ci-dessous.\ntitreId\ntitre\n'Paranoïd'\n#albumId #formatId #genreId\ncompositeurs\nduree\nExercice 3. Question 2) b.\nCompléter le tableau des routes et des métriques respectives établies par chacun des routeurs\npour rejoindre le routeur D.\nPage : 8/10\nExercice 3. Question 2) c.\nCompléter la table de routage complète du routeur B selo"
+   },
+   {
+    "id": 5,
+    "nom": "linux commandes",
+    "n": 1,
+    "stabilite": 0.5,
+    "exemples_de_titres": [
+     "ANNEXE 2 – COMMANDES LINUX"
+    ],
+    "longueur_mediane": 830,
+    "exemple_texte": "Extrait des commandes de base linux\nls\npermet d'afficher le contenu d'un répertoire\ncd\nse déplacer dans l’arborescence (ex : cd repertoire1)\ncp\ncréer une copie d’un fichier (ex : cp fichier1.py fichier2.py)\nmv\ndéplacer ou renommer un fichier ou un répertoire (ex : mv fichier.txt doss)\nrm\neffacer un fichier ou un répertoire (ex : rm mon_fichier.mp3)\nmkdir créer un répertoire (ex : mkdir nouveau)\ncat\nvisualiser le contenu d’un fichier\nchmod modifier les permissions d’un fichier ou d’un dossier. Po"
+   },
+   {
+    "id": 6,
+    "nom": "exercice",
+    "n": 2,
+    "stabilite": 1.0,
+    "exemples_de_titres": [
+     "Annexe A de l’exercice 3",
+     "Annexe de l’exercice 3"
+    ],
+    "longueur_mediane": 305,
+    "exemple_texte": "Tables de routage du réseau de la figure 2\nR1 :\n192.168.1.0/24\n10.1.1.0/24\n0.0.0.0/0\n192.168.1.1\n10.1.1.2\n10.1.1.1\n10.1.1.0/24\n10.1.2.0/24\n10.1.3.0/24\n192.168.1.0/24\n172.16.0.0/16\n10.1.1.1\n10.1.2.1\n10.1.3.1\n10.1.1.2\n10.1.3.2\n10.1.3.0/24\n10.1.4.0/24\n10.1.6.0/24\n10.1.7.0/24\n10.1.3.2\n10.1.4.2\n10.1.6.2\n10.1.7.1\nInterface 4\n172.16.0.0/16\n172.16.0.1\nR2 :\nR5 :\nR6 :"
+   }
+  ]
+ },
+ "operations_mentales": {
+  "methode": "8 descripteurs relationnels, mélange gaussien, k au BIC",
+  "k": 6,
+  "operations": [
+   {
+    "id": 0,
+    "n": 977,
+    "fort": [],
+    "faible": [
+     "acteurs_nommes"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.2,
+     "appui_sur_les_documents": -0.14,
+     "appui_sur_le_cours": -0.12,
+     "largeur_du_cours": -0.05,
+     "rang_dans_le_sujet": 0.01,
+     "forme_interrogative": -0.17,
+     "acteurs_nommes": -0.44,
+     "longueur_enonce": -0.22
+    },
+    "exemples": [
+     "Amérique du Nord",
+     "return ...",
+     "Livres en Folie"
+    ]
+   },
+   {
+    "id": 1,
+    "n": 108,
+    "fort": [
+     "acteurs_nommes",
+     "longueur_enonce",
+     "appui_sur_le_cas"
+    ],
+    "faible": [],
+    "profil": {
+     "appui_sur_le_cas": 0.75,
+     "appui_sur_les_documents": -0.14,
+     "appui_sur_le_cours": -0.29,
+     "largeur_du_cours": 0.38,
+     "rang_dans_le_sujet": -0.19,
+     "forme_interrogative": -0.17,
+     "acteurs_nommes": 2.62,
+     "longueur_enonce": 0.79
+    },
+    "exemples": [
+     "Parmi les trois requêtes suivantes, écrites dans le langage SQL, laquelle renvoie les valeurs de tous les attributs des plats de la catégorie 'entrée' : R1 : SELECT nom, prix FROM Plat WHERE categorie = 'entrée'; R2 : SE",
+     "Table de routage du routeur B Destination Routeur suivant A A C A D D E D F A G D Distance 1 2 1 2 3 3 Distance 1 2 2 1 1 2 Table de routage du routeur D Destination Routeur suivant A A B B C E E E F A G E Distance 1 1 2",
+     "1 0 a ou a b |a ET a b [a OU 0 0 0 1 0 0 b 0 0 0 1 0 1 1 1 0 1 0 1 1 1 0 1 1 1 8. Déterminer la table de vérité de 'expression booléenne NON (a 9. A raide d'une deuxiéme table de vérité, justifier que : NON(a 23-NSU1AN1 "
+    ]
+   },
+   {
+    "id": 2,
+    "n": 53,
+    "fort": [
+     "appui_sur_les_documents",
+     "largeur_du_cours",
+     "longueur_enonce"
+    ],
+    "faible": [],
+    "profil": {
+     "appui_sur_le_cas": -0.04,
+     "appui_sur_les_documents": 3.07,
+     "appui_sur_le_cours": -0.3,
+     "largeur_du_cours": 0.75,
+     "rang_dans_le_sujet": -0.08,
+     "forme_interrogative": -0.17,
+     "acteurs_nommes": 0.36,
+     "longueur_enonce": 0.57
+    },
+    "exemples": [
+     "Recopier le schéma ci-dessous et le compléter sur votre copie en exécutant les appels de fonctions donnés. On écrira ce que renvoie la fonction utilisée dans chaque cas, et on indiquera None si la fonction ne retourne au",
+     "Ecrire une fonction en langage Python maximum(P) recevant une pile P comme argument et qui renvoie la valeur maximale de cette pile. On ne s’interdit pas qu’après exécution de la fonction, la pile soit vide.",
+     "a. Proposer une stratégie écrite en langage naturel et/ou expliquée à l’aide de schémas, qui permette de mettre en place une telle fonction."
+    ]
+   },
+   {
+    "id": 3,
+    "n": 39,
+    "fort": [
+     "forme_interrogative",
+     "appui_sur_le_cours"
+    ],
+    "faible": [
+     "rang_dans_le_sujet",
+     "acteurs_nommes"
+    ],
+    "profil": {
+     "appui_sur_le_cas": 0.22,
+     "appui_sur_les_documents": -0.06,
+     "appui_sur_le_cours": 1.25,
+     "largeur_du_cours": -0.23,
+     "rang_dans_le_sujet": -0.42,
+     "forme_interrogative": 6.06,
+     "acteurs_nommes": -0.3,
+     "longueur_enonce": -0.22
+    },
+    "exemples": [
+     "a. Que renvoie l'instruction flotte[26] ?",
+     "Voici le script d'une fonction : def proposition(choix): for v in flotte: if flotte[v][\"type\"] == choix and flotte[v][\"etat\"] == 1: return flotte[v][\"station\"] a. Quelles sont les valeurs possibles de la variable choix ?",
+     "Préciser toutes les valeurs entières que l’on peut stocker dans le nœud fils gauche du nœud04 (vide pour l'instant), en respectant les règles sur les arbres binaires de recherche ?"
+    ]
+   },
+   {
+    "id": 4,
+    "n": 249,
+    "fort": [
+     "acteurs_nommes",
+     "appui_sur_le_cas",
+     "longueur_enonce"
+    ],
+    "faible": [],
+    "profil": {
+     "appui_sur_le_cas": 0.48,
+     "appui_sur_les_documents": -0.14,
+     "appui_sur_le_cours": -0.16,
+     "largeur_du_cours": 0.06,
+     "rang_dans_le_sujet": 0.07,
+     "forme_interrogative": -0.17,
+     "acteurs_nommes": 0.61,
+     "longueur_enonce": 0.4
+    },
+    "exemples": [
+     "Expliquer le rôle de l’attribut id_album de la table Chanson.",
+     "Bob envoie un message à Alice.",
+     "Expliquer ce qui se passerait si le routeur R3 tombe en panne. On n’attend pas l’écriture des tables de routage."
+    ]
+   },
+   {
+    "id": 5,
+    "n": 44,
+    "fort": [
+     "appui_sur_le_cours",
+     "appui_sur_les_documents"
+    ],
+    "faible": [
+     "largeur_du_cours",
+     "acteurs_nommes"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.19,
+     "appui_sur_les_documents": 0.45,
+     "appui_sur_le_cours": 3.52,
+     "largeur_du_cours": -0.94,
+     "rang_dans_le_sujet": 0.21,
+     "forme_interrogative": -0.17,
+     "acteurs_nommes": -0.32,
+     "longueur_enonce": 0.19
+    },
+    "exemples": [
+     "On modélise la topologie d’un réseau par un schéma où chaque sommet correspond à un routeur implémentant le protocole RIP (Routing Information Protocol). Le protocole RIP permet de construire les tables de routage des di",
+     "On considère la fonction mystere ci-dessous.",
+     "Les classes Noeud et Arbre ci-dessous permettent de mettre en œuvre en Python la structure d’arbre binaire de recherche. La méthode insere permet d’insérer récursivement une nouvelle clé."
+    ]
+   }
+  ]
+ },
+ "niveau_de_detail": {
+  "reponses_de_corrige": 0,
+  "chars_par_point_p10_p50_p90": [],
+  "chars_par_question_p50": 0,
+  "articles_cites_par_reponse_moyenne": 0,
+  "enumerations_par_reponse_moyenne": 0,
+  "longueur_mediane_par_facette": {},
+  "points_par_rang": {},
+  "gestes_attendus_du_correcteur": [],
+  "consignes_de_correction": []
+ },
+ "squelette": {
+  "questions_par_partie": {
+   "2": 33,
+   "3": 48,
+   "4": 52,
+   "5": 35,
+   "6": 14,
+   "7": 18,
+   "8": 15,
+   "9": 14,
+   "10": 8,
+   "11": 8,
+   "12": 6,
+   "13": 2,
+   "14": 3,
+   "15": 3,
+   "16": 1,
+   "17": 2,
+   "18": 1
+  },
+  "facette_par_rang": {
+   "0": {
+    "3": 226,
+    "1": 25,
+    "0": 21,
+    "2": 4
+   },
+   "1": {
+    "3": 226,
+    "1": 34,
+    "0": 13,
+    "2": 3
+   },
+   "2": {
+    "3": 208,
+    "1": 18,
+    "0": 12,
+    "2": 1
+   },
+   "3": {
+    "3": 156,
+    "1": 21,
+    "0": 9,
+    "2": 2
+   },
+   "4": {
+    "3": 110,
+    "1": 14,
+    "0": 6
+   },
+   "5": {
+    "3": 73,
+    "0": 9,
+    "1": 8
+   },
+   "6": {
+    "3": 64,
+    "1": 7,
+    "0": 4,
+    "2": 1
+   },
+   "7": {
+    "3": 50,
+    "1": 4,
+    "0": 3
+   },
+   "8": {
+    "3": 37,
+    "1": 5,
+    "0": 2
+   },
+   "9": {
+    "3": 22,
+    "0": 5,
+    "1": 4,
+    "2": 1
+   },
+   "10": {
+    "3": 21,
+    "1": 2,
+    "2": 1
+   },
+   "11": {
+    "3": 11,
+    "0": 3,
+    "1": 2
+   },
+   "12": {
+    "3": 4,
+    "1": 3,
+    "0": 1
+   },
+   "13": {
+    "3": 4,
+    "1": 1
+   },
+   "14": {
+    "3": 4
+   },
+   "15": {
+    "3": 2,
+    "1": 1
+   },
+   "16": {
+    "3": 2
+   }
+  },
+  "squelette_typique": [
+   "colon / qm / x colon / x qm",
+   "colon / qm / x colon / x qm",
+   "colon / qm / x colon / x qm",
+   "colon / qm / x colon / x qm"
+  ],
+  "transitions": {
+   "3->3": 849,
+   "3->fin": 231,
+   "début->3": 213,
+   "1->3": 92,
+   "3->1": 83,
+   "0->3": 60,
+   "3->0": 51,
+   "1->1": 31,
+   "début->1": 25,
+   "début->0": 21,
+   "1->fin": 18,
+   "0->fin": 11,
+   "0->0": 10,
+   "0->1": 7
+  }
+ },
+ "couverture_du_cours": {
+  "sujets": 81,
+  "frequence_par_section": {
+   "Listes Piles Files": 0.6,
+   "Dictionnaires": 0.53,
+   "Arbres": 0.85,
+   "Graphes": 0.52,
+   "Structures donnees": 0.0,
+   "Les listes": 0.05,
+   "Les piles": 0.01,
+   "Les files": 0.07,
+   "Les arbres": 0.01,
+   "Les arbres binaires": 0.04,
+   "ABR": 0.0,
+   "Les graphes": 0.01,
+   "Programmation Orientee Objet": 0.6,
+   "Recursivite": 0.49,
+   "Calculabilite Decidabilite": 0.22,
+   "Pratiques de programmation": 0.36,
+   "Pseudo-code": 0.04,
+   "Programmation objet": 0.02,
+   "Modularite": 0.0,
+   "Notion de programme": 0.0,
+   "Diviser pour regner": 0.26,
+   "Programmation dynamique": 0.72,
+   "Recherche textuelle": 0.06,
+   "Algo parcours graphes": 0.01,
+   "explRechBMH": 0.01,
+   "expl rech naive": 0.0,
+   "Modele relationnel": 0.47,
+   "Langage SQL": 0.69,
+   "Base de donnees relationnelles": 0.0,
+   "SQL": 0.05,
+   "Systemes sur puce": 0.11,
+   "Gestion des processus": 0.56,
+   "Protocoles de routage": 0.67,
+   "Cryptographie": 0.31,
+   "Rappels reseaux": 0.07,
+   "Routage": 0.05,
+   "OS": 0.06,
+   "Processus": 0.01,
+   "SoC": 0.01,
+   "Securisation": 0.01,
+   "T6 2 CoursPremiere": 0.01,
+   "T6 5 algos coeur": 0.05
+  },
+  "jamais_ou_presque": [
+   "Structures donnees",
+   "Les piles",
+   "Les arbres",
+   "ABR",
+   "Les graphes",
+   "Modularite",
+   "Notion de programme",
+   "Algo parcours graphes",
+   "explRechBMH",
+   "expl rech naive",
+   "Base de donnees relationnelles",
+   "Processus",
+   "SoC",
+   "Securisation",
+   "T6 2 CoursPremiere"
+  ],
+  "associations_frequentes": [
+   "Arbres + Programmation dynamique (50)",
+   "Arbres + Protocoles de routage (47)",
+   "Arbres + Langage SQL (47)",
+   "Arbres + Programmation Orientee Objet (43)",
+   "Listes Piles Files + Arbres (42)",
+   "Programmation dynamique + Langage SQL (41)",
+   "Programmation dynamique + Protocoles de routage (40)",
+   "Arbres + Gestion des processus (39)",
+   "Listes Piles Files + Programmation dynamique (38)",
+   "Langage SQL + Protocoles de routage (38)"
+  ]
+ },
+ "previsibilite_consigne": {
+  "log_loss_sujet_exclu": {
+   "marginale": 0.601,
+   "selon_le_rang": 0.606,
+   "selon_la_section": 0.618,
+   "selon_rang_et_dernier": 0.604
+  },
+  "verdict": "peu prévisible"
+ },
+ "probabilite_annee_suivante": {
+  "Arbres": 0.786,
+  "Programmation dynamique": 0.692,
+  "Langage SQL": 0.691,
+  "Programmation Orientee Objet": 0.62,
+  "Protocoles de routage": 0.594,
+  "Listes Piles Files": 0.594,
+  "Graphes": 0.565,
+  "Gestion des processus": 0.534,
+  "Dictionnaires": 0.513,
+  "Recursivite": 0.482,
+  "Modele relationnel": 0.397,
+  "Cryptographie": 0.361,
+  "Pratiques de programmation": 0.34,
+  "Diviser pour regner": 0.304,
+  "Calculabilite Decidabilite": 0.272,
+  "Recherche textuelle": 0.174,
+  "Systemes sur puce": 0.14,
+  "T6 5 algos coeur": 0.061,
+  "explRechBMH": 0.04,
+  "SQL": 0.032,
+  "Routage": 0.031,
+  "Pseudo-code": 0.031,
+  "Les arbres binaires": 0.03,
+  "T6 2 CoursPremiere": 0.028,
+  "OS": 0.025,
+  "Algo parcours graphes": 0.022,
+  "Les graphes": 0.022,
+  "Les listes": 0.019,
+  "Rappels reseaux": 0.015,
+  "Les files": 0.015,
+  "expl rech naive": 0.015,
+  "Les piles": 0.013,
+  "Les arbres": 0.013,
+  "Programmation objet": 0.01,
+  "SoC": 0.01,
+  "Securisation": 0.008,
+  "Processus": 0.008,
+  "Base de donnees relationnelles": 0.006,
+  "Notion de programme": 0.006,
+  "Modularite": 0.006,
+  "Structures donnees": 0.006,
+  "ABR": 0.006
+ },
+ "previsibilite_sections": {
+  "methode": "pour chaque année, appris sur les années précédentes seulement ; AUC (0,5 = hasard)",
+  "auc_popularite": 0.891,
+  "auc_modele": 0.893,
+  "annees_testees": 4,
+  "coefficients": {
+   "frequence_passee": 0.66,
+   "annees_depuis_derniere": -0.26,
+   "frequence_du_theme": 0.04,
+   "taille_section": 1.09
+  }
+ }
+}

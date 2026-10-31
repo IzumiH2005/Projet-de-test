@@ -184,7 +184,7 @@ def droit():
         "supports": [{"nom": t["nom"], "n": t["n"], "titres": [clean(x, 80) for x in t["exemples_de_titres"][:2]],
                       "reprise": ts.get("taux_de_reprise_de_sources", {}).get(t["nom"]),
                       "dates": ts.get("part_de_documents_dates", {}).get(t["nom"])} for t in ts["types"]],
-        "detail": {k: prof["niveau_de_detail"][k] for k in ("chars_par_point_p10_p50_p90", "articles_cites_par_reponse_moyenne")},
+        "detail": {k: prof["niveau_de_detail"][k] for k in ("chars_par_point_p10_p50_p90", "references_citees_par_reponse_moyenne")},
         "correcteur": prof["niveau_de_detail"]["consignes_de_correction"][:5],
         "proba": list(prof["probabilite_annee_suivante"].items())[:8],
         "prev_sections": prof["previsibilite_sections"],

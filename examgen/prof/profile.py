@@ -5,7 +5,7 @@ sur la façon de penser de celui qui les a écrits, sans variable écrite à la 
   1. pertinence des parties : un mélange gaussien sur la proximité au cours écarte les parties
      hors cours (ex. la partie économie d'un sujet « droit et économie ») ;
   2. alignement question -> section du cours : poids des signaux (énoncé, corrigé, annexes,
-     identifiants communs comme les numéros d'articles) réglés sur les « références au programme »
+     identifiants de référence communs, appris sur le cours) réglés sur les « références au programme »
      des corrigés, avec un score honnête en validation croisée par sujet ;
   3. variables découvertes :
      - manières de demander (vocabulaire de consigne séparé du contenu par un mélange gaussien,
@@ -42,23 +42,72 @@ from . import docs as D
 
 SEED = 7
 WORD = re.compile(r"[a-z]{3,}")
-ART = re.compile(r"\b(?:articles?|art\.)\s+((?:[LRD]\.?\s?)?\d{1,4}(?:[-‑]\d+)*)", re.I)
+IDTOK = r"(?:[A-Z]\.?\s?)?\d+(?:[-‑.]\d+)*"
 
 
-def art_ids(text: str) -> set[str]:
-    out = set()
-    for m in ART.finditer(text):
-        out.add(re.sub(r"[.\s‑]", "", m.group(1)).replace("‑", "-").upper())
-    # « articles 1103, 1104 et 1112 »
-    for m in re.finditer(r"\barticles\s+([\dLRD.\s,\-et]{3,60})", text, re.I):
-        for n in re.findall(r"(?:[LRD]\.?\s?)?\d{2,4}(?:-\d+)*", m.group(1)):
-            out.add(re.sub(r"[.\s]", "", n).upper())
-    return out
+class RefModel:
+    """Identifiants de référence appris sur le cours (aucune règle de matière) : un mot
+    « introducteur » est un mot qui, dans le cours, précède souvent un identifiant numérique, avec
+    des identifiants variés et chacun propre à peu de sections (ex. « article 1240 » en droit). Les
+    années, quantités ou numéros de page ne passent pas ce filtre."""
+
+    def __init__(self, sections):
+        pairs = []
+        for si, s in enumerate(sections):
+            for m in re.finditer(r"(\w{3,})\.?\s+(" + IDTOK + ")", " ".join(s.passages)):
+                pairs.append((self._k(m.group(1)), self._id(m.group(2)), si))
+        occ = Counter(self._k(w) for s in sections for w in re.findall(r"\w{3,}", " ".join(s.passages)))
+        by = defaultdict(list)
+        for w, i, si in pairs:
+            by[w].append((i, si))
+        self.intro = set()
+        self.stats = {}
+        for w, v in by.items():
+            ids = [i for i, _ in v]
+            if len(v) < 5 or w.isdigit():
+                continue
+            secs_per_id = defaultdict(set)
+            for i, si in v:
+                secs_per_id[i].add(si)
+            div = len(set(ids)) / len(ids)
+            spec = float(np.mean([len(x) <= 3 for x in secs_per_id.values()]))
+            year = float(np.mean([bool(re.fullmatch(r"(19|20)\d\d", i)) for i in ids]))
+            follow = len(v) / max(occ[w], 1)
+            longid = float(np.median([len(re.sub(r"\D", "", i)) for i in ids]))
+            if div >= 0.4 and spec >= 0.8 and year < 0.5 and follow >= 0.3 and longid >= 3:
+                self.intro.add(w)
+                self.stats[w] = {"n": len(v), "diversite": round(div, 2), "taux_suivi": round(follow, 2)}
+
+    @staticmethod
+    def _k(w):
+        w = D.norm(w)
+        return w[:-1] if w.endswith("s") and len(w) > 4 else w
+
+    @staticmethod
+    def _id(x):
+        return re.sub(r"[.\s‑]", "", x).replace("‑", "-").upper()
+
+    def __call__(self, text: str) -> set[str]:
+        out = set()
+        if not self.intro:
+            return out
+        for m in re.finditer(r"(\w{3,})\.?\s+((?:" + IDTOK + r")(?:\s*(?:,|et|and|ou|or|/)\s*(?:" + IDTOK + r"))*)", text):
+            if self._k(m.group(1)) in self.intro:
+                for n in re.findall(IDTOK, m.group(2)):
+                    out.add(self._id(n))
+        return out
+
+    def starts_with_ref(self, passage: str) -> bool:
+        return bool(self(passage[:60]))
+
+
+DEFAULT_CFG = {"analyzer": "word", "ngram": (1, 2), "a": 0.5}
 
 
 class Teacher:
-    def __init__(self, sujets_dir: Path, cours_dir: Path):
+    def __init__(self, sujets_dir: Path, cours_dir: Path, cfg: dict | None = None):
         self.rep: dict = {}
+        self.cfg = dict(DEFAULT_CFG, **(cfg or {}))
         self.sections = D.parse_course([p for p in Path(cours_dir).rglob("*") if p.suffix.lower() in (".md", ".txt", ".pdf")])
         self.qs: list[D.Question] = []
         self.refs: dict[str, list[str]] = {}
@@ -71,6 +120,7 @@ class Teacher:
             self.qs += qs
             if c:
                 raw_corr[key] = D.read_text(c)
+        self.ref_ids = RefModel(self.sections)
         self._fit_vectorizer()
         sim = lambda a, b: float((self.vec.transform([a]) @ self.vec.transform([b]).T).toarray()[0, 0])
         for key, txt in raw_corr.items():
@@ -95,14 +145,16 @@ class Teacher:
                 self.pass_sec.append(si)
         self.pass_sec = np.array(self.pass_sec)
         qdocs = [q.stem + " " + q.situation[:1500] for q in self.qs]
-        self.vec = TfidfVectorizer(sublinear_tf=True, strip_accents="unicode", ngram_range=(1, 2), min_df=2,
-                                   max_df=0.5).fit(self.pass_text + qdocs)
+        c = self.cfg
+        kw = dict(analyzer="char_wb", ngram_range=(3, 5)) if c["analyzer"] == "char_wb" else dict(ngram_range=tuple(c["ngram"]))
+        self.vec = TfidfVectorizer(sublinear_tf=True, strip_accents="unicode", min_df=2, max_df=0.5, **kw).fit(self.pass_text + qdocs)
         self.P = self.vec.transform(self.pass_text)
         sec_docs = [" ".join(s.passages) + " " + s.title * 3 for s in self.sections]
         self.C = self.vec.transform(sec_docs)
-        self.sec_ids = [art_ids(" ".join(s.passages)) for s in self.sections]
+        self.sec_ids = [self.ref_ids(" ".join(s.passages)) for s in self.sections]
 
-    def sec_scores(self, texts: list[str], a: float = 0.5) -> np.ndarray:
+    def sec_scores(self, texts: list[str], a: float | None = None) -> np.ndarray:
+        a = self.cfg["a"] if a is None else a
         X = self.vec.transform(texts)
         cen = (X @ self.C.T).toarray()
         pas = (X @ self.P.T).toarray()
@@ -116,7 +168,7 @@ class Teacher:
     def id_bonus(self, texts: list[str]) -> np.ndarray:
         B = np.zeros((len(texts), len(self.sections)))
         for i, t in enumerate(texts):
-            ids = art_ids(t)
+            ids = self.ref_ids(t)
             if ids:
                 for si, sid in enumerate(self.sec_ids):
                     B[i, si] = len(ids & sid) / len(ids)
@@ -375,7 +427,7 @@ class Teacher:
         for q in A:
             pts = q.points or np.nan
             rows.append({"chars": len(q.answer), "pts": pts, "items": len(re.findall(r"(?m)^\s*([-•▪✓]|\d+[.)])\s", q.answer)),
-                         "articles": len(art_ids(q.answer)), "facet": q.facet, "pos": q.position})
+                         "articles": len(self.ref_ids(q.answer)), "facet": q.facet, "pos": q.position})
         ch = np.array([r["chars"] for r in rows], float)
         pp = np.array([r["pts"] for r in rows], float)
         cpp = ch[~np.isnan(pp)] / pp[~np.isnan(pp)]
@@ -422,7 +474,7 @@ class Teacher:
                     att[s.strip()] += 1
         self.detail_stats = {"chars_par_point_p10_p50_p90": [int(x) for x in np.percentile(cpp, [10, 50, 90])] if len(cpp) else [],
                              "chars_par_question_p50": int(np.median(ch)) if len(ch) else 0,
-                             "articles_cites_par_reponse_moyenne": round(float(np.mean([r["articles"] for r in rows])), 2) if rows else 0,
+                             "references_citees_par_reponse_moyenne": round(float(np.mean([r["articles"] for r in rows])), 2) if rows else 0,
                              "enumerations_par_reponse_moyenne": round(float(np.mean([r["items"] for r in rows])), 2) if rows else 0,
                              "longueur_mediane_par_facette": {str(f): int(np.median(v)) for f, v in sorted(by_f.items())},
                              "points_par_rang": self._points_by_rank(),
