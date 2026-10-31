@@ -1843,81 +1843,81 @@
   "poo": [
    [
     "ecrire_fonction / code_python / créer",
-    1.96
+    1.98
    ],
    [
     "completer_code / code_python / appliquer",
-    1.72
+    1.74
    ],
    [
     "complexite / explication / évaluer",
-    1.62
+    1.57
    ]
   ],
   "pile": [
    [
     "trace_execution / valeur / appliquer",
-    4.44
+    4.53
    ],
    [
     "dessiner_structure / schema / appliquer",
-    2.04
+    2.06
    ],
    [
     "ecrire_fonction / code_python / créer",
-    1.8
+    1.89
    ]
   ],
   "file": [
    [
     "trace_execution / valeur / appliquer",
-    3.37
+    3.46
    ],
    [
     "ordonnancement / explication / comprendre",
-    2.54
+    2.43
    ],
    [
     "completer_code / code_python / appliquer",
-    2.26
+    2.27
    ]
   ],
   "liste_chainee": [
    [
     "definir_notion / explication / se souvenir",
-    8.01
+    6.93
    ],
    [
-    "justifier_choix / explication / évaluer",
-    2.41
+    "autre / explication / créer",
+    2.52
    ],
    [
-    "complexite / complexite / analyser",
-    2.34
+    "completer_code / code_python / appliquer",
+    2.32
    ]
   ],
   "dictionnaire": [
    [
     "complexite / explication / évaluer",
-    3.26
+    3.06
    ],
    [
     "ecrire_fonction / code_python / créer",
-    2.21
+    2.29
    ],
    [
-    "expliquer / explication / évaluer",
-    1.83
+    "autre / explication / créer",
+    1.74
    ]
   ],
   "arbre_binaire": [
    [
     "calcul_numerique / valeur / appliquer",
-    3.03
+    3.05
    ],
    [
     "dessiner_structure / schema / appliquer",
-    2.46
+    2.47
    ],
    [
     "calcul_numerique / explication / se souvenir",
@@ -1927,375 +1927,375 @@
   "abr": [
    [
     "calcul_numerique / valeur / appliquer",
-    4.02
-   ],
-   [
-    "complexite / explication / évaluer",
-    3.9
+    4.14
    ],
    [
     "dessiner_structure / schema / appliquer",
-    3.59
+    3.73
+   ],
+   [
+    "complexite / explication / évaluer",
+    3.34
    ]
   ],
   "parcours_arbre": [
    [
     "autre / explication / créer",
-    4.78
+    5.15
    ],
    [
     "expliquer / explication / évaluer",
-    4.33
+    4.02
    ],
    [
-    "ordonnancement / explication / comprendre",
-    2.21
+    "autre / explication / appliquer",
+    2.35
    ]
   ],
   "graphe": [
    [
     "expliquer / explication / évaluer",
-    2.04
+    1.94
    ],
    [
     "definir_notion / explication / se souvenir",
-    1.92
+    1.78
    ],
    [
-    "complexite / complexite / analyser",
-    1.69
+    "justifier_choix / explication / analyser",
+    1.65
    ]
   ],
   "parcours_graphe": [
    [
     "completer_code / code_python / appliquer",
-    3.41
+    3.5
    ],
    [
     "autre / explication / créer",
-    2.84
+    2.99
    ],
    [
     "justifier_choix / explication / analyser",
-    2.22
+    2.23
    ]
   ],
   "tableau_liste": [
    [
     "complexite / explication / évaluer",
-    3.53
+    3.2
    ],
    [
     "completer_code / code_python / appliquer",
-    2.54
+    2.61
    ],
    [
-    "autre / explication / créer",
-    1.72
+    "completer_code / code_python / appliquer",
+    1.75
    ]
   ],
   "tuple": [
    [
     "completer_code / code_python / appliquer",
-    2.69
+    2.98
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.47
+    2.52
    ],
    [
-    "complexite / complexite / analyser",
+    "ecrire_fonction / code_python / créer",
     2.39
    ]
   ],
   "matrice": [
    [
     "completer_code / code_python / appliquer",
-    2.91
+    3.04
    ],
    [
     "completer_code / code_python / appliquer",
-    2.49
+    2.73
    ],
    [
     "autre / explication / créer",
-    2.36
+    2.44
    ]
   ],
   "recursivite": [
    [
     "complexite / complexite / analyser",
-    3.83
+    3.43
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.89
+    2.91
    ],
    [
-    "complexite / explication / évaluer",
-    2.74
+    "justifier_choix / explication / analyser",
+    2.61
    ]
   ],
   "modularite": [
    [
     "autre / explication / comprendre",
-    5.54
-   ],
-   [
-    "complexite / complexite / analyser",
-    3.08
-   ],
-   [
-    "completer_code / code_python / appliquer",
-    2.51
-   ]
-  ],
-  "mise_au_point": [
-   [
-    "corriger_code / explication / analyser",
-    18.21
-   ],
-   [
-    "lire_sql / sql / appliquer",
-    1.44
-   ],
-   [
-    "complexite / complexite / analyser",
-    1.12
-   ]
-  ],
-  "calculabilite": [
-   [
-    "expliquer / explication / comprendre",
-    5.58
-   ],
-   [
-    "trace_execution / valeur / appliquer",
-    3.41
-   ],
-   [
-    "justifier_choix / explication / analyser",
-    2.15
-   ]
-  ],
-  "fonctions": [
-   [
-    "completer_code / code_python / appliquer",
-    3.19
-   ],
-   [
-    "completer_code / code_python / appliquer",
-    2.78
-   ],
-   [
-    "ecrire_fonction / code_python / créer",
-    1.68
-   ]
-  ],
-  "chaines": [
-   [
-    "justifier_choix / explication / analyser",
-    3.26
-   ],
-   [
-    "autre / explication / comprendre",
-    2.72
-   ],
-   [
-    "expliquer / explication / évaluer",
-    2.33
-   ]
-  ],
-  "booleens": [
-   [
-    "lire_sql / sql / appliquer",
-    3.66
+    5.98
    ],
    [
     "completer_code / code_python / appliquer",
     2.86
    ],
    [
-    "complexite / complexite / analyser",
-    2.84
+    "expliquer / explication / comprendre",
+    2.52
+   ]
+  ],
+  "mise_au_point": [
+   [
+    "corriger_code / explication / analyser",
+    18.97
+   ],
+   [
+    "completer_code / code_python / appliquer",
+    1.04
+   ],
+   [
+    "trace_execution / valeur / appliquer",
+    0.99
+   ]
+  ],
+  "calculabilite": [
+   [
+    "expliquer / explication / comprendre",
+    6.05
+   ],
+   [
+    "trace_execution / valeur / appliquer",
+    3.66
+   ],
+   [
+    "justifier_choix / explication / analyser",
+    2.1
+   ]
+  ],
+  "fonctions": [
+   [
+    "completer_code / code_python / appliquer",
+    3.25
+   ],
+   [
+    "completer_code / code_python / appliquer",
+    2.81
+   ],
+   [
+    "ecrire_fonction / code_python / créer",
+    1.72
+   ]
+  ],
+  "chaines": [
+   [
+    "justifier_choix / explication / analyser",
+    3.28
+   ],
+   [
+    "autre / explication / comprendre",
+    2.77
+   ],
+   [
+    "ecrire_fonction / code_python / créer",
+    1.99
+   ]
+  ],
+  "booleens": [
+   [
+    "completer_code / code_python / appliquer",
+    3.56
+   ],
+   [
+    "completer_code / code_python / appliquer",
+    2.61
+   ],
+   [
+    "lire_sql / sql / appliquer",
+    2.6
    ]
   ],
   "representation_nombres": [
    [
     "calcul_numerique / valeur / appliquer",
-    4.59
+    4.64
    ],
    [
     "calcul_numerique / explication / se souvenir",
-    3.35
+    3.37
    ],
    [
     "expliquer / explication / évaluer",
-    3.0
+    2.84
    ]
   ],
   "tri": [
    [
     "complexite / complexite / analyser",
-    13.18
+    13.52
    ],
    [
     "expliquer / explication / évaluer",
-    4.98
+    4.88
    ],
    [
     "complexite / explication / évaluer",
-    2.92
+    2.86
    ]
   ],
   "diviser_regner": [
    [
     "complexite / explication / évaluer",
-    6.39
+    6.42
    ],
    [
     "autre / explication / appliquer",
-    3.47
+    3.86
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.13
+    2.18
    ]
   ],
   "prog_dynamique": [
    [
     "complexite / explication / évaluer",
-    6.24
+    6.3
    ],
    [
     "justifier_choix / explication / analyser",
-    4.53
+    4.84
    ],
    [
-    "justifier_choix / explication / évaluer",
-    3.38
+    "complexite / complexite / analyser",
+    3.87
    ]
   ],
   "glouton": [
    [
     "complexite / complexite / analyser",
-    3.73
-   ],
-   [
-    "corriger_code / explication / analyser",
-    3.19
+    4.49
    ],
    [
     "completer_code / code_python / appliquer",
-    3.03
+    3.33
+   ],
+   [
+    "corriger_code / explication / analyser",
+    2.93
    ]
   ],
   "recherche_textuelle": [
    [
-    "definir_notion / explication / se souvenir",
-    6.69
+    "complexite / explication / évaluer",
+    6.07
    ],
    [
-    "complexite / explication / évaluer",
-    6.05
+    "definir_notion / explication / se souvenir",
+    5.72
    ],
    [
     "lire_sql / sql / appliquer",
-    5.67
+    5.19
    ]
   ],
   "complexite": [
    [
     "complexite / complexite / analyser",
-    38.41
+    40.66
    ],
    [
     "complexite / explication / évaluer",
-    18.04
+    18.74
    ],
    [
     "justifier_choix / explication / analyser",
-    3.4
+    3.48
    ]
   ],
   "algo_simples": [
    [
     "complexite / complexite / analyser",
-    7.01
+    7.84
    ],
    [
     "ecrire_sql / sql / appliquer",
-    3.2
+    3.05
    ],
    [
-    "definir_notion / explication / se souvenir",
-    2.08
+    "completer_code / code_python / appliquer",
+    1.73
    ]
   ],
   "modele_relationnel": [
    [
     "modele_donnees / explication / analyser",
-    7.73
+    7.85
    ],
    [
     "ecrire_sql / sql / appliquer",
-    2.33
+    2.4
    ],
    [
     "ecrire_sql / sql / créer",
-    2.18
+    2.27
    ]
   ],
   "sql": [
    [
     "ecrire_sql / sql / appliquer",
-    4.71
+    4.75
    ],
    [
     "lire_sql / sql / appliquer",
-    4.69
+    4.7
    ],
    [
     "ecrire_sql / sql / créer",
-    4.36
+    4.41
    ]
   ],
   "sgbd": [
    [
     "definir_notion / explication / se souvenir",
-    8.57
+    7.49
    ],
    [
     "completer_code / code_python / appliquer",
-    3.6
+    3.49
    ],
    [
-    "complexite / complexite / analyser",
-    2.51
+    "modele_donnees / explication / analyser",
+    2.77
    ]
   ],
   "processus": [
    [
     "ordonnancement / explication / comprendre",
-    16.84
+    17.12
    ],
    [
     "definir_notion / explication / se souvenir",
-    4.71
+    4.52
    ],
    [
     "completer_code / code_python / appliquer",
-    1.66
+    1.72
    ]
   ],
   "os_commandes": [
    [
     "ordonnancement / explication / comprendre",
-    5.15
+    5.32
    ],
    [
     "expliquer / explication / évaluer",
-    4.27
+    4.11
    ],
    [
     "trace_execution / valeur / appliquer",
@@ -2305,85 +2305,85 @@
   "routage": [
    [
     "table_routage / explication / appliquer",
-    8.51
+    8.62
    ],
    [
     "calcul_numerique / explication / se souvenir",
-    2.66
+    2.7
    ],
    [
     "calcul_numerique / valeur / appliquer",
-    2.35
+    2.36
    ]
   ],
   "reseau_ip": [
    [
     "calcul_numerique / explication / se souvenir",
-    6.02
+    6.1
    ],
    [
     "table_routage / explication / appliquer",
-    5.09
+    5.21
    ],
    [
     "autre / explication / comprendre",
-    2.1
+    2.11
    ]
   ],
   "soc_architecture": [
    [
     "definir_notion / explication / se souvenir",
-    9.56
+    9.3
    ],
    [
     "justifier_choix / explication / évaluer",
-    3.64
+    3.62
    ],
    [
     "justifier_choix / explication / analyser",
-    3.53
+    3.58
    ]
   ],
   "securite_crypto": [
    [
     "expliquer / explication / évaluer",
-    5.82
+    5.69
    ],
    [
     "justifier_choix / explication / analyser",
-    3.68
+    3.72
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.68
+    2.64
    ]
   ],
   "web_http": [
    [
     "lire_sql / sql / appliquer",
-    3.08
-   ],
-   [
-    "ecrire_sql / sql / appliquer",
-    2.72
+    2.73
    ],
    [
     "justifier_choix / explication / analyser",
-    2.69
+    2.72
+   ],
+   [
+    "ecrire_sql / sql / appliquer",
+    2.63
    ]
   ],
   "donnees_tables": [
    [
     "definir_notion / explication / se souvenir",
-    4.42
+    3.63
    ],
    [
     "autre / explication / créer",
-    2.63
+    2.72
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.36
+    2.38
    ]
   ]
  },

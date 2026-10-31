@@ -29,9 +29,10 @@ def code_blocks(text: str) -> list[str]:
     blocks = re.findall(r"```(?:python|py)?\s*\n(.*?)```", text, re.S)
     if blocks:
         return blocks
-    if re.search(r"^\s*(def |class |for |while |return )", text, re.M):
-        return [text]
-    return []
+    # sans balises : on garde le texte à partir de la première ligne qui ressemble à du code
+    lines = text.splitlines()
+    start = next((i for i, l in enumerate(lines) if re.match(r"\s*(def |class |from \w+ import|import \w+)", l)), None)
+    return ["\n".join(lines[start:])] if start is not None else []
 
 
 def python_ok(code: str) -> bool | None:

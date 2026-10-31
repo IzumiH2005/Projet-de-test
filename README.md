@@ -28,7 +28,7 @@ Après dédoublonnage, le corpus compte :
 1. **Espace sémantique**. Questions et cours sont projetés dans un même espace TF-IDF, réduit par LSA (150 dimensions).
 2. **Rattachement au cours**. Chaque notion du programme est reliée à ses sections de cours. Le modèle mesure aussi la part de chaque notion dans le cours et dans les épreuves.
 3. **Archétypes de questions**. Un KMeans regroupe les questions selon leur forme et le début de leur consigne. Le nombre de groupes est choisi par silhouette.
-4. **Affinité notion × archétype**. Elle indique quelles formes de question vont avec quelle notion.
+4. **Affinité notion × archétype**. Elle indique quelles formes de question vont avec quelle notion. Les notions rares empruntent le profil de leur domaine (lissage bayésien hiérarchique).
 5. **Chaîne de Markov**. Elle apprend l'enchaînement des archétypes et des niveaux de Bloom dans un exercice (ouvertures, transitions, fermetures).
 6. **Graphe des notions**. Il repose sur la PMI des cooccurrences. On en tire les notions pivots (PageRank), les notions ponts (betweenness) et des blocs thématiques cachés (communautés).
 7. **Modèle de difficulté**. Un Gradient Boosting prédit la position d'une question dans l'exercice. L'importance par permutation montre ce qui rend une question « de fin d'exercice ».
@@ -72,3 +72,18 @@ python -m examgen.cli all --sujets 2 --par-notion 4   # ingest + analyse + rappo
 python -m examgen.cli write --backend api             # ou faire rédiger par des agents
 python -m examgen.cli validate                        # -> output/validation.json + output/questions.md
 ```
+
+## Résultats de la première génération (205 questions, 2 sujets complets + banque)
+
+| Contrôle | Score |
+|---|---|
+| Code Python des corrigés qui compile | 100 % |
+| SQL bien formé | 100 % |
+| Notion reconnue par le lexique du programme | 94 % |
+| Notion dans le top-3 du classifieur | 75 % |
+| Niveau de Bloom respecté (±1) | 75 % |
+| Type de tâche respecté | 68 % |
+| Quasi-copies d'annales | 1,5 % (3 questions) |
+| Courbe de difficulté (Spearman moyen) | +0,34 |
+
+Le classifieur reconnaît mal les notions rares dans les annales (sgbd, prog_dynamique, algo_simples, web_http). Il en a vu trop peu d'exemples pour bien les apprendre ; ce n'est pas un défaut des questions.

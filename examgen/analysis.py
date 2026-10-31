@@ -194,13 +194,20 @@ class Analyzer:
     # ------------------------------------------------------------------ 4. affinité notion x archétype
     def concept_archetype(self):
         k = self.km.n_clusters
-        M = np.full((len(F.CONCEPT_NAMES), k), 0.3)
         ci = {c: i for i, c in enumerate(F.CONCEPT_NAMES)}
+        C = np.zeros((len(F.CONCEPT_NAMES), k))
         for r in self.rows:
             for w, c in zip((1.0, 0.5), r["main"][:2]):
-                M[ci[c], r["arch"]] += w
-        P = M / M.sum(1, keepdims=True)
+                C[ci[c], r["arch"]] += w
         prior = np.bincount([r["arch"] for r in self.rows], minlength=k) / len(self.rows)
+        # Lissage hiérarchique (bayésien) : une notion rare emprunte le profil de son domaine,
+        # lui-même lissé vers le profil global. Évite qu'une notion vue 4 fois reçoive des formes au hasard.
+        dom = {d: np.zeros(k) for d, _ in F.CONCEPTS.values()}
+        for c, (d, _) in F.CONCEPTS.items():
+            dom[d] += C[ci[c]]
+        dom = {d: (v + 10 * prior) / (v.sum() + 10) for d, v in dom.items()}
+        M = np.array([C[ci[c]] + 6 * dom[F.CONCEPTS[c][0]] for c in F.CONCEPT_NAMES])
+        P = M / M.sum(1, keepdims=True)
         lift = P / (prior + 1e-9)
         self.art["concept_arch"] = P.tolist()
         self.report["affinite_notion_archetype"] = {
