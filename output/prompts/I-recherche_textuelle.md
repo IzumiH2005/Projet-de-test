@@ -25,35 +25,51 @@ Extraits du cours :
 > Voici un exemple. Soit le texte suivant :
 > "Les sanglots longs des violons de l'automne blessent mon coeur d'une langueur monotone. Tout suffocant et
 > blême, qu
-> [Structures de données > Dictionnaires > Exercices sur les dictionnaires]
-> On considère la liste suivante :
+> [Algorithmique > Recherche textuelle > Vers Boyer-Moore-Horspool]
+> L'idée est d'améliorer le code précédent (celui on parcourt le motif à l'envers) en **sautant** directement au prochain endroit potentiellement valide. 
 > 
->     ```lst = ['5717', '1133', '5545', '4031', '6398', '2734', '3070', '1346', '7849', '7288', '7587', '6217', '8240', '5733', '6466', '7972', '7341', '6616', '5061', '2441', '2571', '4496', '4831', '5395', '8584', '3033', '6266', '2452', '6909', '3021', '5404', '3799', '5053', '8096', '2488', '8519', '6896', '7300', '5914', '7464', '5068', '1386', '9898', '8313', '1072', '1441', '7333', '5691', '6987', '5255']``` 
+> Pour cela on regarde le caractère ```X```  du texte sur lequel on s'est arrêté (car ```X``` n'était pas égal au caractère de rang équivalent dans le motif):
 > 
->     Quel est le **chiffre** qui revient le plus fréquemment dans cette liste ?
+> - si ```X``` n'est pas dans le motif, il est inutile de se déplacer "de 1" : on retomberait tout de suite sur ```X```, c'est du temps perdu. On se décale donc juste assez pour dépasser ```X```.
+> - si ```X``` est dans le motif (sauf à la dernière place du motif !), on va regarder la place de la dernière occurence de ```X``` dans le motif et de déplacer de ce nombre, afin de faire coïncider le ```X``` du motif et le ```X``` du texte.
 > 
->      
->     {{
->     correction(True,
->     """
-> \"Correction\" 
->         ```python linenums='1'
->         lst = ['5717', '1133', '5545', '4031', '6398', '2734', '3070', '1346', '7849', '7288', '7587', '6217', '8240', '5733', '6466', '7972', '7341', '6616', '5061', '2441', '2571', '4496', '4831', '5395', '8584', '3033', '6266', '2452', '6909', '3021', '5404', '3799', '5053',
+>     
+> 
+>     _Vous pouvez contrôler le déroulement de l'animation en la survolant avec la souris._
+> 
+> On dispose de la fonction ```dico_lettres``` :
+> ```pytho
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « d. ligne 5 : compléter l'adresse IP décimale du réseau 1.  Adresse IP (V4) du PC3 Ligne 1 172 150 4 30 »
-    exemple réel (autre notion) : « 1. (a) Onconsidèrelaﬁle Fsuivante: déﬁlementenﬁlement "rouge""vert""jaune""rouge""jaune" Quel sera le contenu de la pile P et de la ﬁle F après l'exécution du programme Python suivant? 1 P = creer_pile_vide () 2 while not ( est_vide ( F )): »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 7. Écrire une méthode generer_demineur qui permet de mettre à jour l'attribut grille_demineur pour que chaque cellule ne contenant pas de mine, contienne le nombre de mines qui lui sont voisines.  Par exemple :  >>> demineur_nsi = demineur(6, 6, 0.278) >>> d »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « 13. Le chemin emprunté par un paquet de données allant de l'or dinateur P1 à l'ordinateur P2 est P1-S1- R1-R2-R3-R8-R9-S2-P2. 1 »
+    exemple réel (autre notion) : « 11. Dans cette question on considère que les tables de la base de données contiennent exactement ce qui est présenté dans les extraits en début d'exercice. On exécute la requête SQL : DELETE FROM produit WHERE ref_produit = 89363;. Celle -c »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « b. Le groupe est bien enregistré dans la base de données. Écrire une requête permettant d'afficher tous les albums du groupe Black Eyed Peas déjà présents dans la base de données.  La requête doit permettre d'obtenir un résultat semblable au tableau ci-dessous »
 
-- slot 2 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C4 : Expliquer ou justifier un fonctionnement — L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.
-    gabarit : Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].
-    exemple réel (autre notion) : « a. Expliquer quel(s) problème(s) peuvent apparaître si on décide d'ajouter uniquement un attribut tarif_horaire à la relation prestations. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « 6. Recopier et compléter les lignes 3, 4, 5 et 7 de la fonction eff_dico suivante qui prend en paramètre une liste lst et qui renvoie un dictionnaire dont les clés sont les éléments de lst et les valeurs les effectifs de chacun de ces éléme »
+    exemple réel (autre notion) : « 3. Recopier et compléter les lignes 3, 5 et 6 de la fonction score. »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 1. On insère la valeur 25 dans l'arbre, dans un nouveau nœud nommé nœud11. Recopier l'arbre binaire de recherche étudié et placer la valeur 25 sur cet arbre en coloriant en rouge le chemin parcouru. Préciser sous quel nœud la valeur 25 sera insérée et si elle  »
+
+- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C3 : Lire ou compléter une classe Python fournie — L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.
+    gabarit : On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].
+    exemple réel (autre notion) : « 8. Écrire une fonction meilleur_priorite qui renvoie None s'il n'y a plus de processus et la priorité de l'un des processus les plus prioritaires de la liste des files d'attente dans le cas contraire. 1 def meilleur_priorite(liste_files): 2 »
+    exemple réel (autre notion) : « b. La fonction pgsp ci-dessous permet de déterminer la plus grande des sommes obtenues en additionnant les éléments de toutes les sous-séquences possibles du tableau lst. def pgsp(lst):  n = len(lst)  somme_max = lst[0]  for i in range(n):  »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 11. Recopier et compléter les lignes 6, 7, 13, 14 et 16 du code ci-dessous de la méthode mise_a_jour permettant de compléter automatiquement les matchs du tournoi en les mettant à jour à partir des résultats des matchs des tours précédents.  1 def mise_a_jour( »
+
+- slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « Question 4 Proposer la structure d'une table coordonnees dans laquelle on pourra indiquer, pour chaque élève, son adresse, son code postal, sa ville, son adresse mail. Préciser la clef primaire et/ou la clé étrangère en vue de la mise en re »
     détail du cours à évaluer (Recherche textuelle) : « Re-écrire l'algorithme précédent en s'arrêtant dès qu'une occurrence de »
 
 Le champ id vaut « I-recherche_textuelle ».

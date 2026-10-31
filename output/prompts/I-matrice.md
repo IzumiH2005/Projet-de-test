@@ -10,24 +10,6 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Structures de données > Les graphes > Les graphes]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 20 - Les graphes
-> Objectifs :
-> ▷ Modéliser des situations sous forme de graphes.
-> ▷ Écrire les implémentations d'un graphe : matrice d'adjacence, liste de successeurs/prédécesseurs.
-> ▷ Passer d'une représentation à une autre.
-> 1 Introduction
-> Le concept de graphe permet de résoudre de nombreux problèmes en mathématiques comme en informatique.
-> C'est un outil de représentation très courant, et nous l'avons déjà rencontré à plusieurs reprises, en particulier
-> lors de l'étude de réseaux tels que :
-> — les réseaux informatiques,
-> — les réseaux sociaux,
-> — les réseaux de transport
-> Une multitude de problèmes concrets d'origines très diverses peuvent donner lieu à des modélisations par des
-> graphes : c'est donc une structure essentielle en sciences, qui requiert un formalisme mathématique particulier
-> que nous allons découvrir.
-> T. Rahobisoa 1/11 SD08 - Les gr
 > [Structures de données > Graphes > 2.1 Représentation par matrice d'adjacence]
 > - On classe les sommets (en les numérotant, ou par ordre alphabétique).
 >     - on représente les arêtes (ou les arcs) dans une matrice, c'est-à-dire un tableau à deux dimensions où on inscrit un 1 en ligne `i` et colonne `j` si les sommets de rang `i` et de rang `j` sont **voisins** (dits aussi *adjacents*).
@@ -41,37 +23,61 @@ Extraits du cours :
 > #### 2.1.2 Graphe orienté
 > 
 > Comme le graphe est orienté, la matrice n'est pas forcément symétrique (il faudrait que tous les liens soient réciproques pour qu'elle le soi
+> [Programmation > Programmation Orientee Objet > Exercices]
+> **Q1.** Écrire une classe ```Eleve``` qui contiendra les attributs ```nom```, ```classe``` et ```note```.
+>     
+> 
+>     **Q2.** Instancier trois élèves de cette classe.
+>     
+> 
+>     **Q3.**  Écrire une fonction ```compare``` qui prend en paramètres deux élèves ```eleve1``` et ```eleve2``` qui renvoie le nom de l'élève ayant la meilleure note (on ne traitera pas à part le cas d'égalité).
+> 
+>         ```python
+>         >>> riri = Eleve("Henri", "TG2", 12)
+>         >>> fifi = Eleve("Philippe", "TG6", 15)
+>         >>> loulou = Eleve("Louis", "TG1", 8)
+>         >>> compare(riri, fifi)
+>         'Philippe'
+>         ```
+> 
+>     
+>     Écrire une classe ```TriangleRect``` qui contiendra les attributs ```cote1```, ```cote2``` et ```hypotenuse```.
+> 
+>     La méthode constructeur ne prendra en paramètres que ```cote1``` et ```cote2```, l'attribut ```hypotenuse``` se calculera automatiquement.
+> 
+>         ```python
+>         >>>
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
-    manière de demander C10 : Écrire ou corriger le code — L'élève écrit, recopie ou modifie le code d'une méthode ou fonction nommée, parfois pour corriger un comportement fautif ; on évalue l'implémentation et la gestion d'un cas d'erreur.
-    gabarit : Écrire le code de la [méthode/fonction] [nom] qui [comportement]. / Modifier le code de [nom] pour que [comportement corrigé].
-    exemple réel (autre notion) : « 10. Écrire le code de la méthode ajouter_voisin. »
-    exemple réel (autre notion) : « 5. Écrire le code de la méthode est_resultat pour la classe Feuille_resultat. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 3. Écrire une requête SQL permett ant de récupérer le libellé de s articles de la 2 1 - N S I J 2 P O 1 7 / 1 5 commande 1345. »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C3 : Lire ou compléter une classe Python fournie — L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.
+    gabarit : On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].
+    exemple réel (autre notion) : « 11. Compléter le script de cette fonction recherche_mot en recopiant les lignes 5, 6, 15, 16, 18 sur votre copie. 1 def recherche_mot(mdp): 2 mot = transforme(mdp) 3 trouve = [] 4 i = 0 5 while ... : 6 if ... : # si le caractère est un chif »
+    exemple réel (autre notion) : « 9. La fonction fournit le coloriage : {1: 'Vert', 2: 'Bleu', 3: 'Rouge', 4: 'Vert', 5: 'Rouge', 6: 'Bleu', 7: 'Bleu', 8: 'Bleu', 9: 'Rouge'} »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 12. Recopier et compléter la fonction plus_court donnée ci-dessous. La fonction plus_court prend pour paramètres un graphe G, un sommet de départ depart et un sommet d'arrivée arrivee ; elle renvoie un des chemins les plus courts sous la forme d'une liste de s »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « 7. Recopier et compléter le code de la fonction ajouter_file_prio.  1 def ajouter_file_prio(f, t, p):  2 f_aux = File()  3 while ...:  4 ...  5 ...enfiler(...)  6 while not ...:  7 ...  8 while not ...:  9 ... »
-    exemple réel (autre notion) : « 14. Recopier et compléter sur votre copie le code python de la méthode minage_bloc. 1 def minage_bloc(self): 2 """modifie le nonce d'un bloc pour que son hash commence par '00' en énumérant tous les entiers naturels en partant de 0.""" 3 se »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 6. Recopier et compléter la fonction semi_marathon. »
+- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : milieu d'exercice
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « 2. Proposer le schéma relationnel de la table Type en soulignant la clé primaire. »
+    exemple réel (autre notion) : « 11. Écrire le schéma relationnel des deux nouvelles tables en indiquant clairement les clés primaires et les clés étrangères. »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « 5. Expliquer succinctement le principe de l'algorithme de Boyer-Moore qui permet d'implémenter cette fonction recherche. Une idée est d'écrire une fonction qui décrète qu'un programme s'arrête s'il ne contient pas de while et ne s'arrête pas s'il en contient u »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
-    manière de demander C24 : Compléter une fonction à trous — L'élève recopie et complète une fonction ou une table entière (parfois à partir d'une ligne donnée) ; on évalue l'achèvement d'un code partiellement fourni.
-    gabarit : Recopier et compléter la fonction [nom] (à partir de la ligne [n]) qui [comportement].
-    exemple réel (autre notion) : « 3. La variable jeu_caracteres de la fonction gen_mdp est une liste contenant tous les caractères autorisés pour fabriquer un nouveau mot de passe. Recopier et compléter la ligne 13 du code de la fonction gen_mdp, puis écrire les autres lign »
-    exemple réel (autre notion) : « b. Recopier et compléter la ligne 7 du code de la fonction ins ci-dessous qui prend en paramètres une valeur v et un arbre binaire de recherche abr et qui renvoie l'arbre obtenu suite à l'insertion de la valeur v dans l'arbre abr. Les ligne »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « a) Recopier et compléter l'instruction Python suivante permettant de créer la liste d'attente initiale des processus donnés dans le tableau précédent (le processus PID 11 est à l'indice 0 de la liste d'attente) : liste_attente = [Processus(...,...), .......... »
+    manière de demander C11 : Analyser une ligne de code précise — L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.
+    gabarit : Expliquer le rôle de la ligne [n] de la fonction [nom].
+    exemple réel (autre notion) : « b. ligne 3 : compléter le masque de sous réseau en notation binaire ; »
+    exemple réel (autre notion) : « 1. Cette partie comprend plusieurs questions générales : »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 3. Expliquer pourquoi l'exécution de la fonction lcs_force_brute risque de prendre beaucoup de temps selon la longueur des listes passées en paramètre. Justifier. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C4 : Expliquer ou justifier un fonctionnement — L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.
-    gabarit : Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].
-    exemple réel (autre notion) : « b. Expliquer comment construire un arbre binaire de hauteur h quelconque ayant h+1 nœuds. »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « b. Indiquer la route entre les routeurs G et E avec le protocole OSPF. »
     détail du cours à évaluer (Cryptographie) : « chiffrement par bloc de 128 bits, répartis dans une matrice de 16 octets (matrice carrée de taille 4). »
 
 Le champ id vaut « I-matrice ».

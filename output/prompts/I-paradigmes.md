@@ -10,15 +10,33 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Algorithmique > Diviser pour regner > 1. Retour sur l'algorithme de dichotomie]
-> Nous avons vu en classe de Première l'algorithme de **dichotomie** (du grec *dikhotomia*, « division en deux parties »).
+> [Algorithmique > Diviser pour regner > 1.1 Version impérative]
+> {#
 > 
-> Notre but ici est la recherche de la présence (ou non) d'un élément dans une liste **triée**.  
-> Notre fonction renverra donc un booléen.
+>     ```python linenums='1'
+>     def recherche_dichotomique(tab, val) :
+>         '''
+>         renvoie True ou False suivant la présence de la valeur val dans le tableau trié tab.
+>         '''
+>         ...
+>     ```
+> #}
 > 
-> La recherche *naïve* (élément par élément) est naturellement de complexité linéaire. Nous allons voir que la méthode dichotomique est plus efficace.
+>     ```python linenums='1'
+>     def recherche_dichotomique(tab, val) :
+>         '''
+>         renvoie True ou False suivant la présence de la valeur val dans le tableau trié tab.
+>         '''
+>         i_debut = 0
+>         i_fin = len(tab) - 1
+>         while i_debut >> tab = [1, 5, 7, 9, 12, 13]
+> >>> recherche_dichotomique(tab, 12)
+> True
+> >>> recherche_dichotomique(tab, 17)
+> False
+> ```
 > 
-> :arrow_right: Activité d'introduction
+> À chaque tour de la boucle ```while```, la taille de la liste est divisée par 2. Ceci confère à cet algorithme une **complexité logarithmique** (bien meilleure qu'une complexité linéaire).
 > [Programmation > Recursivite > 4.2 Comparaison des performances]
 > Écrire une fonction ```fibo_imperatif(n)``` qui calcule de façon directe (*impérative*) le n-ième terme de la suite de Fibonacci. On pourra par exemple utiliser un dictionnaire.
 > 
@@ -60,34 +78,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « 8. Écrire une fonction meilleur_priorite qui renvoie None s'il n'y a plus de processus et la priorité de l'un des processus les plus prioritaires de la liste des files d'attente dans le cas contraire. 1 def meilleur_priorite(liste_files): 2 »
-    exemple réel (autre notion) : « 7. while i1 < n1 or i2 < n2 : »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 3. Expliquer pourquoi l'exécution de la fonction lcs_force_brute risque de prendre beaucoup de temps selon la longueur des listes passées en paramètre. Justifier. »
+- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « f ) La fonction récursive maximum ci-dessous prend en paramètre un arbre binaire de recherche abr et renvoie la valeur maximale de ses nœuds. Recopier et compléter les lignes 5 et 7 de cette fonction. 1 def maximum(abr): 2 if abr is None: 3 »
+    exemple réel (autre notion) : « 2. Recopier et compléter les lignes 8 à 10 du code de la fonction gen_mdp permettant d'initialiser les trois variables minuscules, majuscules et caracteres_speciaux. On utilisera obligatoirement la syntaxe de tableaux donnés en compréhensio »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 5. Écrire une requête permettant d'ajouter ce champignon avec l'id 56 dans la table champignon. »
 
 - slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 3. Écrire en Python une fonction notes_paquet qui prend en paramètre un paquet de copies p et une correction corr et qui renvoie un dictionnaire dont les clés sont les noms des candidats du paquet p et les valeurs sont leurs notes selon la  »
-    exemple réel (autre notion) : « 3. On souhaite créer une fonctionmeilleur_concurrent qui prend en paramètre une listeL de concurrents et qui renvoie l'objetConcurrent correspondant au concurrent le plus rapide. On suppose que la liste est non vide. Recopier et compléter l »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 8. Proposer une requête qui renvoie l es prénoms, par ordre alphabétique, des enfants inscrits pour le parent dont le numéro de téléphone est 3619861122. »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 1. Expliquer le choix de num_dossard comme clé primaire pour la relation coureur. »
+    exemple réel (autre notion) : « 8. Écrire le code de la fonction nb_amis(d, s) qui prend en paramètres un dictionnaire d'adjacence d et un nom de sommet s et qui renvoie le nombre d'amis du nom de sommet s. On suppose que s est bien dans d.  Par exemple : >>> nb_amis(grap »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 7. Écrire une fonction ordre_faro qui prend en paramètres un entier n pair et qui renvoie le plus petit nombre de répétitions du mélange faro pour qu'un jeu de n cartes soit remis dans son ordre initial. »
 
-- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « a. En utilisant l'extrait de la table de routage de R1, vers quel routeur R1 envoie- t-il ce paquet : R2 ou R3 ? Justifier. »
-    exemple réel (autre notion) : « 10. Indiquer de quel type de parcours il s'agit. EN_NOzUzMD2M0ODAczOT5UzMmTYxMj2A2MDEO2OTiQyNQTgx »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « 10. Indiquer quel type de parcours donnerait, dans cet ordre : IA, bot, programmation, algo, chatbot, informatique, python. »
+- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C18 : Tracer une boucle Python donnée — L'élève suit l'exécution d'un code avec boucles for/range pour en déduire une valeur ou un affichage. On évalue la trace d'exécution.
+    gabarit : Déterminer la valeur de [variable] à l'issue des instructions suivantes : [code].
+    exemple réel (autre notion) : « b. Représenter la pile p après l'exécution du code suivant. empiler(p, depiler(p)) »
+    exemple réel (autre notion) : « 8. else: »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 16. Proposer une version corrigée de la fonction nettoie qui évite le déclenchement de l'erreur décrite. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « 2. Donner la liste des six chemins possibles que peut emprunter ce paquet. »
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 1. Alice s'inscrit sur un nouveau site lui demandant de créer un mot de passe de 8 caractères minimum, composé uniquement de majuscules et de minuscules. Écrire un appel à la fonction gen_mdp qui permette de répondre aux exigences de ce sit »
     détail du cours à évaluer (Recursivite) : « Écrire une fonction _imperatif(n) qui calcule de façon directe (*impérative*) le n-ième terme de la suite de Fibonacci. »
 
 Le champ id vaut « I-paradigmes ».

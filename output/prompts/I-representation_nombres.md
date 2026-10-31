@@ -47,33 +47,33 @@ Extraits du cours :
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 3. Recopier et compléter les lignes 4, 7 et 8 du code de la fonction lancer_possible ci-dessous. Elle prend en argument un tableau etat représentant un état et un entier lancer , et renvoie True si le lancer est possible, et False sinon.  1 »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 3. Donner un exemple d'attribut de la table enfant qui suit une contrainte de référence. »
+    exemple réel (autre notion) : « 1. Donner une adresse IP possible pour la machine de Charlie afin qu'elle puisse communiquer avec celles d'Alice et Bob dans le réseau local. Justifier votre réponse en donnant toutes les conditions à respecter dans le choix de cette adress »
+    support S10 : Prose riche en virgules — Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.
+    exemple de support (autre notion) : « 10. Instancier une variable client01 de la classe Client représentant un client se nommant CODD Edgar habitant au 28 rue des Capucines à Lyon, France, ayant pour numéro de téléphone le 0555555555.  On considère un tuple constitué de trois objets, respectivemen »
+
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « 3. Recopier et compléter les lignes 1 4 et 16 du code de la fonction nb_occurrences, donné ci-après, qui prend en paramètres une liste tab et un entier i et qui renvoie un dictionnaire qui associe, à chaque élément son nombre d'occurrences. »
     exemple réel (autre notion) : « 9. Copier et compléter les lignes 6 et 7 de cette fonction. »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 17. Recopier et compléter la ligne 35 du code de la fonction rechercher. »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 6. Recopier et compléter les lignes 4, 6 et 7 de la fonction longueur qui prend en paramètre une file f et qui renvoie le nombre d'éléments qu'elle contient. »
 
-- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C4 : Expliquer ou justifier un fonctionnement — L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.
-    gabarit : Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].
-    exemple réel (autre notion) : « 10. Expliquer en quoi la fonction inserer est une fonction récursive. »
-    exemple réel (autre notion) : « 3. Expliquer ce que fait la requête SQL suivante.   UPDATE Piece  SET langue = "Anglais"  WHERE langue = "Américain" OR langue = "Britannique"; »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 3. Déterminer le nombre de comparaisons effectuées par l'appel effectif(1, [1, 4, 1, 6, 1, 7, 2, 1, 1]). »
-
-- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C15 : Proposer une solution ou modification — L'élève propose une solution ouverte (parcours, fonction, modification de schéma, adresses, tests) ; on évalue la capacité à concevoir une réponse valide parmi plusieurs possibles.
-    gabarit : Proposer [un/une] [solution/modification/test] permettant de [objectif] en respectant [contrainte].
-    exemple réel (autre notion) : « 11. Proposer une modification de la méthode jouer à partir de la ligne 8 afin de prendre en compte cette optimisation.  EN_NOzUzMD2M0ODAczOT5UzMmTYxMj2A2MDEO2OTiQyNQTgx »
-    exemple réel (autre notion) : « 6. On peut proposer ce nouvel algorithme : − Etape 1 : la personne déplace l'annonce vers son répertoire p ersonnel ; − Etape 2 : la personne ouvre, modiﬁe et enregistre le ﬁchier da ns son répertoire personnel ; − Etape 3 : le ﬁchier modiﬁ »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 5. Écrire une requête permettant d'ajouter ce champignon avec l'id 56 dans la table champignon. »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 11. Écrire un code pour la fonction mot_present(dict_mots, mot) qui a pour paramètres dict_mots , un dictionnaire qui associe à chaque clé entière possible une liste de mots , et mot, le mot à rechercher dans dict_mots, et qui renvoie True  »
+    exemple réel (autre notion) : « 5. Écrire une fonction livre_note_maxi qui prend en paramètre un dictionnaire dico (de même structure que dico_livres) et qui renvoie la liste des titres des livres ayant obtenu la meilleure note sous la forme d'une liste Python. »
+    support S5 : Besoin formulé pour requête SQL — Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.
+    exemple de support (autre notion) : « 10. Expliquer quelle modification est à effectuer pour apporter une solution au problème constaté à la question précédente. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C19 : Déterminer un chemin ou élément — Questions de détermination (chemin d'un paquet, répertoire, sous-séquence, protocole) sans geste unique, souvent en réseau ; on évalue une déduction à partir du contexte.
-    gabarit : Déterminer [le chemin/l'élément] [de A à B / vérifiant la condition] dans [situation].
-    exemple réel (autre notion) : « 4. La liaison entre R4 et R6 est rétablie. Par ailleur s, on décide d'utiliser le protocole OSPF (distance liée au coût  minimal des liaisons) pour effectuer le routage. L e coût  des liaisons entre les routeurs est conditionné par la ban »
-    détail du cours à évaluer (Protocoles de routage) : « Par exemple, si le débit d est exprimé en bits/s, on peut calculer le coût de chaque liaison par la formule : »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 9. Entre le chiffrement symétrique ou asymétrique, donner en justifiant lequel des deux Alice et Bob doivent préférer utiliser pour éviter que le pirate ne puisse connaître le contenu de leurs échanges. »
+    détail du cours à évaluer (Protocoles de routage) : « La notation X1.X2.X3.X4/n signifie que les n premiers bits de poids forts de l’adresse IP représentent la partie " réseau ", les bits suivants représentent la partie " hôte ". »
 
 Le champ id vaut « I-representation_nombres ».

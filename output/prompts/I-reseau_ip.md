@@ -10,25 +10,6 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Architecture, OS et réseaux > Rappels reseaux > Rappels reseaux]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 14 - Les réseaux (rappels)
-> Objectifs :
-> ▷ Rappels de la classe de Première sur les réseaux
-> ▷ Rappels de la classe de Première sur fonctionnement du protocole TCP/IP
-> 1 Introduction
-> Onappelle réseauinformatique ,unensembled'équipementsinformatiquesconnectésentreeuxpardesliaisons
-> physiques.
-> Ces machines distantes échangent des informations sous forme de données binaires.
-> Pourquoi utilise-t-on des réseaux?
-> ▷ pour partager des données et des applications;
-> ▷ pour partager l'utilisation des périphériques;
-> ▷ pour travailler sur une même base de données, un même document ...,etc.
-> 2 Les composants d'un réseau
-> Les différents ordinateurs et serveurs sont reliés entre eux comme sur le dessin ci-dessous :
-> Un réseau localpeut être constitué des éléments suivants :
-> ▷ le câble réseau: il peut être en cuivre (appeléRJ45) ou enfibre optique.
-> ▷ lacarte réseau
 > [Architecture, OS et réseaux > Protocoles de routage > Introduction]
 > Dans un réseau quelconque, le coût de chaque liaison se calcule par la formule :
 > 
@@ -67,37 +48,54 @@ Extraits du cours :
 >     
 > 
 >     Le protocole RIP permet de construire les tables de routage des différents routeurs, en indiquant
+> [Architecture, OS et réseaux > Routage > Routage]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 15 - Le routage
+> Objectifs :
+> ▷ Connaître les principaux protocoles de routage
+> ▷ Identifier, suivant le protocole de routage utilisé (RIP ou OSPF), la route empruntée par un paquet.
+> 1 Introduction
+> Exemple
+> Thomas veut envoyer une lettre de remerciement à son amiPacôme Toullemonde, habitant à Toulouse
+> (en France), qui lui a prété un manuel de NSI.
+> 1. Il rédige donc un courrier, le place dans une enveloppe sur laquelle il inscrit le nom, le prénom, le
+> numéro, la rue, le code postal, la ville et enfin le pays.
+> 2. Puis il dépose le tout à la poste deSerangoon à Singapour.
+> 3. L'agent de la poste ne connaît pasPacôme, mais il sait que la lettre doit aller en France.
+> 4. Une fois arrivée en France, l'agent de poste Français ne connaît toujours pasPacôme, mais il sait
+> qu'il doit envoyer la lettre vers un nouveau centre de tri, celui de Toulouse.
+> 5. A
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C15 : Proposer une solution ou modification — L'élève propose une solution ouverte (parcours, fonction, modification de schéma, adresses, tests) ; on évalue la capacité à concevoir une réponse valide parmi plusieurs possibles.
-    gabarit : Proposer [un/une] [solution/modification/test] permettant de [objectif] en respectant [contrainte].
-    exemple réel (autre notion) : « 7. Proposer un test faisant intervenir une liste aplatie de quatre éléments et comptant deux inversions permettant de vérifier que la fonction compte_inversions renvoie le résultat attendu. EN_NOzUzMD2M0ODAczOT4UzMmTYxMj1A2MDEO2OTtQ0MDTcx »
-    exemple réel (autre notion) : « c. Indiquer, pour la relation reservation, la ou les clés étrangères (ou secondaires) et en indiquer l'utilité. »
-    support S7 : Consigne brève sans support — Question courte et autonome, sans matériau joint notable ; l'élève répond à partir de ses connaissances ou du contexte de l'exercice.
-    exemple de support (autre notion) : « 2. Proposer une clé primaire pour la table reservation. »
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 3. Écrire les lignes de code permettant d'obtenir la réponse à la question "Bonjour, comment vas-tu ?" EN_NOjczNT7QzNjAc0ND7UzMsTYxMj0A2NTAAwMDdAxNMjcx »
+    exemple réel (autre notion) : « 1. Parmi les schémas suivants, lequel représente le mieux une architecture de Von Neumann ? a)   b) »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 2. On appelle longueur d'une ﬁle le nombre d'éléments qu'elle contient. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C18 : Programmer sur un tableau d'entiers — Exercices pratiques où l'élève programme une fonction parcourant un tableau de nombres (recherche, tri, vérification) avec exemples ; on évalue l'algorithmique de base et le passage des tests.
-    gabarit : Écrire une fonction [nom] qui prend en paramètre un tableau [tab] de [type] et qui renvoie [résultat]. Exemples : [assertions].
-    exemple réel (autre notion) : « 9. Compléter l'instruction suivante afin de mettre à jour dans tournoi la première joueuse de la première demi-finale comme étant gauff.  tournoi. ... = gauff »
-    exemple réel (autre notion) : « 2) Écrire en langage Python une fonction calcul_parite prenant en paramètre une liste Liste_bits constituée d'entiers valant 0 ou 1 et retournant l'entier 1 ou 0 correspondant à son bit de parité.  Exemple : >>> Liste_bits = [0, 1, 0, 0, 1, »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 1) a. Indiquer les bits de parité associés aux représentations binaires des deux entiers naturels 9 et 16 écrits en base 10. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C11 : Analyser une ligne de code précise — L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.
+    gabarit : Expliquer le rôle de la ligne [n] de la fonction [nom].
+    exemple réel (autre notion) : « 11. Recopier et compléter la ligne 3 du code ci-après de la fonction inverser qui modifie le tableau passé en paramètre en inversant l'ordre de ses éléments.  1 def inverser(tab): 2 for i in range(len(tab) // 2): 3 permuter(...) »
+    exemple réel (autre notion) : « 13. Proposer une correction du code pour que cette erreur ne se produise plus. »
+    support S6 : Prose technique avec valeurs numériques — Texte contenant des nombres (masques, suffixes, tables de vérité, scores). Mélange réseaux, booléens et données sans forme commune nette.
+    exemple de support (autre notion) : « 6. Expliquer l'intérêt d'utiliser trois tables Chanson, Album et Groupe au lieu de regrouper toutes les informations dans une seule table. »
 
-- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C12 : Exploiter l'élément fourni ci-dessous — La consigne renvoie à un document joint (commandes, circuit, requêtes numérotées, classe, code) à sélectionner, compléter ou utiliser ; on évalue la lecture attentive du support plus qu'une notion précise.
-    gabarit : Parmi les [éléments] ci-dessous, [sélectionner/compléter/utiliser] ceux qui permettent de [objectif].
-    exemple réel (autre notion) : « 2. On considère la fonction voisine ci-dessous, écrite en langage Python, qui prend en paramètres deux cases données sous forme de couple. def voisine(case1, case2) :  l1, c1 = case1  l2, c2 = case2  # on vous rappelle que 2 signifie puissa »
-    exemple réel (autre notion) : « 2. On dispose de la pile suivante nommée p1 :  On rappelle ci-dessous les primitives de la structure de pile (LIFO : Last In First out) : Fonction Description pile_vide() Créé et renvoie une nouvelle pile vide empiler(p, e) Place l'élément  »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « 4. Onveutreprésenterschématiquementleréseauderouteursàpartirdestablesderoutage. Recopiersurlacopieleschémaci-dessous: A B C D E F Ens'appuyantsurlestablesderoutage,tracerlesliaisonsentrelesrouteurs. »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C15 : Recopier et compléter un élément — L'élève recopie puis complète une fonction, un résultat ou une table partiellement donnés. On évalue la capacité à combler les trous correctement.
+    gabarit : Recopier et compléter [la fonction|le tableau] [nom] [donné ci-dessous].
+    exemple réel (autre notion) : « 9. Recopier et compléter le retour de la fonction coloration appliquée au graphe G donné plus haut.  {1: 'Vert', 2: ..., ...} »
+    exemple réel (autre notion) : « a. Recopier et compléter l'arbre ci-dessous pour qu'il soit magique. »
+    support S11 : Texte contenant des tirets — Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.
+    exemple de support (autre notion) : « c. Recopier et compléter l'algorithme ci-dessus en y i nsérant au bon endroit la ligne contenant l'instruction d'affichage pour que cet algorithme corresponde à un parcours en profondeur préfixe. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C3 : Questions de raisonnement hétérogènes — Mélange de consignes (dessiner un graphe, comparer, justifier, lister des dépendances) liées par des tournures pluriel génériques ; le point commun est seulement un raisonnement contextualisé sur une situation.
-    gabarit : En étudiant [situation/données], [donner/comparer/justifier] [élément demandé]. Justifier la réponse.
-    exemple réel (autre notion) : « 2. À l'aide des extraits de tables, détailler un achat d'Emile Pasteur en précisant : – la date de son achat ; – le ou les article(s) acheté(s) ; – si c'est le cas, le taux de remise dont il a bénéficié. Un nouveau client doit être entré da »
-    détail du cours à évaluer (Rappels reseaux) : « Ainsi, on fera une association entre une adresse IP et un masque pour savoir dans cette adresse IP quelle est la partie réseau et quelle est la partie machine de l'adresse. »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 2. Donner la taille maximale d'un arbre binaire de hauteur 10 dont tous les nœuds ont une valeur. »
+    détail du cours à évaluer (Protocoles de routage) : « Toutes les adresses des machines connectées à un réseau local ont la même partie réseau. »
 
 Le champ id vaut « I-reseau_ip ».

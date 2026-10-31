@@ -10,69 +10,76 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Programmation > Programmation objet > Programmation objet]
+> [Programmation > Pratiques de programmation > 4.2 Revoilà les ```assert```]
+> Utiliser des ```assert``` permet d'écrire très simplement les tests précédents.
+> 
+> Reprenons notre fonction ```valeur_absolue()```. Sa fonction test  ```test_valeur_absolue()``` peut s'écrire :
+> 
+> ```python
+> def test_valeur_absolue():
+>     assert valeur_absolue(-3) == 3
+>     assert valeur_absolue(0) == 0
+>     assert valeur_absolue(7) == 7
+> 
+> ```
+> 
+> **Exercice :**  
+> Écrire une fonction ```maxi(liste)``` qui renvoie le plus grand élément de la liste ```liste``` passée en paramètre (de préférence sans utiliser la fonction ```max()``` ...).  
+> Vous écrirez **d'abord** une fonction ```test_maxi()``` avant d'écrire la fonction ```maxi(liste)```
+> [Structures de données > Structures donnees > Structures donnees]
 > Terminale - Spécialité NSI IFS Singapour
-> Chapitre 3 - Programmation orientée objet
+> Chapitre 4 - Les structures de données
 > Objectifs :
-> ▷ Connaître le vocabulaire de la programmation objet : classes, attributs, méthodes, objets.
-> ▷ Ecrire la définition d'une classe
-> ▷ Accéder aux attributs et méthodes d'une classe.
+> ▷ Remettre en mémoire les structures de données vues enPremière
+> ▷ Montrer qu'il existe plusieurs implémentations possibles
 > 1 Introduction
-> Jusqu'à présent nous avons utilisé des objets dont le type est prédéfini :int, float, bool, str, list,
-> tuple, dict. Sans le savoir, nous avons découvert les concepts de laprogrammation orientée objet
-> ou POO. Ainsi, en classe de Première, nous avions déjà appris à utiliser des méthodes associées à ces
-> types, comme :
-> ma_liste.append(valeur)
-> Comme de nombreux autres langages tels queJava ou C++, Python est un langage orienté objet .
-> On peut donc dire que tout y estobjet. Une variable de typeint est en fait un objet de typeint donc
-> construit à partir de la classeint. Idem pour lesfloat et str. Mais également
-> [Structures de données > Les listes > Les listes]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 5 - Les listes
-> Objectifs :
-> ▷ Distinguer des structures par le jeu des méthodes qui les caractérisent.
-> ▷ Choisir une structure de données adaptée à la situation à modéliser.
-> ▷ Distinguer la recherche d'une valeur dans une liste et dans un dictionnaire.
-> 1 Introduction
-> Historique
-> Le langage de programmationLisp (inventé parJohn McCarthy en 1958) a été un des premiers langages
-> de programmation à introduire cette notion de liste (Lisp signifie list processing).
-> Lisp qui fait partie de la plus ancienne famille de langages de programmation à la fois impératifs et
-> fonctionnels, est devenu dans les années 1970-80 le langage de choix pour la recherche en intelligence
-> artificielle. Ils sont aujourd'hui utilisés dans de nombreux domaines, de la programmation Web à la
-> finance.
-> Python abuse du terme liste qu'il utilise pour ce qui sont destableaux dyna
+> En informatique, on manipule essentiellement des données. Lorsqu'elles sont simples comme desnombres,
+> des chaînes de caractères ou des booléens, on peut les stocker dans des variables qui seront typées en
+> fonction de la nature de la donnée.
+> 2 Définition
+> A retenir!
+> Une structure de données est une organisation logique des données permettant de simplifier ou
+> d'accélérer leur traitement.
+> 3 Exemple
+> Par exemple, si on a écrit un code avec les affectations suivantes :
+> 1 n = 4
+> 2 p = -5
+> 3 r = 0.7
+> 4 phrase = 'hello'
+> 5 test = True
+> Python est un langage avec untypage dynamique, c'est-à-dire que le type de la variable est automa-
+> tiquement déterminé la première fois qu'elle
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C12 : Exploiter l'élément fourni ci-dessous — La consigne renvoie à un document joint (commandes, circuit, requêtes numérotées, classe, code) à sélectionner, compléter ou utiliser ; on évalue la lecture attentive du support plus qu'une notion précise.
-    gabarit : Parmi les [éléments] ci-dessous, [sélectionner/compléter/utiliser] ceux qui permettent de [objectif].
-    exemple réel (autre notion) : « 2. Ravel, un nouveau fabricant, a livré à l'entreprise 10 vélos du modèle 'Bovelo'. Parmi les cinq requêtes numérotées ci-dessous, en sélectionner deux qui permettent d'intégrer cette nouvelle information et indiquer l'ordre dans lequel ell »
-    exemple réel (autre notion) : « a. Écrire ce que renvoie la requête ci-dessous :  SELECT nom, prenom, naissance FROM individu WHERE nom = 'Crog';  b. Fournir une requête SQL permettant de récupérer le titre et la clé primaire de chaque film dont la date de sortie est stri »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 6. Écrire le résultat obtenu suite à l'exécution de la requête suivante si on l'applique sur les extraits des tables donnés.  SELECT nomSc FROM plante JOIN zone_geographique ON plante.zone = zone_geographique.num WHERE zone_geographique.zone = 'Asie' »
+- slot 1 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 8. Écrire en langage Python une fonction récursive calcul_somme(arbre). »
+    exemple réel (autre notion) : « 4. Ecrire une fonction creation_dossiers(tab) qui prend en paramètre un tableau de chaînes de caractères et qui crée et mod ifie les droits des dossiers au nom de ces chaines de caractères avec l es mêmes droits que le sous-dossier TURING_A »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 5. Écrire une fonction chaine_evalue qui prend en paramètres un plateau et une chaine, et renvoie la valeur associée à une telle chaîne. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 7. Recopier et compléter les lignes 4 et 10 pour compléter le code de la fonction regle1. Règle 2 : S'il n'y a qu'un seul nombre impair dans une ligne ou une colonne dont la cible est paire, on peut éliminer ce nombre impair. Par exemple, p »
-    exemple réel (autre notion) : « 9. Recopier et compléter les lignes 10, 12, 14 et 15 de cette fonction. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 9. Recopier et compléter les lignes 5 et 6 de cette fonction afin qu'elle renvoie la distance attendue. »
+- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : milieu d'exercice
+    manière de demander C17 : Question directe « quelle est » — L'élève indique une valeur, une propriété ou un élément d'une structure. Réponse courte ; le groupe reste un peu hétérogène.
+    gabarit : Quelle est la [valeur|propriété] de [objet] ?
+    exemple réel (autre notion) : « 5. Donner et justifier la valeur renvoyée par la fonction couper pour le tableau de caractères suivant.  [('n', 4), ('a', 2), ('o', 2), ('S', 1), ('h', 1), ('-', 1), ('F', 1)] Afin d'implémenter les arbres de codage, on se munit de la clas »
+    exemple réel (autre notion) : « 8. La fonction parcoursGraphe renvoie une liste parcours. Indiquer la valeur renvoyée par l'appel de fonction : parcoursGraphe(s1)  On cherche maintenant le site le plus populaire, celui dont la valeur de popularité est la plus grande. »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « 1. Recopier et compléter le tableau suivant, en indiquant la valeur des paramètres lors des appel récursifs, pour un appel initial sous_listes([9, 3, 7 ], [[]]).  EN_OOTgzNT7QzNjAc0ND8UzMsTYxMj0A2NTAAwMDzAxNOjIx  Évolution des paramètres lors des appels récurs »
 
-- slot 3 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 8. Écrire une fonction voisins qui prend en paramètres un graphe G et un sommet s du graphe G et qui renvoie la liste des voisins du sommet s. »
-    exemple réel (autre notion) : « c. Écrire en Python une fonction defiler(f) qui prend en argument un couple de piles f et qui renvoie l'élement en tête de la file représentée par f en le retirant.  ps5 ps4 ps1 ps3 ps2 p1 p2 Annexe A de l'exercice 3 Tables de routage du ré »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 5. À l'aide des classes Bloc et Blockchain, écrire le code Python permettant de créer un objet ma_blockchain de type Blockchain représenté par la figure 1. »
+- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « b. Décrire quel peut être le rôle de la fonction mystere. »
+    exemple réel (autre notion) : « 2. Quel est l'identifiant du processus parent à l' origine de tous les processus concernant le navigateur Web (chromium-browser) ? »
+    support S11 : Texte contenant des tirets — Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.
+    exemple de support (autre notion) : « 3. On décide de parcourir cet arbre pour obtenir la liste des identifiants dans l'ordre lexicographique. Recopier la lettre correspondant au parcours à utiliser parmi les propositions suivantes : A - Parcours en largeur d'abord B - Parcours en profondeur dans  »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C3 : Questions de raisonnement hétérogènes — Mélange de consignes (dessiner un graphe, comparer, justifier, lister des dépendances) liées par des tournures pluriel génériques ; le point commun est seulement un raisonnement contextualisé sur une situation.
-    gabarit : En étudiant [situation/données], [donner/comparer/justifier] [élément demandé]. Justifier la réponse.
-    exemple réel (autre notion) : « 12. Donner un avantage et un inconvénient des deux approches utilisées pour classer les athlètes :  Utiliser des dictionnaires et un tri  Utiliser un arbre binaire de recherche approche objet avec insertion dans un arbre binaire  EN_NOzUz »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 9. Donner la requête SQL permettant d'obtenir uniquement les id et les lieux (colonne lieu) des trails dont la distance dépasse 50 km. »
     détail du cours à évaluer (Routage) : « Un vecteur de distance est un couple (adresse, distance). »
 
 Le champ id vaut « I-tuple ».

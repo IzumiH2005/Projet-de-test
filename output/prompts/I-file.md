@@ -10,72 +10,68 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Structures de données > Listes Piles Files > 4.1 Utilisation d'une interface de file]
-> On considère l'enchaînement d'opérations ci-dessous. Écrire à chaque étape l'état de la file ```f``` et la valeur éventuellement renvoyée.
->     Par convention, on enfilera **à gauche** et on défilera **à droite**.
->     ```python
->     1. f = File()
->     2. f.enfile(3) 
->     3. f.enfile(5)
->     4. f.est_vide()
->     5. f.enfile(1) 
->     6. f.defile() 
->     7. f.defile()
->     8. f.enfile(9) 
->     9. f.defile() 
->     10. f.defile()
->     11. f.est_vide() 
->     ```
-> [Structures de données > Arbres > 4.6 Parcours en largeur]
-> Le parcours en largeur (BFS) est le plus simple à faire visuellement : mais il est plus difficile à coder que les parcours préfixe, infixe, postfixe.  
-> Il est nécessaire d'utiliser une **file**  :
+> [Structures de données > Les files > Les files]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 7 - Les files
+> Objectifs :
+> ▷ Connaître et comprendre le type abstrait file.
+> ▷ Modéliser puis simuler le comportement d'une file.
+> ▷ Distinguer les modes FIFO et LIFO des piles et des files.
+> 1 Introduction
+> Dans ce chapitre nous allons décrire desstructures de données linéairesappelées files. On rappelle qu'une
+> structure de données est une organisation logique des données permettant de simplifier ou d'accélérer leur
+> traitement.
+> Il faut bien comprendre que lorsqu'on parle de structure de données, on parle d'une représentationabstraite
+> qui n'est pas en lien direct avec son implémentation qui peut être réalisée de diverses manières suivant le langage
+> de programmation, voire au sein d'un même langage de programmation.
+> 2 Définition
+> A retenir!
+> En informatique, unefile (appelée queue en anglais) est une structure de données basée sur le principe
+> « P
+> [Structures de données > Listes Piles Files > 1.2 Comment seront traitées ces données linéaires ? Introduction des listes, des piles et des files]
+> La nature des données ne fait pas tout. Il faut aussi s'intéresser à la manière dont on voudra les traiter :
 > 
-> - On place l'arbre dans la file.
-> - Tant que la file n'est pas vide, on procède comme suit :
->     - On défile, donc on récupère l'arbre situé en haut de la file.  
->     - Si cet arbre n'est pas vide :
->         - On garde son étiquette.
->         - On enfile son sous-arbre gauche, puis son sous-arbre droit.
+> - À quelle position les faire entrer dans notre structure ?
+> - À quel moment devront-elles en éventuellement en sortir ?
+> - Veut-on pouvoir accéder rapidement à n'importe quel élément de la structure, ou simplement au premier ? ou au dernier ?
 > 
-> On importera l'objet ```Queue()``` du module ```queue``` de Python, qui permet de  :
+> Lorsque ces problématiques d'entrée/sortie n'interviennent pas, la structure «classique» de liste est adaptée. Mais lorsque celle-ci est importante, il convient de différencier la structure de **pile** de celle de **file**.
 > 
-> - créer une file vide avec ```file = Queue()```
-> - défiler un élément par ```file.get()```
-> - enfiler l'élément ```a``` par ```file.put(a)```
-> - savoir si la file est vide par le booléen ```file.empty()```
+> #### 1.2.1 Les piles (*stack*)
 > 
-> ```python
+> Une structure de **pile** (penser à une pile d'assiette) est associée à la méthode **LIFO** (Last In, First Out) :
+> les éléments sont empilés les uns au-dessus des autres, et on ne peut toujours dépiler que l'élément du haut de la pile. Le dernier élément à être arrivé est donc le premier à
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
-    manière de demander C8 : Manipuler une base de données — Requêtes et modélisation sur une base relationnelle (supprimer, ajouter, interroger, proposer un schéma) ; on évalue la correspondance entre un besoin métier et les opérations SQL ou la structure de tables.
-    gabarit : Donner la (les) requête(s) SQL permettant de [opération] dans la base de données [nom], [contrainte].
-    exemple réel (autre notion) : « 4. On dispose des fonctions :  empiler(p,elt) qui empile l'élément elt dans la pile p,  depiler(p) qui renvoie le sommet de la pile p si p n'est pas vide et le supprime,  pile_vide(p) qui renvoie True si la pile p est vide, False si la p »
-    exemple réel (autre notion) : « 2. Écrire, dans le langage SQL, des requêtes d'interrogation sur la base de données restaurant permettant de réaliser les tâches suivantes : a. Afficher les noms et les avis des clients ayant effectué une réservation pour la date du '2021-0 »
-    support S6 : Texte avec parenthèses explicatives — Support riche en parenthèses (signatures, précisions, sous-questions (a)(b)) ; l'élève doit tenir compte des précisions et des paramètres annoncés.
-    exemple de support (autre notion) : « a) Internet b) VGA c) Ethernet d) HDMI  5) On souhaite déterminer le parcours minimisant le coût total des liaisons traversées. »
+    manière de demander C18 : Tracer une boucle Python donnée — L'élève suit l'exécution d'un code avec boucles for/range pour en déduire une valeur ou un affichage. On évalue la trace d'exécution.
+    gabarit : Déterminer la valeur de [variable] à l'issue des instructions suivantes : [code].
+    exemple réel (autre notion) : « 11. elif i2 >= n2: »
+    exemple réel (autre notion) : « 17. Déterminer les affichages produits lors de l'exécution de l'appel suivant :  mystere(graphe_airinfo, 'W', [], 0, 'B') »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « 1. Écrire une requête SQL permettant d'afficher tous les modèles des ordinateurs en réparation présents dans la collection. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C24 : Compléter une fonction à trous — L'élève recopie et complète une fonction ou une table entière (parfois à partir d'une ligne donnée) ; on évalue l'achèvement d'un code partiellement fourni.
-    gabarit : Recopier et compléter la fonction [nom] (à partir de la ligne [n]) qui [comportement].
-    exemple réel (autre notion) : « 1. Recopier et compléter le code de la ligne 28 afin d'instancier la balise portant le numéro 12. »
-    exemple réel (autre notion) : « 2. Donner la plus petite valeur de cible que la ligne [6,4,5,8,2] peut atteindre. Donner aussi la plus grande valeur de cible que la ligne peut atteindre. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 4. Recopier et compléter les lignes 10 à 12 de la méthode soutenir, en respectant sa documentation. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « 13. Citer les attributs qui sont des clés étrangères dans la relation infos_recuperation. »
+    exemple réel (autre notion) : « 5. Citer l'avantage d'utiliser un arbre de recherche par rapport au type de données de la variable contacts_fictifs. »
+    support S14 : Prose avec parenthèses — Phrases contenant des parenthèses (couples, types, précisions). Artefact de ponctuation sans matériau commun.
+    exemple de support (autre notion) : « b. Ecrire les sept premières personnes (nom et prénom) rencontrées si on utilise le parcours en profondeur infixe.  On donne ci-dessous le code incomplet de la fonctio n d'un parcours en profondeur de l'arbre, dans lequel il manque la ligne correspo ndant à l' »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 2. Les lignes 11 et 12 de cette description du graphe ne sont pas complètes. Recopier et compléter le code des lignes 11 et 12. »
-    exemple réel (autre notion) : « 12. Recopier et compléter les lignes 4, 6 et 7 du code de la fonction precede. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 12. Recopier et compléter la fonction plus_court donnée ci-dessous. La fonction plus_court prend pour paramètres un graphe G, un sommet de départ depart et un sommet d'arrivée arrivee ; elle renvoie un des chemins les plus courts sous la forme d'une liste de s »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 2. Donner l'assertion à insérer en début de la fonction creer_liste_clef afin de s'assurer que l'hypothèse sur la clef soit respectée. »
+    exemple réel (autre notion) : « 16. Réécrire le code de la fonction modifie en évitant cette répétition.  La classe Abr est complétée afin de permettre l'ajout de nouvelles lignes à la table de routage, tout en conservant les propriétés que doit posséder un arbre binaire  »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 3. Écrire la fonction moitie_droite. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C20 : Énoncés de mise en situation — Mélange d'énoncés introductifs et de questions descriptives (arbres, parité, interfaces) ; groupe défini par des tournures génériques plutôt que par un geste.
-    gabarit : On considère [situation]. Indiquer [éléments] qui [propriété].
-    exemple réel (autre notion) : « 2. Donner les différents états possibles d'un processus. »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 2. À partir d'un entiern, on construit une liste dek entiers en utilisant l'image étudiée dans la »
     détail du cours à évaluer (Listes Piles Files) : « Pour être utilisée, une interface de file doit proposer a minima : »
 
 Le champ id vaut « I-file ».

@@ -53,34 +53,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 4. Écrire une fonction recombiner qui prend en paramètres deux instances m1 et m2 de la classe Pile qui sont respectivement la première et la deuxième moitié d'un jeu de cartes et qui renvoie une instance de la classe Pile qui est le jeu ob »
-    exemple réel (autre notion) : « 5. Compléter, en utilisant autant de lignes que nécessaire, la fonction case_vide qui prend en paramètre une liste d'entiers pos et qui renvoie l'indice de 0. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « b. Écrire la méthode bien_construit demandée. »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C5 : Donner le nom ou l'instruction — L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.
+    gabarit : Donner le [nom|tuple|instruction] correspondant à [situation].
+    exemple réel (autre notion) : « 4. Préciser, sans justifier, le coût temporel du tri par insertion d'une liste de 𝑛 éléments dans le pire des cas. »
+    exemple réel (autre notion) : « 7. Proposer les clés étrangères de la table participation en précisant le nom des attributs auxquels elles font référence. »
+    support S4 : Prose multi-lignes sans forme distinctive — Texte d'énoncé courant sur plusieurs lignes, sujets divers (algorithmes, graphes, Huffman). Forme générique, pas de matériau spécifique.
+    exemple de support (autre notion) : « 3. Créer une instance demineur_intermediaire, de la classe Demineur en respectant les recommandations pour le niveau de jeu intermédiaire pour le jeu du démineur. »
 
-- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 3. Donner le coût du chemin identifié dans la question 2. »
-    exemple réel (autre notion) : « a) Indiquer le type de la variable V. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « 11. Écrire le schéma relationnel des deux nouvelles tables en indiquant clairement les clés primaires et les clés étrangères. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C1 : Écrire la fonction ou commande nommée — L'élève produit un code précis (fonction, méthode, commande shell) dont le nom est imposé. On évalue la justesse et la syntaxe du code écrit.
+    gabarit : Écrire la [fonction|méthode|commande] [nom] qui [comportement attendu].
+    exemple réel (autre notion) : « a. Écrire la fonction test_mot qui prend en paramètres le mot à deviner en majuscules et un mot proposé en majuscule s par le joueur. Cette fonction renvoie le mot formé des lettres correctement placées et de tirets ailleurs comme dans l'ex »
+    exemple réel (autre notion) : « b. Écrire la requête qui permet de compter le nombre d'oiseaux dans tout le zoo. »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 8. La variable coloration_sommets est un dictionnaire qui après exécution de la boucle des lign es 7 et 8 vaut {1: None, 2: None, 3: None, 4: None, 5: None, 6: None, 7: None,8: None, 9: None}. »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 9. Déterminer la valeur de routeur_m.table après l'appel routeur_m.m_a_j((172, 64, 0, 2), 1, vecteurs). »
-    exemple réel (autre notion) : « 1. On considère la machine d'adresse IPv4 192.168.1.1/24 »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 5. Déterminer le nombre de comparaisons effectuées par l'appel à majo_abs1([1, 4, 1, 6, 1, 7, 2, 1, 1]). »
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 11. Expliquer quel type de parcours est mis en œuvre dans la méthode classer, et préciser dans quel ordre sont explorés les nœuds et comment cela permet de classer les athlètes en fonction de leur score. »
+    exemple réel (autre notion) : « 2. Dans quel(s) élément(s) sont s itués le " compteur de program me " (CP ou IP en anglais pour Instruction Pointer) et le " registre d'instruction " (RI ou IR en anglais pour Instruction Register). Préciser leurs rôles.  Architecture de Ha »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 8. Expliquer brièvement pourquoi elle se termine si n est un entier positif. On admet que les boucles for présentes sont bornées et donc terminent. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « 2.a) Dans un ABR, où se trouve le plus petit élément ? Justifier. »
+    manière de demander C17 : Question directe « quelle est » — L'élève indique une valeur, une propriété ou un élément d'une structure. Réponse courte ; le groupe reste un peu hétérogène.
+    gabarit : Quelle est la [valeur|propriété] de [objet] ?
+    exemple réel (autre notion) : « 2. Quelle abréviation désigne l'identifiant d'un processus dans un système d'exploitation de type UNIX ?  a. PIX b. SIG c. PID »
     détail du cours à évaluer (Rappels reseaux) : « Avec un système d'exploitation de typeLinux ou MacOs, la commande similaire se nommetraceroute. 9.3 ping A retenir! ping est une commande permettant de tester l'accessibilité d'une autre machine à travers un réseau IP. »
 
 Le champ id vaut « I-os_commandes ».

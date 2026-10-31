@@ -38,57 +38,53 @@ Extraits du cours :
 >         while ...:
 >             if ...:
 >                 lst_totale.append(
-> [Algorithmique > Diviser pour regner > 4.2 La fusion]
-> #### 4.2.1 Principe
-> 
-> L'idée du tri fusion est le découpage de la liste originale en une multitude de listes ne contenant qu'un seul élément. Ces listes élémentaires seront ensuite interclassées avec la fonction précédente.
-> 
-> **Principe de l'algorithme du tri fusion :**
-> 
-> - pour trier une liste, on interclasse les deux moitiés de cette liste, précédémment elles-mêmes triées par le tri fusion.
-> - si une liste à trier est réduite à un élément, elle est déjà triée. 
-> 
-> #### 4.2.2 Implémentation
-> 
-> La grande force de ce tri va être qu'il se programme simplement de manière **récursive**, en appelant à chaque étape la même fonction mais avec une taille de liste divisée par deux, ce qui justifie son classement parmi les algorithmes utilisants «diviser pour régner».
-> 
-> {#
-> 
->   
->     ```python
->     def interclassement(lst1, lst2):
->         ...
-> 
->     def tri_fusion(lst):
->         ...
->     ```
-> #}
-> 
->     
->     ```python
+> [Algorithmique > Diviser pour regner > Diviser pour regner]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 24 - Diviser pour régner
+> Objectifs :
+> ▷ Ecrire un algorithme en utilisant la méthode"diviser pour régner".
+> 1 Introduction
+> Nous avons vu en première deux algorithmes de tris assez naturels, mais peu efficaces : letri par insertionet
+> le tri par sélectionen classe de Première.
+> Cette année, nous allons étudier un algorithme beaucoup plus efficace et très utilisé, inventé parJohn Von
+> Neumann en 1945 : letri par fusion.
+> Cet algorithme nous permettra d'illustrer la méthodediviser pour régnerque nous avions également déjà
+> vue lors de larecherche dichotomiqueen classe de Première.
+> 2 La dichotomie (rappels)
+> Nous avons vu en classe dePremièrel'algorithme dedichotomie. Ce mot, qui vient du grecdikhotomia, signifie
+> « division en deux parties ».
+> Notre but ici est la recherche de la présence (ou non) d'un élément dans une liste triée. Notre fonction renv
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 14. Donner en justifiant le nombre d'appels récursifs effectués par l'appel de valmax_dynamique(6), après l'exécution de valmax_dynamique(5). »
-    exemple réel (autre notion) : « Question 1 On considère tous les chemins allant de la case (0, 0) à la case (2, 3) du tableau T donné en exemple. 1. Un tel chemin comprend nécessairement 3 déplacements vers la droite. Combien de déplacements vers le bas comprend-il? »
-    support S6 : Texte avec parenthèses explicatives — Support riche en parenthèses (signatures, précisions, sous-questions (a)(b)) ; l'élève doit tenir compte des précisions et des paramètres annoncés.
-    exemple de support (autre notion) : « 7. Lors de la célèbre cérémonie des vœux, l'entreprise souhaite mettre à l'honneur les personnes ayant exactement 10 ans d'ancienneté dans l'entreprise. Écrire une méthode de la classe Personnel nb_personne_honneur qui prend en paramètre l'année de la cérémoni »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 9. Indiquer en justifiant quel autre attribut de la table utilisateur aurait aussi pu servir de clé primaire. On rappelle que la fonction d'agrégation COUNT permet de compter les éléments du résultat d'une requête en plaçant COUNT(*) dans l »
+    exemple réel (autre notion) : « c. Déterminer quel type de parcours utilise la fonction est_present. »
+    support S12 : Requêtes et syntaxe SQL — Code SQL fourni (SELECT, FROM, WHERE, UPDATE) ou rappel de syntaxe. L'élève lit, exécute mentalement ou s'en inspire.
+    exemple de support (autre notion) : « 6. La requête SELECT rayon FROM Exoplanetes NATURAL JOIN Etoiles WHERE no m = 'Kepler-11' ; permet d'obtenir les rayons des exoplanètes orbitant autou r de l'étoile nommée Kepler-11. »
 
-- slot 2 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 10. Écrire un programme permettant de créer et d'entrainer le détecteur sur les listes emails = [[0, 0], [0, 1], [1, 0], [1, 1]] et spams = [0, 0, 0, 1]. pendant au maximum 1000 époques, puis d'afficher dans la console le nombre d'époques n »
-    exemple réel (autre notion) : « 3. Edgar réalise l'appel tri_dictatorial([8, 2, 9, 6, 12]).  Expliquer pas à pas comment la liste serie_triee se construit après cet appel. »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 7. Recopier et compléter les lignes 12, 16 et 20 du code de la fonction lire_parcours. »
+- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C11 : Analyser une ligne de code précise — L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.
+    gabarit : Expliquer le rôle de la ligne [n] de la fonction [nom].
+    exemple réel (autre notion) : « b. Donner une commande qui permet d'accéder au répertoire timbres à partir de la racine. »
+    exemple réel (autre notion) : « 17. Recopier et compléter la ligne 35 du code de la fonction rechercher. »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 2. Recopier et compléter le code de la fonction suivante qui transforme une liste en pile.  def liste_vers_pile(L):  '''prend en paramètre une liste et renvoie une pile'''  N = len(L)  p_temp = Pile()  for i in range(N):  …………………….  return ………. »
 
-- slot 3 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C19 : Déterminer un chemin ou élément — Questions de détermination (chemin d'un paquet, répertoire, sous-séquence, protocole) sans geste unique, souvent en réseau ; on évalue une déduction à partir du contexte.
-    gabarit : Déterminer [le chemin/l'élément] [de A à B / vérifiant la condition] dans [situation].
-    exemple réel (autre notion) : « 3. Déterminer le chemin parcouru par un paquet partant du serveur patients (SP) vers le service de radiologie (RL R) en utilisant le protocole OSPF. On précisera également le coût de ce chemin. »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 5. Écrire une fonction mise_a_jour qui prend en paramètre l'effectif du stock déjà présent dans la scierie nommé effectif et l'effectif du stock contenu dans le camion nommé autre_effectif et qui met à jo ur le dictionnaire effectif.  Par  »
+    exemple réel (autre notion) : « 10. Utiliser les fonctions précédentes et la classe Noeud afin d'écrire une fonction choisit_coup(grille, joueur) prenant en arguments une grille de jeu et le numéro d'un joueur et renvoyant le numéro de la colonne où devrait jouer le joueu »
+    support S14 : Prose avec parenthèses — Phrases contenant des parenthèses (couples, types, précisions). Artefact de ponctuation sans matériau commun.
+    exemple de support (autre notion) : « 2. Etude du PC7 dont l'adresse IP est : 192.168.20.10 / 24. 2.a. Combien d'octets sont nécessaires pour composer une adresse IP(V4) ? 2.b. Compléter la ligne 2 du tableau du document ré ponse en convertissant la notation décimale de l'adresse IP en notation bi »
+
+- slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 3. Citer un des avantages d'un ci rcuit imprimé de petite taille. »
     détail du cours à évaluer (Diviser pour regner) : « Pour finir, une jolie animation permettant de comparer les tris : »
 
 Le champ id vaut « I-diviser_regner ».

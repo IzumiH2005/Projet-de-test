@@ -10,77 +10,68 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Architecture, OS et réseaux > Gestion des processus > Introduction]
-> **Partie A**
+> [Architecture, OS et réseaux > Processus > Processus]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 17 - Les processus
+> Objectifs :
+> ▷ Décrire la création d'un processus, l'ordonnancement de plusieurs processus par le système.
+> ▷ Mettre en évidence le risque de l'interblocage (deadlock).
+> 1 Introduction
+> Dans les années 1970, les ordinateurs personnels n'étaient pas capables d'exécuter plusieurs tâches à la fois. On
+> lançait un programme et on y restait jusqu'à ce que celui-ci "plante" ou se termine.
+> Les systèmes d'exploitation récents (Windows, Linux ou MacOS par exemple) permettent d'exécuter plusieurs
+> tâches simultanément - ou en tous cas, donner l'impression que celles-ci s'exécutent en même temps. C'est ce
+> que l'on appelle lepseudo-parallélisme.
+> A un instant donné, il n'y a donc pas un mais plusieurs programmes qui sont en cours d'exécution sur un
+> ordinateur : on les nommeprocessus.
+> Une des tâches du système d'exploitation est d'allouer 
+> [Architecture, OS et réseaux > Gestion des processus > 2.2.2 Les différents états d'un processus]
+> Selon que l'ordonnanceur aura décidé de le confier ou non au processeur pour son exécution, un processus peut donc se trouver dans 3 états :
 > 
->     Cette partie est un questionnaire à choix multiples (QCM).
->     Pour chacune des questions, une seule des quatre réponses est exacte.
+> - **Prêt** : il attend qu'arrive le moment de son exécution.
+> - **Élu** : il est en cours d'exécution par le processeur.
+> - **Bloqué** : pendant son exécution (état **Élu**), le processus réclame une ressource qui n'est pas immédiatement disponible. Son exécution s'interrompt. Lorsque la ressource sera disponible, le processus repassera par l'état **Prêt** et attendra à nouveau son tour. 
 > 
->     1. Parmi les commandes ci-dessous, laquelle permet d’afficher les processus en cours
->     d’exécution ?
->         - a. ```dir```
->         - b. ```ps``` 
->         - c. ```man``` 
->         - d.   ```ls```
->     2. Quelle abréviation désigne l’identifiant d’un processus dans un système d’exploitation de type UNIX ?
->         - a. PIX
->         - b. SIG 
->         - c. PID 
->         - d. SID
->     3. Comment s'appelle la gestion du partage de processeur entre les différents processus ?
->         - a. L'interblocage
->         - b. L'ordonnancement
->         - c. La planification
->         - d. La priorisation
->     4. Quelle commande permet d’interrompre un processus dans un système d’exploitation de type
->     UNIX ?
->         - a. ```stop```
->         - b. ```interrupt`
-> [Architecture, OS et réseaux > Gestion des processus > 3.1 Définition et exemple]
-> Comme nous venons de le voir, un processus peut être dans l'état bloqué dans l'attente de la libération d'une ressource. 
+> Voici les transitions possibles entre ces états (diagramme issu de https://info.blaisepascal.fr/nsi-processus-et-ressources) : 
 > 
-> Ces ressources (l'accès en écriture à un fichier, à un registre de la mémoire...) ne peuvent être données à deux processus à la fois. Des processus souhaitant accéder à cette ressource sont donc en concurrence sur cette ressource. Un processus peut donc devoir attendre qu'une ressource se libère avant de pouvoir y accéder (et ainsi passer de l'état Bloqué à l'état Prêt).
+> Ou de manière simplifiée :
 > 
-> **Problème :** Et si deux processus se bloquent mutuellement la ressource dont ils ont besoin ?
+> On peut utiliser la métaphore suivante :
 > 
-> **Exemple :** Considérons 2 processus A et B, et deux ressources R et S. L'action des processus A et B est décrite ci-dessous :
+> Sur le bureau d'un professeur, il y a 3 paquets de copies, correspondant aux classes A, B, et C. Ces paquets sont **Prêts** à être corrigés.
 > 
-> **Déroulement des processus A et B :**
-> 
-> - A et B sont créés et passent à l'état **Prêt**.
-> - L'ordonnanceur déclare **Élu** le processus A (ou bien B, cela ne change rien).
-> - L'
+> - Si le professeur ramène 
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C13 : Raisonner sur une figure — La question s'appuie sur une figure numérotée (arbre, réseau, arborescence, configuration) que l'élève lit, mesure ou complète ; on évalue la lecture d'une représentation graphique.
-    gabarit : En vous appuyant sur la figure [n], [donner/justifier/compléter] [propriété de l'objet représenté].
-    exemple réel (autre notion) : « a. On exécute l'instruction nb_sup(16, abr) dans laquelle abr est l'arbre initial de la figure 1. Déterminer le nombre d'appels à la fonction nb_sup. »
-    exemple réel (autre notion) : « b. Ecrire les deux instructions permettant de construire l'arbre de la figure 1. On rappelle que le nombre val est égal à 16. »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 3. Écrire une requête permettant d'obtenir la liste sans doublon des id_salle des salles réservées depuis janvier 2024. On pourra utiliser le com parateur > pour les dates. »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C15 : Recopier et compléter un élément — L'élève recopie puis complète une fonction, un résultat ou une table partiellement donnés. On évalue la capacité à combler les trous correctement.
+    gabarit : Recopier et compléter [la fonction|le tableau] [nom] [donné ci-dessous].
+    exemple réel (autre notion) : « 4. Recopier et compléter le programme pour qu'il en soit ainsi :  5 tableau_final = []  6 difference_temps = 0  7 premier = True  8 for ligne in tableau_temps:  9 coureur = [ligne[0]]  10 coureur.append(ligne[1])  11 if premier:  12 temps_p »
+    exemple réel (autre notion) : « 7. Recopier et compléter la ligne à ajouter à la table de routage du routeur 2. »
+    support S11 : Texte contenant des tirets — Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.
+    exemple de support (autre notion) : « 1. a. Cette fonction est-elle récursive ? Justifier. »
 
 - slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « 3. Donner la table de routage du routeur R2 pour le réseau représenté sur la figure 1, selon le protocole RIP. »
-    exemple réel (autre notion) : « a. Donner la taille de cet arbre. »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « d. Donner, en la justifiant, la route qui sera empruntée par un paquet IPv4 pour aller d'une machine ayant pour adresse IPv4 192.168.2.1 à une machine ayant pour adresse IPv4 192.168.4.1 »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 1. L'altitude du premier point est '1457'. Cette chaîne peut être affichée ainsi : print(tab_trace[0][2]). Donner l'instruction permettant d'afficher la longitude du dernier point uniquement. »
+    exemple réel (autre notion) : « a. Des deux acronymes LIFO et FIFO, indiquer lequel permet de décrire, de manière gé- nérale, la structure de pile. Donner la signification des quatre lettres qui composent cet acronyme.  b. On applique l'algorithme précédent sur la liste [ »
+    support S10 : Prose riche en virgules — Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.
+    exemple de support (autre notion) : « 16. Écrire la requête SQL qui pour chaque sonde affiche le numéro de série, le nom de l'abonné, et la date de récupération. »
 
-- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 5. Donner une requête SQL permettant de récupérer le nom de tous les groupes qui jouent sur la scène 1. »
-    exemple réel (autre notion) : « 4. Écrire une requête SQL permettant d'obtenir l'identifiant et le nom des étoiles dont l'ascension droite est supérieure ou égale à 100 degrés. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « 7. Écrire une requête permettant d'obtenir la liste sans doublon des noms de société ayant réservé une salle de réunion. EN_NOzUzMD2M0ODAczOT0UzMmTYxMj5A2MDEO2OTjQ3OVTYx »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 1. Expliquer le rôle de la fonction init. »
+    exemple réel (autre notion) : « 15. Expliquer le rôle de l'attribut id_auteur de la table livres. »
+    support S15 : Sous-questions lettrées a) b) — Énoncés découpés en items a), b), c) ou en options lettrées. L'élève traite chaque sous-question ou choisit une option.
+    exemple de support (autre notion) : « 2) En utilisant les détails de la trame N°4 (figure 5) ci-dessous, indiquer le protocole utilisé pour cette trame au niveau de la couche transport.  Figure 5 »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C20 : Énoncés de mise en situation — Mélange d'énoncés introductifs et de questions descriptives (arbres, parité, interfaces) ; groupe défini par des tournures génériques plutôt que par un geste.
-    gabarit : On considère [situation]. Indiquer [éléments] qui [propriété].
-    exemple réel (autre notion) : « a. Donner les valeurs d'affichage des nœuds dans le cas du parcours infixe de l'arbre. »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 3. La commande cp rosier_abi.html ../adherents/abi/ crée un nouveau ﬁchier /association/adherents/abi/rosier_abi.html sans détruire /association/annonces/rosier_abi.html tandis que mv rosier_abi.html ../adherents/abi/ déplace le ﬁchier ; da »
     détail du cours à évaluer (Gestion des processus) : « On suppose que les quatre processus arrivent dans la file et y sont placés dans l’ordre C₁, C₂, C₃ et C₄. »
 
 Le champ id vaut « I-processus ».

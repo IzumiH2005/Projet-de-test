@@ -52,34 +52,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 7. Écrire une requête qui permet d'afficher le type, la marque et le nom de l'agence pour l'ensemble des véhicules. »
-    exemple réel (autre notion) : « 9. Donner, dans l'ordre, les numéros des balises rencontrées par ce sportif. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « d. La priorisation »
+- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C11 : Analyser une ligne de code précise — L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.
+    gabarit : Expliquer le rôle de la ligne [n] de la fonction [nom].
+    exemple réel (autre notion) : « 3. La ligne 18 permet de supprimer le mur Nord de cellule1. Un mur de cellule2 doit aussi être supprimé pour libérer un passage entre cellule1 et cellule2. Écrire l'instruction Python que l'on doit ajouter à la ligne 19. »
+    exemple réel (autre notion) : « 5. Proposer un algorithme en langage naturel permettant de déterminer après quel mot d'un texte revenir à la ligne, étant donné une certaine justification. On attend uniquement une explication précise de l'algorithme, pas sa programmation e »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 10. Compléter le code de la fonction Python renote_express2 pour qu'elle calcule la même chose que renote_express. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « 4. Quel est le rôle d'un switch ? »
-    exemple réel (autre notion) : « Question 1 1. Dans le modèle relationnel, quel est l'intérêt de l'attributnum_eleve. »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « a. Parmi les quatre propositions suivantes, indiquer le type d'erreur affiché : • ZeroDivisionError • ValueError • TypeError • IndexError »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C3 : Lire ou compléter une classe Python fournie — L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.
+    gabarit : On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].
+    exemple réel (autre notion) : « 3. Recopier et compléter le code de la méthode est_terminee de la classe Tache qui renvoie True si la tâche est terminée, ou False sinon.  1 def est_terminee(self): 2 ... »
+    exemple réel (autre notion) : « 2. On considère la classe Noeud définie de la façon suivante en Python : 1 class Noeud: 2 def init(self, g, v, d): 3 self.gauche = g 4 self.valeur = v 5 self.droit = d »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « 6. On considére I'arbre binaire de recherche ci-dessous : »
 
-- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 16. Écrire une fonction valeur_max_stock qui prend en paramètre un dictionnaire effectif et qui renvoie la valeur maximale en euro que peut rapporter le stock à l'entreprise en optimisant le découpage de chaque planche afin qu'elle rapporte »
-    exemple réel (autre notion) : « 8. Écrire une fonction Python infini, récursive, telle que l'appel infini(n) ne termine pour aucun entier n. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 10. Indiquer comment Bob peut déchiffrer le message que lui envoie Alice. »
+- slot 3 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C1 : Écrire la fonction ou commande nommée — L'élève produit un code précis (fonction, méthode, commande shell) dont le nom est imposé. On évalue la justesse et la syntaxe du code écrit.
+    gabarit : Écrire la [fonction|méthode|commande] [nom] qui [comportement attendu].
+    exemple réel (autre notion) : « 7. Écrire la méthode get_note de la classe Livre. Cette méthode devra renvoyer la note d'un livre. »
+    exemple réel (autre notion) : « 2. Écrire la méthode set_couleur de la classe Piste qui permet d'affecter à l'attribut couleur la chaîne de caractères correspondant à la couleur de la piste. »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 2. Expliquer quelles données n'auraient pas pu être stockées dans la table match si le champ id_match n'avait pas été introduit dans cette table. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C19 : Déterminer un chemin ou élément — Questions de détermination (chemin d'un paquet, répertoire, sous-séquence, protocole) sans geste unique, souvent en réseau ; on évalue une déduction à partir du contexte.
-    gabarit : Déterminer [le chemin/l'élément] [de A à B / vérifiant la condition] dans [situation].
-    exemple réel (autre notion) : « 11. Nommer le tri utilisé. »
-    détail du cours à évaluer (Routage) : « Ce protocole consiste à minimiser la somme des coûts des liaisons empruntées. »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « a. Indiquer le chemin emprunté par un message d'un ordinateur du réseau F à destination d'un ordinateur du réseau I. Justifier votre réponse. »
+    détail du cours à évaluer (Pseudo-code) : « Ensuite, chaque terme successif est la somme des deux termes précédents. »
 
 Le champ id vaut « I-algo_simples ».

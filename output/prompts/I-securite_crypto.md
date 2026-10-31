@@ -19,50 +19,53 @@ Extraits du cours :
 > Au même moment à Londres, Clifford Cocks, (chercheur au très secret GCHQ) apprend que Rivest Shamir et Adleman viennent de découvrir ce que lui-même a découvert **3 ans auparavant** mais qui est resté classé Secret Défense.
 > 
 > 
-> [Architecture, OS et réseaux > Cryptographie > 2.2 Le rôle interchangeable des clés publiques et privées]
-> L'illustration précédente associe :
-> 
-> - une image de cadenas à la clé publique (car on s'en sert pour chiffrer les messages)
-> - une image de clé à la clé privée (car on s'en sert pour déchiffrer les messages)
-> 
-> Concrètement, (nous le verrons dans l'application par le chiffrement RSA), la clé privée et la clé publique sont **deux nombres** aux rôles identiques. Appelons-les A et B :
-> 
-> - il est impossible de trouver A en fonction de B. Réciproquement, si on connaît A, il est impossible d'en déduire B.
-> - si on chiffre un message avec A, on peut le déchiffrer avec B. Réciproquement, si on chiffre avec B, on peut déchiffrer le message grâce à A.
-> - on peut donc chiffrer avec une clé publique et déchiffrer avec la clé privée associée (ce qui est fait dans l'exemple précédent). Mais on peut aussi chiffrer avec la clé privée, et déchiffrer avec la clé publique associée.
-> 
-> A et B ont donc des rôles int
+> [Architecture, OS et réseaux > Securisation > Securisation]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 19 - Sécurisation des communications
+> Objectifs :
+> ▷ Décrire les principes de chiffrement symétrique et asymétrique (avec clef privée/clef publique).
+> ▷ Décrire l'échange d'une clef symétrique en utilisant un protocole asymétrique pour sécuriser une commu-
+> nication HTTPS.
+> 1 Introduction
+> Pour qu'un message entre deux machines dans un réseau informatique ne puisse pas être compréhensible s'il est
+> intercepté, il faut qu'il soitchiffré.
+> A retenir!
+> Il y a deux manières principales pourchiffrer un message:
+> ▷ par unchiffrement symétriquequi utilise une clé unique, connue seulement de l'émetteur et du
+> récepteur. L'émetteur chiffre le message avec la clé et le récepteur le déchiffre avec la même clé.
+> ▷ par unchiffrement asymétriquequi utilise un couple de clés, l'une publique connue de tout le
+> monde, l'autre privée connue uniquement par le récepteur.
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C11 : Traiter des chaînes de caractères — Questions de programmation ou d'analyse portant sur des chaînes (parcours, inversion, validation, exemple qui fait échouer un test) ; on évalue la manipulation de caractères et d'indices.
-    gabarit : Écrire une fonction [nom] qui prend en paramètre une chaîne de caractères [s] et renvoie [résultat]. Exemple : [nom]([entrée]) renvoie [sortie].
-    exemple réel (autre notion) : « 6. La classe Date dispose d'une méthode est_bissextile, q ui utilise uniquement l'attribut annee, et qui renvoie True si l'année de l'instance courante est bissextile et False sinon. On veut compléter la méthode init pour ajuster le nombre  »
-    exemple réel (autre notion) : « 9. Donner la table de codage pour la chaîne de caractères txt. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 9. L'arbre peut être parcouru selon l'ordre de parcours préfixe, infixe, suffixe ou en largeur d'abord. Indiquer celui qui permet de lire les numéros des sondes dans l'ordre croissant des numéros de série. »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C5 : Donner le nom ou l'instruction — L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.
+    gabarit : Donner le [nom|tuple|instruction] correspondant à [situation].
+    exemple réel (autre notion) : « 1. Représenter le parcours effectué par le robot s'il reçoit la chaîne ‘4(AG)'. »
+    exemple réel (autre notion) : « 8. Écrire une requête SQL renvoyant le numéro de dossard, le nom, le prénom et le temps de course de ces participantes classées par temps de course croissant. »
+    support S4 : Prose multi-lignes sans forme distinctive — Texte d'énoncé courant sur plusieurs lignes, sujets divers (algorithmes, graphes, Huffman). Forme générique, pas de matériau spécifique.
+    exemple de support (autre notion) : « 8. Préciser à quel type d'algorithme vu en cours cette stratégie fait référence. Pour le moment, on suppose que la fonction clefs_triees_selon_volume prend en paramètre un dictionnaire dmatos contenant le matériel et renvoie la liste des clefs de dmatos triée  »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 7. Donner le coût d'exécution temporel de la méthode prediction en fonction de la taille 𝑛 des entrées. »
-    exemple réel (autre notion) : « a. Ecrire une requête SQL permettant d'afficher le nom des plats, leur type et leur prix. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « a. Donner l'ordre d es indices de priorité obtenus à l'aide d'un parcours infixe de l'arbre binaire de recherche de la figure 1. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C1 : Écrire la fonction ou commande nommée — L'élève produit un code précis (fonction, méthode, commande shell) dont le nom est imposé. On évalue la justesse et la syntaxe du code écrit.
+    gabarit : Écrire la [fonction|méthode|commande] [nom] qui [comportement attendu].
+    exemple réel (autre notion) : « 9. Écrire la méthode multiplie de la classe Maya qui renvoie le résultat de la multiplication par 20 d'un nombre en modélisation Maya. »
+    exemple réel (autre notion) : « b. Ecrire la fonction récursive numerotation qui parcourt l'arbre et modifie l'attribut generation de tous les ancêtres d'Albert Normand, de sorte que les parents d'Albert Normand soient la génération 1 etc… Cette fonction prend en paramètr »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 3. Écrire une fonction compte_fermante qui prend en paramètre une chaine de caractères txt et qui renvoie le nombre de parenthèses fermantes qu'il contient. »
 
-- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « 2. On considère que le coût en temps du bloc manquant est constant. Quelle est la complexité de la fonction plus_proche_voisin quand ݇1 ? Dans la suite, on suppose que ≥ 1. »
-    exemple réel (autre notion) : « 1. a. Quelles sont les adresses des réseaux locaux L1 et L2 ? »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « 15. Donner la représentation décimale de ce masque de sous-réseau. »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
+    manière de demander C17 : Question directe « quelle est » — L'élève indique une valeur, une propriété ou un élément d'une structure. Réponse courte ; le groupe reste un peu hétérogène.
+    gabarit : Quelle est la [valeur|propriété] de [objet] ?
+    exemple réel (autre notion) : « 1. Trouver la valeur exprimée en hexadécimal de la clé qui sera associée au mot 'EW'. »
+    exemple réel (autre notion) : « d. ls »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « 2. Donner et expliquer la valeur de l'expression a2.voisines[2][1]. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C4 : Expliquer ou justifier un fonctionnement — L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.
-    gabarit : Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].
-    exemple réel (autre notion) : « 7. Montrer qu'il est possible que : • arret_essai2(programme) renvoie True alors que le programme ne s'arrête pas; • arret_essai2(programme) renvoie False alors que le programme s'arrête. Indication : il n'y a pas que les boucles while qui  »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 3. La différence de hauteur entre l'ABR a1 et l'ABR a2 aura des conséquences lors de la recherche d'une valeur dans l'ABR. »
     détail du cours à évaluer (Cryptographie) : « Un chiffrement est dit symétrique lorsque la connaissance de la clé ayant servi au chiffrement permet de déchiffrer le message. »
 
 Le champ id vaut « I-securite_crypto ».

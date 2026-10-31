@@ -28,53 +28,78 @@ Extraits du cours :
 >  
 > 
 > Dans un graphe **orienté**, les *arcs* ne peuvent être empruntés que dans le sens de la flèche, et un *chemin
-> [Algorithmique > Algo parcours graphes > Algo parcours graphes]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 21 - Parcours de graphes
-> Objectifs :
-> ▷ Implémenter en Python des algorithmes de parcours de graphes et de recherche de chemins dans un graphe.
-> ▷ Utiliser ces fonctions Python pour résoudre un problème utilisant des graphes (navigation GPS, laby-
-> rinthes, mots voisins, ...,etc.)
-> 1 Introduction
-> Un des premiers algorithmes que l'on doit savoir utiliser sur un graphe est celui de son parcours.
-> Parcourir un graphe , c'est visiter ses différents sommets, afin de pouvoir opérer une action tour à tour sur
-> eux. Tous comme pour les arbres, il est possible de réaliser deux types de parcours d'un arbre :
-> — le parcours en largeur : Breadth First Search
-> — le parcours en profondeur : Depth-First Search
-> Cependant, contrairement aux arbres :
-> — il n'y a pas de racine, donc on doit choisir à partir de quel noeud on part : lenoeud source.
-> — il peut y avoir u
+> [Structures de données > Graphes > Introduction]
+> Exercice 3 du sujet 0 version A - 2024
+> 
+>     
+> 
+>     
+> 
+>     {{
+>     correction(True,
+>     """
+> \"Correction Q3.\" 
+>         La matrice d'adjacence de G1 est :
+>         $\\pmatrix{
+>         0 & 4 & 0 & 0 & 4 & 0 & 0  \\\\
+>         4 & 0 & 0 & 0 & 0 & 7 & 5  \\\\ 
+>         0 & 0 & 0 & 4 & 8 & 0 & 0  \\\\
+>         0 & 0 & 4 & 0 & 6 & 8 & 0  \\\\ 
+>         4 & 0 & 8 & 6 & 0 & 0 & 0  \\\\
+>         0 & 7 & 0 & 8 & 0 & 0 & 3  \\\\ 
+>         0 & 5 & 0 & 0 & 0 & 3 & 0  \\\\
+>         }$  
+>     """
+>     )
+>     }}
+> 
+>     {{
+>     correction(True,
+>     """
+> \"Correction Q4.\" 
+>         ```python linenums='1'
+>         G2 = {'A': ['B', 'C', 'H'],
+>               'B': ['A', 'I'],
+>               'C': ['A', 'D', 'E'],
+>               'D': ['C', 'E'],
+>               'E': ['C', 'D', 'G'],
+>               'F': ['G', 'I'],
+>               'G': ['E', 'F', 'H'],
+>               'H': ['A', 'G', 'I'],
+>               'I': ['B', 'F', 'H']
+>              }
+>  
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
-    manière de demander C0 : Écrire une méthode ou requête ciblée — L'élève produit une méthode de classe, une instruction ou une requête SQL qui réalise une opération précisément décrite ; on évalue la traduction exacte d'un besoin en code (conditions, attributs, tables).
-    gabarit : Écrire la [méthode/requête/fonction] [nom] permettant de [effet attendu sur les données].
-    exemple réel (autre notion) : « 7. Expliquer comment procéder pour déchiffrer un message lorsqu'on connaît la clé. On souhaite maintenant écrire, en Python, une fonction dechiffrement qui permet de déchiffrer un message chiffré par la méthode du masque jetable. »
-    exemple réel (autre notion) : « 3. Écrire la fonction est_nombre_positif en utilisant est_chiffre. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 4. Dans cette partie, les requêtes utilisent des jointures entre tables. On supposera donc les numéros id_membre et id_objet non connus. »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C6 : Exécuter mentalement une requête ou instruction suivante — L'élève lit une requête SQL ou une commande donnée et indique ce qu'elle renvoie. On évalue la capacité à simuler l'exécution.
+    gabarit : Donner les valeurs renvoyées par la requête suivante : [requête].
+    exemple réel (autre notion) : « b. Donner le résultat de la requête suivante :Code 1 SELECT nom, telephone FROM Equipe WHERE id_equipe = 5; »
+    exemple réel (autre notion) : « 6. Expliquer par une phrase ce que renvoie la méthode mystere. »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 12. Expliquer comment les tables Centre et Personnel sont mises en relation. »
 
-- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « 2. Par lecture et analyse des relations de la base de donnée. »
-    exemple réel (autre notion) : « 7. Donner la liste renvoyée par l'instruction sorted(etoiles). »
-    support S7 : Consigne brève sans support — Question courte et autonome, sans matériau joint notable ; l'élève répond à partir de ses connaissances ou du contexte de l'exercice.
-    exemple de support (autre notion) : « 2. Donner les quatre attributs formant la clé primaire pour la relation Mesure. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C1 : Écrire la fonction ou commande nommée — L'élève produit un code précis (fonction, méthode, commande shell) dont le nom est imposé. On évalue la justesse et la syntaxe du code écrit.
+    gabarit : Écrire la [fonction|méthode|commande] [nom] qui [comportement attendu].
+    exemple réel (autre notion) : « 3. Donner en langage SQL la requête d'insertion qui permet d'inscrire, avec le numéro 13862, la patiente dénommée Ninette Bélanger résidant à La Rochelle. »
+    exemple réel (autre notion) : « 9. À la date du 20 mars 2025, Alice a décidé de lister tous les mots de passe qui n'ont pas été renouvelés depuis plus d'un an. Écrire la requête SQL permettant de donner la liste des id_site concernés. »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 5. Écrire une méthode tracer_chemin de la classe Chemin qui affiche une représentation graphique d'un itinéraire. »
 
-- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
-    manière de demander C4 : Expliquer ou justifier un fonctionnement — L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.
-    gabarit : Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].
-    exemple réel (autre notion) : « b. Expliquer pourquoi on ne peut pas être certain que les données envoyées par une page web, depuis le navigateur d'un client, via plusieurs requêtes formulées en javascript, arrivent au serveur dans l'ordre dans lequel elles ont été émises »
-    exemple réel (autre notion) : « b. La fonction choice([True, False]) peut renvoyer False un très grand nombre de fois consécutives. Expliquer pourquoi ce cas de figure amènerait à une erreur d'exécution. »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 1. Donner les affichages obtenus après l'exécution du code Python suivant. notes = [8, 7, 18, 14, 12, 9, 17, 3] notes[3] = 16 print(len(notes)) print(notes) »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C15 : Recopier et compléter un élément — L'élève recopie puis complète une fonction, un résultat ou une table partiellement donnés. On évalue la capacité à combler les trous correctement.
+    gabarit : Recopier et compléter [la fonction|le tableau] [nom] [donné ci-dessous].
+    exemple réel (autre notion) : « 4. Recopier et compléter le code de la méthode depiler précédente. Lorsque le tube est vide, la méthode depiler doit renvoyer -1. »
+    exemple réel (autre notion) : « 6. Recopier et compléter la fonction semi_marathon. »
+    support S5 : Besoin formulé pour requête SQL — Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.
+    exemple de support (autre notion) : « 6. L'interblocage est la situation où plusieurs processus s ont bloqués car chacun attend qu'une ressource détenue par un autre se libère. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « 2. Donner les adresses IP des serveurs de la DMZ en respectant les consignes suivantes. • Serveur_web : première adresse IP du réseau • Serveur_BDD : deuxième adresse IP du réseau La configuration du poste PC_A1 est la suivante : • Adresse  »
-    détail du cours à évaluer (Algo parcours graphes) : « Cette fonction renverra la liste des sommets parcourus en partant du sommetdepart. »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 9. Décrire les nouvelles modifications à apporter à la table de routage du robot 91.  EN_MOjgzNT7QzNjAc0ND7UzMsTYxMj4A2NTAAwMDjAxNBjIx »
+    détail du cours à évaluer (Arbres) : « Si on adopte le vocabulaire des graphes, un arbre est un graphe non orienté, connexe, sans cycle, et dans lequel un nœud joue le rôle de racine. »
 
 Le champ id vaut « I-graphe ».

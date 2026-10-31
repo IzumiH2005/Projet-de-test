@@ -183,8 +183,10 @@ def stable_kmeans(Z, ks, seed=SEED, n_boot=6, min_stab=0.6, sample=4000, label="
     """Facettes auto-corrigées. Pour chaque k candidat : KMeans complet + KMeans sur des
     sous-échantillons ; la stabilité d'une facette est le Jaccard moyen avec la facette la plus
     proche des réplicats (Hennig, clusterboot). Le k retenu maximise silhouette × stabilité.
-    Puis on dissout les facettes instables (stabilité < min_stab) : leurs questions vont à la
-    facette stable la plus proche, on réajuste, et on recommence jusqu'à ce que tout soit stable."""
+    Puis on dissout une fois les facettes instables (stabilité < min_stab) : leurs questions vont à la
+    facette stable la plus proche et on réajuste. Un seul tour : dissoudre en cascade faisait
+    s'effondrer le découpage (20 -> 6 facettes) ; celles qui restent instables sont seulement
+    marquées fragiles et écartées à la génération."""
     rng = np.random.default_rng(seed)
     sub = rng.choice(len(Z), min(sample, len(Z)), replace=False)
 
@@ -212,12 +214,12 @@ def stable_kmeans(Z, ks, seed=SEED, n_boot=6, min_stab=0.6, sample=4000, label="
     bk = max(trials, key=lambda k: trials[k][2])
     km = KMeans(bk, n_init=8, random_state=seed).fit(Z)
     history = []
-    for rnd in range(4):
+    for rnd in range(2):
         st = stability(km)
         history.append({"tour": rnd, "k": int(km.n_clusters), "stabilite_moyenne": round(float(st.mean()), 3),
                         "instables": int((st < min_stab).sum())})
         bad = st < min_stab
-        if not bad.any() or km.n_clusters - bad.sum() < 4:
+        if rnd == 1 or not bad.any() or km.n_clusters - bad.sum() < 4:
             break
         km = KMeans(int((~bad).sum()), init=km.cluster_centers_[~bad], n_init=1, random_state=seed).fit(Z)
     st = stability(km)
@@ -444,11 +446,15 @@ class Discoverer:
 
     # -------------------------------------------------------------- 3. facettes
     def facets(self):
-        self.kms, self.st_s, info_s = stable_kmeans(rownorm(self.Ws), [12, 16, 20, 25, 30], label="manières de demander")
-        self.kmu, self.st_u, info_u = stable_kmeans(rownorm(self.Wu), [8, 12, 16, 20], label="types de support")
+        # Les facettes décrivent la manière dont les SUJETS demandent : on les ajuste sur les questions
+        # d'examen ; le reste du corpus d'exposition a déjà servi à apprendre le vocabulaire (NMF).
+        ex = np.array([i for i, u in enumerate(self.u) if u["src"] in ("ecrit", "pratique")])
+        Zs, Zu = rownorm(self.Ws), rownorm(self.Wu)
+        self.kms, self.st_s, info_s = stable_kmeans(Zs[ex], [16, 20, 25, 30, 36], label="manières de demander")
+        self.kmu, self.st_u, info_u = stable_kmeans(Zu[ex], [8, 12, 16, 20], label="types de support")
         s1, s2 = info_s["silhouette_finale"], info_u["silhouette_finale"]
-        self.fs = self.kms.labels_
-        self.fu = self.kmu.labels_
+        self.fs = self.kms.predict(Zs)
+        self.fu = self.kmu.predict(Zu)
 
         def describe(km, W, fac, vars_, st):
             out = {}

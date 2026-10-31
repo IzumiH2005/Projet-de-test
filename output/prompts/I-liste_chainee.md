@@ -10,29 +10,25 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Structures de données > Listes Piles Files > 2.3 Exemple d'implémentation minimale d'une liste chaînée]
-> ```python linenums='1'
->     class Cellule :
->         def __init__(self, contenu, suivante):
->             self.contenu = contenu
->             self.suivante = suivante
->     ```
+> [Structures de données > Listes Piles Files > 3.2 Implémentation(s) d'une pile]
+> L'objectif est de créer une classe ```Pile```. L'instruction  ```Pile()```  créera une pile vide. Chaque objet ```Pile``` disposera des méthodes suivantes :
 > 
-> Cette implémentation rudimentaire permet bien la création d'une liste :
+> - ```est_vide``` : indique si la pile est vide (renvoie un booléen)
+> - ```empile``` : insère un élément (passé en paramètre) en haut de la pile. Ne renvoie rien.
+> - ```depile``` : renvoie la valeur de l'élément en haut de la pile ET le supprime de la pile.
 > 
-> ```python
-> >>> lst = Cellule(3, Cellule(5, Cellule(1,None)))
-> ```
+> Ces 3 méthodes sont essentielles et se retrouveront systématiquement dans chaque interface. Nous y ajouterons, uniquement par commodité, la méthode suivante :
 > 
-> La liste créée est donc :   
+> - ```__repr__``` : permet d'afficher la pile sous forme agréable (par ex : ```|3|6|2|5|```)
 > 
-> Mais plus précisément, on a :
+> #### 3.2.1 À l'aide du type ```list``` de Python 
+> {#
 > 
->     Retrouvez comment accéder aux éléments 3, 5 et 1.
-> 
+>     Créer la classe ```Pile```   ci-dessus. 
 >     
+>     Le type ```list``` de Python est parfaitement adapté. Des renseignements intéressants à son sujet peuvent être trouvés ici.
 > 
-> On pourra remarquer que l'interface proposée à l'utilisateur n'est pas des plus pratiques...
+> 
 > [Structures de données > Les listes > Les listes]
 > Terminale - Spécialité NSI IFS Singapour
 > Chapitre 5 - Les listes
@@ -52,34 +48,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 2. Recopier et compléter les lignes 6, 8, 10 et 11 de la fonction nb_points. »
-    exemple réel (autre notion) : « 7. Recopier et compléter les lignes 4, 5, 6 et 9 de la méthode melanger donnée ci-dessous.  1 def melanger(self, n):  2 precedent = None  3 i = 0  4 while ... :  5 possibilites = ...  6 choix = ...  7 if choix != precedent :  8 self.jouer(c »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 1. Déchiffrer le message (6,2) (3,6) (3,5) (2,2) en utilisant la grille ci-dessus. Une façon simple de construire un tableau consiste à choisir un mot qu'on appellera clé, à écrire cette clé dans le tableau puis à compléter avec les autres lettres dans l'ordre »
+- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « 7. Recopier et compléter les lignes 3, 5 et 6 de le fonction degre qui prend en paramètre la matrice d'adjacence d'un graphe donné sous forme d'une liste de listes et qui renvoie la liste des degrés de tous les sommets du graphe rangés dans »
+    exemple réel (autre notion) : « 6. Compléter les lignes 9 et 14 du code précédent pour que la méthode empiler permette d'empiler un élément elt dans une pile et que la méthode depiler permette de dépiler une pile en renvoyant l'élément dépilé. Vous n'écrirez que le code d »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 2. Codage des entiers relatifs : Pour effectuer la soustraction sur 8 bits : 65 – 58, un processeur effectue l'addition : 65 + (-58) où -58 est obtenu par la méthode du complément à deux. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : milieu d'exercice
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 3) Indiquer l'adresse IP de la passerelle donnant au serveur web l'accès à Internet.  Réseau services 192.168.254.2 192.168.254.1 Réseau local 192.168.0.254 Figure 3 192.168.254.1 192.168.254.2 »
-    exemple réel (autre notion) : « a. Lors de l'exécution de maxi([2, 4, 9, 1]) une erreur est déclenchée. Identifier et corriger le problème. »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 5. Recopier et compléter les lignes manquantes pour définir le tableau t_routage pour qu'il modélise complètement la table de routage du routeur R1 (vous écrirez les numéros de lignes complétées).  1 t_routage = [ ((192, 168, 1, 0, 24), 'G0', 0),  2 ...,  3 .. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 8. Rappeler brièvement ce qu'est un algorithme de chiffrement asymétrique. On suppose à présent que Bob possède une clé publique et une clé privée. La clé publique de Bob est supposée connue par le serveur. »
+    exemple réel (autre notion) : « 9. Proposer alors une solution pour que le serveur puisse envoyer la clé C à l'ordinateur de Bob de façon sécurisée, c'est-à-dire pour que seul Bob puisse déchiffrer la clé envoyée. »
+    support S10 : Prose riche en virgules — Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.
+    exemple de support (autre notion) : « 2. Dans un premier temps, les tables de routage des routeurs sont configurées manuellement (voir figure 2).  Routeur R1 Destination Suivant SiteA Local SiteB R2 SiteC R3 SiteD R3  Routeur R2 Destination Suivant SiteA R1 SiteB Local SiteC R3 SiteD R3  Routeur R »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « 9. Écrire alors une fonction table_routage(graphe, routeur) qui renvoie la table de routage du routeur passé en paramètre sous la forme d'un dictionnaire associant à chaque routeur destination la passerelle correspondante. On pourra utilise »
-    exemple réel (autre notion) : « a. Donner la liste des routeurs avec lesquels le routeur A est directement relié. »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 6. Donner une requête qui modifie en conséquence le prix de cet appartement. »
+    manière de demander C11 : Analyser une ligne de code précise — L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.
+    gabarit : Expliquer le rôle de la ligne [n] de la fonction [nom].
+    exemple réel (autre notion) : « 6. Recopier et compléter la ligne 3 du code ci-dessous afin que n soit égal au nombre total d'éléments nécessaires dans le dictionnaire dmateriel. »
+    exemple réel (autre notion) : « 11. Compléter la ligne 5 de la fonction montant_a_regler. 1 def montant_a_regler(triplet): 2 """ renvoie le montant en euros 3 à régler pour cette réservation """ 4 client, reservation, emplacement = triplet 5 return ....................... »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 9. Recopier et compléter les lignes 5 et 6 de cette fonction afin qu'elle renvoie la distance attendue. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C20 : Énoncés de mise en situation — Mélange d'énoncés introductifs et de questions descriptives (arbres, parité, interfaces) ; groupe défini par des tournures génériques plutôt que par un geste.
-    gabarit : On considère [situation]. Indiquer [éléments] qui [propriété].
-    exemple réel (autre notion) : « 2. La fonction logique OU EXCLUSIF, appelée XOR et représentée par le symbole ⊕, fournit une sortie égale à 1 si l'une ou l'autre des deux entrées vaut 1 mais pas les deux.  On donne ci -contre la table de vérité de la fonction XOR.  Si on  »
-    détail du cours à évaluer (Les files) : « Liste chaînée :Insérez successivement les valeurs 10, 20 et 30 en queue de liste. »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 4) Écrire un programme en langage Python permettant :  a) la création d'une instance lancelot de cette classe ayant pour attributs 5,5,5 en coordonnées, 15 en point_de_vie et 3 en point_degats.  b) la création d'une instance sorcier de cett »
+    détail du cours à évaluer (Les listes) : « On a donc affaire à une chaîne de cellules qu'on appelle plus couramment uneliste chaînée. »
 
 Le champ id vaut « I-liste_chainee ».

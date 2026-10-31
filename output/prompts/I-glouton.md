@@ -10,69 +10,80 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Algorithmique > Programmation dynamique > Programmation dynamique]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 22 - Programmation dynamique
-> Objectifs :
-> ▷ Utiliser la programmation dynamique pour écrire un algorithme.
-> ▷ Comprendre les exemples du rendu de monnaie et de l'alignement de séquences.
-> ▷ Comparer un algorithme de force brute, un algorithme glouton et un algorithme en programmation dy-
-> namique sur le problème du rendu de monnaie.
-> ▷ Montrer les conséquences sur le coût en mémoire des algorithmes de programmation dynamique
-> 1 Introduction
-> On dispose de la grille2 × 3 ci-dessous.
-> Question : Combien de chemins mènent du coin supérieur gauche au coin inférieur droit, en se déplaçant
-> uniquement le long des traits horizontaux vers la droite et le long des traits verticaux vers le bas?
-> Et pour une grille10 × 10?
-> 2 Principe de la programmation dynamique
-> La programmation dynamique est une technique créée parRichard Bellman dans les années 1950. À l'o
-> [Programmation > Pratiques de programmation > 4.2 Revoilà les ```assert```]
-> Utiliser des ```assert``` permet d'écrire très simplement les tests précédents.
+> [Programmation > Programmation Orientee Objet > Exercices]
+> **Q1.** Écrire une classe ```Eleve``` qui contiendra les attributs ```nom```, ```classe``` et ```note```.
+>     
 > 
-> Reprenons notre fonction ```valeur_absolue()```. Sa fonction test  ```test_valeur_absolue()``` peut s'écrire :
+>     **Q2.** Instancier trois élèves de cette classe.
+>     
 > 
-> ```python
-> def test_valeur_absolue():
->     assert valeur_absolue(-3) == 3
->     assert valeur_absolue(0) == 0
->     assert valeur_absolue(7) == 7
+>     **Q3.**  Écrire une fonction ```compare``` qui prend en paramètres deux élèves ```eleve1``` et ```eleve2``` qui renvoie le nom de l'élève ayant la meilleure note (on ne traitera pas à part le cas d'égalité).
 > 
-> ```
+>         ```python
+>         >>> riri = Eleve("Henri", "TG2", 12)
+>         >>> fifi = Eleve("Philippe", "TG6", 15)
+>         >>> loulou = Eleve("Louis", "TG1", 8)
+>         >>> compare(riri, fifi)
+>         'Philippe'
+>         ```
 > 
-> **Exercice :**  
-> Écrire une fonction ```maxi(liste)``` qui renvoie le plus grand élément de la liste ```liste``` passée en paramètre (de préférence sans utiliser la fonction ```max()``` ...).  
-> Vous écrirez **d'abord** une fonction ```test_maxi()``` avant d'écrire la fonction ```maxi(liste)```
+>     
+>     Écrire une classe ```TriangleRect``` qui contiendra les attributs ```cote1```, ```cote2``` et ```hypotenuse```.
+> 
+>     La méthode constructeur ne prendra en paramètres que ```cote1``` et ```cote2```, l'attribut ```hypotenuse``` se calculera automatiquement.
+> 
+>         ```python
+>         >>>
+> [Algorithmique > Programmation dynamique > 1. Retour sur l'algorithme glouton]
+> Nous avons vu en Première un algorithme capable de donner une combinaison de pièces pour rendre la somme ```somme```.
+> 
+> Cet algorithme fonctionnait de manière gloutonne : on cherche à rendre à chaque fois la plus grosse pièce possible.
+> 
+>     Compléter la fonction ```rendu_glouton``` qui prend en paramètres une liste de pièces ```pieces``` (classées dans l'ordre **croissant**) et la somme à rendre ```somme``` et qui renvoie **le nombre minimal** de pièces qu'il faut rendre.
+> 
+>     ```python linenums='1'
+>     def rendu_glouton(pieces, somme):
+>         i =  ... # (1)
+>         nb_pieces = ...
+>         while ... > ...:
+>             if ... >> rendu_glouton([1, 2, 5], 12)
+>     3
+>     ``` 
+> 
+>     
+> 
+> Nous savons que cet algorithme est optimal sous certaines conditions sur la composition des pièces. Par exemple le système des euros (1, 2, 5, 10, 20, 50, 100, 200) rend l'algorithme glouton optimal (on dit que le
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 4. Recopier et compléter sur la copie les lignes 5, 9 et 10 de la fonction separe_elements. »
-    exemple réel (autre notion) : « 3. Recopier et compléter les lignes 2, 7, 9, 11 et 13 du code de la fonction dernier. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 11. Expliquer dans quel cas la fonction precede exécutera la dernière instruction return de la ligne 7. »
+    manière de demander C18 : Tracer une boucle Python donnée — L'élève suit l'exécution d'un code avec boucles for/range pour en déduire une valeur ou un affichage. On évalue la trace d'exécution.
+    gabarit : Déterminer la valeur de [variable] à l'issue des instructions suivantes : [code].
+    exemple réel (autre notion) : « 7. renvoyer mystereABR(filsgauche(a)) »
+    exemple réel (autre notion) : « 9. L.append(L2[i2]) »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 8. Recopier et compléter le code Python pour la méthode tarif de la classe Course suivant.  1 def tarif(self):  2 type_vehicule = ...  3 donnees_tarifaire = vehicules[type_vehicule]  4 prise_en_charge = ...  5 tarif_h = ...  6 prix_km = ...  7 tarif = ...  8 t »
 
 - slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 3. Écrire une fonction note_maxi qui prend en paramètre un dictionnaire dico (de même structure que dico_livres) et qui renvoie la note maximale. »
-    exemple réel (autre notion) : « c) Écrire une fonction somme en langage Python qui prend un paramètre W du même type que la variable V et qui renvoie la somme des valeurs de W. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 7. Écrire une fonction comptes_dans_le_rouge qui prend en paramètre comptes une liste de comptes et qui renvoie la liste des comptes de cette liste dont le montant est strictement négatif. »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 4. a. Recopier sur la copie et compléter les points de suspension ... du code de la fonction regleA ci-dessous pour qu'elle renvoie True si la chaîne passée en paramètre est construite suivant la règle A, et False sinon. def regleA(chaine): »
+    exemple réel (autre notion) : « 4. Écrire le code de la méthode est_resultat pour la classe Noeud. »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 7. En utilisant la fonction eff_dico précédente, écrire une fonction majo_abs2 qui prend en paramètre une liste lst, et qui renvoie son élément absolument majoritaire s'il existe et renvoie None sinon. »
 
-- slot 3 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : milieu d'exercice
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 18. Indiquer, en justifiant, laquelle de ces deux commandes a produit l'affichage :  4 packets transmitted, 4 received, 0% packet loss, time 3002ms »
-    exemple réel (autre notion) : « 2. dossier = racine »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 7. Recopier et compléter la ligne 2 du code de la fonction select_tel. »
+- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « c. Écrire une fonction insertion(kppv, idx, d)qui insère le tuple (idx, d) dans la liste kppv préalablement triée en préservant l'ordre décroissant selon l'élément d. »
+    exemple réel (autre notion) : « 1. Compléter le constructeur qui renvoie un objet Marchandise. Utiliser le mot-clé assert afin qu'une exception soit levée si le paramètre v n'est pas strictement positif. On rappelle que si condition est une expression Python booléenne s'é »
+    support S14 : Prose avec parenthèses — Phrases contenant des parenthèses (couples, types, précisions). Artefact de ponctuation sans matériau commun.
+    exemple de support (autre notion) : « 9. Dans le cas où arret(code_paradoxe, code_paradoxe) renvoie True, préciser la prochaine instruction à être exécutée. Dans ce cas, expliquer si l'appel paradoxe(code_paradoxe) termine. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C12 : Exploiter l'élément fourni ci-dessous — La consigne renvoie à un document joint (commandes, circuit, requêtes numérotées, classe, code) à sélectionner, compléter ou utiliser ; on évalue la lecture attentive du support plus qu'une notion précise.
-    gabarit : Parmi les [éléments] ci-dessous, [sélectionner/compléter/utiliser] ceux qui permettent de [objectif].
-    exemple réel (autre notion) : « 9. Recopier et compléter le schéma ci-dessous avec les processus P1 à P5 en utilisant les informations présentes dans le tableau ci-dessus et l'algorithme d'ordonnancement "par ordre de soumission". »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 1. Donner pour la table Agences un type possible pour l 'attribut CP qui indique le code postal. »
     détail du cours à évaluer (Programmation dynamique) : « Compléter la fonction _glouton ci-dessous qui calcule de manière gloutonne le "meilleur" trajet d'une pyramide »
 
 Le champ id vaut « I-glouton ».

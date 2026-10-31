@@ -10,66 +10,92 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Algorithmique > Recherche textuelle > Recherche textuelle]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 23 - Recherche textuelle
-> Objectifs :
-> ▷ Comprendre le principe de la recherche textuelle.
-> ▷ Etudier l'algorithme deBoyer-Moore pour la recherche d'un motif dans un texte.
-> 1 Introduction
-> Tout logiciel de traitement de texte possède une fonction de recherche textuelle, permettant de trouver un mot
-> ou une partie d'un mot (chaîne ou sous-chaîne). Il en est de même pour les navigateurs Internet.
-> Ainsi, le raccourci clavierCTRL+F permet de rechercher dans la page la chaine"mot".
-> Les algorithmes qui permettent de trouver unesous-chaîne de caractères dans une chaine de caractères plus
-> grande sont des "grands classiques" de l'algorithmique. On parle aussi de recherche d'unmotif dans un texte.
-> Voici un exemple. Soit le texte suivant :
-> "Les sanglots longs des violons de l'automne blessent mon coeur d'une langueur monotone. Tout suffocant et
-> blême, qu
-> [Structures de données > Dictionnaires > Exercices sur les dictionnaires]
-> On considère la liste suivante :
+> [Structures de données > Listes Piles Files > Introduction]
+> Exercice 5 du sujet Centres Étrangers 1 - 2021
 > 
->     ```lst = ['5717', '1133', '5545', '4031', '6398', '2734', '3070', '1346', '7849', '7288', '7587', '6217', '8240', '5733', '6466', '7972', '7341', '6616', '5061', '2441', '2571', '4496', '4831', '5395', '8584', '3033', '6266', '2452', '6909', '3021', '5404', '3799', '5053', '8096', '2488', '8519', '6896', '7300', '5914', '7464', '5068', '1386', '9898', '8313', '1072', '1441', '7333', '5691', '6987', '5255']``` 
+>     Exercice 1 du sujet La Réunion J2 - 2022
 > 
->     Quel est le **chiffre** qui revient le plus fréquemment dans cette liste ?
+>     Exercice 2 du sujet Métropole Candidats Libres J1 - 2021
 > 
->      
->     {{
->     correction(True,
+>     Exercice 5 du sujet Amérique du Nord J1 - 2021
+> 
+>     Exercice 2 du sujet Centres Étrangers J1 - 2022
+> 
+>     Exercice 3 du sujet Centres Etrangers J1 - 2023
+> 
+>     Jeu du Simon
+> 
+>     Cet exercice est basé sur l'énigme n°5 d'Advent Of Code 2018.
+> 
+>     Le but est de réduire le plus possible une chaîne de caractères (comme ```dabAcCaCBAcCcaDA``` ) en obéissant à la règle suivante :
+> 
+>         Dès que deux lettres identiques mais de casse différente (majuscule-minuscule ou minuscule-majuscule) sont côte à côte dans la chaîne, on les supprime de la chaîne.
+> 
+>     Exemple : 
+>     ```
+>     dabAcCaCBAcCcaDA  On enlève le premier 'cC'.
+>     dabAaCBAcCcaDA    Cela donne naissance à un 'Aa', qu'on enlève.
+>     dabCBAcCcaDA      On enlève alors 'cC' (ou 'Cc'
+> [Programmation > Pratiques de programmation > 4.3 Le module ```doctest```]
+> Le module ```doctest```  permet d'écrire les tests **à l'intérieur** de la docstring d'une fonction. 
+> 
+> Considérons une fonction dont le but est de compter les voyelles du mot passé en paramètre.
+> 
+> ```python
+> def compte_voyelles(mot):
 >     """
-> \"Correction\" 
->         ```python linenums='1'
->         lst = ['5717', '1133', '5545', '4031', '6398', '2734', '3070', '1346', '7849', '7288', '7587', '6217', '8240', '5733', '6466', '7972', '7341', '6616', '5061', '2441', '2571', '4496', '4831', '5395', '8584', '3033', '6266', '2452', '6909', '3021', '5404', '3799', '5053',
+>     renvoie le nombre de voyelles du mot donné en paramètre.
+>     >>> compte_voyelles("python")
+>     2
+>     >>> compte_voyelles("HTTP")
+>     0
+>     >>> compte_voyelles("eau")
+>     3
+>     """
+>     voyelles = "aeiou"
+>     total = 0
+>     for lettre in mot:
+>         if lettre in voyelles:
+>             total += 1
+>     return total
+> ```
+> 
+> Observez bien la docstring : elle contient explicitement ce qu'on veut que renvoie le terminal lorsqu'on appellera la fonction.
+> On écrit donc les trois chevrons ```>>>``` suivi de l'appel à la fonction, et à la ligne en dessous ce que nous espérons que la fonction nous renvoie.
+> On peut écrire autant de tests que l'on veut.
+> 
+> Ensuite, en co
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C11 : Traiter des chaînes de caractères — Questions de programmation ou d'analyse portant sur des chaînes (parcours, inversion, validation, exemple qui fait échouer un test) ; on évalue la manipulation de caractères et d'indices.
-    gabarit : Écrire une fonction [nom] qui prend en paramètre une chaîne de caractères [s] et renvoie [résultat]. Exemple : [nom]([entrée]) renvoie [sortie].
-    exemple réel (autre notion) : « 7. Déterminer le nombre de comparaisons effectuées si on applique l'algorithme précédent à la chaine de caractères 'tab[2*(i + 4)] - tab[3]'. En déduire le nombre maximum de comparaisons effectuées si on applique l'algorithme précédent à un »
-    exemple réel (autre notion) : « b. Indiquer sans justification la complexité en temps de calcul de cet algorithme pour un mot de longueur n. Remarque : on ne comptera que les comparaisons de caractères. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 1. Expliquer pourquoi, lorsqu'un formulaire contient une quanti té importante de données, il est préférable d'utiliser la méthode POST plutôt que GET. »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 5. Écrire le code de la méthode est_resultat pour la classe Feuille_resultat. »
+    exemple réel (autre notion) : « 11. Écrire le code de la fonction scratch qui prend en paramètres un dictionnaire de performances dico et une année annee, et qui renvoie le meilleur temps (toutes catégories confondues) de cette année. On suppose que annee est une clé prés »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 13. Écrire une fonction valeurs_chemin qui prend en paramètre chemin une liste de sommets et renvoie la liste de leurs valeurs. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C24 : Compléter une fonction à trous — L'élève recopie et complète une fonction ou une table entière (parfois à partir d'une ligne donnée) ; on évalue l'achèvement d'un code partiellement fourni.
-    gabarit : Recopier et compléter la fonction [nom] (à partir de la ligne [n]) qui [comportement].
-    exemple réel (autre notion) : « 4. Recopier et compléter la section de code que Bachir doit modifier pour répondre à l'annonce. »
-    exemple réel (autre notion) : « 4. a. Donner le contenu des piles B et q à la fin de chaque itération de la boucle while de la ligne 5. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 8. Recopier et compléter les lignes 8, 9, 14 et 15 de la fonction calcule_aux qui prend en paramètre une liste de liste carte et renvoie la liste auxiliaire associée.  1 def calcule_aux(carte):  2 n = len(carte)  3 aux = [[0 for j in range(n)] for i in range(n »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « b. Quel type de parcours a été réalisé par le système d'exploitation ? »
+    exemple réel (autre notion) : « a. Expliquer dans quel cas cette méthode renvoie None. »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 2. Dans cette question uniquement, on considère que l'acheminement des colis de plus de 25 kg est refusé par le transporteur.  Recopier et modifier le code de la fonction ajouter_colis afin qu'elle ajoute le colis à la liste si son poids est inférieur ou égal  »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C13 : Raisonner sur une figure — La question s'appuie sur une figure numérotée (arbre, réseau, arborescence, configuration) que l'élève lit, mesure ou complète ; on évalue la lecture d'une représentation graphique.
-    gabarit : En vous appuyant sur la figure [n], [donner/justifier/compléter] [propriété de l'objet représenté].
-    exemple réel (autre notion) : « 7. Justifier qu'il s'agit d'une fonction récursive. »
-    exemple réel (autre notion) : « 9. Justifier que le code proposé ci-dessus ne permet pas de s'assurer que la contrainte d'un nombre maximal de routes contenues dans la liste est respectée.  EN_NOzUzMD2M0ODAczOT4UzMmTYxMj1A2MDEO2OTtQ0MDTcx On souhaite créer une classe Rout »
-    support S0 : Énoncé en prose avec numéros — Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.
-    exemple de support (autre notion) : « 11. Donner une valeur possible de graphe_4_4[9] en supposant que graphe_4_4 est la liste d'adjacence représentant le graphe associé à une grille à 4 lignes et 4 colonnes. »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 7. Donner une requête qui renvoie le prix maximal d'un appartement situé dans un immeuble de la rue 'la mer'. »
+    exemple réel (autre notion) : « 1. (a) Donner sans justiﬁcation la hauteur de cet arbre. (b) Donner sans justiﬁcation la valeur booléenne de l'expression"Allemagne" < "Portugal" . (c) Recopier l'arbre après l'ajout de"Allemagne", de "Portugal" et de "Luxembourg" dans cet  »
+    support S4 : Prose multi-lignes sans forme distinctive — Texte d'énoncé courant sur plusieurs lignes, sujets divers (algorithmes, graphes, Huffman). Forme générique, pas de matériau spécifique.
+    exemple de support (autre notion) : « 2. Indiquer l'état de chacun des trois processus P1, P2 et P3 dans cette situation. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C11 : Traiter des chaînes de caractères — Questions de programmation ou d'analyse portant sur des chaînes (parcours, inversion, validation, exemple qui fait échouer un test) ; on évalue la manipulation de caractères et d'indices.
-    gabarit : Écrire une fonction [nom] qui prend en paramètre une chaîne de caractères [s] et renvoie [résultat]. Exemple : [nom]([entrée]) renvoie [sortie].
-    exemple réel (autre notion) : « 3. Écrire une fonction compte_fermante qui prend en paramètre une chaine de caractères txt et qui renvoie le nombre de parenthèses fermantes qu'il contient. »
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 3) Écrire en langage Python une fonction surmax qui prend en paramètre listeV, du même type que la variable listeVilles, et renvoie la ville ayant la superficie la plus grande. On admet que deux villes n'ont pas la même superficie.  EXERCIC »
     détail du cours à évaluer (Recherche textuelle) : « #### 1.3.1 Récupération du texte dans une seule chaîne de caractères »
 
 Le champ id vaut « I-chaines ».

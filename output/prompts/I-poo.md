@@ -10,22 +10,6 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Programmation > Programmation objet > Programmation objet]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 3 - Programmation orientée objet
-> Objectifs :
-> ▷ Connaître le vocabulaire de la programmation objet : classes, attributs, méthodes, objets.
-> ▷ Ecrire la définition d'une classe
-> ▷ Accéder aux attributs et méthodes d'une classe.
-> 1 Introduction
-> Jusqu'à présent nous avons utilisé des objets dont le type est prédéfini :int, float, bool, str, list,
-> tuple, dict. Sans le savoir, nous avons découvert les concepts de laprogrammation orientée objet
-> ou POO. Ainsi, en classe de Première, nous avions déjà appris à utiliser des méthodes associées à ces
-> types, comme :
-> ma_liste.append(valeur)
-> Comme de nombreux autres langages tels queJava ou C++, Python est un langage orienté objet .
-> On peut donc dire que tout y estobjet. Une variable de typeint est en fait un objet de typeint donc
-> construit à partir de la classeint. Idem pour lesfloat et str. Mais également
 > [Programmation > Programmation Orientee Objet > 2.2 Création d'une classe]
 > #### 2.2.1 (mauvaise) manière minimale
 > Créons une classe «voiture». Il suffit d'écrire :
@@ -59,37 +43,61 @@ Extraits du cours :
 > ```
 > 
 > Mais arrêtons-là cette mauvaise méthode. Si on désire créer une classe «voiture», c'est pour créer un concept générique de voiture et d'en spécifier des caractéristiques communes  : l'année, la couleur
+> [Programmation > Programmation Orientee Objet > Exercices]
+> **Q1.** Écrire une classe ```Eleve``` qui contiendra les attributs ```nom```, ```classe``` et ```note```.
+>     
+> 
+>     **Q2.** Instancier trois élèves de cette classe.
+>     
+> 
+>     **Q3.**  Écrire une fonction ```compare``` qui prend en paramètres deux élèves ```eleve1``` et ```eleve2``` qui renvoie le nom de l'élève ayant la meilleure note (on ne traitera pas à part le cas d'égalité).
+> 
+>         ```python
+>         >>> riri = Eleve("Henri", "TG2", 12)
+>         >>> fifi = Eleve("Philippe", "TG6", 15)
+>         >>> loulou = Eleve("Louis", "TG1", 8)
+>         >>> compare(riri, fifi)
+>         'Philippe'
+>         ```
+> 
+>     
+>     Écrire une classe ```TriangleRect``` qui contiendra les attributs ```cote1```, ```cote2``` et ```hypotenuse```.
+> 
+>     La méthode constructeur ne prendra en paramètres que ```cote1``` et ```cote2```, l'attribut ```hypotenuse``` se calculera automatiquement.
+> 
+>         ```python
+>         >>>
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C7 : Dénombrer une quantité — L'élève calcule ou programme un comptage (machines d'un réseau, sauts, appels récursifs, occurrences) ; on évalue la maîtrise de ce qu'on compte et des bornes du comptage.
-    gabarit : Déterminer le nombre de [éléments] [dans/lors de] [situation], ou écrire une fonction qui renvoie ce nombre.
-    exemple réel (autre notion) : « c. Donner le nombre maximal de machines que l'on peut connecter sur ce réseau. »
-    exemple réel (autre notion) : « b. Indiquer le nombre maximum de machines que l'on pourra connecter sur ce réseau F. »
-    support S6 : Texte avec parenthèses explicatives — Support riche en parenthèses (signatures, précisions, sous-questions (a)(b)) ; l'élève doit tenir compte des précisions et des paramètres annoncés.
-    exemple de support (autre notion) : « 11. Recopier et compléter le schéma du réseau (Figure. 1) en ajoutant le routeur R7 et le réseau local N5. »
+    manière de demander C16 : Écrire une requête SQL — L'élève rédige une requête SQL répondant à un besoin formulé en langage naturel. On évalue sélection, jointures, filtres et tris.
+    gabarit : Écrire une requête SQL permettant d'afficher [attributs] des [entités] [condition].
+    exemple réel (autre notion) : « 1. Parmi les trois requêtes suivantes, écrites dans le langage SQL, laquelle renvoie les valeurs de tous les attributs des plats de la catégorie 'entrée' : R1 : SELECT nom, prix FROM Plat WHERE categorie = 'entrée'; R2 : SELECT * FROM Plat  »
+    exemple réel (autre notion) : « c) Écrire une requête permettant de modiﬁer le tarif de location d'un nettoyeur à haute pression pour le passer à 15 € par jour au lieu de 20 € par jour. »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 3. Justifier que la boucle de la fonction précédente se termine. »
 
-- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C17 : Identifier le rôle d'une clé — Questions sur les clés primaires et étrangères (identifier, justifier, expliquer le rôle), parfois clés de chiffrement ; on évalue la compréhension des contraintes d'intégrité.
-    gabarit : Indiquer la clé [primaire/étrangère] de la relation [nom] et préciser son rôle.
-    exemple réel (autre notion) : « 7. Expliquer le rôle de l'attribut id_album de la table Chanson. »
-    exemple réel (autre notion) : « 1. Expliquer le choix de num_dossard comme clé primaire pour la relation coureur. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « b. Donner une commande en langage SQL permettant d'obtenir l'ensemble des adresses IP ayant interrogé le site, sans doublon. »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « a. Proposer un schéma relationnel (sous forme de tableau) pour la table Statistique qui permette de stocker les informations relatives aux statistiques des joueuses dans la base de données, telles que présentées ci-dessus. Préciser la clé p »
+    exemple réel (autre notion) : « 3. Écrire une requête SQL permettant de mettre à jour son état dans la base de données. »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « b) Indiquer ce que signifie le " mode ='r'" à la ligne 8. »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C11 : Traiter des chaînes de caractères — Questions de programmation ou d'analyse portant sur des chaînes (parcours, inversion, validation, exemple qui fait échouer un test) ; on évalue la manipulation de caractères et d'indices.
-    gabarit : Écrire une fonction [nom] qui prend en paramètre une chaîne de caractères [s] et renvoie [résultat]. Exemple : [nom]([entrée]) renvoie [sortie].
-    exemple réel (autre notion) : « b. Écrire une requête SQL donnant le numéro de télépho ne d'une cliente s'appelant "Grace Hopper".  3. Dans cette base de données, les dates DateArr , DateDep sont au format chaîne de caractères 'aaaa-mm-jj' . Par exemple, la chaîne '2020-1 »
-    exemple réel (autre notion) : « 1. Recopier et compléter la ligne 4 de la fonction est_operateur. On souhaite maintenant écrire une fonction est_nombre qui prend en paramètre une chaîne de caractères s et qui renvoie si s correspond à un nombre (positif ou négatif). Par e »
-    support S7 : Consigne brève sans support — Question courte et autonome, sans matériau joint notable ; l'élève répond à partir de ses connaissances ou du contexte de l'exercice.
-    exemple de support (autre notion) : « 4. a. Vérifier ces inégalités sur l'arbre binaire de la question 1.a. »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 5. Donner le code de la fonction asc_desc. »
+    exemple réel (autre notion) : « 9. Écrire un algorithme en pseudo-code de la fonction liste_stations. »
+    support S5 : Besoin formulé pour requête SQL — Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.
+    exemple de support (autre notion) : « 2. Expliquer pourquoi l'attribut habitat de la table papillon ne peut pas être une clé primaire. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « 14. Recopier et compléter , à l'aide des fonctions rechercher_chemins et chemin_valeur, les lignes de code suivantes qui permettent d'obtenir tous les chemins non prolongeables du jeu à 9 entiers représentés par la liste des valeurs de leur »
-    détail du cours à évaluer (Arbres) : « Écrire la méthode hauteur de la classe Arbre qui renvoie la hauteur de l’arbre. »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 4. Donner la valeur associée à e1, e2 et e3 (si la chaine existe) »
+    détail du cours à évaluer (Arbres) : « Si l'arbre est vide, on renvoie un nouvel objet Arbre contenant la clé. »
 
 Le champ id vaut « I-poo ».

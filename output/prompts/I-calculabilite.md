@@ -24,54 +24,39 @@ Extraits du cours :
 > L'indécidabilité est un concept fondamental en logique. Il a plusieurs sens. Au sens de la démonstration, il
 > signifie qu'on ne peut démontrer ni qu'une proposition est vraie ni qu'elle est fausse dans un système d'axiomes;
 > ici, le contenu sémantique ne permet d'affirmer ni que l'objet est une pipe ni qu'il n'en est pas une. 
-> [Programmation > Calculabilite Decidabilite > 2.5 Conclusion]
-> Nous venons de prouver que notre programme ```halt```, censé prédire si un programme ```prog``` peut s'arrêter sur une entrée ```x```, **NE PEUT PAS EXISTER**.
-> 
-> Ce résultat théorique, d'une importance cruciale, s'appelle **le problème de l'arrêt**.
-> 
->     Il **ne peut pas exister** de programme universel qui prendrait en entrées :
-> 
->      - un programme P 
->      - une entrée E de ce programme P
-> 
->     et qui déterminerait si ce programme P, lancé avec l'entrée E, va s'arrêter ou non. 
-> 
-> Ce résultat a été démontré par Alan Turing en 1936, dans un article intitulé *«On computable numbers, with an application to the Entscheidungsproblem»*.
-> 
-> Pour sa démonstration, il présente un modèle théorique de machine capable d'exécuter des instructions basiques sur un ruban infini, les machines de Turing.
-> 
-> À la même époque, le mathématicien Alonzo Church démontre lui aussi ce théorème de l'arrêt, mais par un m
+> [Programmation > Calculabilite Decidabilite > 2. Calculabilité]
+> Le problème de l'arrêt est dit **indécidable** car la fonction qui le résout (notre brave programme ```halt```) n'est pas **calculable**.
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C12 : Exploiter l'élément fourni ci-dessous — La consigne renvoie à un document joint (commandes, circuit, requêtes numérotées, classe, code) à sélectionner, compléter ou utiliser ; on évalue la lecture attentive du support plus qu'une notion précise.
-    gabarit : Parmi les [éléments] ci-dessous, [sélectionner/compléter/utiliser] ceux qui permettent de [objectif].
-    exemple réel (autre notion) : « 1. Le labyrinthe ci-dessous est censé être représenté par le tableau de tableaux lab2. Cependant, dans ce tableau, un mur se trouve à la place du départ du labyrinthe. Donner une instruction permettant de placer le départ au bon endroit dan »
-    exemple réel (autre notion) : « a. Recopier et compléter le tableau ci-dessous qui dét aille le fonctionnement de cet algorithme étape par étape pour la file 2,1,3 . Une étape correspond à une modification de la pile ou de la file. Le nombre de colonnes peut bien sûr être »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « 1. Donner les clés primaires des relations Films et Abonnes. »
+- slot 1 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 1. Écrire en Python une fonction corrige qui prend en paramètre cop et corr, deux listes d'entiers entre 1 et 5 et qui renvoie la liste des booléens associée à la copie cop selon la correction corr. »
+    exemple réel (autre notion) : « 3. Écrire en Python une fonction notes_paquet qui prend en paramètre un paquet de copies p et une correction corr et qui renvoie un dictionnaire dont les clés sont les noms des candidats du paquet p et les valeurs sont leurs notes selon la  »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 17. Recopier et compléter l e code de l a fonction welsh_powell donné ci-après. »
 
 - slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 3. Écrire en SQL les requêtes permettant d'eﬀectuer les tâches suivantes : (a) Aﬃcher le nom et le prénom de tous les abonnés. (b) Aﬃcher le titre et la durée des ﬁlms projetés le 12 octobre 2021 à21:00. On remarquera que les heures apparai »
-    exemple réel (autre notion) : « 14. Donner le nom du protocole de routage qui semble être utilisé. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « 4. Écrire une requête SQL permettant d'ajouter la chanson dont le titre est Megalomania de l'album Hullabaloo du groupe Muse. »
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « 5. Recopier et compléter les lignes 3 et 5 de la méthode indice. On admet que la classe Taquin dispose d'une méthode est_possible qui prend en paramètre un entier numero, compris entre 1 et 8 inclus, et qui renvoie True s'il est possible de »
+    exemple réel (autre notion) : « 5. Recopier et compléter les lignes 4 à 8 de la fonction itineraire. »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 3. Connexion du PC8 au réseau Répondre au questionnaire sur le document réponse joint en cochant la ou les bonnes réponses. »
 
-- slot 3 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 3. Dessiner l'arbre obtenu après l'ajout de la valeur 6. »
-    exemple réel (autre notion) : « 1. Si on se donne l'état e2 = [1, 1, 0, 1, 0, 0] indiquer quels sont les lancers possibles. »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 4. Recopier et compléter la méthode grille_demineur_vide de la classe Demineur qui permet d'initialiser une grille vide du jeu. EN_NOzUzMD2M0ODAczOT1UzMmTYxMj5A2MDEO2OTdQ5MLTcx  def grille_demineur_vide(self):  return [[0 for _ in range(...)] for _ in range(. »
+- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
+    manière de demander C5 : Donner le nom ou l'instruction — L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.
+    gabarit : Donner le [nom|tuple|instruction] correspondant à [situation].
+    exemple réel (autre notion) : « a. Indiquer un attribut de la table Album. »
+    exemple réel (autre notion) : « 4. Donner le nom du parcours réalisé par le code précédent. »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 4. a. Vérifier ces inégalités sur l'arbre binaire de la question 1.a. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C3 : Questions de raisonnement hétérogènes — Mélange de consignes (dessiner un graphe, comparer, justifier, lister des dépendances) liées par des tournures pluriel génériques ; le point commun est seulement un raisonnement contextualisé sur une situation.
-    gabarit : En étudiant [situation/données], [donner/comparer/justifier] [élément demandé]. Justifier la réponse.
-    exemple réel (autre notion) : « 9. Entre le chiffrement symétrique ou asymétrique, donner en justifiant lequel des deux Alice et Bob doivent préférer utiliser pour éviter que le pirate ne puisse connaître le contenu de leurs échanges. »
-    détail du cours à évaluer (Notion de programme) : « L'indécidabilité est un concept fondamental en logique. »
+    manière de demander C12 : Consignes génériques sans tournure dominante (bis) — Second fourre-tout aux mêmes termes que le groupe 0 : droits Linux, dessin d'arbre, tables… Pas de geste partagé.
+    gabarit : [Verbe] [objet] [contexte].
+    exemple réel (autre notion) : « a. Recopier sur votre copie les demandes ci-dessous, dans leur intégralité, et les compléter correctement pour qu'elles ajoutent dans la relation emploi les rôles de Daniel Crog en tant que James Bond dans le film nommé ‘Casino Impérial' pu »
+    détail du cours à évaluer (Calculabilite Decidabilite) : « Mais dans ce cas-là, l'exécution de (sym) se termine correctement et renvoie la valeur 1. »
 
 Le champ id vaut « I-calculabilite ».

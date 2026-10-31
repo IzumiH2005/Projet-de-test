@@ -41,33 +41,33 @@ Extraits du cours :
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « 4. On considère la méthode supplémentaire produire(self) de la classe Stock donnée par le code suivant : def produire(self):   res = 0  while self.stock_suffisant_brioche():  self.qt_beurre = self.qt_beurre - 175  self.qt_farine = self.qt_f »
-    exemple réel (autre notion) : « 1. Compléter la fonction récursive suite qui prend en paramètre un entier n et renvoie la valeur de Un. 1 def suite(n): 2 if n < 2: 3 valeur = ... 4 else: 5 valeur = suite(n - 1) + suite(...) 6 return ... »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 4. Dans la console, on saisit la suite d'instructions suivante :  >>> balise4.methode2('rouge') >>> balise4.methode3('vert') >>> balise4.couleurs_balise  Indiquer le résultat renvoyé à l'écran. »
+    manière de demander C3 : Lire ou compléter une classe Python fournie — L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.
+    gabarit : On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].
+    exemple réel (autre notion) : « 10. Recopier et compléter le code de la fonction execute_tous_processus ci- dessous.  1 def execute_tous_processus (file_d_attente): 2 t = 0 3 while ... 4 t = ... 5 return t  EN_NOzgzNT7QzNjAc0ND8UzMsTYxMj2A2NTAAwMDcAxNLjIx »
+    exemple réel (autre notion) : « 10. Parmi les durées suivantes, indiquer celle qui permet d'estimer le temps d'exécution de l'appel plus_grande_base(carte_3000) : – 0,4 seconde ; – 1,2 seconde ; – 3,6 secondes.  Justifier. »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « b) Recopier la fonction sans les commentaires et compléter le code manquant. »
 
 - slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « 13. Indiquer quel sera le message d'erreur renvoyé à la console parmi les choix suivants :  "expected an indented block" ;  "takes 2 positionnals arguments but 3 were given" ;  "local variable 'i_cat' referenced before assignement" ;  " »
-    exemple réel (autre notion) : « b. Quelle commande permettrait de connaître son adresse IP ? »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « 9. Décrire par une phrase en français le résultat de la requête SQL suivante : SELECT nom, prenom FROM Personnel WHERE num_centre = 2; »
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « f. La fonction récursive maximum ci-dessous prend en paramètre un arbre binaire de recherche abr et renvoie la valeur maximale de ses nœuds. Recopier et compléter les lignes 5 et 7 de cette fonction. »
+    exemple réel (autre notion) : « 12. Recopier et compléter les lignes 3, 8, 9, 10 et 12 du code de la fonction contient.  1 def contient(arbre, position):  2 if arbre is None:  3 return ...  4  5 sag, valeur, sad = arbre  6  7 if position < valeur:  8 return contient(...,  »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 7. Recopier et compléter les lignes 12, 16 et 20 du code de la fonction lire_parcours. »
 
 - slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 16. Recopier et compléter les lignes 4 et 6 du code de la fonction est_connexe. »
-    exemple réel (autre notion) : « 2. Finaliser le programme précédent en complétant les lignes 6, 7 et 8 sur votre copie. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 12. Recopier et compléter les lignes 7 et 8 de la fonction llsc_dyn. On pourra utiliser la fonction native de Python max qui renvoie le maximum des valeurs données en paramètres.  1 def llsc_dyn(tab): 2 n = len(tab) 3 dyn = [1] * n 4 for i in range(1, n): 5 fo »
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 7. On souhaite doter la classe Blockchain d'une méthode ajouter_bloc qui prend en paramètre la liste des transactions des dix dernières minutes et l'ajoute dans un nouveau bloc. Écrire le code P ython de cette méthode ci - dessous. 1 def aj »
+    exemple réel (autre notion) : « 3. On souhaite créer une fonctionmeilleur_concurrent qui prend en paramètre une listeL de concurrents et qui renvoie l'objetConcurrent correspondant au concurrent le plus rapide. On suppose que la liste est non vide. Recopier et compléter l »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 2. Donner l'instruction permettant de créer compte_cara un compte bancaire de numéro 15083 et de montant initial de 670 € au nom de Cara. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C8 : Manipuler une base de données — Requêtes et modélisation sur une base relationnelle (supprimer, ajouter, interroger, proposer un schéma) ; on évalue la correspondance entre un besoin métier et les opérations SQL ou la structure de tables.
-    gabarit : Donner la (les) requête(s) SQL permettant de [opération] dans la base de données [nom], [contrainte].
-    exemple réel (autre notion) : « c. Suite à un changement, l'horaire d'arrivée du train n°7869 est programmé à 08 h 11. Mettre à jour la base de données en conséquence. »
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « 5. Écrire la requête permettant d'enregistre r cette modification dans la base de données précédente. »
     détail du cours à évaluer (Langage SQL) : « Les SGBD jouent le rôle d'interface entre l'être humain et la base de données. »
 
 Le champ id vaut « I-interface_tad ».

@@ -42,26 +42,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C17 : Identifier le rôle d'une clé — Questions sur les clés primaires et étrangères (identifier, justifier, expliquer le rôle), parfois clés de chiffrement ; on évalue la compréhension des contraintes d'intégrité.
-    gabarit : Indiquer la clé [primaire/étrangère] de la relation [nom] et préciser son rôle.
-    exemple réel (autre notion) : « 2. Définir l'acronyme RAM. »
-    exemple réel (autre notion) : « 8. Rappeler brièvement ce qu'est un algorithme de chiffrement asymétrique. On suppose à présent que Bob possède une clé publique et une clé privée. La clé publique de Bob est supposée connue par le serveur. »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 3. Étant donnée une liste pos représentant une position du taquin, donner une instruction, basée sur l'instruction assert, qui permet d'interrompre le programme si la taille de la liste pos n'est pas correcte (c'est -à-dire différente de 9). »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C16 : Écrire une requête SQL — L'élève rédige une requête SQL répondant à un besoin formulé en langage naturel. On évalue sélection, jointures, filtres et tris.
+    gabarit : Écrire une requête SQL permettant d'afficher [attributs] des [entités] [condition].
+    exemple réel (autre notion) : « a. Écrire une requête qui corrige cette erreur dans la table espece. »
+    exemple réel (autre notion) : « 10. Écrire une requête SQL permettant d'obtenir le nombre d'affirmations qui ont 50 likes ou plus. »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 4. Bob envoie un message à Alice. Énumérer dans l'ordre tous les routeurs par lesquels transitera ce message. »
 
-- slot 2 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 6. Déterminer la liste auxiliaire aux_B associée à la carte représentée par carte_B.  carte_B = [  [1, 1, 1, 1],  [0, 1, 1, 1],  [0, 1, 1, 1],  [1, 0, 1, 1], ] On considère une carte carte_C de taille 6 ainsi que la liste auxiliaire aux_C a »
-    exemple réel (autre notion) : « 2. a. Donner la valeur renvoyée par l'appel A.est_triee(). »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 15. Indiquer quel sera l'effet de la requête suivante : INSERT INTO image VALUES (2923, 'Volcans du massif central', '', 400, 400, 1430); »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C5 : Donner le nom ou l'instruction — L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.
+    gabarit : Donner le [nom|tuple|instruction] correspondant à [situation].
+    exemple réel (autre notion) : « 9. Donner le coût en temps de la recherche dichotomique. EN_NOTM0NT7QzNjAc0ND4UzMsTYxMj4A2NTAAwMDxAxNAjQx »
+    exemple réel (autre notion) : « 11. Donner le schéma relationnel de la table ville. »
+    support S15 : Sous-questions lettrées a) b) — Énoncés découpés en items a), b), c) ou en options lettrées. L'élève traite chaque sous-question ou choisit une option.
+    exemple de support (autre notion) : « b) Indiquer le plus court chemin au sens du protocole RIP, minimisant le nombre de routeurs traversés (sauts), en précisant son nombre de sauts. »
 
-- slot 3 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C17 : Identifier le rôle d'une clé — Questions sur les clés primaires et étrangères (identifier, justifier, expliquer le rôle), parfois clés de chiffrement ; on évalue la compréhension des contraintes d'intégrité.
-    gabarit : Indiquer la clé [primaire/étrangère] de la relation [nom] et préciser son rôle.
-    exemple réel (autre notion) : « 14. Compléter la fonction cle qui permet de renvoyer la clé k d'un numéro de sécurité sociale en prenant pour paramètre le nombre n formé des 13 premiers chiffres du numéro de sécurité sociale. 1 def cle(n): 2 ... »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 8. Donner la commande qu'Alan doit utiliser dans le terminal pour tester la connectivité entre son ordinateur et l'ordinateur de Grace. »
+    exemple réel (autre notion) : « 2. Écrire les lignes de code permettant d'instancier un objet Bot1 de la classe Chatbot et d'ajouter à son dictionnaire l'interaction : Question : "Bonjour, comment vas-tu ?" Réponse : "Bonjour, je vais bien, merci." »
+    support S6 : Prose technique avec valeurs numériques — Texte contenant des nombres (masques, suffixes, tables de vérité, scores). Mélange réseaux, booléens et données sans forme commune nette.
+    exemple de support (autre notion) : « 1. Toutes les machines devront , pour se connecter à ce réseau, disposer d'une carte électronique dédiée. Donner son nom. »
+
+- slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 6. Compléter ce jeu de tests pour s'assurer que l'on couvre les cas suivants : les piles sont différentes, mais de même taille ; les piles sont identiques. »
     détail du cours à évaluer (Modele relationnel) : « La cohérence entre les différentes tables d'une base de données est assurée par les clés étrangères : dans une table, la valeur d'un attribut qui est clé étrangère doit obligatoirement pouvoir être retrouvée dans la table dont cet attribut est clé primaire. »
 
 Le champ id vaut « I-modele_relationnel ».

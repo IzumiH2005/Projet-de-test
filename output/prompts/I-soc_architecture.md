@@ -43,34 +43,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « 2. On écrit une fonction voisins. def voisins(graphe, k): return graphe[k] »
-    exemple réel (autre notion) : « 2. On considère la fonction maxi(L) qui prend comme paramètre une liste L de nombres et renvoie le plus grand nombre de cette liste : 1| def maxi(L) : 2| indice = 0 3| maximum = 0 4| while indice <= len(L) : 5| if L[indice] > maximum : 6| m »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « Question 3 Créer une fonction retourner ayant pour paramètres une pile P et un entier j. Cette fonc- tion inverse l'ordre desj derniers éléments empilés et ne renvoie rien. On pourra utiliser deux piles auxiliaires. Exemple : si P est la pile de laquestion 1(a »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C6 : Exécuter mentalement une requête ou instruction suivante — L'élève lit une requête SQL ou une commande donnée et indique ce qu'elle renvoie. On évalue la capacité à simuler l'exécution.
+    gabarit : Donner les valeurs renvoyées par la requête suivante : [requête].
+    exemple réel (autre notion) : « 6. Écrire le résultat obtenu suite à l'exécution de la requête suivante si on l'applique sur les extraits des tables donnés.  SELECT nomSc FROM plante JOIN zone_geographique ON plante.zone = zone_geographique.num WHERE zone_geographique.zon »
+    exemple réel (autre notion) : « e. Donner le résultat d'un parcours infixe sur l'arbre obtenu à la question 3.c. Expliquer pourquoi ce parcours permet d'affirmer que l'arbre est un arbre binaire de recherche. »
+    support S8 : Phrases courtes isolées — Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.
+    exemple de support (autre notion) : « 3. Cette question porte sur la notion de clés étrangères. »
 
-- slot 2 | combinaison_inedite | support jamais utilisé pour cette notion | position visée : milieu d'exercice
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 2. Donner les valeurs prises par la variable locale valeur lors de l'exécution de creer_jeu(9). »
-    exemple réel (autre notion) : « 5. On reçoit le tableau suivant. 1 1 1 1 1 0 0 1 1  Sachant qu'une unique erreur de transmission s'est produite, recopier le tableau et entourer le bit qui a subi cette erreur (transformation d'un 0 en 1 ou d'un 1 en 0). »
-    support S5 : Données numériques littérales — Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.
-    exemple de support (autre notion) : « 4. Depuis l'état e2 = [1, 1, 0, 1, 0, 0], on effectue un lancer de 5. Donner l'état qu'on obtient après le lancer et l'effet de la gravité. On souhaite écrire une fonction lancer_balle qui prend en paramètres un état etat de jonglage (comme décrit ci -dessus)  »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : milieu d'exercice
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « a. Indiquer le numéro du test (test 1 ou test 2) qui permet de vérifier qu'en fin de partie un participant égaré n'a pas rejoint par erreur la base adverse. »
+    exemple réel (autre notion) : « 6. Expliquer l'erreur commise et proposer une solution. »
+    support S4 : Prose multi-lignes sans forme distinctive — Texte d'énoncé courant sur plusieurs lignes, sujets divers (algorithmes, graphes, Huffman). Forme générique, pas de matériau spécifique.
+    exemple de support (autre notion) : « 7. Reproduire le graphe ci -dessous puis ajouter une arête pour que le graphe devienne cohérent avec la table de routage d'Abi.   Figure 2. Relations entre les membres de l'association Frida rejoint l'association. Elle est amie avec Abi. À son arrivée dans l'a »
 
-- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « 1. a. Cette fonction est-elle récursive ? Justifier. »
-    exemple réel (autre notion) : « 5. Est-il possible qu'un ordinateur connecté au réseau du lycée possède la même adresse IP que l'élève à son domicile ?  ◦ Oui, à condition que les connexions n'aient pas lieu au même moment. ◦ Oui, car les adresses 192.168.x.x ne sont pas  »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « b. le nombre de commandes passées depuis le '2022-01-01' inclus. On précise que le type DATE permet de représenter une date par une chaîne de caractère au format 'AAAA-MM-JJ' et que ces dates peuvent être comparées à l'aide des opérateurs usuels (=, !=, >, <,  »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
+    manière de demander C5 : Donner le nom ou l'instruction — L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.
+    gabarit : Donner le [nom|tuple|instruction] correspondant à [situation].
+    exemple réel (autre notion) : « 6. Choisir parmi les tris proposés celui qui correspond à la fonction tri_liste : tri par insertion, tri par sélection, tri fusion, tri bulle. »
+    exemple réel (autre notion) : « b. Déterminer le nom des deux joueurs qui sont les seuls à avoir joué dans le hangar. »
+    support S5 : Besoin formulé pour requête SQL — Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.
+    exemple de support (autre notion) : « 10. Écrire une requête SQL qui permet d'obtenir la liste des libellés des chapitres de la discipline ‘histoire'. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « b. De manière plus générale, que renvoie la fonction mystere pour une chaîne représentant un déplacement donné ? »
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 7. Pour un itinéraire de dimension 1 × 𝑛𝑛 justifier, éventuellement à l'aide d'un exemple, qu'il y a un seul chemin, c'est-à-dire que, quel que soit 𝑛𝑛 entier naturel, on a 𝑁𝑁(1, 𝑛𝑛) = 1. De même, 𝑁𝑁(𝑚𝑚, 1) = 1. »
     détail du cours à évaluer (SoC) : « Quel élément d'unSoC permet à un smartphone de communiquer avec d'autres machines? »
 
 Le champ id vaut « I-soc_architecture ».

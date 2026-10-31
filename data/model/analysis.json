@@ -1,128 +1,129 @@
 {
  "corpus": {
-  "sujets_ecrits": 83,
+  "sujets_ecrits": 96,
   "sujets_pratiques": 181,
-  "questions_ecrit": 2668,
-  "exercices_ecrit": 299,
+  "questions_ecrit": 3052,
+  "exercices_ecrit": 341,
   "exercices_pratique": 362,
   "sections_cours": 281,
   "annees": {
-   "2021": 11,
-   "2022": 16,
-   "2023": 14,
-   "2024": 11,
-   "2025": 18,
+   "2021": 12,
+   "2022": 17,
+   "2023": 17,
+   "2024": 17,
+   "2025": 20,
    "2026": 13
   },
   "centres": {
-   "Métropole": 18,
+   "Métropole": 20,
    "Amérique du Nord": 11,
-   "Asie": 10,
-   "Centres étrangers": 8,
-   "Polynésie": 8,
-   "?": 6,
-   "Sujet zéro": 6,
+   "Asie": 11,
+   "Polynésie": 10,
+   "?": 9,
+   "Centres étrangers": 9,
+   "Amérique du Sud": 6,
    "Nouvelle-Calédonie": 6,
-   "Amérique du Sud": 4,
-   "LR": 2,
+   "Sujet zéro": 5,
+   "La Réunion": 4,
    "Liban": 2,
-   "Antilles-Guyane": 2
+   "Antilles-Guyane": 2,
+   "Suède": 1
   }
  },
  "espace_semantique": {
-  "vocabulaire": 20137,
-  "variance_expliquee_LSA_150": 0.248
+  "vocabulaire": 21930,
+  "variance_expliquee_LSA_150": 0.238
  },
  "cours_vs_epreuves": {
   "sous_evaluees_par_rapport_au_cours": [
    [
     "fonctions",
-    0.0682
+    0.0677
    ],
    [
     "tableau_liste",
-    0.0563
+    0.0558
    ],
    [
     "booleens",
-    0.0436
+    0.0434
    ],
    [
     "boucles",
-    0.0386
-   ],
-   [
-    "chaines",
-    0.0267
+    0.0388
    ],
    [
     "interface_tad",
-    0.0258
+    0.0259
+   ],
+   [
+    "chaines",
+    0.0254
    ],
    [
     "os_commandes",
-    0.0205
+    0.0209
    ],
    [
     "complexite",
-    0.0189
+    0.0197
    ],
    [
     "modularite",
-    0.0171
+    0.0175
    ],
    [
     "parcours_graphe",
-    0.014
+    0.0125
    ]
   ],
   "sur_evaluees_par_rapport_au_cours": [
    [
     "sql",
-    -0.1002
+    -0.0982
    ],
    [
     "poo",
-    -0.0792
+    -0.0777
    ],
    [
     "routage",
-    -0.0442
+    -0.0457
    ],
    [
     "modele_relationnel",
-    -0.0427
+    -0.0414
    ],
    [
     "reseau_ip",
-    -0.038
+    -0.0412
    ],
    [
     "arbre_binaire",
-    -0.0351
+    -0.0393
    ],
    [
     "graphe",
-    -0.0232
+    -0.0248
    ],
    [
     "representation_nombres",
-    -0.017
+    -0.0153
    ],
    [
     "dictionnaire",
-    -0.0101
+    -0.011
    ],
    [
     "processus",
-    -0.0079
+    -0.0089
    ]
   ],
   "sections_du_cours_par_notion": {
    "poo": [
     "Programmation > Programmation objet > Programmation objet",
-    "Programmation > Programmation Orientee Objet > Exercices",
-    "Programmation > Programmation Orientee Objet > 2.2 Création d'une classe"
+    "Structures de données > Arbres > Introduction",
+    "Programmation > Programmation Orientee Objet > Exercices"
    ],
    "pile": [
     "Structures de données > Les piles > Les piles",
@@ -132,7 +133,7 @@
    "file": [
     "Structures de données > Les files > Les files",
     "Structures de données > Arbres > 4.6 Parcours en largeur",
-    "Structures de données > Listes Piles Files > 1.2 Comment seront traitées ces données linéaires ? Introduction "
+    "Structures de données > Listes Piles Files > 4.1 Utilisation d'une interface de file"
    ],
    "liste_chainee": [
     "Structures de données > Les listes > Les listes",
@@ -141,8 +142,8 @@
    ],
    "dictionnaire": [
     "Structures de données > Dictionnaires > Exercices sur les dictionnaires",
-    "Structures de données > Dictionnaires > 1.1 Protocole de mesure",
-    "Structures de données > Dictionnaires > 3. Retour aux dictionnaires"
+    "Structures de données > Dictionnaires > 3. Retour aux dictionnaires",
+    "Structures de données > Dictionnaires > 1.1 Protocole de mesure"
    ],
    "arbre_binaire": [
     "Structures de données > Arbres > Introduction",
@@ -181,8 +182,8 @@
    ],
    "tuple": [
     "Structures de données > Structures donnees > Structures donnees",
-    "Programmation > Programmation objet > Programmation objet",
-    "Structures de données > Les listes > Les listes"
+    "Programmation > Pratiques de programmation > 4.2 Revoilà les ```assert```",
+    "Programmation > Programmation objet > Programmation objet"
    ],
    "matrice": [
     "Structures de données > Graphes > 2.1 Représentation par matrice d'adjacence",
@@ -191,8 +192,8 @@
    ],
    "recursivite": [
     "Programmation > Recursivite > Recursivite",
-    "Algorithmique > Programmation dynamique > Programmation dynamique",
-    "Programmation > Recursivite > Introduction"
+    "Programmation > Recursivite > Introduction",
+    "Algorithmique > Programmation dynamique > Programmation dynamique"
    ],
    "modularite": [
     "Programmation > Modularite > Modularite",
@@ -201,8 +202,8 @@
    ],
    "mise_au_point": [
     "Programmation > Pratiques de programmation > 3. La programmation défensive : des ```assert``` pour sécuriser l",
-    "Programmation > Pratiques de programmation > 4.1 Pourquoi des tests ?",
-    "Programmation > Pratiques de programmation > 1. Conventions syntaxiques"
+    "Programmation > Pratiques de programmation > 1. Conventions syntaxiques",
+    "Programmation > Programmation objet > Programmation objet"
    ],
    "paradigmes": [
     "Algorithmique > Diviser pour regner > 1.1 Version impérative",
@@ -211,28 +212,28 @@
    ],
    "calculabilite": [
     "Programmation > Notion de programme > Notion de programme",
-    "Programmation > Calculabilite Decidabilite > 2.4 Un léger problème ...",
-    "Programmation > Calculabilite Decidabilite > 2. Calculabilité"
+    "Programmation > Calculabilite Decidabilite > 2. Calculabilité",
+    "Programmation > Calculabilite Decidabilite > 2.4 Un léger problème ..."
    ],
    "boucles": [
-    "Programmation > Calculabilite Decidabilite > 2.1 Un exemple",
     "Programmation > Notion de programme > Notion de programme",
-    "Programmation > Calculabilite Decidabilite > 2.4 Un léger problème ..."
+    "Programmation > Calculabilite Decidabilite > 2.4 Un léger problème ...",
+    "Programmation > Calculabilite Decidabilite > 2.1 Un exemple"
    ],
    "fonctions": [
     "Structures de données > Listes Piles Files > Introduction",
-    "Structures de données > Dictionnaires > Exercices sur les dictionnaires",
-    "Programmation > Recursivite > Introduction"
+    "Programmation > Recursivite > Introduction",
+    "Structures de données > Dictionnaires > Exercices sur les dictionnaires"
    ],
    "chaines": [
-    "Structures de données > Dictionnaires > 2.2 Mécanisme de la fonction de hachage",
     "Structures de données > Listes Piles Files > Introduction",
+    "Structures de données > Dictionnaires > 2.2 Mécanisme de la fonction de hachage",
     "Algorithmique > Recherche textuelle > Recherche textuelle"
    ],
    "booleens": [
-    "Algorithmique > Diviser pour regner > Vers l'algorithme de dichotomie",
     "Structures de données > Listes Piles Files > Introduction",
-    "Algorithmique > Diviser pour regner > Diviser pour regner"
+    "Algorithmique > Diviser pour regner > Vers l'algorithme de dichotomie",
+    "Programmation > Calculabilite Decidabilite > 2.2 Une machine pour prédire l'arrêt ou non d'un programme."
    ],
    "representation_nombres": [
     "Architecture, OS et réseaux > Protocoles de routage > Introduction",
@@ -257,22 +258,22 @@
    "prog_dynamique": [
     "Algorithmique > Programmation dynamique > Programmation dynamique",
     "Algorithmique > Programmation dynamique > Introduction",
-    "Algorithmique > Programmation dynamique > 5. Optimisation de la méthode récursive par programmation dynamique"
+    "Programmation > Recursivite > Recursivite"
    ],
    "glouton": [
-    "Algorithmique > Programmation dynamique > Programmation dynamique",
-    "Programmation > Programmation Orientee Objet > Exercices",
-    "Programmation > Pratiques de programmation > 4.2 Revoilà les ```assert```"
+    "Algorithmique > Programmation dynamique > 1. Retour sur l'algorithme glouton",
+    "Programmation > Pratiques de programmation > 4.2 Revoilà les ```assert```",
+    "Programmation > Programmation Orientee Objet > Exercices"
    ],
    "recherche_textuelle": [
     "Algorithmique > Recherche textuelle > Recherche textuelle",
     "Algorithmique > Recherche textuelle > 2.2 Implémentation",
-    "Structures de données > Dictionnaires > Exercices sur les dictionnaires"
+    "Algorithmique > Recherche textuelle > Vers Boyer-Moore-Horspool"
    ],
    "complexite": [
     "Algorithmique > Diviser pour regner > 4.3 Complexité",
     "Algorithmique > Diviser pour regner > Diviser pour regner",
-    "Structures de données > Dictionnaires > 1.3 Conclusion"
+    "Algorithmique > Recherche textuelle > Recherche textuelle"
    ],
    "k_ppv": [
     "Structures de données > Listes Piles Files > 0. Préambule : interface ≠ implémentation :star: :star: :star:",
@@ -281,8 +282,8 @@
    ],
    "algo_simples": [
     "Programmation > Recursivite > Recursivite",
-    "Bases de données > SQL > SQL",
-    "Structures de données > Structures donnees > Structures donnees"
+    "Structures de données > Structures donnees > Structures donnees",
+    "Bases de données > SQL > SQL"
    ],
    "modele_relationnel": [
     "Bases de données > Base de donnees relationnelles > Base de donnees relationnelles",
@@ -297,27 +298,27 @@
    "sgbd": [
     "Programmation > Programmation Orientee Objet > Exercices",
     "Architecture, OS et réseaux > Gestion des processus > Introduction",
-    "Bases de données > Langage SQL > 2. Création et modification d'une base de données"
+    "Bases de données > SQL > SQL"
    ],
    "processus": [
     "Architecture, OS et réseaux > Gestion des processus > Introduction",
     "Architecture, OS et réseaux > Processus > Processus",
-    "Architecture, OS et réseaux > Gestion des processus > 3.1 Définition et exemple"
+    "Architecture, OS et réseaux > Gestion des processus > 2.2.2 Les différents états d'un processus"
    ],
    "os_commandes": [
     "Architecture, OS et réseaux > OS > OS",
     "Structures de données > Arbres > 1.2 Exemples d'arbres",
-    "Architecture, OS et réseaux > Gestion des processus > 1.2.4 La commande ```kill```"
+    "Architecture, OS et réseaux > Gestion des processus > 1.2.1 La commande ```ps```"
    ],
    "routage": [
     "Architecture, OS et réseaux > Routage > Routage",
-    "Architecture, OS et réseaux > Protocoles de routage > 1. Tables de routage",
-    "Architecture, OS et réseaux > Protocoles de routage > Introduction"
+    "Architecture, OS et réseaux > Protocoles de routage > Introduction",
+    "Architecture, OS et réseaux > Protocoles de routage > 1. Tables de routage"
    ],
    "reseau_ip": [
     "Architecture, OS et réseaux > Routage > Routage",
-    "Architecture, OS et réseaux > Protocoles de routage > 1. Tables de routage",
-    "Architecture, OS et réseaux > Protocoles de routage > Introduction"
+    "Architecture, OS et réseaux > Protocoles de routage > Introduction",
+    "Architecture, OS et réseaux > Protocoles de routage > 1. Tables de routage"
    ],
    "soc_architecture": [
     "Architecture, OS et réseaux > Processus > Processus",
@@ -331,8 +332,8 @@
    ],
    "web_http": [
     "Architecture, OS et réseaux > Securisation > Securisation",
-    "Bases de données > SQL > SQL",
-    "Bases de données > Langage SQL > Exercices SQL interactifs"
+    "Architecture, OS et réseaux > OS > OS",
+    "Bases de données > SQL > SQL"
    ],
    "donnees_tables": [
     "Architecture, OS et réseaux > OS > OS",
@@ -344,26 +345,266 @@
  "archetypes": {
   "k_choisi": 26,
   "silhouette_par_k": {
-   "10": 0.1402,
-   "12": 0.1481,
-   "14": 0.1605,
-   "16": 0.1874,
-   "18": 0.1777,
-   "20": 0.1704,
-   "22": 0.1686,
-   "24": 0.1398,
-   "26": 0.1733,
-   "28": 0.1653,
-   "30": 0.1509
+   "10": 0.12,
+   "12": 0.1563,
+   "14": 0.1579,
+   "16": 0.1832,
+   "18": 0.1757,
+   "20": 0.1713,
+   "22": 0.1761,
+   "24": 0.1703,
+   "26": 0.1698,
+   "28": 0.1579,
+   "30": 0.1358
   },
   "detail": {
    "0": {
+    "nom": "autre / explication / appliquer",
+    "effectif": 136,
+    "taches": [
+     [
+      "autre",
+      51
+     ],
+     [
+      "completer_code",
+      43
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      54
+     ],
+     [
+      "code_python",
+      46
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 4.21,
+    "position_moyenne": 0.68,
+    "avec_code": 0.27,
+    "depend_d_avant": 0.99,
+    "notions_frequentes": [
+     [
+      "poo",
+      26
+     ],
+     [
+      "arbre_binaire",
+      16
+     ],
+     [
+      "graphe",
+      9
+     ],
+     [
+      "sql",
+      9
+     ]
+    ],
+    "formulations": [
+     "fonction",
+     "deduire",
+     "completer",
+     "precedent",
+     "algorithme",
+     "precedente"
+    ],
+    "prototypes": [
+     "10. En utilisant la fonction parcours_profondeur, écrire en Python une suite\nd'instructions permettant de vérifier que la configuration représentée par\nl'entier 4 est bien perdante.",
+     "5. En vous aidant de la fonction précédente, écrire l'instruction qui permet de\nretirer Helka de l'attelage de l'équipe eq11.",
+     "9. Écrire en Python une fonction classement prenant en paramètre un\ndictionnaire dont les clés sont les noms des candidats et les valeurs sont leurs\nnotes et qui, en utilisant la fonction enigme, renvoie la liste des couples\n((prénom, nom), note) des candidats"
+    ]
+   },
+   "1": {
+    "nom": "expliquer / explication / comprendre",
+    "effectif": 193,
+    "taches": [
+     [
+      "expliquer",
+      192
+     ],
+     [
+      "completer_code",
+      1
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      155
+     ],
+     [
+      "valeur",
+      31
+     ]
+    ],
+    "bloom": "comprendre",
+    "bloom_moyen": 2.72,
+    "position_moyenne": 0.47,
+    "avec_code": 0.15,
+    "depend_d_avant": 0.05,
+    "notions_frequentes": [
+     [
+      "poo",
+      37
+     ],
+     [
+      "sql",
+      22
+     ],
+     [
+      "arbre_binaire",
+      20
+     ],
+     [
+      "graphe",
+      15
+     ]
+    ],
+    "formulations": [
+     "indiquer",
+     "expliquer",
+     "preciser",
+     "quel",
+     "fonction",
+     "decrire"
+    ],
+    "prototypes": [
+     "11. Indiquer dans quel ordre apparaitraient les mots -clés avec un parcours en\nprofondeur infixe sur l'ABR illustré.",
+     "10. Indiquer comment Bob peut déchiffrer le message que lui envoie Alice.",
+     "4. Indiquer la signification des lettres dans les acronymes LIFO et FIFO."
+    ]
+   },
+   "2": {
+    "nom": "autre / explication / appliquer",
+    "effectif": 282,
+    "taches": [
+     [
+      "autre",
+      274
+     ],
+     [
+      "completer_code",
+      8
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      197
+     ],
+     [
+      "valeur",
+      56
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 3.1,
+    "position_moyenne": 0.46,
+    "avec_code": 0.09,
+    "depend_d_avant": 0.05,
+    "notions_frequentes": [
+     [
+      "arbre_binaire",
+      34
+     ],
+     [
+      "poo",
+      30
+     ],
+     [
+      "graphe",
+      28
+     ],
+     [
+      "sql",
+      24
+     ]
+    ],
+    "formulations": [
+     "determiner",
+     "donner",
+     "arbre",
+     "return",
+     "valeur",
+     "mot"
+    ],
+    "prototypes": [
+     "6. n = n - 1",
+     "9. n = n - 1",
+     "11.0.0.0 11.0.0.2 0"
+    ]
+   },
+   "3": {
+    "nom": "completer_code / tableau / appliquer",
+    "effectif": 127,
+    "taches": [
+     [
+      "completer_code",
+      95
+     ],
+     [
+      "autre",
+      18
+     ]
+    ],
+    "formats": [
+     [
+      "tableau",
+      119
+     ],
+     [
+      "code_python",
+      45
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 3.34,
+    "position_moyenne": 0.5,
+    "avec_code": 0.31,
+    "depend_d_avant": 0.07,
+    "notions_frequentes": [
+     [
+      "routage",
+      47
+     ],
+     [
+      "poo",
+      18
+     ],
+     [
+      "representation_nombres",
+      7
+     ],
+     [
+      "processus",
+      6
+     ]
+    ],
+    "formulations": [
+     "completer",
+     "recopier",
+     "recopier completer",
+     "tableau",
+     "routage",
+     "table"
+    ],
+    "prototypes": [
+     "3. Recopier et compléter le tableau suivant avec les adresses des interfaces des\nrouteurs R1 à R4 à joindre depuis R0 compte tenu des informations de sa table.",
+     "7. Recopier et compléter le tableau suivant donnant le coût pour le protocole\nOSPF des liaisons réseau selon leur type de connexion.\nEN_OOTgzNT7QzNjAc0ND4UzMsTYxMj1A2NTAAwMDbAxNBjcx\nType de connexion Débit (bit/s) Coût\nEthernet 10⁷\nFast Ethernet 10⁸\nFibre 10⁹\n",
+     "5. Recopier et compléter la table de routage du routeur R1 suivante en indiquant\nles adresses IP des passerelles et des interfaces :\nDestination Passerelle Interface\n110.217.50.0 on-link 110.217.50.254\n110.217.52.0 110.217.54.253\n110.217.54.0\n110.217.56.0\nPréc"
+    ]
+   },
+   "4": {
     "nom": "ecrire_sql / sql / appliquer",
-    "effectif": 74,
+    "effectif": 79,
     "taches": [
      [
       "ecrire_sql",
-      39
+      43
      ],
      [
       "completer_code",
@@ -373,22 +614,22 @@
     "formats": [
      [
       "sql",
-      74
+      79
      ],
      [
       "valeur",
-      28
+      33
      ]
     ],
     "bloom": "appliquer",
-    "bloom_moyen": 3.7,
+    "bloom_moyen": 3.65,
     "position_moyenne": 0.49,
-    "avec_code": 0.69,
+    "avec_code": 0.7,
     "depend_d_avant": 0.03,
     "notions_frequentes": [
      [
       "sql",
-      73
+      78
      ],
      [
       "modele_relationnel",
@@ -405,158 +646,42 @@
     ],
     "prototypes": [
      "3. Donner le résultat de la requête SQL suivante :\n SELECT masse, rayon\nFROM Exoplanetes\nWHERE id_exoplanete = 4;",
-     "13. Donner le résultat de la requête SQL suivante :\nSELECT nom\nFROM ville\nWHERE num_dep = 74 AND superficie > 70",
-     "11. Donner le résultat renvoyé par la requête SQL suivante :\nSELECT titre\nFROM livres\nWHERE auteur = ‘K.Dick';"
+     "11. Donner le résultat renvoyé par la requête SQL suivante :\nSELECT titre\nFROM livres\nWHERE auteur = ‘K.Dick';",
+     "13. Donner le résultat de la requête SQL suivante :\nSELECT nom\nFROM ville\nWHERE num_dep = 74 AND superficie > 70"
     ]
    },
-   "1": {
-    "nom": "autre / explication / créer",
-    "effectif": 118,
+   "5": {
+    "nom": "ecrire_fonction / code_python / créer",
+    "effectif": 68,
     "taches": [
      [
-      "autre",
-      117
+      "ecrire_fonction",
+      40
      ],
      [
       "completer_code",
-      1
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      66
-     ],
-     [
-      "code_python",
-      22
-     ]
-    ],
-    "bloom": "créer",
-    "bloom_moyen": 6.0,
-    "position_moyenne": 0.51,
-    "avec_code": 0.14,
-    "depend_d_avant": 0.01,
-    "notions_frequentes": [
-     [
-      "poo",
-      30
-     ],
-     [
-      "sql",
-      19
-     ],
-     [
-      "arbre_binaire",
-      10
-     ],
-     [
-      "graphe",
-      7
-     ]
-    ],
-    "formulations": [
-     "ecrire",
-     "python",
-     "proposer",
-     "permettant",
-     "python fonction",
-     "fonction"
-    ],
-    "prototypes": [
-     "3. Écrire les instructions qui permettent de créer le véhicule d'immatriculation\nHG-818-AV et de l'attribuer au chauffeur John Doe.",
-     "2. Écrire une commande Python permettant d'instancier le chauffeur de taxi de\nprénom John et de nom Doe, dont le numéro neph est 140159320012.",
-     "3. Le propriétaire de Duke décide de lui attribuer le rôle de 'leader'.\nÉcrire l'instruction permettant d'effectuer cette modification."
-    ]
-   },
-   "2": {
-    "nom": "corriger_code / explication / analyser",
-    "effectif": 76,
-    "taches": [
-     [
-      "corriger_code",
-      76
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      54
-     ],
-     [
-      "sql",
-      27
-     ]
-    ],
-    "bloom": "analyser",
-    "bloom_moyen": 4.66,
-    "position_moyenne": 0.51,
-    "avec_code": 0.28,
-    "depend_d_avant": 0.11,
-    "notions_frequentes": [
-     [
-      "sql",
-      28
-     ],
-     [
-      "mise_au_point",
       13
-     ],
-     [
-      "poo",
-      8
-     ],
-     [
-      "representation_nombres",
-      6
-     ]
-    ],
-    "formulations": [
-     "erreur",
-     "corriger",
-     "expliquer",
-     "pourquoi",
-     "expliquer pourquoi",
-     "corriger erreur"
-    ],
-    "prototypes": [
-     "9. Expliquer brièvement pourquoi, lors d'un appel à la fonction\nchargement_glouton, on peut obtenir l'erreur suivante.",
-     "6. Expliquer la cause du problème et proposer une modification du code d'Edgar\nafin de la corriger.",
-     "5. Recopier et modifier la ligne 6 de la fonction en_grille afin de corriger cette\nerreur."
-    ]
-   },
-   "3": {
-    "nom": "completer_code / code_python / appliquer",
-    "effectif": 80,
-    "taches": [
-     [
-      "completer_code",
-      56
-     ],
-     [
-      "autre",
-      10
      ]
     ],
     "formats": [
      [
       "code_python",
-      58
+      60
      ],
      [
       "valeur",
-      31
+      27
      ]
     ],
-    "bloom": "appliquer",
-    "bloom_moyen": 3.91,
-    "position_moyenne": 0.63,
-    "avec_code": 0.8,
-    "depend_d_avant": 0.96,
+    "bloom": "créer",
+    "bloom_moyen": 5.75,
+    "position_moyenne": 0.59,
+    "avec_code": 0.91,
+    "depend_d_avant": 0.22,
     "notions_frequentes": [
      [
       "poo",
-      18
+      15
      ],
      [
       "graphe",
@@ -564,287 +689,171 @@
      ],
      [
       "fonctions",
-      7
+      6
      ],
      [
-      "processus",
-      6
+      "arbre_binaire",
+      5
+     ]
+    ],
+    "formulations": [
+     "ecrire",
+     "fonction",
+     "ecrire fonction",
+     "ecrire code",
+     "prend",
+     "code"
+    ],
+    "prototypes": [
+     "7. Écrire la fonction decompChiffre qui prend en paramètre un entier n compris\nentre 0 et 19 et renvoie la liste [c, p, t] où c vaut 0 ou 1 et indique la présence\nou non d'une coquille, p est le nombre de points et t le nombre de traits\ncomposant le “chiffre” ",
+     "13. Écrire la fonction departs_siteswap. On peut utiliser la fonction\nparcours_sequence_depart, et vérifier si le siteswap est possible à partir\nde chaque état de l'automate.",
+     "10. Écrire le code d'une fonction Python liste_villes_proches qui permet de\nrépondre à la demande des voyageurs. Cette fonction prend en paramètres un\ndictionnaire graphe représentant le graphe, une clé du dictionnaire ville et\nun entier d_max représentant une"
+    ]
+   },
+   "6": {
+    "nom": "completer_code / code_python / appliquer",
+    "effectif": 325,
+    "taches": [
+     [
+      "completer_code",
+      313
+     ],
+     [
+      "autre",
+      12
+     ]
+    ],
+    "formats": [
+     [
+      "code_python",
+      267
+     ],
+     [
+      "valeur",
+      53
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 3.26,
+    "position_moyenne": 0.56,
+    "avec_code": 0.68,
+    "depend_d_avant": 0.12,
+    "notions_frequentes": [
+     [
+      "poo",
+      112
+     ],
+     [
+      "fonctions",
+      28
+     ],
+     [
+      "arbre_binaire",
+      28
+     ],
+     [
+      "graphe",
+      28
      ]
     ],
     "formulations": [
      "completer",
-     "recopier completer",
-     "fonction",
      "recopier",
+     "recopier completer",
      "lignes",
-     "code"
+     "fonction",
+     "completer lignes"
     ],
     "prototypes": [
-     "7. Recopier et compléter les lignes 4, 5, 6 et 9 de la méthode melanger donnée\nci-dessous.\n 1 def melanger(self, n):\n 2 precedent = None\n 3 i = 0\n 4 while ... :\n 5 possibilites = ...\n 6 choix = ...\n 7 if choix != precedent :\n 8 self.jouer(choix)\n 9 precedent =",
-     "8. Compléter la fonction prog_dyn ci-dessous qui prend en paramètre une\npyramide p, et qui renvoie le score maximal pour un conduit dans p. Pour cela,\non construit une pyramide s remplie de 0 de la même taille et la remplit avec\nles valeurs de score_max en com",
-     "9. On souhaite doter la classe Bloc d'une nouvelle méthode calculer_solde\npermettant de renvoyer le solde à l'issue de ce bloc. Recopier et compléter sur\nvotre copie le code Python de cette méthode :\n1 def calculer_solde(self, utilisateur):\n2 if self.precedent"
+     "9. Recopier et compléter le script de la méthode nb_jours_restants ci-après :\ndef nb_jours_restants(self):\n j = 365\n if ...:\n j = 366\n return j - ...",
+     "5. Recopier et compléter les lignes 3 et 5 de la méthode indice.\nOn admet que la classe Taquin dispose d'une méthode est_possible qui prend\nen paramètre un entier numero, compris entre 1 et 8 inclus, et qui renvoie True s'il\nest possible de déplacer la case po",
+     "8. Recopier et compléter sur votre copie le code Python de la méthode parcours\nsuivante qui affiche les noms de tous les descendants d'un dossier en utilisant\nl'ordre préfixe.\n1 def parcours(self):\n2 print(...)\n3 for f in ...:\n4 ..."
     ]
    },
-   "4": {
-    "nom": "expliquer / explication / évaluer",
-    "effectif": 26,
+   "7": {
+    "nom": "ordonnancement / explication / appliquer",
+    "effectif": 63,
     "taches": [
      [
-      "expliquer",
-      15
-     ],
-     [
-      "autre",
-      10
+      "ordonnancement",
+      63
      ]
     ],
     "formats": [
      [
       "explication",
-      19
+      47
      ],
      [
       "valeur",
-      3
-     ]
-    ],
-    "bloom": "évaluer",
-    "bloom_moyen": 5.0,
-    "position_moyenne": 0.54,
-    "avec_code": 0.19,
-    "depend_d_avant": 0.08,
-    "notions_frequentes": [
-     [
-      "securite_crypto",
-      4
-     ],
-     [
-      "routage",
-      3
-     ],
-     [
-      "tri",
-      3
-     ],
-     [
-      "graphe",
-      3
-     ]
-    ],
-    "formulations": [
-     "justifiant",
-     "indiquer justifiant",
-     "indiquer",
-     "verifier",
-     "justification",
-     "bits"
-    ],
-    "prototypes": [
-     "3. Indiquer en le justifiant si cet algorithme est itératif ou récursif.\nSoit l'appel triStooge(A, 0, 5) avec A = [5, 6, 4, 2, 3, 1].",
-     "16. Indiquer, en justifiant, si le chiffrement utilisé par Alice est symétrique ou\nasymétrique.",
-     "2. Préciser s'il est possible ou non d'ajouter 132 machines sur le sous -réseau\nCommerces, en justifiant la réponse."
-    ]
-   },
-   "5": {
-    "nom": "ecrire_fonction / code_python / créer",
-    "effectif": 228,
-    "taches": [
-     [
-      "ecrire_fonction",
-      228
-     ]
-    ],
-    "formats": [
-     [
-      "code_python",
-      217
-     ],
-     [
-      "valeur",
-      65
-     ]
-    ],
-    "bloom": "créer",
-    "bloom_moyen": 6.0,
-    "position_moyenne": 0.58,
-    "avec_code": 0.16,
-    "depend_d_avant": 0.01,
-    "notions_frequentes": [
-     [
-      "poo",
-      90
-     ],
-     [
-      "graphe",
-      20
-     ],
-     [
-      "dictionnaire",
-      18
-     ],
-     [
-      "routage",
-      10
-     ]
-    ],
-    "formulations": [
-     "ecrire",
-     "ecrire fonction",
-     "fonction",
-     "prend",
-     "ecrire code",
-     "methode"
-    ],
-    "prototypes": [
-     "3. L'objectif de cette partie est d'écrire la fonction de recherche des deux points les plus proches\nen utilisant la méthode diviser-pour-régner.",
-     "6. Écrire une fonction liste_lancers_possibles qui prend en paramètre un\nétat etat et qui renvoie une liste d'entiers correspondant à l'ensemble des\nlancers possibles à partir de cet état.",
-     "7. Écrire une fonction temps_course qui prend pour paramètre equipe de type\nEquipe et qui renvoie un nombre flottant correspondant au cumul des temps de\nl'équipe equipe à l'issue des 9 étapes de la course.\nOn rappelle que la classe Equipe dispose d'un attribut"
-    ]
-   },
-   "6": {
-    "nom": "completer_code / code_python / appliquer",
-    "effectif": 213,
-    "taches": [
-     [
-      "completer_code",
-      197
-     ],
-     [
-      "autre",
-      15
-     ]
-    ],
-    "formats": [
-     [
-      "code_python",
-      198
-     ],
-     [
-      "valeur",
-      38
+      9
      ]
     ],
     "bloom": "appliquer",
-    "bloom_moyen": 3.43,
-    "position_moyenne": 0.58,
-    "avec_code": 1.0,
-    "depend_d_avant": 0.11,
+    "bloom_moyen": 2.57,
+    "position_moyenne": 0.43,
+    "avec_code": 0.05,
+    "depend_d_avant": 0.05,
     "notions_frequentes": [
      [
-      "poo",
-      71
-     ],
-     [
-      "fonctions",
-      29
-     ],
-     [
-      "graphe",
-      14
-     ],
-     [
-      "arbre_binaire",
-      11
-     ]
-    ],
-    "formulations": [
-     "completer",
-     "recopier",
-     "recopier completer",
-     "fonction",
-     "lignes",
-     "completer lignes"
-    ],
-    "prototypes": [
-     "5. Recopier et compléter les lignes 3 et 5 de la méthode indice.\nOn admet que la classe Taquin dispose d'une méthode est_possible qui prend\nen paramètre un entier numero, compris entre 1 et 8 inclus, et qui renvoie True s'il\nest possible de déplacer la case po",
-     "9. Recopier et compléter le script de la méthode nb_jours_restants ci-après :\ndef nb_jours_restants(self):\n j = 365\n if ...:\n j = 366\n return j - ...",
-     "8. Recopier et compléter le code Python pour la méthode tarif de la classe\nCourse suivant.\n 1 def tarif(self):\n 2 type_vehicule = ...\n 3 donnees_tarifaire = vehicules[type_vehicule]\n 4 prise_en_charge = ...\n 5 tarif_h = ...\n 6 prix_km = ...\n 7 tarif = ...\n 8 t"
-    ]
-   },
-   "7": {
-    "nom": "dessiner_structure / schema / appliquer",
-    "effectif": 93,
-    "taches": [
-     [
-      "dessiner_structure",
-      93
-     ]
-    ],
-    "formats": [
-     [
-      "schema",
-      93
-     ],
-     [
-      "valeur",
-      14
-     ]
-    ],
-    "bloom": "appliquer",
-    "bloom_moyen": 3.66,
-    "position_moyenne": 0.47,
-    "avec_code": 0.15,
-    "depend_d_avant": 0.09,
-    "notions_frequentes": [
-     [
-      "arbre_binaire",
-      19
-     ],
-     [
-      "routage",
-      14
-     ],
-     [
-      "modele_relationnel",
-      13
+      "processus",
+      49
      ],
      [
       "poo",
-      10
+      3
+     ],
+     [
+      "os_commandes",
+      2
+     ],
+     [
+      "file",
+      2
      ]
     ],
     "formulations": [
-     "schema",
-     "dessiner",
-     "schema relationnel",
-     "relationnel",
-     "arbre",
-     "representer"
+     "processus",
+     "processeur",
+     "interblocage",
+     "elu",
+     "identifiant processus",
+     "identifiant"
     ],
     "prototypes": [
-     "4. On complète le schéma avec la règle du « premier arrivé prem ier servi ».\nTemps0 5 10 15\nP2 P2 P1 P1 P1 P1 P3 P3 P3 P3 P4 P4",
-     "7. Dessiner, en vous inspirant de l'arbre de la Figure 1, un arbre de codage qui\npermettrait d'encoder le mot « chiffrer » en utilisant l'algorithme de\nShannon-Fano.",
-     "2. On complète le schéma.\nprêt élu\nbloqué\nRéveil Fin\nélection\ndéblocage blocage"
+     "6. L'interblocage est la situation où plusieurs processus s ont bloqués car chacun attend qu'une ressource\ndétenue par un autre se libère.",
+     "5. Le processus P4 arrive à l'instant 4 et n'est élu qu'à l'ins tant 10 donc il a attendu 6 unités de temps.\n2",
+     "2. On suppose que quatre processus C₁, C₂, C₃ et C₄ sont créés sur un ordinateur,\net qu'aucun autre processus n'est lancé sur celui-ci, ni préalablement ni pendant\nl'exécution des quatre processus.\nL'ordonnanceur, pour exécuter les différents processus prêts, "
     ]
    },
    "8": {
     "nom": "ecrire_sql / sql / créer",
-    "effectif": 200,
+    "effectif": 231,
     "taches": [
      [
       "ecrire_sql",
-      200
+      231
      ]
     ],
     "formats": [
      [
       "sql",
-      200
+      231
      ],
      [
       "valeur",
-      22
+      23
      ]
     ],
     "bloom": "créer",
     "bloom_moyen": 5.7,
     "position_moyenne": 0.55,
     "avec_code": 0.04,
-    "depend_d_avant": 0.01,
+    "depend_d_avant": 0.02,
     "notions_frequentes": [
      [
       "sql",
-      175
+      206
      ],
      [
       "poo",
@@ -862,522 +871,298 @@
     "formulations": [
      "ecrire requete",
      "requete",
-     "requete sql",
      "ecrire",
+     "requete sql",
      "ecrire requete sql",
      "sql"
     ],
     "prototypes": [
      "6. Écrire une requête SQL permettant d'obtenir le nom et le prénom du joueur j_1\nde l'équipe “Les Kangourous”.\nL'équipe “Volley Warriors” a terminé le tournoi avec un total de 5 points.",
-     "6. Écrire une requête SQL permettant d'obtenir les rayons des exo planètes\norbitant autour de l'étoile nommée Kepler-11, dont l'identifiant est supposé non\nconnu.",
-     "10. Écrire une requête SQL permettant d'obtenir tous les titres avec le nom de\nl'album des chansons du groupe Muse."
+     "7. Écrire une requête SQL permettant d'obtenir les dates de toutes les étapes de\ntype 'contre-la-montre' du tour de France 2023.",
+     "6. Écrire une requête SQL permettant d'obtenir les rayons des exo planètes\norbitant autour de l'étoile nommée Kepler-11, dont l'identifiant est supposé non\nconnu."
     ]
    },
    "9": {
-    "nom": "calcul_numerique / explication / se souvenir",
-    "effectif": 94,
+    "nom": "trace_execution / valeur / appliquer",
+    "effectif": 112,
     "taches": [
      [
-      "calcul_numerique",
-      94
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      81
-     ],
-     [
-      "schema",
-      8
-     ]
-    ],
-    "bloom": "se souvenir",
-    "bloom_moyen": 2.77,
-    "position_moyenne": 0.39,
-    "avec_code": 0.02,
-    "depend_d_avant": 0.05,
-    "notions_frequentes": [
-     [
-      "reseau_ip",
-      35
-     ],
-     [
-      "arbre_binaire",
-      17
-     ],
-     [
-      "routage",
-      14
-     ],
-     [
-      "representation_nombres",
-      9
-     ]
-    ],
-    "formulations": [
-     "adresse",
-     "donner",
-     "binaire",
-     "reseau",
-     "ip",
-     "ipv4"
-    ],
-    "prototypes": [
-     "3. Donner le nombre maximal de machines que l'on peut connecter sur le réseau\nlocal dédié au site C, y compris les machines déjà présentes.",
-     "7. Déterminer à quel réseau appartient l'adresse IP 50.50.50.6/30 en écrivant\nl'opération ET bit à bit effectuée. On convertira 50 et 6 en binaire.",
-     "1. Donner le nombre d'adresses IP qui peuvent être attribuées à des machines\ndans le réseau « Administration », ainsi qu'une adresse possible pour le\nrouteur E."
-    ]
-   },
-   "10": {
-    "nom": "justifier_choix / explication / évaluer",
-    "effectif": 63,
-    "taches": [
-     [
-      "justifier_choix",
-      63
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      61
-     ],
-     [
-      "valeur",
-      9
-     ]
-    ],
-    "bloom": "évaluer",
-    "bloom_moyen": 5.0,
-    "position_moyenne": 0.49,
-    "avec_code": 0.14,
-    "depend_d_avant": 0.06,
-    "notions_frequentes": [
-     [
-      "poo",
-      9
-     ],
-     [
-      "recursivite",
-      7
-     ],
-     [
-      "graphe",
-      5
-     ],
-     [
-      "processus",
-      4
-     ]
-    ],
-    "formulations": [
-     "justifier",
-     "recursive",
-     "citer",
-     "fonction",
-     "avantages",
-     "indiquer"
-    ],
-    "prototypes": [
-     "6. Justifier, en comparant le codage ASCII et le codage de Shannon-Fano, que ce\nsecond codage permet d'utiliser environ deux fois moins d'octets pour le texte :\n je pense, donc je suis",
-     "8. Justifier que 𝑁𝑁(𝑚𝑚, 𝑛𝑛) = 𝑁𝑁(𝑚𝑚 − 1, 𝑛𝑛) + 𝑁𝑁(𝑚𝑚, 𝑛𝑛 − 1).",
-     "2. Justifier que le couple (2, 3) n'en est pas une."
-    ]
-   },
-   "11": {
-    "nom": "autre / explication / appliquer",
-    "effectif": 318,
-    "taches": [
-     [
-      "autre",
-      318
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      218
-     ],
-     [
-      "valeur",
-      57
-     ]
-    ],
-    "bloom": "appliquer",
-    "bloom_moyen": 2.47,
-    "position_moyenne": 0.43,
-    "avec_code": 0.07,
-    "depend_d_avant": 0.03,
-    "notions_frequentes": [
-     [
-      "poo",
-      45
-     ],
-     [
-      "graphe",
-      32
-     ],
-     [
-      "arbre_binaire",
-      31
-     ],
-     [
-      "sql",
-      26
-     ]
-    ],
-    "formulations": [
-     "donner",
-     "determiner",
-     "arbre",
-     "liste",
-     "valeurs",
-     "valeur"
-    ],
-    "prototypes": [
-     "6. n = n - 1",
-     "9. n = n - 1",
-     "2. Codage des entiers relatifs :\nPour effectuer la soustraction sur 8 bits : 65 – 58, un processeur effectue l'addition : 65\n+ (-58) où -58 est obtenu par la méthode du complément à deux."
-    ]
-   },
-   "12": {
-    "nom": "ordonnancement / explication / comprendre",
-    "effectif": 51,
-    "taches": [
-     [
-      "ordonnancement",
-      51
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      37
-     ],
-     [
-      "valeur",
-      8
-     ]
-    ],
-    "bloom": "comprendre",
-    "bloom_moyen": 2.59,
-    "position_moyenne": 0.41,
-    "avec_code": 0.06,
-    "depend_d_avant": 0.04,
-    "notions_frequentes": [
-     [
-      "processus",
-      38
-     ],
-     [
-      "poo",
-      3
-     ],
-     [
-      "os_commandes",
-      2
-     ],
-     [
-      "file",
-      2
-     ]
-    ],
-    "formulations": [
-     "processus",
-     "interblocage",
-     "situation",
-     "elu",
-     "processus p1",
-     "processeur"
-    ],
-    "prototypes": [
-     "6. L'interblocage est la situation où plusieurs processus s ont bloqués car chacun attend qu'une ressource\ndétenue par un autre se libère.",
-     "5. Le processus P4 arrive à l'instant 4 et n'est élu qu'à l'ins tant 10 donc il a attendu 6 unités de temps.\n2",
-     "2. On suppose que quatre processus C₁, C₂, C₃ et C₄ sont créés sur un ordinateur,\net qu'aucun autre processus n'est lancé sur celui-ci, ni préalablement ni pendant\nl'exécution des quatre processus.\nL'ordonnanceur, pour exécuter les différents processus prêts, "
-    ]
-   },
-   "13": {
-    "nom": "modele_donnees / explication / analyser",
-    "effectif": 129,
-    "taches": [
-     [
-      "modele_donnees",
-      129
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
+      "trace_execution",
       112
-     ],
-     [
-      "sql",
-      9
-     ]
-    ],
-    "bloom": "analyser",
-    "bloom_moyen": 2.99,
-    "position_moyenne": 0.27,
-    "avec_code": 0.21,
-    "depend_d_avant": 0.01,
-    "notions_frequentes": [
-     [
-      "modele_relationnel",
-      77
-     ],
-     [
-      "sql",
-      26
-     ],
-     [
-      "poo",
-      20
-     ],
-     [
-      "graphe",
-      3
-     ]
-    ],
-    "formulations": [
-     "cle",
-     "cle primaire",
-     "primaire",
-     "attribut",
-     "relation",
-     "table"
-    ],
-    "prototypes": [
-     "2. L'attribut id_exoplanete peut être utilisé comme clé étrangère dans la relation Exoplanetes car il\nest unique et permet donc d'identiﬁer sans ambiguïté chaque exoplanète.",
-     "3. Préciser la clé primaire et la clé étrangère de la relation ComptesAbonnes.\n\nL'entreprise gérant le service de VOD demande une adaptation du modèle relationnel.",
-     "1. L'attribut masse de la relation Exoplanetes ne peut pas servir de clé primaire de cette relation car il\nn'est pas unique, plusieurs exoplanètes peuvent avoir la mê me masse, p.ex celles d' id_exoplanete 6 et\n7."
-    ]
-   },
-   "14": {
-    "nom": "autre / explication / créer",
-    "effectif": 87,
-    "taches": [
-     [
-      "autre",
-      41
-     ],
-     [
-      "ecrire_fonction",
-      17
      ]
     ],
     "formats": [
      [
-      "explication",
-      42
+      "valeur",
+      89
      ],
      [
-      "valeur",
+      "explication",
       23
      ]
     ],
-    "bloom": "créer",
-    "bloom_moyen": 4.45,
-    "position_moyenne": 0.67,
-    "avec_code": 0.02,
-    "depend_d_avant": 1.0,
+    "bloom": "appliquer",
+    "bloom_moyen": 3.38,
+    "position_moyenne": 0.48,
+    "avec_code": 0.31,
+    "depend_d_avant": 0.25,
     "notions_frequentes": [
      [
       "poo",
+      23
+     ],
+     [
+      "pile",
       16
      ],
      [
-      "arbre_binaire",
-      10
-     ],
-     [
       "sql",
-      8
+      14
      ],
      [
-      "dictionnaire",
-      5
+      "file",
+      9
      ]
     ],
     "formulations": [
-     "fonction",
-     "deduire",
-     "ecrire",
-     "precedente",
-     "precedent",
-     "utilisant"
+     "apres",
+     "apres execution",
+     "execution",
+     "renvoie",
+     "contenu",
+     "appel"
     ],
     "prototypes": [
-     "5. En vous aidant de la fonction précédente, écrire l'instruction qui permet de\nretirer Helka de l'attelage de l'équipe eq11.",
-     "10. En utilisant la fonction parcours_profondeur, écrire en Python une suite\nd'instructions permettant de vérifier que la configuration représentée par\nl'entier 4 est bien perdante.",
-     "8. Proposer une solution pour éviter le problème évoqué à la question 7.\n\nEN_NOzUzMD2M0ODAczOT2UzMmTYxMj8A2MDEO2OTgQ3NHTIx"
+     "8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions.",
+     "3. Donner le contenu de la liste notes après le troisième passage dans la boucle\nfor.",
+     "2. Donner le contenu de la liste notes après le premier passage dans la boucle for."
     ]
    },
-   "15": {
-    "nom": "justifier_choix / explication / analyser",
-    "effectif": 65,
+   "10": {
+    "nom": "ecrire_fonction / code_python / créer",
+    "effectif": 235,
     "taches": [
      [
-      "justifier_choix",
-      64
-     ],
-     [
-      "completer_code",
-      1
+      "ecrire_fonction",
+      235
      ]
     ],
     "formats": [
-     [
-      "explication",
-      64
-     ],
      [
       "code_python",
-      4
-     ]
-    ],
-    "bloom": "analyser",
-    "bloom_moyen": 3.48,
-    "position_moyenne": 0.56,
-    "avec_code": 0.14,
-    "depend_d_avant": 0.06,
-    "notions_frequentes": [
-     [
-      "poo",
-      8
-     ],
-     [
-      "graphe",
-      7
-     ],
-     [
-      "sql",
-      6
-     ],
-     [
-      "securite_crypto",
-      6
-     ]
-    ],
-    "formulations": [
-     "expliquer",
-     "pourquoi",
-     "expliquer pourquoi",
-     "quoi",
-     "expliquer quoi",
-     "utiliser"
-    ],
-    "prototypes": [
-     "8. Expliquer pourquoi il est plus intéressant dans ce cas précis d'utiliser une file\nplutôt qu'une pile.",
-     "6. Expliquer pourquoi il est nécessaire d'avoir les deux clés au lieu de n'avoir\nque la clé privée.",
-     "2. Expliquer pourquoi les systèmes sur puces intègrent en général des bus ayant des\nvitesses de transmission différentes."
-    ]
-   },
-   "16": {
-    "nom": "table_routage / explication / appliquer",
-    "effectif": 88,
-    "taches": [
-     [
-      "table_routage",
-      88
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      41
-     ],
-     [
-      "tableau",
-      27
-     ]
-    ],
-    "bloom": "appliquer",
-    "bloom_moyen": 2.82,
-    "position_moyenne": 0.51,
-    "avec_code": 0.03,
-    "depend_d_avant": 0.08,
-    "notions_frequentes": [
-     [
-      "routage",
-      78
-     ],
-     [
-      "reseau_ip",
-      6
-     ],
-     [
-      "graphe",
-      2
-     ],
-     [
-      "chaines",
-      1
-     ]
-    ],
-    "formulations": [
-     "routeur",
-     "routage",
-     "table routage",
-     "routeurs",
-     "table",
-     "rip"
-    ],
-    "prototypes": [
-     "6. Déterminer la nouvelle route qu'un paquet peut suivre de R1 à R2 si le routeur\nR3 tombe en panne, toujours en supposant qu'on utilise le protocole RIP.",
-     "3) On analyse maintenant une nouvelle topologie du réseau appelé Réseau 2. Chaque sommet\nreprésente un routeur et la pondération des arêtes correspond aux coûts des liaisons entre les\ndeux routeurs reliés. Le protocole OSPF (Open Shortest Path First) est ainsi",
-     "d. Déterminer le nouveau parcours emprunté par le paquet IP pour aller du routeur\nR1 au routeur R6."
-    ]
-   },
-   "17": {
-    "nom": "lire_sql / sql / appliquer",
-    "effectif": 31,
-    "taches": [
-     [
-      "lire_sql",
-      31
-     ]
-    ],
-    "formats": [
-     [
-      "sql",
-      31
+      225
      ],
      [
       "valeur",
-      23
+      58
      ]
     ],
-    "bloom": "appliquer",
-    "bloom_moyen": 2.81,
-    "position_moyenne": 0.48,
-    "avec_code": 0.58,
-    "depend_d_avant": 0.13,
+    "bloom": "créer",
+    "bloom_moyen": 6.0,
+    "position_moyenne": 0.59,
+    "avec_code": 0.06,
+    "depend_d_avant": 0.05,
     "notions_frequentes": [
      [
-      "sql",
-      30
+      "poo",
+      90
      ],
      [
-      "poo",
-      1
+      "graphe",
+      22
+     ],
+     [
+      "dictionnaire",
+      17
+     ],
+     [
+      "fonctions",
+      12
      ]
     ],
     "formulations": [
-     "requete",
-     "resultat",
-     "resultat requete",
-     "select",
-     "from",
-     "donner resultat"
+     "ecrire",
+     "ecrire fonction",
+     "fonction",
+     "prend",
+     "ecrire code",
+     "parametre"
     ],
     "prototypes": [
-     "9. Préciser le résultat de la requête suivante pour l'extrait de données.\nSELECT nom FROM personnel\nWHERE actif = 0;",
-     "2. a) Donner le résultat de la requête suivante :\nSELECT nom, prenom FROM Membre WHERE cp = \"69003\" ;",
-     "2. Donner le résultat de la requête suivante :\nSELECT titre, album\nFROM Chanson\nWHERE groupe = 'Guns N'Roses';"
+     "6. Écrire une fonction liste_lancers_possibles qui prend en paramètre un\nétat etat et qui renvoie une liste d'entiers correspondant à l'ensemble des\nlancers possibles à partir de cet état.",
+     "7. Écrire une fonction temps_course qui prend pour paramètre equipe de type\nEquipe et qui renvoie un nombre flottant correspondant au cumul des temps de\nl'équipe equipe à l'issue des 9 étapes de la course.\nOn rappelle que la classe Equipe dispose d'un attribut",
+     "3. L'objectif de cette partie est d'écrire la fonction de recherche des deux points les plus proches\nen utilisant la méthode diviser-pour-régner."
     ]
    },
-   "18": {
+   "11": {
+    "nom": "corriger_code / explication / analyser",
+    "effectif": 84,
+    "taches": [
+     [
+      "corriger_code",
+      84
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      60
+     ],
+     [
+      "sql",
+      32
+     ]
+    ],
+    "bloom": "analyser",
+    "bloom_moyen": 4.64,
+    "position_moyenne": 0.52,
+    "avec_code": 0.32,
+    "depend_d_avant": 0.11,
+    "notions_frequentes": [
+     [
+      "sql",
+      33
+     ],
+     [
+      "mise_au_point",
+      13
+     ],
+     [
+      "poo",
+      9
+     ],
+     [
+      "representation_nombres",
+      6
+     ]
+    ],
+    "formulations": [
+     "erreur",
+     "corriger",
+     "expliquer",
+     "pourquoi",
+     "expliquer pourquoi",
+     "requete"
+    ],
+    "prototypes": [
+     "9. Expliquer brièvement pourquoi, lors d'un appel à la fonction\nchargement_glouton, on peut obtenir l'erreur suivante.",
+     "5. Recopier et modifier la ligne 6 de la fonction en_grille afin de corriger cette\nerreur.",
+     "6. Expliquer la cause du problème et proposer une modification du code d'Edgar\nafin de la corriger."
+    ]
+   },
+   "12": {
+    "nom": "dessiner_structure / schema / appliquer",
+    "effectif": 108,
+    "taches": [
+     [
+      "dessiner_structure",
+      108
+     ]
+    ],
+    "formats": [
+     [
+      "schema",
+      108
+     ],
+     [
+      "valeur",
+      18
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 3.69,
+    "position_moyenne": 0.47,
+    "avec_code": 0.16,
+    "depend_d_avant": 0.11,
+    "notions_frequentes": [
+     [
+      "arbre_binaire",
+      25
+     ],
+     [
+      "modele_relationnel",
+      17
+     ],
+     [
+      "routage",
+      16
+     ],
+     [
+      "poo",
+      10
+     ]
+    ],
+    "formulations": [
+     "schema",
+     "dessiner",
+     "schema relationnel",
+     "relationnel",
+     "arbre",
+     "representer"
+    ],
+    "prototypes": [
+     "4. On complète le schéma avec la règle du « premier arrivé prem ier servi ».\nTemps0 5 10 15\nP2 P2 P1 P1 P1 P1 P3 P3 P3 P3 P4 P4",
+     "7. Dessiner, en vous inspirant de l'arbre de la Figure 1, un arbre de codage qui\npermettrait d'encoder le mot « chiffrer » en utilisant l'algorithme de\nShannon-Fano.",
+     "8. Dessiner l'arbre binaire représenté par le tuple (((None, (1, 34),\nNone), (2, 35), None), (11, 36), (None, (17, 30), None)).\nL'arbre construit à partir de la liste etoiles a donc pour représentation Python :\n(((None, (10, 30), None), (15, 20), (None, (17, 1"
+    ]
+   },
+   "13": {
+    "nom": "definir_notion / explication / se souvenir",
+    "effectif": 20,
+    "taches": [
+     [
+      "definir_notion",
+      20
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      15
+     ],
+     [
+      "qcm_choix",
+      3
+     ]
+    ],
+    "bloom": "se souvenir",
+    "bloom_moyen": 2.05,
+    "position_moyenne": 0.39,
+    "avec_code": 0.05,
+    "depend_d_avant": 0.0,
+    "notions_frequentes": [
+     [
+      "processus",
+      4
+     ],
+     [
+      "sql",
+      3
+     ],
+     [
+      "soc_architecture",
+      2
+     ],
+     [
+      "arbre_binaire",
+      2
+     ]
+    ],
+    "formulations": [
+     "citer",
+     "signifie",
+     "definir",
+     "processus",
+     "nommer",
+     "adresse"
+    ],
+    "prototypes": [
+     "3. Citer le type de parcours de l'arbre qui permettrait d'obtenir les symboles\nclassés par taille d'encodage croissante.",
+     "3. Définir la matrice d'adjacence du graphe G1 (en prenant les sommets dans\nl'ordre alphabétique).",
+     "1. Citer les trois états dans lesquels un processus peut se trouver."
+    ]
+   },
+   "14": {
     "nom": "complexite / complexite / analyser",
     "effectif": 15,
     "taches": [
@@ -1433,129 +1218,357 @@
     ],
     "prototypes": [
      "2. Identifier le tri qui a une complexité, dans le pire des cas , en O(n2) et identifier le tri\nqui a une complexité, dans le pire des cas, en O(n log2 n).",
-     "9. Comparer le coût en nombre d'opérations des deux stratégies en fonction du\nnombre n de maisons dans la rue. On admet que le coût de la fonction append\nest constant.",
-     "2. Comparer la complexité de cette méthode de tri avec celle du tri par insertion ou\ndu tri par sélection.\n\n 2 1 - N S I J 2 P O 1 1 0 / 1 5"
+     "2. Comparer la complexité de cette méthode de tri avec celle du tri par insertion ou\ndu tri par sélection.\n\n 2 1 - N S I J 2 P O 1 1 0 / 1 5",
+     "9. Comparer le coût en nombre d'opérations des deux stratégies en fonction du\nnombre n de maisons dans la rue. On admet que le coût de la fonction append\nest constant."
     ]
    },
-   "19": {
-    "nom": "expliquer / explication / comprendre",
-    "effectif": 160,
+   "15": {
+    "nom": "justifier_choix / explication / évaluer",
+    "effectif": 75,
     "taches": [
      [
-      "expliquer",
-      160
+      "justifier_choix",
+      74
+     ],
+     [
+      "completer_code",
+      1
      ]
     ],
     "formats": [
      [
       "explication",
-      127
+      73
      ],
      [
       "valeur",
-      28
+      10
      ]
     ],
-    "bloom": "comprendre",
-    "bloom_moyen": 2.56,
-    "position_moyenne": 0.47,
-    "avec_code": 0.14,
-    "depend_d_avant": 0.05,
+    "bloom": "évaluer",
+    "bloom_moyen": 5.0,
+    "position_moyenne": 0.48,
+    "avec_code": 0.13,
+    "depend_d_avant": 0.07,
     "notions_frequentes": [
      [
       "poo",
-      32
+      10
+     ],
+     [
+      "recursivite",
+      8
      ],
      [
       "arbre_binaire",
-      19
+      7
+     ],
+     [
+      "graphe",
+      6
+     ]
+    ],
+    "formulations": [
+     "justifier",
+     "recursive",
+     "fonction",
+     "citer",
+     "justifier fonction",
+     "parmi"
+    ],
+    "prototypes": [
+     "6. Justifier, en comparant le codage ASCII et le codage de Shannon-Fano, que ce\nsecond codage permet d'utiliser environ deux fois moins d'octets pour le texte :\n je pense, donc je suis",
+     "8. Justifier que 𝑁𝑁(𝑚𝑚, 𝑛𝑛) = 𝑁𝑁(𝑚𝑚 − 1, 𝑛𝑛) + 𝑁𝑁(𝑚𝑚, 𝑛𝑛 − 1).",
+     "9. Justifier que cette méthode parcours termine toujours sur une arborescence\nde fichiers."
+    ]
+   },
+   "16": {
+    "nom": "autre / valeur / se souvenir",
+    "effectif": 36,
+    "taches": [
+     [
+      "autre",
+      25
+     ],
+     [
+      "calcul_numerique",
+      11
+     ]
+    ],
+    "formats": [
+     [
+      "valeur",
+      20
+     ],
+     [
+      "sql",
+      7
+     ]
+    ],
+    "bloom": "se souvenir",
+    "bloom_moyen": 1.0,
+    "position_moyenne": 0.39,
+    "avec_code": 0.08,
+    "depend_d_avant": 0.0,
+    "notions_frequentes": [
+     [
+      "poo",
+      10
+     ],
+     [
+      "sql",
+      5
+     ],
+     [
+      "arbre_binaire",
+      4
+     ],
+     [
+      "routage",
+      4
+     ]
+    ],
+    "formulations": [
+     "donner",
+     "valeur",
+     "obtenir",
+     "valeurs",
+     "langage sql",
+     "donner expression"
+    ],
+    "prototypes": [
+     "1. Le répertoire courant est home. Donner une commande permettant de connaître\nle contenu du dossier documents.\nOn suppose que l'on se trouve dans le dossier cours et que l'on exécute la\ncommande mv ../../multimedia /home/documents",
+     "3. Donner une suite d'instructions Python permettant de créer un objet\ndetecteur (instance de la classe DetecteurSpam) correspondant à un\ndétecteur à deux entrées, puis de remplacer ses poids et son biais par les\nvaleurs p1 = 0.7, p2 = -0.2 et b = 0.1 en utili",
+     "2. Donner la plus petite valeur de cible que la ligne [6,4,5,8,2] peut atteindre.\nDonner aussi la plus grande valeur de cible que la ligne peut atteindre."
+    ]
+   },
+   "17": {
+    "nom": "modele_donnees / explication / analyser",
+    "effectif": 141,
+    "taches": [
+     [
+      "modele_donnees",
+      141
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      124
+     ],
+     [
+      "sql",
+      10
+     ]
+    ],
+    "bloom": "analyser",
+    "bloom_moyen": 3.01,
+    "position_moyenne": 0.29,
+    "avec_code": 0.2,
+    "depend_d_avant": 0.02,
+    "notions_frequentes": [
+     [
+      "modele_relationnel",
+      80
+     ],
+     [
+      "sql",
+      29
+     ],
+     [
+      "poo",
+      25
+     ],
+     [
+      "graphe",
+      3
+     ]
+    ],
+    "formulations": [
+     "cle",
+     "cle primaire",
+     "primaire",
+     "attribut",
+     "relation",
+     "expliquer"
+    ],
+    "prototypes": [
+     "2. L'attribut id_exoplanete peut être utilisé comme clé étrangère dans la relation Exoplanetes car il\nest unique et permet donc d'identiﬁer sans ambiguïté chaque exoplanète.",
+     "3. Préciser la clé primaire et la clé étrangère de la relation ComptesAbonnes.\n\nL'entreprise gérant le service de VOD demande une adaptation du modèle relationnel.",
+     "1. L'attribut masse de la relation Exoplanetes ne peut pas servir de clé primaire de cette relation car il\nn'est pas unique, plusieurs exoplanètes peuvent avoir la mê me masse, p.ex celles d' id_exoplanete 6 et\n7."
+    ]
+   },
+   "18": {
+    "nom": "lire_sql / sql / appliquer",
+    "effectif": 36,
+    "taches": [
+     [
+      "lire_sql",
+      36
+     ]
+    ],
+    "formats": [
+     [
+      "sql",
+      36
+     ],
+     [
+      "valeur",
+      27
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 2.86,
+    "position_moyenne": 0.46,
+    "avec_code": 0.53,
+    "depend_d_avant": 0.14,
+    "notions_frequentes": [
+     [
+      "sql",
+      35
+     ],
+     [
+      "poo",
+      1
+     ]
+    ],
+    "formulations": [
+     "resultat",
+     "resultat requete",
+     "requete",
+     "select",
+     "donner resultat",
+     "donner resultat requete"
+    ],
+    "prototypes": [
+     "2. a) Donner le résultat de la requête suivante :\nSELECT nom, prenom FROM Membre WHERE cp = \"69003\" ;",
+     "2. Donner le résultat de la requête suivante :\nSELECT titre, album\nFROM Chanson\nWHERE groupe = 'Guns N'Roses';",
+     "2. Donner le résultat de la requête suivante, quand o n l'applique aux extraits\ndonnés des tables.\n SELECT intitule FROM salle WHERE nb_places > 5\n ORDER BY tarif_jour;"
+    ]
+   },
+   "19": {
+    "nom": "calcul_numerique / explication / appliquer",
+    "effectif": 168,
+    "taches": [
+     [
+      "calcul_numerique",
+      168
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      105
+     ],
+     [
+      "valeur",
+      53
+     ]
+    ],
+    "bloom": "appliquer",
+    "bloom_moyen": 3.62,
+    "position_moyenne": 0.44,
+    "avec_code": 0.12,
+    "depend_d_avant": 0.03,
+    "notions_frequentes": [
+     [
+      "reseau_ip",
+      35
+     ],
+     [
+      "arbre_binaire",
+      34
+     ],
+     [
+      "routage",
+      31
+     ],
+     [
+      "poo",
+      20
+     ]
+    ],
+    "formulations": [
+     "binaire",
+     "arbre",
+     "arbre binaire",
+     "adresse",
+     "calculer",
+     "reseau"
+    ],
+    "prototypes": [
+     "7. Déterminer à quel réseau appartient l'adresse IP 50.50.50.6/30 en écrivant\nl'opération ET bit à bit effectuée. On convertira 50 et 6 en binaire.",
+     "3. Donner le nombre maximal de machines que l'on peut connecter sur le réseau\nlocal dédié au site C, y compris les machines déjà présentes.",
+     "3. Déterminer l'écriture décimale du nombre binaire 110010."
+    ]
+   },
+   "20": {
+    "nom": "autre / explication / créer",
+    "effectif": 125,
+    "taches": [
+     [
+      "autre",
+      124
+     ],
+     [
+      "completer_code",
+      1
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      74
+     ],
+     [
+      "code_python",
+      23
+     ]
+    ],
+    "bloom": "créer",
+    "bloom_moyen": 6.0,
+    "position_moyenne": 0.51,
+    "avec_code": 0.11,
+    "depend_d_avant": 0.01,
+    "notions_frequentes": [
+     [
+      "poo",
+      31
      ],
      [
       "sql",
       18
      ],
      [
-      "routage",
-      10
-     ]
-    ],
-    "formulations": [
-     "indiquer",
-     "expliquer",
-     "preciser",
-     "quel",
-     "fonction",
-     "arbre"
-    ],
-    "prototypes": [
-     "11. Indiquer dans quel ordre apparaitraient les mots -clés avec un parcours en\nprofondeur infixe sur l'ABR illustré.",
-     "3. Indiquer ce que permet de tester la commande ping.",
-     "12. Indiquer dans quel ordre apparaitraient les mots -clés pour un parcours en\nprofondeur postfixe (ou suffixe)."
-    ]
-   },
-   "20": {
-    "nom": "definir_notion / explication / se souvenir",
-    "effectif": 19,
-    "taches": [
-     [
-      "definir_notion",
-      19
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      15
-     ],
-     [
-      "qcm_choix",
-      3
-     ]
-    ],
-    "bloom": "se souvenir",
-    "bloom_moyen": 1.84,
-    "position_moyenne": 0.35,
-    "avec_code": 0.05,
-    "depend_d_avant": 0.0,
-    "notions_frequentes": [
-     [
-      "processus",
-      4
-     ],
-     [
-      "sql",
-      3
-     ],
-     [
-      "soc_architecture",
-      2
-     ],
-     [
       "arbre_binaire",
-      2
+      12
+     ],
+     [
+      "graphe",
+      11
      ]
     ],
     "formulations": [
-     "citer",
-     "signifie",
-     "definir",
-     "processus",
-     "nommer",
-     "adresse"
+     "ecrire",
+     "proposer",
+     "python",
+     "permettant",
+     "python fonction",
+     "fonction"
     ],
     "prototypes": [
-     "1. Citer les trois états dans lesquels un processus peut se trouver.",
-     "3. Citer le type de parcours de l'arbre qui permettrait d'obtenir les symboles\nclassés par taille d'encodage croissante.",
-     "3. Définir la matrice d'adjacence du graphe G1 (en prenant les sommets dans\nl'ordre alphabétique)."
+     "3. Écrire les instructions qui permettent de créer le véhicule d'immatriculation\nHG-818-AV et de l'attribuer au chauffeur John Doe.",
+     "3. Ecrire linstruction qui permet d'instancier le personnage luther du clan\n\"Umbrella” avec 100 points de vie et 15 points de force.",
+     "3. Écrire les instructions à placer en ligne 14 et 15 permettant de créer les nœuds\npour les lettres K et S."
     ]
    },
    "21": {
     "nom": "complexite / explication / évaluer",
-    "effectif": 21,
+    "effectif": 22,
     "taches": [
      [
       "complexite",
-      21
+      22
      ]
     ],
     "formats": [
@@ -1565,14 +1578,14 @@
      ],
      [
       "valeur",
-      10
+      11
      ]
     ],
     "bloom": "évaluer",
-    "bloom_moyen": 3.1,
-    "position_moyenne": 0.6,
+    "bloom_moyen": 3.18,
+    "position_moyenne": 0.62,
     "avec_code": 0.14,
-    "depend_d_avant": 0.33,
+    "depend_d_avant": 0.32,
     "notions_frequentes": [
      [
       "poo",
@@ -1587,254 +1600,258 @@
       3
      ],
      [
-      "diviser_regner",
-      1
+      "tri",
+      2
      ]
     ],
     "formulations": [
      "cout",
      "nombre comparaisons",
-     "comparaisons",
      "tri",
+     "comparaisons",
      "efficace",
-     "cout execution"
+     "temporel"
     ],
     "prototypes": [
      "7. Donner le coût d'exécution temporel de la méthode prediction en fonction\nde la taille 𝑛 des entrées.",
-     "10. Donner le nom d'un algorithme de tri plus efficace étudié en terminale, et\nnommer le paradigme algorithmique mis en œuvre dans cet algorithme plus\nefficace.",
-     "8. Sans justifier, préciser le nom de ce tri, ainsi que son coût temporel dans le pire\ndes cas (constant, logarithmique, linéaire, quasi-linéaire (𝑛𝑛 log2 𝑛𝑛), quadratique,\ncubique ou exponentiel)."
+     "8. Sans justifier, préciser le nom de ce tri, ainsi que son coût temporel dans le pire\ndes cas (constant, logarithmique, linéaire, quasi-linéaire (𝑛𝑛 log2 𝑛𝑛), quadratique,\ncubique ou exponentiel).",
+     "10. Donner le nom d'un algorithme de tri plus efficace étudié en terminale, et\nnommer le paradigme algorithmique mis en œuvre dans cet algorithme plus\nefficace."
     ]
    },
    "22": {
-    "nom": "trace_execution / valeur / appliquer",
-    "effectif": 104,
+    "nom": "table_routage / explication / appliquer",
+    "effectif": 103,
     "taches": [
      [
-      "trace_execution",
-      104
+      "table_routage",
+      103
      ]
     ],
     "formats": [
-     [
-      "valeur",
-      81
-     ],
      [
       "explication",
-      23
-     ]
-    ],
-    "bloom": "appliquer",
-    "bloom_moyen": 3.48,
-    "position_moyenne": 0.49,
-    "avec_code": 0.3,
-    "depend_d_avant": 0.22,
-    "notions_frequentes": [
-     [
-      "poo",
-      21
-     ],
-     [
-      "pile",
-      16
-     ],
-     [
-      "sql",
-      13
-     ],
-     [
-      "file",
-      7
-     ]
-    ],
-    "formulations": [
-     "apres",
-     "apres execution",
-     "execution",
-     "renvoie",
-     "contenu",
-     "appel"
-    ],
-    "prototypes": [
-     "3. Donner le contenu de la liste notes après le troisième passage dans la boucle\nfor.",
-     "2. Donner le contenu de la liste notes après le premier passage dans la boucle for.",
-     "8. Déterminer les valeurs des variables a et b après l'exécution de ces instructions."
-    ]
-   },
-   "23": {
-    "nom": "calcul_numerique / valeur / appliquer",
-    "effectif": 91,
-    "taches": [
-     [
-      "calcul_numerique",
-      91
-     ]
-    ],
-    "formats": [
-     [
-      "valeur",
       49
      ],
      [
-      "explication",
-      26
+      "tableau",
+      31
      ]
     ],
     "bloom": "appliquer",
-    "bloom_moyen": 3.47,
-    "position_moyenne": 0.5,
-    "avec_code": 0.23,
-    "depend_d_avant": 0.0,
+    "bloom_moyen": 2.89,
+    "position_moyenne": 0.52,
+    "avec_code": 0.03,
+    "depend_d_avant": 0.1,
     "notions_frequentes": [
      [
       "routage",
-      20
-     ],
-     [
-      "arbre_binaire",
-      18
-     ],
-     [
-      "poo",
-      18
-     ],
-     [
-      "representation_nombres",
-      13
-     ]
-    ],
-    "formulations": [
-     "binaire",
-     "arbre",
-     "arbre binaire",
-     "calculer",
-     "cout",
-     "recherche"
-    ],
-    "prototypes": [
-     "4. En considérant un codage binaire d'un tel conduit, où gauche est représenté\npar 0 et droite par 1, déterminer le nombre de conduits dans une pyramide\nde n niveaux.",
-     "9. Convertir le nombre 240 en binaire puis déterminer le nombre de machines\nqu'il est encore possible d'ajouter à ce réseau local.",
-     "9. Déterminer la route dont le coût est minimal pour aller du routeur 1 jusqu'au\nrouteur 4 et calculer son coût au sens du protocole OSPF."
-    ]
-   },
-   "24": {
-    "nom": "autre / explication / comprendre",
-    "effectif": 64,
-    "taches": [
-     [
-      "autre",
-      47
-     ],
-     [
-      "calcul_numerique",
-      12
-     ]
-    ],
-    "formats": [
-     [
-      "explication",
-      31
-     ],
-     [
-      "valeur",
-      21
-     ]
-    ],
-    "bloom": "comprendre",
-    "bloom_moyen": 2.45,
-    "position_moyenne": 0.4,
-    "avec_code": 0.11,
-    "depend_d_avant": 0.16,
-    "notions_frequentes": [
-     [
-      "arbre_binaire",
-      8
-     ],
-     [
-      "poo",
-      7
-     ],
-     [
-      "routage",
-      7
+      91
      ],
      [
       "reseau_ip",
       7
+     ],
+     [
+      "graphe",
+      3
+     ],
+     [
+      "chaines",
+      1
+     ]
+    ],
+    "formulations": [
+     "routeur",
+     "routage",
+     "table routage",
+     "routeurs",
+     "table",
+     "rip"
+    ],
+    "prototypes": [
+     "6. Déterminer la nouvelle route qu'un paquet peut suivre de R1 à R2 si le routeur\nR3 tombe en panne, toujours en supposant qu'on utilise le protocole RIP.",
+     "d. Déterminer le nouveau parcours emprunté par le paquet IP pour aller du routeur\nR1 au routeur R6.",
+     "3) On analyse maintenant une nouvelle topologie du réseau appelé Réseau 2. Chaque sommet\nreprésente un routeur et la pondération des arêtes correspond aux coûts des liaisons entre les\ndeux routeurs reliés. Le protocole OSPF (Open Shortest Path First) est ainsi"
+    ]
+   },
+   "23": {
+    "nom": "autre / explication / se souvenir",
+    "effectif": 129,
+    "taches": [
+     [
+      "autre",
+      93
+     ],
+     [
+      "calcul_numerique",
+      36
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      116
+     ],
+     [
+      "schema",
+      13
+     ]
+    ],
+    "bloom": "se souvenir",
+    "bloom_moyen": 1.0,
+    "position_moyenne": 0.37,
+    "avec_code": 0.09,
+    "depend_d_avant": 0.04,
+    "notions_frequentes": [
+     [
+      "reseau_ip",
+      25
+     ],
+     [
+      "poo",
+      22
+     ],
+     [
+      "arbre_binaire",
+      15
+     ],
+     [
+      "securite_crypto",
+      11
+     ]
+    ],
+    "formulations": [
+     "donner",
+     "adresse",
+     "donner adresse",
+     "reseau",
+     "donner code",
+     "arbre"
+    ],
+    "prototypes": [
+     "3. Donner toutes les tâches qu'il faut nécessairement avoir réalisées depuis le\ndébut pour pouvoir réaliser la tâche (k). Ne donner que les tâches nécessaires.",
+     "6. Donner le solde en nsicoin de Bob à l'issue du bloc2.",
+     "3. Donner la nouvelle définition de la variable voisins."
+    ]
+   },
+   "24": {
+    "nom": "autre / explication / comprendre",
+    "effectif": 69,
+    "taches": [
+     [
+      "autre",
+      51
+     ],
+     [
+      "calcul_numerique",
+      13
+     ]
+    ],
+    "formats": [
+     [
+      "explication",
+      33
+     ],
+     [
+      "valeur",
+      24
+     ]
+    ],
+    "bloom": "comprendre",
+    "bloom_moyen": 2.38,
+    "position_moyenne": 0.4,
+    "avec_code": 0.12,
+    "depend_d_avant": 0.14,
+    "notions_frequentes": [
+     [
+      "arbre_binaire",
+      11
+     ],
+     [
+      "reseau_ip",
+      8
+     ],
+     [
+      "routage",
+      7
+     ],
+     [
+      "poo",
+      6
      ]
     ],
     "formulations": [
      "quelle",
      "combien",
-     "quelle valeur",
      "quel",
-     "execute",
-     "fonction"
+     "arbre",
+     "quelle valeur",
+     "quelles"
     ],
     "prototypes": [
      "b. Quelle est la solution du problème si tous les éléments sont négatifs ?",
-     "4. Le module time est importé à la ligne 2 de ce programme. Quelle est la méthode\ndu module time utilisée dans ce code ?",
-     "1. a. Quelles sont les adresses des réseaux locaux L1 et L2 ?"
+     "1. a. Quelles sont les adresses des réseaux locaux L1 et L2 ?",
+     "4. Le module time est importé à la ligne 2 de ce programme. Quelle est la méthode\ndu module time utilisée dans ce code ?"
     ]
    },
    "25": {
-    "nom": "completer_code / code_python / appliquer",
-    "effectif": 160,
+    "nom": "justifier_choix / explication / analyser",
+    "effectif": 70,
     "taches": [
      [
-      "completer_code",
-      157
+      "justifier_choix",
+      69
      ],
      [
-      "autre",
-      3
+      "completer_code",
+      1
      ]
     ],
     "formats": [
      [
-      "code_python",
+      "explication",
       69
      ],
      [
-      "tableau",
-      53
+      "code_python",
+      5
      ]
     ],
-    "bloom": "appliquer",
-    "bloom_moyen": 3.21,
-    "position_moyenne": 0.5,
-    "avec_code": 0.03,
-    "depend_d_avant": 0.0,
+    "bloom": "analyser",
+    "bloom_moyen": 3.49,
+    "position_moyenne": 0.55,
+    "avec_code": 0.16,
+    "depend_d_avant": 0.07,
     "notions_frequentes": [
      [
       "poo",
-      40
-     ],
-     [
-      "routage",
-      32
+      10
      ],
      [
       "graphe",
-      12
+      8
      ],
      [
-      "processus",
-      11
+      "sql",
+      7
+     ],
+     [
+      "securite_crypto",
+      6
      ]
     ],
     "formulations": [
-     "completer",
-     "recopier",
-     "recopier completer",
-     "lignes",
-     "completer lignes",
-     "recopier completer lignes"
+     "expliquer",
+     "pourquoi",
+     "expliquer pourquoi",
+     "quoi",
+     "expliquer quoi",
+     "utiliser"
     ],
     "prototypes": [
-     "2. Les lignes 11 et 12 de cette description du graphe ne sont pas complètes.\nRecopier et compléter le code des lignes 11 et 12.",
-     "9. Recopier et compléter le retour de la fonction coloration appliquée au\ngraphe G donné plus haut.\n {1: 'Vert', 2: ..., ...}",
-     "2. Recopier et compléter les lignes 8, 9 et 10 et compléter les pointillés avec le\ncode manquant."
+     "8. Expliquer pourquoi il est plus intéressant dans ce cas précis d'utiliser une file\nplutôt qu'une pile.",
+     "6. Expliquer pourquoi il est nécessaire d'avoir les deux clés au lieu de n'avoir\nque la clé privée.",
+     "2. Expliquer pourquoi les systèmes sur puces intègrent en général des bus ayant des\nvitesses de transmission différentes."
     ]
    }
   }
@@ -1843,183 +1860,183 @@
   "poo": [
    [
     "ecrire_fonction / code_python / créer",
-    1.98
+    1.96
    ],
    [
     "completer_code / code_python / appliquer",
-    1.74
+    1.82
    ],
    [
     "complexite / explication / évaluer",
-    1.57
+    1.63
    ]
   ],
   "pile": [
    [
     "trace_execution / valeur / appliquer",
-    4.53
+    4.58
    ],
    [
     "dessiner_structure / schema / appliquer",
-    2.06
+    1.94
    ],
    [
     "ecrire_fonction / code_python / créer",
-    1.89
+    1.93
    ]
   ],
   "file": [
    [
     "trace_execution / valeur / appliquer",
-    3.46
+    4.04
    ],
    [
-    "ordonnancement / explication / comprendre",
-    2.43
+    "ordonnancement / explication / appliquer",
+    2.07
    ],
    [
-    "completer_code / code_python / appliquer",
-    2.27
+    "autre / explication / appliquer",
+    1.84
    ]
   ],
   "liste_chainee": [
    [
     "definir_notion / explication / se souvenir",
-    6.93
+    7.53
    ],
    [
     "autre / explication / créer",
-    2.52
+    2.72
    ],
    [
-    "completer_code / code_python / appliquer",
-    2.32
+    "completer_code / tableau / appliquer",
+    2.47
    ]
   ],
   "dictionnaire": [
    [
     "complexite / explication / évaluer",
-    3.06
+    2.91
    ],
    [
     "ecrire_fonction / code_python / créer",
-    2.29
+    2.21
    ],
    [
-    "autre / explication / créer",
-    1.74
+    "autre / valeur / se souvenir",
+    2.1
    ]
   ],
   "arbre_binaire": [
    [
-    "calcul_numerique / valeur / appliquer",
-    3.05
-   ],
-   [
     "dessiner_structure / schema / appliquer",
-    2.47
+    2.54
    ],
    [
-    "calcul_numerique / explication / se souvenir",
-    2.04
+    "calcul_numerique / explication / appliquer",
+    2.51
+   ],
+   [
+    "autre / explication / comprendre",
+    1.78
    ]
   ],
   "abr": [
    [
-    "calcul_numerique / valeur / appliquer",
-    4.14
+    "dessiner_structure / schema / appliquer",
+    3.58
    ],
    [
-    "dessiner_structure / schema / appliquer",
-    3.73
+    "calcul_numerique / explication / appliquer",
+    3.32
    ],
    [
     "complexite / explication / évaluer",
-    3.34
+    3.22
    ]
   ],
   "parcours_arbre": [
    [
-    "autre / explication / créer",
-    5.15
-   ],
-   [
-    "expliquer / explication / évaluer",
-    4.02
+    "autre / explication / appliquer",
+    3.62
    ],
    [
     "autre / explication / appliquer",
-    2.35
+    2.82
+   ],
+   [
+    "expliquer / explication / comprendre",
+    2.01
    ]
   ],
   "graphe": [
    [
-    "expliquer / explication / évaluer",
-    1.94
+    "justifier_choix / explication / analyser",
+    1.71
    ],
    [
     "definir_notion / explication / se souvenir",
-    1.78
+    1.63
    ],
    [
-    "justifier_choix / explication / analyser",
-    1.65
+    "justifier_choix / explication / évaluer",
+    1.45
    ]
   ],
   "parcours_graphe": [
    [
-    "completer_code / code_python / appliquer",
-    3.5
+    "autre / explication / appliquer",
+    3.02
    ],
    [
-    "autre / explication / créer",
-    2.99
+    "ordonnancement / explication / appliquer",
+    2.54
    ],
    [
     "justifier_choix / explication / analyser",
-    2.23
+    1.97
    ]
   ],
   "tableau_liste": [
    [
+    "completer_code / tableau / appliquer",
+    3.16
+   ],
+   [
     "complexite / explication / évaluer",
-    3.2
+    3.01
    ],
    [
-    "completer_code / code_python / appliquer",
-    2.61
-   ],
-   [
-    "completer_code / code_python / appliquer",
-    1.75
+    "ecrire_fonction / code_python / créer",
+    2.54
    ]
   ],
   "tuple": [
    [
-    "completer_code / code_python / appliquer",
-    2.98
-   ],
-   [
-    "justifier_choix / explication / évaluer",
-    2.52
+    "ecrire_fonction / code_python / créer",
+    2.74
    ],
    [
     "ecrire_fonction / code_python / créer",
-    2.39
+    2.67
+   ],
+   [
+    "justifier_choix / explication / analyser",
+    2.31
    ]
   ],
   "matrice": [
    [
-    "completer_code / code_python / appliquer",
-    3.04
+    "completer_code / tableau / appliquer",
+    3.47
+   ],
+   [
+    "ecrire_fonction / code_python / créer",
+    2.66
    ],
    [
     "completer_code / code_python / appliquer",
-    2.73
-   ],
-   [
-    "autre / explication / créer",
-    2.44
+    2.26
    ]
   ],
   "recursivite": [
@@ -2029,361 +2046,361 @@
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.91
+    3.13
    ],
    [
     "justifier_choix / explication / analyser",
-    2.61
+    2.42
    ]
   ],
   "modularite": [
    [
     "autre / explication / comprendre",
-    5.98
-   ],
-   [
-    "completer_code / code_python / appliquer",
-    2.86
+    6.26
    ],
    [
     "expliquer / explication / comprendre",
-    2.52
+    2.4
+   ],
+   [
+    "ecrire_fonction / code_python / créer",
+    2.35
    ]
   ],
   "mise_au_point": [
    [
     "corriger_code / explication / analyser",
-    18.97
+    19.56
    ],
    [
-    "completer_code / code_python / appliquer",
-    1.04
+    "autre / valeur / se souvenir",
+    1.86
    ],
    [
     "trace_execution / valeur / appliquer",
-    0.99
+    1.01
    ]
   ],
   "calculabilite": [
    [
     "expliquer / explication / comprendre",
-    6.05
+    5.74
    ],
    [
     "trace_execution / valeur / appliquer",
-    3.66
+    3.88
    ],
    [
     "justifier_choix / explication / analyser",
-    2.1
+    2.21
    ]
   ],
   "fonctions": [
    [
-    "completer_code / code_python / appliquer",
-    3.25
+    "ecrire_fonction / code_python / créer",
+    3.6
    ],
    [
     "completer_code / code_python / appliquer",
-    2.81
+    2.4
    ],
    [
     "ecrire_fonction / code_python / créer",
-    1.72
+    1.78
    ]
   ],
   "chaines": [
    [
+    "ecrire_fonction / code_python / créer",
+    5.99
+   ],
+   [
     "justifier_choix / explication / analyser",
-    3.28
+    2.67
    ],
    [
     "autre / explication / comprendre",
-    2.77
-   ],
-   [
-    "ecrire_fonction / code_python / créer",
-    1.99
+    2.23
    ]
   ],
   "booleens": [
    [
-    "completer_code / code_python / appliquer",
-    3.56
+    "ecrire_fonction / code_python / créer",
+    7.82
    ],
    [
-    "completer_code / code_python / appliquer",
-    2.61
+    "corriger_code / explication / analyser",
+    2.57
    ],
    [
-    "lire_sql / sql / appliquer",
-    2.6
+    "completer_code / tableau / appliquer",
+    2.35
    ]
   ],
   "representation_nombres": [
    [
-    "calcul_numerique / valeur / appliquer",
-    4.64
+    "calcul_numerique / explication / appliquer",
+    3.84
    ],
    [
-    "calcul_numerique / explication / se souvenir",
-    3.37
+    "autre / explication / se souvenir",
+    2.26
    ],
    [
-    "expliquer / explication / évaluer",
-    2.84
+    "corriger_code / explication / analyser",
+    2.05
    ]
   ],
   "tri": [
    [
     "complexite / complexite / analyser",
-    13.52
-   ],
-   [
-    "expliquer / explication / évaluer",
-    4.88
+    14.8
    ],
    [
     "complexite / explication / évaluer",
-    2.86
+    4.74
+   ],
+   [
+    "autre / explication / appliquer",
+    1.98
    ]
   ],
   "diviser_regner": [
    [
     "complexite / explication / évaluer",
-    6.42
+    7.01
    ],
    [
     "autre / explication / appliquer",
-    3.86
+    4.64
    ],
    [
     "justifier_choix / explication / évaluer",
-    2.18
+    2.07
    ]
   ],
   "prog_dynamique": [
    [
     "complexite / explication / évaluer",
-    6.3
+    3.98
    ],
    [
     "justifier_choix / explication / analyser",
-    4.84
+    2.94
    ],
    [
-    "complexite / complexite / analyser",
-    3.87
+    "justifier_choix / explication / évaluer",
+    2.82
    ]
   ],
   "glouton": [
    [
     "complexite / complexite / analyser",
-    4.49
-   ],
-   [
-    "completer_code / code_python / appliquer",
-    3.33
+    4.58
    ],
    [
     "corriger_code / explication / analyser",
-    2.93
+    3.02
+   ],
+   [
+    "ecrire_fonction / code_python / créer",
+    2.64
    ]
   ],
   "recherche_textuelle": [
    [
     "complexite / explication / évaluer",
-    6.07
+    6.25
    ],
    [
     "definir_notion / explication / se souvenir",
-    5.72
+    5.84
    ],
    [
     "lire_sql / sql / appliquer",
-    5.19
+    4.82
    ]
   ],
   "complexite": [
    [
     "complexite / complexite / analyser",
-    40.66
+    46.3
    ],
    [
     "complexite / explication / évaluer",
-    18.74
+    20.45
    ],
    [
     "justifier_choix / explication / analyser",
-    3.48
+    3.66
    ]
   ],
   "algo_simples": [
    [
     "complexite / complexite / analyser",
-    7.84
+    7.22
    ],
    [
     "ecrire_sql / sql / appliquer",
-    3.05
+    2.74
    ],
    [
-    "completer_code / code_python / appliquer",
-    1.73
+    "completer_code / tableau / appliquer",
+    2.42
    ]
   ],
   "modele_relationnel": [
    [
     "modele_donnees / explication / analyser",
-    7.85
+    7.9
    ],
    [
     "ecrire_sql / sql / appliquer",
-    2.4
+    2.46
    ],
    [
     "ecrire_sql / sql / créer",
-    2.27
+    2.23
    ]
   ],
   "sql": [
    [
     "ecrire_sql / sql / appliquer",
-    4.75
+    4.8
    ],
    [
     "lire_sql / sql / appliquer",
-    4.7
+    4.76
    ],
    [
     "ecrire_sql / sql / créer",
-    4.41
+    4.5
    ]
   ],
   "sgbd": [
    [
     "definir_notion / explication / se souvenir",
-    7.49
-   ],
-   [
-    "completer_code / code_python / appliquer",
-    3.49
+    8.11
    ],
    [
     "modele_donnees / explication / analyser",
-    2.77
+    3.97
+   ],
+   [
+    "autre / explication / appliquer",
+    2.47
    ]
   ],
   "processus": [
    [
-    "ordonnancement / explication / comprendre",
-    17.12
+    "ordonnancement / explication / appliquer",
+    16.93
    ],
    [
     "definir_notion / explication / se souvenir",
-    4.52
+    4.14
    ],
    [
-    "completer_code / code_python / appliquer",
-    1.72
+    "autre / explication / comprendre",
+    1.54
    ]
   ],
   "os_commandes": [
    [
-    "ordonnancement / explication / comprendre",
-    5.32
-   ],
-   [
-    "expliquer / explication / évaluer",
-    4.11
+    "ordonnancement / explication / appliquer",
+    6.19
    ],
    [
     "trace_execution / valeur / appliquer",
-    2.69
+    2.59
+   ],
+   [
+    "autre / valeur / se souvenir",
+    2.55
    ]
   ],
   "routage": [
    [
     "table_routage / explication / appliquer",
-    8.62
+    8.39
    ],
    [
-    "calcul_numerique / explication / se souvenir",
-    2.7
+    "completer_code / tableau / appliquer",
+    3.62
    ],
    [
-    "calcul_numerique / valeur / appliquer",
-    2.36
+    "calcul_numerique / explication / appliquer",
+    2.37
    ]
   ],
   "reseau_ip": [
    [
-    "calcul_numerique / explication / se souvenir",
-    6.1
-   ],
-   [
     "table_routage / explication / appliquer",
-    5.21
+    5.17
    ],
    [
-    "autre / explication / comprendre",
-    2.11
+    "calcul_numerique / explication / appliquer",
+    3.68
+   ],
+   [
+    "autre / explication / se souvenir",
+    3.07
    ]
   ],
   "soc_architecture": [
    [
     "definir_notion / explication / se souvenir",
-    9.3
+    9.71
+   ],
+   [
+    "ordonnancement / explication / appliquer",
+    3.83
    ],
    [
     "justifier_choix / explication / évaluer",
-    3.62
-   ],
-   [
-    "justifier_choix / explication / analyser",
-    3.58
+    3.72
    ]
   ],
   "securite_crypto": [
    [
-    "expliquer / explication / évaluer",
-    5.69
-   ],
-   [
     "justifier_choix / explication / analyser",
-    3.72
+    3.37
    ],
    [
-    "justifier_choix / explication / évaluer",
-    2.64
+    "autre / explication / se souvenir",
+    3.26
+   ],
+   [
+    "expliquer / explication / comprendre",
+    2.18
    ]
   ],
   "web_http": [
    [
-    "lire_sql / sql / appliquer",
-    2.73
-   ],
-   [
     "justifier_choix / explication / analyser",
-    2.72
+    3.12
    ],
    [
     "ecrire_sql / sql / appliquer",
-    2.63
+    2.65
+   ],
+   [
+    "lire_sql / sql / appliquer",
+    2.53
    ]
   ],
   "donnees_tables": [
    [
     "definir_notion / explication / se souvenir",
-    3.63
+    3.31
    ],
    [
     "autre / explication / créer",
-    2.72
+    2.71
    ],
    [
-    "justifier_choix / explication / évaluer",
-    2.38
+    "autre / explication / se souvenir",
+    2.14
    ]
   ]
  },
@@ -2391,57 +2408,57 @@
   "ouvertures_frequentes": [
    [
     "autre / explication / appliquer",
-    0.19
+    0.13
    ],
    [
     "modele_donnees / explication / analyser",
-    0.134
+    0.121
    ],
    [
-    "dessiner_structure / schema / appliquer",
-    0.064
+    "calcul_numerique / explication / appliquer",
+    0.09
    ],
    [
     "completer_code / code_python / appliquer",
-    0.057
+    0.066
    ],
    [
-    "calcul_numerique / explication / se souvenir",
-    0.053
+    "autre / explication / se souvenir",
+    0.066
    ]
   ],
   "fermetures_frequentes": [
    [
+    "autre / explication / appliquer",
+    0.249
+   ],
+   [
     "autre / explication / créer",
-    0.273
+    0.186
    ],
    [
     "ecrire_fonction / code_python / créer",
-    0.185
-   ],
-   [
-    "autre / explication / créer",
-    0.172
-   ],
-   [
-    "expliquer / explication / évaluer",
-    0.166
+    0.184
    ],
    [
     "complexite / complexite / analyser",
     0.157
+   ],
+   [
+    "ecrire_fonction / code_python / créer",
+    0.153
    ]
   ],
   "transitions_fortes": [
    [
     "lire_sql / sql / appliquer",
     "ecrire_sql / sql / créer",
-    0.55
+    0.56
    ],
    [
     "ecrire_sql / sql / appliquer",
     "ecrire_sql / sql / créer",
-    0.43
+    0.45
    ],
    [
     "ecrire_sql / sql / créer",
@@ -2449,29 +2466,24 @@
     0.43
    ],
    [
-    "modele_donnees / explication / analyser",
-    "modele_donnees / explication / analyser",
-    0.28
-   ],
-   [
     "table_routage / explication / appliquer",
     "table_routage / explication / appliquer",
-    0.26
+    0.3
    ],
    [
-    "ecrire_fonction / code_python / créer",
-    "ecrire_fonction / code_python / créer",
+    "modele_donnees / explication / analyser",
+    "modele_donnees / explication / analyser",
+    0.27
+   ],
+   [
+    "ordonnancement / explication / appliquer",
+    "ordonnancement / explication / appliquer",
     0.25
    ],
    [
-    "calcul_numerique / explication / se souvenir",
-    "calcul_numerique / explication / se souvenir",
-    0.23
-   ],
-   [
     "autre / explication / appliquer",
     "autre / explication / appliquer",
-    0.22
+    0.24
    ],
    [
     "trace_execution / valeur / appliquer",
@@ -2479,91 +2491,95 @@
     0.21
    ],
    [
-    "ordonnancement / explication / comprendre",
-    "ordonnancement / explication / comprendre",
-    0.2
+    "ecrire_fonction / code_python / créer",
+    "ecrire_fonction / code_python / créer",
+    0.21
    ],
    [
-    "expliquer / explication / comprendre",
-    "expliquer / explication / comprendre",
-    0.2
+    "complexite / complexite / analyser",
+    "completer_code / code_python / appliquer",
+    0.21
    ],
    [
-    "complexite / explication / évaluer",
-    "autre / explication / appliquer",
-    0.2
+    "autre / explication / comprendre",
+    "autre / explication / comprendre",
+    0.19
+   ],
+   [
+    "completer_code / code_python / appliquer",
+    "completer_code / code_python / appliquer",
+    0.18
    ]
   ],
-  "entropie_moyenne_bits": 3.88,
+  "entropie_moyenne_bits": 3.87,
   "bloom_transition": {
    "0->3": 0.43,
    "1->3": 0.36,
-   "2->3": 0.28,
-   "2->6": 0.26,
+   "2->3": 0.29,
+   "2->6": 0.27,
    "3->3": 0.44,
-   "3->6": 0.26,
    "4->3": 0.3,
-   "4->6": 0.28,
-   "5->3": 0.3,
+   "4->6": 0.29,
+   "5->3": 0.31,
    "5->6": 0.26,
    "6->3": 0.29,
    "6->6": 0.48
   },
   "distribution_stationnaire_top": [
    [
-    "autre / explication / appliquer",
-    0.105
+    "completer_code / code_python / appliquer",
+    0.112
    ],
    [
     "ecrire_fonction / code_python / créer",
-    0.097
-   ],
-   [
-    "completer_code / code_python / appliquer",
     0.087
    ],
    [
+    "autre / explication / appliquer",
+    0.083
+   ],
+   [
     "ecrire_sql / sql / créer",
-    0.078
+    0.08
    ],
    [
     "expliquer / explication / comprendre",
-    0.062
+    0.065
    ],
    [
-    "completer_code / code_python / appliquer",
-    0.059
+    "autre / explication / appliquer",
+    0.05
    ]
   ]
  },
  "graphe_notions": {
-  "exercices": 280,
-  "notions_par_exercice_moyenne": 3.31,
+  "exercices": 318,
+  "notions_par_exercice_moyenne": 3.29,
   "associations_fortes_PMI": [
    [
+    "abr|parcours_arbre",
+    1.916,
+    5
+   ],
+   [
     "glouton|recursivite",
-    1.897,
+    1.912,
     3
    ],
    [
     "diviser_regner|tri",
-    1.828,
+    1.83,
     3
    ],
    [
     "complexite|tri",
-    1.828,
+    1.83,
     4
    ],
    [
     "abr|arbre_binaire",
     1.716,
-    14
-   ],
-   [
-    "abr|parcours_arbre",
-    1.627,
-    3
+    17
    ],
    [
     "processus|soc_architecture",
@@ -2571,24 +2587,14 @@
     8
    ],
    [
-    "prog_dynamique|recursivite",
-    1.609,
-    3
-   ],
-   [
     "arbre_binaire|parcours_arbre",
-    1.584,
-    9
+    1.606,
+    11
    ],
    [
     "reseau_ip|routage",
-    1.494,
-    43
-   ],
-   [
-    "file|processus",
-    1.494,
-    7
+    1.519,
+    50
    ],
    [
     "complexite|processus",
@@ -2596,125 +2602,135 @@
     4
    ],
    [
+    "file|processus",
+    1.398,
+    7
+   ],
+   [
     "glouton|graphe",
-    1.372,
+    1.355,
     3
    ],
    [
+    "parcours_arbre|parcours_graphe",
+    1.341,
+    5
+   ],
+   [
     "os_commandes|web_http",
-    1.351,
+    1.31,
     10
    ],
    [
-    "parcours_arbre|parcours_graphe",
-    1.327,
-    4
-   ],
-   [
     "representation_nombres|reseau_ip",
-    1.302,
-    28
+    1.3,
+    32
    ],
    [
-    "modularite|recursivite",
-    1.204,
+    "arbre_binaire|recherche_textuelle",
+    1.262,
+    3
+   ],
+   [
+    "file|pile",
+    1.244,
+    6
+   ],
+   [
+    "prog_dynamique|recursivite",
+    1.219,
     3
    ],
    [
     "representation_nombres|routage",
-    1.189,
-    25
-   ],
-   [
-    "file|pile",
-    1.113,
-    5
+    1.202,
+    29
    ],
    [
     "complexite|pile",
-    1.113,
+    1.157,
     3
    ],
    [
-    "diviser_regner|recursivite",
-    1.086,
-    4
+    "os_commandes|processus",
+    1.126,
+    8
    ]
   ],
   "notions_pivots_pagerank": [
    [
-    "modele_relationnel",
-    0.081
+    "sql",
+    0.088
    ],
    [
-    "sql",
-    0.081
+    "modele_relationnel",
+    0.083
    ],
    [
     "poo",
-    0.067
-   ],
-   [
-    "graphe",
-    0.059
-   ],
-   [
-    "reseau_ip",
-    0.056
+    0.064
    ],
    [
     "arbre_binaire",
-    0.055
+    0.063
+   ],
+   [
+    "graphe",
+    0.056
+   ],
+   [
+    "reseau_ip",
+    0.054
    ],
    [
     "routage",
-    0.053
+    0.052
    ],
    [
     "recursivite",
-    0.051
+    0.046
    ],
    [
-    "representation_nombres",
+    "abr",
     0.04
    ],
    [
-    "processus",
-    0.039
+    "representation_nombres",
+    0.038
    ]
   ],
   "notions_ponts_betweenness": [
    [
     "poo",
-    0.18
+    0.177
    ],
    [
     "recursivite",
-    0.168
-   ],
-   [
-    "parcours_graphe",
-    0.101
-   ],
-   [
-    "graphe",
-    0.078
+    0.173
    ],
    [
     "arbre_binaire",
-    0.071
+    0.128
+   ],
+   [
+    "parcours_graphe",
+    0.093
    ],
    [
     "modele_relationnel",
+    0.076
+   ],
+   [
+    "sql",
+    0.075
+   ],
+   [
+    "representation_nombres",
     0.066
    ],
    [
-    "dictionnaire",
-    0.043
-   ],
-   [
     "os_commandes",
-    0.032
+    0.058
    ]
   ],
   "blocs_thematiques_caches": [
@@ -2732,6 +2748,7 @@
     "tri"
    ],
    [
+    "algo_simples",
     "dictionnaire",
     "donnees_tables",
     "mise_au_point",
@@ -2752,18 +2769,13 @@
    [
     "abr",
     "arbre_binaire",
-    "parcours_arbre"
+    "parcours_arbre",
+    "recherche_textuelle"
    ],
    [
     "file",
     "processus",
     "soc_architecture"
-   ],
-   [
-    "algo_simples"
-   ],
-   [
-    "recherche_textuelle"
    ],
    [
     "paradigmes"
@@ -2778,84 +2790,84 @@
  },
  "difficulte": {
   "cible": "position relative dans l'exercice (0 = début, 1 = fin), proxy de difficulté",
-  "R2_validation_croisee_par_sujet": 0.121,
+  "R2_validation_croisee_par_sujet": 0.144,
   "variables_les_plus_predictives": [
    [
     "explicit_dep",
-    0.0582
-   ],
-   [
-    "lsa0",
-    0.0574
-   ],
-   [
-    "lsa16",
-    0.0392
-   ],
-   [
-    "lsa12",
-    0.039
-   ],
-   [
-    "lsa19",
-    0.0325
-   ],
-   [
-    "dep_depth",
-    0.0319
-   ],
-   [
-    "lsa20",
-    0.0313
-   ],
-   [
-    "is_sub",
-    0.0276
-   ],
-   [
-    "lsa7",
-    0.0274
-   ],
-   [
-    "n_deps",
-    0.0261
-   ],
-   [
-    "len_words",
-    0.0248
+    0.0541
    ],
    [
     "lsa6",
-    0.0225
+    0.0495
    ],
    [
-    "lsa11",
-    0.0215
+    "lsa0",
+    0.0451
    ],
    [
-    "lsa29",
-    0.017
+    "n_deps",
+    0.041
    ],
    [
-    "lsa13",
-    0.0166
+    "lsa12",
+    0.0301
+   ],
+   [
+    "is_sub",
+    0.0295
+   ],
+   [
+    "len_words",
+    0.0258
+   ],
+   [
+    "lsa24",
+    0.025
+   ],
+   [
+    "dep_depth",
+    0.024
+   ],
+   [
+    "lsa26",
+    0.0226
+   ],
+   [
+    "lsa18",
+    0.0216
+   ],
+   [
+    "lsa21",
+    0.0202
+   ],
+   [
+    "lsa14",
+    0.0198
+   ],
+   [
+    "lsa23",
+    0.0192
+   ],
+   [
+    "lsa19",
+    0.0182
    ]
   ],
   "placees_en_debut": [
    [
     "task=modele_donnees",
-    -0.226,
-    136
+    -0.212,
+    148
    ],
    [
     "bloom=1",
-    -0.126,
-    228
+    -0.131,
+    274
    ],
    [
-    "task=ordonnancement",
-    -0.087,
-    51
+    "concept=boucles",
+    -0.089,
+    34
    ],
    [
     "concept=sgbd",
@@ -2863,86 +2875,86 @@
     33
    ],
    [
-    "format=schema",
-    -0.072,
-    224
-   ],
-   [
-    "concept=boucles",
-    -0.069,
-    30
-   ],
-   [
-    "bloom=4",
-    -0.06,
-    177
-   ],
-   [
     "concept=recherche_textuelle",
-    -0.06,
-    34
+    -0.072,
+    38
    ],
    [
-    "concept=chaines",
-    -0.058,
-    88
+    "format=schema",
+    -0.069,
+    258
+   ],
+   [
+    "task=ordonnancement",
+    -0.068,
+    63
    ],
    [
     "concept=modularite",
-    -0.056,
-    40
+    -0.063,
+    42
+   ],
+   [
+    "task=calcul_numerique",
+    -0.058,
+    252
+   ],
+   [
+    "bloom=2",
+    -0.052,
+    385
    ]
   ],
   "placees_en_fin": [
    [
     "task=complexite",
-    0.149,
-    35
+    0.159,
+    36
    ],
    [
     "task=ecrire_fonction",
-    0.106,
-    254
+    0.109,
+    285
    ],
    [
     "bloom=6",
-    0.091,
-    796
+    0.092,
+    895
    ],
    [
     "format=code_python",
-    0.088,
-    676
+    0.085,
+    765
    ],
    [
     "task=completer_code",
-    0.075,
-    429
-   ],
-   [
-    "is_sub",
-    0.066,
-    476
+    0.069,
+    488
    ],
    [
     "concept=fonctions",
-    0.064,
-    577
+    0.065,
+    662
    ],
    [
     "concept=parcours_graphe",
-    0.062,
-    151
+    0.065,
+    185
+   ],
+   [
+    "explicit_dep",
+    0.065,
+    266
+   ],
+   [
+    "is_sub",
+    0.064,
+    570
    ],
    [
     "concept=tri",
     0.06,
-    126
-   ],
-   [
-    "task=ecrire_sql",
-    0.057,
-    241
+    135
    ]
   ]
  },
@@ -2952,8 +2964,8 @@
    "variance": 0.051,
    "pole_positif": [
     "format=code_python",
-    "task=completer_code",
     "code_lines",
+    "task=completer_code",
     "has_code",
     "concept=fonctions",
     "len_words"
@@ -2969,19 +2981,19 @@
   },
   {
    "facteur": 2,
-   "variance": 0.043,
+   "variance": 0.044,
    "pole_positif": [
     "format=sql",
     "concept=sql",
     "task=ecrire_sql",
-    "bloom=6",
     "concept=modele_relationnel",
+    "bloom=6",
     "has_sql"
    ],
    "pole_negatif": [
-    "format=explication",
     "concept=reseau_ip",
     "concept=routage",
+    "format=explication",
     "concept=representation_nombres",
     "task=calcul_numerique",
     "task=table_routage"
@@ -3000,31 +3012,31 @@
    ],
    "pole_negatif": [
     "concept=recursivite",
+    "concept=poo",
     "task=autre",
-    "task=ecrire_fonction",
     "format=explication",
-    "concept=fonctions",
-    "task=complexite"
+    "task=ecrire_fonction",
+    "concept=arbre_binaire"
    ]
   },
   {
    "facteur": 4,
    "variance": 0.029,
    "pole_positif": [
-    "dep_depth",
-    "n_deps",
     "bloom=6",
-    "explicit_dep",
     "task=ecrire_fonction",
-    "concept=reseau_ip"
+    "format=code_python",
+    "task=ecrire_sql",
+    "concept=reseau_ip",
+    "concept=routage"
    ],
    "pole_negatif": [
     "code_lines",
     "has_code",
-    "ctx_words",
     "format=explication",
-    "task=modele_donnees",
-    "task=expliquer"
+    "has_sql",
+    "bloom=4",
+    "task=modele_donnees"
    ]
   },
   {
@@ -3034,17 +3046,17 @@
     "dep_depth",
     "n_deps",
     "explicit_dep",
+    "is_sub",
     "question_mark",
-    "bloom=4",
-    "has_sql"
+    "rel_pos"
    ],
    "pole_negatif": [
-    "task=ecrire_fonction",
-    "bloom=6",
+    "ctx_words",
     "format=code_python",
     "concept=poo",
+    "code_lines",
     "concept=graphe",
-    "ex_n_questions"
+    "has_code"
    ]
   },
   {
@@ -3056,55 +3068,55 @@
     "task=dessiner_structure",
     "concept=abr",
     "bloom=3",
-    "concept=parcours_arbre"
+    "has_figure"
    ],
    "pole_negatif": [
     "format=complexite",
     "task=complexite",
     "bloom=4",
-    "has_table",
     "concept=complexite",
-    "task=ecrire_fonction"
+    "task=ecrire_fonction",
+    "has_table"
    ]
   },
   {
    "facteur": 7,
    "variance": 0.025,
    "pole_positif": [
-    "task=complexite",
-    "format=complexite",
-    "concept=complexite",
-    "concept=tri",
-    "bloom=3",
-    "task=dessiner_structure"
+    "concept=processus",
+    "task=ordonnancement",
+    "bloom=2",
+    "question_mark",
+    "concept=os_commandes",
+    "concept=fonctions"
    ],
    "pole_negatif": [
-    "bloom=2",
-    "concept=fonctions",
-    "task=expliquer",
-    "concept=os_commandes",
-    "question_mark",
-    "task=ecrire_fonction"
+    "task=complexite",
+    "format=complexite",
+    "concept=poo",
+    "ex_n_questions",
+    "concept=arbre_binaire",
+    "concept=complexite"
    ]
   },
   {
    "facteur": 8,
    "variance": 0.024,
    "pole_positif": [
+    "format=complexite",
+    "task=complexite",
+    "concept=complexite",
     "concept=processus",
     "task=ordonnancement",
-    "format=complexite",
-    "concept=complexite",
-    "task=complexite",
-    "question_mark"
+    "format=tableau"
    ],
    "pole_negatif": [
     "ex_n_questions",
     "format=explication",
     "concept=graphe",
-    "n_deps",
-    "dep_depth",
-    "concept=poo"
+    "task=expliquer",
+    "task=modele_donnees",
+    "task=corriger_code"
    ]
   }
  ],
@@ -3112,258 +3124,234 @@
   "colonnes": "A, B, support, lift, P(B|A), P(A|B)",
   "regles": [
    [
-    "task=corriger_code",
-    "concept=mise_au_point",
-    0.02,
-    13.26,
-    0.71,
-    0.38
-   ],
-   [
     "format=schema",
     "task=dessiner_structure",
-    0.035,
-    11.91,
-    0.42,
+    0.036,
+    11.83,
+    0.43,
     1.0
    ],
    [
     "bloom=5",
     "task=justifier_choix",
     0.024,
-    7.89,
+    8.06,
     0.39,
-    0.48
+    0.51
    ],
    [
     "format=sql",
     "task=ecrire_sql",
-    0.09,
-    6.81,
-    0.61,
+    0.091,
+    6.84,
+    0.62,
     1.0
    ],
    [
     "task=table_routage",
     "concept=routage",
     0.033,
-    6.1,
-    0.98,
+    5.99,
+    0.97,
     0.21
-   ],
-   [
-    "has_sql",
-    "format=sql",
-    0.047,
-    5.76,
-    0.85,
-    0.32
    ],
    [
     "has_table",
     "format=tableau",
-    0.073,
-    5.75,
-    0.42,
+    0.077,
+    5.77,
+    0.44,
     1.0
    ],
    [
-    "task=table_routage",
-    "concept=reseau_ip",
-    0.028,
-    5.61,
-    0.83,
-    0.19
+    "has_sql",
+    "format=sql",
+    0.046,
+    5.74,
+    0.84,
+    0.32
    ],
    [
     "bloom=2",
     "task=expliquer",
-    0.051,
-    5.6,
+    0.049,
+    5.74,
     0.39,
     0.72
    ],
    [
+    "task=table_routage",
+    "concept=reseau_ip",
+    0.029,
+    5.55,
+    0.85,
+    0.19
+   ],
+   [
     "task=modele_donnees",
     "concept=modele_relationnel",
-    0.046,
-    4.38,
+    0.044,
+    4.52,
     0.91,
     0.22
    ],
    [
     "question_mark",
     "bloom=2",
-    0.03,
-    3.93,
-    0.51,
-    0.24
-   ],
-   [
-    "task=calcul_numerique",
-    "concept=representation_nombres",
-    0.034,
-    3.87,
-    0.44,
-    0.3
+    0.031,
+    4.09,
+    0.52,
+    0.25
    ],
    [
     "format=code_python",
     "task=ecrire_fonction",
-    0.091,
-    3.76,
+    0.089,
+    3.81,
     0.36,
     0.95
+   ],
+   [
+    "task=calcul_numerique",
+    "concept=representation_nombres",
+    0.035,
+    3.76,
+    0.42,
+    0.31
    ],
    [
     "has_figure",
     "format=schema",
     0.066,
-    3.7,
+    3.65,
     0.31,
     0.78
    ],
    [
     "has_sql",
     "concept=sql",
-    0.056,
-    3.57,
+    0.055,
+    3.62,
     1.0,
     0.2
    ],
    [
     "task=ecrire_sql",
     "concept=sql",
-    0.09,
-    3.55,
+    0.091,
+    3.61,
     1.0,
-    0.32
+    0.33
    ],
    [
     "format=sql",
     "concept=sql",
     0.145,
-    3.53,
+    3.59,
     0.99,
     0.52
    ],
    [
     "format=valeur",
     "task=trace_execution",
-    0.034,
-    3.47,
+    0.033,
+    3.56,
     0.15,
-    0.78
-   ],
-   [
-    "bloom=6",
-    "task=ecrire_fonction",
-    0.095,
-    3.34,
-    0.32,
-    1.0
+    0.79
    ],
    [
     "has_sql",
     "concept=modele_relationnel",
-    0.039,
-    3.32,
-    0.69,
+    0.038,
+    3.45,
+    0.7,
     0.19
+   ],
+   [
+    "bloom=6",
+    "task=ecrire_fonction",
+    0.093,
+    3.4,
+    0.32,
+    1.0
    ],
    [
     "task=calcul_numerique",
     "concept=reseau_ip",
-    0.038,
-    3.32,
-    0.49,
-    0.26
+    0.043,
+    3.38,
+    0.52,
+    0.28
    ],
    [
     "format=sql",
     "concept=modele_relationnel",
-    0.095,
-    3.11,
-    0.65,
+    0.092,
+    3.13,
+    0.63,
     0.46
    ],
    [
     "task=ecrire_sql",
     "concept=modele_relationnel",
-    0.057,
-    3.01,
-    0.63,
+    0.054,
+    2.94,
+    0.59,
     0.27
+   ],
+   [
+    "task=calcul_numerique",
+    "concept=routage",
+    0.039,
+    2.91,
+    0.47,
+    0.24
+   ],
+   [
+    "bloom=6",
+    "task=ecrire_sql",
+    0.077,
+    2.89,
+    0.26,
+    0.85
    ],
    [
     "has_figure",
     "task=dessiner_structure",
     0.022,
-    2.97,
+    2.86,
     0.1,
-    0.63
-   ],
-   [
-    "format=sql",
-    "concept=web_http",
-    0.021,
-    2.92,
-    0.14,
-    0.43
-   ],
-   [
-    "bloom=6",
-    "task=ecrire_sql",
-    0.076,
-    2.84,
-    0.26,
-    0.85
-   ],
-   [
-    "task=calcul_numerique",
-    "concept=routage",
-    0.035,
-    2.8,
-    0.45,
-    0.22
+    0.61
    ],
    [
     "has_code",
     "has_sql",
-    0.036,
-    2.79,
-    0.16,
+    0.035,
+    2.78,
+    0.15,
     0.64
    ],
    [
     "task=modele_donnees",
     "concept=sql",
-    0.039,
-    2.75,
-    0.77,
-    0.14
+    0.037,
+    2.76,
+    0.76,
+    0.13
    ],
    [
     "format=code_python",
     "task=completer_code",
     0.11,
-    2.7,
-    0.43,
-    0.68
-   ],
-   [
-    "format=tableau",
-    "concept=routage",
-    0.03,
-    2.58,
-    0.41,
-    0.19
+    2.75,
+    0.44,
+    0.69
    ],
    [
     "has_code",
     "task=completer_code",
     0.094,
-    2.54,
+    2.55,
     0.41,
     0.59
    ],
@@ -3371,25 +3359,49 @@
     "format=tableau",
     "task=completer_code",
     0.03,
-    2.54,
-    0.41,
+    2.49,
+    0.4,
     0.19
    ],
    [
-    "bloom=3",
-    "task=completer_code",
-    0.137,
-    2.37,
-    0.38,
-    0.85
+    "format=tableau",
+    "concept=routage",
+    0.03,
+    2.45,
+    0.4,
+    0.19
    ],
    [
     "has_code",
     "has_example_call",
-    0.046,
-    2.36,
-    0.2,
-    0.54
+    0.048,
+    2.39,
+    0.21,
+    0.55
+   ],
+   [
+    "bloom=3",
+    "task=completer_code",
+    0.136,
+    2.35,
+    0.38,
+    0.85
+   ],
+   [
+    "format=explication",
+    "task=justifier_choix",
+    0.047,
+    2.25,
+    0.11,
+    0.98
+   ],
+   [
+    "format=code_python",
+    "concept=fonctions",
+    0.119,
+    2.19,
+    0.47,
+    0.55
    ]
   ]
  },
@@ -3409,45 +3421,45 @@
    ],
    [
     "poo",
-    0.053
-   ],
-   [
-    "dictionnaire",
-    0.029
+    0.054
    ],
    [
     "sql",
     0.028
    ],
    [
-    "routage",
+    "dictionnaire",
     0.027
    ],
    [
-    "recursivite",
-    0.024
+    "routage",
+    0.026
    ],
    [
-    "reseau_ip",
-    0.014
+    "recursivite",
+    0.021
    ],
    [
     "securite_crypto",
-    0.013
+    0.014
+   ],
+   [
+    "reseau_ip",
+    0.012
    ]
   ],
   "en_baisse": [
    [
     "os_commandes",
-    -0.026
-   ],
-   [
-    "parcours_graphe",
     -0.024
    ],
    [
+    "parcours_graphe",
+    -0.023
+   ],
+   [
     "processus",
-    -0.017
+    -0.019
    ],
    [
     "parcours_arbre",
@@ -3459,254 +3471,246 @@
    ],
    [
     "modularite",
-    -0.012
+    -0.011
    ],
    [
     "abr",
     -0.01
    ],
    [
-    "representation_nombres",
+    "algo_simples",
     -0.01
    ]
   ],
   "probabilite_attendue_par_exercice": [
    [
     "poo",
-    0.454
+    0.452
    ],
    [
     "graphe",
-    0.379
+    0.378
    ],
    [
     "sql",
-    0.326
-   ],
-   [
-    "modele_relationnel",
-    0.233
+    0.323
    ],
    [
     "routage",
-    0.226
+    0.227
+   ],
+   [
+    "modele_relationnel",
+    0.219
    ],
    [
     "reseau_ip",
-    0.203
+    0.198
    ],
    [
     "recursivite",
-    0.182
+    0.175
    ],
    [
     "arbre_binaire",
-    0.163
-   ],
-   [
-    "dictionnaire",
-    0.131
+    0.168
    ],
    [
     "representation_nombres",
+    0.136
+   ],
+   [
+    "dictionnaire",
     0.13
    ],
    [
     "securite_crypto",
-    0.088
+    0.09
    ],
    [
     "file",
-    0.083
-   ],
-   [
-    "pile",
-    0.075
+    0.08
    ],
    [
     "web_http",
-    0.075
+    0.071
    ],
    [
-    "mise_au_point",
-    0.07
+    "pile",
+    0.069
+   ],
+   [
+    "os_commandes",
+    0.068
    ]
   ],
   "part_par_annee": {
    "poo": [
     0.29,
-    0.28,
-    0.32,
-    0.48,
+    0.26,
+    0.33,
+    0.46,
     0.43,
     0.54
    ],
    "pile": [
     0.13,
     0.07,
-    0.03,
-    0.15,
+    0.02,
+    0.13,
     0.07,
     0.05
    ],
    "file": [
     0.07,
-    0.07,
-    0.03,
+    0.08,
+    0.02,
     0.06,
-    0.09,
+    0.08,
     0.1
    ],
    "dictionnaire": [
     0.04,
     0.04,
-    0.03,
-    0.15,
-    0.24,
+    0.07,
+    0.13,
+    0.23,
     0.1
    ],
    "arbre_binaire": [
     0.13,
     0.2,
     0.24,
-    0.06,
+    0.1,
     0.17,
     0.18
    ],
    "abr": [
     0.09,
-    0.04,
+    0.05,
     0.11,
-    0.03,
+    0.04,
     0.02,
     0.05
    ],
    "graphe": [
     0.13,
     0.11,
-    0.11,
-    0.42,
-    0.35,
+    0.13,
+    0.38,
+    0.37,
     0.51
    ],
    "parcours_graphe": [
     0.13,
+    0.11,
+    0.17,
     0.1,
-    0.18,
-    0.09,
-    0.07,
-    0.0
-   ],
-   "tuple": [
-    0.07,
     0.08,
-    0.0,
-    0.03,
-    0.06,
-    0.03
+    0.0
    ],
    "matrice": [
     0.04,
-    0.06,
+    0.05,
     0.0,
-    0.03,
+    0.02,
     0.0,
     0.1
    ],
    "recursivite": [
     0.09,
-    0.11,
-    0.16,
-    0.18,
-    0.19,
+    0.12,
+    0.15,
+    0.17,
+    0.17,
     0.21
    ],
    "mise_au_point": [
     0.04,
-    0.04,
+    0.05,
     0.13,
-    0.06,
-    0.09,
+    0.04,
+    0.08,
     0.05
    ],
    "representation_nombres": [
     0.16,
-    0.14,
+    0.13,
     0.24,
-    0.06,
-    0.17,
+    0.08,
+    0.18,
     0.1
    ],
    "tri": [
     0.09,
-    0.06,
-    0.03,
-    0.03,
-    0.06,
+    0.05,
+    0.02,
+    0.04,
+    0.07,
     0.05
    ],
    "diviser_regner": [
     0.09,
     0.04,
-    0.03,
-    0.03,
+    0.02,
+    0.02,
     0.0,
     0.0
    ],
    "modele_relationnel": [
     0.2,
     0.24,
-    0.34,
-    0.33,
     0.3,
+    0.29,
+    0.28,
     0.13
    ],
    "sql": [
     0.2,
     0.25,
-    0.32,
+    0.3,
     0.33,
     0.35,
     0.33
    ],
    "processus": [
     0.16,
-    0.06,
-    0.08,
+    0.07,
     0.09,
+    0.08,
     0.07,
     0.03
    ],
    "os_commandes": [
     0.13,
-    0.17,
+    0.16,
     0.11,
-    0.12,
-    0.04,
+    0.1,
+    0.07,
     0.03
    ],
    "routage": [
     0.11,
-    0.15,
+    0.16,
     0.26,
-    0.12,
-    0.19,
+    0.15,
+    0.17,
     0.31
    ],
    "reseau_ip": [
     0.13,
-    0.15,
+    0.16,
     0.24,
     0.21,
-    0.2,
+    0.18,
     0.21
    ],
    "soc_architecture": [
     0.09,
     0.08,
-    0.03,
-    0.09,
+    0.02,
     0.06,
+    0.05,
     0.08
    ],
    "securite_crypto": [
@@ -3714,172 +3718,173 @@
     0.03,
     0.0,
     0.06,
-    0.09,
+    0.1,
     0.13
    ],
    "web_http": [
     0.09,
-    0.13,
-    0.11,
+    0.12,
+    0.09,
     0.06,
-    0.06,
+    0.05,
     0.08
    ],
    "donnees_tables": [
     0.07,
-    0.1,
+    0.11,
     0.0,
-    0.03,
     0.04,
+    0.05,
     0.03
    ]
   }
  },
  "regimes": {
-  "chi2": 343.7,
-  "p_value": 1.5895601932426044e-48,
-  "jensen_shannon": 0.28,
+  "chi2": 352.4,
+  "p_value": 3.3706798388532946e-50,
+  "jensen_shannon": 0.273,
   "comparaison": {
    "2021-2022 (5 ex. dont 3 au choix)": {
-    "questions": 840,
+    "questions": 866,
     "questions_par_exercice": 7.2,
-    "bloom_moyen": 3.72,
-    "part_ecrire_code": 0.194,
-    "part_sql": 0.119,
-    "part_dependances": 0.113,
-    "mots_par_question": 44.0
+    "bloom_moyen": 3.7,
+    "part_ecrire_code": 0.193,
+    "part_sql": 0.121,
+    "part_dependances": 0.112,
+    "mots_par_question": 44.1
    },
    "2023+ (3 ex. obligatoires)": {
-    "questions": 1828,
+    "questions": 2186,
     "questions_par_exercice": 11.1,
-    "bloom_moyen": 3.82,
-    "part_ecrire_code": 0.284,
-    "part_sql": 0.172,
-    "part_dependances": 0.112,
+    "bloom_moyen": 3.79,
+    "part_ecrire_code": 0.277,
+    "part_sql": 0.168,
+    "part_dependances": 0.114,
     "mots_par_question": 36.4
    }
   }
  },
  "logique_des_sujets": {
-  "recouvrement_domaines_entre_exercices_d_un_sujet": 0.275,
-  "recouvrement_si_exercices_tires_au_hasard": 0.315,
+  "recouvrement_domaines_entre_exercices_d_un_sujet": 0.269,
+  "recouvrement_si_exercices_tires_au_hasard": 0.363,
   "lecture": "plus bas que le hasard = les concepteurs répartissent les domaines entre exercices",
   "domaines_couverts_par_sujet_moyenne": 4.36,
   "courbe_dans_un_exercice": {
    "0-20%": {
-    "bloom": 3.42,
+    "bloom": 3.38,
     "code": 0.16,
     "dependance": 0.03,
-    "mots": 34.8
+    "mots": 34.5
    },
    "20-40%": {
-    "bloom": 3.77,
-    "code": 0.25,
-    "dependance": 0.1,
-    "mots": 35.8
+    "bloom": 3.73,
+    "code": 0.24,
+    "dependance": 0.09,
+    "mots": 35.4
    },
    "40-60%": {
-    "bloom": 3.81,
-    "code": 0.26,
+    "bloom": 3.78,
+    "code": 0.27,
     "dependance": 0.11,
-    "mots": 39.4
+    "mots": 39.6
    },
    "60-80%": {
-    "bloom": 3.76,
+    "bloom": 3.81,
     "code": 0.28,
-    "dependance": 0.15,
-    "mots": 39.8
+    "dependance": 0.16,
+    "mots": 40.4
    },
    "80-100%": {
-    "bloom": 4.13,
-    "code": 0.34,
+    "bloom": 4.1,
+    "code": 0.32,
     "dependance": 0.17,
-    "mots": 43.4
+    "mots": 42.7
    }
   },
   "baremes_exercices": {
-   "4.0": 112,
-   "6.0": 88,
-   "8.0": 42,
-   "3.0": 12,
-   "5.0": 4
+   "4.0": 124,
+   "6.0": 101,
+   "8.0": 48,
+   "3.0": 13,
+   "5.0": 6,
+   "9.0": 1
   },
   "domaines_souvent_reunis_dans_un_sujet": [
    [
     "Bases de données + Structures de données",
-    76
+    87
    ],
    [
     "Architecture, OS et réseaux + Structures de données",
-    71
+    81
    ],
    [
     "Architecture, OS et réseaux + Bases de données",
-    68
+    77
    ],
    [
     "Programmation + Structures de données",
-    67
+    77
    ],
    [
     "Bases de données + Programmation",
-    64
+    73
    ],
    [
     "Architecture, OS et réseaux + Programmation",
-    62
+    70
    ],
    [
     "Algorithmique + Structures de données",
-    53
+    62
    ],
    [
     "Algorithmique + Bases de données",
-    52
+    60
    ]
   ]
  },
  "scenarios": [
   {
    "mots": [
-    "extrait",
-    "mots",
-    "into",
-    "set",
-    "insert",
-    "update",
-    "voici",
-    "primaires"
+    "cle",
+    "reference",
+    "indique",
+    "agit",
+    "att",
+    "eleves",
+    "site",
+    "symbole"
    ],
    "notions_associees": [
     [
-     "modele_relationnel",
-     15
-    ],
-    [
      "sql",
-     15
+     13
     ],
     [
-     "web_http",
-     5
+     "modele_relationnel",
+     12
+    ],
+    [
+     "poo",
+     6
     ]
    ],
    "exemples": [
-    "4abeacc6ac#ex2",
-    "7e0d7f65cb#ex3",
-    "5da8057062#ex2"
+    "e332fce235#ex1",
+    "27575162fc#ex3",
+    "2a2a1064b3#ex3"
    ]
   },
   {
    "mots": [
     "machine",
-    "ip",
     "ipv4",
     "notation",
+    "ip",
     "appelee",
-    "cidr",
     "representent",
+    "cidr",
     "premiers"
    ],
    "notions_associees": [
@@ -3897,40 +3902,71 @@
     ]
    ],
    "exemples": [
+    "7482ead3bf#ex2",
     "f280a1e73f#ex3",
-    "d8522a39c6#ex1",
-    "0fe5901d19#ex2"
+    "d8522a39c6#ex1"
    ]
   },
   {
    "mots": [
+    "case",
+    "cases",
     "jeu",
-    "cartes",
-    "joueur",
-    "couleur",
-    "carte",
-    "plateau",
-    "joueurs",
-    "possible"
+    "bas",
+    "taquin",
+    "droite",
+    "vide",
+    "vers"
    ],
    "notions_associees": [
     [
+     "recursivite",
+     7
+    ],
+    [
      "graphe",
-     8
+     6
+    ],
+    [
+     "poo",
+     4
+    ]
+   ],
+   "exemples": [
+    "79b2886737#ex2",
+    "13dbc18cd2#ex2",
+    "a03d4cdb15#ex3"
+   ]
+  },
+  {
+   "mots": [
+    "parties",
+    "independantes",
+    "relationnelles",
+    "compose",
+    "requetes",
+    "recursivite",
+    "traitement",
+    "constitue"
+   ],
+   "notions_associees": [
+    [
+     "sql",
+     12
     ],
     [
      "poo",
      7
     ],
     [
-     "recursivite",
-     5
+     "modele_relationnel",
+     6
     ]
    ],
    "exemples": [
-    "679fae4a2e#ex4",
-    "bc6cdb4f57#ex2",
-    "07694faddf#ex2"
+    "6a881c4341#ex2",
+    "3e4cfc9510#ex3",
+    "38fab3e957#ex3"
    ]
   },
   {
@@ -3941,8 +3977,8 @@
     "structures",
     "particulier",
     "environnement",
-    "ordonnancement",
-    "commandes"
+    "commandes",
+    "ordonnancement"
    ],
    "notions_associees": [
     [
@@ -3954,57 +3990,26 @@
      7
     ],
     [
-     "soc_architecture",
+     "os_commandes",
      6
     ]
    ],
    "exemples": [
-    "741beb0cae#ex2",
-    "60a6808e04#ex2",
-    "9c575cf8a5#ex2"
+    "9c575cf8a5#ex2",
+    "7248ec3f06#ex2",
+    "741beb0cae#ex2"
    ]
   },
   {
    "mots": [
-    "parties",
-    "independantes",
-    "compose",
-    "relationnelles",
-    "requetes",
-    "constitue",
-    "informatique",
-    "societe"
-   ],
-   "notions_associees": [
-    [
-     "poo",
-     10
-    ],
-    [
-     "sql",
-     9
-    ],
-    [
-     "graphe",
-     6
-    ]
-   ],
-   "exemples": [
-    "6a881c4341#ex2",
-    "3e4cfc9510#ex3",
-    "cde9a757cc#ex3"
-   ]
-  },
-  {
-   "mots": [
-    "est_vide",
-    "vide",
     "structure",
+    "est_vide",
     "abstraite",
-    "ajoute",
     "premier",
-    "creer_pile_vide",
-    "sinon"
+    "vide",
+    "ajoute",
+    "arrive",
+    "fondee"
    ],
    "notions_associees": [
     [
@@ -4012,142 +4017,49 @@
      8
     ],
     [
-     "poo",
+     "file",
      6
     ],
     [
-     "graphe",
-     5
+     "poo",
+     6
     ]
    ],
    "exemples": [
+    "9f690dcc1e#ex1",
     "13dbc18cd2#ex1",
-    "36663cc136#ex5",
-    "27e35a3a8c#ex5"
+    "36663cc136#ex5"
    ]
   },
   {
    "mots": [
-    "aide",
     "requetes",
+    "aide",
     "construire",
     "jour",
-    "logiques",
+    "recherches",
     "affiner",
-    "clauses",
-    "recherches"
+    "logiques",
+    "clauses"
    ],
    "notions_associees": [
     [
      "sql",
-     13
+     12
     ],
     [
      "modele_relationnel",
-     10
+     8
     ],
     [
      "poo",
-     4
+     6
     ]
    ],
    "exemples": [
     "3978c931e7#ex1",
-    "f316f14fa5#ex1",
-    "e17bcabdc2#ex2"
-   ]
-  },
-  {
-   "mots": [
-    "droit",
-    "gauche",
-    "fils",
-    "strictement",
-    "superieures",
-    "inferieures",
-    "egales",
-    "vide"
-   ],
-   "notions_associees": [
-    [
-     "arbre_binaire",
-     13
-    ],
-    [
-     "parcours_arbre",
-     6
-    ],
-    [
-     "parcours_graphe",
-     5
-    ]
-   ],
-   "exemples": [
-    "3c171c97c7#ex3",
-    "c5dd3358e7#ex4",
-    "809ee17589#ex2"
-   ]
-  },
-  {
-   "mots": [
-    "r4",
-    "r1",
-    "r5",
-    "r3",
-    "r2",
-    "routeurs",
-    "reseaux",
-    "r6"
-   ],
-   "notions_associees": [
-    [
-     "routage",
-     15
-    ],
-    [
-     "reseau_ip",
-     14
-    ],
-    [
-     "representation_nombres",
-     8
-    ]
-   ],
-   "exemples": [
-    "679fae4a2e#ex5",
-    "36663cc136#ex2",
-    "33fd90267d#ex3"
-   ]
-  },
-  {
-   "mots": [
-    "points",
-    "tri",
-    "theme",
-    "principalement",
-    "traite",
-    "algorithmes",
-    "algorithmique",
-    "application"
-   ],
-   "notions_associees": [
-    [
-     "poo",
-     8
-    ],
-    [
-     "tri",
-     5
-    ],
-    [
-     "graphe",
-     4
-    ]
-   ],
-   "exemples": [
-    "0d256694e5#ex3",
-    "0d256694e5#ex1",
-    "469d2e898e#ex1"
+    "def7cdfcb5#ex1",
+    "1f878682f9#ex2"
    ]
   },
   {
@@ -4155,16 +4067,16 @@
     "def",
     "__init__",
     "class",
+    "caracteristiques",
     "rue",
     "prix",
-    "position",
     "jour",
-    "caracteristiques"
+    "mois"
    ],
    "notions_associees": [
     [
      "poo",
-     12
+     14
     ],
     [
      "graphe",
@@ -4177,91 +4089,215 @@
    ],
    "exemples": [
     "7e0d7f65cb#ex2",
-    "b3b034e948#ex1",
-    "3e4cfc9510#ex1"
+    "3e4cfc9510#ex1",
+    "b3b034e948#ex1"
    ]
   },
   {
    "mots": [
-    "case",
-    "cases",
-    "bas",
-    "droite",
-    "jeu",
-    "taquin",
-    "vide",
-    "vers"
+    "r4",
+    "routeurs",
+    "reseaux",
+    "r1",
+    "r5",
+    "r3",
+    "r2",
+    "r6"
    ],
    "notions_associees": [
     [
-     "recursivite",
+     "reseau_ip",
+     15
+    ],
+    [
+     "routage",
+     15
+    ],
+    [
+     "representation_nombres",
+     9
+    ]
+   ],
+   "exemples": [
+    "33fd90267d#ex3",
+    "679fae4a2e#ex5",
+    "49d2d76892#ex5"
+   ]
+  },
+  {
+   "mots": [
+    "droit",
+    "strictement",
+    "superieures",
+    "egales",
+    "inferieures",
+    "fils",
+    "abr",
+    "rappel"
+   ],
+   "notions_associees": [
+    [
+     "arbre_binaire",
+     12
+    ],
+    [
+     "parcours_arbre",
+     8
+    ],
+    [
+     "abr",
      6
+    ]
+   ],
+   "exemples": [
+    "3c171c97c7#ex3",
+    "7e0d7f65cb#ex1",
+    "9f690dcc1e#ex2"
+   ]
+  },
+  {
+   "mots": [
+    "points",
+    "tri",
+    "theme",
+    "principalement",
+    "traite",
+    "algorithmique",
+    "algorithmes",
+    "application"
+   ],
+   "notions_associees": [
+    [
+     "poo",
+     9
+    ],
+    [
+     "graphe",
+     4
+    ],
+    [
+     "arbre_binaire",
+     4
+    ]
+   ],
+   "exemples": [
+    "1672bdfb6b#ex2",
+    "afe4e85009#ex3",
+    "a03d4cdb15#ex1"
+   ]
+  },
+  {
+   "mots": [
+    "tab",
+    "indices",
+    "len",
+    "regions",
+    "expression",
+    "bien",
+    "tri",
+    "couples"
+   ],
+   "notions_associees": [
+    [
+     "poo",
+     7
     ],
     [
      "graphe",
      6
     ],
     [
-     "poo",
+     "pile",
      5
     ]
    ],
    "exemples": [
-    "79b2886737#ex2",
-    "13dbc18cd2#ex2",
-    "469d2e898e#ex3"
+    "d22be75306#ex1",
+    "02ba9a34d8#ex3",
+    "98f716c9d8#ex2"
    ]
   },
   {
    "mots": [
-    "cle",
-    "indique",
-    "reference",
-    "att",
-    "agit",
-    "eleves",
-    "associee",
-    "min"
+    "extrait",
+    "mots",
+    "into",
+    "set",
+    "insert",
+    "update",
+    "voici",
+    "relationnelle"
    ],
    "notions_associees": [
     [
-     "sql",
-     12
+     "modele_relationnel",
+     15
     ],
     [
-     "modele_relationnel",
-     11
+     "sql",
+     15
     ],
+    [
+     "web_http",
+     5
+    ]
+   ],
+   "exemples": [
+    "afe4e85009#ex1",
+    "d22be75306#ex3",
+    "4abeacc6ac#ex2"
+   ]
+  },
+  {
+   "mots": [
+    "jeu",
+    "cartes",
+    "joueur",
+    "carte",
+    "couleur",
+    "plateau",
+    "joueurs",
+    "face"
+   ],
+   "notions_associees": [
     [
      "poo",
+     9
+    ],
+    [
+     "graphe",
+     8
+    ],
+    [
+     "recursivite",
      6
     ]
    ],
    "exemples": [
-    "27575162fc#ex3",
-    "e332fce235#ex1",
-    "2a2a1064b3#ex3"
+    "679fae4a2e#ex4",
+    "bc6cdb4f57#ex2",
+    "07694faddf#ex2"
    ]
   },
   {
    "mots": [
     "mot",
     "palindrome",
+    "droite",
     "vers",
     "longueur",
+    "instruction",
     "len",
-    "droite",
-    "lettres",
-    "instruction"
+    "lettres"
    ],
    "notions_associees": [
     [
      "poo",
-     6
+     7
     ],
     [
      "recursivite",
-     5
+     3
     ],
     [
      "sql",
@@ -4269,143 +4305,106 @@
     ]
    ],
    "exemples": [
-    "10d66f8da5#ex1",
     "1661eb43af#ex1",
+    "10d66f8da5#ex1",
     "36663cc136#ex4"
    ]
   },
   {
    "mots": [
-    "alice",
-    "bob",
-    "site",
-    "communications",
-    "web",
-    "securisation",
-    "message",
-    "communiquer"
+    "compression",
+    "mis",
+    "texte",
+    "information",
+    "recursivite",
+    "transmettre",
+    "etudier",
+    "apres"
    ],
    "notions_associees": [
     [
-     "poo",
-     6
-    ],
-    [
-     "securite_crypto",
-     6
-    ],
-    [
-     "modele_relationnel",
-     6
-    ]
-   ],
-   "exemples": [
-    "dc527b5c76#ex3",
-    "3c026a7f7c#ex1",
-    "3978c931e7#ex2"
-   ]
-  },
-  {
-   "mots": [
-    "tab",
-    "expression",
-    "nombres",
-    "indices",
-    "operateur",
-    "notation",
-    "bien",
-    "expressions"
-   ],
-   "notions_associees": [
-    [
-     "graphe",
+     "arbre_binaire",
      7
     ],
     [
-     "poo",
-     6
+     "representation_nombres",
+     7
     ],
     [
      "recursivite",
-     5
+     6
     ]
    ],
    "exemples": [
-    "98f716c9d8#ex2",
-    "10d66f8da5#ex3",
-    "02ba9a34d8#ex3"
+    "5f5d713dfe#ex2",
+    "ad87e776c8#ex2",
+    "8862e5f5ac#ex1"
    ]
   },
   {
    "mots": [
-    "recursivite",
-    "course",
+    "vide",
+    "non",
+    "mere",
+    "droit",
+    "chien",
     "vaut",
-    "compression",
-    "etudier",
-    "melange",
-    "general",
-    "information"
+    "pere",
+    "prend"
    ],
    "notions_associees": [
-    [
-     "recursivite",
-     11
-    ],
     [
      "arbre_binaire",
      10
     ],
     [
      "poo",
-     7
+     5
+    ],
+    [
+     "graphe",
+     4
     ]
    ],
    "exemples": [
-    "0fa7d72232#ex2",
-    "cde9a757cc#ex2",
-    "f7b6a104a8#ex1"
+    "d22be75306#ex2",
+    "9c575cf8a5#ex4",
+    "d4c70e941c#ex5"
    ]
   },
   {
    "mots": [
-    "ordinateur",
-    "ordinateurs",
-    "logiciel",
-    "ecran",
-    "bit",
-    "peripheriques",
-    "souris",
-    "souhaite"
+    "alice",
+    "chiffrement",
+    "bob",
+    "communications",
+    "message",
+    "securisation",
+    "alphabet",
+    "site"
    ],
    "notions_associees": [
     [
+     "securite_crypto",
+     8
+    ],
+    [
+     "poo",
+     6
+    ],
+    [
      "reseau_ip",
-     6
-    ],
-    [
-     "routage",
-     6
-    ],
-    [
-     "representation_nombres",
-     5
+     4
     ]
    ],
    "exemples": [
-    "2062cb2c32#ex5",
-    "27e35a3a8c#ex2",
-    "27e35a3a8c#ex1"
+    "1d60e7339b#ex3",
+    "3c026a7f7c#ex1",
+    "a03d4cdb15#ex2"
    ]
   }
  ],
  "questions_atypiques": [
-  {
-   "annee": 2021,
-   "centre": "Sujet zéro",
-   "tache": "corriger_code",
-   "texte": "3. Lors de l'insertion de l'élèveALTMEYER Yohan (ligne 2 du ﬁchierseconde_lyc.csv), une erreur de\nsaisie a été commise sur la première langue, qui devrait être allemand. Écrire une requête SQL de\nmise à jour corrigeant l"
-  },
   {
    "annee": 2021,
    "centre": "Centres étrangers",
@@ -4414,21 +4413,45 @@
   },
   {
    "annee": 2023,
-   "centre": "Métropole",
-   "tache": "lire_sql",
-   "texte": "2. En vous basant uniquement sur les données du tableau de la figure 1, donner le\nrésultat de la requête suivante :\n\nSELECT id, stock, description\nFROM Meubles\nWHERE intitule = 'skap';"
-  },
-  {
-   "annee": 2023,
    "centre": "Nouvelle-Calédonie",
    "tache": "completer_code",
    "texte": "d. Compléter, sur le document réponse , la table de routage complète av ec le protocole\nOSPF du routeur B.\n\nDOCUMENT RÉPONSE À RENDRE OBLIGATOIREMENT ET DANS\nSON INTÉGRALITE AVEC LA COPIE\nExercice 1. Question 2) d.\n\nIndi"
+  },
+  {
+   "annee": 2022,
+   "centre": "Amérique du Nord",
+   "tache": "ecrire_fonction",
+   "texte": "4. Écrire une fonction nombre_baisses qui prend en paramètre un tableautab, non vide, des\nvariations des températures et qui renvoie un p-uplet contenant le nombre de jours où la\ntempérature a baissé par rapport au jour "
+  },
+  {
+   "annee": 2021,
+   "centre": "Sujet zéro",
+   "tache": "corriger_code",
+   "texte": "3. Lors de l'insertion de l'élèveALTMEYER Yohan (ligne 2 du ﬁchierseconde_lyc.csv), une erreur de\nsaisie a été commise sur la première langue, qui devrait être allemand. Écrire une requête SQL de\nmise à jour corrigeant l"
+  },
+  {
+   "annee": 2022,
+   "centre": "Nouvelle-Calédonie",
+   "tache": "ecrire_fonction",
+   "texte": "c) Écrire la fonction profil prenant en argument un arbre binaire non vide A et qui\nrenvoie le profil du membre dont le pseudo nyme est l'étiquette de la racine de A,\nsous la forme d'une cha ine de caractères : ‘membre_o"
+  },
+  {
+   "annee": 2022,
+   "centre": "Nouvelle-Calédonie",
+   "tache": "dessiner_structure",
+   "texte": "a) Pour chaque écriture de masque de réseau, ci -dessous, indiquer et justifier si\nelle correspond à un masque de réseau valide :\n\n• 255.255.225.0\n• 255.255.224.0\n\nb) On dispose d'une fonction convBin qui prend en paramè"
   },
   {
    "annee": 2026,
    "centre": "Antilles-Guyane",
    "tache": "table_routage",
    "texte": "9. Écrire la liste des sommets, dans l'ordre de leur visite, lors du parcours en\nlargeur du graphe du réseau routier de la figure 2 depuis le sommet 'V3'.\nEn supposant que toutes les arêtes ont le même poids, la fonction"
+  },
+  {
+   "annee": 2025,
+   "centre": "Métropole",
+   "tache": "ecrire_fonction",
+   "texte": "9. Écrire une fonction somme_occ qui prend en paramètres un tableau tab de\ntuples (symbole, nb_occ) et qui renvoie la somme des nombres\nd'occurrences des symboles du tableau. Les tuples utilisés sont de même\nstructure qu"
   },
   {
    "annee": 2026,
@@ -4443,40 +4466,38 @@
    "texte": "2. Donner, sous forme de tableau, le résultat de la requête suivante appliquée à\nl'extrait de table précédent.\n SELECT marque, modele\nFROM inventaire\nWHERE annee = 1956"
   },
   {
-   "annee": 2024,
-   "centre": "Sujet zéro",
-   "tache": "completer_code",
-   "texte": "9. Recopier et compléter le schéma ci-dessous avec les processus P1 à P5 en\nutilisant les informations présentes dans le tableau ci-dessus et l'algorithme\nd'ordonnancement “par ordre de soumission”."
-  },
-  {
    "annee": 2022,
-   "centre": "Amérique du Nord",
-   "tache": "ecrire_fonction",
-   "texte": "4. Écrire une fonction nombre_baisses qui prend en paramètre un tableautab, non vide, des\nvariations des températures et qui renvoie un p-uplet contenant le nombre de jours où la\ntempérature a baissé par rapport au jour "
-  },
-  {
-   "annee": 2026,
    "centre": "Métropole",
    "tache": "trace_execution",
-   "texte": "5. Donner et justifier la valeur renvoyée par la fonction couper pour le tableau de\ncaractères suivant.\n [('n', 4), ('a', 2), ('o', 2), ('S', 1), ('h', 1), ('-',\n1), ('F', 1)]\nAfin d'implémenter les arbres de codage, on"
+   "texte": "2. On suppose dans cette question que la file f est dans l'état de la figure 1.\n1 k = 0\n2 g = creer_file()\n3 while not est_vide(f) :\n4 x = defiler(f)\n5 k = k + 1\n6 enfiler(g, x)\n7 while not est_vide(g) :\n8 x = defiler(g)"
   },
   {
-   "annee": 2022,
-   "centre": "Nouvelle-Calédonie",
-   "tache": "dessiner_structure",
-   "texte": "a) Pour chaque écriture de masque de réseau, ci -dessous, indiquer et justifier si\nelle correspond à un masque de réseau valide :\n\n• 255.255.225.0\n• 255.255.224.0\n\nb) On dispose d'une fonction convBin qui prend en paramè"
-  },
-  {
-   "annee": 2021,
+   "annee": 2023,
    "centre": "Métropole",
-   "tache": "ordonnancement",
-   "texte": "1. Un processeur choisit à chaque cycle d'exécution le processus qui doit être exécuté. Le\ntableau ci-dessous donne pour trois processus P1, P2, P3 :\n- la durée d'exécution (en nombre de cycles),\n- l'instant d'arrivée su"
+   "tache": "lire_sql",
+   "texte": "2. En vous basant uniquement sur les données du tableau de la figure 1, donner le\nrésultat de la requête suivante :\n\nSELECT id, stock, description\nFROM Meubles\nWHERE intitule = 'skap';"
   }
  ],
  "classifieur_notions": {
-  "top3_hit_rate_cv": 0.893,
-  "micro_f1_cv": 0.585,
-  "notions": 40
+  "top3_hit_rate_cv": 0.956,
+  "micro_f1_cv": 0.726,
+  "notions": 40,
+  "auto_apprentissage": {
+   "variante_retenue": "exposition+pseudo",
+   "unites_d_exposition": 6275,
+   "base": {
+    "top3": 0.901,
+    "f1": 0.612
+   },
+   "exposition": {
+    "top3": 0.955,
+    "f1": 0.726
+   },
+   "exposition+pseudo": {
+    "top3": 0.956,
+    "f1": 0.726
+   }
+  }
  },
  "epreuve_pratique": {
   "exercices_uniques": 267,

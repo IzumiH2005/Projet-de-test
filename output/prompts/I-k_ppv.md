@@ -10,6 +10,17 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
+> [Structures de données > Listes Piles Files > 1.1 À chaque donnée sa structure]
+> En informatique comme dans la vie courante, il est conseillé d'adapter sa manière de stocker et de traiter des données en fonction de la nature de celles-ci :
+> 
+> - Le serveur d'un café, chargé de transporter les boissons du comptoir aux tables des clients, n'utilisera pas un sac en plastique pour faire le transport : il préfèrera un plateau. 
+> - Le chercheur de champignons, lui, n'utilisera pas un plateau pour stocker ses trouvailles : il préfèrera un panier.
+> - Pour stocker des chaussettes, on préfèrera les entasser dans un tiroir (après les avoir appairées), plutôt que de les suspendre à des cintres. 
+> 
+> De même en informatique, pour chaque type de données, pour chaque utilisation prévue, une structure particulière de données se revèlera (peut-être) plus adaptée qu'une autre.
+> 
+> #### 1.1.1 Données linéaires
+> Intéressons nous par exemple aux **données linéaires**. Ce sont des données qui ne comp
 > [Structures de données > Listes Piles Files > 0. Préambule : interface ≠ implémentation :star: :star: :star:]
 > Les structures que nous allons voir peuvent s'envisager sous deux aspects :
 > 
@@ -23,42 +34,31 @@ Extraits du cours :
 >     
 > 
 > Nous avons déjà abordé ces deux aspects lors de la découverte de la Programmation Orientée Objet. Le principe d'encapsulation fait que l'utilisateur n'a qu'à connaître l'existenc
-> [Structures de données > Listes Piles Files > 1.1 À chaque donnée sa structure]
-> En informatique comme dans la vie courante, il est conseillé d'adapter sa manière de stocker et de traiter des données en fonction de la nature de celles-ci :
-> 
-> - Le serveur d'un café, chargé de transporter les boissons du comptoir aux tables des clients, n'utilisera pas un sac en plastique pour faire le transport : il préfèrera un plateau. 
-> - Le chercheur de champignons, lui, n'utilisera pas un plateau pour stocker ses trouvailles : il préfèrera un panier.
-> - Pour stocker des chaussettes, on préfèrera les entasser dans un tiroir (après les avoir appairées), plutôt que de les suspendre à des cintres. 
-> 
-> De même en informatique, pour chaque type de données, pour chaque utilisation prévue, une structure particulière de données se revèlera (peut-être) plus adaptée qu'une autre.
-> 
-> #### 1.1.1 Données linéaires
-> Intéressons nous par exemple aux **données linéaires**. Ce sont des données qui ne comp
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « 4. On considère la fonction suite(n) qui reçoit un entier positif et renvoie un entier. 1| def suite(n) : 2| if n == 0 : 3| return 0 4| else : 5| return 3+2*suite(n-2) »
-    exemple réel (autre notion) : « 3. Recopier et compléter le code suivant de la méthode annee_anciennete : 1 def annee_anciennete(self): 2 return ...  On considère la classe Personnel qui modélise la liste du personnel d'une entreprise et dont le début de l'implémentation  »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 4. Compléter le constructeur de la classe Processus :  1 class Processus: 4 ...(self, ..., priorite, temps_CPU): 5 ... priorite = priorite 7 ... PID = ... 8 self.temps_utilisation = 0 9 self.temps_CPU = temps_CPU »
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 5. À l'aide des classes Bloc et Blockchain, écrire le code Python permettant de créer un objet ma_blockchain de type Blockchain représenté par la figure 1. »
+    exemple réel (autre notion) : « 4. En expliquant ce choix, proposer une clef primaire pour la table parent. »
+    support S1 : Spécification de fonction en prose — Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.
+    exemple de support (autre notion) : « 4. Écrire une méthode get_dimensions de la classe Chemin qui renvoie la longueur et la largeur de l'itinéraire sous la forme d'un tuple. »
 
 - slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C22 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.
-    gabarit : Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].
-    exemple réel (autre notion) : « 13. Recopier et compléter les lignes 7 à 10 de la fonction sommets_tries, qui prend en paramètre un dictionnaire g représentant un graphe, et qui renvoie la liste des sommets du graphe triés dans l'ordre décroissant de leur degré.   1 def s »
-    exemple réel (autre notion) : « 10. Recopier et compléter les lignes 3, 7, 8 et 10 du code ci-dessus pour respecter les contraintes de la classe. »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 2. En vous basant uniquement sur les données du tableau de la figure 1, donner le résultat de la requête suivante :  SELECT id, stock, description FROM Meubles WHERE intitule = 'skap'; »
+    manière de demander C18 : Tracer une boucle Python donnée — L'élève suit l'exécution d'un code avec boucles for/range pour en déduire une valeur ou un affichage. On évalue la trace d'exécution.
+    gabarit : Déterminer la valeur de [variable] à l'issue des instructions suivantes : [code].
+    exemple réel (autre notion) : « 1. Voici une fonction codée en Python :  def f(n):  if n == 0:  print("Partez!")  else:  print(n)  f(n-1) »
+    exemple réel (autre notion) : « b. Qu'affiche le second print ? »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 8. Recopier et compléter les lignes 3 et 5 de la fonction get_parking qui prend en paramètre une liste de randonnées et qui renvoie la liste des identifiants des différents parkings, points de départ de ces randonnées (cet te liste ne devra pas avoir de doublo »
 
 - slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 11. Écrire une fonction trier qui prend en paramètre une liste mots représentant la liste des couples de mots et qui renvoie un ordre des 6 voyelles compatible avec le classement des mots donnés dans la liste. »
-    exemple réel (autre notion) : « 4. Implémenter une fonction representant prenant en paramètre une liste de 0 et de 1 et renvoyant l'entier correspondant. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « a. Parmi les propositions suivantes, recopier celle qui décrit le fonctionnement des entrées/sorties dans une file :  i. Premier entré, dernier sorti  ii. Premier entré, premier sorti  iii. Dernier entré, premier sorti »
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 6. Expliquer le rôle qu'aura cette clé symétrique dans leur communication. »
+    exemple réel (autre notion) : « 13. Indiquer quel sera le message d'erreur renvoyé à la console parmi les choix suivants :  "expected an indented block" ;  "takes 2 positionnals arguments but 3 were given" ;  "local variable 'i_cat' referenced before assignement" ;  " »
+    support S11 : Texte contenant des tirets — Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.
+    exemple de support (autre notion) : « 3. On considère dans cette question une approche plus élaborée. Son principe consiste, pour toutes les valeurs possibles de l'indice ݅à déterminer la somme maximale ܵ(݅)des sous-séquences qui se terminent à l'indice ݅ . »
 
 Le champ id vaut « I-k_ppv ».

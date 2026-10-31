@@ -10,22 +10,21 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Algorithmique > Diviser pour regner > 4.3 Complexité]
-> La division par 2 de la taille de la liste pourrait nous amener à penser que le tri fusion est de complexité logarithmique, comme l'algorithme de dichotomie. Il n'en est rien.
-> 
-> En effet, l'instruction finale ```interclassement(tri_fusion(lst[:m]), tri_fusion(lst[m:]))``` lance **deux** appels à la fonction ```tri_fusion``` (avec certes des données d'entrée deux fois plus petites).
-> 
-> On peut montrer que :
-> 
->     L'algorithme de tri fusion est en $O(n \log n)$.
-> 
->     On dit qu'il est **quasi-linéaire**. (ou *linéarithmique*)
-> 
-> Une complexité quasi-linéaire (en $O(n \log n)$) se situe «entre» une complexité linéaire (en $O(n)$) et une complexité quadratique (en $O(n^2)$). Mais elle est plus proche de la complexité linéaire.
-> 
-> Pour finir, une jolie animation permettant de comparer les tris :
-> 
-> Issue de ce site
+> [Algorithmique > Recherche textuelle > Recherche textuelle]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 23 - Recherche textuelle
+> Objectifs :
+> ▷ Comprendre le principe de la recherche textuelle.
+> ▷ Etudier l'algorithme deBoyer-Moore pour la recherche d'un motif dans un texte.
+> 1 Introduction
+> Tout logiciel de traitement de texte possède une fonction de recherche textuelle, permettant de trouver un mot
+> ou une partie d'un mot (chaîne ou sous-chaîne). Il en est de même pour les navigateurs Internet.
+> Ainsi, le raccourci clavierCTRL+F permet de rechercher dans la page la chaine"mot".
+> Les algorithmes qui permettent de trouver unesous-chaîne de caractères dans une chaine de caractères plus
+> grande sont des "grands classiques" de l'algorithmique. On parle aussi de recherche d'unmotif dans un texte.
+> Voici un exemple. Soit le texte suivant :
+> "Les sanglots longs des violons de l'automne blessent mon coeur d'une langueur monotone. Tout suffocant et
+> blême, qu
 > [Algorithmique > Diviser pour regner > Diviser pour regner]
 > Terminale - Spécialité NSI IFS Singapour
 > Chapitre 24 - Diviser pour régner
@@ -46,33 +45,33 @@ Extraits du cours :
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C0 : Écrire une méthode ou requête ciblée — L'élève produit une méthode de classe, une instruction ou une requête SQL qui réalise une opération précisément décrite ; on évalue la traduction exacte d'un besoin en code (conditions, attributs, tables).
-    gabarit : Écrire la [méthode/requête/fonction] [nom] permettant de [effet attendu sur les données].
-    exemple réel (autre notion) : « 6. Écrire la fonction récursive score_max qui implémente les règles précédentes. »
-    exemple réel (autre notion) : « 7. Écrire la méthode get_note de la classe Livre. Cette méthode devra renvoyer la note d'un livre. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 9. Expliquer brièvement pourquoi, lors d'un appel à la fonction chargement_glouton, on peut obtenir l'erreur suivante. »
+    manière de demander C3 : Lire ou compléter une classe Python fournie — L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.
+    gabarit : On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].
+    exemple réel (autre notion) : « 2. On considère la fonction maxi(L) qui prend comme paramètre une liste L de nombres et renvoie le plus grand nombre de cette liste : 1| def maxi(L) : 2| indice = 0 3| maximum = 0 4| while indice <= len(L) : 5| if L[indice] > maximum : 6| m »
+    exemple réel (autre notion) : « 7. Recopier et compléter le code de la méthode est_presente ci-dessous qui renvoie True si la clé cle_a_rechercher est présente dans l'instance d'ABR et False sinon :  1 def est_present(self, cle_a_rechercher): 2 if self.est_vide() : 3 retu »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 9. Recopier et compléter le programme ci -dessous permettant d'afficher le(s) nom(s) des champignons que l'on trouve lors de la saison été. for e in liste_champi:  if ...... == 'été':  print(...)  La plaque de cuisson de Quentin est défectueuse. Il ne peut cui »
 
 - slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 4. Préciser, sans justifier, le coût temporel du tri par insertion d'une liste de 𝑛 éléments dans le pire des cas. »
-    exemple réel (autre notion) : « c. Donner le type pour chacun des deux premiers attri buts de la relation clients. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « b. Citer un cas pour lequel l'insertion d'un enregistrement dans la table Reservation n'est pas possible. »
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 3. Écrire une fonction nb_colis qui prend en paramètre une liste d'objets de la classe Colis et qui renvoie le nombre de colis présents dans cette liste. »
+    exemple réel (autre notion) : « 7. Écrire une fonction comptes_dans_le_rouge qui prend en paramètre comptes une liste de comptes et qui renvoie la liste des comptes de cette liste dont le montant est strictement négatif. »
+    support S5 : Besoin formulé pour requête SQL — Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.
+    exemple de support (autre notion) : « 1. Expliquer succinctement les différences entre les logiciels libres et les logiciels propriétaires. »
 
 - slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
-    manière de demander C4 : Expliquer ou justifier un fonctionnement — L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.
-    gabarit : Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].
-    exemple réel (autre notion) : « 3. Expliquer pourquoi dans la situation décrite, un pompier ne peut pas avoir de qualification dont le codage décimale est 4. »
-    exemple réel (autre notion) : « 4. Expliquer pourquoi il est nécessaire d'avoir "au minimum deux" interfaces réseau dans un routeur. »
-    support S6 : Texte avec parenthèses explicatives — Support riche en parenthèses (signatures, précisions, sous-questions (a)(b)) ; l'élève doit tenir compte des précisions et des paramètres annoncés.
-    exemple de support (autre notion) : « 1. (a) Recopier et compléter le code du constructeur de la classeConcurrent. On exécute l'instruction suivante :c1 = Concurrent("Mosquito", 87.67, 12) (b) Donner la valeur de l'attributtemps_tot de c1. (c) Donner l'instruction permettant d'accéder à la valeurt »
+    manière de demander C5 : Donner le nom ou l'instruction — L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.
+    gabarit : Donner le [nom|tuple|instruction] correspondant à [situation].
+    exemple réel (autre notion) : « 3. Citer le type de parcours de l'arbre qui permettrait d'obtenir les symboles classés par taille d'encodage croissante. »
+    exemple réel (autre notion) : « 3. Ce code comporte des erreurs. Indiquer les numéros de lignes à rectifier ainsi que les rectifications à apporter. »
+    support S10 : Prose riche en virgules — Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.
+    exemple de support (autre notion) : « 2. D'après la première règle, si une ligne contient 5 zéros, les cases blanches de cette ligne sont forcément des uns. De même si une ligne contient 5 uns, les cases blanches sont forcément des zéros. »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C19 : Déterminer un chemin ou élément — Questions de détermination (chemin d'un paquet, répertoire, sous-séquence, protocole) sans geste unique, souvent en réseau ; on évalue une déduction à partir du contexte.
-    gabarit : Déterminer [le chemin/l'élément] [de A à B / vérifiant la condition] dans [situation].
-    exemple réel (autre notion) : « b. Donner le parcours emprunté par celui -ci en respectant le protocole RIP et en utilisant les tables de routage. »
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 5. a. Recopier sur la copie et indiquer dans le circuit ci-dessous les entrées e0 et e1 de façon à ce que ce circuit sélectionne le périphérique 1. »
     détail du cours à évaluer (Diviser pour regner) : « Une complexité quasi-linéaire (en O(n \log n)) se situe "entre" une complexité linéaire (en O(n)) et une complexité quadratique (en O(n^2)). »
 
 Le champ id vaut « I-complexite ».

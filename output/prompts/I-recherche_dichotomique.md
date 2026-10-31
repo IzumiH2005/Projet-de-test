@@ -10,22 +10,27 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Algorithmique > Diviser pour regner > Diviser pour regner]
-> Terminale - Spécialité NSI IFS Singapour
-> Chapitre 24 - Diviser pour régner
-> Objectifs :
-> ▷ Ecrire un algorithme en utilisant la méthode"diviser pour régner".
-> 1 Introduction
-> Nous avons vu en première deux algorithmes de tris assez naturels, mais peu efficaces : letri par insertionet
-> le tri par sélectionen classe de Première.
-> Cette année, nous allons étudier un algorithme beaucoup plus efficace et très utilisé, inventé parJohn Von
-> Neumann en 1945 : letri par fusion.
-> Cet algorithme nous permettra d'illustrer la méthodediviser pour régnerque nous avions également déjà
-> vue lors de larecherche dichotomiqueen classe de Première.
-> 2 La dichotomie (rappels)
-> Nous avons vu en classe dePremièrel'algorithme dedichotomie. Ce mot, qui vient du grecdikhotomia, signifie
-> « division en deux parties ».
-> Notre but ici est la recherche de la présence (ou non) d'un élément dans une liste triée. Notre fonction renv
+> [Algorithmique > Diviser pour regner > 1.2 Version récursive]
+> #### 1.2.1 Préambule : le slicing
+> Pour écrire simplement la version récursive de cet algorithme, nous allons avoir besoin de faire du *slicing* (découpage) de listes. Cette manipulation n'est pas au programme de NSI (même si elle est très simple). Attention, elle a un coût algorithmique important, qui peut fausser notre analyse de complexité.
+> 
+> Exemples de slicing :
+> 
+> ```python
+> >>> lst = ['a', 'b', 'c', 'd', 'e']
+> >>> lst[:2]
+> ['a', 'b']
+> >>> lst[2:]
+> ['c', 'd', 'e']
+> ```
+> 
+> On comprend que  :
+> 
+> - ```lst[:k]``` va renvoyer la sous-liste composée du premier élément jusqu'à celui d'indice ```k``` **non inclus**.
+> - ```lst[k:]``` va renvoyer la sous-liste composée du ```k```-ième élément (**inclus**) jusqu'au dernier.
+> - plus généralement, ```lst[k:p]``` va renvoyer la sous-liste composée du ```k```-ième élément (**inclus**) jusqu'au ```p```-ième (**non inclus**).
+> 
+> #### 1.2.2 Dichotomie récursive avec 
 > [Algorithmique > Diviser pour regner > 1.1 Version impérative]
 > {#
 > 
@@ -56,34 +61,34 @@ Extraits du cours :
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « 6. Compléter la fonction distance_totale :  1 def distance_totale(dep): 2 total = 0 3 for i in range(...): 4 ... 5 return total »
-    exemple réel (autre notion) : « 8. On compléter la méthode sortir. 11 def sortir(self): 12 """Retire et renvoie le dernier élément de 13 liste_priorite""" 14 assert not self.est_vide 15 return self .liste_priorite.pop() »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 3. La requête SELECT forceVent, dirVent FROM observation NATURAL JOIN st ation WHERE nom = 'BOURAKE' AND date = '2023010214' ; permet d'obtenir la force et la direction du vent à BOURAKE le 2 janvier 2023 à 14h. »
+- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
+    manière de demander C2 : Compléter des lignes de code numérotées — L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.
+    gabarit : Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].
+    exemple réel (autre notion) : « 13. return annexe(h) 6. Recopier sur la copie les lignes 7 et 11 en complétant les points de suspension.  Annexe 1 de l'exercice 2, à rendre avec la copie. »
+    exemple réel (autre notion) : « 5. Recopier et compléter les lignes 14, 15, 16 et 17 de la méthode placer_mines de la classe demineur. »
+    support S9 : Prose ponctuée de nombres isolés — Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.
+    exemple de support (autre notion) : « 5. Écrire une requête SQL permettant d'insérer cette nouvelle exoplanète dans la base de données. »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C5 : Question directe à réponse courte — Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.
-    gabarit : Quel(le) [élément] [condition] ? Justifier.
-    exemple réel (autre notion) : « d) Donner, en fonction de n, la complexité en temps de la fonction liste_segments. »
-    exemple réel (autre notion) : « 1. a . Quelle est la taille de l'arbre ci-dessus ? »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « 2. Pourquoi la requête ci-dessous provoque-t-elle une erreur ?  DELETE FROM Patientes WHERE numPatiente = 13858; »
+- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C3 : Lire ou compléter une classe Python fournie — L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.
+    gabarit : On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].
+    exemple réel (autre notion) : « 1. Dessiner l'arbre donné par le dictionnaire suivant, qui correspond au dossier Documents . Documents = { "Administratif":{ "certificat JDC.pdf ": 1500, "attestation recensement.pdf ": 850 },  "Cours": {  "NSI": { "TP.html ": 60, "dm.odt": »
+    exemple réel (autre notion) : « 5. La fonction code_morse(n, car) permet de traduire un caractère car présent dans l'arbre n et renvoie son code morse sous forme d'une chaîne de caractères. 8. 9. 10. def code_morse(n, car):  if n.valeur == car :  return ………… G : - - o M : »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 12. Indiquer la valeur affectée à la variable i_cat au cours de l'appel mystere(dict_perf_5km, 'SH'). »
 
-- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 6. Donner le solde en nsicoin de Bob à l'issue du bloc2. »
-    exemple réel (autre notion) : « 3. Donner les adresses IP attribuées, selon ce principe, aux routeurs C et F dans le réseau 10.42.0.16/30, ainsi que les adresses IP attribuées aux routeurs C et D dans le réseau 10.42.0.12/30. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « 13. Écrire la requête SQL permettant d'obtenir la table des numéros des comptes appartenant aux personnes portant le nom Richard Oise au moyen d'une jointure. »
+- slot 3 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
+    manière de demander C9 : Question directe « quel est » — L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.
+    gabarit : Quel est [élément] de [objet] ? [Justifier.]
+    exemple réel (autre notion) : « 3. Combien de machines pourront avoir une adresse IPv4 sur ce réseau ? »
+    exemple réel (autre notion) : « 11. Expliquer, en justifiant, le rôle de la fonction mystere. »
+    support S11 : Texte contenant des tirets — Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.
+    exemple de support (autre notion) : « 2. Pour la validation du paiement, est-il préférable d'utiliser le protocole HTTP ou HTTPS ? Pourquoi ? »
 
 - slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C7 : Dénombrer une quantité — L'élève calcule ou programme un comptage (machines d'un réseau, sauts, appels récursifs, occurrences) ; on évalue la maîtrise de ce qu'on compte et des bornes du comptage.
-    gabarit : Déterminer le nombre de [éléments] [dans/lors de] [situation], ou écrire une fonction qui renvoie ce nombre.
-    exemple réel (autre notion) : « c. (poids, taille) »
+    manière de demander C7 : Questions autour d'une base de données — L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.
+    gabarit : On cherche à [action] dans la base [nom]. Expliquer [phénomène].
+    exemple réel (autre notion) : « 12. Déterminer le chemin suivi par un paquet de données pour aller du routeur R8 au routeur R3 et donner son coût en respectant le protocole OSPF. EN_OODgzNT7QzNjAc0ND8UzMsTYxMj5A2NTAAwMDfAxNCjIx »
     détail du cours à évaluer (Diviser pour regner) : « Les algorithmes de dichotomie présentés ci-dessous ont tous en commun de diviser par deux la taille des données de travail à chaque étape. »
 
 Le champ id vaut « I-recherche_dichotomique ».

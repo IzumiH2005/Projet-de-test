@@ -48,37 +48,54 @@ Extraits du cours :
 >     
 > 
 >     Le protocole RIP permet de construire les tables de routage des différents routeurs, en indiquant
-> [Architecture, OS et réseaux > Protocoles de routage > 1. Tables de routage]
-> Les tables de routage sont des informations stockées dans le routeur permettant d'aiguiller intelligemment les données qui lui sont transmises.
-> 
-> Dans le réseau ci-dessus, si l'ordinateur d'adresse ```192.168.0.5``` veut interroger le serveur ```10.7.3.8``` :
-> 
-> - l'adresse ```10.7.3.8``` n'étant pas dans le sous-réseau F (d'adresse ```192.168.0.0 / 24```), la requête est confiée au routeur R1 via son adresse passerelle dans le réseau F (ici ```192.168.0.254```).
-> - le routeur R1 observe si l'IP recherchée appartient à un autre des sous-réseaux auquel il est connecté. Ici, l'IP recherchée ```10.7.3.8``` n'appartient ni au sous-réseau A, ni au sous-réseau E. 
-> - le routeur R1 va donc regarder dans sa table de routage l'adresse passerelle d'un autre routeur vers qui elle doit rediriger les données. Si le sous-réseau C fait partie de sa table de routage, le routeur R1 saura alors que le meilleur
+> [Architecture, OS et réseaux > Routage > Routage]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 15 - Le routage
+> Objectifs :
+> ▷ Connaître les principaux protocoles de routage
+> ▷ Identifier, suivant le protocole de routage utilisé (RIP ou OSPF), la route empruntée par un paquet.
+> 1 Introduction
+> Exemple
+> Thomas veut envoyer une lettre de remerciement à son amiPacôme Toullemonde, habitant à Toulouse
+> (en France), qui lui a prété un manuel de NSI.
+> 1. Il rédige donc un courrier, le place dans une enveloppe sur laquelle il inscrit le nom, le prénom, le
+> numéro, la rue, le code postal, la ville et enfin le pays.
+> 2. Puis il dépose le tout à la poste deSerangoon à Singapour.
+> 3. L'agent de la poste ne connaît pasPacôme, mais il sait que la lettre doit aller en France.
+> 4. Une fois arrivée en France, l'agent de poste Français ne connaît toujours pasPacôme, mais il sait
+> qu'il doit envoyer la lettre vers un nouveau centre de tri, celui de Toulouse.
+> 5. A
 
 Questions à rédiger (points = 1 par défaut) :
 
 - slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 2. (a) Recopier et compléter la fonction récursive Python present ayant pour paramètres un arbre de pédigréearb et le nom d'un chiennom et qui renvoieTrue si ce nom est présent dans l'arbre de pédigrée ouFalse sinon. 1 def present(arb, nom) »
-    exemple réel (autre notion) : « 6. Écrire une requête SQL permettant d'obtenir le nom et le prénom du joueur j_1 de l'équipe "Les Kangourous". L'équipe "Volley Warriors" a terminé le tournoi avec un total de 5 points. »
-    support S3 : Contexte rédigé en plusieurs phrases — Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.
-    exemple de support (autre notion) : « 1. Indiquer ce que renvoie la requête suivante lorsqu'on l'applique aux extraits précédents.  SELECT nom FROM lac WHERE altitude <= 2000; »
+    manière de demander C4 : Donner la valeur ou l'élément demandé — L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.
+    gabarit : Donner la [requête|valeur|table] de [objet] [condition].
+    exemple réel (autre notion) : « 3. Donner la nouvelle définition de la variable voisins. »
+    exemple réel (autre notion) : « 2. Coder en binaire le mot Bonjour en utilisant la méthode de l'étape 4 avec l'arbre de codage de la figure 1. »
+    support S15 : Sous-questions lettrées a) b) — Énoncés découpés en items a), b), c) ou en options lettrées. L'élève traite chaque sous-question ou choisit une option.
+    exemple de support (autre notion) : « f) retrait d'un élément ; »
 
-- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : début d'exercice (question d'entrée)
-    manière de demander C23 : Donner une information précise — Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.
-    gabarit : Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].
-    exemple réel (autre notion) : « 2. La requête SELECT nom FROM station ORDER BY nom ; permet d'obtenir le nom de toutes les stations météorologiques triées par ordre alphabétique. »
-    exemple réel (autre notion) : « 7. Écrire une requête SQL permettant d'afficher le nom et le site web des AASQA. »
-    support S4 : Liste à tirets ou intitulés — Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.
-    exemple de support (autre notion) : « a. On donne ci-dessous, le code Python d'une fonction mystere.  On rappelle que l'appel L.append(x) ajoute l'élément x à la fin de la liste L. Indiquer l'affichage produit par l'exécution de la ligne de code suivante : print(mystere(reservation, '2022-08-23')) »
+- slot 2 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C11 : Analyser une ligne de code précise — L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.
+    gabarit : Expliquer le rôle de la ligne [n] de la fonction [nom].
+    exemple réel (autre notion) : « 2. Écrire l'instruction de la ligne 38 permettant de compléter l'implémentation du graphe de la Figure 1. »
+    exemple réel (autre notion) : « 1. Recopier et compléter la ligne 7 de l'assertion pour que le pourcentage de mines respecte la précondition recommandée. »
+    support S6 : Prose technique avec valeurs numériques — Texte contenant des nombres (masques, suffixes, tables de vérité, scores). Mélange réseaux, booléens et données sans forme commune nette.
+    exemple de support (autre notion) : « 5. On reçoit le tableau suivant. 1 1 1 1 1 0 0 1 1  Sachant qu'une unique erreur de transmission s'est produite, recopier le tableau et entourer le bit qui a subi cette erreur (transformation d'un 0 en 1 ou d'un 1 en 0). »
 
-- slot 3 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C6 : Établir ou lire une table de routage — Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.
-    gabarit : Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].
-    exemple réel (autre notion) : « c. Donner la hauteur des ABR a1 et a2. »
-    détail du cours à évaluer (Protocoles de routage) : « La figure 1 ci-dessus représente le schéma d’un réseau d’entreprise. »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C14 : Écrire le code d'une méthode — L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.
+    gabarit : Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].
+    exemple réel (autre notion) : « 11. Écrire le code de la fonction en_arbre qui prend en paramètre une liste etoiles de couples de coordonnées non triés et renvoie l'arbre construit selon la démarche décrite plus haut. On pourra utiliser la fonction construction de la ques »
+    exemple réel (autre notion) : « c. Indiquer, pour la relation reservation, la ou les clés étrangères (ou secondaires) et en indiquer l'utilité. »
+    support S14 : Prose avec parenthèses — Phrases contenant des parenthèses (couples, types, précisions). Artefact de ponctuation sans matériau commun.
+    exemple de support (autre notion) : « 6. La passagère d'identifiant 5 a déjà parcouru 10 milliers de kilomètres. Elle réserve un vol de Washington (IAD) à Paris (CDG), d'une distance de 6 milliers de kilomètres.  Écrire la requête permettant de mettre à jour la table passager. »
+
+- slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 1. Cet algorithme est-il itératif ou récursif ? Justifier en un e phrase. »
+    détail du cours à évaluer (Routage) : « Compléter le schéma avec les coûts puis déterminer les tables de routage de A et E. »
 
 Le champ id vaut « I-routage ».

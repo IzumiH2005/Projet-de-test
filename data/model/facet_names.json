@@ -1,37 +1,228 @@
-{"consigne": {
-"0": {"nom": "Écrire une méthode ou requête ciblée", "geste": "L'élève produit une méthode de classe, une instruction ou une requête SQL qui réalise une opération précisément décrite ; on évalue la traduction exacte d'un besoin en code (conditions, attributs, tables).", "gabarit": "Écrire la [méthode/requête/fonction] [nom] permettant de [effet attendu sur les données].", "coherence": "forte"},
-"1": {"nom": "Fragments coupés par la pagination", "geste": "Groupe artificiel : questions variées (représenter une pile, lire un algorithme, lignes de code isolées) réunies par des pieds de page de sujet ; aucun geste évaluatif commun.", "gabarit": "[Consigne] (en vous appuyant sur [élément page suivante]).", "coherence": "faible"},
-"2": {"nom": "Écrire une fonction selon sa signature", "geste": "L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).", "gabarit": "Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].", "coherence": "forte"},
-"3": {"nom": "Questions de raisonnement hétérogènes", "geste": "Mélange de consignes (dessiner un graphe, comparer, justifier, lister des dépendances) liées par des tournures pluriel génériques ; le point commun est seulement un raisonnement contextualisé sur une situation.", "gabarit": "En étudiant [situation/données], [donner/comparer/justifier] [élément demandé]. Justifier la réponse.", "coherence": "faible"},
-"4": {"nom": "Expliquer ou justifier un fonctionnement", "geste": "L'élève rédige une explication causale (pourquoi, comment, en quoi) sur un mécanisme ou un choix ; on évalue la compréhension conceptuelle et la capacité à argumenter, pas l'exécution.", "gabarit": "Expliquer pourquoi [choix/propriété/phénomène] dans le cas de [situation].", "coherence": "forte"},
-"5": {"nom": "Question directe à réponse courte", "geste": "Question interrogative (quel, que renvoie, est-il…) appelant une identification ou un choix, souvent suivi de « Justifier » ; on évalue une lecture précise et une décision argumentée.", "gabarit": "Quel(le) [élément] [condition] ? Justifier.", "coherence": "moyenne"},
-"6": {"nom": "Établir ou lire une table de routage", "geste": "Majoritairement réseau : dresser, compléter ou exploiter une table de routage selon un protocole (RIP/OSPF), ou identifier un chemin ; on évalue l'application d'un protocole à une topologie.", "gabarit": "Donner la [table/chemin] [de l'élément] selon [protocole/règle], après [événement].", "coherence": "moyenne"},
-"7": {"nom": "Dénombrer une quantité", "geste": "L'élève calcule ou programme un comptage (machines d'un réseau, sauts, appels récursifs, occurrences) ; on évalue la maîtrise de ce qu'on compte et des bornes du comptage.", "gabarit": "Déterminer le nombre de [éléments] [dans/lors de] [situation], ou écrire une fonction qui renvoie ce nombre.", "coherence": "moyenne"},
-"8": {"nom": "Manipuler une base de données", "geste": "Requêtes et modélisation sur une base relationnelle (supprimer, ajouter, interroger, proposer un schéma) ; on évalue la correspondance entre un besoin métier et les opérations SQL ou la structure de tables.", "gabarit": "Donner la (les) requête(s) SQL permettant de [opération] dans la base de données [nom], [contrainte].", "coherence": "moyenne"},
-"9": {"nom": "Prédire le résultat d'un appel", "geste": "À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.", "gabarit": "Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].", "coherence": "moyenne"},
-"10": {"nom": "Écrire ou corriger le code", "geste": "L'élève écrit, recopie ou modifie le code d'une méthode ou fonction nommée, parfois pour corriger un comportement fautif ; on évalue l'implémentation et la gestion d'un cas d'erreur.", "gabarit": "Écrire le code de la [méthode/fonction] [nom] qui [comportement]. / Modifier le code de [nom] pour que [comportement corrigé].", "coherence": "forte"},
-"11": {"nom": "Traiter des chaînes de caractères", "geste": "Questions de programmation ou d'analyse portant sur des chaînes (parcours, inversion, validation, exemple qui fait échouer un test) ; on évalue la manipulation de caractères et d'indices.", "gabarit": "Écrire une fonction [nom] qui prend en paramètre une chaîne de caractères [s] et renvoie [résultat]. Exemple : [nom]([entrée]) renvoie [sortie].", "coherence": "moyenne"},
-"12": {"nom": "Exploiter l'élément fourni ci-dessous", "geste": "La consigne renvoie à un document joint (commandes, circuit, requêtes numérotées, classe, code) à sélectionner, compléter ou utiliser ; on évalue la lecture attentive du support plus qu'une notion précise.", "gabarit": "Parmi les [éléments] ci-dessous, [sélectionner/compléter/utiliser] ceux qui permettent de [objectif].", "coherence": "moyenne"},
-"13": {"nom": "Raisonner sur une figure", "geste": "La question s'appuie sur une figure numérotée (arbre, réseau, arborescence, configuration) que l'élève lit, mesure ou complète ; on évalue la lecture d'une représentation graphique.", "gabarit": "En vous appuyant sur la figure [n], [donner/justifier/compléter] [propriété de l'objet représenté].", "coherence": "moyenne"},
-"14": {"nom": "Analyser un code fourni", "geste": "Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.", "gabarit": "On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].", "coherence": "moyenne"},
-"15": {"nom": "Proposer une solution ou modification", "geste": "L'élève propose une solution ouverte (parcours, fonction, modification de schéma, adresses, tests) ; on évalue la capacité à concevoir une réponse valide parmi plusieurs possibles.", "gabarit": "Proposer [un/une] [solution/modification/test] permettant de [objectif] en respectant [contrainte].", "coherence": "forte"},
-"16": {"nom": "Écrire une requête SQL de sélection", "geste": "Majoritairement des requêtes SQL (sélection, tri, jointure, insertion) et quelques méthodes ; on évalue la formulation correcte d'une requête à partir d'un besoin en langage naturel.", "gabarit": "Écrire une requête SQL permettant d'obtenir [informations] des [entités] [conditions], [tri].", "coherence": "forte"},
-"17": {"nom": "Identifier le rôle d'une clé", "geste": "Questions sur les clés primaires et étrangères (identifier, justifier, expliquer le rôle), parfois clés de chiffrement ; on évalue la compréhension des contraintes d'intégrité.", "gabarit": "Indiquer la clé [primaire/étrangère] de la relation [nom] et préciser son rôle.", "coherence": "forte"},
-"18": {"nom": "Programmer sur un tableau d'entiers", "geste": "Exercices pratiques où l'élève programme une fonction parcourant un tableau de nombres (recherche, tri, vérification) avec exemples ; on évalue l'algorithmique de base et le passage des tests.", "gabarit": "Écrire une fonction [nom] qui prend en paramètre un tableau [tab] de [type] et qui renvoie [résultat]. Exemples : [assertions].", "coherence": "forte"},
-"19": {"nom": "Déterminer un chemin ou élément", "geste": "Questions de détermination (chemin d'un paquet, répertoire, sous-séquence, protocole) sans geste unique, souvent en réseau ; on évalue une déduction à partir du contexte.", "gabarit": "Déterminer [le chemin/l'élément] [de A à B / vérifiant la condition] dans [situation].", "coherence": "faible"},
-"20": {"nom": "Énoncés de mise en situation", "geste": "Mélange d'énoncés introductifs et de questions descriptives (arbres, parité, interfaces) ; groupe défini par des tournures génériques plutôt que par un geste.", "gabarit": "On considère [situation]. Indiquer [éléments] qui [propriété].", "coherence": "faible"},
-"21": {"nom": "Interpréter le résultat d'une requête", "geste": "L'élève donne ou décrit le résultat d'une requête SQL (ou d'une instruction) fournie ; on évalue la lecture et l'exécution mentale d'une requête sur des données.", "gabarit": "Donner le résultat de la [requête/instruction] suivante : [code], appliquée à [données].", "coherence": "forte"},
-"22": {"nom": "Compléter des lignes de code numérotées", "geste": "L'élève recopie et complète des lignes précisément numérotées d'une fonction à trous ; on évalue la compréhension de la logique locale du code et le respect de la spécification.", "gabarit": "Recopier et compléter les lignes [n1] à [n2] de la fonction [nom] afin qu'elle [comportement].", "coherence": "forte"},
-"23": {"nom": "Donner une information précise", "geste": "Restitution courte (nom d'un algorithme, coût, adresse, masque, type) ; on évalue une connaissance ou un calcul ponctuel.", "gabarit": "Donner le [nom/coût/valeur] [de l'élément] [dans le contexte].", "coherence": "moyenne"},
-"24": {"nom": "Compléter une fonction à trous", "geste": "L'élève recopie et complète une fonction ou une table entière (parfois à partir d'une ligne donnée) ; on évalue l'achèvement d'un code partiellement fourni.", "gabarit": "Recopier et compléter la fonction [nom] (à partir de la ligne [n]) qui [comportement].", "coherence": "moyenne"}
-},
-"support": {
-"0": {"nom": "Énoncé en prose avec numéros", "geste": "Support textuel ordinaire mêlant prose et nombres (routeurs, adresses, tailles) ; l'élève travaille à partir d'une mise en situation décrite, sans matériau structuré dominant.", "gabarit": "Dans [situation décrite], [consigne] concernant [élément numéroté].", "coherence": "faible"},
-"1": {"nom": "Spécification en prose énumérée", "geste": "Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.", "gabarit": "[Fonction/méthode] [nom] qui prend en paramètres : [p1], [p2] ; et qui [comportement].", "coherence": "faible"},
-"2": {"nom": "Code source fourni", "geste": "Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.", "gabarit": "On considère le code suivant : [code avec identifiants]. [Consigne sur ce code].", "coherence": "moyenne"},
-"3": {"nom": "Contexte rédigé en plusieurs phrases", "geste": "Questions précédées ou suivies d'un paragraphe de contexte (données, schéma relationnel, situation) ; l'élève doit extraire l'information utile du texte.", "gabarit": "[Phrase de contexte]. [Phrase de précision]. [Consigne].", "coherence": "faible"},
-"4": {"nom": "Liste à tirets ou intitulés", "geste": "Support comportant des listes à tirets, intitulés courts ou termes composés ; l'élève s'appuie sur une énumération d'éléments ou de propositions.", "gabarit": "[Consigne] à partir des éléments suivants : - [élément 1] - [élément 2] - [élément 3].", "coherence": "faible"},
-"5": {"nom": "Données numériques littérales", "geste": "Le support fournit des listes, tableaux ou tuples de nombres (cas de test, matrices, appels) ; l'élève exécute ou programme sur ces valeurs concrètes.", "gabarit": "Avec [variable] = [[v1, v2, v3, ...]], [donner le résultat de / compléter] [appel ou tableau].", "coherence": "moyenne"},
-"6": {"nom": "Texte avec parenthèses explicatives", "geste": "Support riche en parenthèses (signatures, précisions, sous-questions (a)(b)) ; l'élève doit tenir compte des précisions et des paramètres annoncés.", "gabarit": "[Consigne] [objet]([paramètres]) ([précision sur le format ou le cas]).", "coherence": "faible"},
-"7": {"nom": "Consigne brève sans support", "geste": "Question courte et autonome, sans matériau joint notable ; l'élève répond à partir de ses connaissances ou du contexte de l'exercice.", "gabarit": "[Verbe] [élément demandé] de [objet].", "coherence": "moyenne"}
-}}
+{
+ "consigne": {
+  "0": {
+   "nom": "Consignes génériques sans tournure dominante",
+   "geste": "Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.",
+   "gabarit": "[Verbe] [objet] en tenant compte de [contexte].",
+   "coherence": "faible"
+  },
+  "1": {
+   "nom": "Écrire la fonction ou commande nommée",
+   "geste": "L'élève produit un code précis (fonction, méthode, commande shell) dont le nom est imposé. On évalue la justesse et la syntaxe du code écrit.",
+   "gabarit": "Écrire la [fonction|méthode|commande] [nom] qui [comportement attendu].",
+   "coherence": "forte"
+  },
+  "2": {
+   "nom": "Compléter des lignes de code numérotées",
+   "geste": "L'élève recopie et complète des lignes désignées par leur numéro dans un code fourni. On évalue la compréhension locale de l'algorithme.",
+   "gabarit": "Recopier et compléter les lignes [n1], [n2] et [n3] de la fonction [nom].",
+   "coherence": "forte"
+  },
+  "3": {
+   "nom": "Lire ou compléter une classe Python fournie",
+   "geste": "L'élève s'appuie sur un code Python donné (classe, def) pour le compléter ou l'utiliser. On évalue la lecture de code orienté objet.",
+   "gabarit": "On donne la classe [Classe] ci-dessous : [code]. Recopier et compléter la méthode [nom].",
+   "coherence": "moyenne"
+  },
+  "4": {
+   "nom": "Donner la valeur ou l'élément demandé",
+   "geste": "L'élève fournit un résultat ponctuel (requête, codage, table) désigné par « donner la ». On évalue l'exactitude du résultat, sur des notions variées.",
+   "gabarit": "Donner la [requête|valeur|table] de [objet] [condition].",
+   "coherence": "moyenne"
+  },
+  "5": {
+   "nom": "Donner le nom ou l'instruction",
+   "geste": "L'élève nomme un élément ou fournit une instruction ou un tuple précis. On évalue une réponse courte et exacte.",
+   "gabarit": "Donner le [nom|tuple|instruction] correspondant à [situation].",
+   "coherence": "moyenne"
+  },
+  "6": {
+   "nom": "Exécuter mentalement une requête ou instruction suivante",
+   "geste": "L'élève lit une requête SQL ou une commande donnée et indique ce qu'elle renvoie. On évalue la capacité à simuler l'exécution.",
+   "gabarit": "Donner les valeurs renvoyées par la requête suivante : [requête].",
+   "coherence": "forte"
+  },
+  "7": {
+   "nom": "Questions autour d'une base de données",
+   "geste": "L'élève raisonne sur une base de données (erreur de suppression, contraintes, données), avec quelques intrus hors BDD. On évalue la compréhension du modèle relationnel.",
+   "gabarit": "On cherche à [action] dans la base [nom]. Expliquer [phénomène].",
+   "coherence": "moyenne"
+  },
+  "8": {
+   "nom": "Questions chargées en symboles numériques",
+   "geste": "Groupe formé par la présence de nombres et symboles (masses, formules, calculatrice) plus que par un geste. Mélange SQL, maths et représentation des nombres.",
+   "gabarit": "[Situation chiffrée]. [Question] ?",
+   "coherence": "faible"
+  },
+  "9": {
+   "nom": "Question directe « quel est »",
+   "geste": "L'élève répond à une question ouverte ou un QCM introduit par « quel ». On évalue l'identification d'un élément ou d'une propriété.",
+   "gabarit": "Quel est [élément] de [objet] ? [Justifier.]",
+   "coherence": "moyenne"
+  },
+  "10": {
+   "nom": "Questions portant sur un nombre",
+   "geste": "Groupe lexical autour du mot « nombre » (nombre d'éléments, de sauts, d'entiers) sans geste commun : routage, préconditions, calcul.",
+   "gabarit": "Donner le nombre de [éléments] [condition].",
+   "coherence": "faible"
+  },
+  "11": {
+   "nom": "Analyser une ligne de code précise",
+   "geste": "L'élève explique ou corrige le rôle d'une ligne désignée dans un programme fourni. On évalue la lecture fine du code.",
+   "gabarit": "Expliquer le rôle de la ligne [n] de la fonction [nom].",
+   "coherence": "forte"
+  },
+  "12": {
+   "nom": "Consignes génériques sans tournure dominante (bis)",
+   "geste": "Second fourre-tout aux mêmes termes que le groupe 0 : droits Linux, dessin d'arbre, tables… Pas de geste partagé.",
+   "gabarit": "[Verbe] [objet] [contexte].",
+   "coherence": "faible"
+  },
+  "13": {
+   "nom": "Énoncés contenant des suites de nombres",
+   "geste": "Groupe formé par la présence de listes ou tableaux de nombres (états, appels sur tableau), avec des gestes variés : simuler, justifier, indiquer.",
+   "gabarit": "À partir de [tableau de valeurs], [question].",
+   "coherence": "faible"
+  },
+  "14": {
+   "nom": "Écrire le code d'une méthode",
+   "geste": "L'élève rédige intégralement le code d'une fonction ou méthode décrite. On évalue la programmation, souvent en POO.",
+   "gabarit": "Écrire le code de la méthode [nom] de la classe [Classe] qui [comportement].",
+   "coherence": "forte"
+  },
+  "15": {
+   "nom": "Recopier et compléter un élément",
+   "geste": "L'élève recopie puis complète une fonction, un résultat ou une table partiellement donnés. On évalue la capacité à combler les trous correctement.",
+   "gabarit": "Recopier et compléter [la fonction|le tableau] [nom] [donné ci-dessous].",
+   "coherence": "forte"
+  },
+  "16": {
+   "nom": "Écrire une requête SQL",
+   "geste": "L'élève rédige une requête SQL répondant à un besoin formulé en langage naturel. On évalue sélection, jointures, filtres et tris.",
+   "gabarit": "Écrire une requête SQL permettant d'afficher [attributs] des [entités] [condition].",
+   "coherence": "forte"
+  },
+  "17": {
+   "nom": "Question directe « quelle est »",
+   "geste": "L'élève indique une valeur, une propriété ou un élément d'une structure. Réponse courte ; le groupe reste un peu hétérogène.",
+   "gabarit": "Quelle est la [valeur|propriété] de [objet] ?",
+   "coherence": "moyenne"
+  },
+  "18": {
+   "nom": "Tracer une boucle Python donnée",
+   "geste": "L'élève suit l'exécution d'un code avec boucles for/range pour en déduire une valeur ou un affichage. On évalue la trace d'exécution.",
+   "gabarit": "Déterminer la valeur de [variable] à l'issue des instructions suivantes : [code].",
+   "coherence": "forte"
+  },
+  "19": {
+   "nom": "Écrire une fonction avec paramètres spécifiés",
+   "geste": "L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].",
+   "coherence": "forte"
+  },
+  "20": {
+   "nom": "Énoncés avec parenthèses et valeurs",
+   "geste": "Groupe de forme (parenthèses, nombres, exemples d'appel) mêlant dessin d'arbre, explication d'algorithme et doctests. Pas de geste commun.",
+   "gabarit": "[Exemple] ([valeurs]). [Question].",
+   "coherence": "faible"
+  }
+ },
+ "support": {
+  "0": {
+   "nom": "Code indenté et tableaux mêlés",
+   "geste": "Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.",
+   "gabarit": "On donne [code|tableau] ci-dessous : [matériau]. [Question].",
+   "coherence": "moyenne"
+  },
+  "1": {
+   "nom": "Spécification de fonction en prose",
+   "geste": "Une phrase décrit une fonction à écrire ou compléter (nom, paramètre, valeur renvoyée). L'élève traduit cette description en code.",
+   "gabarit": "Écrire une fonction [nom] qui prend en paramètre [p] et renvoie [r].",
+   "coherence": "moyenne"
+  },
+  "2": {
+   "nom": "Prose sur un modèle relationnel",
+   "geste": "Texte court sur une base de données (clés, relations, suppression). L'élève raisonne sur le schéma décrit.",
+   "gabarit": "[Contexte BDD]. [Identifier|Expliquer] [élément du schéma].",
+   "coherence": "moyenne"
+  },
+  "3": {
+   "nom": "Code Python à lignes numérotées",
+   "geste": "Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.",
+   "gabarit": "Recopier et compléter la fonction [nom] : 1 def [nom]([p]): 2 ...",
+   "coherence": "forte"
+  },
+  "4": {
+   "nom": "Prose multi-lignes sans forme distinctive",
+   "geste": "Texte d'énoncé courant sur plusieurs lignes, sujets divers (algorithmes, graphes, Huffman). Forme générique, pas de matériau spécifique.",
+   "gabarit": "[Énoncé en prose]. [Consigne].",
+   "coherence": "faible"
+  },
+  "5": {
+   "nom": "Besoin formulé pour requête SQL",
+   "geste": "Phrase décrivant en langage naturel l'information à extraire d'une base. L'élève la convertit en requête SQL.",
+   "gabarit": "Écrire une requête qui renvoie [attributs] des [entités] [condition].",
+   "coherence": "forte"
+  },
+  "6": {
+   "nom": "Prose technique avec valeurs numériques",
+   "geste": "Texte contenant des nombres (masques, suffixes, tables de vérité, scores). Mélange réseaux, booléens et données sans forme commune nette.",
+   "gabarit": "[Texte avec valeurs chiffrées]. [Consigne].",
+   "coherence": "faible"
+  },
+  "7": {
+   "nom": "Chaînes et dictionnaires entre guillemets",
+   "geste": "Matériau contenant des chaînes entre guillemets : dictionnaires Python, propositions, noms. L'élève exploite ces littéraux pour dessiner, évaluer ou coder.",
+   "gabarit": "On donne le dictionnaire suivant : [nom] = {\"[clé]\": [valeur]}. [Consigne].",
+   "coherence": "moyenne"
+  },
+  "8": {
+   "nom": "Phrases courtes isolées",
+   "geste": "Fragments brefs d'une phrase (hypothèse de scénario, consigne courte). Aucun matériau fourni ; groupe défini par la brièveté.",
+   "gabarit": "[Phrase courte].",
+   "coherence": "faible"
+  },
+  "9": {
+   "nom": "Prose ponctuée de nombres isolés",
+   "geste": "Texte ordinaire contenant quelques nombres (numéros, hauteurs, identifiants). Formes et notions disparates.",
+   "gabarit": "[Énoncé avec nombre]. [Consigne].",
+   "coherence": "faible"
+  },
+  "10": {
+   "nom": "Prose riche en virgules",
+   "geste": "Phrases longues avec énumérations par virgules ou listes de choix. Artefact de ponctuation, contenus variés.",
+   "gabarit": "[Énoncé], [précisions], [consigne].",
+   "coherence": "faible"
+  },
+  "11": {
+   "nom": "Texte contenant des tirets",
+   "geste": "Matériau marqué par des tirets (mots composés, puces, listes chaînées). Artefact typographique mêlant fonctions récursives et énigmes.",
+   "gabarit": "[Énoncé] - [élément] - [consigne].",
+   "coherence": "faible"
+  },
+  "12": {
+   "nom": "Requêtes et syntaxe SQL",
+   "geste": "Code SQL fourni (SELECT, FROM, WHERE, UPDATE) ou rappel de syntaxe. L'élève lit, exécute mentalement ou s'en inspire.",
+   "gabarit": "On considère la requête : SELECT [attributs] FROM [table] WHERE [condition]; [Consigne].",
+   "coherence": "forte"
+  },
+  "13": {
+   "nom": "Listes et tableaux de nombres",
+   "geste": "Littéraux Python de listes ou matrices d'entiers, doctests. L'élève s'en sert comme données d'entrée ou de vérification.",
+   "gabarit": "On considère [nom] = [[a, b], [c, d]]. [Déterminer|Compléter] [résultat].",
+   "coherence": "moyenne"
+  },
+  "14": {
+   "nom": "Prose avec parenthèses",
+   "geste": "Phrases contenant des parenthèses (couples, types, précisions). Artefact de ponctuation sans matériau commun.",
+   "gabarit": "[Énoncé] ([précision]). [Consigne].",
+   "coherence": "faible"
+  },
+  "15": {
+   "nom": "Sous-questions lettrées a) b)",
+   "geste": "Énoncés découpés en items a), b), c) ou en options lettrées. L'élève traite chaque sous-question ou choisit une option.",
+   "gabarit": "a) [sous-question 1] ; b) [sous-question 2].",
+   "coherence": "moyenne"
+  }
+ }
+}

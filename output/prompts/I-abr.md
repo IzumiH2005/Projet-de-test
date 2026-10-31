@@ -10,72 +10,70 @@ Règles propres à ce mode :
 - La question doit rester faisable par un élève de Terminale et corrigeable sans ambiguïté.
 
 Extraits du cours :
-> [Structures de données > Arbres > 5. Arbres binaires de recherche (ABR)]
-> Un **arbre binaire de recherche** est un arbre binaire dont les valeurs des nœuds (valeurs qu'on appelle étiquettes, ou clés) vérifient la propriété suivante :
+> [Structures de données > Arbres > 5.3  Coût de la recherche dans un ABR équilibré]
+> Imaginons un arbre équilibré de taille $n$. Combien d'étapes faudra-t-il, dans le pire des cas, pour trouver (ou pas) une clé particulière dans cet arbre ?
 > 
->     - l'étiquette d'un nœud est **supérieure ou égale** à celle de **chaque** nœud de son **sous-arbre gauche**.
->     - l'étiquette d'un nœud est **strictement inférieure** à celle du **chaque** nœud de son **sous-arbre droit**.
+> Après chaque nœud, le nombre de nœuds restant à explorer est divisé par 2. On retrouve là le principe de recherche dichotomique, vu en classe de Première (voir ici).
 > 
-> À noter que l'arbre 3 (qui est bien un ABR) est appelé **arbre filiforme**. 
+> S'il faut parcourir tous les étages de l'arbre avant de trouver (ou pas) la clé recherchée, le nombre de nœuds parcourus est donc égal à la hauteur $h$ de l'arbre.
 > 
-> L'arbre 5 n'est pas un ABR à cause de la feuille 9, qui fait partie du sous-arbre gauche de 3 sans lui être inférieure.
+> Pour un arbre complet, cette hauteur vérifie la relation $2^h -1= n$. et donc $2^h = n+1$.
 > 
-> **Remarque :** on pourrait aussi définir un ABR comme un arbre dont le parcours infixe est une suite croissante.
-> [Structures de données > Arbres > Introduction]
-> Exercice 2 du sujet Nouvelle-Calédonie J2 2022  
+> $h$ est donc le «nombre de puissance de 2» que l'on peut mettre dans $n+1$. Cette notion s'appelle le logarithme de base 2 et se note $\log_2$.
 > 
->     *2020, sujet 0*
+> Par exemple, $\log_2(64)=6$ car $2^6=64$.
 > 
->     **Question  1**
-> 
->     Déterminer la taille et la hauteur de l’arbre binaire suivant :
->     
-> 
->     
-> 
->     **Question 2**  
-> 
->     On décide de numéroter en binaire les nœuds d’un arbre binaire de la façon suivante :  
-> 
->     - la racine correspond à 1 ;
->     - la numérotation pour un fils gauche s’obtient en ajoutant le chiffre 0 à droite au numéro de son
->     père ;
->     - la numérotation pour un fils droit s’obtient en ajoutant le chiffre 1 à droite au numéro de son
->     père ;  
-> 
->     Par exemple, dans l’arbre ci-dessous, on a utilisé ce procédé pour numéroter les nœuds A, B, C, E et
->     F .
-> 
->     
-> 
->     **a**. Dans l’exemple précédent, quel est le numéro en binaire associé au nœud G ?
->     
->     **b**. Quel est le nœud dont le numéro en binaire vaut 13 en décimal ?
->     
->     **c**. En notant $h$ la hauteur de l’arbre, sur combie
+> Le nombre maximal de nœuds à parcourir pour rechercher une clé dans un ABR équilibré de taille $n$ est donc de l'ordre de $\log_2(n
+> [Structures de données > ABR > ABR]
+> Terminale - Spécialité NSI IFS Singapour
+> Chapitre 13 - Les arbres binaires de recherche
+> Objectifs :
+> ▷ Connaître le principe d'un arbre binaire de recherche
+> ▷ Rechercher une clé dans un arbre de recherche, insérer une clé.
+> 1 Introduction
+> Les arbres binaires de recherche(notés souventABR) sont des structures de données fondamentales en
+> informatique et en algorithmique. Ils sont largement utilisés dans de nombreuses applications informatiques
+> pour leur efficacité dans la recherche, l'insertion et la suppression de données.
+> On les utilise par exemple pour :
+> ▷ l'implémentation des bases de données indexées
+> ▷ les systèmes de gestion de fichiers
+> ▷ les algorithmes de recherche et de tri
+> ▷ les structures de recherche dans les compilateurs et analyseurs syntaxiques
+> 2 Principe de l'ABR
+> Un arbre binaire de recherche (ABR)est une structure de donnée composée de noeuds (on parlera aussi
+> de clés).
+> A re
 
 Questions à rédiger (points = 1 par défaut) :
 
-- slot 1 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C14 : Analyser un code fourni — Un extrait de code (def numéroté) est donné, à compléter ou à exécuter mentalement ; on évalue la lecture de code et la compréhension de ce qu'il fait.
-    gabarit : On considère le code suivant : [code]. [Compléter la ligne n / Donner ce qu'affiche l'appel [appel]].
-    exemple réel (autre notion) : « b. Dessiner sur la copie un arbre binaire de hauteur 4. La hauteur d'un arbre est calculée par l'algorithme récursif suivant : 1 Algorithme hauteur(A): 2 test d'assertion : A est supposé non vide 3 si sous_arbre_gauche(A) vide et sous_arbre »
-    exemple réel (autre notion) : « 1. def dic_parent(mot_depart, mot_final): »
-    support S2 : Code source fourni — Le support contient du code avec identifiants et affectations (scripts, fonctions à trous, classes) ; l'élève doit lire, compléter ou exécuter mentalement ce code.
-    exemple de support (autre notion) : « 4. Avant d'insérer une nouvelle tâche dans l'arbre binaire de recherche, il faut s'assurer que son indice de priorité n'est pas déjà présent. Écrire une méthode est_present de la classe ABR qui répond à la description :  41 42 43 44 def est_present(self, indic »
+- slot 1 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C19 : Écrire une fonction avec paramètres spécifiés — L'élève écrit une fonction dont les paramètres et la valeur renvoyée sont décrits. On évalue le respect de la spécification et l'algorithme.
+    gabarit : Écrire une fonction [nom] qui prend en paramètres [p1] et [p2] et qui renvoie [résultat].
+    exemple réel (autre notion) : « 11. Coder la chaîne de caractères txt à l'aide du code de Huffman et de l'arbre construit à la question 6. »
+    exemple réel (autre notion) : « 7. Écrire une fonction tri_sommets qui prend en paramètre un graphe graphe et qui ne renvoie que la liste des sommets du graphe graphe triés par degré décroissant. On pourra utiliser les fonctions définies dans les questions précédentes.  E »
+    support S3 : Code Python à lignes numérotées — Programme Python fourni avec numéros de ligne, souvent incomplet. L'élève le lit, le complète ou en cite une ligne.
+    exemple de support (autre notion) : « 9. Dans la méthode defiler expliquer la ligne de code suivante :  assert not self.est_vide() »
 
-- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : fin d'exercice (question qui conclut)
-    manière de demander C2 : Écrire une fonction selon sa signature — L'élève implémente une fonction dont le nom, les paramètres et la valeur de retour sont spécifiés ; on évalue le respect de la spécification et la gestion des cas (vide, absence, modification en place).
-    gabarit : Écrire une fonction [nom]([paramètres]) qui prend en paramètre [description des entrées] et qui renvoie [résultat attendu].
-    exemple réel (autre notion) : « 4. Écrire une fonction supprime_toutes_occurences(pile, element) qui prend en arguments un objet Pile appelé pile et un élément element et supprime tous les éléments element de pile. »
-    exemple réel (autre notion) : « 4. Écrire une fonction verifier_contenu qui prend en paramètres une ﬁle F et trois entiers : nb_rouge, nb_vert et nb_jaune. »
-    support S1 : Spécification en prose énumérée — Texte décrivant paramètres et comportement par énumérations séparées par des virgules ; l'élève s'appuie sur une spécification rédigée pour coder ou raisonner.
-    exemple de support (autre notion) : « 7. Expliquer en quoi les informations m0, m0_s et cle1_a connues de Bob permettent de garantir à la fois que le message provient bien d'Alice et que Mallory n'a pas pu envoyer le message m3 à Bob en se faisant passer pour Alice. »
+- slot 2 | combinaison_inedite | manière de demander jamais utilisée pour cette notion | position visée : milieu d'exercice
+    manière de demander C17 : Question directe « quelle est » — L'élève indique une valeur, une propriété ou un élément d'une structure. Réponse courte ; le groupe reste un peu hétérogène.
+    gabarit : Quelle est la [valeur|propriété] de [objet] ?
+    exemple réel (autre notion) : « 14. À partir de l'exemple précédent, déterminer la valeur de graphe['Paris']['Nantes'][1]. EN_OOTgzNT7QzNjAc0ND4UzMsTYxMj8A2NTAAwMDbAxNEjkx La fonction ratio_duree_distance ci-dessous prend en paramètre le dictionnaire graphe. Elle permet d »
+    exemple réel (autre notion) : « a. Quelle est la taille minimale, notée ݐ_݊݅݉d'un arbre binaire de recherche " bien construit " de hauteur ℎ ? »
+    support S0 : Code indenté et tableaux mêlés — Matériau contenant du code indenté ou des tableaux à identifiants (conversions, codes de lettres, grilles). L'élève lit le code ou la table pour répondre.
+    exemple de support (autre notion) : « 7. Déterminer le nombre de comparaisons effectuées si on applique l'algorithme précédent à la chaine de caractères 'tab[2*(i + 4)] - tab[3]'. En déduire le nombre maximum de comparaisons effectuées si on applique l'algorithme précédent à une chaine de caractèr »
 
-- slot 3 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
-    manière de demander C9 : Prédire le résultat d'un appel — À partir d'un appel ou d'une instruction avec arguments explicites, l'élève donne la valeur renvoyée ou l'état obtenu ; on évalue la trace d'exécution précise, cas limites compris.
-    gabarit : Donner la valeur renvoyée par [appel([arguments])] / l'état de [structure] après [instruction].
-    exemple réel (autre notion) : « 9. Écrire l'instruction permettant d'obtenir la valeur ‘F03071997DUPON01'. »
-    détail du cours à évaluer (ABR) : « On les utilise par exemple pour : ▷ l'implémentation des bases de données indexées ▷ les systèmes de gestion de fichiers ▷ les algorithmes de recherche et de tri ▷ les structures de recherche dans les compilateurs et analyseurs syntaxiques 2 Principe de l'ABR Un arbre binaire de recherche (ABR)est une structure de donnée composée de noeuds (on parlera aussi de clés). »
+- slot 3 | combinaison_inedite | combinaison inédite d'éléments connus | position visée : fin d'exercice (question qui conclut)
+    manière de demander C18 : Tracer une boucle Python donnée — L'élève suit l'exécution d'un code avec boucles for/range pour en déduire une valeur ou un affichage. On évalue la trace d'exécution.
+    gabarit : Déterminer la valeur de [variable] à l'issue des instructions suivantes : [code].
+    exemple réel (autre notion) : « d. Représenter la pile p et la file f après l'exécution du code suivant. for i in range(2):  empiler(p, defiler(f)) »
+    exemple réel (autre notion) : « 1. Expliquer ce que fait la fonction ci-dessous. def distance(IdCpt1, IdCpt2, listeFilms):  assert (type(listeFilms) is list) and (len(listeFilms) != 0)  somme_ecarts = 0  for film in listeFilms:  somme_ecarts += abs(nbEtoiles(film, IdCpt1) »
+    support S14 : Prose avec parenthèses — Phrases contenant des parenthèses (couples, types, précisions). Artefact de ponctuation sans matériau commun.
+    exemple de support (autre notion) : « 1. Expliquer le résultat obtenu lors de l'utilisation de la commande ping (on part du principe que la connexion physique entre les machines est fonctionnelle). »
+
+- slot 4 | savoir_jamais_evalue | détail du cours évaluable jamais interrogé aux annales | position visée : milieu d'exercice
+    manière de demander C0 : Consignes génériques sans tournure dominante — Groupe fourre-tout : indiquer, dessiner, donner une requête… Aucun geste commun, les termes dominants sont des mots-outils.
+    gabarit : [Verbe] [objet] en tenant compte de [contexte].
+    exemple réel (autre notion) : « 8. Calculer le coût de chacune de ces liaisons de communication. »
+    détail du cours à évaluer (Arbres) : « Remarque : on pourrait aussi définir un ABR comme un arbre dont le parcours infixe est une suite croissante. »
 
 Le champ id vaut « I-abr ».
