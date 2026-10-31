@@ -1,0 +1,824 @@
+[
+ {
+  "id": "E1.3",
+  "type": "exercices",
+  "section": 2,
+  "section_titre": "1.3 Les échanges économiques",
+  "frequence_passee": 0.06,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez le lien entre offre, demande et prix des biens et services.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM).",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "1.3 Les échanges économiques",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "Les coûts d’opportunité des différents produits conduisent naturellement les producteurs à se spécialiser. Cette spécialisation entraîne un échange de biens et services, inter-individuel ou international, qui se réalise dans le cadre d’un marché (lieu physique ou virtuel).\nIl en découle des interrelations multiples de flux réels et de flux monétaires, qui peuvent correspondre à un circuit économique élémentaire. La monnaie (sous de nombreuses formes) constitue un instrument essentiel de l’activité économique.\nElle sert à la fois d’intermédiaire des échanges, de réserve de valeur et d’unité de compte.\nNotions : La spécialisation des producteurs et des pays, les échanges. Les différentes fonctions de la monnaie. Circuit économique élémentaire.\nCapacité attendue : l'élève est capable de distinguer la nature des biens et services.\nCapacité attendue : l'élève est capable de définir les différentes fonctions de la monnaie.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM.",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales.",
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM. (Chaînes de valeur mondiale)",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C2.1",
+  "type": "cas",
+  "section": 3,
+  "section_titre": "2.1 La combinaison des facteurs de production",
+  "partenaire": 23,
+  "partenaire_titre": "9.1 Les sources d’une croissance économique soutenable",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.09,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez en quoi l’actuelle combinaison des facteurs de production en France contribue à l’attractivité du pays.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez en quoi l’actuelle combinaison des facteurs de production en France contribue à l’attractivité du pays.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez en quoi l’actuelle combinaison des facteurs de production en France contribue à l’attractivité du pays.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez en quoi l’actuelle combinaison des facteurs de production en France contribue à l’attractivité du pays.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "2.1 La combinaison des facteurs de production",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La production d’un bien ou d’un service nécessite le recours à plusieurs facteurs de production. Cette combinaison de facteurs est contrainte par la quantité de facteurs disponibles dans chaque économie et par leurs coûts.\nCette combinaison évolue et est optimisée par la diffusion des technologies, des nouvelles organisations du travail ainsi que par l’amélioration du capital humain et de l’accès à l’information. Les facteurs peuvent contribuer plus ou moins intensément à la production.\nL’efficacité de leur contribution est mesurée par la notion de productivité. Les gains de productivité sont étroitement liés à l’investissement en capital humain et au progrès technique, ainsi qu’à une meilleure organisation des facteurs de production disponibles.\nNotions : Les facteurs de production primaires et secondaires : le travail, le capital, les ressources naturelles, l’information. Le capital humain. La substitution ou la complémentarité de facteurs de production les uns par rapport aux autres au sein de la fonction de production. Le rôle de l’investissement dans l’accumulation des facteurs. La productivité globale des facteurs, et gains de productivité.\nCapacité attendue : l'élève est capable d’identifier les différents facteurs de production (input) qui vont engendrer une production (output).\nCapacité attendue : l'élève est capable de définir les notions de productivité et de gain de productivité.\nCapacité attendue : l'élève est capable l’évolution.\nCapacité attendue : l'élève est capable d’analyser des gains de productivité.\nCapacité attendue : l'élève est capable qu’un individu ou groupe d’individus.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "9.1 Les sources d’une croissance économique soutenable",
+   "theme": "Thème 9 : Comment concilier la croissance économique et le",
+   "texte": "Le processus de croissance économique et les sources de la croissance correspondent à l’accumulation des facteurs et à l’accroissement de la productivité globale des facteurs. Le progrès technique et l’accroissement de la productivité globale des facteurs sont étroitement liés dans la croissance économique.\nCe progrès technique provient en particulier de l’innovation qui est créée de façon endogène dans l’économie. Les institutions (notamment les droits de propriété) et le système financier influent également sur la croissance en affectant l’incitation à investir et à innover.\nLa croissance économique se heurte à des limites écologiques (notamment l’épuisement des ressources et la pollution). Le développement durable prend en compte non seulement les défis écologiques mais également les défis économiques et sociaux.\nL’économie circulaire peut répondre à certains enjeux de la transition écologique en valorisant et en recyclant les produits usagés et les déchets. Il en est de même de l’économie collaborative qui permet une mutualisation des ressources.\nCes dernières années, un nouveau secteur s’est développé autour de l’économie sociale et solidaire (ESS). En France, les organisations relevant de l’ESS sont les associations, les coopératives, les mutuelles, les fondations ainsi que les entreprises sociales.\nNotions : La croissance. Les ressources renouvelables et les ressources non renouvelables. Le développement durable. Le progrès technique L’innovation Les droits de propriété L’économie circulaire. L’économie collaborative L’économie sociale et solidaire (ESS).\nCapacité attendue : l'élève est capable de définir croissance économique et développement durable.\nCapacité attendue : l'élève est capable de désigner les ressources renouvelables et non renouvelables.\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable les divers instruments de la transition écologique.\nCapacité attendue : l'élève est capable d’identifier.\nCapacité attendue : l'élève est capable décrire les caractéristiques de l’économie collaborative et de l’économie de circulaire.\nCapacité attendue : l'élève est capable d’identifier les différents acteurs de l’économie sociale et solidaire (ESS).\nCapacité attendue : l'élève est capable d’expliquer la nécessité de la coopération internationale pour préserver les biens publics mondiaux.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 4 - L’investissement dans le capital humain.",
+    "texte": "Selon la définition de l'OCDE (Organisation de Coopération et de Développement\nÉconomique), le capital humain recouvre « l'ensemble des connaissances,\nqualifications, compétences et caractéristiques individuelles qui facilitent la création du\nbien-être personnel, social et économique. […] Le capital humain constitue un bien\nimmatériel qui peut faire progresser ou soutenir la productivité, l'innovation et\nl'employabilité. »\nL'investissement en capital humain est aujourd'hui l'un des grands thèmes de la\npolitique publique dans les pays développés. Il semble pouvoir apporter des solutions\nà plusieurs problèmes auxquels les décideurs politiques ont été confrontés au cours\ndes dernières décennies, à savoir le ralentissement de la croissance économique dans\nla plupart des pays occidentaux depuis 1973, la montée du chômage […].\nL'accumulation de capital humain permettrait en effet des gains de productivité\nfavorables à la croissance et à l'emploi. […] La transition de l'école au milieu de travail\net la formation des adultes représentent en effet un autre enjeu important. Le capital\nhumain peut se déprécier si les compétences acquises ne sont pas maintenues en\nbon état par un usage régulier. De ce point de vue, le chômage de longue durée et le\nchômage des jeunes peuvent conduire à une dégradation des connaissances et des\ncompétences.\nSource : Du bien-être des nations, le rôle du capital humain et social, OCDE, 2001."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "Annexe 4 – Les effets du progrès technique.",
+    "texte": "Les effets du progrès technique sur le volume total de travail dans une économie peuvent être positifs ou négatifs. La résultante finale des innovations sur la quantité totale\nde travail utilisée dépend de la combinaison de trois mécanismes.\nLe premier effet direct sur l’emploi est fonction du degré de substituabilité ou de complémentarité entre les nouvelles techniques et le facteur travail. Dans le premier cas,\n“la machine remplace l’homme” (c’est même l’effet recherché pour la plupart des innovations technologiques). Le progrès technique peut aussi être introduit en complément\ndu travail humain, sans en diminuer la quantité mais en augmentant son efficacité.\nEnsuite, il faut prendre en compte la réaction de la demande par rapport à la variation\ndu prix pour un bien nouveau ou produit avec une technique nouvelle. Si l’innovation\npermet une baisse des prix, la demande de ce bien va être stimulée et sa production\naussi. Par conséquent, l’effet sur l’emploi peut être positif si l’économie de travail est\nplus que compensée par l’embauche de salariés pour produire en plus grandes quantités.\nEnfin, le troisième élément qui intervient dans l’impact des innovations sur les rémunérations et l’embauche est la qualification de l’offre de travail. Si l’offre de travail est\nabondante et qualifiée pour réaliser les nouvelles tâches induites par le progrès technique, […] alors il y aura pression à la baisse des salaires. Dans le cas contraire (peu\nde travailleurs compétents), le chômage augmentera.\nToute évolution technique majeure conduit à des changements dans les modes de\nproduction de l’économie en permettant d’économiser du travail : c’est ce qu’on appelle le “progrès technique biaisé” pour décrire le fait que la demande de main-d’œuvre\nqualifiée augmente fortement, au détriment des personnes non qualifiées. Plus précisément, dans les pays industrialisés, les travaux routiniers (qui exécutent des tâches\nrépétitives de production de masse) – manuels ou non – sont en recul alors que les\nemplois aux deux extrémités – ceux créatifs, très qualifiés, et ceux peu qualifiés et non\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx\nroutiniers, comme les emplois de service ou du […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+    "texte": "Que cela soit à l’exportation ou à l’importation, la facilitation des échanges bénéficie à\ntous les pays en simplifiant l’accès des entreprises aux intrants (élément entrant dans\nla production d'un bien) dont elles ont besoin à l’étranger et en leur permettant de\nparticiper davantage aux chaînes de valeur mondiales (CVM). Les pays où les facteurs\nde production s’importent et s’exportent ainsi de manière rapide et efficace sont des\nlieux plus attractifs aux yeux des entreprises étrangères cherchant à investir, et offrent\négalement aux consommateurs des prix plus bas, des produits de meilleure qualité et\nun plus vaste choix.\nLa facilitation des échanges aide aussi grand nombre d’entreprises – souvent de taille\nplus modeste – à participer au commerce international. Il est donc primordial de\ns’attaquer aux coûts superflus des procédures commerciales pour que les entreprises\npuissent exploiter pleinement les nouveaux marchés qui s’ouvrent. Cela est\nparticulièrement le cas pour les microentreprises et les PME, pour lesquelles les coûts\ndu commerce international pèsent énormément.\nPar ailleurs, la facilitation des échanges est d’une importance critique pour les denrées\nagricoles périssables et pour les composants de fabrication de haute technologie, les\nuns et les autres étant très sensibles aux retards. En effet, la facilitation des échanges,\nà l’ère du numérique, est une problématique de plus en plus importante. Le nombre\ncroissant de colis franchissant les frontières internationales accroît de fait la demande\nde facilitation des échanges et présente de nouveaux défis.\nSource : OCDE, Documents de travail de l'OCDE sur la politique commerciale, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 5 - Désindustrialisation accélérée : le rôle des politiques macroéconomiques",
+    "texte": "La crise du Covid-19 a mis en lumière la dépendance de la France aux importations\net à la production industrielle étrangère, notamment pour les médicaments, les tests,\nles masques ou les respirateurs. […] Ce que révèle plutôt au grand jour cette crise,\nc’est la désindustrialisation accélérée que connaît la France depuis vingt ans et ses\ndéséquilibres commerciaux persistants. Les politiques de relance, bien que\nsouhaitables, ne sont pas sans conséquence sur le solde commercial et la\ncompétitivité industrielle.\nLa désindustrialisation concerne tous les pays avancés : elle résulte en grande partie\ndu progrès technique, des gains de productivité dans le secteur industriel, et d’une\ntransition nécessaire vers une économie de services. Ces évolutions vers moins\nd’emplois dans l’industrie et davantage dans les services sont en partie inéluctables.\nEn revanche, le rythme auquel cette désindustrialisation se produit est très différent\nd’un pays à l’autre. Ainsi, la France a connu une désindustrialisation particulièrement\naccélérée, avec une part de l’industrie dans la valeur ajoutée passée de 17,5 % en\n1995 à 11 % en 2019, tandis qu’elle restait constante à 23 % en Allemagne. […]\nEn pratique, la relation entre déficit et désindustrialisation s’observe le plus souvent à\nl’occasion de politiques de relance. Dans ce cas, les importations augmentent car une\npartie de la demande est satisfaite par l’étranger (selon un effet revenu qui concerne\nsurtout les biens car ils sont plus échangés) et ce d’autant plus que l’appareil productif\nest incapable de répondre à ce surplus de demande (du fait de la désindustrialisation).\nSource : F. Geerolf et T. Grjebine, dans « Économie mondiale 2021 », CEPII"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-asie",
+    "titre": "Annexe 1 - Fiscalité écologique : quelle efficacité ?",
+    "texte": "La fiscalité environnementale a fait preuve de son efficacité, en permettant de réduire la\nconsommation de certaines énergies fossiles en France et en Europe. Le ministère de la\ntransition écologique et solidaire estime qu’une hausse de 10 % du coût des énergies\nfossiles permet de réduire de 6 % leur consommation à long terme. Cependant, la dimension\nincitative est fortement amoindrie en France par les nombreux régimes dérogatoires et la\nfaiblesse de la plupart des taux de taxation.\n[…] Les taxes environnementales portent essentiellement sur l'énergie. Ces taxes sont\nsoumises aux fortes fluctuations conjoncturelles des cours énergétiques, ce qui peut\namoindrir leur efficacité. Selon un rapport du Commissariat général au développement\ndurable, l'introduction d'une composante carbone dans la fiscalité énergétique en 2014 \"n'a\npas permis d'augmenter le prix des énergies carbonées, en raison de la baisse concomitante\net très significative du coût de l'énergie\". […]\nLes taxes à visée explicitement écologique, permettant de lutter contre les pollutions de l’air,\nde l’eau, ou visant à limiter la production de déchets, ont des taux très peu élevés en France.\nOr, une taxe trop faible n'a pas un effet suffisamment dissuasif pour orienter les\ncontribuables vers des pratiques plus respectueuses de l’environnement. […] À l'inverse,\nune taxe trop élevée peut conduire à des risques économiques importants pour la\ncompétitivité des entreprises et le pouvoir d'achat des Français, en particulier les plus\nmodestes.\n[…] D'après un rapport de la Cour des comptes de 2013, la taxation continue à préserver\ndes intérêts sectoriels qui ne vont pas dans le sens de la transition écologique. Par exemple,\nle charbon reste la ressource la moins taxée, alors qu’il s’agit du combustible le plus émetteur\nde CO2. De même, le kérosène n’est pas taxé pour les vols intérieurs alors que l'avion est\nle mode de transport le plus polluant par passager ou par tonne transportée.\nSource : Fiscalité écologique : quelle efficacité ? vie-publique.fr, 2 février 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 6 - Des conditions pour une relance économique efficace",
+    "texte": "Le niveau des dépenses publiques est élevé et certaines dépenses manquent\nd’efficacité. […] Il est nécessaire de réduire progressivement et sensiblement les\ndépenses publiques par une stratégie d’assainissement budgétaire à moyen terme\nfondée sur des examens de dépenses et une meilleure affectation des dépenses. […]\nRenforcer l’emploi et la productivité est une priorité. Des réformes bienvenues ont\nréduit le coût du travail et revalorisé la prime d’activité accordée aux travailleurs\nfaiblement rémunérés, tout en améliorant le financement et le ciblage de l’éducation\net de la formation professionnelle. Néanmoins, les travailleurs ayant des compétences\ninadaptées sont trop nombreux, et leur taux d’emploi reste faible. Les mesures\nproposées dans la présente étude pour rehausser encore l’emploi et la productivité\npourraient permettre une augmentation du PIB par habitant de 1.2 % à un horizon de\n10 ans. […]\nLa diffusion des technologies numériques reste inégale, ce qui entrave les gains de\nproductivité. De nombreuses petites entreprises sont à la traîne en ce qui concerne\nl’adoption de ces nouvelles technologies numériques et auront besoin d’un soutien\nsupplémentaire pour former leurs effectifs. […]\nLes investissements dans la transition écologique doivent être pérennisés pour réduire\nles gaz à effet de serre et la pollution. Le rythme de la transition vers une économie\nplus verte doit accélérer. […] La transition écologique est un des principaux piliers du\nplan de relance. Celui-ci consacre 30 milliards d’euros (1.2 % du PIB de 2019) à des\ninvestissements verts. Cependant, cette transition ne pourra s’effectuer avec succès\nque si les dispositifs mis en place sont efficaces. […]\nSource : Études Économiques de l’OCDE, France,18 novembre 2021"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 - Part des entreprises (en %) qui déclarent utiliser l’IA (intelligence […]",
+     "Annexe 2 - Intelligence artificielle : le progrès technique est-il bénéfique à l’emploi et",
+     "Annexe 3 - Adaptation des entreprises face aux nouveaux besoins créés par l’IA.",
+     "Annexe 4 - Les effets du progrès technique.",
+     "Annexe 1 - Part des entreprises (en %) qui déclarent utiliser l’IA (intelligence",
+     "Annexe 2 – Intelligence artificielle : le progrès technique est-il bénéfique à",
+     "Annexe 3 – Adaptation des entreprises face aux nouveaux besoins créés par",
+     "Annexe 4 – Les effets du progrès technique."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution de la part des entreprises utilisant l’IA (intelligence artificielle).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les effets de l’IA sur les travailleurs selon leur niveau de qualification.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : Le progrès technique favorise-t-il le travail en France ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté.",
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez les notions de déficit public et de dette publique.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\nDémontrer sa capacité à distinguer les notions de déficit public et de dette publique. Il\nest attendu que le candidat mobilise ses connaissances sur ces deux notions. Aucune\nannexe n’est directement utilisable pour répondre à cette question néanmoins le\ncandidat pourra éventuellement déduire les définitions de l’ensemble du corpus\ndocumentaire\nLa dette publique correspond à l'ensemble des engagements financiers pris sous\nforme d'emprunts par l'État, les collectivités publiques et les organismes qui en\ndépendent directement. Alors que le déficit public est la situation dans laquelle les\nrecettes de l’ensemble de l’administration publique sont inférieures à ses dépenses au\ncours d’une année.\nLe déficit public alimente donc la dette publique."
+     },
+     {
+      "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020.",
+      "points": 1.0,
+      "corrige": "(1 point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…)\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe1). Il est attendu du candidat un commentaire de l’évolution de la dette\npublique sur la période. Pour compléter son commentaire, le candidat pourra utiliser\nses connaissances.\n\n\nEntre 2010 et 2020, la dette publique n’a cessé d’augmenter, passant d’environ\n1 700 à 2 650 milliards en ce qui concerne l’administration publique dans son\nensemble.\nPour l’État, nous pouvons constater que, sur cette même période, sa dette est\npassée de 1 300 à 2 100 milliards.\n\nIl est aussi possible de constater que les deux courbes suivent la même tendance.\nL’État comme l’administration publique en général s’endettent fortement ces […]"
+     },
+     {
+      "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques.",
+      "points": 1.5,
+      "corrige": "publiques. (1,5 point)\nCette question vise à évaluer si le candidat est capable de montrer qu’à travers sa\npolitique sociale et les dépenses publiques, l’État protège les individus contre les\nrisques sociaux en les limitant.\nAnnexe 2\nPlus de la moitié (572€ pour 1 000€ en 2019) des dépenses publiques sont destinées\nau financement de la protection sociale.\nCette protection sociale permet de financer des risques sociaux tels que :\n\n\n\n- La vieillesse avec 262 € (retraites),\n- La santé avec 195 €,\n- Le reste étant réparti entre le logement, la solidarité, le chômage et la famille.\nDonc les dépenses publiques financent bien le système de protection sociale par\nconséquent la prise en compte des risques sociaux et contribuent fortement à la dette"
+     },
+     {
+      "enonce": "Identifiez les mesures récentes engagées par l’État pour lutter contre les risques auxquels sont confrontés les ménages.",
+      "points": 1.5,
+      "corrige": "risques auxquels sont confrontés les ménages. (1,5 point)\nCette question vise à évaluer si le candidat est capable de mobiliser les annexes,\nainsi que ses connaissances afin de répondre à la question. (Annexes 3, 4, 5 et 6)\nOn attend que l’élève soit capable d’expliquer le lien entre mesures engagées et lutte\ncontre les risques sociaux.\nAccepter toute proposition pertinente des élèves concernant les mesures\nDans une logique d’assistance, ces mesures permettent de lutter contre le mal emploi,\nla pauvreté, la précarité… et donc de réduire les inégalités socioéconomiques\nPar exemple, l’allocation parent isolé de 115,74€ permet à un parent qui ne bénéficie\npas d’un 2ème revenu comme un couple de subvenir au mieux aux besoins de son\nenfant et donc de limiter les inégalités.\nConcernant le plan de soutien de 6,5 milliards d’€ (Aide pour l’emploi des jeunes avec\nune aide exceptionnelle de 5000 […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E2.1",
+  "type": "exercices",
+  "section": 3,
+  "section_titre": "2.1 La combinaison des facteurs de production",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez en quoi l’actuelle combinaison des facteurs de production en France contribue à l’attractivité du pays.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’investissement en capital humain est-il la solution au déséquilibre sur le marché du travail ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "2.1 La combinaison des facteurs de production",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La production d’un bien ou d’un service nécessite le recours à plusieurs facteurs de production. Cette combinaison de facteurs est contrainte par la quantité de facteurs disponibles dans chaque économie et par leurs coûts.\nCette combinaison évolue et est optimisée par la diffusion des technologies, des nouvelles organisations du travail ainsi que par l’amélioration du capital humain et de l’accès à l’information. Les facteurs peuvent contribuer plus ou moins intensément à la production.\nL’efficacité de leur contribution est mesurée par la notion de productivité. Les gains de productivité sont étroitement liés à l’investissement en capital humain et au progrès technique, ainsi qu’à une meilleure organisation des facteurs de production disponibles.\nNotions : Les facteurs de production primaires et secondaires : le travail, le capital, les ressources naturelles, l’information. Le capital humain. La substitution ou la complémentarité de facteurs de production les uns par rapport aux autres au sein de la fonction de production. Le rôle de l’investissement dans l’accumulation des facteurs. La productivité globale des facteurs, et gains de productivité.\nCapacité attendue : l'élève est capable d’identifier les différents facteurs de production (input) qui vont engendrer une production (output).\nCapacité attendue : l'élève est capable de définir les notions de productivité et de gain de productivité.\nCapacité attendue : l'élève est capable l’évolution.\nCapacité attendue : l'élève est capable d’analyser des gains de productivité.\nCapacité attendue : l'élève est capable qu’un individu ou groupe d’individus.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 4 - L’investissement dans le capital humain.",
+    "texte": "Selon la définition de l'OCDE (Organisation de Coopération et de Développement\nÉconomique), le capital humain recouvre « l'ensemble des connaissances,\nqualifications, compétences et caractéristiques individuelles qui facilitent la création du\nbien-être personnel, social et économique. […] Le capital humain constitue un bien\nimmatériel qui peut faire progresser ou soutenir la productivité, l'innovation et\nl'employabilité. »\nL'investissement en capital humain est aujourd'hui l'un des grands thèmes de la\npolitique publique dans les pays développés. Il semble pouvoir apporter des solutions\nà plusieurs problèmes auxquels les décideurs politiques ont été confrontés au cours\ndes dernières décennies, à savoir le ralentissement de la croissance économique dans\nla plupart des pays occidentaux depuis 1973, la montée du chômage […].\nL'accumulation de capital humain permettrait en effet des gains de productivité\nfavorables à la croissance et à l'emploi. […] La transition de l'école au milieu de travail\net la formation des adultes représentent en effet un autre enjeu important. Le capital\nhumain peut se déprécier si les compétences acquises ne sont pas maintenues en\nbon état par un usage régulier. De ce point de vue, le chômage de longue durée et le\nchômage des jeunes peuvent conduire à une dégradation des connaissances et des\ncompétences.\nSource : Du bien-être des nations, le rôle du capital humain et social, OCDE, 2001."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "Annexe 4 – Les effets du progrès technique.",
+    "texte": "Les effets du progrès technique sur le volume total de travail dans une économie peuvent être positifs ou négatifs. La résultante finale des innovations sur la quantité totale\nde travail utilisée dépend de la combinaison de trois mécanismes.\nLe premier effet direct sur l’emploi est fonction du degré de substituabilité ou de complémentarité entre les nouvelles techniques et le facteur travail. Dans le premier cas,\n“la machine remplace l’homme” (c’est même l’effet recherché pour la plupart des innovations technologiques). Le progrès technique peut aussi être introduit en complément\ndu travail humain, sans en diminuer la quantité mais en augmentant son efficacité.\nEnsuite, il faut prendre en compte la réaction de la demande par rapport à la variation\ndu prix pour un bien nouveau ou produit avec une technique nouvelle. Si l’innovation\npermet une baisse des prix, la demande de ce bien va être stimulée et sa production\naussi. Par conséquent, l’effet sur l’emploi peut être positif si l’économie de travail est\nplus que compensée par l’embauche de salariés pour produire en plus grandes quantités.\nEnfin, le troisième élément qui intervient dans l’impact des innovations sur les rémunérations et l’embauche est la qualification de l’offre de travail. Si l’offre de travail est\nabondante et qualifiée pour réaliser les nouvelles tâches induites par le progrès technique, […] alors il y aura pression à la baisse des salaires. Dans le cas contraire (peu\nde travailleurs compétents), le chômage augmentera.\nToute évolution technique majeure conduit à des changements dans les modes de\nproduction de l’économie en permettant d’économiser du travail : c’est ce qu’on appelle le “progrès technique biaisé” pour décrire le fait que la demande de main-d’œuvre\nqualifiée augmente fortement, au détriment des personnes non qualifiées. Plus précisément, dans les pays industrialisés, les travaux routiniers (qui exécutent des tâches\nrépétitives de production de masse) – manuels ou non – sont en recul alors que les\nemplois aux deux extrémités – ceux créatifs, très qualifiés, et ceux peu qualifiés et non\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx\nroutiniers, comme les emplois de service ou du […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 - Part des entreprises (en %) qui déclarent utiliser l’IA (intelligence […]",
+     "Annexe 2 - Intelligence artificielle : le progrès technique est-il bénéfique à l’emploi et",
+     "Annexe 3 - Adaptation des entreprises face aux nouveaux besoins créés par l’IA.",
+     "Annexe 4 - Les effets du progrès technique.",
+     "Annexe 1 - Part des entreprises (en %) qui déclarent utiliser l’IA (intelligence",
+     "Annexe 2 – Intelligence artificielle : le progrès technique est-il bénéfique à",
+     "Annexe 3 – Adaptation des entreprises face aux nouveaux besoins créés par",
+     "Annexe 4 – Les effets du progrès technique."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution de la part des entreprises utilisant l’IA (intelligence artificielle).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les effets de l’IA sur les travailleurs selon leur niveau de qualification.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : Le progrès technique favorise-t-il le travail en France ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C2.2",
+  "type": "cas",
+  "section": 4,
+  "section_titre": "2.2 La mesure de la production et ses prolongements",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.03,
+  "inedit": true,
+  "proba_annee_suivante": 0.074,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "2.2 La mesure de la production et ses prolongements",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La création de richesse est évaluée par la valeur ajoutée produite par les agents économiques. Celle-ci est égale à la différence entre le prix de vente du bien et le coût des consommations intermédiaires rentrant dans la composition de ce bien.\nL’absence de prix peut rendre difficile le calcul de la valeur ajoutée des productions non marchandes, qui sont néanmoins utiles pour la société. La richesse produite à l’échelle d’un territoire est évaluée par le Produit intérieur brut (PIB).\nLe PIB peut être calculé comme la somme des valeurs ajoutées augmentée des impôts moins les subventions sur les produits. Le PIB par habitant reste le principal critère pour mesurer la richesse d’un pays, et le taux de croissance du PIB pour mesurer le dynamisme économique d’un pays et comparer les pays entre eux.\nCet indicateur peut être prolongé par des mesures plus globales comme l’indicateur de développement humain (IDH), mesuré par les organisations internationales.\nNotions : Les agrégats économiques : la valeur ajoutée et le Produit intérieur brut (PIB). Production non marchande. Indicateurs complémentaires au PIB : Indice de développement humain (IDH), etc. La statistique nationale et la comptabilité nationale. Le calcul du PIB.\nCapacité attendue : l'élève est capable d’identifier la différence entre un input (investissement en recherche et développement par exemple), et un output (brevet ou nouveau produit innovant).\nCapacité attendue : l'élève est capable d’analyser à partir d’un graphique.",
+   "articles": []
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 3 – Contributions des principaux indicateurs économiques à la croissance",
+    "texte": "du PIB.\nIndicateurs\nConsommation\nInvestissement\nSolde du commerce extérieur\nVariation des stocks(1)\nCroissance du produit intérieur\nbrut, en %\n2019\n1,2\n0,9\n0,0\n-0,1\n2020\n-4,5\n-1,3\n-1,3\n-0,3\n2021\n4,5\n2,2\n0,7\n-0,5\n2022\n2,3\n0,0\n-0,3\n0,5\n2023\n0,6\n0,1\n0,6\n-0,4\n2,0\n-7,4\n6,9\n2,5\n0,9\n(1) Variation des stocks : elle correspond à la différence de valeur entre les entrées et les sorties de biens\n(matières premières, produits semi-finis ou finis).\nUne variation de stock positive (entrées > sorties) contribue à augmenter le PIB. À l’inverse, si la\nvariation de stock est négative (sorties > entrées) cela a pour effet de diminuer le PIB.\nLecture : en 2023, le produit intérieur brut (PIB) augmente de 0,9 % en volume. La\nconsommation des ménages et des administrations publiques contribue à hauteur de\n0,6 point à cette croissance.\nSource : INSEE, Tableau de bord de l’Économie Française, 2024\nEN_MOzIzNT7QzNjAc0ND9UzMsTYxMj8A2NTAAwMTdY5NTTgx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "titre": "Annexe 4 - Contributions à la croissance du produit intérieur brut.",
+    "texte": "Années\nConsommation\n(ménages et\nadministrations\npubliques)\nInvestissement\nSolde du\ncommerce\nextérieur\nVariation de\nstocks (1)\nProduit intérieur\nbrut (PIB) en %\n2020\n2021\n2022\n2023\n-4,5\n4,5\n2,4\n0,6\n-1,3\n2,2\n0,0\n0,1\n-1,3\n0,7\n-0,3\n0,6\n-0,3\n-0,5\n0,5\n-0,4\n-7,4\n6,9\n2,6\n0,9\n(1) Variation des stocks : elle correspond à la différence de valeur entre les entrées et les sorties de biens\n(matières premières, produits semi-finis ou finis).\nUne variation de stock positive (entrées > sorties) contribue à augmenter le PIB. À l’inverse, si la\nvariation de stock est négative (sorties > entrées) cela a pour effet de diminuer le PIB.\nLecture : en 2023, le produit intérieur brut (PIB) augmente de 0,9 % en volume. La\nconsommation des ménages et des administrations publiques contribue à hauteur de\n0,6 point à cette croissance.\nSource : Insee, comptes nationaux, base 2020.\nEN_OODgzNT7QzNjAc0ND7UzMsTYxMj9A2NTAAwMTyY5NDDYx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-polynesie",
+    "titre": "Annexe 2 – Le produit intérieur brut français et ses composantes entre 2023 et",
+    "texte": "2024.\n2024 (en milliards\nd'euros)\nCatégorie\nVariation\n2023-2024\n(en %)\nTotal des Ressources\n3919,0\nProduit intérieur brut (PIB)\n2 919,9\n+1,2\nImportations\n999,1\n-1,2\nTotal des emplois finals\n3 919,0\n+0,6\nConsommation effective des ménages, dont :\n2 051,8\n+1,1\nDépense de consommation des ménages\n1 527,5\n+1,0\nConsommation individualisable des administrations\n456,5\n+1,3\nConsommation collective des administrations publiques\n249,5\n+1,6\nInvestissements, dont :\n645,2\n-1,1\nEntreprises non financières\n344,0\n-2,2\nMénages\n138,3\n-5,4\nAdministrations publiques\n127,0\n+4,8\n-17,0\n-0,8\nVariation de stocks (contribution à la croissance)\nExportations\n989,5\n+2,5\nLecture : Le PIB augmente de 1,2 % en 2024 en volume et atteint 2 919,9 milliards d'euros.\nSource : Insee, comptes nationaux, base 2020.\nEN_MOTM0NT7QzNjAc0ND7UzMsTYxMj4A2NTAAwMThYyNBjYx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie",
+    "titre": "Annexe 6 : Covid-19 : le modèle américain génère plus de croissance mais plus",
+    "texte": "d’inégalités.\nComment protéger les revenus des ménages face à la crise économique la plus brutale\ndepuis la seconde guerre mondiale ? À cette question, les pays européens et les ÉtatsUnis ont, dans le sillage de la pandémie due au nouveau coronavirus, apporté une\nréponse de nature profondément différente. Les premiers ont instauré de généreux\ndispositifs de chômage partiel, afin de garantir un revenu aux salariés en attendant\nqu’ils puissent reprendre leur poste. Les seconds ont laissé les entreprises licencier.\nMais pour soutenir les demandeurs d’emploi, en complément des indemnisations\nchômage limitées, Washington leur a, dès le printemps, distribué des chèques de 600\ndollars par semaine.\nRésultat : le taux de chômage a été multiplié par plus de quatre outre-Atlantique,\npassant de 3,5 % à 14,7 % entre février et avril, avant de redescendre à 8 % en\nseptembre. Mais, grâce aux chèques, les revenus des Américains ont bondi de 10 %\nau deuxième trimestre. […]\nL’Europe – en particulier, les pays de l’Ouest – a choisi de tisser un filet de protection\nlimitant les effets les plus douloureux des crises (allocations chômage et diverses\nprotections sociales). Les dépenses publiques sociales s’élèvent ainsi à 31 % du PIB\nen France, selon l’Organisation de coopération et de développement économiques\n(OCDE), 28,2 % en Italie et 25,9 % en Allemagne, contre 18,7 % aux États-Unis.\nGrâce à ces amortisseurs sociaux, les récessions sont, en général, moins\ndouloureuses pour les ménages, mais l’économie rebondit moins vite.\nLes États-Unis, eux, ont opté pour la « destruction créatrice ». Les salariés sont\nnettement moins protégés et les emplois disparaissent vite pendant les crises. Mais le\nrebond de l’activité en recrée plus, et plus vite qu’en Europe. […]\nL’autre spécificité du modèle américain tient à sa plus grande capacité à générer de la\ncroissance – en 2019, le PIB progressait encore de 2,2 %, contre 1,7 % dans l’Union\neuropéenne. […]\nCet écart entre les deux continents tient, bien sûr, au système de redistribution, plus\ngénéreux en Europe de l’Ouest, notamment en France ou en Scandinavie. […]\nSource : Le Monde, 8 décembre 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : La loi psychologique fondamentale exposée par J.M. KEYNES.",
+     "Annexe 2 : L’accroissement de la propension à consommer par les politiques de",
+     "Annexe 3 : Pouvoir d’achat et consommation.",
+     "Annexe 4 : 2019, le pouvoir d’achat des français est en hausse.",
+     "Annexe 5 : Le poids de la dépense publique.",
+     "Annexe 1 : La loi psychologique fondamentale exposée par J.M. KEYNES.",
+     "Annexe 2 : L’accroissement de la propension à consommer par des politiques",
+     "Annexe 3 : Pouvoir d’achat et consommation.",
+     "Annexe 4 : 2019 : le pouvoir d’achat des Français est en hausse",
+     "Annexe 5 : Le poids de la dépense publique."
+    ],
+    "questions": [
+     {
+      "enonce": "Identifiez l’arbitrage que fait chaque ménage à partir de son revenu disponible.",
+      "points": null,
+      "corrige": "disponible.\nCette question vise à évaluer la capacité du candidat à relever les informations utiles\ndans un document, les interpréter et les relier avec ses connaissances de cours. La\nquestion fait référence à l’annexe 1.\nLes ménages réalisent des arbitrages à partir de leur revenu disponible : choix de\nconsommer et/ ou d’épargner, à des niveaux qui vont varier en fonction du niveau de\nleur revenu disponible. Pour certains ménages, ces arbitrages sont très contraints et\nne résultent pas vraiment d'un choix du fait d’un certain nombre de dépenses\nobligatoires."
+     },
+     {
+      "enonce": "Expliquez le lien entre l’augmentation du revenu d’un ménage et sa propension marginale à consommer.",
+      "points": null,
+      "corrige": "propension marginale à consommer.\nCette question vise à évaluer si le candidat est en capacité de mobiliser ses\nconnaissances pour pouvoir interpréter les informations évoquées dans les annexes\n1 et 2.\nLe choix du niveau de consommation dépend du revenu courant. La propension\nmarginale à consommer mesure la variation de la consommation lorsque le revenu\ndisponible augmente d’une unité (variation de la dépense de consommation finale\nd’un ménage / variation du revenu disponible du ménage).\nCette propension marginale à consommer diminue au fur et à mesure que le revenu\ns’élève."
+     },
+     {
+      "enonce": "Présentez les conséquences de l’augmentation du pouvoir d’achat des ménages sur la consommation et la richesse d’un pays.",
+      "points": null,
+      "corrige": "ménages sur la consommation et la richesse d’un pays.\nCette question repose sur la capacité d’analyse des mécanismes économiques qui\nse mettent en place suite à une hausse/baisse du pouvoir d'achat. Outre les\nconnaissances du candidat, les annexes 3 et 4 donnent des exemples concrets.\nLe verbe directeur « présenter » attend du candidat qu’il expose les mécanismes en\nquestion, en les nommant et en en décrivant des caractéristiques essentielles avec,\nsi possible, des exemples.\nSi les ménages, en particulier les plus modestes, perçoivent une hausse de leur\nrevenu disponible, par le moyen de baisse des impôts, de versement de primes\nd'activité, ou de chèque énergie (annexe 4), ils pourront ainsi transférer ces gains de\npouvoir d’achat, vers de la consommation.\nLa consommation des ménages permet ensuite aux entreprises d’augmenter leur\nniveau de production et donc leur richesse créée. Pour […]"
+     },
+     {
+      "enonce": "Montrez que la France fait plus appel à la dépense publique que la moyenne des pays européens.",
+      "points": null,
+      "corrige": "moyenne des pays européens.\nCette question repose sur la capacité du candidat à mettre en relation les données\nde l'annexe 5 avec ses connaissances. Le verbe directeur « montrer » attend du\ncandidat qu'il soit en mesure d'extraire les données ad hoc et de les exposer de\nfaçon à justifier l’affirmation à démontrer.\nRetraite, vieillesse, social, santé, subventions et aides à l’économie, défense sont les\ncatégories dans lesquelles la France se situe au-dessus de la moyenne européenne.\nLa France s'inscrit ainsi dans une logique de politique de la demande, qui consiste\npour un État à ne pas se contenter d'intervenir dans les seules fonctions régaliennes\nmais également d’essayer de stimuler la demande par diverses politiques, en\nparticulier au niveau des politiques sociales, ou encore au soutien de différents\nsecteurs économiques stratégiques (Exemples : +3,4% dépenses en faveur […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?",
+      "points": null,
+      "corrige": "suivante :\nLes politiques économiques de demande permettent-elles toujours de\nrelancer la croissance ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire, ainsi que les parties non encore utilisées des autres documents,\napporte également des éléments de réponse au candidat. Ces éléments ne sont\ntoutefois pas suffisants ; le candidat doit également faire appel à ses connaissances\npersonnelles pour développer son argumentaire.\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie\n\n\n\nGrille d’évaluation :\nConstruction de l’argumentation\n\nCohérence des arguments avec la question posée\n\n\nLogique globale de […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E2.2",
+  "type": "exercices",
+  "section": 4,
+  "section_titre": "2.2 La mesure de la production et ses prolongements",
+  "frequence_passee": 0.03,
+  "inedit": true,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution des composantes du PIB en France entre 2023 et 2024.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "2.2 La mesure de la production et ses prolongements",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La création de richesse est évaluée par la valeur ajoutée produite par les agents économiques. Celle-ci est égale à la différence entre le prix de vente du bien et le coût des consommations intermédiaires rentrant dans la composition de ce bien.\nL’absence de prix peut rendre difficile le calcul de la valeur ajoutée des productions non marchandes, qui sont néanmoins utiles pour la société. La richesse produite à l’échelle d’un territoire est évaluée par le Produit intérieur brut (PIB).\nLe PIB peut être calculé comme la somme des valeurs ajoutées augmentée des impôts moins les subventions sur les produits. Le PIB par habitant reste le principal critère pour mesurer la richesse d’un pays, et le taux de croissance du PIB pour mesurer le dynamisme économique d’un pays et comparer les pays entre eux.\nCet indicateur peut être prolongé par des mesures plus globales comme l’indicateur de développement humain (IDH), mesuré par les organisations internationales.\nNotions : Les agrégats économiques : la valeur ajoutée et le Produit intérieur brut (PIB). Production non marchande. Indicateurs complémentaires au PIB : Indice de développement humain (IDH), etc. La statistique nationale et la comptabilité nationale. Le calcul du PIB.\nCapacité attendue : l'élève est capable d’identifier la différence entre un input (investissement en recherche et développement par exemple), et un output (brevet ou nouveau produit innovant).\nCapacité attendue : l'élève est capable d’analyser à partir d’un graphique.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 3 – Contributions des principaux indicateurs économiques à la croissance",
+    "texte": "du PIB.\nIndicateurs\nConsommation\nInvestissement\nSolde du commerce extérieur\nVariation des stocks(1)\nCroissance du produit intérieur\nbrut, en %\n2019\n1,2\n0,9\n0,0\n-0,1\n2020\n-4,5\n-1,3\n-1,3\n-0,3\n2021\n4,5\n2,2\n0,7\n-0,5\n2022\n2,3\n0,0\n-0,3\n0,5\n2023\n0,6\n0,1\n0,6\n-0,4\n2,0\n-7,4\n6,9\n2,5\n0,9\n(1) Variation des stocks : elle correspond à la différence de valeur entre les entrées et les sorties de biens\n(matières premières, produits semi-finis ou finis).\nUne variation de stock positive (entrées > sorties) contribue à augmenter le PIB. À l’inverse, si la\nvariation de stock est négative (sorties > entrées) cela a pour effet de diminuer le PIB.\nLecture : en 2023, le produit intérieur brut (PIB) augmente de 0,9 % en volume. La\nconsommation des ménages et des administrations publiques contribue à hauteur de\n0,6 point à cette croissance.\nSource : INSEE, Tableau de bord de l’Économie Française, 2024\nEN_MOzIzNT7QzNjAc0ND9UzMsTYxMj8A2NTAAwMTdY5NTTgx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "titre": "Annexe 4 - Contributions à la croissance du produit intérieur brut.",
+    "texte": "Années\nConsommation\n(ménages et\nadministrations\npubliques)\nInvestissement\nSolde du\ncommerce\nextérieur\nVariation de\nstocks (1)\nProduit intérieur\nbrut (PIB) en %\n2020\n2021\n2022\n2023\n-4,5\n4,5\n2,4\n0,6\n-1,3\n2,2\n0,0\n0,1\n-1,3\n0,7\n-0,3\n0,6\n-0,3\n-0,5\n0,5\n-0,4\n-7,4\n6,9\n2,6\n0,9\n(1) Variation des stocks : elle correspond à la différence de valeur entre les entrées et les sorties de biens\n(matières premières, produits semi-finis ou finis).\nUne variation de stock positive (entrées > sorties) contribue à augmenter le PIB. À l’inverse, si la\nvariation de stock est négative (sorties > entrées) cela a pour effet de diminuer le PIB.\nLecture : en 2023, le produit intérieur brut (PIB) augmente de 0,9 % en volume. La\nconsommation des ménages et des administrations publiques contribue à hauteur de\n0,6 point à cette croissance.\nSource : Insee, comptes nationaux, base 2020.\nEN_OODgzNT7QzNjAc0ND7UzMsTYxMj9A2NTAAwMTyY5NDDYx"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -344,7 +344,8 @@ def run(name: str, log=print) -> dict:
     rep = {"matiere": name, "annee_prevue": fc.annee, "annees_connues": fc.years, "preuve_comme_en_vrai": bt,
            "famille_choisie": fc.final, "passages_les_plus_probables": rk,
            "preuve_sur_les_nouveautes": nov, "programme": prog}
-    out = ROOT / "output" / ("droit" if name == "droit" else f"{name}_prof")
+    from ..meta.domain import out_dir
+    out = out_dir(name)
     out.mkdir(parents=True, exist_ok=True)
     (out / "previsions.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
     joblib.dump((t, fc.prob, rk), ROOT / "data" / "cache" / f"prevision_{name}.joblib")

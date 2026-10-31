@@ -1,0 +1,838 @@
+[
+ {
+  "id": "E8.3",
+  "type": "exercices",
+  "section": 22,
+  "section_titre": "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation pour répondre à la question suivante : Le libre-échange favorise-t-il la croissance économique ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "Les éventuelles conséquences négatives du protectionnisme adopté par certains États ont poussé la communauté internationale à promouvoir une régulation mondiale des échanges de biens et de services. Celle-ci est aujourd’hui mise en œuvre par l’Organisation mondiale du commerce (OMC).\nDans le cadre de cycles de négociations réguliers (Rounds), des règles du commerce mondial sont négociées entre pays (clause de la nation la plus favorisée (NPF), principe du traitement national, principe de réciprocité). Une juridiction spécialisée, l’Organe de règlement des différends (ORD), permet de traiter les litiges éventuels.\nL’OMC cherche à étendre les règles du libre- échange à de nouveaux domaines et à lutter contre les nouvelles mesures protectionnistes.\nNotions : Les missions de l’OMC. Les cycles de négociations d’abaissement des tarifs douaniers et des barrières non tarifaires. L’organe de règlement des différends.\nCapacité attendue : l'élève est capable d’illustrer l’importance de la régionalisation des échanges commerciaux.\nCapacité attendue : l'élève est capable de décrire et.\nCapacité attendue : l'élève est capable d’interpréter entre pays.\nCapacité attendue : l'élève est capable de décrire les avantages et les limites du libre-échange et / autarcie.\nCapacité attendue : l'élève est capable de définir et les différentes mesures protectionnistes.\nCapacité attendue : l'élève est capable les missions de l’OMC.\nCapacité attendue : l'élève est capable de définir (l’organe de règlement des différends).\nCapacité attendue : l'élève est capable d’interpréter les principales règles de fonctionnement de l’OMC.\nCapacité attendue : l'élève est capable de définir et.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 5 : L’intérêt d’avoir recours au libre-échange.",
+    "texte": "En tirant parti de la libéralisation du commerce pour se connecter aux marchés, les\npays peuvent accroître la taille de leurs marchés et accéder aux [matières premières]\nnécessaires à la production. […] Pour ce qui est de l’avenir, la plus grande priorité\ndevrait être d’approfondir les règles et engagements commerciaux traditionnels.\nJusqu’à présent, la coopération internationale a entraîné une ouverture inégale en\nmatière de biens et de services. La libéralisation du commerce n’a que trop tardé\ndans l’agriculture et les services, et certains biens industriels restent limités sur\ncertains marchés ainsi que par des mesures non tarifaires. […]\nSource : Rapport sur le développement dans le monde 2020, Banque mondiale,\n08/10/2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 3 : Un retour du protectionnisme ?",
+    "texte": "Bien que le commerce mondial ait enregistré un regain en 2017, l’ombre du\nprotectionnisme plane fortement sur lui. […] Washington a en effet annoncé, le 1er\njuin 2018, l’application de taxes douanières supplémentaires sur l’acier (25 %) et\nl’aluminium (10 %) en provenance de l’Union européenne (mais aussi du Canada et\ndu Mexique). En représailles, l’Union européenne a décidé de taxer à son tour 180\nproduits importés des États-Unis en Europe […]. On peut donc redouter une\nescalade des mesures protectionnistes qui risque de plomber davantage les\néchanges multilatéraux au profit d’échanges internes à des zones d’entente\nrégionale […]. Plus généralement, les pays du Groupe des Vingt (G20), qui sont les\nprincipaux moteurs du commerce mondial, ont pris depuis le début de la crise plus de\n3 500 mesures ayant un impact négatif sur les échanges internationaux […].\nIl s’agit de mesures qui influent directement sur le volume des échanges – par\nexemple, l’instauration de quotas ou la hausse des tarifs douaniers sur certains\nproduits – ou de mesures plus indirectes comme la mise en place de subventions\nfavorisant certains exportateurs au détriment d’autres.\nSource : Jennifer Matas, Cahiers français n° 407, novembre - décembre 2018."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Croissance du volume du commerce mondial des marchandises et du PIB",
+     "Annexe 2 : La facilitation des échanges.",
+     "Annexe 3 : Les mesures non-tarifaires (MNT).",
+     "Annexe 4 : OMC, redonner du sens au libre-échange.",
+     "Annexe 5 : Trump a perdu la guerre du protectionnisme."
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019.",
+      "points": null,
+      "corrige": "marchandises et le PIB mondiaux entre 2012 et 2019.\n– Cette question vise à évaluer si le candidat est capable d’interpréter des données\néconomiques présentées sous différents supports (textes, tableaux, graphiques…).\n– Le candidat doit bien voir qu’il s’agit de variations des taux de croissance.\n– La variation de ces agrégats est donnée en volume et non en valeur pour éliminer\nl’effet de la variation des prix.\n– On attend également du candidat qu’il soit capable d’identifier la corrélation entre la\ncroissance du volume du commerce des marchandises et la croissance du PIB réel\nmondial, sans forcément identifier une relation cause-effet.\n– Pour répondre à cette question, le candidat pourra s’appuyer principalement sur\nl’annexe 1 ainsi que sur ses connaissances personnelles.\nL’évolution de la croissance du volume de commerce des marchandises et du PIB réel\nmondial permet de constater une […]"
+     },
+     {
+      "enonce": "Caractérisez les bienfaits du libre-échange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- décrire les avantages du libre-échange,\n- d’expliquer le libre-échange au travers ses avantages sans pour autant le définir.\nPour répondre à cette question, le candidat pourra s’appuyer principalement sur les annexes\n1 et 2 ainsi que sur ses connaissances personnelles.\n\nQue les pays soient en développement ou des économies émergentes, ils ont tous la\npossibilité de participer aux chaînes de valeur mondiales. Le libre-échange profite à\ntous les pays. De même, les pays participant à l’échange bénéficient de gains\nmutuels : l’accès à une variété de produits moins onéreux et de meilleure qualité."
+     },
+     {
+      "enonce": "Expliquez les mesures protectionnistes de contrôle des échanges.",
+      "points": null,
+      "corrige": "échanges.\nCette question vise à évaluer si le candidat est capable de :\n- définir et d’expliquer les différentes mesures protectionnistes\n- Pour répondre à cette question, le candidat pourra s’appuyer principalement sur l’annexe 3\nainsi que sur ses connaissances personnelles.\n\nLes mesures de politique protectionniste de contrôle des échanges sont les droits de\ndouane et les restrictions quantitatives à l’importation (barrières non tarifaires).\n Les droits de douane consistent à fixer une taxe, un impôt sur les produits\nimportés.\n Les restrictions quantitatives à l’importation consistent à limiter quantitativement\nl’importation de produits étrangers.\n Les normes qualitatives qui permettent d’instaurer la confiance sur un type\ndéfini de produits et empêchent les autres de pénétrer un marché."
+     },
+     {
+      "enonce": "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- citer et présenter des défaillances de marché.\nPour répondre à cette question, le candidat pourra repérer les défaillances de marchés citées\ndans l’annexe 3 et exposer ses connaissances personnelles.\nOn attend du candidat qu’il présente au moins deux défaillances.\n\nLes marchés comportent certaines défaillances, en l’occurrence des asymétries\nd’information ou les externalités négatives. Les défaillances du fonctionnement\n« naturel » des marchés entraînent une mauvaise allocation des ressources.\n\nL’asymétrie d’information se produit lorsque les deux parties de l’échange ne\ndisposent pas des mêmes informations que l’autre. Le problème est que\nl’information imparfaite peut pousser l’une des parties à faire un choix qu’elle\nn’aurait pas fait si elle avait eu toutes les informations. Il s’agit d’une mauvaise\nallocation des […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?",
+      "points": null,
+      "corrige": "suivante :\nUne politique protectionniste peut-elle être favorable à la croissance ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4) ont permis\nde construire des éléments de réponse pour cette question 5. Le corpus documentaire apporte\négalement des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre d’arguments\nmoins important, mais les développer de façon plus approfondie.\n\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\nArguments et concepts\n- […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C9.1",
+  "type": "cas",
+  "section": 23,
+  "section_titre": "9.1 Les sources d’une croissance économique soutenable",
+  "partenaire": 3,
+  "partenaire_titre": "2.1 La combinaison des facteurs de production",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "proba_annee_suivante": 0.111,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Analysez les variations de la croissance française.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Analysez les variations de la croissance française.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Analysez les variations de la croissance française.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Analysez les variations de la croissance française.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "9.1 Les sources d’une croissance économique soutenable",
+   "theme": "Thème 9 : Comment concilier la croissance économique et le",
+   "texte": "Le processus de croissance économique et les sources de la croissance correspondent à l’accumulation des facteurs et à l’accroissement de la productivité globale des facteurs. Le progrès technique et l’accroissement de la productivité globale des facteurs sont étroitement liés dans la croissance économique.\nCe progrès technique provient en particulier de l’innovation qui est créée de façon endogène dans l’économie. Les institutions (notamment les droits de propriété) et le système financier influent également sur la croissance en affectant l’incitation à investir et à innover.\nLa croissance économique se heurte à des limites écologiques (notamment l’épuisement des ressources et la pollution). Le développement durable prend en compte non seulement les défis écologiques mais également les défis économiques et sociaux.\nL’économie circulaire peut répondre à certains enjeux de la transition écologique en valorisant et en recyclant les produits usagés et les déchets. Il en est de même de l’économie collaborative qui permet une mutualisation des ressources.\nCes dernières années, un nouveau secteur s’est développé autour de l’économie sociale et solidaire (ESS). En France, les organisations relevant de l’ESS sont les associations, les coopératives, les mutuelles, les fondations ainsi que les entreprises sociales.\nNotions : La croissance. Les ressources renouvelables et les ressources non renouvelables. Le développement durable. Le progrès technique L’innovation Les droits de propriété L’économie circulaire. L’économie collaborative L’économie sociale et solidaire (ESS).\nCapacité attendue : l'élève est capable de définir croissance économique et développement durable.\nCapacité attendue : l'élève est capable de désigner les ressources renouvelables et non renouvelables.\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable les divers instruments de la transition écologique.\nCapacité attendue : l'élève est capable d’identifier.\nCapacité attendue : l'élève est capable décrire les caractéristiques de l’économie collaborative et de l’économie de circulaire.\nCapacité attendue : l'élève est capable d’identifier les différents acteurs de l’économie sociale et solidaire (ESS).\nCapacité attendue : l'élève est capable d’expliquer la nécessité de la coopération internationale pour préserver les biens publics mondiaux.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "2.1 La combinaison des facteurs de production",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La production d’un bien ou d’un service nécessite le recours à plusieurs facteurs de production. Cette combinaison de facteurs est contrainte par la quantité de facteurs disponibles dans chaque économie et par leurs coûts.\nCette combinaison évolue et est optimisée par la diffusion des technologies, des nouvelles organisations du travail ainsi que par l’amélioration du capital humain et de l’accès à l’information. Les facteurs peuvent contribuer plus ou moins intensément à la production.\nL’efficacité de leur contribution est mesurée par la notion de productivité. Les gains de productivité sont étroitement liés à l’investissement en capital humain et au progrès technique, ainsi qu’à une meilleure organisation des facteurs de production disponibles.\nNotions : Les facteurs de production primaires et secondaires : le travail, le capital, les ressources naturelles, l’information. Le capital humain. La substitution ou la complémentarité de facteurs de production les uns par rapport aux autres au sein de la fonction de production. Le rôle de l’investissement dans l’accumulation des facteurs. La productivité globale des facteurs, et gains de productivité.\nCapacité attendue : l'élève est capable d’identifier les différents facteurs de production (input) qui vont engendrer une production (output).\nCapacité attendue : l'élève est capable de définir les notions de productivité et de gain de productivité.\nCapacité attendue : l'élève est capable l’évolution.\nCapacité attendue : l'élève est capable d’analyser des gains de productivité.\nCapacité attendue : l'élève est capable qu’un individu ou groupe d’individus.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-asie",
+    "titre": "Annexe 1 - Fiscalité écologique : quelle efficacité ?",
+    "texte": "La fiscalité environnementale a fait preuve de son efficacité, en permettant de réduire la\nconsommation de certaines énergies fossiles en France et en Europe. Le ministère de la\ntransition écologique et solidaire estime qu’une hausse de 10 % du coût des énergies\nfossiles permet de réduire de 6 % leur consommation à long terme. Cependant, la dimension\nincitative est fortement amoindrie en France par les nombreux régimes dérogatoires et la\nfaiblesse de la plupart des taux de taxation.\n[…] Les taxes environnementales portent essentiellement sur l'énergie. Ces taxes sont\nsoumises aux fortes fluctuations conjoncturelles des cours énergétiques, ce qui peut\namoindrir leur efficacité. Selon un rapport du Commissariat général au développement\ndurable, l'introduction d'une composante carbone dans la fiscalité énergétique en 2014 \"n'a\npas permis d'augmenter le prix des énergies carbonées, en raison de la baisse concomitante\net très significative du coût de l'énergie\". […]\nLes taxes à visée explicitement écologique, permettant de lutter contre les pollutions de l’air,\nde l’eau, ou visant à limiter la production de déchets, ont des taux très peu élevés en France.\nOr, une taxe trop faible n'a pas un effet suffisamment dissuasif pour orienter les\ncontribuables vers des pratiques plus respectueuses de l’environnement. […] À l'inverse,\nune taxe trop élevée peut conduire à des risques économiques importants pour la\ncompétitivité des entreprises et le pouvoir d'achat des Français, en particulier les plus\nmodestes.\n[…] D'après un rapport de la Cour des comptes de 2013, la taxation continue à préserver\ndes intérêts sectoriels qui ne vont pas dans le sens de la transition écologique. Par exemple,\nle charbon reste la ressource la moins taxée, alors qu’il s’agit du combustible le plus émetteur\nde CO2. De même, le kérosène n’est pas taxé pour les vols intérieurs alors que l'avion est\nle mode de transport le plus polluant par passager ou par tonne transportée.\nSource : Fiscalité écologique : quelle efficacité ? vie-publique.fr, 2 février 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 6 - Des conditions pour une relance économique efficace",
+    "texte": "Le niveau des dépenses publiques est élevé et certaines dépenses manquent\nd’efficacité. […] Il est nécessaire de réduire progressivement et sensiblement les\ndépenses publiques par une stratégie d’assainissement budgétaire à moyen terme\nfondée sur des examens de dépenses et une meilleure affectation des dépenses. […]\nRenforcer l’emploi et la productivité est une priorité. Des réformes bienvenues ont\nréduit le coût du travail et revalorisé la prime d’activité accordée aux travailleurs\nfaiblement rémunérés, tout en améliorant le financement et le ciblage de l’éducation\net de la formation professionnelle. Néanmoins, les travailleurs ayant des compétences\ninadaptées sont trop nombreux, et leur taux d’emploi reste faible. Les mesures\nproposées dans la présente étude pour rehausser encore l’emploi et la productivité\npourraient permettre une augmentation du PIB par habitant de 1.2 % à un horizon de\n10 ans. […]\nLa diffusion des technologies numériques reste inégale, ce qui entrave les gains de\nproductivité. De nombreuses petites entreprises sont à la traîne en ce qui concerne\nl’adoption de ces nouvelles technologies numériques et auront besoin d’un soutien\nsupplémentaire pour former leurs effectifs. […]\nLes investissements dans la transition écologique doivent être pérennisés pour réduire\nles gaz à effet de serre et la pollution. Le rythme de la transition vers une économie\nplus verte doit accélérer. […] La transition écologique est un des principaux piliers du\nplan de relance. Celui-ci consacre 30 milliards d’euros (1.2 % du PIB de 2019) à des\ninvestissements verts. Cependant, cette transition ne pourra s’effectuer avec succès\nque si les dispositifs mis en place sont efficaces. […]\nSource : Études Économiques de l’OCDE, France,18 novembre 2021"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 2 : Qu’est-ce que le cycle économique ?",
+    "texte": "Le progrès technique et la croissance économique se réalisent essentiellement à\ntravers des cycles, par des efforts et des tensions, suivis de ruptures, d’amplitude et\nd’intensité différentes, s’adossant les uns aux autres. L’histoire économique nous\nmontre le relativisme de ces mouvements, qui ne se trouvent pas nécessairement\ndans tous les systèmes économiques, ni dans tous les pays. Certains sont\ncaractéristiques d’une époque, d’autres d’une économie. En fait, chaque cycle tire\nune partie de sa forme et de ses particularités du mouvement plus fondamental qui le\nsous-tend. Ainsi, la nature des cycles dépend du système socio-économique qui les\nengendre, tout en sachant que leurs causes et leurs périodicités peuvent varier au\ncours de l’histoire, en fonction de la structure économique du pays. Il y a aujourd’hui\nun accord assez général sur les termes de la définition donnée par Burns et Mitchell :\n« Un cycle consiste en phases d’expansion se produisant simultanément dans de\nnombreuses branches de l’économie, suivies de phases de récession, de contraction\net de reprise tout aussi générales, qui se fondent dans la phase d’expansion du\nprochain cycle ; cette suite de modifications est répétitive, mais non périodique ; du\npoint de vue de leur durée, les cycles varient de plus d’un an à dix ou douze ans ».\nSource : Le cycle économique : une synthèse, Thierry Aimar, Francis Bismans,\nClaude Diebolt, dans Revue française d'économie 2009/4 (Volume XXIV)"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-asie",
+    "titre": "Annexe 3 - La réglementation des entreprises pour favoriser la transition écologique.",
+    "texte": "Depuis la promulgation de la loi anti-gaspillage pour une économie circulaire en 2020, de\nnouvelles interdictions de produits en plastique entrent en vigueur chaque année. Objectif :\nla fin de la mise sur le marché des emballages en plastique à usage unique d’ici 2040. [...]\nDepuis le 1er janvier 2023, les commerces de restauration ne peuvent plus avoir recours à\nde la vaisselle jetable pour les repas servis sur place. Ils doivent donc obligatoirement faire\nusage d’une vaisselle réutilisable. Pour une entreprise, le non-respect de cette interdiction,\nexpose à des sanctions administratives et/ou pénales prévues par le Code de\nl’environnement. [...].\nSource : Bercy Infos, le 29 juin 2023"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 4 - L’investissement dans le capital humain.",
+    "texte": "Selon la définition de l'OCDE (Organisation de Coopération et de Développement\nÉconomique), le capital humain recouvre « l'ensemble des connaissances,\nqualifications, compétences et caractéristiques individuelles qui facilitent la création du\nbien-être personnel, social et économique. […] Le capital humain constitue un bien\nimmatériel qui peut faire progresser ou soutenir la productivité, l'innovation et\nl'employabilité. »\nL'investissement en capital humain est aujourd'hui l'un des grands thèmes de la\npolitique publique dans les pays développés. Il semble pouvoir apporter des solutions\nà plusieurs problèmes auxquels les décideurs politiques ont été confrontés au cours\ndes dernières décennies, à savoir le ralentissement de la croissance économique dans\nla plupart des pays occidentaux depuis 1973, la montée du chômage […].\nL'accumulation de capital humain permettrait en effet des gains de productivité\nfavorables à la croissance et à l'emploi. […] La transition de l'école au milieu de travail\net la formation des adultes représentent en effet un autre enjeu important. Le capital\nhumain peut se déprécier si les compétences acquises ne sont pas maintenues en\nbon état par un usage régulier. De ce point de vue, le chômage de longue durée et le\nchômage des jeunes peuvent conduire à une dégradation des connaissances et des\ncompétences.\nSource : Du bien-être des nations, le rôle du capital humain et social, OCDE, 2001."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "Annexe 4 – Les effets du progrès technique.",
+    "texte": "Les effets du progrès technique sur le volume total de travail dans une économie peuvent être positifs ou négatifs. La résultante finale des innovations sur la quantité totale\nde travail utilisée dépend de la combinaison de trois mécanismes.\nLe premier effet direct sur l’emploi est fonction du degré de substituabilité ou de complémentarité entre les nouvelles techniques et le facteur travail. Dans le premier cas,\n“la machine remplace l’homme” (c’est même l’effet recherché pour la plupart des innovations technologiques). Le progrès technique peut aussi être introduit en complément\ndu travail humain, sans en diminuer la quantité mais en augmentant son efficacité.\nEnsuite, il faut prendre en compte la réaction de la demande par rapport à la variation\ndu prix pour un bien nouveau ou produit avec une technique nouvelle. Si l’innovation\npermet une baisse des prix, la demande de ce bien va être stimulée et sa production\naussi. Par conséquent, l’effet sur l’emploi peut être positif si l’économie de travail est\nplus que compensée par l’embauche de salariés pour produire en plus grandes quantités.\nEnfin, le troisième élément qui intervient dans l’impact des innovations sur les rémunérations et l’embauche est la qualification de l’offre de travail. Si l’offre de travail est\nabondante et qualifiée pour réaliser les nouvelles tâches induites par le progrès technique, […] alors il y aura pression à la baisse des salaires. Dans le cas contraire (peu\nde travailleurs compétents), le chômage augmentera.\nToute évolution technique majeure conduit à des changements dans les modes de\nproduction de l’économie en permettant d’économiser du travail : c’est ce qu’on appelle le “progrès technique biaisé” pour décrire le fait que la demande de main-d’œuvre\nqualifiée augmente fortement, au détriment des personnes non qualifiées. Plus précisément, dans les pays industrialisés, les travaux routiniers (qui exécutent des tâches\nrépétitives de production de masse) – manuels ou non – sont en recul alors que les\nemplois aux deux extrémités – ceux créatifs, très qualifiés, et ceux peu qualifiés et non\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx\nroutiniers, comme les emplois de service ou du […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 – Évolution des émissions de gaz à effet de serre (GES) en France entre 1990",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte carbone",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 – Les instruments de la politique environnementale peuvent se heurter aux",
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 - Évolution des émissions de gaz à effet de serre (GES) en France entre",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 - Les instruments de la politique environnementale peuvent se heurter"
+    ],
+    "questions": [
+     {
+      "enonce": "Classez les agents économiques selon leur participation au financement de la transition écologique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution de l’empreinte carbone en France entre 1990 et 2023.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les types d’instruments de la politique environnementale et leurs actions.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État est-elle efficace pour assurer la transition écologique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : Croissance du PIB en France.",
+     "Annexe 2 : Qu’est-ce que le cycle économique ?",
+     "Annexe 3 : Dépenses et recettes des administrations publiques.",
+     "Annexe 4 : La prime d’activité.",
+     "Annexe 5 : Aménagement numérique du territoire Français.",
+     "Annexe 6 : Charge d’intérêt de la dette publique depuis 2011.",
+     "Annexe 7 : Une potion budgétaire 2021 dédiée à la relance, les déficits",
+     "Annexe 1 : Croissance du PIB en France.",
+     "Annexe 2 : Qu’est-ce que le cycle économique ?",
+     "Annexe 3 : Dépenses et recettes des administrations publiques.",
+     "Annexe 4 : La prime d’activité.",
+     "Annexe 5 : Aménagement numérique du territoire Français.",
+     "Annexe 6 : Charge d’intérêt de la dette publique depuis 2011.",
+     "Annexe 7 : Une potion budgétaire 2021 dédiée à la relance, les déficits"
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez les variations de la croissance française.",
+      "points": 1.0,
+      "corrige": "On attend du candidat qu’il soit capable d’interpréter des données économiques\nprésentées sous forme de graphique. Il peut s’appuyer sur les informations prélevées\ndans l’annexe 1.\nLa croissance Française du PIB a évolué à la baisse au court de ces 20 dernières\nannées, malgré de nombreuses fluctuations à la hausse et à la baisse. À partir de 2000\njusqu’en 2003 la croissance marque une tendance à la baisse (- 3 points). Ensuite, la\nFrance connaît une phase d’expansion de 2003 à 2007. Cette phase d’expansion s’est\nbrusquement arrêtée avec la crise des subprimes en 2007/2008 (- 5 points). On assiste\nà une phase de récession.\nDepuis le début des années 2010, il y a une reprise mais le niveau de croissance est\nautour de 2 %. La tendance générale est donc à la baisse. (Annexe 1)\n\nPage: 12/22"
+     },
+     {
+      "enonce": "Présentez les différentes étapes du cycle économique.",
+      "points": 1.0,
+      "corrige": "On attend du candidat qu’il mobilise ses connaissances personnelles concernant les\nnotions abordées dans le thème 6 du programme de terminale sur les cycles\néconomiques. Il peut s’appuyer sur les informations prélevées dans l’annexe 1 et 2.\nLa phase d’expansion se caractérise par une croissance positive : l’activité\néconomique est dynamique, les entreprises embauchent, la consommation est forte.\nLa phase de crise se caractérise par un retournement de la conjoncture : l’activité\néconomique se contracte pour une raison extérieure (dettes des banques, hausse du\nprix du pétrole, pandémie mondiale, guerre commerciale, etc.).\nLa phase de récession qui suit se caractérise par une activité économique qui ralentit,\nla croissance est bien moins forte, voire nulle, voire carrément négative (on parle alors\nde dépression ici). Cela s’explique par une consommation en baisse, des\ninvestissements des […]"
+     },
+     {
+      "enonce": "Expliquez l’évolution des dépenses publiques de 2018 à 2019.",
+      "points": null,
+      "corrige": "point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…).\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe 6). Il est attendu du candidat un commentaire de l’évolution de la charge\nd’intérêt de la dette publique sur la période.\n- On attend du candidat qu’il soit capable de lire et exploiter un tableau (annexe 3). Il\nest attendu du candidat une analyse des dépenses et recettes des administrations\npubliques sur la période.\n- On attend également du candidat un repérage et une interprétation des informations\ncontenues dans l’annexe 4. Le candidat doit être capable d’établir un lien entre\nl’augmentation des prestations sociales (annexe 3) et l’exemple de la prime d’activité\n(annexe 4).\nPour compléter son commentaire, le candidat […]"
+     },
+     {
+      "enonce": "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+      "points": 1.5,
+      "corrige": "économiques de la crise sanitaire (1,5 point)\nCette question vise à évaluer si le candidat est capable d’identifier les informations\npertinentes dans différents textes et les mobiliser pour répondre à la question posée.\nOn attend du candidat un repérage et une interprétation des informations contenues\ndans les annexes 4, 5 et 7. De plus, le candidat doit être capable de développer les\nmécanismes économiques sous-jacents permettant d’établir un lien entre les politiques\nbudgétaires de relance (par l’offre et par la demande) menées par l’État et le fait que\nces mesures puissent relancer la croissance.\nGrâce à la mobilisation de son budget, l’État peut agir sur l’activité économique pour\nrelancer la croissance :\n– par des politiques d’offre, visant à soutenir l’activité productive des entreprises,\n\n\n\nSoutenir les entreprises : baisse de 10 milliards d'euros des impôts de\nproduction pesant […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les déficits publics favorisent-ils la croissance économique ?",
+      "points": null,
+      "corrige": "suivante :\nLes déficits publics favorisent-ils la croissance économique ?\n(5 points)\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire, apporte également des éléments de réponse au candidat. Ces\néléments ne sont toutefois pas suffisants ; le candidat doit également faire appel à ses\nconnaissances personnelles pour développer son argumentaire.\n\nPage: 14/22\n\n\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\n\n2 points\n1. […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E9.1",
+  "type": "exercices",
+  "section": 23,
+  "section_titre": "9.1 Les sources d’une croissance économique soutenable",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Analysez les variations de la croissance française.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les déficits publics favorisent-ils la croissance économique ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "9.1 Les sources d’une croissance économique soutenable",
+   "theme": "Thème 9 : Comment concilier la croissance économique et le",
+   "texte": "Le processus de croissance économique et les sources de la croissance correspondent à l’accumulation des facteurs et à l’accroissement de la productivité globale des facteurs. Le progrès technique et l’accroissement de la productivité globale des facteurs sont étroitement liés dans la croissance économique.\nCe progrès technique provient en particulier de l’innovation qui est créée de façon endogène dans l’économie. Les institutions (notamment les droits de propriété) et le système financier influent également sur la croissance en affectant l’incitation à investir et à innover.\nLa croissance économique se heurte à des limites écologiques (notamment l’épuisement des ressources et la pollution). Le développement durable prend en compte non seulement les défis écologiques mais également les défis économiques et sociaux.\nL’économie circulaire peut répondre à certains enjeux de la transition écologique en valorisant et en recyclant les produits usagés et les déchets. Il en est de même de l’économie collaborative qui permet une mutualisation des ressources.\nCes dernières années, un nouveau secteur s’est développé autour de l’économie sociale et solidaire (ESS). En France, les organisations relevant de l’ESS sont les associations, les coopératives, les mutuelles, les fondations ainsi que les entreprises sociales.\nNotions : La croissance. Les ressources renouvelables et les ressources non renouvelables. Le développement durable. Le progrès technique L’innovation Les droits de propriété L’économie circulaire. L’économie collaborative L’économie sociale et solidaire (ESS).\nCapacité attendue : l'élève est capable de définir croissance économique et développement durable.\nCapacité attendue : l'élève est capable de désigner les ressources renouvelables et non renouvelables.\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable les divers instruments de la transition écologique.\nCapacité attendue : l'élève est capable d’identifier.\nCapacité attendue : l'élève est capable décrire les caractéristiques de l’économie collaborative et de l’économie de circulaire.\nCapacité attendue : l'élève est capable d’identifier les différents acteurs de l’économie sociale et solidaire (ESS).\nCapacité attendue : l'élève est capable d’expliquer la nécessité de la coopération internationale pour préserver les biens publics mondiaux.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-asie",
+    "titre": "Annexe 1 - Fiscalité écologique : quelle efficacité ?",
+    "texte": "La fiscalité environnementale a fait preuve de son efficacité, en permettant de réduire la\nconsommation de certaines énergies fossiles en France et en Europe. Le ministère de la\ntransition écologique et solidaire estime qu’une hausse de 10 % du coût des énergies\nfossiles permet de réduire de 6 % leur consommation à long terme. Cependant, la dimension\nincitative est fortement amoindrie en France par les nombreux régimes dérogatoires et la\nfaiblesse de la plupart des taux de taxation.\n[…] Les taxes environnementales portent essentiellement sur l'énergie. Ces taxes sont\nsoumises aux fortes fluctuations conjoncturelles des cours énergétiques, ce qui peut\namoindrir leur efficacité. Selon un rapport du Commissariat général au développement\ndurable, l'introduction d'une composante carbone dans la fiscalité énergétique en 2014 \"n'a\npas permis d'augmenter le prix des énergies carbonées, en raison de la baisse concomitante\net très significative du coût de l'énergie\". […]\nLes taxes à visée explicitement écologique, permettant de lutter contre les pollutions de l’air,\nde l’eau, ou visant à limiter la production de déchets, ont des taux très peu élevés en France.\nOr, une taxe trop faible n'a pas un effet suffisamment dissuasif pour orienter les\ncontribuables vers des pratiques plus respectueuses de l’environnement. […] À l'inverse,\nune taxe trop élevée peut conduire à des risques économiques importants pour la\ncompétitivité des entreprises et le pouvoir d'achat des Français, en particulier les plus\nmodestes.\n[…] D'après un rapport de la Cour des comptes de 2013, la taxation continue à préserver\ndes intérêts sectoriels qui ne vont pas dans le sens de la transition écologique. Par exemple,\nle charbon reste la ressource la moins taxée, alors qu’il s’agit du combustible le plus émetteur\nde CO2. De même, le kérosène n’est pas taxé pour les vols intérieurs alors que l'avion est\nle mode de transport le plus polluant par passager ou par tonne transportée.\nSource : Fiscalité écologique : quelle efficacité ? vie-publique.fr, 2 février 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-2",
+    "titre": "ANNEXE 6 - Des conditions pour une relance économique efficace",
+    "texte": "Le niveau des dépenses publiques est élevé et certaines dépenses manquent\nd’efficacité. […] Il est nécessaire de réduire progressivement et sensiblement les\ndépenses publiques par une stratégie d’assainissement budgétaire à moyen terme\nfondée sur des examens de dépenses et une meilleure affectation des dépenses. […]\nRenforcer l’emploi et la productivité est une priorité. Des réformes bienvenues ont\nréduit le coût du travail et revalorisé la prime d’activité accordée aux travailleurs\nfaiblement rémunérés, tout en améliorant le financement et le ciblage de l’éducation\net de la formation professionnelle. Néanmoins, les travailleurs ayant des compétences\ninadaptées sont trop nombreux, et leur taux d’emploi reste faible. Les mesures\nproposées dans la présente étude pour rehausser encore l’emploi et la productivité\npourraient permettre une augmentation du PIB par habitant de 1.2 % à un horizon de\n10 ans. […]\nLa diffusion des technologies numériques reste inégale, ce qui entrave les gains de\nproductivité. De nombreuses petites entreprises sont à la traîne en ce qui concerne\nl’adoption de ces nouvelles technologies numériques et auront besoin d’un soutien\nsupplémentaire pour former leurs effectifs. […]\nLes investissements dans la transition écologique doivent être pérennisés pour réduire\nles gaz à effet de serre et la pollution. Le rythme de la transition vers une économie\nplus verte doit accélérer. […] La transition écologique est un des principaux piliers du\nplan de relance. Celui-ci consacre 30 milliards d’euros (1.2 % du PIB de 2019) à des\ninvestissements verts. Cependant, cette transition ne pourra s’effectuer avec succès\nque si les dispositifs mis en place sont efficaces. […]\nSource : Études Économiques de l’OCDE, France,18 novembre 2021"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 – Évolution des émissions de gaz à effet de serre (GES) en France entre 1990",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte carbone",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 – Les instruments de la politique environnementale peuvent se heurter aux",
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 - Évolution des émissions de gaz à effet de serre (GES) en France entre",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 - Les instruments de la politique environnementale peuvent se heurter"
+    ],
+    "questions": [
+     {
+      "enonce": "Classez les agents économiques selon leur participation au financement de la transition écologique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution de l’empreinte carbone en France entre 1990 et 2023.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les types d’instruments de la politique environnementale et leurs actions.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État est-elle efficace pour assurer la transition écologique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C9.2",
+  "type": "cas",
+  "section": 24,
+  "section_titre": "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation",
+  "partenaire": 5,
+  "partenaire_titre": "2.3 La dynamique de la répartition des revenus",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "proba_annee_suivante": 0.101,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Comparez les revenus avant et après redistribution selon le niveau de vie.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Comparez les revenus avant et après redistribution selon le niveau de vie.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Comparez les revenus avant et après redistribution selon le niveau de vie.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Comparez les revenus avant et après redistribution selon le niveau de vie.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation",
+   "theme": "Thème 9 : Comment concilier la croissance économique et le",
+   "texte": "La croissance économique reste un objectif de la plupart des politiques économiques afin d’améliorer l’emploi, le niveau de vie des individus et le niveau d’éducation des populations. La réduction de la pauvreté absolue dans le monde a été extrêmement importante, notamment dans un contexte historique d’augmentation de la population mondiale.\nOn constate cependant dans la majorité des pays une forte augmentation des inégalités et un maintien de la pauvreté relative. L’éducation et la formation constituent un des premiers moteurs du développement économique des pays et de lutte contre la pauvreté.\nNotions : La pauvreté absolue. La pauvreté relative\nCapacité attendue : l'élève est capable et d’interpréter.\nCapacité attendue : l'élève est capable d’identifier des indicateurs du développement durable.\nCapacité attendue : l'élève est capable de distinguer la pauvreté absolue de la pauvreté relative.\nCapacité attendue : l'élève est capable l’importance de la transition écologique dans le développement durable.\nCapacité attendue : l'élève est capable discuter l’impact des instruments de la transition écologique sur la production, la de consommation et l’investissement.\nCapacité attendue : l'élève est capable de définir un bien public mondial.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "2.3 La dynamique de la répartition des revenus",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La production de biens et de services entraîne la distribution de revenus dans l’ensemble de l’économie. L’étude du revenu met en évidence la diversité de ses origines – travail (salaires, traitements) capital (intérêts, dividendes) et propriété (loyers) – ainsi que les enjeux de la répartition initiale de ces revenus et de leur taxation en vue d’une éventuelle redistribution.\nLe partage de la valeur ajoutée peut être affecté sur le long terme par des évolutions comme le progrès technique. Par ailleurs, le processus de redistribution mis en place par l’État via les prélèvements obligatoires et les dépenses publiques vise la réduction des inégalités en corrigeant la répartition des revenus primaires.\nIl aboutit après affectation des revenus de transfert et des prélèvements obligatoires au revenu disponible.\nNotions : Les revenus primaires : les revenus du travail, les revenus du capital, les revenus mixtes. Le partage de la valeur ajoutée entre les différents agents économiques. La valeur ajoutée brute par secteur institutionnel. L’imposition sur le revenu. Les prélèvements obligatoires.\nCapacité attendue : l'élève est capable de calculer la valeur ajoutée dans des cas simples.\nCapacité attendue : l'élève est capable de distinguer les revenus en fonction de leur origine.\nCapacité attendue : l'élève est capable de comprendre un peut être rémunéré du fait de son travail, de ses connaissances, diplômes, de ses qualifications et de sa détention de capital (épargne, logement, entreprise) et que, donc, son revenu va être mixte.\nCapacité attendue : l'élève est capable le partage de la valeur ajoutée.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 2 – Les pays en développement et le libre-échange.",
+    "texte": "La Banque mondiale aide les pays en développement à améliorer leur accès aux marchés\nmondiaux et à renforcer leur participation au système commercial mondial. Le commerce\nextérieur est un moteur de la croissance : il crée des emplois de meilleure qualité, réduit la\npauvreté et ouvre des perspectives économiques. Selon des études récentes, la\nlibéralisation des échanges accroît la croissance économique de 1,0 à 1,5 point de\npourcentage en moyenne, ce qui se traduit par une augmentation des revenus de 10 à 20 %\naprès une décennie.\nDepuis 1990, le commerce a fait progresser les revenus de 24 % au niveau mondial, et de\n50 % pour les 40 % les plus pauvres de la population. Plus d'un milliard de personnes sont\nainsi sorties de la pauvreté grâce à une croissance économique soutenue par de meilleures\npratiques commerciales.\nLe commerce est également associé à une plus grande participation des femmes au marché\ndu travail formel, qui se caractérise par des salaires plus élevés. Dans les pays en\ndéveloppement, les entreprises exportatrices emploient davantage de femmes que celles\nqui ne sont pas tournées vers l’exportation […]. La promotion de la coopération par le biais\ndes échanges et des affaires est également essentielle pour aider les pays à échapper aux\nconflits.\nLes pays en développement se heurtent fréquemment à des obstacles qui entravent leur\naccès aux marchés mondiaux : pratiques anticoncurrentielles, réglementations pesant sur\nl’investissement et la croissance des entreprises, infrastructures inadaptées (installations\nportuaires, réseau routier, etc.).\nMême les pays qui appliquent une politique commerciale libérale et transparente\nrencontrent des difficultés si leurs marchés ne sont pas suffisamment intégrés. En outre,\nbon nombre des personnes les plus pauvres de la planète vivent dans des régions\nEN_MOzIzNT7QzNjAc0ND9UzMsTYxMj8A2NTAAwMTdY5NTTgx\nenclavées, isolées ou sans voie d’accès aux échanges internationaux. La Banque mondiale\naide ses pays clients à surmonter tous ces obstacles et à tirer pleinement profit des\navantages des marchés mondiaux.\nNéanmoins, force est de constater que tout le monde ne récolte pas les fruits de la\nmondialisation. La réduction […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 5 : Lancement du Plan de relance de la France le 3 septembre 2020.",
+    "texte": "Le Plan de relance de 100 milliards d’euros (40 milliards d’euros du plan seront\nfinancés par l’Union européenne) s’articule autour de trois priorités : l’écologie, la\ncompétitivité et la cohésion. […] Il s’inscrit dans la continuité des 470 milliards d’euros\ndéjà mobilisés depuis mars 2020 pour financer les mesures d’urgence destinées aux\nentreprises et salariés impactés par la crise sanitaire du Coronavirus COVID-19.\nL’écologie est au cœur du Plan de relance. Sur 100 milliards d’euros, 30 milliards\nd’euros sont destinés au financement de la transition écologique. L’objectif est\nd’accélérer la conversion écologique de l’économie française pour qu’elle soit plus\ndurable et plus économe de nos ressources naturelles et atteindre la neutralité\ncarbone d’ici 2050. Cette orientation stratégique se concrétise dans le Plan de relance\nà travers : la rénovation thermique des bâtiments, l’aide à la décarbonation de\nl’industrie, le bonus écologique, la prime à la conversion pour l’achat d’un véhicule\npropre […].\nPour favoriser le développement d’activités à forte valeur ajoutée en France et créer\ndes emplois, le Plan de relance intègre aussi les transformations qui rendront notre\néconomie plus compétitive. La relance est la clé de notre souveraineté économique et\nde notre indépendance technologique. Cela se traduit notamment par : la baisse des\nimpôts de production, l’investissement massif dans les technologies d’avenir\n(technologies vertes), le renforcement du soutien à la recherche, la formation, […].\nPour éviter la hausse des inégalités en France en raison de l’impact économique de\nla crise, la relance doit aussi être une relance sociale et territoriale. Le Plan de relance\nporte ainsi un élan collectif à travers : l’accompagnement vers l’emploi des jeunes et\ndes plus vulnérables, dont les personnes en situation de handicap, la sauvegarde de\nl’emploi (dispositifs d’activité partielle et de formation), le soutien aux personnes\nprécaires (majoration de l’allocation de rentrée scolaire, hébergement d’urgence, plan\nde soutien aux associations de lutte contre la pauvreté) […].\nSource : Economie.gouv.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-asie",
+    "titre": "ANNEXE 2 - Réduction des inégalités redistribution est deux fois plus ample en",
+    "texte": "intégrant les services publics.\nLe niveau de vie des ménages est\naffecté par les transferts publics,\npositivement\nà\ntravers\nles\nprestations qu’ils reçoivent et\nnégativement par les prélèvements\ndont ils s’acquittent ….\nEn 2018, … les deux tiers des\nindividus reçoivent en moyenne\ndavantage, en prestations et en\nservices publics, qu’ils ne versent\nen impôts, taxes et contributions\nsociales …. Les inégalités avant\ntransferts, c’est-à-dire calculées à\npartir du revenu primaire dit\n« élargi* », sont marquées. Le\nrevenu primaire élargi moyen des\n10 % des individus les plus aisés\nest 13 fois plus élevé que celui des\n10 % des individus les plus\nmodestes.\n… Le caractère redistributif du système socio-fiscal français provient avant tout des\ntransferts en nature, comme l’éducation, la santé et le logement, qui contribuent pour 50 %\nà la réduction des inégalités au sens de la redistribution élargie ; viennent ensuite les\nprestations sociales monétaires (23 %), les dépenses de consommation collective (16 %)\net les retraites (10 %).…\n* Le revenu primaire élargi intègre non seulement les revenus de transferts, mais également les services\npublics collectifs\nSource : Insee Références – 2021 – Dossiers – Réduction des inégalités"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-asie",
+    "titre": "Annexe 1 - Fiscalité écologique : quelle efficacité ?",
+    "texte": "La fiscalité environnementale a fait preuve de son efficacité, en permettant de réduire la\nconsommation de certaines énergies fossiles en France et en Europe. Le ministère de la\ntransition écologique et solidaire estime qu’une hausse de 10 % du coût des énergies\nfossiles permet de réduire de 6 % leur consommation à long terme. Cependant, la dimension\nincitative est fortement amoindrie en France par les nombreux régimes dérogatoires et la\nfaiblesse de la plupart des taux de taxation.\n[…] Les taxes environnementales portent essentiellement sur l'énergie. Ces taxes sont\nsoumises aux fortes fluctuations conjoncturelles des cours énergétiques, ce qui peut\namoindrir leur efficacité. Selon un rapport du Commissariat général au développement\ndurable, l'introduction d'une composante carbone dans la fiscalité énergétique en 2014 \"n'a\npas permis d'augmenter le prix des énergies carbonées, en raison de la baisse concomitante\net très significative du coût de l'énergie\". […]\nLes taxes à visée explicitement écologique, permettant de lutter contre les pollutions de l’air,\nde l’eau, ou visant à limiter la production de déchets, ont des taux très peu élevés en France.\nOr, une taxe trop faible n'a pas un effet suffisamment dissuasif pour orienter les\ncontribuables vers des pratiques plus respectueuses de l’environnement. […] À l'inverse,\nune taxe trop élevée peut conduire à des risques économiques importants pour la\ncompétitivité des entreprises et le pouvoir d'achat des Français, en particulier les plus\nmodestes.\n[…] D'après un rapport de la Cour des comptes de 2013, la taxation continue à préserver\ndes intérêts sectoriels qui ne vont pas dans le sens de la transition écologique. Par exemple,\nle charbon reste la ressource la moins taxée, alors qu’il s’agit du combustible le plus émetteur\nde CO2. De même, le kérosène n’est pas taxé pour les vols intérieurs alors que l'avion est\nle mode de transport le plus polluant par passager ou par tonne transportée.\nSource : Fiscalité écologique : quelle efficacité ? vie-publique.fr, 2 février 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 1 : La décomposition du revenu disponible brut.",
+    "texte": "Le revenu disponible des ménages se compose des revenus d’activité (salaires,\nrevenus des indépendants) y compris allocations chômage, des revenus du\npatrimoine, des pensions et retraites, des prestations sociales […].\nLa grande majorité des ménages (92,2 % dans l’ensemble) perçoivent des revenus du\npatrimoine. Ils représentent une part croissante du revenu disponible à mesure que\nles niveaux de vie augmentent. Mais leur part reste limitée chez la plupart des\nménages : entre 3,0 % et 6,6 % jusqu’au 8ème décile, elle est encore de 9,0 %\nseulement pour les ménages entre le 8ème et le 9ème décile. En revanche, chez les\nménages des 10 % de personnes les plus aisées, ces revenus représentent 24,5 %\nde leur revenu disponible total. Pour les ménages du haut de la distribution, ces\nrevenus du patrimoine correspondent plus fréquemment à des placements financiers\n(plan d’épargne en actions, assurance vie, etc.). Les ménages des personnes les plus\naisées se distinguent également par la part plus importante de revenus d’activité\nindépendante : ils représentent 13,9 % du revenu disponible contre moins de 4,0 %\npour les autres ménages, et 4,1 % pour ceux de la tranche de niveau de vie\nimmédiatement inférieure. Il s’agit principalement de revenus de chefs d’entreprise et\ndes professions libérales.\nSource : INSEE, Les revenus et le patrimoine des ménages, édition 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 7 : Ressources publiques, d’où vient l’argent ?",
+    "texte": "Afin de remplir leurs missions, les administrations publiques (les services publics\nexercés par l’État, la sécurité sociale et les collectivités territoriales) ont besoin d’être\nfinancées. Les principales ressources publiques sont ce que l’on appelle les\nprélèvements obligatoires : impôts, cotisations et taxes. Les prélèvements obligatoires\nreprésentent en France 1 038 milliards d’euros, soit 45,3% du PIB. Contrairement aux\nidées reçues, les impôts sur le revenu ne représentent que 7% du total des impôts et\ntaxes payées par les Français.\nRépartition des prélèvements obligatoires en 2017 (sur 1000 euros)\nautres (taxes et prélèvements divers)\ncontribution audiovisuelle publique\nforfait social\ncotisation foncière des entreprises\ntaxe sur les salaires\nimpôt sur les dons et successions\ncotisation sur la valeur ajoutée des entreprises\ntaxe sur les transactions immobilières\ntaxe sur les tabacs et alcools\ntaxe d'habitation\ntaxe intérieure de consommation des produits…\ntaxe foncière\nimpôt sur les sociétés\nimpôt sur le revenu\ncontribution sociale généralisée et prélèvements sociaux\nTVA\ncotisations sociales\nprélèvements obligatoires en euros\nLecture : Sur 1000 euros de prélèvements obligatoires payés par les français, la taxe d’habitation\nreprésente 18 euros.\nSource : economie.gouv.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 – Évolution des émissions de gaz à effet de serre (GES) en France entre 1990",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte carbone",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 – Les instruments de la politique environnementale peuvent se heurter aux",
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 - Évolution des émissions de gaz à effet de serre (GES) en France entre",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 - Les instruments de la politique environnementale peuvent se heurter"
+    ],
+    "questions": [
+     {
+      "enonce": "Classez les agents économiques selon leur participation au financement de la transition écologique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution de l’empreinte carbone en France entre 1990 et 2023.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les types d’instruments de la politique environnementale et leurs actions.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État est-elle efficace pour assurer la transition écologique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2024-metropole",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1 – Dépenses et recettes publiques entre 1960 et 2022.",
+     "ANNEXE 2 – Effets des modifications de la fiscalité selon le niveau de vie des ménages.",
+     "ANNEXE 3 – Quels sont les effets des politiques fiscales sur l'activité économique ?",
+     "ANNEXE 4 – Les effets de la réduction des impôts de production sur la relance, la",
+     "ANNEXE 1 - Dépenses et recettes publiques entre 1960 et 2022 en France en",
+     "ANNEXE 2 - Effets des modifications de la fiscalité selon le niveau de vie des",
+     "ANNEXE 3 - Quels sont les effets des politiques fiscales sur l'activité économique ?",
+     "ANNEXE 4 - Les effets de la réduction des impôts de production sur la relance, la"
+    ],
+    "questions": [
+     {
+      "enonce": "Rappelez le lien entre déficit public et dette publique.",
+      "points": 3.0,
+      "corrige": "Il est attendu du candidat qu’il soit capable :\n\nd'identifier la causalité existante : l’accumulation des déficits publics augmente la\ndette publique. L’État emprunte pour financer ses dépenses."
+     },
+     {
+      "enonce": "Présentez les conséquences de la baisse des prélèvements obligatoires selon le niveau de vie des ménages en 2020/2021.",
+      "points": 4.0,
+      "corrige": "selon le niveau de vie des ménages en 2020/2021. (4 points)\n\nIl est attendu du candidat qu’il soit capable :\n\nd'identifier un impact différent de la baisse des prélèvements obligatoires selon le\nniveau de vie des ménages : la baisse des impôts profite davantage aux ménages\naux revenus les plus élevés.\n\nLe candidat qui identifiera que ces baisses de prélèvements obligatoires accroissent les\ninégalités pourra être valorisé.\n\nde relever des éléments du tableau (annexe 2) permettant d’étayer l’impact différent,\npar exemple :\n\nbaisse de l’IR et le dégrèvement de la taxe d’habitation en 2020 et 2021 ont\ndavantage profité aux ménages situés entre le 7° et le 9° décile,\n\n\nune hausse du niveau de vie de 420 euros en moyenne pour les 10 % des\nménages les plus aisés (supérieur à D9) alors que cette hausse du niveau de vie\nn’est que de 30 euros pour les 10 % des ménages les moins aisés […]"
+     },
+     {
+      "enonce": "Identifiez en quoi la baisse des prélèvements obligatoires peut être source de compétitivité des entreprises et d’attractivité du territoire.",
+      "points": 5.0,
+      "corrige": "de compétitivité des entreprises et d’attractivité du territoire. (5 points)\nIl est attendu du candidat qu’il soit capable :\n\nd’expliquer les mécanismes économiques mis en œuvre par la baisse d’impôts :\n\nune réduction des coûts pour l’entreprise  prix moins élevés  amélioration de\nla compétitivité-prix  possibilité d’accroître les investissements des entreprises\n hausse de la compétitivité,\n\n\n\n\n\n\nune réduction des coûts pour les entreprises étrangères  investissements sur\nle territoire français plus avantageux  attire les entreprises étrangères,\nnotamment industrielles qui cherchent à s'installer dans un nouveau marché \naugmentation des IDE  hausse attractivité.\n\nde relever les éléments des annexes 4 permettant de justifier les effets, par exemple :\n\n« La France apparait désormais comme fiscalement attractive pour les\ninvestisseurs étrangers ».\n\n\n« La compétitivité prix est un […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La réduction des prélèvements obligatoires favorise-t-elle la croissance économique ?",
+      "points": 8.0,
+      "corrige": "La réduction des prélèvements obligatoires favorise-t-elle la croissance\néconomique ?\nCette question vise à développer une argumentation économique structurée en mobilisant\ndes connaissances.\nLes questions précédentes ont permis de construire des éléments de réponse à cette\nquestion. Le corpus documentaire avec des parties non encore utilisées pour les questions\nprécédentes, apporte également des éléments de réponse au candidat. Le candidat doit\négalement mobiliser ses connaissances personnelles pour développer son argumentaire.\nLes arguments présentés par le candidat sont le fruit de déductions qu’il fait des informations\ncontenues dans les annexes et sont issus de ses connaissances de cours. Il n’est pas\nobligatoirement attendu de structure apparente (plan, phrase introductive ou conclusive). La\nposition doit être exprimée tout au long de la réponse rédigée. Elle doit être comprise à […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E9.2",
+  "type": "exercices",
+  "section": 24,
+  "section_titre": "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Comparez les revenus avant et après redistribution selon le niveau de vie.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les accords commerciaux de l’Union européenne avec des pays tiers profitent-ils aux entreprises européennes ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation",
+   "theme": "Thème 9 : Comment concilier la croissance économique et le",
+   "texte": "La croissance économique reste un objectif de la plupart des politiques économiques afin d’améliorer l’emploi, le niveau de vie des individus et le niveau d’éducation des populations. La réduction de la pauvreté absolue dans le monde a été extrêmement importante, notamment dans un contexte historique d’augmentation de la population mondiale.\nOn constate cependant dans la majorité des pays une forte augmentation des inégalités et un maintien de la pauvreté relative. L’éducation et la formation constituent un des premiers moteurs du développement économique des pays et de lutte contre la pauvreté.\nNotions : La pauvreté absolue. La pauvreté relative\nCapacité attendue : l'élève est capable et d’interpréter.\nCapacité attendue : l'élève est capable d’identifier des indicateurs du développement durable.\nCapacité attendue : l'élève est capable de distinguer la pauvreté absolue de la pauvreté relative.\nCapacité attendue : l'élève est capable l’importance de la transition écologique dans le développement durable.\nCapacité attendue : l'élève est capable discuter l’impact des instruments de la transition écologique sur la production, la de consommation et l’investissement.\nCapacité attendue : l'élève est capable de définir un bien public mondial.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 2 – Les pays en développement et le libre-échange.",
+    "texte": "La Banque mondiale aide les pays en développement à améliorer leur accès aux marchés\nmondiaux et à renforcer leur participation au système commercial mondial. Le commerce\nextérieur est un moteur de la croissance : il crée des emplois de meilleure qualité, réduit la\npauvreté et ouvre des perspectives économiques. Selon des études récentes, la\nlibéralisation des échanges accroît la croissance économique de 1,0 à 1,5 point de\npourcentage en moyenne, ce qui se traduit par une augmentation des revenus de 10 à 20 %\naprès une décennie.\nDepuis 1990, le commerce a fait progresser les revenus de 24 % au niveau mondial, et de\n50 % pour les 40 % les plus pauvres de la population. Plus d'un milliard de personnes sont\nainsi sorties de la pauvreté grâce à une croissance économique soutenue par de meilleures\npratiques commerciales.\nLe commerce est également associé à une plus grande participation des femmes au marché\ndu travail formel, qui se caractérise par des salaires plus élevés. Dans les pays en\ndéveloppement, les entreprises exportatrices emploient davantage de femmes que celles\nqui ne sont pas tournées vers l’exportation […]. La promotion de la coopération par le biais\ndes échanges et des affaires est également essentielle pour aider les pays à échapper aux\nconflits.\nLes pays en développement se heurtent fréquemment à des obstacles qui entravent leur\naccès aux marchés mondiaux : pratiques anticoncurrentielles, réglementations pesant sur\nl’investissement et la croissance des entreprises, infrastructures inadaptées (installations\nportuaires, réseau routier, etc.).\nMême les pays qui appliquent une politique commerciale libérale et transparente\nrencontrent des difficultés si leurs marchés ne sont pas suffisamment intégrés. En outre,\nbon nombre des personnes les plus pauvres de la planète vivent dans des régions\nEN_MOzIzNT7QzNjAc0ND9UzMsTYxMj8A2NTAAwMTdY5NTTgx\nenclavées, isolées ou sans voie d’accès aux échanges internationaux. La Banque mondiale\naide ses pays clients à surmonter tous ces obstacles et à tirer pleinement profit des\navantages des marchés mondiaux.\nNéanmoins, force est de constater que tout le monde ne récolte pas les fruits de la\nmondialisation. La réduction […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 5 : Lancement du Plan de relance de la France le 3 septembre 2020.",
+    "texte": "Le Plan de relance de 100 milliards d’euros (40 milliards d’euros du plan seront\nfinancés par l’Union européenne) s’articule autour de trois priorités : l’écologie, la\ncompétitivité et la cohésion. […] Il s’inscrit dans la continuité des 470 milliards d’euros\ndéjà mobilisés depuis mars 2020 pour financer les mesures d’urgence destinées aux\nentreprises et salariés impactés par la crise sanitaire du Coronavirus COVID-19.\nL’écologie est au cœur du Plan de relance. Sur 100 milliards d’euros, 30 milliards\nd’euros sont destinés au financement de la transition écologique. L’objectif est\nd’accélérer la conversion écologique de l’économie française pour qu’elle soit plus\ndurable et plus économe de nos ressources naturelles et atteindre la neutralité\ncarbone d’ici 2050. Cette orientation stratégique se concrétise dans le Plan de relance\nà travers : la rénovation thermique des bâtiments, l’aide à la décarbonation de\nl’industrie, le bonus écologique, la prime à la conversion pour l’achat d’un véhicule\npropre […].\nPour favoriser le développement d’activités à forte valeur ajoutée en France et créer\ndes emplois, le Plan de relance intègre aussi les transformations qui rendront notre\néconomie plus compétitive. La relance est la clé de notre souveraineté économique et\nde notre indépendance technologique. Cela se traduit notamment par : la baisse des\nimpôts de production, l’investissement massif dans les technologies d’avenir\n(technologies vertes), le renforcement du soutien à la recherche, la formation, […].\nPour éviter la hausse des inégalités en France en raison de l’impact économique de\nla crise, la relance doit aussi être une relance sociale et territoriale. Le Plan de relance\nporte ainsi un élan collectif à travers : l’accompagnement vers l’emploi des jeunes et\ndes plus vulnérables, dont les personnes en situation de handicap, la sauvegarde de\nl’emploi (dispositifs d’activité partielle et de formation), le soutien aux personnes\nprécaires (majoration de l’allocation de rentrée scolaire, hébergement d’urgence, plan\nde soutien aux associations de lutte contre la pauvreté) […].\nSource : Economie.gouv.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 – Évolution des émissions de gaz à effet de serre (GES) en France entre 1990",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte carbone",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 – Les instruments de la politique environnementale peuvent se heurter aux",
+     "Annexe 1 – L’empreinte carbone.",
+     "Annexe 2 - Évolution des émissions de gaz à effet de serre (GES) en France entre",
+     "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+     "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+     "Annexe 5 - Les instruments de la politique environnementale peuvent se heurter"
+    ],
+    "questions": [
+     {
+      "enonce": "Classez les agents économiques selon leur participation au financement de la transition écologique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution de l’empreinte carbone en France entre 1990 et 2023.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les types d’instruments de la politique environnementale et leurs actions.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État est-elle efficace pour assurer la transition écologique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

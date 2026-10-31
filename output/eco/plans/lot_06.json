@@ -1,0 +1,844 @@
+[
+ {
+  "id": "E5.2",
+  "type": "exercices",
+  "section": 12,
+  "section_titre": "5.2 Les stratégies pour dépasser l’intensité concurrentielle",
+  "frequence_passee": 0.03,
+  "inedit": true,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Caractérisez la structure du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "5.2 Les stratégies pour dépasser l’intensité concurrentielle",
+   "theme": "Thème 5 : Les marchés des biens et services sont-ils concurrentiels ?",
+   "texte": "La concurrence fait disparaître les surprofits de monopole. Certaines entreprises vont alors innover et différencier en qualité leurs produits pour pouvoir conserver des créneaux haut de gamme en termes de produits avec des prix élevés.\nSur le long terme et grâce aux entreprises innovantes mais aussi imitatrices, l’innovation va permettre d’abaisser les prix relatifs des produits innovants (TV, voitures, ordinateurs, etc.). Le consommateur bénéficie de nouveaux produits meilleurs en qualité et en contenu technologique.\nNotions : L’innovation, la différenciation des produits. Le monopole, l’oligopole.\nCapacité attendue : l'élève est capable d’analyser les stratégies de fixation des prix par les entreprises en fonction de la structure des coûts et de la concentration du marché.\nCapacité attendue : l'élève est capable de déterminer caractéristiques des produits.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - Les entreprises publiques, une espèce en voie de disparition ?",
+    "texte": "Depuis les années quatre-vingt, le nombre d’entreprises publiques en France et leurs\neffectifs ont diminué de moitié. […]\nPour les partisans des nationalisations, l’État, en devenant entrepreneur, peut mieux\nréguler l’activité économique, devenant ainsi un acteur essentiel dans des secteurs\njugés stratégiques (banques, industrie de l’armement, nucléaire…). Cela lui permet\nnotamment de contrôler certaines restructurations industrielles et de garantir des\nservices de qualité à des prix identiques pour tous les usagers (électricité, gaz,\ntéléphone…).\nMais le rôle des entreprises publiques dans l’économie est souvent contesté. Leur\ncapital étant garanti par l’État-actionnaire, elles n’ont pas toujours le même souci de\nrentabilité que les entreprises privées. Elles bénéficient parfois d’une position\ndominante ou même d’une situation de monopole dans leur secteur, ce qui peut\nfausser la libre-concurrence. La concurrence favorise en général une baisse des\nprix. L’ouverture à la concurrence des lignes aériennes a ainsi permis des baisses\nimportantes des tarifs, de même pour le secteur des télécommunications. […]\nD’un point de vue budgétaire, les privatisations d’entreprise engendrent des\nressources exceptionnelles pour l’Etat et peuvent contribuer à réduire la dette\npublique.\nSource : Ministère de l’économie, des finances et de la souveraineté industrielle et\nnumérique, Faciléco, 12 juillet 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions suivantes :",
+    "annexes": [
+     "Annexe 1 : Parts de marché des expéditions mondiales de montres connectées par",
+     "Annexe 2 : L’indice de concentration d’un marché – indice IHH Herfindahl-Hirschmann.",
+     "Annexe 3 : Concurrence et innovation.",
+     "Annexe 4 : La dynamique des monopoles.",
+     "Annexe 5 : Les brevets déposés en France en 2017.",
+     "Annexe 6 : L’enjeu de la concurrence."
+    ],
+    "questions": [
+     {
+      "enonce": "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+      "points": null,
+      "corrige": "concentration du marché des montres connectées.\nOn attend du candidat qu’il démontre sa connaissance du calcul d’un indice de concentration\nd’un marché (capacité du programme). Pour cela, l’annexe 2 lui explique le calcul de l’indice\nIHH (l’indice IHH n’est pas une notion du programme, le professeur peut avoir choisi d’utiliser\nun autre indice pour traiter cette capacité). L’élève doit être capable de poser le bon calcul\npermettant d’aboutir à l’indice dont le résultat se trouve en annexe 1.\nLe verbe directeur « formuler » indique qu’il s’agit de poser le calcul en écrivant explicitement\nla formule du calcul.\n\nLe degré de concentration d’un marché s’obtient en calculant l’IHH (Indice HerfindahlHirschmann. Il s’agit de partir du pourcentage des parts de marché et de les mettre au\ncarré et de les additionner, soit :\n352 + 112 + 92 + 52 + 42 + 42 + 2,52 + 1,52 + 282 = 2276,5"
+     },
+     {
+      "enonce": "Caractérisez la structure du marché des montres connectées.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question demande au candidat de caractériser\nla concentration d’un marché. Pour ce faire, il doit savoir analyser l’indice de concentration du\nmarché. Quelle que soit sa réponse à la question précédente, l’indice est donné dans l’annexe\n1. Il s’agit pour le candidat de l’interpréter correctement. Pour cela, l’annexe 2 lui présente une\ngrille de lecture de l’indice IHH.\nLe verbe directeur « caractériser » indique que la réponse doit explicitement nommer une\nstructure type (monopole, oligopole ou concurrence) en justifiant ce choix.\n\nLe marché des montres connectées présente un IHH supérieur à 2000, il s’agit donc\nd’un marché très concentré, c’est-à-dire faiblement concurrentiel."
+     },
+     {
+      "enonce": "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle.",
+      "points": null,
+      "corrige": "l’intensité concurrentielle.\nCette question repose sur la capacité d’analyse des stratégies de fixation des prix des\nentreprises en fonction de la concentration du marché, énoncée dans le programme. Outre les\nconnaissances du candidat, les annexes 3 et 5 donnent des exemples concrets et l’annexe 4\ndes pistes d’explication pour la stratégie d’innovation.\nLe verbe directeur « présenter » attend du candidat qu’il expose les stratégies en question, en\nles nommant et en en décrivant des caractéristiques essentielles avec, si possible, des\nexemples.\n\nLes entreprises mettent en œuvre différentes stratégies pour diminuer l’intensité\nconcurrentielle.\n- Stratégie d’innovation : elle permet à l’entreprise, pendant un temps, de\nproposer un produit unique sur le marché, d’obtenir ainsi un monopole temporaire\n(Annexe 4) et d’imposer des prix plus élevés que lorsqu’elle est en situation […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?",
+      "points": null,
+      "corrige": "suivante : La concurrence permet-elle d’améliorer la satisfaction du\nconsommateur ?\nLa question 4 est le lieu de la réponse argumentée. Les questions préalables (1 à 3) ont permis\nde construire des éléments de réponse pour cette question 4. Le corpus documentaire,\nnotamment le document 6 ainsi que les parties non encore utilisées des autres documents,\napporte également des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C6.1",
+  "type": "cas",
+  "section": 13,
+  "section_titre": "6.1 L’intervention de l’État",
+  "partenaire": 0,
+  "partenaire_titre": "1.1 Les agents économiques et les différents types de biens et services",
+  "frequence_passee": 0.36,
+  "inedit": false,
+  "proba_annee_suivante": 0.228,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "6.1 L’intervention de l’État",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Les fonctions de l’État ont progressivement évolué d’un État exerçant une intervention minimale (ordre public, protection du pays, prélèvement des impôts) à un État-Providence combinant des fonctions de régulation et de stabilisation, d’allocation des ressources et de redistribution, ces fonctions étant le plus souvent concomitantes. La place de l’État peut être appréciée notamment à travers l’importance relative des prélèvements obligatoires dans l’économie (prélèvements obligatoires/PIB), à travers l’identification des domaines et des modalités d’intervention de l’État (par exemple, la protection sociale), et à travers le volume de ses dépenses.\nLe degré d’intervention de l’État dépend des choix de société réalisés (interventionnisme ou libéralisme). L’essentiel des ressources des administrations publiques provient des prélèvements obligatoires.\nIl y a déficit public lorsque les prélèvements obligatoires sont insuffisants pour couvrir les dépenses publiques. Ce déficit nourrit la dette publique.\nL’État est également un employeur et gère des monopoles publics (SNCF et RATP par exemple). Il est soumis à des choix de règlementation ou de dérégulation.\nCertains monopoles publics ont connu une ouverture à la concurrence : c’est notamment le cas des télécommunications après la vente des réseaux hertziens.\nNotions : L’État gendarme et l’État-providence. L’État et les entreprises publiques, semi- publiques et privées. L’interventionnisme et le libéralisme. Les dépenses publiques. Le déficit public et la dette publique.\nCapacité attendue : l'élève est capable les différences entre les notions d’État-gendarme d’État-providence,.\nCapacité attendue : l'élève est capable d’expliquer et et.\nCapacité attendue : l'élève est capable d’envisager le degré de participation de l’État à l’économie via des entreprises publiques, semi-publiques ou privées.\nCapacité attendue : l'élève est capable de distinguer le déficit public de la dette publique.\nCapacité attendue : l'élève est capable pourquoi l’allocation des ressources n’est plus efficace en présence d’une.\nCapacité attendue : l'élève est capable décrire l’évolution du rôle de l’État dans le cadre de européen.\nCapacité attendue : l'élève est capable les différents modes de financement des dépenses publiques.\nCapacité attendue : l'élève est capable d’énumérer.\nCapacité attendue : l'élève est capable de caractériser la progressivité des différents prélèvements obligatoires.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "1.1 Les agents économiques et les différents types de biens et services",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "L’un des objets de l’économie est d’étudier comment les individus et les groupes d’individus organisent l’utilisation et la répartition des ressources rares à leur disposition, pour obtenir ce dont ils ont besoin, voire ce qu’ils désirent. Face à des désirs potentiellement illimités, les individus doivent choisir sous contrainte (revenu, temps, information) quels besoins ou quels désirs satisfaire en premier lieu et comment arbitrer entre différents moyens pour atteindre un certain niveau de satisfaction.\nPour répondre à leurs besoins, les individus en société s’organisent. Une spécialisation dans des grandes fonctions se développe, la notion d’agent économique apparaît.\nLes ressources nécessaires pour produire les biens et services qui répondent aux besoins des individus ont un coût et une disponibilité limitée : c’est la notion de contrainte économique.\nNotions : Les différents agents économiques et leur fonction principale. Les différents types de biens et services. Les contraintes économiques : revenu, temps, espace, information. L’arbitrage entre les différentes activités et les choix économiques.\nCapacité attendue : l'élève est capable d’identifier les acteurs économiques et leurs fonctions.\nCapacité attendue : l'élève est capable les choix économiques à l’aide des.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-liban",
+    "titre": "ANNEXE 2 - Principaux ratios de finances publiques",
+    "texte": "en % du PIB\nDéficit public\nDette publique\nRecettes publiques\nDépenses publiques\nPrélèvements obligatoires\n2018\n- 2,3\n97,8\n53,4\n55,6\n44,7\n2019\n- 3,1\n97,4\n52,3\n55,4\n43,8\n2020\n- 9,0\n114,9\n52,5\n61,4\n44,4\n2021\n- 6,5\n112,8\n52,5\n59,0\n44,3\nSource : Insee, comptes nationaux, base 2014"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 1 - Ratios de finances publiques en France",
+    "texte": "(en % du PIB)\nDéficit public\nDette publique\nRecettes publiques\nDépenses publiques\nPrélèvements obligatoires\n2018\n-2,3\n97,8\n53,4\n55,6\n44,7\n2019\n-3,1\n97,4\n52,3\n55,4\n43,8\n2020\n-8,9\n114,6\n52,5\n61,4\n44,4\n2021\n-6,5\n112,9\n52,8\n59,2\n44,5\nSource : Insee, DGFiP, DGTrésor, Notification de mars 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 5 - Le budget de l'État",
+    "texte": "Le budget de l’État correspond à l’ensemble de ses ressources et de ses dépenses.\nL’essentiel des ressources provient des impôts et des taxes payées par les citoyens\net les entreprises. Les dépenses correspondent à l’argent que l’État utilise pour\nfinancer l’action publique : police, justice, recherche, éducation… Depuis plus de\nquarante ans, les dépenses de l’État sont supérieures à ses recettes. Ainsi, le budget\nfait apparaître un déficit. L’accumulation de ces déficits au cours des années constitue\nla dette de l’État.\nLes dépenses de l’État comprennent des dépenses de personnel, de fonctionnement,\nd’intervention (exemple : aides économiques), d’investissement (exemple :\nconstruction des routes) ainsi que le remboursement des intérêts de la dette. Le budget\nde l’État propose une présentation des dépenses par « destination » (Missions, ellesmêmes déclinées en programmes), permettant au citoyen de bien comprendre à quelle\npolitique publique ou « mission » est affecté l’argent de ses impôts.\nLes recettes de l’État sont l’ensemble des ressources à sa disposition pour la mise en\nœuvre des politiques publiques. Chaque année, elles sont synthétisées dans le budget\nde l’État. L’essentiel de ces ressources vient des recettes fiscales – soit plus de 90 %\ndu total des recettes – constituées d’impôts directs ou indirects prélevés à la fois sur\nles citoyens et les entreprises. Ses autres recettes proviennent de recettes non fiscales\ntelles que le produit des amendes ou des jeux.\nSource : Budget.gouv.fr La plateforme des finances publiques,\ndu budget de l’État et de la performance publique données 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "Annexe 1 – Une petite histoire de l'interventionnisme.",
+    "texte": "Avant la crise de 1929, le budget de l'État avait pour fonction principale de financer les\nadministrations. Pour faire face à la crise, les pouvoirs publics tendent à utiliser le\nbudget comme un levier économique. [...] Cela passe par l’augmentation des\ndépenses publiques, l’extension de leurs domaines d’intervention, le rôle redistributif\net incitatif de la politique fiscale et l’intervention directe de l’État dans l’économie [...]\nUne hausse des dépenses publiques, même non financée par les ressources\ncourantes, permet de soutenir le pouvoir d’achat des consommateurs et la demande\ns’adressant aux entreprises.\nAprès la Seconde Guerre mondiale, l’intervention de l’État dans l’économie augmente\nsensiblement, notamment pour son financement [...]. L’État s’attache à reconstruire le\npays, puis à contrôler le rythme de la croissance économique. Il cherche ensuite à\nrésoudre la crise des années 1970 et à développer une couverture sociale. Avant cette\ncrise, l’État veut conserver son équilibre budgétaire. Après la fin des années 1970,\nl’intervention de l’État est de plus en plus discutée, cette dernière étant jugée comme\nétant peu efficace pour lutter contre les déséquilibres économiques, notamment contre\nl’inflation. Depuis, la situation des finances publiques en France s’est progressivement\nérodée, comme en atteste la croissance du poids de la dette publique [...].\nSource : vie-publique, 20 mai 2024."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté.",
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez les notions de déficit public et de dette publique.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\nDémontrer sa capacité à distinguer les notions de déficit public et de dette publique. Il\nest attendu que le candidat mobilise ses connaissances sur ces deux notions. Aucune\nannexe n’est directement utilisable pour répondre à cette question néanmoins le\ncandidat pourra éventuellement déduire les définitions de l’ensemble du corpus\ndocumentaire\nLa dette publique correspond à l'ensemble des engagements financiers pris sous\nforme d'emprunts par l'État, les collectivités publiques et les organismes qui en\ndépendent directement. Alors que le déficit public est la situation dans laquelle les\nrecettes de l’ensemble de l’administration publique sont inférieures à ses dépenses au\ncours d’une année.\nLe déficit public alimente donc la dette publique."
+     },
+     {
+      "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020.",
+      "points": 1.0,
+      "corrige": "(1 point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…)\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe1). Il est attendu du candidat un commentaire de l’évolution de la dette\npublique sur la période. Pour compléter son commentaire, le candidat pourra utiliser\nses connaissances.\n\n\nEntre 2010 et 2020, la dette publique n’a cessé d’augmenter, passant d’environ\n1 700 à 2 650 milliards en ce qui concerne l’administration publique dans son\nensemble.\nPour l’État, nous pouvons constater que, sur cette même période, sa dette est\npassée de 1 300 à 2 100 milliards.\n\nIl est aussi possible de constater que les deux courbes suivent la même tendance.\nL’État comme l’administration publique en général s’endettent fortement ces […]"
+     },
+     {
+      "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques.",
+      "points": 1.5,
+      "corrige": "publiques. (1,5 point)\nCette question vise à évaluer si le candidat est capable de montrer qu’à travers sa\npolitique sociale et les dépenses publiques, l’État protège les individus contre les\nrisques sociaux en les limitant.\nAnnexe 2\nPlus de la moitié (572€ pour 1 000€ en 2019) des dépenses publiques sont destinées\nau financement de la protection sociale.\nCette protection sociale permet de financer des risques sociaux tels que :\n\n\n\n- La vieillesse avec 262 € (retraites),\n- La santé avec 195 €,\n- Le reste étant réparti entre le logement, la solidarité, le chômage et la famille.\nDonc les dépenses publiques financent bien le système de protection sociale par\nconséquent la prise en compte des risques sociaux et contribuent fortement à la dette"
+     },
+     {
+      "enonce": "Identifiez les mesures récentes engagées par l’État pour lutter contre les risques auxquels sont confrontés les ménages.",
+      "points": 1.5,
+      "corrige": "risques auxquels sont confrontés les ménages. (1,5 point)\nCette question vise à évaluer si le candidat est capable de mobiliser les annexes,\nainsi que ses connaissances afin de répondre à la question. (Annexes 3, 4, 5 et 6)\nOn attend que l’élève soit capable d’expliquer le lien entre mesures engagées et lutte\ncontre les risques sociaux.\nAccepter toute proposition pertinente des élèves concernant les mesures\nDans une logique d’assistance, ces mesures permettent de lutter contre le mal emploi,\nla pauvreté, la précarité… et donc de réduire les inégalités socioéconomiques\nPar exemple, l’allocation parent isolé de 115,74€ permet à un parent qui ne bénéficie\npas d’un 2ème revenu comme un couple de subvenir au mieux aux besoins de son\nenfant et donc de limiter les inégalités.\nConcernant le plan de soutien de 6,5 milliards d’€ (Aide pour l’emploi des jeunes avec\nune aide exceptionnelle de 5000 […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-liban",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES",
+     "ANNEXE 1 - Dépenses et recettes publiques entre 1993 et 2021.",
+     "ANNEXE 2 - Principaux ratios de finances publiques.",
+     "ANNEXE 3 - L’activité a fortement rebondi après une récession historique.",
+     "ANNEXE 4 - Loi de finances rectificative pour 2022.",
+     "ANNEXE 1 - Dépenses et recettes publiques entre 1993 et 2021",
+     "ANNEXE 2 - Principaux ratios de finances publiques",
+     "ANNEXE 3 - L’activité a fortement rebondi après une récession historique",
+     "ANNEXE 4 - Loi de finances rectificative pour 2022"
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le déficit public de la dette publique et retrouvez par le calcul le déficit public pour l’année 2021.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des dépenses et des recettes publiques des administrations publiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez en quoi les dépenses publiques favorisent la consommation.",
+      "points": 1.0,
+      "corrige": "On attend du candidat qu’il démontre par le mécanisme économique, que les\ndépenses publiques permettent d’augmenter le pouvoir d’achat, favorisant ainsi la\nconsommation.\n\n\n\nOn attend qu’il illustre ses propos avec des exemples tirés de l’annexe 4 et de ses\nconnaissances\nOn attend pas du candidat qu’il définisse la notion de pouvoir d’achat.\nLes dépenses publiques conjuguées à une politique de relance peuvent permettre aux\nménages d’augmenter leur pouvoir d’achat : par exemple, revalorisation du point\nd’indice de la fonction publique, revalorisation des bourses étudiantes, aide d’urgence\npour les foyers se chauffant au fioul, allocations familiales, allocations chômage…\n(annexe 4 et connaissances).\nL’augmentation du pouvoir d’achat peut être réinjectée dans la consommation des\nménage"
+     },
+     {
+      "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022.",
+      "points": 2.0,
+      "corrige": "Loi des finances rectificative 2022. (2 points)\nOn attend du candidat qu’il identifie les mesures mises en œuvre et les classe en\nfaisant la distinction entre cycles conjoncturels et structurels.\nOn attend également du candidat qu’il présente les caractéristiques des politiques\néconomiques.\nIl est attendu du candidat une exploitation des éléments de l’annexe 4 et de ses\nconnaissances.\nPolitiques conjoncturelles qui cherchent à « contrer » le cycle et auront une action de\ncourt terme :\nPolitique budgétaire pour relancer la croissance : baisse des impôts et augmentation\ndes dépenses publiques.\nA travers la politique budgétaire, les mesures prises permettent d’augmenter le pouvoir\nd’achat (ex : aide exceptionnelle de rentrée de 100 euros par foyer, majorée de 50\neuros par enfant, destinée aux bénéficiaires des minima sociaux (revenu de solidarité\nactive -RSA....) et de la prime d'activité, […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?",
+      "points": 5.0,
+      "corrige": "(5 points)\nCette question vise à développer une argumentation économique structurée en\nmobilisant des connaissances.\nLes questions précédentes ont permis de construire des éléments de réponse à cette\nquestion. Le corpus documentaire avec des parties non encore utilisées pour les\nquestions précédentes, apporte également des éléments de réponse au candidat. Le\ncandidat doit également mobiliser ses connaissances personnelles pour développer\nson argumentaire.\n\n\n\nLa politique budgétaire de l’Etat est-elle efficace en temps de crise ?\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E6.1",
+  "type": "exercices",
+  "section": 13,
+  "section_titre": "6.1 L’intervention de l’État",
+  "frequence_passee": 0.36,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’intervention de l’État français contribue-t-elle à développer l’activité économique ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Expliquez l’évolution des dépenses publiques de 2018 à 2019.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "6.1 L’intervention de l’État",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Les fonctions de l’État ont progressivement évolué d’un État exerçant une intervention minimale (ordre public, protection du pays, prélèvement des impôts) à un État-Providence combinant des fonctions de régulation et de stabilisation, d’allocation des ressources et de redistribution, ces fonctions étant le plus souvent concomitantes. La place de l’État peut être appréciée notamment à travers l’importance relative des prélèvements obligatoires dans l’économie (prélèvements obligatoires/PIB), à travers l’identification des domaines et des modalités d’intervention de l’État (par exemple, la protection sociale), et à travers le volume de ses dépenses.\nLe degré d’intervention de l’État dépend des choix de société réalisés (interventionnisme ou libéralisme). L’essentiel des ressources des administrations publiques provient des prélèvements obligatoires.\nIl y a déficit public lorsque les prélèvements obligatoires sont insuffisants pour couvrir les dépenses publiques. Ce déficit nourrit la dette publique.\nL’État est également un employeur et gère des monopoles publics (SNCF et RATP par exemple). Il est soumis à des choix de règlementation ou de dérégulation.\nCertains monopoles publics ont connu une ouverture à la concurrence : c’est notamment le cas des télécommunications après la vente des réseaux hertziens.\nNotions : L’État gendarme et l’État-providence. L’État et les entreprises publiques, semi- publiques et privées. L’interventionnisme et le libéralisme. Les dépenses publiques. Le déficit public et la dette publique.\nCapacité attendue : l'élève est capable les différences entre les notions d’État-gendarme d’État-providence,.\nCapacité attendue : l'élève est capable d’expliquer et et.\nCapacité attendue : l'élève est capable d’envisager le degré de participation de l’État à l’économie via des entreprises publiques, semi-publiques ou privées.\nCapacité attendue : l'élève est capable de distinguer le déficit public de la dette publique.\nCapacité attendue : l'élève est capable pourquoi l’allocation des ressources n’est plus efficace en présence d’une.\nCapacité attendue : l'élève est capable décrire l’évolution du rôle de l’État dans le cadre de européen.\nCapacité attendue : l'élève est capable les différents modes de financement des dépenses publiques.\nCapacité attendue : l'élève est capable d’énumérer.\nCapacité attendue : l'élève est capable de caractériser la progressivité des différents prélèvements obligatoires.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-liban",
+    "titre": "ANNEXE 2 - Principaux ratios de finances publiques",
+    "texte": "en % du PIB\nDéficit public\nDette publique\nRecettes publiques\nDépenses publiques\nPrélèvements obligatoires\n2018\n- 2,3\n97,8\n53,4\n55,6\n44,7\n2019\n- 3,1\n97,4\n52,3\n55,4\n43,8\n2020\n- 9,0\n114,9\n52,5\n61,4\n44,4\n2021\n- 6,5\n112,8\n52,5\n59,0\n44,3\nSource : Insee, comptes nationaux, base 2014"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 1 - Ratios de finances publiques en France",
+    "texte": "(en % du PIB)\nDéficit public\nDette publique\nRecettes publiques\nDépenses publiques\nPrélèvements obligatoires\n2018\n-2,3\n97,8\n53,4\n55,6\n44,7\n2019\n-3,1\n97,4\n52,3\n55,4\n43,8\n2020\n-8,9\n114,6\n52,5\n61,4\n44,4\n2021\n-6,5\n112,9\n52,8\n59,2\n44,5\nSource : Insee, DGFiP, DGTrésor, Notification de mars 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté.",
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez les notions de déficit public et de dette publique.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\nDémontrer sa capacité à distinguer les notions de déficit public et de dette publique. Il\nest attendu que le candidat mobilise ses connaissances sur ces deux notions. Aucune\nannexe n’est directement utilisable pour répondre à cette question néanmoins le\ncandidat pourra éventuellement déduire les définitions de l’ensemble du corpus\ndocumentaire\nLa dette publique correspond à l'ensemble des engagements financiers pris sous\nforme d'emprunts par l'État, les collectivités publiques et les organismes qui en\ndépendent directement. Alors que le déficit public est la situation dans laquelle les\nrecettes de l’ensemble de l’administration publique sont inférieures à ses dépenses au\ncours d’une année.\nLe déficit public alimente donc la dette publique."
+     },
+     {
+      "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020.",
+      "points": 1.0,
+      "corrige": "(1 point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…)\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe1). Il est attendu du candidat un commentaire de l’évolution de la dette\npublique sur la période. Pour compléter son commentaire, le candidat pourra utiliser\nses connaissances.\n\n\nEntre 2010 et 2020, la dette publique n’a cessé d’augmenter, passant d’environ\n1 700 à 2 650 milliards en ce qui concerne l’administration publique dans son\nensemble.\nPour l’État, nous pouvons constater que, sur cette même période, sa dette est\npassée de 1 300 à 2 100 milliards.\n\nIl est aussi possible de constater que les deux courbes suivent la même tendance.\nL’État comme l’administration publique en général s’endettent fortement ces […]"
+     },
+     {
+      "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques.",
+      "points": 1.5,
+      "corrige": "publiques. (1,5 point)\nCette question vise à évaluer si le candidat est capable de montrer qu’à travers sa\npolitique sociale et les dépenses publiques, l’État protège les individus contre les\nrisques sociaux en les limitant.\nAnnexe 2\nPlus de la moitié (572€ pour 1 000€ en 2019) des dépenses publiques sont destinées\nau financement de la protection sociale.\nCette protection sociale permet de financer des risques sociaux tels que :\n\n\n\n- La vieillesse avec 262 € (retraites),\n- La santé avec 195 €,\n- Le reste étant réparti entre le logement, la solidarité, le chômage et la famille.\nDonc les dépenses publiques financent bien le système de protection sociale par\nconséquent la prise en compte des risques sociaux et contribuent fortement à la dette"
+     },
+     {
+      "enonce": "Identifiez les mesures récentes engagées par l’État pour lutter contre les risques auxquels sont confrontés les ménages.",
+      "points": 1.5,
+      "corrige": "risques auxquels sont confrontés les ménages. (1,5 point)\nCette question vise à évaluer si le candidat est capable de mobiliser les annexes,\nainsi que ses connaissances afin de répondre à la question. (Annexes 3, 4, 5 et 6)\nOn attend que l’élève soit capable d’expliquer le lien entre mesures engagées et lutte\ncontre les risques sociaux.\nAccepter toute proposition pertinente des élèves concernant les mesures\nDans une logique d’assistance, ces mesures permettent de lutter contre le mal emploi,\nla pauvreté, la précarité… et donc de réduire les inégalités socioéconomiques\nPar exemple, l’allocation parent isolé de 115,74€ permet à un parent qui ne bénéficie\npas d’un 2ème revenu comme un couple de subvenir au mieux aux besoins de son\nenfant et donc de limiter les inégalités.\nConcernant le plan de soutien de 6,5 milliards d’€ (Aide pour l’emploi des jeunes avec\nune aide exceptionnelle de 5000 […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C6.2",
+  "type": "cas",
+  "section": 14,
+  "section_titre": "6.2 Défaillances des marchés et défaillances de l’État",
+  "partenaire": 8,
+  "partenaire_titre": "3.3 La structure de consommation des ménages",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "proba_annee_suivante": 0.134,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "6.2 Défaillances des marchés et défaillances de l’État",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Les interventions économiques de l’État visent à corriger les défaillances et dysfonctionnements des marchés. Usuellement, on dénombre quatre types de défaillances des marchés : - les asymétries d’information ; - la concurrence imparfaite ; - les externalités ; - les biens publics et les biens communs.\nLes défaillances des marchés ne permettent pas une allocation efficace des ressources. L’État doit alors intervenir pour corriger ces défaillances de marché.\nIl peut notamment : - améliorer la qualité de l’information sur les marchés (Autorité des Marchés Financiers, labels sur les produits, etc.) ; - mettre en place une politique de la concurrence ; - encourager les activités à l’origine d’externalités positives et limiter les activités sources d’externalités négatives ; - organiser la production de biens publics et éviter la surexploitation des biens communs. Cependant, l’économie peut également être confrontée à des dysfonctionnements de l’action publique.\nNotions : Les défaillances des marchés. Les asymétries d’information. Les externalités. Les biens publics et les biens communs. Les défaillances de l’État.\nCapacité attendue : l'élève est capable de justifier défaillance de marché.\nCapacité attendue : l'élève est capable des solutions permettant de corriger.\nCapacité attendue : l'élève est capable d’énoncer ces défaillances de marché.\nCapacité attendue : l'élève est capable des situations où l’on peut parler de défaillance de l’État.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "3.3 La structure de consommation des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.\nLa part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.\nLa part des services dans la structure de consommation augmente notamment parce que son prix relatif par rapport aux produits industriels augmente fortement.\nNotions : La composition des dépenses des ménages. Les coefficients budgétaires. Les prix relatifs comparés des biens et services.\nCapacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 5 : Qu’est-ce que le protectionnisme ?",
+    "texte": "Le protectionnisme correspond à une doctrine économique mais également à une\npolitique économique qui, à travers l’instauration des barrières tarifaires et non\ntarifaires, vise à limiter les importations de biens et de services afin de favoriser ou de\nprotéger la production nationale de la concurrence étrangère et ainsi rééquilibrer la\nbalance commerciale. La principale barrière tarifaire est le droit de douane, c’est-àdire un impôt prélevé sur une marchandise importée lors de son entrée sur le territoire\nnational. L’objectif de cette mesure est d’augmenter le prix des produits importés afin\nd’en décourager la consommation. […]\nL’adoption d’une politique protectionniste peut avoir pour objectif de protéger certains\nsecteurs économiques comme les industries naissantes qui ne sont pas assez\ncompétitives pour affronter la concurrence internationale, laisser le temps à des\nactivités vieillissantes de se reconvertir ou bien encore de sauvegarder l’emploi dans\nles secteurs menacés.\nSource : Vie publique, 2019\nPage : 11/14"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 5 - Les instruments de la politique environnementale peuvent se heurter",
+    "texte": "aux dysfonctionnements de l’action publique.\nDu fait de leurs avantages et leurs inconvénients respectifs, il semble que les différents\ninstruments de la politique environnementale doivent avant tout être utilisés de façon\ncomplémentaire, en choisissant au cas par cas l’instrument qui s’adaptera le mieux aux\ncaractéristiques de la situation envisagée (type de pollution, nombre d’acteurs\nconcernés, coûts de transaction, etc.). Là où par exemple la réglementation paraîtra\nparfaitement légitime en cas de dommages environnementaux importants et\nirréversibles, les instruments économiques incitatifs comme la fiscalité pourront être\nprivilégiés dans d’autres situations en raison de leur plus grande efficacité économique.\nLes principaux instruments dont disposent les pouvoirs publics pour faire face aux\nexternalités négatives sur l’environnement peuvent néanmoins se heurter aux\ndysfonctionnements de l’action publique elle-même. Ceux-ci peuvent prendre plusieurs\nformes :\n- On parle d’inefficience de l’action publique lorsque le coût de la politique menée\napparaît beaucoup plus élevé que ce qui était initialement prévu, ce qui peut conduire à\nla remise en cause du projet, ou tout du moins à son ralentissement. Dans un rapport\npublié en 2020, la Cour des comptes constatait ainsi que les démantèlements des\ninstallations nucléaires en cours entraînaient des coûts bien supérieurs à ce qui avait été\nenvisagé dans les premières évaluations (une augmentation des devis de plus de 96%,\nsoit quasiment le double). […]\n- L’ineffectivité de l’action publique renvoie elle à une situation où la prise de décision\n(l’annonce d’un ministère ou l’adoption d’une loi) n’est pas suivie des mesures\nd’application pourtant nécessaires à sa mise en œuvre. Concrètement, l’action publique\ndevient ineffective lorsque les décrets (lesquels doivent normalement permettre\nl’application d’une loi) ne sont pas mis en place. C’est aussi le cas lorsque les directives\neuropéennes ne sont pas appliquées au niveau national ou seulement avec beaucoup\nde retard. Cela peut d’ailleurs entraîner des condamnations de la part de la Cour de\njustice de l’Union européenne. La France a par exemple été condamnée en […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-asie",
+    "titre": "Annexe 3 : Quel est le champ de la politique de l’emploi ?",
+    "texte": "On entend par politique de l’emploi les interventions publiques qui ont pour objectif de\ncorriger les déséquilibres et les conséquences néfastes du marché du travail.\nCes politiques visent à abaisser le coût du travail dans le but de maintenir ou\nd’encourager la création d’emplois. Elles permettent également d’améliorer la\ncompétitivité des entreprises en diminuant le coût de la main-d’œuvre ou de\nredynamiser économiquement certaines zones géographiques en incitant les\nentreprises à s’y implanter.\nParmi les mesures ciblées, on trouve les dispositifs s’adressant à des catégories\nparticulières, tels que les jeunes, les chômeurs de longue durée, les seniors, les\npersonnes handicapées… Ces mesures permettent de compenser des difficultés\nspécifiques (manque ou absence de qualification, nécessité d’aménager un poste de\ntravail par exemple) afin de rendre les populations cibles plus « employables ».\nSource : www.vie-publique.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+    "texte": "DCSi : dépenses courantes de santé.\nPPA : parité pouvoir d’achat.\nNM : Estonie, Lettonie, Lituanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Pologne.\nLecture : En 2017, en Espagne, les ménages ont financé par un paiement direct 24%\nde la dépense courante de santé. Ce qui correspond à 600€ par habitant.\nLes parités pouvoir d’achat permettent de comparer les dépenses de santé en\néliminant les différences de niveau de vie entre les pays. Dans ce graphique, la\nréférence est le pouvoir d’achat pour 1 euro en France.\nSource : OCDE, Les dépenses de santé en 2018, édition 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : La consommation des ménages en 2019.",
+    "texte": "En 2019, la dépense totale de consommation des ménages français s’élevait à\n1 668,2 milliards d’euros, soit plus de la moitié du PIB.\nPostes budgétaires\nEn milliards d’euros\nProduits alimentaires et boissons non alcoolisées\n165,6\nBoissons alcoolisées et tabac\n48,2\nHabillement et chaussures\n44,9\nLogement, eau, gaz, électricité\n332,1\nMeubles, articles de ménage et entretien courant de l'habitation\n57,9\nSanté\n50,5\nTransports\n178,8\nCommunications\n29,2\nLoisirs et culture\n100,3\nDivers…\n…\nDépenses de consommation\n1 668,2\nLe premier poste budgétaire des Français est le logement qui représente près du quart\nde la consommation totale. Les transports, la communication, les loisirs et la culture\nreprésentent près de 20% de la consommation totale des Français.\nSource : INSEE, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Croissance du volume du commerce mondial des marchandises et du PIB",
+     "Annexe 2 : La facilitation des échanges.",
+     "Annexe 3 : Les mesures non-tarifaires (MNT).",
+     "Annexe 4 : OMC, redonner du sens au libre-échange.",
+     "Annexe 5 : Trump a perdu la guerre du protectionnisme."
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019.",
+      "points": null,
+      "corrige": "marchandises et le PIB mondiaux entre 2012 et 2019.\n– Cette question vise à évaluer si le candidat est capable d’interpréter des données\néconomiques présentées sous différents supports (textes, tableaux, graphiques…).\n– Le candidat doit bien voir qu’il s’agit de variations des taux de croissance.\n– La variation de ces agrégats est donnée en volume et non en valeur pour éliminer\nl’effet de la variation des prix.\n– On attend également du candidat qu’il soit capable d’identifier la corrélation entre la\ncroissance du volume du commerce des marchandises et la croissance du PIB réel\nmondial, sans forcément identifier une relation cause-effet.\n– Pour répondre à cette question, le candidat pourra s’appuyer principalement sur\nl’annexe 1 ainsi que sur ses connaissances personnelles.\nL’évolution de la croissance du volume de commerce des marchandises et du PIB réel\nmondial permet de constater une […]"
+     },
+     {
+      "enonce": "Caractérisez les bienfaits du libre-échange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- décrire les avantages du libre-échange,\n- d’expliquer le libre-échange au travers ses avantages sans pour autant le définir.\nPour répondre à cette question, le candidat pourra s’appuyer principalement sur les annexes\n1 et 2 ainsi que sur ses connaissances personnelles.\n\nQue les pays soient en développement ou des économies émergentes, ils ont tous la\npossibilité de participer aux chaînes de valeur mondiales. Le libre-échange profite à\ntous les pays. De même, les pays participant à l’échange bénéficient de gains\nmutuels : l’accès à une variété de produits moins onéreux et de meilleure qualité."
+     },
+     {
+      "enonce": "Expliquez les mesures protectionnistes de contrôle des échanges.",
+      "points": null,
+      "corrige": "échanges.\nCette question vise à évaluer si le candidat est capable de :\n- définir et d’expliquer les différentes mesures protectionnistes\n- Pour répondre à cette question, le candidat pourra s’appuyer principalement sur l’annexe 3\nainsi que sur ses connaissances personnelles.\n\nLes mesures de politique protectionniste de contrôle des échanges sont les droits de\ndouane et les restrictions quantitatives à l’importation (barrières non tarifaires).\n Les droits de douane consistent à fixer une taxe, un impôt sur les produits\nimportés.\n Les restrictions quantitatives à l’importation consistent à limiter quantitativement\nl’importation de produits étrangers.\n Les normes qualitatives qui permettent d’instaurer la confiance sur un type\ndéfini de produits et empêchent les autres de pénétrer un marché."
+     },
+     {
+      "enonce": "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- citer et présenter des défaillances de marché.\nPour répondre à cette question, le candidat pourra repérer les défaillances de marchés citées\ndans l’annexe 3 et exposer ses connaissances personnelles.\nOn attend du candidat qu’il présente au moins deux défaillances.\n\nLes marchés comportent certaines défaillances, en l’occurrence des asymétries\nd’information ou les externalités négatives. Les défaillances du fonctionnement\n« naturel » des marchés entraînent une mauvaise allocation des ressources.\n\nL’asymétrie d’information se produit lorsque les deux parties de l’échange ne\ndisposent pas des mêmes informations que l’autre. Le problème est que\nl’information imparfaite peut pousser l’une des parties à faire un choix qu’elle\nn’aurait pas fait si elle avait eu toutes les informations. Il s’agit d’une mauvaise\nallocation des […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?",
+      "points": null,
+      "corrige": "suivante :\nUne politique protectionniste peut-elle être favorable à la croissance ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4) ont permis\nde construire des éléments de réponse pour cette question 5. Le corpus documentaire apporte\négalement des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre d’arguments\nmoins important, mais les développer de façon plus approfondie.\n\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\nArguments et concepts\n- […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES",
+     "ANNEXE 1 - Ratios de finances publiques.",
+     "ANNEXE 2 - Structure des dépenses publiques en 2020.",
+     "ANNEXE 3 - Exemples d’entreprises à participation publique (2018).",
+     "ANNEXE 4 - Les entreprises publiques, une espèce en voie de disparition ?",
+     "ANNEXE 5 - Le budget de l'État.",
+     "ANNEXE 6 - Prix des carburants : remise de 30 centimes d'euro prolongée jusqu'au",
+     "ANNEXE 7 - Le prix des produits pétroliers au plus haut depuis longtemps.",
+     "ANNEXE 1 - Ratios de finances publiques en France",
+     "ANNEXE 2 - Structure des dépenses publiques en 2020 (en %).",
+     "Annexe 3 - Exemples d’entreprises à participation publique (2018)",
+     "ANNEXE 4 - Les entreprises publiques, une espèce en voie de disparition ?",
+     "ANNEXE 5 - Le budget de l'État",
+     "ANNEXE 6 - Prix des carburants : remise de 30 centimes d'euro prolongée",
+     "ANNEXE 7 - Le prix des produits pétroliers au plus haut depuis longtemps"
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez la situation des finances publiques en France depuis 2018.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez le lien qui existe entre prélèvements obligatoires, déficit public et dette publique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez que l’intervention de l’État français sur le marché des carburants modifie les mécanismes de marché.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez que les entreprises publiques influencent le budget de l’État.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’intervention de l’État français contribue-t-elle à développer l’activité économique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E6.2",
+  "type": "exercices",
+  "section": 14,
+  "section_titre": "6.2 Défaillances des marchés et défaillances de l’État",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "6.2 Défaillances des marchés et défaillances de l’État",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Les interventions économiques de l’État visent à corriger les défaillances et dysfonctionnements des marchés. Usuellement, on dénombre quatre types de défaillances des marchés : - les asymétries d’information ; - la concurrence imparfaite ; - les externalités ; - les biens publics et les biens communs.\nLes défaillances des marchés ne permettent pas une allocation efficace des ressources. L’État doit alors intervenir pour corriger ces défaillances de marché.\nIl peut notamment : - améliorer la qualité de l’information sur les marchés (Autorité des Marchés Financiers, labels sur les produits, etc.) ; - mettre en place une politique de la concurrence ; - encourager les activités à l’origine d’externalités positives et limiter les activités sources d’externalités négatives ; - organiser la production de biens publics et éviter la surexploitation des biens communs. Cependant, l’économie peut également être confrontée à des dysfonctionnements de l’action publique.\nNotions : Les défaillances des marchés. Les asymétries d’information. Les externalités. Les biens publics et les biens communs. Les défaillances de l’État.\nCapacité attendue : l'élève est capable de justifier défaillance de marché.\nCapacité attendue : l'élève est capable des solutions permettant de corriger.\nCapacité attendue : l'élève est capable d’énoncer ces défaillances de marché.\nCapacité attendue : l'élève est capable des situations où l’on peut parler de défaillance de l’État.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 5 : Qu’est-ce que le protectionnisme ?",
+    "texte": "Le protectionnisme correspond à une doctrine économique mais également à une\npolitique économique qui, à travers l’instauration des barrières tarifaires et non\ntarifaires, vise à limiter les importations de biens et de services afin de favoriser ou de\nprotéger la production nationale de la concurrence étrangère et ainsi rééquilibrer la\nbalance commerciale. La principale barrière tarifaire est le droit de douane, c’est-àdire un impôt prélevé sur une marchandise importée lors de son entrée sur le territoire\nnational. L’objectif de cette mesure est d’augmenter le prix des produits importés afin\nd’en décourager la consommation. […]\nL’adoption d’une politique protectionniste peut avoir pour objectif de protéger certains\nsecteurs économiques comme les industries naissantes qui ne sont pas assez\ncompétitives pour affronter la concurrence internationale, laisser le temps à des\nactivités vieillissantes de se reconvertir ou bien encore de sauvegarder l’emploi dans\nles secteurs menacés.\nSource : Vie publique, 2019\nPage : 11/14"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Croissance du volume du commerce mondial des marchandises et du PIB",
+     "Annexe 2 : La facilitation des échanges.",
+     "Annexe 3 : Les mesures non-tarifaires (MNT).",
+     "Annexe 4 : OMC, redonner du sens au libre-échange.",
+     "Annexe 5 : Trump a perdu la guerre du protectionnisme."
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019.",
+      "points": null,
+      "corrige": "marchandises et le PIB mondiaux entre 2012 et 2019.\n– Cette question vise à évaluer si le candidat est capable d’interpréter des données\néconomiques présentées sous différents supports (textes, tableaux, graphiques…).\n– Le candidat doit bien voir qu’il s’agit de variations des taux de croissance.\n– La variation de ces agrégats est donnée en volume et non en valeur pour éliminer\nl’effet de la variation des prix.\n– On attend également du candidat qu’il soit capable d’identifier la corrélation entre la\ncroissance du volume du commerce des marchandises et la croissance du PIB réel\nmondial, sans forcément identifier une relation cause-effet.\n– Pour répondre à cette question, le candidat pourra s’appuyer principalement sur\nl’annexe 1 ainsi que sur ses connaissances personnelles.\nL’évolution de la croissance du volume de commerce des marchandises et du PIB réel\nmondial permet de constater une […]"
+     },
+     {
+      "enonce": "Caractérisez les bienfaits du libre-échange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- décrire les avantages du libre-échange,\n- d’expliquer le libre-échange au travers ses avantages sans pour autant le définir.\nPour répondre à cette question, le candidat pourra s’appuyer principalement sur les annexes\n1 et 2 ainsi que sur ses connaissances personnelles.\n\nQue les pays soient en développement ou des économies émergentes, ils ont tous la\npossibilité de participer aux chaînes de valeur mondiales. Le libre-échange profite à\ntous les pays. De même, les pays participant à l’échange bénéficient de gains\nmutuels : l’accès à une variété de produits moins onéreux et de meilleure qualité."
+     },
+     {
+      "enonce": "Expliquez les mesures protectionnistes de contrôle des échanges.",
+      "points": null,
+      "corrige": "échanges.\nCette question vise à évaluer si le candidat est capable de :\n- définir et d’expliquer les différentes mesures protectionnistes\n- Pour répondre à cette question, le candidat pourra s’appuyer principalement sur l’annexe 3\nainsi que sur ses connaissances personnelles.\n\nLes mesures de politique protectionniste de contrôle des échanges sont les droits de\ndouane et les restrictions quantitatives à l’importation (barrières non tarifaires).\n Les droits de douane consistent à fixer une taxe, un impôt sur les produits\nimportés.\n Les restrictions quantitatives à l’importation consistent à limiter quantitativement\nl’importation de produits étrangers.\n Les normes qualitatives qui permettent d’instaurer la confiance sur un type\ndéfini de produits et empêchent les autres de pénétrer un marché."
+     },
+     {
+      "enonce": "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- citer et présenter des défaillances de marché.\nPour répondre à cette question, le candidat pourra repérer les défaillances de marchés citées\ndans l’annexe 3 et exposer ses connaissances personnelles.\nOn attend du candidat qu’il présente au moins deux défaillances.\n\nLes marchés comportent certaines défaillances, en l’occurrence des asymétries\nd’information ou les externalités négatives. Les défaillances du fonctionnement\n« naturel » des marchés entraînent une mauvaise allocation des ressources.\n\nL’asymétrie d’information se produit lorsque les deux parties de l’échange ne\ndisposent pas des mêmes informations que l’autre. Le problème est que\nl’information imparfaite peut pousser l’une des parties à faire un choix qu’elle\nn’aurait pas fait si elle avait eu toutes les informations. Il s’agit d’une mauvaise\nallocation des […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?",
+      "points": null,
+      "corrige": "suivante :\nUne politique protectionniste peut-elle être favorable à la croissance ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4) ont permis\nde construire des éléments de réponse pour cette question 5. Le corpus documentaire apporte\négalement des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre d’arguments\nmoins important, mais les développer de façon plus approfondie.\n\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\nArguments et concepts\n- […]"
+     }
+    ]
+   }
+  ]
+ }
+]

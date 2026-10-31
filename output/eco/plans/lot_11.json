@@ -1,0 +1,739 @@
+[
+ {
+  "id": "M1",
+  "type": "sujet_blanc",
+  "section": 13,
+  "section_titre": "6.1 L’intervention de l’État",
+  "partenaire": 0,
+  "partenaire_titre": "1.1 Les agents économiques et les différents types de biens et services",
+  "frequence_passee": 0.36,
+  "inedit": false,
+  "proba_annee_suivante": 0.228,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Distinguez les notions de déficit public et de dette publique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "6.1 L’intervention de l’État",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Les fonctions de l’État ont progressivement évolué d’un État exerçant une intervention minimale (ordre public, protection du pays, prélèvement des impôts) à un État-Providence combinant des fonctions de régulation et de stabilisation, d’allocation des ressources et de redistribution, ces fonctions étant le plus souvent concomitantes. La place de l’État peut être appréciée notamment à travers l’importance relative des prélèvements obligatoires dans l’économie (prélèvements obligatoires/PIB), à travers l’identification des domaines et des modalités d’intervention de l’État (par exemple, la protection sociale), et à travers le volume de ses dépenses.\nLe degré d’intervention de l’État dépend des choix de société réalisés (interventionnisme ou libéralisme). L’essentiel des ressources des administrations publiques provient des prélèvements obligatoires.\nIl y a déficit public lorsque les prélèvements obligatoires sont insuffisants pour couvrir les dépenses publiques. Ce déficit nourrit la dette publique.\nL’État est également un employeur et gère des monopoles publics (SNCF et RATP par exemple). Il est soumis à des choix de règlementation ou de dérégulation.\nCertains monopoles publics ont connu une ouverture à la concurrence : c’est notamment le cas des télécommunications après la vente des réseaux hertziens.\nNotions : L’État gendarme et l’État-providence. L’État et les entreprises publiques, semi- publiques et privées. L’interventionnisme et le libéralisme. Les dépenses publiques. Le déficit public et la dette publique.\nCapacité attendue : l'élève est capable les différences entre les notions d’État-gendarme d’État-providence,.\nCapacité attendue : l'élève est capable d’expliquer et et.\nCapacité attendue : l'élève est capable d’envisager le degré de participation de l’État à l’économie via des entreprises publiques, semi-publiques ou privées.\nCapacité attendue : l'élève est capable de distinguer le déficit public de la dette publique.\nCapacité attendue : l'élève est capable pourquoi l’allocation des ressources n’est plus efficace en présence d’une.\nCapacité attendue : l'élève est capable décrire l’évolution du rôle de l’État dans le cadre de européen.\nCapacité attendue : l'élève est capable les différents modes de financement des dépenses publiques.\nCapacité attendue : l'élève est capable d’énumérer.\nCapacité attendue : l'élève est capable de caractériser la progressivité des différents prélèvements obligatoires.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "1.1 Les agents économiques et les différents types de biens et services",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "L’un des objets de l’économie est d’étudier comment les individus et les groupes d’individus organisent l’utilisation et la répartition des ressources rares à leur disposition, pour obtenir ce dont ils ont besoin, voire ce qu’ils désirent. Face à des désirs potentiellement illimités, les individus doivent choisir sous contrainte (revenu, temps, information) quels besoins ou quels désirs satisfaire en premier lieu et comment arbitrer entre différents moyens pour atteindre un certain niveau de satisfaction.\nPour répondre à leurs besoins, les individus en société s’organisent. Une spécialisation dans des grandes fonctions se développe, la notion d’agent économique apparaît.\nLes ressources nécessaires pour produire les biens et services qui répondent aux besoins des individus ont un coût et une disponibilité limitée : c’est la notion de contrainte économique.\nNotions : Les différents agents économiques et leur fonction principale. Les différents types de biens et services. Les contraintes économiques : revenu, temps, espace, information. L’arbitrage entre les différentes activités et les choix économiques.\nCapacité attendue : l'élève est capable d’identifier les acteurs économiques et leurs fonctions.\nCapacité attendue : l'élève est capable les choix économiques à l’aide des.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-liban",
+    "titre": "ANNEXE 2 - Principaux ratios de finances publiques",
+    "texte": "en % du PIB\nDéficit public\nDette publique\nRecettes publiques\nDépenses publiques\nPrélèvements obligatoires\n2018\n- 2,3\n97,8\n53,4\n55,6\n44,7\n2019\n- 3,1\n97,4\n52,3\n55,4\n43,8\n2020\n- 9,0\n114,9\n52,5\n61,4\n44,4\n2021\n- 6,5\n112,8\n52,5\n59,0\n44,3\nSource : Insee, comptes nationaux, base 2014"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 1 - Ratios de finances publiques en France",
+    "texte": "(en % du PIB)\nDéficit public\nDette publique\nRecettes publiques\nDépenses publiques\nPrélèvements obligatoires\n2018\n-2,3\n97,8\n53,4\n55,6\n44,7\n2019\n-3,1\n97,4\n52,3\n55,4\n43,8\n2020\n-8,9\n114,6\n52,5\n61,4\n44,4\n2021\n-6,5\n112,9\n52,8\n59,2\n44,5\nSource : Insee, DGFiP, DGTrésor, Notification de mars 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 5 - Le budget de l'État",
+    "texte": "Le budget de l’État correspond à l’ensemble de ses ressources et de ses dépenses.\nL’essentiel des ressources provient des impôts et des taxes payées par les citoyens\net les entreprises. Les dépenses correspondent à l’argent que l’État utilise pour\nfinancer l’action publique : police, justice, recherche, éducation… Depuis plus de\nquarante ans, les dépenses de l’État sont supérieures à ses recettes. Ainsi, le budget\nfait apparaître un déficit. L’accumulation de ces déficits au cours des années constitue\nla dette de l’État.\nLes dépenses de l’État comprennent des dépenses de personnel, de fonctionnement,\nd’intervention (exemple : aides économiques), d’investissement (exemple :\nconstruction des routes) ainsi que le remboursement des intérêts de la dette. Le budget\nde l’État propose une présentation des dépenses par « destination » (Missions, ellesmêmes déclinées en programmes), permettant au citoyen de bien comprendre à quelle\npolitique publique ou « mission » est affecté l’argent de ses impôts.\nLes recettes de l’État sont l’ensemble des ressources à sa disposition pour la mise en\nœuvre des politiques publiques. Chaque année, elles sont synthétisées dans le budget\nde l’État. L’essentiel de ces ressources vient des recettes fiscales – soit plus de 90 %\ndu total des recettes – constituées d’impôts directs ou indirects prélevés à la fois sur\nles citoyens et les entreprises. Ses autres recettes proviennent de recettes non fiscales\ntelles que le produit des amendes ou des jeux.\nSource : Budget.gouv.fr La plateforme des finances publiques,\ndu budget de l’État et de la performance publique données 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-metropole",
+    "titre": "Annexe 1 – Une petite histoire de l'interventionnisme.",
+    "texte": "Avant la crise de 1929, le budget de l'État avait pour fonction principale de financer les\nadministrations. Pour faire face à la crise, les pouvoirs publics tendent à utiliser le\nbudget comme un levier économique. [...] Cela passe par l’augmentation des\ndépenses publiques, l’extension de leurs domaines d’intervention, le rôle redistributif\net incitatif de la politique fiscale et l’intervention directe de l’État dans l’économie [...]\nUne hausse des dépenses publiques, même non financée par les ressources\ncourantes, permet de soutenir le pouvoir d’achat des consommateurs et la demande\ns’adressant aux entreprises.\nAprès la Seconde Guerre mondiale, l’intervention de l’État dans l’économie augmente\nsensiblement, notamment pour son financement [...]. L’État s’attache à reconstruire le\npays, puis à contrôler le rythme de la croissance économique. Il cherche ensuite à\nrésoudre la crise des années 1970 et à développer une couverture sociale. Avant cette\ncrise, l’État veut conserver son équilibre budgétaire. Après la fin des années 1970,\nl’intervention de l’État est de plus en plus discutée, cette dernière étant jugée comme\nétant peu efficace pour lutter contre les déséquilibres économiques, notamment contre\nl’inflation. Depuis, la situation des finances publiques en France s’est progressivement\nérodée, comme en atteste la croissance du poids de la dette publique [...].\nSource : vie-publique, 20 mai 2024."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté.",
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez les notions de déficit public et de dette publique.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\nDémontrer sa capacité à distinguer les notions de déficit public et de dette publique. Il\nest attendu que le candidat mobilise ses connaissances sur ces deux notions. Aucune\nannexe n’est directement utilisable pour répondre à cette question néanmoins le\ncandidat pourra éventuellement déduire les définitions de l’ensemble du corpus\ndocumentaire\nLa dette publique correspond à l'ensemble des engagements financiers pris sous\nforme d'emprunts par l'État, les collectivités publiques et les organismes qui en\ndépendent directement. Alors que le déficit public est la situation dans laquelle les\nrecettes de l’ensemble de l’administration publique sont inférieures à ses dépenses au\ncours d’une année.\nLe déficit public alimente donc la dette publique."
+     },
+     {
+      "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020.",
+      "points": 1.0,
+      "corrige": "(1 point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…)\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe1). Il est attendu du candidat un commentaire de l’évolution de la dette\npublique sur la période. Pour compléter son commentaire, le candidat pourra utiliser\nses connaissances.\n\n\nEntre 2010 et 2020, la dette publique n’a cessé d’augmenter, passant d’environ\n1 700 à 2 650 milliards en ce qui concerne l’administration publique dans son\nensemble.\nPour l’État, nous pouvons constater que, sur cette même période, sa dette est\npassée de 1 300 à 2 100 milliards.\n\nIl est aussi possible de constater que les deux courbes suivent la même tendance.\nL’État comme l’administration publique en général s’endettent fortement ces […]"
+     },
+     {
+      "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques.",
+      "points": 1.5,
+      "corrige": "publiques. (1,5 point)\nCette question vise à évaluer si le candidat est capable de montrer qu’à travers sa\npolitique sociale et les dépenses publiques, l’État protège les individus contre les\nrisques sociaux en les limitant.\nAnnexe 2\nPlus de la moitié (572€ pour 1 000€ en 2019) des dépenses publiques sont destinées\nau financement de la protection sociale.\nCette protection sociale permet de financer des risques sociaux tels que :\n\n\n\n- La vieillesse avec 262 € (retraites),\n- La santé avec 195 €,\n- Le reste étant réparti entre le logement, la solidarité, le chômage et la famille.\nDonc les dépenses publiques financent bien le système de protection sociale par\nconséquent la prise en compte des risques sociaux et contribuent fortement à la dette"
+     },
+     {
+      "enonce": "Identifiez les mesures récentes engagées par l’État pour lutter contre les risques auxquels sont confrontés les ménages.",
+      "points": 1.5,
+      "corrige": "risques auxquels sont confrontés les ménages. (1,5 point)\nCette question vise à évaluer si le candidat est capable de mobiliser les annexes,\nainsi que ses connaissances afin de répondre à la question. (Annexes 3, 4, 5 et 6)\nOn attend que l’élève soit capable d’expliquer le lien entre mesures engagées et lutte\ncontre les risques sociaux.\nAccepter toute proposition pertinente des élèves concernant les mesures\nDans une logique d’assistance, ces mesures permettent de lutter contre le mal emploi,\nla pauvreté, la précarité… et donc de réduire les inégalités socioéconomiques\nPar exemple, l’allocation parent isolé de 115,74€ permet à un parent qui ne bénéficie\npas d’un 2ème revenu comme un couple de subvenir au mieux aux besoins de son\nenfant et donc de limiter les inégalités.\nConcernant le plan de soutien de 6,5 milliards d’€ (Aide pour l’emploi des jeunes avec\nune aide exceptionnelle de 5000 […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-liban",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES",
+     "ANNEXE 1 - Dépenses et recettes publiques entre 1993 et 2021.",
+     "ANNEXE 2 - Principaux ratios de finances publiques.",
+     "ANNEXE 3 - L’activité a fortement rebondi après une récession historique.",
+     "ANNEXE 4 - Loi de finances rectificative pour 2022.",
+     "ANNEXE 1 - Dépenses et recettes publiques entre 1993 et 2021",
+     "ANNEXE 2 - Principaux ratios de finances publiques",
+     "ANNEXE 3 - L’activité a fortement rebondi après une récession historique",
+     "ANNEXE 4 - Loi de finances rectificative pour 2022"
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le déficit public de la dette publique et retrouvez par le calcul le déficit public pour l’année 2021.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des dépenses et des recettes publiques des administrations publiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez en quoi les dépenses publiques favorisent la consommation.",
+      "points": 1.0,
+      "corrige": "On attend du candidat qu’il démontre par le mécanisme économique, que les\ndépenses publiques permettent d’augmenter le pouvoir d’achat, favorisant ainsi la\nconsommation.\n\n\n\nOn attend qu’il illustre ses propos avec des exemples tirés de l’annexe 4 et de ses\nconnaissances\nOn attend pas du candidat qu’il définisse la notion de pouvoir d’achat.\nLes dépenses publiques conjuguées à une politique de relance peuvent permettre aux\nménages d’augmenter leur pouvoir d’achat : par exemple, revalorisation du point\nd’indice de la fonction publique, revalorisation des bourses étudiantes, aide d’urgence\npour les foyers se chauffant au fioul, allocations familiales, allocations chômage…\n(annexe 4 et connaissances).\nL’augmentation du pouvoir d’achat peut être réinjectée dans la consommation des\nménage"
+     },
+     {
+      "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022.",
+      "points": 2.0,
+      "corrige": "Loi des finances rectificative 2022. (2 points)\nOn attend du candidat qu’il identifie les mesures mises en œuvre et les classe en\nfaisant la distinction entre cycles conjoncturels et structurels.\nOn attend également du candidat qu’il présente les caractéristiques des politiques\néconomiques.\nIl est attendu du candidat une exploitation des éléments de l’annexe 4 et de ses\nconnaissances.\nPolitiques conjoncturelles qui cherchent à « contrer » le cycle et auront une action de\ncourt terme :\nPolitique budgétaire pour relancer la croissance : baisse des impôts et augmentation\ndes dépenses publiques.\nA travers la politique budgétaire, les mesures prises permettent d’augmenter le pouvoir\nd’achat (ex : aide exceptionnelle de rentrée de 100 euros par foyer, majorée de 50\neuros par enfant, destinée aux bénéficiaires des minima sociaux (revenu de solidarité\nactive -RSA....) et de la prime d'activité, […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?",
+      "points": 5.0,
+      "corrige": "(5 points)\nCette question vise à développer une argumentation économique structurée en\nmobilisant des connaissances.\nLes questions précédentes ont permis de construire des éléments de réponse à cette\nquestion. Le corpus documentaire avec des parties non encore utilisées pour les\nquestions précédentes, apporte également des éléments de réponse au candidat. Le\ncandidat doit également mobiliser ses connaissances personnelles pour développer\nson argumentaire.\n\n\n\nLa politique budgétaire de l’Etat est-elle efficace en temps de crise ?\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M2",
+  "type": "sujet_blanc",
+  "section": 17,
+  "section_titre": "7.1 Activité et chômage",
+  "partenaire": 6,
+  "partenaire_titre": "3.1 L’arbitrage entre consommation et épargne",
+  "frequence_passee": 0.47,
+  "inedit": false,
+  "proba_annee_suivante": 0.205,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "7.1 Activité et chômage",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "Selon le BIT (Bureau international du travail) et l’INSEE, le chômage peut prendre différentes formes en fonction des situations auxquelles il correspond (chômage de plein emploi, chômage structurel / conjoncturel, chômage volontaire / involontaire, etc.). Les deux mesures principales du chômage sont le taux de chômage et le taux d’emploi, constitutifs du taux d’activité.\nNotions : Les différentes formes de chômage. Le taux de chômage et le taux d’emploi.\nCapacité attendue : l'élève est capable calculer le taux d’activité, le taux de chômage et le taux d’emploi de.\nCapacité attendue : l'élève est capable d’interpréter l’évolution de ces trois taux en France à partir de courbes.\nCapacité attendue : l'élève est capable de décrire et de tendances.\nCapacité attendue : l'élève est capable de définir ce que sont une situation de plein emploi et une situation de sous-emploi.\nCapacité attendue : l'élève est capable et d’interpréter les différentes sources d’imperfections.\nCapacité attendue : l'élève est capable de définir les différentes formes de chômage.\nCapacité attendue : l'élève est capable les différentes politiques de l’emploi.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "3.1 L’arbitrage entre consommation et épargne",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Le revenu disponible des ménages est réparti entre consommation et épargne. Les variables économiques, sociales et démographiques affectent cet arbitrage.\nMais ces variables ont aussi un impact sur la structure de la consommation et de l’épargne. Le revenu disponible se répartit entre consommation et épargne.\nLa structure de la consommation (part des différents types de biens et services dans les dépenses) évolue dans le budget des ménages dans le temps et selon différents critères, économiques (revenu, taux d’intérêt, projet d’investissement, etc.), démographiques (vieillissement de la population par exemple) et sociaux (épargne de précaution, anticipations de perte de revenu, chômage, risque de maladie).\nNotions : Les déterminants de l’épargne et de la consommation. La propension à consommer. Le taux d’épargne. Le patrimoine.\nCapacité attendue : l'élève est capable d’identifier les déterminants de la consommation.\nCapacité attendue : l'élève est capable d’identifier les déterminants de l’épargne.\nCapacité attendue : l'élève est capable de montrer le lien entre épargne, revenu et patrimoine.\nCapacité attendue : l'élève est capable de calculer et interpréter les propensions moyenne et marginale à consommer et à épargner.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+    "texte": "Si le chômage a baissé au deuxième trimestre, cette diminution […] cache la crise de\nl'emploi que traverse la France, avec notamment une chute du nombre d'heures\ntravaillées. […] Le taux de chômage en France a diminué de 0,7 point au deuxième\ntrimestre à 7,1% […]. Déjà au premier trimestre, le taux de chômage avait reculé de\n0,3 point, à 7,8%. Ces reculs […], selon l'Insee, sont inhérents à la définition même du\nchômeur au sens du Bureau international du travail (BIT) […]. Selon cet indicateur, le\nnombre de chômeurs a ainsi diminué de 271 000, à deux millions de personnes entre\navril et juin.\nToutefois, d'autres données publiées jeudi par l'Institut de la statistique « décrivent\nbien l'ampleur de la crise », souligne Sylvain Larrieu, de l'Insee, citant les chutes à des\nniveaux record du taux d'emploi et du nombre d'heures travaillées, […]. « Le\nconfinement a mis en inactivité forcée toute une partie de la population, que ce soit\ndes personnes en emploi ou des personnes sans emploi », rappelle-t-il, quelques jours\naprès que l'Insee a annoncé la destruction de plus de 600 000 emplois au premier\nsemestre dans le secteur privé, à cause de la crise du coronavirus. […] En prenant en\ncompte le taux d'emploi et le halo autour du chômage, « on a un tiers de la population\nen situation de travailler qui est inactive, alors qu'on est traditionnellement à 11-12%.\nC'est une déflagration massive », commente Mathieu Plane, économiste à\nl'Observatoire français des conjonctures économiques (OFCE). Il s'attend à une\nhausse du taux de chômage au 3ème trimestre, « s'il n'y a pas un reconfinement, avec\ndes personnes en recherche d'emploi qui vont basculer du halo vers le chômage ».\nSource : Challenges.fr, (avec AFP), 13 août 2020."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 1 - Taux de chômage dans quelques pays européens",
+    "texte": "Taux de chômage (15-74 ans), 1er trimestre 2022.\nSource : Eurostat, publication Ministère du travail, du plein emploi et de l’insertion,\nseptembre 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "Annexe 1 - Taux de chômage par catégorie socioprofessionnelle, diplôme et âge en",
+    "texte": "2023 (en %)\nSelon la catégorie socioprofessionnelle\nAgriculteurs exploitants\nArtisans, commerçants et chefs d'entreprise\nCadres\nProfessions intermédiaires\nEmployés\nOuvriers\nSelon le diplôme\nBac+2 ou plus\nBaccalauréat\nCAP, BEP ou équivalent\nAucun diplôme, brevet des collèges\nSelon l'âge\n15-24 ans\n25-49 ans\n50 ans et plus\nEnsemble\nTaux de chômage\n(en %)\n0,6\n3,4\n3,7\n4,7\n9,0\n10,5\n5,0\n8,8\n13,3\n5,9\n3,7\nLecture : en 2023, le taux de chômage est de 7,3 %.\nChamp : France hors Mayotte, personnes vivant en logement ordinaire, actives.\nSource : Insee, enquête Emploi 2024, 22 août 2024."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 5 - Le chômage appelé à encore s'aggraver en 2024 en France.",
+    "texte": "Au quatrième trimestre 2023, le taux de chômage en France a atteint 7,5 % de la population\nactive, selon les données publiées par l'Insee ce mardi. La dégradation du marché du travail\ndevrait se poursuivre cette année. […]\nPetite consolation : le taux de chômage s'est stabilisé en fin d'année. Pour Gilbert Cette,\nprofesseur à Neoma Business School, […] : « le taux d'emploi a continué d'augmenter à\n68,4 % au quatrième trimestre 2023 et est désormais supérieur de 1,6 point à son niveau\nde 2019. C'est le chiffre qui mesure la réussite des réformes qui ont été engagées »,\nsouligne-t-il.\n[…] La France comme ses voisins européens subit de plein fouet les effets du resserrement\nde la politique monétaire : depuis plusieurs mois, l'activité économique stagne et la reprise\ns'annonce poussive.\nSinistré par la remontée brutale des taux d'intérêt, le secteur de la construction s'attend à\ndes pertes d'emplois massives. Les défaillances d'entreprises s'accélèrent elles aussi\nentraînant dans leur sillage des destructions de postes. Dans ce contexte, les instituts de\nconjoncture tablent tous sur une remontée du taux de chômage cette année.\nAu tarissement des créations d'emplois lié à la dégradation de la conjoncture vont s'ajouter\ndès cette année 2024 les effets du report progressif de l'âge légal de départ à la retraite, de\n62 ans à 64 ans, qui accroît la population active. Dans ses prévisions de mi-décembre 2024,\nl'Insee voit ainsi le taux de chômage monter à 7,6 % au premier trimestre puis se stabiliser\nau printemps. La Banque de France pense, elle, qu'il va grimper à 7,6 % en 2024 et à 7,8 %\nen 2025. […]\nPour le gouvernement qui vise le plein-emploi à horizon 2027, cette dégradation attendue\ndu marché du travail n'est pas une bonne nouvelle.\nSource : Les Échos, 13 février 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 1: Revenu, consommation et épargne annuelle en France.",
+    "texte": "Ensemble des\nménages\nRevenu en\neuros\nConsommation\nen euros\nÉpargne en\neuros\nTaux\nd’épargne\n45 101\n37 548\n7 553\n17 %\nSource : « Revenu, consommation et épargne par catégorie de ménages en 2011.\nComptes nationaux annuels », Insee Résultats, Insee, novembre 2017."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 1 : La loi psychologique fondamentale exposée par J.M. KEYNES.",
+    "texte": "La demande globale comprend les dépenses des consommateurs et des\ninvestisseurs. Concernant la consommation, Keynes met en avant une « loi\npsychologique fondamentale », selon laquelle « lorsque le revenu croît, la\nconsommation aussi, mais dans une mesure moindre », et il définit la propension à\nconsommer comme la relation entre consommation et le revenu national. […] Dans la\nThéorie générale, Keynes distingue la propension moyenne et la propension marginale\nà consommer.\nSource : ENS Lyon"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-polynesie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Taux de chômage au sens du BIT selon le sexe, l'âge et population",
+     "Annexe 2 : Taux de croissance et taux de chômage en France en pourcentage",
+     "Annexe 3 : Les inégalités en France.",
+     "Annexe 4 : La Covid-19, un accélérateur des inégalités sociales.",
+     "Annexe 5 : Tous concernés : pourquoi moins d’inégalité profite à tous.",
+     "Annexe 6 : Covid-19 : le modèle américain génère plus de croissance mais plus",
+     "Annexe 1 : Taux de chômage au sens du BIT selon le sexe, l'âge et population",
+     "Annexe 2 : Taux de croissance et taux de chômage en France en pourcentage",
+     "Annexe 3 : Les inégalités en France.",
+     "Annexe 4 : La Covid-19, un accélérateur des inégalités sociales.",
+     "Annexe 5 : Tous concernés : pourquoi moins d’inégalité profite à tous.",
+     "Annexe 6 : Covid-19 : le modèle américain génère plus de croissance mais plus"
+    ],
+    "questions": [
+     {
+      "enonce": "Calculez le taux de chômage au sens du bureau international du travail (BIT) pour 2019.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Déterminez s’il existe un lien entre le taux de chômage et le taux de croissance depuis 2000.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les origines des inégalités en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez les conséquences de la politique sociale américaine face à la crise sanitaire.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M3",
+  "type": "sujet_blanc",
+  "section": 20,
+  "section_titre": "8.1 Les transformations du commerce mondial",
+  "partenaire": 1,
+  "partenaire_titre": "1.2 Les décisions du consommateur et du producteur",
+  "frequence_passee": 0.28,
+  "inedit": false,
+  "proba_annee_suivante": 0.167,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "8.1 Les transformations du commerce mondial",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "L’ouverture des frontières, la baisse des coûts de transport et de communication, le développement des économies d’échelle ont transformé le commerce mondial. L’internationalisation de la chaîne de valeur des produits se concrétise par une segmentation croissante des processus de production : les entreprises sont aujourd’hui moins spécialisées dans la production d’un bien que dans une étape de sa fabrication.\nIl est important d’estimer la valeur ajoutée dégagée sur chacun des segments. Certains pays n’ont qu’un rôle d’assembleur de ce fait qu’une et ne dégagent d’autres se faible valeur ajoutée du produit final ; positionnent sur des segments à plus forte valeur ajoutée, par exemple dans les secteurs de l’innovation et de la recherche. à l’échelle internationale Cette segmentation se traduit par des importations de biens intermédiaires, qui représentent désormais plus de la moitié des échanges internationaux.\nCes flux au niveau d’un pays sont mesurés par la balance des biens et services. L’un des principaux indicateurs de l’attractivité économique d’un pays est constitué par le niveau des investissements directs à l’étranger (IDE).\nLes IDE sont un élément moteur de la multinationalisation des entreprises. Les principales motivations à l’origine des IDE sont la réduction des coûts et la conquête de nouveaux marchés, difficiles à pénétrer par les seules exportations.\nL’IDE est à l’origine de la création des firmes multinationales (FMN). Si l’effet des IDE est généralement considéré comme positif sur la croissance des pays d’accueil, notamment grâce aux transferts de technologie induits, il est plus discuté sur le commerce international, sur l’emploi dans les pays investisseurs, sur les conditions de travail dans les pays d’accueil et sur l’environnement.\nNotions : Les importations et les exportations de biens et services. La segmentation. Les produits intermédiaires, les produits finis. La balance des biens et des services Les investissements directs à l’étranger (IDE) Les firmes multinationales (FMN)\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable de décrire et le développement des échanges de biens et services entre pays.\nCapacité attendue : l'élève est capable l’évolution du solde d’une balance des biens et services.\nCapacité attendue : l'élève est capable d’interpréter.\nCapacité attendue : l'élève est capable de décrire les processus de mondialisation de la chaîne de valeur ajoutée pour un produit, en distinguant les phases d’élaboration des segments de produits et les phases d’assemblage.\nCapacité attendue : l'élève est capable de montrer comment la segmentation des processus de production engendre des flux d’importations et d’exportations des pays participant aux échanges.\nCapacité attendue : l'élève est capable les flux d’investissements directs à l’étranger (IDE).\nCapacité attendue : l'élève est capable la place des firmes multinationales dans les échanges internationaux.\nCapacité attendue : l'élève est capable d’apprécier.\nCapacité attendue : l'élève est capable d’expliquer.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "1.2 Les décisions du consommateur et du producteur",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "La science économique étudie les mécanismes des choix individuels et collectifs, et leurs effets. L’analyse des choix alternatifs des individus se fonde sur l’idée que les agents sont rationnels dans leurs décisions, c’est-à-dire qu’ils s’efforcent d’atteindre les objectifs qu’ils se sont fixés en fonction de leurs préférences individuelles et des contraintes économiques, sociales et environnementales.\nDécider et arbitrer requiert ainsi de comparer les coûts et bénéfices des choix alternatifs. La notion centrale de coût d’opportunité, liée aux utilités que l’on marginales estimées des biens et services consomme ou pas, peut ainsi être expliquée et démontrée.\nConsommer des biens et des services nécessite de les produire. Ces biens (ou services) peuvent être produits par des agents privés ou publics.\nLa valeur de ces biens (ou services) pour les agents économiques est liée à leur rareté et à leur utilité marginale. La question de la production (que produire et en quelle quantité ?) dépend à la fois des quantités et du coût des ressources disponibles (facteurs de production : travail, capital, terre) et de la valeur du bien fabriqué, exprimée par son prix.\nAinsi, un consommateur rationnel cherche à maximiser sa satisfaction (consommation, bien être) en prenant en compte sa contrainte budgétaire et l’utilité marginale estimée pour chacun des biens qu’il souhaite consommer. Le producteur, quant à lui, optimise sa production en comparant le bénéfice récupéré par la vente d’une unité supplémentaire du bien produit et le coût marginal de cette même unité supplémentaire de bien produit (raisonnement marginal).\nIl poursuit sa production jusqu’à ce que la fabrication d’une unité supplémentaire engendre un coût marginal égal à sa recette marginale obtenue par celle-ci.\nNotions : Les préférences et choix économiques. Les coûts d’opportunité. Préférences individuelles. La rationalité et l’utilité individuelles. La maximisation et le raisonnement « à la marge ». La rareté, la valeur, l’utilité marginale. La production, les ressources et les facteurs de production. Égalisation entre coût marginal et recette marginale.\nCapacité attendue : l'élève est capable de décrire concepts et principes fondamentaux du raisonnement économique (coût d’opportunité, utilité, rationalité, préférences, maximisation) pour décrire des choix économiques.\nCapacité attendue : l'élève est capable d’analyser ce que l’on entend par rationalité individuelle.\nCapacité attendue : l'élève est capable d’expliciter d’utilité marginale la notion.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Les investissements directs à l’étranger (IDE) de la France.",
+    "texte": "Flux entrants et flux sortants (en millions de $US)\n120000\n100000\n80000\n60000\n40000\n20000\n2012\n2013\n2014\n2015\nFlux entrants\n2016\n2017\n2018\n2019\n2020\nFlux sortants\nSource : OCDE (Organisation de coopération et de développement économiques),\n2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 6 : Les firmes françaises dans les chaînes de valeurs mondiales.",
+    "texte": "La mondialisation a provoqué une fragmentation des chaînes de valeur. Cela signifie\nque les diverses opérations de conception, de logistique, de production et de services\nnécessaires à la fabrication d'un produit final peuvent être réparties à travers un grand\nnombre de pays. Approximativement 70 % des échanges internationaux actuels\nreposent en fait sur les chaînes de valeur mondiales (CVM), et correspondent à des\nflux de services, de matières premières, de pièces détachées et de composants qui\ntraversent les frontières – souvent à de nombreuses reprises. Ils sont intégrés en bout\nde chaîne dans des produits finaux, qui sont ensuite expédiés aux consommateurs du\nmonde entier.\nXerfi canal : Quelles conséquences ont eu pour les entreprises françaises,\nl’allongement et la complexification des chaînes de valeurs mondiales ?\nSylvie Montout : […] Pour la France, la part des biens intermédiaires dans les\nexportations est de l’ordre de 48%. C’est le même taux en Allemagne. […]. Cela s’est\ntraduit par un flux croisé de commerce (importations et exportations) et\nd’investissement. […] On a une augmentation des exportations et aussi des\nimportations dans certains secteurs. Cela peut se refléter également dans les déficits\net les excédents dans certains secteurs. […]\nXerfi Canal : Est-il positif pour les entreprises d’être fortement engagées dans ces\nchaînes de valeur mondiales ?\nSylvie Montout : […] les entreprises des secteurs qui sont les plus engagés dans les\nchaînes de valeurs, sont également celles qui exportent le plus. […] Le secteur le plus\nengagé en France dans la chaîne de valeurs mondiales, dans la division internationale\ndu travail connaît un taux moyen à l’exportation 6 fois supérieur au secteur le moins\nengagé.\nXerfi Canal : L’OCDE* dit que [l’intégration aux chaînes de valeurs mondiales] est\nparticulièrement importante pour les PME.\nSylvie Montout : Oui, l’OCDE insiste beaucoup sur l’opportunité que représente\nl’intégration dans les chaînes de valeur mondiales pour les TPE et les PME. […] La\npremière raison est que l’intégration dans la chaîne de valeurs mondiales permet à\nces entreprises d’accroître ces opportunités, de stabiliser les […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+    "texte": "Lorsque des pays en développement s'efforcent d'entrer dans les CVM ou d'y\nparticiper, des pressions peuvent s'exercer en faveur d'une progression le long de la\nchaîne de valeur, vers des activités à plus forte valeur ajoutée. Or, les fruits d'une\nparticipation aux CVM peuvent être récoltés à n'importe quel maillon de la chaîne de\nvaleur : ce qui compte pour une économie, c'est de renforcer les activités qui\nconstituent ses points forts. Autrement dit, les pays qui deviennent efficients au stade\nde l'assemblage ou de la production peuvent, en devenant des fournisseurs compétitifs\nau niveau mondial pour ces activités, créer une valeur totale plus importante qu'ils ne\nle pourront en réalisant des activités à plus haute valeur ajoutée pour lesquelles ils\nsont moins compétitifs. En dernière analyse, ce qui importe véritablement, c'est la\nvaleur totale que peuvent créer les activités économiques considérées au sein de la\nchaîne de valeur.\nPar conséquent, les pouvoirs publics devraient se focaliser sur la valeur totale que\ncréent les entreprises, et non sur la part de la valeur ajoutée qui est créée localement.\nAu Viêt Nam, par exemple, la part de la valeur ajoutée locale dans les exportations a\nreculé de 64 % à 53 % entre 2005 et 2016, mais dans le même temps, le total des\nexportations de valeur ajoutée locale a été multiplié par 4. Le pays a donc globalement\naccru ses gains et ses exportations.\nSource : OCDE, Documents de travail de l'OCDE sur la politique commerciale, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM.",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales.",
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM. (Chaînes de valeur mondiale)",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : Solde de la balance commerciale française en biens de 1971 à 2018.",
+     "Annexe 2 : Le protectionnisme dans le contexte de mondialisation des chaînes de",
+     "Annexe 3 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 4 : Effet d’une hausse généralisée des droits de douane sur le PIB mondial.",
+     "Annexe 5 : Qu’est-ce que le protectionnisme ?",
+     "Annexe 1 : Solde de la balance commerciale française en biens de 1971 à 2018.",
+     "Annexe 2 : Le protectionnisme dans le contexte de mondialisation des chaînes",
+     "Annexe 3 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 4 : Effets d’une hausse généralisée des droits de douane sur le PIB",
+     "Annexe 5 : Qu’est-ce que le protectionnisme ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution du solde de la balance commerciale en biens de 1971 à 2018.",
+      "points": null,
+      "corrige": "1971 à 2018.\nOn attend du candidat qu’il identifie plusieurs périodes dans l’évolution de la balance\ncommerciale en biens (annexe1) en donnant les valeurs du solde de la balance\ncommerciale, et qu’il interprète ces données économiques. Le verbe directeur\n« commenter » indique que la réponse doit saisir les périodes d’évolution de la\nbalance commerciale en France pour mettre en évidence les changements les plus\nsignificatifs.\nLe solde de la balance commerciale en biens connaît quatre grandes périodes entre\n1971 et 2018 :\n\n\n\nLe solde oscille autour de 0 entre 1971 et 1979.\nLe solde est négatif entre 1979 et 1991, atteignant jusqu’à -14 milliards d’euros\ncourants de déficit, il y a donc un déficit de la balance commerciale en biens,\nles exportations de biens hors de France sont moins élevées que les\nimportations de biens en France sur cette période.\nLe solde est globalement positif de 1992 […]"
+     },
+     {
+      "enonce": "Expliquez le rôle des firmes multinationales dans le processus de mondialisation de la chaîne de valeur.",
+      "points": null,
+      "corrige": "mondialisation de la chaîne de valeur.\nOn attend du candidat qu’il explique le processus de segmentation de la chaine de\nvaleur au niveau international, puis qu’il précise la place des firmes internationales\ndans ce processus. Le candidat doit exploiter les informations de l’annexe 2 ainsi\nque ses connaissances personnelles.\nLes différentes étapes de production d’un bien sont aujourd’hui segmentées au niveau\ninternational. Chaque pays est spécialisé dans un processus de production : la\nconception, l’assemblage ou la recherche et développement, etc.\nLes firmes multinationales sont des entreprises présentes dans plusieurs pays. Ces\nfirmes décomposent la fabrication du produit final en pratiquant l’externalisation ou à\ntravers des investissements directs à l’étranger (IDE), qui sont des prises de\nparticipation dans des entreprises étrangères. Les différents composants d’un produit\nsont […]"
+     },
+     {
+      "enonce": "Décrivez l’évolution des investissements étrangers en France.",
+      "points": null,
+      "corrige": "Le candidat doit être capable de relever les données de l’annexe 5 et d’en\norganiser l’exposé.\n\nHausse de 11% des décisions d’investissements étrangers en France en 2019.\nOn dénombre 40 000 emplois créés ou sauvegardés en France grâce à ces\ninvestissements.\nL’ouverture internationale ainsi que les IDE permettent une diversification\nsectorielle."
+     },
+     {
+      "enonce": "Présentez les risques de la mise en place par les États de mesures protectionnistes.",
+      "points": null,
+      "corrige": "protectionnistes.\n\nOn attend du candidat qu’il repère et expose les informations données dans les\nannexes 2 et 3. L’annexe 4 rappelle au candidat ce que sont les mesures\nprotectionnistes.\nLes mesures protectionnistes peuvent avoir plusieurs effets négatifs :\n\nLes États risquent de mettre en place des mesures de rétorsion (Annexe 2),\nc’est-à-dire qu’ils augmenteront à leur tour les droits de douane. Le commerce\nmondial se contractera. La Banque de France estime qu’une hausse de 10%\ndes droits de douane entraînerait une baisse du PIB mondial comprise entre\n1,5 et 2%. (Annexe 3)\n\n\nL’instauration de droits de douane sur les importations rend les produits\nimportés plus chers. Les producteurs qui utilisent dans leur processus de\nproduction des produits intermédiaires importés (ce qui est le cas des firmes\nmultinationales) subiront donc une augmentation de leurs coûts de production.\nDe plus, […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Le libre-échange est-il favorable à la croissance économique d’un pays ?",
+      "points": null,
+      "corrige": "suivante :\nLe libre-échange est-il favorable à la croissance économique d’un pays ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire, apporte également des éléments de réponse au candidat. Ces\néléments ne sont toutefois pas suffisants ; le candidat doit également faire appel à ses\nconnaissances personnelles pour développer son argumentaire.\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n\nLogique globale de l’argumentation\n\n\nPrésentation d’un point de vue argumenté\n\nArguments et concepts\n- […]"
+     }
+    ]
+   }
+  ]
+ }
+]

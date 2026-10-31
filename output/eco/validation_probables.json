@@ -1,0 +1,136 @@
+{
+ "resume": {
+  "facette_ok": 1.0,
+  "section_ok": 1.0,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 1.0,
+  "longueur_ok": 1.0,
+  "annexes_ok": 1.0,
+  "tout_ok": 1.0,
+  "questions": 4,
+  "annexes": 4,
+  "lots": 1
+ },
+ "detail": [
+  {
+   "id": "SP-1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.3",
+      "1.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.468,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.0,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 534
+    },
+    {
+     "slot": 2,
+     "facette_visee": 1,
+     "facette_lue": 2,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.3",
+      "3.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.664,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.0,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 468
+    },
+    {
+     "slot": 3,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.2",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.252,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.0,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 529
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "7.2",
+      "6.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.188,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.0,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 473
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Répartition de la valeur ajoutée d'une trottinette Ardelis vendue 600 euros",
+     "type_support": "des dans les chaines",
+     "taux_reprise_du_type": 0.02,
+     "proximite_source": 0.25,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : Les échanges de biens intermédiaires dans le commerce mondial",
+     "type_support": "des dans les chaines",
+     "taux_reprise_du_type": 0.02,
+     "proximite_source": 0.26,
+     "fidelite": 0.07,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : Solde de la balance des biens et services de la France (en milliards d'euros)",
+     "type_support": "des pib commerciale brut",
+     "taux_reprise_du_type": 0.08,
+     "proximite_source": 0.25,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : Les investissements directs à l'étranger, moteur des firmes multinationales",
+     "type_support": "les des menages investissements",
+     "taux_reprise_du_type": 0.07,
+     "proximite_source": 0.3,
+     "fidelite": 0.01,
+     "ok": true
+    }
+   ],
+   "revision": []
+  }
+ ]
+}

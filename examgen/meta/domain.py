@@ -20,6 +20,32 @@ DOMAINS = {
     "droit": ("data/sources/droit_stmg", "data/droit/cours"),
     "nsi": ("data/sources/sujetdebac", "data/nsi/cours"),
 }
+# registre extensible : toute matière ajoutée par « python -m examgen.prof tout » (sujets + cours)
+REGISTRY = ROOT / "data" / "domaines.json"
+
+
+def _registry() -> dict:
+    import json
+    try:
+        return {k: tuple(v) for k, v in json.loads(REGISTRY.read_text(encoding="utf-8")).items()}
+    except (OSError, ValueError):
+        return {}
+
+
+DOMAINS.update(_registry())
+
+
+def register(name: str, sujets: str | Path, cours: str | Path):
+    import json
+    rel = lambda p: str(Path(p).resolve().relative_to(ROOT)) if Path(p).resolve().is_relative_to(ROOT) else str(Path(p).resolve())
+    reg = _registry()
+    reg[name] = (rel(sujets), rel(cours))
+    REGISTRY.write_text(json.dumps(reg, ensure_ascii=False, indent=1), encoding="utf-8")
+    DOMAINS[name] = reg[name]
+
+
+def out_dir(name: str) -> Path:
+    return ROOT / "output" / {"droit": "droit", "nsi": "nsi_prof"}.get(name, name)
 
 
 def load(name: str, refresh: bool = False) -> Teacher:

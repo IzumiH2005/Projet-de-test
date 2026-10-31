@@ -1,0 +1,842 @@
+[
+ {
+  "id": "E7.1",
+  "type": "exercices",
+  "section": 17,
+  "section_titre": "7.1 Activité et chômage",
+  "frequence_passee": 0.47,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Comparez l’évolution du nombre de projets d’investissements étrangers et d’emplois créés en France.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "7.1 Activité et chômage",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "Selon le BIT (Bureau international du travail) et l’INSEE, le chômage peut prendre différentes formes en fonction des situations auxquelles il correspond (chômage de plein emploi, chômage structurel / conjoncturel, chômage volontaire / involontaire, etc.). Les deux mesures principales du chômage sont le taux de chômage et le taux d’emploi, constitutifs du taux d’activité.\nNotions : Les différentes formes de chômage. Le taux de chômage et le taux d’emploi.\nCapacité attendue : l'élève est capable calculer le taux d’activité, le taux de chômage et le taux d’emploi de.\nCapacité attendue : l'élève est capable d’interpréter l’évolution de ces trois taux en France à partir de courbes.\nCapacité attendue : l'élève est capable de décrire et de tendances.\nCapacité attendue : l'élève est capable de définir ce que sont une situation de plein emploi et une situation de sous-emploi.\nCapacité attendue : l'élève est capable et d’interpréter les différentes sources d’imperfections.\nCapacité attendue : l'élève est capable de définir les différentes formes de chômage.\nCapacité attendue : l'élève est capable les différentes politiques de l’emploi.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+    "texte": "Si le chômage a baissé au deuxième trimestre, cette diminution […] cache la crise de\nl'emploi que traverse la France, avec notamment une chute du nombre d'heures\ntravaillées. […] Le taux de chômage en France a diminué de 0,7 point au deuxième\ntrimestre à 7,1% […]. Déjà au premier trimestre, le taux de chômage avait reculé de\n0,3 point, à 7,8%. Ces reculs […], selon l'Insee, sont inhérents à la définition même du\nchômeur au sens du Bureau international du travail (BIT) […]. Selon cet indicateur, le\nnombre de chômeurs a ainsi diminué de 271 000, à deux millions de personnes entre\navril et juin.\nToutefois, d'autres données publiées jeudi par l'Institut de la statistique « décrivent\nbien l'ampleur de la crise », souligne Sylvain Larrieu, de l'Insee, citant les chutes à des\nniveaux record du taux d'emploi et du nombre d'heures travaillées, […]. « Le\nconfinement a mis en inactivité forcée toute une partie de la population, que ce soit\ndes personnes en emploi ou des personnes sans emploi », rappelle-t-il, quelques jours\naprès que l'Insee a annoncé la destruction de plus de 600 000 emplois au premier\nsemestre dans le secteur privé, à cause de la crise du coronavirus. […] En prenant en\ncompte le taux d'emploi et le halo autour du chômage, « on a un tiers de la population\nen situation de travailler qui est inactive, alors qu'on est traditionnellement à 11-12%.\nC'est une déflagration massive », commente Mathieu Plane, économiste à\nl'Observatoire français des conjonctures économiques (OFCE). Il s'attend à une\nhausse du taux de chômage au 3ème trimestre, « s'il n'y a pas un reconfinement, avec\ndes personnes en recherche d'emploi qui vont basculer du halo vers le chômage ».\nSource : Challenges.fr, (avec AFP), 13 août 2020."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 1 - Taux de chômage dans quelques pays européens",
+    "texte": "Taux de chômage (15-74 ans), 1er trimestre 2022.\nSource : Eurostat, publication Ministère du travail, du plein emploi et de l’insertion,\nseptembre 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C7.2",
+  "type": "cas",
+  "section": 18,
+  "section_titre": "7.2 L’offre et la demande de travail",
+  "partenaire": 8,
+  "partenaire_titre": "3.3 La structure de consommation des ménages",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "proba_annee_suivante": 0.112,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez les freins à l’emploi pour les offreurs de travail.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez les freins à l’emploi pour les offreurs de travail.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez les freins à l’emploi pour les offreurs de travail.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez les freins à l’emploi pour les offreurs de travail.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "7.2 L’offre et la demande de travail",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "La demande de travail émane des entreprises et dépend essentiellement de quatre facteurs : - la demande pour le produit ; - l’efficacité du travail (la productivité) qui permet de répondre à la demande avec la même quantité de facteurs ; - la substituabilité entre le travail et le capital ; - le coût du travail. L’étude de la demande de travail s’intéresse à l’impact d’une variation de ces quatre facteurs sur le volume de travail, c’est-à-dire sur l’offre d’emploi.\nL’offre de travail correspond à la demande d’emploi qui émane des ménages appartenant à la population active. L’équilibre sur le marché du travail détermine les quantités de travail échangées et le niveau de salaire auquel les offreurs et les demandeurs de travail accepteront l’échange.\nL’accord entre l’offreur et le demandeur donne lieu à un contrat de travail.\nNotions : La demande de travail / l’offre d’emploi. L’offre de travail / la demande d’emploi. La population active et le taux d’activité. Le plein emploi. Le sous-emploi. Les négociations salariales. Les contraintes légales et conventionnelles. Le salaire minimum. Le chômage structurel. La demande anticipée. Le chômage conjoncturel.\nCapacité attendue : l'élève est capable définir l’offre de travail et la demande de travail, les distinguer de l’offre de et de d’emploi et de la demande d’emploi.\nCapacité attendue : l'élève est capable de distinguer la population active de la population inactive.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "3.3 La structure de consommation des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.\nLa part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.\nLa part des services dans la structure de consommation augmente notamment parce que son prix relatif par rapport aux produits industriels augmente fortement.\nNotions : La composition des dépenses des ménages. Les coefficients budgétaires. Les prix relatifs comparés des biens et services.\nCapacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "Annexe 4 – Les effets du progrès technique.",
+    "texte": "Les effets du progrès technique sur le volume total de travail dans une économie peuvent être positifs ou négatifs. La résultante finale des innovations sur la quantité totale\nde travail utilisée dépend de la combinaison de trois mécanismes.\nLe premier effet direct sur l’emploi est fonction du degré de substituabilité ou de complémentarité entre les nouvelles techniques et le facteur travail. Dans le premier cas,\n“la machine remplace l’homme” (c’est même l’effet recherché pour la plupart des innovations technologiques). Le progrès technique peut aussi être introduit en complément\ndu travail humain, sans en diminuer la quantité mais en augmentant son efficacité.\nEnsuite, il faut prendre en compte la réaction de la demande par rapport à la variation\ndu prix pour un bien nouveau ou produit avec une technique nouvelle. Si l’innovation\npermet une baisse des prix, la demande de ce bien va être stimulée et sa production\naussi. Par conséquent, l’effet sur l’emploi peut être positif si l’économie de travail est\nplus que compensée par l’embauche de salariés pour produire en plus grandes quantités.\nEnfin, le troisième élément qui intervient dans l’impact des innovations sur les rémunérations et l’embauche est la qualification de l’offre de travail. Si l’offre de travail est\nabondante et qualifiée pour réaliser les nouvelles tâches induites par le progrès technique, […] alors il y aura pression à la baisse des salaires. Dans le cas contraire (peu\nde travailleurs compétents), le chômage augmentera.\nToute évolution technique majeure conduit à des changements dans les modes de\nproduction de l’économie en permettant d’économiser du travail : c’est ce qu’on appelle le “progrès technique biaisé” pour décrire le fait que la demande de main-d’œuvre\nqualifiée augmente fortement, au détriment des personnes non qualifiées. Plus précisément, dans les pays industrialisés, les travaux routiniers (qui exécutent des tâches\nrépétitives de production de masse) – manuels ou non – sont en recul alors que les\nemplois aux deux extrémités – ceux créatifs, très qualifiés, et ceux peu qualifiés et non\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx\nroutiniers, comme les emplois de service ou du […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 5 - Le chômage appelé à encore s'aggraver en 2024 en France.",
+    "texte": "Au quatrième trimestre 2023, le taux de chômage en France a atteint 7,5 % de la population\nactive, selon les données publiées par l'Insee ce mardi. La dégradation du marché du travail\ndevrait se poursuivre cette année. […]\nPetite consolation : le taux de chômage s'est stabilisé en fin d'année. Pour Gilbert Cette,\nprofesseur à Neoma Business School, […] : « le taux d'emploi a continué d'augmenter à\n68,4 % au quatrième trimestre 2023 et est désormais supérieur de 1,6 point à son niveau\nde 2019. C'est le chiffre qui mesure la réussite des réformes qui ont été engagées »,\nsouligne-t-il.\n[…] La France comme ses voisins européens subit de plein fouet les effets du resserrement\nde la politique monétaire : depuis plusieurs mois, l'activité économique stagne et la reprise\ns'annonce poussive.\nSinistré par la remontée brutale des taux d'intérêt, le secteur de la construction s'attend à\ndes pertes d'emplois massives. Les défaillances d'entreprises s'accélèrent elles aussi\nentraînant dans leur sillage des destructions de postes. Dans ce contexte, les instituts de\nconjoncture tablent tous sur une remontée du taux de chômage cette année.\nAu tarissement des créations d'emplois lié à la dégradation de la conjoncture vont s'ajouter\ndès cette année 2024 les effets du report progressif de l'âge légal de départ à la retraite, de\n62 ans à 64 ans, qui accroît la population active. Dans ses prévisions de mi-décembre 2024,\nl'Insee voit ainsi le taux de chômage monter à 7,6 % au premier trimestre puis se stabiliser\nau printemps. La Banque de France pense, elle, qu'il va grimper à 7,6 % en 2024 et à 7,8 %\nen 2025. […]\nPour le gouvernement qui vise le plein-emploi à horizon 2027, cette dégradation attendue\ndu marché du travail n'est pas une bonne nouvelle.\nSource : Les Échos, 13 février 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+    "titre": "Annexe 5 - Inadéquation entre offre et demande de travail.",
+    "texte": "Selon les enquêtes de conjoncture de l’Insee […] la baisse du taux de chômage au cours\ndes années 2021 et 2022 (environ -1 point entre le premier trimestre 2021 et le troisième\ntrimestre 2022, soit à peu près 200 000 chômeurs en moins au sens du BIT sur la période)\nmontre que les entreprises ont réussi à pourvoir de nombreux postes vacants avec des\npersonnes auparavant sans emploi. […] Toutefois, avec 7,3 % de chômage pour le 3° trimestre 2022, nous sommes arrivés à un point où l’augmentation de la proportion d’emplois\nvacants ne s’accompagne plus d’une baisse significative du chômage […] Certains chômeurs ne parviennent pas à trouver un emploi tandis que, simultanément, certains employeurs ne trouvent pas la main-d’œuvre dont ils ont besoin. Une partie de ce désajustement entre offre et demande est de nature structurelle : les qualifications et contraintes géographiques des personnes en recherche d’emploi ne sont pas nécessairement en ligne avec\nla demande des entreprises, du moins à court terme.\nSource : economie.gouv.fr, janvier 2023"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "Annexe 3 - Les politiques de l’emploi : quels leviers pour l’emploi 2017-2027 ?",
+    "texte": "Le diagnostic proposé est clair : la France se distingue par un chômage structurel\ndurablement élevé, particulièrement des jeunes et des non qualifiés ; en termes de taux de\nchômage, comme de taux d’activité et de qualité de l’emploi, elle fait sensiblement moins\nbien que la moyenne de six partenaires proches [...]. L’étude rassemble en effet des pays\ncomme l’Autriche, la Suède et le Danemark où l’indemnisation du chômage est généreuse\nEN_MOTczNT7QzNjAc0ND8UzMsTYxMj8A2NTAAwMTtY5NZDkx\net l’accompagnement des licenciés économiques et demandeurs d’emploi fort, le RoyaumeUni, pays du contrat 0 heure, du licenciement facile et l’indemnisation forfaitaire, les PaysBas et l’Allemagne où le temps partiel est élevé. [...].\nLa note de France Stratégie ouvre ensuite la réflexion sur plusieurs leviers pour favoriser\nl’emploi qu’on doit approfondir :\n- sur la formation initiale, il faudrait mieux souligner que l’alternance [...] concerne pour\nl’essentiel des jeunes en échec scolaire ou en grandes écoles et IUT, l’enjeu est\n« l’alternance pour tous » [...] ;\n- sur la formation professionnelle continue, est souligné l’enjeu de la formation des\nsalariés non qualifiés et des chômeurs, et notamment des formations qualifiantes de\nreconversion [...] ;\n- sur l’emploi, la baisse du coût du travail a déjà été évoquée à propos des aides\nconditionnées à un accord d’entreprise ;\n- sur le salaire minimum, [...] la question se pose d’introduire plus de variabilité des\nrègles selon que le chômage augmente ou recule, pour renforcer l’offre d’emploi des\nentreprises ; [...]\n- la dégressivité des allocations chômage comme facteur incitatif au retour à l’emploi\nest également posée ; […]\n- la durée légale du travail est sans surprise remise en débat. [...]\nSource : Quels leviers pour l’emploi 2017-2027 ? par Henri Rouilleault, France Stratégie,\n2016"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+    "texte": "DCSi : dépenses courantes de santé.\nPPA : parité pouvoir d’achat.\nNM : Estonie, Lettonie, Lituanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Pologne.\nLecture : En 2017, en Espagne, les ménages ont financé par un paiement direct 24%\nde la dépense courante de santé. Ce qui correspond à 600€ par habitant.\nLes parités pouvoir d’achat permettent de comparer les dépenses de santé en\néliminant les différences de niveau de vie entre les pays. Dans ce graphique, la\nréférence est le pouvoir d’achat pour 1 euro en France.\nSource : OCDE, Les dépenses de santé en 2018, édition 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : La consommation des ménages en 2019.",
+    "texte": "En 2019, la dépense totale de consommation des ménages français s’élevait à\n1 668,2 milliards d’euros, soit plus de la moitié du PIB.\nPostes budgétaires\nEn milliards d’euros\nProduits alimentaires et boissons non alcoolisées\n165,6\nBoissons alcoolisées et tabac\n48,2\nHabillement et chaussures\n44,9\nLogement, eau, gaz, électricité\n332,1\nMeubles, articles de ménage et entretien courant de l'habitation\n57,9\nSanté\n50,5\nTransports\n178,8\nCommunications\n29,2\nLoisirs et culture\n100,3\nDivers…\n…\nDépenses de consommation\n1 668,2\nLe premier poste budgétaire des Français est le logement qui représente près du quart\nde la consommation totale. Les transports, la communication, les loisirs et la culture\nreprésentent près de 20% de la consommation totale des Français.\nSource : INSEE, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1 - Proportion d’entreprises déclarant éprouver des difficultés de recrutement en",
+     "ANNEXE 2 - Les motifs des difficultés selon les recruteurs.",
+     "ANNEXE 3 - Le plan de lutte contre les tensions de recrutement.",
+     "ANNEXE 4 - Le plan d’investissement dans les compétences.",
+     "ANNEXE 5 - La semaine de quatre jours comme solution à la pénurie de main-d’œuvre en",
+     "ANNEXE 1 - Proportion d’entreprises déclarant éprouver des difficultés de",
+     "ANNEXE 2 - Les motifs des difficultés selon les recruteurs.",
+     "ANNEXE 3 - Le plan de lutte contre les tensions de recrutement.",
+     "ANNEXE 4 - Le plan d’investissement dans les compétences.",
+     "ANNEXE 5 - La semaine de quatre jours comme solution à la pénurie de main-d’œuvre"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez l’évolution des difficultés de recrutement selon les secteurs d’activité.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez les freins à l’emploi pour les offreurs de travail.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les mesures de politique de l’emploi mises en œuvre en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’intervention de l’État suffit-elle pour agir sur l’offre de travail ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES",
+     "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022.",
+     "ANNEXE 2 - Loi de finances rectificative pour 2022.",
+     "ANNEXE 3 - Les raisons des hausses de prix sont plus diverses qu’il n’y parait.",
+     "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des comportements",
+     "ANNEXE 5 - Hausse des prix et inégalité des hausses des salaires.",
+     "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022",
+     "ANNEXE 2 - Loi de finances rectificative pour 2022",
+     "ANNEXE 3 - Les raisons des hausses de prix sont plus diverses qu’il n’y parait",
+     "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+     "ANNEXE 5 - Hausse des prix et inégalité des hausses des salaires"
+    ],
+    "questions": [
+     {
+      "enonce": "Rappelez le lien entre offre, demande et prix des biens et services.",
+      "points": 1.0,
+      "corrige": "(1 point)\nOn attend du candidat qu’il mobilise ses connaissances pour présenter le mécanisme\nde formation du prix sur un marché.\nLa demande est une fonction décroissante du prix :\n- Lorsque la demande augmente, le prix augmente également.\n- OU lorsque le prix augmente, la demande diminue.\nL’offre est une fonction croissante du prix :\n- Lorsque l’offre augmente, le prix diminue.\n- OU lorsque le prix augmente, l’offre augmente également.\nLe prix se forme par la confrontation entre l’offre et la demande de biens"
+     },
+     {
+      "enonce": "Présentez les mécanismes qui expliquent les augmentations actuelles des prix.",
+      "points": 1.5,
+      "corrige": "prix. (1,5 point)\nOn attend du candidat qu’il identifie les informations pertinentes contenues dans\nl’annexe 3. Il doit également mobiliser les notions développées dans la question 1\n(excès de demande et insuffisance de l’offre). La « présentation » implique que le\ncandidat soit en mesure d’exposer les mécanismes, au-delà de la variation.\nLa hausse des prix importante enregistrée depuis l’automne 2021, et en accélération\nen 2022, est à la fois liée à une variation de l’offre et de la demande. (annexe 3)\nL’augmentation de la demande :\n- La reprise de l’activité économique post-Covid : après une période de\nralentissement pendant l’épidémie de Covid-19, l’activité économique est\nrepartie à la hausse en 2021. Anticipant la hausse de la demande des ménages,\nLes entreprises relancent leur production, tirant l’investissement et la demande\nde biens intermédiaires et matières premières vers le […]"
+     },
+     {
+      "enonce": "Retrouvez par le calcul, l’élasticité prix de la demande d’énergie entre juillet 2021 et juillet 2022.",
+      "points": 1.0,
+      "corrige": "juillet 2021 et juillet 2022. (1 point)\nOn attend du candidat qu’il mobilise une formule de calcul pour retrouver un résultat\ndonné à partir du tableau de l’annexe 1. La rédaction du calcul doit être explicite.\nLe candidat doit mobiliser la formule suivante : (Variation de la demande d’un bien /\nVariation du prix du bien). La formule littérale n’est pas exigée.\n-3,66 / 28,50  -0,0366 / 0,285 = -0,128"
+     },
+     {
+      "enonce": "Expliquez les comportements des ménages face aux augmentations de prix.",
+      "points": 1.5,
+      "corrige": "prix. (1,5 point)\nOn attend du candidat qu’il mobilise ses connaissances pour interpréter des\ninformations contenues dans un tableau (annexe 1) et dans plusieurs documents\n(annexes 3, 4 et 5), afin de montrer la diversité des conséquences possibles des\nhausses de prix sur les comportements de consommation et d’épargne des ménages.\nLorsque le prix augmente, la demande diminue :\n- Entre juillet 2021 et 2022, il est possible de remarquer que l’élasticité prix de la\ndemande est faible pour l’énergie. (annexe 1). Ils ne peuvent pas réduire\nbeaucoup leurs dépenses d’énergie. Les français « fractionnent » leurs achats,\npour limiter les dépenses, mais la quantité globale consommée se réduit moins\nvite que l’augmentation des prix. (annexe 3)\n- Dans le même temps, la consommation de biens manufacturés se réduit\nfortement. (annexes 1 et 4)\nEntre juillet 2021 et 2022, l’élasticité prix pour les […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des ménages ?",
+      "points": 5.0,
+      "corrige": "suivante : (5 points)\nLes actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des\nménages ?\nCette question vise à développer une argumentation économique structurée en\nmobilisant des connaissances.\nLes questions précédentes ont permis de construire des éléments de réponse à cette\nquestion. Le corpus documentaire avec des parties non encore utilisées pour les\nquestions précédentes, apporte également des éléments de réponse au candidat. Le\ncandidat doit également mobiliser ses connaissances personnelles pour développer\nson argumentaire.\n\n\n\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E7.2",
+  "type": "exercices",
+  "section": 18,
+  "section_titre": "7.2 L’offre et la demande de travail",
+  "frequence_passee": 0.11,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez les freins à l’emploi pour les offreurs de travail.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "7.2 L’offre et la demande de travail",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "La demande de travail émane des entreprises et dépend essentiellement de quatre facteurs : - la demande pour le produit ; - l’efficacité du travail (la productivité) qui permet de répondre à la demande avec la même quantité de facteurs ; - la substituabilité entre le travail et le capital ; - le coût du travail. L’étude de la demande de travail s’intéresse à l’impact d’une variation de ces quatre facteurs sur le volume de travail, c’est-à-dire sur l’offre d’emploi.\nL’offre de travail correspond à la demande d’emploi qui émane des ménages appartenant à la population active. L’équilibre sur le marché du travail détermine les quantités de travail échangées et le niveau de salaire auquel les offreurs et les demandeurs de travail accepteront l’échange.\nL’accord entre l’offreur et le demandeur donne lieu à un contrat de travail.\nNotions : La demande de travail / l’offre d’emploi. L’offre de travail / la demande d’emploi. La population active et le taux d’activité. Le plein emploi. Le sous-emploi. Les négociations salariales. Les contraintes légales et conventionnelles. Le salaire minimum. Le chômage structurel. La demande anticipée. Le chômage conjoncturel.\nCapacité attendue : l'élève est capable définir l’offre de travail et la demande de travail, les distinguer de l’offre de et de d’emploi et de la demande d’emploi.\nCapacité attendue : l'élève est capable de distinguer la population active de la population inactive.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2026-antilles-guyane",
+    "titre": "Annexe 4 – Les effets du progrès technique.",
+    "texte": "Les effets du progrès technique sur le volume total de travail dans une économie peuvent être positifs ou négatifs. La résultante finale des innovations sur la quantité totale\nde travail utilisée dépend de la combinaison de trois mécanismes.\nLe premier effet direct sur l’emploi est fonction du degré de substituabilité ou de complémentarité entre les nouvelles techniques et le facteur travail. Dans le premier cas,\n“la machine remplace l’homme” (c’est même l’effet recherché pour la plupart des innovations technologiques). Le progrès technique peut aussi être introduit en complément\ndu travail humain, sans en diminuer la quantité mais en augmentant son efficacité.\nEnsuite, il faut prendre en compte la réaction de la demande par rapport à la variation\ndu prix pour un bien nouveau ou produit avec une technique nouvelle. Si l’innovation\npermet une baisse des prix, la demande de ce bien va être stimulée et sa production\naussi. Par conséquent, l’effet sur l’emploi peut être positif si l’économie de travail est\nplus que compensée par l’embauche de salariés pour produire en plus grandes quantités.\nEnfin, le troisième élément qui intervient dans l’impact des innovations sur les rémunérations et l’embauche est la qualification de l’offre de travail. Si l’offre de travail est\nabondante et qualifiée pour réaliser les nouvelles tâches induites par le progrès technique, […] alors il y aura pression à la baisse des salaires. Dans le cas contraire (peu\nde travailleurs compétents), le chômage augmentera.\nToute évolution technique majeure conduit à des changements dans les modes de\nproduction de l’économie en permettant d’économiser du travail : c’est ce qu’on appelle le “progrès technique biaisé” pour décrire le fait que la demande de main-d’œuvre\nqualifiée augmente fortement, au détriment des personnes non qualifiées. Plus précisément, dans les pays industrialisés, les travaux routiniers (qui exécutent des tâches\nrépétitives de production de masse) – manuels ou non – sont en recul alors que les\nemplois aux deux extrémités – ceux créatifs, très qualifiés, et ceux peu qualifiés et non\nEN_MODc0NT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTvY5NBDcx\nroutiniers, comme les emplois de service ou du […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 5 - Le chômage appelé à encore s'aggraver en 2024 en France.",
+    "texte": "Au quatrième trimestre 2023, le taux de chômage en France a atteint 7,5 % de la population\nactive, selon les données publiées par l'Insee ce mardi. La dégradation du marché du travail\ndevrait se poursuivre cette année. […]\nPetite consolation : le taux de chômage s'est stabilisé en fin d'année. Pour Gilbert Cette,\nprofesseur à Neoma Business School, […] : « le taux d'emploi a continué d'augmenter à\n68,4 % au quatrième trimestre 2023 et est désormais supérieur de 1,6 point à son niveau\nde 2019. C'est le chiffre qui mesure la réussite des réformes qui ont été engagées »,\nsouligne-t-il.\n[…] La France comme ses voisins européens subit de plein fouet les effets du resserrement\nde la politique monétaire : depuis plusieurs mois, l'activité économique stagne et la reprise\ns'annonce poussive.\nSinistré par la remontée brutale des taux d'intérêt, le secteur de la construction s'attend à\ndes pertes d'emplois massives. Les défaillances d'entreprises s'accélèrent elles aussi\nentraînant dans leur sillage des destructions de postes. Dans ce contexte, les instituts de\nconjoncture tablent tous sur une remontée du taux de chômage cette année.\nAu tarissement des créations d'emplois lié à la dégradation de la conjoncture vont s'ajouter\ndès cette année 2024 les effets du report progressif de l'âge légal de départ à la retraite, de\n62 ans à 64 ans, qui accroît la population active. Dans ses prévisions de mi-décembre 2024,\nl'Insee voit ainsi le taux de chômage monter à 7,6 % au premier trimestre puis se stabiliser\nau printemps. La Banque de France pense, elle, qu'il va grimper à 7,6 % en 2024 et à 7,8 %\nen 2025. […]\nPour le gouvernement qui vise le plein-emploi à horizon 2027, cette dégradation attendue\ndu marché du travail n'est pas une bonne nouvelle.\nSource : Les Échos, 13 février 2024"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1 - Proportion d’entreprises déclarant éprouver des difficultés de recrutement en",
+     "ANNEXE 2 - Les motifs des difficultés selon les recruteurs.",
+     "ANNEXE 3 - Le plan de lutte contre les tensions de recrutement.",
+     "ANNEXE 4 - Le plan d’investissement dans les compétences.",
+     "ANNEXE 5 - La semaine de quatre jours comme solution à la pénurie de main-d’œuvre en",
+     "ANNEXE 1 - Proportion d’entreprises déclarant éprouver des difficultés de",
+     "ANNEXE 2 - Les motifs des difficultés selon les recruteurs.",
+     "ANNEXE 3 - Le plan de lutte contre les tensions de recrutement.",
+     "ANNEXE 4 - Le plan d’investissement dans les compétences.",
+     "ANNEXE 5 - La semaine de quatre jours comme solution à la pénurie de main-d’œuvre"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez l’évolution des difficultés de recrutement selon les secteurs d’activité.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez les freins à l’emploi pour les offreurs de travail.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les mesures de politique de l’emploi mises en œuvre en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’intervention de l’État suffit-elle pour agir sur l’offre de travail ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C7.3",
+  "type": "cas",
+  "section": 19,
+  "section_titre": "7.3 Politiques de l’emploi",
+  "partenaire": 21,
+  "partenaire_titre": "8.2 Des politiques commerciales divergentes",
+  "frequence_passee": 0.19,
+  "inedit": false,
+  "proba_annee_suivante": 0.12,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les effets des mesures de politique passive de l’emploi contre le chômage.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les effets des mesures de politique passive de l’emploi contre le chômage.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les effets des mesures de politique passive de l’emploi contre le chômage.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les effets des mesures de politique passive de l’emploi contre le chômage.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "7.3 Politiques de l’emploi",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "Pour lutter contre le chômage structurel, deux types de politique de l’emploi sont mis en œuvre : les politiques actives de l’emploi visent à améliorer le fonctionnement du marché du travail ; les politiques passives de l’emploi ciblent la réduction des conséquences négatives du chômage sur la population, comme l’avancement de l’âge de la retraite ou le développement des aides sociales pour les personnes durablement exclues du marché du travail. Face à un chômage conjoncturel, un État peut s’engager dans des politiques de relance de la demande en augmentant, par exemple, les dépenses publiques ou en assouplissant la politique monétaire (baisse des taux d’intérêt, développement du crédit).\nSi cet État est dans la zone Euro, sa politique monétaire est dévolue à la Banque centrale européenne, dont le premier objectif est la stabilité des prix ; la politique budgétaire fait l’objet d’une surveillance permanente.\nNotions : Les politiques actives et les politiques passives de lutte contre le chômage.\nCapacité attendue : l'élève est capable d’identifier du marché du travail.\nCapacité attendue : l'élève est capable d’identifier et de les catégoriser en politiques actives ou politiques passives.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "8.2 Des politiques commerciales divergentes",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "Le commerce international a de nombreux effets : des gains en termes de baisse de prix, une réduction des inégalités entre pays, l’accroissement des inégalités de revenus au sein de chaque pays. Les pays peuvent mettre en œuvre des politiques d’ouverture aux échanges ou au contraire de plus grand contrôle de ceux-ci : - ils facilitent les échanges en éliminant ou en réduisant les droits d’importation ou d’exportation, en simplifiant les réglementations ou les procédures douanières, en éliminant de manière temporaire ou permanente des taxes à l’importation ou à l’exportation et en éliminant les restrictions quantitatives à l’importation et à l’exportation ; - ils restreignent le commerce en imposant de nouveaux droits d’importation ou d’exportation, en augmentant des droits existants, en mettant en place des interdictions ou des restrictions quantitatives à l’importation, en établissant des règles ou des procédures douanières plus complexes ou plus strictes, en appliquant des prescriptions relatives à la teneur en éléments locaux.\nCes mesures peuvent être temporaires ou permanentes.\nNotions : Les droits de douane. Les restrictions quantitatives à l’importation (barrières non tarifaires).\nCapacité attendue : l'élève est capable ou d’une économie en.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 1 : La politique monétaire de la BCE.",
+    "texte": "La politique monétaire est l'ensemble des moyens mis en œuvre par une banque\ncentrale pour agir sur l'activité économique par la régulation de sa monnaie. Cela\npasse donc par la définition d'un ou plusieurs objectifs et par celle des instruments qui\npermettront de les atteindre.\nDans le cas de la Banque centrale européenne (BCE), l'objectif est celui de la stabilité\ndes prix à la consommation. La BCE a défini cet objectif à 2% (plus précisément audessous mais proche de 2%). La stabilité des prix est définie non pas comme un taux\nd'inflation à 0% mais à 2% car il y a forcément des ajustements de prix au sein de\nl'économie.\nLa crise de 2007 subie par la zone euro a été telle que l'effet de la politique monétaire\ntelle qu'elle était définie avant la crise n'était plus suffisant pour retrouver le chemin de\nla croissance. Aujourd'hui, la BCE a réduit ses taux d'intérêt qui sont même devenus\nnégatifs. Cela a permis aux États de financer leur déficit et leur dette et ainsi de mettre\nen œuvre leur politique budgétaire de relance. Pour les entreprises et les ménages,\ncela a permis de relancer les emprunts, et ainsi la consommation et les\ninvestissements. Malgré cela, la croissance économique ne parvient plus à atteindre\nles niveaux qu’elle avait avant la crise.\nSource : « Présentation de la politique monétaire », Banque de France,\nmis à jour le 19 mars 2019."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+    "texte": "Dans la zone euro, la politique monétaire est déterminée et mise en œuvre par la BCE\nseule, alors que les États membres conservent le contrôle presque entier de leur\npolitique budgétaire. De fait, il est très difficile pour la banque centrale d’avoir une\npolitique monétaire en adéquation avec les objectifs de chaque État. Le taux d’intérêt\ndirecteur fixé par la BCE peut se retrouver à un niveau satisfaisant pour certains États\nmais pas pour d’autres. Les différents États doivent donc soutenir leur activité\nuniquement par des politiques budgétaires. Certains États en sont même à espérer\nque l'activité nationale sera soutenue par les politiques budgétaires de relance des\npartenaires commerciaux.\nSource : Senat.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 3 - Les politiques de l’emploi",
+    "texte": "Les politiques de l’emploi recouvrent les interventions publiques sur le marché du travail,\nqui ont pour objectif d’en améliorer le fonctionnement, d’accroître et préserver l’emploi, ainsi\nque de réduire le chômage et les discriminations à l’embauche. […]\nLes politique actives correspondent à :\n- des dispositifs de soutien à la création d’emplois dans le secteur marchand ou non\nmarchand ;\n- à formation professionnelle ;\n- l’accompagnement des demandeurs d’emploi.\nParmi les bénéficiaires des politiques actives de l’emploi, fin 2021, près de 2,2 millions de\npersonnes occupent un emploi aidé en France, c’est-à-dire un emploi bénéficiant d’une aide\npublique, hors allégements généraux de cotisations sociales et dispositifs sectoriels. Il s’agit\nde bénéficiaires de contrats aidés (285 000), d’étudiants en alternance (999 000), qu’ils\nsoient en formation initiale ou en reprise d’études, et de bénéficiaires d’autres dispositifs\nd’aide à l’emploi (903 000), parmi lesquels se trouvent principalement les créateurs\nd’entreprises aidés (643 000) et l’aide à l’embauche des jeunes (198 000). Le nombre de\nbénéficiaires d’emplois aidés augmente de 32 000 sur un an (+1,5 %), en réponse à la crise\nsanitaire.\nSource : DARES, Les politiques de l’emploi, 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "titre": "Annexe 5 – La banque centrale européenne réagit à la hausse des prix.",
+    "texte": "Le Conseil des gouverneurs, principal organe de décision de la Banque Centrale\nEuropéenne (BCE) continuera d’augmenter sensiblement les taux d’intérêt à un rythme\nrégulier et à les maintenir à des niveaux suffisamment restrictifs pour assurer un retour au\nplus tôt de la stabilité des prix ; vers son objectif de 2 % à moyen terme. […]\nÀ terme, le maintien des taux d’intérêt à des niveaux restrictifs permettra de freiner la\ndemande. […] Dans tous les cas, les futures décisions du Conseil des gouverneurs\nrelatives aux taux directeurs resteront dépendantes des données et continueront d’être\nprises réunion par réunion. […]\nLes mesures de soutien public visant à protéger l’économie des conséquences des prix\nélevés de l’énergie doivent être temporaires, ciblées, et conçues de manière à ne pas aller\nà l’encontre des incitations à réduire la consommation d’énergie. Plus particulièrement, alors\nque la crise énergétique s’atténue, il est important de commencer à retirer ces mesures\nrapidement en fonction de la chute des prix de l’énergie et de manière concertée. Les\nmesures qui ne respectent pas ces principes sont susceptibles d’accentuer l’augmentation\ndes prix à moyen terme, ce qui exigerait une réponse de politique monétaire plus forte. […]\nÀ mesure du resserrement de la politique monétaire par le Conseil des gouverneurs, les\ntaux d’intérêt de marché continuent d’augmenter, et emprunter devient plus cher pour le\nsecteur privé. […] L’emprunt des ménages a continué de baisser, reflétant une hausse des\ntaux des prêts, un durcissement des conditions d’octroi de crédits et une forte contraction\nde la demande.\nSource : Banque de France, 20 avril 2023"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Effets d’une hausse généralisée des droits de douane sur le PIB",
+    "texte": "mondial.\nCommentaire : Un relèvement généralisé de 10 points de pourcentage des droits de\ndouane à l’importation pourrait réduire le PIB mondial. En outre, une baisse de la\nproductivité, une hausse du coût de financement du capital et une plus faible demande\nd’investissement viendraient augmenter le coût du protectionnisme.\nSource : Banque de France, « Quel serait le coût d’une guerre commerciale\nmondiale ? » Août 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 4 – Les droits de douane et leurs conséquences.",
+    "texte": "La Commission européenne (CE) a annoncé qu’elle imposerait des droits de\ndouane provisoires de 17,4 % à 38,1 %\nsur les importations de véhicules électriques à batterie sauf si un accord est conclu avec la Chine. Ce n’était qu’une question de temps avant que cette décision soit\nprise. Bien que l’importation de véhicules\nélectriques chinois bon marché accélérerait la transition climatique et augmenterait\nle pouvoir d’achat des Européens, une importation massive frapperait l’Europe dans\nson cœur industriel.\nLe chiffre d’affaires généré par l’industrie\nautomobile représente plus de 7 % du PIB\ntotal de l’Union européenne (UE), tandis\nque l’emploi direct et indirect dans ce secteur représente 6,1 % de l’emploi total. La\nCE aurait pu attendre que les premiers licenciements économiques dans l’industrie automobile française et allemande\nsoient annoncés. Elle a choisi d’anticiper.\nLa guerre commerciale à laquelle se livrent la Chine et les États-Unis est en réalité une guerre pour la domination future.\nEn Europe, c’est le modèle commercial\ndes dernières décennies – la technologie\noccidentale en échange d’un immense\nmarché chinois – qui est en danger, maintenant que la Chine entre sur le marché\neuropéen avec ses propres produits. […]\nL’UE et la Chine sont pour le moment à\npeine en train de s’échauffer dans la\nguerre qui vient. La réaction de la Chine\nface à ces barrières sera double. Tout\nd’abord, l’imposition de droits de douane\nencouragera plus encore les entreprises\nchinoises à construire des usines à l’étranger.\nLes entreprises chinoises de batteries, par\nexemple, prévoient d’intensifier leurs investissements dans plusieurs pays, y\ncompris en Europe et aux États-Unis.\nL’endroit où elles réalisent les plus gros investissements, c’est la Hongrie, qui devrait devenir le deuxième producteur mondial de batteries cette année, derrière la\nChine. Ce type de réaction n’est pas anormal. […]\nLa réaction de la Chine se manifestera\négalement d’une deuxième façon. La\nChine a perdu des parts de marché aux\nÉtats-Unis depuis que Donald Trump, président des États-Unis de 2017 à 2021 (réélu en novembre 2024), a augmenté les\ndroits de douane à l’importation, mais\ncette perte a été plus […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 - Taux de chômage par catégorie socioprofessionnelle, diplôme et âge en 2023",
+     "Annexe 2 - Contrats aidés : une politique efficace de lutte contre le chômage ?",
+     "Annexe 3 - Les politiques de l’emploi : quels leviers pour l’emploi 2017-2027 ?",
+     "Annexe 4 - Sous-emploi selon le sexe en 2023 (en %)",
+     "Annexe 5 - La réforme de l’assurance-chômage de 2019 a d’abord affecté les jeunes et les",
+     "Annexe 1 - Taux de chômage par catégorie socioprofessionnelle, diplôme et âge en",
+     "Annexe 2 - Contrats aidés : une politique efficace de lutte contre le chômage ?",
+     "Annexe 3 - Les politiques de l’emploi : quels leviers pour l’emploi 2017-2027 ?",
+     "Annexe 4 - Sous-emploi selon le sexe en 2023 (en %)",
+     "Annexe 5 - La réforme de l’assurance-chômage de 2019 a d’abord affecté les jeunes"
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez politiques active et passive de l’emploi.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les différentes sources d’inégalités sur le marché du travail.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez comment les mesures prises par les gouvernements peuvent réduire le chômage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques de lutte contre le chômage permettent-elles de réduire les inégalités sur le marché de du travail ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E7.3",
+  "type": "exercices",
+  "section": 19,
+  "section_titre": "7.3 Politiques de l’emploi",
+  "frequence_passee": 0.19,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les effets des mesures de politique passive de l’emploi contre le chômage.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques d’emploi mises en œuvre par la France luttent-elles efficacement contre le chômage ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Comparez l’évolution du taux directeur de la banque centrale européenne (BCE) et du taux de croissance.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "7.3 Politiques de l’emploi",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "Pour lutter contre le chômage structurel, deux types de politique de l’emploi sont mis en œuvre : les politiques actives de l’emploi visent à améliorer le fonctionnement du marché du travail ; les politiques passives de l’emploi ciblent la réduction des conséquences négatives du chômage sur la population, comme l’avancement de l’âge de la retraite ou le développement des aides sociales pour les personnes durablement exclues du marché du travail. Face à un chômage conjoncturel, un État peut s’engager dans des politiques de relance de la demande en augmentant, par exemple, les dépenses publiques ou en assouplissant la politique monétaire (baisse des taux d’intérêt, développement du crédit).\nSi cet État est dans la zone Euro, sa politique monétaire est dévolue à la Banque centrale européenne, dont le premier objectif est la stabilité des prix ; la politique budgétaire fait l’objet d’une surveillance permanente.\nNotions : Les politiques actives et les politiques passives de lutte contre le chômage.\nCapacité attendue : l'élève est capable d’identifier du marché du travail.\nCapacité attendue : l'élève est capable d’identifier et de les catégoriser en politiques actives ou politiques passives.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 1 : La politique monétaire de la BCE.",
+    "texte": "La politique monétaire est l'ensemble des moyens mis en œuvre par une banque\ncentrale pour agir sur l'activité économique par la régulation de sa monnaie. Cela\npasse donc par la définition d'un ou plusieurs objectifs et par celle des instruments qui\npermettront de les atteindre.\nDans le cas de la Banque centrale européenne (BCE), l'objectif est celui de la stabilité\ndes prix à la consommation. La BCE a défini cet objectif à 2% (plus précisément audessous mais proche de 2%). La stabilité des prix est définie non pas comme un taux\nd'inflation à 0% mais à 2% car il y a forcément des ajustements de prix au sein de\nl'économie.\nLa crise de 2007 subie par la zone euro a été telle que l'effet de la politique monétaire\ntelle qu'elle était définie avant la crise n'était plus suffisant pour retrouver le chemin de\nla croissance. Aujourd'hui, la BCE a réduit ses taux d'intérêt qui sont même devenus\nnégatifs. Cela a permis aux États de financer leur déficit et leur dette et ainsi de mettre\nen œuvre leur politique budgétaire de relance. Pour les entreprises et les ménages,\ncela a permis de relancer les emprunts, et ainsi la consommation et les\ninvestissements. Malgré cela, la croissance économique ne parvient plus à atteindre\nles niveaux qu’elle avait avant la crise.\nSource : « Présentation de la politique monétaire », Banque de France,\nmis à jour le 19 mars 2019."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+    "texte": "Dans la zone euro, la politique monétaire est déterminée et mise en œuvre par la BCE\nseule, alors que les États membres conservent le contrôle presque entier de leur\npolitique budgétaire. De fait, il est très difficile pour la banque centrale d’avoir une\npolitique monétaire en adéquation avec les objectifs de chaque État. Le taux d’intérêt\ndirecteur fixé par la BCE peut se retrouver à un niveau satisfaisant pour certains États\nmais pas pour d’autres. Les différents États doivent donc soutenir leur activité\nuniquement par des politiques budgétaires. Certains États en sont même à espérer\nque l'activité nationale sera soutenue par les politiques budgétaires de relance des\npartenaires commerciaux.\nSource : Senat.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 - Taux de chômage par catégorie socioprofessionnelle, diplôme et âge en 2023",
+     "Annexe 2 - Contrats aidés : une politique efficace de lutte contre le chômage ?",
+     "Annexe 3 - Les politiques de l’emploi : quels leviers pour l’emploi 2017-2027 ?",
+     "Annexe 4 - Sous-emploi selon le sexe en 2023 (en %)",
+     "Annexe 5 - La réforme de l’assurance-chômage de 2019 a d’abord affecté les jeunes et les",
+     "Annexe 1 - Taux de chômage par catégorie socioprofessionnelle, diplôme et âge en",
+     "Annexe 2 - Contrats aidés : une politique efficace de lutte contre le chômage ?",
+     "Annexe 3 - Les politiques de l’emploi : quels leviers pour l’emploi 2017-2027 ?",
+     "Annexe 4 - Sous-emploi selon le sexe en 2023 (en %)",
+     "Annexe 5 - La réforme de l’assurance-chômage de 2019 a d’abord affecté les jeunes"
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez politiques active et passive de l’emploi.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les différentes sources d’inégalités sur le marché du travail.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez comment les mesures prises par les gouvernements peuvent réduire le chômage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques de lutte contre le chômage permettent-elles de réduire les inégalités sur le marché de du travail ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,3882 @@
+{
+ "matiere": "eco",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 205,
+  "passages_prevus": 20,
+  "hasard_questions_couvertes": 0.098,
+  "choix_par_annee": {
+   "2024": "arbres_generiques_et_propres_a_la_matiere",
+   "2025": "arbres_generiques_et_propres_a_la_matiere",
+   "2026": "logistique_12_generiques"
+  },
+  "famille_pour_l_annee_prevue": "arbres_12_generiques",
+  "popularite": {
+   "auc": 0.729,
+   "questions_couvertes": 0.254,
+   "questions_couvertes_a_un_passage_pres": 0.31,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.188,
+    "2025": 0.375,
+    "2026": 0.2
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.675,
+   "questions_couvertes": 0.201,
+   "questions_couvertes_a_un_passage_pres": 0.257,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.188,
+    "2025": 0.417,
+    "2026": 0.0
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.729,
+   "questions_couvertes": 0.236,
+   "questions_couvertes_a_un_passage_pres": 0.336,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.25,
+    "2025": 0.208,
+    "2026": 0.25
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.665,
+   "questions_couvertes": 0.211,
+   "questions_couvertes_a_un_passage_pres": 0.492,
+   "chapitres_prevus_tombes_sur_5": 2.0,
+   "par_annee": {
+    "2024": 0.375,
+    "2025": 0.208,
+    "2026": 0.05
+   }
+  },
+  "ensemble": {
+   "auc": 0.712,
+   "questions_couvertes": 0.146,
+   "questions_couvertes_a_un_passage_pres": 0.265,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.188,
+    "2025": 0.25,
+    "2026": 0.0
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.67,
+   "questions_couvertes": 0.194,
+   "questions_couvertes_a_un_passage_pres": 0.292,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.375,
+    "2025": 0.208,
+    "2026": 0.0
+   }
+  }
+ },
+ "famille_choisie": "arbres_12_generiques",
+ "passages_les_plus_probables": [
+  {
+   "passage": 156,
+   "section": 20,
+   "section_titre": "8.1 Les transformations du commerce mondial",
+   "probabilite": 0.845,
+   "texte": "Capacité attendue : l'élève est capable de décrire et le développement des échanges de biens et services entre pays.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.59
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.24
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+     "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM)."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-metropole",
+     "enonce": "Décrivez l’évolution des échanges de biens de la France avec l’extérieur."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 129,
+   "section": 17,
+   "section_titre": "7.1 Activité et chômage",
+   "probabilite": 0.836,
+   "texte": "Selon le BIT (Bureau international du travail) et l’INSEE, le chômage peut prendre différentes formes en fonction des situations auxquelles il correspond (chômage de plein emploi, chômage structurel / conjoncturel, chômage volontaire / involontaire, etc.). Les deux mesures principales du chômage sont le taux de chômage et le taux d’emploi, constitutifs du taux d’activité.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "selon",
+    "plein",
+    "correspond",
+    "situations"
+   ],
+   "toujours_nomme": [
+    "chomage"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.59
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.28
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.14
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-asie",
+     "enonce": "Présentez les effets des mesures de politique passive de l’emploi contre le chômage."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2022-asie",
+     "enonce": "Décrivez les outils de politique active mis en place par le gouvernement français pour lutter contre le chômage depuis la crise sanitaire."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 120,
+   "section": 16,
+   "section_titre": "6.4 Les politiques sociales",
+   "probabilite": 0.832,
+   "texte": "L’un des instruments clefs de l’exercice de la fonction redistributive de l’État est la politique sociale. Celle-ci protège les individus contre les risques sociaux (redistribution horizontale) et elle permet de réduire les inégalités socio-économiques (redistribution verticale).",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "redistribution",
+    "horizontale",
+    "risques",
+    "elle",
+    "verticale",
+    "sociaux"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.71
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.24
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.05
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+     "enonce": "Identifiez les sources des inégalités de revenus."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+     "enonce": "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 162,
+   "section": 20,
+   "section_titre": "8.1 Les transformations du commerce mondial",
+   "probabilite": 0.832,
+   "texte": "Capacité attendue : l'élève est capable la place des firmes multinationales dans les échanges internationaux.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.59
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.24
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+     "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-centres-etrangers",
+     "enonce": "Justifiez la nécessité de la mise en place des mesures de contrôle des investissements étrangers."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 128,
+   "section": 16,
+   "section_titre": "6.4 Les politiques sociales",
+   "probabilite": 0.828,
+   "texte": "Capacité attendue : l'élève est capable de distinguer la redistribution horizontale et la redistribution verticale des ressources.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "redistribution",
+    "horizontale",
+    "verticale"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.71
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.24
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.05
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+     "enonce": "Comparez les revenus avant et après redistribution selon le niveau de vie."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-nouvelle-caledonie",
+     "enonce": "Commentez les effets de la redistribution sur les revenus des ménages."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 132,
+   "section": 17,
+   "section_titre": "7.1 Activité et chômage",
+   "probabilite": 0.811,
+   "texte": "Capacité attendue : l'élève est capable d’interpréter l’évolution de ces trois taux en France à partir de courbes.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.59
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.28
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.14
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-polynesie",
+     "enonce": "Identifiez les origines des inégalités en France."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2022-polynesie",
+     "enonce": "Expliquez les conséquences de la politique sociale américaine face à la crise sanitaire."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 113,
+   "section": 15,
+   "section_titre": "6.3 Les politiques économiques de l’État et de l’Europe",
+   "probabilite": 0.793,
+   "texte": "Afin de stabiliser les grands agrégats macroéconomiques (produit intérieur brut, emploi, stabilité des prix, commerce extérieur), l’État peut mettre en œuvre des politiques d’offre ou de demande fondées, par exemple, sur l’abaissement des coûts des facteurs de production, l’aide à l’innovation, les incitations financières, l’abaissement ou la hausse des impôts directs, indirects et des aides sociales. Les politiques à plus long terme visent, quant à elles, à modifier durablement le fonctionnement du système économique.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "hausse",
+    "impots",
+    "terme"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.56
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.25
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.19
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2024-metropole",
+     "enonce": "Présentez les conséquences de la baisse des prélèvements obligatoires selon le niveau de vie des ménages en 2020/2021."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 75,
+   "section": 11,
+   "section_titre": "5.1 Le degré de concurrence selon les marchés",
+   "probabilite": 0.761,
+   "texte": "Le degré de concurrence sur un marché dépend du nombre d’entreprises, de leurs stratégies, de l’entrée potentielle de nouveau concurrents, des barrières à l’entrée et de l’existence de produits substituables. Le prix d’un bien ou service correspond à la valeur à laquelle un échange peut être réalisé.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "substituables",
+    "strategies",
+    "degre"
+   ],
+   "toujours_nomme": [
+    "concurrence"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.75
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-zero-1",
+     "enonce": "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-zero-1",
+     "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 80,
+   "section": 11,
+   "section_titre": "5.1 Le degré de concurrence selon les marchés",
+   "probabilite": 0.744,
+   "texte": "Capacité attendue : l'élève est capable de calculer un degré de concentration des marchés et de caractériser la structure des différentes formes de concentration : concurrence, oligopole et monopole.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "concentration",
+    "oligopole",
+    "degre",
+    "caracteriser",
+    "monopole",
+    "structure"
+   ],
+   "toujours_nomme": [
+    "concurrence"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.75
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-zero-1",
+     "enonce": "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-zero-1",
+     "enonce": "Caractérisez la structure du marché des montres connectées."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 99,
+   "section": 13,
+   "section_titre": "6.1 L’intervention de l’État",
+   "probabilite": 0.718,
+   "texte": "Capacité attendue : l'élève est capable de distinguer le déficit public de la dette publique.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.6
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.2
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+     "enonce": "Distinguez les notions de déficit public et de dette publique."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+     "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 90,
+   "section": 13,
+   "section_titre": "6.1 L’intervention de l’État",
+   "probabilite": 0.717,
+   "texte": "Les fonctions de l’État ont progressivement évolué d’un État exerçant une intervention minimale (ordre public, protection du pays, prélèvement des impôts) à un État-Providence combinant des fonctions de régulation et de stabilisation, d’allocation des ressources et de redistribution, ces fonctions étant le plus souvent concomitantes. La place de l’État peut être appréciée notamment à travers l’importance relative des prélèvements obligatoires dans l’économie (prélèvements obligatoires/PIB), à travers l’identification des domaines et des modalités d’intervention de l’État (par exemple, la prote",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "impots"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.6
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.2
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2026-metropole",
+     "enonce": "Rappelez les fonctions économiques de l’État."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2026-metropole",
+     "enonce": "Commentez les effets des Jeux Olympiques et Paralympiques (JOP) de Paris 2024 sur l’emploi."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 116,
+   "section": 15,
+   "section_titre": "6.3 Les politiques économiques de l’État et de l’Europe",
+   "probabilite": 0.713,
+   "texte": "Notions : Les fluctuations et les cycles économiques (expansion, récession, dépression, crise). La politique contracyclique. La politique budgétaire et la politique monétaire. Les politiques de la concurrence. La politique monétaire européenne. Les politiques budgétaires de relance ou de stabilisation et les critères européens des déficits publics.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "relance"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.56
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.25
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.19
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Présentez les différentes étapes du cycle économique."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+     "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les déficits publics favorisent-ils la croissance économique ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 46,
+   "section": 6,
+   "section_titre": "3.1 L’arbitrage entre consommation et épargne",
+   "probabilite": 0.614,
+   "texte": "Le revenu disponible des ménages est réparti entre consommation et épargne. Les variables économiques, sociales et démographiques affectent cet arbitrage.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "disponible"
+   ],
+   "toujours_nomme": [
+    "epargne",
+    "menages"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.79
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.14
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.07
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole",
+     "enonce": "Identifiez l’arbitrage que fait chaque ménage à partir de son revenu disponible."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+     "enonce": "Comparez l’évolution du taux d’épargne des ménages selon le quintile de revenus."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 54,
+   "section": 7,
+   "section_titre": "3.2 Le pouvoir d’achat des ménages",
+   "probabilite": 0.607,
+   "texte": "Le pouvoir d’achat mesure la quantité de biens et services qu’un ménage peut acquérir étant donné le revenu dont il dispose. Aussi, une hausse des prix moins importante que celle du revenu disponible se traduit-elle par une augmentation de son pouvoir d’achat.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "donne",
+    "mesure",
+    "augmentation",
+    "quantite"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.62
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.23
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.15
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+     "enonce": "Rappelez le lien entre offre, demande et prix des biens et services."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+     "enonce": "Présentez les mécanismes qui expliquent les augmentations actuelles des prix."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 48,
+   "section": 6,
+   "section_titre": "3.1 L’arbitrage entre consommation et épargne",
+   "probabilite": 0.6,
+   "texte": "La structure de la consommation (part des différents types de biens et services dans les dépenses) évolue dans le budget des ménages dans le temps et selon différents critères, économiques (revenu, taux d’intérêt, projet d’investissement, etc.), démographiques (vieillissement de la population par exemple) et sociaux (épargne de précaution, anticipations de perte de revenu, chômage, risque de maladie).",
+   "deja_tombe": 0,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "epargne",
+    "menages"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "les / les x / presentez / expliquez",
+     "part": 0.79
+    },
+    {
+     "facette": 0,
+     "nom": "une / suivante / suivante colon / une argumentation",
+     "part": 0.14
+    },
+    {
+     "facette": 2,
+     "nom": "x evolution x / evolution / x evolution / evolution x",
+     "part": 0.07
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole",
+     "enonce": "Présentez les conséquences de l’augmentation du pouvoir d’achat des ménages sur la consommation et la richesse d’un pays."
+    },
+    {
+     "sujet": "stmg-spe-droit-economie-2021-metropole",
+     "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?"
+    }
+   ],
+   "intention": null
+  }
+ ],
+ "preuve_sur_les_nouveautes": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "questions_nouvelles": 24,
+  "auc_potentiel_sur_passages_jamais_tombes": 0.687,
+  "nouvelles_couvertes_par_le_quart_retenu": 0.411,
+  "hasard": 0.25
+ },
+ "programme": [
+  {
+   "section": 20,
+   "titre": "8.1 Les transformations du commerce mondial",
+   "passages": 16,
+   "proba": 0.845,
+   "potentiel": 0.786,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.984,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 150,
+     "texte": "Il est important d’estimer la valeur ajoutée dégagée sur chacun des segments. Certains pays n’ont qu’un rôle d’assembleur de ce fait qu’une et ne dégagent d’autres se faible valeur ajoutée du produit final ; positionnent sur des segments à plus forte valeur ajoutée, par exemple dans les secteurs de l’innovation et de la recherche. à l’échelle internationale Cette segmentation se traduit par des im",
+     "proba": 0.829,
+     "potentiel": 0.786,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "intermediaires",
+      "importations"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.59
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.24
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rappelez ce que mesure la valeur ajoutée."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 149,
+     "texte": "L’ouverture des frontières, la baisse des coûts de transport et de communication, le développement des économies d’échelle ont transformé le commerce mondial. L’internationalisation de la chaîne de valeur des produits se concrétise par une segmentation croissante des processus de production : les entreprises sont aujourd’hui moins spécialisées dans la production d’un bien que dans une étape de sa ",
+     "proba": 0.829,
+     "potentiel": 0.776,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.59
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.24
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’internationalisation de l’économie française favorise-t-elle sa croissance ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 151,
+     "texte": "Ces flux au niveau d’un pays sont mesurés par la balance des biens et services. L’un des principaux indicateurs de l’attractivité économique d’un pays est constitué par le niveau des investissements directs à l’étranger (IDE).",
+     "proba": 0.808,
+     "potentiel": 0.746,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "investissements",
+      "etranger"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.59
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.24
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Expliquez l’attractivité de la France en matière d’Investissements Directs à l’Étranger (IDE)."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 17,
+   "titre": "7.1 Activité et chômage",
+   "passages": 9,
+   "proba": 0.836,
+   "potentiel": 0.723,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.976,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 129,
+     "texte": "Selon le BIT (Bureau international du travail) et l’INSEE, le chômage peut prendre différentes formes en fonction des situations auxquelles il correspond (chômage de plein emploi, chômage structurel / conjoncturel, chômage volontaire / involontaire, etc.). Les deux mesures principales du chômage sont le taux de chômage et le taux d’emploi, constitutifs du taux d’activité.",
+     "proba": 0.836,
+     "potentiel": 0.723,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [
+      "selon",
+      "plein",
+      "correspond",
+      "situations"
+     ],
+     "toujours_nomme": [
+      "chomage"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.59
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.28
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.14
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-asie",
+       "enonce": "Présentez les effets des mesures de politique passive de l’emploi contre le chômage."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-asie",
+       "enonce": "Décrivez les outils de politique active mis en place par le gouvernement français pour lutter contre le chômage depuis la crise sanitaire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 131,
+     "texte": "Capacité attendue : l'élève est capable calculer le taux d’activité, le taux de chômage et le taux d’emploi de.",
+     "proba": 0.783,
+     "potentiel": 0.662,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "chomage"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.59
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.28
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.14
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-metropole",
+       "enonce": "Distinguez le taux de chômage et le taux d’emploi."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-metropole",
+       "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 132,
+     "texte": "Capacité attendue : l'élève est capable d’interpréter l’évolution de ces trois taux en France à partir de courbes.",
+     "proba": 0.811,
+     "potentiel": 0.569,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.59
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.28
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.14
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-polynesie",
+       "enonce": "Identifiez les origines des inégalités en France."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-polynesie",
+       "enonce": "Expliquez les conséquences de la politique sociale américaine face à la crise sanitaire."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 16,
+   "titre": "6.4 Les politiques sociales",
+   "passages": 9,
+   "proba": 0.832,
+   "potentiel": 0.684,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.938,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 120,
+     "texte": "L’un des instruments clefs de l’exercice de la fonction redistributive de l’État est la politique sociale. Celle-ci protège les individus contre les risques sociaux (redistribution horizontale) et elle permet de réduire les inégalités socio-économiques (redistribution verticale).",
+     "proba": 0.832,
+     "potentiel": 0.646,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [
+      "redistribution",
+      "horizontale",
+      "risques",
+      "elle",
+      "verticale",
+      "sociaux"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.71
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.24
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.05
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Identifiez les sources des inégalités de revenus."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 121,
+     "texte": "La politique sociale passe notamment par : - la protection sociale qui répond à une logique d’assistance et/ou d’assurance contre les risques sociaux (maladie, invalidité, chômage, précarité/exclusion, vieillesse, charges de famille, etc.) ; - la fiscalité lorsqu’elle permet de réaliser une redistribution verticale des ressources. La protection sociale s’effectue d’une part par le versement de pre",
+     "proba": 0.826,
+     "potentiel": 0.684,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "sociale",
+      "sociaux",
+      "protection",
+      "assurance",
+      "assistance",
+      "logique"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.71
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.24
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.05
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+       "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 122,
+     "texte": "Ces dépenses sont financées soit par les cotisations sociales, soit par l’impôt. Une partie de la redistribution verticale des ressources peut s’effectuer par la mise en œuvre de prélèvements obligatoires progressifs.",
+     "proba": 0.805,
+     "potentiel": 0.538,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "verticale",
+      "redistribution",
+      "obligatoires",
+      "sociales"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.71
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.24
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.05
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Qualifiez le poids des impôts sur le revenu par rapport à l’ensemble des prélèvements obligatoires."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+       "enonce": "Expliquez la progressivité de l’impôt sur le revenu."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 15,
+   "titre": "6.3 Les politiques économiques de l’État et de l’Europe",
+   "passages": 7,
+   "proba": 0.793,
+   "potentiel": 0.716,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.932,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 113,
+     "texte": "Afin de stabiliser les grands agrégats macroéconomiques (produit intérieur brut, emploi, stabilité des prix, commerce extérieur), l’État peut mettre en œuvre des politiques d’offre ou de demande fondées, par exemple, sur l’abaissement des coûts des facteurs de production, l’aide à l’innovation, les incitations financières, l’abaissement ou la hausse des impôts directs, indirects et des aides socia",
+     "proba": 0.793,
+     "potentiel": 0.716,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "hausse",
+      "impots",
+      "terme"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.19
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2024-metropole",
+       "enonce": "Présentez les conséquences de la baisse des prélèvements obligatoires selon le niveau de vie des ménages en 2020/2021."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 114,
+     "texte": "Elles doivent créer un cadre favorable à la croissance et au développement d’un territoire. Parmi ces politiques, on trouve notamment les politiques de remise à la concurrence d’anciens monopoles d’État, la politique de la concurrence et de lutte contre les cartels, l’économie de la connaissance, la politique de recherche et d’innovation.",
+     "proba": 0.697,
+     "potentiel": 0.631,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.19
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Analysez les variations de la croissance française."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Présentez les différentes étapes du cycle économique."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 115,
+     "texte": "En Europe, le processus d’intégration économique et monétaire a entraîné la mise en place d’une politique monétaire pour les pays membres de la zone euro ainsi que des règles communes de politique budgétaire. Cette intégration a été adoptée pour garantir le développement économique de l’Europe par une meilleure coordination des politiques budgétaires, la convergence des taux d’intérêts, le dévelop",
+     "proba": 0.709,
+     "potentiel": 0.599,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "place"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.19
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Expliquez l’évolution des dépenses publiques de 2018 à 2019."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Comparez le poids des échanges commerciaux intérieurs à l’Union européenne dans le commerce mondial à celui des autres pôles régionaux."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 13,
+   "titre": "6.1 L’intervention de l’État",
+   "passages": 15,
+   "proba": 0.718,
+   "potentiel": 0.726,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.903,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 90,
+     "texte": "Les fonctions de l’État ont progressivement évolué d’un État exerçant une intervention minimale (ordre public, protection du pays, prélèvement des impôts) à un État-Providence combinant des fonctions de régulation et de stabilisation, d’allocation des ressources et de redistribution, ces fonctions étant le plus souvent concomitantes. La place de l’État peut être appréciée notamment à travers l’imp",
+     "proba": 0.717,
+     "potentiel": 0.726,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "impots"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.2
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-metropole",
+       "enonce": "Rappelez les fonctions économiques de l’État."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-metropole",
+       "enonce": "Commentez les effets des Jeux Olympiques et Paralympiques (JOP) de Paris 2024 sur l’emploi."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 91,
+     "texte": "Le degré d’intervention de l’État dépend des choix de société réalisés (interventionnisme ou libéralisme). L’essentiel des ressources des administrations publiques provient des prélèvements obligatoires.",
+     "proba": 0.689,
+     "potentiel": 0.611,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.2
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Commentez l’évolution des dépenses et des recettes publiques des administrations publiques."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Montrez que l’intervention de l’État français sur le marché des carburants modifie les mécanismes de marché."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 95,
+     "texte": "Notions : L’État gendarme et l’État-providence. L’État et les entreprises publiques, semi- publiques et privées. L’interventionnisme et le libéralisme. Les dépenses publiques. Le déficit public et la dette publique.",
+     "proba": 0.61,
+     "potentiel": 0.583,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.2
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Commentez la situation des finances publiques en France depuis 2018."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Montrez que les entreprises publiques influencent le budget de l’État."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "5.1 Le degré de concurrence selon les marchés",
+   "passages": 10,
+   "proba": 0.761,
+   "potentiel": 0.614,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.858,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 75,
+     "texte": "Le degré de concurrence sur un marché dépend du nombre d’entreprises, de leurs stratégies, de l’entrée potentielle de nouveau concurrents, des barrières à l’entrée et de l’existence de produits substituables. Le prix d’un bien ou service correspond à la valeur à laquelle un échange peut être réalisé.",
+     "proba": 0.761,
+     "potentiel": 0.609,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "substituables",
+      "strategies",
+      "degre"
+     ],
+     "toujours_nomme": [
+      "concurrence"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 77,
+     "texte": "Notions : L’offre et la demande. Le prix d’équilibre. L’élasticité prix-demande. L’élasticité croisée. Le coût marginal. La concurrence, oligopole, monopole, cartel. La concurrence imparfaite. Les barrières à l’entrée. Les produits substituables, produits complémentaires. L’indice de concentration sur un marché.",
+     "proba": 0.651,
+     "potentiel": 0.614,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "substituables",
+      "indice",
+      "oligopole",
+      "concentration",
+      "monopole"
+     ],
+     "toujours_nomme": [
+      "concurrence"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2024-polynesie",
+       "enonce": "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 76,
+     "texte": "Si le marché est concurrentiel, le prix converge vers le coût marginal de production et sera donc plus avantageux pour le consommateur qu’un prix de concurrence imparfaite ou celui d’un monopoleur.",
+     "proba": 0.701,
+     "potentiel": 0.532,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "concurrentiel"
+     ],
+     "toujours_nomme": [
+      "concurrence"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2024-polynesie",
+       "enonce": "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2024-polynesie",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique de concurrence est-elle toujours bénéfique au consommateur ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 18,
+   "titre": "7.2 L’offre et la demande de travail",
+   "passages": 6,
+   "proba": 0.59,
+   "potentiel": 0.695,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.841,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 138,
+     "texte": "La demande de travail émane des entreprises et dépend essentiellement de quatre facteurs : - la demande pour le produit ; - l’efficacité du travail (la productivité) qui permet de répondre à la demande avec la même quantité de facteurs ; - la substituabilité entre le travail et le capital ; - le coût du travail. L’étude de la demande de travail s’intéresse à l’impact d’une variation de ces quatre ",
+     "proba": 0.59,
+     "potentiel": 0.695,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "demande",
+      "permet",
+      "offre"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Commentez l’évolution de la part des entreprises utilisant l’IA (intelligence artificielle)."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 139,
+     "texte": "L’offre de travail correspond à la demande d’emploi qui émane des ménages appartenant à la population active. L’équilibre sur le marché du travail détermine les quantités de travail échangées et le niveau de salaire auquel les offreurs et les demandeurs de travail accepteront l’échange.",
+     "proba": 0.468,
+     "potentiel": 0.57,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "active",
+      "echange",
+      "menages",
+      "offre",
+      "demande"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Présentez les effets de l’IA sur les travailleurs selon leur niveau de qualification."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 141,
+     "texte": "Notions : La demande de travail / l’offre d’emploi. L’offre de travail / la demande d’emploi. La population active et le taux d’activité. Le plein emploi. Le sous-emploi. Les négociations salariales. Les contraintes légales et conventionnelles. Le salaire minimum. Le chômage structurel. La demande anticipée. Le chômage conjoncturel.",
+     "proba": 0.506,
+     "potentiel": 0.544,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "demande",
+      "offre",
+      "chomage",
+      "active",
+      "activite",
+      "taux"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Présentez les effets de l’IA sur les travailleurs selon leur niveau de qualification."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 19,
+   "titre": "7.3 Politiques de l’emploi",
+   "passages": 5,
+   "proba": 0.454,
+   "potentiel": 0.722,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.816,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 144,
+     "texte": "Pour lutter contre le chômage structurel, deux types de politique de l’emploi sont mis en œuvre : les politiques actives de l’emploi visent à améliorer le fonctionnement du marché du travail ; les politiques passives de l’emploi ciblent la réduction des conséquences négatives du chômage sur la population, comme l’avancement de l’âge de la retraite ou le développement des aides sociales pour les pe",
+     "proba": 0.454,
+     "potentiel": 0.722,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "politique",
+      "lutter",
+      "relance",
+      "consequences"
+     ],
+     "toujours_nomme": [
+      "chomage"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+       "enonce": "Rappelez les effets du mécanisme du taux d’intérêt directeur de la BCE sur le crédit bancaire."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+       "enonce": "Commentez l’évolution du taux de chômage en France entre 2003 et 2023."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 145,
+     "texte": "Si cet État est dans la zone Euro, sa politique monétaire est dévolue à la Banque centrale européenne, dont le premier objectif est la stabilité des prix ; la politique budgétaire fait l’objet d’une surveillance permanente.",
+     "proba": 0.346,
+     "potentiel": 0.577,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "politique",
+      "budgetaire"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+       "enonce": "Comparez l’évolution du taux directeur de la banque centrale européenne (BCE) et du taux de croissance."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+       "enonce": "Décrivez les effets d’une politique budgétaire de relance par la demande."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 146,
+     "texte": "Notions : Les politiques actives et les politiques passives de lutte contre le chômage.",
+     "proba": 0.372,
+     "potentiel": 0.413,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "chomage"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+       "enonce": "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques d’emploi mises en œuvre par la France luttent-elles efficacement contre le chômage ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 22,
+   "titre": "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux",
+   "passages": 13,
+   "proba": 0.263,
+   "potentiel": 0.759,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.756,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 169,
+     "texte": "Les éventuelles conséquences négatives du protectionnisme adopté par certains États ont poussé la communauté internationale à promouvoir une régulation mondiale des échanges de biens et de services. Celle-ci est aujourd’hui mise en œuvre par l’Organisation mondiale du commerce (OMC).",
+     "proba": 0.263,
+     "potentiel": 0.742,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.2
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 170,
+     "texte": "Dans le cadre de cycles de négociations réguliers (Rounds), des règles du commerce mondial sont négociées entre pays (clause de la nation la plus favorisée (NPF), principe du traitement national, principe de réciprocité). Une juridiction spécialisée, l’Organe de règlement des différends (ORD), permet de traiter les litiges éventuels.",
+     "proba": 0.178,
+     "potentiel": 0.759,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.2
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 176,
+     "texte": "Capacité attendue : l'élève est capable de décrire les avantages et les limites du libre-échange et / autarcie.",
+     "proba": 0.192,
+     "potentiel": 0.641,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.2
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Caractérisez les bienfaits du libre-échange."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Présentez les défaillances de marché qui peuvent être générées par le libreéchange."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "3.1 L’arbitrage entre consommation et épargne",
+   "passages": 8,
+   "proba": 0.614,
+   "potentiel": 0.498,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.731,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 48,
+     "texte": "La structure de la consommation (part des différents types de biens et services dans les dépenses) évolue dans le budget des ménages dans le temps et selon différents critères, économiques (revenu, taux d’intérêt, projet d’investissement, etc.), démographiques (vieillissement de la population par exemple) et sociaux (épargne de précaution, anticipations de perte de revenu, chômage, risque de malad",
+     "proba": 0.6,
+     "potentiel": 0.498,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "epargne",
+      "menages"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.79
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.14
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.07
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Présentez les conséquences de l’augmentation du pouvoir d’achat des ménages sur la consommation et la richesse d’un pays."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 46,
+     "texte": "Le revenu disponible des ménages est réparti entre consommation et épargne. Les variables économiques, sociales et démographiques affectent cet arbitrage.",
+     "proba": 0.614,
+     "potentiel": 0.437,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "disponible"
+     ],
+     "toujours_nomme": [
+      "epargne",
+      "menages"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.79
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.14
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.07
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Identifiez l’arbitrage que fait chaque ménage à partir de son revenu disponible."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Comparez l’évolution du taux d’épargne des ménages selon le quintile de revenus."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 47,
+     "texte": "Mais ces variables ont aussi un impact sur la structure de la consommation et de l’épargne. Le revenu disponible se répartit entre consommation et épargne.",
+     "proba": 0.58,
+     "potentiel": 0.403,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "disponible"
+     ],
+     "toujours_nomme": [
+      "epargne"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.79
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.14
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.07
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Présentez les conséquences de l’augmentation du pouvoir d’achat des ménages sur la consommation et la richesse d’un pays."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 21,
+   "titre": "8.2 Des politiques commerciales divergentes",
+   "passages": 4,
+   "proba": 0.196,
+   "potentiel": 0.7,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.701,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 165,
+     "texte": "Le commerce international a de nombreux effets : des gains en termes de baisse de prix, une réduction des inégalités entre pays, l’accroissement des inégalités de revenus au sein de chaque pays. Les pays peuvent mettre en œuvre des politiques d’ouverture aux échanges ou au contraire de plus grand contrôle de ceux-ci : - ils facilitent les échanges en éliminant ou en réduisant les droits d’importat",
+     "proba": 0.196,
+     "potentiel": 0.7,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "inegalites",
+      "effets",
+      "reduction"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Le développement des firmes multinationales (FMN) constitue-t-il un facteur positif pour la croissance économique française ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Comparez la contribution des firmes multinationales (FMN) dans l’économie française à celle dans les autres pays."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 167,
+     "texte": "Notions : Les droits de douane. Les restrictions quantitatives à l’importation (barrières non tarifaires).",
+     "proba": 0.128,
+     "potentiel": 0.4,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-asie",
+       "enonce": "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-asie",
+       "enonce": "Déterminez le lien entre niveau de diplôme et chômage."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 166,
+     "texte": "Ces mesures peuvent être temporaires ou permanentes.",
+     "proba": 0.022,
+     "potentiel": 0.391,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "mesures"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Expliquez les mesures protectionnistes de contrôle des échanges."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 24,
+   "titre": "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation",
+   "passages": 9,
+   "proba": 0.147,
+   "potentiel": 0.767,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.686,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 196,
+     "texte": "La croissance économique reste un objectif de la plupart des politiques économiques afin d’améliorer l’emploi, le niveau de vie des individus et le niveau d’éducation des populations. La réduction de la pauvreté absolue dans le monde a été extrêmement importante, notamment dans un contexte historique d’augmentation de la population mondiale.",
+     "proba": 0.112,
+     "potentiel": 0.767,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "afin",
+      "reste",
+      "reduction"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Présentez les effets de l’IA sur les travailleurs selon leur niveau de qualification."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+       "enonce": "Rappelez les effets du mécanisme du taux d’intérêt directeur de la BCE sur le crédit bancaire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 197,
+     "texte": "On constate cependant dans la majorité des pays une forte augmentation des inégalités et un maintien de la pauvreté relative. L’éducation et la formation constituent un des premiers moteurs du développement économique des pays et de lutte contre la pauvreté.",
+     "proba": 0.082,
+     "potentiel": 0.711,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "forte"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+       "enonce": "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques d’emploi mises en œuvre par la France luttent-elles efficacement contre le chômage ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 201,
+     "texte": "Capacité attendue : l'élève est capable de distinguer la pauvreté absolue de la pauvreté relative.",
+     "proba": 0.147,
+     "potentiel": 0.61,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "distinguer"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.88
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole",
+       "enonce": "Expliquez les conséquences de la rareté attendue des métaux sur le déficit commercial français."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Comparez les revenus avant et après redistribution selon le niveau de vie."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 7,
+   "titre": "3.2 Le pouvoir d’achat des ménages",
+   "passages": 4,
+   "proba": 0.607,
+   "potentiel": 0.411,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.675,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 54,
+     "texte": "Le pouvoir d’achat mesure la quantité de biens et services qu’un ménage peut acquérir étant donné le revenu dont il dispose. Aussi, une hausse des prix moins importante que celle du revenu disponible se traduit-elle par une augmentation de son pouvoir d’achat.",
+     "proba": 0.607,
+     "potentiel": 0.411,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [
+      "donne",
+      "mesure",
+      "augmentation",
+      "quantite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.23
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.15
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Rappelez le lien entre offre, demande et prix des biens et services."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Présentez les mécanismes qui expliquent les augmentations actuelles des prix."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "Sur le long terme, on observe jusqu’à présent une amélioration du pouvoir d’achat des ménages, même si celle-ci peut être très inégale.",
+     "proba": 0.455,
+     "potentiel": 0.311,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.23
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.15
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État en faveur du pouvoir d’achat des ménages permet-elle de stimuler la croissance économique ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Expliquez les comportements des ménages face aux augmentations de prix."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 56,
+     "texte": "Notions : L’indice des prix à la consommation. Le panier de biens. L’évolution à long terme du pouvoir d’achat.",
+     "proba": 0.545,
+     "potentiel": 0.249,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.23
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.15
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Expliquez les comportements des ménages face aux augmentations de prix."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2024-asie",
+       "enonce": "Commentez l’évolution des dépenses publiques en France."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 14,
+   "titre": "6.2 Défaillances des marchés et défaillances de l’État",
+   "passages": 8,
+   "proba": 0.234,
+   "potentiel": 0.608,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.657,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 107,
+     "texte": "Il peut notamment : - améliorer la qualité de l’information sur les marchés (Autorité des Marchés Financiers, labels sur les produits, etc.) ; - mettre en place une politique de la concurrence ; - encourager les activités à l’origine d’externalités positives et limiter les activités sources d’externalités négatives ; - organiser la production de biens publics et éviter la surexploitation des biens",
+     "proba": 0.234,
+     "potentiel": 0.584,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Analysez les variations de la croissance française."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Déterminez les effets de la crise sur la demande de biens et services pour les entreprises françaises."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 105,
+     "texte": "Les interventions économiques de l’État visent à corriger les défaillances et dysfonctionnements des marchés. Usuellement, on dénombre quatre types de défaillances des marchés : - les asymétries d’information ; - la concurrence imparfaite ; - les externalités ; - les biens publics et les biens communs.",
+     "proba": 0.195,
+     "potentiel": 0.608,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Caractérisez la structure du marché des montres connectées."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 106,
+     "texte": "Les défaillances des marchés ne permettent pas une allocation efficace des ressources. L’État doit alors intervenir pour corriger ces défaillances de marché.",
+     "proba": 0.107,
+     "potentiel": 0.487,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-metropole",
+       "enonce": "Rappelez les fonctions économiques de l’État."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-metropole",
+       "enonce": "Commentez les effets des Jeux Olympiques et Paralympiques (JOP) de Paris 2024 sur l’emploi."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 23,
+   "titre": "9.1 Les sources d’une croissance économique soutenable",
+   "passages": 14,
+   "proba": 0.085,
+   "potentiel": 0.743,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.656,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 182,
+     "texte": "Le processus de croissance économique et les sources de la croissance correspondent à l’accumulation des facteurs et à l’accroissement de la productivité globale des facteurs. Le progrès technique et l’accroissement de la productivité globale des facteurs sont étroitement liés dans la croissance économique.",
+     "proba": 0.085,
+     "potentiel": 0.743,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "croissance"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Rappelez la fonction principale des agents économiques : ménages et entreprises."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 184,
+     "texte": "La croissance économique se heurte à des limites écologiques (notamment l’épuisement des ressources et la pollution). Le développement durable prend en compte non seulement les défis écologiques mais également les défis économiques et sociaux.",
+     "proba": 0.075,
+     "potentiel": 0.716,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "croissance"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Rappelez la fonction principale des agents économiques : ménages et entreprises."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 183,
+     "texte": "Ce progrès technique provient en particulier de l’innovation qui est créée de façon endogène dans l’économie. Les institutions (notamment les droits de propriété) et le système financier influent également sur la croissance en affectant l’incitation à investir et à innover.",
+     "proba": 0.063,
+     "potentiel": 0.743,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "croissance"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Rappelez la fonction principale des agents économiques : ménages et entreprises."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 10,
+   "titre": "4.2 Les modalités de financement de l’activité économique",
+   "passages": 6,
+   "proba": 0.293,
+   "potentiel": 0.493,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.623,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 69,
+     "texte": "Le financement de l’activité économique est réalisé de manière interne par voie d’autofinancement et/ou de manière externe par le recours aux marchés financiers et aux institutions financières. Les agents à besoins de financement peuvent avoir recours à deux circuits de financement externe, direct et indirect.",
+     "proba": 0.293,
+     "potentiel": 0.493,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "activite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-asie",
+       "enonce": "Classez les agents économiques selon leur participation au financement de la transition écologique."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 71,
+     "texte": "Notions : L’autofinancement. L’emprunt. Le financement direct et le marché financier. Les titres financiers. Le financement indirect et les banques. Les actifs financiers.",
+     "proba": 0.123,
+     "potentiel": 0.408,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Présentez les effets de l’IA sur les travailleurs selon leur niveau de qualification."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 72,
+     "texte": "Capacité attendue : l'élève est capable et comprendre le rôle des banques dans le financement de l’activité.",
+     "proba": 0.204,
+     "potentiel": 0.365,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "activite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole",
+       "enonce": "Expliquez les conséquences de la rareté attendue des métaux sur le déficit commercial français."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Comparez l’évolution du nombre de projets d’investissements étrangers et d’emplois créés en France."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 12,
+   "titre": "5.2 Les stratégies pour dépasser l’intensité concurrentielle",
+   "passages": 5,
+   "proba": 0.156,
+   "potentiel": 0.474,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.548,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 86,
+     "texte": "Sur le long terme et grâce aux entreprises innovantes mais aussi imitatrices, l’innovation va permettre d’abaisser les prix relatifs des produits innovants (TV, voitures, ordinateurs, etc.). Le consommateur bénéficie de nouveaux produits meilleurs en qualité et en contenu technologique.",
+     "proba": 0.156,
+     "potentiel": 0.474,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "grace"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État en faveur du pouvoir d’achat des ménages permet-elle de stimuler la croissance économique ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2024-asie",
+       "enonce": "Commentez l’évolution des dépenses publiques en France."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 85,
+     "texte": "La concurrence fait disparaître les surprofits de monopole. Certaines entreprises vont alors innover et différencier en qualité leurs produits pour pouvoir conserver des créneaux haut de gamme en termes de produits avec des prix élevés.",
+     "proba": 0.054,
+     "potentiel": 0.469,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "concurrence"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 87,
+     "texte": "Notions : L’innovation, la différenciation des produits. Le monopole, l’oligopole.",
+     "proba": 0.069,
+     "potentiel": 0.374,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-zero-1",
+       "enonce": "Caractérisez la structure du marché des montres connectées."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 8,
+   "titre": "3.3 La structure de consommation des ménages",
+   "passages": 5,
+   "proba": 0.5,
+   "potentiel": 0.377,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.527,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 59,
+     "texte": "La part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.",
+     "proba": 0.401,
+     "potentiel": 0.344,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "depenses"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Appréciez la place des dépenses de santé dans la consommation des ménages en France."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 58,
+     "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.",
+     "proba": 0.263,
+     "potentiel": 0.377,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "menages",
+      "consommation"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Décrivez les effets d’une augmentation du prix des médicaments sur leur consommation par les ménages."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Appréciez la place des dépenses de santé dans la consommation des ménages en France."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 62,
+     "texte": "Capacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+     "proba": 0.5,
+     "potentiel": 0.248,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "menages",
+      "consommation"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Décrivez les effets d’une augmentation du prix des médicaments sur leur consommation par les ménages."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Appréciez la place des dépenses de santé dans la consommation des ménages en France."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "4.1 La situation des agents économiques",
+   "passages": 6,
+   "proba": 0.239,
+   "potentiel": 0.458,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.52,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 63,
+     "texte": "Le financement de l’économie concerne les opérations par lesquelles les agents à besoins de financement obtiennent des ressources en provenance des agents à capacités de financement.",
+     "proba": 0.13,
+     "potentiel": 0.458,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "operations",
+      "besoins"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.88
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Rédigez une argumentation qui vous permet de répondre à la question suivante : L’intervention de l’État dans l’économie permet-elle de préserver l’environnement ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 66,
+     "texte": "Capacité attendue : l'élève est capable d’identifier et comparer les divers modes de financement de la croissance de la production.",
+     "proba": 0.239,
+     "potentiel": 0.384,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "croissance"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole",
+       "enonce": "Expliquez les conséquences de la rareté attendue des métaux sur le déficit commercial français."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 64,
+     "texte": "Notions : Les agents à besoins de financement et les agents à capacités de financement.",
+     "proba": 0.221,
+     "potentiel": 0.354,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Expliquez les principales politiques économiques mise en œuvre dans la Loi de finances rectificative 2022."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-asie",
+       "enonce": "Classez les agents économiques selon leur participation au financement de la transition écologique."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 5,
+   "titre": "2.3 La dynamique de la répartition des revenus",
+   "passages": 8,
+   "proba": 0.039,
+   "potentiel": 0.549,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.492,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 38,
+     "texte": "La production de biens et de services entraîne la distribution de revenus dans l’ensemble de l’économie. L’étude du revenu met en évidence la diversité de ses origines – travail (salaires, traitements) capital (intérêts, dividendes) et propriété (loyers) – ainsi que les enjeux de la répartition initiale de ces revenus et de leur taxation en vue d’une éventuelle redistribution.",
+     "proba": 0.039,
+     "potentiel": 0.549,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "entraine",
+      "leur"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Rédigez une argumentation qui vous permet de répondre à la question suivante : L’intervention de l’État dans l’économie permet-elle de préserver l’environnement ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Rappelez le lien entre offre, demande et prix des biens et services."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 39,
+     "texte": "Le partage de la valeur ajoutée peut être affecté sur le long terme par des évolutions comme le progrès technique. Par ailleurs, le processus de redistribution mis en place par l’État via les prélèvements obligatoires et les dépenses publiques vise la réduction des inégalités en corrigeant la répartition des revenus primaires.",
+     "proba": 0.014,
+     "potentiel": 0.454,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "long"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Présentez le lien qui existe entre prélèvements obligatoires, déficit public et dette publique."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Montrez en quoi les dépenses publiques favorisent la consommation."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 41,
+     "texte": "Notions : Les revenus primaires : les revenus du travail, les revenus du capital, les revenus mixtes. Le partage de la valeur ajoutée entre les différents agents économiques. La valeur ajoutée brute par secteur institutionnel. L’imposition sur le revenu. Les prélèvements obligatoires.",
+     "proba": 0.02,
+     "potentiel": 0.402,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "ajoutee"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rappelez ce que mesure la valeur ajoutée."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "1.2 Les décisions du consommateur et du producteur",
+   "passages": 10,
+   "proba": 0.02,
+   "potentiel": 0.478,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.397,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 6,
+     "texte": "La science économique étudie les mécanismes des choix individuels et collectifs, et leurs effets. L’analyse des choix alternatifs des individus se fonde sur l’idée que les agents sont rationnels dans leurs décisions, c’est-à-dire qu’ils s’efforcent d’atteindre les objectifs qu’ils se sont fixés en fonction de leurs préférences individuelles et des contraintes économiques, sociales et environnement",
+     "proba": 0.02,
+     "potentiel": 0.478,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "choix",
+      "dire",
+      "contraintes",
+      "fonction",
+      "individus"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-nouvelle-caledonie",
+       "enonce": "Rappelez la composition du revenu primaire des ménages."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : Les politiques sociales suffisent-elles à réduire les inégalités en France ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 7,
+     "texte": "Décider et arbitrer requiert ainsi de comparer les coûts et bénéfices des choix alternatifs. La notion centrale de coût d’opportunité, liée aux utilités que l’on marginales estimées des biens et services consomme ou pas, peut ainsi être expliquée et démontrée.",
+     "proba": 0.02,
+     "potentiel": 0.402,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "liee"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      },
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Analysez l’évolution des données du commerce extérieur de la France."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Commentez l’évolution du solde de la balance commerciale en biens de 1971 à 2018."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 9,
+     "texte": "La valeur de ces biens (ou services) pour les agents économiques est liée à leur rareté et à leur utilité marginale. La question de la production (que produire et en quelle quantité ?) dépend à la fois des quantités et du coût des ressources disponibles (facteurs de production : travail, capital, terre) et de la valeur du bien fabriqué, exprimée par son prix.",
+     "proba": 0.016,
+     "potentiel": 0.401,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "leur",
+      "facteurs",
+      "cout"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : Le progrès technique favorise-t-il le travail en France ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 2,
+   "titre": "1.3 Les échanges économiques",
+   "passages": 6,
+   "proba": 0.025,
+   "potentiel": 0.432,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.388,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 16,
+     "texte": "Les coûts d’opportunité des différents produits conduisent naturellement les producteurs à se spécialiser. Cette spécialisation entraîne un échange de biens et services, inter-individuel ou international, qui se réalise dans le cadre d’un marché (lieu physique ou virtuel).",
+     "proba": 0.025,
+     "potentiel": 0.432,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "entraine"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Déterminez les effets de la crise sur la demande de biens et services pour les entreprises françaises."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+       "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM)."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 17,
+     "texte": "Il en découle des interrelations multiples de flux réels et de flux monétaires, qui peuvent correspondre à un circuit économique élémentaire. La monnaie (sous de nombreuses formes) constitue un instrument essentiel de l’activité économique.",
+     "proba": 0.011,
+     "potentiel": 0.348,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "activite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Expliquez l’attractivité de la France en matière d’Investissements Directs à l’Étranger (IDE)."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 19,
+     "texte": "Notions : La spécialisation des producteurs et des pays, les échanges. Les différentes fonctions de la monnaie. Circuit économique élémentaire.",
+     "proba": 0.008,
+     "potentiel": 0.242,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "echanges",
+      "differentes"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+       "enonce": "Distinguez politiques active et passive de l’emploi."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques de lutte contre le chômage permettent-elles de réduire les inégalités sur le marché de du travail ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "2.1 La combinaison des facteurs de production",
+   "passages": 9,
+   "proba": 0.022,
+   "potentiel": 0.441,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.373,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 22,
+     "texte": "La production d’un bien ou d’un service nécessite le recours à plusieurs facteurs de production. Cette combinaison de facteurs est contrainte par la quantité de facteurs disponibles dans chaque économie et par leurs coûts.",
+     "proba": 0.021,
+     "potentiel": 0.441,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "facteurs",
+      "leurs",
+      "couts"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’internationalisation de l’économie française favorise-t-elle sa croissance ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 23,
+     "texte": "Cette combinaison évolue et est optimisée par la diffusion des technologies, des nouvelles organisations du travail ainsi que par l’amélioration du capital humain et de l’accès à l’information. Les facteurs peuvent contribuer plus ou moins intensément à la production.",
+     "proba": 0.022,
+     "potentiel": 0.43,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "nouvelles",
+      "peuvent",
+      "facteurs"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État en faveur du pouvoir d’achat des ménages permet-elle de stimuler la croissance économique ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 25,
+     "texte": "Notions : Les facteurs de production primaires et secondaires : le travail, le capital, les ressources naturelles, l’information. Le capital humain. La substitution ou la complémentarité de facteurs de production les uns par rapport aux autres au sein de la fonction de production. Le rôle de l’investissement dans l’accumulation des facteurs. La productivité globale des facteurs, et gains de produc",
+     "proba": 0.019,
+     "potentiel": 0.4,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "productivite",
+      "fonction",
+      "information"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : Le progrès technique favorise-t-il le travail en France ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2026-antilles-guyane",
+       "enonce": "Distinguez facteurs de production substituables et facteurs de production complémentaires."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "1.1 Les agents économiques et les différents types de biens et services",
+   "passages": 6,
+   "proba": 0.019,
+   "potentiel": 0.439,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.357,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 0,
+     "texte": "L’un des objets de l’économie est d’étudier comment les individus et les groupes d’individus organisent l’utilisation et la répartition des ressources rares à leur disposition, pour obtenir ce dont ils ont besoin, voire ce qu’ils désirent. Face à des désirs potentiellement illimités, les individus doivent choisir sous contrainte (revenu, temps, information) quels besoins ou quels désirs satisfaire",
+     "proba": 0.019,
+     "potentiel": 0.439,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "comment",
+      "niveau",
+      "leur",
+      "revenu"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique sociale en France réduit-elle les inégalités de revenus ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 3,
+     "texte": "Notions : Les différents agents économiques et leur fonction principale. Les différents types de biens et services. Les contraintes économiques : revenu, temps, espace, information. L’arbitrage entre les différentes activités et les choix économiques.",
+     "proba": 0.015,
+     "potentiel": 0.267,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "contraintes",
+      "leur",
+      "fonction",
+      "choix",
+      "revenu"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Déterminez les effets de la crise sur la demande de biens et services pour les entreprises françaises."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+       "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM)."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 1,
+     "texte": "Pour répondre à leurs besoins, les individus en société s’organisent. Une spécialisation dans des grandes fonctions se développe, la notion d’agent économique apparaît.",
+     "proba": 0.009,
+     "potentiel": 0.319,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique sociale en France réduit-elle les inégalités de revenus ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "2.2 La mesure de la production et ses prolongements",
+   "passages": 7,
+   "proba": 0.012,
+   "potentiel": 0.41,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.268,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 32,
+     "texte": "L’absence de prix peut rendre difficile le calcul de la valeur ajoutée des productions non marchandes, qui sont néanmoins utiles pour la société. La richesse produite à l’échelle d’un territoire est évaluée par le Produit intérieur brut (PIB).",
+     "proba": 0.012,
+     "potentiel": 0.393,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "territoire",
+      "ajoutee"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.88
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rappelez ce que mesure la valeur ajoutée."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 31,
+     "texte": "La création de richesse est évaluée par la valeur ajoutée produite par les agents économiques. Celle-ci est égale à la différence entre le prix de vente du bien et le coût des consommations intermédiaires rentrant dans la composition de ce bien.",
+     "proba": 0.007,
+     "potentiel": 0.41,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "ajoutee"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rappelez ce que mesure la valeur ajoutée."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 33,
+     "texte": "Le PIB peut être calculé comme la somme des valeurs ajoutées augmentée des impôts moins les subventions sur les produits. Le PIB par habitant reste le principal critère pour mesurer la richesse d’un pays, et le taux de croissance du PIB pour mesurer le dynamisme économique d’un pays et comparer les pays entre eux.",
+     "proba": 0.012,
+     "potentiel": 0.346,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "taux"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x evolution x / evolution / x evolution / evolution x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "les / les x / presentez / expliquez",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "une / suivante / suivante colon / une argumentation",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Expliquez l’attractivité de la France en matière d’Investissements Directs à l’Étranger (IDE)."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-2",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  }
+ ]
+}

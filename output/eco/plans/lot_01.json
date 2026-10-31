@@ -1,0 +1,958 @@
+[
+ {
+  "id": "C1.1",
+  "type": "cas",
+  "section": 0,
+  "section_titre": "1.1 Les agents économiques et les différents types de biens et services",
+  "partenaire": 9,
+  "partenaire_titre": "4.1 La situation des agents économiques",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "proba_annee_suivante": 0.074,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "1.1 Les agents économiques et les différents types de biens et services",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "L’un des objets de l’économie est d’étudier comment les individus et les groupes d’individus organisent l’utilisation et la répartition des ressources rares à leur disposition, pour obtenir ce dont ils ont besoin, voire ce qu’ils désirent. Face à des désirs potentiellement illimités, les individus doivent choisir sous contrainte (revenu, temps, information) quels besoins ou quels désirs satisfaire en premier lieu et comment arbitrer entre différents moyens pour atteindre un certain niveau de satisfaction.\nPour répondre à leurs besoins, les individus en société s’organisent. Une spécialisation dans des grandes fonctions se développe, la notion d’agent économique apparaît.\nLes ressources nécessaires pour produire les biens et services qui répondent aux besoins des individus ont un coût et une disponibilité limitée : c’est la notion de contrainte économique.\nNotions : Les différents agents économiques et leur fonction principale. Les différents types de biens et services. Les contraintes économiques : revenu, temps, espace, information. L’arbitrage entre les différentes activités et les choix économiques.\nCapacité attendue : l'élève est capable d’identifier les acteurs économiques et leurs fonctions.\nCapacité attendue : l'élève est capable les choix économiques à l’aide des.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "4.1 La situation des agents économiques",
+   "theme": "Thème 4 : Quels modes de financement de l’activité économique ?",
+   "texte": "Le financement de l’économie concerne les opérations par lesquelles les agents à besoins de financement obtiennent des ressources en provenance des agents à capacités de financement.\nNotions : Les agents à besoins de financement et les agents à capacités de financement.\nCapacité attendue : l'élève est capable d’identifier les différentes situations de financement des agents économiques.\nCapacité attendue : l'élève est capable d’identifier et comparer les divers modes de financement de la croissance de la production.\nCapacité attendue : l'élève est capable de caractériser les différents circuits de financement.\nCapacité attendue : l'élève est capable de comprendre le rôle des banques centrales (et en particulier la Banque centrale européenne) par rapport au système bancaire.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "titre": "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+    "texte": "Les ménages épargnent pour acheter des biens immobiliers afin de se loger. Ils\népargnent aussi afin de se protéger contre certaines éventualités (chômage, grosses\ndépenses imprévues, etc.) ; il s’agit donc d’une épargne de précaution.\nLes ménages peuvent aussi décider d’épargner pour leurs « vieux jours ». La théorie\néconomique a analysé les implications d’une telle théorie sous le nom de théorie du\n« cycle de vie ». Présentée simplement, celle-ci indique que les ménages épargnent\ndurant leur vie active afin d’accumuler un patrimoine qu’ils « consommeront » durant\nleur retraite. […] Cette théorie met ainsi en avant la démographie pour expliquer le\nmontant de l’épargne des ménages dans une économie. […]\nLes ménages peuvent aussi choisir d’épargner pour obtenir une ressource régulière\nsous forme d’intérêts. À cet égard, la théorie économique présente deux visions\nopposées du phénomène de l’épargne.\nPour les économistes classiques, le partage du revenu entre la consommation et\nl’épargne s’explique par le niveau du taux d’intérêt ; ainsi un taux d’intérêt élevé\nfavorise l’épargne qui est alors bien rémunérée. […]\nPour l’économiste John. M. Keynes, les ménages choisissent d’abord un certain\nniveau de consommation, l’épargne étant alors ce qu’il reste du revenu. Ainsi, les\nménages à faibles revenus épargneront peu tandis que les ménages à forts revenus\népargneront une part plus importante de leurs ressources. Keynes définit ainsi une\npropension à épargner. […] Il montre ensuite que lorsque les revenus augmentent, la\npart destinée à l’épargne s’accroît (la propension à épargner augmente avec le niveau\nde revenu) tandis que celle qui est affectée à la consommation diminue. […]\nSource : Dictionnaire d’économie et de sciences sociales, pages 200-201, Hatier"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 2 : Endettement et crise économique.",
+    "texte": "Le capitalisme est un système instable, avec une tendance naturelle aux cycles et aux\ncrises. […] De fait, avec la financiarisation de l’économie au cours des trois dernières\ndécennies, les crises violentes d’origine financière se sont multipliées et leur fréquence\nne fait que s’accélérer.\n[…] C’est durant les périodes de croissance que les capitalistes deviennent trop\noptimistes et investissent trop. […] C’est à ce moment-là que la politique monétaire de\ntaux bas stimule le crédit et contribue à la création monétaire et à la demande globale.\nPendant les périodes d’optimisme, les entreprises utilisent davantage l’endettement\npour augmenter leur capacité d’investissement : c’est l’effet de levier. Cela contribue\nà la prospérité de l’économie, mais c’est là que la crise commence à couver.\nLes banques partagent cet optimisme et commencent donc à prendre plus de risques.\nDe nombreuses entreprises s’endettent alors plus pour profiter de l’effet de levier\njusqu’au jour où beaucoup d’entre elles se retrouvent dans l’impossibilité de\nrembourser leurs dettes et font faillite. […] La dynamique d’endettement massif est\ndonc la cause majeure des expansions et des récessions. En 2008, la crise est\nsurvenue à cause de l’endettement trop important des agents qui, ne parvenant pas à\nrembourser leurs emprunts, ont mis en danger les banques. Les banques, ne\nrécupérant pas les fonds investis, ont connu des difficultés financières leur empêchant\nde jouer leur rôle de financement de l’économie.\nSource : Entretien avec Steve Keen, professeur d’économie à la Kingston University\net Dany Lang , enseignant-chercheur à Paris-XIII — 20 mai 2018, Libération."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+    "texte": "carbone en France entre 1990 et 2023 (en millions de tonnes de CO² équivalent).\nEmpreinte carbone par personne\n(tonne par habitant)\nEmpreinte carbone totale (millions\nde tonnes)\nDont émissions directes des ménages\nDont émissions des entreprises\nfrançaises\nDont émissions associées aux\nimportations\n1990\n2000\n2010\n2019\n2020\n2023\n12,8\n12,1\n12,4\n10,3\n9,2\n9,4\n743,2\n733,6\n799,9\n691,5\n620,0\n643,6\n126,1\n139,4\n137,6\n116,3\n103,3\n101,2\n295,7\n277,7\n252,8\n208,0\n189,4\n180,4\n321,4\n316,5\n409,5\n367,3\n327,2\n362,0\nSource : Bilan environnemental 2024, issu de Citepa, avril 2024\nEN_NODIzNT7QzNjAc0ND8UzMsTYxMj4A2NTAAwMTuY5OFTAx"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 - Tranches et taux d’imposition.",
+     "Annexe 2 - Rapport sur les inégalités sociales en France.",
+     "Annexe 3 - La redistribution réduit massivement les inégalités de revenus en France.",
+     "Annexe 4 - Niveaux de vie des ménages avant et après redistribution.",
+     "Annexe 5 - Précarité : la privation matérielle et sociale reste à un niveau élevé en 2024",
+     "Annexe 1 - Tranches et taux d’imposition",
+     "Annexe 2 - Rapport sur les inégalités sociales en France.",
+     "Annexe 3 - La redistribution réduit massivement les inégalités de revenus en France.",
+     "Annexe 4 - Niveaux de vie des ménages avant et après redistribution.",
+     "Annexe 5 - Précarité : la privation matérielle et sociale reste à un niveau élevé en 2024"
+    ],
+    "questions": [
+     {
+      "enonce": "Identifiez les différents types d’inégalités auxquels sont confrontés les ménages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez la progressivité de l’impôt sur le revenu.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Déterminez l’impact des différents types de redistribution sur le niveau de vie des ménages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : Les politiques sociales suffisent-elles à réduire les inégalités en France ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Taux de croissance du PIB de 2007 à 2020 (en %).",
+     "Annexe 2 : Évolution du revenu disponible brut et des taux d’épargne et de",
+     "Annexe 3 : Les entreprises françaises craignent de perdre leurs débouchés.",
+     "Annexe 4 : Qu'est-ce qu'une politique budgétaire ?",
+     "Annexe 5 : Lancement du Plan de relance de la France le 3 septembre 2020.",
+     "Annexe 6 : Les politiques fiscale et budgétaire pour soutenir la reprise de l’activité",
+     "Annexe 1 : Taux de croissance du PIB de 2007 à 2020 (en %)",
+     "Annexe 2 : Évolution du revenu disponible brut et des taux d’épargne et de",
+     "Annexe 3 : Les entreprises françaises craignent de perdre leurs débouchés.",
+     "Annexe 4 : Qu'est-ce qu'une politique budgétaire ?",
+     "Annexe 5 : Lancement du Plan de relance de la France le 3 septembre 2020.",
+     "Annexe 6 : Les politiques fiscale et budgétaire pour soutenir la reprise de"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez l’évolution du taux de croissance entre 2007 et 2020.",
+      "points": null,
+      "corrige": "On attend du candidat qu’il démontre sa capacité à interpréter les données chiffrées\nde l’annexe 1.\nLe verbe directeur « décrire » indique qu’il s’agit simplement d’identifier les variations\ndu taux de croissance en utilisant les données du graphique.\nNous constatons que le taux de croissance est passé de +2% en 2007 à presque -3%\nen 2009. Ensuite le taux de croissance est redevenu positif et entre 2009 et 2019 il\noscille entre 0 et 2%. Mais en 2020 il devrait diminuer très fortement et redevenir\nnégatif. Les prévisions indiquent -8%."
+     },
+     {
+      "enonce": "Expliquez le lien entre les évolutions du taux de croissance, du revenu disponible et du taux d’épargne entre 2019 et 2020.",
+      "points": null,
+      "corrige": "disponible et du taux d’épargne entre 2019 et 2020.\nOn attend du candidat qu’il démontre sa capacité à interpréter les données chiffrées\nde l’annexe 1 et 2.\nLe verbe directeur « expliquer » (un lien) indique qu’il s’agit de mettre en évidence la\ncorrélation entre l’évolution de la croissance étudiée précédemment et le revenu et\nl’épargne présentées en annexe 6.\nSur la période 2019-2020, nous avons vu à la question précédente que le taux de\ncroissance devenait négatif en passant de 1,5% à -8%.\nSur cette même période on observe que le revenu disponible brut qui évoluait\npositivement, diminue également en passant d’une augmentation de 0.9% au premier\ntrimestre 2019 à une baisse de 2,3% au deuxième trimestre 2020.\nEnfin pour ce qui est du taux d’épargne on observe qu’il augmente en passant de\n15,1% début 2019 à 27,4% au deuxième trimestre 2020.\nOn peut supposer que la très forte chute de la […]"
+     },
+     {
+      "enonce": "Déterminez les effets de la crise sur la demande de biens et services pour les entreprises françaises.",
+      "points": null,
+      "corrige": "pour les entreprises françaises.\nOn attend du candidat qu’il démontre sa capacité à extraire des informations d’un\ndocument, ici l’annexe 4.\nLe verbe directeur « déterminer » indique qu’il s’agit de relever les informations ad hoc\net de les présenter.\nLa crise a entraîné une baisse de demande de biens et services pour les entreprises\nfrançaises. Cette baisse se situe en trois niveaux :\n\nBaisse du revenu des ménages français et donc de la consommation liée à la\ncrise qui entraîné une baisse de la demande de biens et services pour les\nentreprises françaises.\n\n\nBaisse de l’investissement qui va se traduire en une baisse de la demande de\nbiens intermédiaires de la part des entreprises et donc une baisse de la\ndemande de biens et services pour les entreprises françaises.\n\n\nBaisse des exportations qui entraîné une baisse de la demande de biens et\nservices pour les entreprises françaises."
+     },
+     {
+      "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020.",
+      "points": null,
+      "corrige": "2020 .\nOn attend du candidat qu’il démontre sa capacité à extraire des informations d’un\ndocument, ici l’annexe 5.\nLe verbe directeur « relever » indique qu’il s’agit simplement d’extraire les informations\npertinentes.\nLe plan de relance de la France s’articule autour de trois priorités : l’écologie, la\ncompétitivité et la cohésion.\nSur l’écologie, le plan a pour vocation de financer la transition écologique.\nSur la compétitivité le plan a pour vocation de favoriser le développement d’activité à\nforte valeur ajoutée qui seront ainsi plus exportatrice.\nSur la cohésion, le plan a pour vocation de limiter les inégalités et la pauvreté."
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique budgétaire de relance peut-elle suffire à assurer une reprise de l’activité économique ?",
+      "points": null,
+      "corrige": "suivante :\nUne politique budgétaire de relance peut-elle suffire à assurer une reprise\nde l’activité économique ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire apporte également des éléments de réponse au candidat. Ces éléments\nne sont toutefois pas suffisants ; le candidat doit également faire appel à ses\nconnaissances personnelles pour développer son argumentaire.\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E1.1",
+  "type": "exercices",
+  "section": 0,
+  "section_titre": "1.1 Les agents économiques et les différents types de biens et services",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "1.1 Les agents économiques et les différents types de biens et services",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "L’un des objets de l’économie est d’étudier comment les individus et les groupes d’individus organisent l’utilisation et la répartition des ressources rares à leur disposition, pour obtenir ce dont ils ont besoin, voire ce qu’ils désirent. Face à des désirs potentiellement illimités, les individus doivent choisir sous contrainte (revenu, temps, information) quels besoins ou quels désirs satisfaire en premier lieu et comment arbitrer entre différents moyens pour atteindre un certain niveau de satisfaction.\nPour répondre à leurs besoins, les individus en société s’organisent. Une spécialisation dans des grandes fonctions se développe, la notion d’agent économique apparaît.\nLes ressources nécessaires pour produire les biens et services qui répondent aux besoins des individus ont un coût et une disponibilité limitée : c’est la notion de contrainte économique.\nNotions : Les différents agents économiques et leur fonction principale. Les différents types de biens et services. Les contraintes économiques : revenu, temps, espace, information. L’arbitrage entre les différentes activités et les choix économiques.\nCapacité attendue : l'élève est capable d’identifier les acteurs économiques et leurs fonctions.\nCapacité attendue : l'élève est capable les choix économiques à l’aide des.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2026-centres-etrangers",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 - Tranches et taux d’imposition.",
+     "Annexe 2 - Rapport sur les inégalités sociales en France.",
+     "Annexe 3 - La redistribution réduit massivement les inégalités de revenus en France.",
+     "Annexe 4 - Niveaux de vie des ménages avant et après redistribution.",
+     "Annexe 5 - Précarité : la privation matérielle et sociale reste à un niveau élevé en 2024",
+     "Annexe 1 - Tranches et taux d’imposition",
+     "Annexe 2 - Rapport sur les inégalités sociales en France.",
+     "Annexe 3 - La redistribution réduit massivement les inégalités de revenus en France.",
+     "Annexe 4 - Niveaux de vie des ménages avant et après redistribution.",
+     "Annexe 5 - Précarité : la privation matérielle et sociale reste à un niveau élevé en 2024"
+    ],
+    "questions": [
+     {
+      "enonce": "Identifiez les différents types d’inégalités auxquels sont confrontés les ménages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez la progressivité de l’impôt sur le revenu.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Déterminez l’impact des différents types de redistribution sur le niveau de vie des ménages.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : Les politiques sociales suffisent-elles à réduire les inégalités en France ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C1.2",
+  "type": "cas",
+  "section": 1,
+  "section_titre": "1.2 Les décisions du consommateur et du producteur",
+  "partenaire": 20,
+  "partenaire_titre": "8.1 Les transformations du commerce mondial",
+  "frequence_passee": 0.06,
+  "inedit": false,
+  "proba_annee_suivante": 0.084,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "1.2 Les décisions du consommateur et du producteur",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "La science économique étudie les mécanismes des choix individuels et collectifs, et leurs effets. L’analyse des choix alternatifs des individus se fonde sur l’idée que les agents sont rationnels dans leurs décisions, c’est-à-dire qu’ils s’efforcent d’atteindre les objectifs qu’ils se sont fixés en fonction de leurs préférences individuelles et des contraintes économiques, sociales et environnementales.\nDécider et arbitrer requiert ainsi de comparer les coûts et bénéfices des choix alternatifs. La notion centrale de coût d’opportunité, liée aux utilités que l’on marginales estimées des biens et services consomme ou pas, peut ainsi être expliquée et démontrée.\nConsommer des biens et des services nécessite de les produire. Ces biens (ou services) peuvent être produits par des agents privés ou publics.\nLa valeur de ces biens (ou services) pour les agents économiques est liée à leur rareté et à leur utilité marginale. La question de la production (que produire et en quelle quantité ?) dépend à la fois des quantités et du coût des ressources disponibles (facteurs de production : travail, capital, terre) et de la valeur du bien fabriqué, exprimée par son prix.\nAinsi, un consommateur rationnel cherche à maximiser sa satisfaction (consommation, bien être) en prenant en compte sa contrainte budgétaire et l’utilité marginale estimée pour chacun des biens qu’il souhaite consommer. Le producteur, quant à lui, optimise sa production en comparant le bénéfice récupéré par la vente d’une unité supplémentaire du bien produit et le coût marginal de cette même unité supplémentaire de bien produit (raisonnement marginal).\nIl poursuit sa production jusqu’à ce que la fabrication d’une unité supplémentaire engendre un coût marginal égal à sa recette marginale obtenue par celle-ci.\nNotions : Les préférences et choix économiques. Les coûts d’opportunité. Préférences individuelles. La rationalité et l’utilité individuelles. La maximisation et le raisonnement « à la marge ». La rareté, la valeur, l’utilité marginale. La production, les ressources et les facteurs de production. Égalisation entre coût marginal et recette marginale.\nCapacité attendue : l'élève est capable de décrire concepts et principes fondamentaux du raisonnement économique (coût d’opportunité, utilité, rationalité, préférences, maximisation) pour décrire des choix économiques.\nCapacité attendue : l'élève est capable d’analyser ce que l’on entend par rationalité individuelle.\nCapacité attendue : l'élève est capable d’expliciter d’utilité marginale la notion.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "8.1 Les transformations du commerce mondial",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "L’ouverture des frontières, la baisse des coûts de transport et de communication, le développement des économies d’échelle ont transformé le commerce mondial. L’internationalisation de la chaîne de valeur des produits se concrétise par une segmentation croissante des processus de production : les entreprises sont aujourd’hui moins spécialisées dans la production d’un bien que dans une étape de sa fabrication.\nIl est important d’estimer la valeur ajoutée dégagée sur chacun des segments. Certains pays n’ont qu’un rôle d’assembleur de ce fait qu’une et ne dégagent d’autres se faible valeur ajoutée du produit final ; positionnent sur des segments à plus forte valeur ajoutée, par exemple dans les secteurs de l’innovation et de la recherche. à l’échelle internationale Cette segmentation se traduit par des importations de biens intermédiaires, qui représentent désormais plus de la moitié des échanges internationaux.\nCes flux au niveau d’un pays sont mesurés par la balance des biens et services. L’un des principaux indicateurs de l’attractivité économique d’un pays est constitué par le niveau des investissements directs à l’étranger (IDE).\nLes IDE sont un élément moteur de la multinationalisation des entreprises. Les principales motivations à l’origine des IDE sont la réduction des coûts et la conquête de nouveaux marchés, difficiles à pénétrer par les seules exportations.\nL’IDE est à l’origine de la création des firmes multinationales (FMN). Si l’effet des IDE est généralement considéré comme positif sur la croissance des pays d’accueil, notamment grâce aux transferts de technologie induits, il est plus discuté sur le commerce international, sur l’emploi dans les pays investisseurs, sur les conditions de travail dans les pays d’accueil et sur l’environnement.\nNotions : Les importations et les exportations de biens et services. La segmentation. Les produits intermédiaires, les produits finis. La balance des biens et des services Les investissements directs à l’étranger (IDE) Les firmes multinationales (FMN)\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable de décrire et le développement des échanges de biens et services entre pays.\nCapacité attendue : l'élève est capable l’évolution du solde d’une balance des biens et services.\nCapacité attendue : l'élève est capable d’interpréter.\nCapacité attendue : l'élève est capable de décrire les processus de mondialisation de la chaîne de valeur ajoutée pour un produit, en distinguant les phases d’élaboration des segments de produits et les phases d’assemblage.\nCapacité attendue : l'élève est capable de montrer comment la segmentation des processus de production engendre des flux d’importations et d’exportations des pays participant aux échanges.\nCapacité attendue : l'élève est capable les flux d’investissements directs à l’étranger (IDE).\nCapacité attendue : l'élève est capable la place des firmes multinationales dans les échanges internationaux.\nCapacité attendue : l'élève est capable d’apprécier.\nCapacité attendue : l'élève est capable d’expliquer.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Les investissements directs à l’étranger (IDE) de la France.",
+    "texte": "Flux entrants et flux sortants (en millions de $US)\n120000\n100000\n80000\n60000\n40000\n20000\n2012\n2013\n2014\n2015\nFlux entrants\n2016\n2017\n2018\n2019\n2020\nFlux sortants\nSource : OCDE (Organisation de coopération et de développement économiques),\n2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES",
+     "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022.",
+     "ANNEXE 2 - Loi de finances rectificative pour 2022.",
+     "ANNEXE 3 - Les raisons des hausses de prix sont plus diverses qu’il n’y parait.",
+     "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des comportements",
+     "ANNEXE 5 - Hausse des prix et inégalité des hausses des salaires.",
+     "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022",
+     "ANNEXE 2 - Loi de finances rectificative pour 2022",
+     "ANNEXE 3 - Les raisons des hausses de prix sont plus diverses qu’il n’y parait",
+     "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+     "ANNEXE 5 - Hausse des prix et inégalité des hausses des salaires"
+    ],
+    "questions": [
+     {
+      "enonce": "Rappelez le lien entre offre, demande et prix des biens et services.",
+      "points": 1.0,
+      "corrige": "(1 point)\nOn attend du candidat qu’il mobilise ses connaissances pour présenter le mécanisme\nde formation du prix sur un marché.\nLa demande est une fonction décroissante du prix :\n- Lorsque la demande augmente, le prix augmente également.\n- OU lorsque le prix augmente, la demande diminue.\nL’offre est une fonction croissante du prix :\n- Lorsque l’offre augmente, le prix diminue.\n- OU lorsque le prix augmente, l’offre augmente également.\nLe prix se forme par la confrontation entre l’offre et la demande de biens"
+     },
+     {
+      "enonce": "Présentez les mécanismes qui expliquent les augmentations actuelles des prix.",
+      "points": 1.5,
+      "corrige": "prix. (1,5 point)\nOn attend du candidat qu’il identifie les informations pertinentes contenues dans\nl’annexe 3. Il doit également mobiliser les notions développées dans la question 1\n(excès de demande et insuffisance de l’offre). La « présentation » implique que le\ncandidat soit en mesure d’exposer les mécanismes, au-delà de la variation.\nLa hausse des prix importante enregistrée depuis l’automne 2021, et en accélération\nen 2022, est à la fois liée à une variation de l’offre et de la demande. (annexe 3)\nL’augmentation de la demande :\n- La reprise de l’activité économique post-Covid : après une période de\nralentissement pendant l’épidémie de Covid-19, l’activité économique est\nrepartie à la hausse en 2021. Anticipant la hausse de la demande des ménages,\nLes entreprises relancent leur production, tirant l’investissement et la demande\nde biens intermédiaires et matières premières vers le […]"
+     },
+     {
+      "enonce": "Retrouvez par le calcul, l’élasticité prix de la demande d’énergie entre juillet 2021 et juillet 2022.",
+      "points": 1.0,
+      "corrige": "juillet 2021 et juillet 2022. (1 point)\nOn attend du candidat qu’il mobilise une formule de calcul pour retrouver un résultat\ndonné à partir du tableau de l’annexe 1. La rédaction du calcul doit être explicite.\nLe candidat doit mobiliser la formule suivante : (Variation de la demande d’un bien /\nVariation du prix du bien). La formule littérale n’est pas exigée.\n-3,66 / 28,50  -0,0366 / 0,285 = -0,128"
+     },
+     {
+      "enonce": "Expliquez les comportements des ménages face aux augmentations de prix.",
+      "points": 1.5,
+      "corrige": "prix. (1,5 point)\nOn attend du candidat qu’il mobilise ses connaissances pour interpréter des\ninformations contenues dans un tableau (annexe 1) et dans plusieurs documents\n(annexes 3, 4 et 5), afin de montrer la diversité des conséquences possibles des\nhausses de prix sur les comportements de consommation et d’épargne des ménages.\nLorsque le prix augmente, la demande diminue :\n- Entre juillet 2021 et 2022, il est possible de remarquer que l’élasticité prix de la\ndemande est faible pour l’énergie. (annexe 1). Ils ne peuvent pas réduire\nbeaucoup leurs dépenses d’énergie. Les français « fractionnent » leurs achats,\npour limiter les dépenses, mais la quantité globale consommée se réduit moins\nvite que l’augmentation des prix. (annexe 3)\n- Dans le même temps, la consommation de biens manufacturés se réduit\nfortement. (annexes 1 et 4)\nEntre juillet 2021 et 2022, l’élasticité prix pour les […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des ménages ?",
+      "points": 5.0,
+      "corrige": "suivante : (5 points)\nLes actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des\nménages ?\nCette question vise à développer une argumentation économique structurée en\nmobilisant des connaissances.\nLes questions précédentes ont permis de construire des éléments de réponse à cette\nquestion. Le corpus documentaire avec des parties non encore utilisées pour les\nquestions précédentes, apporte également des éléments de réponse au candidat. Le\ncandidat doit également mobiliser ses connaissances personnelles pour développer\nson argumentaire.\n\n\n\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E1.2",
+  "type": "exercices",
+  "section": 1,
+  "section_titre": "1.2 Les décisions du consommateur et du producteur",
+  "frequence_passee": 0.06,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La rareté est-elle la seule cause du déficit commercial français ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "1.2 Les décisions du consommateur et du producteur",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "La science économique étudie les mécanismes des choix individuels et collectifs, et leurs effets. L’analyse des choix alternatifs des individus se fonde sur l’idée que les agents sont rationnels dans leurs décisions, c’est-à-dire qu’ils s’efforcent d’atteindre les objectifs qu’ils se sont fixés en fonction de leurs préférences individuelles et des contraintes économiques, sociales et environnementales.\nDécider et arbitrer requiert ainsi de comparer les coûts et bénéfices des choix alternatifs. La notion centrale de coût d’opportunité, liée aux utilités que l’on marginales estimées des biens et services consomme ou pas, peut ainsi être expliquée et démontrée.\nConsommer des biens et des services nécessite de les produire. Ces biens (ou services) peuvent être produits par des agents privés ou publics.\nLa valeur de ces biens (ou services) pour les agents économiques est liée à leur rareté et à leur utilité marginale. La question de la production (que produire et en quelle quantité ?) dépend à la fois des quantités et du coût des ressources disponibles (facteurs de production : travail, capital, terre) et de la valeur du bien fabriqué, exprimée par son prix.\nAinsi, un consommateur rationnel cherche à maximiser sa satisfaction (consommation, bien être) en prenant en compte sa contrainte budgétaire et l’utilité marginale estimée pour chacun des biens qu’il souhaite consommer. Le producteur, quant à lui, optimise sa production en comparant le bénéfice récupéré par la vente d’une unité supplémentaire du bien produit et le coût marginal de cette même unité supplémentaire de bien produit (raisonnement marginal).\nIl poursuit sa production jusqu’à ce que la fabrication d’une unité supplémentaire engendre un coût marginal égal à sa recette marginale obtenue par celle-ci.\nNotions : Les préférences et choix économiques. Les coûts d’opportunité. Préférences individuelles. La rationalité et l’utilité individuelles. La maximisation et le raisonnement « à la marge ». La rareté, la valeur, l’utilité marginale. La production, les ressources et les facteurs de production. Égalisation entre coût marginal et recette marginale.\nCapacité attendue : l'élève est capable de décrire concepts et principes fondamentaux du raisonnement économique (coût d’opportunité, utilité, rationalité, préférences, maximisation) pour décrire des choix économiques.\nCapacité attendue : l'élève est capable d’analyser ce que l’on entend par rationalité individuelle.\nCapacité attendue : l'élève est capable d’expliciter d’utilité marginale la notion.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C1.3",
+  "type": "cas",
+  "section": 2,
+  "section_titre": "1.3 Les échanges économiques",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.06,
+  "inedit": false,
+  "proba_annee_suivante": 0.072,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez le lien entre offre, demande et prix des biens et services.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez le lien entre offre, demande et prix des biens et services.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez le lien entre offre, demande et prix des biens et services.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Rappelez le lien entre offre, demande et prix des biens et services.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "1.3 Les échanges économiques",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "Les coûts d’opportunité des différents produits conduisent naturellement les producteurs à se spécialiser. Cette spécialisation entraîne un échange de biens et services, inter-individuel ou international, qui se réalise dans le cadre d’un marché (lieu physique ou virtuel).\nIl en découle des interrelations multiples de flux réels et de flux monétaires, qui peuvent correspondre à un circuit économique élémentaire. La monnaie (sous de nombreuses formes) constitue un instrument essentiel de l’activité économique.\nElle sert à la fois d’intermédiaire des échanges, de réserve de valeur et d’unité de compte.\nNotions : La spécialisation des producteurs et des pays, les échanges. Les différentes fonctions de la monnaie. Circuit économique élémentaire.\nCapacité attendue : l'élève est capable de distinguer la nature des biens et services.\nCapacité attendue : l'élève est capable de définir les différentes fonctions de la monnaie.",
+   "articles": []
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 6 : Comprendre les chaînes de valeur mondiales",
+    "texte": "La fragmentation des chaines de valeur conduit à empiler des facturations, ce qui\nconduit à gonfler artificiellement la réalité des échanges internationaux. Pour\nl’observateur non averti, c’est ainsi principalement vis-à-vis de la Chine que se sont\ncreusés les déficits européens. Mais une analyse en termes de valeur ajoutée peut\nmodifier complètement la perception. De fait, lorsqu’un Européen consomme un\nproduit conçu aux États-Unis, il importe un assemblage de tâches, d’opérations\neffectuées dans de multiples régions du globe. C’est cette réalité que cherche à mettre\nen lumière la mesure du commerce en valeur ajoutée.\nIl est donc indispensable de compter pas à pas les flux d’exportation à la hauteur de\nla valeur qui est ajoutée au sein de chaque territoire et les ventiler géographiquement,\nlà où en est fait un usage final. Cette approche comptable place alors le projecteur sur\nce qui est au cœur de la stratégie de spécialisation internationale d’un pays\naujourd’hui. Il lui est indispensable de se positionner sur des maillons stratégiques des\nchaînes de valeur mondiales, là où il peut capter beaucoup de valeur parce qu’il\ndispose d’une compétence spécifique.\nSous cet angle, il faut alors choisir les bons maillons de la chaîne de valeur et non plus\nchercher à maîtriser des filières entières et des produits de A à Z.\nSource : Comprendre les chaînes de valeur mondiales, Xerfi Canal TV"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM.",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales.",
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM. (Chaînes de valeur mondiale)",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Croissance du volume du commerce mondial des marchandises et du PIB",
+     "Annexe 2 : La facilitation des échanges.",
+     "Annexe 3 : Les mesures non-tarifaires (MNT).",
+     "Annexe 4 : OMC, redonner du sens au libre-échange.",
+     "Annexe 5 : Trump a perdu la guerre du protectionnisme."
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019.",
+      "points": null,
+      "corrige": "marchandises et le PIB mondiaux entre 2012 et 2019.\n– Cette question vise à évaluer si le candidat est capable d’interpréter des données\néconomiques présentées sous différents supports (textes, tableaux, graphiques…).\n– Le candidat doit bien voir qu’il s’agit de variations des taux de croissance.\n– La variation de ces agrégats est donnée en volume et non en valeur pour éliminer\nl’effet de la variation des prix.\n– On attend également du candidat qu’il soit capable d’identifier la corrélation entre la\ncroissance du volume du commerce des marchandises et la croissance du PIB réel\nmondial, sans forcément identifier une relation cause-effet.\n– Pour répondre à cette question, le candidat pourra s’appuyer principalement sur\nl’annexe 1 ainsi que sur ses connaissances personnelles.\nL’évolution de la croissance du volume de commerce des marchandises et du PIB réel\nmondial permet de constater une […]"
+     },
+     {
+      "enonce": "Caractérisez les bienfaits du libre-échange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- décrire les avantages du libre-échange,\n- d’expliquer le libre-échange au travers ses avantages sans pour autant le définir.\nPour répondre à cette question, le candidat pourra s’appuyer principalement sur les annexes\n1 et 2 ainsi que sur ses connaissances personnelles.\n\nQue les pays soient en développement ou des économies émergentes, ils ont tous la\npossibilité de participer aux chaînes de valeur mondiales. Le libre-échange profite à\ntous les pays. De même, les pays participant à l’échange bénéficient de gains\nmutuels : l’accès à une variété de produits moins onéreux et de meilleure qualité."
+     },
+     {
+      "enonce": "Expliquez les mesures protectionnistes de contrôle des échanges.",
+      "points": null,
+      "corrige": "échanges.\nCette question vise à évaluer si le candidat est capable de :\n- définir et d’expliquer les différentes mesures protectionnistes\n- Pour répondre à cette question, le candidat pourra s’appuyer principalement sur l’annexe 3\nainsi que sur ses connaissances personnelles.\n\nLes mesures de politique protectionniste de contrôle des échanges sont les droits de\ndouane et les restrictions quantitatives à l’importation (barrières non tarifaires).\n Les droits de douane consistent à fixer une taxe, un impôt sur les produits\nimportés.\n Les restrictions quantitatives à l’importation consistent à limiter quantitativement\nl’importation de produits étrangers.\n Les normes qualitatives qui permettent d’instaurer la confiance sur un type\ndéfini de produits et empêchent les autres de pénétrer un marché."
+     },
+     {
+      "enonce": "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- citer et présenter des défaillances de marché.\nPour répondre à cette question, le candidat pourra repérer les défaillances de marchés citées\ndans l’annexe 3 et exposer ses connaissances personnelles.\nOn attend du candidat qu’il présente au moins deux défaillances.\n\nLes marchés comportent certaines défaillances, en l’occurrence des asymétries\nd’information ou les externalités négatives. Les défaillances du fonctionnement\n« naturel » des marchés entraînent une mauvaise allocation des ressources.\n\nL’asymétrie d’information se produit lorsque les deux parties de l’échange ne\ndisposent pas des mêmes informations que l’autre. Le problème est que\nl’information imparfaite peut pousser l’une des parties à faire un choix qu’elle\nn’aurait pas fait si elle avait eu toutes les informations. Il s’agit d’une mauvaise\nallocation des […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?",
+      "points": null,
+      "corrige": "suivante :\nUne politique protectionniste peut-elle être favorable à la croissance ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4) ont permis\nde construire des éléments de réponse pour cette question 5. Le corpus documentaire apporte\négalement des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre d’arguments\nmoins important, mais les développer de façon plus approfondie.\n\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\nArguments et concepts\n- […]"
+     }
+    ]
+   }
+  ]
+ }
+]

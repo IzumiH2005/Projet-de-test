@@ -230,7 +230,7 @@ def programme(D, pv, fac=None):
     if not prog:
         return None
     ch_txt = [(r["titre"] + " ") * 3 + " ".join(k["texte"] for k in r["passages_cles"]) for r in prog]
-    cache = ROOT / "data" / "cache" / f"prevision_{'droit' if D.name == 'droit' else D.name.replace('_prof', '')}.joblib"
+    cache = ROOT / "data" / "cache" / f"prevision_{D.name.replace('_prof', '')}.joblib"
     if cache.exists():  # tout le texte du chapitre, pas seulement ses passages clés
         import joblib
         sys.path.insert(0, str(ROOT))
@@ -266,8 +266,11 @@ def programme(D, pv, fac=None):
 def probable():
     """Onglet « Le plus probable » : preuve sur les années passées, passages prévus, sujets probables."""
     out = []
-    for d, nom in (("droit", "Droit (STMG)"), ("nsi_prof", "NSI")):
-        D = OUT / d
+    sys.path.insert(0, str(ROOT))
+    from examgen.meta.domain import DOMAINS, out_dir
+    noms = {"droit": "Droit (STMG)", "nsi": "NSI", "eco": "Économie (STMG)"}
+    for k in DOMAINS:  # toutes les matières du registre
+        D, nom = out_dir(k), noms.get(k, k.capitalize())
         if not (D / "previsions.json").exists():
             continue
         pv = json.loads((D / "previsions.json").read_text(encoding="utf-8"))

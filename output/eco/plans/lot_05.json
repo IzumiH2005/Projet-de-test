@@ -1,0 +1,924 @@
+[
+ {
+  "id": "C4.2",
+  "type": "cas",
+  "section": 10,
+  "section_titre": "4.2 Les modalités de financement de l’activité économique",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.0,
+  "inedit": true,
+  "proba_annee_suivante": 0.062,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "4.2 Les modalités de financement de l’activité économique",
+   "theme": "Thème 4 : Quels modes de financement de l’activité économique ?",
+   "texte": "Le financement de l’activité économique est réalisé de manière interne par voie d’autofinancement et/ou de manière externe par le recours aux marchés financiers et aux institutions financières. Les agents à besoins de financement peuvent avoir recours à deux circuits de financement externe, direct et indirect.\nL’intervention des banques permet à celles-ci de prendre en charge les risques liés aux opérations de prêt.\nNotions : L’autofinancement. L’emprunt. Le financement direct et le marché financier. Les titres financiers. Le financement indirect et les banques. Les actifs financiers.\nCapacité attendue : l'élève est capable et comprendre le rôle des banques dans le financement de l’activité.\nCapacité attendue : l'élève est capable de caractériser économique.\nCapacité attendue : l'élève est capable d’analyser les différentes fonctions des marchés financiers.",
+   "articles": []
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 2 : Endettement et crise économique.",
+    "texte": "Le capitalisme est un système instable, avec une tendance naturelle aux cycles et aux\ncrises. […] De fait, avec la financiarisation de l’économie au cours des trois dernières\ndécennies, les crises violentes d’origine financière se sont multipliées et leur fréquence\nne fait que s’accélérer.\n[…] C’est durant les périodes de croissance que les capitalistes deviennent trop\noptimistes et investissent trop. […] C’est à ce moment-là que la politique monétaire de\ntaux bas stimule le crédit et contribue à la création monétaire et à la demande globale.\nPendant les périodes d’optimisme, les entreprises utilisent davantage l’endettement\npour augmenter leur capacité d’investissement : c’est l’effet de levier. Cela contribue\nà la prospérité de l’économie, mais c’est là que la crise commence à couver.\nLes banques partagent cet optimisme et commencent donc à prendre plus de risques.\nDe nombreuses entreprises s’endettent alors plus pour profiter de l’effet de levier\njusqu’au jour où beaucoup d’entre elles se retrouvent dans l’impossibilité de\nrembourser leurs dettes et font faillite. […] La dynamique d’endettement massif est\ndonc la cause majeure des expansions et des récessions. En 2008, la crise est\nsurvenue à cause de l’endettement trop important des agents qui, ne parvenant pas à\nrembourser leurs emprunts, ont mis en danger les banques. Les banques, ne\nrécupérant pas les fonds investis, ont connu des difficultés financières leur empêchant\nde jouer leur rôle de financement de l’économie.\nSource : Entretien avec Steve Keen, professeur d’économie à la Kingston University\net Dany Lang , enseignant-chercheur à Paris-XIII — 20 mai 2018, Libération."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 2 - Le volet export du plan France relance",
+    "texte": "Le volet export du plan « France Relance » a ciblé particulièrement le retour des PME\net des ETI sur les marchés étrangers […] afin d’accompagner la reprise des\nexportations dans un contexte international encore incertain et plus concurrentiel, ces\ndispositifs ont été complétés par l’insertion d’un volet export dans le plan « France\nRelance » présenté le 3 septembre 2020, initialement prévu à hauteur de 247 millions\nd’euros (M€), et ciblant particulièrement le retour des PME et des ETI sur les marchés\nétrangers. Ce volet « export » du plan France Relance comprend principalement les\nmesures suivantes […] :\nLe versement de « chèques relance export » visant à réduire de moitié le coût des\nopérations collectives ou individuelles de projection à l’international assurées par la\nTeam France Export […]. À la fin de l’année 2021, 8 227 chèques relance export\navaient été attribués, pour un montant d’aides s’élevant à 14,2 M€. Depuis septembre\n2021, ce dispositif permet également de financer des formations courtes à l’export au\nprofit de dirigeants de PME et d’ETI exportatrices (« chèque relance formation »). En\noutre, depuis novembre 2021, un « chèque relance traduction » permet de prendre en\ncharge 50 % des coûts de prestations de traduction (dans la limite d’un plafond de\n800 €) de supports de communication, site internet, catalogues dans la langue des\npays prospectés. […]\nCes dispositifs, qui devaient prendre fin à la fin de l’année 2021, ont été prolongés\njusqu’au 30 juin 2022 lors du Conseil Stratégique de l’Export du 1er septembre 2021\nafin de prendre en compte la persistance des incertitudes en matière de déplacements\net d’évènements internationaux.\nSource : Rapport du commerce extérieur de la France 2022,\nDirection générale du trésor, février 2022."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-polynesie",
+    "titre": "Annexe 4 – L’investissement public.",
+    "texte": "Madame Ulrike Lepont, chargée de recherche CNRS 1 en science politique (Centre\nd’études européennes et de politique comparée, Sciences Po), rappelle que la\npromotion de l’investissement public ne date pas du Covid-19, mais remonte au moins\nà la crise financière de 2008, qui marque une réaffirmation du rôle de l’État dans\nl’économie. Mais, de nos jours, la promotion de l’investissement public prend une\nforme différente de celle de l’État interventionniste, et ce à deux niveaux : d’une part,\ndu point de vue des modalités de l’investissement et, d’autre part, en raison du\nmaintien des politiques d’austérité. […]\nSur le maintien des politiques d’austérité, l’investissement lui-même est conçu de\nmanière restrictive : il se réduit pour l’essentiel à l’investissement productif (politiques\nindustrielles, recherche & développement et recherche appliquée, et un peu de\nformation professionnelle) et délaisse une compréhension élargie de la notion\nd’investissement, notamment pour les dimensions liées au capital humain (santé,\néducation…).\nEN_MOTM0NT7QzNjAc0ND7UzMsTYxMj4A2NTAAwMThYyNBjYx\nMonsieur Jérôme Creel, économiste, directeur du département des études de\nl’OFCE 2, expose les deux grands types de défis auxquels sont soumis les\ninvestissements publics. Le premier défi : la transition écologique et la digitalisation de\nl’économie, qui réclament beaucoup d’investissements tant publics que privés (66 à\n80 Milliards d’euros par an pour la neutralité carbone) et nourrissent beaucoup\nd’incertitudes sur le retour sur investissement. L’État joue alors un rôle de réducteur\nde risque pour l’investissement des ménages et des PME, ainsi qu’un rôle\nd’investisseur direct dans l’économie. À cet égard, le plan de relance européen\n(NextGeneration EU) répond à ce défi d’investissements massifs directs.\nLe deuxième défi est celui d’assurer le financement des dépenses publiques dans un\ncontexte de forte augmentation des dettes publiques. […]\nUne façon de procéder pour légitimer l’investissement public consiste à s’en remettre\nà des estimations de son impact sur l’activité économique (et pas seulement sur\nl’investissement privé), c’est-à-dire à des estimations d’effet multiplicateur3. À […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - Les entreprises publiques, une espèce en voie de disparition ?",
+    "texte": "Depuis les années quatre-vingt, le nombre d’entreprises publiques en France et leurs\neffectifs ont diminué de moitié. […]\nPour les partisans des nationalisations, l’État, en devenant entrepreneur, peut mieux\nréguler l’activité économique, devenant ainsi un acteur essentiel dans des secteurs\njugés stratégiques (banques, industrie de l’armement, nucléaire…). Cela lui permet\nnotamment de contrôler certaines restructurations industrielles et de garantir des\nservices de qualité à des prix identiques pour tous les usagers (électricité, gaz,\ntéléphone…).\nMais le rôle des entreprises publiques dans l’économie est souvent contesté. Leur\ncapital étant garanti par l’État-actionnaire, elles n’ont pas toujours le même souci de\nrentabilité que les entreprises privées. Elles bénéficient parfois d’une position\ndominante ou même d’une situation de monopole dans leur secteur, ce qui peut\nfausser la libre-concurrence. La concurrence favorise en général une baisse des\nprix. L’ouverture à la concurrence des lignes aériennes a ainsi permis des baisses\nimportantes des tarifs, de même pour le secteur des télécommunications. […]\nD’un point de vue budgétaire, les privatisations d’entreprise engendrent des\nressources exceptionnelles pour l’Etat et peuvent contribuer à réduire la dette\npublique.\nSource : Ministère de l’économie, des finances et de la souveraineté industrielle et\nnumérique, Faciléco, 12 juillet 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté.",
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez les notions de déficit public et de dette publique.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\nDémontrer sa capacité à distinguer les notions de déficit public et de dette publique. Il\nest attendu que le candidat mobilise ses connaissances sur ces deux notions. Aucune\nannexe n’est directement utilisable pour répondre à cette question néanmoins le\ncandidat pourra éventuellement déduire les définitions de l’ensemble du corpus\ndocumentaire\nLa dette publique correspond à l'ensemble des engagements financiers pris sous\nforme d'emprunts par l'État, les collectivités publiques et les organismes qui en\ndépendent directement. Alors que le déficit public est la situation dans laquelle les\nrecettes de l’ensemble de l’administration publique sont inférieures à ses dépenses au\ncours d’une année.\nLe déficit public alimente donc la dette publique."
+     },
+     {
+      "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020.",
+      "points": 1.0,
+      "corrige": "(1 point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…)\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe1). Il est attendu du candidat un commentaire de l’évolution de la dette\npublique sur la période. Pour compléter son commentaire, le candidat pourra utiliser\nses connaissances.\n\n\nEntre 2010 et 2020, la dette publique n’a cessé d’augmenter, passant d’environ\n1 700 à 2 650 milliards en ce qui concerne l’administration publique dans son\nensemble.\nPour l’État, nous pouvons constater que, sur cette même période, sa dette est\npassée de 1 300 à 2 100 milliards.\n\nIl est aussi possible de constater que les deux courbes suivent la même tendance.\nL’État comme l’administration publique en général s’endettent fortement ces […]"
+     },
+     {
+      "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques.",
+      "points": 1.5,
+      "corrige": "publiques. (1,5 point)\nCette question vise à évaluer si le candidat est capable de montrer qu’à travers sa\npolitique sociale et les dépenses publiques, l’État protège les individus contre les\nrisques sociaux en les limitant.\nAnnexe 2\nPlus de la moitié (572€ pour 1 000€ en 2019) des dépenses publiques sont destinées\nau financement de la protection sociale.\nCette protection sociale permet de financer des risques sociaux tels que :\n\n\n\n- La vieillesse avec 262 € (retraites),\n- La santé avec 195 €,\n- Le reste étant réparti entre le logement, la solidarité, le chômage et la famille.\nDonc les dépenses publiques financent bien le système de protection sociale par\nconséquent la prise en compte des risques sociaux et contribuent fortement à la dette"
+     },
+     {
+      "enonce": "Identifiez les mesures récentes engagées par l’État pour lutter contre les risques auxquels sont confrontés les ménages.",
+      "points": 1.5,
+      "corrige": "risques auxquels sont confrontés les ménages. (1,5 point)\nCette question vise à évaluer si le candidat est capable de mobiliser les annexes,\nainsi que ses connaissances afin de répondre à la question. (Annexes 3, 4, 5 et 6)\nOn attend que l’élève soit capable d’expliquer le lien entre mesures engagées et lutte\ncontre les risques sociaux.\nAccepter toute proposition pertinente des élèves concernant les mesures\nDans une logique d’assistance, ces mesures permettent de lutter contre le mal emploi,\nla pauvreté, la précarité… et donc de réduire les inégalités socioéconomiques\nPar exemple, l’allocation parent isolé de 115,74€ permet à un parent qui ne bénéficie\npas d’un 2ème revenu comme un couple de subvenir au mieux aux besoins de son\nenfant et donc de limiter les inégalités.\nConcernant le plan de soutien de 6,5 milliards d’€ (Aide pour l’emploi des jeunes avec\nune aide exceptionnelle de 5000 […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E4.2",
+  "type": "exercices",
+  "section": 10,
+  "section_titre": "4.2 Les modalités de financement de l’activité économique",
+  "frequence_passee": 0.0,
+  "inedit": true,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "4.2 Les modalités de financement de l’activité économique",
+   "theme": "Thème 4 : Quels modes de financement de l’activité économique ?",
+   "texte": "Le financement de l’activité économique est réalisé de manière interne par voie d’autofinancement et/ou de manière externe par le recours aux marchés financiers et aux institutions financières. Les agents à besoins de financement peuvent avoir recours à deux circuits de financement externe, direct et indirect.\nL’intervention des banques permet à celles-ci de prendre en charge les risques liés aux opérations de prêt.\nNotions : L’autofinancement. L’emprunt. Le financement direct et le marché financier. Les titres financiers. Le financement indirect et les banques. Les actifs financiers.\nCapacité attendue : l'élève est capable et comprendre le rôle des banques dans le financement de l’activité.\nCapacité attendue : l'élève est capable de caractériser économique.\nCapacité attendue : l'élève est capable d’analyser les différentes fonctions des marchés financiers.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 2 : Endettement et crise économique.",
+    "texte": "Le capitalisme est un système instable, avec une tendance naturelle aux cycles et aux\ncrises. […] De fait, avec la financiarisation de l’économie au cours des trois dernières\ndécennies, les crises violentes d’origine financière se sont multipliées et leur fréquence\nne fait que s’accélérer.\n[…] C’est durant les périodes de croissance que les capitalistes deviennent trop\noptimistes et investissent trop. […] C’est à ce moment-là que la politique monétaire de\ntaux bas stimule le crédit et contribue à la création monétaire et à la demande globale.\nPendant les périodes d’optimisme, les entreprises utilisent davantage l’endettement\npour augmenter leur capacité d’investissement : c’est l’effet de levier. Cela contribue\nà la prospérité de l’économie, mais c’est là que la crise commence à couver.\nLes banques partagent cet optimisme et commencent donc à prendre plus de risques.\nDe nombreuses entreprises s’endettent alors plus pour profiter de l’effet de levier\njusqu’au jour où beaucoup d’entre elles se retrouvent dans l’impossibilité de\nrembourser leurs dettes et font faillite. […] La dynamique d’endettement massif est\ndonc la cause majeure des expansions et des récessions. En 2008, la crise est\nsurvenue à cause de l’endettement trop important des agents qui, ne parvenant pas à\nrembourser leurs emprunts, ont mis en danger les banques. Les banques, ne\nrécupérant pas les fonds investis, ont connu des difficultés financières leur empêchant\nde jouer leur rôle de financement de l’économie.\nSource : Entretien avec Steve Keen, professeur d’économie à la Kingston University\net Dany Lang , enseignant-chercheur à Paris-XIII — 20 mai 2018, Libération."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole",
+    "titre": "ANNEXE 2 - Le volet export du plan France relance",
+    "texte": "Le volet export du plan « France Relance » a ciblé particulièrement le retour des PME\net des ETI sur les marchés étrangers […] afin d’accompagner la reprise des\nexportations dans un contexte international encore incertain et plus concurrentiel, ces\ndispositifs ont été complétés par l’insertion d’un volet export dans le plan « France\nRelance » présenté le 3 septembre 2020, initialement prévu à hauteur de 247 millions\nd’euros (M€), et ciblant particulièrement le retour des PME et des ETI sur les marchés\nétrangers. Ce volet « export » du plan France Relance comprend principalement les\nmesures suivantes […] :\nLe versement de « chèques relance export » visant à réduire de moitié le coût des\nopérations collectives ou individuelles de projection à l’international assurées par la\nTeam France Export […]. À la fin de l’année 2021, 8 227 chèques relance export\navaient été attribués, pour un montant d’aides s’élevant à 14,2 M€. Depuis septembre\n2021, ce dispositif permet également de financer des formations courtes à l’export au\nprofit de dirigeants de PME et d’ETI exportatrices (« chèque relance formation »). En\noutre, depuis novembre 2021, un « chèque relance traduction » permet de prendre en\ncharge 50 % des coûts de prestations de traduction (dans la limite d’un plafond de\n800 €) de supports de communication, site internet, catalogues dans la langue des\npays prospectés. […]\nCes dispositifs, qui devaient prendre fin à la fin de l’année 2021, ont été prolongés\njusqu’au 30 juin 2022 lors du Conseil Stratégique de l’Export du 1er septembre 2021\nafin de prendre en compte la persistance des incertitudes en matière de déplacements\net d’évènements internationaux.\nSource : Rapport du commerce extérieur de la France 2022,\nDirection générale du trésor, février 2022."
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C5.1",
+  "type": "cas",
+  "section": 11,
+  "section_titre": "5.1 Le degré de concurrence selon les marchés",
+  "partenaire": 8,
+  "partenaire_titre": "3.3 La structure de consommation des ménages",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "proba_annee_suivante": 0.098,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "5.1 Le degré de concurrence selon les marchés",
+   "theme": "Thème 5 : Les marchés des biens et services sont-ils concurrentiels ?",
+   "texte": "Le degré de concurrence sur un marché dépend du nombre d’entreprises, de leurs stratégies, de l’entrée potentielle de nouveau concurrents, des barrières à l’entrée et de l’existence de produits substituables. Le prix d’un bien ou service correspond à la valeur à laquelle un échange peut être réalisé.\nSi le marché est concurrentiel, le prix converge vers le coût marginal de production et sera donc plus avantageux pour le consommateur qu’un prix de concurrence imparfaite ou celui d’un monopoleur.\nNotions : L’offre et la demande. Le prix d’équilibre. L’élasticité prix-demande. L’élasticité croisée. Le coût marginal. La concurrence, oligopole, monopole, cartel. La concurrence imparfaite. Les barrières à l’entrée. Les produits substituables, produits complémentaires. L’indice de concentration sur un marché.\nCapacité attendue : l'élève est capable de définir un « marché pertinent ».\nCapacité attendue : l'élève est capable d’identifier les intervenants sur un marché.\nCapacité attendue : l'élève est capable de calculer un degré de concentration des marchés et de caractériser la structure des différentes formes de concentration : concurrence, oligopole et monopole.\nCapacité attendue : l'élève est capable de déterminer la fixation du prix sur un marché concurrentiel.\nCapacité attendue : l'élève est capable de calculer et interpréter une élasticité prix-demande dans des exemples simples.\nCapacité attendue : l'élève est capable si une modification des prix s’accompagne d’une évolution des.\nCapacité attendue : l'élève est capable de calculer un coût moyen et un coût marginal de production avec des exemples simples et en interpréter les résultats.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "3.3 La structure de consommation des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.\nLa part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.\nLa part des services dans la structure de consommation augmente notamment parce que son prix relatif par rapport aux produits industriels augmente fortement.\nNotions : La composition des dépenses des ménages. Les coefficients budgétaires. Les prix relatifs comparés des biens et services.\nCapacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022",
+    "texte": "Alimentaire\nhors tabac\nProduits\nmanufacturés\nÉnergie\nVariation de la\nconsommation\nJuillet 2021 / 2022\nÉvolution de l'indice des prix à\nla consommation\nJuillet 2021 / 2022\nÉlasticité prix de la\ndemande\n-3,14 %\n6,80 %\n-0,4623\n-5,46 %\n2,70 %\n-2,0233\n-3,66 %\n28,50 %\n-0,1283\nSource : d’après INSEE, Août 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 2 : L’élasticité-prix des produits de première nécessité.",
+    "texte": "L'élasticité-prix est le rapport entre la variation relative de la demande d'un bien et la\nvariation relative du prix de ce bien. Ce rapport est généralement négatif car lorsque\nle prix augmente, la quantité demandée diminue et réciproquement. Quand l'élasticité\nest nulle, les variations des « grandeurs causes » sont réputées ne pas avoir de\nconséquences sur les « grandeurs effets ». Concrètement cela signifie que la\ndemande ne varie pas à la hausse ou à la baisse quand le prix varie. La demande\nreste inchangée quel que soit le prix. C'est notamment le cas des produits de première\nnécessité [comme les médicaments] : bien que le prix augmente, la consommation se\nmaintient car il existe peu de produits de substitution.\nSource : Dictionnaire d’économie et de sciences sociales, Nathan, 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2024-polynesie",
+    "titre": "ANNEXE 4- Les prix des forfaits mobiles augmentent en France en 2022.",
+    "texte": "Coup sur coup, Orange, Bouygues, SFR, via leurs marques respectives d’entrée de gamme\nSosh, B & You et RED, ou encore Free viennent d’augmenter les tarifs de leurs offres\nspéciales sans engagement de quelques euros. […] Ces hausses, cantonnées aux offres\n« agressives », à bas prix s’inscrivent dans un lent mouvement de fond : selon l’Arcep, le\nrégulateur français des télécoms, la facture mensuelle moyenne d’un abonné mobile a\naugmenté de 3,2 % sur un an pour atteindre 16 euros au dernier trimestre 2021. « On se\ndirige aujourd’hui vers un retour à la raison et vers un juste prix », souligne-t-on chez\nOrange, alors que l’irruption de Free sur le marché début 2012 avait déclenché une guerre\ndes prix du mobile, rognant les marges de tous les acteurs du secteur.\nSi « chaque opérateur a sa propre stratégie commerciale », cette tendance haussière « n’est\nqu’un début d’évolution vers le juste prix », appuie encore Arthur Dreyfuss, le président de\nla Fédération française des télécoms (FFT), à savoir « le prix payé par le consommateur au\nregard des services, de la qualité, des débits et de la data qui lui sont offerts ». […] Ce début\nde tendance est aussi justifié au regard des lourds investissements dans le déploiement de\nla 5G et de la fibre optique.\nSource : Le télégramme, avril 2022."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+    "texte": "DCSi : dépenses courantes de santé.\nPPA : parité pouvoir d’achat.\nNM : Estonie, Lettonie, Lituanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Pologne.\nLecture : En 2017, en Espagne, les ménages ont financé par un paiement direct 24%\nde la dépense courante de santé. Ce qui correspond à 600€ par habitant.\nLes parités pouvoir d’achat permettent de comparer les dépenses de santé en\néliminant les différences de niveau de vie entre les pays. Dans ce graphique, la\nréférence est le pouvoir d’achat pour 1 euro en France.\nSource : OCDE, Les dépenses de santé en 2018, édition 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : La consommation des ménages en 2019.",
+    "texte": "En 2019, la dépense totale de consommation des ménages français s’élevait à\n1 668,2 milliards d’euros, soit plus de la moitié du PIB.\nPostes budgétaires\nEn milliards d’euros\nProduits alimentaires et boissons non alcoolisées\n165,6\nBoissons alcoolisées et tabac\n48,2\nHabillement et chaussures\n44,9\nLogement, eau, gaz, électricité\n332,1\nMeubles, articles de ménage et entretien courant de l'habitation\n57,9\nSanté\n50,5\nTransports\n178,8\nCommunications\n29,2\nLoisirs et culture\n100,3\nDivers…\n…\nDépenses de consommation\n1 668,2\nLe premier poste budgétaire des Français est le logement qui représente près du quart\nde la consommation totale. Les transports, la communication, les loisirs et la culture\nreprésentent près de 20% de la consommation totale des Français.\nSource : INSEE, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-polynesie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1- Principaux indicateurs des quatre plus grands opérateurs téléphoniques en",
+     "ANNEXE 2- L’évolution du marché français des opérateurs téléphoniques.",
+     "ANNEXE 3- Évolution des prix des services mobiles en France (base 100 en janvier 2010).",
+     "ANNEXE 4- Les prix des forfaits mobiles augmentent en France en 2022.",
+     "ANNEXE 5- Le rôle de l’État dans les investissements sur le marché des",
+     "ANNEXE 1- Principaux indicateurs des quatre plus grands opérateurs téléphoniques",
+     "ANNEXE 2- L’évolution du marché français des opérateurs téléphoniques.",
+     "ANNEXE 3- Évolution des prix des services mobiles en France (base 100 en",
+     "ANNEXE 4- Les prix des forfaits mobiles augmentent en France en 2022.",
+     "ANNEXE 5- Le rôle de l’État dans les investissements sur le marché des"
+    ],
+    "questions": [
+     {
+      "enonce": "Citez les différents degrés de concurrence d’un marché. Donnez un exemple pour chacun d’eux.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les deux",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique de concurrence est-elle toujours bénéfique au consommateur ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions suivantes :",
+    "annexes": [
+     "Annexe 1 : Parts de marché des expéditions mondiales de montres connectées par",
+     "Annexe 2 : L’indice de concentration d’un marché – indice IHH Herfindahl-Hirschmann.",
+     "Annexe 3 : Concurrence et innovation.",
+     "Annexe 4 : La dynamique des monopoles.",
+     "Annexe 5 : Les brevets déposés en France en 2017.",
+     "Annexe 6 : L’enjeu de la concurrence."
+    ],
+    "questions": [
+     {
+      "enonce": "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+      "points": null,
+      "corrige": "concentration du marché des montres connectées.\nOn attend du candidat qu’il démontre sa connaissance du calcul d’un indice de concentration\nd’un marché (capacité du programme). Pour cela, l’annexe 2 lui explique le calcul de l’indice\nIHH (l’indice IHH n’est pas une notion du programme, le professeur peut avoir choisi d’utiliser\nun autre indice pour traiter cette capacité). L’élève doit être capable de poser le bon calcul\npermettant d’aboutir à l’indice dont le résultat se trouve en annexe 1.\nLe verbe directeur « formuler » indique qu’il s’agit de poser le calcul en écrivant explicitement\nla formule du calcul.\n\nLe degré de concentration d’un marché s’obtient en calculant l’IHH (Indice HerfindahlHirschmann. Il s’agit de partir du pourcentage des parts de marché et de les mettre au\ncarré et de les additionner, soit :\n352 + 112 + 92 + 52 + 42 + 42 + 2,52 + 1,52 + 282 = 2276,5"
+     },
+     {
+      "enonce": "Caractérisez la structure du marché des montres connectées.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question demande au candidat de caractériser\nla concentration d’un marché. Pour ce faire, il doit savoir analyser l’indice de concentration du\nmarché. Quelle que soit sa réponse à la question précédente, l’indice est donné dans l’annexe\n1. Il s’agit pour le candidat de l’interpréter correctement. Pour cela, l’annexe 2 lui présente une\ngrille de lecture de l’indice IHH.\nLe verbe directeur « caractériser » indique que la réponse doit explicitement nommer une\nstructure type (monopole, oligopole ou concurrence) en justifiant ce choix.\n\nLe marché des montres connectées présente un IHH supérieur à 2000, il s’agit donc\nd’un marché très concentré, c’est-à-dire faiblement concurrentiel."
+     },
+     {
+      "enonce": "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle.",
+      "points": null,
+      "corrige": "l’intensité concurrentielle.\nCette question repose sur la capacité d’analyse des stratégies de fixation des prix des\nentreprises en fonction de la concentration du marché, énoncée dans le programme. Outre les\nconnaissances du candidat, les annexes 3 et 5 donnent des exemples concrets et l’annexe 4\ndes pistes d’explication pour la stratégie d’innovation.\nLe verbe directeur « présenter » attend du candidat qu’il expose les stratégies en question, en\nles nommant et en en décrivant des caractéristiques essentielles avec, si possible, des\nexemples.\n\nLes entreprises mettent en œuvre différentes stratégies pour diminuer l’intensité\nconcurrentielle.\n- Stratégie d’innovation : elle permet à l’entreprise, pendant un temps, de\nproposer un produit unique sur le marché, d’obtenir ainsi un monopole temporaire\n(Annexe 4) et d’imposer des prix plus élevés que lorsqu’elle est en situation […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?",
+      "points": null,
+      "corrige": "suivante : La concurrence permet-elle d’améliorer la satisfaction du\nconsommateur ?\nLa question 4 est le lieu de la réponse argumentée. Les questions préalables (1 à 3) ont permis\nde construire des éléments de réponse pour cette question 4. Le corpus documentaire,\nnotamment le document 6 ainsi que les parties non encore utilisées des autres documents,\napporte également des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E5.1",
+  "type": "exercices",
+  "section": 11,
+  "section_titre": "5.1 Le degré de concurrence selon les marchés",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution des relations commerciales de l’Union européenne avec ses principaux partenaires.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "5.1 Le degré de concurrence selon les marchés",
+   "theme": "Thème 5 : Les marchés des biens et services sont-ils concurrentiels ?",
+   "texte": "Le degré de concurrence sur un marché dépend du nombre d’entreprises, de leurs stratégies, de l’entrée potentielle de nouveau concurrents, des barrières à l’entrée et de l’existence de produits substituables. Le prix d’un bien ou service correspond à la valeur à laquelle un échange peut être réalisé.\nSi le marché est concurrentiel, le prix converge vers le coût marginal de production et sera donc plus avantageux pour le consommateur qu’un prix de concurrence imparfaite ou celui d’un monopoleur.\nNotions : L’offre et la demande. Le prix d’équilibre. L’élasticité prix-demande. L’élasticité croisée. Le coût marginal. La concurrence, oligopole, monopole, cartel. La concurrence imparfaite. Les barrières à l’entrée. Les produits substituables, produits complémentaires. L’indice de concentration sur un marché.\nCapacité attendue : l'élève est capable de définir un « marché pertinent ».\nCapacité attendue : l'élève est capable d’identifier les intervenants sur un marché.\nCapacité attendue : l'élève est capable de calculer un degré de concentration des marchés et de caractériser la structure des différentes formes de concentration : concurrence, oligopole et monopole.\nCapacité attendue : l'élève est capable de déterminer la fixation du prix sur un marché concurrentiel.\nCapacité attendue : l'élève est capable de calculer et interpréter une élasticité prix-demande dans des exemples simples.\nCapacité attendue : l'élève est capable si une modification des prix s’accompagne d’une évolution des.\nCapacité attendue : l'élève est capable de calculer un coût moyen et un coût marginal de production avec des exemples simples et en interpréter les résultats.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022",
+    "texte": "Alimentaire\nhors tabac\nProduits\nmanufacturés\nÉnergie\nVariation de la\nconsommation\nJuillet 2021 / 2022\nÉvolution de l'indice des prix à\nla consommation\nJuillet 2021 / 2022\nÉlasticité prix de la\ndemande\n-3,14 %\n6,80 %\n-0,4623\n-5,46 %\n2,70 %\n-2,0233\n-3,66 %\n28,50 %\n-0,1283\nSource : d’après INSEE, Août 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 2 : L’élasticité-prix des produits de première nécessité.",
+    "texte": "L'élasticité-prix est le rapport entre la variation relative de la demande d'un bien et la\nvariation relative du prix de ce bien. Ce rapport est généralement négatif car lorsque\nle prix augmente, la quantité demandée diminue et réciproquement. Quand l'élasticité\nest nulle, les variations des « grandeurs causes » sont réputées ne pas avoir de\nconséquences sur les « grandeurs effets ». Concrètement cela signifie que la\ndemande ne varie pas à la hausse ou à la baisse quand le prix varie. La demande\nreste inchangée quel que soit le prix. C'est notamment le cas des produits de première\nnécessité [comme les médicaments] : bien que le prix augmente, la consommation se\nmaintient car il existe peu de produits de substitution.\nSource : Dictionnaire d’économie et de sciences sociales, Nathan, 2017"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-polynesie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1- Principaux indicateurs des quatre plus grands opérateurs téléphoniques en",
+     "ANNEXE 2- L’évolution du marché français des opérateurs téléphoniques.",
+     "ANNEXE 3- Évolution des prix des services mobiles en France (base 100 en janvier 2010).",
+     "ANNEXE 4- Les prix des forfaits mobiles augmentent en France en 2022.",
+     "ANNEXE 5- Le rôle de l’État dans les investissements sur le marché des",
+     "ANNEXE 1- Principaux indicateurs des quatre plus grands opérateurs téléphoniques",
+     "ANNEXE 2- L’évolution du marché français des opérateurs téléphoniques.",
+     "ANNEXE 3- Évolution des prix des services mobiles en France (base 100 en",
+     "ANNEXE 4- Les prix des forfaits mobiles augmentent en France en 2022.",
+     "ANNEXE 5- Le rôle de l’État dans les investissements sur le marché des"
+    ],
+    "questions": [
+     {
+      "enonce": "Citez les différents degrés de concurrence d’un marché. Donnez un exemple pour chacun d’eux.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les deux",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique de concurrence est-elle toujours bénéfique au consommateur ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C5.2",
+  "type": "cas",
+  "section": 12,
+  "section_titre": "5.2 Les stratégies pour dépasser l’intensité concurrentielle",
+  "partenaire": null,
+  "partenaire_titre": null,
+  "frequence_passee": 0.03,
+  "inedit": true,
+  "proba_annee_suivante": 0.066,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Caractérisez la structure du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Caractérisez la structure du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Caractérisez la structure du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Caractérisez la structure du marché des montres connectées.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "5.2 Les stratégies pour dépasser l’intensité concurrentielle",
+   "theme": "Thème 5 : Les marchés des biens et services sont-ils concurrentiels ?",
+   "texte": "La concurrence fait disparaître les surprofits de monopole. Certaines entreprises vont alors innover et différencier en qualité leurs produits pour pouvoir conserver des créneaux haut de gamme en termes de produits avec des prix élevés.\nSur le long terme et grâce aux entreprises innovantes mais aussi imitatrices, l’innovation va permettre d’abaisser les prix relatifs des produits innovants (TV, voitures, ordinateurs, etc.). Le consommateur bénéficie de nouveaux produits meilleurs en qualité et en contenu technologique.\nNotions : L’innovation, la différenciation des produits. Le monopole, l’oligopole.\nCapacité attendue : l'élève est capable d’analyser les stratégies de fixation des prix par les entreprises en fonction de la structure des coûts et de la concentration du marché.\nCapacité attendue : l'élève est capable de déterminer caractéristiques des produits.",
+   "articles": []
+  },
+  "cours_partenaire": null,
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2023-metropole-remplacement",
+    "titre": "ANNEXE 4 - Les entreprises publiques, une espèce en voie de disparition ?",
+    "texte": "Depuis les années quatre-vingt, le nombre d’entreprises publiques en France et leurs\neffectifs ont diminué de moitié. […]\nPour les partisans des nationalisations, l’État, en devenant entrepreneur, peut mieux\nréguler l’activité économique, devenant ainsi un acteur essentiel dans des secteurs\njugés stratégiques (banques, industrie de l’armement, nucléaire…). Cela lui permet\nnotamment de contrôler certaines restructurations industrielles et de garantir des\nservices de qualité à des prix identiques pour tous les usagers (électricité, gaz,\ntéléphone…).\nMais le rôle des entreprises publiques dans l’économie est souvent contesté. Leur\ncapital étant garanti par l’État-actionnaire, elles n’ont pas toujours le même souci de\nrentabilité que les entreprises privées. Elles bénéficient parfois d’une position\ndominante ou même d’une situation de monopole dans leur secteur, ce qui peut\nfausser la libre-concurrence. La concurrence favorise en général une baisse des\nprix. L’ouverture à la concurrence des lignes aériennes a ainsi permis des baisses\nimportantes des tarifs, de même pour le secteur des télécommunications. […]\nD’un point de vue budgétaire, les privatisations d’entreprise engendrent des\nressources exceptionnelles pour l’Etat et peuvent contribuer à réduire la dette\npublique.\nSource : Ministère de l’économie, des finances et de la souveraineté industrielle et\nnumérique, Faciléco, 12 juillet 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+    "texte": "Que cela soit à l’exportation ou à l’importation, la facilitation des échanges bénéficie à\ntous les pays en simplifiant l’accès des entreprises aux intrants (élément entrant dans\nla production d'un bien) dont elles ont besoin à l’étranger et en leur permettant de\nparticiper davantage aux chaînes de valeur mondiales (CVM). Les pays où les facteurs\nde production s’importent et s’exportent ainsi de manière rapide et efficace sont des\nlieux plus attractifs aux yeux des entreprises étrangères cherchant à investir, et offrent\négalement aux consommateurs des prix plus bas, des produits de meilleure qualité et\nun plus vaste choix.\nLa facilitation des échanges aide aussi grand nombre d’entreprises – souvent de taille\nplus modeste – à participer au commerce international. Il est donc primordial de\ns’attaquer aux coûts superflus des procédures commerciales pour que les entreprises\npuissent exploiter pleinement les nouveaux marchés qui s’ouvrent. Cela est\nparticulièrement le cas pour les microentreprises et les PME, pour lesquelles les coûts\ndu commerce international pèsent énormément.\nPar ailleurs, la facilitation des échanges est d’une importance critique pour les denrées\nagricoles périssables et pour les composants de fabrication de haute technologie, les\nuns et les autres étant très sensibles aux retards. En effet, la facilitation des échanges,\nà l’ère du numérique, est une problématique de plus en plus importante. Le nombre\ncroissant de colis franchissant les frontières internationales accroît de fait la demande\nde facilitation des échanges et présente de nouveaux défis.\nSource : OCDE, Documents de travail de l'OCDE sur la politique commerciale, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions suivantes :",
+    "annexes": [
+     "Annexe 1 : Parts de marché des expéditions mondiales de montres connectées par",
+     "Annexe 2 : L’indice de concentration d’un marché – indice IHH Herfindahl-Hirschmann.",
+     "Annexe 3 : Concurrence et innovation.",
+     "Annexe 4 : La dynamique des monopoles.",
+     "Annexe 5 : Les brevets déposés en France en 2017.",
+     "Annexe 6 : L’enjeu de la concurrence."
+    ],
+    "questions": [
+     {
+      "enonce": "Formulez le calcul de l’indice qui permet de mesurer le degré de concentration du marché des montres connectées.",
+      "points": null,
+      "corrige": "concentration du marché des montres connectées.\nOn attend du candidat qu’il démontre sa connaissance du calcul d’un indice de concentration\nd’un marché (capacité du programme). Pour cela, l’annexe 2 lui explique le calcul de l’indice\nIHH (l’indice IHH n’est pas une notion du programme, le professeur peut avoir choisi d’utiliser\nun autre indice pour traiter cette capacité). L’élève doit être capable de poser le bon calcul\npermettant d’aboutir à l’indice dont le résultat se trouve en annexe 1.\nLe verbe directeur « formuler » indique qu’il s’agit de poser le calcul en écrivant explicitement\nla formule du calcul.\n\nLe degré de concentration d’un marché s’obtient en calculant l’IHH (Indice HerfindahlHirschmann. Il s’agit de partir du pourcentage des parts de marché et de les mettre au\ncarré et de les additionner, soit :\n352 + 112 + 92 + 52 + 42 + 42 + 2,52 + 1,52 + 282 = 2276,5"
+     },
+     {
+      "enonce": "Caractérisez la structure du marché des montres connectées.",
+      "points": null,
+      "corrige": "La capacité du programme évaluée par cette question demande au candidat de caractériser\nla concentration d’un marché. Pour ce faire, il doit savoir analyser l’indice de concentration du\nmarché. Quelle que soit sa réponse à la question précédente, l’indice est donné dans l’annexe\n1. Il s’agit pour le candidat de l’interpréter correctement. Pour cela, l’annexe 2 lui présente une\ngrille de lecture de l’indice IHH.\nLe verbe directeur « caractériser » indique que la réponse doit explicitement nommer une\nstructure type (monopole, oligopole ou concurrence) en justifiant ce choix.\n\nLe marché des montres connectées présente un IHH supérieur à 2000, il s’agit donc\nd’un marché très concentré, c’est-à-dire faiblement concurrentiel."
+     },
+     {
+      "enonce": "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle.",
+      "points": null,
+      "corrige": "l’intensité concurrentielle.\nCette question repose sur la capacité d’analyse des stratégies de fixation des prix des\nentreprises en fonction de la concentration du marché, énoncée dans le programme. Outre les\nconnaissances du candidat, les annexes 3 et 5 donnent des exemples concrets et l’annexe 4\ndes pistes d’explication pour la stratégie d’innovation.\nLe verbe directeur « présenter » attend du candidat qu’il expose les stratégies en question, en\nles nommant et en en décrivant des caractéristiques essentielles avec, si possible, des\nexemples.\n\nLes entreprises mettent en œuvre différentes stratégies pour diminuer l’intensité\nconcurrentielle.\n- Stratégie d’innovation : elle permet à l’entreprise, pendant un temps, de\nproposer un produit unique sur le marché, d’obtenir ainsi un monopole temporaire\n(Annexe 4) et d’imposer des prix plus élevés que lorsqu’elle est en situation […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?",
+      "points": null,
+      "corrige": "suivante : La concurrence permet-elle d’améliorer la satisfaction du\nconsommateur ?\nLa question 4 est le lieu de la réponse argumentée. Les questions préalables (1 à 3) ont permis\nde construire des éléments de réponse pour cette question 4. Le corpus documentaire,\nnotamment le document 6 ainsi que les parties non encore utilisées des autres documents,\napporte également des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 – Évolutions du revenu disponible, des prix et du pouvoir d’achat en France.",
+     "Annexe 2 – L’évolution du pouvoir d’achat en France.",
+     "Annexe 3 – Aides publiques aux entreprises : un état des lieux.",
+     "Annexe 4 – Contributions à la croissance du produit intérieur brut.",
+     "Annexe 5 – La banque centrale européenne réagit à la hausse des prix.",
+     "Annexe 1 - Évolutions du revenu disponible, des prix et du pouvoir d’achat en France.",
+     "Annexe 2 - L’évolution du pouvoir d’achat en France.",
+     "Annexe 3 - Aides publiques aux entreprises : un état des lieux.",
+     "Annexe 4 - Contributions à la croissance du produit intérieur brut.",
+     "Annexe 5 – La banque centrale européenne réagit à la hausse des prix."
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution du revenu disponible et du pouvoir d’achat en France depuis 2015.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez le mécanisme qui relie niveau des prix, revenu disponible et pouvoir d’achat.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les types de politiques économiques mises en place pour limiter les conséquences de la hausse des prix.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État en faveur du pouvoir d’achat des ménages permet-elle de stimuler la croissance économique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

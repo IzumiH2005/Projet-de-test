@@ -1,0 +1,855 @@
+[
+ {
+  "id": "E3.2",
+  "type": "exercices",
+  "section": 7,
+  "section_titre": "3.2 Le pouvoir d’achat des ménages",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les conséquences de l’augmentation du pouvoir d’achat des ménages sur la consommation et la richesse d’un pays.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des ménages ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du revenu disponible et du pouvoir d’achat en France depuis 2015.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "3.2 Le pouvoir d’achat des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Le pouvoir d’achat mesure la quantité de biens et services qu’un ménage peut acquérir étant donné le revenu dont il dispose. Aussi, une hausse des prix moins importante que celle du revenu disponible se traduit-elle par une augmentation de son pouvoir d’achat.\nSur le long terme, on observe jusqu’à présent une amélioration du pouvoir d’achat des ménages, même si celle-ci peut être très inégale.\nNotions : L’indice des prix à la consommation. Le panier de biens. L’évolution à long terme du pouvoir d’achat.\nCapacité attendue : l'élève est capable d’interpréter un tableau statistique des répartitions du revenu et du patrimoine.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "titre": "Annexe 2 - L’évolution du pouvoir d’achat en France.",
+    "texte": "Depuis le début des années 1990, le pouvoir d’achat du revenu disponible brut par ménage\na crû en moyenne de 0,9 % par an. Cette augmentation n’a cependant rien de linéaire et\ndépend à chaque période de multiples facteurs qui peuvent être propres à la France ou\ncommuns à d’autres pays en raison de la conjoncture internationale. […]\nLa période récente a été marquée par des chocs inédits, sanitaires, géopolitiques et\nénergétiques, qui ont affecté l’économie et l’évolution du pouvoir d’achat au cours des\ndernières années. Malgré la crise Covid, le pouvoir d’achat a continué à croître en moyenne\nau cours de la période 2020 - 2021 (1,1 % par an). Cette période marquée par le « quoi qu’il\nen coûte » en France, mais aussi par des restrictions sanitaires, a conduit à une\n« épargne exceptionnelle » qui se chiffre à près de 10 points de revenu annuel sur la période\n2020 - 2021 (soit l’équivalent de 145 milliards d’euros, ce qui correspond à 3 300 euros par\nménage). En revanche, l’évolution du pouvoir d’achat est marquée par un repli depuis le\ndébut de l’année 2022 avec le retour de l’augmentation du niveau des prix, lié au choc sur\nles matières premières, en particulier énergétiques, et la guerre en Ukraine. Le pouvoir\nd’achat par ménage se réduirait entre - 1,2 % et -2,0 % entre la fin 2021 et la fin 2023, soit\nentre 120 et 190 euros par ménage par trimestre. [...]\nCependant, il est important de noter que la baisse du pouvoir d’achat des ménages en 2022\net 2023 aurait été bien plus marquée si le gouvernement n’avait pas mis en place un bouclier\ntarifaire et une remise carburant. [...] Nous estimons que le bouclier tarifaire et la remise\ncarburant ont permis de soutenir le pouvoir d’achat par ménage à hauteur de 790 euros en\n2022. Sans ces mesures, le pouvoir d’achat par ménage aurait baissé de -2,6 % en 2022.\nSource : OFCE, Policy brief n° 112, 22 février 2023.\nEN_OODgzNT7QzNjAc0ND7UzMsTYxMj9A2NTAAwMTyY5NDDYx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 3 : Pouvoir d’achat et consommation.",
+    "texte": "La consommation des ménages a certes ralenti en 2018, […] mais, comme déjà\nobservé au premier trimestre 2019 avec une progression de 0,4 %, la consommation\ndes ménages gagnerait désormais en vigueur, soutenue par les gains de pouvoir\nd’achat. Elle accélérerait d’ici fin 2019, puis conserverait un rythme soutenu en 2020\n(1,7 % en moyenne annuelle).\nÉvolution de la consommation des ménages :\nSource : INSEE et Banque de France, 30 avril 2019"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 – Évolutions du revenu disponible, des prix et du pouvoir d’achat en France.",
+     "Annexe 2 – L’évolution du pouvoir d’achat en France.",
+     "Annexe 3 – Aides publiques aux entreprises : un état des lieux.",
+     "Annexe 4 – Contributions à la croissance du produit intérieur brut.",
+     "Annexe 5 – La banque centrale européenne réagit à la hausse des prix.",
+     "Annexe 1 - Évolutions du revenu disponible, des prix et du pouvoir d’achat en France.",
+     "Annexe 2 - L’évolution du pouvoir d’achat en France.",
+     "Annexe 3 - Aides publiques aux entreprises : un état des lieux.",
+     "Annexe 4 - Contributions à la croissance du produit intérieur brut.",
+     "Annexe 5 – La banque centrale européenne réagit à la hausse des prix."
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution du revenu disponible et du pouvoir d’achat en France depuis 2015.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez le mécanisme qui relie niveau des prix, revenu disponible et pouvoir d’achat.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les types de politiques économiques mises en place pour limiter les conséquences de la hausse des prix.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État en faveur du pouvoir d’achat des ménages permet-elle de stimuler la croissance économique ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C3.3",
+  "type": "cas",
+  "section": 8,
+  "section_titre": "3.3 La structure de consommation des ménages",
+  "partenaire": 14,
+  "partenaire_titre": "6.2 Défaillances des marchés et défaillances de l’État",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "proba_annee_suivante": 0.089,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "3.3 La structure de consommation des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.\nLa part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.\nLa part des services dans la structure de consommation augmente notamment parce que son prix relatif par rapport aux produits industriels augmente fortement.\nNotions : La composition des dépenses des ménages. Les coefficients budgétaires. Les prix relatifs comparés des biens et services.\nCapacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "6.2 Défaillances des marchés et défaillances de l’État",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Les interventions économiques de l’État visent à corriger les défaillances et dysfonctionnements des marchés. Usuellement, on dénombre quatre types de défaillances des marchés : - les asymétries d’information ; - la concurrence imparfaite ; - les externalités ; - les biens publics et les biens communs.\nLes défaillances des marchés ne permettent pas une allocation efficace des ressources. L’État doit alors intervenir pour corriger ces défaillances de marché.\nIl peut notamment : - améliorer la qualité de l’information sur les marchés (Autorité des Marchés Financiers, labels sur les produits, etc.) ; - mettre en place une politique de la concurrence ; - encourager les activités à l’origine d’externalités positives et limiter les activités sources d’externalités négatives ; - organiser la production de biens publics et éviter la surexploitation des biens communs. Cependant, l’économie peut également être confrontée à des dysfonctionnements de l’action publique.\nNotions : Les défaillances des marchés. Les asymétries d’information. Les externalités. Les biens publics et les biens communs. Les défaillances de l’État.\nCapacité attendue : l'élève est capable de justifier défaillance de marché.\nCapacité attendue : l'élève est capable des solutions permettant de corriger.\nCapacité attendue : l'élève est capable d’énoncer ces défaillances de marché.\nCapacité attendue : l'élève est capable des situations où l’on peut parler de défaillance de l’État.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+    "texte": "DCSi : dépenses courantes de santé.\nPPA : parité pouvoir d’achat.\nNM : Estonie, Lettonie, Lituanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Pologne.\nLecture : En 2017, en Espagne, les ménages ont financé par un paiement direct 24%\nde la dépense courante de santé. Ce qui correspond à 600€ par habitant.\nLes parités pouvoir d’achat permettent de comparer les dépenses de santé en\néliminant les différences de niveau de vie entre les pays. Dans ce graphique, la\nréférence est le pouvoir d’achat pour 1 euro en France.\nSource : OCDE, Les dépenses de santé en 2018, édition 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : La consommation des ménages en 2019.",
+    "texte": "En 2019, la dépense totale de consommation des ménages français s’élevait à\n1 668,2 milliards d’euros, soit plus de la moitié du PIB.\nPostes budgétaires\nEn milliards d’euros\nProduits alimentaires et boissons non alcoolisées\n165,6\nBoissons alcoolisées et tabac\n48,2\nHabillement et chaussures\n44,9\nLogement, eau, gaz, électricité\n332,1\nMeubles, articles de ménage et entretien courant de l'habitation\n57,9\nSanté\n50,5\nTransports\n178,8\nCommunications\n29,2\nLoisirs et culture\n100,3\nDivers…\n…\nDépenses de consommation\n1 668,2\nLe premier poste budgétaire des Français est le logement qui représente près du quart\nde la consommation totale. Les transports, la communication, les loisirs et la culture\nreprésentent près de 20% de la consommation totale des Français.\nSource : INSEE, 2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 3 : Pouvoir d’achat et consommation.",
+    "texte": "La consommation des ménages a certes ralenti en 2018, […] mais, comme déjà\nobservé au premier trimestre 2019 avec une progression de 0,4 %, la consommation\ndes ménages gagnerait désormais en vigueur, soutenue par les gains de pouvoir\nd’achat. Elle accélérerait d’ici fin 2019, puis conserverait un rythme soutenu en 2020\n(1,7 % en moyenne annuelle).\nÉvolution de la consommation des ménages :\nSource : INSEE et Banque de France, 30 avril 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 5 : Les effets de la mondialisation sur le pouvoir d’achat des ménages",
+    "texte": "français.\nDe 1994 à 2014, l’ouverture au commerce international a accru la part des importations\nen provenance de pays à bas salaire (notamment la Chine ou les pays d’Europe de\nl’Est) dans la consommation des Français. Un des bénéfices de cette ouverture est la\npossibilité d’avoir accès à des biens moins chers. […] En 2014, la consommation des\nménages en biens et services était de l’ordre de 1 000 milliards d’euros. Avoir accès à\ndes biens moins chers a permis à l’ensemble des ménages d’économiser environ 30\nmilliards d’euros sur leur consommation en 2014 par rapport à ce qu’ils auraient payé\nen l’absence d’ouverture aux pays à bas salaires. Ramené au nombre total de\nménages (un peu moins de 30 millions en 2014), la consommation par ménage est\ndonc en moyenne 1000 euros moins chère en 2014 par rapport à ce qu’elle aurait été\nen l’absence des importations provenant des pays à bas salaire depuis 1994.\nSource : Banque de France, 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 5 : Qu’est-ce que le protectionnisme ?",
+    "texte": "Le protectionnisme correspond à une doctrine économique mais également à une\npolitique économique qui, à travers l’instauration des barrières tarifaires et non\ntarifaires, vise à limiter les importations de biens et de services afin de favoriser ou de\nprotéger la production nationale de la concurrence étrangère et ainsi rééquilibrer la\nbalance commerciale. La principale barrière tarifaire est le droit de douane, c’est-àdire un impôt prélevé sur une marchandise importée lors de son entrée sur le territoire\nnational. L’objectif de cette mesure est d’augmenter le prix des produits importés afin\nd’en décourager la consommation. […]\nL’adoption d’une politique protectionniste peut avoir pour objectif de protéger certains\nsecteurs économiques comme les industries naissantes qui ne sont pas assez\ncompétitives pour affronter la concurrence internationale, laisser le temps à des\nactivités vieillissantes de se reconvertir ou bien encore de sauvegarder l’emploi dans\nles secteurs menacés.\nSource : Vie publique, 2019\nPage : 11/14"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : La consommation des ménages en 2019.",
+     "Annexe 2 : L’élasticité-prix des produits de première nécessité.",
+     "Annexe 3 : Le « reste à charge zéro » pour les soins dentaires.",
+     "Annexe 4 : Part des dépenses de santé à charge des ménages en 2017.",
+     "Annexe 5 : Rôle et missions de la sécurité sociale.",
+     "Annexe 1 : La consommation des ménages en 2019.",
+     "Annexe 2 : L’élasticité-prix des produits de première nécessité.",
+     "Annexe 3 : Le « reste à charge zéro » pour les soins dentaires.",
+     "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+     "Annexe 5 : Rôle et missions de la sécurité sociale."
+    ],
+    "questions": [
+     {
+      "enonce": "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+      "points": null,
+      "corrige": "ménages en France.\nLe candidat ici doit être capable de prendre les informations utiles dans un tableau\n(annexe 1) et identifier ses éléments principaux à propos des dépenses de\nconsommation des français.\nLes dépenses de santé sont situées au 6ème rang des dépenses de consommation des\nménages. Leur niveau est proche de celui des « boissons alcoolisées et tabac ». Ces\néléments montrent que le poids des dépenses de santé en France pour les ménages\nn’est pas très important eu égard aux autres dépenses des français."
+     },
+     {
+      "enonce": "Décrivez les effets d’une augmentation du prix des médicaments sur leur consommation par les ménages.",
+      "points": null,
+      "corrige": "consommation par les ménages.\nLe candidat doit être capable d’interpréter une élasticité prix-demande à partir de\nl’exemple simple exposé par l’annexe 2. Le verbe directeur « décrivez » indique que\nle candidat expose les effets de l’augmentation du prix sur la consommation des\nmédicaments en s’aidant des annexes.\nL’élasticité-prix de la demande de médicament est nulle en raison de son statut de\nbien de première nécessité. En conséquence, la hausse du prix des médicaments\nn’entraînera pas en principe d’augmentation ou de baisse de la demande.\n\n\nPage: 17/21"
+     },
+     {
+      "enonce": "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+      "points": null,
+      "corrige": "des soins dentaires.\nLe candidat doit définir le coût d’opportunité et exploiter cette notion à l’aide de\nl’exemple de l’annexe 3. Le verbe directeur « expliquez » indique que le candidat doit\nmontrer qu’il maîtrise le concept économique présenté et qu’il décomposera son\nfonctionnement à partir de l’exemple du “reste à charge zéro”’.\nDéfinition du coût d’opportunité : coût lié au renoncement d’un choix économique.\nLe « reste à charge zéro » constitue un outil qui réduit les dépenses restantes à la\ncharge du ménage pour les soins dentaires.\nAuparavant, « avec un reste à charge moyen de 43%, la facture pour une prothèse\ndentaire reste très salée pour les assurés » et certains ménages notamment les plus\npauvres renonçaient à ce type de soins.\nLa réforme permet donc de réduire le coût d’opportunité des soins dentaires. En effet,\nles coûts engendrés par les soins sont réduits et incitent les […]"
+     },
+     {
+      "enonce": "Examinez comment les risques sociaux en France sont limités par la prise en charge collective des dépenses de santé.",
+      "points": null,
+      "corrige": "charge collective des dépenses de santé.\nLe candidat doit examiner en s’aidant des annexes 4 et 5 comment les dispositifs de\nla sécurité sociale ainsi que la réduction des « restes à charge » participent à la\nconservation des revenus lors de la survenance de risques.\nEn France, seulement 9% des dépenses de santé sont supportées par les ménages\nfrançais, c’est le total le plus bas parmi les pays présentés (Union Européenne et ÉtatsUnis).\nLa prise en charge collective des risques sociaux empêche la diminution des revenus\nhabituels engendrée la survenance de certains « risques » :\n- remboursement des médicaments et compensation financière en cas de\nmaladie ;\n- allocations versées pour aider les ménages à subvenir aux besoins de leurs\nenfants ;\n- compensations financières en cas d’accident du travail et de maladie\nprofessionnelle ;\n- compensation financière lors du passage à la […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+      "points": null,
+      "corrige": "suivante\nLe système de sécurité sociale français permet-il de compenser les inégalités\nde revenus ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire ainsi que les parties non encore utilisées des autres documents,\napportent également des éléments de réponse au candidat. Ces éléments ne sont\ntoutefois pas suffisants ; le candidat doit également faire appel à ses connaissances\npersonnelles pour développer son argumentaire.\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n\nLogique globale de […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES",
+     "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022.",
+     "ANNEXE 2 - Loi de finances rectificative pour 2022.",
+     "ANNEXE 3 - Les raisons des hausses de prix sont plus diverses qu’il n’y parait.",
+     "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des comportements",
+     "ANNEXE 5 - Hausse des prix et inégalité des hausses des salaires.",
+     "ANNEXE 1 - Élasticité prix de la demande française entre juillet 2021 et 2022",
+     "ANNEXE 2 - Loi de finances rectificative pour 2022",
+     "ANNEXE 3 - Les raisons des hausses de prix sont plus diverses qu’il n’y parait",
+     "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+     "ANNEXE 5 - Hausse des prix et inégalité des hausses des salaires"
+    ],
+    "questions": [
+     {
+      "enonce": "Rappelez le lien entre offre, demande et prix des biens et services.",
+      "points": 1.0,
+      "corrige": "(1 point)\nOn attend du candidat qu’il mobilise ses connaissances pour présenter le mécanisme\nde formation du prix sur un marché.\nLa demande est une fonction décroissante du prix :\n- Lorsque la demande augmente, le prix augmente également.\n- OU lorsque le prix augmente, la demande diminue.\nL’offre est une fonction croissante du prix :\n- Lorsque l’offre augmente, le prix diminue.\n- OU lorsque le prix augmente, l’offre augmente également.\nLe prix se forme par la confrontation entre l’offre et la demande de biens"
+     },
+     {
+      "enonce": "Présentez les mécanismes qui expliquent les augmentations actuelles des prix.",
+      "points": 1.5,
+      "corrige": "prix. (1,5 point)\nOn attend du candidat qu’il identifie les informations pertinentes contenues dans\nl’annexe 3. Il doit également mobiliser les notions développées dans la question 1\n(excès de demande et insuffisance de l’offre). La « présentation » implique que le\ncandidat soit en mesure d’exposer les mécanismes, au-delà de la variation.\nLa hausse des prix importante enregistrée depuis l’automne 2021, et en accélération\nen 2022, est à la fois liée à une variation de l’offre et de la demande. (annexe 3)\nL’augmentation de la demande :\n- La reprise de l’activité économique post-Covid : après une période de\nralentissement pendant l’épidémie de Covid-19, l’activité économique est\nrepartie à la hausse en 2021. Anticipant la hausse de la demande des ménages,\nLes entreprises relancent leur production, tirant l’investissement et la demande\nde biens intermédiaires et matières premières vers le […]"
+     },
+     {
+      "enonce": "Retrouvez par le calcul, l’élasticité prix de la demande d’énergie entre juillet 2021 et juillet 2022.",
+      "points": 1.0,
+      "corrige": "juillet 2021 et juillet 2022. (1 point)\nOn attend du candidat qu’il mobilise une formule de calcul pour retrouver un résultat\ndonné à partir du tableau de l’annexe 1. La rédaction du calcul doit être explicite.\nLe candidat doit mobiliser la formule suivante : (Variation de la demande d’un bien /\nVariation du prix du bien). La formule littérale n’est pas exigée.\n-3,66 / 28,50  -0,0366 / 0,285 = -0,128"
+     },
+     {
+      "enonce": "Expliquez les comportements des ménages face aux augmentations de prix.",
+      "points": 1.5,
+      "corrige": "prix. (1,5 point)\nOn attend du candidat qu’il mobilise ses connaissances pour interpréter des\ninformations contenues dans un tableau (annexe 1) et dans plusieurs documents\n(annexes 3, 4 et 5), afin de montrer la diversité des conséquences possibles des\nhausses de prix sur les comportements de consommation et d’épargne des ménages.\nLorsque le prix augmente, la demande diminue :\n- Entre juillet 2021 et 2022, il est possible de remarquer que l’élasticité prix de la\ndemande est faible pour l’énergie. (annexe 1). Ils ne peuvent pas réduire\nbeaucoup leurs dépenses d’énergie. Les français « fractionnent » leurs achats,\npour limiter les dépenses, mais la quantité globale consommée se réduit moins\nvite que l’augmentation des prix. (annexe 3)\n- Dans le même temps, la consommation de biens manufacturés se réduit\nfortement. (annexes 1 et 4)\nEntre juillet 2021 et 2022, l’élasticité prix pour les […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des ménages ?",
+      "points": 5.0,
+      "corrige": "suivante : (5 points)\nLes actions de l’État sont-elles efficaces pour soutenir le pouvoir d’achat des\nménages ?\nCette question vise à développer une argumentation économique structurée en\nmobilisant des connaissances.\nLes questions précédentes ont permis de construire des éléments de réponse à cette\nquestion. Le corpus documentaire avec des parties non encore utilisées pour les\nquestions précédentes, apporte également des éléments de réponse au candidat. Le\ncandidat doit également mobiliser ses connaissances personnelles pour développer\nson argumentaire.\n\n\n\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E3.3",
+  "type": "exercices",
+  "section": 8,
+  "section_titre": "3.3 La structure de consommation des ménages",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "3.3 La structure de consommation des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.\nLa part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.\nLa part des services dans la structure de consommation augmente notamment parce que son prix relatif par rapport aux produits industriels augmente fortement.\nNotions : La composition des dépenses des ménages. Les coefficients budgétaires. Les prix relatifs comparés des biens et services.\nCapacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+    "texte": "DCSi : dépenses courantes de santé.\nPPA : parité pouvoir d’achat.\nNM : Estonie, Lettonie, Lituanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Pologne.\nLecture : En 2017, en Espagne, les ménages ont financé par un paiement direct 24%\nde la dépense courante de santé. Ce qui correspond à 600€ par habitant.\nLes parités pouvoir d’achat permettent de comparer les dépenses de santé en\néliminant les différences de niveau de vie entre les pays. Dans ce graphique, la\nréférence est le pouvoir d’achat pour 1 euro en France.\nSource : OCDE, Les dépenses de santé en 2018, édition 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : La consommation des ménages en 2019.",
+    "texte": "En 2019, la dépense totale de consommation des ménages français s’élevait à\n1 668,2 milliards d’euros, soit plus de la moitié du PIB.\nPostes budgétaires\nEn milliards d’euros\nProduits alimentaires et boissons non alcoolisées\n165,6\nBoissons alcoolisées et tabac\n48,2\nHabillement et chaussures\n44,9\nLogement, eau, gaz, électricité\n332,1\nMeubles, articles de ménage et entretien courant de l'habitation\n57,9\nSanté\n50,5\nTransports\n178,8\nCommunications\n29,2\nLoisirs et culture\n100,3\nDivers…\n…\nDépenses de consommation\n1 668,2\nLe premier poste budgétaire des Français est le logement qui représente près du quart\nde la consommation totale. Les transports, la communication, les loisirs et la culture\nreprésentent près de 20% de la consommation totale des Français.\nSource : INSEE, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : La consommation des ménages en 2019.",
+     "Annexe 2 : L’élasticité-prix des produits de première nécessité.",
+     "Annexe 3 : Le « reste à charge zéro » pour les soins dentaires.",
+     "Annexe 4 : Part des dépenses de santé à charge des ménages en 2017.",
+     "Annexe 5 : Rôle et missions de la sécurité sociale.",
+     "Annexe 1 : La consommation des ménages en 2019.",
+     "Annexe 2 : L’élasticité-prix des produits de première nécessité.",
+     "Annexe 3 : Le « reste à charge zéro » pour les soins dentaires.",
+     "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+     "Annexe 5 : Rôle et missions de la sécurité sociale."
+    ],
+    "questions": [
+     {
+      "enonce": "Appréciez la place des dépenses de santé dans la consommation des ménages en France.",
+      "points": null,
+      "corrige": "ménages en France.\nLe candidat ici doit être capable de prendre les informations utiles dans un tableau\n(annexe 1) et identifier ses éléments principaux à propos des dépenses de\nconsommation des français.\nLes dépenses de santé sont situées au 6ème rang des dépenses de consommation des\nménages. Leur niveau est proche de celui des « boissons alcoolisées et tabac ». Ces\néléments montrent que le poids des dépenses de santé en France pour les ménages\nn’est pas très important eu égard aux autres dépenses des français."
+     },
+     {
+      "enonce": "Décrivez les effets d’une augmentation du prix des médicaments sur leur consommation par les ménages.",
+      "points": null,
+      "corrige": "consommation par les ménages.\nLe candidat doit être capable d’interpréter une élasticité prix-demande à partir de\nl’exemple simple exposé par l’annexe 2. Le verbe directeur « décrivez » indique que\nle candidat expose les effets de l’augmentation du prix sur la consommation des\nmédicaments en s’aidant des annexes.\nL’élasticité-prix de la demande de médicament est nulle en raison de son statut de\nbien de première nécessité. En conséquence, la hausse du prix des médicaments\nn’entraînera pas en principe d’augmentation ou de baisse de la demande.\n\n\nPage: 17/21"
+     },
+     {
+      "enonce": "Expliquez comment le « reste à charge zéro » diminue le coût d’opportunité des soins dentaires.",
+      "points": null,
+      "corrige": "des soins dentaires.\nLe candidat doit définir le coût d’opportunité et exploiter cette notion à l’aide de\nl’exemple de l’annexe 3. Le verbe directeur « expliquez » indique que le candidat doit\nmontrer qu’il maîtrise le concept économique présenté et qu’il décomposera son\nfonctionnement à partir de l’exemple du “reste à charge zéro”’.\nDéfinition du coût d’opportunité : coût lié au renoncement d’un choix économique.\nLe « reste à charge zéro » constitue un outil qui réduit les dépenses restantes à la\ncharge du ménage pour les soins dentaires.\nAuparavant, « avec un reste à charge moyen de 43%, la facture pour une prothèse\ndentaire reste très salée pour les assurés » et certains ménages notamment les plus\npauvres renonçaient à ce type de soins.\nLa réforme permet donc de réduire le coût d’opportunité des soins dentaires. En effet,\nles coûts engendrés par les soins sont réduits et incitent les […]"
+     },
+     {
+      "enonce": "Examinez comment les risques sociaux en France sont limités par la prise en charge collective des dépenses de santé.",
+      "points": null,
+      "corrige": "charge collective des dépenses de santé.\nLe candidat doit examiner en s’aidant des annexes 4 et 5 comment les dispositifs de\nla sécurité sociale ainsi que la réduction des « restes à charge » participent à la\nconservation des revenus lors de la survenance de risques.\nEn France, seulement 9% des dépenses de santé sont supportées par les ménages\nfrançais, c’est le total le plus bas parmi les pays présentés (Union Européenne et ÉtatsUnis).\nLa prise en charge collective des risques sociaux empêche la diminution des revenus\nhabituels engendrée la survenance de certains « risques » :\n- remboursement des médicaments et compensation financière en cas de\nmaladie ;\n- allocations versées pour aider les ménages à subvenir aux besoins de leurs\nenfants ;\n- compensations financières en cas d’accident du travail et de maladie\nprofessionnelle ;\n- compensation financière lors du passage à la […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+      "points": null,
+      "corrige": "suivante\nLe système de sécurité sociale français permet-il de compenser les inégalités\nde revenus ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire ainsi que les parties non encore utilisées des autres documents,\napportent également des éléments de réponse au candidat. Ces éléments ne sont\ntoutefois pas suffisants ; le candidat doit également faire appel à ses connaissances\npersonnelles pour développer son argumentaire.\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n\nLogique globale de […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C4.1",
+  "type": "cas",
+  "section": 9,
+  "section_titre": "4.1 La situation des agents économiques",
+  "partenaire": 0,
+  "partenaire_titre": "1.1 Les agents économiques et les différents types de biens et services",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "proba_annee_suivante": 0.068,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "4.1 La situation des agents économiques",
+   "theme": "Thème 4 : Quels modes de financement de l’activité économique ?",
+   "texte": "Le financement de l’économie concerne les opérations par lesquelles les agents à besoins de financement obtiennent des ressources en provenance des agents à capacités de financement.\nNotions : Les agents à besoins de financement et les agents à capacités de financement.\nCapacité attendue : l'élève est capable d’identifier les différentes situations de financement des agents économiques.\nCapacité attendue : l'élève est capable d’identifier et comparer les divers modes de financement de la croissance de la production.\nCapacité attendue : l'élève est capable de caractériser les différents circuits de financement.\nCapacité attendue : l'élève est capable de comprendre le rôle des banques centrales (et en particulier la Banque centrale européenne) par rapport au système bancaire.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "1.1 Les agents économiques et les différents types de biens et services",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "L’un des objets de l’économie est d’étudier comment les individus et les groupes d’individus organisent l’utilisation et la répartition des ressources rares à leur disposition, pour obtenir ce dont ils ont besoin, voire ce qu’ils désirent. Face à des désirs potentiellement illimités, les individus doivent choisir sous contrainte (revenu, temps, information) quels besoins ou quels désirs satisfaire en premier lieu et comment arbitrer entre différents moyens pour atteindre un certain niveau de satisfaction.\nPour répondre à leurs besoins, les individus en société s’organisent. Une spécialisation dans des grandes fonctions se développe, la notion d’agent économique apparaît.\nLes ressources nécessaires pour produire les biens et services qui répondent aux besoins des individus ont un coût et une disponibilité limitée : c’est la notion de contrainte économique.\nNotions : Les différents agents économiques et leur fonction principale. Les différents types de biens et services. Les contraintes économiques : revenu, temps, espace, information. L’arbitrage entre les différentes activités et les choix économiques.\nCapacité attendue : l'élève est capable d’identifier les acteurs économiques et leurs fonctions.\nCapacité attendue : l'élève est capable les choix économiques à l’aide des.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 2 : Endettement et crise économique.",
+    "texte": "Le capitalisme est un système instable, avec une tendance naturelle aux cycles et aux\ncrises. […] De fait, avec la financiarisation de l’économie au cours des trois dernières\ndécennies, les crises violentes d’origine financière se sont multipliées et leur fréquence\nne fait que s’accélérer.\n[…] C’est durant les périodes de croissance que les capitalistes deviennent trop\noptimistes et investissent trop. […] C’est à ce moment-là que la politique monétaire de\ntaux bas stimule le crédit et contribue à la création monétaire et à la demande globale.\nPendant les périodes d’optimisme, les entreprises utilisent davantage l’endettement\npour augmenter leur capacité d’investissement : c’est l’effet de levier. Cela contribue\nà la prospérité de l’économie, mais c’est là que la crise commence à couver.\nLes banques partagent cet optimisme et commencent donc à prendre plus de risques.\nDe nombreuses entreprises s’endettent alors plus pour profiter de l’effet de levier\njusqu’au jour où beaucoup d’entre elles se retrouvent dans l’impossibilité de\nrembourser leurs dettes et font faillite. […] La dynamique d’endettement massif est\ndonc la cause majeure des expansions et des récessions. En 2008, la crise est\nsurvenue à cause de l’endettement trop important des agents qui, ne parvenant pas à\nrembourser leurs emprunts, ont mis en danger les banques. Les banques, ne\nrécupérant pas les fonds investis, ont connu des difficultés financières leur empêchant\nde jouer leur rôle de financement de l’économie.\nSource : Entretien avec Steve Keen, professeur d’économie à la Kingston University\net Dany Lang , enseignant-chercheur à Paris-XIII — 20 mai 2018, Libération."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+    "texte": "carbone en France entre 1990 et 2023 (en millions de tonnes de CO² équivalent).\nEmpreinte carbone par personne\n(tonne par habitant)\nEmpreinte carbone totale (millions\nde tonnes)\nDont émissions directes des ménages\nDont émissions des entreprises\nfrançaises\nDont émissions associées aux\nimportations\n1990\n2000\n2010\n2019\n2020\n2023\n12,8\n12,1\n12,4\n10,3\n9,2\n9,4\n743,2\n733,6\n799,9\n691,5\n620,0\n643,6\n126,1\n139,4\n137,6\n116,3\n103,3\n101,2\n295,7\n277,7\n252,8\n208,0\n189,4\n180,4\n321,4\n316,5\n409,5\n367,3\n327,2\n362,0\nSource : Bilan environnemental 2024, issu de Citepa, avril 2024\nEN_NODIzNT7QzNjAc0ND8UzMsTYxMj4A2NTAAwMTuY5OFTAx"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole-remplacement",
+    "titre": "Annexe 5 – La banque centrale européenne réagit à la hausse des prix.",
+    "texte": "Le Conseil des gouverneurs, principal organe de décision de la Banque Centrale\nEuropéenne (BCE) continuera d’augmenter sensiblement les taux d’intérêt à un rythme\nrégulier et à les maintenir à des niveaux suffisamment restrictifs pour assurer un retour au\nplus tôt de la stabilité des prix ; vers son objectif de 2 % à moyen terme. […]\nÀ terme, le maintien des taux d’intérêt à des niveaux restrictifs permettra de freiner la\ndemande. […] Dans tous les cas, les futures décisions du Conseil des gouverneurs\nrelatives aux taux directeurs resteront dépendantes des données et continueront d’être\nprises réunion par réunion. […]\nLes mesures de soutien public visant à protéger l’économie des conséquences des prix\nélevés de l’énergie doivent être temporaires, ciblées, et conçues de manière à ne pas aller\nà l’encontre des incitations à réduire la consommation d’énergie. Plus particulièrement, alors\nque la crise énergétique s’atténue, il est important de commencer à retirer ces mesures\nrapidement en fonction de la chute des prix de l’énergie et de manière concertée. Les\nmesures qui ne respectent pas ces principes sont susceptibles d’accentuer l’augmentation\ndes prix à moyen terme, ce qui exigerait une réponse de politique monétaire plus forte. […]\nÀ mesure du resserrement de la politique monétaire par le Conseil des gouverneurs, les\ntaux d’intérêt de marché continuent d’augmenter, et emprunter devient plus cher pour le\nsecteur privé. […] L’emprunt des ménages a continué de baisser, reflétant une hausse des\ntaux des prêts, un durcissement des conditions d’octroi de crédits et une forte contraction\nde la demande.\nSource : Banque de France, 20 avril 2023"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 4 – Répartition du financement de la transition écologique par les agents",
+    "texte": "économiques, en 2022 en France (en milliards d’euros et en pourcentage).\nDépenses de\nprotection de\nl’environnement\nEn milliards\nd’euros\nAdministrations\npubliques\nEntreprises\nRDM*\nMénages\nTotal\n22,2\n22,6\n0,8\n18,1\n63,7\n34,8\n35,5\n1,3\n28,4\n100%\nEn %\nRDM = Reste du monde.\nLes investissements climat doivent augmenter de 87 milliards d’euros d’ici 2030 pour\nmettre en œuvre la stratégie climat de la France. La répartition des efforts entre public\net privé n’est pas qu’une question d’efficacité économique, mais de redistribution et de\nchoix politiques.\nSource : Statistiques de Développement Durable, Le Bilan de la France, édition 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : L’internationalisation de l’économie mondiale.",
+    "texte": "L’internationalisation correspond au développement des relations économiques entre\nles différentes nations. À l’internationalisation des échanges caractérisés par\nl’accroissement du volume des biens et services échangés, s’est ajoutée\nl’internationalisation de la production. Ce ne sont plus les produits seuls qui se\ndéplacent mais aussi les capitaux car les firmes exportent aussi leurs usines qui\nfabriquent ces produits. […]. Ces mouvements de capitaux entre les pays peuvent\nprendre deux formes. Ils peuvent correspondre d’abord à un investissement direct à\nl’étranger (IDE), c’est à dire une création d’entreprise à l’étranger, un rachat ou une\nprise de participation dans une société étrangère afin d’acquérir un pouvoir de décision\neffectif dans la gestion de cette entreprise. À l’inverse, un investissement de\nportefeuille correspond à l’achat de parts ou d’actions de sociétés étrangères dans\nl’optique de la rentabilité (plus-values ou dividendes) et non pour contrôler réellement\nl’entreprise. […]\nSource : Dictionnaire de Sciences Économiques et Sociales Hatier, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2025-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 -",
+     "Annexe 2 -",
+     "Annexe 3 -",
+     "Annexe 4 -",
+     "Annexe 5 -",
+     "Annexe 1 - Fiscalité écologique : quelle efficacité ?",
+     "Annexe 2 - Les aides de l’État aux ménages relatives à l’achat de véhicules",
+     "Annexe 3 - La réglementation des entreprises pour favoriser la transition écologique.",
+     "Annexe 4 - Évolution des subventions publiques aux énergies renouvelables et des",
+     "Annexe 5 - Environnement : l’insuffisance de l’intervention de l’État."
+    ],
+    "questions": [
+     {
+      "enonce": "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les instruments mis en place par l’État pour favoriser la transition écologique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permet de répondre à la question suivante : L’intervention de l’État dans l’économie permet-elle de préserver l’environnement ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : Croissance du PIB en France.",
+     "Annexe 2 : Qu’est-ce que le cycle économique ?",
+     "Annexe 3 : Dépenses et recettes des administrations publiques.",
+     "Annexe 4 : La prime d’activité.",
+     "Annexe 5 : Aménagement numérique du territoire Français.",
+     "Annexe 6 : Charge d’intérêt de la dette publique depuis 2011.",
+     "Annexe 7 : Une potion budgétaire 2021 dédiée à la relance, les déficits",
+     "Annexe 1 : Croissance du PIB en France.",
+     "Annexe 2 : Qu’est-ce que le cycle économique ?",
+     "Annexe 3 : Dépenses et recettes des administrations publiques.",
+     "Annexe 4 : La prime d’activité.",
+     "Annexe 5 : Aménagement numérique du territoire Français.",
+     "Annexe 6 : Charge d’intérêt de la dette publique depuis 2011.",
+     "Annexe 7 : Une potion budgétaire 2021 dédiée à la relance, les déficits"
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez les variations de la croissance française.",
+      "points": 1.0,
+      "corrige": "On attend du candidat qu’il soit capable d’interpréter des données économiques\nprésentées sous forme de graphique. Il peut s’appuyer sur les informations prélevées\ndans l’annexe 1.\nLa croissance Française du PIB a évolué à la baisse au court de ces 20 dernières\nannées, malgré de nombreuses fluctuations à la hausse et à la baisse. À partir de 2000\njusqu’en 2003 la croissance marque une tendance à la baisse (- 3 points). Ensuite, la\nFrance connaît une phase d’expansion de 2003 à 2007. Cette phase d’expansion s’est\nbrusquement arrêtée avec la crise des subprimes en 2007/2008 (- 5 points). On assiste\nà une phase de récession.\nDepuis le début des années 2010, il y a une reprise mais le niveau de croissance est\nautour de 2 %. La tendance générale est donc à la baisse. (Annexe 1)\n\nPage: 12/22"
+     },
+     {
+      "enonce": "Présentez les différentes étapes du cycle économique.",
+      "points": 1.0,
+      "corrige": "On attend du candidat qu’il mobilise ses connaissances personnelles concernant les\nnotions abordées dans le thème 6 du programme de terminale sur les cycles\néconomiques. Il peut s’appuyer sur les informations prélevées dans l’annexe 1 et 2.\nLa phase d’expansion se caractérise par une croissance positive : l’activité\néconomique est dynamique, les entreprises embauchent, la consommation est forte.\nLa phase de crise se caractérise par un retournement de la conjoncture : l’activité\néconomique se contracte pour une raison extérieure (dettes des banques, hausse du\nprix du pétrole, pandémie mondiale, guerre commerciale, etc.).\nLa phase de récession qui suit se caractérise par une activité économique qui ralentit,\nla croissance est bien moins forte, voire nulle, voire carrément négative (on parle alors\nde dépression ici). Cela s’explique par une consommation en baisse, des\ninvestissements des […]"
+     },
+     {
+      "enonce": "Expliquez l’évolution des dépenses publiques de 2018 à 2019.",
+      "points": null,
+      "corrige": "point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…).\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe 6). Il est attendu du candidat un commentaire de l’évolution de la charge\nd’intérêt de la dette publique sur la période.\n- On attend du candidat qu’il soit capable de lire et exploiter un tableau (annexe 3). Il\nest attendu du candidat une analyse des dépenses et recettes des administrations\npubliques sur la période.\n- On attend également du candidat un repérage et une interprétation des informations\ncontenues dans l’annexe 4. Le candidat doit être capable d’établir un lien entre\nl’augmentation des prestations sociales (annexe 3) et l’exemple de la prime d’activité\n(annexe 4).\nPour compléter son commentaire, le candidat […]"
+     },
+     {
+      "enonce": "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+      "points": 1.5,
+      "corrige": "économiques de la crise sanitaire (1,5 point)\nCette question vise à évaluer si le candidat est capable d’identifier les informations\npertinentes dans différents textes et les mobiliser pour répondre à la question posée.\nOn attend du candidat un repérage et une interprétation des informations contenues\ndans les annexes 4, 5 et 7. De plus, le candidat doit être capable de développer les\nmécanismes économiques sous-jacents permettant d’établir un lien entre les politiques\nbudgétaires de relance (par l’offre et par la demande) menées par l’État et le fait que\nces mesures puissent relancer la croissance.\nGrâce à la mobilisation de son budget, l’État peut agir sur l’activité économique pour\nrelancer la croissance :\n– par des politiques d’offre, visant à soutenir l’activité productive des entreprises,\n\n\n\nSoutenir les entreprises : baisse de 10 milliards d'euros des impôts de\nproduction pesant […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les déficits publics favorisent-ils la croissance économique ?",
+      "points": null,
+      "corrige": "suivante :\nLes déficits publics favorisent-ils la croissance économique ?\n(5 points)\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire, apporte également des éléments de réponse au candidat. Ces\néléments ne sont toutefois pas suffisants ; le candidat doit également faire appel à ses\nconnaissances personnelles pour développer son argumentaire.\n\nPage: 14/22\n\n\nPréconisations concernant l’utilisation du barème :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie.\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\n\n2 points\n1. […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E4.1",
+  "type": "exercices",
+  "section": 9,
+  "section_titre": "4.1 La situation des agents économiques",
+  "frequence_passee": 0.08,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez des raisons pour lesquelles les entreprises s’implantent à l’étranger.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "4.1 La situation des agents économiques",
+   "theme": "Thème 4 : Quels modes de financement de l’activité économique ?",
+   "texte": "Le financement de l’économie concerne les opérations par lesquelles les agents à besoins de financement obtiennent des ressources en provenance des agents à capacités de financement.\nNotions : Les agents à besoins de financement et les agents à capacités de financement.\nCapacité attendue : l'élève est capable d’identifier les différentes situations de financement des agents économiques.\nCapacité attendue : l'élève est capable d’identifier et comparer les divers modes de financement de la croissance de la production.\nCapacité attendue : l'élève est capable de caractériser les différents circuits de financement.\nCapacité attendue : l'élève est capable de comprendre le rôle des banques centrales (et en particulier la Banque centrale européenne) par rapport au système bancaire.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 2 : Endettement et crise économique.",
+    "texte": "Le capitalisme est un système instable, avec une tendance naturelle aux cycles et aux\ncrises. […] De fait, avec la financiarisation de l’économie au cours des trois dernières\ndécennies, les crises violentes d’origine financière se sont multipliées et leur fréquence\nne fait que s’accélérer.\n[…] C’est durant les périodes de croissance que les capitalistes deviennent trop\noptimistes et investissent trop. […] C’est à ce moment-là que la politique monétaire de\ntaux bas stimule le crédit et contribue à la création monétaire et à la demande globale.\nPendant les périodes d’optimisme, les entreprises utilisent davantage l’endettement\npour augmenter leur capacité d’investissement : c’est l’effet de levier. Cela contribue\nà la prospérité de l’économie, mais c’est là que la crise commence à couver.\nLes banques partagent cet optimisme et commencent donc à prendre plus de risques.\nDe nombreuses entreprises s’endettent alors plus pour profiter de l’effet de levier\njusqu’au jour où beaucoup d’entre elles se retrouvent dans l’impossibilité de\nrembourser leurs dettes et font faillite. […] La dynamique d’endettement massif est\ndonc la cause majeure des expansions et des récessions. En 2008, la crise est\nsurvenue à cause de l’endettement trop important des agents qui, ne parvenant pas à\nrembourser leurs emprunts, ont mis en danger les banques. Les banques, ne\nrécupérant pas les fonds investis, ont connu des difficultés financières leur empêchant\nde jouer leur rôle de financement de l’économie.\nSource : Entretien avec Steve Keen, professeur d’économie à la Kingston University\net Dany Lang , enseignant-chercheur à Paris-XIII — 20 mai 2018, Libération."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2026-asie",
+    "titre": "Annexe 3 - Évolution de la contribution des agents économiques à l’empreinte",
+    "texte": "carbone en France entre 1990 et 2023 (en millions de tonnes de CO² équivalent).\nEmpreinte carbone par personne\n(tonne par habitant)\nEmpreinte carbone totale (millions\nde tonnes)\nDont émissions directes des ménages\nDont émissions des entreprises\nfrançaises\nDont émissions associées aux\nimportations\n1990\n2000\n2010\n2019\n2020\n2023\n12,8\n12,1\n12,4\n10,3\n9,2\n9,4\n743,2\n733,6\n799,9\n691,5\n620,0\n643,6\n126,1\n139,4\n137,6\n116,3\n103,3\n101,2\n295,7\n277,7\n252,8\n208,0\n189,4\n180,4\n321,4\n316,5\n409,5\n367,3\n327,2\n362,0\nSource : Bilan environnemental 2024, issu de Citepa, avril 2024\nEN_NODIzNT7QzNjAc0ND8UzMsTYxMj4A2NTAAwMTuY5OFTAx"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2025-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 -",
+     "Annexe 2 -",
+     "Annexe 3 -",
+     "Annexe 4 -",
+     "Annexe 5 -",
+     "Annexe 1 - Fiscalité écologique : quelle efficacité ?",
+     "Annexe 2 - Les aides de l’État aux ménages relatives à l’achat de véhicules",
+     "Annexe 3 - La réglementation des entreprises pour favoriser la transition écologique.",
+     "Annexe 4 - Évolution des subventions publiques aux énergies renouvelables et des",
+     "Annexe 5 - Environnement : l’insuffisance de l’intervention de l’État."
+    ],
+    "questions": [
+     {
+      "enonce": "Rappelez la fonction principale des agents économiques : ménages et entreprises.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les instruments mis en place par l’État pour favoriser la transition écologique.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permet de répondre à la question suivante : L’intervention de l’État dans l’économie permet-elle de préserver l’environnement ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,964 @@
+[
+ {
+  "id": "C6.3",
+  "type": "cas",
+  "section": 15,
+  "section_titre": "6.3 Les politiques économiques de l’État et de l’Europe",
+  "partenaire": 5,
+  "partenaire_titre": "2.3 La dynamique de la répartition des revenus",
+  "frequence_passee": 0.33,
+  "inedit": false,
+  "proba_annee_suivante": 0.179,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "6.3 Les politiques économiques de l’État et de l’Europe",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Afin de stabiliser les grands agrégats macroéconomiques (produit intérieur brut, emploi, stabilité des prix, commerce extérieur), l’État peut mettre en œuvre des politiques d’offre ou de demande fondées, par exemple, sur l’abaissement des coûts des facteurs de production, l’aide à l’innovation, les incitations financières, l’abaissement ou la hausse des impôts directs, indirects et des aides sociales. Les politiques à plus long terme visent, quant à elles, à modifier durablement le fonctionnement du système économique.\nElles doivent créer un cadre favorable à la croissance et au développement d’un territoire. Parmi ces politiques, on trouve notamment les politiques de remise à la concurrence d’anciens monopoles d’État, la politique de la concurrence et de lutte contre les cartels, l’économie de la connaissance, la politique de recherche et d’innovation.\nEn Europe, le processus d’intégration économique et monétaire a entraîné la mise en place d’une politique monétaire pour les pays membres de la zone euro ainsi que des règles communes de politique budgétaire. Cette intégration a été adoptée pour garantir le développement économique de l’Europe par une meilleure coordination des politiques budgétaires, la convergence des taux d’intérêts, le développement des échanges et le soutien aux politiques sectorielles et d’aménagement du territoire.\nNotions : Les fluctuations et les cycles économiques (expansion, récession, dépression, crise). La politique contracyclique. La politique budgétaire et la politique monétaire. Les politiques de la concurrence. La politique monétaire européenne. Les politiques budgétaires de relance ou de stabilisation et les critères européens des déficits publics.\nCapacité attendue : l'élève est capable de désigner les principaux outils et canaux de transmission des politiques budgétaire et monétaire.\nCapacité attendue : l'élève est capable et de distinguer les fonctions respectives des politiques d’offre et de.\nCapacité attendue : l'élève est capable d’énumérer demande qui peuvent s’inscrire alternativement ou concomitamment dans des cycles conjoncturels ou structurels.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "2.3 La dynamique de la répartition des revenus",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La production de biens et de services entraîne la distribution de revenus dans l’ensemble de l’économie. L’étude du revenu met en évidence la diversité de ses origines – travail (salaires, traitements) capital (intérêts, dividendes) et propriété (loyers) – ainsi que les enjeux de la répartition initiale de ces revenus et de leur taxation en vue d’une éventuelle redistribution.\nLe partage de la valeur ajoutée peut être affecté sur le long terme par des évolutions comme le progrès technique. Par ailleurs, le processus de redistribution mis en place par l’État via les prélèvements obligatoires et les dépenses publiques vise la réduction des inégalités en corrigeant la répartition des revenus primaires.\nIl aboutit après affectation des revenus de transfert et des prélèvements obligatoires au revenu disponible.\nNotions : Les revenus primaires : les revenus du travail, les revenus du capital, les revenus mixtes. Le partage de la valeur ajoutée entre les différents agents économiques. La valeur ajoutée brute par secteur institutionnel. L’imposition sur le revenu. Les prélèvements obligatoires.\nCapacité attendue : l'élève est capable de calculer la valeur ajoutée dans des cas simples.\nCapacité attendue : l'élève est capable de distinguer les revenus en fonction de leur origine.\nCapacité attendue : l'élève est capable de comprendre un peut être rémunéré du fait de son travail, de ses connaissances, diplômes, de ses qualifications et de sa détention de capital (épargne, logement, entreprise) et que, donc, son revenu va être mixte.\nCapacité attendue : l'élève est capable le partage de la valeur ajoutée.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 6 : Comment éviter une faible croissance à long terme ?",
+    "texte": "Le scénario d’une stagnation séculaire* demeurerait cependant toujours possible si\nles conditions d’une dynamisation de la demande n’étaient pas réunies. Dans la zone\neuro en particulier, ces conditions sont complexes à réunir car elles appellent une\nréelle coordination des politiques économiques d’États budgétairement souverains,\ndans une situation où l’insuffisance de la demande, caractérisée par exemple par un\nfort taux de chômage, est localisée dans certains pays (l’Europe du Sud\nessentiellement) mais où les marges budgétaires mobilisables et une situation\nfavorable de la balance courante sont localisées dans d’autres pays (Allemagne, PaysBas et Europe du Nord essentiellement). La politique monétaire contribue fortement à\ndynamiser la demande intérieure de la zone euro [...]. Mais la politique monétaire ne\npeut pas tout et, en particulier, elle n’est pas adaptée pour suppléer à un manque de\ncoordination de la demande intérieure. Ce manque de coordination ne peut être\natténué que par une dynamisation de la demande intérieure dans les pays qui\ndisposent de marges de manœuvre, via une accélération des salaires ou une politique\nbudgétaire plus dynamique (baisse des taxes ou hausse des dépenses publiques).\n* « séculaire » laisse entendre que la stagnation de la croissance va durer pendant une très longue\npériode.\nSource : Revue de l'OFCE N° 153, 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+    "texte": "Dans la zone euro, la politique monétaire est déterminée et mise en œuvre par la BCE\nseule, alors que les États membres conservent le contrôle presque entier de leur\npolitique budgétaire. De fait, il est très difficile pour la banque centrale d’avoir une\npolitique monétaire en adéquation avec les objectifs de chaque État. Le taux d’intérêt\ndirecteur fixé par la BCE peut se retrouver à un niveau satisfaisant pour certains États\nmais pas pour d’autres. Les différents États doivent donc soutenir leur activité\nuniquement par des politiques budgétaires. Certains États en sont même à espérer\nque l'activité nationale sera soutenue par les politiques budgétaires de relance des\npartenaires commerciaux.\nSource : Senat.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 1 : La politique monétaire de la BCE.",
+    "texte": "La politique monétaire est l'ensemble des moyens mis en œuvre par une banque\ncentrale pour agir sur l'activité économique par la régulation de sa monnaie. Cela\npasse donc par la définition d'un ou plusieurs objectifs et par celle des instruments qui\npermettront de les atteindre.\nDans le cas de la Banque centrale européenne (BCE), l'objectif est celui de la stabilité\ndes prix à la consommation. La BCE a défini cet objectif à 2% (plus précisément audessous mais proche de 2%). La stabilité des prix est définie non pas comme un taux\nd'inflation à 0% mais à 2% car il y a forcément des ajustements de prix au sein de\nl'économie.\nLa crise de 2007 subie par la zone euro a été telle que l'effet de la politique monétaire\ntelle qu'elle était définie avant la crise n'était plus suffisant pour retrouver le chemin de\nla croissance. Aujourd'hui, la BCE a réduit ses taux d'intérêt qui sont même devenus\nnégatifs. Cela a permis aux États de financer leur déficit et leur dette et ainsi de mettre\nen œuvre leur politique budgétaire de relance. Pour les entreprises et les ménages,\ncela a permis de relancer les emprunts, et ainsi la consommation et les\ninvestissements. Malgré cela, la croissance économique ne parvient plus à atteindre\nles niveaux qu’elle avait avant la crise.\nSource : « Présentation de la politique monétaire », Banque de France,\nmis à jour le 19 mars 2019."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 5 : Les effets des politiques monétaires sur l’activité économique.",
+    "texte": "[Les] politiques monétaires accommodantes sont-elles [...] efficaces dans leurs effets ?\nLà aussi, nous devons rendre compte, et aussi bien globalement que pour chaque\ncatégorie d’agent économique. D’un point de vue macroéconomique, les taux bas, et\nplus largement les politiques accommodantes, ont effectivement soutenu l’économie.\nAinsi, le FMI estime que sans les relances monétaires conduites au sein des\néconomies avancées, la croissance mondiale aurait été inférieure de 0,5 point de\npourcentage en 2019 comme en 2020. En zone euro même, les effets de la politique\nmonétaire ont fait l’objet de plusieurs estimations, convergentes : de 2 à 2,5 points de\npourcentage pour la croissance et environ 1,5 point de pourcentage d’inflation cumulés\nsur quatre ans.\nCes effets sont proches pour la France même. Plus de croissance grâce aux taux bas,\nc’est aussi moins de chômage : la zone euro a créé plus de onze millions d’emplois\nentre 2013 et 2019 dont deux à trois millions reviendraient directement aux effets de\nla politique monétaire, compte tenu de sa part dans la croissance.\nSource : Banque de France, discours du Gouverneur, 9 janvier 2020."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 1 : La décomposition du revenu disponible brut.",
+    "texte": "Le revenu disponible des ménages se compose des revenus d’activité (salaires,\nrevenus des indépendants) y compris allocations chômage, des revenus du\npatrimoine, des pensions et retraites, des prestations sociales […].\nLa grande majorité des ménages (92,2 % dans l’ensemble) perçoivent des revenus du\npatrimoine. Ils représentent une part croissante du revenu disponible à mesure que\nles niveaux de vie augmentent. Mais leur part reste limitée chez la plupart des\nménages : entre 3,0 % et 6,6 % jusqu’au 8ème décile, elle est encore de 9,0 %\nseulement pour les ménages entre le 8ème et le 9ème décile. En revanche, chez les\nménages des 10 % de personnes les plus aisées, ces revenus représentent 24,5 %\nde leur revenu disponible total. Pour les ménages du haut de la distribution, ces\nrevenus du patrimoine correspondent plus fréquemment à des placements financiers\n(plan d’épargne en actions, assurance vie, etc.). Les ménages des personnes les plus\naisées se distinguent également par la part plus importante de revenus d’activité\nindépendante : ils représentent 13,9 % du revenu disponible contre moins de 4,0 %\npour les autres ménages, et 4,1 % pour ceux de la tranche de niveau de vie\nimmédiatement inférieure. Il s’agit principalement de revenus de chefs d’entreprise et\ndes professions libérales.\nSource : INSEE, Les revenus et le patrimoine des ménages, édition 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 7 : Ressources publiques, d’où vient l’argent ?",
+    "texte": "Afin de remplir leurs missions, les administrations publiques (les services publics\nexercés par l’État, la sécurité sociale et les collectivités territoriales) ont besoin d’être\nfinancées. Les principales ressources publiques sont ce que l’on appelle les\nprélèvements obligatoires : impôts, cotisations et taxes. Les prélèvements obligatoires\nreprésentent en France 1 038 milliards d’euros, soit 45,3% du PIB. Contrairement aux\nidées reçues, les impôts sur le revenu ne représentent que 7% du total des impôts et\ntaxes payées par les Français.\nRépartition des prélèvements obligatoires en 2017 (sur 1000 euros)\nautres (taxes et prélèvements divers)\ncontribution audiovisuelle publique\nforfait social\ncotisation foncière des entreprises\ntaxe sur les salaires\nimpôt sur les dons et successions\ncotisation sur la valeur ajoutée des entreprises\ntaxe sur les transactions immobilières\ntaxe sur les tabacs et alcools\ntaxe d'habitation\ntaxe intérieure de consommation des produits…\ntaxe foncière\nimpôt sur les sociétés\nimpôt sur le revenu\ncontribution sociale généralisée et prélèvements sociaux\nTVA\ncotisations sociales\nprélèvements obligatoires en euros\nLecture : Sur 1000 euros de prélèvements obligatoires payés par les français, la taxe d’habitation\nreprésente 18 euros.\nSource : economie.gouv.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : La politique monétaire de la BCE.",
+     "Annexe 2 : Endettement et crise économique.",
+     "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+     "Annexe 4 : Taux directeur de la BCE et croissance économique française.",
+     "Annexe 5 : Les effets des politiques monétaires sur l’activité économique.",
+     "Annexe 6 : Comment éviter une faible croissance à long terme ?",
+     "Annexe 1 : La politique monétaire de la BCE.",
+     "Annexe 2 : Endettement et crise économique.",
+     "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+     "Annexe 4 : Taux directeur de la BCE et croissance économique française.",
+     "Annexe 5 : Les effets des politiques monétaires sur l’activité économique.",
+     "Annexe 6 : Comment éviter une faible croissance à long terme ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Comparez l’évolution du taux directeur de la banque centrale européenne (BCE) et du taux de croissance.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les effets du mécanisme du taux d’intérêt directeur de la BCE sur le crédit bancaire.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Décrivez les effets d’une politique budgétaire de relance par la demande.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Retrouvez les conséquences du manque de coordination des politiques budgétaires au sein de la zone euro.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E6.3",
+  "type": "exercices",
+  "section": 15,
+  "section_titre": "6.3 Les politiques économiques de l’État et de l’Europe",
+  "frequence_passee": 0.33,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Analysez l’évolution des données du commerce extérieur de la France.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "6.3 Les politiques économiques de l’État et de l’Europe",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "Afin de stabiliser les grands agrégats macroéconomiques (produit intérieur brut, emploi, stabilité des prix, commerce extérieur), l’État peut mettre en œuvre des politiques d’offre ou de demande fondées, par exemple, sur l’abaissement des coûts des facteurs de production, l’aide à l’innovation, les incitations financières, l’abaissement ou la hausse des impôts directs, indirects et des aides sociales. Les politiques à plus long terme visent, quant à elles, à modifier durablement le fonctionnement du système économique.\nElles doivent créer un cadre favorable à la croissance et au développement d’un territoire. Parmi ces politiques, on trouve notamment les politiques de remise à la concurrence d’anciens monopoles d’État, la politique de la concurrence et de lutte contre les cartels, l’économie de la connaissance, la politique de recherche et d’innovation.\nEn Europe, le processus d’intégration économique et monétaire a entraîné la mise en place d’une politique monétaire pour les pays membres de la zone euro ainsi que des règles communes de politique budgétaire. Cette intégration a été adoptée pour garantir le développement économique de l’Europe par une meilleure coordination des politiques budgétaires, la convergence des taux d’intérêts, le développement des échanges et le soutien aux politiques sectorielles et d’aménagement du territoire.\nNotions : Les fluctuations et les cycles économiques (expansion, récession, dépression, crise). La politique contracyclique. La politique budgétaire et la politique monétaire. Les politiques de la concurrence. La politique monétaire européenne. Les politiques budgétaires de relance ou de stabilisation et les critères européens des déficits publics.\nCapacité attendue : l'élève est capable de désigner les principaux outils et canaux de transmission des politiques budgétaire et monétaire.\nCapacité attendue : l'élève est capable et de distinguer les fonctions respectives des politiques d’offre et de.\nCapacité attendue : l'élève est capable d’énumérer demande qui peuvent s’inscrire alternativement ou concomitamment dans des cycles conjoncturels ou structurels.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 6 : Comment éviter une faible croissance à long terme ?",
+    "texte": "Le scénario d’une stagnation séculaire* demeurerait cependant toujours possible si\nles conditions d’une dynamisation de la demande n’étaient pas réunies. Dans la zone\neuro en particulier, ces conditions sont complexes à réunir car elles appellent une\nréelle coordination des politiques économiques d’États budgétairement souverains,\ndans une situation où l’insuffisance de la demande, caractérisée par exemple par un\nfort taux de chômage, est localisée dans certains pays (l’Europe du Sud\nessentiellement) mais où les marges budgétaires mobilisables et une situation\nfavorable de la balance courante sont localisées dans d’autres pays (Allemagne, PaysBas et Europe du Nord essentiellement). La politique monétaire contribue fortement à\ndynamiser la demande intérieure de la zone euro [...]. Mais la politique monétaire ne\npeut pas tout et, en particulier, elle n’est pas adaptée pour suppléer à un manque de\ncoordination de la demande intérieure. Ce manque de coordination ne peut être\natténué que par une dynamisation de la demande intérieure dans les pays qui\ndisposent de marges de manœuvre, via une accélération des salaires ou une politique\nbudgétaire plus dynamique (baisse des taxes ou hausse des dépenses publiques).\n* « séculaire » laisse entendre que la stagnation de la croissance va durer pendant une très longue\npériode.\nSource : Revue de l'OFCE N° 153, 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+    "texte": "Dans la zone euro, la politique monétaire est déterminée et mise en œuvre par la BCE\nseule, alors que les États membres conservent le contrôle presque entier de leur\npolitique budgétaire. De fait, il est très difficile pour la banque centrale d’avoir une\npolitique monétaire en adéquation avec les objectifs de chaque État. Le taux d’intérêt\ndirecteur fixé par la BCE peut se retrouver à un niveau satisfaisant pour certains États\nmais pas pour d’autres. Les différents États doivent donc soutenir leur activité\nuniquement par des politiques budgétaires. Certains États en sont même à espérer\nque l'activité nationale sera soutenue par les politiques budgétaires de relance des\npartenaires commerciaux.\nSource : Senat.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : La politique monétaire de la BCE.",
+     "Annexe 2 : Endettement et crise économique.",
+     "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+     "Annexe 4 : Taux directeur de la BCE et croissance économique française.",
+     "Annexe 5 : Les effets des politiques monétaires sur l’activité économique.",
+     "Annexe 6 : Comment éviter une faible croissance à long terme ?",
+     "Annexe 1 : La politique monétaire de la BCE.",
+     "Annexe 2 : Endettement et crise économique.",
+     "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+     "Annexe 4 : Taux directeur de la BCE et croissance économique française.",
+     "Annexe 5 : Les effets des politiques monétaires sur l’activité économique.",
+     "Annexe 6 : Comment éviter une faible croissance à long terme ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Comparez l’évolution du taux directeur de la banque centrale européenne (BCE) et du taux de croissance.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les effets du mécanisme du taux d’intérêt directeur de la BCE sur le crédit bancaire.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Décrivez les effets d’une politique budgétaire de relance par la demande.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Retrouvez les conséquences du manque de coordination des politiques budgétaires au sein de la zone euro.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C6.4",
+  "type": "cas",
+  "section": 16,
+  "section_titre": "6.4 Les politiques sociales",
+  "partenaire": 5,
+  "partenaire_titre": "2.3 La dynamique de la répartition des revenus",
+  "frequence_passee": 0.19,
+  "inedit": false,
+  "proba_annee_suivante": 0.159,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "6.4 Les politiques sociales",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "L’un des instruments clefs de l’exercice de la fonction redistributive de l’État est la politique sociale. Celle-ci protège les individus contre les risques sociaux (redistribution horizontale) et elle permet de réduire les inégalités socio-économiques (redistribution verticale).\nLa politique sociale passe notamment par : - la protection sociale qui répond à une logique d’assistance et/ou d’assurance contre les risques sociaux (maladie, invalidité, chômage, précarité/exclusion, vieillesse, charges de famille, etc.) ; - la fiscalité lorsqu’elle permet de réaliser une redistribution verticale des ressources. La protection sociale s’effectue d’une part par le versement de prestations sociales (prestations pécuniaires), d’autre part par l’offre de services sociaux (prestations non-pécuniaires).\nCes dépenses sont financées soit par les cotisations sociales, soit par l’impôt. Une partie de la redistribution verticale des ressources peut s’effectuer par la mise en œuvre de prélèvements obligatoires progressifs.\nL’efficacité des politiques sociales est aujourd’hui discutée. Le débat s’articule autour de leur financement et de leur capacité à atteindre leurs objectifs.\nNotions : Les inégalités socio- économiques. La redistribution horizontale et la redistribution verticale. La protection sociale. La logique d’assurance. La logique d’assistance. Les impôts et les cotisations sociales. La progressivité des prélèvements obligatoires.\nCapacité attendue : l'élève est capable de désigner les objectifs des politiques sociales et de protection sociale.\nCapacité attendue : l'élève est capable et d’expliquer les principaux risques sociaux couverts.\nCapacité attendue : l'élève est capable d’énumérer par la protection sociale.\nCapacité attendue : l'élève est capable de distinguer la redistribution horizontale et la redistribution verticale des ressources.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "2.3 La dynamique de la répartition des revenus",
+   "theme": "Thème 2 : Comment la richesse se crée-t-elle et se répartit-elle ?",
+   "texte": "La production de biens et de services entraîne la distribution de revenus dans l’ensemble de l’économie. L’étude du revenu met en évidence la diversité de ses origines – travail (salaires, traitements) capital (intérêts, dividendes) et propriété (loyers) – ainsi que les enjeux de la répartition initiale de ces revenus et de leur taxation en vue d’une éventuelle redistribution.\nLe partage de la valeur ajoutée peut être affecté sur le long terme par des évolutions comme le progrès technique. Par ailleurs, le processus de redistribution mis en place par l’État via les prélèvements obligatoires et les dépenses publiques vise la réduction des inégalités en corrigeant la répartition des revenus primaires.\nIl aboutit après affectation des revenus de transfert et des prélèvements obligatoires au revenu disponible.\nNotions : Les revenus primaires : les revenus du travail, les revenus du capital, les revenus mixtes. Le partage de la valeur ajoutée entre les différents agents économiques. La valeur ajoutée brute par secteur institutionnel. L’imposition sur le revenu. Les prélèvements obligatoires.\nCapacité attendue : l'élève est capable de calculer la valeur ajoutée dans des cas simples.\nCapacité attendue : l'élève est capable de distinguer les revenus en fonction de leur origine.\nCapacité attendue : l'élève est capable de comprendre un peut être rémunéré du fait de son travail, de ses connaissances, diplômes, de ses qualifications et de sa détention de capital (épargne, logement, entreprise) et que, donc, son revenu va être mixte.\nCapacité attendue : l'élève est capable le partage de la valeur ajoutée.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 5 : Effet d’une variation de transferts socio-fiscaux sur le niveau de vie",
+    "texte": "et les inégalités.\nLes transferts socio-fiscaux permettent de redistribuer les revenus entre les plus aisés\net les plus modestes. D’une part, les prestations sociales (minima sociaux, prestations\nfamiliales et aides au logement) visent à soutenir le niveau de vie des ménages, et\nd’autre part, les prélèvements directs (impôt sur le revenu, cotisations et contributions\nsociales) financent les dépenses publiques et la protection sociale. Une variation de\nces transferts a des effets sur le niveau de vie des ménages et les finances publiques :\npar exemple, une hausse des prestations sociales à destination des plus modestes\natténue les inégalités et la pauvreté d’une part et augmente les dépenses publiques\nd’autre part. […]\nSource : INSEE Analyses n°50 de Janvier 2020,"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 7 : Ressources publiques, d’où vient l’argent ?",
+    "texte": "Afin de remplir leurs missions, les administrations publiques (les services publics\nexercés par l’État, la sécurité sociale et les collectivités territoriales) ont besoin d’être\nfinancées. Les principales ressources publiques sont ce que l’on appelle les\nprélèvements obligatoires : impôts, cotisations et taxes. Les prélèvements obligatoires\nreprésentent en France 1 038 milliards d’euros, soit 45,3% du PIB. Contrairement aux\nidées reçues, les impôts sur le revenu ne représentent que 7% du total des impôts et\ntaxes payées par les Français.\nRépartition des prélèvements obligatoires en 2017 (sur 1000 euros)\nautres (taxes et prélèvements divers)\ncontribution audiovisuelle publique\nforfait social\ncotisation foncière des entreprises\ntaxe sur les salaires\nimpôt sur les dons et successions\ncotisation sur la valeur ajoutée des entreprises\ntaxe sur les transactions immobilières\ntaxe sur les tabacs et alcools\ntaxe d'habitation\ntaxe intérieure de consommation des produits…\ntaxe foncière\nimpôt sur les sociétés\nimpôt sur le revenu\ncontribution sociale généralisée et prélèvements sociaux\nTVA\ncotisations sociales\nprélèvements obligatoires en euros\nLecture : Sur 1000 euros de prélèvements obligatoires payés par les français, la taxe d’habitation\nreprésente 18 euros.\nSource : economie.gouv.fr"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-nouvelle-caledonie",
+    "titre": "ANNEXE 1 - Revenus avant et après redistribution en 2020",
+    "texte": "Montants des prélèvements et prestations en euros par unité de consommation\nen 2020\n< D1\n>D9\nEnsemble\nRevenu avant redistribution (A)\n3 520\n80 360\n27 660\nPrélèvements\n-160\n-20 240\n-3 850\nFinancement de la protection sociale\n-180\n-7 680\n-2 100\nImpôts directs\n-12 560\n-1 750\nPrestations\n7 470\n1 800\nPrestations familiales\n1 850\nAides au logement\n1 800\nPrime d’activité et minima sociaux\n3 470\nAides exceptionnelles\nRevenu disponible après redistribution (B)\n10 820\n60 350\n25 610\nTaux de redistribution (B-A)/A (en %)\n207,4\n-24,8\n-7,4\n<D1 : 10 % de personnes les plus modestes ; >D9 : 10 % les plus aisées.\nSources : Insee, enquête Revenus fiscaux et sociaux 2018 (paru le 25 novembre 2021),\nInsee-Drees-Cnaf"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 3 : Impôts et prestations redistribuent les cartes.",
+    "texte": "Deux mécanismes de redistribution sont à l’œuvre. Du côté des prélèvements, l’impôt\nsur le revenu est celui qui contribue le plus à la réduction des inégalités, car, plus on\ns’élève dans l’échelle des revenus, plus le taux d’imposition croît […]. Du côté de la\nprotection sociale, certaines prestations sont réservées aux ménages aux revenus les\nplus faibles : aides au logement, RSA, minimum vieillesse, etc. Les prestations\nfamiliales jouent également un grand rôle. Les allocations familiales ne sont pas\nexclusivement destinées aux personnes les plus pauvres, mais depuis 2015, elles sont\nmodulées selon les ressources du foyer. Quant aux autres prestations familiales, elles\nsont souvent soumises à conditions de ressources.\nLa redistribution monétaire contribue à diminuer les inégalités de niveau de vie et à\nprotéger des effets de la pauvreté.\nPour dresser un panorama complet des transferts et de la redistribution opérés par\nl’État, il faudrait chiffrer de façon précise l’effet des impôts indirects et des services\npublics. Les premiers, comme la TVA, pèsent davantage sur le revenu des plus\npauvres. Quant aux services publics, leur rôle dans la réduction des inégalités est\ncentral. L’école gratuite, les logements sociaux ou les remboursements de soins ne se\nlimitent pas à redistribuer de la richesse, ils permettent également de réduire les\ninégalités sociales d’accès aux soins, à l’éducation, au logement, etc.\nSource : Anne Brunner et Louis Maurin, Observatoire des inégalités, 16 janvier 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 1 : La décomposition du revenu disponible brut.",
+    "texte": "Le revenu disponible des ménages se compose des revenus d’activité (salaires,\nrevenus des indépendants) y compris allocations chômage, des revenus du\npatrimoine, des pensions et retraites, des prestations sociales […].\nLa grande majorité des ménages (92,2 % dans l’ensemble) perçoivent des revenus du\npatrimoine. Ils représentent une part croissante du revenu disponible à mesure que\nles niveaux de vie augmentent. Mais leur part reste limitée chez la plupart des\nménages : entre 3,0 % et 6,6 % jusqu’au 8ème décile, elle est encore de 9,0 %\nseulement pour les ménages entre le 8ème et le 9ème décile. En revanche, chez les\nménages des 10 % de personnes les plus aisées, ces revenus représentent 24,5 %\nde leur revenu disponible total. Pour les ménages du haut de la distribution, ces\nrevenus du patrimoine correspondent plus fréquemment à des placements financiers\n(plan d’épargne en actions, assurance vie, etc.). Les ménages des personnes les plus\naisées se distinguent également par la part plus importante de revenus d’activité\nindépendante : ils représentent 13,9 % du revenu disponible contre moins de 4,0 %\npour les autres ménages, et 4,1 % pour ceux de la tranche de niveau de vie\nimmédiatement inférieure. Il s’agit principalement de revenus de chefs d’entreprise et\ndes professions libérales.\nSource : INSEE, Les revenus et le patrimoine des ménages, édition 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 7 : Ressources publiques, d’où vient l’argent ?",
+    "texte": "Afin de remplir leurs missions, les administrations publiques (les services publics\nexercés par l’État, la sécurité sociale et les collectivités territoriales) ont besoin d’être\nfinancées. Les principales ressources publiques sont ce que l’on appelle les\nprélèvements obligatoires : impôts, cotisations et taxes. Les prélèvements obligatoires\nreprésentent en France 1 038 milliards d’euros, soit 45,3% du PIB. Contrairement aux\nidées reçues, les impôts sur le revenu ne représentent que 7% du total des impôts et\ntaxes payées par les Français.\nRépartition des prélèvements obligatoires en 2017 (sur 1000 euros)\nautres (taxes et prélèvements divers)\ncontribution audiovisuelle publique\nforfait social\ncotisation foncière des entreprises\ntaxe sur les salaires\nimpôt sur les dons et successions\ncotisation sur la valeur ajoutée des entreprises\ntaxe sur les transactions immobilières\ntaxe sur les tabacs et alcools\ntaxe d'habitation\ntaxe intérieure de consommation des produits…\ntaxe foncière\nimpôt sur les sociétés\nimpôt sur le revenu\ncontribution sociale généralisée et prélèvements sociaux\nTVA\ncotisations sociales\nprélèvements obligatoires en euros\nLecture : Sur 1000 euros de prélèvements obligatoires payés par les français, la taxe d’habitation\nreprésente 18 euros.\nSource : economie.gouv.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1- Les chiffres clés des dépenses et recettes publiques françaises.",
+     "ANNEXE 2 - Réduction des inégalités : la redistribution est deux fois plus ample en […]",
+     "ANNEXE 3- Hausse des prix : quel impact sur la pauvreté ?",
+     "ANNEXE 4- Classe, âge, origine : quand les inégalités se cumulent.",
+     "ANNEXE 1 - Les chiffres clés des dépenses et recettes publiques françaises.",
+     "ANNEXE 2 - Réduction des inégalités redistribution est deux fois plus ample en",
+     "ANNEXE 3- Hausse des prix : quel impact sur la pauvreté ?",
+     "ANNEXE 4- Classe, âge, origine : quand les inégalités se cumulent."
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution des dépenses publiques en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Distinguez la logique d’assistance de la logique d’assurance en présentant un exemple pour chacune d’elle.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez que la hausse des prix a des conséquences inégales sur les ménages français.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques sociales sont-elles suffisantes pour lutter contre les inégalités ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté.",
+     "Annexe 1 : L’évolution de la dette publique en France (en milliards d’Euros).",
+     "Annexe 2 : Les dépenses publiques en 2019.",
+     "Annexe 3 : Allocation de soutien familial : une allocation parent isolé.",
+     "Annexe 4 : Mal-emploi : près de huit millions de personnes fragilisées.",
+     "Annexe 5 : Aides pour l'emploi des jeunes.",
+     "Annexe 6 : Un Français sur cinq concerné par la pauvreté."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez les notions de déficit public et de dette publique.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\nDémontrer sa capacité à distinguer les notions de déficit public et de dette publique. Il\nest attendu que le candidat mobilise ses connaissances sur ces deux notions. Aucune\nannexe n’est directement utilisable pour répondre à cette question néanmoins le\ncandidat pourra éventuellement déduire les définitions de l’ensemble du corpus\ndocumentaire\nLa dette publique correspond à l'ensemble des engagements financiers pris sous\nforme d'emprunts par l'État, les collectivités publiques et les organismes qui en\ndépendent directement. Alors que le déficit public est la situation dans laquelle les\nrecettes de l’ensemble de l’administration publique sont inférieures à ses dépenses au\ncours d’une année.\nLe déficit public alimente donc la dette publique."
+     },
+     {
+      "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020.",
+      "points": 1.0,
+      "corrige": "(1 point)\nCette question vise à évaluer si le candidat est capable de :\n- Interpréter des données économiques présentées sous différents supports (textes,\ntableaux, graphiques…)\n- On attend du candidat qu’il soit capable de lire et exploiter un graphique simple\n(annexe1). Il est attendu du candidat un commentaire de l’évolution de la dette\npublique sur la période. Pour compléter son commentaire, le candidat pourra utiliser\nses connaissances.\n\n\nEntre 2010 et 2020, la dette publique n’a cessé d’augmenter, passant d’environ\n1 700 à 2 650 milliards en ce qui concerne l’administration publique dans son\nensemble.\nPour l’État, nous pouvons constater que, sur cette même période, sa dette est\npassée de 1 300 à 2 100 milliards.\n\nIl est aussi possible de constater que les deux courbes suivent la même tendance.\nL’État comme l’administration publique en général s’endettent fortement ces […]"
+     },
+     {
+      "enonce": "Montrez l’importance de la protection sociale dans les dépenses publiques.",
+      "points": 1.5,
+      "corrige": "publiques. (1,5 point)\nCette question vise à évaluer si le candidat est capable de montrer qu’à travers sa\npolitique sociale et les dépenses publiques, l’État protège les individus contre les\nrisques sociaux en les limitant.\nAnnexe 2\nPlus de la moitié (572€ pour 1 000€ en 2019) des dépenses publiques sont destinées\nau financement de la protection sociale.\nCette protection sociale permet de financer des risques sociaux tels que :\n\n\n\n- La vieillesse avec 262 € (retraites),\n- La santé avec 195 €,\n- Le reste étant réparti entre le logement, la solidarité, le chômage et la famille.\nDonc les dépenses publiques financent bien le système de protection sociale par\nconséquent la prise en compte des risques sociaux et contribuent fortement à la dette"
+     },
+     {
+      "enonce": "Identifiez les mesures récentes engagées par l’État pour lutter contre les risques auxquels sont confrontés les ménages.",
+      "points": 1.5,
+      "corrige": "risques auxquels sont confrontés les ménages. (1,5 point)\nCette question vise à évaluer si le candidat est capable de mobiliser les annexes,\nainsi que ses connaissances afin de répondre à la question. (Annexes 3, 4, 5 et 6)\nOn attend que l’élève soit capable d’expliquer le lien entre mesures engagées et lutte\ncontre les risques sociaux.\nAccepter toute proposition pertinente des élèves concernant les mesures\nDans une logique d’assistance, ces mesures permettent de lutter contre le mal emploi,\nla pauvreté, la précarité… et donc de réduire les inégalités socioéconomiques\nPar exemple, l’allocation parent isolé de 115,74€ permet à un parent qui ne bénéficie\npas d’un 2ème revenu comme un couple de subvenir au mieux aux besoins de son\nenfant et donc de limiter les inégalités.\nConcernant le plan de soutien de 6,5 milliards d’€ (Aide pour l’emploi des jeunes avec\nune aide exceptionnelle de 5000 […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E6.4",
+  "type": "exercices",
+  "section": 16,
+  "section_titre": "6.4 Les politiques sociales",
+  "frequence_passee": 0.19,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les moyens utilisés par l’État pour réduire les inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique sociale en France réduit-elle les inégalités de revenus ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "6.4 Les politiques sociales",
+   "theme": "Thème 6 : Comment l’État peut-il intervenir dans l’économie ?",
+   "texte": "L’un des instruments clefs de l’exercice de la fonction redistributive de l’État est la politique sociale. Celle-ci protège les individus contre les risques sociaux (redistribution horizontale) et elle permet de réduire les inégalités socio-économiques (redistribution verticale).\nLa politique sociale passe notamment par : - la protection sociale qui répond à une logique d’assistance et/ou d’assurance contre les risques sociaux (maladie, invalidité, chômage, précarité/exclusion, vieillesse, charges de famille, etc.) ; - la fiscalité lorsqu’elle permet de réaliser une redistribution verticale des ressources. La protection sociale s’effectue d’une part par le versement de prestations sociales (prestations pécuniaires), d’autre part par l’offre de services sociaux (prestations non-pécuniaires).\nCes dépenses sont financées soit par les cotisations sociales, soit par l’impôt. Une partie de la redistribution verticale des ressources peut s’effectuer par la mise en œuvre de prélèvements obligatoires progressifs.\nL’efficacité des politiques sociales est aujourd’hui discutée. Le débat s’articule autour de leur financement et de leur capacité à atteindre leurs objectifs.\nNotions : Les inégalités socio- économiques. La redistribution horizontale et la redistribution verticale. La protection sociale. La logique d’assurance. La logique d’assistance. Les impôts et les cotisations sociales. La progressivité des prélèvements obligatoires.\nCapacité attendue : l'élève est capable de désigner les objectifs des politiques sociales et de protection sociale.\nCapacité attendue : l'élève est capable et d’expliquer les principaux risques sociaux couverts.\nCapacité attendue : l'élève est capable d’énumérer par la protection sociale.\nCapacité attendue : l'élève est capable de distinguer la redistribution horizontale et la redistribution verticale des ressources.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 5 : Effet d’une variation de transferts socio-fiscaux sur le niveau de vie",
+    "texte": "et les inégalités.\nLes transferts socio-fiscaux permettent de redistribuer les revenus entre les plus aisés\net les plus modestes. D’une part, les prestations sociales (minima sociaux, prestations\nfamiliales et aides au logement) visent à soutenir le niveau de vie des ménages, et\nd’autre part, les prélèvements directs (impôt sur le revenu, cotisations et contributions\nsociales) financent les dépenses publiques et la protection sociale. Une variation de\nces transferts a des effets sur le niveau de vie des ménages et les finances publiques :\npar exemple, une hausse des prestations sociales à destination des plus modestes\natténue les inégalités et la pauvreté d’une part et augmente les dépenses publiques\nd’autre part. […]\nSource : INSEE Analyses n°50 de Janvier 2020,"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 7 : Ressources publiques, d’où vient l’argent ?",
+    "texte": "Afin de remplir leurs missions, les administrations publiques (les services publics\nexercés par l’État, la sécurité sociale et les collectivités territoriales) ont besoin d’être\nfinancées. Les principales ressources publiques sont ce que l’on appelle les\nprélèvements obligatoires : impôts, cotisations et taxes. Les prélèvements obligatoires\nreprésentent en France 1 038 milliards d’euros, soit 45,3% du PIB. Contrairement aux\nidées reçues, les impôts sur le revenu ne représentent que 7% du total des impôts et\ntaxes payées par les Français.\nRépartition des prélèvements obligatoires en 2017 (sur 1000 euros)\nautres (taxes et prélèvements divers)\ncontribution audiovisuelle publique\nforfait social\ncotisation foncière des entreprises\ntaxe sur les salaires\nimpôt sur les dons et successions\ncotisation sur la valeur ajoutée des entreprises\ntaxe sur les transactions immobilières\ntaxe sur les tabacs et alcools\ntaxe d'habitation\ntaxe intérieure de consommation des produits…\ntaxe foncière\nimpôt sur les sociétés\nimpôt sur le revenu\ncontribution sociale généralisée et prélèvements sociaux\nTVA\ncotisations sociales\nprélèvements obligatoires en euros\nLecture : Sur 1000 euros de prélèvements obligatoires payés par les français, la taxe d’habitation\nreprésente 18 euros.\nSource : economie.gouv.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2024-asie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "ANNEXES :",
+     "ANNEXE 1- Les chiffres clés des dépenses et recettes publiques françaises.",
+     "ANNEXE 2 - Réduction des inégalités : la redistribution est deux fois plus ample en […]",
+     "ANNEXE 3- Hausse des prix : quel impact sur la pauvreté ?",
+     "ANNEXE 4- Classe, âge, origine : quand les inégalités se cumulent.",
+     "ANNEXE 1 - Les chiffres clés des dépenses et recettes publiques françaises.",
+     "ANNEXE 2 - Réduction des inégalités redistribution est deux fois plus ample en",
+     "ANNEXE 3- Hausse des prix : quel impact sur la pauvreté ?",
+     "ANNEXE 4- Classe, âge, origine : quand les inégalités se cumulent."
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution des dépenses publiques en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Distinguez la logique d’assistance de la logique d’assurance en présentant un exemple pour chacune d’elle.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez que la hausse des prix a des conséquences inégales sur les ménages français.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques sociales sont-elles suffisantes pour lutter contre les inégalités ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C7.1",
+  "type": "cas",
+  "section": 17,
+  "section_titre": "7.1 Activité et chômage",
+  "partenaire": 6,
+  "partenaire_titre": "3.1 L’arbitrage entre consommation et épargne",
+  "frequence_passee": 0.47,
+  "inedit": false,
+  "proba_annee_suivante": 0.205,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Présentez les différentes étapes du cycle économique.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "7.1 Activité et chômage",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "Selon le BIT (Bureau international du travail) et l’INSEE, le chômage peut prendre différentes formes en fonction des situations auxquelles il correspond (chômage de plein emploi, chômage structurel / conjoncturel, chômage volontaire / involontaire, etc.). Les deux mesures principales du chômage sont le taux de chômage et le taux d’emploi, constitutifs du taux d’activité.\nNotions : Les différentes formes de chômage. Le taux de chômage et le taux d’emploi.\nCapacité attendue : l'élève est capable calculer le taux d’activité, le taux de chômage et le taux d’emploi de.\nCapacité attendue : l'élève est capable d’interpréter l’évolution de ces trois taux en France à partir de courbes.\nCapacité attendue : l'élève est capable de décrire et de tendances.\nCapacité attendue : l'élève est capable de définir ce que sont une situation de plein emploi et une situation de sous-emploi.\nCapacité attendue : l'élève est capable et d’interpréter les différentes sources d’imperfections.\nCapacité attendue : l'élève est capable de définir les différentes formes de chômage.\nCapacité attendue : l'élève est capable les différentes politiques de l’emploi.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "3.1 L’arbitrage entre consommation et épargne",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Le revenu disponible des ménages est réparti entre consommation et épargne. Les variables économiques, sociales et démographiques affectent cet arbitrage.\nMais ces variables ont aussi un impact sur la structure de la consommation et de l’épargne. Le revenu disponible se répartit entre consommation et épargne.\nLa structure de la consommation (part des différents types de biens et services dans les dépenses) évolue dans le budget des ménages dans le temps et selon différents critères, économiques (revenu, taux d’intérêt, projet d’investissement, etc.), démographiques (vieillissement de la population par exemple) et sociaux (épargne de précaution, anticipations de perte de revenu, chômage, risque de maladie).\nNotions : Les déterminants de l’épargne et de la consommation. La propension à consommer. Le taux d’épargne. Le patrimoine.\nCapacité attendue : l'élève est capable d’identifier les déterminants de la consommation.\nCapacité attendue : l'élève est capable d’identifier les déterminants de l’épargne.\nCapacité attendue : l'élève est capable de montrer le lien entre épargne, revenu et patrimoine.\nCapacité attendue : l'élève est capable de calculer et interpréter les propensions moyenne et marginale à consommer et à épargner.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2022-metropole",
+    "titre": "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+    "texte": "Si le chômage a baissé au deuxième trimestre, cette diminution […] cache la crise de\nl'emploi que traverse la France, avec notamment une chute du nombre d'heures\ntravaillées. […] Le taux de chômage en France a diminué de 0,7 point au deuxième\ntrimestre à 7,1% […]. Déjà au premier trimestre, le taux de chômage avait reculé de\n0,3 point, à 7,8%. Ces reculs […], selon l'Insee, sont inhérents à la définition même du\nchômeur au sens du Bureau international du travail (BIT) […]. Selon cet indicateur, le\nnombre de chômeurs a ainsi diminué de 271 000, à deux millions de personnes entre\navril et juin.\nToutefois, d'autres données publiées jeudi par l'Institut de la statistique « décrivent\nbien l'ampleur de la crise », souligne Sylvain Larrieu, de l'Insee, citant les chutes à des\nniveaux record du taux d'emploi et du nombre d'heures travaillées, […]. « Le\nconfinement a mis en inactivité forcée toute une partie de la population, que ce soit\ndes personnes en emploi ou des personnes sans emploi », rappelle-t-il, quelques jours\naprès que l'Insee a annoncé la destruction de plus de 600 000 emplois au premier\nsemestre dans le secteur privé, à cause de la crise du coronavirus. […] En prenant en\ncompte le taux d'emploi et le halo autour du chômage, « on a un tiers de la population\nen situation de travailler qui est inactive, alors qu'on est traditionnellement à 11-12%.\nC'est une déflagration massive », commente Mathieu Plane, économiste à\nl'Observatoire français des conjonctures économiques (OFCE). Il s'attend à une\nhausse du taux de chômage au 3ème trimestre, « s'il n'y a pas un reconfinement, avec\ndes personnes en recherche d'emploi qui vont basculer du halo vers le chômage ».\nSource : Challenges.fr, (avec AFP), 13 août 2020."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-polynesie",
+    "titre": "ANNEXE 1 - Taux de chômage dans quelques pays européens",
+    "texte": "Taux de chômage (15-74 ans), 1er trimestre 2022.\nSource : Eurostat, publication Ministère du travail, du plein emploi et de l’insertion,\nseptembre 2022"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+    "titre": "Annexe 1 - Taux de chômage par catégorie socioprofessionnelle, diplôme et âge en",
+    "texte": "2023 (en %)\nSelon la catégorie socioprofessionnelle\nAgriculteurs exploitants\nArtisans, commerçants et chefs d'entreprise\nCadres\nProfessions intermédiaires\nEmployés\nOuvriers\nSelon le diplôme\nBac+2 ou plus\nBaccalauréat\nCAP, BEP ou équivalent\nAucun diplôme, brevet des collèges\nSelon l'âge\n15-24 ans\n25-49 ans\n50 ans et plus\nEnsemble\nTaux de chômage\n(en %)\n0,6\n3,4\n3,7\n4,7\n9,0\n10,5\n5,0\n8,8\n13,3\n5,9\n3,7\nLecture : en 2023, le taux de chômage est de 7,3 %.\nChamp : France hors Mayotte, personnes vivant en logement ordinaire, actives.\nSource : Insee, enquête Emploi 2024, 22 août 2024."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-polynesie",
+    "titre": "Annexe 5 - Le chômage appelé à encore s'aggraver en 2024 en France.",
+    "texte": "Au quatrième trimestre 2023, le taux de chômage en France a atteint 7,5 % de la population\nactive, selon les données publiées par l'Insee ce mardi. La dégradation du marché du travail\ndevrait se poursuivre cette année. […]\nPetite consolation : le taux de chômage s'est stabilisé en fin d'année. Pour Gilbert Cette,\nprofesseur à Neoma Business School, […] : « le taux d'emploi a continué d'augmenter à\n68,4 % au quatrième trimestre 2023 et est désormais supérieur de 1,6 point à son niveau\nde 2019. C'est le chiffre qui mesure la réussite des réformes qui ont été engagées »,\nsouligne-t-il.\n[…] La France comme ses voisins européens subit de plein fouet les effets du resserrement\nde la politique monétaire : depuis plusieurs mois, l'activité économique stagne et la reprise\ns'annonce poussive.\nSinistré par la remontée brutale des taux d'intérêt, le secteur de la construction s'attend à\ndes pertes d'emplois massives. Les défaillances d'entreprises s'accélèrent elles aussi\nentraînant dans leur sillage des destructions de postes. Dans ce contexte, les instituts de\nconjoncture tablent tous sur une remontée du taux de chômage cette année.\nAu tarissement des créations d'emplois lié à la dégradation de la conjoncture vont s'ajouter\ndès cette année 2024 les effets du report progressif de l'âge légal de départ à la retraite, de\n62 ans à 64 ans, qui accroît la population active. Dans ses prévisions de mi-décembre 2024,\nl'Insee voit ainsi le taux de chômage monter à 7,6 % au premier trimestre puis se stabiliser\nau printemps. La Banque de France pense, elle, qu'il va grimper à 7,6 % en 2024 et à 7,8 %\nen 2025. […]\nPour le gouvernement qui vise le plein-emploi à horizon 2027, cette dégradation attendue\ndu marché du travail n'est pas une bonne nouvelle.\nSource : Les Échos, 13 février 2024"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole-remplacement",
+    "titre": "Annexe 1: Revenu, consommation et épargne annuelle en France.",
+    "texte": "Ensemble des\nménages\nRevenu en\neuros\nConsommation\nen euros\nÉpargne en\neuros\nTaux\nd’épargne\n45 101\n37 548\n7 553\n17 %\nSource : « Revenu, consommation et épargne par catégorie de ménages en 2011.\nComptes nationaux annuels », Insee Résultats, Insee, novembre 2017."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 1 : La loi psychologique fondamentale exposée par J.M. KEYNES.",
+    "texte": "La demande globale comprend les dépenses des consommateurs et des\ninvestisseurs. Concernant la consommation, Keynes met en avant une « loi\npsychologique fondamentale », selon laquelle « lorsque le revenu croît, la\nconsommation aussi, mais dans une mesure moindre », et il définit la propension à\nconsommer comme la relation entre consommation et le revenu national. […] Dans la\nThéorie générale, Keynes distingue la propension moyenne et la propension marginale\nà consommer.\nSource : ENS Lyon"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-polynesie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Taux de chômage au sens du BIT selon le sexe, l'âge et population",
+     "Annexe 2 : Taux de croissance et taux de chômage en France en pourcentage",
+     "Annexe 3 : Les inégalités en France.",
+     "Annexe 4 : La Covid-19, un accélérateur des inégalités sociales.",
+     "Annexe 5 : Tous concernés : pourquoi moins d’inégalité profite à tous.",
+     "Annexe 6 : Covid-19 : le modèle américain génère plus de croissance mais plus",
+     "Annexe 1 : Taux de chômage au sens du BIT selon le sexe, l'âge et population",
+     "Annexe 2 : Taux de croissance et taux de chômage en France en pourcentage",
+     "Annexe 3 : Les inégalités en France.",
+     "Annexe 4 : La Covid-19, un accélérateur des inégalités sociales.",
+     "Annexe 5 : Tous concernés : pourquoi moins d’inégalité profite à tous.",
+     "Annexe 6 : Covid-19 : le modèle américain génère plus de croissance mais plus"
+    ],
+    "questions": [
+     {
+      "enonce": "Calculez le taux de chômage au sens du bureau international du travail (BIT) pour 2019.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Déterminez s’il existe un lien entre le taux de chômage et le taux de croissance depuis 2000.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez les origines des inégalités en France.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez les conséquences de la politique sociale américaine face à la crise sanitaire.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

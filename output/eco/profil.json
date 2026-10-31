@@ -1,0 +1,775 @@
+{
+ "corpus": {
+  "fichiers_sujets": 38,
+  "corriges": 14,
+  "questions_lues": 355,
+  "sections_du_cours": 25,
+  "passages_du_cours": 205
+ },
+ "pertinence_des_parties": {
+  "methode": "mélange gaussien (choisi au BIC) sur la proximité maximale de chaque partie au cours",
+  "parties_gardees": 42,
+  "parties_ecartees": 43,
+  "signaux": "proximité au cours des énoncés, des annexes, de la situation ; puis vote par titre de partie",
+  "titres_gardes": {
+   "PARTIE ÉCONOMIQUE": 30,
+   "PARTIE ÉCONOMIQUE / SUJET 1": 6,
+   "PARTIE ÉCONOMIQUE / SUJET 2": 6
+  },
+  "titres_ecartes": {
+   "PARTIE JURIDIQUE": 31,
+   "PARTIE JURIDIQUE / SUJET 1": 6,
+   "PARTIE JURIDIQUE / SUJET 2": 6
+  },
+  "questions_gardees": 187
+ },
+ "alignement_sur_le_cours": {
+  "verite_terrain": "« références au programme » lues dans les corrigés",
+  "sujets_avec_references": 2,
+  "questions_evaluees": 8,
+  "poids_appris": {
+   "corrige": 0,
+   "annexes": 0,
+   "situation": 0.5,
+   "identifiants_communs": 0
+  },
+  "auto_reglage_meta": null,
+  "enonce_seul_top1_top3": [
+   0.75,
+   1.0
+  ],
+  "appris_validation_croisee_top1_top3": [
+   1.0,
+   1.0
+  ],
+  "popularite_top1": 1.0,
+  "hasard_top1": 0.12,
+  "second_tour_sans_mots_de_consigne": {
+   "garde": false,
+   "score": [
+    0.5,
+    0.75
+   ]
+  }
+ },
+ "vocabulaire_de_consigne": {
+  "signaux": "dispersion sur les sections, présence dans le cas, rareté dans le cours ; mélange gaussien",
+  "mots_analyses": 159,
+  "mots_de_consigne": 157,
+  "exemples_consigne": [
+   "argumentation",
+   "redigez",
+   "suivante",
+   "presentez",
+   "vous",
+   "permette",
+   "question",
+   "expliquez",
+   "france",
+   "identifiez",
+   "repondre",
+   "montrez",
+   "commentez",
+   "francais",
+   "rappelez",
+   "qui",
+   "decrivez",
+   "determinez",
+   "elle",
+   "comparez",
+   "effets",
+   "pour",
+   "menages",
+   "evolution",
+   "depuis",
+   "lien",
+   "croissance",
+   "distinguez",
+   "une",
+   "les",
+   "mises",
+   "entre",
+   "consequences",
+   "sur",
+   "francaise",
+   "retrouvez",
+   "etat",
+   "crise",
+   "sanitaire",
+   "quoi"
+  ],
+  "exemples_contenu": [
+   "aux",
+   "des"
+  ]
+ },
+ "manieres_de_demander": {
+  "k": 3,
+  "essais_k": {
+   "3": {
+    "silhouette": 0.059,
+    "stabilite": 0.751
+   },
+   "4": {
+    "silhouette": 0.063,
+    "stabilite": 0.636
+   },
+   "5": {
+    "silhouette": 0.064,
+    "stabilite": 0.577
+   },
+   "6": {
+    "silhouette": 0.065,
+    "stabilite": 0.459
+   },
+   "7": {
+    "silhouette": 0.064,
+    "stabilite": 0.509
+   },
+   "8": {
+    "silhouette": 0.065,
+    "stabilite": 0.427
+   },
+   "9": {
+    "silhouette": 0.044,
+    "stabilite": 0.378
+   }
+  },
+  "auto_correction": [
+   {
+    "tour": 0,
+    "k": 3,
+    "stabilite_moyenne": 0.865,
+    "instables": 0
+   }
+  ],
+  "silhouette_finale": 0.059,
+  "stabilite_finale": 0.718,
+  "facettes": [
+   {
+    "id": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "n": 35,
+    "stabilite": 1.0,
+    "position_moyenne": 1.0,
+    "exemples": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les déficits publics favorisent-ils la croissance économique ?"
+    ]
+   },
+   {
+    "id": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "n": 119,
+    "stabilite": 0.72,
+    "position_moyenne": 0.45,
+    "exemples": [
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage.",
+     "Présentez les stratégies mises en œuvre par les entreprises pour diminuer l’intensité concurrentielle.",
+     "Expliquez comment les mesures mises en œuvre par l’État agissent sur le marché du travail."
+    ]
+   },
+   {
+    "id": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "n": 33,
+    "stabilite": 0.43,
+    "position_moyenne": 0.15,
+    "exemples": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021.",
+     "Commentez l’évolution de l’empreinte carbone en France entre 1990 et 2023."
+    ]
+   }
+  ]
+ },
+ "types_de_supports": {
+  "k": 9,
+  "essais_k": {
+   "3": {
+    "silhouette": 0.02,
+    "stabilite": 0.41
+   },
+   "4": {
+    "silhouette": 0.027,
+    "stabilite": 0.4
+   },
+   "5": {
+    "silhouette": 0.034,
+    "stabilite": 0.323
+   },
+   "6": {
+    "silhouette": 0.038,
+    "stabilite": 0.368
+   },
+   "7": {
+    "silhouette": 0.044,
+    "stabilite": 0.365
+   },
+   "8": {
+    "silhouette": 0.045,
+    "stabilite": 0.32
+   },
+   "9": {
+    "silhouette": 0.056,
+    "stabilite": 0.375
+   }
+  },
+  "auto_correction": [
+   {
+    "tour": 0,
+    "k": 9,
+    "stabilite_moyenne": 0.399,
+    "instables": 7
+   }
+  ],
+  "silhouette_finale": 0.056,
+  "stabilite_finale": 0.456,
+  "annexes_par_sujet": {
+   "5": 1,
+   "6": 1,
+   "8": 3,
+   "9": 3,
+   "10": 10,
+   "11": 6,
+   "12": 11,
+   "13": 2,
+   "14": 4,
+   "15": 1
+  },
+  "types": [
+   {
+    "id": 0,
+    "nom": "des pib commerciale brut",
+    "n": 65,
+    "stabilite": 0.29,
+    "exemples_de_titres": [
+     "Annexe 1 : Croissance du PIB en France.",
+     "Annexe 2 : Les obstacles au commerce.",
+     "Annexe 1 : La décomposition du revenu disponible brut."
+    ],
+    "longueur_mediane": 31,
+    "exemple_texte": ""
+   },
+   {
+    "id": 1,
+    "nom": "les des menages investissements",
+    "n": 41,
+    "stabilite": 0.28,
+    "exemples_de_titres": [
+     "Annexe 2 : Les investissements directs à l’étranger (IDE) de la France.",
+     "Annexe 4 : La France continue d’attirer les investisseurs étrangers.",
+     "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger."
+    ],
+    "longueur_mediane": 72,
+    "exemple_texte": ""
+   },
+   {
+    "id": 2,
+    "nom": "publiques des recettes publique",
+    "n": 41,
+    "stabilite": 0.55,
+    "exemples_de_titres": [
+     "Annexe 3 : Dépenses et recettes des administrations publiques.",
+     "Annexe 6 : Charge d’intérêt de la dette publique depuis 2011.",
+     "Annexe 4 : Niveau de vie annuel avant et après redistribution en 2018."
+    ],
+    "longueur_mediane": 44,
+    "exemple_texte": ""
+   },
+   {
+    "id": 3,
+    "nom": "chomage taux selon diplome",
+    "n": 30,
+    "stabilite": 0.73,
+    "exemples_de_titres": [
+     "Annexe 1 : Évolution du taux de chômage en France depuis 2006.",
+     "Annexe 2 : Taux de chômage selon le niveau de diplôme.",
+     "Annexe 4 : La réforme de l'assurance chômage."
+    ],
+    "longueur_mediane": 53,
+    "exemple_texte": ""
+   },
+   {
+    "id": 4,
+    "nom": "des entreprises pour les",
+    "n": 59,
+    "stabilite": 0.19,
+    "exemples_de_titres": [
+     "Annexe 4 : La prime d’activité.",
+     "Annexe 5 : Aménagement numérique du territoire Français.",
+     "Annexe 7 : Une potion budgétaire 2021 dédiée à la relance, les déficits"
+    ],
+    "longueur_mediane": 50,
+    "exemple_texte": ""
+   },
+   {
+    "id": 5,
+    "nom": "inegalites les revenus sociales",
+    "n": 22,
+    "stabilite": 0.79,
+    "exemples_de_titres": [
+     "Annexe 2 : L’essentiel sur les inégalités de revenus.",
+     "Annexe 3 : Les inégalités en France.",
+     "Annexe 4 : La Covid-19, un accélérateur des inégalités sociales."
+    ],
+    "longueur_mediane": 196,
+    "exemple_texte": ""
+   },
+   {
+    "id": 6,
+    "nom": "des dans les chaines",
+    "n": 123,
+    "stabilite": 0.32,
+    "exemples_de_titres": [
+     "Annexe 3 : Un retour du protectionnisme ?",
+     "Annexe 5 : L’intérêt d’avoir recours au libre-échange.",
+     "Annexe 7 : Part de chaque zone géographique dans le commerce mondial."
+    ],
+    "longueur_mediane": 48,
+    "exemple_texte": ""
+   },
+   {
+    "id": 7,
+    "nom": "emploi politiques des politique",
+    "n": 32,
+    "stabilite": 0.51,
+    "exemples_de_titres": [
+     "Annexe 3 : Quel est le champ de la politique de l’emploi ?",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 4 : Les effets des politiques de l’emploi."
+    ],
+    "longueur_mediane": 99,
+    "exemple_texte": "redistribution."
+   },
+   {
+    "id": 8,
+    "nom": "economique des politiques economiques",
+    "n": 27,
+    "stabilite": 0.44,
+    "exemples_de_titres": [
+     "Annexe 2 : Qu’est-ce que le cycle économique ?",
+     "Annexe 4 : La mise en place de l’accord de partenariat économique Union",
+     "Annexe 3 : L’internationalisation de l’économie mondiale."
+    ],
+    "longueur_mediane": 71,
+    "exemple_texte": ""
+   }
+  ],
+  "taux_de_reprise_de_sources": {
+   "des pib commerciale brut": 0.08,
+   "les des menages investissements": 0.07,
+   "publiques des recettes publique": 0.1,
+   "chomage taux selon diplome": 0.07,
+   "des entreprises pour les": 0.07,
+   "inegalites les revenus sociales": 0.0,
+   "des dans les chaines": 0.02,
+   "emploi politiques des politique": 0.09,
+   "economique des politiques economiques": 0.04
+  },
+  "part_de_documents_dates": {
+   "des pib commerciale brut": 0.32,
+   "les des menages investissements": 0.27,
+   "publiques des recettes publique": 0.44,
+   "chomage taux selon diplome": 0.23,
+   "des entreprises pour les": 0.2,
+   "inegalites les revenus sociales": 0.0,
+   "des dans les chaines": 0.08,
+   "emploi politiques des politique": 0.12,
+   "economique des politiques economiques": 0.07
+  }
+ },
+ "operations_mentales": {
+  "methode": "8 descripteurs relationnels, mélange gaussien, k au BIC",
+  "k": 5,
+  "operations": [
+   {
+    "id": 0,
+    "n": 55,
+    "fort": [
+     "appui_sur_le_cours"
+    ],
+    "faible": [
+     "largeur_du_cours",
+     "rang_dans_le_sujet"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.14,
+     "appui_sur_les_documents": 0.08,
+     "appui_sur_le_cours": 0.93,
+     "largeur_du_cours": -0.97,
+     "rang_dans_le_sujet": -0.51,
+     "forme_interrogative": -0.46,
+     "acteurs_nommes": 0.0,
+     "longueur_enonce": -0.2
+    },
+    "exemples": [
+     "Distinguez le taux de chômage et le taux d’emploi.",
+     "Distinguez le taux d’emploi et le taux de chômage.",
+     "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit."
+    ]
+   },
+   {
+    "id": 1,
+    "n": 94,
+    "fort": [
+     "largeur_du_cours"
+    ],
+    "faible": [
+     "forme_interrogative",
+     "appui_sur_le_cours"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.14,
+     "appui_sur_les_documents": 0.12,
+     "appui_sur_le_cours": -0.39,
+     "largeur_du_cours": 0.52,
+     "rang_dans_le_sujet": -0.16,
+     "forme_interrogative": -0.46,
+     "acteurs_nommes": 0.0,
+     "longueur_enonce": -0.35
+    },
+    "exemples": [
+     "Analysez les variations de la croissance française.",
+     "Présentez les différentes étapes du cycle économique.",
+     "Expliquez l’évolution des dépenses publiques de 2018 à 2019."
+    ]
+   },
+   {
+    "id": 2,
+    "n": 3,
+    "fort": [
+     "largeur_du_cours",
+     "forme_interrogative",
+     "longueur_enonce"
+    ],
+    "faible": [
+     "appui_sur_le_cours",
+     "appui_sur_les_documents"
+    ],
+    "profil": {
+     "appui_sur_le_cas": 0.67,
+     "appui_sur_les_documents": -0.44,
+     "appui_sur_le_cours": -1.02,
+     "largeur_du_cours": 2.51,
+     "rang_dans_le_sujet": 1.38,
+     "forme_interrogative": 2.16,
+     "acteurs_nommes": 0.0,
+     "longueur_enonce": 1.55
+    },
+    "exemples": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les accords commerciaux de l’Union européenne avec des pays tiers profitent-ils aux entreprises européennes ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Le libre-échange est-il favorable à la croissance économique d’un pays ?"
+    ]
+   },
+   {
+    "id": 3,
+    "n": 5,
+    "fort": [
+     "appui_sur_le_cas"
+    ],
+    "faible": [
+     "longueur_enonce",
+     "largeur_du_cours"
+    ],
+    "profil": {
+     "appui_sur_le_cas": 4.66,
+     "appui_sur_les_documents": -0.54,
+     "appui_sur_le_cours": 0.01,
+     "largeur_du_cours": -0.67,
+     "rang_dans_le_sujet": -0.41,
+     "forme_interrogative": -0.46,
+     "acteurs_nommes": 0.0,
+     "longueur_enonce": -1.03
+    },
+    "exemples": [
+     "Identifiez l’arbitrage que fait chaque ménage à partir de son revenu disponible.",
+     "Montrez qu’il existe un lien entre les niveaux de revenu, d’épargne et de patrimoine pour les ménages.",
+     "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019."
+    ]
+   },
+   {
+    "id": 4,
+    "n": 30,
+    "fort": [
+     "forme_interrogative",
+     "longueur_enonce",
+     "rang_dans_le_sujet"
+    ],
+    "faible": [
+     "appui_sur_les_documents",
+     "appui_sur_le_cours"
+    ],
+    "profil": {
+     "appui_sur_le_cas": -0.14,
+     "appui_sur_les_documents": -0.39,
+     "appui_sur_le_cours": -0.39,
+     "largeur_du_cours": 0.03,
+     "rang_dans_le_sujet": 1.38,
+     "forme_interrogative": 2.16,
+     "acteurs_nommes": 0.0,
+     "longueur_enonce": 1.49
+    },
+    "exemples": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les déficits publics favorisent-ils la croissance économique ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique sociale en France réduit-elle les inégalités de revenus ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’internationalisation de l’économie française favorise-t-elle sa croissance ?"
+    ]
+   }
+  ]
+ },
+ "niveau_de_detail": {
+  "reponses_de_corrige": 68,
+  "chars_par_point_p10_p50_p90": [
+   368,
+   825,
+   1186
+  ],
+  "chars_par_question_p50": 1153,
+  "references_citees_par_reponse_moyenne": 0.0,
+  "enumerations_par_reponse_moyenne": 2.18,
+  "longueur_mediane_par_facette": {
+   "0": 5207,
+   "1": 961,
+   "2": 871
+  },
+  "points_par_rang": {
+   "0": 0.175,
+   "1": 0.2,
+   "2": 0.175,
+   "3": 0.3,
+   "4": 0.5
+  },
+  "gestes_attendus_du_correcteur": [
+   "arguments",
+   "nombre",
+   "developper",
+   "candidat peut",
+   "baisse"
+  ],
+  "consignes_de_correction": [
+   "Il n’est pas attendu de phrase introductive ou conclusive.",
+   "La position doit être exprimée tout au long de la réponse rédigée.",
+   "Dans le cas où un candidat développerait deux axes, un nombre égal d’arguments n’est pas attendu dans chacun des deux axes.",
+   "Elle doit être comprise à la lecture des arguments.",
+   "Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+   "Le syllogisme juridique n’est pas la seule forme attendue.",
+   "Toute réponse argumentée doit être acceptée dès l’instant où elle répond à la question.",
+   "(Connaissances) Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+   "Il appartient aux correcteurs de ne pas se laisser « enfermer » par la proposition de corrigé et d’analyser les productions des candidats avec intelligence en n’hésitant pas à valoriser ceux qui font preuve de capacités d’analyse et de réflexion.",
+   "Au moins deux idées sont attendues, dont l’une peut exploiter des transversalités avec d’autres enseignements de spécialité.",
+   "(Annexe 2) Il convient d’accepter tous les autres arguments pertinents qui seraient proposés par le candidat.",
+   "Il est attendu une argumentation claire, c’est-à-dire des arguments de droit et de fait qui conduisent à la conclusion.",
+   "Tout concept mobilisé cohérent avec la réflexion doit être accepté dès l’instant où il permet de formuler une réponse logique.",
+   "On acceptera qu’un candidat développe son argumentation soit sur l’erreur soit sur le dol."
+  ]
+ },
+ "squelette": {
+  "questions_par_partie": {
+   "4": 23,
+   "5": 19
+  },
+  "facette_par_rang": {
+   "0": {
+    "1": 23,
+    "2": 19
+   },
+   "1": {
+    "1": 31,
+    "2": 11
+   },
+   "2": {
+    "1": 39,
+    "2": 3
+   },
+   "3": {
+    "1": 26,
+    "0": 16
+   },
+   "4": {
+    "0": 19
+   }
+  },
+  "squelette_typique": [
+   "les / les x / presentez / expliquez",
+   "les / les x / presentez / expliquez",
+   "les / les x / presentez / expliquez",
+   "les / les x / presentez / expliquez"
+  ],
+  "transitions": {
+   "1->1": 66,
+   "1->0": 35,
+   "0->fin": 35,
+   "2->1": 30,
+   "début->1": 23,
+   "début->2": 19,
+   "1->2": 11,
+   "1->fin": 7,
+   "2->2": 3
+  }
+ },
+ "couverture_du_cours": {
+  "sujets": 36,
+  "frequence_par_section": {
+   "1.1 Les agents économiques et les différents types de biens et services": 0.08,
+   "1.2 Les décisions du consommateur et du producteur": 0.06,
+   "1.3 Les échanges économiques": 0.06,
+   "2.1 La combinaison des facteurs de production": 0.11,
+   "2.2 La mesure de la production et ses prolongements": 0.03,
+   "2.3 La dynamique de la répartition des revenus": 0.11,
+   "3.1 L’arbitrage entre consommation et épargne": 0.14,
+   "3.2 Le pouvoir d’achat des ménages": 0.17,
+   "3.3 La structure de consommation des ménages": 0.14,
+   "4.1 La situation des agents économiques": 0.08,
+   "4.2 Les modalités de financement de l’activité économique": 0.0,
+   "5.1 Le degré de concurrence selon les marchés": 0.17,
+   "5.2 Les stratégies pour dépasser l’intensité concurrentielle": 0.03,
+   "6.1 L’intervention de l’État": 0.36,
+   "6.2 Défaillances des marchés et défaillances de l’État": 0.08,
+   "6.3 Les politiques économiques de l’État et de l’Europe": 0.33,
+   "6.4 Les politiques sociales": 0.19,
+   "7.1 Activité et chômage": 0.47,
+   "7.2 L’offre et la demande de travail": 0.11,
+   "7.3 Politiques de l’emploi": 0.19,
+   "8.1 Les transformations du commerce mondial": 0.28,
+   "8.2 Des politiques commerciales divergentes": 0.14,
+   "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux": 0.17,
+   "9.1 Les sources d’une croissance économique soutenable": 0.14,
+   "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation": 0.17
+  },
+  "jamais_ou_presque": [
+   "2.2 La mesure de la production et ses prolongements",
+   "4.2 Les modalités de financement de l’activité économique",
+   "5.2 Les stratégies pour dépasser l’intensité concurrentielle"
+  ],
+  "associations_frequentes": [
+   "6.3 Les politiques économiques de l’État + 7.1 Activité et chômage (6)",
+   "6.1 L’intervention de l’État + 7.1 Activité et chômage (5)",
+   "6.3 Les politiques économiques de l’État + 8.1 Les transformations du commerce mond (4)",
+   "3.1 L’arbitrage entre consommation et ép + 7.1 Activité et chômage (4)",
+   "3.1 L’arbitrage entre consommation et ép + 8.1 Les transformations du commerce mond (4)",
+   "7.1 Activité et chômage + 8.1 Les transformations du commerce mond (4)",
+   "7.1 Activité et chômage + 7.3 Politiques de l’emploi (4)",
+   "6.1 L’intervention de l’État + 6.4 Les politiques sociales (4)",
+   "6.1 L’intervention de l’État + 8.3 Une organisation mondiale pour gérer (3)",
+   "6.1 L’intervention de l’État + 9.2 La réduction de la pauvreté et le rô (3)"
+  ]
+ },
+ "previsibilite_consigne": {
+  "log_loss_sujet_exclu": {
+   "marginale": 0.911,
+   "selon_le_rang": 0.542,
+   "selon_la_section": 0.874,
+   "selon_rang_et_dernier": 0.478
+  },
+  "verdict": "rituel (le rang explique la consigne)"
+ },
+ "probabilite_annee_suivante": {
+  "6.1 L’intervention de l’État": 0.228,
+  "7.1 Activité et chômage": 0.205,
+  "6.3 Les politiques économiques de l’État et de l’Europe": 0.179,
+  "8.1 Les transformations du commerce mondial": 0.167,
+  "6.4 Les politiques sociales": 0.159,
+  "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux": 0.134,
+  "6.2 Défaillances des marchés et défaillances de l’État": 0.134,
+  "7.3 Politiques de l’emploi": 0.12,
+  "7.2 L’offre et la demande de travail": 0.112,
+  "9.1 Les sources d’une croissance économique soutenable": 0.111,
+  "3.1 L’arbitrage entre consommation et épargne": 0.103,
+  "9.2 La réduction de la pauvreté et le rôle de l’éducation et de la formation": 0.101,
+  "5.1 Le degré de concurrence selon les marchés": 0.098,
+  "8.2 Des politiques commerciales divergentes": 0.092,
+  "2.1 La combinaison des facteurs de production": 0.09,
+  "3.3 La structure de consommation des ménages": 0.089,
+  "2.3 La dynamique de la répartition des revenus": 0.088,
+  "3.2 Le pouvoir d’achat des ménages": 0.088,
+  "1.2 Les décisions du consommateur et du producteur": 0.084,
+  "1.1 Les agents économiques et les différents types de biens et services": 0.074,
+  "2.2 La mesure de la production et ses prolongements": 0.074,
+  "1.3 Les échanges économiques": 0.072,
+  "4.1 La situation des agents économiques": 0.068,
+  "5.2 Les stratégies pour dépasser l’intensité concurrentielle": 0.066,
+  "4.2 Les modalités de financement de l’activité économique": 0.062
+ },
+ "previsibilite_sections": {
+  "methode": "pour chaque année, appris sur les années précédentes seulement ; AUC (0,5 = hasard)",
+  "auc_popularite": 0.643,
+  "auc_modele": 0.58,
+  "annees_testees": 4,
+  "coefficients": {
+   "frequence_passee": 0.32,
+   "annees_depuis_derniere": 0.14,
+   "frequence_du_theme": 0.38,
+   "taille_section": 0.1
+  }
+ },
+ "formules_rituelles": {
+  "seuil_sujets": 3,
+  "n_enonces": 245,
+  "exemples": [
+   "Rappelez les fonctions économiques de l’État.",
+   "Qualifiez juridiquement les faits et les parties.",
+   "Qualifiez juridiquement les parties et les faits.",
+   "Qualifiez juridiquement les faits et les dommages.",
+   "Distinguez le taux de chômage et le taux d’emploi.",
+   "Présentez un argument que Thomas pourrait lui opposer.",
+   "Déterminez le lien entre niveau de diplôme et chômage.",
+   "Commentez l’évolution des dépenses publiques en France."
+  ],
+  "tetes": [
+   {
+    "debut": "l argumentation juridique",
+    "sujets": 37
+   },
+   {
+    "debut": "développez l argumentation",
+    "sujets": 34
+   },
+   {
+    "debut": "argumentation juridique que",
+    "sujets": 34
+   },
+   {
+    "debut": "rédigez une argumentation",
+    "sujets": 29
+   },
+   {
+    "debut": "une argumentation qui",
+    "sujets": 22
+   },
+   {
+    "debut": "argumentation qui vous",
+    "sujets": 22
+   },
+   {
+    "debut": "vous permette de",
+    "sujets": 21
+   },
+   {
+    "debut": "qui vous permette",
+    "sujets": 21
+   },
+   {
+    "debut": "des qualifications juridiques",
+    "sujets": 21
+   },
+   {
+    "debut": "utilisant des qualifications",
+    "sujets": 21
+   },
+   {
+    "debut": "faits en utilisant",
+    "sujets": 21
+   },
+   {
+    "debut": "permette de répondre",
+    "sujets": 21
+   }
+  ]
+ }
+}

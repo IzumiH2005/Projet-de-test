@@ -271,6 +271,38 @@ Preuve sur les nouveautés (questions portant sur un passage jamais interrogé a
 
 `scripts/build_livrable.py` relie à chaque chapitre les exercices déjà rédigés (droit : cas et séries par section ; NSI : banques et inédits par notion), par similarité avec tout le texte du chapitre. Onglet « Programme d'entraînement » du livrable : droit 23 chapitres, NSI 41 chapitres et 474 questions.
 
+## Une seule commande, n'importe quelle matière
+
+```
+python -m examgen.prof tout --nom eco --sujets data/sources/droit_stmg --cours data/eco/cours
+```
+
+Il suffit des anciens sujets (PDF) et du cours (Markdown, un titre `##` par partie). La commande enchaîne tout :
+profil du professeur, plans, prévision de l'année suivante, rédaction, contrôle, livrable.
+La matière est inscrite dans `data/domaines.json`, ses sorties vont dans `output/<nom>/`.
+
+- **Tri automatique du cours** : si les sujets mêlent deux matières, un mélange gaussien (choisi par BIC)
+  garde seulement les parties du cours fourni. Pour l'économie : 42 parties gardées, 43 de droit écartées.
+- **Rédaction générique** (`examgen/prof/redige.py`) : les consignes du rédacteur sont tirées du profil appris
+  (manières de demander, documents recopiés ou inventés, longueur des corrigés, intention cachée), sans règle
+  propre à une matière. Chaque exercice passe au contrôle (`check.Checker`), et ce qu'il reproche est renvoyé
+  au rédacteur, jusqu'à 2 fois. Avec `ANTHROPIC_API_KEY`, l'appel est direct. Sans clé, un prompt complet
+  par plan est écrit dans `output/<nom>/prompts/`.
+
+### 3e matière, jamais vue : économie STMG
+
+Le cours est assemblé depuis les programmes Éduscol (`scripts/build_eco_cours.py`, 25 chapitres, 205 passages).
+Le test se fait comme en vrai : chaque année 2024 à 2026 est prévue avec les années d'avant seulement.
+
+| Mesure | Économie | Droit | NSI |
+|---|---|---|---|
+| AUC de la popularité | 0,73 | | |
+| AUC du potentiel sur les passages jamais demandés | 0,69 | 0,84 | 0,62 |
+| Nouveautés repérées dans le quart du haut (hasard : 25 %) | 41 % | 80 % | 48 % |
+
+Avec un cours trop maigre (58 passages), ce taux tombait à 0 % : la qualité du cours compte autant que les sujets.
+Le sujet le plus probable (SP-1, commerce mondial et IDE) a passé tous les contrôles au premier jet.
+
 ## Méta-apprentissage (`examgen/meta`)
 
 `python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.

@@ -1,0 +1,978 @@
+[
+ {
+  "id": "C8.1",
+  "type": "cas",
+  "section": 20,
+  "section_titre": "8.1 Les transformations du commerce mondial",
+  "partenaire": 1,
+  "partenaire_titre": "1.2 Les décisions du consommateur et du producteur",
+  "frequence_passee": 0.28,
+  "inedit": false,
+  "proba_annee_suivante": 0.167,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "8.1 Les transformations du commerce mondial",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "L’ouverture des frontières, la baisse des coûts de transport et de communication, le développement des économies d’échelle ont transformé le commerce mondial. L’internationalisation de la chaîne de valeur des produits se concrétise par une segmentation croissante des processus de production : les entreprises sont aujourd’hui moins spécialisées dans la production d’un bien que dans une étape de sa fabrication.\nIl est important d’estimer la valeur ajoutée dégagée sur chacun des segments. Certains pays n’ont qu’un rôle d’assembleur de ce fait qu’une et ne dégagent d’autres se faible valeur ajoutée du produit final ; positionnent sur des segments à plus forte valeur ajoutée, par exemple dans les secteurs de l’innovation et de la recherche. à l’échelle internationale Cette segmentation se traduit par des importations de biens intermédiaires, qui représentent désormais plus de la moitié des échanges internationaux.\nCes flux au niveau d’un pays sont mesurés par la balance des biens et services. L’un des principaux indicateurs de l’attractivité économique d’un pays est constitué par le niveau des investissements directs à l’étranger (IDE).\nLes IDE sont un élément moteur de la multinationalisation des entreprises. Les principales motivations à l’origine des IDE sont la réduction des coûts et la conquête de nouveaux marchés, difficiles à pénétrer par les seules exportations.\nL’IDE est à l’origine de la création des firmes multinationales (FMN). Si l’effet des IDE est généralement considéré comme positif sur la croissance des pays d’accueil, notamment grâce aux transferts de technologie induits, il est plus discuté sur le commerce international, sur l’emploi dans les pays investisseurs, sur les conditions de travail dans les pays d’accueil et sur l’environnement.\nNotions : Les importations et les exportations de biens et services. La segmentation. Les produits intermédiaires, les produits finis. La balance des biens et des services Les investissements directs à l’étranger (IDE) Les firmes multinationales (FMN)\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable de décrire et le développement des échanges de biens et services entre pays.\nCapacité attendue : l'élève est capable l’évolution du solde d’une balance des biens et services.\nCapacité attendue : l'élève est capable d’interpréter.\nCapacité attendue : l'élève est capable de décrire les processus de mondialisation de la chaîne de valeur ajoutée pour un produit, en distinguant les phases d’élaboration des segments de produits et les phases d’assemblage.\nCapacité attendue : l'élève est capable de montrer comment la segmentation des processus de production engendre des flux d’importations et d’exportations des pays participant aux échanges.\nCapacité attendue : l'élève est capable les flux d’investissements directs à l’étranger (IDE).\nCapacité attendue : l'élève est capable la place des firmes multinationales dans les échanges internationaux.\nCapacité attendue : l'élève est capable d’apprécier.\nCapacité attendue : l'élève est capable d’expliquer.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "1.2 Les décisions du consommateur et du producteur",
+   "theme": "Thème 1 : Quelles sont les grandes questions économiques et leurs",
+   "texte": "La science économique étudie les mécanismes des choix individuels et collectifs, et leurs effets. L’analyse des choix alternatifs des individus se fonde sur l’idée que les agents sont rationnels dans leurs décisions, c’est-à-dire qu’ils s’efforcent d’atteindre les objectifs qu’ils se sont fixés en fonction de leurs préférences individuelles et des contraintes économiques, sociales et environnementales.\nDécider et arbitrer requiert ainsi de comparer les coûts et bénéfices des choix alternatifs. La notion centrale de coût d’opportunité, liée aux utilités que l’on marginales estimées des biens et services consomme ou pas, peut ainsi être expliquée et démontrée.\nConsommer des biens et des services nécessite de les produire. Ces biens (ou services) peuvent être produits par des agents privés ou publics.\nLa valeur de ces biens (ou services) pour les agents économiques est liée à leur rareté et à leur utilité marginale. La question de la production (que produire et en quelle quantité ?) dépend à la fois des quantités et du coût des ressources disponibles (facteurs de production : travail, capital, terre) et de la valeur du bien fabriqué, exprimée par son prix.\nAinsi, un consommateur rationnel cherche à maximiser sa satisfaction (consommation, bien être) en prenant en compte sa contrainte budgétaire et l’utilité marginale estimée pour chacun des biens qu’il souhaite consommer. Le producteur, quant à lui, optimise sa production en comparant le bénéfice récupéré par la vente d’une unité supplémentaire du bien produit et le coût marginal de cette même unité supplémentaire de bien produit (raisonnement marginal).\nIl poursuit sa production jusqu’à ce que la fabrication d’une unité supplémentaire engendre un coût marginal égal à sa recette marginale obtenue par celle-ci.\nNotions : Les préférences et choix économiques. Les coûts d’opportunité. Préférences individuelles. La rationalité et l’utilité individuelles. La maximisation et le raisonnement « à la marge ». La rareté, la valeur, l’utilité marginale. La production, les ressources et les facteurs de production. Égalisation entre coût marginal et recette marginale.\nCapacité attendue : l'élève est capable de décrire concepts et principes fondamentaux du raisonnement économique (coût d’opportunité, utilité, rationalité, préférences, maximisation) pour décrire des choix économiques.\nCapacité attendue : l'élève est capable d’analyser ce que l’on entend par rationalité individuelle.\nCapacité attendue : l'élève est capable d’expliciter d’utilité marginale la notion.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Les investissements directs à l’étranger (IDE) de la France.",
+    "texte": "Flux entrants et flux sortants (en millions de $US)\n120000\n100000\n80000\n60000\n40000\n20000\n2012\n2013\n2014\n2015\nFlux entrants\n2016\n2017\n2018\n2019\n2020\nFlux sortants\nSource : OCDE (Organisation de coopération et de développement économiques),\n2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 6 : Les firmes françaises dans les chaînes de valeurs mondiales.",
+    "texte": "La mondialisation a provoqué une fragmentation des chaînes de valeur. Cela signifie\nque les diverses opérations de conception, de logistique, de production et de services\nnécessaires à la fabrication d'un produit final peuvent être réparties à travers un grand\nnombre de pays. Approximativement 70 % des échanges internationaux actuels\nreposent en fait sur les chaînes de valeur mondiales (CVM), et correspondent à des\nflux de services, de matières premières, de pièces détachées et de composants qui\ntraversent les frontières – souvent à de nombreuses reprises. Ils sont intégrés en bout\nde chaîne dans des produits finaux, qui sont ensuite expédiés aux consommateurs du\nmonde entier.\nXerfi canal : Quelles conséquences ont eu pour les entreprises françaises,\nl’allongement et la complexification des chaînes de valeurs mondiales ?\nSylvie Montout : […] Pour la France, la part des biens intermédiaires dans les\nexportations est de l’ordre de 48%. C’est le même taux en Allemagne. […]. Cela s’est\ntraduit par un flux croisé de commerce (importations et exportations) et\nd’investissement. […] On a une augmentation des exportations et aussi des\nimportations dans certains secteurs. Cela peut se refléter également dans les déficits\net les excédents dans certains secteurs. […]\nXerfi Canal : Est-il positif pour les entreprises d’être fortement engagées dans ces\nchaînes de valeur mondiales ?\nSylvie Montout : […] les entreprises des secteurs qui sont les plus engagés dans les\nchaînes de valeurs, sont également celles qui exportent le plus. […] Le secteur le plus\nengagé en France dans la chaîne de valeurs mondiales, dans la division internationale\ndu travail connaît un taux moyen à l’exportation 6 fois supérieur au secteur le moins\nengagé.\nXerfi Canal : L’OCDE* dit que [l’intégration aux chaînes de valeurs mondiales] est\nparticulièrement importante pour les PME.\nSylvie Montout : Oui, l’OCDE insiste beaucoup sur l’opportunité que représente\nl’intégration dans les chaînes de valeur mondiales pour les TPE et les PME. […] La\npremière raison est que l’intégration dans la chaîne de valeurs mondiales permet à\nces entreprises d’accroître ces opportunités, de stabiliser les […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+    "texte": "Lorsque des pays en développement s'efforcent d'entrer dans les CVM ou d'y\nparticiper, des pressions peuvent s'exercer en faveur d'une progression le long de la\nchaîne de valeur, vers des activités à plus forte valeur ajoutée. Or, les fruits d'une\nparticipation aux CVM peuvent être récoltés à n'importe quel maillon de la chaîne de\nvaleur : ce qui compte pour une économie, c'est de renforcer les activités qui\nconstituent ses points forts. Autrement dit, les pays qui deviennent efficients au stade\nde l'assemblage ou de la production peuvent, en devenant des fournisseurs compétitifs\nau niveau mondial pour ces activités, créer une valeur totale plus importante qu'ils ne\nle pourront en réalisant des activités à plus haute valeur ajoutée pour lesquelles ils\nsont moins compétitifs. En dernière analyse, ce qui importe véritablement, c'est la\nvaleur totale que peuvent créer les activités économiques considérées au sein de la\nchaîne de valeur.\nPar conséquent, les pouvoirs publics devraient se focaliser sur la valeur totale que\ncréent les entreprises, et non sur la part de la valeur ajoutée qui est créée localement.\nAu Viêt Nam, par exemple, la part de la valeur ajoutée locale dans les exportations a\nreculé de 64 % à 53 % entre 2005 et 2016, mais dans le même temps, le total des\nexportations de valeur ajoutée locale a été multiplié par 4. Le pays a donc globalement\naccru ses gains et ses exportations.\nSource : OCDE, Documents de travail de l'OCDE sur la politique commerciale, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2023-la-reunion",
+    "titre": "ANNEXE 4 - Le renchérissement des prix de l’énergie entraîne des",
+    "texte": "comportements d’ajustement\nLa transmission de la hausse des prix de l’énergie […], se matérialise\nprogressivement, au fur et à mesure que le renchérissement de l’énergie se propage\nau sein du réseau de production. Elle peut être décomposée en plusieurs étapes. Dans\nun premier temps, les entreprises qui utilisent ces produits énergétiques augmentent\nleurs prix de vente aux ménages et aux autres entreprises de façon à compenser la\nhausse des prix de l’énergie […]. Dans un deuxième temps, les entreprises qui utilisent\nces produits dont le prix augmente répercutent elles aussi ces hausses de coûts sur\nleurs prix de vente. […]\nPar ailleurs, les ménages et les entreprises ont pu reporter une partie de leurs achats\nvers des produits dont le prix augmente moins, ou réduire le volume de leurs dépenses\n(en particulier sur les produits énergétiques), ce qui réduirait [la hausse des prix] totale\ninduite par le renchérissement de l’énergie.\nLes salariés notamment, s’efforcent [aussi] de maintenir la valeur réelle de leurs\nrevenus. Ainsi, la rémunération des facteurs de production, travail et capital, devrait\nréagir à terme à la hausse des prix de façon à préserver, pour chaque acteur, la part\nde la valeur ajoutée lui revenant. En particulier, les hausses de prix sont de nature à\nstimuler les revalorisations salariales, […].\nSource : INSEE, 1er septembre 2022"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM.",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales.",
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM. (Chaînes de valeur mondiale)",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-polynesie",
+    "situation": "À partir de vos connaissances et de la documentation fournie en annexe :",
+    "annexes": [
+     "Annexe 1 : Solde de la balance commerciale française en biens de 1971 à 2018.",
+     "Annexe 2 : Le protectionnisme dans le contexte de mondialisation des chaînes de",
+     "Annexe 3 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 4 : Effet d’une hausse généralisée des droits de douane sur le PIB mondial.",
+     "Annexe 5 : Qu’est-ce que le protectionnisme ?",
+     "Annexe 1 : Solde de la balance commerciale française en biens de 1971 à 2018.",
+     "Annexe 2 : Le protectionnisme dans le contexte de mondialisation des chaînes",
+     "Annexe 3 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 4 : Effets d’une hausse généralisée des droits de douane sur le PIB",
+     "Annexe 5 : Qu’est-ce que le protectionnisme ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution du solde de la balance commerciale en biens de 1971 à 2018.",
+      "points": null,
+      "corrige": "1971 à 2018.\nOn attend du candidat qu’il identifie plusieurs périodes dans l’évolution de la balance\ncommerciale en biens (annexe1) en donnant les valeurs du solde de la balance\ncommerciale, et qu’il interprète ces données économiques. Le verbe directeur\n« commenter » indique que la réponse doit saisir les périodes d’évolution de la\nbalance commerciale en France pour mettre en évidence les changements les plus\nsignificatifs.\nLe solde de la balance commerciale en biens connaît quatre grandes périodes entre\n1971 et 2018 :\n\n\n\nLe solde oscille autour de 0 entre 1971 et 1979.\nLe solde est négatif entre 1979 et 1991, atteignant jusqu’à -14 milliards d’euros\ncourants de déficit, il y a donc un déficit de la balance commerciale en biens,\nles exportations de biens hors de France sont moins élevées que les\nimportations de biens en France sur cette période.\nLe solde est globalement positif de 1992 […]"
+     },
+     {
+      "enonce": "Expliquez le rôle des firmes multinationales dans le processus de mondialisation de la chaîne de valeur.",
+      "points": null,
+      "corrige": "mondialisation de la chaîne de valeur.\nOn attend du candidat qu’il explique le processus de segmentation de la chaine de\nvaleur au niveau international, puis qu’il précise la place des firmes internationales\ndans ce processus. Le candidat doit exploiter les informations de l’annexe 2 ainsi\nque ses connaissances personnelles.\nLes différentes étapes de production d’un bien sont aujourd’hui segmentées au niveau\ninternational. Chaque pays est spécialisé dans un processus de production : la\nconception, l’assemblage ou la recherche et développement, etc.\nLes firmes multinationales sont des entreprises présentes dans plusieurs pays. Ces\nfirmes décomposent la fabrication du produit final en pratiquant l’externalisation ou à\ntravers des investissements directs à l’étranger (IDE), qui sont des prises de\nparticipation dans des entreprises étrangères. Les différents composants d’un produit\nsont […]"
+     },
+     {
+      "enonce": "Décrivez l’évolution des investissements étrangers en France.",
+      "points": null,
+      "corrige": "Le candidat doit être capable de relever les données de l’annexe 5 et d’en\norganiser l’exposé.\n\nHausse de 11% des décisions d’investissements étrangers en France en 2019.\nOn dénombre 40 000 emplois créés ou sauvegardés en France grâce à ces\ninvestissements.\nL’ouverture internationale ainsi que les IDE permettent une diversification\nsectorielle."
+     },
+     {
+      "enonce": "Présentez les risques de la mise en place par les États de mesures protectionnistes.",
+      "points": null,
+      "corrige": "protectionnistes.\n\nOn attend du candidat qu’il repère et expose les informations données dans les\nannexes 2 et 3. L’annexe 4 rappelle au candidat ce que sont les mesures\nprotectionnistes.\nLes mesures protectionnistes peuvent avoir plusieurs effets négatifs :\n\nLes États risquent de mettre en place des mesures de rétorsion (Annexe 2),\nc’est-à-dire qu’ils augmenteront à leur tour les droits de douane. Le commerce\nmondial se contractera. La Banque de France estime qu’une hausse de 10%\ndes droits de douane entraînerait une baisse du PIB mondial comprise entre\n1,5 et 2%. (Annexe 3)\n\n\nL’instauration de droits de douane sur les importations rend les produits\nimportés plus chers. Les producteurs qui utilisent dans leur processus de\nproduction des produits intermédiaires importés (ce qui est le cas des firmes\nmultinationales) subiront donc une augmentation de leurs coûts de production.\nDe plus, […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Le libre-échange est-il favorable à la croissance économique d’un pays ?",
+      "points": null,
+      "corrige": "suivante :\nLe libre-échange est-il favorable à la croissance économique d’un pays ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4)\nont permis de construire des éléments de réponse pour cette question 5. Le corpus\ndocumentaire, apporte également des éléments de réponse au candidat. Ces\néléments ne sont toutefois pas suffisants ; le candidat doit également faire appel à ses\nconnaissances personnelles pour développer son argumentaire.\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre\nd’arguments moins important, mais les développer de façon plus approfondie\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n\nLogique globale de l’argumentation\n\n\nPrésentation d’un point de vue argumenté\n\nArguments et concepts\n- […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E8.1",
+  "type": "exercices",
+  "section": 20,
+  "section_titre": "8.1 Les transformations du commerce mondial",
+  "frequence_passee": 0.28,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Appréciez la situation des investissements directs à l’étranger (IDE) de la France.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du solde de la balance commerciale en biens de 1971 à 2018.",
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : Le développement des firmes multinationales (FMN) constitue-t-il un facteur positif pour la croissance économique française ?",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "8.1 Les transformations du commerce mondial",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "L’ouverture des frontières, la baisse des coûts de transport et de communication, le développement des économies d’échelle ont transformé le commerce mondial. L’internationalisation de la chaîne de valeur des produits se concrétise par une segmentation croissante des processus de production : les entreprises sont aujourd’hui moins spécialisées dans la production d’un bien que dans une étape de sa fabrication.\nIl est important d’estimer la valeur ajoutée dégagée sur chacun des segments. Certains pays n’ont qu’un rôle d’assembleur de ce fait qu’une et ne dégagent d’autres se faible valeur ajoutée du produit final ; positionnent sur des segments à plus forte valeur ajoutée, par exemple dans les secteurs de l’innovation et de la recherche. à l’échelle internationale Cette segmentation se traduit par des importations de biens intermédiaires, qui représentent désormais plus de la moitié des échanges internationaux.\nCes flux au niveau d’un pays sont mesurés par la balance des biens et services. L’un des principaux indicateurs de l’attractivité économique d’un pays est constitué par le niveau des investissements directs à l’étranger (IDE).\nLes IDE sont un élément moteur de la multinationalisation des entreprises. Les principales motivations à l’origine des IDE sont la réduction des coûts et la conquête de nouveaux marchés, difficiles à pénétrer par les seules exportations.\nL’IDE est à l’origine de la création des firmes multinationales (FMN). Si l’effet des IDE est généralement considéré comme positif sur la croissance des pays d’accueil, notamment grâce aux transferts de technologie induits, il est plus discuté sur le commerce international, sur l’emploi dans les pays investisseurs, sur les conditions de travail dans les pays d’accueil et sur l’environnement.\nNotions : Les importations et les exportations de biens et services. La segmentation. Les produits intermédiaires, les produits finis. La balance des biens et des services Les investissements directs à l’étranger (IDE) Les firmes multinationales (FMN)\nCapacité attendue : l'élève est capable d’expliquer.\nCapacité attendue : l'élève est capable de décrire et le développement des échanges de biens et services entre pays.\nCapacité attendue : l'élève est capable l’évolution du solde d’une balance des biens et services.\nCapacité attendue : l'élève est capable d’interpréter.\nCapacité attendue : l'élève est capable de décrire les processus de mondialisation de la chaîne de valeur ajoutée pour un produit, en distinguant les phases d’élaboration des segments de produits et les phases d’assemblage.\nCapacité attendue : l'élève est capable de montrer comment la segmentation des processus de production engendre des flux d’importations et d’exportations des pays participant aux échanges.\nCapacité attendue : l'élève est capable les flux d’investissements directs à l’étranger (IDE).\nCapacité attendue : l'élève est capable la place des firmes multinationales dans les échanges internationaux.\nCapacité attendue : l'élève est capable d’apprécier.\nCapacité attendue : l'élève est capable d’expliquer.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-metro-cand-libre",
+    "titre": "Annexe 2 : Les investissements directs à l’étranger (IDE) de la France.",
+    "texte": "Flux entrants et flux sortants (en millions de $US)\n120000\n100000\n80000\n60000\n40000\n20000\n2012\n2013\n2014\n2015\nFlux entrants\n2016\n2017\n2018\n2019\n2020\nFlux sortants\nSource : OCDE (Organisation de coopération et de développement économiques),\n2020"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-metropole",
+    "titre": "Annexe 2 : Les FMN et les Investissements Directs à l’Étranger.",
+    "texte": "Dans un monde de plus en plus globalisé, où les barrières politiques, économiques et\ntechnologiques disparaissent rapidement, la capacité d’un pays à participer à une\nactivité mondiale constitue un indicateur important de sa performance et de sa\ncompétitivité. […], les relations commerciales vont de nos jours bien au-delà des\néchanges internationaux traditionnels de biens et services, […]. Les Investissements\nDirects à l’Étranger (1) peuvent être considérés comme une stratégie, adoptée par les\nentreprises souhaitant établir une nouvelle usine, de nouveaux bureaux ou acheter les\nactifs existants d’une entreprise étrangère. Ces entreprises cherchent à compléter ou\nà remplacer les échanges extérieurs en produisant (et souvent en vendant) des biens\net services dans des pays autres que celui où elles étaient initialement établies.\n(1) IDE : Investissement d’une entreprise résidente dans un pays étranger afin d’acquérir une\nentreprise existante ou de créer une nouvelle entreprise\nSource : europa.eu/ eurostat – 2017"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM.",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales.",
+     "Annexe 1 : Qu’est-ce qu’une chaîne de valeur mondiale (CVM) ?",
+     "Annexe 2 : Les échanges liés aux CVM. (Chaînes de valeur mondiale)",
+     "Annexe 3 : La facilitation des échanges au service des consommateurs.",
+     "Annexe 4 : Les bénéfices pour un pays de participer aux chaînes de valeur.",
+     "Annexe 5 : L’ouverture commerciale.",
+     "Annexe 6 : Comprendre les chaînes de valeur mondiales"
+    ],
+    "questions": [
+     {
+      "enonce": "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM).",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C8.2",
+  "type": "cas",
+  "section": 21,
+  "section_titre": "8.2 Des politiques commerciales divergentes",
+  "partenaire": 19,
+  "partenaire_titre": "7.3 Politiques de l’emploi",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "proba_annee_suivante": 0.092,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les sources des inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les sources des inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les sources des inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les sources des inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "8.2 Des politiques commerciales divergentes",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "Le commerce international a de nombreux effets : des gains en termes de baisse de prix, une réduction des inégalités entre pays, l’accroissement des inégalités de revenus au sein de chaque pays. Les pays peuvent mettre en œuvre des politiques d’ouverture aux échanges ou au contraire de plus grand contrôle de ceux-ci : - ils facilitent les échanges en éliminant ou en réduisant les droits d’importation ou d’exportation, en simplifiant les réglementations ou les procédures douanières, en éliminant de manière temporaire ou permanente des taxes à l’importation ou à l’exportation et en éliminant les restrictions quantitatives à l’importation et à l’exportation ; - ils restreignent le commerce en imposant de nouveaux droits d’importation ou d’exportation, en augmentant des droits existants, en mettant en place des interdictions ou des restrictions quantitatives à l’importation, en établissant des règles ou des procédures douanières plus complexes ou plus strictes, en appliquant des prescriptions relatives à la teneur en éléments locaux.\nCes mesures peuvent être temporaires ou permanentes.\nNotions : Les droits de douane. Les restrictions quantitatives à l’importation (barrières non tarifaires).\nCapacité attendue : l'élève est capable ou d’une économie en.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "7.3 Politiques de l’emploi",
+   "theme": "Thème 7 : Quelle est l’influence de l’État sur l’évolution de l’emploi et du",
+   "texte": "Pour lutter contre le chômage structurel, deux types de politique de l’emploi sont mis en œuvre : les politiques actives de l’emploi visent à améliorer le fonctionnement du marché du travail ; les politiques passives de l’emploi ciblent la réduction des conséquences négatives du chômage sur la population, comme l’avancement de l’âge de la retraite ou le développement des aides sociales pour les personnes durablement exclues du marché du travail. Face à un chômage conjoncturel, un État peut s’engager dans des politiques de relance de la demande en augmentant, par exemple, les dépenses publiques ou en assouplissant la politique monétaire (baisse des taux d’intérêt, développement du crédit).\nSi cet État est dans la zone Euro, sa politique monétaire est dévolue à la Banque centrale européenne, dont le premier objectif est la stabilité des prix ; la politique budgétaire fait l’objet d’une surveillance permanente.\nNotions : Les politiques actives et les politiques passives de lutte contre le chômage.\nCapacité attendue : l'élève est capable d’identifier du marché du travail.\nCapacité attendue : l'élève est capable d’identifier et de les catégoriser en politiques actives ou politiques passives.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Effets d’une hausse généralisée des droits de douane sur le PIB",
+    "texte": "mondial.\nCommentaire : Un relèvement généralisé de 10 points de pourcentage des droits de\ndouane à l’importation pourrait réduire le PIB mondial. En outre, une baisse de la\nproductivité, une hausse du coût de financement du capital et une plus faible demande\nd’investissement viendraient augmenter le coût du protectionnisme.\nSource : Banque de France, « Quel serait le coût d’une guerre commerciale\nmondiale ? » Août 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 4 – Les droits de douane et leurs conséquences.",
+    "texte": "La Commission européenne (CE) a annoncé qu’elle imposerait des droits de\ndouane provisoires de 17,4 % à 38,1 %\nsur les importations de véhicules électriques à batterie sauf si un accord est conclu avec la Chine. Ce n’était qu’une question de temps avant que cette décision soit\nprise. Bien que l’importation de véhicules\nélectriques chinois bon marché accélérerait la transition climatique et augmenterait\nle pouvoir d’achat des Européens, une importation massive frapperait l’Europe dans\nson cœur industriel.\nLe chiffre d’affaires généré par l’industrie\nautomobile représente plus de 7 % du PIB\ntotal de l’Union européenne (UE), tandis\nque l’emploi direct et indirect dans ce secteur représente 6,1 % de l’emploi total. La\nCE aurait pu attendre que les premiers licenciements économiques dans l’industrie automobile française et allemande\nsoient annoncés. Elle a choisi d’anticiper.\nLa guerre commerciale à laquelle se livrent la Chine et les États-Unis est en réalité une guerre pour la domination future.\nEn Europe, c’est le modèle commercial\ndes dernières décennies – la technologie\noccidentale en échange d’un immense\nmarché chinois – qui est en danger, maintenant que la Chine entre sur le marché\neuropéen avec ses propres produits. […]\nL’UE et la Chine sont pour le moment à\npeine en train de s’échauffer dans la\nguerre qui vient. La réaction de la Chine\nface à ces barrières sera double. Tout\nd’abord, l’imposition de droits de douane\nencouragera plus encore les entreprises\nchinoises à construire des usines à l’étranger.\nLes entreprises chinoises de batteries, par\nexemple, prévoient d’intensifier leurs investissements dans plusieurs pays, y\ncompris en Europe et aux États-Unis.\nL’endroit où elles réalisent les plus gros investissements, c’est la Hongrie, qui devrait devenir le deuxième producteur mondial de batteries cette année, derrière la\nChine. Ce type de réaction n’est pas anormal. […]\nLa réaction de la Chine se manifestera\négalement d’une deuxième façon. La\nChine a perdu des parts de marché aux\nÉtats-Unis depuis que Donald Trump, président des États-Unis de 2017 à 2021 (réélu en novembre 2024), a augmenté les\ndroits de douane à l’importation, mais\ncette perte a été plus […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 4 : La mise en place de l’accord de partenariat économique Union",
+    "texte": "européenne-Japon.\nL'accord de partenariat économique Union européenne-Japon est entré en vigueur le\n1er février 2019\nIl s’agit de l’accord de partenariat économique le plus ambitieux conclu par l’Union\neuropéenne (UE) avec un pays tiers. Il donne naissance à une zone de libreéchange dont la richesse produite s’élève à près d’un quart du PIB mondial.\nLes droits de douane sont supprimés pour environ 90 % des produits de l’UE\nexportés vers le Japon dès l’entrée en vigueur de l’accord. Pour les autres produits,\nl’élimination des droits de douane se fera de manière progressive, suivant un\néchelonnement jusqu’à 20 ans pour le Japon et 16 ans pour l’UE. À terme, l’accord\néliminera 97 % des droits de douane pour les marchandises exportées vers le Japon\n(des droits subsisteront sur certains produits agricoles, comme le riz). […]\nLes producteurs [européens] bénéficieront de la suppression des droits de douane\nsur près de 85 % des produits agricoles exportés depuis l’UE vers le Japon […].\nL’abaissement des droits de douane dans ce secteur renforcera donc la compétitivité\ndes sociétés [européennes] qui faisaient face, jusqu’à présent, à des droits de\ndouane élevés (15 % pour le vin, 38 % pour la viande bovine et 30 % pour le\nfromage).\nSource : douane.gouv.fr, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 1 : La politique monétaire de la BCE.",
+    "texte": "La politique monétaire est l'ensemble des moyens mis en œuvre par une banque\ncentrale pour agir sur l'activité économique par la régulation de sa monnaie. Cela\npasse donc par la définition d'un ou plusieurs objectifs et par celle des instruments qui\npermettront de les atteindre.\nDans le cas de la Banque centrale européenne (BCE), l'objectif est celui de la stabilité\ndes prix à la consommation. La BCE a défini cet objectif à 2% (plus précisément audessous mais proche de 2%). La stabilité des prix est définie non pas comme un taux\nd'inflation à 0% mais à 2% car il y a forcément des ajustements de prix au sein de\nl'économie.\nLa crise de 2007 subie par la zone euro a été telle que l'effet de la politique monétaire\ntelle qu'elle était définie avant la crise n'était plus suffisant pour retrouver le chemin de\nla croissance. Aujourd'hui, la BCE a réduit ses taux d'intérêt qui sont même devenus\nnégatifs. Cela a permis aux États de financer leur déficit et leur dette et ainsi de mettre\nen œuvre leur politique budgétaire de relance. Pour les entreprises et les ménages,\ncela a permis de relancer les emprunts, et ainsi la consommation et les\ninvestissements. Malgré cela, la croissance économique ne parvient plus à atteindre\nles niveaux qu’elle avait avant la crise.\nSource : « Présentation de la politique monétaire », Banque de France,\nmis à jour le 19 mars 2019."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-polynesie-remplacement",
+    "titre": "Annexe 3 : Une banque centrale pour plusieurs États dans la zone euro.",
+    "texte": "Dans la zone euro, la politique monétaire est déterminée et mise en œuvre par la BCE\nseule, alors que les États membres conservent le contrôle presque entier de leur\npolitique budgétaire. De fait, il est très difficile pour la banque centrale d’avoir une\npolitique monétaire en adéquation avec les objectifs de chaque État. Le taux d’intérêt\ndirecteur fixé par la BCE peut se retrouver à un niveau satisfaisant pour certains États\nmais pas pour d’autres. Les différents États doivent donc soutenir leur activité\nuniquement par des politiques budgétaires. Certains États en sont même à espérer\nque l'activité nationale sera soutenue par les politiques budgétaires de relance des\npartenaires commerciaux.\nSource : Senat.fr"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en 2020.",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu disponible)",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du Covid19.",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?",
+     "Annexe 1 : Données utiles pour calculer la propension moyenne à épargner en",
+     "Annexe 2 : Croissance du PIB (en %) et taux d’épargne (en % du revenu",
+     "Annexe 3 : Le label Relance pour utiliser l’épargne générée pendant la crise du",
+     "Annexe 4 : Pourquoi les ménages épargnent-ils ?",
+     "Annexe 5 : Bilan record des investissements étrangers en France en 2019.",
+     "Annexe 6 : Une réserve d’épargne contrainte à dépenser ?"
+    ],
+    "questions": [
+     {
+      "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Identifiez l’impact de la crise sanitaire sur le taux d’épargne et la croissance du PIB.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rappelez les différentes causes d’épargne d’un ménage.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France.",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "E8.2",
+  "type": "exercices",
+  "section": 21,
+  "section_titre": "8.2 Des politiques commerciales divergentes",
+  "frequence_passee": 0.14,
+  "inedit": false,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Identifiez les sources des inégalités de revenus.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 0,
+    "nom": "une / suivante / suivante colon / une argumentation",
+    "exemples_reels": [
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante :",
+     "Rédigez une argumentation qui vous permette de répondre à la question suivante : La concurrence permet-elle d’améliorer la satisfaction du consommateur ?"
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 2,
+    "nom": "x evolution x / evolution / x evolution / evolution x",
+    "exemples_reels": [
+     "Commentez l’évolution du taux de chômage en France entre 2003 et 2023.",
+     "Commentez l’évolution du taux de chômage en France selon le diplôme entre 2000 et 2023.",
+     "Commentez l'évolution du taux de chômage en France métropolitaine entre 2006 et 2021."
+    ],
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   }
+  ],
+  "cours": {
+   "section": "8.2 Des politiques commerciales divergentes",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "Le commerce international a de nombreux effets : des gains en termes de baisse de prix, une réduction des inégalités entre pays, l’accroissement des inégalités de revenus au sein de chaque pays. Les pays peuvent mettre en œuvre des politiques d’ouverture aux échanges ou au contraire de plus grand contrôle de ceux-ci : - ils facilitent les échanges en éliminant ou en réduisant les droits d’importation ou d’exportation, en simplifiant les réglementations ou les procédures douanières, en éliminant de manière temporaire ou permanente des taxes à l’importation ou à l’exportation et en éliminant les restrictions quantitatives à l’importation et à l’exportation ; - ils restreignent le commerce en imposant de nouveaux droits d’importation ou d’exportation, en augmentant des droits existants, en mettant en place des interdictions ou des restrictions quantitatives à l’importation, en établissant des règles ou des procédures douanières plus complexes ou plus strictes, en appliquant des prescriptions relatives à la teneur en éléments locaux.\nCes mesures peuvent être temporaires ou permanentes.\nNotions : Les droits de douane. Les restrictions quantitatives à l’importation (barrières non tarifaires).\nCapacité attendue : l'élève est capable ou d’une économie en.",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Effets d’une hausse généralisée des droits de douane sur le PIB",
+    "texte": "mondial.\nCommentaire : Un relèvement généralisé de 10 points de pourcentage des droits de\ndouane à l’importation pourrait réduire le PIB mondial. En outre, une baisse de la\nproductivité, une hausse du coût de financement du capital et une plus faible demande\nd’investissement viendraient augmenter le coût du protectionnisme.\nSource : Banque de France, « Quel serait le coût d’une guerre commerciale\nmondiale ? » Août 2018"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 4 – Les droits de douane et leurs conséquences.",
+    "texte": "La Commission européenne (CE) a annoncé qu’elle imposerait des droits de\ndouane provisoires de 17,4 % à 38,1 %\nsur les importations de véhicules électriques à batterie sauf si un accord est conclu avec la Chine. Ce n’était qu’une question de temps avant que cette décision soit\nprise. Bien que l’importation de véhicules\nélectriques chinois bon marché accélérerait la transition climatique et augmenterait\nle pouvoir d’achat des Européens, une importation massive frapperait l’Europe dans\nson cœur industriel.\nLe chiffre d’affaires généré par l’industrie\nautomobile représente plus de 7 % du PIB\ntotal de l’Union européenne (UE), tandis\nque l’emploi direct et indirect dans ce secteur représente 6,1 % de l’emploi total. La\nCE aurait pu attendre que les premiers licenciements économiques dans l’industrie automobile française et allemande\nsoient annoncés. Elle a choisi d’anticiper.\nLa guerre commerciale à laquelle se livrent la Chine et les États-Unis est en réalité une guerre pour la domination future.\nEn Europe, c’est le modèle commercial\ndes dernières décennies – la technologie\noccidentale en échange d’un immense\nmarché chinois – qui est en danger, maintenant que la Chine entre sur le marché\neuropéen avec ses propres produits. […]\nL’UE et la Chine sont pour le moment à\npeine en train de s’échauffer dans la\nguerre qui vient. La réaction de la Chine\nface à ces barrières sera double. Tout\nd’abord, l’imposition de droits de douane\nencouragera plus encore les entreprises\nchinoises à construire des usines à l’étranger.\nLes entreprises chinoises de batteries, par\nexemple, prévoient d’intensifier leurs investissements dans plusieurs pays, y\ncompris en Europe et aux États-Unis.\nL’endroit où elles réalisent les plus gros investissements, c’est la Hongrie, qui devrait devenir le deuxième producteur mondial de batteries cette année, derrière la\nChine. Ce type de réaction n’est pas anormal. […]\nLa réaction de la Chine se manifestera\négalement d’une deuxième façon. La\nChine a perdu des parts de marché aux\nÉtats-Unis depuis que Donald Trump, président des États-Unis de 2017 à 2021 (réélu en novembre 2024), a augmenté les\ndroits de douane à l’importation, mais\ncette perte a été plus […]"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2022-metropole",
+    "situation": "À partir de vos connaissances et/ou de la documentation fournie en annexes :",
+    "annexes": [
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là.",
+     "Annexe 1 : Les taux d’emploi par âge en France (hors Mayotte).",
+     "Annexe 2 : Le chômage partiel, outil crucial en temps de crise.",
+     "Annexe 3 : La présentation du plan de relance.",
+     "Annexe 4 : Les effets des politiques de l’emploi.",
+     "Annexe 5 : Les dépenses ciblées pour les politiques du marché du travail.",
+     "Annexe 6 : Le taux de chômage baisse mais la crise de l'emploi est bien là."
+    ],
+    "questions": [
+     {
+      "enonce": "Distinguez le taux de chômage et le taux d’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer si le candidat est capable d’expliquer les deux notions.\nIl est attendu du candidat qu’il démontre sa connaissance du calcul du taux de\nchômage (capacité du programme) et du taux d’emploi.\nConnaissances et annexe 6\nLe taux de chômage correspond au pourcentage de chômeurs dans la population\nactive. (Rapport entre le nombre de chômeurs et le nombre d’actifs). Le taux d’emploi\nest le rapport entre le nombre d’individus d’une classe d’âge ayant un emploi et le\nnombre d’individus de cette classe d’âge.\nLe taux de chômage ne mesure pas la totalité du sous-emploi, alors que le taux\nd’emploi le met en évidence."
+     },
+     {
+      "enonce": "Comparez les taux d’emploi des différentes catégories d’âge en France entre 2003 et 2019",
+      "points": 1.0,
+      "corrige": "2003 et 2019. (1 point)\nCette question vise à évaluer la capacité du candidat à comprendre et à interpréter\nl’évolution des taux d’emploi en France selon les tranches d’âge (annexe 1).\nSur toute la période étudiée c’est-à-dire de 2003 à 2019, le taux d’emploi de la tranche\nd’âge 15-24 ans est bien inférieur aux taux d’emploi des tranches de 25-49 ans (qui\nest la catégorie ayant toujours le taux d’emploi le plus élevé) et 50-64 ans.\nSur la période de 2003 à 2019, le taux d’emploi des 15-24 ans est relativement stable,\nautour de 30%.\n\n\n\nDe même, pour les 25-49 ans, le taux d’emploi est également stable sur la même\npériode.\nEn revanche, pour les 50-64 ans, le taux d’emploi augmente de 10 points entre 2003\net 2019."
+     },
+     {
+      "enonce": "Identifiez les mesures de politiques économiques relatives à l’emploi.",
+      "points": 1.0,
+      "corrige": "Cette question vise à évaluer la capacité du candidat à identifier des informations\npertinentes dans un document et qu’il les mobilise pour répondre à la question posée.\nIl est attendu du candidat une exploitation des annexes 2, 3, 4 et 5.\nIl n’est pas attendu du candidat qu’il relève toutes les mesures présentées dans les\nannexes.\nLe tableau ci-dessous n’est pas exigé des candidats, il reste un repère indicatif\npour faciliter la correction.\n\nIdentification de mesure\nAnnexe 2\n\n« Les dispositifs de chômage partiel indemnisant les salariés en cas de\nréduction temporaire de la durée du travail. »\n\nAnnexe 3\n\n« Plan de relance » ; « 470 milliards d’euros ont été mis sur la table\npour soutenir les entreprises et pour protéger les salariés »\n\nAnnexes 4 et 6\n\n« Les mesures ciblées d’emplois aidés »\n\nAnnexe 4\n\n« Les baisses des cotisations sociales sur les bas salaires »\n\n\n« Formation […]"
+     },
+     {
+      "enonce": "Déterminez à quelles politiques d’emploi appartiennent les mesures mises en place par l’État français en 2020.",
+      "points": 2.0,
+      "corrige": "place par l’État français en 2020. (2 points)\nLa question vise à évaluer la capacité du candidat catégoriser en politiques active et\npassive les politiques d’emploi identifiées dans la question précédente. Cette question\nfait appel aux connaissances du candidat.\nLes politiques de l’emploi correspondent à l’ensemble des interventions publiques\nvisant :\n- à améliorer le fonctionnement du marché du travail, il s’agit des politiques\nactives de l’emploi comme par exemple les stages de formation, le contrat de\nsoutien et d’aide par le travail, aides à la création d’entreprises, les stages de\nformation financés par les Régions… Les dispositions ont pour objectif\nd’accroître les possibilités d’emplois des demandeurs et d’améliorer\nl’adéquation entre l’offre et la demande avec la finalité d’une réduction du\nchômage pour tendre vers le plein emploi ;\n- à réduire les conséquences négatives du […]"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "C8.3",
+  "type": "cas",
+  "section": 22,
+  "section_titre": "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux",
+  "partenaire": 8,
+  "partenaire_titre": "3.3 La structure de consommation des ménages",
+  "frequence_passee": 0.17,
+  "inedit": false,
+  "proba_annee_suivante": 0.134,
+  "questions": [
+   {
+    "slot": 1,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 2,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 3,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 2,
+    "longueur_reponse_car": [
+     736,
+     2372
+    ],
+    "longueur_cible_car": 1650
+   },
+   {
+    "slot": 4,
+    "facette": 1,
+    "nom": "les / les x / presentez / expliquez",
+    "exemples_reels": [
+     "Montrez comment l’État cherche à lutter contre les conséquences économiques de la crise sanitaire.",
+     "Repérez les grandes évolutions des prix causées par la politique de concurrence sur le marché des services mobiles en France.",
+     "Identifiez à quels types de politiques de l’emploi appartiennent les mesures prises par l’État en matière de lutte contre le chômage."
+    ],
+    "operation_mentale": {
+     "operation": 1,
+     "fort": [
+      "largeur_du_cours"
+     ],
+     "faible": [
+      "forme_interrogative",
+      "appui_sur_le_cours"
+     ]
+    },
+    "points": 3,
+    "longueur_reponse_car": [
+     1104,
+     3558
+    ],
+    "longueur_cible_car": 2475
+   }
+  ],
+  "nb_annexes": 11,
+  "cours": {
+   "section": "8.3 Une organisation mondiale pour gérer les différends entre États dans les échanges internationaux",
+   "theme": "Thème 8 : Comment organiser le commerce international dans un",
+   "texte": "Les éventuelles conséquences négatives du protectionnisme adopté par certains États ont poussé la communauté internationale à promouvoir une régulation mondiale des échanges de biens et de services. Celle-ci est aujourd’hui mise en œuvre par l’Organisation mondiale du commerce (OMC).\nDans le cadre de cycles de négociations réguliers (Rounds), des règles du commerce mondial sont négociées entre pays (clause de la nation la plus favorisée (NPF), principe du traitement national, principe de réciprocité). Une juridiction spécialisée, l’Organe de règlement des différends (ORD), permet de traiter les litiges éventuels.\nL’OMC cherche à étendre les règles du libre- échange à de nouveaux domaines et à lutter contre les nouvelles mesures protectionnistes.\nNotions : Les missions de l’OMC. Les cycles de négociations d’abaissement des tarifs douaniers et des barrières non tarifaires. L’organe de règlement des différends.\nCapacité attendue : l'élève est capable d’illustrer l’importance de la régionalisation des échanges commerciaux.\nCapacité attendue : l'élève est capable de décrire et.\nCapacité attendue : l'élève est capable d’interpréter entre pays.\nCapacité attendue : l'élève est capable de décrire les avantages et les limites du libre-échange et / autarcie.\nCapacité attendue : l'élève est capable de définir et les différentes mesures protectionnistes.\nCapacité attendue : l'élève est capable les missions de l’OMC.\nCapacité attendue : l'élève est capable de définir (l’organe de règlement des différends).\nCapacité attendue : l'élève est capable d’interpréter les principales règles de fonctionnement de l’OMC.\nCapacité attendue : l'élève est capable de définir et.",
+   "articles": []
+  },
+  "cours_partenaire": {
+   "section": "3.3 La structure de consommation des ménages",
+   "theme": "Thème 3 : Comment les ménages décident-ils d’affecter leur revenu ?",
+   "texte": "Les coefficients budgétaires permettent d’appréhender la structure de consommation des ménages. En valeur sur les cinquante dernières années, ils ont fortement évolué.\nLa part de l’alimentation baisse au profit des dépenses de transport, de logement, de santé, des dépenses de loisirs et de services. En volume cependant, les structures sont plus stables.\nLa part des services dans la structure de consommation augmente notamment parce que son prix relatif par rapport aux produits industriels augmente fortement.\nNotions : La composition des dépenses des ménages. Les coefficients budgétaires. Les prix relatifs comparés des biens et services.\nCapacité attendue : l'élève est capable d’analyser l’évolution de la structure de consommation des ménages (en valeur et en volume).",
+   "articles": []
+  },
+  "documents_reels": [
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 5 : L’intérêt d’avoir recours au libre-échange.",
+    "texte": "En tirant parti de la libéralisation du commerce pour se connecter aux marchés, les\npays peuvent accroître la taille de leurs marchés et accéder aux [matières premières]\nnécessaires à la production. […] Pour ce qui est de l’avenir, la plus grande priorité\ndevrait être d’approfondir les règles et engagements commerciaux traditionnels.\nJusqu’à présent, la coopération internationale a entraîné une ouverture inégale en\nmatière de biens et de services. La libéralisation du commerce n’a que trop tardé\ndans l’agriculture et les services, et certains biens industriels restent limités sur\ncertains marchés ainsi que par des mesures non tarifaires. […]\nSource : Rapport sur le développement dans le monde 2020, Banque mondiale,\n08/10/2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "titre": "Annexe 3 : Un retour du protectionnisme ?",
+    "texte": "Bien que le commerce mondial ait enregistré un regain en 2017, l’ombre du\nprotectionnisme plane fortement sur lui. […] Washington a en effet annoncé, le 1er\njuin 2018, l’application de taxes douanières supplémentaires sur l’acier (25 %) et\nl’aluminium (10 %) en provenance de l’Union européenne (mais aussi du Canada et\ndu Mexique). En représailles, l’Union européenne a décidé de taxer à son tour 180\nproduits importés des États-Unis en Europe […]. On peut donc redouter une\nescalade des mesures protectionnistes qui risque de plomber davantage les\néchanges multilatéraux au profit d’échanges internes à des zones d’entente\nrégionale […]. Plus généralement, les pays du Groupe des Vingt (G20), qui sont les\nprincipaux moteurs du commerce mondial, ont pris depuis le début de la crise plus de\n3 500 mesures ayant un impact négatif sur les échanges internationaux […].\nIl s’agit de mesures qui influent directement sur le volume des échanges – par\nexemple, l’instauration de quotas ou la hausse des tarifs douaniers sur certains\nproduits – ou de mesures plus indirectes comme la mise en place de subventions\nfavorisant certains exportateurs au détriment d’autres.\nSource : Jennifer Matas, Cahiers français n° 407, novembre - décembre 2018."
+   },
+   {
+    "source": "stmg-spe-droit-economie-2025-metropole",
+    "titre": "Annexe 2 – Les pays en développement et le libre-échange.",
+    "texte": "La Banque mondiale aide les pays en développement à améliorer leur accès aux marchés\nmondiaux et à renforcer leur participation au système commercial mondial. Le commerce\nextérieur est un moteur de la croissance : il crée des emplois de meilleure qualité, réduit la\npauvreté et ouvre des perspectives économiques. Selon des études récentes, la\nlibéralisation des échanges accroît la croissance économique de 1,0 à 1,5 point de\npourcentage en moyenne, ce qui se traduit par une augmentation des revenus de 10 à 20 %\naprès une décennie.\nDepuis 1990, le commerce a fait progresser les revenus de 24 % au niveau mondial, et de\n50 % pour les 40 % les plus pauvres de la population. Plus d'un milliard de personnes sont\nainsi sorties de la pauvreté grâce à une croissance économique soutenue par de meilleures\npratiques commerciales.\nLe commerce est également associé à une plus grande participation des femmes au marché\ndu travail formel, qui se caractérise par des salaires plus élevés. Dans les pays en\ndéveloppement, les entreprises exportatrices emploient davantage de femmes que celles\nqui ne sont pas tournées vers l’exportation […]. La promotion de la coopération par le biais\ndes échanges et des affaires est également essentielle pour aider les pays à échapper aux\nconflits.\nLes pays en développement se heurtent fréquemment à des obstacles qui entravent leur\naccès aux marchés mondiaux : pratiques anticoncurrentielles, réglementations pesant sur\nl’investissement et la croissance des entreprises, infrastructures inadaptées (installations\nportuaires, réseau routier, etc.).\nMême les pays qui appliquent une politique commerciale libérale et transparente\nrencontrent des difficultés si leurs marchés ne sont pas suffisamment intégrés. En outre,\nbon nombre des personnes les plus pauvres de la planète vivent dans des régions\nEN_MOzIzNT7QzNjAc0ND9UzMsTYxMj8A2NTAAwMTdY5NTTgx\nenclavées, isolées ou sans voie d’accès aux échanges internationaux. La Banque mondiale\naide ses pays clients à surmonter tous ces obstacles et à tirer pleinement profit des\navantages des marchés mondiaux.\nNéanmoins, force est de constater que tout le monde ne récolte pas les fruits de la\nmondialisation. La réduction […]"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2022-mayotte-liban",
+    "titre": "Annexe 5 : L’ouverture commerciale.",
+    "texte": "Les échanges permettent aux entreprises de s’approvisionner en biens et services\nauprès des sources les plus compétitives en termes de coût et de qualité – quelle que\nsoit leur localisation géographique – et de vendre leurs biens et leurs services aux\nconsommateurs d’un plus grand nombre de marchés, réduisant de ce fait les coûts et\nprix moyens. Pour les consommateurs, les échanges sont synonymes d’un plus large\nchoix et de prix plus bas, en permettant l’accès à des biens et des services non\ndisponibles sur leurs marchés nationaux, ou à des biens à des prix plus compétitifs.\nUne analyse de l’OCDE sur l’impact des chaînes de valeur mondiales sur l’emploi\nconfirme qu’une fraction importante de l’emploi dans les pays de l’OCDE et dans les\ngrandes économies émergentes dépend des échanges. Dans un pays vaste comme\nles États-Unis, environ 10 % de la main-d’œuvre participe à la production de biens et\nde services qui sont consommés à l’étranger ; ce chiffre grimpe à 20 % en France, à\nprès de 30 % en Allemagne et jusqu’à 47 % pour une petite économie comme l’Irlande.\nDe nombreuses études de l’OCDE montrent également que les échanges ont un rôle\nséparé et positif dans l’augmentation du niveau de revenu moyen. Comparées aux\nentreprises qui ne participent pas au commerce international, les sociétés\nexportatrices ont généralement un meilleur niveau de productivité et versent des\nsalaires plus élevés que la moyenne à leurs salariés.\nSource : OCDE, Mettre en place des politiques publiques, 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 4 : Part des dépenses de santé restant à charge des ménages en 2017.",
+    "texte": "DCSi : dépenses courantes de santé.\nPPA : parité pouvoir d’achat.\nNM : Estonie, Lettonie, Lituanie, République Tchèque, Slovaquie, Slovénie, Hongrie, Pologne.\nLecture : En 2017, en Espagne, les ménages ont financé par un paiement direct 24%\nde la dépense courante de santé. Ce qui correspond à 600€ par habitant.\nLes parités pouvoir d’achat permettent de comparer les dépenses de santé en\néliminant les différences de niveau de vie entre les pays. Dans ce graphique, la\nréférence est le pouvoir d’achat pour 1 euro en France.\nSource : OCDE, Les dépenses de santé en 2018, édition 2019"
+   },
+   {
+    "source": "stmg-spe-droit-economie-2021-polynesie",
+    "titre": "Annexe 1 : La consommation des ménages en 2019.",
+    "texte": "En 2019, la dépense totale de consommation des ménages français s’élevait à\n1 668,2 milliards d’euros, soit plus de la moitié du PIB.\nPostes budgétaires\nEn milliards d’euros\nProduits alimentaires et boissons non alcoolisées\n165,6\nBoissons alcoolisées et tabac\n48,2\nHabillement et chaussures\n44,9\nLogement, eau, gaz, électricité\n332,1\nMeubles, articles de ménage et entretien courant de l'habitation\n57,9\nSanté\n50,5\nTransports\n178,8\nCommunications\n29,2\nLoisirs et culture\n100,3\nDivers…\n…\nDépenses de consommation\n1 668,2\nLe premier poste budgétaire des Français est le logement qui représente près du quart\nde la consommation totale. Les transports, la communication, les loisirs et la culture\nreprésentent près de 20% de la consommation totale des Français.\nSource : INSEE, 2020"
+   }
+  ],
+  "anciens_sujets_proches": [
+   {
+    "sujet": "stmg-spe-droit-economie-2021-zero-1",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Croissance du volume du commerce mondial des marchandises et du PIB",
+     "Annexe 2 : La facilitation des échanges.",
+     "Annexe 3 : Les mesures non-tarifaires (MNT).",
+     "Annexe 4 : OMC, redonner du sens au libre-échange.",
+     "Annexe 5 : Trump a perdu la guerre du protectionnisme."
+    ],
+    "questions": [
+     {
+      "enonce": "Analysez l’évolution de la croissance en volume du commerce des marchandises et des PIB mondiaux entre 2012 et 2019.",
+      "points": null,
+      "corrige": "marchandises et le PIB mondiaux entre 2012 et 2019.\n– Cette question vise à évaluer si le candidat est capable d’interpréter des données\néconomiques présentées sous différents supports (textes, tableaux, graphiques…).\n– Le candidat doit bien voir qu’il s’agit de variations des taux de croissance.\n– La variation de ces agrégats est donnée en volume et non en valeur pour éliminer\nl’effet de la variation des prix.\n– On attend également du candidat qu’il soit capable d’identifier la corrélation entre la\ncroissance du volume du commerce des marchandises et la croissance du PIB réel\nmondial, sans forcément identifier une relation cause-effet.\n– Pour répondre à cette question, le candidat pourra s’appuyer principalement sur\nl’annexe 1 ainsi que sur ses connaissances personnelles.\nL’évolution de la croissance du volume de commerce des marchandises et du PIB réel\nmondial permet de constater une […]"
+     },
+     {
+      "enonce": "Caractérisez les bienfaits du libre-échange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- décrire les avantages du libre-échange,\n- d’expliquer le libre-échange au travers ses avantages sans pour autant le définir.\nPour répondre à cette question, le candidat pourra s’appuyer principalement sur les annexes\n1 et 2 ainsi que sur ses connaissances personnelles.\n\nQue les pays soient en développement ou des économies émergentes, ils ont tous la\npossibilité de participer aux chaînes de valeur mondiales. Le libre-échange profite à\ntous les pays. De même, les pays participant à l’échange bénéficient de gains\nmutuels : l’accès à une variété de produits moins onéreux et de meilleure qualité."
+     },
+     {
+      "enonce": "Expliquez les mesures protectionnistes de contrôle des échanges.",
+      "points": null,
+      "corrige": "échanges.\nCette question vise à évaluer si le candidat est capable de :\n- définir et d’expliquer les différentes mesures protectionnistes\n- Pour répondre à cette question, le candidat pourra s’appuyer principalement sur l’annexe 3\nainsi que sur ses connaissances personnelles.\n\nLes mesures de politique protectionniste de contrôle des échanges sont les droits de\ndouane et les restrictions quantitatives à l’importation (barrières non tarifaires).\n Les droits de douane consistent à fixer une taxe, un impôt sur les produits\nimportés.\n Les restrictions quantitatives à l’importation consistent à limiter quantitativement\nl’importation de produits étrangers.\n Les normes qualitatives qui permettent d’instaurer la confiance sur un type\ndéfini de produits et empêchent les autres de pénétrer un marché."
+     },
+     {
+      "enonce": "Présentez les défaillances de marché qui peuvent être générées par le libreéchange.",
+      "points": null,
+      "corrige": "Cette question vise à évaluer si le candidat est capable de :\n- citer et présenter des défaillances de marché.\nPour répondre à cette question, le candidat pourra repérer les défaillances de marchés citées\ndans l’annexe 3 et exposer ses connaissances personnelles.\nOn attend du candidat qu’il présente au moins deux défaillances.\n\nLes marchés comportent certaines défaillances, en l’occurrence des asymétries\nd’information ou les externalités négatives. Les défaillances du fonctionnement\n« naturel » des marchés entraînent une mauvaise allocation des ressources.\n\nL’asymétrie d’information se produit lorsque les deux parties de l’échange ne\ndisposent pas des mêmes informations que l’autre. Le problème est que\nl’information imparfaite peut pousser l’une des parties à faire un choix qu’elle\nn’aurait pas fait si elle avait eu toutes les informations. Il s’agit d’une mauvaise\nallocation des […]"
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Une politique protectionniste peut-elle être favorable à la croissance ?",
+      "points": null,
+      "corrige": "suivante :\nUne politique protectionniste peut-elle être favorable à la croissance ?\nLa question 5 est le lieu de la réponse argumentée. Les questions préalables (1 à 4) ont permis\nde construire des éléments de réponse pour cette question 5. Le corpus documentaire apporte\négalement des éléments de réponse au candidat. Ces éléments ne sont toutefois pas\nsuffisants ; le candidat doit également faire appel à ses connaissances personnelles pour\ndévelopper son argumentaire.\n\nPréconisations concernant l’utilisation du corrigé :\nLe nombre d’arguments est indicatif. Certains candidats ont pu retenir un nombre d’arguments\nmoins important, mais les développer de façon plus approfondie.\n\nGrille d’évaluation :\nConstruction de l’argumentation\n- Cohérence des arguments avec la question posée\n- Logique globale de l’argumentation\n- Présentation d’un point de vue argumenté\nArguments et concepts\n- […]"
+     }
+    ]
+   },
+   {
+    "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+    "situation": "À partir de vos connaissances et des annexes, répondez aux questions\nsuivantes :",
+    "annexes": [
+     "Annexe 1 : Commerce international de l’Union européenne.",
+     "Annexe 2 : Les obstacles au commerce.",
+     "Annexe 3 : Un retour du protectionnisme ?",
+     "Annexe 4 : La mise en place de l’accord de partenariat économique Union",
+     "Annexe 5 : L’intérêt d’avoir recours au libre-échange.",
+     "Annexe 6 : La politique commerciale européenne",
+     "Annexe 7 : Part de chaque zone géographique dans le commerce mondial.",
+     "Annexe 1 : Commerce international de l’Union Européenne.",
+     "Annexe 2 : Les obstacles au commerce.",
+     "Annexe 3 : Un retour du protectionnisme ?",
+     "Annexe 4 : La mise en place de l’accord de partenariat économique Union",
+     "Annexe 5 : L’intérêt d’avoir recours au libre-échange.",
+     "Annexe 6 : La politique commerciale européenne.",
+     "Annexe 7 : Part de chaque zone géographique dans le commerce mondial."
+    ],
+    "questions": [
+     {
+      "enonce": "Commentez l’évolution des relations commerciales de l’Union européenne avec ses principaux partenaires.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Comparez le poids des échanges commerciaux intérieurs à l’Union européenne dans le commerce mondial à celui des autres pôles régionaux.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Repérez les conséquences des pratiques protectionnistes menées par les partenaires de l’Union européenne.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Présentez les avantages que promet l’accord commercial entre le Japon et l’Union européenne.",
+      "points": null,
+      "corrige": null
+     },
+     {
+      "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les accords commerciaux de l’Union européenne avec des pays tiers profitent-ils aux entreprises européennes ?",
+      "points": null,
+      "corrige": null
+     }
+    ]
+   }
+  ]
+ }
+]

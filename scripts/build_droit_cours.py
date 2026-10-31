@@ -62,13 +62,24 @@ def pdf_words(name: str):
     return lines
 
 
-def programme_rows(name: str, themes: range) -> dict:
-    """Tableaux « Sous-thèmes | Contexte et finalités | Notions » lus par coordonnées -> {num: {...}}."""
+ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9}
+
+
+def programme_rows(name: str, themes: range, partie: str = "droit") -> dict:
+    """Tableaux « Sous-thèmes | Contexte et finalités | Notions » lus par coordonnées -> {num: {...}}.
+    partie="economie" : saute la partie droit et lit celle qui suit le titre « Économie »."""
     rows, theme, cols, cur, caps, in_caps, started = {}, None, None, None, {}, False, False
     titles = {}
+    skip = partie != "droit"
     for page, y, words, bords in pdf_words(name):
         text = " ".join(w for _, w in words)
         if NOISE.search(text):
+            continue
+        if skip:
+            if re.search(r"Contextes? et finalités", text):
+                started = True
+            elif started and text.strip() in ("Économie", "ÉCONOMIE"):
+                skip, started = False, False
             continue
         m = re.match(r"Thème (\d)\s*[:\-–]\s*(.+)", text)
         if m and words[0][0] < 120:
@@ -86,22 +97,28 @@ def programme_rows(name: str, themes: range) -> dict:
             continue
         if theme is None:
             continue
-        if text.strip() in ("Économie", "ÉCONOMIE"):
+        if partie == "droit" and text.strip() in ("Économie", "ÉCONOMIE"):
             if started:
                 break
             theme = None
             continue
-        if re.search(r"(est|sont) capables?\s*:?\s*$", text):
-            in_caps, cols = True, None
+        if re.search(r"capables?\s*:?\s*$", text):
+            in_caps, cols, prev_end = True, None, ":"
             continue
-        if "Contexte et finalités" in text:
+        if re.search(r"Contextes? et finalités", text):
             cols, started = True, True
             in_caps = False
             continue
         if in_caps:
             t = text.replace("\uf02d", "").strip(" •;.")
-            if t and len(t) > 3:
-                caps[theme[0]].append(t)
+            new = not caps[theme[0]] or prev_end in ";:." or text.lstrip()[:1] in ("\uf02d", "•") \
+                or bool(re.match(r"(d[’']|de )\s*\w+(er|ir|re)\b", t))  # « de calculer… » : puce perdue
+            prev_end = text.rstrip()[-1:]
+            if t and (new or t[:1].islower() or t[:1] == "("):
+                if new:
+                    caps[theme[0]].append(t)
+                else:  # suite de la capacité précédente, coupée en fin de ligne
+                    caps[theme[0]][-1] += " " + t
             continue
         if cols is None:
             continue
@@ -110,9 +127,9 @@ def programme_rows(name: str, themes: range) -> dict:
             i = 0 if x < bords[0] else (1 if x < bords[1] else 2)
             c[i] += " " + w
         c0, c1, c2 = (t.strip() for t in c)
-        m = re.match(r"(\d)\.(\d)\.?\s*(.*)", c0)
-        if m and int(m.group(1)) == theme[0]:
-            num = f"{m.group(1)}.{m.group(2)}"
+        m = re.match(r"(\d|[IVX]+)\.\s?(\d)\.?\s*(.*)", c0)
+        if m and ROMAN.get(m.group(1), int(m.group(1)) if m.group(1).isdigit() else 0) == theme[0]:
+            num = f"{theme[0]}.{m.group(2)}"
             cur = rows.setdefault(num, {"theme": theme, "num": num, "titre": [m.group(3)], "contexte": [],
                                         "notions": []})
         elif cur is not None and c0:
