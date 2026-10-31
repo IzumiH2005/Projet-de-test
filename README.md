@@ -305,6 +305,43 @@ Le sujet le plus probable (SP-1, commerce mondial et IDE) a passé tous les cont
 
 ## Méta-apprentissage (`examgen/meta`)
 
+### Auto-progression de la prévision (`examgen/meta/autoprog.py`)
+
+Le moteur fabrique ses propres variables et choisit lui-même lesquelles garder :
+
+- **familles générées** : mémoire pondérée (demi-vies 1 et 3 ans), voisinage dans le cours,
+  proximité avec ce qui a déjà été demandé, lexique du professeur (ses énoncés et corrigés),
+  rotation des chapitres, thèmes du cours, récence ;
+- **générations** : on part des 12 variables de base et on ajoute, une par une, la famille (et le
+  modèle : logistique, arbres ou mélange) qui améliore la validation « année exclue » sur les
+  années passées ;
+- **a priori entre matières** : ce que les autres matières ont adopté donne un petit bonus ;
+- **prudence** : le choix est fait sur peu d'années, donc la prédiction finale moyenne ses rangs
+  avec l'ancienne méthode.
+
+Preuve honnête (chaque année 2024–2026 prédite avec les seules années d'avant, a priori appris
+sans la matière testée) :
+
+| Matière | Questions de l'année couvertes (10 % des passages) | AUC | Questions jamais posées couvertes (quart retenu) | AUC |
+|---|---|---|---|---|
+| Droit | 30 % → **45 %** | 0,76 → 0,81 | 80 % → 80 % | 0,84 → 0,85 |
+| NSI | 72 % → **74 %** | 0,80 → 0,83 | 48 % → **64 %** | 0,62 → 0,73 |
+| Économie | 25 % → 22 % | 0,73 → 0,74 | 41 % → **52 %** | 0,69 → 0,73 |
+
+L'AUC monte partout ; la couverture monte ou reste égale 5 fois sur 6. En économie (peu de
+questions par an), la prévision reste fragile. La règle « mêler à l'ancienne méthode » a été
+retenue après comparaison sur ces trois matières : c'est un léger biais de sélection.
+
+```bash
+python -m examgen.meta.autoprog own droit nsi eco      # ce que chaque matière retient seule
+python -m examgen.meta.autoprog honest droit droit nsi eco  # preuve (une matière par appel)
+python -m examgen.meta.autoprog combine droit nsi eco  # règle -> data/model/autoprog.json
+```
+
+`forecast.run` applique ensuite cette auto-progression à la vraie prévision de l'année suivante.
+Le moteur limite OpenMP à un thread (`examgen/__init__.py`) : sur ces petits jeux, plusieurs
+threads rendaient le modèle par arbres 300 fois plus lent.
+
 `python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.
 
 - `align.py` : le moteur choisit seul sa façon de lire (règle apprise sur une matière, testée sur l'autre).

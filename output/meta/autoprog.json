@@ -1,0 +1,777 @@
+{
+ "retenu_seul": {
+  "droit": {
+   "prevision": {
+    "familles": [
+     "memoire_ponderee",
+     "proximite_au_deja_demande",
+     "lexique_du_professeur"
+    ],
+    "modele": "arbres"
+   },
+   "nouveaute": {
+    "familles": [
+     "themes_du_cours",
+     "lexique_du_professeur"
+    ],
+    "modele": "arbres"
+   }
+  },
+  "nsi": {
+   "prevision": {
+    "familles": [
+     "proximite_au_deja_demande",
+     "lexique_du_professeur",
+     "rotation_des_chapitres",
+     "recence"
+    ],
+    "modele": "melange"
+   },
+   "nouveaute": {
+    "familles": [
+     "lexique_du_professeur",
+     "voisinage"
+    ],
+    "modele": "melange"
+   }
+  },
+  "eco": {
+   "prevision": {
+    "familles": [
+     "lexique_du_professeur"
+    ],
+    "modele": "logistique"
+   },
+   "nouveaute": {
+    "familles": [
+     "memoire_ponderee"
+    ],
+    "modele": "melange"
+   }
+  }
+ },
+ "preuve": {
+  "droit": {
+   "prevision": {
+    "annees": [
+     {
+      "annee": 2024,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "arbres",
+      "couverture": 0.7,
+      "auc": 0.865,
+      "avant_couverture": 0.4,
+      "avant_auc": 0.833,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.429
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.529
+       }
+      ]
+     },
+     {
+      "annee": 2025,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "melange",
+      "couverture": 0.292,
+      "auc": 0.788,
+      "avant_couverture": 0.292,
+      "avant_auc": 0.751,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.489
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "melange",
+        "score_interne": 0.597
+       }
+      ]
+     },
+     {
+      "annee": 2026,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "melange",
+      "couverture": 0.35,
+      "auc": 0.766,
+      "avant_couverture": 0.2,
+      "avant_auc": 0.699,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "logistique",
+        "score_interne": 0.523
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "melange",
+        "score_interne": 0.571
+       }
+      ]
+     }
+    ],
+    "couverture": 0.447,
+    "auc": 0.806,
+    "avant_couverture": 0.297,
+    "avant_auc": 0.761
+   },
+   "nouveaute": {
+    "annees": [
+     {
+      "annee": 2024,
+      "familles": [
+       "rotation_des_chapitres",
+       "memoire_ponderee"
+      ],
+      "modele": "melange",
+      "couverture": 1.0,
+      "auc": 0.962,
+      "avant_couverture": 1.0,
+      "avant_auc": 0.976,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.778
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "rotation_des_chapitres"
+        ],
+        "modele": "melange",
+        "score_interne": 0.78
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "rotation_des_chapitres",
+         "memoire_ponderee"
+        ],
+        "modele": "melange",
+        "score_interne": 0.78
+       }
+      ]
+     },
+     {
+      "annee": 2025,
+      "familles": [
+       "voisinage"
+      ],
+      "modele": "melange",
+      "couverture": 0.889,
+      "auc": 0.823,
+      "avant_couverture": 0.889,
+      "avant_auc": 0.77,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.726
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "voisinage"
+        ],
+        "modele": "melange",
+        "score_interne": 0.83
+       }
+      ]
+     },
+     {
+      "annee": 2026,
+      "familles": [
+       "voisinage"
+      ],
+      "modele": "melange",
+      "couverture": 0.5,
+      "auc": 0.774,
+      "avant_couverture": 0.5,
+      "avant_auc": 0.759,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.846
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "voisinage"
+        ],
+        "modele": "melange",
+        "score_interne": 0.909
+       }
+      ]
+     }
+    ],
+    "couverture": 0.796,
+    "auc": 0.853,
+    "avant_couverture": 0.796,
+    "avant_auc": 0.835
+   }
+  },
+  "nsi": {
+   "prevision": {
+    "annees": [
+     {
+      "annee": 2024,
+      "familles": [
+       "lexique_du_professeur",
+       "themes_du_cours"
+      ],
+      "modele": "melange",
+      "couverture": 0.689,
+      "auc": 0.782,
+      "avant_couverture": 0.689,
+      "avant_auc": 0.741,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.813
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "melange",
+        "score_interne": 0.864
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "lexique_du_professeur",
+         "themes_du_cours"
+        ],
+        "modele": "melange",
+        "score_interne": 0.888
+       }
+      ]
+     },
+     {
+      "annee": 2025,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "logistique",
+      "couverture": 0.762,
+      "auc": 0.814,
+      "avant_couverture": 0.717,
+      "avant_auc": 0.786,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "logistique",
+        "score_interne": 0.815
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "logistique",
+        "score_interne": 0.889
+       }
+      ]
+     },
+     {
+      "annee": 2026,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "arbres",
+      "couverture": 0.758,
+      "auc": 0.902,
+      "avant_couverture": 0.75,
+      "avant_auc": 0.872,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.851
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.873
+       }
+      ]
+     }
+    ],
+    "couverture": 0.736,
+    "auc": 0.833,
+    "avant_couverture": 0.719,
+    "avant_auc": 0.8
+   },
+   "nouveaute": {
+    "annees": [
+     {
+      "annee": 2024,
+      "familles": [
+       "lexique_du_professeur",
+       "voisinage",
+       "rotation_des_chapitres"
+      ],
+      "modele": "melange",
+      "couverture": 0.582,
+      "auc": 0.667,
+      "avant_couverture": 0.506,
+      "avant_auc": 0.606,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.59
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "melange",
+        "score_interne": 0.744
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "lexique_du_professeur",
+         "voisinage"
+        ],
+        "modele": "melange",
+        "score_interne": 0.783
+       },
+       {
+        "generation": 3,
+        "familles": [
+         "lexique_du_professeur",
+         "voisinage",
+         "rotation_des_chapitres"
+        ],
+        "modele": "melange",
+        "score_interne": 0.788
+       }
+      ]
+     },
+     {
+      "annee": 2025,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "melange",
+      "couverture": 0.519,
+      "auc": 0.689,
+      "avant_couverture": 0.442,
+      "avant_auc": 0.586,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "arbres",
+        "score_interne": 0.623
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "melange",
+        "score_interne": 0.765
+       }
+      ]
+     },
+     {
+      "annee": 2026,
+      "familles": [
+       "proximite_au_deja_demande",
+       "voisinage",
+       "lexique_du_professeur"
+      ],
+      "modele": "melange",
+      "couverture": 0.815,
+      "auc": 0.846,
+      "avant_couverture": 0.492,
+      "avant_auc": 0.681,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.649
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "proximite_au_deja_demande"
+        ],
+        "modele": "logistique",
+        "score_interne": 0.728
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "proximite_au_deja_demande",
+         "voisinage"
+        ],
+        "modele": "logistique",
+        "score_interne": 0.773
+       },
+       {
+        "generation": 3,
+        "familles": [
+         "proximite_au_deja_demande",
+         "voisinage",
+         "lexique_du_professeur"
+        ],
+        "modele": "melange",
+        "score_interne": 0.76
+       }
+      ]
+     }
+    ],
+    "couverture": 0.639,
+    "auc": 0.734,
+    "avant_couverture": 0.48,
+    "avant_auc": 0.624
+   }
+  },
+  "eco": {
+   "prevision": {
+    "annees": [
+     {
+      "annee": 2024,
+      "familles": [
+       "lexique_du_professeur"
+      ],
+      "modele": "logistique",
+      "couverture": 0.0,
+      "auc": 0.751,
+      "avant_couverture": 0.188,
+      "avant_auc": 0.759,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.449
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "logistique",
+        "score_interne": 0.488
+       }
+      ]
+     },
+     {
+      "annee": 2025,
+      "familles": [
+       "memoire_ponderee",
+       "voisinage"
+      ],
+      "modele": "melange",
+      "couverture": 0.458,
+      "auc": 0.765,
+      "avant_couverture": 0.375,
+      "avant_auc": 0.734,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.371
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "memoire_ponderee"
+        ],
+        "modele": "melange",
+        "score_interne": 0.394
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "memoire_ponderee",
+         "voisinage"
+        ],
+        "modele": "melange",
+        "score_interne": 0.413
+       }
+      ]
+     },
+     {
+      "annee": 2026,
+      "familles": [
+       "proximite_au_deja_demande"
+      ],
+      "modele": "arbres",
+      "couverture": 0.2,
+      "auc": 0.714,
+      "avant_couverture": 0.2,
+      "avant_auc": 0.693,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.427
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "proximite_au_deja_demande"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.482
+       }
+      ]
+     }
+    ],
+    "couverture": 0.219,
+    "auc": 0.743,
+    "avant_couverture": 0.254,
+    "avant_auc": 0.729
+   },
+   "nouveaute": {
+    "annees": [
+     {
+      "annee": 2024,
+      "familles": [
+       "themes_du_cours"
+      ],
+      "modele": "arbres",
+      "couverture": 0.75,
+      "auc": 0.757,
+      "avant_couverture": 0.0,
+      "avant_auc": 0.631,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "arbres",
+        "score_interne": 0.586
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "themes_du_cours"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.783
+       }
+      ]
+     },
+     {
+      "annee": 2025,
+      "familles": [
+       "rotation_des_chapitres",
+       "themes_du_cours",
+       "lexique_du_professeur",
+       "voisinage"
+      ],
+      "modele": "arbres",
+      "couverture": 0.364,
+      "auc": 0.669,
+      "avant_couverture": 0.455,
+      "avant_auc": 0.642,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "arbres",
+        "score_interne": 0.701
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "rotation_des_chapitres"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.773
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "rotation_des_chapitres",
+         "themes_du_cours"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.848
+       },
+       {
+        "generation": 3,
+        "familles": [
+         "rotation_des_chapitres",
+         "themes_du_cours",
+         "lexique_du_professeur"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.86
+       },
+       {
+        "generation": 4,
+        "familles": [
+         "rotation_des_chapitres",
+         "themes_du_cours",
+         "lexique_du_professeur",
+         "voisinage"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.862
+       }
+      ]
+     },
+     {
+      "annee": 2026,
+      "familles": [
+       "lexique_du_professeur",
+       "memoire_ponderee",
+       "proximite_au_deja_demande",
+       "recence"
+      ],
+      "modele": "arbres",
+      "couverture": 0.444,
+      "auc": 0.756,
+      "avant_couverture": 0.778,
+      "avant_auc": 0.793,
+      "generations": [
+       {
+        "generation": 0,
+        "familles": [],
+        "modele": "melange",
+        "score_interne": 0.764
+       },
+       {
+        "generation": 1,
+        "familles": [
+         "lexique_du_professeur"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.791
+       },
+       {
+        "generation": 2,
+        "familles": [
+         "lexique_du_professeur",
+         "memoire_ponderee"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.843
+       },
+       {
+        "generation": 3,
+        "familles": [
+         "lexique_du_professeur",
+         "memoire_ponderee",
+         "proximite_au_deja_demande"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.852
+       },
+       {
+        "generation": 4,
+        "familles": [
+         "lexique_du_professeur",
+         "memoire_ponderee",
+         "proximite_au_deja_demande",
+         "recence"
+        ],
+        "modele": "arbres",
+        "score_interne": 0.868
+       }
+      ]
+     }
+    ],
+    "couverture": 0.519,
+    "auc": 0.727,
+    "avant_couverture": 0.411,
+    "avant_auc": 0.689
+   }
+  }
+ },
+ "regle": {
+  "prevision": {
+   "groupes": {
+    "recence": 0.333,
+    "memoire_ponderee": 0.333,
+    "voisinage": 0.0,
+    "proximite_au_deja_demande": 0.667,
+    "lexique_du_professeur": 1.0,
+    "rotation_des_chapitres": 0.333,
+    "themes_du_cours": 0.0
+   },
+   "modeles": {
+    "logistique": 0.333,
+    "arbres": 0.333,
+    "melange": 0.333
+   },
+   "appris_sur": [
+    "droit",
+    "nsi",
+    "eco"
+   ]
+  },
+  "nouveaute": {
+   "groupes": {
+    "recence": 0.0,
+    "memoire_ponderee": 0.333,
+    "voisinage": 0.333,
+    "proximite_au_deja_demande": 0.0,
+    "lexique_du_professeur": 0.667,
+    "rotation_des_chapitres": 0.0,
+    "themes_du_cours": 0.333
+   },
+   "modeles": {
+    "logistique": 0.0,
+    "arbres": 0.333,
+    "melange": 0.667
+   },
+   "appris_sur": [
+    "droit",
+    "nsi",
+    "eco"
+   ]
+  }
+ }
+}

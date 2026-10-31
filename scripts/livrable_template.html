@@ -448,6 +448,15 @@ $("#es").oninput = renderE; renderE();
       ${c.proches.length ? `<p class="m"><b>${c.tombe ? "Déjà demandé" : "Question passée la plus proche"} :</b> ${c.proches.map(q => "« " + esc(q) + " »").join(" ")}</p>` : ""}
       ${ex || `<p class="m">Pas encore d'exercice pour ce chapitre.</p>`}</details>`;
   }
+  function auto() {
+    const M = PR[+$("#pmat").value || 0], A = M.auto || {}, P = A.preuve, C = A.choix || {};
+    if (!P || !P.prevision) return "";
+    const L = {prevision: "Questions de l'année (10 % des passages)", nouveaute: "Questions jamais posées (quart retenu)"};
+    const row = (o) => { const x = P[o]; return x ? `<tr><td>${L[o]}</td><td>${pct(x.avant_couverture)}</td><td class="${x.couverture > x.avant_couverture ? "up" : ""}">${pct(x.couverture)}</td><td>${x.avant_auc.toFixed(2)} → ${x.auc.toFixed(2)}</td></tr>` : ""; };
+    return `<p><b>Auto-progression.</b> Le moteur fabrique lui-même de nouvelles variables (mémoire pondérée, voisinage dans le cours, proximité avec ce qui a déjà été demandé, lexique du professeur, rotation des chapitres, thèmes du cours) et choisit, génération après génération, celles et le modèle qui marchent, en ne regardant que les années passées. Les autres matières lui servent de point de départ. Même test qu'au-dessus :</p>
+      <div class="tw"><table><thead><tr><th>Objectif</th><th>Avant</th><th>Après</th><th>AUC</th></tr></thead><tbody>${row("prevision")}${row("nouveaute")}</tbody></table></div>
+      <p class="m">Choisi pour ${M.annee} : ${Object.entries(C).map(([o, c]) => `${o === "prevision" ? "prévision" : "nouveautés"} → ${c.familles.length ? c.familles.join(", ") : "variables de base"} (${c.modele})`).join(" ; ")}. Le choix est mêlé à l'ancienne méthode pour rester prudent quand il y a peu d'années.</p>`;
+  }
   function render() {
     const M = PR[+$("#pmat").value || 0], V = M.validation || {}, P = M.programme || [];
     const ys = M.testees || [], N = M.nouveautes;
@@ -471,7 +480,8 @@ $("#es").oninput = renderE; renderE();
       <div class="prose"><p>Testé comme en vrai : chaque année (${ys.join(", ")}) est prédite avec les seules années d'avant. Sur ${M.n_pass} passages du cours, le moteur en retient ${M.n_prev} (10 %) ; on compte la part des vraies questions qui tombent dessus.</p></div>
       ${bt}
       <div class="prose"><p>Lecture : ${best ? `la meilleure méthode couvre ${pct(best.couv)} des vraies questions, contre ${pct(M.back.find(b => b.cle === "popularite")?.couv)} en misant sur ce qui tombe souvent et ${pct(M.hasard)} au hasard.` : ""} Les résultats varient d'une année à l'autre : avec ${(M.connues || []).length} années connues, une année surprise suffit à faire chuter le score. La ligne « Famille choisie seule » est le chiffre honnête à retenir.</p>
-      ${N && N.nouvelles_couvertes_par_le_quart_retenu != null ? `<p><b>Et ce qui n'était jamais tombé ?</b> Sur ${N.questions_nouvelles} questions portant sur un passage jamais interrogé avant, ${pct(N.nouvelles_couvertes_par_le_quart_retenu)} tombent dans le quart des passages que le moteur juge « dans la manière du professeur », contre ${pct(N.hasard)} au hasard. C'est ce qui justifie de travailler aussi les chapitres jamais tombés.</p>` : ""}</div></details>
+      ${N && N.nouvelles_couvertes_par_le_quart_retenu != null ? `<p><b>Et ce qui n'était jamais tombé ?</b> Sur ${N.questions_nouvelles} questions portant sur un passage jamais interrogé avant, ${pct(N.nouvelles_couvertes_par_le_quart_retenu)} tombent dans le quart des passages que le moteur juge « dans la manière du professeur », contre ${pct(N.hasard)} au hasard. C'est ce qui justifie de travailler aussi les chapitres jamais tombés.</p>` : ""}
+      ${auto()}</div></details>
       <details class="corr"><summary><b>Les 10 passages les plus probables en ${M.annee}</b></summary>${ps}</details>
       ${M.items.length ? `<details class="corr"><summary><b>Sujets probables générés</b> (${M.items.length})</summary>
       <div class="prose"><p>Rédigés dans la manière du professeur sur les passages prévus. Chaque question est contrôlée ; l'intention cachée doit être exigée dans le corrigé sans être dite dans l'énoncé.</p></div>

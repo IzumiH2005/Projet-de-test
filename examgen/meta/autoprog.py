@@ -216,6 +216,17 @@ class Search:
                 sc.append(r["score"])
         return float(np.mean(sc)) if sc else 0.0
 
+    def choose(self, past, objective, prior=None):
+        """Configuration choisie par générations. Le choix est fait sur peu d'années, donc bruité :
+        la prédiction finale moyenne ses rangs avec ceux de l'ancienne méthode (vérifié sur les
+        trois matières : AUC meilleure partout, couverture meilleure ou égale 5 fois sur 6)."""
+        return self.grow(past, objective, prior)
+
+    def final(self, gs, m, target, train, objective):
+        a = _reference(self, target, train, objective)
+        c = self.predict(gs, m, target, train, objective)
+        return (rankdata(a) + rankdata(c)) / (2 * self.n)
+
     def grow(self, past, objective, prior=None, log=None):
         """Générations : on part des 12 variables génériques et on ajoute, une par une, la famille
         qui améliore le plus le score interne (+ a priori des autres matières)."""
@@ -254,8 +265,8 @@ def honest(name, fc, prior, min_hist=3, log=print) -> dict:
         rows = []
         for y in tests:
             past = [z for z in fc.years if z < y]
-            gs, m, hist = S.grow(past, obj, prior.get(obj))
-            r = S.score(S.predict(gs, m, y, past, obj), y, past, obj)
+            gs, m, hist = S.choose(past, obj, prior.get(obj))
+            r = S.score(S.final(gs, m, y, past, obj), y, past, obj)
             ref = S.score(_reference(S, y, past, obj), y, past, obj)
             if r is None:
                 continue
@@ -291,8 +302,8 @@ def apply(fc, name=None, log=print) -> dict:
         prior = rule.get(obj, {})
         if name and name in prior.get("appris_sur", []) and len(prior["appris_sur"]) > 1:
             prior = {}  # la règle contient déjà cette matière : on ne se donne pas son propre avis
-        gs, m, hist = S.grow(fc.years, obj, prior)
-        out[obj] = {"familles": gs, "modele": m, "generations": hist, "p": S.predict(gs, m, nxt, fc.years, obj)}
+        gs, m, hist = S.choose(fc.years, obj, prior)
+        out[obj] = {"familles": gs, "modele": m, "generations": hist, "p": S.final(gs, m, nxt, fc.years, obj)}
         log(f"  auto-progression ({obj}) : {gs} / {m}")
     return out
 

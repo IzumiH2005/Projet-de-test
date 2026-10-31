@@ -1,0 +1,44 @@
+{
+ "prevision": {
+  "groupes": {
+   "recence": 0.333,
+   "memoire_ponderee": 0.333,
+   "voisinage": 0.0,
+   "proximite_au_deja_demande": 0.667,
+   "lexique_du_professeur": 1.0,
+   "rotation_des_chapitres": 0.333,
+   "themes_du_cours": 0.0
+  },
+  "modeles": {
+   "logistique": 0.333,
+   "arbres": 0.333,
+   "melange": 0.333
+  },
+  "appris_sur": [
+   "droit",
+   "nsi",
+   "eco"
+  ]
+ },
+ "nouveaute": {
+  "groupes": {
+   "recence": 0.0,
+   "memoire_ponderee": 0.333,
+   "voisinage": 0.333,
+   "proximite_au_deja_demande": 0.0,
+   "lexique_du_professeur": 0.667,
+   "rotation_des_chapitres": 0.0,
+   "themes_du_cours": 0.333
+  },
+  "modeles": {
+   "logistique": 0.0,
+   "arbres": 0.333,
+   "melange": 0.667
+  },
+  "appris_sur": [
+   "droit",
+   "nsi",
+   "eco"
+  ]
+ }
+}

@@ -336,7 +336,10 @@ def run(name: str, log=print) -> dict:
     fc.next_year()
     from ..meta import autoprog as AP
     auto = AP.apply(fc, name, log)  # variables et modèles choisis par le moteur lui-même
-    fc.prob, fc.pot = auto["prevision"]["p"], auto["nouveaute"]["p"]
+    # le classement vient de l'auto-progression ; les probabilités affichées gardent la loi de
+    # l'ancien modèle (même nombre attendu de passages), réordonnées selon ce classement
+    order = np.argsort(np.argsort(auto["prevision"]["p"], kind="stable"), kind="stable")
+    fc.prob, fc.pot = np.sort(fc.prob)[order], auto["nouveaute"]["p"]
     rk = fc.ranking()
     nov = fc.novelty_proof()
     log(f"  nouveautés : {nov}")
