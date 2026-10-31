@@ -1,0 +1,40 @@
+{
+ "id": "B-dictionnaire",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Dictionnaires",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "dictionnaire",
+     "enonce": "Un primeur enregistre ses stocks dans le dictionnaire `stock = {'pomme': 40, 'poire': 12, 'kiwi': 0}`. Proposer des instructions Python permettant d'ajouter 25 bananes, d'augmenter de 10 le stock de poires et de supprimer l'entrée 'kiwi'.",
+     "points": 1,
+     "reponse_attendue": "```python\nstock['banane'] = 25\nstock['poire'] = stock['poire'] + 10\ndel stock['kiwi']\n```"
+    },
+    {
+     "slot": 2,
+     "notion": "dictionnaire",
+     "enonce": "Écrire une fonction `frequences` qui prend en paramètre une chaîne de caractères `texte` et renvoie un dictionnaire associant à chaque caractère son nombre d'apparitions. Par exemple `frequences('abba')` renvoie `{'a': 2, 'b': 2}`.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef frequences(texte):\n    d = {}\n    for c in texte:\n        if c in d:\n            d[c] = d[c] + 1\n        else:\n            d[c] = 1\n    return d\n```"
+    },
+    {
+     "slot": 3,
+     "notion": "dictionnaire",
+     "enonce": "On donne `notes = {'Ali': 14, 'Bea': 9, 'Chloe': 17, 'Dan': 9}` et le code :\n```python\nres = [k for k in notes if notes[k] >= 10]\n```\nDonner la valeur de `res`, puis déterminer la valeur de `len(notes)` et de `notes.get('Eva', 0)`.",
+     "points": 1,
+     "reponse_attendue": "res = ['Ali', 'Chloe'] ; len(notes) = 4 ; notes.get('Eva', 0) = 0."
+    },
+    {
+     "slot": 4,
+     "notion": "dictionnaire",
+     "enonce": "On dispose de la fonction `frequences(texte)` de la question précédente, qui renvoie un dictionnaire associant à chaque caractère son nombre d'apparitions. En déduire une fonction `plus_frequent(texte)` qui renvoie le caractère le plus fréquent d'une chaîne non vide.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef plus_frequent(texte):\n    d = frequences(texte)\n    meilleur = None\n    for c in d:\n        if meilleur is None or d[c] > d[meilleur]:\n            meilleur = c\n    return meilleur\n```"
+    }
+   ]
+  }
+ ]
+}

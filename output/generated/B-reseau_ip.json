@@ -1,0 +1,40 @@
+{
+ "id": "B-reseau_ip",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Réseaux et adressage IP",
+   "contexte": "Banque de questions isolées sur l'adressage IP et le routage.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "reseau_ip",
+     "enonce": "Le réseau d'une entreprise utilise le protocole OSPF, avec un coût de liaison égal à 10^8 / d, où d est le débit en bit/s. Les liaisons sont : A-B en fibre à 1 Gbit/s, B-D à 100 Mbit/s, A-C à 10 Mbit/s, C-D à 1 Gbit/s. Calculer le coût de chaque liaison puis le coût total des routes A-B-D et A-C-D, et indiquer la route choisie par OSPF.",
+     "points": 1,
+     "reponse_attendue": "Coûts : A-B = 0,1 ; B-D = 1 ; A-C = 10 ; C-D = 0,1. A-B-D = 1,1 ; A-C-D = 10,1. OSPF choisit A-B-D."
+    },
+    {
+     "slot": 2,
+     "notion": "reseau_ip",
+     "enonce": "Une machine a pour adresse IPv4 172.16.200.9. Donner la représentation binaire sur 8 bits de l'octet 200.",
+     "points": 1,
+     "reponse_attendue": "200 = 128 + 64 + 8 : 11001000."
+    },
+    {
+     "slot": 3,
+     "notion": "reseau_ip",
+     "enonce": "Un lycée utilise le réseau 10.4.32.0/20. Identifier la partie fixe (partie réseau) des adresses IP de ce réseau, puis déterminer le nombre d'adresses utilisables pour des machines.",
+     "points": 1,
+     "reponse_attendue": "Les 20 premiers bits sont fixes : 10.4 et les 4 bits de poids fort du troisième octet (0010, car 32 = 0010 0000). Les adresses vont de 10.4.32.0 à 10.4.47.255. 12 bits pour les machines : 2^12 - 2 = 4094 adresses (on retire l'adresse réseau et l'adresse de diffusion)."
+    },
+    {
+     "slot": 4,
+     "notion": "reseau_ip",
+     "enonce": "Cinq routeurs sont reliés par les liaisons R1-R2, R2-R5, R1-R3, R3-R4, R4-R5 et R2-R4. Le routage utilise le protocole RIP. La liaison R2-R5 vient de se rompre. Indiquer un plus court chemin au sens de RIP de R1 vers R5, et le nombre de sauts.",
+     "points": 1,
+     "reponse_attendue": "R1-R2-R4-R5 ou R1-R3-R4-R5 : 3 sauts (avant la panne, R1-R2-R5 en 2 sauts)."
+    }
+   ]
+  }
+ ]
+}

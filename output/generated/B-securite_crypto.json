@@ -1,0 +1,40 @@
+{
+ "id": "B-securite_crypto",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Sécurisation des communications",
+   "contexte": "Banque de questions isolées sur le chiffrement symétrique et asymétrique.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "securite_crypto",
+     "enonce": "On chiffre un octet, représenté par une liste de huit 0 ou 1, en effectuant un XOR bit à bit avec une clé de même format. Recopier et compléter les lignes 4 et 5 de la fonction suivante :\n\n```python\n1 def chiffrer(octet, cle):\n2     res = []\n3     for i in range(8):\n4         b = ...\n5         res.append(...)\n6     return res\n```",
+     "points": 1,
+     "reponse_attendue": "```python\ndef chiffrer(octet, cle):\n    res = []\n    for i in range(8):\n        b = (octet[i] + cle[i]) % 2\n        res.append(b)\n    return res\n```\n(on peut aussi écrire b = octet[i] ^ cle[i])."
+    },
+    {
+     "slot": 2,
+     "notion": "securite_crypto",
+     "enonce": "Camille dispose d'un couple (clé publique, clé privée). Elle envoie à Malo un message accompagné d'une empreinte de ce message chiffrée avec sa clé privée. Décrire ce que doit réaliser Malo pour vérifier que le message vient bien de Camille et n'a pas été modifié, en justifiant.",
+     "points": 1,
+     "reponse_attendue": "Malo déchiffre l'empreinte avec la clé publique de Camille et calcule lui-même l'empreinte du message reçu. Si les deux coïncident, le message est intègre et vient de Camille, seule détentrice de la clé privée associée."
+    },
+    {
+     "slot": 3,
+     "notion": "securite_crypto",
+     "enonce": "On utilise un chiffrement par décalage (chiffre de César) de clé 4 : chaque lettre majuscule est remplacée par la lettre située 4 rangs plus loin dans l'alphabet, Z étant suivi de A. Chiffrer la chaîne \"ROUTEUR\" puis indiquer comment le destinataire déchiffre le message.",
+     "points": 1,
+     "reponse_attendue": "\"VSYXIYV\". Le destinataire décale chaque lettre de 4 rangs vers la gauche (même clé : chiffrement symétrique)."
+    },
+    {
+     "slot": 4,
+     "notion": "securite_crypto",
+     "enonce": "Expliquer la différence de fonctionnement entre un chiffrement symétrique et un chiffrement asymétrique, puis préciser pourquoi le protocole HTTPS combine les deux.",
+     "points": 1,
+     "reponse_attendue": "Symétrique : une même clé secrète chiffre et déchiffre. Asymétrique : on chiffre avec la clé publique du destinataire et seul celui-ci déchiffre avec sa clé privée. HTTPS utilise l'asymétrique pour échanger de façon sûre une clé symétrique, puis le symétrique, beaucoup plus rapide, pour chiffrer les échanges."
+    }
+   ]
+  }
+ ]
+}

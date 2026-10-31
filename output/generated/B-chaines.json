@@ -1,0 +1,40 @@
+{
+ "id": "B-chaines",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Chaînes de caractères",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "chaines",
+     "enonce": "En Python, on exécute `s = 'bonjour'` puis `s[0] = 'B'`. Indiquer ce qui se produit et expliquer pourquoi. Préciser comment obtenir la chaîne 'Bonjour'.",
+     "points": 1,
+     "reponse_attendue": "Une erreur TypeError est levée : les chaînes sont immuables (non mutables). On crée une nouvelle chaîne : `s = 'B' + s[1:]`."
+    },
+    {
+     "slot": 2,
+     "notion": "chaines",
+     "enonce": "Écrire une fonction `est_palindrome` qui prend en paramètre une chaîne de caractères `mot` et renvoie True si le mot se lit de la même façon dans les deux sens, False sinon. Par exemple `est_palindrome('kayak')` renvoie True.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef est_palindrome(mot):\n    n = len(mot)\n    for i in range(n // 2):\n        if mot[i] != mot[n - 1 - i]:\n            return False\n    return True\n```"
+    },
+    {
+     "slot": 3,
+     "notion": "chaines",
+     "enonce": "On considère la fonction :\n```python\ndef f(s):\n    r = ''\n    for c in s:\n        if c not in 'aeiouy':\n            r = r + c\n    return r\n```\nDonner la valeur renvoyée par `f('informatique')`.",
+     "points": 1,
+     "reponse_attendue": "'nfrmtq'"
+    },
+    {
+     "slot": 4,
+     "notion": "chaines",
+     "enonce": "Recopier et compléter les lignes 3 et 5 de la fonction `inverse` qui renvoie la chaîne `s` écrite à l'envers (par exemple `inverse('nsi')` renvoie 'isn').\n```python\n1 def inverse(s):\n2     r = ''\n3     for ....... :\n4         \n5         r = .......\n6     return r\n```",
+     "points": 1,
+     "reponse_attendue": "Ligne 3 : `for c in s :`\nLigne 5 : `r = c + r`"
+    }
+   ]
+  }
+ ]
+}

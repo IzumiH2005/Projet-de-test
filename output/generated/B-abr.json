@@ -1,0 +1,33 @@
+{
+ "id": "B-abr",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Arbres binaires de recherche",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "abr",
+     "enonce": "Dans une médiathèque, les numéros d'inventaire des livres sont stockés dans un arbre binaire de recherche équilibré contenant environ 1 000 000 de numéros. Expliquer pourquoi la recherche d'un numéro dans cet arbre nécessite au plus une vingtaine de comparaisons, alors qu'une recherche dans une liste non triée peut en nécessiter un million.",
+     "points": 1,
+     "reponse_attendue": "À chaque nœud on ne poursuit que dans un seul sous-arbre, ce qui divise environ par 2 le nombre de nœuds restant. Le nombre de comparaisons est au plus la hauteur de l'arbre, de l'ordre de log2(n) ≈ 20 pour n = 10^6 (2^20 ≈ 10^6). Dans une liste non triée, il faut au pire examiner les n éléments."
+    },
+    {
+     "slot": 2,
+     "notion": "abr",
+     "enonce": "On utilise la classe Noeud suivante :\n```python\nclass Noeud:\n    def __init__(self, v, g=None, d=None):\n        self.valeur = v\n        self.gauche = g\n        self.droit = d\n```\nUn arbre vide est représenté par None.\nRecopier et compléter les lignes 4 et 6 de la fonction `contient` qui prend en paramètres un arbre binaire de recherche `abr` et une valeur `v`, et renvoie True si `v` est présente dans l'arbre, False sinon.\n```python\n1 def contient(abr, v):\n2     if abr is None:\n3         return False\n4     if ....... :\n5         return True\n6     elif ....... :\n7         return contient(abr.gauche, v)\n8     else:\n9         return contient(abr.droit, v)\n```",
+     "points": 1,
+     "reponse_attendue": "Ligne 4 : `if abr.valeur == v :`\nLigne 6 : `elif v < abr.valeur :`"
+    },
+    {
+     "slot": 3,
+     "notion": "abr",
+     "enonce": "On utilise la classe Noeud suivante :\n```python\nclass Noeud:\n    def __init__(self, v, g=None, d=None):\n        self.valeur = v\n        self.gauche = g\n        self.droit = d\n```\nUn arbre vide est représenté par None.\nOn considère l'arbre binaire de recherche `a` obtenu en insérant successivement les valeurs 12, 7, 18, 3, 9, 15, 21, et la fonction :\n```python\ndef somme_inf(abr, x):\n    if abr is None:\n        return 0\n    if abr.valeur < x:\n        return abr.valeur + somme_inf(abr.gauche, x) + somme_inf(abr.droit, x)\n    return somme_inf(abr.gauche, x)\n```\nCalculer la valeur renvoyée par `somme_inf(a, 13)`.",
+     "points": 1,
+     "reponse_attendue": "Les valeurs strictement inférieures à 13 sont 12, 7, 3, 9 : la fonction renvoie 31."
+    }
+   ]
+  }
+ ]
+}

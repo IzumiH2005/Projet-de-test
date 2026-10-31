@@ -1,0 +1,40 @@
+{
+ "id": "B-arbre_binaire",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Arbres binaires",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "arbre_binaire",
+     "enonce": "Un arbre binaire a pour racine A ; A a pour fils gauche B et pour fils droit C ; B a pour fils gauche D ; C a pour fils gauche E et pour fils droit F. On convient que la hauteur d'un arbre réduit à sa racine vaut 1. Indiquer la taille, la hauteur et les feuilles de cet arbre.",
+     "points": 1,
+     "reponse_attendue": "Taille 6, hauteur 3, feuilles : D, E, F."
+    },
+    {
+     "slot": 2,
+     "notion": "arbre_binaire",
+     "enonce": "On utilise la classe Noeud suivante :\n```python\nclass Noeud:\n    def __init__(self, v, g=None, d=None):\n        self.valeur = v\n        self.gauche = g\n        self.droit = d\n```\nUn arbre vide est représenté par None.\nRecopier et compléter la ligne 4 de la fonction `taille` qui renvoie le nombre de nœuds d'un arbre binaire.\n```python\n1 def taille(a):\n2     if a is None:\n3         return 0\n4     return .......\n```",
+     "points": 1,
+     "reponse_attendue": "Ligne 4 : `return 1 + taille(a.gauche) + taille(a.droit)`"
+    },
+    {
+     "slot": 3,
+     "notion": "arbre_binaire",
+     "enonce": "On reprend l'arbre de racine A (fils gauche B, fils droit C ; B a pour fils gauche D ; C a pour fils E à gauche et F à droite). Préciser l'ordre de visite des nœuds lors d'un parcours préfixe, puis lors d'un parcours infixe, en expliquant la règle utilisée.",
+     "points": 1,
+     "reponse_attendue": "Préfixe (racine, gauche, droit) : A B D C E F. Infixe (gauche, racine, droit) : D B A E C F."
+    },
+    {
+     "slot": 4,
+     "notion": "arbre_binaire",
+     "enonce": "On utilise la classe Noeud suivante :\n```python\nclass Noeud:\n    def __init__(self, v, g=None, d=None):\n        self.valeur = v\n        self.gauche = g\n        self.droit = d\n```\nUn arbre vide est représenté par None.\nRecopier et compléter les lignes 3 et 5 de la fonction `nb_feuilles` qui renvoie le nombre de feuilles d'un arbre binaire.\n```python\n1 def nb_feuilles(a):\n2     if a is None:\n3         return .......\n4     if a.gauche is None and a.droit is None:\n5         return .......\n6     return nb_feuilles(a.gauche) + nb_feuilles(a.droit)\n```",
+     "points": 1,
+     "reponse_attendue": "Ligne 3 : `return 0`\nLigne 5 : `return 1`"
+    }
+   ]
+  }
+ ]
+}

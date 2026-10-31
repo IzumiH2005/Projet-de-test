@@ -1,0 +1,229 @@
+{
+ "id": "S01",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Une station météo autonome",
+   "contexte": "Une association installe des stations météo autonomes en montagne. Chaque station est construite autour d'un système sur puce (SoC) qui regroupe sur un même circuit un processeur multicœur, de la mémoire vive, un contrôleur Wi-Fi, un contrôleur USB et un processeur graphique (GPU). Un système d'exploitation de type UNIX y exécute plusieurs programmes : acquisition des capteurs, compression des relevés et envoi vers un serveur.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "soc_architecture",
+     "enonce": "On donne le schéma simplifié de l'architecture de Von Neumann du processeur de la station :\n\n```\n+-------------------------+        +-------------+\n|  (1)                    |<======>|    (3)      |\n|  +-------+  +--------+  |  bus   +-------------+\n|  |  (2)  |  | Unité  |  |\n|  |       |  | de     |  |<======> (4) Entrées/Sorties\n|  +-------+  |contrôle|  |\n|             +--------+  |\n+-------------------------+\n```\n\nSur la copie, associer à chaque numéro (1), (2), (3) et (4) un des termes suivants : « Mémoire RAM », « Processeur », « Unité arithmétique et logique », « Périphériques ».",
+     "points": 1.0,
+     "reponse_attendue": "(1) Processeur ; (2) Unité arithmétique et logique ; (3) Mémoire RAM ; (4) Périphériques."
+    },
+    {
+     "slot": 2,
+     "notion": "soc_architecture",
+     "enonce": "Expliquer pourquoi l'utilisation d'un système sur puce plutôt que de composants séparés sur une carte permet de réduire la consommation électrique de la station.",
+     "points": 0.5,
+     "reponse_attendue": "Les composants étant rapprochés sur une même puce, les connexions sont très courtes : moins d'énergie est dissipée pour transporter les signaux, et les composants sont gravés plus finement et peuvent être mis en veille individuellement. Cela réduit la consommation (et augmente la vitesse des échanges)."
+    },
+    {
+     "slot": 3,
+     "notion": "processus",
+     "enonce": "Le système d'exploitation de la station gère les processus prêts selon la règle « premier arrivé, premier servi ». Parmi les propositions suivantes, donner la structure de données la plus adaptée pour stocker ces processus en attente, en justifiant :\n- Proposition 1 : Pile\n- Proposition 2 : File\n- Proposition 3 : Dictionnaire",
+     "points": 0.5,
+     "reponse_attendue": "Proposition 2 : la file, car elle suit le principe FIFO (premier entré, premier sorti) : le processus arrivé en premier est le premier retiré."
+    },
+    {
+     "slot": 4,
+     "notion": "soc_architecture",
+     "enonce": "Le capteur de température transmet ses mesures codées sur 8 bits en complément à deux. Donner la valeur décimale de la mesure reçue 11111010.",
+     "points": 0.5,
+     "reponse_attendue": "Le bit de poids fort vaut 1 : nombre négatif. On inverse les bits (00000101) et on ajoute 1 : 00000110 = 6. La mesure vaut -6."
+    },
+    {
+     "slot": 5,
+     "notion": "processus",
+     "enonce": "On considère trois processus soumis à l'instant 0 dans l'ordre A, C, E :\n\n| Processus | Rôle | Durée (unités de temps) |\n|---|---|---|\n| A | acquisition | 2 |\n| C | compression | 4 |\n| E | envoi | 1 |\n\nL'ordonnanceur utilise l'algorithme « premier arrivé, premier servi » (sans interruption). Donner l'instant de fin d'exécution de chaque processus.",
+     "points": 0.5,
+     "reponse_attendue": "A se termine à l'instant 2, C à l'instant 6, E à l'instant 7."
+    },
+    {
+     "slot": 6,
+     "notion": "processus",
+     "enonce": "Avec les mêmes processus, l'ordonnanceur utilise désormais l'algorithme du tourniquet (Round Robin) avec un quantum de 1 unité de temps, la file initiale étant A, C, E. Donner la suite des processus élus à chaque unité de temps, puis l'instant de fin de C.",
+     "points": 0.5,
+     "reponse_attendue": "A, C, E, A, C, C, C. C se termine à l'instant 7 (A à 4, E à 3)."
+    },
+    {
+     "slot": 7,
+     "notion": "processus",
+     "enonce": "Le processus C attend la libération de la carte mémoire, détenue par le processus E, tandis que E attend le module Wi-Fi, détenu par C. Nommer cette situation et expliquer pourquoi aucun des deux processus ne peut repasser à l'état élu.",
+     "points": 0.5,
+     "reponse_attendue": "C'est un interblocage : chaque processus est bloqué en attente d'une ressource que l'autre ne libérera qu'après avoir obtenu la sienne ; ils restent donc indéfiniment à l'état bloqué."
+    },
+    {
+     "slot": 8,
+     "notion": "soc_architecture",
+     "enonce": "Pour choisir le composant du SoC à solliciter, on dispose du dictionnaire suivant et de la fonction incomplète ci-dessous, qui renvoie le nom du composant le plus économe parmi ceux capables de réaliser la tâche :\n\n```python\n1 conso = {'CPU': 2.0, 'GPU': 3.5, 'DSP': 0.8}  # en watts\n2 def plus_econome(composants):\n3     meilleur = composants[0]\n4     for c in composants:\n5         if ..........:\n6             meilleur = c\n7     return meilleur\n```\n\nRecopier et compléter la ligne 5.",
+     "points": 0.5,
+     "reponse_attendue": "5         if conso[c] < conso[meilleur]:"
+    },
+    {
+     "slot": 9,
+     "notion": "soc_architecture",
+     "enonce": "Le processeur du SoC fonctionne à une fréquence de 1,5 GHz et exécute en moyenne une instruction par cycle. Calculer la durée, en millisecondes, nécessaire pour exécuter un programme de compression de 3 × 10^9 instructions sur un seul cœur.",
+     "points": 0.5,
+     "reponse_attendue": "Durée = 3 × 10^9 / 1,5 × 10^9 = 2 s, soit 2000 ms."
+    },
+    {
+     "slot": 10,
+     "notion": "soc_architecture",
+     "enonce": "On souhaite écrire une fonction qui renvoie la liste des composants dont la consommation (dictionnaire conso de la question 8) est inférieure ou égale à un seuil donné.\n\n```python\n1 def sous_seuil(conso, seuil):\n2     resultat = ..........\n3     for nom in conso:\n4         if ..........:\n5             resultat.append(nom)\n6     return resultat\n```\n\nRecopier et compléter les lignes 2 et 4.",
+     "points": 0.5,
+     "reponse_attendue": "2     resultat = []\n4         if conso[nom] <= seuil:"
+    },
+    {
+     "slot": 11,
+     "notion": "processus",
+     "enonce": "La commande ps -ef exécutée sur la station affiche notamment :\n\n| UID | PID | PPID | CMD |\n|---|---|---|---|\n| meteo | 412 | 1 | python3 acquisition.py |\n| meteo | 518 | 412 | python3 compresse.py |\n| meteo | 530 | 412 | python3 envoi.py |\n\nExpliquer quel processus a lancé compresse.py et envoi.py, et indiquer lequel des deux a été créé en premier.",
+     "points": 0.5,
+     "reponse_attendue": "Leur PPID vaut 412 : ils ont été lancés par le processus acquisition.py. compresse.py (PID 518) a été créé avant envoi.py (PID 530), les PID étant attribués de façon croissante."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "La médiathèque de quartier",
+   "contexte": "Une médiathèque gère ses prêts de jeux de société avec une base de données relationnelle et quelques scripts Python. La base contient les relations suivantes (clés primaires soulignées par #, clés étrangères précédées de *) :\n\n- Jeu(#id_jeu, titre, editeur, age_min)\n- Adherent(#id_adh, nom, prenom, ville)\n- Pret(#id_pret, *id_jeu, *id_adh, date_sortie, date_retour)\n\nExtrait de la table Jeu :\n\n| id_jeu | titre | editeur | age_min |\n|---|---|---|---|\n| 1 | Kaskade | Ludiks | 8 |\n| 2 | Polaris | Ludiks | 12 |\n| 3 | Tamtam | Orbe | 6 |\n| 4 | Basalte | Orbe | 10 |",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "mise_au_point",
+     "enonce": "Un script Python représente un jeu par un dictionnaire :\n\n```python\njeu = {'titre': 'Kaskade', 'editeur': 'Ludiks', 'age_min': 8}\n```\n\nDonner l'expression qui s'évalue à True parmi les propositions suivantes :\n- Proposition A : jeu[0] == 'Kaskade'\n- Proposition B : jeu['age_min'] > 10\n- Proposition C : 'editeur' in jeu\n- Proposition D : jeu.titre == 'Kaskade'",
+     "points": 0.5,
+     "reponse_attendue": "Proposition C ('editeur' est une clé du dictionnaire). A provoque une KeyError, D une AttributeError, B vaut False."
+    },
+    {
+     "slot": 2,
+     "notion": "mise_au_point",
+     "enonce": "On donne la liste suivante :\n\n```python\nstock = [['Kaskade', 3], ['Polaris', 1], ['Tamtam', 5]]\n```\n\nDonner les valeurs de stock[1] et de stock[2][1].",
+     "points": 0.5,
+     "reponse_attendue": "stock[1] vaut ['Polaris', 1] et stock[2][1] vaut 5."
+    },
+    {
+     "slot": 3,
+     "notion": "modele_relationnel",
+     "enonce": "Donner le domaine (type) des attributs id_jeu et titre de la relation Jeu.",
+     "points": 0.5,
+     "reponse_attendue": "id_jeu : entier (INT) ; titre : chaîne de caractères (TEXT ou VARCHAR)."
+    },
+    {
+     "slot": 4,
+     "notion": "modele_relationnel",
+     "enonce": "a. Expliquer pourquoi l'attribut editeur ne peut pas être choisi comme clé primaire de la relation Jeu.\nb. Expliquer le rôle de l'attribut id_jeu dans la relation Pret.\nc. Expliquer pourquoi la requête suivante est refusée par le SGBD si aucun jeu n'a pour identifiant 9 :\n\n```sql\nINSERT INTO Pret VALUES (40, 9, 2, '2026-03-02', NULL);\n```",
+     "points": 1.5,
+     "reponse_attendue": "a. Plusieurs jeux ont le même éditeur (Ludiks pour 1 et 2) : editeur ne permet pas d'identifier un unique enregistrement.\nb. id_jeu est une clé étrangère de Pret qui fait référence à la clé primaire de Jeu : elle indique quel jeu est prêté.\nc. La contrainte de référence (intégrité référentielle) impose que la valeur d'une clé étrangère existe dans la table référencée ; le jeu 9 n'existant pas, l'insertion est refusée."
+    },
+    {
+     "slot": 5,
+     "notion": "modele_relationnel",
+     "enonce": "a. Écrire ce que renvoie la requête ci-dessous sur l'extrait de la table Jeu :\n\n```sql\nSELECT titre FROM Jeu WHERE editeur = 'Orbe' AND age_min >= 8;\n```\n\nb. Écrire une requête SQL permettant d'obtenir les titres des jeux accessibles dès 10 ans ou moins, classés par ordre alphabétique.",
+     "points": 1.0,
+     "reponse_attendue": "a. Basalte.\nb. SELECT titre FROM Jeu WHERE age_min <= 10 ORDER BY titre;"
+    },
+    {
+     "slot": 6,
+     "notion": "modele_relationnel",
+     "enonce": "a. Le jeu Polaris a été rendu le 14 mars 2026 dans le cadre du prêt d'identifiant 37. Écrire une requête SQL permettant d'enregistrer ce retour.\nb. Écrire une requête SQL permettant d'obtenir les noms et prénoms des adhérents ayant emprunté le jeu intitulé 'Tamtam'.",
+     "points": 1.0,
+     "reponse_attendue": "a. UPDATE Pret SET date_retour = '2026-03-14' WHERE id_pret = 37;\nb. SELECT Adherent.nom, Adherent.prenom FROM Adherent JOIN Pret ON Adherent.id_adh = Pret.id_adh JOIN Jeu ON Pret.id_jeu = Jeu.id_jeu WHERE Jeu.titre = 'Tamtam';"
+    },
+    {
+     "slot": 7,
+     "notion": "mise_au_point",
+     "enonce": "La fonction suivante doit renvoyer la durée moyenne (en jours) d'une liste de durées de prêt :\n\n```python\n1 def duree_moyenne(durees):\n2     total = 0\n3     for d in durees:\n4         total = total + d\n5     return total / len(durees)\n```\n\nL'appel duree_moyenne([]) provoque une erreur.\na. Parmi les propositions suivantes, indiquer le type d'erreur affiché : ZeroDivisionError, ValueError, TypeError, IndexError.\nb. Modifier la fonction pour qu'elle renvoie 0 lorsque la liste est vide.",
+     "points": 1.0,
+     "reponse_attendue": "a. ZeroDivisionError (len([]) vaut 0).\nb.\n```python\ndef duree_moyenne(durees):\n    if len(durees) == 0:\n        return 0\n    total = 0\n    for d in durees:\n        total = total + d\n    return total / len(durees)\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Le classement d'une course d'orientation",
+   "contexte": "Lors d'une course d'orientation, les temps des équipes (en minutes) sont rangés dans un arbre binaire de recherche (ABR) : pour chaque nœud, les temps du sous-arbre gauche sont strictement inférieurs et ceux du sous-arbre droit supérieurs ou égaux. On utilise la classe Noeud suivante, un arbre vide étant représenté par None :\n\n```python\n1 class Noeud:\n2     def __init__(self, temps, equipe):\n3         self.temps = temps\n4         self.equipe = equipe\n5         self.gauche = None\n6         self.droit = None\n```\n\nPar convention, la hauteur d'un arbre réduit à un nœud vaut 1 et celle de l'arbre vide vaut 0.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "poo",
+     "enonce": "Recopier et compléter la méthode inserer de la classe Noeud, qui insère un nouveau nœud dans l'ABR dont self est la racine.\n\n```python\n1 def inserer(self, temps, equipe):\n2     if temps < self.temps:\n3         if self.gauche is None:\n4             self.gauche = ..........\n5         else:\n6             ..........\n7     else:\n8         if self.droit is None:\n9             self.droit = Noeud(temps, equipe)\n10        else:\n11            ..........\n```",
+     "points": 1.5,
+     "reponse_attendue": "```python\ndef inserer(self, temps, equipe):\n    if temps < self.temps:\n        if self.gauche is None:\n            self.gauche = Noeud(temps, equipe)\n        else:\n            self.gauche.inserer(temps, equipe)\n    else:\n        if self.droit is None:\n            self.droit = Noeud(temps, equipe)\n        else:\n            self.droit.inserer(temps, equipe)\n```"
+    },
+    {
+     "slot": 2,
+     "notion": "arbre_binaire",
+     "enonce": "On exécute les instructions suivantes, en utilisant la méthode de la question précédente :\n\n```python\nabr = Noeud(52, 'Lynx')\nabr.inserer(47, 'Hiboux')\nabr.inserer(61, 'Cerfs')\nabr.inserer(39, 'Loutres')\nabr.inserer(50, 'Chamois')\nabr.inserer(70, 'Aigles')\nabr.inserer(58, 'Renards')\n```\n\nDessiner l'arbre obtenu en indiquant uniquement les temps.",
+     "points": 1.0,
+     "reponse_attendue": "Racine 52 ; fils gauche 47 (fils gauche 39, fils droit 50) ; fils droit 61 (fils gauche 58, fils droit 70)."
+    },
+    {
+     "slot": 3,
+     "notion": "arbre_binaire",
+     "enonce": "Donner la taille et la hauteur de l'arbre abr obtenu à la question 2.",
+     "points": 0.5,
+     "reponse_attendue": "Taille 7, hauteur 3."
+    },
+    {
+     "slot": 4,
+     "notion": "poo",
+     "enonce": "Recopier et compléter la méthode taille de la classe Noeud, qui renvoie le nombre de nœuds de l'arbre de racine self.\n\n```python\n1 def taille(self):\n2     t = 1\n3     if self.gauche is not None:\n4         t = t + ..........\n5     if self.droit is not None:\n6         t = t + ..........\n7     return t\n```",
+     "points": 0.5,
+     "reponse_attendue": "4         t = t + self.gauche.taille()\n6         t = t + self.droit.taille()"
+    },
+    {
+     "slot": 5,
+     "notion": "arbre_binaire",
+     "enonce": "Indiquer quel parcours de l'ABR permet d'obtenir les équipes classées de la plus rapide à la plus lente, et expliquer pourquoi.",
+     "points": 0.5,
+     "reponse_attendue": "Le parcours infixe (gauche, racine, droite) : dans un ABR il visite les clés dans l'ordre croissant, donc des temps les plus courts aux plus longs."
+    },
+    {
+     "slot": 6,
+     "notion": "arbre_binaire",
+     "enonce": "Donner la liste des temps dans l'ordre du parcours préfixe de l'arbre abr de la question 2.",
+     "points": 0.5,
+     "reponse_attendue": "52, 47, 39, 50, 61, 58, 70."
+    },
+    {
+     "slot": 7,
+     "notion": "arbre_binaire",
+     "enonce": "On considère un arbre binaire R de hauteur 5 dont le sous-arbre gauche G est de hauteur 3. Déterminer la hauteur du sous-arbre droit D de R, puis le nombre maximal de nœuds que peut contenir R dans ces conditions.",
+     "points": 1.0,
+     "reponse_attendue": "h(R) = 1 + max(h(G), h(D)) = 5, et h(G) = 3, donc h(D) = 4. Nombre maximal : 1 + (2^3 - 1) + (2^4 - 1) = 1 + 7 + 15 = 23 nœuds."
+    },
+    {
+     "slot": 8,
+     "notion": "arbre_binaire",
+     "enonce": "Donner la taille maximale d'un arbre binaire de hauteur h.",
+     "points": 0.5,
+     "reponse_attendue": "2^h - 1 nœuds."
+    },
+    {
+     "slot": 9,
+     "notion": "arbre_binaire",
+     "enonce": "Donner la définition d'un arbre binaire de recherche, puis indiquer, en justifiant, si l'arbre de racine 52, de fils gauche 47 et de fils droit 45 est un ABR.",
+     "points": 0.5,
+     "reponse_attendue": "Un ABR est un arbre binaire où, pour chaque nœud, les clés du sous-arbre gauche sont inférieures à celle du nœud et celles du sous-arbre droit supérieures. Ici 45 < 52 est dans le sous-arbre droit : ce n'est pas un ABR."
+    },
+    {
+     "slot": 10,
+     "notion": "arbre_binaire",
+     "enonce": "Déterminer, dans un ABR non vide, où se trouve le nœud contenant le meilleur temps, et donner le nombre de nœuds visités pour l'atteindre dans l'arbre abr de la question 2.",
+     "points": 0.5,
+     "reponse_attendue": "C'est le nœud le plus à gauche : on descend toujours vers le fils gauche depuis la racine. Dans abr : 52, 47, 39, soit 3 nœuds visités."
+    },
+    {
+     "slot": 11,
+     "notion": "poo",
+     "enonce": "En s'appuyant sur la question précédente, écrire une méthode vainqueur de la classe Noeud qui renvoie le nom de l'équipe ayant réalisé le meilleur temps dans l'ABR de racine self. Donner ensuite l'instruction permettant d'afficher le vainqueur de abr.",
+     "points": 1.0,
+     "reponse_attendue": "```python\ndef vainqueur(self):\n    noeud = self\n    while noeud.gauche is not None:\n        noeud = noeud.gauche\n    return noeud.equipe\n```\nprint(abr.vainqueur())  # affiche Loutres"
+    }
+   ]
+  }
+ ]
+}

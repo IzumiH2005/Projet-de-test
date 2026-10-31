@@ -1,0 +1,33 @@
+{
+ "id": "B-calculabilite",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Calculabilité, processus",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "calculabilite",
+     "enonce": "Un programme Python peut être passé en paramètre à une autre fonction, comme une donnée (par exemple son texte source). Indiquer un exemple de logiciel courant qui prend un programme en entrée et expliquer en quoi cela illustre le fait qu'un programme est aussi une donnée.",
+     "points": 1,
+     "reponse_attendue": "Exemples : un interpréteur Python, un compilateur, un antivirus, un système d'exploitation. Ils lisent le texte d'un programme comme une donnée qu'ils analysent, traduisent ou exécutent : code et données ont la même nature."
+    },
+    {
+     "slot": 2,
+     "notion": "calculabilite",
+     "enonce": "Un élève propose d'écrire une fonction `arret(prog, x)` qui renvoie True si le programme `prog` s'arrête sur l'entrée `x` et False sinon, quel que soit `prog`. Expliquer pourquoi une telle fonction ne peut pas exister.",
+     "points": 1,
+     "reponse_attendue": "C'est le problème de l'arrêt, indécidable (Turing). Si `arret` existait, on construirait `paradoxe(p)` qui boucle indéfiniment si `arret(p, p)` vaut True et s'arrête sinon ; `paradoxe(paradoxe)` s'arrêterait si et seulement s'il ne s'arrête pas : contradiction."
+    },
+    {
+     "slot": 3,
+     "notion": "calculabilite",
+     "enonce": "Deux processus P1 et P2 utilisent une imprimante R1 et un scanner R2. P1 obtient R1 puis demande R2 ; pendant ce temps P2 obtient R2 puis demande R1. Expliquer la situation obtenue, préciser l'état de chaque processus et proposer une solution pour l'éviter.",
+     "points": 1,
+     "reponse_attendue": "C'est un interblocage : P1 attend R2 détenue par P2 et P2 attend R1 détenue par P1 ; les deux processus sont bloqués indéfiniment. Solution : imposer le même ordre d'acquisition des ressources (R1 puis R2) à tous les processus."
+    }
+   ]
+  }
+ ]
+}

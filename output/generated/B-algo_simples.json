@@ -1,0 +1,33 @@
+{
+ "id": "B-algo_simples",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Algorithmes simples",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "algo_simples",
+     "enonce": "On considère la fonction suivante, appliquée à une liste non vide d'entiers :\n```python\ndef mystere(t):\n    m = t[0]\n    for e in t:\n        if e > m:\n            m = e\n    return m\n```\nIndiquer ce que renvoie `mystere([4, 11, 2, 11, 7])` et expliquer le rôle de cette fonction.",
+     "points": 1,
+     "reponse_attendue": "Elle renvoie 11 : la fonction renvoie le maximum de la liste, en parcourant tous les éléments et en conservant la plus grande valeur rencontrée."
+    },
+    {
+     "slot": 2,
+     "notion": "algo_simples",
+     "enonce": "Un club de randonnée enregistre ses sorties dans une table `Sortie(id, lieu, distance_km, denivele)`. Écrire une requête SQL qui renvoie le lieu et la distance des sorties dont le dénivelé dépasse strictement 800 m, triées par distance décroissante.",
+     "points": 1,
+     "reponse_attendue": "SELECT lieu, distance_km FROM Sortie WHERE denivele > 800 ORDER BY distance_km DESC;"
+    },
+    {
+     "slot": 3,
+     "notion": "algo_simples",
+     "enonce": "Recopier et compléter les lignes 3 et 5 de la fonction `compte` qui prend en paramètres une liste `t` et une valeur `x`, et renvoie le nombre d'occurrences de `x` dans `t`.\n```python\n1 def compte(t, x):\n2     n = 0\n3     for ....... :\n4         if e == x:\n5             .......\n6     return n\n```",
+     "points": 1,
+     "reponse_attendue": "Ligne 3 : `for e in t :`\nLigne 5 : `n = n + 1`"
+    }
+   ]
+  }
+ ]
+}

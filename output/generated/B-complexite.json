@@ -1,0 +1,40 @@
+{
+ "id": "B-complexite",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Complexité",
+   "contexte": "Banque de questions indépendantes.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "complexite",
+     "enonce": "La fonction suivante teste si une liste contient deux éléments égaux :\n```python\ndef doublon(t):\n    for i in range(len(t)):\n        for j in range(i + 1, len(t)):\n            if t[i] == t[j]:\n                return True\n    return False\n```\nEn déduire une fonction `doublon_trie(t)` qui effectue le même test sur une liste `t` supposée triée dans l'ordre croissant, en ne parcourant la liste qu'une seule fois.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef doublon_trie(t):\n    for i in range(len(t) - 1):\n        if t[i] == t[i + 1]:\n            return True\n    return False\n```\nDans une liste triée, deux éléments égaux sont forcément voisins."
+    },
+    {
+     "slot": 2,
+     "notion": "complexite",
+     "enonce": "Proposer une fonction Python `puissance(x, n)` permettant de calculer x^n (n entier positif) en utilisant le fait que x^n = (x^(n//2))^2 si n est pair, et x * (x^(n//2))^2 sinon, afin d'effectuer un nombre de multiplications de l'ordre de log2(n).",
+     "points": 1,
+     "reponse_attendue": "```python\ndef puissance(x, n):\n    if n == 0:\n        return 1\n    p = puissance(x, n // 2)\n    if n % 2 == 0:\n        return p * p\n    return x * p * p\n```"
+    },
+    {
+     "slot": 3,
+     "notion": "complexite",
+     "enonce": "On effectue une recherche dichotomique de la valeur 37 dans la liste triée [3, 8, 12, 19, 25, 31, 37, 44, 50]. À chaque étape, on prend l'indice du milieu m = (g + d) // 2. Donner la liste des valeurs comparées à 37 et déterminer le nombre de comparaisons.",
+     "points": 1,
+     "reponse_attendue": "g=0,d=8 : m=4, valeur 25 ; g=5,d=8 : m=6, valeur 37 trouvée. Valeurs comparées : 25 puis 37, soit 2 étapes."
+    },
+    {
+     "slot": 4,
+     "notion": "complexite",
+     "enonce": "On considère la fonction `doublon(t)` qui compare chaque élément `t[i]` à tous les éléments `t[j]` avec j > i (deux boucles imbriquées). Déterminer sa complexité en temps dans le pire des cas en fonction de la taille n de la liste, et la comparer à celle d'un parcours unique sur une liste triée.",
+     "points": 1,
+     "reponse_attendue": "Pire cas (aucun doublon) : (n-1) + (n-2) + ... + 1 = n(n-1)/2 comparaisons, soit une complexité quadratique O(n²). Le parcours unique d'une liste triée est linéaire O(n)."
+    }
+   ]
+  }
+ ]
+}

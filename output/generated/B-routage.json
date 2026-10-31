@@ -1,0 +1,40 @@
+{
+ "id": "B-routage",
+ "exercices": [
+  {
+   "numero": 0,
+   "titre": "Routage",
+   "contexte": "Banque de questions isolées sur le routage et les protocoles RIP et OSPF.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "routage",
+     "enonce": "Un poste a la configuration suivante : adresse IP 192.168.5.40, masque 255.255.255.0, passerelle 192.168.6.1. Le routeur de son réseau local a l'adresse 192.168.5.1. Le poste communique avec son réseau local mais pas avec Internet. Identifier le paramètre mal configuré et proposer une correction.",
+     "points": 1,
+     "reponse_attendue": "La passerelle 192.168.6.1 n'appartient pas au réseau 192.168.5.0/24 : il faut indiquer la passerelle 192.168.5.1 (adresse du routeur)."
+    },
+    {
+     "slot": 2,
+     "notion": "routage",
+     "enonce": "Un réseau comporte les routeurs A, B, C, D, E reliés par les liaisons A-B, A-C, B-D, C-E, E-D et B-C. On utilise le protocole RIP. Indiquer deux routes qui permettent d'atteindre le routeur D depuis A et leur nombre de sauts, puis préciser celle retenue par RIP.",
+     "points": 1,
+     "reponse_attendue": "A-B-D : 2 sauts ; A-C-E-D : 3 sauts (ou A-C-B-D : 3 sauts). RIP retient A-B-D (minimum de sauts)."
+    },
+    {
+     "slot": 3,
+     "notion": "routage",
+     "enonce": "Un réseau est représenté par un dictionnaire d'adjacence, par exemple reseau = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A'], 'D': ['B']}. Écrire une fonction sauts(reseau, depart) qui renvoie un dictionnaire associant à chaque routeur accessible le nombre minimal de sauts depuis depart (comme le calcule RIP), à l'aide d'un parcours en largeur. Ici sauts(reseau, 'A') renvoie {'A': 0, 'B': 1, 'C': 1, 'D': 2}.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef sauts(reseau, depart):\n    dist = {depart: 0}\n    file = [depart]\n    while file:\n        r = file.pop(0)\n        for v in reseau[r]:\n            if v not in dist:\n                dist[v] = dist[r] + 1\n                file.append(v)\n    return dist\n```"
+    },
+    {
+     "slot": 4,
+     "notion": "routage",
+     "enonce": "Avec le protocole RIP, un routeur reçoit la table d'un voisin et met sa propre table à jour. Les tables sont des dictionnaires destination -> (passerelle, distance). Recopier et compléter les lignes 4 et 5 :\n\n```python\n1 def mise_a_jour(table, voisin, table_voisin):\n2     for dest in table_voisin:\n3         d = table_voisin[dest][1] + 1\n4         if dest not in table or ... :\n5             table[dest] = ...\n6     return table\n```",
+     "points": 1,
+     "reponse_attendue": "```python\ndef mise_a_jour(table, voisin, table_voisin):\n    for dest in table_voisin:\n        d = table_voisin[dest][1] + 1\n        if dest not in table or d < table[dest][1]:\n            table[dest] = (voisin, d)\n    return table\n```"
+    }
+   ]
+  }
+ ]
+}
