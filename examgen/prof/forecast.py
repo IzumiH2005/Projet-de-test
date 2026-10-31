@@ -289,7 +289,8 @@ class Forecast:
     def programme(self, per_sec: int = 3) -> list[dict]:
         """Chaque chapitre du cours, classé par priorité d'entraînement."""
         t, ps, K = self.t, np.asarray(self.t.pass_sec), len(self.t.sections)
-        self.pot = self._pot_model(self.years).predict_proba(self.rows(self.annee, self.years)[:, :10])[:, 1]
+        if getattr(self, "pot", None) is None:
+            self.pot = self._pot_model(self.years).predict_proba(self.rows(self.annee, self.years)[:, :10])[:, 1]
         from scipy.stats import rankdata
         rp, rq = rankdata(self.prob) / self.n, rankdata(self.pot) / self.n
         sec_years = {s: sum(any(int(ps[p]) == s for p in self.tested[z]) for z in self.years) for s in range(K)}
@@ -333,6 +334,9 @@ def run(name: str, log=print) -> dict:
     bt = fc.backtest()
     log(f"  preuve : {json.dumps({k: v for k, v in bt.items() if isinstance(v, dict)}, ensure_ascii=False)[:600]}")
     fc.next_year()
+    from ..meta import autoprog as AP
+    auto = AP.apply(fc, name, log)  # variables et modèles choisis par le moteur lui-même
+    fc.prob, fc.pot = auto["prevision"]["p"], auto["nouveaute"]["p"]
     rk = fc.ranking()
     nov = fc.novelty_proof()
     log(f"  nouveautés : {nov}")
@@ -343,7 +347,11 @@ def run(name: str, log=print) -> dict:
         r["intention"] = {"fort": lab[k]["fort"], "faible": lab[k]["faible"]} if k in lab else None
     rep = {"matiere": name, "annee_prevue": fc.annee, "annees_connues": fc.years, "preuve_comme_en_vrai": bt,
            "famille_choisie": fc.final, "passages_les_plus_probables": rk,
-           "preuve_sur_les_nouveautes": nov, "programme": prog}
+           "preuve_sur_les_nouveautes": nov, "programme": prog,
+           "auto_progression": {o: {k: v for k, v in a.items() if k != "p"} for o, a in auto.items()}}
+    ap = ROOT / "output" / "meta" / "autoprog.json"
+    if ap.exists():
+        rep["preuve_auto_progression"] = json.loads(ap.read_text(encoding="utf-8"))["preuve"].get(name)
     from ..meta.domain import out_dir
     out = out_dir(name)
     out.mkdir(parents=True, exist_ok=True)
