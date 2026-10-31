@@ -1,0 +1,52 @@
+{
+  "id": "E1.3",
+  "type": "exercices",
+  "titre": "Les sources du droit en situation",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extraits du Code de la consommation",
+      "texte": "Article L232-3 du Code de la consommation\nNonobstant toute stipulation contraire, le consommateur ne peut être privé de la protection que lui assurent les dispositions prises par un Etat membre de l'Union européenne en application de la directive 2011/83/UE du Parlement européen et du Conseil du 25 octobre 2011 relative aux droits des consommateurs, modifiant la directive 93/13/CEE du Conseil et la directive 1999/44/CE du Parlement européen et du Conseil et abrogeant la directive 85/577/CEE du Conseil et la directive 97/7/CE du Parlement européen et du Conseil, lorsque le contrat conclu à distance ou hors établissement présente un lien étroit avec le territoire de cet Etat.\nArticle L232-4 du Code de la consommation\nLorsque les parties ont choisi la loi d'un Etat non membre de l'Union européenne pour régir le contrat, le juge devant lequel est invoquée cette loi est tenu d'en écarter l'application au profit des dispositions plus protectrices de la loi de la résidence habituelle du consommateur assurant la transposition de la directive 2023/2673 du Parlement européen et du Conseil du 22 novembre 2023, lorsque le contrat présente un lien étroit avec le territoire d'un ou plusieurs Etats membres de l'Union européenne.",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "points": 2,
+      "situation": "Clémence VIDAL, étudiante en BTS, s’étonne en cours que le tribunal judiciaire de Lille et le tribunal judiciaire de Bordeaux aient rendu, à quelques mois d’intervalle, deux décisions différentes dans des litiges presque identiques portant sur la résiliation d’un abonnement de salle de sport. Son camarade lui explique qu’une partie a formé un pourvoi et que « la Cour de cassation va mettre tout le monde d’accord ».",
+      "enonce": "Après avoir rappelé l’organisation des juridictions de l’ordre judiciaire, vous répondrez à la question suivante à l’aide de vos connaissances personnelles : Pourquoi la Cour de cassation est-elle indispensable à la cohérence de notre système juridique ?",
+      "reponse_attendue": "Organisation : les juridictions de l’ordre judiciaire sont organisées en trois degrés. Les juridictions du premier degré (tribunal judiciaire, tribunal de commerce, conseil de prud’hommes) jugent les faits et le droit ; la cour d’appel rejuge l’affaire en fait et en droit lorsqu’une partie forme un appel ; la Cour de cassation, au sommet, ne juge que le droit : elle vérifie que la règle de droit a été correctement appliquée par les juges du fond.\nPourquoi : en l’espèce, deux tribunaux judiciaires ont donné deux interprétations différentes d’une même règle. Or l’égalité des justiciables devant la loi suppose que la même règle soit appliquée de la même manière sur tout le territoire. Par cette fonction d’unification, la Cour de cassation, juridiction unique, fixe l’interprétation des textes : lorsqu’elle casse une décision, elle indique la solution juridique conforme au droit et sa position est en pratique suivie par les juridictions inférieures. Elle crée ainsi une jurisprudence, source du droit qui complète la loi lorsque celle-ci est imprécise ou ne prévoit pas la situation.\nLa Cour de cassation garantit donc la sécurité juridique : les justiciables et les professionnels peuvent anticiper la solution d’un litige. Elle contribue aussi à l’adaptation du droit aux évolutions de la société par ses revirements de jurisprudence.\nConclusion : la Cour de cassation est indispensable car elle unifie l’interprétation du droit et assure la cohérence de l’ordre juridique.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "points": 2,
+      "situation": "La société MAISON ORLANE, établie en Suisse, vend en ligne des luminaires à des particuliers résidant en France. Ses conditions générales de vente prévoient que « le contrat est exclusivement soumis au droit suisse ». Bastien LEGRAND, domicilié à Rennes, a commandé une lampe le 3 mars 2025 et souhaite exercer les droits prévus par le droit français issu d’une directive européenne. La société lui oppose la clause des conditions générales (annexe 1).",
+      "enonce": "Développez l’argumentation juridique que Bastien LEGRAND peut avancer pour écarter l’application du droit suisse.",
+      "reponse_attendue": "Fondement : l’article L232-4 du Code de la consommation prévoit que lorsque les parties ont choisi la loi d’un État non membre de l’Union européenne, le juge doit en écarter l’application au profit des dispositions plus protectrices de la loi de la résidence habituelle du consommateur assurant la transposition d’une directive européenne, dès lors que le contrat présente un lien étroit avec le territoire d’un État membre.\nEn l’espèce, la Suisse n’est pas membre de l’Union européenne. Bastien LEGRAND est un consommateur, personne physique agissant pour ses besoins personnels, qui a conclu un contrat à distance avec un professionnel. Il réside habituellement en France, a passé commande depuis Rennes et la livraison doit avoir lieu en France : le contrat présente donc un lien étroit avec le territoire d’un État membre.\nArgument de hiérarchie des normes : la directive européenne s’impose aux États membres, qui doivent la transposer dans leur droit national ; les règles françaises qui en sont issues constituent un minimum de protection auquel un simple contrat ne peut déroger. Une clause des conditions générales, norme contractuelle, ne peut écarter une disposition impérative de la loi.\nConclusion : Bastien LEGRAND peut demander au juge d’écarter le droit suisse et de lui appliquer les dispositions françaises plus protectrices.",
+      "articles_cites": [
+        "L232-4"
+      ]
+    },
+    {
+      "slot": 3,
+      "points": 2,
+      "situation": "La société TRANSLOG 31, entreprise de transport routier de marchandises de 80 salariés, refuse d’appliquer à Mehdi AZOULAY, chauffeur, la prime d’ancienneté prévue par la convention collective nationale des transports routiers. Elle soutient que « seul le contrat de travail compte » et que celui de Mehdi AZOULAY ne mentionne aucune prime. La convention collective a été régulièrement déposée.",
+      "enonce": "Développez l’argumentation juridique que Mehdi AZOULAY pourrait opposer à son employeur.",
+      "reponse_attendue": "Principe : les conventions et accords collectifs de travail sont des sources du droit négociées par les partenaires sociaux (organisations syndicales de salariés et d’employeurs). Selon l’article L2222-1 du Code du travail, ils déterminent leur champ d’application territorial et professionnel, défini en termes d’activités économiques ; selon l’article L2231-6, ils font l’objet d’un dépôt.\nEn l’espèce, la société TRANSLOG 31 exerce une activité de transport routier de marchandises : elle entre dans le champ d’application professionnel de la convention collective nationale des transports routiers, qui a un champ territorial national. La convention ayant été régulièrement déposée, elle est applicable à l’entreprise et à ses salariés.\nArgument de hiérarchie des normes : la convention collective est placée au-dessus du contrat de travail. Le contrat individuel ne peut prévoir des dispositions moins favorables au salarié que celles de la convention applicable ; le silence du contrat ne permet donc pas de priver le salarié d’un avantage conventionnel. L’affirmation selon laquelle « seul le contrat compte » méconnaît la complémentarité des sources.\nConclusion : Mehdi AZOULAY peut exiger le versement de la prime d’ancienneté prévue par la convention collective.",
+      "articles_cites": [
+        "L2222-1",
+        "L2231-6"
+      ]
+    },
+    {
+      "slot": 4,
+      "points": 2,
+      "situation": "Le 12 septembre 2025, Inès MOREAU a fait l’objet d’un contrôle d’identité. Poursuivie devant le tribunal correctionnel pour avoir refusé de se soumettre à un relevé d’empreintes, elle estime que la disposition législative qui fonde les poursuites porte atteinte à la liberté individuelle garantie par la Constitution. Son avocat soulève devant le tribunal une question prioritaire de constitutionnalité.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "reponse_attendue": "Une personne physique, Inès MOREAU, prévenue, est poursuivie devant une juridiction pénale du premier degré, le tribunal correctionnel, pour une infraction (un délit) consistant à refuser de se soumettre à un relevé d’empreintes à la suite d’un contrôle d’identité du 12 septembre 2025.\nLa prévenue conteste la conformité à la Constitution de la loi, norme votée par le Parlement, qui fonde les poursuites : elle invoque une atteinte à un droit et une liberté garantis par la Constitution, la liberté individuelle.\nSon avocat soulève, au cours de l’instance, une question prioritaire de constitutionnalité (QPC), mécanisme de contrôle de constitutionnalité a posteriori. Le tribunal correctionnel doit la transmettre à la Cour de cassation qui, si la question est sérieuse et nouvelle, la renvoie au Conseil constitutionnel.\nL’enjeu est celui de la hiérarchie des normes : la Constitution, placée au sommet, s’impose à la loi ; si le Conseil constitutionnel déclare la disposition contraire à la Constitution, elle est abrogée et ne peut plus fonder les poursuites contre Inès MOREAU.",
+      "articles_cites": []
+    }
+  ]
+}

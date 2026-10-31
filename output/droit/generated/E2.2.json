@@ -1,0 +1,53 @@
+{
+  "id": "E2.2",
+  "type": "exercices",
+  "titre": "Prouver ses droits",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Articles du Code civil et du Code de commerce",
+      "texte": "Article 1383-1 du Code civil\nL'aveu extrajudiciaire purement verbal n'est reçu que dans les cas où la loi permet la preuve par tout moyen. Sa valeur probante est laissée à l'appréciation du juge.\nArticle L123-7 du Code de commerce\nL'immatriculation d'une personne physique emporte présomption de la qualité de commerçant. Toutefois, cette présomption n'est pas opposable aux tiers et administrations qui apportent la preuve contraire. Les tiers et administrations ne sont pas admis à se prévaloir de la présomption s'ils savaient que la personne immatriculée n'était pas commerçante.",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "points": 2,
+      "situation": "Le 6 février 2025, en sortant d’un supermarché de Tours, Agathe LEMOINE glisse sur une flaque d’huile laissée sur le parking par un camion de livraison de la société LOGIFRAIS. Elle se fracture le poignet et doit interrompre son activité de kinésithérapeute libérale pendant six semaines. Deux clients du supermarché ont assisté à la chute et une caméra du parking l’a filmée.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "reponse_attendue": "Le 6 février 2025, une personne physique, Agathe LEMOINE, victime, a chuté sur le parking d’un supermarché en glissant sur une flaque d’huile provenant d’un camion de livraison appartenant à une personne morale, la société LOGIFRAIS.\nIl s’agit d’un fait juridique : un événement non voulu, dont les effets de droit (l’obligation de réparer) n’ont pas été recherchés. Il n’existe aucun contrat entre la victime et la société LOGIFRAIS.\nLa victime subit plusieurs dommages : un dommage corporel (fracture du poignet) et un dommage matériel, économique, résultant de l’interruption de son activité professionnelle libérale pendant six semaines (perte de revenus).\nAgathe LEMOINE, future demanderesse, prétend obtenir la réparation de ses préjudices par la société LOGIFRAIS, future défenderesse, responsable du camion à l’origine de la fuite d’huile.\nS’agissant d’un fait juridique, la victime pourra le prouver par tout moyen : témoignages des deux clients, enregistrement de la caméra du parking, certificats médicaux et justificatifs de perte de revenus. Le juge appréciera librement la force probante de ces éléments selon son intime conviction.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "points": 2,
+      "situation": "Le 15 janvier 2025, Gaspard NOËL a vendu sa voiture de collection à son cousin Julien NOËL pour 18 000 euros par un acte sous signature privée. Le 3 mars 2025, un créancier de Gaspard NOËL fait saisir le véhicule, encore garé chez Gaspard. Julien NOËL présente l’acte de vente pour prouver qu’il était devenu propriétaire avant la saisie, mais l’acte n’a jamais été enregistré.",
+      "enonce": "Pourquoi l’acte sous signature privée n’a-t-il pas, à l’égard des tiers, la même force qu’un acte authentique ?",
+      "reponse_attendue": "L’acte sous signature privée est un écrit rédigé et signé par les parties elles-mêmes, sans intervention d’un officier public. L’acte authentique est rédigé par un officier public (notaire, commissaire de justice) qui en garantit la date, l’identité des signataires et le contenu ; il fait foi jusqu’à inscription de faux.\nLa différence de force tient d’abord à la sécurité de la date. Les parties à un acte sous signature privée peuvent s’entendre pour antidater leur écrit au détriment d’un tiers. C’est pourquoi l’article 1377 du Code civil prévoit que l’acte sous signature privée n’acquiert date certaine à l’égard des tiers que du jour où il a été enregistré, du jour de la mort d’un signataire, ou du jour où sa substance est constatée dans un acte authentique.\nEn l’espèce, l’acte de vente entre Gaspard et Julien NOËL, membres d’une même famille, n’a pas été enregistré : sa date du 15 janvier 2025 n’est pas opposable au créancier, tiers à l’acte, qui peut soupçonner une vente fictive destinée à soustraire le véhicule à la saisie.\nLe droit protège ainsi les tiers contre la fraude et garantit la sécurité juridique, tout en laissant aux parties la liberté de recourir à un acte moins coûteux, dont elles assument les risques.",
+      "articles_cites": [
+        "1377"
+      ]
+    },
+    {
+      "slot": 3,
+      "points": 2,
+      "situation": "Margaux DESCAMPS, salariée d’un cabinet comptable, a été licenciée pour avoir divulgué des informations confidentielles sur un client. Elle conteste les faits. Lors d’un pot de départ, devant trois collègues, elle a déclaré oralement : « Oui, j’ai transmis le fichier, mais tout le monde le faisait. » L’employeur souhaite se prévaloir de cette déclaration devant le conseil de prud’hommes.",
+      "enonce": "Développez l’argumentation juridique que l’employeur peut avancer pour se prévaloir de la déclaration de Margaux DESCAMPS à l’aide de l’annexe 1.",
+      "reponse_attendue": "Qualification : la déclaration de Margaux DESCAMPS est un aveu, reconnaissance par une partie d’un fait de nature à produire contre elle des conséquences juridiques. Faite oralement en dehors de toute instance, lors d’un pot de départ, il s’agit d’un aveu extrajudiciaire purement verbal.\nFondement : selon l’article 1383-1 du Code civil, l’aveu extrajudiciaire purement verbal n’est reçu que dans les cas où la loi permet la preuve par tout moyen, et sa valeur probante est laissée à l’appréciation du juge.\nEn l’espèce, l’employeur doit prouver la divulgation d’informations confidentielles, c’est-à-dire un agissement de la salariée : il s’agit d’un fait juridique, qui se prouve par tout moyen. L’aveu extrajudiciaire est donc recevable. L’employeur peut en outre faire témoigner les trois collègues présents, ce qui permet d’établir la réalité de la déclaration orale.\nArgument complémentaire : l’aveu porte précisément sur le fait reproché (« j’ai transmis le fichier ») et la justification avancée (« tout le monde le faisait ») ne le fait pas disparaître.\nConclusion : l’employeur peut produire cet aveu, corroboré par les témoignages ; le juge en appréciera librement la force probante.",
+      "articles_cites": [
+        "1383-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "points": 2,
+      "situation": "Thibault ARNAUD est immatriculé au registre du commerce et des sociétés depuis 2019 pour une activité d’achat-revente de matériel de sport. En 2024, il a cessé cette activité pour devenir professeur salarié dans un collège, sans demander sa radiation. La société SPORTEX, son ancien fournisseur, l’assigne devant le tribunal de commerce pour une facture impayée de 2025, en invoquant sa qualité de commerçant.",
+      "enonce": "Développez l’argumentation juridique que Thibault ARNAUD pourrait opposer à la société SPORTEX.",
+      "reponse_attendue": "Principe : selon l’article L123-7 du Code de commerce, l’immatriculation d’une personne physique au registre du commerce et des sociétés emporte présomption de la qualité de commerçant. Une présomption dispense celui qui l’invoque de prouver le fait présumé et renverse la charge de la preuve. Toutefois, cette présomption n’est pas opposable aux tiers qui apportent la preuve contraire, et les tiers ne peuvent s’en prévaloir s’ils savaient que la personne immatriculée n’était pas commerçante.\nPremier argument : la présomption est simple. Thibault ARNAUD peut rapporter la preuve contraire : il a cessé toute activité d’achat-revente en 2024 et exerce désormais comme professeur salarié ; il n’accomplit plus d’actes de commerce à titre de profession habituelle. Ses bulletins de salaire et l’absence de chiffre d’affaires le démontrent.\nSecond argument : la société SPORTEX, son ancien fournisseur, savait qu’il avait cessé son activité puisque les commandes se sont arrêtées en 2024. Ayant connaissance de ce qu’il n’était plus commerçant, elle n’est pas admise à se prévaloir de la présomption.\nConclusion : Thibault ARNAUD peut contester sa qualité de commerçant, et donc la compétence du tribunal de commerce ainsi que l’existence même de la facture de 2025, qu’il appartiendra à SPORTEX de prouver.",
+      "articles_cites": [
+        "L123-7"
+      ]
+    }
+  ]
+}

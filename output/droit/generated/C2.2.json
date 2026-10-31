@@ -1,0 +1,70 @@
+{
+  "id": "C2.2",
+  "type": "cas",
+  "titre": "Le scooter de Bastien",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nOdile GARNIER, 67 ans, retraitée, vit à Quimper. Elle est très proche de son voisin, Bastien ROY, né le 14 octobre 2007, qu’elle a vu grandir. En mars 2025, Bastien ROY, alors lycéen, lui explique qu’il a besoin d’argent pour acheter un scooter d’occasion afin de se rendre à son apprentissage.\nLe 10 mars 2025, Odile GARNIER effectue un virement de 2 400 euros sur le compte de Bastien ROY. Aucun contrat n’est signé : les échanges se limitent à des SMS (annexe 4).\nEn septembre 2025, Odile GARNIER lui demande de la rembourser. Bastien ROY, devenu majeur, refuse : il affirme que la somme était un cadeau. Lors d’une discussion dans la cour de l’immeuble, le 20 septembre 2025, il reconnaît pourtant qu’il « lui doit encore cet argent mais qu’il n’a rien pour l’instant ». À son insu, Odile GARNIER enregistre cette conversation avec son téléphone.\nDécidée à agir en justice, Odile GARNIER réunit son relevé bancaire, les SMS et l’enregistrement. Bastien ROY lui fait savoir par son avocat qu’« aucun écrit ne prouve un prêt », que l’enregistrement a été réalisé « de manière déloyale » et qu’« en tout état de cause, un mineur ne peut pas s’engager ».\nQuestions",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Articles du Code civil",
+      "texte": "Article 1145\nToute personne physique peut contracter sauf en cas d'incapacité prévue par la loi. La capacité des personnes morales est limitée par les règles applicables à chacune d'entre elles.\nArticle 1364\nLa preuve d'un acte juridique peut être préconstituée par un écrit en la forme authentique ou sous signature privée.\nArticle 1361\nIl peut être suppléé à l'écrit par l'aveu judiciaire, le serment décisoire ou un commencement de preuve par écrit corroboré par un autre moyen de preuve.\nArticle 1362\nConstitue un commencement de preuve par écrit tout écrit qui, émanant de celui qui conteste un acte ou de celui qu'il représente, rend vraisemblable ce qui est allégué. Peuvent être considérés par le juge comme équivalant à un commencement de preuve par écrit les déclarations faites par une partie lors de sa comparution personnelle, son refus de répondre ou son absence à la comparution. La mention d'un écrit authentique ou sous signature privée sur un registre public vaut commencement de preuve par écrit.\nArticle 1383-1\nL'aveu extrajudiciaire purement verbal n'est reçu que dans les cas où la loi permet la preuve par tout moyen. Sa valeur probante est laissée à l'appréciation du juge.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 2 – Légalité et loyauté de la preuve",
+      "texte": "La légalité de la preuve se réfère aux règles établies par la loi concernant les moyens\nadmissibles pour prouver un fait ou un acte juridique. Ainsi, un fait juridique se prouve par\ntout moyen alors que l’acte juridique se prouve par écrit.\nLa loyauté de la preuve suppose que les preuves doivent être obtenues de manière licite\nsans porter atteinte aux droits fondamentaux. Pour autant, la Cour de cassation a pu\nadmettre dans certains cas la recevabilité de preuves obtenues de manière déloyale.\nSource : les auteurs",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 3 – Arrêt de la Cour de cassation du 22 décembre 2023",
+      "texte": "Selon l'arrêt attaqué (Orléans, 28 juillet 2020), M. B a été engagé à compter du\n14 octobre 2013 en qualité de responsable commercial « grands comptes » par la société\nAbaque bâtiment services (la société ABS). […] Le 16 octobre 2016, il a été licencié pour\nfaute grave.\n[…] Le salarié a contesté son licenciement et demandé la condamnation de l'employeur à\nlui payer diverses sommes. […]\nLa société ABS fait grief à l'arrêt de la cour d’appel de déclarer irrecevables les éléments\nde preuve obtenus par elle au moyen d'enregistrements clandestins et de les écarter […],\npuis de déclarer le licenciement sans cause réelle et sérieuse […].\nAlors que l'enregistrement audio, même obtenu à l'insu d'un salarié, est recevable et peut\nêtre produit et utilisé en justice dès lors qu'il ne porte pas atteinte aux droits du salarié, qu'il\nest indispensable au droit à la preuve et à la protection des intérêts de l'employeur et qu'il a\npu être discuté dans le cadre d'un procès équitable ; qu'en écartant des débats les pièces\n[…] produites par l'employeur, qui démontraient que le salarié avait expressément refusé\nde fournir à son employeur le suivi de son activité commerciale, et ce au motif erroné et\ninsuffisant qu'elles ont été obtenues par un procédé déloyal et à l'insu du salarié, la cour\nd'appel a violé les articles 9 du code de procédure civile et 6, § 1, de la Convention de\nsauvegarde des droits de l'homme et des libertés fondamentales.\nRéponse de la Cour\n[…] Il y a lieu de considérer désormais que, dans un procès civil, l'illicéité ou la déloyauté\ndans l'obtention ou la production d'un moyen de preuve ne conduit pas nécessairement à\nl'écarter des débats. Le juge doit, lorsque cela lui est demandé, apprécier si une telle preuve\nporte une atteinte au caractère équitable de la procédure dans son ensemble, en mettant\nen balance le droit à la preuve et les droits antinomiques en présence, le droit à la preuve\npouvant justifier la production d'éléments portant atteinte à d'autres droits à condition que\ncette production soit indispensable à son exercice et que l'atteinte soit strictement\nproportionnée au but poursuivi.\nEn l'espèce, pour déclarer irrecevables les pièces litigieuses […]",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 4 – Échanges de SMS entre Odile GARNIER et Bastien ROY",
+      "texte": "Capture d’écran du téléphone d’Odile GARNIER\nBastien – 9 mars 2025, 21 h 14 : « Odile, je suis vraiment dans la galère pour le scooter, tu pourrais m’avancer les 2 400 € ? »\nOdile – 9 mars 2025, 21 h 20 : « D’accord, je passe à la banque demain. Tu me rendras quand tu pourras, avant l’été si possible. »\nBastien – 10 mars 2025, 18 h 02 : « Bien reçu le virement, merci mille fois ! Je te rembourse avec mon job d’été, promis. »\n[…]\nBastien – 3 septembre 2025, 10 h 47 : « Je ne vois pas de quoi tu parles, c’était un cadeau. »",
+      "source": "invente"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "points": 2,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "reponse_attendue": "Une personne physique, Odile GARNIER, a remis par virement le 10 mars 2025 une somme de 2 400 euros à une autre personne physique, Bastien ROY, alors mineur âgé de 17 ans, pour l’achat d’un scooter.\nSelon elle, il s’agit d’un acte juridique, un contrat de prêt d’argent, qui oblige l’emprunteur à restituer la somme. Aucun écrit n’a été signé ; seuls existent un relevé bancaire, des SMS dans lesquels le bénéficiaire promet de rembourser et l’enregistrement, réalisé à son insu le 20 septembre 2025, d’une conversation dans laquelle il reconnaît sa dette (aveu extrajudiciaire).\nDevenu majeur, Bastien ROY refuse de restituer la somme : il soutient qu’il s’agit d’un don.\nUn litige naît. Odile GARNIER, future demanderesse, prétend obtenir le remboursement des 2 400 euros. Bastien ROY, futur défendeur, conteste l’existence du prêt faute d’écrit, demande que l’enregistrement soit écarté comme preuve déloyale et invoque son incapacité juridique de mineur au moment de l’opération.\nLa question de droit porte sur la preuve d’un acte juridique en l’absence d’écrit et sur la validité de l’engagement d’un mineur.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "points": 3,
+      "enonce": "Développez l’argumentation juridique qu’Odile GARNIER peut avancer pour prouver l’existence du prêt.",
+      "reponse_attendue": "Principe : la charge de la preuve pèse sur celui qui réclame l’exécution d’une obligation ; il appartient donc à Odile GARNIER de prouver le prêt. Le prêt est un acte juridique qui se prouve en principe par écrit, en la forme authentique ou sous signature privée (article 1364 du Code civil). Toutefois, l’article 1361 permet de suppléer à l’écrit par l’aveu judiciaire, le serment décisoire ou un commencement de preuve par écrit corroboré par un autre moyen de preuve.\nLe commencement de preuve par écrit : selon l’article 1362, il s’agit de tout écrit émanant de celui qui conteste l’acte et qui rend vraisemblable ce qui est allégué. En l’espèce, les SMS envoyés par Bastien ROY lui-même (« Je te rembourse avec mon job d’été, promis ») émanent de celui qui conteste le prêt et rendent vraisemblable l’obligation de restitution, incompatible avec un cadeau.\nLes éléments qui le corroborent : le relevé bancaire établit la remise des 2 400 euros le 10 mars 2025 ; l’enregistrement du 20 septembre 2025 contient la reconnaissance de la dette. Odile GARNIER peut soutenir, à l’aide de l’arrêt du 22 décembre 2023 (annexe 3), que l’illicéité ou la déloyauté d’une preuve « ne conduit pas nécessairement à l’écarter des débats » : le juge met en balance le droit à la preuve et les droits du défendeur. Ici, l’enregistrement est indispensable puisqu’aucun contrat n’a été signé entre voisins, et l’atteinte est limitée à une courte conversation sur la dette, sans intrusion dans la vie intime.\nConclusion : les SMS, corroborés par le relevé bancaire et l’enregistrement, permettent d’établir l’existence du prêt.",
+      "articles_cites": [
+        "1364",
+        "1361",
+        "1362"
+      ]
+    },
+    {
+      "slot": 3,
+      "points": 3,
+      "enonce": "Développez l’argumentation juridique que Bastien ROY pourrait opposer à Odile GARNIER.",
+      "reponse_attendue": "Sur la preuve : Bastien ROY peut rappeler que le prêt est un acte juridique qui doit être prouvé par écrit (article 1364 du Code civil) et qu’aucun contrat n’a été signé. Le relevé bancaire prouve seulement la remise des fonds, pas l’obligation de les restituer : une remise d’argent peut tout aussi bien correspondre à un don, d’autant que les parties étaient très proches.\nIl peut contester la valeur de l’enregistrement. Réalisé à son insu, il porte atteinte au principe de loyauté de la preuve (annexe 2). Il ne peut valoir aveu judiciaire, qui est fait devant le juge ; c’est au mieux un aveu extrajudiciaire purement verbal, qui n’est reçu que si la loi permet la preuve par tout moyen et dont la valeur probante est laissée à l’appréciation du juge (article 1383-1). Or un acte juridique ne se prouve pas par tout moyen. Il peut ajouter, au regard de l’arrêt du 22 décembre 2023, que cette preuve n’était pas indispensable puisque Odile GARNIER disposait déjà des SMS.\nSur la capacité : selon l’article 1145 du Code civil, toute personne physique peut contracter sauf en cas d’incapacité prévue par la loi. Le 10 mars 2025, Bastien ROY avait 17 ans : mineur non émancipé, il était frappé d’une incapacité d’exercice et devait être représenté par ses parents pour les actes importants. Un emprunt de 2 400 euros n’est pas un acte de la vie courante ; il a été conclu sans ses représentants légaux. Il peut donc en demander la nullité, ce qui le libérerait de l’obligation de rembourser, sous réserve de restituer ce dont il a profité.\nConclusion : Bastien ROY peut contester à la fois la preuve du prêt et sa validité.",
+      "articles_cites": [
+        "1364",
+        "1383-1",
+        "1145"
+      ]
+    },
+    {
+      "slot": 4,
+      "points": 3,
+      "enonce": "Après avoir rappelé la distinction entre acte juridique et fait juridique, vous répondrez à la question suivante à l’aide des annexes 1 et 2 et de vos connaissances personnelles : Pourquoi le droit exige-t-il, en principe, un écrit pour prouver un acte juridique ?",
+      "reponse_attendue": "Rappel : l’acte juridique est une manifestation de volonté destinée à produire des effets de droit (contrat, testament) ; le fait juridique est un événement, volontaire ou non, dont les effets de droit n’ont pas été recherchés (accident, naissance). Le fait juridique se prouve par tout moyen, alors que l’acte juridique se prouve en principe par écrit (annexe 2 ; article 1364 du Code civil).\nPourquoi : l’acte juridique étant voulu par les parties, celles-ci peuvent anticiper un éventuel litige en préconstituant leur preuve au moment de sa conclusion. L’écrit, authentique ou sous signature privée, fixe le contenu exact des engagements (montant, date, modalités de remboursement) et évite les contestations ultérieures sur ce qui a été convenu.\nL’écrit protège aussi le consentement : en signant, chaque partie prend conscience de la portée de son engagement, ce qui est particulièrement important pour les personnes vulnérables, comme les mineurs dont l’article 1145 limite la capacité de contracter.\nIl garantit enfin la sécurité juridique et facilite le travail du juge, qui dispose d’une preuve objective plutôt que de témoignages fragiles.\nLe droit n’est cependant pas rigide : l’article 1361 admet que l’écrit soit suppléé par l’aveu judiciaire, le serment décisoire ou un commencement de preuve par écrit corroboré, ce qui permet de tenir compte des relations de confiance, comme entre voisins ou proches, où l’on ne rédige pas toujours de contrat.",
+      "articles_cites": [
+        "1364",
+        "1145",
+        "1361"
+      ]
+    }
+  ]
+}

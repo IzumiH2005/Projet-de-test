@@ -1,0 +1,49 @@
+{
+  "id": "E2.1",
+  "type": "exercices",
+  "titre": "Du conflit au litige",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extrait du Code de la consommation",
+      "texte": "Article L612-2 du Code de la consommation\nUn litige ne peut être examiné par le médiateur de la consommation lorsque : 1° Le consommateur ne justifie pas avoir tenté, au préalable, de résoudre son litige directement auprès du professionnel par une réclamation écrite selon les modalités prévues, le cas échéant, dans le contrat ; 2° La demande est manifestement infondée ou abusive ; 3° Le litige a été précédemment examiné ou est en cours d'examen par un autre médiateur ou par un tribunal ; 4° Le consommateur a introduit sa demande auprès du médiateur dans un délai supérieur à un an à compter de sa réclamation écrite auprès du professionnel ; 5° Le litige n'entre pas dans son champ de compétence. Le consommateur est informé par le médiateur, dans un délai de trois semaines à compter de la réception de son dossier, du rejet de sa demande de médiation.",
+      "source": "cours"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "points": 2,
+      "situation": "Le 4 avril 2025, Yanis FERRAND, particulier, a confié son ordinateur portable au magasin INFOREPAR, SARL spécialisée dans la réparation informatique, pour remplacer l’écran. Lorsqu’il récupère l’appareil le 18 avril, le clavier ne fonctionne plus. Le gérant refuse toute prise en charge. Yanis FERRAND réclame 420 euros, prix d’un clavier neuf.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "reponse_attendue": "Une personne physique, Yanis FERRAND, consommateur agissant pour ses besoins personnels, a conclu le 4 avril 2025 un contrat de prestation de services (contrat d’entreprise) avec une personne morale, la SARL INFOREPAR, professionnel de la réparation informatique, qui s’est engagée à remplacer l’écran de son ordinateur.\nÀ la restitution de l’appareil, le 18 avril 2025, le consommateur constate un nouveau dysfonctionnement : le clavier ne fonctionne plus. Il impute ce dommage matériel à une mauvaise exécution de la prestation par le professionnel.\nLe professionnel refuse toute prise en charge : le conflit devient un litige, c’est-à-dire un désaccord juridique entre deux parties portant sur un droit.\nYanis FERRAND, futur demandeur, a pour prétention d’obtenir la réparation de son préjudice, soit 420 euros correspondant au prix d’un clavier neuf, sur le fondement de l’inexécution du contrat. La SARL INFOREPAR, future défenderesse, conteste sa responsabilité.\nAvant de saisir un juge, le consommateur pourrait rechercher un accord amiable, notamment par une réclamation écrite puis une médiation de la consommation.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "points": 2,
+      "situation": "Alors que Nadia BENSAÏD est en déplacement, l’ancien mari de sa sœur, Franck LORIN, utilise sans autorisation le jardin de sa maison pour y stocker du matériel de chantier depuis le 2 juin 2025. Malgré deux lettres, il refuse de partir. Nadia BENSAÏD souhaite qu’il retire son matériel et qu’il l’indemnise de la pelouse détruite ; Franck LORIN soutient qu’il avait l’accord oral de la précédente propriétaire.",
+      "enonce": "Qualifiez juridiquement les parties, les faits et les prétentions de chacune d’elles.",
+      "reponse_attendue": "Les parties : Nadia BENSAÏD, personne physique, propriétaire de la maison et du jardin, est la future demanderesse ; Franck LORIN, personne physique, est le futur défendeur. Il n’existe aucun contrat entre eux.\nLes faits : depuis le 2 juin 2025, Franck LORIN occupe sans droit ni titre le terrain de Nadia BENSAÏD pour y stocker du matériel de chantier. Il s’agit d’un fait juridique : un agissement volontaire dont les effets de droit (atteinte au droit de propriété et dommage) n’ont pas été recherchés. Le comportement a causé un dommage matériel : la pelouse a été détruite. Deux lettres de demande restées sans effet montrent l’échec d’une tentative de règlement amiable.\nLes prétentions : Nadia BENSAÏD prétend obtenir la cessation du trouble, c’est-à-dire le retrait du matériel, et des dommages et intérêts en réparation de la destruction de sa pelouse. Franck LORIN prétend au contraire avoir le droit d’occuper les lieux en invoquant un accord oral de l’ancienne propriétaire ; il devra en apporter la preuve et démontrer que cet accord est opposable à la nouvelle propriétaire.\nLa question de droit est de savoir si l’occupation d’un terrain sans l’accord de son propriétaire actuel engage la responsabilité de l’occupant et l’oblige à quitter les lieux.",
+      "articles_cites": []
+    },
+    {
+      "slot": 3,
+      "points": 2,
+      "situation": "Le 10 janvier 2025, Pauline MARTY a souscrit un abonnement internet auprès de l’opérateur NETCIEL. Depuis mars, la connexion est coupée plusieurs jours par semaine. Le 2 mai 2025, elle a adressé une réclamation écrite au service client, restée sans réponse. Le 20 juin 2025, elle a saisi le médiateur des communications électroniques, qui l’informe que l’opérateur conteste la recevabilité de sa demande.",
+      "enonce": "Développez l’argumentation juridique que Pauline MARTY peut avancer pour que sa demande soit examinée par le médiateur à l’aide de l’annexe 1.",
+      "reponse_attendue": "Fondement : l’article L612-2 du Code de la consommation énumère les cas dans lesquels un litige ne peut pas être examiné par le médiateur de la consommation : absence de réclamation écrite préalable auprès du professionnel, demande manifestement infondée ou abusive, litige déjà examiné par un autre médiateur ou un tribunal, saisine plus d’un an après la réclamation écrite, litige hors du champ de compétence du médiateur.\nEn l’espèce, aucune de ces causes d’irrecevabilité n’est réunie :\n- Pauline MARTY a tenté de résoudre le litige directement auprès du professionnel en adressant une réclamation écrite le 2 mai 2025 au service client de NETCIEL ;\n- sa demande n’est pas infondée : les coupures répétées depuis mars constituent une mauvaise exécution du contrat d’abonnement ;\n- aucun autre médiateur ni tribunal n’a été saisi ;\n- elle a saisi le médiateur le 20 juin 2025, soit moins de deux mois après sa réclamation, bien en deçà du délai d’un an ;\n- le litige porte sur un service de communications électroniques et entre donc dans la compétence du médiateur sectoriel saisi.\nConclusion : la demande de Pauline MARTY est recevable et doit être examinée par le médiateur, mode de règlement amiable qui lui évite un procès.",
+      "articles_cites": [
+        "L612-2"
+      ]
+    },
+    {
+      "slot": 4,
+      "points": 2,
+      "situation": "Deux associés de la société TERRA DÉCO, Hélène PASQUIER et Rémi CHOLLET, sont en désaccord sur le partage des bénéfices de l’exercice 2024. Ils hésitent entre saisir immédiatement le tribunal de commerce et conclure un accord amiable.",
+      "enonce": "Pourquoi le droit distingue-t-il le simple conflit du litige ?",
+      "reponse_attendue": "Le conflit est une opposition entre des personnes, qui peut être d’ordre personnel, moral ou économique. Le droit ne s’en saisit pas tant qu’il ne porte pas sur un droit. Le litige est un conflit transformé par la qualification juridique : les faits sont qualifiés, les parties identifiées (demandeur, défendeur) et chacune formule une prétention fondée sur une règle de droit.\nCette distinction est d’abord nécessaire pour que le juge puisse intervenir : il ne tranche que des prétentions juridiques, à partir de faits qualifiés et de moyens de droit. En l’espèce, le désaccord entre Hélène PASQUIER et Rémi CHOLLET devient un litige dès lors qu’il porte sur un droit, le droit aux bénéfices de chaque associé, que l’on peut rattacher aux statuts et à la loi.\nElle permet ensuite de déterminer la juridiction compétente (ici le tribunal de commerce pour un litige entre associés d’une société commerciale) et les règles de preuve applicables.\nEnfin, la qualification juridique éclaire les parties sur leurs chances de succès et favorise la recherche d’un accord amiable : connaître ses droits permet de négocier. Le droit poursuit ainsi son objectif de pacification des relations sociales.",
+      "articles_cites": []
+    }
+  ]
+}
