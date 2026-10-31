@@ -1,0 +1,58 @@
+{
+  "id": "E6.3",
+  "type": "exercices",
+  "titre": "Exercices – Les moyens d’exonération",
+  "situation": "",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extrait du Code civil",
+      "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1218 : il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1231-1 : le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans\nl'exécution, s'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable […] du dommage […] causé par le fait des\npersonnes dont on doit répondre, ou des choses que l'on a sous sa garde. […]\nLes maîtres et les commettants, du dommage causé par leurs domestiques et\npréposés dans les fonctions auxquelles ils les ont employés ; […]\nArticle 1253 : le cas fortuit, le fait du tiers ou de la victime sont totalement\nexonératoires s’ils remplissent les caractères de la force majeure.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Monsieur Hugo FAVIER passe ses vacances au camping exploité par la SARL « Les Pins de l’Estuaire ». Le 9 août 2025, alors que soufflent des rafales de 45 km/h, une grosse branche d’un pin se détache et tombe sur sa voiture stationnée sur son emplacement. Les réparations s’élèvent à 3 200 euros. Un salarié du camping avait signalé en juin que cet arbre était fragile, mais aucun élagage n’a été réalisé.",
+      "enonce": "Développez l’argumentation juridique que Monsieur Hugo FAVIER peut avancer pour obtenir réparation du préjudice subi.",
+      "points": 2,
+      "reponse_attendue": "Fondement : l’article 1242 du Code civil dispose que l’on est responsable du dommage causé par les choses que l’on a sous sa garde. Le gardien est celui qui a l’usage, la direction et le contrôle de la chose. La victime doit prouver le fait de la chose, son dommage et le lien de causalité ; elle n’a pas à prouver une faute du gardien.\nEn l’espèce, la SARL « Les Pins de l’Estuaire », propriétaire et exploitante du camping, a l’usage, la direction et le contrôle des arbres de son terrain : elle en est gardienne. La branche, chose inerte, est tombée sur la voiture de Monsieur FAVIER : la chose a joué un rôle actif dans la réalisation du dommage. Le dommage est matériel et certain : 3 200 euros de réparations sur le véhicule. Le lien de causalité est direct.\nMonsieur FAVIER peut ajouter que le vent du 9 août n’avait rien d’exceptionnel (rafales de 45 km/h) et que l’arbre avait été signalé comme fragile par un salarié : l’événement n’était ni imprévisible ni irrésistible et ne constitue pas une force majeure au sens de l’article 1253. Il peut encore invoquer l’article 1241 : la négligence du camping, qui n’a pas fait élaguer l’arbre malgré l’alerte, est une faute.\nConclusion : Monsieur FAVIER peut obtenir de la SARL la réparation intégrale de son préjudice.",
+      "articles_cites": [
+        "1242",
+        "1253",
+        "1241"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Mathilde ROUSSEL, 24 ans, a acheté une trottinette électrique fabriquée par la SAS « Volta Glisse ». La notice interdit toute modification du limiteur de vitesse fixé à 25 km/h. Mathilde fait pourtant débrider l’appareil par un réparateur. Le 3 mars 2025, alors qu’elle roule à 38 km/h, la fourche se rompt ; une expertise révèle une fragilité de la soudure. Mathilde, blessée au poignet, réclame 6 000 euros au fabricant.",
+      "enonce": "Proposez l’argumentation juridique que la SAS « Volta Glisse » pourrait développer pour s’exonérer de sa responsabilité.",
+      "points": 2,
+      "reponse_attendue": "Principe : le producteur est responsable du dommage causé par un défaut de son produit. Il peut toutefois s’exonérer partiellement ou totalement en prouvant une cause étrangère. L’article 1245-12 du Code civil prévoit que la responsabilité du producteur peut être réduite ou supprimée, compte tenu de toutes les circonstances, lorsque le dommage est causé conjointement par un défaut du produit et par la faute de la victime. En revanche, selon l’article 1245-13, le fait d’un tiers ne réduit pas sa responsabilité.\nEn l’espèce, Mathilde ROUSSEL a fait débrider sa trottinette pour dépasser 25 km/h, alors que la notice l’interdisait expressément, et circulait à 38 km/h. Ce comportement est une faute d’imprudence de la victime, qui a contribué à la rupture de la fourche et à sa chute. La SAS « Volta Glisse » peut donc demander que sa responsabilité soit réduite, voire supprimée si elle démontre que la vitesse excessive est la cause exclusive du dommage.\nElle ne pourra en revanche invoquer le rôle du réparateur qui a réalisé le débridage à la demande de Mathilde, car le fait d’un tiers n’est pas exonératoire en matière de produits défectueux (article 1245-13).\nConclusion : une exonération partielle est la solution la plus probable.",
+      "articles_cites": [
+        "1245-12",
+        "1245-13"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Les Éditions Chauvel confient le 6 janvier 2025 à la SAS « Rapid’Colis » la livraison de 30 cartons de livres vers une librairie lyonnaise. Les cartons sont égarés à la suite d’une erreur de tri dans l’entrepôt du transporteur. Les conditions générales de la SAS « Rapid’Colis », acceptées par l’éditeur, précisent : « Le transporteur n’est en aucun cas responsable de la perte des colis ».",
+      "enonce": "Après avoir rappelé ce qu’est une cause étrangère, vous répondrez à la question suivante à l’aide de vos connaissances personnelles : Pourquoi le transporteur ne peut-il pas s’exonérer de sa responsabilité par une simple clause du contrat ?",
+      "points": 2,
+      "reponse_attendue": "Une cause étrangère est un événement non imputable au responsable qui rompt, en tout ou partie, le lien de causalité entre son fait et le dommage : la force majeure, le fait ou la faute d’un tiers, le fait ou la faute de la victime. Elle permet au responsable de s’exonérer totalement ou partiellement.\nL’article L133-1 du Code de commerce rend le voiturier garant de la perte des objets à transporter, hors les cas de la force majeure, et déclare nulle toute clause contraire insérée dans une lettre de voiture ou un tarif. En l’espèce, la clause de la SAS « Rapid’Colis » excluant toute responsabilité en cas de perte est donc nulle ; seule la force majeure pourrait l’exonérer, et une simple erreur de tri n’en présente pas les caractères.\nLe législateur interdit cette clause pour protéger l’expéditeur, souvent en position de faiblesse face au transporteur, qui impose ses conditions générales. Admettre la clause viderait de sa substance l’obligation essentielle de livrer : le transporteur pourrait perdre la marchandise sans conséquence. La règle maintient la sécurité des échanges commerciaux et incite le professionnel à la vigilance. L’exonération ne peut donc résulter que d’une cause étrangère réelle, appréciée par le juge.",
+      "articles_cites": [
+        "L133-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Le 22 juin 2025, Madame Clémence AUBRY confie son chien à sa voisine, Madame NGUYEN, le temps d’une promenade d’une heure. Au parc, Lucas PERRIN, 12 ans, tire la queue de l’animal malgré l’avertissement de Madame NGUYEN. Le chien le mord au mollet ; Lucas reçoit six points de suture. Ses parents réclament réparation à Madame AUBRY, qui répond que « l’enfant l’a bien cherché ».",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Madame Clémence AUBRY, personne physique, propriétaire et gardienne d’un chien, a confié celui-ci pendant une heure à sa voisine, Madame NGUYEN, pour une promenade. Pendant cette promenade, le chien a mordu Lucas PERRIN, mineur de 12 ans, victime d’un dommage corporel (blessure au mollet nécessitant des points de suture) et d’un préjudice moral.\nLe fait générateur est le fait d’un animal ; le régime applicable est la responsabilité extracontractuelle du fait des animaux, qui pèse sur le propriétaire ou celui qui s’en sert, présumé responsable. La garde n’ayant été confiée que le temps d’une promenade, Madame AUBRY reste en principe gardienne.\nLes parents de Lucas, représentants légaux de la victime, demandent réparation. Madame AUBRY entend s’exonérer en invoquant la faute de la victime : Lucas avait tiré la queue du chien malgré l’avertissement de Madame NGUYEN. Cette faute pourrait conduire à une exonération partielle, voire totale si elle présentait les caractères de la force majeure (article 1253 du Code civil).",
+      "articles_cites": [
+        "1253"
+      ]
+    }
+  ]
+}

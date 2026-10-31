@@ -1,0 +1,62 @@
+{
+  "id": "C7.1",
+  "type": "cas",
+  "titre": "Inès KOWALSKI, graphiste « indépendante » chez Pixel & Papier",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS « Pixel & Papier », agence de communication installée à Lille et présidée par Monsieur Bastien DUCROCQ, emploie douze salariés. En février 2024, plutôt que de recruter une graphiste salariée, elle propose à Madame Inès KOWALSKI, qui vient de créer son entreprise individuelle sous le régime de la micro-entreprise, un « contrat de prestation de services » d’un an renouvelable, rémunéré 2 600 euros par mois sur facture (annexe 1).\nDans les faits, Inès KOWALSKI travaille exclusivement pour l’agence, dans ses locaux, sur un poste informatique fourni par elle, de 9 heures à 18 heures. Elle reçoit chaque lundi un planning de tâches établi par la directrice artistique, qui valide ou refuse ses maquettes. Ses congés doivent être « posés » dans le logiciel de l’agence. Le 3 juin 2025, après un retard de livraison, Monsieur DUCROCQ lui adresse un courriel lui annonçant une « retenue de 300 euros sur la prochaine facture » (annexe 2).\nLe 30 septembre 2025, l’agence informe Inès KOWALSKI que le contrat ne sera pas renouvelé. Celle-ci, qui n’a jamais travaillé pour un autre client, considère qu’elle était en réalité salariée et souhaite saisir le conseil de prud’hommes pour faire reconnaître l’existence d’un contrat de travail à durée indéterminée. Monsieur DUCROCQ répond qu’« elle a signé un contrat de prestation, et ce contrat fait la loi des parties ».",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extrait du contrat de prestation de services conclu le 12 février 2024",
+      "texte": "Entre la SAS « Pixel & Papier », représentée par Monsieur Bastien DUCROCQ, président, ci-après « le client »,\nEt Madame Inès KOWALSKI, entrepreneur individuel, ci-après « le prestataire »,\nArticle 1 – Objet : le prestataire réalise pour le client des travaux de graphisme (maquettes, logos, supports imprimés et numériques).\nArticle 2 – Indépendance : le prestataire organise librement son travail. Il n’est soumis à aucun lien de subordination.\nArticle 3 – Lieu d’exécution : afin de faciliter les échanges avec les équipes, les prestations sont réalisées dans les locaux du client, aux heures d’ouverture de l’agence (9 h – 18 h).\nArticle 4 – Prix : 2 600 euros HT par mois, sur présentation d’une facture.\nArticle 5 – Exclusivité : pendant la durée du contrat, le prestataire s’interdit de travailler pour une autre agence de communication.\nArticle 6 – Durée : le contrat est conclu pour un an, renouvelable par accord exprès des parties.",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 2 – Courriel de Monsieur DUCROCQ du 3 juin 2025",
+      "texte": "De : b.ducrocq@pixelpapier.fr\nÀ : i.kowalski@pixelpapier.fr\nObjet : Retard dossier Brasserie du Beffroi\nInès,\nLa maquette de la Brasserie du Beffroi devait être sur mon bureau vendredi à 12 heures. Elle est arrivée lundi. Ce n’est pas acceptable. Comme je l’ai déjà fait pour d’autres membres de l’équipe, je t’applique une retenue de 300 euros sur ta prochaine facture. À l’avenir, tu m’enverras chaque soir un point sur l’avancement de tes tâches avant de partir.\nBastien",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 3 – Extraits du Code du travail et du Code civil",
+      "texte": "Article L1221-1 du Code du travail : Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.\nArticle 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 4 – Les pouvoirs de l’employeur",
+      "texte": "L’employeur dirige l’entreprise et ses salariés. À ce titre, il dispose du pouvoir d’édicter des\nrègles au sein de l’entreprise, à travers notamment le règlement intérieur, et du pouvoir […]\nde sanctionner la faute d’un salarié.\nLes conflits individuels entre employeurs et salariés liés au contrat de travail sont jugés par\nle conseil des prud’hommes. Tout salarié dispose du droit de grève pour défendre des\nrevendications professionnelles. Tant qu’il est exercé dans des conditions normales, il ne\npeut justifier ni sanction, ni licenciement.\nL’inspection du travail veille à l’application du droit du travail au sein des entreprises. Elle\nconseille et informe les employeurs, les salariés et les représentants du personnel sur leurs\ndroits et obligations et facilite la conciliation amiable entre les parties, notamment lors des\nconflits collectifs.\nSource : travail-emploi.gouv.fr",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "La SAS « Pixel & Papier », personne morale de droit privé, représentée par son président, a conclu le 12 février 2024 avec Madame Inès KOWALSKI, personne physique exerçant en tant qu’entrepreneur individuel (micro-entrepreneur), un contrat qualifié par les parties de contrat de prestation de services (contrat d’entreprise), d’une durée d’un an, rémunéré sur facture.\nDans l’exécution de ce contrat, Madame KOWALSKI fournit une prestation de travail (travaux de graphisme) en contrepartie d’une rémunération mensuelle fixe. Elle travaille dans les locaux de l’agence, avec son matériel, selon des horaires imposés et un planning fixé par la directrice artistique ; elle reçoit des ordres et des directives, son travail est contrôlé et elle a fait l’objet d’une sanction pécuniaire (retenue de 300 euros) à la suite d’un retard.\nLe 30 septembre 2025, la société a mis fin à la relation en refusant le renouvellement.\nMadame KOWALSKI, demanderesse, entend saisir le conseil de prud’hommes pour obtenir la requalification du contrat de prestation en contrat de travail à durée indéterminée, en invoquant l’existence d’un lien de subordination juridique. La SAS, défenderesse, se prévaut de la qualification retenue dans le contrat.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que Madame Inès KOWALSKI peut avancer pour faire reconnaître l’existence d’un contrat de travail.",
+      "points": 3,
+      "reponse_attendue": "Principe : le contrat de travail est la convention par laquelle une personne s’engage à fournir une prestation de travail, sous l’autorité d’une autre, en échange d’une rémunération. Le lien de subordination, élément déterminant, se caractérise par l’exécution d’un travail sous l’autorité d’un employeur qui a le pouvoir de donner des ordres et des directives, d’en contrôler l’exécution et de sanctionner les manquements. L’article L1221-1 du Code du travail précise que le contrat de travail peut être établi selon les formes que les parties décident d’adopter : son existence ne dépend pas de la dénomination donnée par les parties, mais des conditions de fait dans lesquelles l’activité est exercée.\nEn l’espèce, la prestation de travail est établie : Madame KOWALSKI réalise des travaux de graphisme pour l’agence. La rémunération aussi : 2 600 euros par mois, montant fixe, indépendant des travaux réalisés.\nLe lien de subordination est caractérisé :\n- pouvoir de direction : planning hebdomadaire imposé par la directrice artistique, horaires de 9 heures à 18 heures, travail dans les locaux et sur le matériel de l’agence, congés à « poser » ;\n- pouvoir de contrôle : validation ou refus des maquettes, obligation d’envoyer chaque soir un point d’avancement (annexe 2) ;\n- pouvoir disciplinaire : retenue de 300 euros « comme pour d’autres membres de l’équipe ».\nL’exclusivité (article 5 du contrat) et l’absence de toute autre clientèle confirment l’intégration dans un service organisé. L’indépendance proclamée à l’article 2 est contredite par les faits.\nConclusion : le juge devrait requalifier la relation en contrat de travail ; à défaut d’écrit conforme aux règles du CDD, il s’agit d’un contrat à durée indéterminée, droit commun du contrat de travail. La fin de la relation s’analyse alors en une rupture à l’initiative de l’employeur.",
+      "articles_cites": [
+        "L1221-1"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Développez l’argumentation juridique que la SAS « Pixel & Papier » pourrait lui opposer.",
+      "points": 3,
+      "reponse_attendue": "Principe : le contrat d’entreprise (contrat de prestation de services) est celui par lequel une personne s’engage, en toute indépendance, à réaliser un ouvrage ou un service pour une autre, moyennant un prix. Le prestataire organise librement son travail et n’est pas soumis à un lien de subordination. Par ailleurs, le contrat légalement formé s’impose aux parties qui l’ont signé (force obligatoire du contrat).\nEn l’espèce, la SAS peut faire valoir que Madame KOWALSKI a librement choisi le statut d’entrepreneur individuel, qu’elle est immatriculée, qu’elle facture ses prestations et a signé un contrat stipulant expressément son indépendance (article 2). Les parties ont voulu un contrat d’entreprise, et la société pourrait soutenir que leur volonté doit être respectée.\nElle peut ajouter que la présence dans les locaux et les horaires d’ouverture répondaient à une simple nécessité de coordination avec les équipes (article 3), que la validation des maquettes relève du contrôle normal d’un client sur la conformité de la commande, et que la « retenue » de 300 euros constitue une réduction du prix pour exécution imparfaite, non une sanction disciplinaire.\nCes arguments sont fragiles : la qualification donnée par les parties ne lie pas le juge, qui recherche les conditions réelles d’exercice de l’activité ; la réunion des pouvoirs de direction, de contrôle et de sanction rend probable la requalification.",
+      "articles_cites": []
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir rappelé les caractères de la règle de droit, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit du travail ne laisse-t-il pas les parties choisir librement la qualification de leur contrat ?",
+      "points": 3,
+      "reponse_attendue": "La règle de droit est générale et abstraite : elle s’applique à toutes les personnes placées dans la même situation juridique, ce qui garantit l’égalité devant la loi. Elle est obligatoire : son respect est assuré par la contrainte étatique et sa violation est sanctionnée. Elle est légitime, car elle émane d’une autorité compétente. Pour s’appliquer, elle se réfère à des catégories juridiques, comme le salarié ou le contrat de travail : c’est l’opération de qualification juridique.\nLe droit du travail confère des pouvoirs importants à l’employeur. L’annexe 4 rappelle qu’il dirige l’entreprise et ses salariés, édicte des règles à travers le règlement intérieur et sanctionne la faute d’un salarié. En contrepartie, le salarié bénéficie de protections : salaire minimum, durée du travail, congés payés, protection sociale, encadrement du licenciement, accès au conseil de prud’hommes, contrôle de l’inspection du travail.\nSi les parties pouvaient choisir librement la qualification, l’employeur, partie forte, pourrait imposer un contrat de prestation pour échapper à ces règles impératives tout en exerçant les mêmes pouvoirs. La qualification relève donc de règles d’ordre public : elle dépend des faits (lien de subordination), et non de la volonté des parties. La violation d’une règle qui a pour objet la sauvegarde de l’intérêt général est d’ailleurs sanctionnée par une nullité absolue (article 1179 du Code civil).\nAinsi, le caractère général et obligatoire de la règle de droit garantit à tous les travailleurs placés dans la même situation de fait les mêmes protections, et préserve une concurrence loyale entre entreprises.",
+      "articles_cites": [
+        "1179"
+      ]
+    }
+  ]
+}

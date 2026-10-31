@@ -1,0 +1,49 @@
+{
+  "id": "E7.1",
+  "type": "exercices",
+  "titre": "Exercices – Le contrat de travail à durée indéterminée et les formes de contrat de travail",
+  "situation": "",
+  "annexes": [],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Monsieur Romain THIBAULT a été embauché par la SARL « Boulangerie Aubert » en contrat à durée déterminée du 1er mars au 31 août 2025 pour un surcroît d’activité. Le 1er septembre, il revient travailler comme d’habitude ; son employeur ne dit rien et lui verse son salaire de septembre. Le 6 octobre 2025, la gérante lui présente un « nouveau contrat » comprenant une période d’essai de deux mois et lui laisse entendre qu’elle pourrait y mettre fin.",
+      "enonce": "Présentez les arguments juridiques que Monsieur Romain THIBAULT pourrait réunir pour montrer qu’il est désormais lié à la SARL « Boulangerie Aubert » par un contrat à durée indéterminée.",
+      "points": 2,
+      "reponse_attendue": "Principe : le contrat à durée indéterminée est le droit commun du contrat de travail ; le contrat à durée déterminée est un contrat d’exception, conclu pour un terme précis. L’article L1243-11 du Code du travail dispose que lorsque la relation contractuelle de travail se poursuit après l’échéance du terme du contrat à durée déterminée, celui-ci devient un contrat à durée indéterminée ; le salarié conserve l’ancienneté acquise et la durée du CDD est déduite de la période d’essai éventuellement prévue dans le nouveau contrat.\nEn l’espèce, le CDD de Monsieur THIBAULT prenait fin le 31 août 2025. Il a continué à travailler à la boulangerie à partir du 1er septembre, sur le même poste, sans signer de nouveau contrat, et il a été rémunéré pour ce travail. La relation contractuelle s’est donc poursuivie après l’échéance du terme : son contrat est devenu un CDI.\nIl peut ajouter que l’employeur ne peut, le 6 octobre, lui imposer une période d’essai de deux mois comme à un nouvel embauché : la durée de son CDD (six mois) doit être déduite de la période d’essai et il conserve son ancienneté depuis le 1er mars 2025. Une rupture annoncée « en fin d’essai » s’analyserait en un licenciement, soumis aux règles du CDI.",
+      "articles_cites": [
+        "L1243-11"
+      ]
+    },
+    {
+      "slot": 2,
+      "situation": "Jade MOREL a effectué son apprentissage de mécanicienne à la SAS « Garage Delaunay » de septembre 2023 à août 2025. Le 1er septembre 2025, le garage l’embauche en CDI ; le contrat prévoit une période d’essai de deux mois. Le 20 octobre, le gérant met fin au contrat « pendant l’essai ». Jade conteste. Aucune convention collective ne prévoit de règle particulière.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Mademoiselle Jade MOREL, personne physique, a été liée à la SAS « Garage Delaunay », personne morale, par un contrat d’apprentissage (contrat de travail particulier associant formation pratique dans l’entreprise et formation en centre de formation d’apprentis) de septembre 2023 à août 2025, en vue d’obtenir un CAP de mécanicienne.\nÀ l’issue de ce contrat, l’employeur l’a embauchée dans la même entreprise par un contrat de travail à durée indéterminée, droit commun du contrat de travail, conclu le 1er septembre 2025, comportant une clause de période d’essai de deux mois. Le 20 octobre 2025, l’employeur a rompu le contrat en invoquant la fin de la période d’essai.\nMademoiselle MOREL, salariée, conteste cette rupture : elle soutient qu’aucune période d’essai ne pouvait lui être imposée après son apprentissage, conformément à l’article L6222-16 du Code du travail, et que la durée de l’apprentissage doit être prise en compte pour son ancienneté. En l’absence de dispositions conventionnelles contraires, la rupture pourrait être qualifiée de licenciement.",
+      "articles_cites": [
+        "L6222-16"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Monsieur Karim BENALI, auto-entrepreneur, livre des repas à vélo pour la SAS « Gourmet Express » via une application. Le « contrat de partenariat » prévoit 4 euros par course. L’application lui attribue des créneaux, lui impose l’itinéraire, le géolocalise pendant ses livraisons et réduit le nombre de courses proposées en cas de refus. Après trois retards, son compte peut être désactivé.",
+      "enonce": "Développez l’argumentation juridique qui peut appuyer la demande de Monsieur Karim BENALI de voir reconnaître l’existence d’un contrat de travail.",
+      "points": 2,
+      "reponse_attendue": "Principe : le contrat de travail suppose une prestation de travail, une rémunération et un lien de subordination, élément déterminant. Le lien de subordination se caractérise par l’exécution d’un travail sous l’autorité d’un employeur qui a le pouvoir de donner des ordres et des directives, d’en contrôler l’exécution et de sanctionner les manquements. L’article L1221-1 du Code du travail précise que le contrat de travail peut être établi selon les formes que les parties décident d’adopter : la dénomination « contrat de partenariat » ne lie pas le juge.\nEn l’espèce, Monsieur BENALI fournit une prestation de travail (livraison de repas) contre une rémunération (4 euros par course). La plateforme fixe ses créneaux, lui impose un itinéraire (direction), le géolocalise pendant ses livraisons (contrôle) et réduit les courses proposées en cas de refus, voire désactive son compte après trois retards (sanction). Les trois pouvoirs de l’employeur sont réunis.\nConclusion : le lien de subordination étant caractérisé, Monsieur BENALI peut demander au conseil de prud’hommes la requalification de son contrat de partenariat en contrat de travail à durée indéterminée.",
+      "articles_cites": [
+        "L1221-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Madame Léna FAURE a travaillé en CDD de huit mois comme assistante administrative à la SAS « Oxygène Services ». Le 10 juin 2025, l’employeur lui propose par écrit un CDI sur le même poste, au même salaire (2 050 euros), aux mêmes horaires, à la même classification et dans les mêmes locaux. Elle refuse. L’employeur en informe France Travail ; Madame FAURE lui reproche d’avoir « compromis ses droits au chômage ».",
+      "enonce": "Développez l’argumentation juridique que la SAS « Oxygène Services » pourrait opposer à Madame Léna FAURE.",
+      "points": 2,
+      "reponse_attendue": "Principe : le CDD prend fin à l’échéance du terme. L’article L1243-11-1 du Code du travail prévoit que lorsque l’employeur propose, à l’issue du CDD, la poursuite de la relation sous forme de CDI pour occuper le même emploi ou un emploi similaire, assorti d’une rémunération au moins équivalente pour une durée de travail équivalente, relevant de la même classification et sans changement du lieu de travail, il notifie cette proposition par écrit ; en cas de refus du salarié, l’employeur en informe l’opérateur France Travail en justifiant du caractère similaire de l’emploi proposé.\nEn l’espèce, la SAS « Oxygène Services » a proposé par écrit à Madame FAURE, le 10 juin 2025, un CDI sur le même poste d’assistante administrative, au même salaire de 2 050 euros, à durée de travail et classification identiques, dans les mêmes locaux. Toutes les conditions de l’article L1243-11-1 sont réunies. Madame FAURE a refusé.\nLa société peut donc soutenir qu’elle n’a commis aucune faute en informant France Travail de ce refus : elle n’a fait qu’appliquer la loi. Le contrat a pris fin normalement à son terme ; Madame FAURE, qui a refusé un emploi similaire en CDI, ne peut reprocher à son employeur les conséquences de ce choix sur son indemnisation chômage.",
+      "articles_cites": [
+        "L1243-11-1"
+      ]
+    }
+  ]
+}

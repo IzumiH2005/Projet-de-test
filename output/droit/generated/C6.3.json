@@ -1,0 +1,71 @@
+{
+  "id": "C6.3",
+  "type": "cas",
+  "titre": "Les Transports Kervella et la livraison noyée",
+  "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexe, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS « Fromagerie des Monts d’Arrée », dirigée par Madame Gwenaëlle LE BIHAN, fabrique des fromages affinés qu’elle vend à des restaurants gastronomiques. Le 2 octobre 2025, elle conclut avec la SARL « Transports Kervella », entreprise de transport frigorifique dont le gérant est Monsieur Yann KERVELLA, un contrat portant sur l’acheminement, chaque vendredi, de ses commandes vers la région parisienne (annexe 3).\nLe vendredi 14 novembre 2025, le camion de la SARL « Transports Kervella » prend la route avec 420 meules destinées à un salon professionnel du lendemain. Le matin même, Météo-France avait placé le département en vigilance orange « pluie-inondation ». Vers 16 heures, sur une route départementale, une crue soudaine de la rivière emporte une partie de la chaussée ; le chauffeur, qui n’avait pas emprunté l’itinéraire de déviation conseillé par la préfecture à 11 heures, se retrouve bloqué pendant vingt heures. Le groupe frigorifique tombe en panne et la marchandise est perdue. Le transporteur fait également remarquer que plusieurs cartons, fournis et préparés par la fromagerie, n’étaient pas isothermes, contrairement à ce que prévoyait le contrat.\nLa SAS « Fromagerie des Monts d’Arrée » estime son préjudice à 18 600 euros (valeur des fromages et perte des commandes prises lors du salon). Par lettre recommandée du 21 novembre 2025, elle met en demeure la SARL « Transports Kervella » de l’indemniser. Monsieur KERVELLA refuse : selon lui, « personne ne pouvait prévoir une telle crue ».",
+  "annexes": [
+    {
+      "titre": "Annexe 1 – Extrait du Code civil",
+      "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1218 : il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1231-1 : le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans\nl'exécution, s'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable […] du dommage […] causé par le fait des\npersonnes dont on doit répondre, ou des choses que l'on a sous sa garde. […]\nLes maîtres et les commettants, du dommage causé par leurs domestiques et\npréposés dans les fonctions auxquelles ils les ont employés ; […]\nArticle 1253 : le cas fortuit, le fait du tiers ou de la victime sont totalement\nexonératoires s’ils remplissent les caractères de la force majeure.",
+      "source": "documents_reels"
+    },
+    {
+      "titre": "Annexe 2 – Extraits du Code de commerce",
+      "texte": "Article L133-1 du Code de commerce : Le voiturier est garant de la perte des objets à transporter, hors les cas de la force majeure. Il est garant des avaries autres que celles qui proviennent du vice propre de la chose ou de la force majeure. Toute clause contraire insérée dans toute lettre de voiture, tarif ou autre pièce quelconque, est nulle.\nArticle L132-4 du Code de commerce : Il est garant de l'arrivée des marchandises et effets dans le délai déterminé par la lettre de voiture, hors les cas de la force majeure légalement constatée.",
+      "source": "cours"
+    },
+    {
+      "titre": "Annexe 3 – Extrait du contrat de transport conclu le 2 octobre 2025 entre la SAS « Fromagerie des Monts d’Arrée » et la SARL « Transports Kervella »",
+      "texte": "Article 2 – Obligations du transporteur\nLe transporteur s’engage à livrer les marchandises qui lui sont confiées à l’adresse indiquée, au plus tard le samedi à 8 heures, à une température comprise entre 2 °C et 6 °C. Il choisit l’itinéraire et se tient informé des conditions de circulation et des consignes des autorités.\nArticle 3 – Obligations de l’expéditeur\nL’expéditeur remet les marchandises conditionnées dans des cartons isothermes fermés et étiquetés. Tout défaut de conditionnement est signalé par écrit au moment du chargement.\nArticle 5 – Responsabilité\nEn cas de perte ou d’avarie, le transporteur indemnise l’expéditeur sur la base de la valeur des marchandises figurant sur la lettre de voiture, sauf s’il établit que le dommage résulte d’un cas de force majeure ou d’un défaut de conditionnement imputable à l’expéditeur.\nFait à Morlaix, le 2 octobre 2025.",
+      "source": "invente"
+    },
+    {
+      "titre": "Annexe 4 – La nécessaire existence des causes d’exonération",
+      "texte": "Même si l’objectif du droit de la responsabilité est d’indemniser les victimes, le dommage\nrésulte parfois de causes qui sont étrangères à la personne qui peut être identifiée comme\nauteur du dommage.\nMais il n’est pas si simple pour le responsable de se libérer de sa responsabilité ; les\nconditions permettant de s’exonérer restent assez strictes.\nPar exemple, la Cour de cassation a rappelé dans un arrêt 7 avril 2022 que la faute de la\nvictime n’exonère totalement le défendeur que si cette victime est à l’origine exclusive de\nson propre dommage. Dans les faits, une personne alcoolisée et sous l’emprise de la\ndrogue, assise à la fenêtre d’un appartement située au cinquième d’un immeuble a basculé\ndans le vide et a trouvé la mort. La Cour a considéré que la responsabilité de ce drame était\npartagée entre la victime et le bailleur de l’appartement qui n’avait pas installé de gardecorps aux fenêtres.\nSource : les auteurs.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "La SAS « Fromagerie des Monts d’Arrée », personne morale, expéditeur et créancière de l’obligation de livraison, a conclu le 2 octobre 2025 un contrat de transport, contrat synallagmatique, avec la SARL « Transports Kervella », personne morale, transporteur professionnel (voiturier), débitrice d’une obligation de livrer les marchandises à bon port, dans un délai et à une température déterminés. La fromagerie est, de son côté, tenue de remettre des marchandises conditionnées dans des cartons isothermes.\nLe 14 novembre 2025, au cours de l’exécution du contrat, la marchandise a été perdue : il y a inexécution de l’obligation contractuelle du transporteur. Cette inexécution cause à l’expéditeur un dommage matériel (perte de 420 meules) et un préjudice économique (perte des commandes du salon), évalués à 18 600 euros.\nLe transporteur invoque un événement naturel, une crue soudaine, qu’il présente comme un cas de force majeure, ainsi que le défaut de conditionnement des cartons, qu’il présente comme une faute de la victime. La fromagerie, créancière, a adressé une mise en demeure au débiteur le 21 novembre 2025.\nLe litige porte sur la responsabilité contractuelle du transporteur et sur la possibilité pour celui-ci de s’exonérer totalement ou partiellement en invoquant une cause étrangère.",
+      "articles_cites": []
+    },
+    {
+      "slot": 2,
+      "enonce": "Développez l’argumentation juridique que la SAS « Fromagerie des Monts d’Arrée » peut avancer pour obtenir réparation du préjudice subi.",
+      "points": 3,
+      "reponse_attendue": "Fondement : l’article 1103 du Code civil pose que les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits ; l’article 1231-1 prévoit que le débiteur est condamné au paiement de dommages et intérêts à raison de l’inexécution de l’obligation, s’il ne justifie pas que l’exécution a été empêchée par la force majeure. L’article L133-1 du Code de commerce rend le voiturier garant de la perte des objets à transporter, hors les cas de la force majeure.\nEn l’espèce, la SARL « Transports Kervella » s’est engagée (article 2 du contrat) à livrer les fromages au plus tard le samedi à 8 heures, à une température comprise entre 2 °C et 6 °C. La marchandise a été entièrement perdue : l’obligation n’a pas été exécutée. Le transporteur, voiturier professionnel, est garant de la perte ; la fromagerie n’a donc pas à prouver une faute, il lui suffit d’établir l’inexécution, le dommage et le lien de causalité.\nLe dommage est certain : valeur des 420 meules et perte des commandes du salon, soit 18 600 euros. Il est la suite immédiate et directe de l’inexécution.\nLa fromagerie peut ajouter que le transporteur avait l’obligation contractuelle de se tenir informé des consignes des autorités : la vigilance orange avait été émise le matin et une déviation avait été conseillée à 11 heures. Le chauffeur, préposé du transporteur, ne l’a pas empruntée ; l’événement n’était donc ni imprévisible ni inévitable.\nConclusion : la fromagerie, après la mise en demeure du 21 novembre 2025, peut demander réparation des conséquences de l’inexécution, sur le fondement de l’article 1217, soit 18 600 euros de dommages et intérêts.",
+      "articles_cites": [
+        "1103",
+        "1231-1",
+        "L133-1",
+        "1217"
+      ]
+    },
+    {
+      "slot": 3,
+      "enonce": "Proposez l’argumentation juridique que la SARL « Transports Kervella » pourrait développer pour s’exonérer de sa responsabilité.",
+      "points": 3,
+      "reponse_attendue": "Principe : le débiteur échappe à sa responsabilité s’il prouve une cause étrangère. Selon l’article 1218 du Code civil, il y a force majeure lorsqu’un événement échappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion du contrat et dont les effets ne peuvent être évités par des mesures appropriées, empêche l’exécution. L’article 1231-1 et l’article L133-1 du Code de commerce écartent la responsabilité du transporteur en cas de force majeure. L’article 1253 précise que le fait de la victime est totalement exonératoire s’il présente les caractères de la force majeure.\nPremier argument, la force majeure : la crue soudaine qui a emporté la chaussée échappe au contrôle du transporteur (extériorité) ; lors de la conclusion du contrat, le 2 octobre 2025, une telle crue ne pouvait raisonnablement être prévue (imprévisibilité) ; une fois le camion bloqué, la panne du groupe frigorifique et la perte des fromages ne pouvaient être évitées (irrésistibilité). Le transporteur pourrait ainsi obtenir une exonération totale. Cet argument est fragile : la vigilance orange et la déviation conseillée rendaient l’événement prévisible le jour même et ses effets évitables.\nSecond argument, la faute de la victime : l’article 3 du contrat imposait à l’expéditeur des cartons isothermes ; or plusieurs cartons ne l’étaient pas. Ce manquement de la fromagerie a contribué à la perte de la marchandise. L’article 5 du contrat prévoit d’ailleurs l’exonération en cas de défaut de conditionnement imputable à l’expéditeur.\nConclusion : à défaut de démontrer la force majeure, le transporteur peut au moins obtenir une exonération partielle, la responsabilité étant partagée à proportion de la faute de la victime.",
+      "articles_cites": [
+        "1218",
+        "1231-1",
+        "1253",
+        "L133-1"
+      ]
+    },
+    {
+      "slot": 4,
+      "enonce": "Après avoir défini la force majeure, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi le droit permet-il au responsable de s’exonérer de sa responsabilité ?",
+      "points": 3,
+      "reponse_attendue": "Définition : la force majeure est un événement qui échappe au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion du contrat et dont les effets ne peuvent être évités par des mesures appropriées (article 1218 du Code civil). Ses caractères sont l’extériorité, l’imprévisibilité et l’irrésistibilité. Elle est, avec le fait d’un tiers et le fait de la victime, une cause étrangère.\nLe droit de la responsabilité a pour objectif premier d’indemniser les victimes. Mais il serait injuste de faire peser la réparation sur une personne dont le comportement n’est pas la véritable cause du dommage. L’annexe 4 rappelle que « le dommage résulte parfois de causes qui sont étrangères à la personne qui peut être identifiée comme auteur du dommage ». L’exonération rétablit alors le lien de causalité réel : on ne répond que de ce que l’on a causé.\nL’exonération responsabilise aussi la victime : celle qui a commis une faute supporte une part de son propre dommage. Dans l’arrêt du 7 avril 2022 cité en annexe 4, la responsabilité est partagée entre la victime et le bailleur qui n’avait pas installé de garde-corps.\nPour autant, le droit encadre strictement l’exonération afin de ne pas priver les victimes de réparation : les conditions de la force majeure sont exigeantes, la faute de la victime n’exonère totalement que si celle-ci est à l’origine exclusive du dommage (annexe 4), et certains régimes limitent l’exonération, comme l’article 1245-13 pour le fait d’un tiers en matière de produits défectueux.\nLe droit recherche ainsi un équilibre entre l’indemnisation des victimes et l’équité envers le responsable.",
+      "articles_cites": [
+        "1218",
+        "1245-13"
+      ]
+    }
+  ]
+}
