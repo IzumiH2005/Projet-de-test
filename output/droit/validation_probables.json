@@ -1,0 +1,398 @@
+{
+ "resume": {
+  "facette_ok": 1.0,
+  "section_ok": 1.0,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 1.0,
+  "longueur_ok": 1.0,
+  "annexes_ok": 1.0,
+  "tout_ok": 1.0,
+  "questions": 12,
+  "annexes": 8,
+  "lots": 3
+ },
+ "detail": [
+  {
+   "id": "P2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "8.4",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.137,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 621,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "clause",
+      "inexecution"
+     ]
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "8.4",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.617,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.137,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 519,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "clause",
+      "inexecution"
+     ]
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "8.4",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.137,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 528,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "inexecution"
+     ]
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "8.4",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.481,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.137,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 476,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "clause",
+      "inexecution"
+     ]
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : Extrait du bon de commande du 5 janvier 2026",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.24,
+     "fidelite": 0.01,
+     "ok": true
+    }
+   ],
+   "revision": [],
+   "intention_cachee_couverte": 0.67
+  },
+  {
+   "id": "P4",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "2.1",
+      "4.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.173,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 620,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": []
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "8.4",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.535,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.173,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 551,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "subordination"
+     ]
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "5.2",
+      "1.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.173,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 498,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "subordination"
+     ]
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "8.4",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.526,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.173,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 468,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "subordination"
+     ]
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extrait du Code du travail",
+     "type_support": "travail code contrat duree",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.95,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : Les pouvoirs de l’employeur",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [],
+   "intention_cachee_couverte": 0.5
+  },
+  {
+   "id": "SP-1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.151,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 679,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "consommateur"
+     ]
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.716,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.151,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 621,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "consentement",
+      "vices"
+     ]
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "3.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.754,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.151,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 552,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "consommateur"
+     ]
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "4.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.688,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.151,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 504,
+     "intention_dite_dans_l_enonce": [],
+     "intention_exigee_dans_le_corrige": [
+      "consentement",
+      "consommateur"
+     ]
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : La notion de professionnel en droit de la consommation",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : La « bonne foi » et la loyauté dans le contrat",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [],
+   "intention_cachee_couverte": 0.6
+  }
+ ]
+}

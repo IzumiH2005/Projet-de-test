@@ -1,0 +1,66 @@
+{
+ "id": "SP-1",
+ "type": "probable",
+ "titre": "Le buffet « Louis-Philippe »",
+ "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nInès Moreau exerce depuis 2019, sous le statut d’entrepreneur individuel, une activité de restauration et de revente de meubles anciens dans un atelier-boutique situé à Angers. En février 2026, Paul Garnier, professeur des écoles, cherche un buffet pour sa salle à manger. Dans la boutique, il remarque un buffet présenté sur l’étiquette comme « buffet en chêne massif, époque Louis-Philippe, vers 1840 », vendu 2 400 €. Il explique à Inès Moreau qu’il souhaite un meuble ancien et authentique, qu’il entend transmettre à ses enfants. Inès Moreau lui confirme oralement l’authenticité du meuble et ajoute qu’« un autre client doit repasser le voir samedi ». Paul Garnier signe le bon de commande le jour même et paie la totalité du prix.\nTrois mois plus tard, un expert en mobilier consulté par Paul Garnier pour l’assurance de son habitation constate que le buffet est une reproduction fabriquée dans les années 1970 en panneaux plaqués, dont la valeur n’excède pas 450 €. Un ancien salarié de l’atelier affirme qu’Inès Moreau avait acheté ce meuble lors d’une vente aux enchères où il était décrit comme « style Louis-Philippe, travail moderne ». Paul Garnier souhaite récupérer son argent. Inès Moreau répond qu’elle n’est pas experte, que Paul Garnier aurait dû examiner le meuble plus attentivement et que, de toute façon, son patrimoine personnel ne peut pas être saisi.",
+ "annexes": [
+  {
+   "titre": "Annexe 1 : articles du Code civil",
+   "source": "documents_reels",
+   "texte": "Article 1104 : Les contrats doivent être négociés, formés et exécutés de bonne foi.\nArticle 1131 : Les vices du consentement sont une cause de nullité relative du\ncontrat.\nArticle 1132 : L'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une\ncause de nullité du contrat lorsqu'elle porte sur les qualités essentielles de la\nprestation due ou sur celles du cocontractant.\nArticle 1133 : Les qualités essentielles de la prestation sont celles qui ont été\nexpressément ou tacitement convenues et en considération desquelles les parties\nont contracté. L'erreur est une cause de nullité qu'elle porte sur la prestation de l'une\nou de l'autre partie. L'acceptation d'un aléa sur une qualité de la prestation exclut\nl'erreur relative à cette qualité.\nArticle 1135 : L'erreur sur un simple motif, étranger aux qualités essentielles de la\nprestation due ou du cocontractant, n'est pas une cause de nullité, à moins que les\nparties n'en aient fait expressément un élément déterminant de leur consentement.\nArticle 1137 : Le dol est le fait pour un contractant d'obtenir le consentement de\nl'autre par des manœuvres ou des mensonges. Constitue également un dol la\ndissimulation intentionnelle par l'un des contractants d'une information dont il sait le\ncaractère déterminant pour l'autre partie.\nArticle 1139 : L’erreur qui résulte d’un dol est toujours excusable ; elle est une cause\nde nullité alors même qu’elle porterait sur la valeur de la prestation ou sur un simple\nmotif du contrat."
+  },
+  {
+   "titre": "Annexe 2 : La notion de professionnel en droit de la consommation",
+   "source": "documents_reels",
+   "texte": "Le terme de « professionnel » est défini dans l’ordonnance n° 2016-301 du 14 mars\n2016 comme « toute personne physique ou morale, publique ou privée, qui agit à des\nfins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale\nou agricole, y compris lorsqu’elle agit au nom ou pour le compte d’un autre\nprofessionnel ».\nLe professionnel peut être une personne physique ou morale et la forme juridique de\nl’entreprise n’est pas à prendre en considération.\nLe « professionnel » se distingue du « non-professionnel », et se définit comme\n« toute personne morale qui n’agit pas à des fins professionnelles ». Cette notion\npermet d’étendre aux personnes morales agissant en dehors de leur activité\nprofessionnelle la protection accordée aux consommateurs.\nSource : les auteurs"
+  },
+  {
+   "titre": "Annexe 3 : La « bonne foi » et la loyauté dans le contrat",
+   "source": "documents_reels",
+   "texte": "La \"bonne foi\" est la croyance qu'a une personne de se trouver dans une situation\nconforme au droit, et la conscience d'agir sans léser les droits d'autrui. C'est une notion\nfréquemment utilisée dans notre législation pour atténuer les rigueurs de l'application\nde règles positives. Les contrats doivent être négociés, formés et exécutés de bonne\nfoi. Cette disposition est d'ordre public. De même, l'initiative, le déroulement et la\nrupture des négociations précontractuelles sont libres. Ils doivent impérativement\nsatisfaire aux exigences de la bonne foi.\nSource : https://www.dictionnaire-juridique.com/definition/bonne-foi.php (consulté le\n05/12/2022)"
+  }
+ ],
+ "questions": [
+  {
+   "slot": 1,
+   "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+   "points": 2,
+   "articles_cites": [],
+   "reponse_attendue": "Inès Moreau, entrepreneur individuel et donc professionnel (personne physique agissant à des fins entrant dans le cadre de son activité commerciale), a conclu un contrat de vente avec Paul Garnier, personne physique agissant à des fins étrangères à son activité professionnelle, donc consommateur. Le contrat est un accord de volontés créant des obligations : Inès Moreau, débitrice de l’obligation de délivrance, doit livrer le buffet ; Paul Garnier, débiteur du prix, l’a payé (2 400 €). La chose vendue est présentée comme un meuble authentique d’époque Louis-Philippe ; elle se révèle être une reproduction des années 1970 d’une valeur de 450 €. L’authenticité était une qualité essentielle convenue entre les parties, puisque l’acheteur l’avait expressément exprimée. Le vendeur connaissait la description réelle du meuble (« travail moderne ») et a affirmé le contraire. Paul Garnier, demandeur, souhaite obtenir la nullité du contrat et la restitution du prix ; Inès Moreau, défenderesse, conteste en invoquant son absence de compétence, la négligence de l’acheteur et la protection de son patrimoine personnel. Problème juridique : un contrat conclu à la suite d’une information mensongère du vendeur professionnel sur une qualité essentielle de la chose peut-il être annulé, et sur quel patrimoine l’acheteur peut-il obtenir la restitution du prix ?"
+  },
+  {
+   "slot": 2,
+   "enonce": "Développez l’argumentation juridique que Paul Garnier peut avancer pour obtenir l’annulation de la vente du buffet et le remboursement de son prix.",
+   "points": 3,
+   "articles_cites": [
+    "1104",
+    "1131",
+    "1132",
+    "1133",
+    "1137",
+    "1139"
+   ],
+   "reponse_attendue": "Règle : selon l’article 1104 du Code civil, les contrats doivent être négociés, formés et exécutés de bonne foi. Un contrat n’est valablement formé que si le consentement de chaque partie est libre et éclairé. L’article 1131 prévoit que les vices du consentement sont une cause de nullité relative. L’article 1137 définit le dol comme le fait d’obtenir le consentement de l’autre partie par des manœuvres ou des mensonges, ou par la dissimulation intentionnelle d’une information déterminante. L’article 1139 précise que l’erreur provoquée par un dol est toujours excusable. À titre subsidiaire, l’article 1132 retient l’erreur sur les qualités essentielles de la prestation, définies à l’article 1133 comme celles qui ont été expressément ou tacitement convenues.\nApplication : Inès Moreau a affirmé l’authenticité du buffet alors qu’elle l’avait acquis décrit comme « travail moderne » : il y a un mensonge (élément matériel) et l’intention de tromper (élément intentionnel), renforcée par la pression « un autre client doit repasser samedi ». Ce mensonge a été déterminant : Paul Garnier avait indiqué vouloir un meuble ancien à transmettre ; sans lui il n’aurait pas contracté, ou à 450 € et non 2 400 €. Le dol est donc caractérisé et l’erreur qui en résulte est excusable, même si l’acheteur n’a pas examiné le meuble. Même sans prouver l’intention, l’authenticité était une qualité essentielle convenue : l’erreur porte sur la substance de la prestation.\nConclusion : Paul Garnier peut demander la nullité relative du contrat pour dol (ou pour erreur sur les qualités essentielles). La nullité entraîne l’anéantissement rétroactif du contrat : restitution du buffet contre remboursement des 2 400 €, et il peut en outre réclamer des dommages et intérêts sur le fondement de la responsabilité extracontractuelle pour la faute commise lors des négociations."
+  },
+  {
+   "slot": 3,
+   "enonce": "Développez l’argumentation juridique qu’Inès Moreau pourrait lui opposer.",
+   "points": 3,
+   "articles_cites": [
+    "1132",
+    "1135"
+   ],
+   "reponse_attendue": "Inès Moreau peut d’abord soutenir l’absence de dol : le dol suppose une intention de tromper. Elle peut prétendre avoir cru de bonne foi à l’authenticité du meuble, faute de compétence d’expert, et avoir seulement repris l’étiquette. Il appartient à Paul Garnier, demandeur, de prouver le mensonge intentionnel ; or seule l’attestation d’un ancien salarié l’établit, et sa valeur probante peut être discutée.\nElle peut ensuite invoquer l’article 1132 du Code civil : l’erreur n’est une cause de nullité qu’à condition de ne pas être inexcusable. Un acheteur qui paie 2 400 € sans faire examiner le meuble aurait commis une négligence. Elle peut aussi tenter de soutenir, sur le fondement de l’article 1135, que la volonté de transmettre le meuble à ses enfants n’est qu’un simple motif, étranger aux qualités essentielles, qui n’entraîne pas la nullité.\nEnfin, sur la restitution, elle rappellera qu’en tant qu’entrepreneur individuel son patrimoine est divisé depuis la loi du 14 février 2022 : ses biens personnels ne répondent en principe que des dettes personnelles, et seul son patrimoine professionnel est le gage des créanciers professionnels.\nCes arguments sont toutefois fragiles : l’authenticité a été expressément convenue, elle est donc une qualité essentielle et non un simple motif ; l’erreur provoquée par un dol est toujours excusable (article 1139), de sorte que la négligence de l’acheteur est sans effet ; et le professionnel est tenu d’une obligation d’information renforcée envers un consommateur. Seul l’argument patrimonial porte : Paul Garnier, créancier professionnel, sera remboursé sur le patrimoine professionnel d’Inès Moreau."
+  },
+  {
+   "slot": 4,
+   "enonce": "Après avoir rappelé les conditions de formation d’un contrat, vous répondrez à la question suivante à l’aide de l’annexe 3 et de vos connaissances personnelles : Pourquoi le droit sanctionne-t-il le contractant qui ment ou se tait pour obtenir la conclusion d’un contrat ?",
+   "points": 3,
+   "articles_cites": [
+    "1104",
+    "1137"
+   ],
+   "reponse_attendue": "Rappel : pour être valablement formé, un contrat suppose la rencontre d’une offre et d’une acceptation, le consentement libre et éclairé de parties capables de contracter, et un contenu licite et certain. Le consentement ne doit pas être altéré par un vice : erreur, dol ou violence.\nLe droit sanctionne le mensonge ou le silence pour plusieurs raisons. D’abord, le contrat repose sur l’autonomie de la volonté : il n’a de force obligatoire que parce que chacun l’a voulu. Un engagement obtenu par tromperie n’exprime pas une volonté véritable ; la nullité rétablit la situation antérieure. Ensuite, l’annexe 3 rappelle que la bonne foi est la conscience d’agir sans léser les droits d’autrui et que les négociations, libres, doivent impérativement satisfaire à ses exigences : l’article 1104 en fait une règle d’ordre public, et l’article 1137 assimile au dol la dissimulation intentionnelle d’une information déterminante. Le droit impose ainsi une loyauté minimale dès la négociation.\nEnfin, ces règles protègent la partie faible : le consommateur face au professionnel, qui dispose d’une information supérieure, d’où une obligation d’information et de conseil. Elles assurent la sécurité des échanges et la confiance nécessaire au bon fonctionnement de l’économie : sans sanction, le contractant malhonnête tirerait profit de sa faute. La sanction est double : nullité relative du contrat, qui protège l’intérêt de la victime, et dommages et intérêts réparant le préjudice causé par la faute précontractuelle."
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "id": "P2",
+ "type": "probable",
+ "titre": "La chambre froide de la Maison Lemaire",
+ "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexes numérotées de 1 à 3, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SARL Maison Lemaire exploite une pâtisserie artisanale à Rouen. Pour développer la vente de gâteaux glacés, elle commande le 5 janvier 2026 à la SAS FroidPro une chambre froide installée, pour un prix de 18 000 € HT. Le bon de commande prévoit une livraison et une mise en service au plus tard le 1er mars 2026, le versement d’un acompte de 30 % à la commande et le paiement du solde à la mise en service. Il stipule également qu’« en cas de retard de livraison, le vendeur versera une indemnité forfaitaire de 100 € par jour de retard ».\nLa chambre froide n’est installée que le 15 avril 2026. Dès la première semaine, la température intérieure ne descend jamais en dessous de 2 °C au lieu des –18 °C annoncés ; la SARL Maison Lemaire doit jeter un stock de 3 200 € et renoncer aux commandes de Pâques. Elle adresse à la SAS FroidPro une lettre recommandée lui demandant de remédier au défaut sous quinze jours, et refuse de payer le solde. Le technicien de FroidPro ne se déplace pas.\nLa SAS FroidPro réclame le paiement du solde. Elle explique que son fournisseur de compresseurs, installé en Asie, a été bloqué plusieurs semaines par des perturbations du transport maritime, et que le défaut de température vient d’un branchement électrique réalisé par l’électricien de la pâtisserie.",
+ "annexes": [
+  {
+   "titre": "Annexe 1 : extraits du Code civil",
+   "source": "documents_reels",
+   "texte": "Article 6 : On ne peut déroger, par des conventions particulières, aux lois qui intéressent\nl’ordre public et les bonnes mœurs.\nArticle 1103 : Les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1217 : La partie envers laquelle l'engagement n'a pas été exécuté, ou l'a été\nimparfaitement, peut :\n- refuser d'exécuter ou suspendre l'exécution de sa propre obligation ;\n- poursuivre l'exécution forcée en nature de l'obligation ;\n- obtenir une réduction du prix ;\n- provoquer la résolution du contrat ;\n- demander réparation des conséquences de l'inexécution.\nLes sanctions qui ne sont pas incompatibles peuvent être cumulées ; des dommages et\nintérêts peuvent toujours s'y ajouter.\nArticle 1219 : Une partie peut refuser d'exécuter son obligation, alors même que celle-ci\nest exigible, si l'autre n'exécute pas la sienne et si cette inexécution est suffisamment grave.\nArticle 1231-1 : Le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans l'exécution,\ns'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1231-2 : Les dommages et intérêts dus au créancier sont, en général, de la perte\nqu'il a faite et du gain dont il a été privé […]."
+  },
+  {
+   "titre": "Annexe 2 : extraits du Code civil",
+   "source": "documents_reels",
+   "texte": "Article 1103 : les contrats légalement formés tiennent lieu de loi à ceux qui les ont\nfaits.\nArticle 1218 : il y a force majeure en matière contractuelle lorsqu'un événement\néchappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de\nla conclusion du contrat et dont les effets ne peuvent être évités par des mesures\nappropriées, empêche l'exécution de son obligation par le débiteur. […]\nArticle 1231-1 : le débiteur est condamné, s'il y a lieu, au paiement de dommages et\nintérêts soit à raison de l'inexécution de l'obligation, soit à raison du retard dans\nl'exécution, s'il ne justifie pas que l'exécution a été empêchée par la force majeure.\nArticle 1240 : tout fait quelconque de l'homme, qui cause à autrui un dommage, oblige\ncelui par la faute duquel il est arrivé à le réparer.\nArticle 1241 : chacun est responsable du dommage qu'il a causé non seulement par\nson fait, mais encore par sa négligence ou par son imprudence.\nArticle 1242 : on est responsable […] du dommage […] causé par le fait des\npersonnes dont on doit répondre, ou des choses que l'on a sous sa garde. […]\nLes maîtres et les commettants, du dommage causé par leurs domestiques et\npréposés dans les fonctions auxquelles ils les ont employés ; […]\nArticle 1253 : le cas fortuit, le fait du tiers ou de la victime sont totalement\nexonératoires s’ils remplissent les caractères de la force majeure."
+  },
+  {
+   "titre": "Annexe 3 : Extrait du bon de commande du 5 janvier 2026",
+   "texte": "Article 3 – Livraison et mise en service : le vendeur s’engage à livrer et mettre en service l’équipement au plus tard le 1er mars 2026. L’équipement doit maintenir une température intérieure de –18 °C.\nArticle 4 – Prix : 18 000 € HT, dont 30 % à la commande et le solde à la mise en service.\nArticle 7 – Retard : en cas de retard de livraison, le vendeur versera à l’acheteur une indemnité forfaitaire de 100 € par jour de retard."
+  }
+ ],
+ "questions": [
+  {
+   "slot": 1,
+   "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+   "points": 2,
+   "articles_cites": [],
+   "reponse_attendue": "La SARL Maison Lemaire, personne morale commerçante, a conclu avec la SAS FroidPro, personne morale professionnelle, un contrat de vente avec installation, contrat synallagmatique créant des obligations réciproques : FroidPro, débiteur, doit livrer et mettre en service au 1er mars une chambre froide conforme (–18 °C) ; Maison Lemaire, créancière de cette obligation, doit payer le prix (acompte versé, solde à la mise en service). Le contrat contient une clause pénale fixant forfaitairement l’indemnité de retard à 100 € par jour. FroidPro a livré avec 45 jours de retard une installation qui ne fonctionne pas : il y a inexécution totale de l’obligation de mise en service conforme. Maison Lemaire a mis en demeure FroidPro par lettre recommandée, sans résultat, et suspend le paiement du solde. Elle subit un préjudice matériel (stock perdu de 3 200 €) et un manque à gagner (commandes de Pâques). FroidPro, qui réclame le solde, invoque un événement extérieur (perturbation du transport) et le fait d’un tiers (l’électricien). Problème juridique : un contractant peut-il refuser de payer et obtenir réparation lorsque son cocontractant n’exécute pas son obligation, et ce dernier peut-il s’exonérer en invoquant un événement extérieur ?"
+  },
+  {
+   "slot": 2,
+   "enonce": "Développez l’argumentation juridique que la SARL Maison Lemaire peut avancer pour justifier son refus de payer le solde et obtenir réparation.",
+   "points": 3,
+   "articles_cites": [
+    "1103",
+    "1217",
+    "1219",
+    "1231-1",
+    "1231-2"
+   ],
+   "reponse_attendue": "Règles : selon l’article 1103 du Code civil, le contrat légalement formé tient lieu de loi aux parties (force obligatoire). L’article 1217 ouvre au créancier d’une obligation inexécutée plusieurs sanctions cumulables : suspendre sa propre obligation, poursuivre l’exécution forcée, obtenir une réduction du prix, provoquer la résolution, demander réparation. L’article 1219 permet de refuser d’exécuter son obligation si l’autre partie n’exécute pas la sienne et que l’inexécution est suffisamment grave (exception d’inexécution). L’article 1231-1 condamne le débiteur à des dommages et intérêts en raison de l’inexécution ou du retard, et l’article 1231-2 les fixe à la perte subie et au gain manqué.\nApplication : FroidPro s’était engagée à mettre en service au 1er mars une chambre froide à –18 °C ; elle a livré le 15 avril un matériel qui ne descend pas sous 2 °C. Le retard et le défaut constituent une inexécution grave, puisque l’objet même du contrat, conserver des produits glacés, n’est pas atteint. Maison Lemaire a mis en demeure son débiteur, qui n’a pas réagi. Elle peut donc refuser de payer le solde (exception d’inexécution), exiger la réparation ou le remplacement de l’installation, voire la résolution du contrat avec restitution de l’acompte. Elle peut réclamer l’indemnité forfaitaire prévue par la clause pénale, soit 45 jours × 100 € = 4 500 €, et des dommages et intérêts pour le stock perdu (3 200 €) et les commandes de Pâques perdues.\nConclusion : son refus de payer est justifié et elle peut obtenir réparation de son préjudice."
+  },
+  {
+   "slot": 3,
+   "enonce": "Développez l’argumentation juridique que la SAS FroidPro pourrait lui opposer.",
+   "points": 3,
+   "articles_cites": [
+    "1218",
+    "1231-1",
+    "1253"
+   ],
+   "reponse_attendue": "FroidPro peut chercher à s’exonérer de sa responsabilité contractuelle. Selon l’article 1231-1 du Code civil, le débiteur n’est pas condamné s’il justifie que l’exécution a été empêchée par la force majeure. L’article 1218 la définit comme un événement échappant au contrôle du débiteur, qui ne pouvait être raisonnablement prévu lors de la conclusion du contrat et dont les effets ne peuvent être évités par des mesures appropriées. L’article 1253 ajoute que le fait d’un tiers ou de la victime est totalement exonératoire s’il présente les caractères de la force majeure.\nPour le retard, FroidPro invoquera le blocage du transport maritime, événement extérieur à son contrôle. Pour le défaut de température, elle soutiendra qu’il résulte du branchement réalisé par l’électricien de la pâtisserie, c’est-à-dire du fait d’un tiers choisi par le créancier, voire d’une faute de la victime. Si ces faits sont établis, l’inexécution ne lui serait pas imputable et le solde resterait dû.\nCes arguments sont fragiles. Les difficultés du transport maritime étaient connues et prévisibles en janvier 2026, et un professionnel pouvait les éviter en s’approvisionnant ailleurs : les conditions d’imprévisibilité et d’irrésistibilité font défaut. Quant au branchement, il appartient à FroidPro de prouver son rôle causal ; en tant qu’installateur chargé de la mise en service, elle devait vérifier le raccordement et n’est pas intervenue après la mise en demeure. À défaut de preuve, au mieux, la faute de l’électricien conduirait à un partage de responsabilité et non à une exonération totale."
+  },
+  {
+   "slot": 4,
+   "enonce": "Après avoir rappelé les sanctions dont dispose un contractant lorsque son partenaire ne tient pas ses engagements, vous répondrez à la question suivante à l’aide de l’annexe 2 et de vos connaissances personnelles : Pourquoi le droit permet-il au débiteur d’échapper à sa responsabilité dans certains cas ?",
+   "points": 3,
+   "articles_cites": [
+    "1217",
+    "1218",
+    "1253"
+   ],
+   "reponse_attendue": "Rappel : face à l’inexécution, l’article 1217 du Code civil permet au créancier de suspendre sa propre prestation (exception d’inexécution), de poursuivre l’exécution forcée en nature après mise en demeure, d’obtenir une réduction du prix, de provoquer la résolution du contrat (judiciaire, par notification ou par clause résolutoire) et de demander des dommages et intérêts, éventuellement fixés à l’avance par une clause pénale.\nLe droit admet pourtant des moyens d’exonération. La responsabilité repose sur l’idée qu’on répond de ce que l’on peut maîtriser : lorsque l’inexécution résulte d’un événement extérieur, imprévisible et irrésistible, le débiteur n’a commis aucune faute et il serait injuste de lui en faire supporter les conséquences. L’annexe 2 reprend l’article 1218, qui définit la force majeure en matière contractuelle, et l’article 1253, qui rend le cas fortuit, le fait du tiers ou de la victime totalement exonératoires s’ils en ont les caractères.\nCes exonérations assurent un équilibre entre les intérêts des parties : le créancier est protégé par la force obligatoire du contrat, mais le débiteur n’est pas tenu de l’impossible. Elles responsabilisent aussi la victime, dont la propre faute peut réduire son indemnisation. Leur conditions strictes, appréciées par le juge, empêchent toutefois le débiteur d’échapper trop facilement à ses engagements, ce qui préserve la sécurité juridique des échanges."
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "id": "P4",
+ "type": "probable",
+ "titre": "Le livreur de Rapid’Panier",
+ "situation": "À l’aide de vos connaissances et des ressources documentaires jointes en annexes numérotées de 1 à 2, analysez la situation juridique ci-dessous et répondez aux questions posées.\nSituation juridique\nLa SAS Rapid’Panier exploite à Lille une application de livraison de courses à domicile. Elle travaille avec une soixantaine de livreurs à vélo qui ont tous le statut de micro-entrepreneur et signent un « contrat de prestation de services ».\nHugo Lefèvre livre pour Rapid’Panier depuis septembre 2024. Il doit réserver chaque semaine des créneaux horaires dans l’application ; s’il en annule plus de deux, son compte est suspendu pendant sept jours. Le prix de chaque course est fixé par la société, sans négociation possible. Il porte une tenue et un sac aux couleurs de l’entreprise, fournis par elle. L’application le géolocalise en permanence pendant ses créneaux et un « responsable de flotte » lui adresse des messages lorsqu’il dépasse le temps de livraison prévu. En mars 2026, après trois retards, son compte est définitivement désactivé, sans préavis.\nHugo Lefèvre estime avoir été traité comme un salarié licencié sans procédure. Il souhaite saisir le conseil de prud’hommes pour obtenir le paiement de ses congés payés et des indemnités de rupture. La SAS Rapid’Panier rappelle qu’il a lui-même choisi le statut d’indépendant, qu’il pouvait travailler pour d’autres plateformes et qu’il choisissait librement ses créneaux.",
+ "annexes": [
+  {
+   "titre": "Annexe 1 : extrait du Code du travail",
+   "source": "cours",
+   "texte": "Article L1221-1 : Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter."
+  },
+  {
+   "titre": "Annexe 2 : Les pouvoirs de l’employeur",
+   "source": "documents_reels",
+   "texte": "L’employeur dirige l’entreprise et ses salariés. À ce titre, il dispose du pouvoir d’édicter des\nrègles au sein de l’entreprise, à travers notamment le règlement intérieur, et du pouvoir […]\nde sanctionner la faute d’un salarié.\nLes conflits individuels entre employeurs et salariés liés au contrat de travail sont jugés par\nle conseil des prud’hommes. Tout salarié dispose du droit de grève pour défendre des\nrevendications professionnelles. Tant qu’il est exercé dans des conditions normales, il ne\npeut justifier ni sanction, ni licenciement.\nL’inspection du travail veille à l’application du droit du travail au sein des entreprises. Elle\nconseille et informe les employeurs, les salariés et les représentants du personnel sur leurs\ndroits et obligations et facilite la conciliation amiable entre les parties, notamment lors des\nconflits collectifs.\nSource : travail-emploi.gouv.fr\nEN_NODgzNT7QzNjAc0ND6UzMsTYxMj3A2NTAAwMTgY5NGDUx\nEducN_MSDgyMD4Y2MTYe0Mj3I5MwjAyNT8A5MDMExNTtUxMQTEg"
+  }
+ ],
+ "questions": [
+  {
+   "slot": 1,
+   "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+   "points": 2,
+   "articles_cites": [],
+   "reponse_attendue": "Hugo Lefèvre, personne physique immatriculée comme micro-entrepreneur, a conclu avec la SAS Rapid’Panier, personne morale commerçante, un contrat qualifié par les parties de contrat de prestation de services (contrat d’entreprise). Il exécute des livraisons en échange d’une rémunération à la course, fixée unilatéralement par la société. Dans les faits, la société organise son travail (créneaux, tenue, matériel), contrôle son exécution (géolocalisation, messages du responsable de flotte) et sanctionne ses manquements (suspension puis désactivation du compte). La relation a pris fin à l’initiative de la société, sans préavis ni procédure. Hugo Lefèvre, demandeur, veut faire reconnaître l’existence d’un contrat de travail devant le conseil de prud’hommes afin d’obtenir les droits d’un salarié (congés payés, indemnités de licenciement). La SAS Rapid’Panier, défenderesse, invoque la qualification choisie par les parties et la liberté d’organisation du livreur. Problème juridique : une relation qualifiée par les parties de prestation de services peut-elle être requalifiée en contrat de travail lorsque le travailleur exécute ses tâches selon les directives, sous le contrôle et sous la menace de sanctions de son donneur d’ordre ?"
+  },
+  {
+   "slot": 2,
+   "enonce": "Développez l’argumentation juridique qu’Hugo Lefèvre peut avancer pour obtenir la requalification de sa relation avec la SAS Rapid’Panier en contrat de travail.",
+   "points": 3,
+   "articles_cites": [
+    "L1221-1"
+   ],
+   "reponse_attendue": "Règle : le contrat de travail est la convention par laquelle une personne s’engage à fournir une prestation de travail, sous l’autorité d’une autre, en échange d’une rémunération. L’article L1221-1 du Code du travail le soumet au droit commun et n’exige aucune forme. Trois éléments le caractérisent : la prestation de travail, la rémunération et le lien de subordination, élément déterminant. Selon la jurisprudence, le lien de subordination est l’exécution d’un travail sous l’autorité d’un employeur qui a le pouvoir de donner des ordres et des directives, d’en contrôler l’exécution et de sanctionner les manquements. L’existence d’un contrat de travail ne dépend ni de la volonté des parties ni de la dénomination de leur convention, mais des conditions de fait.\nApplication : Hugo Lefèvre fournit une prestation de travail (les livraisons) et reçoit une rémunération (le prix des courses). Le pouvoir de direction apparaît dans l’obligation de réserver des créneaux, le port d’une tenue fournie et le prix imposé. Le pouvoir de contrôle résulte de la géolocalisation permanente et des messages du responsable de flotte. Le pouvoir de sanction se manifeste par la suspension du compte puis sa désactivation après trois retards. Il est ainsi intégré dans un service organisé dont la société fixe unilatéralement les conditions.\nConclusion : le lien de subordination est établi ; le juge peut requalifier la relation en contrat de travail à durée indéterminée. La désactivation s’analyse alors en un licenciement sans cause réelle et sérieuse, ouvrant droit aux congés payés, aux indemnités de préavis et de licenciement et à des dommages et intérêts."
+  },
+  {
+   "slot": 3,
+   "enonce": "Développez l’argumentation juridique que la SAS Rapid’Panier pourrait lui opposer.",
+   "points": 3,
+   "articles_cites": [],
+   "reponse_attendue": "La SAS Rapid’Panier soutiendra que la relation relève d’un contrat d’entreprise (prestation de services), conclu avec un travailleur indépendant immatriculé. Le Code du travail présume que la personne immatriculée comme entrepreneur n’est pas liée par un contrat de travail ; c’est donc à Hugo Lefèvre, demandeur, de prouver l’existence d’un lien de subordination.\nElle avancera qu’il n’existe pas de subordination : le livreur choisit librement ses créneaux et peut ne pas en réserver, il n’est soumis à aucune exclusivité puisqu’il peut travailler pour des plateformes concurrentes, il utilise son propre vélo et supporte les risques de son activité. La géolocalisation serait un simple outil technique de suivi des commandes au service du client, et non un contrôle de son travail ; la désactivation ne serait que la résiliation d’un contrat commercial pour inexécution, prévue par les conditions d’utilisation. Elle invoquera enfin la liberté contractuelle et la volonté des parties, exprimée dans le contrat signé.\nCes arguments ont une portée limitée. La présomption de non-salariat est simple : elle tombe dès que la subordination est prouvée. La liberté de choisir ses créneaux n’exclut pas la subordination lorsque l’entreprise sanctionne les annulations et fixe seule le prix. Le juge restitue aux faits leur exacte qualification, sans s’arrêter à la dénomination donnée par les parties, comme l’a jugé la Cour de cassation pour les livreurs de plateformes (arrêt Take Eat Easy, 2018)."
+  },
+  {
+   "slot": 4,
+   "enonce": "Après avoir rappelé les éléments qui caractérisent le contrat de travail, vous répondrez à la question suivante à l’aide de l’annexe 2 et de vos connaissances personnelles : Pourquoi le droit ne laisse-t-il pas les parties choisir librement la qualification de leur relation de travail ?",
+   "points": 3,
+   "articles_cites": [
+    "L1221-1"
+   ],
+   "reponse_attendue": "Rappel : le contrat de travail réunit une prestation de travail, une rémunération et un lien de subordination juridique, élément déterminant, qui se traduit par les pouvoirs de direction, de contrôle et de sanction de l’employeur. Il se distingue ainsi du contrat d’entreprise, conclu par un travailleur indépendant qui organise lui-même son activité.\nLe droit ne laisse pas les parties choisir la qualification parce que le salarié est la partie faible. L’annexe 2 montre que l’employeur dirige l’entreprise et ses salariés, édicte des règles et sanctionne : ce déséquilibre justifie que la loi encadre la relation par des règles d’ordre public, auxquelles on ne peut déroger par contrat. La règle de droit est générale, obligatoire et impersonnelle : si une simple étiquette permettait d’échapper au Code du travail, les protections (salaire minimum, durée du travail, congés payés, procédure de licenciement, sécurité sociale) deviendraient facultatives et l’employeur pourrait les imposer comme condition de l’embauche.\nLa requalification par le juge garantit l’effectivité de ces règles et lutte contre le travail dissimulé et la concurrence déloyale entre entreprises qui respectent le droit et celles qui le contournent. Elle assure aussi le financement de la protection sociale, alimentée par les cotisations. La liberté contractuelle existe donc, mais elle est limitée par l’ordre public social."
+  }
+ ]
+}

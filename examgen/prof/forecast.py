@@ -204,11 +204,15 @@ class Forecast:
         insec = np.asarray((it.Pw[t.pass_sec == s] > 0).mean(0)).ravel()
         allc = np.asarray((it.Pw > 0).mean(0)).ravel()
         terms = [w for w in terms if insec[col[w]] >= 2.5 * allc[col[w]] and w not in self.generic and allc[col[w]] < 0.06]
+        if not hasattr(self, "_all_ans"):  # tous les corrigés : pour écarter les mots de liaison
+            self._all_ans = [set(re.findall(r"[a-z]{4,}", D.norm(q.answer))) for q in t.Q if q.answer]
         cachee, dite = [], []
         for w in terms:
             r_said = np.mean([w in x for x in said])
             r_ans = np.mean([w in x for x in ans]) if ans else None
-            if r_said < 0.2 and (r_ans is None or r_ans >= max(0.25, 2 * r_said)):
+            r_all = np.mean([w in x for x in self._all_ans]) if self._all_ans else 0
+            spec = r_ans is None or r_ans >= 2 * r_all  # propre aux corrigés de ce chapitre
+            if r_said < 0.2 and spec and (r_ans is None or r_ans >= max(0.25, 2 * r_said)):
                 cachee.append(w)
             elif r_said >= 0.4:
                 dite.append(w)

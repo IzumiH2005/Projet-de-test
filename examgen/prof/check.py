@@ -168,6 +168,7 @@ class Checker:
                 res["revision"].append(f"Annexe « {a.get('titre', '')[:60]} » : ce type de document est, chez ce professeur, une source réelle "
                                        f"recopiée (article de loi, arrêt). Recopie mot pour mot un texte fourni dans « cours » ou « documents_reels » "
                                        f"(fidélité mesurée {fid:.0%}).")
+        hid = (plan.get("intention_cachee") or {}).get("evaluer_sans_le_dire") or []
         qs = g.get("questions", [])
         stems = [q.get("enonce", "") for q in qs]
         F = t.facet_of(stems) if stems else np.zeros((0, len(t.facets)))
@@ -215,7 +216,6 @@ class Checker:
                 fb.append("énoncé trop proche d'un ancien sujet : change la situation et la tournure")
             if r["longueur_ok"] is False:
                 fb.append(f"réponse attendue de {L} caractères pour {pts} point(s) ; le professeur attend {cpp[0] * pts}–{cpp[2] * pts}")
-            hid = (plan.get("intention_cachee") or {}).get("evaluer_sans_le_dire") or []
             if hid:  # intention cachée : notion évaluée sans être dite
                 said = set(re.findall(r"[a-z]{4,}", _n(stem)))
                 req = set(re.findall(r"[a-z]{4,}", _n(ans)))
