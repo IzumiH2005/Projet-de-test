@@ -75,6 +75,7 @@ details.borrow ul { margin: 6px 0 0; padding-left: 18px; color: var(--muted); fo
 .exams { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px }
 .ex { background: var(--sheet); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0 }
 .ex .t { font-weight: 600 } .ex .m { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums }
+.dq { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px } .dq .m { color: var(--muted); font-size: 13px }
 .ex ol { margin: 0; padding-left: 18px; font-size: 13px } .ex a { color: var(--blue); font-size: 13px }
 .ex details summary { cursor: pointer; font-size: 13px; color: var(--muted) }
 .ex details p { font-size: 13px; margin: 6px 0 0; color: var(--ink) }
@@ -88,7 +89,7 @@ td.up { color: var(--ok); font-weight: 600 }
 </style>
 
 <header class="top wrap">
-  <div class="eyebrow">Bac NSI · épreuve écrite · 2021 – 2026</div>
+  <div class="eyebrow">Bac NSI · épreuve écrite · 2021 – 2026 · et droit STMG</div>
   <h1>Annales réelles et <em>questions générées</em></h1>
   <p class="lead">Les sujets officiels analysés par le modèle, puis les questions qu'il a planifiées : des questions jamais posées aux annales mais jugées plausibles, une banque par notion et des sujets complets.</p>
   <div class="figures" id="figs"></div>
@@ -97,6 +98,7 @@ td.up { color: var(--ok); font-weight: 600 }
   <a href="#questions" data-v="questions">Questions</a>
   <a href="#sujets" data-v="sujets">Anciens sujets</a>
   <a href="#modele" data-v="modele">Le modèle</a>
+  <a href="#droit" data-v="droit">Droit (STMG)</a>
 </div></nav>
 
 <main class="wrap">
@@ -123,6 +125,26 @@ td.up { color: var(--ok); font-weight: 600 }
     <p class="sub">Les sujets officiels de l'épreuve écrite lus par le modèle, avec les thèmes de chaque exercice. Le lien ouvre le PDF d'origine.</p>
     <div class="filters"><input type="search" id="es" placeholder="Filtrer (ex. Métropole, graphes, SQL)" aria-label="Filtrer les sujets"></div>
     <div id="elist"></div>
+  </section>
+
+  <section id="v-droit" hidden>
+    <h2>Droit : le même moteur, un autre domaine</h2>
+    <p class="sub">Aucune règle propre au droit n'a été écrite. Le moteur a reçu les annales de droit-économie STMG et le cours, puis a appris seul comment le professeur construit ses sujets. Les cas ci-dessous couvrent tout le cours, y compris les chapitres jamais tombés.</p>
+    <div class="filters" role="group" aria-label="Partie de l'onglet droit">
+      <button class="chip" data-d="cas" aria-pressed="true">Cas générés</button>
+      <button class="chip" data-d="profil" aria-pressed="false">Profil du professeur</button>
+      <button class="chip" data-d="annales" aria-pressed="false">Annales lues</button>
+    </div>
+    <div id="d-cas">
+      <div class="filters">
+        <select id="dtype" aria-label="Type"><option value="">Tous les types</option><option value="sujet_blanc">Sujets blancs</option><option value="cas">Cas pratiques</option><option value="exercices">Exercices courts</option></select>
+        <select id="dsec" aria-label="Chapitre"><option value="">Tous les chapitres</option></select>
+      </div>
+      <div class="count" id="dcount"></div>
+      <div class="list" id="dlist"></div>
+    </div>
+    <div id="d-profil" hidden></div>
+    <div id="d-annales" hidden></div>
   </section>
 
   <section id="v-modele" hidden>
@@ -237,10 +259,77 @@ $("#es").oninput = renderE; renderE();
     </ul></div>`;
 })();
 
+// ---- droit
+(function () {
+  const DR = D.droit;
+  if (!DR) { document.querySelector('nav.tabs a[data-v="droit"]').remove(); return; }
+  const P = DR.profil, V = DR.validation || {}, I = DR.items;
+  const TY = {sujet_blanc: "Sujet blanc", cas: "Cas pratique", exercices: "Exercices courts"};
+  const DK = {facette_ok: "manière de demander", section_ok: "chapitre visé", articles_ok: "articles vérifiés", nouveaute_ok: "pas une copie", longueur_ok: "longueur du corrigé"};
+  const secs = [...new Set(I.map(x => x.section).filter(Boolean))].sort((a, b) => a.localeCompare(b, "fr", {numeric: true}));
+  $("#dsec").innerHTML += secs.map(s => `<option>${esc(s)}</option>`).join("");
+  const txt = t => md(String(t || "").replace(/\n(?!\n)/g, "\n\n"));
+  function dcard(x) {
+    const meta = [TY[x.type] || x.type, x.section, x.partenaire ? "avec " + x.partenaire : "",
+      x.inedit ? "chapitre presque jamais tombé" : "", x.proba != null && x.type !== "exercices" ? "proba. l'an prochain " + pct(x.proba) : ""].filter(Boolean);
+    const anx = x.annexes.map(a => `<details class="corr"><summary>${esc(a.titre)}${a.ok === false ? " · ✗ à revoir" : ""}</summary><div class="md">${txt(a.texte)}</div></details>`).join("");
+    const qs = x.questions.map(q => {
+      const ck = Object.entries(q.checks || {}).filter(([k, v]) => DK[k] && v != null).map(([k, v]) => `<span class="ck ${v ? "y" : "n"}">${v ? "✓" : "✗"} ${DK[k]}</span>`).join("")
+        + (q.checks && q.checks.formule_rituelle ? `<span class="ck y">formule rituelle du professeur</span>` : "");
+      return `<div class="dq">${q.situation ? `<div class="ctx md">${txt(q.situation)}</div>` : ""}
+        <div class="enonce md"><p><b>${q.slot}.</b> ${esc(q.enonce)}${q.points ? ` <span class="m">(${q.points} pt${q.points > 1 ? "s" : ""})</span>` : ""}</p></div>
+        ${q.reponse ? `<details class="corr"><summary>Corrigé</summary><div class="md">${txt(q.reponse)}</div></details>` : ""}
+        ${ck ? `<div class="checks">${ck}</div>` : ""}</div>`;
+    }).join("");
+    return `<article class="q"><div class="qhead"><span class="notion">${esc(x.titre || x.id)}</span><span class="dom">${meta.map(esc).join(" · ")}</span></div>
+      ${x.situation ? `<details class="corr" ${x.type === "exercices" ? "" : "open"}><summary>Situation</summary><div class="ctx md">${txt(x.situation)}</div></details>` : ""}
+      ${anx}${qs}</article>`;
+  }
+  function renderD() {
+    const t = $("#dtype").value, s = $("#dsec").value;
+    const L = I.filter(x => (!t || x.type === t) && (!s || x.section === s));
+    $("#dcount").textContent = `${L.length} document${L.length > 1 ? "s" : ""} · ${L.reduce((n, x) => n + x.questions.length, 0)} questions`;
+    $("#dlist").innerHTML = L.map(dcard).join("") || `<p class="sub">Rien pour ce filtre.</p>`;
+  }
+  $("#dtype").onchange = renderD; $("#dsec").onchange = renderD; renderD();
+  const row = (a, b) => `<tr><td>${a}</td><td>${b}</td></tr>`;
+  $("#d-profil").innerHTML = `
+    <div class="tw"><table><thead><tr><th>Contrôle des générations</th><th>Réussite</th></tr></thead><tbody>
+      ${row("Manière de demander reconnue", pct(V.facette_ok))}${row("Chapitre visé reconnu (top 3)", pct(V.section_ok))}
+      ${row("Articles cités vérifiables", pct(V.articles_ok))}${row("Pas une copie d'un ancien sujet", pct(V.nouveaute_ok))}
+      ${row("Longueur du corrigé comme le professeur", pct(V.longueur_ok))}${row("Annexes de source recopiées fidèlement", pct(V.annexes_ok))}
+      ${row("<b>Question qui passe tout</b>", "<b>" + pct(V.tout_ok) + "</b>")}</tbody></table></div>
+    <div class="prose"><ul>
+      <li><b>Matière.</b> ${P.corpus.fichiers_sujets} sujets, ${P.corpus.corriges} corrigés, ${P.corpus.questions_lues} questions, ${P.corpus.sections_du_cours} chapitres du cours. Il a gardé seul ${P.pertinence.parties_gardees} parties juridiques et écarté ${P.pertinence.parties_ecartees} parties d'économie.</li>
+      <li><b>Squelette.</b> Le plus souvent 4 questions par cas, toujours dans le même ordre. Verdict : ${esc(P.verdict)} (perte ${P.logloss.selon_le_rang} selon le rang contre ${P.logloss.marginale} sans).</li>
+      <li><b>Formules rituelles.</b> ${P.rituels.n_enonces || 0} énoncés repris presque mot pour mot dans au moins ${P.rituels.seuil_sujets || 3} sujets, par exemple : ${(P.rituels.exemples || []).slice(0, 2).map(e => "« " + esc(e) + " »").join(", ")}.</li>
+      <li><b>Niveau de détail.</b> ${P.detail.chars_par_point_p10_p50_p90.join(" / ")} caractères de corrigé par point (bas / médian / haut), ${P.detail.articles_cites_par_reponse_moyenne} article cité par réponse.</li>
+      <li><b>Chapitres.</b> Le moteur relie chaque question au cours avec des poids appris sur les « références au programme » des corrigés (top 3 juste ${pct(P.alignement.appris_validation_croisee_top1_top3[1])}). Prévoir le chapitre de l'an prochain reste difficile : AUC ${P.prev_sections.auc_modele} contre ${P.prev_sections.auc_popularite} pour « ce qui tombe le plus ».</li>
+    </ul></div>
+    <div class="tw"><table><thead><tr><th>Manière de demander découverte</th><th>Questions</th><th>Exemple réel</th></tr></thead><tbody>
+      ${P.facettes.map(f => `<tr><td>${esc(f.nom)}</td><td>${f.n}</td><td>${esc(f.ex)}</td></tr>`).join("")}</tbody></table></div>
+    <div class="tw"><table><thead><tr><th>Type d'annexe découvert</th><th>Annexes</th><th>Reprise d'une source réelle</th><th>Titres réels</th></tr></thead><tbody>
+      ${P.supports.map(t => `<tr><td>${esc(t.nom)}</td><td>${t.n}</td><td>${pct(t.reprise)}${t.dates > 0.5 ? " · décisions datées : jamais inventées" : ""}</td><td>${t.titres.map(esc).join("<br>")}</td></tr>`).join("")}</tbody></table></div>
+    <div class="tw"><table><thead><tr><th>Chapitre</th><th>Probabilité l'an prochain</th></tr></thead><tbody>
+      ${P.proba.map(([k, v]) => row(esc(k), pct(v))).join("")}</tbody></table></div>
+    ${P.correcteur.length ? `<div class="prose"><p><b>Ce que ses corrigés disent au correcteur :</b></p><ul>${P.correcteur.map(c => `<li>${esc(c)}</li>`).join("")}</ul></div>` : ""}`;
+  const years = [...new Set(DR.annales.map(a => a.annee))];
+  $("#d-annales").innerHTML = years.map(y => {
+    const ys = DR.annales.filter(a => a.annee === y);
+    return `<div class="year">${y}<span>${ys.length} sujet${ys.length > 1 ? "s" : ""}</span></div><div class="exams">${ys.map(a => `
+      <div class="ex"><div class="t">${esc(a.lieu)}</div>
+        ${a.sujet ? `<a href="${esc(a.sujet)}" target="_blank" rel="noopener">Sujet (PDF)</a>` : ""}${a.sujet && a.corrige ? " · " : ""}${a.corrige ? `<a href="${esc(a.corrige)}" target="_blank" rel="noopener">Corrigé (PDF)</a>` : ""}</div>`).join("")}</div>`;
+  }).join("");
+  document.querySelectorAll(".chip[data-d]").forEach(b => b.onclick = () => {
+    document.querySelectorAll(".chip[data-d]").forEach(x => x.setAttribute("aria-pressed", x === b));
+    ["cas", "profil", "annales"].forEach(k => { $("#d-" + k).hidden = k !== b.dataset.d; });
+  });
+})();
+
 // ---- onglets
 function route() {
-  const v = ["questions", "sujets", "modele"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "questions";
-  ["questions", "sujets", "modele"].forEach(k => { $("#v-" + k).hidden = k !== v; });
+  const v = ["questions", "sujets", "modele", "droit"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "questions";
+  ["questions", "sujets", "modele", "droit"].forEach(k => { $("#v-" + k).hidden = k !== v; });
   document.querySelectorAll("nav.tabs a").forEach(a => a.toggleAttribute("aria-current", a.dataset.v === v) || a.dataset.v === v && a.setAttribute("aria-current", "page"));
 }
 window.addEventListener("hashchange", route); route();

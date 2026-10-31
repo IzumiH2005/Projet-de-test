@@ -8,8 +8,10 @@
                 une annexe inventée n'est admise que dans un type de support où le professeur
                 invente aussi (extraits de contrat, règlement…), ce que mesure le taux de reprise
                 des sources réelles par type de support, appris sur les anciens sujets ;
-  nouveaute_ok  l'énoncé n'est pas une copie d'un ancien énoncé (cosinus < 0,85), sauf formule
-                rituelle (énoncé que le professeur repose dans plusieurs sujets, détecté sur le corpus) ;
+  nouveaute_ok  la situation n'est pas une ancienne situation (cosinus < 0,85) et l'énoncé n'est
+                pas un ancien énoncé, sauf formule rituelle : énoncé ou début d'énoncé (trigramme des
+                premiers mots) que le professeur repose dans au moins 10 % des sujets (min. 3), détecté
+                sur le corpus ; la comparaison ignore noms propres, guillemets et nombres ;
   longueur_ok   la réponse attendue a la longueur par point des vrais corrigés (p10–p90, avec marge).
 
 Chaque échec produit une consigne de révision en clair pour l'agent rédacteur.
@@ -27,6 +29,13 @@ from . import docs as D
 from .profile import Teacher, art_ids
 
 
+def _mask(t: str) -> str:
+    """Énoncé sans ce qui change d'un cas à l'autre : noms propres, textes entre guillemets, nombres."""
+    t = re.sub(r"«[^»]{0,80}»|\"[^\"]{0,80}\"", " ", t or "")
+    w = t.split()
+    return " ".join(x for i, x in enumerate(w) if not (i and x[:1].isupper()) and not re.search(r"\d", x))
+
+
 def _n(t: str) -> str:
     return re.sub(r"\s+", " ", D.norm(t or "")).strip()
 
@@ -35,7 +44,7 @@ class Checker:
     def __init__(self, t: Teacher, plans: list[dict]):
         self.t = t
         self.plans = {p["id"]: p for p in plans}
-        self.past = t.vec.transform([q.stem for q in t.qs])
+        self.past = t.vec.transform([_mask(q.stem) for q in t.qs])
         # sources réelles : passages du cours + annexes des anciens sujets
         src = [(p, "cours") for p in t.pass_text]
         for idx in t.parts.values():
@@ -61,9 +70,26 @@ class Checker:
         exams = np.array([q.exam for q in t.qs])
         n_ex = len(set(exams))
         need = max(3, int(0.1 * n_ex))
-        self.ritual = np.array([len(set(exams[P[i] > 0.85])) >= need for i in range(len(t.qs))])
+        # tête d'énoncé rituelle : un trigramme du début de la consigne présent dans >= need sujets
+        by = {}
+        for q in t.qs:
+            for g in self._head(q.stem):
+                by.setdefault(g, set()).add(q.exam)
+        self.rit_heads = {g for g, e in by.items() if len(e) >= need}
+        self.ritual = np.array([len(set(exams[P[i] > 0.7])) >= need or bool(self._head(t.qs[i].stem) & self.rit_heads)
+                                for i in range(len(t.qs))])
         rit = sorted({t.qs[i].stem.strip() for i in np.where(self.ritual)[0]}, key=len)[:8]
-        t.rep["formules_rituelles"] = {"seuil_sujets": need, "n_enonces": int(self.ritual.sum()), "exemples": rit}
+        heads = sorted(self.rit_heads, key=lambda g: -len(by[g]))[:12]
+        t.rep["formules_rituelles"] = {"seuil_sujets": need, "n_enonces": int(self.ritual.sum()), "exemples": rit,
+                                       "tetes": [{"debut": " ".join(g), "sujets": len(by[g])} for g in heads]}
+        # situations passées (une par partie) : le vrai garde-fou contre la copie
+        sits = [_mask(t.qs[idx[0]].situation) for idx in t.parts.values() if len(t.qs[idx[0]].situation or "") > 80]
+        self.past_sit = t.vec.transform(sits) if sits else None
+
+    @staticmethod
+    def _head(stem: str, n: int = 8) -> set:
+        w = re.findall(r"\w+", _mask(stem).lower())[:n]
+        return {tuple(w[i:i + 3]) for i in range(max(len(w) - 2, 0))}
 
     def _support_source_rate(self):
         """Pour chaque type de support : part des anciennes annexes qui sont la reprise d'une source
@@ -163,11 +189,13 @@ class Checker:
             unknown = sorted(c for c in cited if c and c not in self.known_ids and c not in art_ids(anx_text))
             r["articles_inconnus"] = unknown
             r["articles_ok"] = not unknown
-            sims = (t.vec.transform([stem]) @ self.past.T).toarray().ravel() if stem else np.zeros(1)
+            sims = (t.vec.transform([_mask(stem)]) @ self.past.T).toarray().ravel() if stem else np.zeros(1)
             nov = float(sims.max())
             r["nouveaute_sim_max"] = round(nov, 3)
-            r["formule_rituelle"] = bool(nov >= 0.85 and self.ritual[int(sims.argmax())])
-            r["nouveaute_ok"] = nov < 0.85 or r["formule_rituelle"]
+            r["formule_rituelle"] = bool(nov >= 0.85 and (self.ritual[int(sims.argmax())] or bool(self._head(stem) & self.rit_heads)))
+            ss = float((t.vec.transform([_mask(situation)]) @ self.past_sit.T).max()) if self.past_sit is not None and len(situation) > 80 else 0.0
+            r["situation_sim_max"] = round(ss, 3)
+            r["nouveaute_ok"] = (nov < 0.85 or r["formule_rituelle"]) and ss < 0.85
             pts = q.get("points") or ps.get("points") or 1
             cpp = t.detail_stats["chars_par_point_p10_p50_p90"]
             L = len(ans)

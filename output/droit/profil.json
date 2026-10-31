@@ -728,13 +728,66 @@
  },
  "formules_rituelles": {
   "seuil_sujets": 3,
-  "n_enonces": 40,
+  "n_enonces": 245,
   "exemples": [
+   "Rappelez les fonctions économiques de l’État.",
    "Qualifiez juridiquement les faits et les parties.",
    "Qualifiez juridiquement les parties et les faits.",
    "Qualifiez juridiquement les faits et les dommages.",
-   "Résumez les faits en utilisant des qualifications juridiques.",
-   "Qualifiez juridiquement les parties, les faits et les dommages."
+   "Distinguez le taux de chômage et le taux d’emploi.",
+   "Déterminez le lien entre niveau de diplôme et chômage.",
+   "Présentez un argument que Thomas pourrait lui opposer.",
+   "Commentez l’évolution des dépenses publiques en France."
+  ],
+  "tetes": [
+   {
+    "debut": "l argumentation juridique",
+    "sujets": 37
+   },
+   {
+    "debut": "développez l argumentation",
+    "sujets": 34
+   },
+   {
+    "debut": "argumentation juridique que",
+    "sujets": 34
+   },
+   {
+    "debut": "rédigez une argumentation",
+    "sujets": 29
+   },
+   {
+    "debut": "une argumentation qui",
+    "sujets": 22
+   },
+   {
+    "debut": "argumentation qui vous",
+    "sujets": 22
+   },
+   {
+    "debut": "résumez les faits",
+    "sujets": 21
+   },
+   {
+    "debut": "utilisant des qualifications",
+    "sujets": 21
+   },
+   {
+    "debut": "faits en utilisant",
+    "sujets": 21
+   },
+   {
+    "debut": "qui vous permette",
+    "sujets": 21
+   },
+   {
+    "debut": "vous permette de",
+    "sujets": 21
+   },
+   {
+    "debut": "des qualifications juridiques",
+    "sujets": 21
+   }
   ]
  }
 }

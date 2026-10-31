@@ -135,10 +135,67 @@ def model_summary(resume):
             "avant_apres": ba, "validation": resume}
 
 
+def droit():
+    """Onglet Droit : le profil appris du professeur, les cas générés et les annales lues."""
+    D = OUT / "droit"
+    if not (D / "profil.json").exists():
+        return None
+    prof = json.loads((D / "profil.json").read_text(encoding="utf-8"))
+    plans = {p["id"]: p for p in json.loads((D / "plans.json").read_text(encoding="utf-8"))}
+    val = json.loads((D / "validation.json").read_text(encoding="utf-8")) if (D / "validation.json").exists() else {"resume": {}, "detail": []}
+    vd = {r["id"]: r for r in val["detail"]}
+    items = []
+    for f in sorted((D / "generated").glob("*.json")):
+        g = json.loads(f.read_text(encoding="utf-8"))
+        pl, v = plans.get(g["id"], {}), vd.get(g["id"], {})
+        vq = {q["slot"]: q for q in v.get("questions", [])}
+        items.append({"id": g["id"], "type": g.get("type") or pl.get("type"), "titre": g.get("titre", ""),
+                      "section": pl.get("section_titre"), "partenaire": pl.get("partenaire_titre"),
+                      "inedit": pl.get("inedit"), "proba": pl.get("proba_annee_suivante"), "freq": pl.get("frequence_passee"),
+                      "situation": g.get("situation", ""),
+                      "annexes": [{"titre": a.get("titre", ""), "texte": a.get("texte", ""), "source": a.get("source"),
+                                   "ok": v["annexes"][i].get("ok") if i < len(v.get("annexes") or []) else None}
+                                  for i, a in enumerate(g.get("annexes") or [])],
+                      "questions": [{"slot": q.get("slot"), "situation": q.get("situation", ""), "enonce": q.get("enonce", ""),
+                                     "points": q.get("points"), "reponse": q.get("reponse_attendue", ""),
+                                     "checks": {k: vq.get(q.get("slot"), {}).get(k) for k in
+                                                ("facette_ok", "section_ok", "articles_ok", "nouveaute_ok", "longueur_ok", "formule_rituelle")}}
+                                    for q in g.get("questions", [])]})
+    order = {"sujet_blanc": 0, "cas": 1, "exercices": 2}
+    items.sort(key=lambda x: (order.get(x["type"], 3), [int(n) if n.isdigit() else 0 for n in re.findall(r"\d+", x["id"])]))
+    ann = {}
+    for f in sorted((ROOT / "data" / "sources" / "droit_stmg").glob("*.pdf")):
+        m = re.match(r"stmg-spe-droit-economie-(\d{4})-(.+?)-(sujet|corrige)", f.stem)
+        if not m:
+            continue
+        y, lieu, kind = m.groups()
+        lieu = re.sub(r"-(officiel|sujet|corrige)$", "", lieu)
+        r = ann.setdefault((y, lieu), {"annee": int(y), "lieu": lieu.replace("-", " ").capitalize(), "sujet": None, "corrige": None})
+        r[kind] = f"https://www.sujetdebac.fr/annales-pdf/{y}/{f.name}"
+    ann = sorted(ann.values(), key=lambda r: (-r["annee"], r["lieu"]))
+    mf, ts = prof["manieres_de_demander"], prof["types_de_supports"]
+    prof_out = {
+        "corpus": prof["corpus"], "pertinence": {k: prof["pertinence_des_parties"][k] for k in ("parties_gardees", "parties_ecartees")},
+        "alignement": prof["alignement_sur_le_cours"], "consigne_mots": prof["vocabulaire_de_consigne"].get("exemples_consigne", [])[:12],
+        "facettes": [{"nom": f["nom"], "n": f["n"], "place": f["position_moyenne"], "ex": clean(f["exemples"][0], 200)} for f in mf["facettes"]],
+        "squelette": prof["squelette"]["squelette_typique"], "par_partie": prof["squelette"]["questions_par_partie"],
+        "verdict": prof["previsibilite_consigne"]["verdict"], "logloss": prof["previsibilite_consigne"]["log_loss_sujet_exclu"],
+        "rituels": prof.get("formules_rituelles", {}),
+        "supports": [{"nom": t["nom"], "n": t["n"], "titres": [clean(x, 80) for x in t["exemples_de_titres"][:2]],
+                      "reprise": ts.get("taux_de_reprise_de_sources", {}).get(t["nom"]),
+                      "dates": ts.get("part_de_documents_dates", {}).get(t["nom"])} for t in ts["types"]],
+        "detail": {k: prof["niveau_de_detail"][k] for k in ("chars_par_point_p10_p50_p90", "articles_cites_par_reponse_moyenne")},
+        "correcteur": prof["niveau_de_detail"]["consignes_de_correction"][:5],
+        "proba": list(prof["probabilite_annee_suivante"].items())[:8],
+        "prev_sections": prof["previsibilite_sections"],
+    }
+    return {"profil": prof_out, "items": items, "validation": val["resume"], "annales": ann}
+
+
 def main():
     ex = exams()
     qs, resume = questions()
-    data = {"exams": ex, "questions": qs, "modele": model_summary(resume)}
+    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit()}
     tpl = (ROOT / "scripts" / "livrable_template.html").read_text(encoding="utf-8")
     html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     (OUT / "livrable.html").write_text(html, encoding="utf-8")

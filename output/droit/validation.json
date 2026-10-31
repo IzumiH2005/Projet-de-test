@@ -1,17 +1,2431 @@
 {
  "resume": {
   "facette_ok": 1.0,
-  "section_ok": 0.85,
+  "section_ok": 0.878,
   "articles_ok": 1.0,
-  "nouveaute_ok": 1.0,
+  "nouveaute_ok": 0.995,
   "longueur_ok": 1.0,
   "annexes_ok": 1.0,
-  "tout_ok": 0.85,
-  "questions": 20,
-  "annexes": 17,
-  "lots": 5
+  "tout_ok": 0.872,
+  "questions": 196,
+  "annexes": 124,
+  "lots": 49
  },
  "detail": [
+  {
+   "id": "C1.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "1.2",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.254,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 542
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "1.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.83,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.254,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 623
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "1.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.254,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 513
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "1.2",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.583,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.254,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 531
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extrait du Code du travail",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.76,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Articles du Code du travail et du Code civil",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.69,
+     "fidelite": 0.91,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extrait du règlement intérieur de la SAS Brunel Logistique",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.15,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Regard historique sur l’ordre public et le contrat",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C1.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "2.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.172,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 482
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "5.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.82,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.172,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 560
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "5.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.172,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 417
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "1.2",
+      "5.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.547,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.172,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 504
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extrait du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Extraits du Code de la consommation",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extrait des conditions générales de vente de la SAS FitBox",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.13,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Regard historique sur l’ordre public et le contrat",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 1 : la question ne porte pas assez sur « 1.2 La règle de droit » (lue comme ['5.2', '4.1', '2.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 2 : la question ne porte pas assez sur « 1.2 La règle de droit » (lue comme ['5.2', '4.1', '5.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 3 : la question ne porte pas assez sur « 1.2 La règle de droit » (lue comme ['5.2', '4.1', '5.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "C1.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.2",
+      "2.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.215,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 506
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "6.1",
+      "6.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.86,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.215,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 570
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "5.2",
+      "3.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.215,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 446
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "1.3",
+      "2.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.476,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.215,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 478
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Revirement de jurisprudence majeur en matière de responsabilité civile des parents séparés",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 0.98,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Arrêt de la Cour de cassation du 22 décembre 2023",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 0.97,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Courriel de Julien MORIN à Adrien LEBON",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.16,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Le sens des arrêts de la Cour de cassation du 9 mai 1984",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 1 : la question ne porte pas assez sur « 1.3 Les sources du droit » (lue comme ['4.1', '2.2', '2.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 2 : la question ne porte pas assez sur « 1.3 Les sources du droit » (lue comme ['4.1', '6.1', '6.2']) : ancre-la dans les notions et articles de cette section",
+    "Question 3 : la question ne porte pas assez sur « 1.3 Les sources du droit » (lue comme ['4.1', '5.2', '3.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "C2.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "8.4",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.256,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 648
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.4",
+      "2.1",
+      "7.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.7,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.256,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 641
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.4",
+      "2.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.68,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.256,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 598
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "8.4",
+      "1.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.484,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.256,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 493
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extraits du contrat de franchise conclu entre la SAS « Fournil & Compagnie » et Lucas FONTAINE",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.22,
+     "fidelite": 0.01,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Courriel du 15 septembre 2025",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.18,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extrait de l’arrêt de la Cour de cassation, chambre sociale, 18/01/2012",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Articles de loi",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.73,
+     "fidelite": 0.97,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C2.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.182,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 556
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.514,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.182,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 537
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.762,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.182,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 541
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.603,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.182,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 487
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.82,
+     "fidelite": 0.84,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Légalité et loyauté de la preuve",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Arrêt de la Cour de cassation du 22 décembre 2023",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 0.97,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Échanges de SMS entre Odile GARNIER et Bastien ROY",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.11,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C2.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.3",
+      "4.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.125,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 681
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.3",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.595,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.125,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 642
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.3",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.754,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.125,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 618
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.3",
+      "8.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.565,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.125,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 529
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extrait de l’arrêt de la Cour de cassation du 8 mars 2018",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : arrêt de la Cour de cassation du 22 décembre 2023",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 0.97,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : courriel de Maître Sophie Arnal, avocate de Bruno Lacaze",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.27,
+     "fidelite": 0.05,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : les voies de recours en matière civile",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.33,
+     "fidelite": 0.01,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C3.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "8.4",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.195,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 606
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "6.2",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.195,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 565
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "8.4",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.195,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 563
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "8.4",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.926,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.195,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 583
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : extrait du contrat de pension conclu entre Chloé Marchand et la SARL « Pattes et Plumes »",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.33,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : extrait de l’immatriculation de la SARL « Pattes et Plumes »",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.25,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C3.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.146,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 596
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "4.1",
+      "3.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.787,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.146,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 564
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.146,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 597
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.598,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.146,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 590
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.82,
+     "fidelite": 0.91,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : légalité et loyauté de la preuve",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : arrêt de la Cour de cassation du 22 décembre 2023",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 0.97,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : échange de SMS entre Fabrice Pons et Nathan Lefort",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.07,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C3.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "2.2",
+      "2.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.175,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 652
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "6.2",
+      "2.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.636,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.175,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 750
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "3.2",
+      "2.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.732,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.175,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 661
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "4.2",
+      "3.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.53,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.175,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 685
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.77,
+     "fidelite": 0.97,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Jurisprudences sur les troubles de voisinage liés aux animaux",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extrait du procès-verbal de constat du 2 octobre 2025",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.1,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Extrait du site internet de l’office de tourisme de Saint-Paulet",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.09,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 1 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['3.1', '2.2', '2.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 2 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['3.1', '6.2', '2.2']) : ancre-la dans les notions et articles de cette section",
+    "Question 3 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['3.1', '3.2', '2.2']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "C4.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.2",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.14,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 666
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "6.1",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.637,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.14,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 666
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "5.2",
+      "3.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.689,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.14,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 530
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "1.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.52,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.14,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 652
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.88,
+     "fidelite": 0.95,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Article 372-1 du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extrait du bulletin d’adhésion au HBCVL, saison 2025-2026",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.17,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Regard historique sur l’ordre public et le contrat",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C4.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "2.2",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 685
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "4.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.826,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 693
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.2",
+      "3.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 661
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "3.3",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.53,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 667
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : définition et limite du droit de propriété",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.95,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : trouble de voisinage ?",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : jurisprudences sur les troubles de voisinage liés aux animaux",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : extrait du constat de commissaire de justice du 18 septembre 2025",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.1,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 2 : la question ne porte pas assez sur « 4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels » (lue comme ['6.1', '6.2', '4.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "C5.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "5.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.159,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 709
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "5.1",
+      "7.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.672,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.159,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 659
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "5.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.527,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.159,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 557
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "5.1",
+      "3.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.425,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.159,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 637
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.8,
+     "fidelite": 0.94,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : article L526-6 du Code de commerce",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.94,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : extrait du bon de commande n° 2026-047 de la SARL Fourpro",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.15,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C5.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 702
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.741,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 663
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.65,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 659
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "5.1",
+      "3.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.51,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.139,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 598
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.84,
+     "fidelite": 0.95,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : extrait du contrat conclu le 15 novembre 2025 entre la SAS Ludiparc et la SARL Aqua’Structures",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.21,
+     "fidelite": 0.01,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : courriel de la SARL Aqua’Structures du 20 avril 2026",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.1,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C6.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "3.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.155,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 567
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "3.1",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.623,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.155,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 751
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "3.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.644,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.155,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 633
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "3.1",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.448,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.155,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 609
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extrait du règlement intérieur de la salle Forme & Énergie",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.18,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : extrait du cahier de signalement des incidents de la salle",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.08,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : certificat médical et attestation de l’employeur",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.09,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C6.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "2.2",
+      "6.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.13,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 514
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "6.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.571,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.13,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 770
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "5.2",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.641,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.13,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 603
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "2.1",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.165,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.13,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 605
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : L’existence des régimes spéciaux",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.84,
+     "fidelite": 0.96,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : extrait du règlement intérieur de la salle Verticale signé par les clients",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.14,
+     "fidelite": 0.01,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : extrait du rapport d’expertise du 12 mai 2025",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.13,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C6.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "6.3",
+      "8.4",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.17,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 652
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.3",
+      "5.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.17,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 544
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "6.3",
+      "8.4",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.17,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 582
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.3",
+      "8.4",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.535,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.17,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 548
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extrait du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Extraits du Code de commerce",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.9,
+     "fidelite": 0.94,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extrait du contrat de transport conclu le 2 octobre 2025 entre la SAS « Fromagerie des Monts d’Arrée » et la SARL « Transports Kervella »",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.26,
+     "fidelite": 0.01,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – La nécessaire existence des causes d’exonération",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C7.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "1.2",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.176,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 614
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "8.4",
+      "1.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.686,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.176,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 618
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "1.2",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.176,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 473
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "1.2",
+      "7.1",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.508,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.176,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 547
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extrait du contrat de prestation de services conclu le 12 février 2024",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.16,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Courriel de Monsieur DUCROCQ du 3 juin 2025",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.1,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Extraits du Code du travail et du Code civil",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.8,
+     "fidelite": 0.92,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Les pouvoirs de l’employeur",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C7.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "7.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.229,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 695
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "7.3",
+      "6.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.229,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 563
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "2.2",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.229,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 513
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "7.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.439,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.229,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 527
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extraits du Code du travail",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.97,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Extrait du règlement intérieur de la SAS « LogiNord »",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.24,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Lettre de licenciement du 17 septembre 2025",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.17,
+     "fidelite": 0.01,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – L’existence des régimes spéciaux",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C7.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.157,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 692
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.157,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 669
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "7.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.157,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 560
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "7.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.762,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.157,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 548
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Article L1121-1 du Code du travail",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : Article 9 du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.99,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : Article L1321-3 du Code du travail",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.75,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : Extrait du règlement intérieur de la SAS Vélocité (version du 15 janvier 2026)",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.14,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "C8.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.2",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.156,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 606
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.156,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 550
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.539,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.156,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 619
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "1.2",
+      "3.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.245,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.156,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 545
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Article L526-6 du Code de commerce",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.86,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : Article L223-1 du Code de commerce",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.63,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : Article 1179 du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.97,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : Extrait du bon de commande signé entre Thomas LEROUX et l’association SLP",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.31,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
   {
    "id": "C8.2",
    "questions": [
@@ -30,6 +2444,7 @@
      "articles_ok": true,
      "nouveaute_sim_max": 1.0,
      "formule_rituelle": true,
+     "situation_sim_max": 0.176,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 695
@@ -47,8 +2462,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.398,
+     "nouveaute_sim_max": 0.596,
      "formule_rituelle": false,
+     "situation_sim_max": 0.176,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 675
@@ -66,8 +2482,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.763,
-     "formule_rituelle": false,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.176,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 730
@@ -85,8 +2502,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.544,
+     "nouveaute_sim_max": 0.571,
      "formule_rituelle": false,
+     "situation_sim_max": 0.176,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 697
@@ -129,6 +2547,2352 @@
    "revision": []
   },
   {
+   "id": "C8.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.3",
+      "2.2",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.193,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 530
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "4.1",
+      "6.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.857,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.193,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 562
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "8.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.193,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 536
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.3",
+      "8.4",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.679,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.193,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 535
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Captures des publications de la page « Pains & Co Tours » (février 2026)",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.11,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : Les actes de concurrence déloyale",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 0.98,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : Extrait du bilan d’activité du Fournil d’Ambre établi par l’expert-comptable",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.15,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : L’impact du droit de la concurrence sur les entreprises : enjeux et stratégies",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 2 : la question ne porte pas assez sur « 8.3 Le respect de la concurrence » (lue comme ['6.1', '4.1', '6.2']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "C8.4",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.163,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 648
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "8.4",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.938,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.163,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 657
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.848,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.163,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 509
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "8.4",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.163,
+     "nouveaute_ok": false,
+     "longueur_ok": true,
+     "car_par_point": 515
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Extrait du contrat de franchise conclu entre Yanis MOREAU et la SAS Vélocité Livraison",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.21,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : Extrait de l’arrêt de la Cour de cassation, chambre sociale, 18 janvier 2012",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : Extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : L’existence des régimes spéciaux",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 4 : énoncé trop proche d'un ancien sujet : change la situation et la tournure"
+   ]
+  },
+  {
+   "id": "E1.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "5.2",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.745,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.09,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 620
+    },
+    {
+     "slot": 2,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "2.2",
+      "1.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.102,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 469
+    },
+    {
+     "slot": 3,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "7.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.744,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.123,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 698
+    },
+    {
+     "slot": 4,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "1.1",
+      "5.2",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.68,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.062,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 568
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe – Regard historique sur l’ordre public et le contrat",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E1.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "1.2",
+      "2.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.521,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.086,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 682
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "1.2",
+      "6.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.757,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.163,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 611
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "1.2",
+      "5.2",
+      "1.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.09,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 571
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "6.3",
+      "2.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.091,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 340
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe – Le sens des arrêts de la Cour de cassation du 9 mai 1984",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 4 : la question ne porte pas assez sur « 1.2 La règle de droit » (lue comme ['4.2', '6.3', '2.2']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "E1.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "1.3",
+      "2.3",
+      "1.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.518,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.072,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 742
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "1.3",
+      "2.3",
+      "4.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.572,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.108,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 672
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "1.3",
+      "7.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.684,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.071,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 636
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "1.3",
+      "2.1",
+      "2.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.068,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 542
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extraits du Code de la consommation",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.89,
+     "fidelite": 0.98,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E2.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "2.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.092,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 562
+    },
+    {
+     "slot": 2,
+     "facette_visee": 2,
+     "facette_lue": 2,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "5.1",
+      "4.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.702,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.142,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 632
+    },
+    {
+     "slot": 3,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "3.1",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.591,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.104,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 616
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "2.3",
+      "1.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.304,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.051,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 595
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extrait du Code de la consommation",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E2.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "2.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.078,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 573
+    },
+    {
+     "slot": 2,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.2",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.086,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.069,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 618
+    },
+    {
+     "slot": 3,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "6.2",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.411,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.08,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 598
+    },
+    {
+     "slot": 4,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "3.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.658,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.084,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 654
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Articles du Code civil et du Code de commerce",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.84,
+     "fidelite": 0.95,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E2.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "2.2",
+      "2.3",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.53,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.064,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 704
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "6.1",
+      "8.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.098,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 639
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "2.3",
+      "5.2",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.951,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.056,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 656
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.3",
+      "2.2",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.072,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 580
+    }
+   ],
+   "annexes": [],
+   "revision": [
+    "Question 2 : la question ne porte pas assez sur « 2.3 Le recours au juge » (lue comme ['6.2', '6.1', '8.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "E3.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "5.2",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.926,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.097,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 527
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "6.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.102,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 630
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "5.2",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.117,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 660
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "2.1",
+      "2.2",
+      "7.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.154,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 520
+    }
+   ],
+   "annexes": [],
+   "revision": [
+    "Question 4 : la question ne porte pas assez sur « 3.1 La personne juridique physique morale » (lue comme ['2.1', '2.2', '7.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "E3.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "3.2",
+      "4.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.787,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.082,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 747
+    },
+    {
+     "slot": 2,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "3.2",
+      "5.2",
+      "3.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.849,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.111,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 639
+    },
+    {
+     "slot": 3,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "3.2",
+      "5.1",
+      "1.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.717,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.032,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 715
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "3.2",
+      "2.2",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.116,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 543
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Article du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E3.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "1.3",
+      "1.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.485,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.085,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 806
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "4.1",
+      "6.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.107,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 708
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "5.2",
+      "8.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.073,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 662
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "2.2",
+      "3.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.114,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 634
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – La méthode des « cookie walls »",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 1 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['4.1', '1.3', '1.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 2 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['6.2', '4.1', '6.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 3 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['4.1', '5.2', '8.2']) : ancre-la dans les notions et articles de cette section",
+    "Question 4 : la question ne porte pas assez sur « 3.3 Le patrimoine » (lue comme ['4.2', '2.2', '3.2']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "E4.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "6.1",
+      "7.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.815,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.121,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 768
+    },
+    {
+     "slot": 2,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "5.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.908,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.082,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 736
+    },
+    {
+     "slot": 3,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "6.1",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.083,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 740
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "2.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.11,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 575
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Article 9 du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E4.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "2.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.102,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 652
+    },
+    {
+     "slot": 2,
+     "facette_visee": 2,
+     "facette_lue": 2,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "2.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.104,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 597
+    },
+    {
+     "slot": 3,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "4.2",
+      "3.3",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.523,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.135,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 612
+    },
+    {
+     "slot": 4,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "4.1",
+      "6.1",
+      "6.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.781,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.068,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 593
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : définition et limite du droit de propriété",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.95,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 4 : la question ne porte pas assez sur « 4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels » (lue comme ['4.1', '6.1', '6.2']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "E5.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.847,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.097,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 678
+    },
+    {
+     "slot": 2,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.101,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 613
+    },
+    {
+     "slot": 3,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.2",
+      "7.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.454,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.106,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 645
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.2",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.102,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 697
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E5.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "6.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.807,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.083,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 763
+    },
+    {
+     "slot": 2,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "2.1",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.55,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.082,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 723
+    },
+    {
+     "slot": 3,
+     "facette_visee": 2,
+     "facette_lue": 2,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "5.1",
+      "4.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.831,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.12,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 680
+    },
+    {
+     "slot": 4,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "2.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.745,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.08,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 780
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.75,
+     "fidelite": 0.92,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E6.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.073,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 702
+    },
+    {
+     "slot": 2,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.245,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.109,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 691
+    },
+    {
+     "slot": 3,
+     "facette_visee": 2,
+     "facette_lue": 2,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.086,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 585
+    },
+    {
+     "slot": 4,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "6.2",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.644,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.076,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 631
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E6.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "5.2",
+      "6.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.496,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.081,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 763
+    },
+    {
+     "slot": 2,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "4.1",
+      "3.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.677,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.117,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 658
+    },
+    {
+     "slot": 3,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "6.3",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.11,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 490
+    },
+    {
+     "slot": 4,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "6.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.117,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 691
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extraits du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.84,
+     "fidelite": 0.96,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E6.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.1",
+      "4.1",
+      "6.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.111,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 636
+    },
+    {
+     "slot": 2,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "6.3",
+      "3.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.094,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 621
+    },
+    {
+     "slot": 3,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "6.3",
+      "5.2",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.45,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.086,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 618
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "3.1",
+      "6.3",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.125,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 516
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Extrait du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 1 : la question ne porte pas assez sur « 6.3 Les moyens d’exonération » (lue comme ['6.1', '4.1', '6.2']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "E7.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "6.3",
+      "7.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.694,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.116,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 610
+    },
+    {
+     "slot": 2,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "2.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.068,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 532
+    },
+    {
+     "slot": 3,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "8.4",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.585,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.135,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 584
+    },
+    {
+     "slot": 4,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "5.2",
+      "8.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.68,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.08,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 628
+    }
+   ],
+   "annexes": [],
+   "revision": []
+  },
+  {
+   "id": "E7.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "5.1",
+      "6.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.601,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.135,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 708
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "7.3",
+      "6.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.097,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 757
+    },
+    {
+     "slot": 3,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "2.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.124,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 563
+    },
+    {
+     "slot": 4,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.2",
+      "2.2",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.143,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 673
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Extraits du Code du travail",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.91,
+     "fidelite": 0.98,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E7.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "7.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.732,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.079,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 684
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "2.1",
+      "3.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.112,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 605
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "5.2",
+      "2.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.058,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 586
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "8.4",
+      "2.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.072,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 512
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Article L1121-1 du Code du travail",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E8.1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "6.1",
+      "8.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.077,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 542
+    },
+    {
+     "slot": 2,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "3.3",
+      "3.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.21,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.079,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 501
+    },
+    {
+     "slot": 3,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "3.3",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.568,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.06,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 506
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "8.2",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.158,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 502
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Article L526-6 du Code de commerce",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.86,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E8.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.715,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.114,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 686
+    },
+    {
+     "slot": 2,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.547,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.0,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 659
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.489,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.085,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 684
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.12,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 560
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E8.3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.3",
+      "8.1",
+      "7.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.737,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.069,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 708
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "6.2",
+      "6.1",
+      "4.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.857,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.085,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 612
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "8.3",
+      "8.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.658,
+     "formule_rituelle": false,
+     "situation_sim_max": 0.109,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 634
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.3",
+      "2.2",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.127,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 453
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : La loyauté de la concurrence",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 2 : la question ne porte pas assez sur « 8.3 Le respect de la concurrence » (lue comme ['6.2', '6.1', '4.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
    "id": "E8.4",
    "questions": [
     {
@@ -144,8 +4908,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.542,
+     "nouveaute_sim_max": 0.524,
      "formule_rituelle": false,
+     "situation_sim_max": 0.127,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 935
@@ -163,8 +4928,9 @@
      "section_ok": false,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.455,
+     "nouveaute_sim_max": 0.557,
      "formule_rituelle": false,
+     "situation_sim_max": 0.155,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 854
@@ -182,8 +4948,9 @@
      "section_ok": false,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.453,
+     "nouveaute_sim_max": 0.44,
      "formule_rituelle": false,
+     "situation_sim_max": 0.105,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 801
@@ -203,6 +4970,7 @@
      "articles_ok": true,
      "nouveaute_sim_max": 1.0,
      "formule_rituelle": true,
+     "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 622
@@ -242,6 +5010,7 @@
      "articles_ok": true,
      "nouveaute_sim_max": 1.0,
      "formule_rituelle": true,
+     "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 838
@@ -259,8 +5028,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.481,
+     "nouveaute_sim_max": 0.696,
      "formule_rituelle": false,
+     "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 873
@@ -278,8 +5048,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.6,
+     "nouveaute_sim_max": 0.704,
      "formule_rituelle": false,
+     "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 772
@@ -297,8 +5068,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.47,
+     "nouveaute_sim_max": 0.488,
      "formule_rituelle": false,
+     "situation_sim_max": 0.173,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 810
@@ -358,6 +5130,7 @@
      "articles_ok": true,
      "nouveaute_sim_max": 1.0,
      "formule_rituelle": true,
+     "situation_sim_max": 0.178,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 783
@@ -375,8 +5148,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.728,
-     "formule_rituelle": false,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "situation_sim_max": 0.178,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 805
@@ -394,8 +5168,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.41,
+     "nouveaute_sim_max": 0.617,
      "formule_rituelle": false,
+     "situation_sim_max": 0.178,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 697
@@ -413,8 +5188,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.738,
+     "nouveaute_sim_max": 0.719,
      "formule_rituelle": false,
+     "situation_sim_max": 0.178,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 734
@@ -474,6 +5250,7 @@
      "articles_ok": true,
      "nouveaute_sim_max": 1.0,
      "formule_rituelle": true,
+     "situation_sim_max": 0.143,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 743
@@ -491,8 +5268,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.378,
+     "nouveaute_sim_max": 0.399,
      "formule_rituelle": false,
+     "situation_sim_max": 0.143,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 603
@@ -510,8 +5288,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.408,
+     "nouveaute_sim_max": 0.555,
      "formule_rituelle": false,
+     "situation_sim_max": 0.143,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 682
@@ -529,8 +5308,9 @@
      "section_ok": true,
      "articles_inconnus": [],
      "articles_ok": true,
-     "nouveaute_sim_max": 0.563,
+     "nouveaute_sim_max": 0.528,
      "formule_rituelle": false,
+     "situation_sim_max": 0.143,
      "nouveaute_ok": true,
      "longueur_ok": true,
      "car_par_point": 761
