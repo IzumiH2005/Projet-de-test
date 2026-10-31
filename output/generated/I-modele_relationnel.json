@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "modele_relationnel",
-     "enonce": "Écrire une requête SQL permettant d'afficher le nom et le prénom des adhérents habitant à Lyon, triés par ordre alphabétique de nom.",
+     "enonce": "Médiathèque : contacter les adhérents de Lyon.\nInformations utiles : nom et prénom.\nOrdre souhaité : alphabétique par nom.\n\nÉcrire une requête SQL permettant d'afficher le nom et le prénom des adhérents habitant à Lyon, triés par ordre alphabétique de nom.",
      "points": 1,
      "reponse_attendue": "SELECT nom, prenom FROM Adherent WHERE ville = 'Lyon' ORDER BY nom;"
     }

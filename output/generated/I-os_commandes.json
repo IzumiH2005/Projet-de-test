@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "os_commandes",
-     "enonce": "Quel est le répertoire courant après cette commande ? Justifier.",
+     "enonce": "Répertoire de départ : /home/lina/projets/nsi.\nCommande tapée : cd ..\n\nQuel est le répertoire courant après cette commande ? Justifier.",
      "points": 1,
      "reponse_attendue": "/home/lina/projets : cd .. remonte d'un niveau, vers le répertoire parent du répertoire courant."
     }

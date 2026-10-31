@@ -23,7 +23,7 @@
     {
      "slot": 2,
      "notion": "complexite",
-     "enonce": "Écrire une fonction resultats qui prend en paramètres la liste mesures et une chaîne algo et qui renvoie la liste des tuples (n, comparaisons) des mesures concernant algo, dans l'ordre de la liste.",
+     "enonce": "Besoin : pour un algorithme donné, on veut récupérer\nles couples (n, comparaisons) des mesures qui le concernent,\ndans l'ordre où elles apparaissent dans la liste mesures.\n\nÉcrire une fonction resultats qui prend en paramètres la liste mesures et une chaîne algo et qui renvoie la liste des tuples (n, comparaisons) des mesures concernant algo, dans l'ordre de la liste.",
      "points": 1,
      "reponse_attendue": "```python\ndef resultats(mesures, algo):\n    res = []\n    for m in mesures:\n        if m['algo'] == algo:\n            res.append((m['n'], m['comparaisons']))\n    return res\n```\nresultats(mesures, 'insertion') renvoie [(100, 4950), (200, 19900)] : doubler n multiplie environ par 4 le nombre de comparaisons (coût quadratique)."
     }

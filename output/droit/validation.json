@@ -1,0 +1,576 @@
+{
+ "resume": {
+  "facette_ok": 1.0,
+  "section_ok": 0.85,
+  "articles_ok": 1.0,
+  "nouveaute_ok": 1.0,
+  "longueur_ok": 1.0,
+  "annexes_ok": 1.0,
+  "tout_ok": 0.85,
+  "questions": 20,
+  "annexes": 17,
+  "lots": 5
+ },
+ "detail": [
+  {
+   "id": "C8.2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "8.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 695
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.398,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 675
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "5.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.763,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 730
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "8.1",
+      "5.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.544,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 697
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 – Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 – Extrait des statuts de la SARL « Cycl’Hop »",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.39,
+     "fidelite": 0.05,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 – Articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.81,
+     "fidelite": 0.97,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 – Statuts de société",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "E8.4",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.4",
+      "7.1",
+      "6.3"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.542,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 935
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.2",
+      "4.1",
+      "8.2"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.455,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 854
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.3",
+      "8.2",
+      "4.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.453,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 801
+    },
+    {
+     "slot": 4,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.1",
+      "4.2",
+      "2.1"
+     ],
+     "section_ok": false,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 622
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : extrait de l’arrêt de la Cour de cassation, chambre sociale, 18 janvier 2012",
+     "type_support": "cassation cour arret mai",
+     "taux_reprise_du_type": 0.17,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": [
+    "Question 2 : la question ne porte pas assez sur « 8.4 Les partenariats contractuels » (lue comme ['5.2', '4.1', '8.2']) : ancre-la dans les notions et articles de cette section",
+    "Question 3 : la question ne porte pas assez sur « 8.4 Les partenariats contractuels » (lue comme ['8.3', '8.2', '4.1']) : ancre-la dans les notions et articles de cette section",
+    "Question 4 : la question ne porte pas assez sur « 8.4 Les partenariats contractuels » (lue comme ['7.1', '4.2', '2.1']) : ancre-la dans les notions et articles de cette section"
+   ]
+  },
+  {
+   "id": "M1",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 838
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "8.4"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.481,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 873
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "5.1",
+      "8.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.6,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 772
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.1",
+      "5.1",
+      "4.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.47,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 810
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extrait des conditions générales de vente de la société Fours Alpins",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.18,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : articles du Code civil et du Code de commerce",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.59,
+     "fidelite": 0.94,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : la notion de professionnel en droit de la consommation",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "M2",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "7.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 783
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.728,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 805
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.41,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 697
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "7.3",
+      "4.1",
+      "7.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.738,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 734
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil et du Code du travail",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.78,
+     "fidelite": 0.95,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extrait du règlement intérieur de la SAS Saveurs du Port (version du 1er septembre 2025)",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.14,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : extrait du contrat de travail de Maëlys ROCHE",
+     "type_support": "travail code contrat indeterminee",
+     "taux_reprise_du_type": 0.48,
+     "proximite_source": 0.24,
+     "fidelite": 0.08,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : le droit à l’image du salarié",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.18,
+     "fidelite": 0.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  },
+  {
+   "id": "M3",
+   "questions": [
+    {
+     "slot": 1,
+     "facette_visee": 1,
+     "facette_lue": 1,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "8.1",
+      "2.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 1.0,
+     "formule_rituelle": true,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 743
+    },
+    {
+     "slot": 2,
+     "facette_visee": 0,
+     "facette_lue": 0,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "8.1",
+      "2.1"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.378,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 603
+    },
+    {
+     "slot": 3,
+     "facette_visee": 3,
+     "facette_lue": 3,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "8.1",
+      "5.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.408,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 682
+    },
+    {
+     "slot": 4,
+     "facette_visee": 4,
+     "facette_lue": 4,
+     "facette_ok": true,
+     "section_top3": [
+      "8.2",
+      "8.1",
+      "6.2"
+     ],
+     "section_ok": true,
+     "articles_inconnus": [],
+     "articles_ok": true,
+     "nouveaute_sim_max": 0.563,
+     "formule_rituelle": false,
+     "nouveaute_ok": true,
+     "longueur_ok": true,
+     "car_par_point": 761
+    }
+   ],
+   "annexes": [
+    {
+     "titre": "Annexe 1 : articles du Code civil",
+     "type_support": "code civil articles extraits",
+     "taux_reprise_du_type": 0.94,
+     "proximite_source": 0.78,
+     "fidelite": 0.94,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 2 : extrait des statuts de la SARL Brasserie des Volcans",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.56,
+     "fidelite": 0.11,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 3 : courrier de la société Malterie d’Auvergne",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 0.15,
+     "fidelite": 0.0,
+     "ok": true
+    },
+    {
+     "titre": "Annexe 4 : statuts de société",
+     "type_support": "des contrat code entre",
+     "taux_reprise_du_type": 0.04,
+     "proximite_source": 1.0,
+     "fidelite": 1.0,
+     "ok": true
+    }
+   ],
+   "revision": []
+  }
+ ]
+}

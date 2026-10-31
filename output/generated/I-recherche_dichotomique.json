@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "recherche_dichotomique",
-     "enonce": "Recopier et compléter les lignes 5, 9 et 11 de la fonction `recherche`.",
+     "enonce": "Le tableau tab contient 8 dossards triés : 4, 11, 17, 23, 30, 42, 56 et 61.\nLe dossard 42 est à l'indice 5.\nLa fonction recherche comporte 12 lignes ; les lignes 5, 9 et 11 sont incomplètes.\n\nRecopier et compléter les lignes 5, 9 et 11 de la fonction `recherche`.",
      "points": 1,
      "reponse_attendue": "Ligne 5 : `milieu = (debut + fin) // 2` ; ligne 9 : `debut = milieu + 1` ; ligne 11 : `fin = milieu - 1`."
     }

@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "liste_chainee",
-     "enonce": "Recopier et compléter les lignes 7, 9 et 11 de la fonction longueur.",
+     "enonce": "La liste 8 → 3 → 15 compte 3 cellules : la cellule 1 contient 8, la cellule 2 contient 3\net la cellule 3 contient 15, dont l'attribut suivante vaut None.\nL'appel longueur(l) doit donc renvoyer 3, et longueur(None) doit renvoyer 0.\n\nRecopier et compléter les lignes 7, 9 et 11 de la fonction longueur.",
      "points": 1,
      "reponse_attendue": "Ligne 7 : n = 0 ; ligne 9 : while c is not None: ; ligne 11 : c = c.suivante."
     }

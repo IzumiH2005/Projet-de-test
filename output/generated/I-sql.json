@@ -23,7 +23,7 @@
     {
      "slot": 2,
      "notion": "sql",
-     "enonce": "Déterminer la valeur de la variable `requete` à l'issue de ces instructions.",
+     "enonce": "villes = [\"Lyon\", \"Nantes\", \"Lille\"]\nrequete commence par \"SELECT nom FROM client WHERE\"\nchaque ville ajoute \" ville = '...'\"\nà partir de la deuxième, \" OR\" est ajouté avant\n\nDéterminer la valeur de la variable `requete` à l'issue de ces instructions.",
      "points": 1,
      "reponse_attendue": "`\"SELECT nom FROM client WHERE ville = 'Lyon' OR ville = 'Nantes' OR ville = 'Lille'\"`"
     }
@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "sql",
-     "enonce": "Quelle est la requête correcte ? Justifier en expliquant ce que fait une des autres propositions.",
+     "enonce": "a) La proposition a) utilise DELETE FROM ... WHERE.\nb) La proposition b) omet le mot-clé FROM.\nc) La proposition c) utilise DROP TABLE, qui supprime toute la table.\nd) La proposition d) modifie les lignes au lieu de les supprimer.\n\nQuelle est la requête correcte ? Justifier en expliquant ce que fait une des autres propositions.",
      "points": 1,
      "reponse_attendue": "a). La syntaxe est DELETE FROM table WHERE condition. b) est syntaxiquement incorrecte (FROM manquant) ; c) DROP TABLE supprime toute la table et n'accepte pas de WHERE ; d) modifie l'année sans supprimer les lignes."
     }

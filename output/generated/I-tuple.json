@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "tuple",
-     "enonce": "Écrire la fonction `milieu` qui prend en paramètres `a` et `b` et qui renvoie le milieu du segment.",
+     "enonce": "La fonction milieu prend en paramètres deux tuples a = (xa, ya) et b = (xb, yb).\nElle calcule la moyenne des abscisses et la moyenne des ordonnées.\nElle renvoie le tuple ((xa + xb) / 2, (ya + yb) / 2).\n\nÉcrire la fonction `milieu` qui prend en paramètres `a` et `b` et qui renvoie le milieu du segment.",
      "points": 1,
      "reponse_attendue": "```python\ndef milieu(a, b):\n    return ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)\n```"
     }

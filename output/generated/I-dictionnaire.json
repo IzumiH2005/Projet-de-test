@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "dictionnaire",
-     "enonce": "Quelle est la valeur de l'expression `catalogue['978-2-25-315']['annee']` ? Expliquer pourquoi l'attribut isbn convient comme clé de ce dictionnaire.",
+     "enonce": "Dans la relation Livre(isbn, titre, annee), l'attribut isbn est la clé primaire :\ndeux livres distincts ne peuvent pas avoir le même isbn.\nChaque ligne de la relation devient une entrée de catalogue indexée par cet isbn.\n\nQuelle est la valeur de l'expression `catalogue['978-2-25-315']['annee']` ? Expliquer pourquoi l'attribut isbn convient comme clé de ce dictionnaire.",
      "points": 1,
      "reponse_attendue": "La valeur est `1951`. isbn est la clé primaire de la relation : chaque valeur est unique, donc deux livres ne peuvent pas avoir la même clé ; or les clés d'un dictionnaire doivent être uniques (et immuables, ce qu'est une chaîne)."
     }

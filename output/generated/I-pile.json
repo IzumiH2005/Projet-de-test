@@ -23,7 +23,7 @@
     {
      "slot": 2,
      "notion": "pile",
-     "enonce": "Écrire le code de la méthode `sommet` de la classe `Pile` qui renvoie l'élément au sommet de la pile sans modifier la pile.",
+     "enonce": "La méthode sommet prend en paramètre uniquement self.\nElle renvoie le dernier élément de self.contenu sans le retirer.\nSi la pile est vide, elle renvoie None.\n\nÉcrire le code de la méthode `sommet` de la classe `Pile` qui renvoie l'élément au sommet de la pile sans modifier la pile.",
      "points": 1,
      "reponse_attendue": "```python\n    def sommet(self):\n        if self.est_vide():\n            return None\n        return self.contenu[-1]\n```\n(Variante acceptée : x = self.depiler(); self.empiler(x); return x.)"
     }

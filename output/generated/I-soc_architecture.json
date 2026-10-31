@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "soc_architecture",
-     "enonce": "Donner la valeur renvoyée par l'expression suivante : `[c for c in soc if soc[c] == 'communication']`.",
+     "enonce": "Une montre connectée embarque un SoC.\nPlusieurs composants servent à communiquer.\nOn les recherche dans le dictionnaire soc.\n\nDonner la valeur renvoyée par l'expression suivante : `[c for c in soc if soc[c] == 'communication']`.",
      "points": 1,
      "reponse_attendue": "`['modem 4G', 'Wi-Fi']` (les clés sont parcourues dans l'ordre d'insertion)."
     }
@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "soc_architecture",
-     "enonce": "Donner la requête SQL correspondant à ce besoin.",
+     "enonce": "On souhaite obtenir le nom de toutes les puces du fabricant 'Arvel'.\nOn ne garde que celles qui intègrent un processeur graphique (gpu_integre vaut 1).\nLes informations sont dans la relation puce(nom, fabricant, gpu_integre).\n\nDonner la requête SQL correspondant à ce besoin.",
      "points": 1,
      "reponse_attendue": "```sql\nSELECT nom FROM puce WHERE fabricant = 'Arvel' AND gpu_integre = 1;\n```"
     }

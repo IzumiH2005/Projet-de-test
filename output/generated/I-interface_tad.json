@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "interface_tad",
-     "enonce": "Écrire une fonction ordonner qui prend en paramètres une liste taches de chaînes de caractères et une liste priorites d'entiers de même longueur, et qui renvoie la liste des tâches rangées par priorité croissante en n'utilisant que l'interface de la file de priorité.",
+     "enonce": "Spécification : la fonction ordonner prend en paramètres une liste taches de chaînes\net une liste priorites d'entiers de même longueur ;\nelle renvoie la liste des tâches par priorité croissante, en n'utilisant que creer_fp,\nest_vide_fp, inserer et extraire_min.\n\nÉcrire une fonction ordonner qui prend en paramètres une liste taches de chaînes de caractères et une liste priorites d'entiers de même longueur, et qui renvoie la liste des tâches rangées par priorité croissante en n'utilisant que l'interface de la file de priorité.",
      "points": 1,
      "reponse_attendue": "```python\ndef ordonner(taches, priorites):\n    f = creer_fp()\n    for i in range(len(taches)):\n        inserer(f, taches[i], priorites[i])\n    res = []\n    while not est_vide_fp(f):\n        res.append(extraire_min(f))\n    return res\n```"
     }

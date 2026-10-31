@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "parcours_arbre",
-     "enonce": "Recopier et compléter les lignes 3 et 4 de la fonction infixe.",
+     "enonce": "L'arbre A contient 6 valeurs : 8, 3, 10, 1, 6 et 14.\nSa racine 8 a deux fils ; le nœud 10 n'a qu'un seul fils, 14.\nLa fonction infixe comporte 4 lignes ; seules les lignes 3 et 4 sont incomplètes.\n\nRecopier et compléter les lignes 3 et 4 de la fonction infixe.",
      "points": 1,
      "reponse_attendue": "3         return []\n4     return infixe(arbre.gauche) + [arbre.valeur] + infixe(arbre.droit)"
     }

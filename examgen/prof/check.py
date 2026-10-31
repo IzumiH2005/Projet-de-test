@@ -8,7 +8,8 @@
                 une annexe inventée n'est admise que dans un type de support où le professeur
                 invente aussi (extraits de contrat, règlement…), ce que mesure le taux de reprise
                 des sources réelles par type de support, appris sur les anciens sujets ;
-  nouveaute_ok  l'énoncé n'est pas une copie d'un ancien énoncé (cosinus < 0,85) ;
+  nouveaute_ok  l'énoncé n'est pas une copie d'un ancien énoncé (cosinus < 0,85), sauf formule
+                rituelle (énoncé que le professeur repose dans plusieurs sujets, détecté sur le corpus) ;
   longueur_ok   la réponse attendue a la longueur par point des vrais corrigés (p10–p90, avec marge).
 
 Chaque échec produit une consigne de révision en clair pour l'agent rédacteur.
@@ -44,9 +45,25 @@ class Checker:
         self.src = [s for s, _ in src]
         self.src_n = [_n(s) for s in self.src]
         self.Src = t.vec.transform(self.src)
+        # index global des 6-grammes des sources : une annexe qui cumule plusieurs articles
+        # doit retrouver chacun de ses morceaux quelque part, pas forcément dans un seul passage
+        self.src_sh = set().union(*(self._shingles(x) for x in self.src_n))
+        self._rituals()
         self.known_ids = set().union(*t.sec_ids) | set().union(*(art_ids(s) for s in self.src)) | \
             set().union(*(art_ids(q.answer) for q in t.qs if q.answer))
         self._support_source_rate()
+
+    def _rituals(self):
+        """Formules rituelles : énoncés que le professeur repose quasi à l'identique dans plusieurs
+        sujets. Les reprendre fait partie de sa manière de faire, ce n'est pas une copie."""
+        t = self.t
+        P = (self.past @ self.past.T).toarray()
+        exams = np.array([q.exam for q in t.qs])
+        n_ex = len(set(exams))
+        need = max(3, int(0.1 * n_ex))
+        self.ritual = np.array([len(set(exams[P[i] > 0.85])) >= need for i in range(len(t.qs))])
+        rit = sorted({t.qs[i].stem.strip() for i in np.where(self.ritual)[0]}, key=len)[:8]
+        t.rep["formules_rituelles"] = {"seuil_sujets": need, "n_enonces": int(self.ritual.sum()), "exemples": rit}
 
     def _support_source_rate(self):
         """Pour chaque type de support : part des anciennes annexes qui sont la reprise d'une source
@@ -95,10 +112,9 @@ class Checker:
         retrouve dans l'une des 3 sources les plus proches : 1 = recopie fidèle)."""
         x = self.t.vec.transform([text])
         s = (x @ self.Src.T).toarray().ravel()
-        best = np.argsort(-s)[:3]
         sh = self._shingles(_n(re.sub(r"\[…\]|\(\.\.\.\)|…", " ", text)))
-        fid = max(len(sh & self._shingles(self.src_n[b])) / max(len(sh), 1) for b in best)
-        return float(s[best[0]]), float(fid)
+        fid = len(sh & self.src_sh) / max(len(sh), 1)
+        return float(s.max()), float(fid)
 
     def check_item(self, g: dict) -> dict:
         t = self.t
@@ -114,7 +130,9 @@ class Checker:
             sim, fid = self.faithful(body) if len(body) > 60 else (0.0, 1.0)
             sup = int(t.km_sup.predict(self._sup_Z([self._sup_title(a.get("titre", ""))]))[0]) if getattr(t, "km_sup", None) is not None else -1
             rate = self.src_rate.get(sup, 0.0)
-            looks_source = sim > 0.35 or rate > 0.5 or self.dated_rate.get(sup, 0) > 0.5
+            # source réelle : type que le professeur reprend tel quel (taux appris), document daté
+            # (décision), ou annexe que le rédacteur déclare tirée du cours / des documents réels
+            looks_source = rate > 0.5 or self.dated_rate.get(sup, 0) > 0.5 or a.get("source") in ("cours", "documents_reels")
             ok = (fid >= 0.8) if looks_source else True
             res["annexes"].append({"titre": a.get("titre", ""), "type_support": t.sup_facets[sup]["nom"] if sup >= 0 else None,
                                    "taux_reprise_du_type": round(rate, 2), "proximite_source": round(sim, 2),
@@ -145,9 +163,11 @@ class Checker:
             unknown = sorted(c for c in cited if c and c not in self.known_ids and c not in art_ids(anx_text))
             r["articles_inconnus"] = unknown
             r["articles_ok"] = not unknown
-            nov = float((t.vec.transform([stem]) @ self.past.T).toarray().max()) if stem else 0.0
+            sims = (t.vec.transform([stem]) @ self.past.T).toarray().ravel() if stem else np.zeros(1)
+            nov = float(sims.max())
             r["nouveaute_sim_max"] = round(nov, 3)
-            r["nouveaute_ok"] = nov < 0.85
+            r["formule_rituelle"] = bool(nov >= 0.85 and self.ritual[int(sims.argmax())])
+            r["nouveaute_ok"] = nov < 0.85 or r["formule_rituelle"]
             pts = q.get("points") or ps.get("points") or 1
             cpp = t.detail_stats["chars_par_point_p10_p50_p90"]
             L = len(ans)

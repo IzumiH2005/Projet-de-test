@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "arbre_binaire",
-     "enonce": "Recopier et compléter les lignes 10 et 12 de la méthode taille pour qu'elle renvoie la taille de l'arbre.",
+     "enonce": "Rappel sur la méthode taille :\nla variable t compte d'abord le nœud courant (ligne 8) ;\nsi un sous-arbre gauche existe, on ajoute à t la taille de ce sous-arbre,\npuis on fait de même pour le sous-arbre droit avant de renvoyer t.\n\nRecopier et compléter les lignes 10 et 12 de la méthode taille pour qu'elle renvoie la taille de l'arbre.",
      "points": 1,
      "reponse_attendue": "```python\n10            t = t + self.gauche.taille()\n12            t = t + self.droit.taille()\n```"
     }

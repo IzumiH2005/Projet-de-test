@@ -23,7 +23,7 @@
     {
      "slot": 2,
      "notion": "representation_nombres",
-     "enonce": "Recopier et compléter les lignes 5, 6 et 7 de la fonction binaire.",
+     "enonce": "Le casier 13 s'écrit 1101 en binaire, sur 4 bits.\nLe casier 6 s'écrit 110 et le casier 0 s'écrit 0.\nLa fonction binaire comporte 8 lignes ; les lignes 5, 6 et 7 sont incomplètes.\n\nRecopier et compléter les lignes 5, 6 et 7 de la fonction binaire.",
      "points": 1,
      "reponse_attendue": "```python\ndef binaire(n):\n    if n == 0:\n        return \"0\"\n    s = \"\"\n    while n > 0:\n        s = str(n % 2) + s\n        n = n // 2\n    return s\n```"
     }

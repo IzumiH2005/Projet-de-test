@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "modularite",
-     "enonce": "Donner la ligne d'importation à écrire en tête du programme principal.",
+     "enonce": "Le module geometrie fournit : PI, aire_disque, perimetre_disque, aire_rectangle, aire_triangle.\nLe programme principal n'utilise que : aire_disque, aire_rectangle.\nAppel souhaité : aire_disque(2), sans préfixe geometrie.\n\nDonner la ligne d'importation à écrire en tête du programme principal.",
      "points": 1,
      "reponse_attendue": "from geometrie import aire_disque, aire_rectangle"
     }

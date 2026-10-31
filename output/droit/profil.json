@@ -340,7 +340,19 @@
     "longueur_mediane": 1258,
     "exemple_texte": "Article L. 1121-1\nNul ne peut apporter aux droits des personnes et aux libertés individuelles et\ncollectives de restrictions qui ne seraient pas justifiées par la nature de la tâche à\naccomplir ni proportionnées au but recherché.\nArticle L. 1331-1\nConstitue une sanction toute mesure, autre que les observations verbales, prise par\nl'employeur à la suite d'un agissement du salarié considéré par l'employeur comme\nfautif, que cette mesure soit de nature à affecter immédiatement ou non la présence\ndu"
    }
-  ]
+  ],
+  "taux_de_reprise_de_sources": {
+   "cassation cour arret mai": 0.17,
+   "des contrat code entre": 0.04,
+   "code civil articles extraits": 0.94,
+   "travail code contrat indeterminee": 0.48
+  },
+  "part_de_documents_dates": {
+   "cassation cour arret mai": 1.0,
+   "des contrat code entre": 0.06,
+   "code civil articles extraits": 0.0,
+   "travail code contrat indeterminee": 0.0
+  }
  },
  "operations_mentales": {
   "methode": "8 descripteurs relationnels, mélange gaussien, k au BIC",
@@ -713,5 +725,16 @@
    "frequence_du_theme": 0.25,
    "taille_section": 0.14
   }
+ },
+ "formules_rituelles": {
+  "seuil_sujets": 3,
+  "n_enonces": 40,
+  "exemples": [
+   "Qualifiez juridiquement les faits et les parties.",
+   "Qualifiez juridiquement les parties et les faits.",
+   "Qualifiez juridiquement les faits et les dommages.",
+   "Résumez les faits en utilisant des qualifications juridiques.",
+   "Qualifiez juridiquement les parties, les faits et les dommages."
+  ]
  }
 }

@@ -3,6 +3,7 @@ reconnu par le modèle découvert (support_top3_ok faux).
 
   python scripts/nsi_revise.py prepare   # écrit output/revision_nsi/lot_*.json + sauvegarde « avant »
   (agents rédacteurs : révisent output/generated/I-*.json en place)
+  python -m examgen.cli validate && python scripts/nsi_revise.py keep_best
   python -m examgen.cli validate && python scripts/nsi_revise.py compare
 
 Chaque item de révision donne au rédacteur le diagnostic du validateur et de vrais exemples du
@@ -64,14 +65,46 @@ def compare():
     bd = {key(d): d for d in b["detail"]}
     rev = [bd[k] for k in todo if k in bd]
     res = {"questions_revisees": len(rev),
-           "support_top3_ok_apres_revision": round(float(np.mean([d["support_top3_ok"] for d in rev])), 3) if rev else None,
-           "consigne_top3_ok_apres_revision": round(float(np.mean([d["consigne_top3_ok"] for d in rev])), 3) if rev else None,
-           "notion_ok_apres_revision": round(float(np.mean([d["notion_ok"] for d in rev])), 3) if rev else None,
+           "support_top3_ok_apres_revision": round(float(np.mean([bool(d["support_top3_ok"]) for d in rev if d.get("support_top3_ok") is not None])), 3) if rev else None,
+           "consigne_top3_ok_apres_revision": round(float(np.mean([bool(d["consigne_top3_ok"]) for d in rev if d.get("consigne_top3_ok") is not None])), 3) if rev else None,
+           "notion_ok_apres_revision": round(float(np.mean([bool(d["notion_ok"]) for d in rev if d.get("notion_ok") is not None])), 3) if rev else None,
            "inedit_avant": {k: a["resume"]["inedit"][k] for k in ("support_top3_ok", "consigne_top3_ok", "notion_ok", "plausible")},
            "inedit_apres": {k: b["resume"]["inedit"][k] for k in ("support_top3_ok", "consigne_top3_ok", "notion_ok", "plausible")}}
     (REV / "resultat.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
     print(json.dumps(res, ensure_ascii=False, indent=1))
 
 
+def keep_best():
+    """Accepter / rejeter chaque révision : on garde la version (avant ou après) que le validateur
+    note le mieux (support + consigne + notion). Une révision qui gagne le support mais perd la
+    consigne est rejetée. L'ancienne version vient du dernier commit (git)."""
+    import subprocess
+    a = json.loads((REV / "validation_avant.json").read_text(encoding="utf-8"))
+    b = json.loads((OUT / "validation.json").read_text(encoding="utf-8"))
+    key = lambda d: (d["id"], d.get("exercice"), d.get("slot"))
+    A, B = {key(d): d for d in a["detail"]}, {key(d): d for d in b["detail"]}
+    sc = lambda d: sum(bool(d.get(m)) for m in ("support_top3_ok", "consigne_top3_ok", "notion_ok"))
+    items = [it for f in sorted(REV.glob("lot_*.json")) for it in json.loads(f.read_text(encoding="utf-8"))]
+    kept = rejected = 0
+    for it in items:
+        k = (it["fichier"].split("/")[-1][:-5], it["exercice"], it["slot"])
+        if k not in A or k not in B or sc(B[k]) >= sc(A[k]):
+            kept += 1
+            continue
+        old = json.loads(subprocess.run(["git", "show", f"HEAD:{it['fichier']}"], cwd=ROOT, capture_output=True, text=True, check=True).stdout)
+        oq = next(q for e in old["exercices"] if e["numero"] == it["exercice"] for q in e["questions"] if q["slot"] == it["slot"])
+        path = ROOT / it["fichier"]
+        g = json.loads(path.read_text(encoding="utf-8"))
+        for e in g["exercices"]:
+            if e["numero"] == it["exercice"]:
+                for q in e["questions"]:
+                    if q["slot"] == it["slot"]:
+                        q["enonce"], q["reponse_attendue"] = oq["enonce"], oq.get("reponse_attendue", q.get("reponse_attendue"))
+        path.write_text(json.dumps(g, ensure_ascii=False, indent=1), encoding="utf-8")
+        rejected += 1
+    print(f"révisions gardées : {kept}, rejetées (version d'origine rétablie) : {rejected}")
+    (REV / "acceptation.json").write_text(json.dumps({"gardees": kept, "rejetees": rejected}, ensure_ascii=False), encoding="utf-8")
+
+
 if __name__ == "__main__":
-    {"prepare": prepare, "compare": compare}[sys.argv[1]]()
+    {"prepare": prepare, "compare": compare, "keep_best": keep_best}[sys.argv[1]]()

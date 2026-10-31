@@ -23,7 +23,7 @@
     {
      "slot": 2,
      "notion": "recursivite",
-     "enonce": "Écrire le code récursif de la méthode longueur de la classe Maillon qui renvoie le nombre de maillons de la chaîne commençant à self.",
+     "enonce": "La méthode longueur ne prend que le paramètre self.\nElle renvoie 1 si self.suivant vaut None.\nSinon, elle renvoie 1 plus la longueur de la chaîne commençant à self.suivant.\n\nÉcrire le code récursif de la méthode longueur de la classe Maillon qui renvoie le nombre de maillons de la chaîne commençant à self.",
      "points": 1,
      "reponse_attendue": "```python\n    def longueur(self):\n        if self.suivant is None:\n            return 1\n        return 1 + self.suivant.longueur()\n```"
     }

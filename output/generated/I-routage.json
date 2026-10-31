@@ -23,7 +23,7 @@
     {
      "slot": 2,
      "notion": "routage",
-     "enonce": "Expliquer le rôle de la ligne 3 de la fonction cout et donner le résultat renvoyé par cout(1000) si on supprime cette ligne en remplaçant d par debit_mbps à la ligne 4.",
+     "enonce": "Débits saisis : 10 Mb/s, 100 Mb/s, 1000 Mb/s.\nCoût OSPF de référence : 10^8 / d, avec d en bits/s.\n1 Mb/s = 10^6 bits/s.\ncout(10) = 10.0 ; cout(100) = 1.0 ; cout(1000) = 0.1.\n\nExpliquer le rôle de la ligne 3 de la fonction cout et donner le résultat renvoyé par cout(1000) si on supprime cette ligne en remplaçant d par debit_mbps à la ligne 4.",
      "points": 1,
      "reponse_attendue": "La ligne 3 convertit le débit de Mb/s en bits/s (multiplication par 10^6) afin d'appliquer la formule, qui attend un débit en bits/s. Sans elle, cout(1000) renverrait 10**8 / 1000 = 100000.0 au lieu de 0.1, ce qui est faux."
     }

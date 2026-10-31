@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "graphe",
-     "enonce": "Recopier et compléter la ligne 1 et la fonction successeurs donnée ci-dessus (lignes 6 et 7).",
+     "enonce": "Besoin : on veut obtenir les villes d'arrivée de tous les trajets\ndont la ville de départ est Nantes,\nd'abord par une requête SQL (ligne 1), puis par la fonction successeurs.\n\nRecopier et compléter la ligne 1 et la fonction successeurs donnée ci-dessus (lignes 6 et 7).",
      "points": 1,
      "reponse_attendue": "Ligne 1 : REQUETE = \"SELECT ville_arr FROM Trajet WHERE ville_dep = 'Nantes';\"\n```python\ndef successeurs(lignes, ville):\n    res = []\n    for (ident, dep, arr) in lignes:\n        if dep == ville:\n            res.append(arr)\n    return res\n```"
     }

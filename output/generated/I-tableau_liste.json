@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "tableau_liste",
-     "enonce": "Recopier et compléter les lignes 3, 4 et 5 de la fonction `indice_max`.",
+     "enonce": "La station relève 7 températures : 12, 17, 9, 17, 14, 11 et 15.\nLe maximum 17 apparaît aux indices 1 et 3.\nLa fonction indice_max comporte 6 lignes ; les lignes 3, 4 et 5 sont incomplètes.\n\nRecopier et compléter les lignes 3, 4 et 5 de la fonction `indice_max`.",
      "points": 1,
      "reponse_attendue": "```python\ndef indice_max(t):\n    i_max = 0\n    for i in range(1, len(t)):\n        if t[i] > t[i_max]:\n            i_max = i\n    return i_max\n```"
     }

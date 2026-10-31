@@ -2595,7 +2595,12 @@ On définit un arbre binaire à l'aide de la classe suivante, l'arbre vide étan
 13        return t
 ```
 
-**Q3** (1 pt, arbre_binaire) Recopier et compléter les lignes 10 et 12 de la méthode taille pour qu'elle renvoie la taille de l'arbre.
+**Q3** (1 pt, arbre_binaire) Rappel sur la méthode taille :
+la variable t compte d'abord le nœud courant (ligne 8) ;
+si un sous-arbre gauche existe, on ajoute à t la taille de ce sous-arbre,
+puis on fait de même pour le sous-arbre droit avant de renvoyer t.
+
+Recopier et compléter les lignes 10 et 12 de la méthode taille pour qu'elle renvoie la taille de l'arbre.
 
 <details><summary>Corrigé</summary>
 
@@ -2623,7 +2628,10 @@ Taille : 7 (R, S, T, U, V, W, X). Hauteur : 4 (chemin R - T - W - X).
 
 En Python, une fonction est une donnée comme une autre : elle peut être passée en paramètre à une autre fonction. On souhaite une fonction appliquer_n qui prend en paramètres une fonction f, un entier n positif ou nul et une valeur x, et qui renvoie le résultat de n applications successives de f à partir de x. Par exemple, si double est définie par def double(y): return 2 * y, alors appliquer_n(double, 3, 1) renvoie 8.
 
-**Q1** (1 pt, calculabilite) Écrire la fonction appliquer_n qui prend en paramètres f, n et x et qui renvoie f(f(...f(x)...)) avec n applications de f.
+**Q1** (1 pt, calculabilite) Spécification : la fonction appliquer_n prend en paramètres une fonction f, un entier n ≥ 0 et une valeur x ;
+elle renvoie x si n vaut 0, et sinon le résultat de n applications successives de f à partir de x.
+
+Écrire la fonction appliquer_n qui prend en paramètres f, n et x et qui renvoie f(f(...f(x)...)) avec n applications de f.
 
 <details><summary>Corrigé</summary>
 
@@ -2665,7 +2673,12 @@ On suppose, par l'absurde, qu'il existe une fonction arret(prog, x) qui renvoie 
 
 Alan Turing a démontré en 1936 qu'aucun programme ne peut décider, pour tout programme et toute entrée, si l'exécution se termine.
 
-**Q3** (1 pt, calculabilite) Donner le nom de ce problème et le qualificatif qui désigne un problème qu'aucun algorithme ne peut résoudre.
+**Q3** (1 pt, calculabilite) Hypothèse : on dispose d'un programme arret(p, e).
+Il renverrait True si p s'arrête sur e.
+Il renverrait False sinon.
+Turing montre qu'un tel programme ne peut exister.
+
+Donner le nom de ce problème et le qualificatif qui désigne un problème qu'aucun algorithme ne peut résoudre.
 
 <details><summary>Corrigé</summary>
 
@@ -2829,7 +2842,11 @@ mesures = [{'algo': 'insertion', 'n': 100, 'comparaisons': 4950},
 
 Besoin : on veut obtenir, pour un algorithme donné, la liste des couples (n, comparaisons) correspondant à cet algorithme, comme le ferait la requête SELECT n, comparaisons FROM mesure WHERE algo = 'insertion';
 
-**Q2** (1 pt, complexite) Écrire une fonction resultats qui prend en paramètres la liste mesures et une chaîne algo et qui renvoie la liste des tuples (n, comparaisons) des mesures concernant algo, dans l'ordre de la liste.
+**Q2** (1 pt, complexite) Besoin : pour un algorithme donné, on veut récupérer
+les couples (n, comparaisons) des mesures qui le concernent,
+dans l'ordre où elles apparaissent dans la liste mesures.
+
+Écrire une fonction resultats qui prend en paramètres la liste mesures et une chaîne algo et qui renvoie la liste des tuples (n, comparaisons) des mesures concernant algo, dans l'ordre de la liste.
 
 <details><summary>Corrigé</summary>
 
@@ -2947,7 +2964,11 @@ catalogue = {
 }
 ```
 
-**Q3** (1 pt, dictionnaire) Quelle est la valeur de l'expression `catalogue['978-2-25-315']['annee']` ? Expliquer pourquoi l'attribut isbn convient comme clé de ce dictionnaire.
+**Q3** (1 pt, dictionnaire) Dans la relation Livre(isbn, titre, annee), l'attribut isbn est la clé primaire :
+deux livres distincts ne peuvent pas avoir le même isbn.
+Chaque ligne de la relation devient une entrée de catalogue indexée par cet isbn.
+
+Quelle est la valeur de l'expression `catalogue['978-2-25-315']['annee']` ? Expliquer pourquoi l'attribut isbn convient comme clé de ce dictionnaire.
 
 <details><summary>Corrigé</summary>
 
@@ -3427,7 +3448,11 @@ Une application de covoiturage stocke les trajets proposés dans la table Trajet
 ```
 La variable REQUETE doit contenir la requête SQL renvoyant les villes d'arrivée des trajets partant de Nantes ; la fonction successeurs, elle, fait le même travail en Python à partir de toutes les lignes de la table.
 
-**Q3** (1 pt, graphe) Recopier et compléter la ligne 1 et la fonction successeurs donnée ci-dessus (lignes 6 et 7).
+**Q3** (1 pt, graphe) Besoin : on veut obtenir les villes d'arrivée de tous les trajets
+dont la ville de départ est Nantes,
+d'abord par une requête SQL (ligne 1), puis par la fonction successeurs.
+
+Recopier et compléter la ligne 1 et la fonction successeurs donnée ci-dessus (lignes 6 et 7).
 
 <details><summary>Corrigé</summary>
 
@@ -3520,7 +3545,12 @@ Ligne 5 : empiler(q, depiler(p)) ; ligne 6 : n = n + 1 ; ligne 8 : empiler(p, de
 
 Une file de priorité est un type abstrait dont l'interface comporte : creer_fp() qui renvoie une file vide, est_vide_fp(f), inserer(f, element, priorite) et extraire_min(f) qui retire et renvoie l'élément de plus petite priorité (on suppose f non vide). On veut s'en servir pour trier des tâches sans connaître son implémentation.
 
-**Q3** (1 pt, interface_tad) Écrire une fonction ordonner qui prend en paramètres une liste taches de chaînes de caractères et une liste priorites d'entiers de même longueur, et qui renvoie la liste des tâches rangées par priorité croissante en n'utilisant que l'interface de la file de priorité.
+**Q3** (1 pt, interface_tad) Spécification : la fonction ordonner prend en paramètres une liste taches de chaînes
+et une liste priorites d'entiers de même longueur ;
+elle renvoie la liste des tâches par priorité croissante, en n'utilisant que creer_fp,
+est_vide_fp, inserer et extraire_min.
+
+Écrire une fonction ordonner qui prend en paramètres une liste taches de chaînes de caractères et une liste priorites d'entiers de même longueur, et qui renvoie la liste des tâches rangées par priorité croissante en n'utilisant que l'interface de la file de priorité.
 
 <details><summary>Corrigé</summary>
 
@@ -3640,7 +3670,11 @@ Une liste chaînée est construite à partir de cellules :
 ```
 La liste vide est représentée par None. Par exemple, la liste 8 → 3 → 15 est créée par l = Cellule(8, Cellule(3, Cellule(15, None))) et longueur(l) doit renvoyer 3.
 
-**Q1** (1 pt, liste_chainee) Recopier et compléter les lignes 7, 9 et 11 de la fonction longueur.
+**Q1** (1 pt, liste_chainee) La liste 8 → 3 → 15 compte 3 cellules : la cellule 1 contient 8, la cellule 2 contient 3
+et la cellule 3 contient 15, dont l'attribut suivante vaut None.
+L'appel longueur(l) doit donc renvoyer 3, et longueur(None) doit renvoyer 0.
+
+Recopier et compléter les lignes 7, 9 et 11 de la fonction longueur.
 
 <details><summary>Corrigé</summary>
 
@@ -3880,7 +3914,11 @@ Les attributs soulignés sont des clés primaires, ceux précédés de # des cl�
 
 La médiathèque veut contacter ses adhérents de Lyon.
 
-**Q1** (1 pt, modele_relationnel) Écrire une requête SQL permettant d'afficher le nom et le prénom des adhérents habitant à Lyon, triés par ordre alphabétique de nom.
+**Q1** (1 pt, modele_relationnel) Médiathèque : contacter les adhérents de Lyon.
+Informations utiles : nom et prénom.
+Ordre souhaité : alphabétique par nom.
+
+Écrire une requête SQL permettant d'afficher le nom et le prénom des adhérents habitant à Lyon, triés par ordre alphabétique de nom.
 
 <details><summary>Corrigé</summary>
 
@@ -3967,7 +4005,11 @@ Un élève a écrit un module geometrie.py, rangé dans le même dossier que son
 
 Dans son programme principal, il ne souhaite utiliser que les fonctions aire_disque et aire_rectangle, en les appelant directement par leur nom, sans préfixe.
 
-**Q1** (1 pt, modularite) Donner la ligne d'importation à écrire en tête du programme principal.
+**Q1** (1 pt, modularite) Le module geometrie fournit : PI, aire_disque, perimetre_disque, aire_rectangle, aire_triangle.
+Le programme principal n'utilise que : aire_disque, aire_rectangle.
+Appel souhaité : aire_disque(2), sans préfixe geometrie.
+
+Donner la ligne d'importation à écrire en tête du programme principal.
 
 <details><summary>Corrigé</summary>
 
@@ -4090,7 +4132,10 @@ chmod 750 rapport.txt
 
 Lina est dans le répertoire /home/lina/projets/nsi. Elle tape cd ..
 
-**Q3** (1 pt, os_commandes) Quel est le répertoire courant après cette commande ? Justifier.
+**Q3** (1 pt, os_commandes) Répertoire de départ : /home/lina/projets/nsi.
+Commande tapée : cd ..
+
+Quel est le répertoire courant après cette commande ? Justifier.
 
 <details><summary>Corrigé</summary>
 
@@ -4229,7 +4274,11 @@ La fonction infixe renvoie la liste des valeurs dans l'ordre infixe ; l'appel in
 4     return infixe(...) + [...] + infixe(...)
 ```
 
-**Q1** (1 pt, parcours_arbre) Recopier et compléter les lignes 3 et 4 de la fonction infixe.
+**Q1** (1 pt, parcours_arbre) L'arbre A contient 6 valeurs : 8, 3, 10, 1, 6 et 14.
+Sa racine 8 a deux fils ; le nœud 10 n'a qu'un seul fils, 14.
+La fonction infixe comporte 4 lignes ; seules les lignes 3 et 4 sont incomplètes.
+
+Recopier et compléter les lignes 3 et 4 de la fonction infixe.
 
 <details><summary>Corrigé</summary>
 
@@ -4469,7 +4518,11 @@ class Pile:
 
 La méthode `sommet` ne prend aucun paramètre (autre que `self`) et renvoie l'élément situé au sommet de la pile sans le retirer ; elle renvoie `None` si la pile est vide.
 
-**Q2** (1 pt, pile) Écrire le code de la méthode `sommet` de la classe `Pile` qui renvoie l'élément au sommet de la pile sans modifier la pile.
+**Q2** (1 pt, pile) La méthode sommet prend en paramètre uniquement self.
+Elle renvoie le dernier élément de self.contenu sans le retirer.
+Si la pile est vide, elle renvoie None.
+
+Écrire le code de la méthode `sommet` de la classe `Pile` qui renvoie l'élément au sommet de la pile sans modifier la pile.
 
 <details><summary>Corrigé</summary>
 
@@ -4540,7 +4593,11 @@ Ordre d'annulation : « souligner », puis « changer la police », puis « mett
 
 Une application de gestion de vélos en libre-service utilise une classe `Velo` dont chaque instance possède les attributs `num`, `station` et `km`. Les objets sont sauvegardés dans une table `velo(num, station, km)` d'une base de données, chaque attribut d'objet correspondant à un attribut de la table.
 
-**Q1** (1 pt, poo) Écrire une requête SQL permettant d'afficher le numéro des vélos de la station 'Gare' ayant parcouru plus de 1000 km.
+**Q1** (1 pt, poo) Les vélos sont rangés par station.
+Certains vélos ont beaucoup roulé.
+On s'intéresse à la station 'Gare'.
+
+Écrire une requête SQL permettant d'afficher le numéro des vélos de la station 'Gare' ayant parcouru plus de 1000 km.
 
 <details><summary>Corrigé</summary>
 
@@ -4793,7 +4850,11 @@ Les 2000 dossards d'une course sont rangés dans une liste `tab` triée par ordr
 12     return -1
 ```
 
-**Q1** (1 pt, recherche_dichotomique) Recopier et compléter les lignes 5, 9 et 11 de la fonction `recherche`.
+**Q1** (1 pt, recherche_dichotomique) Le tableau tab contient 8 dossards triés : 4, 11, 17, 23, 30, 42, 56 et 61.
+Le dossard 42 est à l'indice 5.
+La fonction recherche comporte 12 lignes ; les lignes 5, 9 et 11 sont incomplètes.
+
+Recopier et compléter les lignes 5, 9 et 11 de la fonction `recherche`.
 
 <details><summary>Corrigé</summary>
 
@@ -5027,7 +5088,11 @@ class Maillon:
 ```
 La méthode longueur ne prend pas d'autre paramètre que self et renvoie le nombre de maillons de la chaîne qui commence au maillon self (self compris). Par exemple, Maillon('A', Maillon('B', Maillon('C'))).longueur() renvoie 3.
 
-**Q2** (1 pt, recursivite) Écrire le code récursif de la méthode longueur de la classe Maillon qui renvoie le nombre de maillons de la chaîne commençant à self.
+**Q2** (1 pt, recursivite) La méthode longueur ne prend que le paramètre self.
+Elle renvoie 1 si self.suivant vaut None.
+Sinon, elle renvoie 1 plus la longueur de la chaîne commençant à self.suivant.
+
+Écrire le code récursif de la méthode longueur de la classe Maillon qui renvoie le nombre de maillons de la chaîne commençant à self.
 
 <details><summary>Corrigé</summary>
 
@@ -5111,7 +5176,11 @@ Le casier numéro 13 d'un vestiaire possède une serrure électronique qui affic
 8     return s
 ```
 
-**Q2** (1 pt, representation_nombres) Recopier et compléter les lignes 5, 6 et 7 de la fonction binaire.
+**Q2** (1 pt, representation_nombres) Le casier 13 s'écrit 1101 en binaire, sur 4 bits.
+Le casier 6 s'écrit 110 et le casier 0 s'écrit 0.
+La fonction binaire comporte 8 lignes ; les lignes 5, 6 et 7 sont incomplètes.
+
+Recopier et compléter les lignes 5, 6 et 7 de la fonction binaire.
 
 <details><summary>Corrigé</summary>
 
@@ -5256,7 +5325,12 @@ En OSPF, le coût d'une liaison vaut 10^8 / d, où d est le débit en bits/s. Un
 ```
 Ainsi cout(10) renvoie 10.0 et cout(1000) renvoie 0.1.
 
-**Q2** (1 pt, routage) Expliquer le rôle de la ligne 3 de la fonction cout et donner le résultat renvoyé par cout(1000) si on supprime cette ligne en remplaçant d par debit_mbps à la ligne 4.
+**Q2** (1 pt, routage) Débits saisis : 10 Mb/s, 100 Mb/s, 1000 Mb/s.
+Coût OSPF de référence : 10^8 / d, avec d en bits/s.
+1 Mb/s = 10^6 bits/s.
+cout(10) = 10.0 ; cout(100) = 1.0 ; cout(1000) = 0.1.
+
+Expliquer le rôle de la ligne 3 de la fonction cout et donner le résultat renvoyé par cout(1000) si on supprime cette ligne en remplaçant d par debit_mbps à la ligne 4.
 
 <details><summary>Corrigé</summary>
 
@@ -5480,7 +5554,11 @@ Les rôles des composants d'un SoC de montre connectée sont rangés dans un dic
 soc = {'CPU': 'calcul', 'GPU': 'affichage', 'modem 4G': 'communication', 'Wi-Fi': 'communication', 'RAM': 'mémoire'}
 ```
 
-**Q1** (1 pt, soc_architecture) Donner la valeur renvoyée par l'expression suivante : `[c for c in soc if soc[c] == 'communication']`.
+**Q1** (1 pt, soc_architecture) Une montre connectée embarque un SoC.
+Plusieurs composants servent à communiquer.
+On les recherche dans le dictionnaire soc.
+
+Donner la valeur renvoyée par l'expression suivante : `[c for c in soc if soc[c] == 'communication']`.
 
 <details><summary>Corrigé</summary>
 
@@ -5514,7 +5592,11 @@ DELETE FROM soc WHERE id_soc = 3;
 
 La relation `puce(nom, fabricant, gpu_integre)` décrit des SoC ; l'attribut `gpu_integre` vaut 1 si la puce intègre un processeur graphique et 0 sinon. On souhaite obtenir le nom de toutes les puces du fabricant 'Arvel' qui intègrent un GPU.
 
-**Q3** (1 pt, soc_architecture) Donner la requête SQL correspondant à ce besoin.
+**Q3** (1 pt, soc_architecture) On souhaite obtenir le nom de toutes les puces du fabricant 'Arvel'.
+On ne garde que celles qui intègrent un processeur graphique (gpu_integre vaut 1).
+Les informations sont dans la relation puce(nom, fabricant, gpu_integre).
+
+Donner la requête SQL correspondant à ce besoin.
 
 <details><summary>Corrigé</summary>
 
@@ -5573,7 +5655,12 @@ for i in range(len(villes)):
     requete = requete + " ville = '" + villes[i] + "'"
 ```
 
-**Q2** (1 pt, sql) Déterminer la valeur de la variable `requete` à l'issue de ces instructions.
+**Q2** (1 pt, sql) villes = ["Lyon", "Nantes", "Lille"]
+requete commence par "SELECT nom FROM client WHERE"
+chaque ville ajoute " ville = '...'"
+à partir de la deuxième, " OR" est ajouté avant
+
+Déterminer la valeur de la variable `requete` à l'issue de ces instructions.
 
 <details><summary>Corrigé</summary>
 
@@ -5590,7 +5677,12 @@ b) `DELETE livre WHERE annee < 1950;`
 c) `DROP TABLE livre WHERE annee < 1950;`
 d) `UPDATE livre SET annee = NULL WHERE annee < 1950;`
 
-**Q3** (1 pt, sql) Quelle est la requête correcte ? Justifier en expliquant ce que fait une des autres propositions.
+**Q3** (1 pt, sql) a) La proposition a) utilise DELETE FROM ... WHERE.
+b) La proposition b) omet le mot-clé FROM.
+c) La proposition c) utilise DROP TABLE, qui supprime toute la table.
+d) La proposition d) modifie les lignes au lieu de les supprimer.
+
+Quelle est la requête correcte ? Justifier en expliquant ce que fait une des autres propositions.
 
 <details><summary>Corrigé</summary>
 
@@ -5634,7 +5726,11 @@ Une station relève 7 températures par semaine, stockées dans un tableau `t` n
 6     return i_max
 ```
 
-**Q1** (1 pt, tableau_liste) Recopier et compléter les lignes 3, 4 et 5 de la fonction `indice_max`.
+**Q1** (1 pt, tableau_liste) La station relève 7 températures : 12, 17, 9, 17, 14, 11 et 15.
+Le maximum 17 apparaît aux indices 1 et 3.
+La fonction indice_max comporte 6 lignes ; les lignes 3, 4 et 5 sont incomplètes.
+
+Recopier et compléter les lignes 3, 4 et 5 de la fonction `indice_max`.
 
 <details><summary>Corrigé</summary>
 
@@ -5796,7 +5892,11 @@ Seuls les suspects de Lille sont sélectionnés ; `ORDER BY taille DESC` trie le
 
 Un point du plan est représenté par un tuple `(x, y)` de deux nombres. On souhaite une fonction `milieu` qui prend en paramètres deux points `a` et `b` et renvoie le tuple représentant le milieu du segment [ab] ; par exemple `milieu((0, 2), (4, 6))` renvoie `(2.0, 4.0)`.
 
-**Q1** (1 pt, tuple) Écrire la fonction `milieu` qui prend en paramètres `a` et `b` et qui renvoie le milieu du segment.
+**Q1** (1 pt, tuple) La fonction milieu prend en paramètres deux tuples a = (xa, ya) et b = (xb, yb).
+Elle calcule la moyenne des abscisses et la moyenne des ordonnées.
+Elle renvoie le tuple ((xa + xb) / 2, (ya + yb) / 2).
+
+Écrire la fonction `milieu` qui prend en paramètres `a` et `b` et qui renvoie le milieu du segment.
 
 <details><summary>Corrigé</summary>
 

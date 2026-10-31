@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "calculabilite",
-     "enonce": "Écrire la fonction appliquer_n qui prend en paramètres f, n et x et qui renvoie f(f(...f(x)...)) avec n applications de f.",
+     "enonce": "Spécification : la fonction appliquer_n prend en paramètres une fonction f, un entier n ≥ 0 et une valeur x ;\nelle renvoie x si n vaut 0, et sinon le résultat de n applications successives de f à partir de x.\n\nÉcrire la fonction appliquer_n qui prend en paramètres f, n et x et qui renvoie f(f(...f(x)...)) avec n applications de f.",
      "points": 1,
      "reponse_attendue": "```python\ndef appliquer_n(f, n, x):\n    resultat = x\n    for _ in range(n):\n        resultat = f(resultat)\n    return resultat\n```"
     }
@@ -37,7 +37,7 @@
     {
      "slot": 3,
      "notion": "calculabilite",
-     "enonce": "Donner le nom de ce problème et le qualificatif qui désigne un problème qu'aucun algorithme ne peut résoudre.",
+     "enonce": "Hypothèse : on dispose d'un programme arret(p, e).\nIl renverrait True si p s'arrête sur e.\nIl renverrait False sinon.\nTuring montre qu'un tel programme ne peut exister.\n\nDonner le nom de ce problème et le qualificatif qui désigne un problème qu'aucun algorithme ne peut résoudre.",
      "points": 1,
      "reponse_attendue": "Le problème de l'arrêt ; il est dit indécidable (la fonction qui le résoudrait n'est pas calculable)."
     }

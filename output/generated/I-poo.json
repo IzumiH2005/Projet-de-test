@@ -9,7 +9,7 @@
     {
      "slot": 1,
      "notion": "poo",
-     "enonce": "Écrire une requête SQL permettant d'afficher le numéro des vélos de la station 'Gare' ayant parcouru plus de 1000 km.",
+     "enonce": "Les vélos sont rangés par station.\nCertains vélos ont beaucoup roulé.\nOn s'intéresse à la station 'Gare'.\n\nÉcrire une requête SQL permettant d'afficher le numéro des vélos de la station 'Gare' ayant parcouru plus de 1000 km.",
      "points": 1,
      "reponse_attendue": "```sql\nSELECT num FROM velo WHERE station = 'Gare' AND km > 1000;\n```"
     }
