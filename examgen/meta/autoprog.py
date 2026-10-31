@@ -153,11 +153,19 @@ class Search:
     def __init__(self, fc):
         self.fc, self.V = fc, Vars(fc)
         self.n = fc.n
+        self.memo = {}
 
     def y(self, z):
         return np.array([p in self.fc.tested[z] for p in range(self.n)], int)
 
     def predict(self, groups, model, target, train, objective="prevision"):
+        key = (tuple(sorted(groups)), model, target, tuple(train), objective)
+        if key in self.memo:
+            return self.memo[key]
+        if model == "melange":  # réutilise les deux modèles déjà appris
+            p = np.mean([rankdata(self.predict(groups, m, target, train, objective)) for m in MODELS], 0) / self.n
+            self.memo[key] = p
+            return p
         Xs, ys = [], []
         for z in train:
             X, yz = self.V.matrix(z, train, groups), self.y(z)
@@ -168,9 +176,9 @@ class Search:
             Xs.append(X)
             ys.append(yz)
         Xtr, ytr = np.vstack(Xs), np.concatenate(ys)
-        if len(set(ytr)) < 2:
-            return np.zeros(self.n)
-        return fit_predict(model, Xtr, ytr, self.V.matrix(target, train, groups))
+        p = np.zeros(self.n) if len(set(ytr)) < 2 else fit_predict(model, Xtr, ytr, self.V.matrix(target, train, groups))
+        self.memo[key] = p
+        return p
 
     def score(self, p, target, past, objective):
         """Prévision : questions couvertes par 10 % du cours (+ 0,1 AUC).
@@ -292,29 +300,45 @@ def adopted(S, years, obj) -> tuple[list, str]:
     return gs, m
 
 
-def main(names):
-    warnings.filterwarnings("ignore")
+CACHE = ROOT / "data" / "cache"
+
+
+def _fc(name):
     from ..prof.forecast import Forecast, reading
-    fcs = {}
-    for n in names:
-        t, _, it, lr = reading(n, log=lambda *a: None)
-        fcs[n] = Forecast(t, it, lr)
-    # 1. ce que chaque matière retient seule, sur toutes ses années (sert d'a priori aux autres)
-    own = {}
-    for n, fc in fcs.items():
-        S = Search(fc)
-        own[n] = {obj: adopted(S, fc.years, obj) for obj in ("prevision", "nouveaute")}
-        print(n, "retient seule :", own[n])
-    # 2. preuve honnête, matière par matière, avec l'a priori appris SANS elle
-    rep = {"retenu_seul": {n: {o: {"familles": v[0], "modele": v[1]} for o, v in d.items()} for n, d in own.items()}, "preuve": {}}
-    for n, fc in fcs.items():
-        prior = {}
-        for obj in ("prevision", "nouveaute"):
-            others = [own[k][obj] for k in fcs if k != n]
-            prior[obj] = {"groupes": {g: np.mean([g in o[0] for o in others]) for g in GROUPS} if others else {},
-                          "modeles": {m: np.mean([m == o[1] for o in others]) for m in MODEL_NAMES} if others else {}}
-        rep["preuve"][n] = honest(n, fc, prior)
-    # 3. règle finale, apprise sur toutes les matières : a priori pour une matière nouvelle
+    t, _, it, lr = reading(name, log=lambda *a: None)
+    return Forecast(t, it, lr)
+
+
+def stage_own(name):
+    """Ce que la matière retient seule, sur toutes ses années (sert d'a priori aux autres)."""
+    S = Search(_fc(name))
+    r = {obj: adopted(S, S.fc.years, obj) for obj in ("prevision", "nouveaute")}
+    (CACHE / f"autoprog_own_{name}.json").write_text(json.dumps(r, ensure_ascii=False), encoding="utf-8")
+    print(name, "retient seule :", r, flush=True)
+
+
+def _prior(name, own):
+    prior = {}
+    for obj in ("prevision", "nouveaute"):
+        others = [own[k][obj] for k in own if k != name]
+        prior[obj] = {"groupes": {g: float(np.mean([g in o[0] for o in others])) for g in GROUPS} if others else {},
+                      "modeles": {m: float(np.mean([m == o[1] for o in others])) for m in MODEL_NAMES} if others else {}}
+    return prior
+
+
+def _own(names):
+    return {n: json.loads((CACHE / f"autoprog_own_{n}.json").read_text(encoding="utf-8")) for n in names}
+
+
+def stage_honest(name, names):
+    r = honest(name, _fc(name), _prior(name, _own(names)))
+    (CACHE / f"autoprog_honest_{name}.json").write_text(json.dumps(r, ensure_ascii=False, default=float), encoding="utf-8")
+
+
+def combine(names):
+    own = _own(names)
+    rep = {"retenu_seul": {n: {o: {"familles": v[0], "modele": v[1]} for o, v in d.items()} for n, d in own.items()},
+           "preuve": {n: json.loads((CACHE / f"autoprog_honest_{n}.json").read_text(encoding="utf-8")) for n in names}}
     rule = {}
     for obj in ("prevision", "nouveaute"):
         rule[obj] = {"groupes": {g: round(float(np.mean([g in own[k][obj][0] for k in own])), 3) for g in GROUPS},
@@ -328,5 +352,27 @@ def main(names):
         print(n, {o: {k: v for k, v in x.items() if k != "annees"} for o, x in r.items()})
 
 
+def main(argv):
+    """autoprog [own|honest] NOM... ; sans étape : tout, matière par matière, puis bilan."""
+    warnings.filterwarnings("ignore")
+    if argv and argv[0] in ("own", "honest", "combine"):
+        st, names = argv[0], argv[1:] or ["droit", "nsi", "eco"]
+        if st == "own":
+            for n in names:
+                stage_own(n)
+        elif st == "honest":
+            stage_honest(names[0], names[1:] or ["droit", "nsi", "eco"])
+        else:
+            combine(names)
+        return
+    names = argv or ["droit", "nsi", "eco"]
+    for n in names:
+        stage_own(n)
+    for n in names:
+        stage_honest(n, names)
+    combine(names)
+
+
 if __name__ == "__main__":
-    main(sys.argv[1:] or ["droit", "nsi", "eco"])
+    warnings.filterwarnings("ignore")
+    main(sys.argv[1:])
