@@ -1,0 +1,58 @@
+{
+  "id": "E8.2",
+  "type": "exercices",
+  "titre": "La société commerciale",
+  "annexes": [
+    {
+      "titre": "Annexe 1 : Articles du Code civil",
+      "texte": "Article 1103\nLes contrats légalement formés tiennent lieu de loi à ceux qui les ont faits.\nArticle 1104\nLes contrats doivent être négociés, formés et exécutés de bonne foi. […]\nArticle 1130\nL'erreur, le dol et la violence vicient le consentement lorsqu'ils sont de telle nature que, sans\neux, l'une des parties n'aurait pas contracté ou aurait contracté à des conditions\nsubstantiellement différentes.\nLeur caractère déterminant s'apprécie eu égard aux personnes et aux circonstances dans\nlesquelles le consentement a été donné.\nArticle 1131\nLes vices du consentement sont une cause de nullité relative du contrat.\nArticle 1132\nL'erreur de droit ou de fait, à moins qu'elle ne soit inexcusable, est une cause de nullité du\ncontrat lorsqu'elle porte sur les qualités essentielles de la prestation due ou sur celles du\ncocontractant.\nArticle 1832\nLa société est instituée par deux ou plusieurs personnes qui conviennent par un contrat\nd'affecter à une entreprise commune des biens ou leur industrie en vue de partager le\nbénéfice ou de profiter de l'économie qui pourra en résulter.\nElle peut être instituée, dans les cas prévus par la loi, par l'acte de volonté d'une seule\npersonne.\nLes associés s'engagent à contribuer aux pertes.",
+      "source": "documents_reels"
+    }
+  ],
+  "questions": [
+    {
+      "slot": 1,
+      "situation": "Nora PELLETIER, céramiste, et Lucas GIRARD ont créé en mars 2025 la SARL « Atelier Céramia » à Nantes. Lucas a apporté 20 000 euros et Nora son savoir-faire de céramiste ; les statuts attribuent à chacun 200 parts sociales. L’assemblée a constaté un bénéfice distribuable de 30 000 euros pour 2025. Lucas, gérant, refuse de verser un dividende à Nora au motif qu’« elle n’a pas apporté un euro ».",
+      "enonce": "Développez l’argumentation juridique que Nora peut avancer pour obtenir sa part des bénéfices de la société « Atelier Céramia ».",
+      "points": 2,
+      "reponse_attendue": "Nora peut s’appuyer sur le contrat de société. Selon l’article 1832 du Code civil, la société est instituée par deux ou plusieurs personnes qui conviennent par un contrat d’affecter à une entreprise commune des biens ou leur industrie en vue de partager le bénéfice. Les associés reçoivent en contrepartie de leurs apports des droits sociaux qui leur ouvrent droit au partage des bénéfices.\nEn l’espèce, Nora et Lucas ont signé les statuts de la SARL « Atelier Céramia » : il y a bien un contrat de société entre deux personnes. Nora a réalisé un apport en industrie : elle met au service de la société son savoir-faire de céramiste et façonne toutes les pièces vendues. Lucas a réalisé un apport en numéraire de 20 000 euros.\nL’article 1843-2 du Code civil précise que les apports en industrie ne concourent pas à la formation du capital social mais donnent lieu à l’attribution de parts ouvrant droit au partage des bénéfices et de l’actif net. Les statuts lui ont attribué 200 parts sociales sur 400.\nL’article 1103 du Code civil dispose que les contrats légalement formés tiennent lieu de loi à ceux qui les ont faits : Lucas, gérant, est tenu de respecter la clause de répartition des résultats prévue dans les statuts.\nNora peut donc exiger la distribution de la moitié des 30 000 euros de bénéfice distribuable, soit 15 000 euros, conformément à ses parts sociales.",
+      "articles_cites": [
+        "1832",
+        "1843-2",
+        "1103"
+      ]
+    },
+    {
+      "slot": 2,
+      "enonce": "Après avoir rappelé les éléments constitutifs du contrat de société, vous répondrez à la question suivante à l’aide de l’annexe 1 et de vos connaissances personnelles : Pourquoi le droit impose-t-il aux associés de contribuer aux pertes ?",
+      "points": 2,
+      "reponse_attendue": "Le contrat de société suppose plusieurs éléments (article 1832 du Code civil) : une pluralité d’associés (deux ou plusieurs personnes, sauf cas de société unipersonnelle prévus par la loi), des apports (biens ou industrie) affectés à une entreprise commune, la volonté de partager le bénéfice ou de profiter de l’économie qui en résulte, l’engagement de contribuer aux pertes, et l’affectio societatis, c’est-à-dire la volonté de collaborer sur un pied d’égalité à l’entreprise commune. Comme tout contrat, il doit respecter les conditions de validité : consentement libre et éclairé, capacité, contenu licite et certain.\nLe droit impose la contribution aux pertes pour plusieurs raisons.\n- Elle est la contrepartie du droit aux bénéfices : l’associé qui profite de la réussite de l’entreprise commune doit aussi en supporter les risques. C’est ce qui distingue l’associé du prêteur ou du salarié.\n- Elle garantit l’équilibre entre associés : une clause qui exonérerait totalement un associé des pertes romprait l’égalité et l’affectio societatis.\n- Elle protège les tiers : la limitation de la responsabilité aux apports dans la SARL ou la SAS n’est acceptable que parce que les apports constituent un gage pour les créanciers.\n- Elle responsabilise les associés dans leurs décisions au sein des organes délibératifs.",
+      "articles_cites": [
+        "1832"
+      ]
+    },
+    {
+      "slot": 3,
+      "situation": "Malik BENSAÏD a rejoint en 2024 la SCOP « Menuiserie du Rhône », dont les 18 salariés sont associés. Il a souscrit 50 000 euros de parts sociales alors que les autres associés n’en détiennent que pour 1 000 euros chacun. Lors de l’assemblée générale du 12 juin 2026, il exige de disposer de la majorité des voix et de percevoir l’essentiel du bénéfice, plutôt que de le voir affecté aux réserves et réparti entre les salariés.",
+      "enonce": "Développez l’argumentation juridique que les associés de la SCOP pourraient opposer à Malik.",
+      "points": 2,
+      "reponse_attendue": "Malik conteste la répartition du résultat au regard de son apport en capital, plus important que celui des autres associés.\nLes associés peuvent rappeler que la société coopérative de production (SCOP) est une société commerciale soumise à des règles spécifiques inspirées de l’éthique coopérative et de l’économie sociale et solidaire. Les associés majoritaires sont les salariés et le pouvoir y est exercé démocratiquement selon le principe « une personne, une voix », quel que soit le montant du capital détenu.\nEn l’espèce, Malik a souscrit 50 000 euros de parts, les autres salariés associés 1 000 euros chacun. Il ne peut pas exiger un nombre de voix proportionnel à son apport en assemblée générale.\nPar ailleurs, dans une SCOP, une part importante du résultat est obligatoirement affectée aux réserves impartageables qui consolident la société et à la participation de tous les salariés ; la rémunération du capital est limitée. Si l’article 1843-2 du Code civil prévoit que les droits de chaque associé dans le capital sont proportionnels à ses apports, ce principe concerne le capital, non le pouvoir de décision ni la répartition du résultat fixée par les règles coopératives.\nEnfin, Malik a signé les statuts en connaissance de cause : selon l’article 1103 du Code civil, ils tiennent lieu de loi entre les associés. Ses demandes doivent donc être rejetées.",
+      "articles_cites": [
+        "1843-2",
+        "1103"
+      ]
+    },
+    {
+      "slot": 4,
+      "situation": "Le 10 janvier 2026, Sarah LEBLANC et Théo VIDAL ont créé la SAS « Green Box », qui vend des paniers de fruits et légumes locaux. Sarah a apporté 8 000 euros et Théo un véhicule utilitaire estimé à 12 000 euros. Théo, nommé président, signe seul en mai 2026 un bail commercial de 36 000 euros, alors que les statuts imposent une décision de l’assemblée des associés pour tout engagement supérieur à 10 000 euros. Sarah est furieuse.",
+      "enonce": "Résumez les faits en utilisant des qualifications juridiques.",
+      "points": 2,
+      "reponse_attendue": "Mme Sarah LEBLANC (personne physique, demanderesse) et M. Théo VIDAL (personne physique, défendeur) ont conclu le 10 janvier 2026 un contrat de société (article 1832 du Code civil) donnant naissance à la SAS « Green Box », personne morale de droit privé, société commerciale dont l’objet social est la vente de paniers de fruits et légumes locaux.\nSarah a réalisé un apport en numéraire de 8 000 euros, Théo un apport en nature (un véhicule utilitaire estimé à 12 000 euros). Ils sont donc associés et détiennent des droits sociaux proportionnels à leurs apports (article 1843-2 du Code civil).\nThéo, président de la SAS, organe de gestion courante, a signé seul un bail commercial de 36 000 euros sans consulter l’assemblée des associés, organe délibératif, alors que les statuts l’imposent pour tout engagement supérieur à 10 000 euros. Sarah estime que ses droits d’associée n’ont pas été respectés et qu’il y a inexécution des statuts (article 1103 du Code civil).\nLe problème juridique est le suivant : le dirigeant d’une société peut-il engager seul la société au-delà des pouvoirs que lui confèrent les statuts ?",
+      "articles_cites": [
+        "1832",
+        "1843-2",
+        "1103"
+      ]
+    }
+  ]
+}
