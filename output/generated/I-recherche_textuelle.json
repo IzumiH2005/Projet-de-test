@@ -1,0 +1,33 @@
+{
+ "id": "I-recherche_textuelle",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Positions d'un motif",
+   "contexte": "On donne la fonction naïve :\n\ndef positions(texte, motif):\n    res = []\n    for i in range(len(texte) - len(motif) + 1):\n        if texte[i:i + len(motif)] == motif:\n            res.append(i)\n    return res\n\nOn considère l'appel positions('1011010110', '101').",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recherche_textuelle",
+     "enonce": "Donner la valeur renvoyée par cet appel.",
+     "points": 1,
+     "reponse_attendue": "[0, 3, 5]"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Arrêt à la première occurrence",
+   "contexte": "On souhaite réécrire l'algorithme naïf de recherche d'un motif pour qu'il s'arrête dès qu'une occurrence du motif est trouvée (renvoyer sa position, ou -1).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "recherche_textuelle",
+     "enonce": "Expliquer en quoi cette modification réduit le nombre de comparaisons, et écrire la fonction premiere(texte, motif).",
+     "points": 1,
+     "reponse_attendue": "On ne parcourt plus la suite du texte une fois l'occurrence trouvée : dans le meilleur cas, on économise presque tout le parcours.\n\ndef premiere(texte, motif):\n    n, m = len(texte), len(motif)\n    for i in range(n - m + 1):\n        j = 0\n        while j < m and texte[i + j] == motif[j]:\n            j = j + 1\n        if j == m:\n            return i\n    return -1\n\nassert premiere('abracadabra', 'cad') == 4\nassert premiere('abc', 'z') == -1"
+    }
+   ]
+  }
+ ]
+}

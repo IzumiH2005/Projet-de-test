@@ -1,0 +1,61 @@
+{
+ "id": "I-tuple",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Points d'un parcours",
+   "contexte": "Un parcours est une liste de points représentés par des tuples (x, y) :\n\n```python\nparcours = [(0, 0), (3, 4), (3, 7)]\np = parcours[1]\nx, y = p\nparcours[2] = (x + 1, y)\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "tuple",
+     "enonce": "Donner le contenu de parcours après exécution et expliquer pourquoi l'instruction p[0] = 5 provoquerait une erreur.",
+     "points": 1,
+     "reponse_attendue": "[(0, 0), (3, 4), (4, 4)] ; un tuple est immuable, on ne peut pas modifier ses éléments (TypeError)."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Élève le plus âgé",
+   "contexte": "Chaque élève est un tuple (nom, age) :\n\n```python\n1| def plus_age(eleves):\n2|     meilleur = eleves[0]\n3|     for e in eleves:\n4|         if ...:\n5|             meilleur = ...\n6|     return meilleur[0]\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "tuple",
+     "enonce": "Recopier et compléter les lignes 4 et 5 pour que la fonction renvoie le nom de l'élève le plus âgé.",
+     "points": 1,
+     "reponse_attendue": "def plus_age(eleves):\n    meilleur = eleves[0]\n    for e in eleves:\n        if e[1] > meilleur[1]:\n            meilleur = e\n    return meilleur[0]"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Bornes d'une liste",
+   "contexte": "La fonction bornes prend en paramètre une liste non vide d'entiers L, parcourt la liste une seule fois, et renvoie un tuple (mini, maxi) contenant la plus petite et la plus grande valeur de L.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "tuple",
+     "enonce": "Écrire la fonction bornes.",
+     "points": 1,
+     "reponse_attendue": "def bornes(L):\n    mini = L[0]\n    maxi = L[0]\n    for x in L:\n        if x < mini:\n            mini = x\n        if x > maxi:\n            maxi = x\n    return (mini, maxi)"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Vecteurs de distance",
+   "contexte": "Dans le protocole RIP, un routeur envoie à ses voisins des vecteurs de distance, couples (adresse, distance). Le routeur R reçoit de son voisin les vecteurs [('10.0.1.0', 2), ('10.0.2.0', 0)].",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "tuple",
+     "enonce": "Justifier le choix d'un tuple pour représenter un vecteur de distance, puis donner les vecteurs que R enregistre pour ces réseaux.",
+     "points": 1,
+     "reponse_attendue": "Un vecteur est une donnée fixe de deux composantes hétérogènes qu'on ne modifie pas : le tuple, immuable, convient. R ajoute 1 à chaque distance : ('10.0.1.0', 3) et ('10.0.2.0', 1)."
+    }
+   ]
+  }
+ ]
+}

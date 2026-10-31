@@ -1,0 +1,61 @@
+{
+ "id": "I-processus",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Graphe d'attente",
+   "contexte": "La figure 1 décrit la situation suivante : le processus P1 détient la ressource R1 et attend R2 ; le processus P2 détient R2 et attend R3 ; le processus P3 détient R3 et attend R1. Dans la figure 1, une flèche Pi → Rj signifie « Pi attend Rj » et Rj → Pi signifie « Rj est détenue par Pi ».",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "processus",
+     "enonce": "À partir de la figure 1, déterminer si les processus sont en situation d'interblocage. Justifier.",
+     "points": 1,
+     "reponse_attendue": "Oui : la figure contient le cycle P1 → R2 → P2 → R3 → P3 → R1 → P1 ; chaque processus attend une ressource détenue par le suivant, aucun ne peut progresser : interblocage."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Chemin d'un processus",
+   "contexte": "Un processus est créé puis passe à l'état prêt. L'ordonnanceur l'élit. Après 20 ms il demande une lecture disque, puis la lecture se termine, il est de nouveau élu et termine son exécution.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "processus",
+     "enonce": "Donner la suite des états (prêt, élu, bloqué, terminé) par lesquels passe ce processus.",
+     "points": 1,
+     "reponse_attendue": "prêt → élu → bloqué → prêt → élu → terminé."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Commande Unix",
+   "contexte": "Sur un serveur Linux, un administrateur constate qu'un programme de calcul consomme toute la mémoire. Il exécute la commande ps qui affiche notamment la ligne « 4187 pts/0 00:12:41 calcul ». Il souhaite arrêter ce seul processus.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "processus",
+     "enonce": "Donner la commande à saisir pour interrompre ce processus.",
+     "points": 1,
+     "reponse_attendue": "kill 4187 (4187 est le PID du processus calcul)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Ordonnancement FIFO",
+   "contexte": "Quatre processus arrivent tous à l'instant 0 dans la file et y sont placés dans l'ordre C1, C2, C3 et C4. Leurs durées d'exécution sont respectivement 4, 2, 3 et 1 unités de temps. L'ordonnanceur suit la politique « premier arrivé, premier servi », sans interruption.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "processus",
+     "enonce": "Donner l'instant de fin d'exécution de chacun des quatre processus.",
+     "points": 1,
+     "reponse_attendue": "C1 : 4 ; C2 : 6 ; C3 : 9 ; C4 : 10."
+    }
+   ]
+  }
+ ]
+}

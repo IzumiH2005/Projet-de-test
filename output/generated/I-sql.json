@@ -1,0 +1,33 @@
+{
+ "id": "I-sql",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Requêtes d'une médiathèque",
+   "contexte": "Une médiathèque utilise la table Emprunt(id, titre, adherent, duree) où duree est le nombre de jours d'emprunt. Le responsable souhaite :\n- connaître les titres empruntés plus de 21 jours ;\n- trier ces titres par ordre alphabétique ;\n- ne pas afficher de doublons.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "sql",
+     "enonce": "Écrire une requête SQL répondant à l'ensemble de ces besoins.",
+     "points": 1,
+     "reponse_attendue": "SELECT DISTINCT titre FROM Emprunt WHERE duree > 21 ORDER BY titre;"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Agence de location",
+   "contexte": "La base de données locations.db contient les tables Agences(id_agence, ville), Vehicules(immat, modele, id_agence) et Locations(id_loc, immat, date_debut, date_fin). L'attribut id_agence de Vehicules est une clé étrangère vers Agences, immat de Locations est une clé étrangère vers Vehicules.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "sql",
+     "enonce": "Écrire une requête SQL donnant les immatriculations des véhicules loués au moins une fois, appartenant à l'agence de la ville 'Lyon'.",
+     "points": 1,
+     "reponse_attendue": "SELECT DISTINCT Vehicules.immat FROM Vehicules JOIN Agences ON Vehicules.id_agence = Agences.id_agence JOIN Locations ON Locations.immat = Vehicules.immat WHERE Agences.ville = 'Lyon';"
+    }
+   ]
+  }
+ ]
+}

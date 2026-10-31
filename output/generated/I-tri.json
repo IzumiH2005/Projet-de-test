@@ -1,0 +1,19 @@
+{
+ "id": "I-tri",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Classement d'un club",
+   "contexte": "Un club de course stocke ses résultats dans une table Course(id, nom, temps). On souhaite obtenir les coureurs classés du plus rapide au plus lent, ce que l'on pourrait aussi faire en Python avec un tri fusion sur la liste des temps.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "tri",
+     "enonce": "Écrire la requête SQL qui renvoie le nom et le temps des coureurs triés par temps croissant, puis donner le coût du tri fusion sur n éléments.",
+     "points": 1,
+     "reponse_attendue": "SELECT nom, temps FROM Course ORDER BY temps ASC; Le tri fusion a un coût en O(n log n)."
+    }
+   ]
+  }
+ ]
+}

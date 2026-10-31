@@ -1,0 +1,61 @@
+{
+ "id": "I-liste_chainee",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Longueur d'une liste chaînée",
+   "contexte": "```python\n1 class Maillon:\n2     def __init__(self, valeur, suivant=None):\n3         self.valeur = valeur\n4         self.suivant = suivant\n5\n6 def longueur(m):\n7     n = 0\n8     while ... :\n9         n = n + 1\n10        m = ...\n11    return n\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "liste_chainee",
+     "enonce": "Recopier et compléter les lignes 8 et 10 de la fonction longueur afin qu'elle renvoie le nombre de maillons de la liste commençant par m (m vaut None pour une liste vide).",
+     "points": 1,
+     "reponse_attendue": "8    while m is not None:\n10        m = m.suivant"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Insertion en tête",
+   "contexte": "On utilise la classe `Maillon(valeur, suivant)` et la fonction :\n\n```python\ndef inserer_tete(m, x):\n    return Maillon(x, m)\n\nl = None\nfor x in [4, 7, 2]:\n    l = inserer_tete(l, x)\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "liste_chainee",
+     "enonce": "Donner la suite des valeurs de la liste l, de la tête à la fin, après exécution de ce code.",
+     "points": 1,
+     "reponse_attendue": "2 -> 7 -> 4"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Parcours jusqu'au maillon",
+   "contexte": "Une liste chaînée contient les valeurs 5, 12, 9, 30 et 41, dans cet ordre depuis la tête. On ne peut accéder à un maillon qu'en suivant les liens depuis la tête.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "liste_chainee",
+     "enonce": "Donner le chemin de maillons suivi pour atteindre la valeur 30, et le nombre de liens empruntés.",
+     "points": 1,
+     "reponse_attendue": "5 -> 12 -> 9 -> 30 : 3 liens suivis."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Insertions en queue",
+   "contexte": "On considère une liste chaînée initialement vide. On y insère successivement les valeurs 10, 20 et 30 en queue de liste.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "liste_chainee",
+     "enonce": "Indiquer les valeurs de la liste de la tête à la queue, puis indiquer la valeur contenue dans le maillon dont l'attribut suivant vaut None.",
+     "points": 1,
+     "reponse_attendue": "10 -> 20 -> 30 ; le maillon dont suivant vaut None contient 30."
+    }
+   ]
+  }
+ ]
+}

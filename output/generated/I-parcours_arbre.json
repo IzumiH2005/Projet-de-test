@@ -1,0 +1,61 @@
+{
+ "id": "I-parcours_arbre",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Feuilles de gauche à droite",
+   "contexte": "Un arbre binaire est représenté par None (arbre vide) ou par un tuple (gauche, valeur, droit). On veut la fonction feuilles(a) : paramètre un arbre a, résultat la liste des valeurs des feuilles (nœuds sans enfant), dans l'ordre d'un parcours en profondeur de gauche à droite, liste vide si a est vide.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "parcours_arbre",
+     "enonce": "Écrire la fonction feuilles(a).",
+     "points": 1,
+     "reponse_attendue": "```python\ndef feuilles(a):\n    if a is None:\n        return []\n    g, v, d = a\n    if g is None and d is None:\n        return [v]\n    return feuilles(g) + feuilles(d)\n```"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Infixe et ABR",
+   "contexte": "On considère un arbre binaire de recherche (ABR) (valeurs du sous-arbre gauche inférieures à la racine, celles du sous-arbre droit supérieures) et son parcours infixe (gauche, racine, droite).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "parcours_arbre",
+     "enonce": "Expliquer pourquoi le parcours infixe d'un ABR fournit ses valeurs dans l'ordre croissant.",
+     "points": 1,
+     "reponse_attendue": "Par récurrence : le parcours infixe liste d'abord tout le sous-arbre gauche (valeurs plus petites, déjà triées par hypothèse), puis la racine, puis le sous-arbre droit (valeurs plus grandes, triées) ; la concaténation est donc triée."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Reconnaître un parcours",
+   "contexte": "Arbre : racine 8 ; enfants de 8 : 3 (gauche) et 10 (droit) ; enfants de 3 : 1 et 6 ; enfant droit de 10 : 14.\nListes proposées :\n- 8, 3, 1, 6, 10, 14\n- 1, 3, 6, 8, 10, 14\n- 1, 6, 3, 14, 10, 8",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "parcours_arbre",
+     "enonce": "Quel parcours (préfixe, infixe ou suffixe) correspond à la troisième liste ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "Suffixe : chaque nœud apparaît après ses deux sous-arbres (1, 6 avant 3 ; 14 avant 10 ; la racine 8 en dernier)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Organigramme",
+   "contexte": "Une entreprise représente son organigramme par un arbre binaire : la directrice Ana a pour subordonnés Bilal (gauche) et Chloé (droite) ; Bilal a pour subordonnés Dina et Elio ; Chloé a pour subordonné droit Fanny. On veut lister les employés niveau hiérarchique par niveau hiérarchique.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "parcours_arbre",
+     "enonce": "Donner l'ordre de visite des employés par un parcours en largeur d'abord.",
+     "points": 1,
+     "reponse_attendue": "Ana, Bilal, Chloé, Dina, Elio, Fanny."
+    }
+   ]
+  }
+ ]
+}

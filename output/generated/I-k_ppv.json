@@ -1,0 +1,47 @@
+{
+ "id": "I-k_ppv",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Vote des voisins",
+   "contexte": "On classe un fruit à partir de ses k plus proches voisins.\n\n```python\n1 def vote(voisins):\n2     compte = {}\n3     for (distance, classe) in voisins:\n4         if classe in compte:\n5             compte[classe] = compte[classe] + 1\n6         else:\n7             compte[classe] = 1\n8     meilleure = None\n9     for c in compte:\n10        if meilleure is None or compte[c] > compte[meilleure]:\n11            meilleure = c\n12    return meilleure\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "k_ppv",
+     "enonce": "Donner la valeur renvoyée par vote([(1.2, 'pomme'), (0.8, 'poire'), (1.5, 'pomme')]).",
+     "points": 1,
+     "reponse_attendue": "'pomme'"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Sélection des k plus proches",
+   "contexte": "```python\n1 def distance(a, b):\n2     return ((a[0]-b[0])**2 + (a[1]-b[1])**2) ** 0.5\n3\n4 def k_plus_proches(donnees, cible, k):\n5     liste = []\n6     for (point, classe) in donnees:\n7         liste.append(( ... , classe))\n8     liste.sort()\n9     return ...\n```\n`donnees` est une liste de couples (point, classe), un point étant un tuple (x, y).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "k_ppv",
+     "enonce": "Recopier et compléter les lignes 7 et 9 de la fonction k_plus_proches afin qu'elle renvoie la liste des k couples (distance, classe) les plus proches de cible.",
+     "points": 1,
+     "reponse_attendue": "7        liste.append((distance(point, cible), classe))\n9    return liste[:k]"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Distance de Manhattan",
+   "contexte": "On souhaite utiliser une autre distance pour l'algorithme des k plus proches voisins. Spécification : la fonction manhattan prend en paramètres deux points a et b, tuples de deux nombres (x, y), et renvoie la somme des valeurs absolues des différences de leurs coordonnées.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "k_ppv",
+     "enonce": "Écrire une fonction manhattan(a, b) qui prend en paramètres deux points et qui renvoie leur distance de Manhattan.",
+     "points": 1,
+     "reponse_attendue": "def manhattan(a, b):\n    return abs(a[0] - b[0]) + abs(a[1] - b[1])"
+    }
+   ]
+  }
+ ]
+}

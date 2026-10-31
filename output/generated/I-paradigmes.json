@@ -1,0 +1,61 @@
+{
+ "id": "I-paradigmes",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Deux versions d'un calcul",
+   "contexte": "```python\n1 def somme_carres_a(lst):\n2     s = 0\n3     for x in lst:\n4         s = s + x * x\n5     return s\n6\n7 def somme_carres_b(lst):\n8     return sum(map(lambda x: x * x, lst))\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "paradigmes",
+     "enonce": "Indiquer le paradigme de chaque fonction en justifiant à l'aide des lignes du code, puis donner la valeur de somme_carres_b([1, 2, 3]).",
+     "points": 1,
+     "reponse_attendue": "somme_carres_a est impérative : variable s modifiée par affectations successives dans une boucle (lignes 2-4). somme_carres_b est fonctionnelle : pas d'affectation ni d'état modifié, composition de fonctions (map, lambda, sum, ligne 8). Valeur : 14."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Version fonctionnelle",
+   "contexte": "On veut écrire, dans le paradigme fonctionnel, une fonction compter(lst, x) : paramètres une liste lst et une valeur x, résultat le nombre d'occurrences de x dans lst, sans boucle ni affectation de variable, sans modifier lst, en utilisant la récursivité.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "paradigmes",
+     "enonce": "Écrire la fonction compter(lst, x) respectant cette spécification.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef compter(lst, x):\n    if lst == []:\n        return 0\n    return (1 if lst[0] == x else 0) + compter(lst[1:], x)\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Caractéristiques",
+   "contexte": "Propriétés d'un langage :\n- les fonctions peuvent être passées en paramètre\n- les données sont immuables\n- pas d'effet de bord\n- on décrit des classes, des attributs et des méthodes",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "paradigmes",
+     "enonce": "Quelle propriété de cette liste n'appartient pas au paradigme fonctionnel ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "La dernière : classes, attributs et méthodes caractérisent le paradigme objet, pas le paradigme fonctionnel."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Table des valeurs de Fibonacci",
+   "contexte": "On veut calculer le n-ième terme de la suite de Fibonacci (F0 = 0, F1 = 1, Fn = Fn-1 + Fn-2) de façon impérative, avec deux variables a et b initialisées à 0 et 1 et mises à jour par a, b = b, a + b à chaque tour de boucle.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "paradigmes",
+     "enonce": "Dresser le tableau des valeurs de a et b après chacun des 5 premiers tours de boucle, puis écrire la fonction fibo_imperatif(n).",
+     "points": 1,
+     "reponse_attendue": "Tours 1 à 5 : (a,b) = (1,1), (1,2), (2,3), (3,5), (5,8).\n```python\ndef fibo_imperatif(n):\n    a, b = 0, 1\n    for _ in range(n):\n        a, b = b, a + b\n    return a\n```"
+    }
+   ]
+  }
+ ]
+}

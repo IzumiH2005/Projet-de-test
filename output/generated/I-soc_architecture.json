@@ -1,0 +1,61 @@
+{
+ "id": "I-soc_architecture",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Composants d'un SoC",
+   "contexte": "Un SoC de montre connectée est modélisé en Python par un dictionnaire associant à chaque composant intégré sa fonction :\n\n```python\n1| soc = {'CPU': 'calcul', 'GPU': 'affichage', 'RAM': 'memoire',\n2|        'modem': 'communication', 'DSP': 'signal'}\n3| def composants(soc, fonction):\n4|     res = []\n5|     for c in soc:\n6|         if soc[c] == fonction:\n7|             res.append(c)\n8|     return res\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "soc_architecture",
+     "enonce": "Donner la valeur renvoyée par composants(soc, 'communication') et expliquer ce que fait la fonction composants.",
+     "points": 1,
+     "reponse_attendue": "['modem'] : la fonction renvoie la liste des composants du SoC qui assurent la fonction passée en paramètre."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Consommation d'un SoC",
+   "contexte": "Un SoC regroupe sur une même puce plusieurs composants. Les puissances consommées (en mW) par ses composants sont données dans la liste p = [450, 300, 120, 80, 50] (CPU, GPU, RAM, modem, contrôleur USB). On exécute :\n\n```python\ntotal = 0\nfor x in p[1:4]:\n    total = total + x\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "soc_architecture",
+     "enonce": "Donner la valeur de total après l'exécution de ces instructions.",
+     "points": 1,
+     "reponse_attendue": "total = 300 + 120 + 80 = 500"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Avantages d'un SoC",
+   "contexte": "On liste les propositions suivantes concernant un système sur puce (SoC) :\n- a. il réduit la distance entre les composants ;\n- b. il permet de remplacer facilement la mémoire vive par une barrette plus grande ;\n- c. il consomme généralement moins d'énergie qu'un ensemble de composants séparés ;\n- d. il nécessite obligatoirement un ventilateur.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "soc_architecture",
+     "enonce": "Quelles propositions décrivent correctement un avantage d'un SoC ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "a et c : les composants étant intégrés sur une même puce, les connexions sont plus courtes, ce qui accélère les échanges et réduit la consommation. b est faux (composants soudés/intégrés, non remplaçables), d est faux (faible dissipation, souvent refroidissement passif)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Communication d'un smartphone",
+   "contexte": "Le SoC d'un smartphone intègre notamment un CPU, un GPU, une mémoire, un contrôleur d'écran et des modules de communication sans fil.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "soc_architecture",
+     "enonce": "Quel élément d'un SoC permet à un smartphone de communiquer avec d'autres machines ?",
+     "points": 1,
+     "reponse_attendue": "Le modem (et les contrôleurs radio Wi-Fi/Bluetooth) intégré au SoC, qui gère les communications réseau (4G/5G)."
+    }
+   ]
+  }
+ ]
+}

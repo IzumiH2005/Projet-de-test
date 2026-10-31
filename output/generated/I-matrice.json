@@ -1,0 +1,61 @@
+{
+ "id": "I-matrice",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Transposée",
+   "contexte": "```python\ndef transposee(m):\n    n = len(m)\n    t = [[0] * n] * n\n    for i in range(n):\n        for j in range(n):\n            t[j][i] = m[i][j]\n    return t\n```\nAppliquée à [[1, 2], [3, 4]], cette fonction renvoie [[2, 4], [2, 4]] au lieu de [[1, 3], [2, 4]].",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "matrice",
+     "enonce": "Modifier le code de transposee pour qu'elle renvoie la transposée correcte d'une matrice carrée.",
+     "points": 1,
+     "reponse_attendue": "def transposee(m):\n    n = len(m)\n    t = [[0] * n for _ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            t[j][i] = m[i][j]\n    return t"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Somme d'une diagonale",
+   "contexte": "```python\n1 def f(m):\n2     s = 0\n3     for i in range(len(m)):\n4         s = s + m[i][len(m) - 1 - i]\n5     return s\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "matrice",
+     "enonce": "Donner la valeur renvoyée par f([[1, 2, 3], [4, 5, 6], [7, 8, 9]]).",
+     "points": 1,
+     "reponse_attendue": "15 (3 + 5 + 7)"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Maximum d'une matrice",
+   "contexte": "```python\n1 def maximum(m):\n2     maxi = m[0][0]\n3     for ligne in m:\n4         ...\n5             ...\n6                 ...\n7     return maxi\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "matrice",
+     "enonce": "Recopier et compléter la fonction maximum (à partir de la ligne 4) qui renvoie le plus grand élément d'une matrice non vide.",
+     "points": 1,
+     "reponse_attendue": "def maximum(m):\n    maxi = m[0][0]\n    for ligne in m:\n        for x in ligne:\n            if x > maxi:\n                maxi = x\n    return maxi"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Bloc AES",
+   "contexte": "Le chiffrement AES travaille par blocs de 128 bits, répartis dans une matrice de 16 octets (matrice carrée de taille 4).",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "matrice",
+     "enonce": "Expliquer pourquoi une matrice carrée de taille 4 suffit exactement à contenir un bloc de 128 bits.",
+     "points": 1,
+     "reponse_attendue": "Une matrice 4×4 contient 16 cases ; chacune contient un octet de 8 bits ; 16 × 8 = 128 bits."
+    }
+   ]
+  }
+ ]
+}

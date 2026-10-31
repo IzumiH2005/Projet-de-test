@@ -1,0 +1,61 @@
+{
+ "id": "I-recherche_dichotomique",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Compléter la dichotomie",
+   "contexte": "On donne la fonction à compléter :\n\n1 def recherche(tab, val):\n2     debut = 0\n3     fin = len(tab) - 1\n4     while debut <= fin:\n5         milieu = (debut + fin) // 2\n6         if tab[milieu] == val:\n7             return True\n8         elif tab[milieu] < val:\n9             ...\n10        else:\n11            ...\n12    return False",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "recherche_dichotomique",
+     "enonce": "Compléter les lignes 9 et 11 de la fonction recherche.",
+     "points": 1,
+     "reponse_attendue": "def recherche(tab, val):\n    debut = 0\n    fin = len(tab) - 1\n    while debut <= fin:\n        milieu = (debut + fin) // 2\n        if tab[milieu] == val:\n            return True\n        elif tab[milieu] < val:\n            debut = milieu + 1\n        else:\n            fin = milieu - 1\n    return False\n\nassert recherche([1, 5, 7, 9, 12, 13], 12)\nassert not recherche([1, 5, 7, 9, 12, 13], 17)"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Tableaux candidats",
+   "contexte": "On souhaite appliquer une recherche dichotomique sur l'un des tableaux suivants :\n- t1 = [2, 9, 4, 11, 15]\n- t2 = [3, 3, 8, 14, 20]\n- t3 = [20, 14, 8, 3, 1]",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "recherche_dichotomique",
+     "enonce": "Sur quel(s) tableau(x) la recherche dichotomique croissante classique fonctionne-t-elle correctement ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "Seulement t2 : il est trié dans l'ordre croissant (les doublons n'empêchent pas la recherche). t1 n'est pas trié, t3 est trié décroissant."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Complexité",
+   "contexte": "Un annuaire numérique contient un million de noms triés par ordre alphabétique. Le logiciel cherche un nom en comparant au nom situé au milieu de la zone restante, puis ne garde que la moitié pertinente.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "recherche_dichotomique",
+     "enonce": "Donner le nom de cet algorithme et sa complexité en temps en fonction du nombre n de noms.",
+     "points": 1,
+     "reponse_attendue": "Recherche dichotomique ; complexité logarithmique O(log2 n)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Nombre d'étapes",
+   "contexte": "À chaque étape, la recherche dichotomique divise par deux la taille de la zone de travail. On l'applique à un tableau trié de 1000 éléments, la valeur cherchée étant absente.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "recherche_dichotomique",
+     "enonce": "Dénombrer le nombre maximal de tours de boucle effectués.",
+     "points": 1,
+     "reponse_attendue": "10 tours au plus (2^9 = 512 < 1000 < 1024 = 2^10 ; la taille passe 1000, 500, 250, 125, 62, 31, 15, 7, 3, 1)."
+    }
+   ]
+  }
+ ]
+}

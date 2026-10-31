@@ -1,0 +1,47 @@
+{
+ "id": "I-modele_relationnel",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Relevés de capteurs",
+   "contexte": "Une station météo stocke ses relevés dans la relation Releve(id_capteur, horodatage, temperature). Voici quatre tuples :\n\n| id_capteur | horodatage | temperature |\n|---|---|---|\n| 3 | 1200 | 14.5 |\n| 3 | 1260 | 14.7 |\n| 5 | 1200 | 13.9 |\n| 5 | 1260 | 14.7 |",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "modele_relationnel",
+     "enonce": "Expliquer pourquoi ni id_capteur seul ni horodatage seul ne peut être clé primaire, puis proposer une clé primaire pour cette relation.",
+     "points": 1,
+     "reponse_attendue": "id_capteur seul : la valeur 3 apparaît deux fois ; horodatage seul : 1200 apparaît deux fois. Une clé primaire doit identifier chaque tuple de façon unique : on choisit le couple (id_capteur, horodatage)."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Contrôle d'unicité",
+   "contexte": "Une table Eleve a pour clé primaire num_eleve. On représente en Python les valeurs de num_eleve qu'on tente d'insérer successivement par la liste [12, 7, 31, 7, 18, 12]. Le SGBD refuse toute insertion qui viole la contrainte de clé primaire.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "modele_relationnel",
+     "enonce": "Donner la liste des valeurs effectivement insérées dans la table, dans l'ordre, et le nombre d'insertions refusées.",
+     "points": 1,
+     "reponse_attendue": "[12, 7, 31, 18] ; 2 insertions refusées (le second 7 et le second 12)."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Médiathèque",
+   "contexte": "Schéma : Adherent(id_adh, nom, prenom) avec id_adh clé primaire ; Emprunt(id_emp, #id_adh, titre, date) où id_adh est clé étrangère vers Adherent. La table Adherent contient les id_adh 1, 2 et 4.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "modele_relationnel",
+     "enonce": "La requête INSERT INTO Emprunt VALUES (10, 3, 'Dune', '2026-03-01'); est-elle acceptée ? Justifier à l'aide du rôle de la clé étrangère.",
+     "points": 1,
+     "reponse_attendue": "Non : la valeur 3 de la clé étrangère id_adh doit exister comme clé primaire dans Adherent, ce qui n'est pas le cas ; la contrainte d'intégrité référentielle est violée et l'insertion est refusée."
+    }
+   ]
+  }
+ ]
+}

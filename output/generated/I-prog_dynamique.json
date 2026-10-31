@@ -1,0 +1,19 @@
+{
+ "id": "I-prog_dynamique",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Appels de Fibonacci",
+   "contexte": "On considère la fonction récursive naïve :\n\ndef fib(n):\n    if n < 2:\n        return n\n    return fib(n - 1) + fib(n - 2)\n\nEn programmation dynamique (mémoïsation), chaque valeur fib(k) n'est calculée qu'une fois, ce qui minimise le nombre d'opérations.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "prog_dynamique",
+     "enonce": "Dénombrer le nombre total d'appels à fib lors de l'exécution de fib(5) avec la version naïve, puis le nombre de valeurs distinctes calculées avec la version mémoïsée.",
+     "points": 1,
+     "reponse_attendue": "Version naïve : 15 appels (A(n)=1+A(n-1)+A(n-2), A(0)=A(1)=1 : A(2)=3, A(3)=5, A(4)=9, A(5)=15). Version mémoïsée : 6 valeurs distinctes fib(0) à fib(5)."
+    }
+   ]
+  }
+ ]
+}

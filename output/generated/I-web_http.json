@@ -1,0 +1,61 @@
+{
+ "id": "I-web_http",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Analyse d'une URL",
+   "contexte": "Une URL est une chaîne de la forme 'protocole://hote/chemin', par exemple 'https://www.lycee.fr/index.html'. La fonction protocole prend en paramètre une URL url, parcourt ses caractères jusqu'au premier ':', et renvoie la chaîne formée des caractères précédents.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "web_http",
+     "enonce": "Écrire la fonction protocole.",
+     "points": 1,
+     "reponse_attendue": "def protocole(url):\n    res = ''\n    i = 0\n    while url[i] != ':':\n        res = res + url[i]\n        i = i + 1\n    return res"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Paramètres GET",
+   "contexte": "Lors de l'envoi d'un formulaire en méthode GET, les paramètres sont placés dans l'URL :\n\n```python\ndef requete_get(page, params):\n    \"\"\"params est un dictionnaire {nom: valeur}\"\"\"\n    morceaux = []\n    for nom in params:\n        ...\n    return page + '?' + '&'.join(morceaux)\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "web_http",
+     "enonce": "Recopier et compléter la fonction requete_get pour que requete_get('recherche.php', {'q': 'nsi', 'p': '2'}) renvoie 'recherche.php?q=nsi&p=2'.",
+     "points": 1,
+     "reponse_attendue": "def requete_get(page, params):\n    morceaux = []\n    for nom in params:\n        morceaux.append(nom + '=' + params[nom])\n    return page + '?' + '&'.join(morceaux)"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Codes de réponse HTTP",
+   "contexte": "Un serveur web a renvoyé les codes de réponse suivants : codes = [200, 404, 200, 301, 500, 200]. On exécute :\n\n```python\nok = [c for c in codes if c == 200]\nerreurs = [c for c in codes if c >= 400]\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "web_http",
+     "enonce": "Donner les valeurs de len(ok) et de erreurs.",
+     "points": 1,
+     "reponse_attendue": "len(ok) = 3 ; erreurs = [404, 500]"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Clé de session HTTPS",
+   "contexte": "Lors de l'établissement d'une connexion HTTPS, le client chiffre une clé K avec la clé publique du serveur et la lui envoie ; le serveur la déchiffre avec sa clé privée. À partir de ce moment-là, le client et le serveur sont en possession de la clé K.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "web_http",
+     "enonce": "Expliquer le rôle de la clé K dans la suite des échanges et justifier pourquoi on n'utilise pas uniquement le chiffrement asymétrique.",
+     "points": 1,
+     "reponse_attendue": "K est une clé de chiffrement symétrique qui chiffre et déchiffre toutes les données échangées ; le chiffrement symétrique est bien plus rapide, l'asymétrique ne sert qu'à échanger K de façon sûre."
+    }
+   ]
+  }
+ ]
+}

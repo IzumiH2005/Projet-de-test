@@ -1,0 +1,61 @@
+{
+ "id": "I-modularite",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Module géométrie",
+   "contexte": "Un module geometrie.py propose :\n- aire_disque(r)\n- perimetre_disque(r)\n- _verifier_positif(x) (fonction interne)\n- la constante PI = 3.14159\n\nUn élève écrit dans un autre fichier : from geometrie import *",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "modularite",
+     "enonce": "Quelles fonctions sont rendues disponibles par cette instruction ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "aire_disque, perimetre_disque et PI ; _verifier_positif n'est pas importée par import * car son nom commence par un tiret bas (convention de nom privé/interne). Elle reste accessible via import geometrie puis geometrie._verifier_positif."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Chaîne de dépendances",
+   "contexte": "Un projet comporte quatre modules. main importe interface et calcul ; interface importe affichage ; calcul importe outils ; affichage importe outils. Le module outils n'importe rien.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "modularite",
+     "enonce": "Dresser la liste de tous les chemins d'import qui mènent du module main au module outils, puis indiquer quels modules sont touchés si l'on modifie outils.",
+     "points": 1,
+     "reponse_attendue": "Chemins : main → interface → affichage → outils et main → calcul → outils. Si outils change, affichage et calcul (directement), interface et main (indirectement) peuvent être affectés."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Utiliser une API",
+   "contexte": "On dispose du module pile.py suivant :\n```python\n1 def creer():\n2     return []\n3 def empiler(p, x):\n4     p.append(x)\n5 def depiler(p):\n6     return p.pop()\n7 def est_vide(p):\n8     return p == []\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "modularite",
+     "enonce": "Écrire, dans un autre fichier, une fonction inverser(lst) qui renvoie la liste lst inversée en n'utilisant que les fonctions de l'interface du module pile.",
+     "points": 1,
+     "reponse_attendue": "```python\nimport pile\n\ndef inverser(lst):\n    p = pile.creer()\n    for x in lst:\n        pile.empiler(p, x)\n    res = []\n    while not pile.est_vide(p):\n        res.append(pile.depiler(p))\n    return res\n```"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Origine d'une fonction",
+   "contexte": "Un script de chiffrement commence ainsi :\n```python\nfrom Crypto.Util.number import bytes_to_long, long_to_bytes\nfrom Crypto.Random import get_random_bytes\n```\nPlus loin, on lit : cle = get_random_bytes(16) puis n = bytes_to_long(b'NSI').",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "modularite",
+     "enonce": "Déterminer le chemin complet (paquetage et sous-module) d'où provient chacune des fonctions get_random_bytes et bytes_to_long.",
+     "points": 1,
+     "reponse_attendue": "get_random_bytes provient du sous-module Random du paquetage Crypto (Crypto.Random) ; bytes_to_long provient du module number du sous-paquetage Util de Crypto (Crypto.Util.number)."
+    }
+   ]
+  }
+ ]
+}

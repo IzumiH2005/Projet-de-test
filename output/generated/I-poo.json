@@ -1,0 +1,61 @@
+{
+ "id": "I-poo",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Compter les instances",
+   "contexte": "On dispose de la classe suivante (attention : compteur est un attribut de classe, partagé par toutes les instances) :\n\nclass Ticket:\n    compteur = 0\n    def __init__(self, nom):\n        self.nom = nom\n        Ticket.compteur = Ticket.compteur + 1\n\nOn exécute : t1 = Ticket('A') ; t2 = Ticket('B') ; t3 = t1 ; t4 = Ticket('C').",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "poo",
+     "enonce": "Donner la valeur de Ticket.compteur après ces instructions et le nombre d'objets Ticket distincts créés.",
+     "points": 1,
+     "reponse_attendue": "Ticket.compteur vaut 3 : trois objets ont été construits ; t3 = t1 ne crée pas d'objet (même référence)."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Identifiant d'un adhérent",
+   "contexte": "Une médiathèque modélise ses adhérents par une classe Adherent dont les attributs sont numero, nom et prenom. Le numero est attribué à l'inscription, unique pour chaque adhérent, et jamais réutilisé. Plusieurs adhérents peuvent porter le même nom et le même prénom. Les objets Emprunt possèdent un attribut num_adherent.",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "poo",
+     "enonce": "Expliquer le rôle de l'attribut numero de la classe Adherent, et celui de l'attribut num_adherent d'un objet Emprunt.",
+     "points": 1,
+     "reponse_attendue": "numero identifie de façon unique un adhérent (comme une clé), car nom/prénom ne suffisent pas ; num_adherent référence l'adhérent emprunteur et relie l'emprunt à un unique objet Adherent."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Méthode sur une chaîne",
+   "contexte": "On considère la classe :\n\nclass Mot:\n    def __init__(self, texte):\n        self.texte = texte",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "poo",
+     "enonce": "Écrire une méthode est_palindrome(self) de la classe Mot qui renvoie True si l'attribut texte se lit de la même façon dans les deux sens, False sinon.",
+     "points": 1,
+     "reponse_attendue": "class Mot:\n    def __init__(self, texte):\n        self.texte = texte\n\n    def est_palindrome(self):\n        n = len(self.texte)\n        for i in range(n // 2):\n            if self.texte[i] != self.texte[n - 1 - i]:\n                return False\n        return True\n\nassert Mot('radar').est_palindrome()\nassert not Mot('route').est_palindrome()"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Hauteur d'un arbre objet",
+   "contexte": "Un arbre binaire est représenté par la classe suivante ; l'arbre vide est représenté par None et la hauteur d'un arbre réduit à une feuille vaut 1 :\n\nclass Arbre:\n    def __init__(self, valeur, gauche=None, droit=None):\n        self.valeur = valeur\n        self.gauche = gauche\n        self.droit = droit",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "poo",
+     "enonce": "Écrire la méthode hauteur(self) de la classe Arbre qui renvoie la hauteur de l'arbre.",
+     "points": 1,
+     "reponse_attendue": "class Arbre:\n    def __init__(self, valeur, gauche=None, droit=None):\n        self.valeur = valeur\n        self.gauche = gauche\n        self.droit = droit\n\n    def hauteur(self):\n        hg = 0 if self.gauche is None else self.gauche.hauteur()\n        hd = 0 if self.droit is None else self.droit.hauteur()\n        return 1 + max(hg, hd)\n\na = Arbre(1, Arbre(2, Arbre(4)), Arbre(3))\nassert a.hauteur() == 3"
+    }
+   ]
+  }
+ ]
+}

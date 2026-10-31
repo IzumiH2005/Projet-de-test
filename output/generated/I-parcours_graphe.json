@@ -1,0 +1,61 @@
+{
+ "id": "I-parcours_graphe",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Parcours à analyser",
+   "contexte": "On donne le graphe orienté g = {'A': ['B', 'C'], 'B': ['D'], 'C': ['D', 'E'], 'D': ['F'], 'E': ['F'], 'F': []} et la fonction :\n```python\n1 def parcours(g, s):\n2     vus = [s]\n3     file = [s]\n4     while file:\n5         u = file.pop(0)\n6         for v in g[u]:\n7             if v not in vus:\n8                 vus.append(v)\n9                 file.append(v)\n10    return vus\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "parcours_graphe",
+     "enonce": "Indiquer le type de parcours réalisé et donner la valeur renvoyée par parcours(g, 'A').",
+     "points": 1,
+     "reponse_attendue": "Parcours en largeur (file FIFO, ligne 5) ; renvoie ['A', 'B', 'C', 'D', 'E', 'F']."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Degrés sortants",
+   "contexte": "Un graphe orienté à n sommets numérotés de 0 à n-1 est donné par sa matrice d'adjacence m (liste de listes d'entiers 0 ou 1, m[i][j] == 1 s'il existe un arc de i vers j). Exemple : m = [[0, 1, 1], [0, 0, 1], [0, 0, 0]] (le sommet 0 a deux successeurs).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "parcours_graphe",
+     "enonce": "Écrire une fonction puits(m) qui renvoie la liste des sommets sans successeur (ici [2]), en parcourant chaque ligne de la matrice.",
+     "points": 1,
+     "reponse_attendue": "```python\ndef puits(m):\n    res = []\n    for i in range(len(m)):\n        if sum(m[i]) == 0:\n            res.append(i)\n    return res\n```"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Accessibilité",
+   "contexte": "Un graphe est représenté par un dictionnaire de listes de successeurs, par exemple g = {'A': ['B', 'C'], 'B': ['D'], 'C': ['D', 'E'], 'D': ['F'], 'E': ['F'], 'F': []}. On veut la fonction accessible(g, s, t) : paramètres le graphe g, un sommet de départ s, un sommet d'arrivée t, résultat True si t est atteignable depuis s (True si s == t), False sinon, en utilisant un parcours en profondeur.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "parcours_graphe",
+     "enonce": "Écrire la fonction accessible(g, s, t).",
+     "points": 1,
+     "reponse_attendue": "```python\ndef accessible(g, s, t):\n    vus = set()\n    pile = [s]\n    while pile:\n        u = pile.pop()\n        if u == t:\n            return True\n        if u not in vus:\n            vus.add(u)\n            for v in g[u]:\n                pile.append(v)\n    return False\n```"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Dépendances de processus",
+   "contexte": "Le tableau ci-dessous décrit quatre processus : durée d'exécution (en cycles), instant d'arrivée (en cycles depuis 0), numéro de priorité, et processus dont il dépend (il ne peut démarrer qu'après la fin de celui-ci).\n\n| Processus | Durée | Arrivée | Priorité | Dépend de |\n|---|---|---|---|---|\n| P1 | 3 | 0 | 2 | — |\n| P2 | 2 | 1 | 1 | P1 |\n| P3 | 4 | 1 | 3 | P1 |\n| P4 | 1 | 2 | 1 | P2, P3 |\n\nOn modélise les dépendances par un graphe orienté (arc de X vers Y si Y dépend de X).",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "parcours_graphe",
+     "enonce": "À partir du tableau ci-dessus, donner la liste des successeurs de chaque sommet puis un ordre d'exécution des processus compatible avec toutes les dépendances.",
+     "points": 1,
+     "reponse_attendue": "Successeurs : P1 → [P2, P3] ; P2 → [P4] ; P3 → [P4] ; P4 → []. Ordre possible : P1, P2, P3, P4 (ou P1, P3, P2, P4)."
+    }
+   ]
+  }
+ ]
+}

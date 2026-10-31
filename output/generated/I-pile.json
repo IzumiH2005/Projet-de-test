@@ -1,0 +1,61 @@
+{
+ "id": "I-pile",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Hauteur maximale d'une pile",
+   "contexte": "Un tableau d'entiers t décrit une suite d'opérations sur une pile initialement vide (chaque entier strictement positif signifie « empiler cet entier », chaque 0 signifie « dépiler » ; on suppose qu'on ne dépile jamais une pile vide). Exemple : pour t = [4, 7, 0, 2, 5, 0, 0, 9] la pile atteint au plus 3 éléments.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "pile",
+     "enonce": "Écrire une fonction hauteur_max(t) (paramètre : un tableau d'entiers positifs ou nuls) qui renvoie le nombre maximal d'éléments présents simultanément dans la pile.",
+     "points": 1,
+     "reponse_attendue": "def hauteur_max(t):\n    h = 0\n    m = 0\n    for x in t:\n        if x == 0:\n            h = h - 1\n        else:\n            h = h + 1\n            if h > m:\n                m = h\n    return m\n\nassert hauteur_max([4, 7, 0, 2, 5, 0, 0, 9]) == 3"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Annuler dans un éditeur",
+   "contexte": "Un éditeur de texte mémorise chaque action de l'utilisateur (saisie, suppression, mise en gras) dans une structure historique ; la commande « Annuler » (Ctrl+Z) défait toujours l'action la plus récente non encore annulée (et peut être répétée plusieurs fois).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "pile",
+     "enonce": "Expliquer pourquoi une pile, plutôt qu'une file, est la structure adaptée pour stocker l'historique des actions.",
+     "points": 1,
+     "reponse_attendue": "Annuler doit défaire d'abord la dernière action effectuée, puis l'avant-dernière, etc. : c'est le principe LIFO (dernier entré, premier sorti) de la pile ; une file (FIFO) renverrait la plus ancienne action, ce qui est incorrect."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Choisir la structure",
+   "contexte": "Pour chacune des situations suivantes, on hésite entre une pile et une file :\n- a. l'impression de documents envoyés à une imprimante partagée ;\n- b. le bouton « Page précédente » d'un navigateur web ;\n- c. la vérification du bon parenthésage d'une expression.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "pile",
+     "enonce": "Quelle structure (pile ou file) convient à chacune des situations a, b et c ? Justifier brièvement.",
+     "points": 1,
+     "reponse_attendue": "a. file (premier envoyé, premier imprimé, FIFO) ; b. pile (on revient à la dernière page visitée, LIFO) ; c. pile (chaque parenthèse fermante correspond à la dernière ouvrante non fermée, LIFO)."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Mode de fonctionnement d'une pile",
+   "contexte": "On empile successivement les valeurs 3, 8 puis 5 dans une pile vide p, puis on exécute une fois depile(p).",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "pile",
+     "enonce": "Donner le nom (et la signification) du mode de fonctionnement d'une pile, puis la valeur renvoyée par depile(p).",
+     "points": 1,
+     "reponse_attendue": "Mode LIFO (Last In, First Out : dernier entré, premier sorti) ; depile(p) renvoie 5."
+    }
+   ]
+  }
+ ]
+}

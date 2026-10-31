@@ -1,0 +1,61 @@
+{
+ "id": "I-interface_tad",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Une pile par son interface",
+   "contexte": "On dispose d'un module implémentant le type abstrait Pile avec l'interface : `creer_pile()`, `est_vide(p)`, `empiler(p, x)`, `depiler(p)` (renvoie l'élément retiré).\n\n```python\n1 def mystere(p):\n2     q = creer_pile()\n3     while not est_vide(p):\n4         empiler(q, depiler(p))\n5     return q\n```\n\nLa pile p contient, de la base au sommet, 1, 2, 3.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "interface_tad",
+     "enonce": "Donner le contenu de la pile renvoyée par mystere(p), de la base au sommet, et préciser l'état de p après l'appel.",
+     "points": 1,
+     "reponse_attendue": "La pile renvoyée contient 3, 2, 1 (base → sommet) : 1 est au sommet. La pile p est vide."
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Choisir une interface",
+   "contexte": "On propose les opérations suivantes pour un type abstrait :\n- `creer()` : crée une structure vide\n- `ajouter(s, x)` : ajoute x à la fin\n- `retirer(s)` : retire et renvoie l'élément le plus anciennement ajouté\n- `est_vide(s)` : teste si la structure est vide",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "interface_tad",
+     "enonce": "Quel type abstrait de données cette interface décrit-elle ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "Une file : l'élément retiré est le premier entré (FIFO)."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Taille d'une file via l'interface",
+   "contexte": "On ne peut utiliser que l'interface File : `creer_file()`, `est_vide(f)`, `enfiler(f, x)`, `defiler(f)`.\n\n```python\n1 def taille(f):\n2     aux = creer_file()\n3     n = 0\n4     while not est_vide(f):\n5         ...\n6         ...\n7     while not est_vide(aux):\n8         ...\n9     return n\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "interface_tad",
+     "enonce": "Recopier et compléter les lignes 5, 6 et 8 de la fonction taille afin qu'elle renvoie le nombre d'éléments de f, f étant restaurée à la fin.",
+     "points": 1,
+     "reponse_attendue": "5        enfiler(aux, defiler(f))\n6        n = n + 1\n8        enfiler(f, defiler(aux))"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Le SGBD comme interface",
+   "contexte": "Une médiathèque stocke ses données dans la relation `Livre(id, titre, auteur, annee)`. Les bibliothécaires n'accèdent jamais directement aux fichiers de stockage : ils passent par le SGBD, qui joue le rôle d'interface entre l'humain et la base.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "interface_tad",
+     "enonce": "Donner la requête SQL permettant d'ajouter le livre d'id 412, intitulé « Dune », de Frank Herbert, paru en 1965, puis expliquer en une phrase pourquoi l'utilisateur n'a pas à connaître l'organisation physique des données.",
+     "points": 1,
+     "reponse_attendue": "INSERT INTO Livre (id, titre, auteur, annee) VALUES (412, 'Dune', 'Frank Herbert', 1965);\nLe SGBD est une interface : il traduit la requête en opérations sur le stockage, dont l'implémentation reste cachée."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "id": "I-graphe",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Réseau de pistes cyclables",
+   "contexte": "Un graphe non orienté est représenté par un dictionnaire de listes d'adjacence :\n\n```python\npistes = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'D'], 'D': ['B', 'C', 'E'], 'E': ['D']}\n```\n\nSpécification de la fonction `ajouter_arete` : elle prend en paramètres un graphe g (dictionnaire), deux sommets s1 et s2, ajoute s2 aux voisins de s1 et s1 aux voisins de s2, crée un sommet absent avec une liste vide, et n'ajoute jamais un voisin déjà présent.",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "graphe",
+     "enonce": "Écrire la fonction ajouter_arete(g, s1, s2) permettant d'ajouter l'arête entre s1 et s2 en respectant la spécification.",
+     "points": 1,
+     "reponse_attendue": "def ajouter_arete(g, s1, s2):\n    if s1 not in g:\n        g[s1] = []\n    if s2 not in g:\n        g[s2] = []\n    if s2 not in g[s1]:\n        g[s1].append(s2)\n    if s1 not in g[s2]:\n        g[s2].append(s1)"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Chaîne la plus courte",
+   "contexte": "On reprend le graphe non orienté des pistes cyclables : A–B, A–C, B–D, C–D, D–E (toutes les arêtes ont la même longueur).",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "graphe",
+     "enonce": "Donner une chaîne de longueur minimale reliant A à E, ainsi que sa longueur.",
+     "points": 1,
+     "reponse_attendue": "A - B - D - E (ou A - C - D - E), de longueur 3."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Matrice d'adjacence symétrique",
+   "contexte": "Un graphe à 4 sommets numérotés 0 à 3 est représenté par la matrice d'adjacence :\n\n```python\nM = [[0, 1, 1, 0],\n     [1, 0, 0, 1],\n     [1, 0, 0, 1],\n     [0, 1, 1, 0]]\n```",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "graphe",
+     "enonce": "Expliquer pourquoi cette matrice permet d'affirmer que le graphe représenté est non orienté.",
+     "points": 1,
+     "reponse_attendue": "La matrice est symétrique : M[i][j] == M[j][i] pour tous i, j ; chaque arête i–j est donc présente dans les deux sens, ce qui caractérise un graphe non orienté."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Ordre de visite en largeur",
+   "contexte": "Graphe : `g = {'A': ['B', 'C'], 'B': ['A', 'D'], 'C': ['A', 'D'], 'D': ['B', 'C', 'E'], 'E': ['D']}`. La fonction `parcours_largeur(g, depart)` renvoie la liste des sommets parcourus en partant du sommet depart, les voisins étant traités dans l'ordre des listes, à l'aide d'une file.",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "graphe",
+     "enonce": "Donner la liste renvoyée par parcours_largeur(g, 'B').",
+     "points": 1,
+     "reponse_attendue": "['B', 'A', 'D', 'C', 'E']"
+    }
+   ]
+  }
+ ]
+}

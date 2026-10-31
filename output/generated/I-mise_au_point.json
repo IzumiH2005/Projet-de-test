@@ -1,0 +1,61 @@
+{
+ "id": "I-mise_au_point",
+ "exercices": [
+  {
+   "numero": 1,
+   "titre": "Fonction testée par assertions",
+   "contexte": "On fournit les tests suivants :\n\n```python\nassert compte_pairs([]) == 0\nassert compte_pairs([1, 3, 5]) == 0\nassert compte_pairs([2, 4, 7, 8]) == 3\n```\n\n```python\n1 def compte_pairs(t):\n2     n = 0\n3     ...\n```",
+   "questions": [
+    {
+     "slot": 1,
+     "notion": "mise_au_point",
+     "enonce": "Recopier et compléter la fonction compte_pairs (à partir de la ligne 3) qui renvoie le nombre d'éléments pairs de t, de sorte que tous les tests passent.",
+     "points": 1,
+     "reponse_attendue": "def compte_pairs(t):\n    n = 0\n    for x in t:\n        if x % 2 == 0:\n            n = n + 1\n    return n"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "titre": "Bug d'indice",
+   "contexte": "```python\ndef dernier_positif(t):\n    for i in range(len(t) - 1, 0, -1):\n        if t[i] > 0:\n            return i\n    return -1\n```",
+   "questions": [
+    {
+     "slot": 2,
+     "notion": "mise_au_point",
+     "enonce": "Donner la valeur renvoyée par dernier_positif([5, -2, -3]) et expliquer l'erreur révélée.",
+     "points": 1,
+     "reponse_attendue": "-1 ; l'indice 0 n'est jamais examiné car range(len(t)-1, 0, -1) s'arrête avant 0 : il faut range(len(t)-1, -1, -1), qui renverrait 0."
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "titre": "Type d'erreur",
+   "contexte": "Lors de l'exécution d'un programme, l'interpréteur affiche l'un des messages suivants :\n- `IndexError: list index out of range`\n- `TypeError: unsupported operand type(s) for +: 'int' and 'str'`\n- `NameError: name 'totl' is not defined`\n\nLe programme contient l'instruction `total = 3 + input('nombre ? ')`.",
+   "questions": [
+    {
+     "slot": 3,
+     "notion": "mise_au_point",
+     "enonce": "Quel message cette instruction provoque-t-elle ? Justifier.",
+     "points": 1,
+     "reponse_attendue": "TypeError : input renvoie une chaîne (str), qu'on ne peut pas additionner à un entier."
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "titre": "Configuration manuelle des routes",
+   "contexte": "Une entreprise configure à la main les tables de routage de ses routeurs. Le réseau : R1 relié à R2 et R3, R2 relié à R4, R3 relié à R4 ; le réseau 192.168.4.0/24 est derrière R4. L'administrateur a saisi dans R2 la route « 192.168.4.0/24 → passerelle R1 », et dans R1 la route « 192.168.4.0/24 → passerelle R2 ».",
+   "questions": [
+    {
+     "slot": 4,
+     "notion": "mise_au_point",
+     "enonce": "Donner le chemin suivi par un paquet partant de R1 vers 192.168.4.0/24 avec ces tables, et la route corrigée à saisir dans R2.",
+     "points": 1,
+     "reponse_attendue": "R1 → R2 → R1 → R2 … : boucle de routage (le paquet est détruit quand son TTL atteint 0). Dans R2 il faut saisir : 192.168.4.0/24 → passerelle R4."
+    }
+   ]
+  }
+ ]
+}
