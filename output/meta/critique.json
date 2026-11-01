@@ -1,0 +1,1412 @@
+{
+ "principe": "Autocritique méta-apprise : le moteur examine ses propres ratés et cherche seul quoi changer. Rien n'est écrit pour une matière. Le point de départ est la stratégie actuelle (règle apprise sur",
+ "appris_sur": [
+  "droit",
+  "nsi",
+  "eco",
+  "ses",
+  "svt",
+  "physique",
+  "maths",
+  "hggsp",
+  "hlp",
+  "si",
+  "management",
+  "sss",
+  "cbph",
+  "i2d",
+  "philo",
+  "francais",
+  "anglais",
+  "espagnol",
+  "allemand",
+  "pcm"
+ ],
+ "matieres": {
+  "droit": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.5449,
+     "auc": 0.8119,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5449,
+     "auc": 0.8119,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.5449,
+     "auc": 0.8119,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.7167,
+     "auc": 0.7911,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5444,
+     "auc": 0.6724,
+     "gain": -0.1841,
+     "pseudo_gain": -0.2084
+    },
+    "critique": {
+     "couverture": 0.6,
+     "auc": 0.7065,
+     "gain": -0.1251,
+     "pseudo_gain": -0.128
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "nsi": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.7627,
+     "auc": 0.7947,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.7627,
+     "auc": 0.7947,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.7627,
+     "auc": 0.7947,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.4783,
+     "auc": 0.704,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5756,
+     "auc": 0.7399,
+     "gain": 0.1009,
+     "pseudo_gain": 0.1045
+    },
+    "critique": {
+     "couverture": 0.699,
+     "auc": 0.7619,
+     "gain": 0.2264,
+     "pseudo_gain": 0.1362
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "eco": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.5144,
+     "auc": 0.7221,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5144,
+     "auc": 0.7221,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.5144,
+     "auc": 0.7221,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.4792,
+     "auc": 0.6752,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5162,
+     "auc": 0.6032,
+     "gain": 0.0298,
+     "pseudo_gain": -0.0745
+    },
+    "critique": {
+     "couverture": 0.5579,
+     "auc": 0.6416,
+     "gain": 0.0753,
+     "pseudo_gain": 0.0432
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "ses": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.3546,
+     "auc": 0.8622,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.3546,
+     "auc": 0.8622,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.3546,
+     "auc": 0.8622,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.1667,
+     "auc": 0.545,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.8333,
+     "auc": 0.858,
+     "gain": 0.698,
+     "pseudo_gain": 0.0695
+    },
+    "critique": {
+     "couverture": 0.6667,
+     "auc": 0.8392,
+     "gain": 0.5294,
+     "pseudo_gain": 0.1247
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "svt": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4229,
+     "auc": 0.7662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4229,
+     "auc": 0.7662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4229,
+     "auc": 0.7662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.602,
+     "auc": 0.6879,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6072,
+     "auc": 0.7294,
+     "gain": 0.0094,
+     "pseudo_gain": 0.0071
+    },
+    "critique": {
+     "couverture": 0.6072,
+     "auc": 0.7483,
+     "gain": 0.0113,
+     "pseudo_gain": 0.0543
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "physique": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.5763,
+     "auc": 0.8685,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5763,
+     "auc": 0.8685,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.5763,
+     "auc": 0.8685,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.5072,
+     "auc": 0.6999,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.843,
+     "auc": 0.865,
+     "gain": 0.3523,
+     "pseudo_gain": 0.0753
+    },
+    "critique": {
+     "couverture": 0.8865,
+     "auc": 0.8839,
+     "gain": 0.3976,
+     "pseudo_gain": 0.1376
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "maths": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.5252,
+     "auc": 0.9089,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5252,
+     "auc": 0.9089,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.5252,
+     "auc": 0.9089,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.6723,
+     "auc": 0.7819,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.9054,
+     "auc": 0.8856,
+     "gain": 0.2435,
+     "pseudo_gain": 0.5167
+    },
+    "critique": {
+     "couverture": 0.9459,
+     "auc": 0.9072,
+     "gain": 0.2862,
+     "pseudo_gain": 0.5445
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "hggsp": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.3894,
+     "auc": 0.7314,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.3894,
+     "auc": 0.7314,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.3894,
+     "auc": 0.7314,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.4352,
+     "auc": 0.7011,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.463,
+     "auc": 0.7067,
+     "gain": 0.0283,
+     "pseudo_gain": 0.1081
+    },
+    "critique": {
+     "couverture": 0.5,
+     "auc": 0.7122,
+     "gain": 0.0659,
+     "pseudo_gain": 0.1017
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "hlp": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.6,
+     "auc": 0.9008,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6,
+     "auc": 0.9008,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.6,
+     "auc": 0.9008,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.0,
+     "auc": 0.3306,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.0,
+     "auc": 0.7025,
+     "gain": 0.0372,
+     "pseudo_gain": 0.0024
+    },
+    "critique": {
+     "couverture": 0.0,
+     "auc": 0.2893,
+     "gain": -0.0041,
+     "pseudo_gain": -0.0216
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.25,
+      "lexique_du_professeur/arbres": 0.25,
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/logistique": 0.5
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+q25",
+    "tours_acceptes": 1
+   }
+  },
+  "si": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4738,
+     "auc": 0.6619,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4738,
+     "auc": 0.6619,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4738,
+     "auc": 0.6619,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.1556,
+     "auc": 0.6181,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.1778,
+     "auc": 0.4898,
+     "gain": 0.0094,
+     "pseudo_gain": 0.1012
+    },
+    "critique": {
+     "couverture": 0.3333,
+     "auc": 0.5506,
+     "gain": 0.171,
+     "pseudo_gain": 0.1356
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "management": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4,
+     "auc": 0.642,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4,
+     "auc": 0.642,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4,
+     "auc": 0.642,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.35,
+     "auc": 0.6288,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5167,
+     "auc": 0.7501,
+     "gain": 0.1788,
+     "pseudo_gain": 0.2786
+    },
+    "critique": {
+     "couverture": 0.5833,
+     "auc": 0.7221,
+     "gain": 0.2427,
+     "pseudo_gain": 0.1583
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+q25",
+    "tours_acceptes": 1
+   }
+  },
+  "sss": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.1917,
+     "auc": 0.6737,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.1917,
+     "auc": 0.6737,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.1917,
+     "auc": 0.6737,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.4222,
+     "auc": 0.6279,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.3333,
+     "auc": 0.5395,
+     "gain": -0.0977,
+     "pseudo_gain": -0.2521
+    },
+    "critique": {
+     "couverture": 0.5,
+     "auc": 0.4982,
+     "gain": 0.0648,
+     "pseudo_gain": -0.1946
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.25,
+      "lexique_du_professeur/arbres": 0.25,
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/arbres": 0.5
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+q25",
+    "tours_acceptes": 1
+   }
+  },
+  "cbph": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4846,
+     "auc": 0.7676,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4846,
+     "auc": 0.7676,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4846,
+     "auc": 0.7676,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.312,
+     "auc": 0.4822,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.2863,
+     "auc": 0.5736,
+     "gain": -0.0165,
+     "pseudo_gain": 0.2814
+    },
+    "critique": {
+     "couverture": 0.2308,
+     "auc": 0.5833,
+     "gain": -0.0711,
+     "pseudo_gain": 0.2728
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "memoire_ponderee/logistique": 0.2,
+      "lexique_du_professeur/arbres": 0.8
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "i2d": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.3667,
+     "auc": 0.6662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.3667,
+     "auc": 0.6662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.3667,
+     "auc": 0.6662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.3549,
+     "auc": 0.4832,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6216,
+     "auc": 0.6471,
+     "gain": 0.2831,
+     "pseudo_gain": -0.163
+    },
+    "critique": {
+     "couverture": 0.6216,
+     "auc": 0.6692,
+     "gain": 0.2853,
+     "pseudo_gain": -0.1443
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "philo": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4368,
+     "auc": 0.8371,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4368,
+     "auc": 0.8371,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4368,
+     "auc": 0.8371,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.3869,
+     "auc": 0.7608,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4643,
+     "auc": 0.7689,
+     "gain": 0.0782,
+     "pseudo_gain": -0.1033
+    },
+    "critique": {
+     "couverture": 0.6071,
+     "auc": 0.7882,
+     "gain": 0.223,
+     "pseudo_gain": -0.0698
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "francais": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.5596,
+     "auc": 0.7675,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5596,
+     "auc": 0.7675,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.5596,
+     "auc": 0.7675,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.2852,
+     "auc": 0.552,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.1407,
+     "auc": 0.5717,
+     "gain": -0.1425,
+     "pseudo_gain": -0.0195
+    },
+    "critique": {
+     "couverture": 0.1778,
+     "auc": 0.5542,
+     "gain": -0.1072,
+     "pseudo_gain": 0.0404
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.25,
+      "lexique_du_professeur/arbres": 0.25,
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/arbres": 0.5
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+q25",
+    "tours_acceptes": 1
+   }
+  },
+  "anglais": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4075,
+     "auc": 0.7985,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4075,
+     "auc": 0.7985,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4075,
+     "auc": 0.7985,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.5954,
+     "auc": 0.6891,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6211,
+     "auc": 0.7249,
+     "gain": 0.0292,
+     "pseudo_gain": 0.0262
+    },
+    "critique": {
+     "couverture": 0.6724,
+     "auc": 0.7331,
+     "gain": 0.0813,
+     "pseudo_gain": 0.0607
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "espagnol": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.7902,
+     "auc": 0.8667,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.7902,
+     "auc": 0.8667,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.7902,
+     "auc": 0.8667,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.0556,
+     "auc": 0.5077,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.7222,
+     "auc": 0.791,
+     "gain": 0.695,
+     "pseudo_gain": 0.1539
+    },
+    "critique": {
+     "couverture": 0.7222,
+     "auc": 0.7677,
+     "gain": 0.6927,
+     "pseudo_gain": 0.1861
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "memoire_ponderee/logistique": 0.2,
+      "lexique_du_professeur/arbres": 0.8
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "allemand": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.5556,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.5556,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.5556,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.75,
+     "auc": 0.726,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.75,
+     "auc": 0.7862,
+     "gain": 0.006,
+     "pseudo_gain": 0.0055
+    },
+    "critique": {
+     "couverture": 0.75,
+     "auc": 0.784,
+     "gain": 0.0058,
+     "pseudo_gain": 0.0792
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "memoire_ponderee/logistique": 0.2,
+      "lexique_du_professeur/arbres": 0.8
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "pcm": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4795,
+     "auc": 0.8562,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4795,
+     "auc": 0.8562,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4795,
+     "auc": 0.8562,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.5306,
+     "auc": 0.6801,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6861,
+     "auc": 0.7797,
+     "gain": 0.1655,
+     "pseudo_gain": 0.1594
+    },
+    "critique": {
+     "couverture": 0.6861,
+     "auc": 0.8173,
+     "gain": 0.1693,
+     "pseudo_gain": 0.3491
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  }
+ },
+ "synthese": {
+  "prevision": {
+   "ancienne": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "couverture_moyenne": 0.492,
+    "auc_moyenne": 0.784,
+    "critere": 0.0
+   },
+   "regle": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "couverture_moyenne": 0.492,
+    "auc_moyenne": 0.784,
+    "critere": 0.0
+   },
+   "critique": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "couverture_moyenne": 0.492,
+    "auc_moyenne": 0.784,
+    "critere": 0.0
+   }
+  },
+  "nouveaute": {
+   "ancienne": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "couverture_moyenne": 0.413,
+    "auc_moyenne": 0.634,
+    "critere": 0.0
+   },
+   "regle": {
+    "gain_moyen": 0.1252,
+    "pire_matiere": -0.1841,
+    "matieres_gagnees": 16,
+    "matieres_perdues": 4,
+    "couverture_moyenne": 0.53,
+    "auc_moyenne": 0.709,
+    "critere": 0.1252
+   },
+   "critique": {
+    "gain_moyen": 0.161,
+    "pire_matiere": -0.1251,
+    "matieres_gagnees": 16,
+    "matieres_perdues": 3,
+    "couverture_moyenne": 0.567,
+    "auc_moyenne": 0.698,
+    "critere": 0.161
+   }
+  }
+ },
+ "adoptee": {
+  "prevision": {
+   "strategie": "regle",
+   "prudence": "moyenne+pire",
+   "regle": [
+    [],
+    "ancienne",
+    false
+   ],
+   "poids": null
+  },
+  "nouveaute": {
+   "strategie": "critique",
+   "prudence": "moyenne",
+   "melange": {
+    "lexique_du_professeur/logistique": 0.333,
+    "lexique_du_professeur/arbres": 0.667
+   },
+   "diversification": 0.0,
+   "poids": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.333333,
+    0.666667,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "journal": {
+  "prevision": [
+   {
+    "etat": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "valeur": 0.0
+   },
+   {
+    "chapitres_oublies": 0.587,
+    "rattrapeurs": [
+     [
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/logistique",
+      0.147
+     ],
+     [
+      "lexique_du_professeur/logistique",
+      0.143
+     ],
+     [
+      "proximite_au_deja_demande/logistique",
+      0.139
+     ]
+    ],
+    "meilleure_proposition": "mêler lexique_du_professeur/logistique (part 0.25)",
+    "valeur_proposee": -0.126,
+    "decision": "refusée : pas de gain prouvé, arrêt"
+   }
+  ],
+  "nouveaute": [
+   {
+    "etat": {
+     "melange": {
+      "lexique_du_professeur/arbres": 1.0
+     },
+     "diversification": 0.0
+    },
+    "valeur": 0.132
+   },
+   {
+    "chapitres_oublies": 0.535,
+    "rattrapeurs": [
+     [
+      "memoire_ponderee/logistique",
+      0.241
+     ],
+     [
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/logistique",
+      0.238
+     ],
+     [
+      "proximite_au_deja_demande/logistique",
+      0.237
+     ]
+    ],
+    "meilleure_proposition": "mêler lexique_du_professeur/logistique (part 0.5)",
+    "valeur_proposee": 0.1669,
+    "decision": "acceptée"
+   },
+   {
+    "chapitres_oublies": 0.484,
+    "rattrapeurs": [
+     [
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/logistique",
+      0.197
+     ],
+     [
+      "themes_du_cours/arbres",
+      0.194
+     ],
+     [
+      "themes_du_cours/logistique",
+      0.188
+     ]
+    ],
+    "meilleure_proposition": "mêler themes_du_cours/arbres (part 0.25)",
+    "valeur_proposee": 0.1412,
+    "decision": "refusée : pas de gain prouvé, arrêt"
+   }
+  ]
+ },
+ "auto_jugement": {
+  "marge_fixe": {
+   "fourchette_juste": 0.86,
+   "largeur_moyenne": 0.781,
+   "taches": 643
+  },
+  "appris": {
+   "fourchette_juste": 0.863,
+   "largeur_moyenne": 0.84,
+   "taches": 643
+  },
+  "k": 1.9,
+  "adopte": "marge_fixe"
+ }
+}

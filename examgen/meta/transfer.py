@@ -668,6 +668,21 @@ def _replay(D, c, ys, obj):
     return ins
 
 
+def blend_pred(D, w, lam, target, train, obj):
+    """Mélange de rangs des réglages de base trouvé par l'autocritique (meta/critique.py)."""
+    from .critique import _diversify
+    p = sum(wj * rankdata(D.predict(gs, m, target, train, obj)) / D.n for wj, (gs, m) in zip(w, BASE) if wj > 0)
+    return _diversify(np.asarray(p, float), np.asarray(D.fc.t.pass_sec)[D.idx], lam) if lam else p
+
+
+def _critique_adoptee():
+    f = AP.ROOT / "output" / "meta" / "critique.json"
+    try:
+        return {o: a for o, a in json.loads(f.read_text(encoding="utf-8"))["adoptee"].items() if a["strategie"] == "critique"}
+    except (OSError, KeyError, ValueError):
+        return {}
+
+
 def apply(fc, log=print) -> dict:
     """Production, aucun choix propre à la matière : le moteur rejoue sur ses années passées les
     réglages de la liste apprise (méta-entraînement multi-matières) et choisit seul ; sans liste,
@@ -676,8 +691,23 @@ def apply(fc, log=print) -> dict:
     rule = json.loads(RULE_OUT.read_text(encoding="utf-8"))["regle"] if RULE_OUT.exists() else DEFAULT_RULE
     D = Domain(fc, TVars(fc), np.ones(fc.n, bool))
     nxt, ys = fc.years[-1] + 1, list(fc.years)
-    out = {}
+    out, crit = {}, _critique_adoptee()
     for obj in OBJ:
+        if obj in crit:  # mélange que le moteur a trouvé en se critiquant, gagnant matière exclue
+            a = crit[obj]
+            w, lam = np.asarray(a["poids"]), a.get("diversification", 0.0)
+            ins = []
+            for z in ys:
+                tr = [v for v in ys if v != z]
+                if len(tr) >= 2:
+                    r = D.score(blend_pred(D, w, lam, z, tr, obj), z, tr, obj)
+                    if r:
+                        ins.append(r["score"])
+            f = fourchette(float(np.mean(ins)), float(np.min(ins)), pol.get(obj, {}).get("marge", MARGE)) if ins else None
+            out[obj] = {"autocritique": a["melange"], "diversification": lam, "score_rejoue": [round(v, 3) for v in ins],
+                        "fourchette": f, "p": blend_pred(D, w, lam, nxt, ys, obj)}
+            log(f"  mélange trouvé par autocritique ({obj}) : {a['melange']}, fourchette {f}")
+            continue
         liste = pol[obj]["liste"] if obj in pol else [rule[obj]]
         rej = {json.dumps(c): _replay(D, (tuple(c[0]), c[1], c[2]), ys, obj) for c in liste}
         rej = {k: v for k, v in rej.items() if v}

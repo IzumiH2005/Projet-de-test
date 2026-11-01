@@ -355,6 +355,10 @@ def run(name: str, log=print) -> dict:
     if TR.RULE_OUT.exists():
         rg = json.loads(TR.RULE_OUT.read_text(encoding="utf-8"))
         rep["preuve_auto_progression"] = {**rg["matieres"].get(name, {}), "auto_jugement": rg["auto_jugement"]}
+    crit = TR.AP.ROOT / "output" / "meta" / "critique.json"
+    if crit.exists():
+        cr = json.loads(crit.read_text(encoding="utf-8"))
+        rep["preuve_autocritique"] = {"matiere_exclue": cr["matieres"].get(name), "synthese": cr["synthese"]}
     from ..meta.domain import out_dir
     out = out_dir(name)
     out.mkdir(parents=True, exist_ok=True)

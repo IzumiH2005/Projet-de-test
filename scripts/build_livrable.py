@@ -314,8 +314,10 @@ def probable():
                     "famille": FAM.get(pv.get("famille_choisie"), pv.get("famille_choisie")), "back": back, "passages": pas,
                     "items": items, "validation": val["resume"], "nouveautes": pv.get("preuve_sur_les_nouveautes"),
                     "auto": {"preuve": pv.get("preuve_auto_progression"),
-                             "choix": {o: {"familles": [x.replace("_", " ") for x in (v.get("familles") or [])], "modele": v.get("modele"),
-                                           "mele": v.get("mele_a_l_ancienne"), "fourchette": v.get("fourchette")}
+                             "choix": {o: ({"familles": [x.replace("_", " ") for x in v["autocritique"]], "modele": "mélange trouvé par autocritique",
+                                            "mele": False, "fourchette": v.get("fourchette")} if "autocritique" in v else
+                                           {"familles": [x.replace("_", " ") for x in (v.get("familles") or [])], "modele": v.get("modele"),
+                                            "mele": v.get("mele_a_l_ancienne"), "fourchette": v.get("fourchette")})
                                        for o, v in (pv.get("auto_progression") or {}).items()}},
                     "programme": programme(D, pv, fac)})
     return out or None
@@ -360,10 +362,26 @@ def apprendre():
                          for n, v in r["matieres"].items()}}
 
 
+def autocritique():
+    """Le moteur se critique : mélange trouvé seul, fourchette apprise, seuils du correcteur."""
+    f, g = OUT / "meta" / "critique.json", OUT / "meta" / "controle.json"
+    if not f.exists():
+        return None
+    r = json.loads(f.read_text(encoding="utf-8"))
+    out = {"n": len(r["appris_sur"]), "synthese": r["synthese"], "adoptee": r["adoptee"]["nouveaute"] | {"poids": None},
+           "prevision": r["adoptee"]["prevision"]["strategie"], "jugement": r["auto_jugement"],
+           "journal": [e for e in r["journal"]["nouveaute"] if e.get("decision")][:8],
+           "matieres": {n: {m: v["nouveaute"][m]["couverture"] for m in ("ancienne", "regle", "critique")} for n, v in r["matieres"].items()}}
+    if g.exists():
+        c = json.loads(g.read_text(encoding="utf-8"))
+        out["controle"] = {w: c["synthese"][w] for w in c["synthese"]}
+    return out
+
+
 def main():
     ex = exams()
     qs, resume = questions()
-    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "probable": probable(), "meta": meta(), "apprendre": apprendre()}
+    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "probable": probable(), "meta": meta(), "apprendre": apprendre(), "autocritique": autocritique()}
     tpl = (ROOT / "scripts" / "livrable_template.html").read_text(encoding="utf-8")
     html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/").replace("\ufffd", ""))
     (OUT / "livrable.html").write_text(html, encoding="utf-8")

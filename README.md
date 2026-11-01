@@ -453,6 +453,53 @@ comparant les sorties à celles de l'ancien code, nombre par nombre (écart maxi
 - Correctif trouvé au passage : le cache de lecture oubliait le réglage choisi par le moteur. Un
   second passage donnait donc une autre prévision que le premier. Les deux sont maintenant identiques.
 
+### Autocritique : le moteur cherche seul pourquoi il rate (`examgen/meta/critique.py`)
+
+Après le méta-entraînement, environ la moitié des questions restaient ratées, la fourchette annoncée
+était trop large et rien ne vérifiait les seuils du correcteur. Plutôt que de corriger à la main, le
+moteur se critique. Chaque réglage est écrit comme un mélange de rangs de 21 réglages de base. À chaque tour :
+
+1. **Critique.** Parmi ses questions ratées, quelle part chaque autre réglage aurait trouvée
+   (« rattrapeurs ») ? Les ratés tombent-ils dans des chapitres dont il n'a retenu aucun passage ?
+2. **Propositions.** Mêler un rattrapeur (part 0,25 / 0,5 / 1), ou étaler sa sélection sur plus de
+   chapitres (diversification).
+3. **Décision.** Une proposition n'est gardée que si elle gagne selon le critère de prudence appris.
+   Sinon il s'arrête (6 tours au plus).
+
+Tout est validé matière exclue : la recherche est refaite sans la matière testée. Sur 20 matières (643 tâches) :
+
+| Nouveautés, matière exclue | Couverture | Pire matière | Gagnées / perdues |
+|---|---|---|---|
+| Ancienne méthode | 41 % | — | — |
+| Règle apprise (avant) | 53 % | −18,4 pts | 16 / 4 |
+| **Après autocritique (retenue)** | **57 %** | **−12,5 pts** | **16 / 3** |
+
+- Ce qu'il s'est dit : « 53 % de mes ratés tombent dans des chapitres que je n'ai pas retenus ».
+  Il a essayé plusieurs rattrapeurs. Il a gardé « lexique du professeur, modèle logistique » mêlé à
+  son réglage par arbres (1/3 – 2/3) et refusé le reste (pas de gain prouvé). La diversification
+  par chapitre n'a jamais été retenue.
+- **Prévision** : rien ne bat l'ancienne méthode (49 %, AUC 0,78). Elle est gardée.
+- **Fourchette** : une fourchette apprise (centre et erreur typique par arbres, facteur calibré
+  hors matière) est juste aussi souvent (86 %) mais **plus large** (0,84 contre 0,78). Le moteur
+  garde la marge fixe : sa fourchette reste peu informative.
+- `transfer.apply()` utilise le mélange retenu s'il existe (`output/meta/critique.json`), sinon la
+  règle d'avant.
+
+**Le correcteur se critique aussi** (`examgen/meta/controle.py`). Il juge un exercice « trop proche
+d'un ancien sujet » au-delà d'un cosinus de 0,85, fixé à la main. Il passe donc au contrôle les vraies
+questions du professeur, chaque année face aux années d'avant seulement. Il essaie deux seuils
+appris matière exclue : un seuil commun, et un seuil propre à chaque professeur (quantile de ce qu'il
+s'est permis avant). Résultat : aucun ne fait mieux que 0,85 sans faire échouer une matière, il est
+gardé. 0,85 laisse passer 99,5 % des vrais énoncés et 88 % des vraies situations. Défaut repéré :
+en français et en espagnol, le professeur réutilise les mêmes mises en situation, et le correcteur
+les refuse presque toutes. `prof/check.py` lit désormais ses seuils dans `output/meta/controle.json`.
+
+```bash
+python -m examgen.meta.transfer tasks <matière>     # garde aussi les prédictions de base
+python -m examgen.meta.critique droit nsi eco ...   # autocritique -> output/meta/critique.json
+python -m examgen.meta.controle droit nsi eco ...   # seuils du correcteur -> output/meta/controle.json
+```
+
 `python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.
 
 - `align.py` : le moteur choisit seul sa façon de lire (règle apprise sur une matière, testée sur l'autre).
