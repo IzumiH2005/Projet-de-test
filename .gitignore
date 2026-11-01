@@ -7,3 +7,4 @@ __pycache__/
 data/cache/
 output/droit/teacher.joblib
 output/nsi_prof/teacher.joblib
+output/logs/

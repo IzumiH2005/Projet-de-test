@@ -5,7 +5,9 @@ cd "$(dirname "$0")/.."
 D=data/sources/programmes; mkdir -p "$D"
 e(){ echo "https://eduscol.education.fr/document/$1/download"; }
 get(){ [ -s "$D/$1.pdf" ] || curl -sSL -o "$D/$1.pdf" "$2"; }
-for id in 23152 23155 23281 23284 24565 24568 23647 23650 24328 24331 22492 25012 25009 25018 22906 22912 22900 22909 24916; do get $id "$(e $id)"; done
+for id in 24043 24049 23764 23767 23770 23773 24922 23152 23155 23281 23284 24565 24568 23647 23650 24328 24331 22492 25012 25009 25018 22906 22912 22900 22909 24916; do get $id "$(e $id)"; done
+get e24919 "$(e 24919)"
+get fr1 https://sti.eduscol.education.fr/sites/eduscol.education.fr.sti/files/Premiere_Voies_GT_-_Programme_Francais.pdf
 get phys1 https://www.snes.edu/IMG/pdf/physique_spe_annexe_1eg_bo.pdf
 get phys_t "https://perso.ens-lyon.fr/fabrice.fourcade/Lec%cc%a7ons/Programmes%20chimie/PCtermgenerale.pdf.pdf"
 b(){ n=$1; shift; rm -rf "data/$n/cours"; python scripts/build_cours_pdf.py "$n" "${@/#/$D/}"; }
@@ -20,3 +22,10 @@ b management 25012.pdf 25009.pdf 25018.pdf
 b sss 22906.pdf 22912.pdf
 b cbph 22900.pdf 22909.pdf
 b i2d 24916.pdf
+b philo 24043.pdf 24049.pdf
+b francais fr1.pdf
+b anglais 23767.pdf
+b espagnol 23770.pdf
+b allemand 23764.pdf
+b italien 23773.pdf
+b pcm e24919.pdf 24922.pdf

@@ -46,5 +46,9 @@
  "i2d": [
   "data/sources/annales_i2d",
   "data/i2d/cours"
+ ],
+ "philo": [
+  "data/sources/annales_philo",
+  "data/philo/cours"
  ]
 }

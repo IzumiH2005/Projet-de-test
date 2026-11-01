@@ -16,6 +16,13 @@ list=("$@")
   serie-st2s/spe-sciences-sanitaires-sociales:sss
   serie-st2s/spe-chimie-bio-physiopat-humaines:cbph
   serie-sti2d/spe-2i2d-innovation-techno-eco:i2d
+  philosophie:philo
+  francais-premiere:francais
+  specialites/spe-llcer-anglais:anglais
+  specialites/spe-llcer-espagnol:espagnol
+  specialites/spe-llcer-allemand:allemand
+  specialites/spe-llcer-italien:italien
+  serie-sti2d/spe-physique-chimie-mathematiques:pcm
 )
 for e in "${list[@]}"; do
   path=${e%%:*}; name=${e##*:}; slug=${path##*/}
