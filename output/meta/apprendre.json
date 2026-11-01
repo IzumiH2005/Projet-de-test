@@ -16,19 +16,19 @@
      "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.108,
-     "auc": 0.636,
-     "gain": -0.087,
-     "pseudo_gain": 0.04
+     "couverture": 0.192,
+     "auc": 0.692,
+     "gain": 0.002,
+     "pseudo_gain": 0.044
     },
     "se_regler": {
      "couverture": 0.192,
      "auc": 0.674,
      "gain": 0.0,
-     "pseudo_gain": 0.0
+     "pseudo_gain": 0.001
     },
     "politique": {
-     "K": 2,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
@@ -38,10 +38,31 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
        ],
        "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -54,33 +75,47 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.478,
-     "auc": 0.605,
-     "gain": 0.053,
-     "pseudo_gain": -0.202
+     "couverture": 0.222,
+     "auc": 0.563,
+     "gain": -0.207,
+     "pseudo_gain": -0.237
     },
     "juge": {
-     "couverture": 0.222,
-     "auc": 0.479,
-     "gain": -0.215,
-     "pseudo_gain": -0.231
+     "couverture": 0.333,
+     "auc": 0.468,
+     "gain": -0.105,
+     "pseudo_gain": -0.238
     },
     "se_regler": {
      "couverture": 0.333,
-     "auc": 0.561,
-     "gain": -0.096,
-     "pseudo_gain": -0.326
+     "auc": 0.519,
+     "gain": -0.1,
+     "pseudo_gain": -0.365
     },
     "politique": {
-     "K": 8,
-     "seuil": 0.02,
+     "K": 6,
+     "seuil": 0.0,
      "liste": [
       [
        [
-        "proximite_au_deja_demande"
+        "lexique_du_professeur"
        ],
-       "logistique",
+       "arbres",
        true
+      ],
+      [
+       [
+        "lexique_du_professeur"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "arbres",
+       false
       ],
       [
        [
@@ -91,21 +126,7 @@
       ],
       [
        [
-        "proximite_au_deja_demande"
-       ],
-       "logistique",
-       false
-      ],
-      [
-       [
-        "lexique_du_professeur"
-       ],
-       "logistique",
-       false
-      ],
-      [
-       [
-        "memoire_ponderee"
+        "recence"
        ],
        "logistique",
        false
@@ -114,20 +135,8 @@
        [
         "croisements"
        ],
-       "logistique",
-       false
-      ],
-      [
-       [
-        "recence"
-       ],
        "arbres",
-       false
-      ],
-      [
-       [],
-       "logistique",
-       false
+       true
       ]
      ]
     }
@@ -148,24 +157,52 @@
      "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.3,
-     "auc": 0.663,
-     "gain": -0.098,
-     "pseudo_gain": -0.039
+     "couverture": 0.233,
+     "auc": 0.594,
+     "gain": -0.171,
+     "pseudo_gain": -0.218
     },
     "se_regler": {
      "couverture": 0.4,
      "auc": 0.642,
      "gain": 0.0,
-     "pseudo_gain": 0.0
+     "pseudo_gain": 0.001
     },
     "politique": {
-     "K": 1,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
        [],
        "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
        false
       ]
      ]
@@ -179,54 +216,45 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.45,
-     "auc": 0.682,
-     "gain": 0.105,
-     "pseudo_gain": 0.25
+     "couverture": 0.35,
+     "auc": 0.629,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
      "couverture": 0.35,
      "auc": 0.572,
      "gain": -0.006,
-     "pseudo_gain": -0.036
+     "pseudo_gain": -0.08
     },
     "se_regler": {
-     "couverture": 0.45,
-     "auc": 0.682,
-     "gain": 0.105,
-     "pseudo_gain": 0.196
+     "couverture": 0.35,
+     "auc": 0.685,
+     "gain": 0.006,
+     "pseudo_gain": 0.146
     },
     "politique": {
-     "K": 6,
+     "K": 8,
      "seuil": 0.1,
      "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "logistique",
+       true
+      ],
       [
        [
         "voisinage"
        ],
        "melange",
        false
-      ],
-      [
-       [
-        "voisinage"
-       ],
-       "melange",
-       true
-      ],
-      [
-       [
-        "recence"
-       ],
-       "melange",
-       true
-      ],
-      [
-       [
-        "croisements"
-       ],
-       "arbres",
-       true
       ],
       [
        [
@@ -237,7 +265,28 @@
       ],
       [
        [
-        "proximite_au_deja_demande"
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "rotation_des_chapitres"
        ],
        "logistique",
        true
@@ -261,10 +310,10 @@
      "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.541,
-     "auc": 0.794,
-     "gain": -0.018,
-     "pseudo_gain": -0.019
+     "couverture": 0.53,
+     "auc": 0.772,
+     "gain": -0.031,
+     "pseudo_gain": -0.061
     },
     "se_regler": {
      "couverture": 0.562,
@@ -273,7 +322,7 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
@@ -283,10 +332,31 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
        ],
        "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -299,40 +369,45 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.342,
-     "auc": 0.518,
-     "gain": 0.034,
-     "pseudo_gain": 0.266
+     "couverture": 0.312,
+     "auc": 0.482,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.209,
-     "auc": 0.505,
-     "gain": -0.1,
-     "pseudo_gain": 0.088
+     "couverture": 0.342,
+     "auc": 0.495,
+     "gain": 0.031,
+     "pseudo_gain": 0.115
     },
     "se_regler": {
      "couverture": 0.312,
-     "auc": 0.505,
-     "gain": 0.002,
-     "pseudo_gain": 0.18
+     "auc": 0.482,
+     "gain": 0.0,
+     "pseudo_gain": 0.031
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 3,
+     "seuil": 0.2,
      "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
       [
        [
         "voisinage"
        ],
        "melange",
        false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "melange",
-       true
       ]
      ]
     }
@@ -356,7 +431,7 @@
      "couverture": 0.4,
      "auc": 0.666,
      "gain": 0.0,
-     "pseudo_gain": 0.0
+     "pseudo_gain": -0.0
     },
     "se_regler": {
      "couverture": 0.4,
@@ -385,39 +460,30 @@
     },
     "regle": {
      "couverture": 0.355,
-     "auc": 0.623,
-     "gain": 0.014,
-     "pseudo_gain": -0.069
+     "auc": 0.483,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.439,
-     "auc": 0.619,
-     "gain": 0.098,
-     "pseudo_gain": -0.177
+     "couverture": 0.655,
+     "auc": 0.68,
+     "gain": 0.32,
+     "pseudo_gain": 0.081
     },
     "se_regler": {
      "couverture": 0.355,
-     "auc": 0.607,
-     "gain": 0.012,
-     "pseudo_gain": -0.041
+     "auc": 0.483,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 1,
+     "seuil": 0.2,
      "liste": [
       [
-       [
-        "voisinage"
-       ],
-       "melange",
+       [],
+       "ancienne",
        false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "melange",
-       true
       ]
      ]
     }
@@ -441,7 +507,7 @@
      "couverture": 0.369,
      "auc": 0.731,
      "gain": 0.0,
-     "pseudo_gain": 0.009
+     "pseudo_gain": 0.004
     },
     "se_regler": {
      "couverture": 0.369,
@@ -450,12 +516,40 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 1,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
        [],
        "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
        false
       ]
      ]
@@ -469,37 +563,49 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.444,
-     "auc": 0.737,
-     "gain": 0.013,
-     "pseudo_gain": 0.144
+     "couverture": 0.435,
+     "auc": 0.701,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.463,
-     "auc": 0.774,
-     "gain": 0.035,
-     "pseudo_gain": -0.0
+     "couverture": 0.5,
+     "auc": 0.739,
+     "gain": 0.069,
+     "pseudo_gain": 0.132
     },
     "se_regler": {
-     "couverture": 0.472,
-     "auc": 0.745,
-     "gain": 0.041,
-     "pseudo_gain": 0.098
+     "couverture": 0.389,
+     "auc": 0.741,
+     "gain": -0.042,
+     "pseudo_gain": 0.113
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 4,
+     "seuil": 0.2,
      "liste": [
       [
-       [
-        "voisinage"
-       ],
-       "melange",
+       [],
+       "ancienne",
        false
       ],
       [
        [
-        "rotation_des_chapitres"
+        "recence"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
        ],
        "melange",
        true
@@ -526,7 +632,7 @@
      "couverture": 0.6,
      "auc": 0.901,
      "gain": 0.0,
-     "pseudo_gain": -0.008
+     "pseudo_gain": -0.152
     },
     "se_regler": {
      "couverture": 0.6,
@@ -535,7 +641,7 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
@@ -545,10 +651,31 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
        ],
        "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -562,15 +689,15 @@
     },
     "regle": {
      "couverture": 0.0,
-     "auc": 0.149,
-     "gain": -0.018,
-     "pseudo_gain": -0.023
+     "auc": 0.331,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
      "couverture": 0.0,
      "auc": 0.149,
      "gain": -0.018,
-     "pseudo_gain": -0.003
+     "pseudo_gain": -0.002
     },
     "se_regler": {
      "couverture": 0.0,
@@ -579,23 +706,9 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 6,
-     "seuil": 0.0,
+     "K": 3,
+     "seuil": 0.2,
      "liste": [
-      [
-       [
-        "voisinage"
-       ],
-       "melange",
-       false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "melange",
-       true
-      ],
       [
        [],
        "ancienne",
@@ -603,21 +716,16 @@
       ],
       [
        [
-        "proximite_au_deja_demande"
+        "voisinage"
        ],
        "logistique",
-       false
+       true
       ],
       [
        [
-        "croisements"
+        "voisinage"
        ],
-       "logistique",
-       false
-      ],
-      [
-       [],
-       "logistique",
+       "melange",
        false
       ]
      ]
@@ -642,21 +750,56 @@
      "couverture": 0.355,
      "auc": 0.862,
      "gain": 0.0,
-     "pseudo_gain": 0.0
+     "pseudo_gain": 0.04
     },
     "se_regler": {
      "couverture": 0.355,
      "auc": 0.862,
      "gain": 0.0,
-     "pseudo_gain": 0.0
+     "pseudo_gain": -0.0
     },
     "politique": {
-     "K": 1,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
        [],
        "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "arbres",
        false
       ]
      ]
@@ -676,25 +819,32 @@
      "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.5,
-     "auc": 0.784,
-     "gain": 0.357,
-     "pseudo_gain": 0.008
+     "couverture": 0.333,
+     "auc": 0.679,
+     "gain": 0.18,
+     "pseudo_gain": 0.18
     },
     "se_regler": {
-     "couverture": 0.667,
-     "auc": 0.84,
-     "gain": 0.53,
-     "pseudo_gain": 0.122
+     "couverture": 0.167,
+     "auc": 0.545,
+     "gain": 0.0,
+     "pseudo_gain": 0.004
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 3,
+     "seuil": 0.2,
      "liste": [
       [
        [],
        "ancienne",
        false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
       ],
       [
        [
@@ -725,17 +875,17 @@
      "couverture": 0.582,
      "auc": 0.812,
      "gain": 0.0,
-     "pseudo_gain": -0.033
+     "pseudo_gain": -0.003
     },
     "se_regler": {
-     "couverture": 0.529,
-     "auc": 0.816,
-     "gain": -0.053,
-     "pseudo_gain": 0.019
+     "couverture": 0.582,
+     "auc": 0.812,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 3,
-     "seuil": 0.02,
+     "K": 2,
+     "seuil": 0.2,
      "liste": [
       [
        [],
@@ -744,16 +894,16 @@
       ],
       [
        [
-        "voisinage"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
        ],
-       "arbres",
-       false
-      ],
-      [
-       [
-        "memoire_ponderee"
-       ],
-       "arbres",
+       "melange",
        false
       ]
      ]
@@ -768,33 +918,26 @@
     },
     "regle": {
      "couverture": 0.717,
-     "auc": 0.722,
-     "gain": -0.007,
-     "pseudo_gain": -0.114
+     "auc": 0.791,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.578,
-     "auc": 0.661,
-     "gain": -0.152,
-     "pseudo_gain": -0.148
+     "couverture": 0.661,
+     "auc": 0.716,
+     "gain": -0.063,
+     "pseudo_gain": -0.088
     },
     "se_regler": {
      "couverture": 0.717,
-     "auc": 0.785,
-     "gain": -0.001,
-     "pseudo_gain": -0.082
+     "auc": 0.791,
+     "gain": 0.0,
+     "pseudo_gain": -0.039
     },
     "politique": {
-     "K": 4,
-     "seuil": 0.0,
+     "K": 2,
+     "seuil": 0.2,
      "liste": [
-      [
-       [
-        "voisinage"
-       ],
-       "melange",
-       false
-      ],
       [
        [],
        "ancienne",
@@ -802,16 +945,9 @@
       ],
       [
        [
-        "recence"
+        "voisinage"
        ],
        "melange",
-       false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "logistique",
        false
       ]
      ]
@@ -834,19 +970,19 @@
     },
     "juge": {
      "couverture": 0.48,
-     "auc": 0.707,
-     "gain": -0.027,
-     "pseudo_gain": -0.017
+     "auc": 0.72,
+     "gain": -0.025,
+     "pseudo_gain": -0.01
     },
     "se_regler": {
      "couverture": 0.505,
      "auc": 0.722,
      "gain": 0.0,
-     "pseudo_gain": -0.004
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.1,
+     "K": 4,
+     "seuil": 0.2,
      "liste": [
       [
        [],
@@ -864,8 +1000,22 @@
         "themes_du_cours",
         "croisements"
        ],
-       "arbres",
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -878,40 +1028,45 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.632,
-     "auc": 0.668,
-     "gain": 0.152,
-     "pseudo_gain": 0.164
+     "couverture": 0.479,
+     "auc": 0.675,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.368,
-     "auc": 0.673,
-     "gain": -0.111,
-     "pseudo_gain": 0.082
+     "couverture": 0.653,
+     "auc": 0.695,
+     "gain": 0.176,
+     "pseudo_gain": 0.184
     },
     "se_regler": {
-     "couverture": 0.59,
-     "auc": 0.671,
-     "gain": 0.111,
-     "pseudo_gain": 0.016
+     "couverture": 0.479,
+     "auc": 0.675,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 3,
+     "seuil": 0.2,
      "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
       [
        [
         "voisinage"
        ],
        "melange",
        false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "melange",
-       true
       ]
      ]
     }
@@ -932,10 +1087,10 @@
      "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.428,
-     "auc": 0.798,
-     "gain": -0.007,
-     "pseudo_gain": -0.007
+     "couverture": 0.419,
+     "auc": 0.784,
+     "gain": -0.018,
+     "pseudo_gain": 0.055
     },
     "se_regler": {
      "couverture": 0.438,
@@ -944,7 +1099,7 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
@@ -954,10 +1109,31 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
        ],
        "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -970,40 +1146,45 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.655,
-     "auc": 0.714,
-     "gain": 0.056,
-     "pseudo_gain": 0.084
+     "couverture": 0.602,
+     "auc": 0.688,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.629,
-     "auc": 0.742,
-     "gain": 0.033,
-     "pseudo_gain": 0.022
+     "couverture": 0.649,
+     "auc": 0.746,
+     "gain": 0.053,
+     "pseudo_gain": 0.021
     },
     "se_regler": {
-     "couverture": 0.544,
+     "couverture": 0.602,
      "auc": 0.688,
-     "gain": -0.058,
-     "pseudo_gain": 0.04
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 3,
+     "seuil": 0.2,
      "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
       [
        [
         "voisinage"
        ],
        "melange",
        false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "logistique",
-       true
       ]
      ]
     }
@@ -1036,7 +1217,7 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
@@ -1046,10 +1227,31 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
        ],
        "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -1062,27 +1264,39 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.222,
-     "auc": 0.55,
-     "gain": 0.06,
-     "pseudo_gain": 0.115
+     "couverture": 0.156,
+     "auc": 0.618,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
      "couverture": 0.267,
-     "auc": 0.594,
-     "gain": 0.109,
-     "pseudo_gain": 0.037
+     "auc": 0.533,
+     "gain": 0.103,
+     "pseudo_gain": 0.124
     },
     "se_regler": {
-     "couverture": 0.222,
-     "auc": 0.56,
-     "gain": 0.061,
-     "pseudo_gain": 0.118
+     "couverture": 0.156,
+     "auc": 0.618,
+     "gain": 0.0,
+     "pseudo_gain": 0.044
     },
     "politique": {
-     "K": 2,
-     "seuil": 0.0,
+     "K": 4,
+     "seuil": 0.2,
      "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
       [
        [
         "voisinage"
@@ -1092,9 +1306,9 @@
       ],
       [
        [
-        "rotation_des_chapitres"
+        "croisements"
        ],
-       "melange",
+       "arbres",
        true
       ]
      ]
@@ -1116,10 +1330,10 @@
      "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.752,
-     "auc": 0.795,
-     "gain": 0.0,
-     "pseudo_gain": 0.016
+     "couverture": 0.781,
+     "auc": 0.843,
+     "gain": 0.034,
+     "pseudo_gain": 0.03
     },
     "se_regler": {
      "couverture": 0.752,
@@ -1138,10 +1352,17 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
        ],
        "melange",
-       true
+       false
       ],
       [
        [
@@ -1161,41 +1382,27 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.588,
-     "auc": 0.733,
-     "gain": 0.113,
-     "pseudo_gain": 0.043
+     "couverture": 0.478,
+     "auc": 0.704,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
-     "couverture": 0.661,
+     "couverture": 0.682,
      "auc": 0.759,
-     "gain": 0.188,
-     "pseudo_gain": 0.069
+     "gain": 0.21,
+     "pseudo_gain": 0.136
     },
     "se_regler": {
-     "couverture": 0.612,
-     "auc": 0.741,
-     "gain": 0.138,
-     "pseudo_gain": 0.069
+     "couverture": 0.478,
+     "auc": 0.704,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 4,
-     "seuil": 0.0,
+     "K": 3,
+     "seuil": 0.2,
      "liste": [
-      [
-       [
-        "voisinage"
-       ],
-       "melange",
-       false
-      ],
-      [
-       [
-        "rotation_des_chapitres"
-       ],
-       "melange",
-       true
-      ],
       [
        [],
        "ancienne",
@@ -1203,9 +1410,16 @@
       ],
       [
        [
-        "proximite_au_deja_demande"
+        "voisinage"
        ],
        "logistique",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
        false
       ]
      ]
@@ -1230,16 +1444,16 @@
      "couverture": 0.594,
      "auc": 0.874,
      "gain": 0.015,
-     "pseudo_gain": 0.019
+     "pseudo_gain": 0.004
     },
     "se_regler": {
      "couverture": 0.579,
      "auc": 0.869,
      "gain": 0.0,
-     "pseudo_gain": 0.007
+     "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 4,
+     "K": 3,
      "seuil": 0.2,
      "liste": [
       [
@@ -1249,10 +1463,17 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
        ],
        "melange",
-       true
+       false
       ],
       [
        [
@@ -1260,13 +1481,6 @@
        ],
        "melange",
        true
-      ],
-      [
-       [
-        "voisinage"
-       ],
-       "logistique",
-       false
       ]
      ]
     }
@@ -1279,27 +1493,39 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.857,
-     "auc": 0.862,
-     "gain": 0.366,
-     "pseudo_gain": 0.101
+     "couverture": 0.507,
+     "auc": 0.7,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
     },
     "juge": {
      "couverture": 0.676,
-     "auc": 0.792,
-     "gain": 0.178,
-     "pseudo_gain": 0.098
+     "auc": 0.806,
+     "gain": 0.18,
+     "pseudo_gain": 0.065
     },
     "se_regler": {
-     "couverture": 0.761,
-     "auc": 0.812,
-     "gain": 0.265,
-     "pseudo_gain": 0.157
+     "couverture": 0.507,
+     "auc": 0.7,
+     "gain": 0.0,
+     "pseudo_gain": -0.0
     },
     "politique": {
      "K": 4,
-     "seuil": 0.0,
+     "seuil": 0.2,
      "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
       [
        [
         "voisinage"
@@ -1309,22 +1535,10 @@
       ],
       [
        [
-        "rotation_des_chapitres"
+        "croisements"
        ],
-       "melange",
+       "arbres",
        true
-      ],
-      [
-       [],
-       "ancienne",
-       false
-      ],
-      [
-       [
-        "proximite_au_deja_demande"
-       ],
-       "logistique",
-       false
       ]
      ]
     }
@@ -1357,7 +1571,7 @@
      "pseudo_gain": 0.0
     },
     "politique": {
-     "K": 2,
+     "K": 4,
      "seuil": 0.2,
      "liste": [
       [
@@ -1367,10 +1581,31 @@
       ],
       [
        [
-        "themes_du_cours"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
        ],
        "melange",
        true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
       ]
      ]
     }
@@ -1390,19 +1625,675 @@
     },
     "juge": {
      "couverture": 0.946,
-     "auc": 0.909,
-     "gain": 0.286,
-     "pseudo_gain": 0.479
+     "auc": 0.92,
+     "gain": 0.287,
+     "pseudo_gain": 0.447
     },
     "se_regler": {
-     "couverture": 0.946,
-     "auc": 0.9,
-     "gain": 0.285,
-     "pseudo_gain": 0.475
+     "couverture": 0.672,
+     "auc": 0.782,
+     "gain": 0.0,
+     "pseudo_gain": 0.101
+    },
+    "politique": {
+     "K": 3,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "arbres",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "philo": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.41,
+     "auc": 0.837,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.41,
+     "auc": 0.837,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.41,
+     "auc": 0.837,
+     "gain": 0.0,
+     "pseudo_gain": -0.044
+    },
+    "se_regler": {
+     "couverture": 0.41,
+     "auc": 0.837,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 1,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.387,
+     "auc": 0.761,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.387,
+     "auc": 0.761,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.554,
+     "auc": 0.748,
+     "gain": 0.165,
+     "pseudo_gain": 0.0
+    },
+    "se_regler": {
+     "couverture": 0.524,
+     "auc": 0.775,
+     "gain": 0.138,
+     "pseudo_gain": -0.033
+    },
+    "politique": {
+     "K": 8,
+     "seuil": 0.02,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "arbres",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "arbres",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "francais": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.57,
+     "auc": 0.767,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.57,
+     "auc": 0.767,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.545,
+     "auc": 0.744,
+     "gain": -0.027,
+     "pseudo_gain": -0.017
+    },
+    "se_regler": {
+     "couverture": 0.57,
+     "auc": 0.767,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.285,
+     "auc": 0.552,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.285,
+     "auc": 0.552,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.289,
+     "auc": 0.529,
+     "gain": 0.001,
+     "pseudo_gain": -0.037
+    },
+    "se_regler": {
+     "couverture": 0.322,
+     "auc": 0.537,
+     "gain": 0.036,
+     "pseudo_gain": 0.039
     },
     "politique": {
      "K": 6,
+     "seuil": 0.1,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "anglais": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.408,
+     "auc": 0.799,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.408,
+     "auc": 0.799,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.404,
+     "auc": 0.822,
+     "gain": -0.001,
+     "pseudo_gain": -0.005
+    },
+    "se_regler": {
+     "couverture": 0.408,
+     "auc": 0.799,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.595,
+     "auc": 0.689,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.595,
+     "auc": 0.689,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.635,
+     "auc": 0.738,
+     "gain": 0.045,
+     "pseudo_gain": -0.015
+    },
+    "se_regler": {
+     "couverture": 0.51,
+     "auc": 0.688,
+     "gain": -0.086,
+     "pseudo_gain": -0.031
+    },
+    "politique": {
+     "K": 8,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "recence"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "espagnol": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.78,
+     "auc": 0.867,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.78,
+     "auc": 0.867,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.732,
+     "auc": 0.88,
+     "gain": -0.046,
+     "pseudo_gain": -0.017
+    },
+    "se_regler": {
+     "couverture": 0.78,
+     "auc": 0.867,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.056,
+     "auc": 0.508,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.056,
+     "auc": 0.508,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.5,
+     "auc": 0.74,
+     "gain": 0.468,
+     "pseudo_gain": -0.032
+    },
+    "se_regler": {
+     "couverture": 0.056,
+     "auc": 0.508,
+     "gain": 0.0,
+     "pseudo_gain": 0.003
+    },
+    "politique": {
+     "K": 8,
      "seuil": 0.02,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "recence"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "allemand": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.667,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.667,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.667,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": -0.07
+    },
+    "se_regler": {
+     "couverture": 0.667,
+     "auc": 0.777,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 1,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.75,
+     "auc": 0.726,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.75,
+     "auc": 0.726,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.5,
+     "auc": 0.671,
+     "gain": -0.255,
+     "pseudo_gain": -0.078
+    },
+    "se_regler": {
+     "couverture": 0.75,
+     "auc": 0.726,
+     "gain": 0.0,
+     "pseudo_gain": -0.397
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
      "liste": [
       [
        [],
@@ -1415,34 +2306,124 @@
        ],
        "melange",
        false
+      ]
+     ]
+    }
+   }
+  },
+  "pcm": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.479,
+     "auc": 0.856,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.479,
+     "auc": 0.856,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.479,
+     "auc": 0.856,
+     "gain": 0.0,
+     "pseudo_gain": 0.015
+    },
+    "se_regler": {
+     "couverture": 0.479,
+     "auc": 0.856,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
       ],
       [
        [
-        "memoire_ponderee"
-       ],
-       "logistique",
-       true
-      ],
-      [
-       [
-        "recence"
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
        ],
        "melange",
        false
       ],
       [
        [
-        "proximite_au_deja_demande"
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
        ],
        "logistique",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.531,
+     "auc": 0.68,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.531,
+     "auc": 0.68,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.644,
+     "auc": 0.765,
+     "gain": 0.122,
+     "pseudo_gain": 0.244
+    },
+    "se_regler": {
+     "couverture": 0.753,
+     "auc": 0.844,
+     "gain": 0.239,
+     "pseudo_gain": 0.118
+    },
+    "politique": {
+     "K": 3,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
        false
       ],
       [
        [
-        "recence"
+        "voisinage"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "voisinage"
        ],
        "melange",
-       true
+       false
       ]
      ]
     }
@@ -1457,8 +2438,8 @@
     "matieres_gagnees": 0,
     "matieres_perdues": 0,
     "pseudo_gain_moyen": 0.0,
-    "couverture_moyenne": 0.483,
-    "auc_moyenne": 0.77
+    "couverture_moyenne": 0.504,
+    "auc_moyenne": 0.784
    },
    "regle": {
     "gain_moyen": 0.0,
@@ -1466,26 +2447,26 @@
     "matieres_gagnees": 0,
     "matieres_perdues": 0,
     "pseudo_gain_moyen": 0.0,
-    "couverture_moyenne": 0.483,
-    "auc_moyenne": 0.77
+    "couverture_moyenne": 0.504,
+    "auc_moyenne": 0.784
    },
    "juge": {
-    "gain_moyen": -0.0159,
-    "pire_matiere": -0.098,
-    "matieres_gagnees": 1,
-    "matieres_perdues": 5,
-    "pseudo_gain_moyen": -0.0028,
-    "couverture_moyenne": 0.467,
-    "auc_moyenne": 0.772
+    "gain_moyen": -0.0134,
+    "pire_matiere": -0.171,
+    "matieres_gagnees": 2,
+    "matieres_perdues": 6,
+    "pseudo_gain_moyen": -0.0202,
+    "couverture_moyenne": 0.49,
+    "auc_moyenne": 0.787
    },
    "se_regler": {
-    "gain_moyen": -0.0038,
-    "pire_matiere": -0.053,
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
     "matieres_gagnees": 0,
-    "matieres_perdues": 1,
-    "pseudo_gain_moyen": 0.0016,
-    "couverture_moyenne": 0.479,
-    "auc_moyenne": 0.77
+    "matieres_perdues": 0,
+    "pseudo_gain_moyen": 0.0001,
+    "couverture_moyenne": 0.504,
+    "auc_moyenne": 0.784
    }
   },
   "nouveaute": {
@@ -1495,41 +2476,41 @@
     "matieres_gagnees": 0,
     "matieres_perdues": 0,
     "pseudo_gain_moyen": 0.0,
-    "couverture_moyenne": 0.404,
-    "auc_moyenne": 0.625
+    "couverture_moyenne": 0.413,
+    "auc_moyenne": 0.634
    },
    "regle": {
-    "gain_moyen": 0.0672,
-    "pire_matiere": -0.018,
-    "matieres_gagnees": 10,
-    "matieres_perdues": 2,
-    "pseudo_gain_moyen": 0.0542,
-    "couverture_moyenne": 0.47,
-    "auc_moyenne": 0.635
+    "gain_moyen": -0.0103,
+    "pire_matiere": -0.207,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 1,
+    "pseudo_gain_moyen": -0.0118,
+    "couverture_moyenne": 0.403,
+    "auc_moyenne": 0.63
    },
    "juge": {
-    "gain_moyen": 0.0487,
-    "pire_matiere": -0.215,
-    "matieres_gagnees": 8,
-    "matieres_perdues": 6,
-    "pseudo_gain_moyen": 0.0206,
-    "couverture_moyenne": 0.451,
-    "auc_moyenne": 0.644
+    "gain_moyen": 0.0982,
+    "pire_matiere": -0.255,
+    "matieres_gagnees": 14,
+    "matieres_perdues": 5,
+    "pseudo_gain_moyen": 0.058,
+    "couverture_moyenne": 0.508,
+    "auc_moyenne": 0.657
    },
    "se_regler": {
-    "gain_moyen": 0.0996,
-    "pire_matiere": -0.096,
-    "matieres_gagnees": 9,
-    "matieres_perdues": 2,
-    "pseudo_gain_moyen": 0.073,
-    "couverture_moyenne": 0.499,
-    "auc_moyenne": 0.673
+    "gain_moyen": 0.0095,
+    "pire_matiere": -0.1,
+    "matieres_gagnees": 4,
+    "matieres_perdues": 3,
+    "pseudo_gain_moyen": -0.0133,
+    "couverture_moyenne": 0.422,
+    "auc_moyenne": 0.641
    }
   }
  },
  "politique_finale": {
   "prevision": {
-   "K": 2,
+   "K": 4,
    "seuil": 0.2,
    "liste": [
     [
@@ -1539,10 +2520,31 @@
     ],
     [
      [
-      "themes_du_cours"
+      "recence",
+      "memoire_ponderee",
+      "voisinage",
+      "proximite_au_deja_demande",
+      "lexique_du_professeur",
+      "rotation_des_chapitres",
+      "themes_du_cours",
+      "croisements"
+     ],
+     "melange",
+     false
+    ],
+    [
+     [
+      "croisements"
      ],
      "melange",
      true
+    ],
+    [
+     [
+      "voisinage"
+     ],
+     "logistique",
+     false
     ]
    ],
    "grille": {
@@ -1551,83 +2553,88 @@
     "K=1 seuil=0.05": 0.0,
     "K=1 seuil=0.1": 0.0,
     "K=1 seuil=0.2": 0.0,
-    "K=2 seuil=0.0": -0.0314,
-    "K=2 seuil=0.02": -0.0536,
-    "K=2 seuil=0.05": -0.071,
-    "K=2 seuil=0.1": -0.0145,
-    "K=2 seuil=0.2": 0.0001,
-    "K=3 seuil=0.0": -0.2451,
-    "K=3 seuil=0.02": -0.0525,
-    "K=3 seuil=0.05": -0.3582,
-    "K=3 seuil=0.1": -0.1762,
-    "K=3 seuil=0.2": -0.0457,
-    "K=4 seuil=0.0": -0.2455,
-    "K=4 seuil=0.02": -0.0536,
-    "K=4 seuil=0.05": -0.3547,
-    "K=4 seuil=0.1": -0.1779,
-    "K=4 seuil=0.2": -0.0449,
-    "K=6 seuil=0.0": -0.2465,
-    "K=6 seuil=0.02": -0.1809,
-    "K=6 seuil=0.05": -0.2824,
-    "K=6 seuil=0.1": -0.1767,
-    "K=6 seuil=0.2": -0.083,
-    "K=8 seuil=0.0": -0.2711,
-    "K=8 seuil=0.02": -0.2694,
-    "K=8 seuil=0.05": -0.2444,
-    "K=8 seuil=0.1": -0.1775,
-    "K=8 seuil=0.2": -0.1796
+    "K=2 seuil=0.0": -0.024,
+    "K=2 seuil=0.02": -0.0839,
+    "K=2 seuil=0.05": -0.0742,
+    "K=2 seuil=0.1": -0.0542,
+    "K=2 seuil=0.2": 0.0021,
+    "K=3 seuil=0.0": -0.1652,
+    "K=3 seuil=0.02": -0.0658,
+    "K=3 seuil=0.05": -0.0695,
+    "K=3 seuil=0.1": -0.0251,
+    "K=3 seuil=0.2": 0.0021,
+    "K=4 seuil=0.0": -0.1637,
+    "K=4 seuil=0.02": -0.0749,
+    "K=4 seuil=0.05": -0.067,
+    "K=4 seuil=0.1": -0.0238,
+    "K=4 seuil=0.2": 0.0027,
+    "K=6 seuil=0.0": -0.1698,
+    "K=6 seuil=0.02": -0.0659,
+    "K=6 seuil=0.05": -0.1789,
+    "K=6 seuil=0.1": -0.0245,
+    "K=6 seuil=0.2": -0.1481,
+    "K=8 seuil=0.0": -0.2437,
+    "K=8 seuil=0.02": -0.1704,
+    "K=8 seuil=0.05": -0.1799,
+    "K=8 seuil=0.1": -0.0344,
+    "K=8 seuil=0.2": -0.1478
    }
   },
   "nouveaute": {
-   "K": 2,
-   "seuil": 0.0,
+   "K": 3,
+   "seuil": 0.2,
    "liste": [
+    [
+     [],
+     "ancienne",
+     false
+    ],
+    [
+     [
+      "voisinage"
+     ],
+     "logistique",
+     true
+    ],
     [
      [
       "voisinage"
      ],
      "melange",
      false
-    ],
-    [
-     [
-      "rotation_des_chapitres"
-     ],
-     "melange",
-     true
     ]
    ],
    "grille": {
-    "K=1 seuil=0.0": -0.1415,
-    "K=1 seuil=0.02": -0.1415,
-    "K=1 seuil=0.05": -0.1415,
-    "K=1 seuil=0.1": -0.1415,
-    "K=1 seuil=0.2": -0.1415,
-    "K=2 seuil=0.0": -0.0534,
-    "K=2 seuil=0.02": -0.3195,
-    "K=2 seuil=0.05": -0.3034,
-    "K=2 seuil=0.1": -0.1059,
-    "K=2 seuil=0.2": -0.1481,
-    "K=3 seuil=0.0": -0.2404,
-    "K=3 seuil=0.02": -0.3201,
-    "K=3 seuil=0.05": -0.2938,
-    "K=3 seuil=0.1": -0.0913,
-    "K=3 seuil=0.2": -0.1506,
-    "K=4 seuil=0.0": -0.2281,
-    "K=4 seuil=0.02": -0.2648,
-    "K=4 seuil=0.05": -0.2163,
-    "K=4 seuil=0.1": -0.0972,
-    "K=4 seuil=0.2": -0.149,
-    "K=6 seuil=0.0": -0.2361,
-    "K=6 seuil=0.02": -0.261,
-    "K=6 seuil=0.05": -0.2219,
-    "K=6 seuil=0.1": -0.093,
-    "K=6 seuil=0.2": -0.1512,
-    "K=8 seuil=0.0": -0.1878,
-    "K=8 seuil=0.02": -0.2525,
-    "K=8 seuil=0.05": -0.224,
-    "K=8 seuil=0.1": -0.09,
-    "K=8 seuil=0.2": -0.1538
+    "K=1 seuil=0.0": -0.2484,
+    "K=1 seuil=0.02": -0.2484,
+    "K=1 seuil=0.05": -0.2484,
+    "K=1 seuil=0.1": -0.2484,
+    "K=1 seuil=0.2": -0.2484,
+    "K=2 seuil=0.0": -0.3905,
+    "K=2 seuil=0.02": -0.3873,
+    "K=2 seuil=0.05": -0.3109,
+    "K=2 seuil=0.1": -0.2725,
+    "K=2 seuil=0.2": -0.2432,
+    "K=3 seuil=0.0": -0.5223,
+    "K=3 seuil=0.02": -0.3518,
+    "K=3 seuil=0.05": -0.2916,
+    "K=3 seuil=0.1": -0.2509,
+    "K=3 seuil=0.2": -0.2075,
+    "K=4 seuil=0.0": -0.408,
+    "K=4 seuil=0.02": -0.3449,
+    "K=4 seuil=0.05": -0.2807,
+    "K=4 seuil=0.1": -0.2531,
+    "K=4 seuil=0.2": -0.2278,
+    "K=6 seuil=0.0": -0.3868,
+    "K=6 seuil=0.02": -0.3064,
+    "K=6 seuil=0.05": -0.5079,
+    "K=6 seuil=0.1": -0.2535,
+    "K=6 seuil=0.2": -0.2534,
+    "K=8 seuil=0.0": -0.3938,
+    "K=8 seuil=0.02": -0.3059,
+    "K=8 seuil=0.05": -0.5063,
+    "K=8 seuil=0.1": -0.2461,
+    "K=8 seuil=0.2": -0.2482
    }
   }
  },
@@ -1645,54 +2652,52 @@
    "critere": {
     "ancienne": 0.0,
     "regle": 0.0,
-    "se_regler": -0.0568
+    "se_regler": 0.0
    },
-   "marge": 0.275
+   "marge": 0.3
   },
   "nouveaute": {
-   "strategie": "regle",
+   "strategie": "ancienne",
    "liste": [
     [
-     [
-      "voisinage"
-     ],
-     "melange",
+     [],
+     "ancienne",
      false
     ]
    ],
    "seuil": 0.0,
    "critere": {
     "ancienne": 0.0,
-    "regle": 0.0492,
-    "se_regler": 0.0036
+    "regle": -0.2173,
+    "se_regler": -0.0905
    },
-   "marge": 0.275
+   "marge": 0.3
   }
  },
  "auto_jugement": {
   "ancienne": {
    "marge": 0.3,
-   "fourchette_juste": 0.861,
+   "fourchette_juste": 0.86,
    "largeur_moyenne": 0.832,
-   "taches": 445
+   "taches": 643
   },
   "regle": {
-   "marge": 0.275,
-   "fourchette_juste": 0.852,
-   "largeur_moyenne": 0.803,
-   "taches": 445
+   "marge": 0.3,
+   "fourchette_juste": 0.862,
+   "largeur_moyenne": 0.831,
+   "taches": 643
   },
   "juge": {
    "marge": 0.3,
-   "fourchette_juste": 0.863,
-   "largeur_moyenne": 0.803,
-   "taches": 445
+   "fourchette_juste": 0.851,
+   "largeur_moyenne": 0.799,
+   "taches": 643
   },
   "se_regler": {
-   "marge": 0.325,
-   "fourchette_juste": 0.863,
-   "largeur_moyenne": 0.83,
-   "taches": 445
+   "marge": 0.3,
+   "fourchette_juste": 0.862,
+   "largeur_moyenne": 0.831,
+   "taches": 643
   }
  },
  "appris_sur": [
@@ -1709,6 +2714,12 @@
   "si",
   "nsi",
   "physique",
-  "maths"
+  "maths",
+  "philo",
+  "francais",
+  "anglais",
+  "espagnol",
+  "allemand",
+  "pcm"
  ]
 }
