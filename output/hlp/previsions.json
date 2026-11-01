@@ -692,21 +692,157 @@
  },
  "programme": [
   {
+   "section": 18,
+   "titre": "Les métamorphoses du moi",
+   "passages": 8,
+   "proba": 0.88,
+   "potentiel": 0.955,
+   "annees_tombees": 5,
+   "sur": 5,
+   "priorite": 0.978,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 108,
+     "texte": "Le second semestre de la classe terminale achève les explorations proposées au cours des deux années du programme d’Humanités, littérature et philosophie. Il aborde, à partir de textes littéraires et philosophiques, les interrogations et les expériences caractéristiques du monde contemporain.",
+     "proba": 0.88,
+     "potentiel": 0.918,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [
+      "programme",
+      "semestre",
+      "cours"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "colon essai / x colon essai / essai / essai philosophique x",
+       "part": 0.17
+      },
+      {
+       "facette": 4,
+       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-zero-1",
+       "enonce": "Le texte retenu pour le sujet zéro n°1 est extrait de Les Idées et les âges d’Alain.\nÉpreuve écrite\nDurée : 4 heures\nObjectifs\nL’épreuve porte sur les objets d’étude définis dans le programme de l’enseignement de\nspécial"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-polynesie-1",
+       "enonce": "Deuxième partie : Essai philosophique La violence efface-t-elle toute trace d’humanité ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 110,
+     "texte": "Le deuxième chapitre, « Histoire et violence », part des grands conflits et traumatismes du XXe siècle, qui ont changé notre vision de l’Humanité et notre compréhension de l’histoire. Il propose d’étudier les diverses formes de la violence et leur représentation dans la littérature, ainsi que les questions philosophiques qui leur sont liées.",
+     "proba": 0.438,
+     "potentiel": 0.955,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "change",
+      "part",
+      "grands",
+      "diverses"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "colon essai / x colon essai / essai / essai philosophique x",
+       "part": 0.17
+      },
+      {
+       "facette": 4,
+       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées\nDavid Diop (1927-1966) est un poète et écrivain français, né en France de père\nsénégalais et de mère camerounaise.\nAFRIQUE\nÀ ma mère\nAfrique mon Afrique\nAfrique de"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-1",
+       "enonce": "« se juchent » : se hissent « irascible » : qui se met facilement en colère Première partie : interprétation philosophique D’après l’auteur, qu’est-ce qui explique la permanence de la violence dans l’histoire ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 106,
+     "texte": "Prétention à un contrôle absolu ou abandon à l’impulsion immédiate, ivresse créatrice ou expériences de la dépersonnalisation, enthousiasme révolutionnaire ou souci exclusif de l’intérêt privé, recherche des émotions les plus raffinées ou paroxysme du conflit intérieur, passion du lointain ou mystique de l’enracinement, ferveur religieuse ou exaltation de l’extrême liberté : toutes ces figures de ",
+     "proba": 0.393,
+     "potentiel": 0.909,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "liberte",
+      "interet"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "colon essai / x colon essai / essai / essai philosophique x",
+       "part": 0.17
+      },
+      {
+       "facette": 4,
+       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-nouv-caledonie-1",
+       "enonce": "Les dragonnades sont des persécutions contre les communautés protestantes du royaume de France"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-zero-1",
+       "enonce": "Le texte retenu pour le sujet zéro n°1 est extrait de Les Idées et les âges d’Alain.\nÉpreuve écrite\nDurée : 4 heures\nObjectifs\nL’épreuve porte sur les objets d’étude définis dans le programme de l’enseignement de\nspécial"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 21,
    "titre": "L’humain et ses limites",
    "passages": 9,
    "proba": 0.739,
-   "potentiel": 0.922,
+   "potentiel": 0.951,
    "annees_tombees": 3,
    "sur": 5,
-   "priorite": 0.968,
+   "priorite": 0.97,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 132,
      "texte": "Dans ce contexte, une partie de la philosophie contemporaine renouvelle la question de la finitude de l’homme, soit pour avertir des dangers moraux et politiques de son oubli, soit pour en dégager une dimension paradoxale : cet être « fini » fait l’expérience de l’illimité. Quelle sorte de bonheur et quelle durée de vie pour un homme entièrement « réparé », voire « augmenté » ?",
      "proba": 0.739,
-     "potentiel": 0.922,
+     "potentiel": 0.94,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "soit",
@@ -747,7 +883,7 @@
      "passage": 130,
      "texte": "La question écologique n’est plus seulement celle de la préservation des espèces, mais elle laisse entrevoir le spectre d’un monde inhabitable. Une part de l’imaginaire contemporain (dystopies, mondes post-humains, univers parallèles) consone avec ces inquiétudes. Bien avant de décrire et d’analyser le nouvel univers technique et d’en imaginer les développements, littérature et philosophie ont évo",
      "proba": 0.614,
-     "potentiel": 0.876,
+     "potentiel": 0.926,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "univers",
@@ -791,7 +927,7 @@
      "passage": 128,
      "texte": "Invention et perfectionnement de machines et de systèmes de toutes sortes, nouveaux instruments pour la médecine, architectures partant à l’assaut du ciel, conquête de l’atome et de l’espace, tout a paru promettre à la technique un pouvoir sans limite dont le développement du numérique, de la génétique et de l’intelligence artificielle sont aujourd’hui l’expression la plus spectaculaire.",
      "proba": 0.34,
-     "potentiel": 0.908,
+     "potentiel": 0.951,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "paru",
@@ -832,157 +968,21 @@
    ]
   },
   {
-   "section": 18,
-   "titre": "Les métamorphoses du moi",
-   "passages": 8,
-   "proba": 0.88,
-   "potentiel": 0.96,
-   "annees_tombees": 5,
-   "sur": 5,
-   "priorite": 0.951,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 106,
-     "texte": "Prétention à un contrôle absolu ou abandon à l’impulsion immédiate, ivresse créatrice ou expériences de la dépersonnalisation, enthousiasme révolutionnaire ou souci exclusif de l’intérêt privé, recherche des émotions les plus raffinées ou paroxysme du conflit intérieur, passion du lointain ou mystique de l’enracinement, ferveur religieuse ou exaltation de l’extrême liberté : toutes ces figures de ",
-     "proba": 0.393,
-     "potentiel": 0.96,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "liberte",
-      "interet"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "colon essai / x colon essai / essai / essai philosophique x",
-       "part": 0.17
-      },
-      {
-       "facette": 4,
-       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-nouv-caledonie-1",
-       "enonce": "Les dragonnades sont des persécutions contre les communautés protestantes du royaume de France"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-zero-1",
-       "enonce": "Le texte retenu pour le sujet zéro n°1 est extrait de Les Idées et les âges d’Alain.\nÉpreuve écrite\nDurée : 4 heures\nObjectifs\nL’épreuve porte sur les objets d’étude définis dans le programme de l’enseignement de\nspécial"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 108,
-     "texte": "Le second semestre de la classe terminale achève les explorations proposées au cours des deux années du programme d’Humanités, littérature et philosophie. Il aborde, à partir de textes littéraires et philosophiques, les interrogations et les expériences caractéristiques du monde contemporain.",
-     "proba": 0.88,
-     "potentiel": 0.849,
-     "deja_tombe": 3,
-     "evalue_sans_etre_dit": [
-      "programme",
-      "semestre",
-      "cours"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "colon essai / x colon essai / essai / essai philosophique x",
-       "part": 0.17
-      },
-      {
-       "facette": 4,
-       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-zero-1",
-       "enonce": "Le texte retenu pour le sujet zéro n°1 est extrait de Les Idées et les âges d’Alain.\nÉpreuve écrite\nDurée : 4 heures\nObjectifs\nL’épreuve porte sur les objets d’étude définis dans le programme de l’enseignement de\nspécial"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-polynesie-1",
-       "enonce": "Deuxième partie : Essai philosophique La violence efface-t-elle toute trace d’humanité ?"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 110,
-     "texte": "Le deuxième chapitre, « Histoire et violence », part des grands conflits et traumatismes du XXe siècle, qui ont changé notre vision de l’Humanité et notre compréhension de l’histoire. Il propose d’étudier les diverses formes de la violence et leur représentation dans la littérature, ainsi que les questions philosophiques qui leur sont liées.",
-     "proba": 0.438,
-     "potentiel": 0.937,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "change",
-      "part",
-      "grands",
-      "diverses"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "colon essai / x colon essai / essai / essai philosophique x",
-       "part": 0.17
-      },
-      {
-       "facette": 4,
-       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées\nDavid Diop (1927-1966) est un poète et écrivain français, né en France de père\nsénégalais et de mère camerounaise.\nAFRIQUE\nÀ ma mère\nAfrique mon Afrique\nAfrique de"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-1",
-       "enonce": "« se juchent » : se hissent « irascible » : qui se met facilement en colère Première partie : interprétation philosophique D’après l’auteur, qu’est-ce qui explique la permanence de la violence dans l’histoire ?"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 20,
    "titre": "Histoire et violence",
    "passages": 7,
    "proba": 0.741,
-   "potentiel": 0.969,
+   "potentiel": 0.965,
    "annees_tombees": 3,
    "sur": 5,
-   "priorite": 0.946,
+   "priorite": 0.951,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 124,
      "texte": "Il convient de distinguer entre les types de guerre (par exemple, une guerre de conquête n’est pas une guerre de libération) et entre les régimes politiques (un régime oppressif n’est pas nécessairement une entreprise totalitaire) comme entre les formes de violence sociale (au sein d’une même société, certaines violences quotidiennes et parfois diffuses, peuvent prendre d’autres formes que celle d",
      "proba": 0.555,
-     "potentiel": 0.885,
+     "potentiel": 0.905,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "parfois",
@@ -1024,7 +1024,7 @@
      "passage": 125,
      "texte": "Pour dire ou tenter de dire les différentes formes de violence, mais aussi pour les soumettre au jugement, la littérature a ses pouvoirs propres, que ce soit sous la forme du témoignage, avec l’effort d’objectivation qu’il implique, ou dans des œuvres d’engagement et de dénonciation qui prétendent agir sur le cours de l’histoire.",
      "proba": 0.327,
-     "potentiel": 0.969,
+     "potentiel": 0.965,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "soit",
@@ -1062,15 +1062,17 @@
      "intention": null
     },
     {
-     "passage": 122,
-     "texte": "La violence dont toutes les sociétés humaines ont fait l’expérience est-elle irréductible ? Ou bien l’histoire universelle donne-t-elle les signes d’une marche vers des relations pacifiées dans le cadre d’États de droit et d’institutions internationales ? Si la violence précède le droit,",
-     "proba": 0.323,
-     "potentiel": 0.93,
-     "deja_tombe": 1,
+     "passage": 123,
+     "texte": "quel droit pourra la limiter dans la plus grande mesure et de la manière la plus durable ? Avec les tragédies et les horreurs du XXe siècle, ces questions d’anthropologie, de philosophie de l’histoire et de philosophie politique n’ont fait que gagner en intensité. En outre, qu’appelle-t-on « violence » ? Toutes les violences sont-elles comparables ?",
+     "proba": 0.55,
+     "potentiel": 0.864,
+     "deja_tombe": 2,
      "evalue_sans_etre_dit": [
-      "etats",
-      "experience",
-      "cadre"
+      "appelle",
+      "mesure",
+      "politique",
+      "grande",
+      "maniere"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
@@ -1092,124 +1094,12 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nLa désobéissance civile ne saurait être assimilée à la délinquance de droit\ncommun1. Il existe une différence essentielle entre le criminel qui prend soin de\ndiss"
-      },
-      {
        "sujet": "spe-humanites-litterature-philo-2021-centres-etranger-1",
        "enonce": "Deuxième partie : essai philosophique La nature me parle-t-elle de moi ?"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 0,
-   "titre": "Annexe",
-   "passages": 12,
-   "proba": 0.74,
-   "potentiel": 0.913,
-   "annees_tombees": 4,
-   "sur": 5,
-   "priorite": 0.926,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 0,
-     "texte": "L’enseignement de spécialité d’humanités, littérature et philosophie vise à procurer aux élèves de première et de terminale une solide formation générale dans le domaine des lettres, de la philosophie et des sciences humaines.",
-     "proba": 0.364,
-     "potentiel": 0.913,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.71
       },
       {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.29
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2025-asie-1",
-       "enonce": "souﬄeté : giflé."
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2025-asie-1",
-       "enonce": "iniquité : injus ce."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 3,
-     "texte": "Si ces considérations sont valables pour tous les élèves, elles prennent un relief particulier pour ceux qui choisiront de poursuivre cet enseignement de spécialité en terminale et qui ont à préparer l’épreuve orale terminale du baccalauréat. Il convient que les travaux proposés aux élèves y contribuent dès la classe de première.",
-     "proba": 0.365,
-     "potentiel": 0.825,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.71
-      },
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.29
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-1",
-       "enonce": "« villégiateurs » : ceux qui séjournent dans un lieu de vacances ou de loisirs."
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2025-asie-1",
-       "enonce": "souﬄeté : giflé."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 6,
-     "texte": "Elle sera particulièrement recommandée aux élèves souhaitant s’engager dans les carrières de l’enseignement et de la recherche en lettres et sciences humaines, de la culture et de la communication. Les contenus d’enseignement se répartissent en quatre semestres, chacun centré sur une grande dimension de la culture humaniste, donc sur l’un des objets des études rassemblées sous le nom d’humanités.",
-     "proba": 0.74,
-     "potentiel": 0.127,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "grande",
-      "objets"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.71
-      },
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.29
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-polynesie-1",
-       "enonce": "Le candidat traite les deux parties sur des copies séparées.\nRené CHAR, Fureur et mystère, « Feuillets d’Hypnos », fragment 128, 1948.\nDe 1941 à 1944, René Char tient un rôle actif dans la Résistance. Dans\n« Feuillets d’"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-asie-1",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nDans les années 1930, le narrateur, Bardamu, se fait engager dans les usines Ford à\nDetroit, aux États-Unis.\n« Ça ne vous servira à rien ici vos études, mon garço"
+       "sujet": "spe-humanites-litterature-philo-2022-mayotte-liban-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nLa sœur Sainte-Sophie vit dans un couvent depuis deux ans, parce qu’elle « aime\nDieu, la mère abbesse, le silence ». Un jeune homme, Julien, vient admirer un tabl"
       }
      ],
      "intention": null
@@ -1221,17 +1111,17 @@
    "titre": "Sommaire",
    "passages": 13,
    "proba": 0.472,
-   "potentiel": 0.882,
+   "potentiel": 0.893,
    "annees_tombees": 3,
    "sur": 5,
-   "priorite": 0.915,
+   "priorite": 0.935,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 72,
      "texte": "L’enseignement de spécialité d’Humanités, littérature et philosophie vise à procurer aux élèves de première et de terminale une solide formation générale dans le domaine des lettres, de la philosophie et des sciences humaines.",
      "proba": 0.472,
-     "potentiel": 0.844,
+     "potentiel": 0.893,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1265,14 +1155,12 @@
      "intention": null
     },
     {
-     "passage": 82,
-     "texte": "Notamment, les problématiques développées au cours de la période contemporaine peuvent être comparées avec des problématiques plus anciennes.",
+     "passage": 80,
+     "texte": "Après avoir étudié en classe de première (1) la parole, ses pouvoirs, ses fonctions et ses usages ; (2) les diverses manières de se représenter le monde et de comprendre les sociétés humaines, les élèves de terminale sont invités à réfléchir sur deux ordres de questions : 1) la relation des êtres humains à eux-mêmes et la question du moi ; 2) l’interrogation sur l’Humanité et son histoire, sur ses",
      "proba": 0.271,
-     "potentiel": 0.882,
+     "potentiel": 0.887,
      "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "notamment"
-     ],
+     "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
@@ -1293,12 +1181,12 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-humanites-litterature-philo-2021-polynesie-1-remplacement",
-       "enonce": "Le candidat traite les deux parties sur des copies séparées.\nFerdinand ALQUIÉ, Le désir d’éternité, 1943.\nLe passionné s’abuse, ne tient compte que d’une partie de lui-même, oublie la\nplupart de ses désirs. Il sent même "
+       "sujet": "spe-humanites-litterature-philo-2021-metro-cand-libre-2",
+       "enonce": "Je voudrais bien rechercher ici les raisons qui me déterminèrent alors, et, les\nayant retrouvées, les exposer sans détour ; mais qu’il est difficile de bien parler de\nsoi ! J’ai observé que la plupart de ceux qui ont lai"
       },
       {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
-       "enonce": "Philippe Trois : roi d’Espagne de 1598 à 1621, grand-père de Charles Deux."
+       "sujet": "spe-humanites-litterature-philo-2021-zero-2",
+       "enonce": "Le texte retenu pour le sujet zéro n°2 est extrait de Lettre à Antonin Artaud du\n8 juin 1924, Jacques Rivière.\nÉpreuve écrite\nDurée : 4 heures\nObjectifs\nL’épreuve porte sur les objets d’étude définis dans le programme de"
       }
      ],
      "intention": null
@@ -1307,7 +1195,7 @@
      "passage": 84,
      "texte": "Pour chaque semestre, l’intitulé général se décline en trois entrées qui correspondent à une grande subdivision de la thématique considérée. Il en résulte, pour la classe terminale, le tableau suivant :",
      "proba": 0.272,
-     "potentiel": 0.857,
+     "potentiel": 0.856,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "grande"
@@ -1349,17 +1237,17 @@
    "titre": "Création, continuités et ruptures",
    "passages": 8,
    "proba": 0.237,
-   "potentiel": 0.963,
+   "potentiel": 0.986,
    "annees_tombees": 2,
    "sur": 5,
-   "priorite": 0.905,
+   "priorite": 0.907,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 118,
      "texte": "D’autres ont assumé leur lien avec les œuvres du passé qu’elles réinterprètent. C’est aussi le cas en philosophie. Y a-t-il des ruptures radicales en art, en littérature ou dans la pensée ? L’ancien – qui remplit les musées, les bibliothèques, les cinémathèques, et dont on célèbre la valeur patrimoniale – ne subsiste-t-il pas, en accord ou en tension, à côté du nouveau ou à travers lui ?",
      "proba": 0.237,
-     "potentiel": 0.963,
+     "potentiel": 0.986,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "pensee"
@@ -1393,7 +1281,7 @@
      "passage": 117,
      "texte": "Dans l’ensemble des arts, son héritage est considérable : éclatement des formes narratives, métissage des traditions, expérimentations généralisées en poésie, en musique, dans les arts de la scène et dans les arts plastiques, utopies architecturales, travail sur les limites de la représentation… Certaines propositions parmi les plus marquantes ont proclamé la « fin » de l’art et de la littérature.",
      "proba": 0.229,
-     "potentiel": 0.951,
+     "potentiel": 0.94,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "ensemble",
@@ -1429,7 +1317,7 @@
      "passage": 113,
      "texte": "L’expressionnisme, le futurisme, le mouvement Dada et, après la guerre, le surréalisme multiplient les manifestes à la fois esthétiques et politiques, et se placent à l’« avant-garde » des évolutions artistiques. En philosophie, la phénoménologie, l’empirisme logique, les courants marxistes représentent, chacun à leur manière, une même volonté de rupture avec des formes de pensée instituées.",
      "proba": 0.228,
-     "potentiel": 0.877,
+     "potentiel": 0.846,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "garde",
@@ -1465,21 +1353,133 @@
    ]
   },
   {
+   "section": 0,
+   "titre": "Annexe",
+   "passages": 12,
+   "proba": 0.74,
+   "potentiel": 0.846,
+   "annees_tombees": 4,
+   "sur": 5,
+   "priorite": 0.899,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 0,
+     "texte": "L’enseignement de spécialité d’humanités, littérature et philosophie vise à procurer aux élèves de première et de terminale une solide formation générale dans le domaine des lettres, de la philosophie et des sciences humaines.",
+     "proba": 0.364,
+     "potentiel": 0.846,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.71
+      },
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.29
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2025-asie-1",
+       "enonce": "souﬄeté : giflé."
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2025-asie-1",
+       "enonce": "iniquité : injus ce."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 3,
+     "texte": "Si ces considérations sont valables pour tous les élèves, elles prennent un relief particulier pour ceux qui choisiront de poursuivre cet enseignement de spécialité en terminale et qui ont à préparer l’épreuve orale terminale du baccalauréat. Il convient que les travaux proposés aux élèves y contribuent dès la classe de première.",
+     "proba": 0.365,
+     "potentiel": 0.815,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.71
+      },
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.29
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-1",
+       "enonce": "« villégiateurs » : ceux qui séjournent dans un lieu de vacances ou de loisirs."
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2025-asie-1",
+       "enonce": "souﬄeté : giflé."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 6,
+     "texte": "Elle sera particulièrement recommandée aux élèves souhaitant s’engager dans les carrières de l’enseignement et de la recherche en lettres et sciences humaines, de la culture et de la communication. Les contenus d’enseignement se répartissent en quatre semestres, chacun centré sur une grande dimension de la culture humaniste, donc sur l’un des objets des études rassemblées sous le nom d’humanités.",
+     "proba": 0.74,
+     "potentiel": 0.609,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "grande",
+      "objets"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.71
+      },
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.29
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-polynesie-1",
+       "enonce": "Le candidat traite les deux parties sur des copies séparées.\nRené CHAR, Fureur et mystère, « Feuillets d’Hypnos », fragment 128, 1948.\nDe 1941 à 1944, René Char tient un rôle actif dans la Résistance. Dans\n« Feuillets d’"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-asie-1",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nDans les années 1930, le narrateur, Bardamu, se fait engager dans les usines Ford à\nDetroit, aux États-Unis.\n« Ça ne vous servira à rien ici vos études, mon garço"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 17,
    "titre": "Les expressions de la sensibilité",
    "passages": 5,
    "proba": 0.476,
-   "potentiel": 0.884,
+   "potentiel": 0.844,
    "annees_tombees": 3,
    "sur": 5,
-   "priorite": 0.891,
+   "priorite": 0.872,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 101,
      "texte": "Ce souci a croisé les courants « réaliste » ou « naturaliste » et le nouveau regard porté sur des sociétés transformées par la révolution industrielle. Dans le même temps, la philosophie et la psychologie ont exploré les données premières de la conscience, l’expérience subjective du corps, les relations de la sensibilité et de l’intelligence, les pathologies de l’esprit et des sens, et jusqu’à la ",
      "proba": 0.284,
-     "potentiel": 0.884,
+     "potentiel": 0.844,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "esprit",
@@ -1519,7 +1519,7 @@
      "passage": 103,
      "texte": "Comment exprimer la manière intime dont un événement affecte un sujet ? Comment caractériser la vie intérieure d’un personnage de fiction et dépeindre sa sensibilité ? Ces questions sont aussi celles des rapports entre l’expérience privée et le langage commun : lorsque nous communiquons les uns avec les autres, comment faisons-nous pour donner le même sens aux mots que nous employons ?",
      "proba": 0.476,
-     "potentiel": 0.126,
+     "potentiel": 0.726,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "mots"
@@ -1558,7 +1558,7 @@
      "passage": 100,
      "texte": "La restitution, sur divers modes (direct ou indirect, analytique ou symbolique…), des perceptions dans ce qu’elles ont de subjectif, des passions dans leur développement, des pensées telles qu’elles surviennent, constitue l’un des grands objets de la littérature et des arts dans la période de référence.",
      "proba": 0.098,
-     "potentiel": 0.244,
+     "potentiel": 0.634,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "passions",
@@ -1602,17 +1602,17 @@
    "titre": "Décrire, figurer, imaginer",
    "passages": 2,
    "proba": 0.176,
-   "potentiel": 0.928,
+   "potentiel": 0.963,
    "annees_tombees": 1,
    "sur": 5,
-   "priorite": 0.852,
+   "priorite": 0.862,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 44,
      "texte": "À ce titre, on peut être conduit à évoquer par exemple :  le développement du livre imprimé, avec ses modes d’illustration, d’organisation et de diffusion ;  le goût pour les inventaires du monde, à travers les livres d’histoire naturelle, les atlas terrestres ou célestes et la cartographie, l’idéal encyclopédique, les descriptions exotiques et l’intérêt pour l’extraordinaire ;  l’invention de ",
      "proba": 0.176,
-     "potentiel": 0.928,
+     "potentiel": 0.963,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "developpement",
@@ -1641,7 +1641,7 @@
      "passage": 43,
      "texte": "Sous un second aspect, on s’intéresse aux formes que la représentation du monde et des choses du monde a prises au cours de la période considérée, dans les sciences et la philosophie comme dans les lettres et les arts.",
      "proba": 0.037,
-     "potentiel": 0.069,
+     "potentiel": 0.442,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "cours"
@@ -1665,57 +1665,118 @@
    ]
   },
   {
-   "section": 4,
+   "section": 15,
    "titre": "Terminale, semestre 2",
-   "passages": 9,
-   "proba": 0.227,
-   "potentiel": 0.856,
-   "annees_tombees": 2,
+   "passages": 7,
+   "proba": 0.187,
+   "potentiel": 0.87,
+   "annees_tombees": 1,
    "sur": 5,
-   "priorite": 0.846,
-   "niveau": "probable",
+   "priorite": 0.838,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
-     "passage": 17,
-     "texte": "Chaque thème est abordé à partir de textes littéraires et philosophiques français ou traduits en français, choisis comme particulièrement représentatifs de la problématique concernée. À cette fin, la présentation de chacun de ces thèmes s’accompagne d’une bibliographie indicative comprenant des œuvres intégrales et des parties d’œuvres.",
-     "proba": 0.217,
-     "potentiel": 0.856,
+     "passage": 91,
+     "texte": "La période de référence – du romantisme au XXe siècle – a été dans toute l’Europe celle de grandes mutations sociales et politiques, mais aussi intellectuelles et esthétiques, qui ont entraîné de profondes transformations dans la manière de concevoir les rapports entre l’individu et la société, les modèles d’éducation et les formes de la liberté.",
+     "proba": 0.187,
+     "potentiel": 0.87,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "themes"
+      "liberte",
+      "grandes",
+      "maniere",
+      "societe"
      ],
      "toujours_nomme": [
-      "francais"
+      "individu",
+      "rapports"
      ],
      "manieres_de_demander": [
       {
        "facette": 0,
        "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.5
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.5
+       "part": 1.0
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2-remplacement",
-       "enonce": "Edgar Morin : Philosophe et sociologue français né en 1921 qui tient ce propos dans L’homme et la mort (1951)."
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-amerique-nord-1",
-       "enonce": "Moraliste français (1754-1824) Jean Guéhenno évoque, à travers cette expression, les années difficiles d’une enfance et d’une adolescence marquées par la pauvreté."
+       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
       }
      ],
      "intention": null
     },
     {
+     "passage": 92,
+     "texte": "L’étude de « la recherche de soi » se décline en trois chapitres, le premier consacré à l’éducation et aux idéaux d’émancipation, le deuxième aux nouvelles manières de sentir et à leur exploration, le troisième aux aspirations et aux inquiétudes de l’âme moderne et au problème de la connaissance de soi. Des références peuvent être choisies avec profit parmi les œuvres des périodes antérieures, not",
+     "proba": 0.054,
+     "potentiel": 0.79,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "peuvent",
+      "premier",
+      "notamment"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 90,
+     "texte": "Le premier semestre de la classe terminale est consacré à la problématique de la recherche et de la formation de soi – problématique à tous égards centrale dans la culture, dans la littérature et la philosophie modernes.",
+     "proba": 0.054,
+     "potentiel": 0.718,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "semestre",
+      "premier"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "Terminale, semestre 2",
+   "passages": 9,
+   "proba": 0.227,
+   "potentiel": 0.829,
+   "annees_tombees": 2,
+   "sur": 5,
+   "priorite": 0.837,
+   "niveau": "probable",
+   "passages_cles": [
+    {
      "passage": 22,
      "texte": "Nourri par la découverte d’œuvres et de discours principalement issus de la période de référence, cet enseignement a en particulier pour objectif d’apprendre à :  repérer, apprécier et analyser les procédés et les effets de l’art de la parole ;  mettre en œuvre soi-même ces procédés et ces effets dans le cadre d’expressions écrites et orales bien construites ;  mesurer les questions et les conf",
      "proba": 0.227,
-     "potentiel": 0.818,
+     "potentiel": 0.829,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "mettre",
@@ -1749,10 +1810,46 @@
      "intention": null
     },
     {
+     "passage": 17,
+     "texte": "Chaque thème est abordé à partir de textes littéraires et philosophiques français ou traduits en français, choisis comme particulièrement représentatifs de la problématique concernée. À cette fin, la présentation de chacun de ces thèmes s’accompagne d’une bibliographie indicative comprenant des œuvres intégrales et des parties d’œuvres.",
+     "proba": 0.217,
+     "potentiel": 0.72,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "themes"
+     ],
+     "toujours_nomme": [
+      "francais"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2-remplacement",
+       "enonce": "Edgar Morin : Philosophe et sociologue français né en 1921 qui tient ce propos dans L’homme et la mort (1951)."
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-amerique-nord-1",
+       "enonce": "Moraliste français (1754-1824) Jean Guéhenno évoque, à travers cette expression, les années difficiles d’une enfance et d’une adolescence marquées par la pauvreté."
+      }
+     ],
+     "intention": null
+    },
+    {
      "passage": 19,
      "texte": "La première partie de l’enseignement a pour objet le rôle du langage et de la parole dans les sociétés humaines. Elle porte sur :  les arts et les techniques qui visent à la maîtrise de la parole publique dans des contextes variés, notamment judiciaires et politiques, artistiques et intellectuels ;  les formes de pouvoir et d’autorité associées à la parole sous ses formes diverses ;  la variété",
      "proba": 0.068,
-     "potentiel": 0.396,
+     "potentiel": 0.747,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "pouvoir",
@@ -1789,334 +1886,21 @@
    ]
   },
   {
-   "section": 6,
-   "titre": "L’autorité de la parole",
-   "passages": 3,
-   "proba": 0.151,
-   "potentiel": 0.899,
-   "annees_tombees": 1,
-   "sur": 5,
-   "priorite": 0.825,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 29,
-     "texte": "Sont également étudiées les autres formes de la parole autorisée qui se sont développées dans la période de référence : parole politique, religieuse, savante, didactique… L’attention est portée sur la façon dont chacune établit et manifeste la forme d’autorité qu’elle revendique, sur les principes et les valeurs qu’elle invoque pour ce faire, et sur les stratégies qu’elle privilégie.",
-     "proba": 0.147,
-     "potentiel": 0.899,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "forme",
-      "politique",
-      "autorite"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.67
-      },
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.33
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
-       "enonce": "40 Elle mettait à cette revue de la beauté défaillante tant d’attention qu’elle n’entendit pas ouvrir la porte, et qu’elle tressaillit jusqu’au cœur quand sa femme de chambre, debout derrière elle, lui dit : — Madame a o"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-polynesie-2",
-       "enonce": "Hédonique : qui renvoie au principe de plaisir."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 30,
-     "texte": "Au-delà du cadre antique, médiéval et classique, cette étude peut se prolonger dans une réflexion sur les règles auxquelles est soumise la parole publique sous ses diverses formes, sur les codes sociaux qui régissent les différentes sortes de communication, et sur les rapports entre la parole et l’action.",
-     "proba": 0.151,
-     "potentiel": 0.704,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "dela",
-      "cadre"
-     ],
-     "toujours_nomme": [
-      "action"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.67
-      },
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.33
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-asie-1",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nUn désir est d’autant plus sauvage qu’il s’empare à lui seul de l’homme tout\nentier et que l’homme n’a pas encore appris à se différencier, en tant que généralité"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
-       "enonce": "40 Elle mettait à cette revue de la beauté défaillante tant d’attention qu’elle n’entendit pas ouvrir la porte, et qu’elle tressaillit jusqu’au cœur quand sa femme de chambre, debout derrière elle, lui dit : — Madame a o"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 28,
-     "texte": "Les formes d’autorité associées à l’exercice de la parole constituent le deuxième axe de ce thème. En Grèce ancienne, le poète invoquant la Muse apparaît comme premier maître de vérité et garant de la mémoire.",
-     "proba": 0.028,
-     "potentiel": 0.02,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "poete",
-      "verite",
-      "autorite",
-      "premier"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.67
-      },
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.33
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
-       "enonce": "40 Elle mettait à cette revue de la beauté défaillante tant d’attention qu’elle n’entendit pas ouvrir la porte, et qu’elle tressaillit jusqu’au cœur quand sa femme de chambre, debout derrière elle, lui dit : — Madame a o"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-polynesie-2",
-       "enonce": "Hédonique : qui renvoie au principe de plaisir."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 15,
-   "titre": "Terminale, semestre 2",
-   "passages": 7,
-   "proba": 0.187,
-   "potentiel": 0.707,
-   "annees_tombees": 1,
-   "sur": 5,
-   "priorite": 0.809,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 91,
-     "texte": "La période de référence – du romantisme au XXe siècle – a été dans toute l’Europe celle de grandes mutations sociales et politiques, mais aussi intellectuelles et esthétiques, qui ont entraîné de profondes transformations dans la manière de concevoir les rapports entre l’individu et la société, les modèles d’éducation et les formes de la liberté.",
-     "proba": 0.187,
-     "potentiel": 0.707,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "liberte",
-      "grandes",
-      "maniere",
-      "societe"
-     ],
-     "toujours_nomme": [
-      "individu",
-      "rapports"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 88,
-     "texte": "Chaque thème est abordé à partir de textes littéraires et philosophiques français ou traduits en français, choisis comme particulièrement représentatifs de la problématique concernée. À cette fin, la présentation de chacun de ces thèmes s’accompagne d’une bibliographie indicative comprenant des œuvres intégrales et des parties d’œuvres.",
-     "proba": 0.052,
-     "potentiel": 0.44,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "francais",
-      "themes"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 92,
-     "texte": "L’étude de « la recherche de soi » se décline en trois chapitres, le premier consacré à l’éducation et aux idéaux d’émancipation, le deuxième aux nouvelles manières de sentir et à leur exploration, le troisième aux aspirations et aux inquiétudes de l’âme moderne et au problème de la connaissance de soi. Des références peuvent être choisies avec profit parmi les œuvres des périodes antérieures, not",
-     "proba": 0.054,
-     "potentiel": 0.308,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "peuvent",
-      "premier",
-      "notamment"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 27,
-   "titre": "3) L’humain et ses limites",
-   "passages": 3,
-   "proba": 0.216,
-   "potentiel": 0.496,
-   "annees_tombees": 1,
-   "sur": 5,
-   "priorite": 0.802,
-   "niveau": "probable",
-   "passages_cles": [
-    {
-     "passage": 161,
-     "texte": "Levinas, Humanisme de l’autre homme (1972). Jonas, Le Principe Responsabilité (1979). Maldiney, Penser l’homme et la folie (1991). Koltès, Quai Ouest (1985). Bonnefoy, Les Planches courbes (1988). Murdoch, Le Chevalier vert (1993). Serres, Petite Poucette (2012).",
-     "proba": 0.216,
-     "potentiel": 0.496,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "penser"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 160,
-     "texte": "Orwell, 1984 (1949). Vercors, Les Animaux dénaturés (1952). Heidegger, La Question de la technique (1954), dans Essais et conférences. Lévi-Strauss, Tristes tropiques (1955). Arendt, Condition de l’homme moderne (1958). Simondon, Du mode d’existence des objets techniques (1958). Duras, Hiroshima mon amour (1960). Asimov, Les Robots (1967). Barjavel, La Nuit des temps (1968). Dick, Les Androïdes rê",
-     "proba": 0.064,
-     "potentiel": 0.036,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "amour",
-      "technique",
-      "objets"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 159,
-     "texte": "Valéry, « Le cimetière marin » (1920), dans Charmes. Ramuz, La Grande Peur dans la montagne (1926). Huxley, Le Meilleur des mondes (1932). Watsuji, Fûdo, le milieu humain (1935). Saint-Exupéry, Terre des hommes (1939). Ponge, Le Parti pris des choses (1942). Barjavel, Ravage (1943). Cassirer, Essai sur l’homme (1944). Adorno et Horkheimer, Dialectique de la raison (1944). Borges, Fictions (1944). ",
-     "proba": 0.064,
-     "potentiel": 0.033,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "peur",
-      "milieu",
-      "raison",
-      "grande"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 16,
    "titre": "Éducation, transmission, émancipation",
    "passages": 6,
    "proba": 0.209,
-   "potentiel": 0.588,
+   "potentiel": 0.796,
    "annees_tombees": 1,
    "sur": 5,
-   "priorite": 0.798,
+   "priorite": 0.812,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 96,
      "texte": "Le rôle nouveau de l’institution scolaire se marque par la place que prennent dans les récits du XIXe siècle les souvenirs d’écoliers, qu’ils soient romancés ou autobiographiques. Il s’agit toujours de comprendre ce qu’un individu est devenu à partir de ce qu’il a reçu, mais aussi de ce avec quoi il a rompu.",
      "proba": 0.209,
-     "potentiel": 0.588,
+     "potentiel": 0.796,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "devenu"
@@ -2154,7 +1938,7 @@
      "passage": 97,
      "texte": "Les textes de cette période fournissent matière à réflexion, par exemple, sur les différents âges de la vie et ce que veut dire être adulte ; les formes de l’enseignement et celles de l’apprentissage ; les parts respectives de la famille, de l’école et de la société dans l’éducation ; l’aspiration à la liberté dans ses rapports avec les institutions et les traditions.",
      "proba": 0.056,
-     "potentiel": 0.284,
+     "potentiel": 0.774,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "societe"
@@ -2190,7 +1974,7 @@
      "passage": 93,
      "texte": "L’époque des Lumières a marqué une double rupture avec les modèles d’éducation hérités de l’humanisme de la Renaissance. Pour un grand nombre d’auteurs, l’apprentissage des choses doit désormais primer la culture des mots, et l’éducation se centrer sur l’utile (pratique et social). Une nouvelle attention est portée aux manières de penser des enfants et au langage à tenir avec eux.",
      "proba": 0.054,
-     "potentiel": 0.174,
+     "potentiel": 0.675,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "mots",
@@ -2225,283 +2009,122 @@
    ]
   },
   {
-   "section": 8,
-   "titre": "Découverte du monde et pluralité des cultures",
-   "passages": 4,
-   "proba": 0.175,
-   "potentiel": 0.638,
+   "section": 6,
+   "titre": "L’autorité de la parole",
+   "passages": 3,
+   "proba": 0.151,
+   "potentiel": 0.858,
    "annees_tombees": 1,
    "sur": 5,
-   "priorite": 0.786,
+   "priorite": 0.807,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
-     "passage": 40,
-     "texte": "De même que la cruauté des guerres de religion, la violence des conquêtes lointaines a provoqué une crise de conscience et suscité un nouveau regard critique sur les sociétés européennes. Simultanément, le passage de l’image médiévale d’un monde clos et ordonné à celle d’un espace ouvert, voire infini, a impliqué une remise en question de la place de l’homme dans l’univers, et l’émergence de nouve",
-     "proba": 0.175,
-     "potentiel": 0.638,
+     "passage": 29,
+     "texte": "Sont également étudiées les autres formes de la parole autorisée qui se sont développées dans la période de référence : parole politique, religieuse, savante, didactique… L’attention est portée sur la façon dont chacune établit et manifeste la forme d’autorité qu’elle revendique, sur les principes et les valeurs qu’elle invoque pour ce faire, et sur les stratégies qu’elle privilégie.",
+     "proba": 0.147,
+     "potentiel": 0.858,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "guerres",
-      "univers",
-      "place",
-      "conscience"
-     ],
-     "toujours_nomme": [
-      "espace"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
-       "enonce": "Absinthes, sauges et ravenelles sont des plantes méditerranéennes."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 41,
-     "texte": "Les échos de ces mutations ont été démultipliés par la nouvelle production et diffusion d’ouvrages imprimés, et portés par toute une variété de textes et d’œuvres : mémoires sur les conquêtes et les colonisations, récits de voyages, fictions d’îles désertes ou de voyages intersidéraux, introduction de l’exotisme dans l’art, mises en scène de la rencontre avec des représentants de cultures lointain",
-     "proba": 0.036,
-     "potentiel": 0.104,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "memoires",
+      "forme",
       "politique",
-      "scene"
+      "autorite"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.67
+      },
+      {
        "facette": 0,
        "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
+       "part": 0.33
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
-       "enonce": "Absinthes, sauges et ravenelles sont des plantes méditerranéennes."
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
+       "enonce": "40 Elle mettait à cette revue de la beauté défaillante tant d’attention qu’elle n’entendit pas ouvrir la porte, et qu’elle tressaillit jusqu’au cœur quand sa femme de chambre, debout derrière elle, lui dit : — Madame a o"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-polynesie-2",
+       "enonce": "Hédonique : qui renvoie au principe de plaisir."
       }
      ],
      "intention": null
     },
     {
-     "passage": 42,
-     "texte": "C’est dans ce répertoire que les professeurs choisissent les textes à étudier, en ménageant à la fois la relation et la distance entre les interrogations de cette période et celles d’aujourd’hui.",
-     "proba": 0.036,
-     "potentiel": 0.04,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
-       "enonce": "Absinthes, sauges et ravenelles sont des plantes méditerranéennes."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 26,
-   "titre": "2) Histoire et violence",
-   "passages": 5,
-   "proba": 0.211,
-   "potentiel": 0.415,
-   "annees_tombees": 1,
-   "sur": 5,
-   "priorite": 0.784,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 155,
-     "texte": "Faulkner, Le Bruit et la Fureur (1931). Céline, Voyage au bout de la nuit (1932). Malraux, La Condition humaine (1933). Giraudoux, La Guerre de Troie n’aura pas lieu (1935). Mitchell, Autant en emporte le vent (1936). Martin du Gard, Les Thibault (1922-1940) : L’Été 1914 (1936). Malraux, L’Espoir (1937). Romains, Verdun (1938). Éluard, « La Victoire de Guernica » (1938) dans Cours naturel. Nizan, ",
-     "proba": 0.211,
-     "potentiel": 0.415,
+     "passage": 30,
+     "texte": "Au-delà du cadre antique, médiéval et classique, cette étude peut se prolonger dans une réflexion sur les règles auxquelles est soumise la parole publique sous ses diverses formes, sur les codes sociaux qui régissent les différentes sortes de communication, et sur les rapports entre la parole et l’action.",
+     "proba": 0.151,
+     "potentiel": 0.809,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "autant",
-      "lieu",
-      "humaine"
+      "dela",
+      "cadre"
      ],
      "toujours_nomme": [
-      "espoir",
-      "voyage",
-      "cours"
+      "action"
      ],
      "manieres_de_demander": [
       {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.67
+      },
+      {
        "facette": 0,
        "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
+       "part": 0.33
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
-       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
+       "sujet": "spe-humanites-litterature-philo-2022-asie-1",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nUn désir est d’autant plus sauvage qu’il s’empare à lui seul de l’homme tout\nentier et que l’homme n’a pas encore appris à se différencier, en tant que généralité"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
+       "enonce": "40 Elle mettait à cette revue de la beauté défaillante tant d’attention qu’elle n’entendit pas ouvrir la porte, et qu’elle tressaillit jusqu’au cœur quand sa femme de chambre, debout derrière elle, lui dit : — Madame a o"
       }
      ],
      "intention": null
     },
     {
-     "passage": 156,
-     "texte": "Weil, L’Iliade ou le poème de la force (1940). McCullers, Le cœur est un chasseur solitaire (1940). Éluard, Poésie et Vérité (1942). Camus, La Peste (1947). Antelme, L’Espèce humaine (1947). Klemperer, LTI, La langue du Troisième Reich (1947). Sartre, Les Mains sales (1948). D. Lessing, Vaincue par la brousse (1950). Camus, L’Homme révolté (1951). D. Lessing, Les enfants de la violence (1952-1989)",
-     "proba": 0.06,
-     "potentiel": 0.14,
+     "passage": 28,
+     "texte": "Les formes d’autorité associées à l’exercice de la parole constituent le deuxième axe de ce thème. En Grèce ancienne, le poète invoquant la Muse apparaît comme premier maître de vérité et garant de la mémoire.",
+     "proba": 0.028,
+     "potentiel": 0.198,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
-      "poeme",
-      "poesie",
-      "humaine",
-      "verite"
+      "poete",
+      "verite",
+      "autorite",
+      "premier"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.67
+      },
+      {
        "facette": 0,
        "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
+       "part": 0.33
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
-       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 157,
-     "texte": "Arendt, Les Origines du totalitarisme (1961). Aron, Paix et guerre entre les nations (1962). Grossman, Vie et Destin (1962). Chalamov, Récits de la Kolyma (1966). Arendt, « Sur la violence » (1970), in Du mensonge à la violence. Gary, Chien blanc (1970). Tournier, Le Roi des Aulnes (1970). N. Mandelstam, Contre tout espoir (1972). Soljenitsyne, L’Archipel du Goulag (1973). Morante, La Storia (1974",
-     "proba": 0.06,
-     "potentiel": 0.021,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "enfance",
-      "paix"
-     ],
-     "toujours_nomme": [
-      "espoir"
-     ],
-     "manieres_de_demander": [
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
+       "enonce": "40 Elle mettait à cette revue de la beauté défaillante tant d’attention qu’elle n’entendit pas ouvrir la porte, et qu’elle tressaillit jusqu’au cœur quand sa femme de chambre, debout derrière elle, lui dit : — Madame a o"
+      },
       {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
-       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 11,
-   "titre": "Prolongements :",
-   "passages": 10,
-   "proba": 0.182,
-   "potentiel": 0.465,
-   "annees_tombees": 1,
-   "sur": 5,
-   "priorite": 0.78,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 58,
-     "texte": "Érasme, La civilité puérile (1530). Baldassar Castiglione, Le livre du courtisan (1528). Shakespeare, Jules César [discours d’Antoine] (1623). Descartes, Discours de la méthode (1637). Baltasar Gracián, L’Homme de cour (1647). Corneille, Racine, Molière [extraits de tragédies et comédies]. Pascal, Les Provinciales (1656-1657). La Fontaine, Fables (1668- 1694). Bossuet, Sermons (à partir de 1669). ",
-     "proba": 0.182,
-     "potentiel": 0.465,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "livre"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
-       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 67,
-     "texte": "Mandeville, La fable des abeilles (1714). Jonathan Swift, Les Voyages de Gulliver (1735). Buffon, Histoire naturelle (1749-1804). La Mettrie, L’homme-machine (1748). Voltaire, Zadig (1748). Condillac, Traité des animaux (1755). Rousseau, Discours sur l’origine et les fondements de l’inégalité (1755). Voltaire, Dictionnaire philosophique [Bêtes] (1764). Diderot, Le Rêve de D’Alembert (1769). Restif",
-     "proba": 0.05,
-     "potentiel": 0.106,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "reve"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
-       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 64,
-     "texte": "Campanella, La Cité du soleil (1604). Francis Bacon, La Nouvelle Atlantide (1627). Cyrano de Bergerac, États et empires de la Lune, États et empires du soleil (1662). Charles Le Brun, Expressions des passions de l’âme (publ. 1727). La Bruyère, Les Caractères (1688-1696). Marivaux, L’île des esclaves (1725). L.-S. Mercier, L'An 2440, Rêve s'il en fut jamais (1771).",
-     "proba": 0.048,
-     "potentiel": 0.111,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "etats",
-      "reve",
-      "passions",
-      "expressions"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
-       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
+       "sujet": "spe-humanites-litterature-philo-2022-polynesie-2",
+       "enonce": "Hédonique : qui renvoie au principe de plaisir."
       }
      ],
      "intention": null
@@ -2513,17 +2136,17 @@
    "titre": "Les séductions de la parole",
    "passages": 8,
    "proba": 0.155,
-   "potentiel": 0.614,
+   "potentiel": 0.842,
    "annees_tombees": 1,
    "sur": 5,
-   "priorite": 0.778,
+   "priorite": 0.802,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 36,
      "texte": "La seconde partie du programme de première est articulée à la période qui s’étend de la Renaissance aux Lumières (XVe siècle - XVIIIe siècle). Cette période commence avec le développement des idées humanistes et la découverte de « nouveaux mondes » ; elle est aussi marquée par une série de révolutions dans les sciences et les techniques.",
      "proba": 0.155,
-     "potentiel": 0.614,
+     "potentiel": 0.842,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "idees",
@@ -2554,7 +2177,7 @@
      "passage": 37,
      "texte": "Ces bouleversements sont inséparables de mutations dans l’économie, dans les sociétés politiques, dans les formes artistiques et littéraires, dans les esprits et dans les mœurs. C’est à la variation et à la transformation des représentations du monde (de la terre habitée comme du cosmos) que cette partie est consacrée. Elle est abordée par trois entrées, qui peuvent se recouper en pratique : Décou",
      "proba": 0.034,
-     "potentiel": 0.162,
+     "potentiel": 0.718,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "peuvent"
@@ -2580,17 +2203,13 @@
      "intention": null
     },
     {
-     "passage": 38,
-     "texte": "Décrire, figurer, imaginer ; L’homme et l’animal. Sans être propres à la période de référence, ces thématiques y trouvent une expression particulièrement riche.",
-     "proba": 0.034,
-     "potentiel": 0.104,
+     "passage": 34,
+     "texte": "Si l’étude des pouvoirs de la parole doit s’appuyer principalement sur des textes antiques, classiques et médiévaux, elle peut s’enrichir de références comparatives à d’autres sociétés et cultures que celles qui ont constitué et recueilli l’héritage gréco-latin.",
+     "proba": 0.031,
+     "potentiel": 0.496,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "expression"
-     ],
-     "toujours_nomme": [
-      "trouvent"
-     ],
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 2,
@@ -2613,21 +2232,114 @@
    ]
   },
   {
+   "section": 8,
+   "titre": "Découverte du monde et pluralité des cultures",
+   "passages": 4,
+   "proba": 0.175,
+   "potentiel": 0.761,
+   "annees_tombees": 1,
+   "sur": 5,
+   "priorite": 0.774,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 40,
+     "texte": "De même que la cruauté des guerres de religion, la violence des conquêtes lointaines a provoqué une crise de conscience et suscité un nouveau regard critique sur les sociétés européennes. Simultanément, le passage de l’image médiévale d’un monde clos et ordonné à celle d’un espace ouvert, voire infini, a impliqué une remise en question de la place de l’homme dans l’univers, et l’émergence de nouve",
+     "proba": 0.175,
+     "potentiel": 0.761,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "guerres",
+      "univers",
+      "place",
+      "conscience"
+     ],
+     "toujours_nomme": [
+      "espace"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
+       "enonce": "Absinthes, sauges et ravenelles sont des plantes méditerranéennes."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 41,
+     "texte": "Les échos de ces mutations ont été démultipliés par la nouvelle production et diffusion d’ouvrages imprimés, et portés par toute une variété de textes et d’œuvres : mémoires sur les conquêtes et les colonisations, récits de voyages, fictions d’îles désertes ou de voyages intersidéraux, introduction de l’exotisme dans l’art, mises en scène de la rencontre avec des représentants de cultures lointain",
+     "proba": 0.036,
+     "potentiel": 0.626,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "memoires",
+      "politique",
+      "scene"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
+       "enonce": "Absinthes, sauges et ravenelles sont des plantes méditerranéennes."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 42,
+     "texte": "C’est dans ce répertoire que les professeurs choisissent les textes à étudier, en ménageant à la fois la relation et la distance entre les interrogations de cette période et celles d’aujourd’hui.",
+     "proba": 0.036,
+     "potentiel": 0.403,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
+       "enonce": "Absinthes, sauges et ravenelles sont des plantes méditerranéennes."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 10,
    "titre": "L’homme et l’animal",
    "passages": 13,
    "proba": 0.182,
-   "potentiel": 0.4,
+   "potentiel": 0.749,
    "annees_tombees": 1,
    "sur": 5,
-   "priorite": 0.767,
-   "niveau": "à connaître",
+   "priorite": 0.774,
+   "niveau": "probable",
    "passages_cles": [
     {
      "passage": 47,
      "texte": "L’étude des textes de la période de référence permet d’explorer la complexité de ces relations et de réfléchir sur ce que la connaissance des autres espèces apporte à la connaissance de l’homme. Elle permet également d’aborder certaines questions vives d’aujourd’hui : l’exploitation animale, les droits des animaux, les « cultures animales »…",
      "proba": 0.182,
-     "potentiel": 0.4,
+     "potentiel": 0.749,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -2652,7 +2364,7 @@
      "passage": 45,
      "texte": "La relation à l’animal constitue un révélateur de la place que l’homme s’attribue dans la nature et dans le monde, avec de fortes implications philosophiques, éthiques et pratiques. La période de référence se caractérise par une remise en question de la frontière entre l’homme et l’animal, telle qu’elle était généralement admise au Moyen Âge. De Montaigne à Buffon, cette séparation apparaît plus f",
      "proba": 0.037,
-     "potentiel": 0.115,
+     "potentiel": 0.673,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -2677,7 +2389,7 @@
      "passage": 46,
      "texte": "Le statut de l’animal devient un enjeu majeur, comme en témoigne l’importance de la querelle sur « l’animal-machine ». Les questions de l’intelligence animale et de la communication entre animaux sont abondamment débattues. Les ressemblances, les analogies et les dissemblances entre hommes et bêtes sont méticuleusement explorées, par le fabuliste comme par le naturaliste.",
      "proba": 0.037,
-     "potentiel": 0.098,
+     "potentiel": 0.553,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2699,21 +2411,304 @@
    ]
   },
   {
+   "section": 27,
+   "titre": "3) L’humain et ses limites",
+   "passages": 3,
+   "proba": 0.216,
+   "potentiel": 0.681,
+   "annees_tombees": 1,
+   "sur": 5,
+   "priorite": 0.765,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 161,
+     "texte": "Levinas, Humanisme de l’autre homme (1972). Jonas, Le Principe Responsabilité (1979). Maldiney, Penser l’homme et la folie (1991). Koltès, Quai Ouest (1985). Bonnefoy, Les Planches courbes (1988). Murdoch, Le Chevalier vert (1993). Serres, Petite Poucette (2012).",
+     "proba": 0.216,
+     "potentiel": 0.681,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "penser"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 160,
+     "texte": "Orwell, 1984 (1949). Vercors, Les Animaux dénaturés (1952). Heidegger, La Question de la technique (1954), dans Essais et conférences. Lévi-Strauss, Tristes tropiques (1955). Arendt, Condition de l’homme moderne (1958). Simondon, Du mode d’existence des objets techniques (1958). Duras, Hiroshima mon amour (1960). Asimov, Les Robots (1967). Barjavel, La Nuit des temps (1968). Dick, Les Androïdes rê",
+     "proba": 0.064,
+     "potentiel": 0.294,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "amour",
+      "technique",
+      "objets"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 159,
+     "texte": "Valéry, « Le cimetière marin » (1920), dans Charmes. Ramuz, La Grande Peur dans la montagne (1926). Huxley, Le Meilleur des mondes (1932). Watsuji, Fûdo, le milieu humain (1935). Saint-Exupéry, Terre des hommes (1939). Ponge, Le Parti pris des choses (1942). Barjavel, Ravage (1943). Cassirer, Essai sur l’homme (1944). Adorno et Horkheimer, Dialectique de la raison (1944). Borges, Fictions (1944). ",
+     "proba": 0.064,
+     "potentiel": 0.28,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "peur",
+      "milieu",
+      "raison",
+      "grande"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 26,
+   "titre": "2) Histoire et violence",
+   "passages": 5,
+   "proba": 0.211,
+   "potentiel": 0.638,
+   "annees_tombees": 1,
+   "sur": 5,
+   "priorite": 0.747,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 155,
+     "texte": "Faulkner, Le Bruit et la Fureur (1931). Céline, Voyage au bout de la nuit (1932). Malraux, La Condition humaine (1933). Giraudoux, La Guerre de Troie n’aura pas lieu (1935). Mitchell, Autant en emporte le vent (1936). Martin du Gard, Les Thibault (1922-1940) : L’Été 1914 (1936). Malraux, L’Espoir (1937). Romains, Verdun (1938). Éluard, « La Victoire de Guernica » (1938) dans Cours naturel. Nizan, ",
+     "proba": 0.211,
+     "potentiel": 0.638,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "autant",
+      "lieu",
+      "humaine"
+     ],
+     "toujours_nomme": [
+      "espoir",
+      "voyage",
+      "cours"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
+       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 156,
+     "texte": "Weil, L’Iliade ou le poème de la force (1940). McCullers, Le cœur est un chasseur solitaire (1940). Éluard, Poésie et Vérité (1942). Camus, La Peste (1947). Antelme, L’Espèce humaine (1947). Klemperer, LTI, La langue du Troisième Reich (1947). Sartre, Les Mains sales (1948). D. Lessing, Vaincue par la brousse (1950). Camus, L’Homme révolté (1951). D. Lessing, Les enfants de la violence (1952-1989)",
+     "proba": 0.06,
+     "potentiel": 0.494,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "poeme",
+      "poesie",
+      "humaine",
+      "verite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
+       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 157,
+     "texte": "Arendt, Les Origines du totalitarisme (1961). Aron, Paix et guerre entre les nations (1962). Grossman, Vie et Destin (1962). Chalamov, Récits de la Kolyma (1966). Arendt, « Sur la violence » (1970), in Du mensonge à la violence. Gary, Chien blanc (1970). Tournier, Le Roi des Aulnes (1970). N. Mandelstam, Contre tout espoir (1972). Soljenitsyne, L’Archipel du Goulag (1973). Morante, La Storia (1974",
+     "proba": 0.06,
+     "potentiel": 0.333,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "enfance",
+      "paix"
+     ],
+     "toujours_nomme": [
+      "espoir"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
+       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "Prolongements :",
+   "passages": 10,
+   "proba": 0.182,
+   "potentiel": 0.541,
+   "annees_tombees": 1,
+   "sur": 5,
+   "priorite": 0.696,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 58,
+     "texte": "Érasme, La civilité puérile (1530). Baldassar Castiglione, Le livre du courtisan (1528). Shakespeare, Jules César [discours d’Antoine] (1623). Descartes, Discours de la méthode (1637). Baltasar Gracián, L’Homme de cour (1647). Corneille, Racine, Molière [extraits de tragédies et comédies]. Pascal, Les Provinciales (1656-1657). La Fontaine, Fables (1668- 1694). Bossuet, Sermons (à partir de 1669). ",
+     "proba": 0.182,
+     "potentiel": 0.541,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "livre"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
+       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 67,
+     "texte": "Mandeville, La fable des abeilles (1714). Jonathan Swift, Les Voyages de Gulliver (1735). Buffon, Histoire naturelle (1749-1804). La Mettrie, L’homme-machine (1748). Voltaire, Zadig (1748). Condillac, Traité des animaux (1755). Rousseau, Discours sur l’origine et les fondements de l’inégalité (1755). Voltaire, Dictionnaire philosophique [Bêtes] (1764). Diderot, Le Rêve de D’Alembert (1769). Restif",
+     "proba": 0.05,
+     "potentiel": 0.537,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "reve"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
+       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 66,
+     "texte": "3) L’homme et l’animal : Montaigne, Essais, II.12 [Apologie de Raymond Sebond] (1580-1588). A. Paré, Des monstres et prodiges (1573). Descartes, Discours de la méthode [5e partie] (1637). La Fontaine, Fables (1668-1694). La Rochefoucauld, Réflexions diverses [Du rapport des hommes avec les animaux] (publ. 1731). Malebranche, la Recherche de la vérité (1674-1678). Perrault, Contes (1697). Madame d’",
+     "proba": 0.049,
+     "potentiel": 0.44,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "verite"
+     ],
+     "toujours_nomme": [
+      "madame"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
+       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 25,
    "titre": "1) Création, continuités, ruptures",
    "passages": 4,
    "proba": 0.027,
-   "potentiel": 0.144,
+   "potentiel": 0.535,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.357,
+   "priorite": 0.32,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 152,
      "texte": "Ionesco, La Cantatrice chauve (1950). Yourcenar, Mémoires d’Hadrien (1951). Robbe- Grillet, Les Gommes (1953). Alquié, Philosophie du surréalisme (1955). Senghor, Éthiopiques (1956). Sarraute, L’Ère du soupçon (1956). Butor, La Modification (1957). Beckett, Fin de partie (1957). Queneau, Cent mille milliards de poèmes (1961). Ionesco, « Discours sur l’avant-garde », dans Notes et contre-notes (196",
      "proba": 0.026,
-     "potentiel": 0.144,
+     "potentiel": 0.535,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "mille",
@@ -2754,7 +2749,7 @@
      "passage": 151,
      "texte": "Woolf, Mrs Dalloway (1925). Éluard, Capitale de la douleur (1926). Dos Passos, Manhattan Transfer (1926). Michaux, Qui je fus (1927). Heidegger, Être et Temps (1927). Breton, Nadja (1928). Carnap, Le Dépassement de la métaphysique par l’analyse logique du langage (1932). Husserl, La Crise de l’humanité européenne et la philosophie (1935). Artaud, Le Théâtre et son double (1938). Césaire, Cahier du",
      "proba": 0.026,
-     "potentiel": 0.055,
+     "potentiel": 0.358,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "analyse"
@@ -2793,7 +2788,7 @@
      "passage": 150,
      "texte": "Jarry, Ubu roi (1896). Freud, L’Interprétation des rêves (1900). Bergson, L’Évolution créatrice (1907). Marinetti, Manifeste du futurisme (1908). Apollinaire, Alcools (1913) ; L’Esprit nouveau et les poètes, (1917). Cendrars, « La Prose du Transsibérien » (1919) dans Du monde entier. Breton et Soupault, Les Champs magnétiques (1920). Wittgenstein, Tractatus logico-philosophicus (1922). Breton, Man",
      "proba": 0.026,
-     "potentiel": 0.023,
+     "potentiel": 0.302,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "esprit"
@@ -2830,17 +2825,17 @@
    "titre": "2) Les expressions de la sensibilité",
    "passages": 6,
    "proba": 0.022,
-   "potentiel": 0.25,
+   "potentiel": 0.564,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.354,
+   "priorite": 0.302,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 142,
      "texte": "Ravaisson, De l’habitude (1838). Emerson, La Confiance en soi (1841). Ruskin, Les Pierres de Venise (1853). Kierkegaard, Le Journal du séducteur (1843). Nerval, Sylvie (1853) ; Les Chimères (1854). Thoreau, Walden ou la vie dans les bois (1854). Hugo, Les Contemplations (1856). Fromentin, Dominique (1863). Baudelaire, Le Spleen de Paris (1869) ; Le Peintre de la vie moderne (1863-1869). Flaubert, ",
      "proba": 0.02,
-     "potentiel": 0.25,
+     "potentiel": 0.562,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "confiance"
@@ -2879,7 +2874,7 @@
      "passage": 141,
      "texte": "Hegel, Cours d’esthétique [extraits] ([1818-1829]). Schopenhauer, Le Monde comme volonté et comme représentation [extraits] (1819-1859). Austen, Raison et sentiments (1811). Constant, Adolphe (1816). Lamartine, Méditations poétiques (1820). Hugo, Les Chants du crépuscule (1835). Emerson, La Nature (1836). Musset, Confession d’un enfant du siècle (1836). Balzac, Le Lys dans la vallée (1836). Stendh",
      "proba": 0.019,
-     "potentiel": 0.124,
+     "potentiel": 0.564,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "raison",
@@ -2912,95 +2907,10 @@
      "intention": null
     },
     {
-     "passage": 140,
-     "texte": "Rousseau, La Nouvelle Héloïse (1761). Kant, Observations sur le sentiment du beau et du sublime (1764). Goethe, Les Souffrances du jeune Werther (1774). Rousseau, Les Rêveries du promeneur solitaire (1782). Goethe, Les Années d’apprentissage de Wilhelm Meister (1795). Schiller, Lettres sur l’éducation esthétique de l’homme (1795). Chateaubriand, René (1802). Madame de Staël, Corinne ou l’Italie (1",
-     "proba": 0.019,
-     "potentiel": 0.022,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.62
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.25
-      },
-      {
-       "facette": 4,
-       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-centres-etranger-2",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL'État en guerre se permet toutes les injustices, toutes les violences, dont la\nmoindre déshonorerait l'individu. Il a recours, à l'égard de l'ennemi, non seuleme"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
-       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 12,
-   "titre": "Prolongements :",
-   "passages": 4,
-   "proba": 0.014,
-   "potentiel": 0.164,
-   "annees_tombees": 0,
-   "sur": 5,
-   "priorite": 0.29,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 69,
-     "texte": "Lucien, Histoires vraies (2e s.). Les Questions de Milinda (Milindapanha). Vincent de Beauvais, Miroir naturel [extraits] (vers 1250). Saga d’Erik le Rouge (13e s.). Marco Polo, Le Devisement du monde (1298). Laplace, Exposition du système du monde [livre V : Précis de l’histoire de l’astronomie] (1796). Kant, Anthropologie du point de vue pragmatique (1798). Darwin, L’origine des espèces (1859). ",
-     "proba": 0.012,
-     "potentiel": 0.164,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "point",
-      "livre"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.88
-      },
-      {
-       "facette": 1,
-       "nom": "colon essai / x colon essai / essai / essai philosophique x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-mayotte-liban-1",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe que d’abord vous nous montrez, voyages, c’est notre ordure lancée au visage\nde l’humanité.\nJe comprends alors la passion, la folie, la duperie des récits de vo"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-centres-etranger-1",
-       "enonce": "Deuxième partie : essai philosophique La nature me parle-t-elle de moi ?"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 71,
-     "texte": "T. s. Kuhn, La Structure des révolutions scientifiques (1962). Nicolas Bouvier, L’Usage du monde (1963).",
-     "proba": 0.014,
-     "potentiel": 0.03,
+     "passage": 145,
+     "texte": "À la recherche du temps perdu (1927). Woolf, Les Vagues (1931). Focillon, Vie des formes (1934). Sartre, La Nausée (1938). Camus, Noces (1938). Bachelard, Psychanalyse du feu (1938). Benjamin, Baudelaire [1940]. Wittgenstein, Recherches philosophiques (1953) ; Le Cahier bleu (1958). Des extraits des journaux de Maine de Biran (1827), Joubert (1838) Berlioz (1870), Amiel (1882).",
+     "proba": 0.022,
+     "potentiel": 0.237,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3011,43 +2921,14 @@
        "part": 0.5
       },
       {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-polynesie-1",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL’artifice humain du monde sépare l’existence humaine de tout milieu purement\nanimal, mais la vie elle-même est en dehors de ce monde artificiel, et par la vie\nl’"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
-       "enonce": "Chenoua : Le Chenoua est une montagne, située dans la région de Tipasa, au nord de l’Algérie."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 70,
-     "texte": "Colette, Sept dialogues de bêtes (1905). Bergson, L’Évolution créatrice (1907). M. Mauss, Essai sur le don (1923- 1924). Victor Segalen, Les Immémoriaux (1907), Essai sur l’exotisme (1955). Kafka, La Métamorphose (1915). Henri Michaux, Un barbare en Asie (1933). G. Bachelard, La Formation de l’esprit scientifique (1938). George Orwell, La Ferme des animaux (1945). Vercors, Les Animaux dénaturés (1",
-     "proba": 0.012,
-     "potentiel": 0.008,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "esprit"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.62
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
+       "facette": 3,
+       "nom": "x epreuve / epreuve / colon x heures / x programme",
        "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
@@ -3056,8 +2937,8 @@
        "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
       },
       {
-       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
-       "enonce": "« paroxysme » : stade le plus élevé « syncopes » : pertes de connaissance 22-HLPJ1ME3 Page : 3/4 gencives livides et de la teinte jaune de la chair au-dessus des joues et sur les tempes."
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-2",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe récit s’ouvre sur l’annonce de la mobilisation générale en septembre 1939.\nIl est cinq heures d’un après-midi de septembre tiède et gris.\nLe tocsin sonne.\nOn a"
       }
      ],
      "intention": null
@@ -3069,17 +2950,17 @@
    "titre": "L’art de la parole",
    "passages": 4,
    "proba": 0.01,
-   "potentiel": 0.183,
+   "potentiel": 0.673,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.289,
+   "priorite": 0.294,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 26,
      "texte": "L’étude prend en compte la diversité des situations de prise de parole (débats publics en assemblée, procès, cérémonies…) et celle des formes littéraires qui s’y rattachent (poèmes sacrés et profanes, discours écrits, dialogues…), ainsi que la spécificité des contextes historiques, sociaux et institutionnels dans lesquels ces savoirs et techniques se sont développés et transmis.",
      "proba": 0.01,
-     "potentiel": 0.183,
+     "potentiel": 0.673,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "lesquels"
@@ -3108,7 +2989,7 @@
      "passage": 24,
      "texte": "La constitution de la rhétorique, art réglé de la parole et de l’éloquence, forme le premier axe d’étude. Celui-ci permet d’aborder les différents aspects et les divisions classiques de la rhétorique, les genres de discours et les parties du discours, ainsi que les qualités et la culture de l’orateur.",
      "proba": 0.007,
-     "potentiel": 0.047,
+     "potentiel": 0.379,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "forme",
@@ -3148,7 +3029,7 @@
      "passage": 27,
      "texte": "Les différences et les relations entre parole et écriture sont également prises en considération.",
      "proba": 0.01,
-     "potentiel": 0.022,
+     "potentiel": 0.311,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3179,21 +3060,260 @@
    ]
   },
   {
+   "section": 12,
+   "titre": "Prolongements :",
+   "passages": 4,
+   "proba": 0.014,
+   "potentiel": 0.556,
+   "annees_tombees": 0,
+   "sur": 5,
+   "priorite": 0.26,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 69,
+     "texte": "Lucien, Histoires vraies (2e s.). Les Questions de Milinda (Milindapanha). Vincent de Beauvais, Miroir naturel [extraits] (vers 1250). Saga d’Erik le Rouge (13e s.). Marco Polo, Le Devisement du monde (1298). Laplace, Exposition du système du monde [livre V : Précis de l’histoire de l’astronomie] (1796). Kant, Anthropologie du point de vue pragmatique (1798). Darwin, L’origine des espèces (1859). ",
+     "proba": 0.012,
+     "potentiel": 0.556,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "point",
+      "livre"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.88
+      },
+      {
+       "facette": 1,
+       "nom": "colon essai / x colon essai / essai / essai philosophique x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-mayotte-liban-1",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe que d’abord vous nous montrez, voyages, c’est notre ordure lancée au visage\nde l’humanité.\nJe comprends alors la passion, la folie, la duperie des récits de vo"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-centres-etranger-1",
+       "enonce": "Deuxième partie : essai philosophique La nature me parle-t-elle de moi ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 71,
+     "texte": "T. s. Kuhn, La Structure des révolutions scientifiques (1962). Nicolas Bouvier, L’Usage du monde (1963).",
+     "proba": 0.014,
+     "potentiel": 0.239,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-polynesie-1",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nL’artifice humain du monde sépare l’existence humaine de tout milieu purement\nanimal, mais la vie elle-même est en dehors de ce monde artificiel, et par la vie\nl’"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-amerique-nord-1",
+       "enonce": "Chenoua : Le Chenoua est une montagne, située dans la région de Tipasa, au nord de l’Algérie."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 70,
+     "texte": "Colette, Sept dialogues de bêtes (1905). Bergson, L’Évolution créatrice (1907). M. Mauss, Essai sur le don (1923- 1924). Victor Segalen, Les Immémoriaux (1907), Essai sur l’exotisme (1955). Kafka, La Métamorphose (1915). Henri Michaux, Un barbare en Asie (1933). G. Bachelard, La Formation de l’esprit scientifique (1938). George Orwell, La Ferme des animaux (1945). Vercors, Les Animaux dénaturés (1",
+     "proba": 0.012,
+     "potentiel": 0.062,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "esprit"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
+       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-metropole-1-remplacement",
+       "enonce": "« paroxysme » : stade le plus élevé « syncopes » : pertes de connaissance 22-HLPJ1ME3 Page : 3/4 gencives livides et de la teinte jaune de la chair au-dessus des joues et sur les tempes."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 24,
+   "titre": "3) Les métamorphoses du moi",
+   "passages": 4,
+   "proba": 0.024,
+   "potentiel": 0.372,
+   "annees_tombees": 0,
+   "sur": 5,
+   "priorite": 0.246,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 148,
+     "texte": "Stevenson, L’Étrange cas du docteur Jekyll et de Mr Hyde (1886). Nietzsche, Par-delà le bien et le mal (1885). Bergson, Essai sur les données immédiates de la conscience (1889). Ribot, La Psychologie des sentiments (1896). Thérèse de Lisieux, Histoire d’une âme (1898). Gide, L’Immoraliste (1902). Bergson L’Énergie spirituelle (1919). Proust, Le Côté de Guermantes (1920). Zweig, La Peur (1920). Pir",
+     "proba": 0.023,
+     "potentiel": 0.372,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "auteur",
+      "peur",
+      "sentiments",
+      "conscience"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.88
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2-remplacement",
+       "enonce": "« pathos » : état de souffrance"
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
+       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 146,
+     "texte": "Rousseau, Confessions (1782) ; Les Rêveries du promeneur solitaire (1782). Hegel, Phénoménologie de l’esprit (1807). Musset, Lorenzaccio (1834). Stendhal, Souvenirs d’égotisme [1832] ; Vie de Henry Brulard [1836]. Musset, Les Nuits (1837). Stirner, L’Unique et sa propriété (1844). Charlotte Brontë, Jane Eyre, (1847). Chateaubriand, Mémoires d’outre-tombe (1849) [« Récapitulation de ma vie »].",
+     "proba": 0.022,
+     "potentiel": 0.311,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "tombe",
+      "esprit",
+      "memoires"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2021-metro-cand-libre-2",
+       "enonce": "Eugène Manuel : poète et homme politique français (1823-1901), dont l’œuvre est influencée par le romantisme, la poésie parnassienne et le naturalisme."
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2-remplacement",
+       "enonce": "« pathos » : état de souffrance"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 147,
+     "texte": "Schopenhauer, Le Monde comme volonté et comme représentation (1819-1859) [extraits]. Dostoïevski, Les Carnets du sous- sol (1864). Baudelaire, Fusées ([1855-1862] 1897) ; Mon cœur mis à nu ([1863-1867] 1887). Dickinson, Lettres et poèmes (publ. 1955). Rimbaud, Lettres du voyant (1871). Barbey d’Aurevilly, Les Diaboliques (1874). Nietzsche, Le Gai savoir (1882). Maupassant, Le Horla (1887).",
+     "proba": 0.023,
+     "potentiel": 0.206,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "volonte"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "separees / candidat traite x / candidat / x candidat traite",
+       "part": 0.75
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / colon x / x colon / colon",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
+       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
+      },
+      {
+       "sujet": "spe-humanites-litterature-philo-2022-mayotte-liban-1",
+       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe que d’abord vous nous montrez, voyages, c’est notre ordure lancée au visage\nde l’humanité.\nJe comprends alors la passion, la folie, la duperie des récits de vo"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 22,
    "titre": "1) Éducation, transmission, émancipation",
    "passages": 4,
    "proba": 0.019,
-   "potentiel": 0.104,
+   "potentiel": 0.494,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.262,
+   "priorite": 0.244,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 137,
      "texte": "Chateaubriand, Mémoires d’outre-tombe (1849), livres I à V. Tolstoï, Enfance, Adolescence, Jeunesse (1852-1857). Proudhon, De la justice dans la Révolution et dans l’Église (1858), 5e étude (De l’éducation). Nietzsche, Sur l’avenir de nos établissements d’enseignement (1872). Vallès, L’Enfant (1878). Renan, Souvenirs d’enfance et de jeunesse (1883), chap. 3. J. Ferry, Lettre aux instituteurs (1883",
      "proba": 0.017,
-     "potentiel": 0.104,
+     "potentiel": 0.494,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "enfance",
@@ -3237,7 +3357,7 @@
      "passage": 139,
      "texte": "Guilloux, Le Sang noir (1935). Durkheim, L’Évolution pédagogique en France (publ. 1938). Beauvoir, Le Deuxième sexe (1949). Arendt, La Crise de la culture (1961). Freinet, Œuvres pédagogiques [extraits] (1994).",
      "proba": 0.019,
-     "potentiel": 0.028,
+     "potentiel": 0.253,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "noir"
@@ -3271,7 +3391,7 @@
      "passage": 136,
      "texte": "Rousseau, Émile ou De l’éducation (1762). Kant, Qu’est-ce que les Lumières ? (1784). Condorcet, Mémoires sur l’instruction publique (1791) ; Esquisse d’un tableau historique des progrès de l’esprit humain (1795). Kant, Réflexions sur l’éducation (1803). Hegel, Textes pédagogiques ([1809-1823]). Stendhal, Le Rouge et le Noir (1830). Balzac, Louis Lambert (1832). Tocqueville, De la démocratie en Amé",
      "proba": 0.017,
-     "potentiel": 0.009,
+     "potentiel": 0.105,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "noir",
@@ -3307,146 +3427,21 @@
    ]
   },
   {
-   "section": 24,
-   "titre": "3) Les métamorphoses du moi",
-   "passages": 4,
-   "proba": 0.024,
-   "potentiel": 0.044,
-   "annees_tombees": 0,
-   "sur": 5,
-   "priorite": 0.241,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 146,
-     "texte": "Rousseau, Confessions (1782) ; Les Rêveries du promeneur solitaire (1782). Hegel, Phénoménologie de l’esprit (1807). Musset, Lorenzaccio (1834). Stendhal, Souvenirs d’égotisme [1832] ; Vie de Henry Brulard [1836]. Musset, Les Nuits (1837). Stirner, L’Unique et sa propriété (1844). Charlotte Brontë, Jane Eyre, (1847). Chateaubriand, Mémoires d’outre-tombe (1849) [« Récapitulation de ma vie »].",
-     "proba": 0.022,
-     "potentiel": 0.044,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "tombe",
-      "esprit",
-      "memoires"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.62
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.25
-      },
-      {
-       "facette": 4,
-       "nom": "interpretation / interpretation litteraire / x qm / litteraire",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-metro-cand-libre-2",
-       "enonce": "Eugène Manuel : poète et homme politique français (1823-1901), dont l’œuvre est influencée par le romantisme, la poésie parnassienne et le naturalisme."
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2-remplacement",
-       "enonce": "« pathos » : état de souffrance"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 148,
-     "texte": "Stevenson, L’Étrange cas du docteur Jekyll et de Mr Hyde (1886). Nietzsche, Par-delà le bien et le mal (1885). Bergson, Essai sur les données immédiates de la conscience (1889). Ribot, La Psychologie des sentiments (1896). Thérèse de Lisieux, Histoire d’une âme (1898). Gide, L’Immoraliste (1902). Bergson L’Énergie spirituelle (1919). Proust, Le Côté de Guermantes (1920). Zweig, La Peur (1920). Pir",
-     "proba": 0.023,
-     "potentiel": 0.042,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "auteur",
-      "peur",
-      "sentiments",
-      "conscience"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.88
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2-remplacement",
-       "enonce": "« pathos » : état de souffrance"
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2021-asie-2",
-       "enonce": "Jean Ferrat (1930-2010) compose cette chanson, Nuit et brouillard, en 1963. « Nuit et\nbrouillard » est le nom d’un décret des autorités nazies, signé le 7 décembre 1941 et\ncondamnant les opposants à la déportation en All"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 147,
-     "texte": "Schopenhauer, Le Monde comme volonté et comme représentation (1819-1859) [extraits]. Dostoïevski, Les Carnets du sous- sol (1864). Baudelaire, Fusées ([1855-1862] 1897) ; Mon cœur mis à nu ([1863-1867] 1887). Dickinson, Lettres et poèmes (publ. 1955). Rimbaud, Lettres du voyant (1871). Barbey d’Aurevilly, Les Diaboliques (1874). Nietzsche, Le Gai savoir (1882). Maupassant, Le Horla (1887).",
-     "proba": 0.023,
-     "potentiel": 0.014,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "volonte"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "separees / candidat traite x / candidat / x candidat traite",
-       "part": 0.75
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / colon x / x colon / colon",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-humanites-litterature-philo-2024-metropole-2",
-       "enonce": "Charles Deux est le mari de la reine, roi d’Espagne de 1665 à 1700."
-      },
-      {
-       "sujet": "spe-humanites-litterature-philo-2022-mayotte-liban-1",
-       "enonce": "Le candidat traite les 2 parties sur des copies séparées.\nCe que d’abord vous nous montrez, voyages, c’est notre ordure lancée au visage\nde l’humanité.\nJe comprends alors la passion, la folie, la duperie des récits de vo"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 3,
+   "section": 14,
    "titre": "Terminale, semestre 1",
    "passages": 1,
-   "proba": 0.007,
-   "potentiel": 0.026,
+   "proba": 0.014,
+   "potentiel": 0.187,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.12,
+   "priorite": 0.096,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 14,
+     "passage": 85,
      "texte": "La recherche de soi Période de référence : Du romantisme au XXe siècle Éducation, transmission et émancipation Les expressions de la sensibilité Les métamorphoses du moi",
-     "proba": 0.007,
-     "potentiel": 0.026,
+     "proba": 0.014,
+     "potentiel": 0.187,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "metamorphoses",
@@ -3481,21 +3476,21 @@
    ]
   },
   {
-   "section": 14,
+   "section": 3,
    "titre": "Terminale, semestre 1",
    "passages": 1,
-   "proba": 0.014,
-   "potentiel": 0.011,
+   "proba": 0.007,
+   "potentiel": 0.237,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.094,
+   "priorite": 0.09,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 85,
+     "passage": 14,
      "texte": "La recherche de soi Période de référence : Du romantisme au XXe siècle Éducation, transmission et émancipation Les expressions de la sensibilité Les métamorphoses du moi",
-     "proba": 0.014,
-     "potentiel": 0.011,
+     "proba": 0.007,
+     "potentiel": 0.237,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "metamorphoses",
@@ -3534,17 +3529,17 @@
    "titre": "Première, semestre 2",
    "passages": 1,
    "proba": 0.003,
-   "potentiel": 0.014,
+   "potentiel": 0.117,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.067,
+   "priorite": 0.047,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 13,
      "texte": "Les représentations du monde Période de référence : Renaissance, Âge classique, Lumières Découverte du monde et pluralité des cultures Décrire, figurer, imaginer L’homme et l’animal",
      "proba": 0.003,
-     "potentiel": 0.014,
+     "potentiel": 0.117,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3579,17 +3574,17 @@
    "titre": "Première, semestre 1",
    "passages": 1,
    "proba": 0.003,
-   "potentiel": 0.005,
+   "potentiel": 0.027,
    "annees_tombees": 0,
    "sur": 5,
-   "priorite": 0.019,
+   "priorite": 0.006,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 12,
      "texte": "Les pouvoirs de la parole Période de référence : De l’Antiquité à l’Âge classique L’art de la parole L’autorité de la parole Les séductions de la parole",
      "proba": 0.003,
-     "potentiel": 0.005,
+     "potentiel": 0.027,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "autorite"
@@ -3648,23 +3643,20 @@
    ]
   },
   "nouveaute": {
-   "familles": [
-    "lexique_du_professeur"
-   ],
-   "modele": "arbres",
-   "mele_a_l_ancienne": false,
-   "essayes": {
-    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.46
+   "autocritique": {
+    "lexique_du_professeur/logistique": 0.333,
+    "lexique_du_professeur/arbres": 0.667
    },
+   "diversification": 0.0,
    "score_rejoue": [
-    0.56,
-    0.168,
-    0.034,
-    1.078
+    0.566,
+    0.261,
+    0.238,
+    0.065
    ],
    "fourchette": [
     0.0,
-    1.0
+    0.7748848165448956
    ]
   }
  },
@@ -3710,6 +3702,128 @@
    "fourchette_juste": 0.852,
    "largeur_moyenne": 0.79,
    "taches": 643
+  }
+ },
+ "preuve_autocritique": {
+  "matiere_exclue": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.6,
+     "auc": 0.9008,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6,
+     "auc": 0.9008,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.6,
+     "auc": 0.9008,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.0,
+     "auc": 0.3306,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.0,
+     "auc": 0.7025,
+     "gain": 0.0372,
+     "pseudo_gain": 0.0024
+    },
+    "critique": {
+     "couverture": 0.0,
+     "auc": 0.2893,
+     "gain": -0.0041,
+     "pseudo_gain": -0.0216
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.25,
+      "lexique_du_professeur/arbres": 0.25,
+      "recence+memoire_ponderee+voisinage+proximite_au_deja_demande+lexique_du_professeur+rotation_des_chapitres+themes_du_cours+croisements/logistique": 0.5
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+q25",
+    "tours_acceptes": 1
+   }
+  },
+  "synthese": {
+   "prevision": {
+    "ancienne": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    },
+    "regle": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    },
+    "critique": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.413,
+     "auc_moyenne": 0.634,
+     "critere": 0.0
+    },
+    "regle": {
+     "gain_moyen": 0.1252,
+     "pire_matiere": -0.1841,
+     "matieres_gagnees": 16,
+     "matieres_perdues": 4,
+     "couverture_moyenne": 0.53,
+     "auc_moyenne": 0.709,
+     "critere": 0.1252
+    },
+    "critique": {
+     "gain_moyen": 0.161,
+     "pire_matiere": -0.1251,
+     "matieres_gagnees": 16,
+     "matieres_perdues": 3,
+     "couverture_moyenne": 0.567,
+     "auc_moyenne": 0.698,
+     "critere": 0.161
+    }
+   }
   }
  }
 }

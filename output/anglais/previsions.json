@@ -671,17 +671,17 @@
    "titre": "La grammaire",
    "passages": 34,
    "proba": 0.976,
-   "potentiel": 0.967,
+   "potentiel": 0.98,
    "annees_tombees": 5,
    "sur": 6,
-   "priorite": 0.991,
+   "priorite": 0.995,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 83,
      "texte": "Le programme culturel de la classe terminale s’organise autour de trois thématiques (« Arts et débats d’idées », « Expression et création de soi » et « Voyages, territoires, frontières »), déclinées en axes d’étude. Les thématiques retenues permettent aux élèves d’explorer la diversité des littératures et des cultures du monde anglophone en croisant les regards et les œuvres.",
      "proba": 0.976,
-     "potentiel": 0.928,
+     "potentiel": 0.98,
      "deja_tombe": 4,
      "evalue_sans_etre_dit": [
       "cultures",
@@ -721,7 +721,7 @@
      "passage": 84,
      "texte": "Il appartient aux professeurs de choisir un itinéraire cohérent et structurant en relation étroite avec l’enseignement commun de langue vivante étrangère. L’étude des trois thématiques est obligatoire. Les axes d’étude sont proposés pour guider l’étude des thématiques. Les œuvres et supports ne sont mentionnés dans les descriptifs des thématiques ci-dessous ou dans les références qu’à titre d’exem",
      "proba": 0.954,
-     "potentiel": 0.945,
+     "potentiel": 0.969,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -758,7 +758,7 @@
      "passage": 66,
      "texte": "De fait, l’approfondissement des savoirs et savoir-faire peut, dans le cadre de ce nouvel enseignement, être articulé aux pratiques de recherche et d’analyse qui ont cours à l’université ; cette démarche peut offrir l’occasion de pratiquer des exercices tels que la composition écrite sur la base des documents étudiés, la synthèse de documents, le commentaire ou la contraction de texte, qu’il s’agi",
      "proba": 0.935,
-     "potentiel": 0.689,
+     "potentiel": 0.936,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -798,17 +798,17 @@
    "titre": "Exploration et aventure",
    "passages": 8,
    "proba": 0.998,
-   "potentiel": 0.832,
+   "potentiel": 0.948,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.964,
+   "priorite": 0.986,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 252,
      "texte": "Moby Dick, 1956 TOIBIN, C., Brooklyn, 2009 IGGY POP, “I am a Passenger”, 1977 TWAIN, M., Adventures of Huckleberry Finn, 1884 Indian Removal Act, H.R. 2623, Senate, 3rd May 1872 WHITEHEAD, C., Underground Railroad, 2016 JACKSON, A., “Speech on Indian Removal”, 1830 KENNEDY, J.F., “The New Frontier”, 15th July 1960 MACMILLAN, H., “The wind of change”, 3rd February 1960 MACK, G., “I’ve been Everywhe",
      "proba": 0.998,
-     "potentiel": 0.659,
+     "potentiel": 0.94,
      "deja_tombe": 5,
      "evalue_sans_etre_dit": [
       "everywhere",
@@ -848,7 +848,7 @@
      "passage": 246,
      "texte": "AUSTER, P., Moon Palace, 1990; True Tales of American Life, 2000 BRYSON, B., Neither Here nor There, 1991; A Walk in the Woods, 1998; Notes from a Big Country, 1999 CARROLL, L., Alice’s Adventures in Wonderland, 1865 CHEVALIER, T., At the Edge of the Orchard, 2016 COOPER, J. F., The Last of the Mohicans, 1826;",
      "proba": 0.922,
-     "potentiel": 0.722,
+     "potentiel": 0.918,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "last",
@@ -887,14 +887,16 @@
      "intention": null
     },
     {
-     "passage": 251,
-     "texte": "GOODMAN, S., “City of New Orleans”, 1971 Beyond the Hundredth Meridian : John Wesley Powell GRATEFUL DEAD, “Truckin’”, 1970 and the Second Opening of the West, 1954 GRAY, J., The Lost City of Z, 2016 STEVENSON, R.L., Treasure Island, 1883 HAWKS, H., Hatari !,1962 TAYLOR, C., Londoners, 2011 HUSTON, J., The Misfits, 1961 ;",
-     "proba": 0.749,
-     "potentiel": 0.832,
-     "deja_tombe": 1,
+     "passage": 249,
+     "texte": "First on the Moon, 1970 AUDIARD, J., The Sisters Brothers, 2018 BIERSTADT, A., The Rocky Mountains, Landers’ Peak, 1863 BINGHAM, G.C., Fur Traders descending the Missouri, 1845 BRANDON, P., The Decline and Fall of the British Empire 1781-1997, 2007 BROWN, K., Penicillin Man : Alexander Fleming and the Antibiotic Revolution, 2004 BURTON, T., Charlie and the Chocolate Factory, 2005 CANNED HEAT, “On ",
+     "proba": 0.963,
+     "potentiel": 0.864,
+     "deja_tombe": 3,
      "evalue_sans_etre_dit": [
-      "island",
-      "dead"
+      "everywhere",
+      "british",
+      "land",
+      "again"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
@@ -917,120 +919,11 @@
      "questions_passees_proches": [
       {
        "sujet": "spe-llcer-anglais-2022-metropole-traduction",
-       "enonce": "Des Moines is the capital city of the state of Iowa (USA)."
+       "enonce": "This document is an excerpt from Me, the autobiography of Elton John, British singer,\nsongwriter, pianist and composer born in 1947. He is one of the best-selling music artists of all\ntime.\nCe document est un extrait de "
       },
       {
-       "sujet": "spe-llcer-anglais-2021-metro-cand-libre-2",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en ang"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 14,
-   "titre": "Axe d’étude 3 : L’art du débat",
-   "passages": 13,
-   "proba": 0.981,
-   "potentiel": 0.468,
-   "annees_tombees": 5,
-   "sur": 6,
-   "priorite": 0.948,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 122,
-     "texte": "Construction et expression de soi ont partie liée : l’expression révèle autant qu’elle engendre une identité.",
-     "proba": 0.981,
-     "potentiel": 0.468,
-     "deja_tombe": 5,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.92
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-metropole-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2022-centres-etrangers",
-       "enonce": "Ce dossier porte sur la thématique : « Expression et construction de soi »\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en angl"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 121,
-     "texte": "On peut s’appuyer sur des œuvres qui donnent des clés pour surmonter les préjugés, les handicaps et les craintes liés au langage : les cours de diction dans Singin’ in the Rain ou My Fair Lady, ou encore la thérapie qui permet au roi George VI de dompter son bégaiement dans The King’s Speech.",
-     "proba": 0.837,
-     "potentiel": 0.241,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.92
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2023-la-reunion",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (500 mots\ne"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2024-polynesie-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante ("
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 127,
-     "texte": "Trois axes d’étude sont proposés pour cette thématique : l’expression des émotions ; la mise en scène de soi ; l’initiation, l’apprentissage.",
-     "proba": 0.46,
-     "potentiel": 0.14,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.92
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-metropole-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2022-centres-etrangers",
-       "enonce": "Ce dossier porte sur la thématique : « Expression et construction de soi »\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en angl"
+       "sujet": "spe-llcer-anglais-2024-centres-etrangers",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante (500 mots\ne"
       }
      ],
      "intention": null
@@ -1042,17 +935,17 @@
    "titre": "Migration et exil",
    "passages": 6,
    "proba": 0.933,
-   "potentiel": 0.311,
+   "potentiel": 0.889,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.92,
+   "priorite": 0.949,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 263,
      "texte": "Australia, 2008 Hodge” in Poems of the Past and Present, 1901, and MADONNA, “American Life”, 2003 other poems Mc QUEEN, S., 12 Years a Slave, 2013 KENNEDY, J.F., A Nation of immigrants, 1958 MERTON, A., “No Roots”, 2016 KUREISHI, H., The Buddha of Suburbia, 1990 MOORE, C., “The City of Chicago”, 1984 LAHIRI, J., “Interpreter of Maladies”, “The Third and NAIR, M., The Namesake, 2006 Final Continent",
      "proba": 0.933,
-     "potentiel": 0.311,
+     "potentiel": 0.889,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1084,7 +977,7 @@
      "passage": 262,
      "texte": "HANSBERRY, L., A Raisin in the Sun, 1959 LUBITSCH, E., To Be or Not to Be, 1942 HARDY, T., Jude the Obscure, 1895 ; “Drummer LUHRMAN, B.",
      "proba": 0.291,
-     "potentiel": 0.223,
+     "potentiel": 0.748,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1116,7 +1009,7 @@
      "passage": 260,
      "texte": "My Ántonia, 1918 CISNEROS, S., The House on Mango Street, 1984 CRANE, S., Maggie a girl of the Streets, 1893 DAVIDSON, J., Evacuated, 2005 DIAZ, J., The Brief Wondrous Life of Oscar Wao, 2007 DREISER, T., Sister Carrie, 1900 EUGENIDES, J., Middlesex, 2003 GASKELL, E., North and South, 1855 GHOSH, A., The Shadow Lines, 1988 GUPTA, S., The Glassblower’s Breath, 1993 HALEY, A., Roots, 1976 BERNSTEIN,",
      "proba": 0.289,
-     "potentiel": 0.054,
+     "potentiel": 0.716,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "america",
@@ -1158,17 +1051,17 @@
    "titre": "Axe d’étude 1 : Exploration et aventure",
    "passages": 15,
    "proba": 0.841,
-   "potentiel": 0.725,
+   "potentiel": 0.893,
    "annees_tombees": 5,
    "sur": 6,
-   "priorite": 0.918,
+   "priorite": 0.925,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 185,
      "texte": "Il s’agit alors de franchir des frontières au propre ou au figuré, ce qui est à relier à l’idée de dépassement de ses propres limites : la littérature de jeunesse, notamment, abonde d’exemples en la matière (Cider with Rosie de Laurie Lee, Adventures of Huckleberry Finn de Mark Twain). Soulignons enfin que l’exploration et l’aventure ne sont pas nécessairement liées à de grands espaces terrestres ",
      "proba": 0.841,
-     "potentiel": 0.35,
+     "potentiel": 0.836,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1197,10 +1090,44 @@
      "intention": null
     },
     {
+     "passage": 183,
+     "texte": "De même, certains discours politiques savent exploiter le souvenir d’un passé national structuré par l’esprit d’aventure et d’exploration (discours sur la New Frontier de J.F. Kennedy). L’exploration peut donc être le fait d’une nation, d’un groupe constitué mais aussi d’un simple individu : pour peu qu’elle soit analysée comme une forme de quête, elle peut aller de pair avec la quête de soi.",
+     "proba": 0.736,
+     "potentiel": 0.893,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "exploration"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.71
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.29
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Voyages, Territoires, Frontières ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (m"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2022-polynesie",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (5"
+      }
+     ],
+     "intention": null
+    },
+    {
      "passage": 179,
      "texte": "Cette frontière, ligne d’horizon de l’exploration, contribue à donner peu à peu naissance à une nouvelle identité politique, intellectuelle, religieuse, aux dépens des peuples autochtones déjà présents sur ces territoires.",
      "proba": 0.837,
-     "potentiel": 0.319,
+     "potentiel": 0.803,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "exploration"
@@ -1229,272 +1156,112 @@
       }
      ],
      "intention": null
-    },
+    }
+   ]
+  },
+  {
+   "section": 14,
+   "titre": "Axe d’étude 3 : L’art du débat",
+   "passages": 13,
+   "proba": 0.981,
+   "potentiel": 0.828,
+   "annees_tombees": 5,
+   "sur": 6,
+   "priorite": 0.922,
+   "niveau": "incontournable",
+   "passages_cles": [
     {
-     "passage": 173,
-     "texte": "Si la langue anglaise s’est répandue aussi largement depuis plusieurs siècles, c’est avant tout le fruit de l’action de nombreux explorateurs qui ont permis à la Couronne britannique de transformer une bonne partie du monde en empire colonial.",
-     "proba": 0.7,
-     "potentiel": 0.725,
-     "deja_tombe": 1,
+     "passage": 122,
+     "texte": "Construction et expression de soi ont partie liée : l’expression révèle autant qu’elle engendre une identité.",
+     "proba": 0.981,
+     "potentiel": 0.792,
+     "deja_tombe": 5,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 0,
        "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.71
+       "part": 0.92
       },
       {
        "facette": 1,
        "nom": "colon / sujet / x sujet / write",
-       "part": 0.29
+       "part": 0.08
       }
      ],
      "questions_passees_proches": [
       {
        "sujet": "spe-llcer-anglais-2021-metropole-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en ang"
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
       },
       {
-       "sujet": "spe-llcer-anglais-2024-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (5"
+       "sujet": "spe-llcer-anglais-2022-centres-etrangers",
+       "enonce": "Ce dossier porte sur la thématique : « Expression et construction de soi »\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en angl"
       }
      ],
      "intention": null
-    }
-   ]
-  },
-  {
-   "section": 17,
-   "titre": "Axe d’étude 3 : Initiation, apprentissage",
-   "passages": 15,
-   "proba": 0.934,
-   "potentiel": 0.908,
-   "annees_tombees": 4,
-   "sur": 6,
-   "priorite": 0.912,
-   "niveau": "incontournable",
-   "passages_cles": [
+    },
     {
-     "passage": 162,
-     "texte": "Néanmoins, le thème de l’initiation ne se résume pas au roman de formation. Le passage de l’enfance à l’état d’adulte représente une étape cruciale d’un point de vue ethnographique, en particulier chez les peuples premiers (rite initiatique du walkabout chez les aborigènes d’Australie) et constitue également un thème riche dans les arts.",
-     "proba": 0.618,
-     "potentiel": 0.908,
-     "deja_tombe": 1,
+     "passage": 121,
+     "texte": "On peut s’appuyer sur des œuvres qui donnent des clés pour surmonter les préjugés, les handicaps et les craintes liés au langage : les cours de diction dans Singin’ in the Rain ou My Fair Lady, ou encore la thérapie qui permet au roi George VI de dompter son bégaiement dans The King’s Speech.",
+     "proba": 0.837,
+     "potentiel": 0.727,
+     "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 0,
        "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.5
+       "part": 0.92
       },
       {
        "facette": 1,
        "nom": "colon / sujet / x sujet / write",
-       "part": 0.33
-      },
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.17
+       "part": 0.08
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-llcer-anglais-2021-asie",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante ("
+       "sujet": "spe-llcer-anglais-2023-la-reunion",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (500 mots\ne"
       },
       {
-       "sujet": "spe-llcer-anglais-2021-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\n1ère partie : Prenez connaissance de la thématique ci-dessus et\ndes documents A, B et C et traitez la consigne suivante en\nanglais et en 500 mots env"
+       "sujet": "spe-llcer-anglais-2024-polynesie-remplacement",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante ("
       }
      ],
      "intention": null
     },
     {
-     "passage": 158,
-     "texte": "Dans le domaine de l’art, le roman d’apprentissage, abondamment représenté dans la littérature anglophone, vient immédiatement à l’esprit (Bildungsroman, novel of education ou novel of apprenticeship). The History of Tom Jones, a Foundling de Henry Fielding est d’ailleurs considéré comme un prototype du genre.",
-     "proba": 0.601,
-     "potentiel": 0.7,
-     "deja_tombe": 1,
+     "passage": 127,
+     "texte": "Trois axes d’étude sont proposés pour cette thématique : l’expression des émotions ; la mise en scène de soi ; l’initiation, l’apprentissage.",
+     "proba": 0.46,
+     "potentiel": 0.828,
+     "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 0,
        "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.5
+       "part": 0.92
       },
       {
        "facette": 1,
        "nom": "colon / sujet / x sujet / write",
-       "part": 0.33
-      },
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.17
+       "part": 0.08
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-llcer-anglais-2021-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\n1ère partie : Prenez connaissance de la thématique ci-dessus et\ndes documents A, B et C et traitez la consigne suivante en\nanglais et en 500 mots env"
+       "sujet": "spe-llcer-anglais-2021-metropole-remplacement",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
       },
       {
-       "sujet": "spe-llcer-anglais-2021-asie",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante ("
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 164,
-     "texte": "À l’âge adulte, ce qui forme l’individu, ce sont les expériences auxquelles il est confronté, un voyage par exemple (dans la tradition du Grand Tour du XVIIIe ou XIXe siècle ou dans les road novels et road movies américains de On the Road de Jack Kerouac à Thelma and Louise de Ridley Scott) ou une rencontre avec un mentor (dans le milieu sportif pour Million Dollar Baby de Clint Eastwood ou polici",
-     "proba": 0.934,
-     "potentiel": 0.117,
-     "deja_tombe": 3,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.5
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.33
-      },
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.17
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2022-metropole-traduction",
-       "enonce": "US road trips: into the heart of America with Andrew McCARTHY.\nVoyages en voiture aux États-Unis : au cœur de l'Amérique avec Andrew McCARTHY.\nThere's nothing wrong that a hundred bucks and a full tank of gas can't fix. "
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-amerique-nord-bis",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (ab"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 26,
-   "titre": "Initiation, apprentissage",
-   "passages": 11,
-   "proba": 0.813,
-   "potentiel": 0.937,
-   "annees_tombees": 3,
-   "sur": 6,
-   "priorite": 0.911,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 243,
-     "texte": "K., The Harry Potter series, 1997-2007 RUSHDIE, S., Midnight’s Children, 1981 SALINGER, J. D., The Catcher in the Rye, 1951",
-     "proba": 0.587,
-     "potentiel": 0.937,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "children"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.5
-      },
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2022-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le\nsujet suivant en anglais :\nWrite a commentary on the three documents (about 500 w"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2022-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le\nsujet suivant en anglais :\nWrite a commentary on the three documents (a"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 238,
-     "texte": "DAHL, R., Boy: Tales of Childhood, 1984 ; Matilda, 1988 LOSEY, J., The Go-Between, 1971 DAVIDSON, J., Evacuated, 2005 MORIARTY, “My Name is Lily” (song), 2007 DEFOE, D., Robinson Crusoe, 1719 ; Moll Flanders, 1722 O’NEILL, G.B., The Naughty Boy, 1867 DICKENS, C., Oliver Twist, 1837-1839 ; David Copperfield, 1849;",
-     "proba": 0.563,
-     "potentiel": 0.885,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.5
-      },
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2024-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (a"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2022-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le\nsujet suivant en anglais :\nWrite a commentary on the three documents (a"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 235,
-     "texte": "ALCOTT, L. M., Little Women, 1868-1869 ANGELOU, M., I Know Why the Caged Bird Sings, 1969 ATWOOD, M., The Handmaid’s Tale, 1985 AUSTER, P., Moon Palace, 1989; True Tales of American life, 2001 BAKER, R., Growing up, 1982 BALDWIN, J., Go Tell It on the Mountain, 1963 BARRETT BROWNING, E., The Cry of the Children, 1841 BLAKE, W.",
-     "proba": 0.561,
-     "potentiel": 0.84,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "children"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.5
-      },
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2022-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le\nsujet suivant en anglais :\nWrite a commentary on the three documents (a"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2024-metropole",
-       "enonce": "Traduisez en français le passage suivant du document A (lignes 18 à 22) :\nEven though she was a teacher and had a professional role to fill, it made me realise that it\nshouldn’t stop you from being human, from being cari"
+       "sujet": "spe-llcer-anglais-2022-centres-etrangers",
+       "enonce": "Ce dossier porte sur la thématique : « Expression et construction de soi »\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en angl"
       }
      ],
      "intention": null
@@ -1506,17 +1273,17 @@
    "titre": "Mise en scène de soi",
    "passages": 8,
    "proba": 0.815,
-   "potentiel": 0.828,
+   "potentiel": 0.926,
    "annees_tombees": 4,
    "sur": 6,
-   "priorite": 0.908,
+   "priorite": 0.92,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 231,
      "texte": "Who are you ?”, 1891 SPIELBERG, S., The Color Purple, 1985 DOUGLASS, F., A Narrative of the Life of Frederick Douglass, An SMITH, C., self-portraits (from 2016) American Slave, Written by Himself, 1845 WILDE, O., pictures FIELDING, H., Bridget Jones’s Diary, 1996 FRANKLIN, B., The Autobiography of Benjamin Franklin, 1771 GAINES, E.J., The Autobiography of Miss Jane Pittman, 1971 HARTLEY, L.",
      "proba": 0.815,
-     "potentiel": 0.395,
+     "potentiel": 0.854,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -1549,10 +1316,48 @@
      "intention": null
     },
     {
+     "passage": 234,
+     "texte": "RUSHDIE, S., Midnight’s Children, 1981 SALINGER, J. D., The Catcher in the Rye, 1951 SHAKESPEARE, W., The Tempest, 1610 STEIN, G., The Autobiography of Alice B. Toklas, 1933 STOKER, D., Dracula, 1897 SWIFT, J., Gulliver’s Travels, 1726 TOWNSEND, S. The Secret Diary of Adrian Mole aged 13 ¾, 1982 WALKER, A., The Color Purple, 1982 WEBB, B., My Apprenticeship, 1980 WELLS, I.B., The Autobiography of ",
+     "proba": 0.661,
+     "potentiel": 0.926,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "being",
+      "children"
+     ],
+     "toujours_nomme": [
+      "autobiography",
+      "look"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.6
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.4
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2022-metropole-traduction",
+       "enonce": "This document is an excerpt from Born to Run, the autobiography of Bruce Springsteen, worldfamous American rock singer, songwriter and musician born in 1949.\nCe document est un extrait de \"Born to Run\", l'autobiographie "
+      },
+      {
+       "sujet": "spe-llcer-anglais-2022-metropole-remplacement",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais"
+      }
+     ],
+     "intention": null
+    },
+    {
      "passage": 233,
      "texte": "LIVINGSTONE, D., The Last Journals of David Livingstone in Central Africa, From 1865 to His Death, 1874 MANDELA, N., Long Walk to Freedom, 1994 McLIAM WILSON, R., Ripley Bogle, 1989 McCOURT, F., Angela’s Ashes, 1996 MOORE, G., Confessions of a Young Man, 1888 O’BRIEN, T., The Things They Carried, 1990 Queen Victoria’s Journals ORWELL, G., Why I Write, 1946 RICHARDSON, S., Pamela, 1740",
      "proba": 0.641,
-     "potentiel": 0.828,
+     "potentiel": 0.916,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "freedom",
@@ -1585,38 +1390,117 @@
       }
      ],
      "intention": null
-    },
+    }
+   ]
+  },
+  {
+   "section": 26,
+   "titre": "Initiation, apprentissage",
+   "passages": 11,
+   "proba": 0.813,
+   "potentiel": 0.955,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.909,
+   "niveau": "incontournable",
+   "passages_cles": [
     {
-     "passage": 228,
-     "texte": "ALLEN, W., movies BACON, F., self-portraits (Self-Portrait Seated, 1970, Study for Self-Portrait, 1976, etc.) BOWIE, D., Ziggy Stardust, 1972, and others. FUKUNAGA, C. J., Jane Eyre, 2011 GREENGRASS, P., Bloody Sunday, 2002 HENDRIX, J., “Star Spangled Banner”, 1969 HOCKNEY, D., Self-Portrait with Charlie, 1995 HOPPER, E., self-portraits (1903, 1930, etc.)",
-     "proba": 0.639,
-     "potentiel": 0.82,
+     "passage": 238,
+     "texte": "DAHL, R., Boy: Tales of Childhood, 1984 ; Matilda, 1988 LOSEY, J., The Go-Between, 1971 DAVIDSON, J., Evacuated, 2005 MORIARTY, “My Name is Lily” (song), 2007 DEFOE, D., Robinson Crusoe, 1719 ; Moll Flanders, 1722 O’NEILL, G.B., The Naughty Boy, 1867 DICKENS, C., Oliver Twist, 1837-1839 ; David Copperfield, 1849;",
+     "proba": 0.563,
+     "potentiel": 0.955,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "self",
-      "portraits"
-     ],
+     "toujours_nomme": [],
      "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.5
+      },
       {
        "facette": 2,
        "nom": "document / document x / x document / x colon",
-       "part": 0.6
-      },
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.4
+       "part": 0.5
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-llcer-anglais-2021-metro-cand-libre-2",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en a"
+       "sujet": "spe-llcer-anglais-2024-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (a"
       },
       {
-       "sujet": "spe-llcer-anglais-2022-metropole-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais"
+       "sujet": "spe-llcer-anglais-2022-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le\nsujet suivant en anglais :\nWrite a commentary on the three documents (a"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 235,
+     "texte": "ALCOTT, L. M., Little Women, 1868-1869 ANGELOU, M., I Know Why the Caged Bird Sings, 1969 ATWOOD, M., The Handmaid’s Tale, 1985 AUSTER, P., Moon Palace, 1989; True Tales of American life, 2001 BAKER, R., Growing up, 1982 BALDWIN, J., Go Tell It on the Mountain, 1963 BARRETT BROWNING, E., The Cry of the Children, 1841 BLAKE, W.",
+     "proba": 0.561,
+     "potentiel": 0.955,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "children"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2022-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le\nsujet suivant en anglais :\nWrite a commentary on the three documents (a"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2024-metropole",
+       "enonce": "Traduisez en français le passage suivant du document A (lignes 18 à 22) :\nEven though she was a teacher and had a professional role to fill, it made me realise that it\nshouldn’t stop you from being human, from being cari"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 236,
+     "texte": "The Chimney Sweeper, 1789 BRONTË, C., Jane Eyre, 1847 BRYSON, B., The Life and Times of The Thunderbolt Kid, 2007 BURNEY, F., Evelina, 1778 CHBOSKY, S., The Perks of Being a Wallflower, 1999 CHEVALIER, T., Girl with a Pearl Earring, 1999 CHOPIN, K., The Awakening, 1899 COETZEE, J.M., Boyhood : Scenes from Provincial Life, 1997 ANDERSON, W., Moonrise Kingdom, 2012 BRANAGH, K., Much Ado about Nothin",
+     "proba": 0.813,
+     "potentiel": 0.792,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "much",
+      "nothing"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2024-metropole",
+       "enonce": "Traduisez en français le passage suivant du document A (lignes 18 à 22) :\nEven though she was a teacher and had a professional role to fill, it made me realise that it\nshouldn’t stop you from being human, from being cari"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-asie",
+       "enonce": "Traduisez en français le passage suivant du document C (lignes 14 à 19) :\nWhen Bessie sings in these clubs with the audience literally spellbound, captivated,\ntotally enthralled, she is not really paying them any attenti"
       }
      ],
      "intention": null
@@ -1628,17 +1512,17 @@
    "titre": "Axe d’étude 1 : L’expression des émotions",
    "passages": 11,
    "proba": 0.929,
-   "potentiel": 0.733,
+   "potentiel": 0.804,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.901,
-   "niveau": "probable",
+   "priorite": 0.9,
+   "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 132,
      "texte": "Mais il est également judicieux de ne pas limiter l’approche au seul domaine de la littérature, car ce sont les arts en général qui apportent leur contribution à l’expression des émotions, participant ainsi à la construction d’une identité individuelle et collective. Ainsi, le cinéma de Jane Campion ne recule pas devant l’expression d’une véritable violence émotionnelle qui malmène ses personnages",
      "proba": 0.929,
-     "potentiel": 0.201,
+     "potentiel": 0.774,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1670,7 +1554,7 @@
      "passage": 135,
      "texte": "Enfin, l’art oratoire ne peut être oublié, tant il joue par nature sur l’expression des émotions de l’orateur et de l’auditeur à sa réception : cela peut s’observer aussi bien dans certains grands monologues du théâtre de Shakespeare (dans Hamlet ou dans Romeo and Juliet) que dans des discours politiques comme chez Martin Luther King (« I have a dream ») ou chez Robert F.",
      "proba": 0.56,
-     "potentiel": 0.733,
+     "potentiel": 0.804,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1699,10 +1583,10 @@
      "intention": null
     },
     {
-     "passage": 129,
-     "texte": "Le courant romantique en constitue un exemple évident, qu’il s’agisse d’exprimer la communion avec la Nature, comme chez William Wordsworth (« I wandered lonely as a cloud »), le deuil, comme chez Edgar Allan Poe (« Annabel Lee »), ou la passion amoureuse menant jusqu’à la folie, comme chez Emily Brontë (Wuthering Heights).",
-     "proba": 0.239,
-     "potentiel": 0.45,
+     "passage": 128,
+     "texte": "Pour de nombreux artistes, l’émotion constitue tout à la fois le terreau et le matériau grâce auxquels se construisent une œuvre, une personnalité et une identité. Ainsi, l’expression et l’exploitation des émotions caractérisent différents courants et modes artistiques qui se développent dans le monde anglophone.",
+     "proba": 0.238,
+     "potentiel": 0.75,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1720,12 +1604,136 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-llcer-anglais-2026-metropole",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consi"
-      },
-      {
        "sujet": "spe-llcer-anglais-2021-amerique-nord",
        "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\nPartie 1 (16 pts). Prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (m"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-nouvelle-caledonie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (a"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 17,
+   "titre": "Axe d’étude 3 : Initiation, apprentissage",
+   "passages": 15,
+   "proba": 0.934,
+   "potentiel": 0.913,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.893,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 162,
+     "texte": "Néanmoins, le thème de l’initiation ne se résume pas au roman de formation. Le passage de l’enfance à l’état d’adulte représente une étape cruciale d’un point de vue ethnographique, en particulier chez les peuples premiers (rite initiatique du walkabout chez les aborigènes d’Australie) et constitue également un thème riche dans les arts.",
+     "proba": 0.618,
+     "potentiel": 0.913,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.33
+      },
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-asie",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante ("
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-polynesie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\n1ère partie : Prenez connaissance de la thématique ci-dessus et\ndes documents A, B et C et traitez la consigne suivante en\nanglais et en 500 mots env"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 172,
+     "texte": "Trois axes d’étude sont proposés pour cette thématique : exploration et aventure ; ancrage et héritage ; migration et exil.",
+     "proba": 0.628,
+     "potentiel": 0.908,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.33
+      },
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nAxe d’étude 1 : « Exploration et aventure »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\n"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2022-metropole-traduction",
+       "enonce": "US road trips: into the heart of America with Andrew McCARTHY.\nVoyages en voiture aux États-Unis : au cœur de l'Amérique avec Andrew McCARTHY.\nThere's nothing wrong that a hundred bucks and a full tank of gas can't fix. "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 158,
+     "texte": "Dans le domaine de l’art, le roman d’apprentissage, abondamment représenté dans la littérature anglophone, vient immédiatement à l’esprit (Bildungsroman, novel of education ou novel of apprenticeship). The History of Tom Jones, a Foundling de Henry Fielding est d’ailleurs considéré comme un prototype du genre.",
+     "proba": 0.601,
+     "potentiel": 0.862,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.33
+      },
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-polynesie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\n1ère partie : Prenez connaissance de la thématique ci-dessus et\ndes documents A, B et C et traitez la consigne suivante en\nanglais et en 500 mots env"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-asie",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante ("
       }
      ],
      "intention": null
@@ -1737,7 +1745,7 @@
    "titre": "Ancrages et héritages",
    "passages": 5,
    "proba": 0.556,
-   "potentiel": 0.891,
+   "potentiel": 0.943,
    "annees_tombees": 2,
    "sur": 6,
    "priorite": 0.892,
@@ -1747,7 +1755,7 @@
      "passage": 255,
      "texte": "Dubliners, 1914 LEWIS, S., Main Street, 1920 MAUPIN, A., Tales of the City, 1974 McCANN, C., Everything in this Country Must, 2000 McCULLERS, C., The Heart is a Lonely Hunter, 1940 O’CONNOR, F., “Everything that Rises Must Converge” (and other stories), 1965 ALLEN, W., Radio Days, 1987 CHARLES, R. “Georgia on My Mind”, 1960 CONSTABLE, J.",
      "proba": 0.533,
-     "potentiel": 0.891,
+     "potentiel": 0.943,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "other",
@@ -1783,7 +1791,7 @@
      "passage": 257,
      "texte": "Ryan’s Daughter, 1970 LEE, S., Do the Right Thing, 1989 LOACH, K., The Wind that Shakes the Barley, 2006 LYNYRD SKYNYRD, “Sweet Home Alabama”, 1973 POLANSKI, R. Tess, 1979 ROEG, N., Walkabout, 1971",
      "proba": 0.556,
-     "potentiel": 0.864,
+     "potentiel": 0.833,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "thing"
@@ -1815,7 +1823,7 @@
      "passage": 256,
      "texte": "The Hay Wain (1821) & Salisbury Cathedral (1823) CORRIES (THE), “Flower of Scotland”, 1967 EASTWOOD, C., Unforgiven, 1992 FELLOWES J., Downton Abbey, 2010-2015 FLEMING, V., Gone With the Wind, 1939 FORD, J., How green was my Valley, 1941 JAMES, J., “Land of my Fathers” (Welsh hymn), 1856 KRAMER, S., High Noon, 1952 LEAN, D.",
      "proba": 0.23,
-     "potentiel": 0.48,
+     "potentiel": 0.853,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "green"
@@ -1849,17 +1857,17 @@
    "titre": "Axe d’étude 2 : Ancrage et héritage",
    "passages": 11,
    "proba": 0.529,
-   "potentiel": 0.769,
+   "potentiel": 0.914,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.875,
+   "priorite": 0.876,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 188,
      "texte": "Dans le monde anglophone, marqué par des migrations de toutes natures, l’ancrage dans un territoire et l’héritage d’une culture sont souvent au cœur de la construction de l’identité, qu’elle soit individuelle ou collective. L’héritage est souvent objet de fierté, voire de revendication : il s’agit dans ce cas d’assumer, de clamer haut et fort son sentiment d’appartenance ou son patriotisme.",
      "proba": 0.529,
-     "potentiel": 0.769,
+     "potentiel": 0.914,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "culture"
@@ -1884,35 +1892,10 @@
      "intention": null
     },
     {
-     "passage": 195,
-     "texte": "L’identification à un territoire est essentielle pour de nombreux artistes ou écrivains qui ont à cœur de représenter leur terre ou région natale, que ce soit pour l’exalter ou pour en offrir une vision nostalgique ou critique : le vieux Sud américain chez William Faulkner, Carson McCullers ou Flannery O’Connor, New York chez Paul Auster ou Dublin chez James Joyce.",
-     "proba": 0.222,
-     "potentiel": 0.218,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "york"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-centres-etrangers",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 189,
      "texte": "On peut ainsi s’intéresser à la manière dont les individus ou les communautés célèbrent leur culture et leur héritage, via la littérature, les arts ou encore le sport et les traditions culinaires (épopées vantant le « récit national » comme chez Walter Scott, mouvement du Celtic revival en Irlande, événements comme les Highland Games).",
      "proba": 0.205,
-     "potentiel": 0.159,
+     "potentiel": 0.769,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "culture"
@@ -1934,85 +1917,28 @@
       }
      ],
      "intention": null
-    }
-   ]
-  },
-  {
-   "section": 9,
-   "titre": "Aspects phonologiques et graphie",
-   "passages": 3,
-   "proba": 0.503,
-   "potentiel": 0.642,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.858,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 56,
-     "texte": "La précision de la prononciation et le respect des règles de la phonologie conditionnent la réussite de l’apprentissage d’une langue vivante tant dans le domaine de la compréhension que dans celui de l’expression orale. Les élèves doivent être entraînés à entendre rythmes, sonorités, accentuation, intonation pour les restituer dans une lecture à haute voix, une prise de parole préparée ou spontané",
-     "proba": 0.503,
-     "potentiel": 0.642,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2026-asie",
-       "enonce": "Ne pas traduire « PCT »"
-      }
-     ],
-     "intention": null
     },
     {
-     "passage": 55,
-     "texte": "Dès la classe de première, une attention particulière est apportée à la phonologie par une sensibilisation accrue aux phonèmes spécifiques de la langue étudiée ainsi qu’à leurs variations que les élèves s’efforcent de reproduire avec la plus grande précision.",
-     "proba": 0.185,
-     "potentiel": 0.021,
+     "passage": 195,
+     "texte": "L’identification à un territoire est essentielle pour de nombreux artistes ou écrivains qui ont à cœur de représenter leur terre ou région natale, que ce soit pour l’exalter ou pour en offrir une vision nostalgique ou critique : le vieux Sud américain chez William Faulkner, Carson McCullers ou Flannery O’Connor, New York chez Paul Auster ou Dublin chez James Joyce.",
+     "proba": 0.222,
+     "potentiel": 0.732,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
+     "toujours_nomme": [
+      "york"
+     ],
      "manieres_de_demander": [
       {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
        "part": 1.0
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-llcer-anglais-2026-asie",
-       "enonce": "Ne pas traduire « PCT »"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 57,
-     "texte": "On attire l’attention des élèves sur les particularités orthographiques et on leur fait prendre conscience du rapport propre à chaque langue entre orthographe et réalisation phonologique.",
-     "proba": 0.188,
-     "potentiel": 0.015,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2026-asie",
-       "enonce": "Ne pas traduire « PCT »"
+       "sujet": "spe-llcer-anglais-2021-centres-etrangers",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
       }
      ],
      "intention": null
@@ -2024,17 +1950,17 @@
    "titre": "Axe d’étude 1 : Art et contestation",
    "passages": 12,
    "proba": 0.51,
-   "potentiel": 0.56,
+   "potentiel": 0.816,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.856,
+   "priorite": 0.833,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 104,
      "texte": "Bien que souvent apparentée au progressisme, la contribution des artistes au débat d’idées peut à l’occasion être plutôt qualifiée de conservatrice, nostalgique, voire réactionnaire (le poème « Mandalay » de Rudyard Kipling ; le roman Brideshead Revisited d’Evelyn Waugh ; la chanson « If the South Woulda Won » de Hank Williams Jr.) : c’est à travers cette diversité qu’on peut éclairer les thèmes h",
      "proba": 0.51,
-     "potentiel": 0.56,
+     "potentiel": 0.816,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -2060,7 +1986,7 @@
      "passage": 103,
      "texte": "d’une cause. Ainsi, les artistes du monde anglophone ont su exprimer à travers leurs œuvres une forme de résistance à l’oppression sociale ou politique, aux différents types de discrimination (contre les femmes, les minorités ethniques ou sexuelles, etc.) ; une opposition au colonialisme, à la guerre, au progrès, etc.",
      "proba": 0.201,
-     "potentiel": 0.042,
+     "potentiel": 0.518,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2080,10 +2006,10 @@
      "intention": null
     },
     {
-     "passage": 95,
-     "texte": "Les liens qui unissent l’art et la contestation sont multiples. À travers cet axe d’étude, on se penche sur l’utilisation du support artistique pour défendre un point de vue, apporter un témoignage, dénoncer une injustice et s’inscrire ainsi dans les grands débats sociaux ou politiques propres à une époque et à un lieu donnés.",
-     "proba": 0.189,
-     "potentiel": 0.02,
+     "passage": 106,
+     "texte": "Les connaissances des élèves, acquises tout au long de leur parcours d’éducation artistique,",
+     "proba": 0.203,
+     "potentiel": 0.336,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2098,175 +2024,6 @@
       {
        "sujet": "spe-llcer-anglais-2021-zero-2",
        "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nAxe d’étude 3 : « L’art du débat »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet suivant\nen anglais :\nWrite a short commen"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 0,
-   "titre": "Explorer la langue, la littérature et la culture de manière approfondie",
-   "passages": 15,
-   "proba": 0.496,
-   "potentiel": 0.193,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.811,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 10,
-     "texte": "l’enseignement de spécialité des langues, littératures et cultures régionales permet également une mise en lien de chaque langue régionale avec les langues de l’héritage : les langues et cultures de l’Antiquité sont systématiquement convoquées afin de mettre les savoirs en perspective et de contribuer à la formation humaniste dispensée au lycée.",
-     "proba": 0.496,
-     "potentiel": 0.193,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "cultures",
-      "litteratures",
-      "regionales"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 4,
-       "nom": "sujet x / epreuve / x sujet x / choix",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-1",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-2",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 6,
-     "texte": "Il a également pour objectif de favoriser une connaissance fine des langues et cultures concernées dans leur rapport à l’Histoire et de permettre une plus grande ouverture dans un espace européen et international élargi ainsi que de préparer les élèves à la mobilité. Il doit être pour les élèves l’occasion d’établir des relations de comparaison, de rapprochement et de contraste.",
-     "proba": 0.169,
-     "potentiel": 0.117,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "cultures"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 4,
-       "nom": "sujet x / epreuve / x sujet x / choix",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-1",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-2",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 8,
-     "texte": "La langue écrite et orale est travaillée sous tous ses aspects (phonologie, lexique, grammaire) et dans toutes les activités langagières, (réception, production et interaction), afin que les élèves soient entraînés à communiquer et puissent approfondir et nuancer leurs connaissances et leurs compétences.",
-     "proba": 0.174,
-     "potentiel": 0.067,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "ecrite"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 4,
-       "nom": "sujet x / epreuve / x sujet x / choix",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-1",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-2",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 7,
-   "titre": "Interaction",
-   "passages": 2,
-   "proba": 0.781,
-   "potentiel": 0.067,
-   "annees_tombees": 2,
-   "sur": 6,
-   "priorite": 0.81,
-   "niveau": "probable",
-   "passages_cles": [
-    {
-     "passage": 45,
-     "texte": "Une attention particulière est donnée à l’interaction. Elle suppose une attitude fondée sur l’écoute, le dialogue et les échanges dans le cadre de la construction collective du sens à partir d’un support. Elle suppose encore des activités en groupes : recherche de documents, résolution de problèmes rencontrés au fil des activités qui se déroulent en classe ou dans le cadre d’un projet spécifique.",
-     "proba": 0.781,
-     "potentiel": 0.067,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2024-asie",
-       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2024-asie",
-       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 46,
-     "texte": "En enseignement de spécialité, toutes les stratégies d’apprentissage en autonomie sont recherchées, notamment le travail par projet au sein d’un groupe d’élèves. L’interaction doit être perçue comme la condition de cette autonomie.",
-     "proba": 0.229,
-     "potentiel": 0.001,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2024-asie",
-       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2024-asie",
-       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
       }
      ],
      "intention": null
@@ -2278,17 +2035,17 @@
    "titre": "Art et contestation",
    "passages": 6,
    "proba": 0.803,
-   "potentiel": 0.166,
+   "potentiel": 0.704,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.779,
-   "niveau": "à connaître",
+   "priorite": 0.823,
+   "niveau": "probable",
    "passages_cles": [
     {
      "passage": 215,
      "texte": "The Caretaker, 1959 ATTENBOROUGH, R., Cry Freedom, 1987 BAEZ, J., “Here’s to You”, 1971 BANKSY, murals (“Brexit” in Dover, 2017) BOORMAN, J., The Emerald Forest, 1985 CAGLE, D. and CAGLE, S., editorial cartoons CHAPLIN, C., Modern Times, 1936 CHAPMAN, T., “Talkin’ ‘Bout a Revolution”, “Fast Car”, 1988 DYLAN, B., “Blowin’ in the Wind”, 1962 FORD, J., Sergeant Rutledge, 1960 GLOVER, D. (alias GAMBIN",
      "proba": 0.788,
-     "potentiel": 0.041,
+     "potentiel": 0.675,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "freedom"
@@ -2329,7 +2086,7 @@
      "passage": 216,
      "texte": "ROY, A., The God of Small Things, 1997 RUSHDIE, S., Midnight’s Children, 1981 SHAKESPEARE, W., The Tempest, 1610 SHERIDAN, R. B., The School for Scandal, 1777 STEINBECK, J., Grapes of Wrath, 1939 SWIFT, J., Gulliver’s Travels, 1726 VONNEGUT, K., novels (Slaughterhouse Five, 1969) and short stories (Welcome to the Monkey house, 1968) WAUGH, E., Brideshead Revisited, 1945 WHITMAN, W., Leaves of Gras",
      "proba": 0.803,
-     "potentiel": 0.034,
+     "potentiel": 0.655,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "stories",
@@ -2372,7 +2129,7 @@
      "passage": 213,
      "texte": "Hard Times, 1854) HARDY, T., Tess of the d’Urbervilles, 1891 HEMINGWAY, E., To Have and Have Not, 1937 KIPLING, R., “Mandalay”, 1890 KUREISHI, H., The Buddha of Suburbia, 1990 McLIAM WILSON, R., Ripley Bogle, 1989 MILLER, A., Death of a Salesman, 1949; Before Air Conditioning, 1998 NAIPAUL, V.S., A House for Mr.",
      "proba": 0.272,
-     "potentiel": 0.166,
+     "potentiel": 0.704,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -2410,21 +2167,272 @@
    ]
   },
   {
+   "section": 7,
+   "titre": "Interaction",
+   "passages": 2,
+   "proba": 0.781,
+   "potentiel": 0.655,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.81,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 45,
+     "texte": "Une attention particulière est donnée à l’interaction. Elle suppose une attitude fondée sur l’écoute, le dialogue et les échanges dans le cadre de la construction collective du sens à partir d’un support. Elle suppose encore des activités en groupes : recherche de documents, résolution de problèmes rencontrés au fil des activités qui se déroulent en classe ou dans le cadre d’un projet spécifique.",
+     "proba": 0.781,
+     "potentiel": 0.655,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "paying particular attention / how they interact / they interact x / interact",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2024-asie",
+       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2024-asie",
+       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 46,
+     "texte": "En enseignement de spécialité, toutes les stratégies d’apprentissage en autonomie sont recherchées, notamment le travail par projet au sein d’un groupe d’élèves. L’interaction doit être perçue comme la condition de cette autonomie.",
+     "proba": 0.229,
+     "potentiel": 0.078,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "paying particular attention / how they interact / they interact x / interact",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2024-asie",
+       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2024-asie",
+       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the specificities of the thre"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "Aspects phonologiques et graphie",
+   "passages": 3,
+   "proba": 0.503,
+   "potentiel": 0.762,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.807,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 56,
+     "texte": "La précision de la prononciation et le respect des règles de la phonologie conditionnent la réussite de l’apprentissage d’une langue vivante tant dans le domaine de la compréhension que dans celui de l’expression orale. Les élèves doivent être entraînés à entendre rythmes, sonorités, accentuation, intonation pour les restituer dans une lecture à haute voix, une prise de parole préparée ou spontané",
+     "proba": 0.503,
+     "potentiel": 0.762,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2026-asie",
+       "enonce": "Ne pas traduire « PCT »"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "Dès la classe de première, une attention particulière est apportée à la phonologie par une sensibilisation accrue aux phonèmes spécifiques de la langue étudiée ainsi qu’à leurs variations que les élèves s’efforcent de reproduire avec la plus grande précision.",
+     "proba": 0.185,
+     "potentiel": 0.42,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2026-asie",
+       "enonce": "Ne pas traduire « PCT »"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 57,
+     "texte": "On attire l’attention des élèves sur les particularités orthographiques et on leur fait prendre conscience du rapport propre à chaque langue entre orthographe et réalisation phonologique.",
+     "proba": 0.188,
+     "potentiel": 0.265,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2026-asie",
+       "enonce": "Ne pas traduire « PCT »"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Explorer la langue, la littérature et la culture de manière approfondie",
+   "passages": 15,
+   "proba": 0.496,
+   "potentiel": 0.615,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.737,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 10,
+     "texte": "l’enseignement de spécialité des langues, littératures et cultures régionales permet également une mise en lien de chaque langue régionale avec les langues de l’héritage : les langues et cultures de l’Antiquité sont systématiquement convoquées afin de mettre les savoirs en perspective et de contribuer à la formation humaniste dispensée au lycée.",
+     "proba": 0.496,
+     "potentiel": 0.615,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "cultures",
+      "litteratures",
+      "regionales"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "sujet x / epreuve / x sujet x / choix",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-2",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 6,
+     "texte": "Il a également pour objectif de favoriser une connaissance fine des langues et cultures concernées dans leur rapport à l’Histoire et de permettre une plus grande ouverture dans un espace européen et international élargi ainsi que de préparer les élèves à la mobilité. Il doit être pour les élèves l’occasion d’établir des relations de comparaison, de rapprochement et de contraste.",
+     "proba": 0.169,
+     "potentiel": 0.597,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "cultures"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "sujet x / epreuve / x sujet x / choix",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-2",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 12,
+     "texte": "Cet enseignement est un lieu d’approfondissement et d’élargissement des connaissances et des savoirs selon une perspective historique porteuse de sens et de nature à doter les élèves de repères forts et structurants inscrits dans la chronologie de l’histoire littéraire et culturelle. Il vise aussi à développer chez les élèves la connaissance précise d’éléments majeurs de la culture considérée.",
+     "proba": 0.182,
+     "potentiel": 0.552,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "culture"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "sujet x / epreuve / x sujet x / choix",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-2",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 24,
    "titre": "Expression des émotions",
    "passages": 2,
    "proba": 0.158,
-   "potentiel": 0.146,
+   "potentiel": 0.709,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.506,
-   "niveau": "à connaître",
+   "priorite": 0.492,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 226,
      "texte": "Hamlet, 1603 SHELLEY, P.B., “Ode to the West Wind”, 1820 THOREAU, H.D., Walden, 1854 WHITMAN, W., “Song of Myself”, 1855 WILLIAMS, T., plays WORDSWORTH, W., COLERIDGE, S.T., Lyrical Ballads, 1798 WORDSWORTH, W., “I Wandered Lonely as a Cloud” (commonly known as “Daffodils”), 1807 BACON, F., paintings BRANAGH, K., Hamlet, 1996 CAMPION, J., Bright Star, 2009 CASSATT, M., paintings GRAHAM, M., dancin",
      "proba": 0.158,
-     "potentiel": 0.146,
+     "potentiel": 0.709,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "myself",
@@ -2465,7 +2473,7 @@
      "passage": 225,
      "texte": "BRONTË, C., Jane Eyre, 1847 BRONTË, E., Wuthering Heights, 1847 COLERIDGE, S.T., “To Nature”, 1820 DICKINSON, E., poems EMERSON, R. W., Nature, 1836 HARDY, T., “Poems of 1912-13” (Satires of Circumstance, 1914) O’NEILL, E., plays PLATH, S., poems POE, E. A., “Annabel Lee”, 1849 SHAKESPEARE, W., Romeo and Juliet, 1597 ;",
      "proba": 0.156,
-     "potentiel": 0.068,
+     "potentiel": 0.575,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2500,17 +2508,17 @@
    "titre": "L’art du débat",
    "passages": 3,
    "proba": 0.155,
-   "potentiel": 0.131,
+   "potentiel": 0.713,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.497,
-   "niveau": "à connaître",
+   "priorite": 0.491,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 224,
      "texte": "KUBRICK, S., Paths of Glory, 1957 LANDRIEU, M., speech on removal of Confederate monuments, 2017 LEDER, M., On the Basis of Sex, 2018 LEE, S., Malcolm X, 1992 LINCOLN, A., “Gettysburg address” speech, 1863 LUMET, S., 12 Angry Men, 1957 MOORE, M., Bowling for Columbine, 2001 MULLIGAN, R., To Kill A Mockingbird, 1962 OBAMA, B. speeches (“Out of Many, One”, 2004 ; “A More Perfect Union”, 2008 ; “Of T",
      "proba": 0.155,
-     "potentiel": 0.131,
+     "potentiel": 0.713,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "more",
@@ -2552,7 +2560,7 @@
      "passage": 222,
      "texte": "AUSTEN J., Pride and Prejudice, 1813 GAINES, E.J., A Lesson before Dying, 1993 KING, M. L., Letter from Birmingham Jail, 1963 MILLER, A., The Crucible, 1953 ORWELL, G., Why I write, 1946 ; Animal Farm, 1945 ; 1984, 1949 SHAKESPEARE, W., Julius Caesar, 1599 SHAW, G.B., Pygmalion, 1914 ALLEN, W., films CAPRA, F., war films (Why We Fight series, 1942-1945) ; Mr.",
      "proba": 0.154,
-     "potentiel": 0.016,
+     "potentiel": 0.374,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "before"
@@ -2586,7 +2594,7 @@
      "passage": 223,
      "texte": "Smith Goes to Washington, 1939 CHAPLIN, C., The Great Dictator, 1940 CHURCHILL, W., “Blood, toil, tears, and sweat” speech, 1940 CUKOR, G., My Fair Lady, 1964 DEMME, J., Philadelphia, 1993 FLEISCHER, R., Compulsion, 1959 FOUR VAGABONDS (The), “Rosie the Riveter”, 1943 GAVRON, S., Suffragettes, 2015 HANSON, C., 8 Mile, 2002 Harry Potter series, 2001-2011 HOOPER, T., The King's Speech, 2010 HYTNER, ",
      "proba": 0.154,
-     "potentiel": 0.003,
+     "potentiel": 0.192,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "four",
@@ -2625,173 +2633,21 @@
    ]
   },
   {
-   "section": 13,
-   "titre": "Axe d’étude 2 : L’art qui fait débat",
-   "passages": 8,
-   "proba": 0.119,
-   "potentiel": 0.122,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.4,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 113,
-     "texte": "Il peut enfin s’avérer pertinent de s’interroger sur le positionnement des artistes, selon qu’ils cherchent à faire polémique (comme le street artist Banksy lorsqu’il orchestre la destruction de son œuvre Girl with a Balloon), qu’ils refusent de se soumettre à des critères non artistiques pour concevoir leur œuvre (comme le suggère Oscar Wilde dans la préface de The Picture of Dorian Gray) ou que ",
-     "proba": 0.119,
-     "potentiel": 0.122,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "street",
-      "debat",
-      "girl"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.5
-      },
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-1",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a short commentary on the three documents (minim"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-3",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary (about 500 words) on documents A, B"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 109,
-     "texte": "La culture anglophone est riche d’artistes qui se sont retrouvés au centre de polémiques, non pas en fonction de critères esthétiques mais à cause du regard porté par le public sur leur œuvre, à l‘aune des valeurs morales ou politiques de l’époque. Ainsi, il peut être judicieux d’évoquer certaines œuvres considérées comme sulfureuses en raison des tabous qu’elles brisent (ainsi Lady Chatterley’s L",
-     "proba": 0.115,
-     "potentiel": 0.043,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "culture"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.75
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\nPartie 1 (16 pts). Prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (m"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2026-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1ère partie\nSynthèse du dossier, en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traite"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 112,
-     "texte": "À partir de phénomènes comme « Banned Books Week » ou les trigger warnings affichés à l’entrée de certaines expositions aux États-Unis, les élèves peuvent également réfléchir sur la notion de bienséance, de political correctness et sur les critères qui peuvent conduire à limiter ou non l’accès à certaines œuvres.",
-     "proba": 0.117,
-     "potentiel": 0.018,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.75
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2022-asie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2022-asie",
-       "enonce": "Le sujet porte sur la thématique « Arts et débat d’idées »\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consign"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 20,
    "titre": "Axe d’étude 3 : Migration et exil",
    "passages": 13,
    "proba": 0.147,
-   "potentiel": 0.038,
+   "potentiel": 0.565,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.383,
+   "priorite": 0.398,
    "niveau": "à connaître",
    "passages_cles": [
-    {
-     "passage": 203,
-     "texte": "Elle entretient un va- et-vient permanent entre un ici et un ailleurs, entre la nostalgie et l’espoir, entre l’exclusion et l’inclusion, entre le moi et les autres : d’où la tonalité souvent mélancolique des récits",
-     "proba": 0.141,
-     "potentiel": 0.038,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      },
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2024-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (5"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-centres-etrangers",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la"
-      }
-     ],
-     "intention": null
-    },
     {
      "passage": 205,
      "texte": "La mémoire de l’exil ou d’un traumatisme vécu par ses ancêtres peut constituer un héritage pour les générations suivantes. Les enfants d’immigrants écrivent aussi leurs propres histoires d’exil empreintes d’une nostalgie pour un pays qu’ils n’ont pas connu ou qu’ils ont peu connu, et invitent à analyser la manière dont s’exprime une mémoire chez des individus qui n’ont pas personnellement vécu ces",
      "proba": 0.143,
-     "potentiel": 0.032,
+     "potentiel": 0.565,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2823,7 +2679,7 @@
      "passage": 210,
      "texte": "Enfin, la migration peut être abordée dans sa dimension positive, lorsqu’elle offre à celui qui l’entreprend l’espoir d’une vie meilleure (« Ellis Island » de The Corrs), ou permet d’accéder à de nouvelles formes de pouvoir et de liberté (Brick Lane de Monica Ali, Ae Fond Kiss de Ken Loach). De même, on peut évoquer des auteurs comme T.S. Eliot, Ezra Pound, D.H.",
      "proba": 0.146,
-     "potentiel": 0.026,
+     "potentiel": 0.444,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2850,6 +2706,38 @@
       }
      ],
      "intention": null
+    },
+    {
+     "passage": 207,
+     "texte": "L’exploration de cette forme de déracinement offre ainsi l’occasion de s’interroger sur la notion d’hybridité culturelle autour de concepts tels que l’intérieur, l’extérieur, le centre, la marge et la périphérie dans lesquels l’individu est tiraillé entre les forces opposées de l’acculturation, de l’attachement aux racines et du déracinement.",
+     "proba": 0.143,
+     "potentiel": 0.421,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a short commentary on the three documents (minim"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-3",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary (about 500 words) on documents A, B"
+      }
+     ],
+     "intention": null
     }
    ]
   },
@@ -2858,17 +2746,54 @@
    "titre": "L’art qui fait débat",
    "passages": 4,
    "proba": 0.153,
-   "potentiel": 0.023,
+   "potentiel": 0.487,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.37,
+   "priorite": 0.39,
    "niveau": "à connaître",
    "passages_cles": [
+    {
+     "passage": 221,
+     "texte": "Turner) RUSKIN, J., “Pre-Raphaelitism (1851)” in Pre-Raphaelitism: Lectures on Architecture and Painting, 1906 RUSKIN J., “Exhibition of the Royal Academy: Second Notic”, The Times, 7 May 1851 RUSKIN J., Letter : “The Pre-Raphaelite”, The Times, 13 May 1851 SCOTT, D., What is the Proper Way to Display a US flag?, 1988 SEX PISTOLS, “God Save the Queen”, 1977 SHERMAN, C., photography WESTWOOD, fashi",
+     "proba": 0.153,
+     "potentiel": 0.487,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "document / document x / x document / x colon",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2023-nouvelle-caledonie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (a"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2023-centres-etrangers",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglai"
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 220,
      "texte": "ROY, A., The God of Small Things, 1997 SALINGER, J.D., The Catcher in the Rye, 1951 SWIFT, J., A Modest Proposal, 1729 TWAIN, M., Adventures of Huckleberry Finn, 1884 WILDE, O., The Picture of Dorian Gray, 1890 (including preface) : REED, L, “Walk on the Wild Side”, in Transformer, 1972 RUSKIN J., Modern Painters, volume I, 1843 (on W.",
      "proba": 0.152,
-     "potentiel": 0.023,
+     "potentiel": 0.474,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "side",
@@ -2906,47 +2831,10 @@
      "intention": null
     },
     {
-     "passage": 221,
-     "texte": "Turner) RUSKIN, J., “Pre-Raphaelitism (1851)” in Pre-Raphaelitism: Lectures on Architecture and Painting, 1906 RUSKIN J., “Exhibition of the Royal Academy: Second Notic”, The Times, 7 May 1851 RUSKIN J., Letter : “The Pre-Raphaelite”, The Times, 13 May 1851 SCOTT, D., What is the Proper Way to Display a US flag?, 1988 SEX PISTOLS, “God Save the Queen”, 1977 SHERMAN, C., photography WESTWOOD, fashi",
-     "proba": 0.153,
-     "potentiel": 0.022,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "document / document x / x document / x colon",
-       "part": 0.62
-      },
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.25
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2023-nouvelle-caledonie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (a"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2023-centres-etrangers",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglai"
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 219,
      "texte": "H., Lady Chatterley's Lover, 1928 NABOKOV, V., Lolita, 1955 ARBUS, D., photography BANKSY, self-destruction of Girl with a Balloon, 2018 BOWIE, D., style icon CREED, M., Work No 227: The Lights Going On and Off, 2000 CROSSLAND, A., The Flapper, 1920 DEMME, J., Philadelphia, 1993 EMIN, T., My Bed, 1998 DICKENS, C., “Old Lamps for New Ones”, Household Words, Volume I, Magazine No. 12, 15 June 1850, ",
      "proba": 0.152,
-     "potentiel": 0.013,
+     "potentiel": 0.469,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "mother",
@@ -2987,21 +2875,136 @@
    ]
   },
   {
+   "section": 13,
+   "titre": "Axe d’étude 2 : L’art qui fait débat",
+   "passages": 8,
+   "proba": 0.119,
+   "potentiel": 0.638,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.358,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 113,
+     "texte": "Il peut enfin s’avérer pertinent de s’interroger sur le positionnement des artistes, selon qu’ils cherchent à faire polémique (comme le street artist Banksy lorsqu’il orchestre la destruction de son œuvre Girl with a Balloon), qu’ils refusent de se soumettre à des critères non artistiques pour concevoir leur œuvre (comme le suggère Oscar Wilde dans la préface de The Picture of Dorian Gray) ou que ",
+     "proba": 0.119,
+     "potentiel": 0.638,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "street",
+      "debat",
+      "girl"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a short commentary on the three documents (minim"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-3",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary (about 500 words) on documents A, B"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 109,
+     "texte": "La culture anglophone est riche d’artistes qui se sont retrouvés au centre de polémiques, non pas en fonction de critères esthétiques mais à cause du regard porté par le public sur leur œuvre, à l‘aune des valeurs morales ou politiques de l’époque. Ainsi, il peut être judicieux d’évoquer certaines œuvres considérées comme sulfureuses en raison des tabous qu’elles brisent (ainsi Lady Chatterley’s L",
+     "proba": 0.115,
+     "potentiel": 0.54,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "culture"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\nPartie 1 (16 pts). Prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (m"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2026-polynesie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1ère partie\nSynthèse du dossier, en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traite"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 112,
+     "texte": "À partir de phénomènes comme « Banned Books Week » ou les trigger warnings affichés à l’entrée de certaines expositions aux États-Unis, les élèves peuvent également réfléchir sur la notion de bienséance, de political correctness et sur les critères qui peuvent conduire à limiter ou non l’accès à certaines œuvres.",
+     "proba": 0.117,
+     "potentiel": 0.317,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2022-asie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2022-asie",
+       "enonce": "Le sujet porte sur la thématique « Arts et débat d’idées »\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consign"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 16,
    "titre": "Axe d’étude 2 : Mise en scène de soi",
    "passages": 19,
    "proba": 0.134,
-   "potentiel": 0.036,
+   "potentiel": 0.507,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.357,
+   "priorite": 0.354,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 154,
      "texte": "Frederick Douglass, The Absolutely True Diary of a Part Time Indian de Sherman Alexie). : L’autobiographie, le journal, mais aussi l’architecture, la sculpture, la peinture, la",
      "proba": 0.132,
-     "potentiel": 0.036,
+     "potentiel": 0.507,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3035,10 +3038,42 @@
      "intention": null
     },
     {
+     "passage": 156,
+     "texte": "intentionnel (hymnes nationaux commissionnés, mémoriaux du National Mall à Washington) ou non (chants traditionnels devenus chants patriotiques tels que Rule Britannia, Auld Land Syne ou encore Land of My Fathers).",
+     "proba": 0.133,
+     "potentiel": 0.405,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-2",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nAxe d’étude 3 : « L’art du débat »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet suivant\nen anglais :\nWrite a short commen"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-centres-etrangers",
+       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
+      }
+     ],
+     "intention": null
+    },
+    {
      "passage": 144,
      "texte": "participent de cette construction de soi.",
      "proba": 0.123,
-     "potentiel": 0.027,
+     "potentiel": 0.411,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3060,38 +3095,6 @@
       }
      ],
      "intention": null
-    },
-    {
-     "passage": 143,
-     "texte": "construit des alter-ego, des avatars (David Bowie), la mode voire le travestissement",
-     "proba": 0.123,
-     "potentiel": 0.02,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.5
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-centres-etrangers",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en an"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-metropole-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Voyages, territoires, frontières ».\nPartie 1. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en ang"
-      }
-     ],
-     "intention": null
     }
    ]
   },
@@ -3100,17 +3103,17 @@
    "titre": "À l’articulation des activités langagières, la médiation",
    "passages": 8,
    "proba": 0.108,
-   "potentiel": 0.067,
+   "potentiel": 0.555,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.338,
+   "priorite": 0.306,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 52,
      "texte": "réfléchie, dans une approche comparative entre la langue concernée, le français, les autres langues vivantes étudiées et, pour les langues régionales, les langues de l’Antiquité. À ce stade, les élèves savent qu’ils comprennent plus qu’ils ne sont capables d’exprimer, ils savent aussi distinguer grammaire et lexique de reconnaissance, d’une part, et grammaire et lexique de production, d’autre part",
      "proba": 0.106,
-     "potentiel": 0.067,
+     "potentiel": 0.555,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3147,7 +3150,7 @@
      "passage": 50,
      "texte": "À l’instar de l’enseignement commun de langues vivantes, les compétences linguistiques sont enseignées en contexte d’utilisation, à l’occasion de l’étude de documents authentiques de toute nature, écrits et oraux, par l’écoute d’enregistrements, le visionnage de documents iconographiques et audio-visuels et la lecture de textes.",
      "proba": 0.104,
-     "potentiel": 0.053,
+     "potentiel": 0.545,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3179,7 +3182,7 @@
      "passage": 47,
      "texte": "La médiation, introduite dans le CECRL, consiste à expliciter un discours lu et entendu à quelqu’un qui ne peut le comprendre. Dans le cadre d’une activité orale, il pourra s’agir par exemple de transmettre à un camarade des informations spécifiques, de lui expliquer des données pour construire du sens ou de gérer des débats pour faciliter la communication dans des contextes de désaccords.",
      "proba": 0.101,
-     "potentiel": 0.008,
+     "potentiel": 0.22,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3209,17 +3212,44 @@
    "titre": "Le lexique",
    "passages": 3,
    "proba": 0.111,
-   "potentiel": 0.047,
+   "potentiel": 0.459,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.323,
+   "priorite": 0.272,
    "niveau": "à connaître",
    "passages_cles": [
+    {
+     "passage": 58,
+     "texte": "C’est à partir du programme littéraire et culturel que se diversifient et s’enrichissent les champs sémantiques. Le lexique ne donne pas lieu à un apprentissage hors-contexte mais prend sens par rapport aux énoncés et aux documents travaillés en classe. Les supports utilisés élargissent et affinent le lexique rencontré par les élèves.",
+     "proba": 0.111,
+     "potentiel": 0.459,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2025-polynesie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-polynesie-remplacement",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (500 mots en"
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 59,
      "texte": "Pour aider les élèves à s’approprier le lexique, on a recours à la mémorisation et à divers procédés qui ont fait leurs preuves : répétition, paraphrase, explicitation, médiation, etc., autant d’activités qui produisent à la fois des automatismes et du sens, à partir d’énoncés de plus en plus complexes et nuancés.",
      "proba": 0.111,
-     "potentiel": 0.047,
+     "potentiel": 0.433,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3251,7 +3281,7 @@
      "passage": 60,
      "texte": "Par ailleurs, le renforcement des compétences à l’oral comme à l’écrit ne saurait aller sans l’appropriation progressive d’un vocabulaire méthodologique de base. Ainsi l’apprentissage du vocabulaire du commentaire de texte littéraire ou non-fictionnel, du commentaire d’analyse d’images et de films trouve naturellement sa place au sein du nouvel enseignement de spécialité, sans en être cependant l’",
      "proba": 0.111,
-     "potentiel": 0.038,
+     "potentiel": 0.428,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "place"
@@ -3280,337 +3310,6 @@
       }
      ],
      "intention": null
-    },
-    {
-     "passage": 58,
-     "texte": "C’est à partir du programme littéraire et culturel que se diversifient et s’enrichissent les champs sémantiques. Le lexique ne donne pas lieu à un apprentissage hors-contexte mais prend sens par rapport aux énoncés et aux documents travaillés en classe. Les supports utilisés élargissent et affinent le lexique rencontré par les élèves.",
-     "proba": 0.111,
-     "potentiel": 0.027,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2025-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-polynesie-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (500 mots en"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 1,
-   "titre": "Développer le goût de lire",
-   "passages": 9,
-   "proba": 0.063,
-   "potentiel": 0.061,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.252,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 16,
-     "texte": "Outre les œuvres du programme limitatif, la lecture d’œuvres intégrales est recommandée et s’accompagne de la lecture d’extraits significatifs d’autres œuvres permettant de découvrir des auteurs et des courants littéraires majeurs représentatifs de l’aire culturelle et linguistique étudiée.",
-     "proba": 0.044,
-     "potentiel": 0.061,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2025-polynesie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-polynesie-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (500 mots en"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 21,
-     "texte": "général (architecture, chanson, cinéma, musique, peinture, photographie, sculpture et télévision) et de l’histoire des idées. Les artistes, les penseurs et leurs œuvres sont replacés dans leur contexte historique, politique et social.",
-     "proba": 0.06,
-     "potentiel": 0.015,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.38
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2022-asie",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2026-polynesie-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1ère partie\nSynthèse du dossier, en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglai"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 19,
-     "texte": "Ces axes, ni limitatifs ni exhaustifs, ne constituent pas un catalogue de prescriptions juxtaposées : ils ont pour fonction d’aider les professeurs à élaborer des progressions pédagogiques adaptées à la diversité des niveaux et des besoins des élèves. Pour chacune des cinq thématiques, un descriptif permet d’expliciter les contenus proposés à l’analyse et d’orienter la réflexion dans chaque langue",
-     "proba": 0.05,
-     "potentiel": 0.009,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-polynesie-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d'idées »\n1ère partie : Prenez connaissance de la thématique ci-dessus et\ndes documents A, B et C et traitez la consigne suivante en\nanglais et en 500 mots environ.\nTakin"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2022-amerique-sud",
-       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais (16 pts)\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 2,
-   "titre": "Perspective actionnelle et démarche de projet",
-   "passages": 2,
-   "proba": 0.068,
-   "potentiel": 0.043,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.251,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 25,
-     "texte": "Ainsi, la constitution par les élèves d’un dossier dans lequel ils présentent des documents vus en classe et choisis par eux-mêmes en lien avec les thématiques du programme, fait partie de la démarche globale qui vise à encourager leur esprit d’initiative. Ce dossier personnel rend compte du patrimoine linguistique, littéraire et culturel que l’enseignement de spécialité leur a offert.",
-     "proba": 0.068,
-     "potentiel": 0.043,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "compte"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.75
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2026-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 24,
-     "texte": "L’enseignement de spécialité s’inscrit, comme l’enseignement commun de langues vivantes, dans une perspective actionnelle que les professeurs cherchent à mettre en œuvre afin d’installer les élèves dans une démarche de projet pour les rendre autonomes.",
-     "proba": 0.064,
-     "potentiel": 0.007,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 4,
-       "nom": "sujet x / epreuve / x sujet x / choix",
-       "part": 0.38
-      },
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.38
-      },
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-1",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-zero-2",
-       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 3,
-   "titre": "Varier les supports",
-   "passages": 3,
-   "proba": 0.077,
-   "potentiel": 0.038,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.245,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 27,
-     "texte": "L’utilisation de supports riches et variés est donc recommandée. Elle peut aller de textes fictionnels et non fictionnels à des films et autres documents sonores et peut aussi, dès lors que le contenu s’y prête, donner lieu à une mise en perspective interculturelle. L’image fixe ou mobile, quant à elle, n’a pas vocation à être perçue comme simple illustration.",
-     "proba": 0.077,
-     "potentiel": 0.038,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 0.5
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.38
-      },
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2026-polynesie-remplacement",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1ère partie\nSynthèse du dossier, en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglai"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2021-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Voyages, Territoires, Frontières ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (m"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 26,
-     "texte": "Les élèves tirant le plus grand bénéfice à être confrontés à des supports variés et à une approche multimodale de l’enseignement de la langue étrangère, on veille à les familiariser non seulement avec des œuvres littéraires et des auteurs, mais aussi avec toute autre forme d’expression artistique et intellectuelle comme des articles de presse, des œuvres cinématographiques, picturales ou musicales",
-     "proba": 0.074,
-     "potentiel": 0.005,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.75
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2026-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 28,
-     "texte": "Un entraînement à l’analyse de l’image doit trouver toute sa place dans l’enseignement de spécialité. Les élèves peuvent ainsi s’approprier ce patrimoine de manière concrète, active et autonome.",
-     "proba": 0.077,
-     "potentiel": 0.001,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "place"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "thematique / x thematique / x anglais / anglais",
-       "part": 0.5
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      },
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2025-metropole-remplacement",
-       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the characteristics of the th"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
-      }
-     ],
-     "intention": null
     }
    ]
   },
@@ -3619,17 +3318,17 @@
    "titre": "Réception",
    "passages": 2,
    "proba": 0.092,
-   "potentiel": 0.025,
+   "potentiel": 0.533,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.235,
+   "priorite": 0.264,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 36,
      "texte": "Tout au long des deux années d’enseignement de spécialité, les élèves sont progressivement entraînés à :  lire des textes de plus en plus longs, issus de la littérature, de la critique ou de la presse ;  lire des textes littéraires, classiques et contemporains, appartenant à différents genres ;  comprendre l’information contenue dans les documents audio-visuels (émissions de télévision ou radio",
      "proba": 0.092,
-     "potentiel": 0.025,
+     "potentiel": 0.533,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "long"
@@ -3663,7 +3362,7 @@
      "passage": 35,
      "texte": "L’enseignement de spécialité cherche toutes les occasions d’exposer les élèves à la langue écrite et orale à travers tous types de médias. Ils sont exercés à comprendre des énoncés simples et de plus en plus élaborés, dans une langue authentique aux accents variés. Ils ne sont pas limités à la fréquentation d’une variante donnée et considèrent dans sa totalité la langue qu’ils étudient.",
      "proba": 0.09,
-     "potentiel": 0.012,
+     "potentiel": 0.233,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "ecrite"
@@ -3696,21 +3395,139 @@
    ]
   },
   {
+   "section": 2,
+   "titre": "Perspective actionnelle et démarche de projet",
+   "passages": 2,
+   "proba": 0.068,
+   "potentiel": 0.585,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.257,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 25,
+     "texte": "Ainsi, la constitution par les élèves d’un dossier dans lequel ils présentent des documents vus en classe et choisis par eux-mêmes en lien avec les thématiques du programme, fait partie de la démarche globale qui vise à encourager leur esprit d’initiative. Ce dossier personnel rend compte du patrimoine linguistique, littéraire et culturel que l’enseignement de spécialité leur a offert.",
+     "proba": 0.068,
+     "potentiel": 0.585,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "compte"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2026-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 24,
+     "texte": "L’enseignement de spécialité s’inscrit, comme l’enseignement commun de langues vivantes, dans une perspective actionnelle que les professeurs cherchent à mettre en œuvre afin d’installer les élèves dans une démarche de projet pour les rendre autonomes.",
+     "proba": 0.064,
+     "potentiel": 0.146,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "sujet x / epreuve / x sujet x / choix",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.38
+      },
+      {
+       "facette": 3,
+       "nom": "paying particular attention / how they interact / they interact x / interact",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-2",
+       "enonce": "Enseignement de spécialité\n« Langues, littératures et cultures étrangères et régionales »\nANGLAIS\nÉpreuve écrite de terminale\nDURÉE DE L’ÉPREUVE : 3H30\nLe candidat traitera, au choix, l’ensemble du sujet 1 ou du sujet 2."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 4,
    "titre": "Les outils numériques",
    "passages": 6,
    "proba": 0.09,
-   "potentiel": 0.023,
+   "potentiel": 0.433,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.222,
+   "priorite": 0.219,
    "niveau": "à connaître",
    "passages_cles": [
+    {
+     "passage": 34,
+     "texte": "La finalité de l’apprentissage des langues vivantes dans le cadre de l’enseignement de spécialité est de viser les niveaux de compétence suivants : le niveau attendu est B2 en fin de première et, en fin de terminale, le niveau C1 est visé, notamment dans les activités de réception selon le parcours linguistique de l’élève. (Cf. le volume complémentaire du CECRL, janvier 2018 pour la traduction fra",
+     "proba": 0.09,
+     "potentiel": 0.433,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "terminale"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "paying particular attention / how they interact / they interact x / interact",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2025-metropole-remplacement",
+       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the characteristics of the th"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 32,
      "texte": "Les élèves qui font le choix de suivre l’enseignement de langues, littératures et cultures étrangères et régionales commencent dès la classe de première à circuler en autonomie à travers tous types de supports et doivent atteindre à la fin de l’année de terminale une bonne maîtrise de la langue, à la fois orale et écrite.",
      "proba": 0.086,
-     "potentiel": 0.023,
+     "potentiel": 0.308,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3744,44 +3561,10 @@
      "intention": null
     },
     {
-     "passage": 34,
-     "texte": "La finalité de l’apprentissage des langues vivantes dans le cadre de l’enseignement de spécialité est de viser les niveaux de compétence suivants : le niveau attendu est B2 en fin de première et, en fin de terminale, le niveau C1 est visé, notamment dans les activités de réception selon le parcours linguistique de l’élève. (Cf. le volume complémentaire du CECRL, janvier 2018 pour la traduction fra",
-     "proba": 0.09,
-     "potentiel": 0.018,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "terminale"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 3,
-       "nom": "paying particular attention / how they interact / they interact x / interact",
-       "part": 0.75
-      },
-      {
-       "facette": 1,
-       "nom": "colon / sujet / x sujet / write",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-llcer-anglais-2025-metropole-remplacement",
-       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the characteristics of the th"
-      },
-      {
-       "sujet": "spe-llcer-anglais-2025-amerique-nord",
-       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 30,
      "texte": "Il permet de renforcer les compétences des élèves en réception et en production, notamment grâce à :  l'accès à des ressources numériques d'archives ou de l’actualité la plus directe (écoute de documents en flux direct ou téléchargés librement, recherches documentaires sur internet, lecture audio, visionnage d’adaptations théâtrales et télévisées d’œuvres classiques, captations diverses, etc.) ; ",
      "proba": 0.078,
-     "potentiel": 0.004,
+     "potentiel": 0.257,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3811,17 +3594,17 @@
    "titre": "Production",
    "passages": 8,
    "proba": 0.099,
-   "potentiel": 0.02,
+   "potentiel": 0.39,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.219,
+   "priorite": 0.213,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 38,
      "texte": "L’écriture créative peut s’appuyer sur des pratiques de la vie courante (lettres, blogues, etc.) ou s’inscrire dans des formes plus littéraires : dialogues, suites de textes, récits. Cette activité peut donner lieu à des exercices de médiation : résumé, compte-rendu, synthèse, adaptation, traduction, explicitation, reformulation, etc. L’écriture argumentative forme l’esprit critique et encourage l",
      "proba": 0.094,
-     "potentiel": 0.02,
+     "potentiel": 0.39,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3858,7 +3641,7 @@
      "passage": 43,
      "texte": "De même, diverses formes de mise en œuvre peuvent être explorées : la mémorisation d’un texte et son interprétation musicale ou théâtrale, la réalisation d’une interview ou l’animation d’une table ronde, la transposition dans un contexte et un lieu autres d’un personnage fictionnel ou mythique de l’aire linguistique qui le concerne.",
      "proba": 0.097,
-     "potentiel": 0.009,
+     "potentiel": 0.299,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3887,14 +3670,12 @@
      "intention": null
     },
     {
-     "passage": 41,
-     "texte": "À terme, on attend d’eux qu’ils soient capables de rédiger des textes détaillés, construits et nuancés, prenant en compte le contexte et le destinataire. Pour toutes ces activités, les élèves trouvent un appui dans l’usage méthodique des ouvrages de référence tels que dictionnaires et grammaires.",
-     "proba": 0.096,
-     "potentiel": 0.007,
+     "passage": 39,
+     "texte": "Il peut s’agir, par exemple, d’un commentaire de document, d’une synthèse de documents, d’une critique de film, d’un droit de réponse, d’un discours engagé, d’un essai, etc. Cette",
+     "proba": 0.095,
+     "potentiel": 0.21,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "compte"
-     ],
+     "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
@@ -3910,12 +3691,239 @@
      ],
      "questions_passees_proches": [
       {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a short commentary on the three documents (minim"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-3",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary (about 500 words) on documents A, B"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "Développer le goût de lire",
+   "passages": 9,
+   "proba": 0.063,
+   "potentiel": 0.487,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.204,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 16,
+     "texte": "Outre les œuvres du programme limitatif, la lecture d’œuvres intégrales est recommandée et s’accompagne de la lecture d’extraits significatifs d’autres œuvres permettant de découvrir des auteurs et des courants littéraires majeurs représentatifs de l’aire culturelle et linguistique étudiée.",
+     "proba": 0.044,
+     "potentiel": 0.487,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
        "sujet": "spe-llcer-anglais-2025-polynesie",
        "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglais la consigne suivante"
       },
       {
        "sujet": "spe-llcer-anglais-2025-polynesie-remplacement",
        "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\n1ère partie\nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et traitez en anglais la consigne suivante (500 mots en"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 21,
+     "texte": "général (architecture, chanson, cinéma, musique, peinture, photographie, sculpture et télévision) et de l’histoire des idées. Les artistes, les penseurs et leurs œuvres sont replacés dans leur contexte historique, politique et social.",
+     "proba": 0.06,
+     "potentiel": 0.301,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2022-asie",
+       "enonce": "Le sujet porte sur la thématique « Expression et construction de soi ».\n1re partie. Synthèse en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2026-polynesie-remplacement",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1ère partie\nSynthèse du dossier, en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglai"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 17,
+     "texte": "Des textes contemporains et faciles d’accès, qu’il s’agisse d’œuvres intégrales ou d’extraits, peuvent dans ce cadre être proposés à côté de textes classiques qui constituent des références importantes. Tous les genres littéraires trouvent leur place dans ce nouvel enseignement de spécialité : théâtre, poésie ou prose dans les différentes formes qu’elle peut prendre (roman, nouvelle, conte, journa",
+     "proba": 0.046,
+     "potentiel": 0.277,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "place"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-1",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a short commentary on the three documents (minim"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-zero-3",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary (about 500 words) on documents A, B"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "Varier les supports",
+   "passages": 3,
+   "proba": 0.077,
+   "potentiel": 0.384,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.182,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 27,
+     "texte": "L’utilisation de supports riches et variés est donc recommandée. Elle peut aller de textes fictionnels et non fictionnels à des films et autres documents sonores et peut aussi, dès lors que le contenu s’y prête, donner lieu à une mise en perspective interculturelle. L’image fixe ou mobile, quant à elle, n’a pas vocation à être perçue comme simple illustration.",
+     "proba": 0.077,
+     "potentiel": 0.384,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "paying particular attention / how they interact / they interact x / interact",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2026-polynesie-remplacement",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées ».\n1ère partie\nSynthèse du dossier, en anglais \nPrenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C, et traitez en anglai"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2021-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Voyages, Territoires, Frontières ».\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (m"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 26,
+     "texte": "Les élèves tirant le plus grand bénéfice à être confrontés à des supports variés et à une approche multimodale de l’enseignement de la langue étrangère, on veille à les familiariser non seulement avec des œuvres littéraires et des auteurs, mais aussi avec toute autre forme d’expression artistique et intellectuelle comme des articles de presse, des œuvres cinématographiques, picturales ou musicales",
+     "proba": 0.074,
+     "potentiel": 0.156,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2026-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 28,
+     "texte": "Un entraînement à l’analyse de l’image doit trouver toute sa place dans l’enseignement de spécialité. Les élèves peuvent ainsi s’approprier ce patrimoine de manière concrète, active et autonome.",
+     "proba": 0.077,
+     "potentiel": 0.013,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "place"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "thematique / x thematique / x anglais / anglais",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "colon / sujet / x sujet / write",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "paying particular attention / how they interact / they interact x / interact",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-anglais-2025-metropole-remplacement",
+       "enonce": "Prenez connaissance de la thématique ci-dessus et du dossier composé des\ndocuments A, B et C et répondez en anglais à la consigne suivante (500 mots\nenviron) :\nPaying particular attention to the characteristics of the th"
+      },
+      {
+       "sujet": "spe-llcer-anglais-2025-amerique-nord",
+       "enonce": "Le sujet porte sur la thématique « Arts et débats d’idées »\nPartie 1 (16 pts) : prenez connaissance des documents A, B et C et traitez le sujet\nsuivant en anglais :\nWrite a commentary on the three documents (about 500 wo"
       }
      ],
      "intention": null
@@ -3945,23 +3953,20 @@
    ]
   },
   "nouveaute": {
-   "familles": [
-    "lexique_du_professeur"
-   ],
-   "modele": "arbres",
-   "mele_a_l_ancienne": false,
-   "essayes": {
-    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.701
+   "autocritique": {
+    "lexique_du_professeur/logistique": 0.333,
+    "lexique_du_professeur/arbres": 0.667
    },
+   "diversification": 0.0,
    "score_rejoue": [
-    0.237,
-    0.919,
-    0.669,
-    0.954,
-    0.728
+    0.331,
+    0.921,
+    0.678,
+    0.956,
+    0.726
    ],
    "fourchette": [
-    0.0,
+    0.055945398687334114,
     1.0
    ]
   }
@@ -4008,6 +4013,127 @@
    "fourchette_juste": 0.852,
    "largeur_moyenne": 0.79,
    "taches": 643
+  }
+ },
+ "preuve_autocritique": {
+  "matiere_exclue": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4075,
+     "auc": 0.7985,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4075,
+     "auc": 0.7985,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4075,
+     "auc": 0.7985,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.5954,
+     "auc": 0.6891,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6211,
+     "auc": 0.7249,
+     "gain": 0.0292,
+     "pseudo_gain": 0.0262
+    },
+    "critique": {
+     "couverture": 0.6724,
+     "auc": 0.7331,
+     "gain": 0.0813,
+     "pseudo_gain": 0.0607
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "synthese": {
+   "prevision": {
+    "ancienne": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    },
+    "regle": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    },
+    "critique": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.413,
+     "auc_moyenne": 0.634,
+     "critere": 0.0
+    },
+    "regle": {
+     "gain_moyen": 0.1252,
+     "pire_matiere": -0.1841,
+     "matieres_gagnees": 16,
+     "matieres_perdues": 4,
+     "couverture_moyenne": 0.53,
+     "auc_moyenne": 0.709,
+     "critere": 0.1252
+    },
+    "critique": {
+     "gain_moyen": 0.161,
+     "pire_matiere": -0.1251,
+     "matieres_gagnees": 16,
+     "matieres_perdues": 3,
+     "couverture_moyenne": 0.567,
+     "auc_moyenne": 0.698,
+     "critere": 0.161
+    }
+   }
   }
  }
 }

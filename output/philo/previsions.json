@@ -671,149 +671,21 @@
  },
  "programme": [
   {
-   "section": 10,
-   "titre": "La religion",
-   "passages": 14,
-   "proba": 0.922,
-   "potentiel": 0.992,
-   "annees_tombees": 6,
-   "sur": 6,
-   "priorite": 0.957,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 79,
-     "texte": "• une séquence sur « la conscience » peut diversement et de façon non exhaustive porter sur son rapport à « l’inconscient » (dualisme âme/corps, théorie du psychisme inconscient), à « la religion » (liberté de conscience, autonomie du sentiment religieux), au « temps » (psychologie rationnelle, perception du successif), à « la justice » (la décision judiciaire, les conflits de droit), etc.",
-     "proba": 0.881,
-     "potentiel": 0.992,
-     "deja_tombe": 4,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.62
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.22
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.16
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-antilles-guyane-remplacement",
-       "enonce": "Suis-je ce que mon inconscient fait de moi ?"
-      },
-      {
-       "sujet": "philosophie-2021-metropole-remplacement",
-       "enonce": "La conscience nous fait-elle connaître la vérité de ce que nous sommes ?"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 78,
-     "texte": "• une séquence sur « la technique » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (l’émancipation des forces de la nature), « la vérité » (la relation des sciences aux techniques), « le travail » (l’esclavage, l’organisation économique et sociale), « la justice » (les nouvelles technologies et les transformations du droit), etc.",
-     "proba": 0.864,
-     "potentiel": 0.989,
-     "deja_tombe": 4,
-     "evalue_sans_etre_dit": [
-      "travail"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.62
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.22
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.16
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-antilles-guyane-remplacement",
-       "enonce": "La technique nuit-elle nécessairement à la nature ?"
-      },
-      {
-       "sujet": "philosophie-2021-asie",
-       "enonce": "Existe-t-il des techniques pour être heureux ?"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 77,
-     "texte": "• une séquence sur « le langage » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (liberté d’expression et de parole), son rapport à « la raison » (la logique, l’indicible), son rapport « la nature » (les origines du langage, les langues naturelles), son rapport à « la vérité » (le mensonge, les sophismes), etc. ;",
-     "proba": 0.922,
-     "potentiel": 0.63,
-     "deja_tombe": 5,
-     "evalue_sans_etre_dit": [
-      "logique"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.62
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.22
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.16
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-antilles-guyane",
-       "enonce": "L’artiste peut-il dire la vérité ?"
-      },
-      {
-       "sujet": "philosophie-2021-zero-1",
-       "enonce": "Le langage trahit-il la pensée ?"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 7,
    "titre": "Les perspectives",
    "passages": 12,
    "proba": 0.955,
-   "potentiel": 0.996,
+   "potentiel": 0.919,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.927,
+   "priorite": 0.972,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 59,
      "texte": "Le fait de la tradition se voit ainsi doté d’une signification normative, les problèmes qu’elle recouvre ne sont ni identifiés, ni nommés comme tels, indépendamment de la reprise et de l’actualisation qu’en effectue le professeur. C’est donc à ce dernier qu’il revient, en toute liberté et suivant la logique de son propre parcours, de faire connaître les traditions les mieux adaptées à la progressi",
      "proba": 0.955,
-     "potentiel": 0.81,
+     "potentiel": 0.896,
      "deja_tombe": 6,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -850,7 +722,7 @@
      "passage": 60,
      "texte": "Les « perspectives » sont ainsi réputées déterminer et limiter tout à la fois les associations permises entre les notions du programme. Celui dispose donc que les professeurs sont « invités » à les prendre en compte, car elles déterminent et limitent tout à la fois les intitulés de sujet des épreuves écrites du baccalauréat.",
      "proba": 0.543,
-     "potentiel": 0.996,
+     "potentiel": 0.919,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "prendre",
@@ -890,7 +762,7 @@
      "passage": 55,
      "texte": "Ces perspectives ne s’ajoutent donc pas aux notions : elles définissent le cadre dans lequel elles peuvent donner lieu à des sujets de baccalauréat et orientent ainsi, sans le contraindre, le traitement des notions par les professeurs et leurs élèves. Elles excluent toute répartition prédéfinie des notions.",
      "proba": 0.595,
-     "potentiel": 0.954,
+     "potentiel": 0.797,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "lieu",
@@ -929,21 +801,149 @@
    ]
   },
   {
+   "section": 10,
+   "titre": "La religion",
+   "passages": 14,
+   "proba": 0.922,
+   "potentiel": 0.899,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.95,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 79,
+     "texte": "• une séquence sur « la conscience » peut diversement et de façon non exhaustive porter sur son rapport à « l’inconscient » (dualisme âme/corps, théorie du psychisme inconscient), à « la religion » (liberté de conscience, autonomie du sentiment religieux), au « temps » (psychologie rationnelle, perception du successif), à « la justice » (la décision judiciaire, les conflits de droit), etc.",
+     "proba": 0.881,
+     "potentiel": 0.899,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.22
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane-remplacement",
+       "enonce": "Suis-je ce que mon inconscient fait de moi ?"
+      },
+      {
+       "sujet": "philosophie-2021-metropole-remplacement",
+       "enonce": "La conscience nous fait-elle connaître la vérité de ce que nous sommes ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 78,
+     "texte": "• une séquence sur « la technique » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (l’émancipation des forces de la nature), « la vérité » (la relation des sciences aux techniques), « le travail » (l’esclavage, l’organisation économique et sociale), « la justice » (les nouvelles technologies et les transformations du droit), etc.",
+     "proba": 0.864,
+     "potentiel": 0.89,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "travail"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.22
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane-remplacement",
+       "enonce": "La technique nuit-elle nécessairement à la nature ?"
+      },
+      {
+       "sujet": "philosophie-2021-asie",
+       "enonce": "Existe-t-il des techniques pour être heureux ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 77,
+     "texte": "• une séquence sur « le langage » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (liberté d’expression et de parole), son rapport à « la raison » (la logique, l’indicible), son rapport « la nature » (les origines du langage, les langues naturelles), son rapport à « la vérité » (le mensonge, les sophismes), etc. ;",
+     "proba": 0.922,
+     "potentiel": 0.797,
+     "deja_tombe": 5,
+     "evalue_sans_etre_dit": [
+      "logique"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.22
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "L’artiste peut-il dire la vérité ?"
+      },
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Le langage trahit-il la pensée ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 12,
    "titre": "Les repères",
    "passages": 17,
    "proba": 0.97,
-   "potentiel": 0.853,
+   "potentiel": 0.881,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.904,
+   "priorite": 0.946,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 108,
      "texte": "• La raison : quels sont les rôles de l’analyse et de la synthèse dans les processus démonstratifs ? raisonne-t-on sur des exemples ou sur des preuves ? qu’est-ce qui distingue raison théorique et raison pratique ? que sont un principe ou une fin ?",
      "proba": 0.967,
-     "potentiel": 0.464,
+     "potentiel": 0.829,
      "deja_tombe": 6,
      "evalue_sans_etre_dit": [
       "quels",
@@ -980,47 +980,10 @@
      "intention": null
     },
     {
-     "passage": 109,
-     "texte": "• Le temps : le temps est-il absolu ou relatif ? est-il intuitif ou discursif ? idéal ou réel ? subjectif ou objectif ?",
-     "proba": 0.97,
-     "potentiel": 0.3,
-     "deja_tombe": 6,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.5
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-zero-2",
-       "enonce": "Y a-t-il de justes inégalités ?"
-      },
-      {
-       "sujet": "philosophie-2022-centres-etrangers",
-       "enonce": "Le bonheur nous échappe-t-il inévitablement ?"
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 107,
      "texte": "• L’art : qu’est-ce que l’art abstrait ? y a-t-il de l’essentiel dans l’art ? l’art est-il simple intuition ? qu’est-ce qu’un idéal de l’art ? quels sont le principe et la fin de l’art ? Le goût est- il subjectif, objectif, intersubjectif ?",
      "proba": 0.925,
-     "potentiel": 0.355,
+     "potentiel": 0.835,
      "deja_tombe": 5,
      "evalue_sans_etre_dit": [
       "quels"
@@ -1054,6 +1017,43 @@
       }
      ],
      "intention": null
+    },
+    {
+     "passage": 109,
+     "texte": "• Le temps : le temps est-il absolu ou relatif ? est-il intuitif ou discursif ? idéal ou réel ? subjectif ou objectif ?",
+     "proba": 0.97,
+     "potentiel": 0.803,
+     "deja_tombe": 6,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-2",
+       "enonce": "Y a-t-il de justes inégalités ?"
+      },
+      {
+       "sujet": "philosophie-2022-centres-etrangers",
+       "enonce": "Le bonheur nous échappe-t-il inévitablement ?"
+      }
+     ],
+     "intention": null
     }
    ]
   },
@@ -1062,17 +1062,17 @@
    "titre": "Préambule",
    "passages": 13,
    "proba": 0.845,
-   "potentiel": 0.995,
+   "potentiel": 0.988,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.849,
+   "priorite": 0.89,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 9,
      "texte": "Dans les travaux qui lui sont demandés, l’élève :  examine ses idées et ses connaissances pour en éprouver le bien-fondé ;  circonscrit les questions qui requièrent une réflexion préalable pour recevoir une réponse ;  confronte différents points de vue sur un problème avant d’y apporter une solution appropriée ;  justifie ce qu’il affirme et ce qu’il nie en formulant des propositions construit",
      "proba": 0.845,
-     "potentiel": 0.415,
+     "potentiel": 0.829,
      "deja_tombe": 4,
      "evalue_sans_etre_dit": [
       "idees"
@@ -1111,7 +1111,7 @@
      "passage": 3,
      "texte": "Il exclut la visée encyclopédique et la recherche de l’exhaustivité : il ne s’agit ni de parcourir toutes les étapes de la construction historique de la philosophie ni d’envisager tous les problèmes philosophiques que l’on peut légitimement poser.",
      "proba": 0.74,
-     "potentiel": 0.285,
+     "potentiel": 0.768,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1145,10 +1145,10 @@
      "intention": null
     },
     {
-     "passage": 11,
-     "texte": "Il doit cependant fixer les conditions conciliant une liberté sans laquelle aucune philosophie ni aucun enseignement de la philosophie ne sont possibles, et",
-     "proba": 0.475,
-     "potentiel": 0.995,
+     "passage": 12,
+     "texte": "les exigences d’un examen national assurant une évaluation équitable des efforts des élèves et de leurs acquis. Le programme de l’enseignement de la philosophie dans les classes terminales reprend le principe qui constitue la norme constante et reconnue de la discipline : c’est un programme de notions auxquelles s’adjoint une liste d’auteurs. L’approche des notions et des auteurs est ordonnée à de",
+     "proba": 0.489,
+     "potentiel": 0.93,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1171,12 +1171,12 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "philosophie-2024-asie",
-       "enonce": "Doit-on se libérer de soi-même ?"
+       "sujet": "philosophie-2026-polynesie-remplacement",
+       "enonce": "Expliquer le texte suivant :\nC’est dans les lois des phénomènes que consiste réellement la science, à\nlaquelle les faits proprement dits, quelque exacts et nombreux qu’ils puissent être, ne\nfournissent jamais que d’indis"
       },
       {
-       "sujet": "philosophie-2024-metropole",
-       "enonce": "L’État nous doit-il quelque chose ?"
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "La nature nous impose-t-elle des devoirs ?"
       }
      ],
      "intention": null
@@ -1188,56 +1188,17 @@
    "titre": "Les auteurs du programme1",
    "passages": 17,
    "proba": 0.912,
-   "potentiel": 0.58,
+   "potentiel": 0.803,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.807,
+   "priorite": 0.837,
    "niveau": "probable",
    "passages_cles": [
-    {
-     "passage": 96,
-     "texte": "forment positivement le savoir auquel s’adosse la réflexion philosophique, qui ne surgit jamais d’un fonds personnel, spontané et réfractaire à toute culture donnée, mais toujours de l’étude, du traitement et de l’interprétation des traditions auxquelles elle s’adosse.",
-     "proba": 0.633,
-     "potentiel": 0.58,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "jamais"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.56
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.39
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.06
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2023-polynesie",
-       "enonce": "Savoir rend-il malheureux ?"
-      },
-      {
-       "sujet": "philosophie-2024-polynesie",
-       "enonce": "Le savoir nous rend-il égaux ?"
-      }
-     ],
-     "intention": null
-    },
     {
      "passage": 94,
      "texte": "Ainsi, d’une part, l’étude suivie ou non d’œuvres ne se surajoute pas à l’étude des notions, comme si elle constituait une autre partie des programmes, par exemple destinée à la seule préparation de l’oral dit « de rattrapage » ; et symétriquement, l’étude des notions, quelles que soient ces dernières, ne peut jamais être conduite sans des références explicites et soutenues à des œuvres de philoso",
      "proba": 0.912,
-     "potentiel": 0.088,
+     "potentiel": 0.667,
      "deja_tombe": 4,
      "evalue_sans_etre_dit": [
       "jamais"
@@ -1276,7 +1237,7 @@
      "passage": 95,
      "texte": "Il en résulte que les textes ne sont pas abordés sous un angle historique et comme autant de concrétions culturelles passées, ils constituent « la matière » même de la réflexion conduite avec les élèves. S’ils ne forment ainsi pas des savoirs positifs, dispensés en tant que tels, ils",
      "proba": 0.627,
-     "potentiel": 0.349,
+     "potentiel": 0.803,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "matiere"
@@ -1310,6 +1271,45 @@
       }
      ],
      "intention": null
+    },
+    {
+     "passage": 96,
+     "texte": "forment positivement le savoir auquel s’adosse la réflexion philosophique, qui ne surgit jamais d’un fonds personnel, spontané et réfractaire à toute culture donnée, mais toujours de l’étude, du traitement et de l’interprétation des traditions auxquelles elle s’adosse.",
+     "proba": 0.633,
+     "potentiel": 0.797,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "jamais"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.06
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2023-polynesie",
+       "enonce": "Savoir rend-il malheureux ?"
+      },
+      {
+       "sujet": "philosophie-2024-polynesie",
+       "enonce": "Le savoir nous rend-il égaux ?"
+      }
+     ],
+     "intention": null
     }
    ]
   },
@@ -1318,17 +1318,49 @@
    "titre": "Exercices et apprentissage de la réflexion philosophique",
    "passages": 12,
    "proba": 0.449,
-   "potentiel": 0.981,
+   "potentiel": 0.788,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.744,
+   "priorite": 0.683,
    "niveau": "probable",
    "passages_cles": [
+    {
+     "passage": 43,
+     "texte": "Cependant, composer une explication de texte ou une dissertation ne consiste pas à se soumettre à des règles purement formelles. Il s’agit avant tout de développer un travail philosophique personnel et instruit des connaissances acquises par l’étude des notions et des œuvres.",
+     "proba": 0.449,
+     "potentiel": 0.774,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "La vie en société menace-t-elle notre liberté ?\nExplication de texte philosophique"
+      },
+      {
+       "sujet": "philosophie-2021-zero-2",
+       "enonce": "Faut-il du temps pour devenir soi-même ?\nExplication de texte philosophique"
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 37,
      "texte": "Le programme n’établit pas la liste exhaustive des exercices permettant aux élèves de maîtriser les contenus enseignés et de faire par eux-mêmes l’apprentissage de la réflexion philosophique. Il revient au professeur de leur proposer les exercices les mieux adaptés à leur formation comme à leurs progrès et d’utiliser dans la conduite de son cours diverses démarches philosophiques.",
      "proba": 0.391,
-     "potentiel": 0.981,
+     "potentiel": 0.788,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "philosophiques"
@@ -1362,7 +1394,7 @@
      "passage": 38,
      "texte": "Ce faisant, le professeur fournit des exemples du traitement des questions par les philosophes, que les élèves sont invités à s’approprier afin de progresser dans la construction et l’expression de leur pensée. Les apprentissages reposent toutefois sur deux formes majeures de composition : l’explication de texte et la dissertation.",
      "proba": 0.405,
-     "potentiel": 0.953,
+     "potentiel": 0.742,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "reposent"
@@ -1391,38 +1423,6 @@
       }
      ],
      "intention": null
-    },
-    {
-     "passage": 43,
-     "texte": "Cependant, composer une explication de texte ou une dissertation ne consiste pas à se soumettre à des règles purement formelles. Il s’agit avant tout de développer un travail philosophique personnel et instruit des connaissances acquises par l’étude des notions et des œuvres.",
-     "proba": 0.449,
-     "potentiel": 0.722,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.5
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-zero-1",
-       "enonce": "La vie en société menace-t-elle notre liberté ?\nExplication de texte philosophique"
-      },
-      {
-       "sujet": "philosophie-2021-zero-2",
-       "enonce": "Faut-il du temps pour devenir soi-même ?\nExplication de texte philosophique"
-      }
-     ],
-     "intention": null
     }
    ]
   },
@@ -1431,17 +1431,17 @@
    "titre": "Les notions",
    "passages": 5,
    "proba": 0.072,
-   "potentiel": 0.013,
+   "potentiel": 0.365,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.282,
+   "priorite": 0.292,
    "niveau": "probable",
    "passages_cles": [
     {
      "passage": 62,
      "texte": "Le nombre et le choix des notions sont nécessairement liés aux conditions de l’enseignement de la philosophie dans les classes terminales. La cohérence et l’homogénéité de notions choisies en nombre adapté à l’horaire qui lui est dévolu assurent la limitation du programme.",
      "proba": 0.054,
-     "potentiel": 0.013,
+     "potentiel": 0.365,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "nombre",
@@ -1476,7 +1476,7 @@
      "passage": 63,
      "texte": "Elles permettent d’explorer les trois perspectives retenues, en étudiant les notions dans les relations essentielles qu’elles entretiennent entre elles et, ainsi, de conduire avec les élèves une authentique réflexion philosophique qui les prépare directement aux exercices qui leur seront proposés à l’examen.",
      "proba": 0.055,
-     "potentiel": 0.009,
+     "potentiel": 0.357,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1510,23 +1510,23 @@
      "intention": null
     },
     {
-     "passage": 65,
-     "texte": "Le programme de la voie générale propose à l’étude dix-sept notions.",
-     "proba": 0.072,
-     "potentiel": 0.006,
+     "passage": 61,
+     "texte": "Les programmes des voies générale aussi bien que technologique disposent que :",
+     "proba": 0.052,
+     "potentiel": 0.258,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.88
-      },
-      {
        "facette": 0,
        "nom": "colon / est / que / x est",
-       "part": 0.12
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.38
       }
      ],
      "questions_passees_proches": [
@@ -1548,17 +1548,17 @@
    "titre": "Repères",
    "passages": 3,
    "proba": 0.052,
-   "potentiel": 0.018,
+   "potentiel": 0.29,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.275,
+   "priorite": 0.233,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 34,
      "texte": "L’examen des notions et l’étude des œuvres sont précisés et enrichis par des repères que le professeur sollicite dans la conduite de son enseignement. Explicitement formulés afin que les élèves se les approprient, les repères ne font en aucun cas l’objet d’un enseignement séparé ni ne constituent des parties de cours.",
      "proba": 0.041,
-     "potentiel": 0.018,
+     "potentiel": 0.29,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1595,7 +1595,7 @@
      "passage": 35,
      "texte": "Les repères prennent la forme de distinctions lexicales et conceptuelles qui, bien comprises, soutiennent la réflexion que l’élève construit pour traiter un problème. Leur caractère opératoire et leur usage ajusté à des situations déterminées d’étude et d’analyse interdisent de les réduire à des définitions figées. Les repères les plus fréquemment sollicités et les plus formateurs sont indiqués ci",
      "proba": 0.048,
-     "potentiel": 0.002,
+     "potentiel": 0.078,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "caractere"
@@ -1629,7 +1629,7 @@
      "passage": 36,
      "texte": "Absolu/relatif – Abstrait/concret – En acte/en puissance – Analyse/synthèse – Concept/image/métaphore – Contingent/nécessaire – Croire/savoir – Essentiel/accidentel – Exemple/preuve - Expliquer/comprendre – En fait/en droit – Formel/matériel – Genre/espèce/individu – Hypothèse/conséquence/conclusion – Idéal/réel – Identité/égalité/différence – Impossible/possible – Intuitif/discursif – Légal/légit",
      "proba": 0.052,
-     "potentiel": 0.0,
+     "potentiel": 0.012,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "vrai",
@@ -1670,21 +1670,149 @@
    ]
   },
   {
+   "section": 3,
+   "titre": "La science",
+   "passages": 4,
+   "proba": 0.031,
+   "potentiel": 0.383,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.226,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 24,
+     "texte": "Il faut et il suffit que, durant l’année scolaire, elles soient toutes examinées dans leurs dimensions essentielles. Communément partagées, ces notions font l’objet d’une élaboration conceptuelle mettant en évidence les problèmes que soulèvent leur définition et leur articulation entre elles. Elles peuvent être interrogées à la faveur de l’étude suivie d’une œuvre.",
+     "proba": 0.029,
+     "potentiel": 0.383,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.75
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2024-asie",
+       "enonce": "Faut-il se battre pour la vérité ?"
+      },
+      {
+       "sujet": "philosophie-2024-centres-etrangers",
+       "enonce": "Pourquoi faut-il se fier à la science ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 22,
+     "texte": "La présentation des notions doit être rapportée et subordonnée aux explications et aux orientations qui lui donnent sens et que ce programme énonce explicitement. Elle ne se réduit pas à une liste d’objets d’étude distincts et invite donc à ne pas traiter chaque notion comme un chapitre séparé des autres, sans toutefois imposer à l’avance au professeur une démarche philosophique dont il est seul r",
+     "proba": 0.027,
+     "potentiel": 0.322,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "seul",
+      "reduit",
+      "objets"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2022-polynesie",
+       "enonce": "Il suffit de tenir compte de la faiblesse humaine pour comprendre qu’une vie d’où la\nnotion même du travail aurait à peu près disparu serait livrée aux passions et peut-être à la\nfolie ; il n’y a pas de maîtrise de soi s"
+      },
+      {
+       "sujet": "philosophie-2022-nouvelle-caledonie",
+       "enonce": "Dépouiller autrui et augmenter ses aises aux dépens des autres, voilà qui est\ncontraire à la nature, bien plus encore que la mort, la pauvreté, la douleur, que tous les\naccidents qui peuvent arriver à notre corps ou à no"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 25,
+     "texte": "Le professeur veille toujours à souligner la complémentarité des approches dont une même notion a fait l’objet en des moments distincts de son enseignement. Si ce programme de notions veille à n’imprimer aucune orientation doctrinale particulière ni aucune limitation arbitraire du traitement philosophique des notions, il détermine et limite cependant les sujets qu’il est possible de proposer à l’e",
+     "proba": 0.031,
+     "potentiel": 0.252,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2022-asie",
+       "enonce": "Expliquer le texte suivant :\nLa haine que les hommes portent au privilège s’augmente à mesure que les privilèges\ndeviennent plus rares et moins grands, de telle sorte qu'on dirait que les passions\ndémocratiques s'enflamm"
+      },
+      {
+       "sujet": "philosophie-2023-polynesie-remplacement",
+       "enonce": "Expliquer le texte suivant :\nLa liberté politique dans un citoyen est cette tranquillité d’esprit qui provient de\nl’opinion que chacun a de sa sûreté ; et pour qu’on ait cette liberté, il faut que le\ngouvernement soit te"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 4,
    "titre": "Auteurs",
    "passages": 8,
    "proba": 0.04,
-   "potentiel": 0.026,
+   "potentiel": 0.357,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.25,
+   "priorite": 0.219,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 26,
      "texte": "L’étude d’œuvres de philosophes est inséparable de l’examen des notions. Au-delà de la culture qu’elle dispense, elle forme la matière même de l’enseignement de la philosophie.",
      "proba": 0.032,
-     "potentiel": 0.026,
+     "potentiel": 0.357,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "matiere"
@@ -1718,7 +1846,7 @@
      "passage": 29,
      "texte": "Elle n’est pas séparée du cours dont elle accompagne le développement selon des modalités que le professeur détermine à partir des besoins de ses élèves. L’étude suivie d’une œuvre ne signifie pas nécessairement son étude intégrale. Il convient cependant de développer",
      "proba": 0.036,
-     "potentiel": 0.006,
+     "potentiel": 0.249,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "signifie",
@@ -1753,7 +1881,7 @@
      "passage": 30,
      "texte": "toujours une analyse précise d’œuvres ou de parties choisies qui présentent une ampleur suffisante, une unité et une continuité. Le professeur veille à ce que le choix de l’œuvre ou des parties qu’il retient soit propre à en favoriser la compréhension par tous les élèves.",
      "proba": 0.036,
-     "potentiel": 0.005,
+     "potentiel": 0.229,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1793,17 +1921,17 @@
    "titre": "Perspectives",
    "passages": 5,
    "proba": 0.022,
-   "potentiel": 0.062,
+   "potentiel": 0.499,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.235,
+   "priorite": 0.21,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 15,
      "texte": "Ces perspectives ne s’ajoutent donc pas aux notions : elles définissent le cadre dans lequel elles peuvent donner lieu à des sujets de baccalauréat et orientent ainsi, sans le contraindre, le traitement des notions par les professeurs et leurs élèves. Elles excluent toute répartition prédéfinie des notions.",
      "proba": 0.007,
-     "potentiel": 0.062,
+     "potentiel": 0.499,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "lequel",
@@ -1844,7 +1972,7 @@
      "passage": 17,
      "texte": "Les notions retenues le sont précisément parce qu’on ne saurait réduire d’avance leur examen à une dimension unique de l’expérience humaine.",
      "proba": 0.022,
-     "potentiel": 0.008,
+     "potentiel": 0.359,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "precisement",
@@ -1885,7 +2013,7 @@
      "passage": 16,
      "texte": "Ainsi, à simple titre d’exemple, la notion de raison peut être abordée dans une réflexion sur la connaissance, mais tout aussi bien dans une perspective pratique ; l’art ou la technique peuvent donner lieu à une réflexion morale, à une interrogation sur le type de connaissance qu’ils procurent mais aussi sur leur place dans l’existence humaine et la culture.",
      "proba": 0.009,
-     "potentiel": 0.004,
+     "potentiel": 0.304,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "connaissance",
@@ -1928,194 +2056,21 @@
    ]
   },
   {
-   "section": 3,
-   "titre": "La science",
-   "passages": 4,
-   "proba": 0.031,
-   "potentiel": 0.021,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.233,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 24,
-     "texte": "Il faut et il suffit que, durant l’année scolaire, elles soient toutes examinées dans leurs dimensions essentielles. Communément partagées, ces notions font l’objet d’une élaboration conceptuelle mettant en évidence les problèmes que soulèvent leur définition et leur articulation entre elles. Elles peuvent être interrogées à la faveur de l’étude suivie d’une œuvre.",
-     "proba": 0.029,
-     "potentiel": 0.021,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.75
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.12
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2024-asie",
-       "enonce": "Faut-il se battre pour la vérité ?"
-      },
-      {
-       "sujet": "philosophie-2024-centres-etrangers",
-       "enonce": "Pourquoi faut-il se fier à la science ?"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 25,
-     "texte": "Le professeur veille toujours à souligner la complémentarité des approches dont une même notion a fait l’objet en des moments distincts de son enseignement. Si ce programme de notions veille à n’imprimer aucune orientation doctrinale particulière ni aucune limitation arbitraire du traitement philosophique des notions, il détermine et limite cependant les sujets qu’il est possible de proposer à l’e",
-     "proba": 0.031,
-     "potentiel": 0.009,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.5
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2022-asie",
-       "enonce": "Expliquer le texte suivant :\nLa haine que les hommes portent au privilège s’augmente à mesure que les privilèges\ndeviennent plus rares et moins grands, de telle sorte qu'on dirait que les passions\ndémocratiques s'enflamm"
-      },
-      {
-       "sujet": "philosophie-2023-polynesie-remplacement",
-       "enonce": "Expliquer le texte suivant :\nLa liberté politique dans un citoyen est cette tranquillité d’esprit qui provient de\nl’opinion que chacun a de sa sûreté ; et pour qu’on ait cette liberté, il faut que le\ngouvernement soit te"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 22,
-     "texte": "La présentation des notions doit être rapportée et subordonnée aux explications et aux orientations qui lui donnent sens et que ce programme énonce explicitement. Elle ne se réduit pas à une liste d’objets d’étude distincts et invite donc à ne pas traiter chaque notion comme un chapitre séparé des autres, sans toutefois imposer à l’avance au professeur une démarche philosophique dont il est seul r",
-     "proba": 0.027,
-     "potentiel": 0.007,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "seul",
-      "reduit",
-      "objets"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.75
-      },
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.12
-      },
-      {
-       "facette": 2,
-       "nom": "etre / peut x / peut / qm",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2022-polynesie",
-       "enonce": "Il suffit de tenir compte de la faiblesse humaine pour comprendre qu’une vie d’où la\nnotion même du travail aurait à peu près disparu serait livrée aux passions et peut-être à la\nfolie ; il n’y a pas de maîtrise de soi s"
-      },
-      {
-       "sujet": "philosophie-2022-nouvelle-caledonie",
-       "enonce": "Dépouiller autrui et augmenter ses aises aux dépens des autres, voilà qui est\ncontraire à la nature, bien plus encore que la mort, la pauvreté, la douleur, que tous les\naccidents qui peuvent arriver à notre corps ou à no"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 9,
-   "titre": "La science",
-   "passages": 1,
-   "proba": 0.079,
-   "potentiel": 0.002,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.205,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 66,
-     "texte": "Le programme de la voie technologique propose à l’étude sept notions.",
-     "proba": 0.079,
-     "potentiel": 0.002,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.75
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-metropole",
-       "enonce": "Sommes-nous responsables de l’avenir ?"
-      },
-      {
-       "sujet": "philosophie-2026-metropole",
-       "enonce": "Avons-nous la maîtrise de nos paroles ?"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 2,
    "titre": "Notions",
    "passages": 4,
    "proba": 0.025,
-   "potentiel": 0.019,
+   "potentiel": 0.377,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.195,
+   "priorite": 0.191,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 18,
      "texte": "Le nombre et le choix des notions sont nécessairement liés aux conditions de l’enseignement de la philosophie dans les classes terminales. La cohérence et l’homogénéité de notions choisies en nombre adapté à l’horaire qui lui est dévolu assurent la limitation du programme.",
      "proba": 0.022,
-     "potentiel": 0.019,
+     "potentiel": 0.377,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "nombre",
@@ -2147,42 +2102,10 @@
      "intention": null
     },
     {
-     "passage": 21,
-     "texte": "Le programme propose à l’étude dix-sept notions :",
-     "proba": 0.025,
-     "potentiel": 0.003,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "qm / x qm / elle / nous",
-       "part": 0.75
-      },
-      {
-       "facette": 0,
-       "nom": "colon / est / que / x est",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "philosophie-2021-centres-etrangers",
-       "enonce": "Existe-t-il des vérités définitives ?"
-      },
-      {
-       "sujet": "philosophie-2025-amerique-sud",
-       "enonce": "L’État nous protège-t-il des injustices ?"
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 19,
      "texte": "Elles permettent d’explorer les trois perspectives retenues, en étudiant les notions dans les relations essentielles qu’elles entretiennent entre elles et, ainsi, de conduire avec les élèves une authentique réflexion philosophique qui les prépare directement aux exercices qui leur seront proposés à l’examen. Les notions retenues ne font donc l’objet d’aucune association privilégiée.",
      "proba": 0.023,
-     "potentiel": 0.004,
+     "potentiel": 0.246,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2214,6 +2137,83 @@
       }
      ],
      "intention": null
+    },
+    {
+     "passage": 21,
+     "texte": "Le programme propose à l’étude dix-sept notions :",
+     "proba": 0.025,
+     "potentiel": 0.22,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-centres-etrangers",
+       "enonce": "Existe-t-il des vérités définitives ?"
+      },
+      {
+       "sujet": "philosophie-2025-amerique-sud",
+       "enonce": "L’État nous protège-t-il des injustices ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "La science",
+   "passages": 1,
+   "proba": 0.079,
+   "potentiel": 0.084,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.174,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 66,
+     "texte": "Le programme de la voie technologique propose à l’étude sept notions.",
+     "proba": 0.079,
+     "potentiel": 0.084,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-metropole",
+       "enonce": "Sommes-nous responsables de l’avenir ?"
+      },
+      {
+       "sujet": "philosophie-2026-metropole",
+       "enonce": "Avons-nous la maîtrise de nos paroles ?"
+      }
+     ],
+     "intention": null
     }
    ]
   }
@@ -2240,21 +2240,18 @@
    ]
   },
   "nouveaute": {
-   "familles": [
-    "lexique_du_professeur"
-   ],
-   "modele": "arbres",
-   "mele_a_l_ancienne": false,
-   "essayes": {
-    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.585
+   "autocritique": {
+    "lexique_du_professeur/logistique": 0.333,
+    "lexique_du_professeur/arbres": 0.667
    },
+   "diversification": 0.0,
    "score_rejoue": [
-    1.095,
-    0.731,
-    0.071,
-    0.315,
+    0.891,
+    0.736,
+    0.072,
+    0.824,
     1.088,
-    0.212
+    0.644
    ],
    "fourchette": [
     0.0,
@@ -2304,6 +2301,127 @@
    "fourchette_juste": 0.852,
    "largeur_moyenne": 0.79,
    "taches": 643
+  }
+ },
+ "preuve_autocritique": {
+  "matiere_exclue": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4368,
+     "auc": 0.8371,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4368,
+     "auc": 0.8371,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "critique": {
+     "couverture": 0.4368,
+     "auc": 0.8371,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "ancienne méthode": 1.0
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne+pire",
+    "tours_acceptes": 0
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.3869,
+     "auc": 0.7608,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4643,
+     "auc": 0.7689,
+     "gain": 0.0782,
+     "pseudo_gain": -0.1033
+    },
+    "critique": {
+     "couverture": 0.6071,
+     "auc": 0.7882,
+     "gain": 0.223,
+     "pseudo_gain": -0.0698
+    },
+    "strategie_trouvee": {
+     "melange": {
+      "lexique_du_professeur/logistique": 0.333,
+      "lexique_du_professeur/arbres": 0.667
+     },
+     "diversification": 0.0
+    },
+    "prudence": "moyenne",
+    "tours_acceptes": 1
+   }
+  },
+  "synthese": {
+   "prevision": {
+    "ancienne": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    },
+    "regle": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    },
+    "critique": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.492,
+     "auc_moyenne": 0.784,
+     "critere": 0.0
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "gain_moyen": 0.0,
+     "pire_matiere": 0.0,
+     "matieres_gagnees": 0,
+     "matieres_perdues": 0,
+     "couverture_moyenne": 0.413,
+     "auc_moyenne": 0.634,
+     "critere": 0.0
+    },
+    "regle": {
+     "gain_moyen": 0.1252,
+     "pire_matiere": -0.1841,
+     "matieres_gagnees": 16,
+     "matieres_perdues": 4,
+     "couverture_moyenne": 0.53,
+     "auc_moyenne": 0.709,
+     "critere": 0.1252
+    },
+    "critique": {
+     "gain_moyen": 0.161,
+     "pire_matiere": -0.1251,
+     "matieres_gagnees": 16,
+     "matieres_perdues": 3,
+     "couverture_moyenne": 0.567,
+     "auc_moyenne": 0.698,
+     "critere": 0.161
+    }
+   }
   }
  }
 }
