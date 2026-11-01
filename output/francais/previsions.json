@@ -1,0 +1,1928 @@
+{
+ "matiere": "francais",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 117,
+  "passages_prevus": 11,
+  "hasard_questions_couvertes": 0.094,
+  "choix_par_annee": {
+   "2024": "arbres_generiques_et_propres_a_la_matiere",
+   "2025": "logistique_12_generiques",
+   "2026": "logistique_12_generiques"
+  },
+  "famille_pour_l_annee_prevue": "logistique_12_generiques",
+  "popularite": {
+   "auc": 0.767,
+   "questions_couvertes": 0.57,
+   "questions_couvertes_a_un_passage_pres": 0.663,
+   "chapitres_prevus_tombes_sur_5": 3.333,
+   "par_annee": {
+    "2024": 0.36,
+    "2025": 0.697,
+    "2026": 0.652
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.687,
+   "questions_couvertes": 0.615,
+   "questions_couvertes_a_un_passage_pres": 0.721,
+   "chapitres_prevus_tombes_sur_5": 3.0,
+   "par_annee": {
+    "2024": 0.6,
+    "2025": 0.636,
+    "2026": 0.609
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.735,
+   "questions_couvertes": 0.57,
+   "questions_couvertes_a_un_passage_pres": 0.663,
+   "chapitres_prevus_tombes_sur_5": 3.0,
+   "par_annee": {
+    "2024": 0.36,
+    "2025": 0.697,
+    "2026": 0.652
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.752,
+   "questions_couvertes": 0.476,
+   "questions_couvertes_a_un_passage_pres": 0.584,
+   "chapitres_prevus_tombes_sur_5": 3.0,
+   "par_annee": {
+    "2024": 0.36,
+    "2025": 0.545,
+    "2026": 0.522
+   }
+  },
+  "ensemble": {
+   "auc": 0.732,
+   "questions_couvertes": 0.585,
+   "questions_couvertes_a_un_passage_pres": 0.688,
+   "chapitres_prevus_tombes_sur_5": 3.0,
+   "par_annee": {
+    "2024": 0.48,
+    "2025": 0.667,
+    "2026": 0.609
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.703,
+   "questions_couvertes": 0.535,
+   "questions_couvertes_a_un_passage_pres": 0.628,
+   "chapitres_prevus_tombes_sur_5": 2.667,
+   "par_annee": {
+    "2024": 0.36,
+    "2025": 0.636,
+    "2026": 0.609
+   }
+  }
+ },
+ "famille_choisie": "logistique_12_generiques",
+ "passages_les_plus_probables": [
+  {
+   "passage": 95,
+   "section": 13,
+   "section_titre": "Les objets d’étude",
+   "probabilite": 0.955,
+   "texte": "Le roman et le récit du Moyen Âge au XXIe siècle : En classe de seconde, les élèves ont étudié deux œuvres narratives de formes différentes dans la période du XIXe siècle à nos jours et développé leur compréhension de ce qu’est une œuvre intégrale comme telle. En classe de première, le professeur veille à préciser et à approfondir l’étude interne de l’œuvre au programme, à en varier les modalités et à la situer dans l’histoire de la littérature et dans son contexte.",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / parcours / x trois / annee x trois",
+     "part": 0.31
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.24
+    },
+    {
+     "facette": 4,
+     "nom": "x roman / roman / x roman x / roman x",
+     "part": 0.18
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2021-amerique-nord-1",
+     "enonce": "Dissertation  OBJET D’ÉTUDE : Le roman et le récit du Moyen-Âge au XXIe siècle Le candidat traite au choix, compte tenu de l’œuvre et du parcours étudiés durant l’année, l’un des trois sujets suivants : Dissertation n°1 "
+    },
+    {
+     "sujet": "francais-premiere-2021-asie-1",
+     "enonce": "Commentaire  Objet d’étude : La poésie du XIXe siècle au XXIe siècle Léopold Sédar Senghor dédie les poèmes de Lettres d’hivernage à son épouse, Colette, alors âgée de 47 ans."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 87,
+   "section": 13,
+   "section_titre": "Les objets d’étude",
+   "probabilite": 0.953,
+   "texte": "La littérature d’idées du XVIe siècle au XVIIIe siècle : L’objectif est de permettre aux élèves d’acquérir une culture humaniste en faisant dialoguer textes anciens et textes contemporains, afin de donner aux interrogations qui sont les leurs une profondeur et une ampleur nouvelles. La littérature d’idées contribue à forger en eux une mémoire culturelle et à développer leurs capacités de réflexion et leur esprit critique.",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "colon / parcours / x trois / annee x trois",
+     "part": 0.31
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.24
+    },
+    {
+     "facette": 4,
+     "nom": "x roman / roman / x roman x / roman x",
+     "part": 0.18
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2021-amerique-nord-2",
+     "enonce": "Commentaire  OBJET D’ÉTUDE : La littérature d’idées du XVIe au XVIIIe siècle Fénelon [1651-1715], Les Aventures de Télémaque, XVIIe livre, 1699."
+    },
+    {
+     "sujet": "francais-premiere-2022-centres-etrangers",
+     "enonce": "Commentaire  Objet d’étude : La littérature d’idées du XVIe siècle au XVIIIe siècle Jean-Jacques Rousseau, Émile ou de l’éducation, Livre cinquième (1762)."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 47,
+   "section": 8,
+   "section_titre": "Évaluation",
+   "probabilite": 0.918,
+   "texte": "qu’estimer une « qualité d’expression » d’ensemble. Si ce type d’évaluation peut correspondre aux visées d’un bilan ou d’un examen, il ne permet pas au professeur de construire des stratégies didactiques pour accompagner les apprentissages des élèves et mesurer leurs progrès.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 0.92
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.08
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2023-nouvelle-caledonie",
+     "enonce": "Dissertation"
+    },
+    {
+     "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+     "enonce": "sérail : palais du sultan."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 48,
+   "section": 8,
+   "section_titre": "Évaluation",
+   "probabilite": 0.9,
+   "texte": "Par ailleurs, une activité trop systématique (repérage, étiquetage et application) réglée par une feuille de route balisant d’emblée la séance ne garantit pas l’adhésion de tous les élèves. À l’inverse, le fait de réactiver par digression et à contretemps certaines notions connexes ou certains tours mnémotechniques (par ailleurs utiles) peut les rendre moins clairs.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 0.92
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.08
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+     "enonce": "indolente : qui se laisse envahir par une langueur tendre, alanguie."
+    },
+    {
+     "sujet": "francais-premiere-2025-antilles-guyane-remplacement",
+     "enonce": "Truculent : qui étonne et réjouit par ses excès."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 57,
+   "section": 10,
+   "section_titre": "Langue",
+   "probabilite": 0.893,
+   "texte": "Il s’adapte aux besoins des élèves, dans la perspective des épreuves du baccalauréat, mais aussi des aptitudes qui sont attendues d’eux dans la suite de leurs études et de leur vie professionnelle et sociale.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 0.83
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2023-centres-etrangers",
+     "enonce": "Hécube et Niobé : figures du malheur féminin, dans la mythologie et la tragédie grecques."
+    },
+    {
+     "sujet": "francais-premiere-2024-antilles-guyane",
+     "enonce": "rue d’Ulm : rue parisienne, que Jorge Semprun a fréquentée durant ses études."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 32,
+   "section": 2,
+   "section_titre": "Expression écrite et orale",
+   "probabilite": 0.766,
+   "texte": "Par exemple, une attention portée aux subordonnées trouverait sa place au terme d’un travail sur les relations logiques, ou bien une observation des formes de reprise, notamment pronominales, conclurait utilement un travail sur l’organisation du paragraphe et du texte.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 0.78
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.11
+    },
+    {
+     "facette": 4,
+     "nom": "x roman / roman / x roman x / roman x",
+     "part": 0.11
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2024-centres-etrangers",
+     "enonce": "Commentaire  Objet d’étude : Le théâtre du XVIIe siècle au XXIe siècle Alfred de Musset, Il faut qu’une porte soit ouverte ou fermée (1845) Le Comte et la Marquise se connaissent bien. Il est venu lui rendre visite, alor"
+    },
+    {
+     "sujet": "francais-premiere-2026-centres-etrangers",
+     "enonce": "cantonnier : ouvrier chargé de l’entretien des routes et des chemins."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 72,
+   "section": 12,
+   "section_titre": "Langue",
+   "probabilite": 0.732,
+   "texte": "Voir, à la suite du préambule, la partie intitulée « L’étude de la langue au lycée », commune aux programmes de seconde et de première.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "partie"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2023-antilles-guyane",
+     "enonce": "Poupe : partie arrière d’un navire."
+    },
+    {
+     "sujet": "francais-premiere-2023-antilles-guyane",
+     "enonce": "Proue : partie avant d’un navire."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 56,
+   "section": 10,
+   "section_titre": "Langue",
+   "probabilite": 0.506,
+   "texte": "Le travail visant à renforcer la connaissance et le sens de la langue pour améliorer la compréhension des textes et la qualité de l’expression écrite et orale des élèves se poursuit au cours de l’année de première. Il a toute sa place dans le travail conduit en classe, en lien avec l’étude des textes et les exercices écrits et oraux.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 0.83
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2025-polynesie-remplacement",
+     "enonce": "indigo : colorant pour tissu."
+    },
+    {
+     "sujet": "francais-premiere-2023-centres-etrangers",
+     "enonce": "Hécube et Niobé : figures du malheur féminin, dans la mythologie et la tragédie grecques."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 30,
+   "section": 2,
+   "section_titre": "Expression écrite et orale",
+   "probabilite": 0.497,
+   "texte": "Il peut s’agir également de compétences plus générales relevant de la communication, qui mettent en jeu tant le lexique que la syntaxe ou la structuration du texte :  adapter son expression aux différentes situations de communication ;  organiser le développement logique d’un propos ;  reformuler et synthétiser un propos ;  discuter et réfuter une opinion ;  exprimer et nuancer une opinion.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 0.78
+    },
+    {
+     "facette": 0,
+     "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+     "part": 0.11
+    },
+    {
+     "facette": 4,
+     "nom": "x roman / roman / x roman x / roman x",
+     "part": 0.11
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2024-centres-etrangers",
+     "enonce": "balivernes : propos sans vérité ; plaisanterie légère."
+    },
+    {
+     "sujet": "francais-premiere-2023-polynesie-remplacement",
+     "enonce": "Dessein : but."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 67,
+   "section": 11,
+   "section_titre": "Littérature",
+   "probabilite": 0.488,
+   "texte": "Il peut par ailleurs proposer, pour approfondir ou remplacer ces prolongements artistiques et culturels, des groupements de textes complémentaires permettant, par une analyse comparée, d’enrichir et de préciser l’interprétation des œuvres ou des textes composant les parcours.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2023-antilles-guyane",
+     "enonce": "La hache permettant d’abattre les arbres."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 55,
+   "section": 9,
+   "section_titre": "Objectifs",
+   "probabilite": 0.476,
+   "texte": "À ces œuvres et parcours définis par un programme national peuvent s’ajouter :  des prolongements artistiques et culturels, faisant dialoguer textes littéraires, œuvres relevant des autres arts et éclairages critiques et documentaires ;  des groupements de textes complémentaires, correspondant à des questions littéraires posées par les œuvres et parcours au programme, et qui gagnent à être approfondies par l’analyse d’extraits d’autres œuvres, à quelque époque qu’elles appartiennent.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2025-antilles-guyane",
+     "enonce": "gaz : à l’époque, l’éclairage public fonctionnait au gaz."
+    },
+    {
+     "sujet": "francais-premiere-2025-antilles-guyane",
+     "enonce": "encor : forme poétique pour « encore »."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 54,
+   "section": 9,
+   "section_titre": "Objectifs",
+   "probabilite": 0.473,
+   "texte": "Pour atteindre ces objectifs, les professeurs travaillent sur les objets d’étude en proposant aux élèves la lecture de quatre œuvres intégrales auxquelles sont associés des parcours qui prennent la forme de groupements organisés de façon chronologique.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2025-antilles-guyane",
+     "enonce": "encor : forme poétique pour « encore »."
+    },
+    {
+     "sujet": "francais-premiere-2025-antilles-guyane",
+     "enonce": "gaz : à l’époque, l’éclairage public fonctionnait au gaz."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 41,
+   "section": 6,
+   "section_titre": "Grammaire",
+   "probabilite": 0.458,
+   "texte": "Peuvent ainsi être envisagés :  la syntaxe de la négation et de l’interrogation : transformation de phrases, reformulation, etc. ;  la syntaxe des relatives : transformation de phrases (relativisation), commutation avec d’autres types d’expansions, etc. ;  les subordonnées circonstancielles : paraphrase, commutation avec des structures sémantiquement équivalentes (par exemple des groupes nominaux), etc. ;  les outils de cohésion textuelle : repérage de ces outils dans un texte, commutation avec des expressions synonymes, etc.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2024-metropole-remplacement",
+     "enonce": "Faucilles : outils employés aux champs."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 38,
+   "section": 5,
+   "section_titre": "L’accompagnement personnalisé",
+   "probabilite": 0.448,
+   "texte": "Selon les situations, l’accompagnement personnalisé est consacré au travail d’expression écrite et orale. Il permet aux élèves de remédier aux difficultés en langue qu’ils rencontrent et qui se traduisent par des défaillances constatées par le professeur à l’occasion des travaux écrits et oraux.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "selon"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2023-antilles-guyane",
+     "enonce": "Pavillon : drapeau qui indique l’origine du navire."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 25,
+   "section": 1,
+   "section_titre": "Grammaire",
+   "probabilite": 0.433,
+   "texte": "Lexique (classes de seconde et première) : Des activités sont régulièrement consacrées au renforcement des ressources trop souvent négligées du lexique. Si le rappel des modes de néologie (dérivation, composition, emprunt, etc.) ou des relations lexicales (synonymie, antonymie, hypéronymie, etc.) peut guider ou éclairer ponctuellement l’exploration du lexique, celle-ci doit aussi se déployer au gré des",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "x colon x / x colon / colon / colon x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "francais-premiere-2025-polynesie",
+     "enonce": "licol : dispositif qui sert à tenir et guider un animal."
+    }
+   ],
+   "intention": null
+  }
+ ],
+ "preuve_sur_les_nouveautes": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "questions_nouvelles": 22,
+  "auc_potentiel_sur_passages_jamais_tombes": 0.554,
+  "nouvelles_couvertes_par_le_quart_retenu": 0.285,
+  "hasard": 0.25
+ },
+ "programme": [
+  {
+   "section": 10,
+   "titre": "Langue",
+   "passages": 2,
+   "proba": 0.893,
+   "potentiel": 0.935,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.918,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 57,
+     "texte": "Il s’adapte aux besoins des élèves, dans la perspective des épreuves du baccalauréat, mais aussi des aptitudes qui sont attendues d’eux dans la suite de leurs études et de leur vie professionnelle et sociale.",
+     "proba": 0.893,
+     "potentiel": 0.935,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.83
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-centres-etrangers",
+       "enonce": "Hécube et Niobé : figures du malheur féminin, dans la mythologie et la tragédie grecques."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane",
+       "enonce": "rue d’Ulm : rue parisienne, que Jorge Semprun a fréquentée durant ses études."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 56,
+     "texte": "Le travail visant à renforcer la connaissance et le sens de la langue pour améliorer la compréhension des textes et la qualité de l’expression écrite et orale des élèves se poursuit au cours de l’année de première. Il a toute sa place dans le travail conduit en classe, en lien avec l’étude des textes et les exercices écrits et oraux.",
+     "proba": 0.506,
+     "potentiel": 0.858,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.83
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-polynesie-remplacement",
+       "enonce": "indigo : colorant pour tissu."
+      },
+      {
+       "sujet": "francais-premiere-2023-centres-etrangers",
+       "enonce": "Hécube et Niobé : figures du malheur féminin, dans la mythologie et la tragédie grecques."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 13,
+   "titre": "Les objets d’étude",
+   "passages": 44,
+   "proba": 0.955,
+   "potentiel": 0.96,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.916,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 87,
+     "texte": "La littérature d’idées du XVIe siècle au XVIIIe siècle : L’objectif est de permettre aux élèves d’acquérir une culture humaniste en faisant dialoguer textes anciens et textes contemporains, afin de donner aux interrogations qui sont les leurs une profondeur et une ampleur nouvelles. La littérature d’idées contribue à forger en eux une mémoire culturelle et à développer leurs capacités de réflexion",
+     "proba": 0.953,
+     "potentiel": 0.743,
+     "deja_tombe": 6,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "colon / parcours / x trois / annee x trois",
+       "part": 0.31
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.24
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.18
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2021-amerique-nord-2",
+       "enonce": "Commentaire  OBJET D’ÉTUDE : La littérature d’idées du XVIe au XVIIIe siècle Fénelon [1651-1715], Les Aventures de Télémaque, XVIIe livre, 1699."
+      },
+      {
+       "sujet": "francais-premiere-2022-centres-etrangers",
+       "enonce": "Commentaire  Objet d’étude : La littérature d’idées du XVIe siècle au XVIIIe siècle Jean-Jacques Rousseau, Émile ou de l’éducation, Livre cinquième (1762)."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 116,
+     "texte": "En outre, elles permettent d’approfondir, d’enrichir et de diversifier les activités. Tout au long de l’année, les évaluations, conçues pour mesurer les progrès des élèves, sont programmées régulièrement en cours et en fin de chaque étude. Les élèves réalisent des travaux aboutis prenant la forme des exercices suivants : commentaire de texte, dissertation, contraction de texte suivie d’un essai, e",
+     "proba": 0.719,
+     "potentiel": 0.947,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "colon / parcours / x trois / annee x trois",
+       "part": 0.31
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.24
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.18
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2021-polynesie-1",
+       "enonce": "Commentaire  Objet d’étude « Le roman et le récit du Moyen Âge au XXIe siècle » Texte : Julien GRACQ, Le Rivage des Syrtes, 1951"
+      },
+      {
+       "sujet": "francais-premiere-2021-polynesie-1",
+       "enonce": "Le spectacle est-il selon vous indispensable à la comédie ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 76,
+     "texte": "La poésie du XIXe siècle au XXIe siècle : Le programme de la classe de première s’inscrit dans la continuité de celui de la classe de seconde. L’objectif est donc de faire comprendre aux élèves par quels changements de sensibilité et d’écriture se manifestent dans la poésie le développement du romantisme et les métamorphoses esthétiques qui lui ont succédé.",
+     "proba": 0.952,
+     "potentiel": 0.722,
+     "deja_tombe": 6,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "colon / parcours / x trois / annee x trois",
+       "part": 0.31
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.24
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.18
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2021-amerique-nord-1",
+       "enonce": "Commentaire  OBJET D’ÉTUDE : La poésie du XIXe siècle au XXIe siècle"
+      },
+      {
+       "sujet": "francais-premiere-2021-antilles-guyane-remplacement",
+       "enonce": "Dissertation  Objet d’étude : La poésie du XIXe siècle au XXIe siècle Le candidat traite au choix, compte tenu de l’œuvre et du parcours associé étudiés durant l’année, l’un des trois sujets suivants :"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 2,
+   "titre": "Expression écrite et orale",
+   "passages": 6,
+   "proba": 0.766,
+   "potentiel": 0.965,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.877,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 32,
+     "texte": "Par exemple, une attention portée aux subordonnées trouverait sa place au terme d’un travail sur les relations logiques, ou bien une observation des formes de reprise, notamment pronominales, conclurait utilement un travail sur l’organisation du paragraphe et du texte.",
+     "proba": 0.766,
+     "potentiel": 0.864,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.78
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.11
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-centres-etrangers",
+       "enonce": "Commentaire  Objet d’étude : Le théâtre du XVIIe siècle au XXIe siècle Alfred de Musset, Il faut qu’une porte soit ouverte ou fermée (1845) Le Comte et la Marquise se connaissent bien. Il est venu lui rendre visite, alor"
+      },
+      {
+       "sujet": "francais-premiere-2026-centres-etrangers",
+       "enonce": "cantonnier : ouvrier chargé de l’entretien des routes et des chemins."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 28,
+     "texte": "Il peut s’agir tout d’abord de relations logiques fondamentales, qui se rencontrent dans la plupart des discours construits :  l’expression de la condition ;  l’expression de la cause, de la conséquence et du but ;  l’expression de la comparaison ;  l’expression de l’opposition et de la concession.",
+     "proba": 0.492,
+     "potentiel": 0.965,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.78
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.11
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-polynesie-remplacement",
+       "enonce": "Dessein : but."
+      },
+      {
+       "sujet": "francais-premiere-2024-centres-etrangers",
+       "enonce": "balivernes : propos sans vérité ; plaisanterie légère."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 30,
+     "texte": "Il peut s’agir également de compétences plus générales relevant de la communication, qui mettent en jeu tant le lexique que la syntaxe ou la structuration du texte :  adapter son expression aux différentes situations de communication ;  organiser le développement logique d’un propos ;  reformuler et synthétiser un propos ;  discuter et réfuter une opinion ;  exprimer et nuancer une opinion.",
+     "proba": 0.497,
+     "potentiel": 0.944,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.78
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.11
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-centres-etrangers",
+       "enonce": "balivernes : propos sans vérité ; plaisanterie légère."
+      },
+      {
+       "sujet": "francais-premiere-2023-polynesie-remplacement",
+       "enonce": "Dessein : but."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 8,
+   "titre": "Évaluation",
+   "passages": 5,
+   "proba": 0.918,
+   "potentiel": 0.337,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.834,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 49,
+     "texte": "Il est donc essentiel de concilier la réitération qui permet l’automatisation et la motivation qui se nourrit du plaisir de comprendre et de progresser. En mettant en œuvre les exercices de grammaire ou d’expression orale et écrite, le professeur prend soin de concevoir des exercices calibrés en fonction d’objectifs précis et explicites pour les élèves.",
+     "proba": 0.815,
+     "potentiel": 0.337,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.92
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane",
+       "enonce": "fugace : de courte durée ; qui s’enfuit."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "quille : partie d’un bateau, située sous l’eau, qui en assure l’équilibre."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 48,
+     "texte": "Par ailleurs, une activité trop systématique (repérage, étiquetage et application) réglée par une feuille de route balisant d’emblée la séance ne garantit pas l’adhésion de tous les élèves. À l’inverse, le fait de réactiver par digression et à contretemps certaines notions connexes ou certains tours mnémotechniques (par ailleurs utiles) peut les rendre moins clairs.",
+     "proba": 0.9,
+     "potentiel": 0.087,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.92
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "indolente : qui se laisse envahir par une langueur tendre, alanguie."
+      },
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane-remplacement",
+       "enonce": "Truculent : qui étonne et réjouit par ses excès."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 47,
+     "texte": "qu’estimer une « qualité d’expression » d’ensemble. Si ce type d’évaluation peut correspondre aux visées d’un bilan ou d’un examen, il ne permet pas au professeur de construire des stratégies didactiques pour accompagner les apprentissages des élèves et mesurer leurs progrès.",
+     "proba": 0.918,
+     "potentiel": 0.046,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.92
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-nouvelle-caledonie",
+       "enonce": "Dissertation"
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "sérail : palais du sultan."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 12,
+   "titre": "Langue",
+   "passages": 1,
+   "proba": 0.732,
+   "potentiel": 0.448,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.834,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 72,
+     "texte": "Voir, à la suite du préambule, la partie intitulée « L’étude de la langue au lycée », commune aux programmes de seconde et de première.",
+     "proba": 0.732,
+     "potentiel": 0.448,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "partie"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "Poupe : partie arrière d’un navire."
+      },
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "Proue : partie avant d’un navire."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "Objectifs",
+   "passages": 5,
+   "proba": 0.476,
+   "potentiel": 0.948,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.814,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 51,
+     "texte": "Dans la continuité de la classe de seconde, l’enseignement du français en première a pour finalités d’élargir et d’approfondir chez les élèves la connaissance et le goût de la langue et de la littérature, de poursuivre la construction et l’appropriation personnelle d’une culture littéraire, ainsi que l’acquisition des capacités d’expression, d’analyse, d’interprétation et de réflexion qu’évaluent ",
+     "proba": 0.46,
+     "potentiel": 0.948,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "fiacre : voiture à cheval."
+      },
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "encor : forme poétique pour « encore »."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 54,
+     "texte": "Pour atteindre ces objectifs, les professeurs travaillent sur les objets d’étude en proposant aux élèves la lecture de quatre œuvres intégrales auxquelles sont associés des parcours qui prennent la forme de groupements organisés de façon chronologique.",
+     "proba": 0.473,
+     "potentiel": 0.947,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "encor : forme poétique pour « encore »."
+      },
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "gaz : à l’époque, l’éclairage public fonctionnait au gaz."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "À ces œuvres et parcours définis par un programme national peuvent s’ajouter :  des prolongements artistiques et culturels, faisant dialoguer textes littéraires, œuvres relevant des autres arts et éclairages critiques et documentaires ;  des groupements de textes complémentaires, correspondant à des questions littéraires posées par les œuvres et parcours au programme, et qui gagnent à être appro",
+     "proba": 0.476,
+     "potentiel": 0.876,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "gaz : à l’époque, l’éclairage public fonctionnait au gaz."
+      },
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "encor : forme poétique pour « encore »."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "Grammaire",
+   "passages": 2,
+   "proba": 0.458,
+   "potentiel": 0.917,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.781,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 41,
+     "texte": "Peuvent ainsi être envisagés :  la syntaxe de la négation et de l’interrogation : transformation de phrases, reformulation, etc. ;  la syntaxe des relatives : transformation de phrases (relativisation), commutation avec d’autres types d’expansions, etc. ;  les subordonnées circonstancielles : paraphrase, commutation avec des structures sémantiquement équivalentes (par exemple des groupes nomina",
+     "proba": 0.458,
+     "potentiel": 0.917,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-metropole-remplacement",
+       "enonce": "Faucilles : outils employés aux champs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 40,
+     "texte": "Le professeur peut poser à ses élèves des questions ponctuelles mais régulières portant sur la morphologie et la syntaxe (identification de formes verbales, des nature et fonction des constituants, analyse logique de phrases).",
+     "proba": 0.254,
+     "potentiel": 0.017,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-metropole-remplacement",
+       "enonce": "Faucilles : outils employés aux champs."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "Littérature",
+   "passages": 14,
+   "proba": 0.488,
+   "potentiel": 0.475,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.75,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 67,
+     "texte": "Il peut par ailleurs proposer, pour approfondir ou remplacer ces prolongements artistiques et culturels, des groupements de textes complémentaires permettant, par une analyse comparée, d’enrichir et de préciser l’interprétation des œuvres ou des textes composant les parcours.",
+     "proba": 0.488,
+     "potentiel": 0.475,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "La hache permettant d’abattre les arbres."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 60,
+     "texte": "Chacun des quatre objets d’étude – la poésie, le roman et le récit, le théâtre et la littérature d’idées – associe une œuvre (ou une section substantielle et cohérente d’une œuvre) et un parcours permettant de la situer dans son contexte historique et générique. Le titre des",
+     "proba": 0.262,
+     "potentiel": 0.062,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "La hache permettant d’abattre les arbres."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 68,
+     "texte": "Exercices : L’orientation générale du travail en classe de première est liée à la préparation des élèves aux épreuves anticipées de français.",
+     "proba": 0.278,
+     "potentiel": 0.037,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "generale"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "La hache permettant d’abattre les arbres."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 5,
+   "titre": "L’accompagnement personnalisé",
+   "passages": 2,
+   "proba": 0.448,
+   "potentiel": 0.782,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.749,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 38,
+     "texte": "Selon les situations, l’accompagnement personnalisé est consacré au travail d’expression écrite et orale. Il permet aux élèves de remédier aux difficultés en langue qu’ils rencontrent et qui se traduisent par des défaillances constatées par le professeur à l’occasion des travaux écrits et oraux.",
+     "proba": 0.448,
+     "potentiel": 0.782,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "selon"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "Pavillon : drapeau qui indique l’origine du navire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 39,
+     "texte": "L’étude de la langue ne doit pas se limiter à l’acquisition de connaissances théoriques permettant de décrire les textes. Pour assurer le lien entre ces connaissances et les compétences d’expression, le professeur propose des exercices et activités variés qui à la fois encouragent la réflexion des élèves sur la langue et donnent lieu à des évaluations régulières.",
+     "proba": 0.254,
+     "potentiel": 0.123,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "Pavillon : drapeau qui indique l’origine du navire."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Sommaire",
+   "passages": 13,
+   "proba": 0.432,
+   "potentiel": 0.653,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.718,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 2,
+     "texte": "Cela passe par l’acquisition de connaissances solides dans la discipline, notamment dans les domaines de l’analyse littéraire et de l’histoire littéraire ;  structurer cette culture en faisant droit à la sensibilité et à la créativité des élèves dans l’approche des formes, des œuvres et des textes, mais aussi en faisant toute sa place à la dimension historique qui permet de donner aux élèves des ",
+     "proba": 0.432,
+     "potentiel": 0.653,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "suie : matière noire et épaisse que la fumée dépose là où elle passe."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 8,
+     "texte": "Le développement de cette maîtrise recouvre donc deux aspects complémentaires :  l’amélioration de la compréhension et de l’expression écrites et orales (compétences langagières).",
+     "proba": 0.22,
+     "potentiel": 0.081,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "suie : matière noire et épaisse que la fumée dépose là où elle passe."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 6,
+     "texte": "Elle joue un rôle déterminant dans la formation de l’esprit, le développement de l’imagination et l’éducation de la sensibilité et du goût. À travers la fréquentation des œuvres et des textes de la littérature, elle contribue également à enrichir l’expérience des élèves, leur approche des questions éthiques, leur connaissance du monde et d’autrui. Elle prend ainsi sa place au carrefour des arts et",
+     "proba": 0.213,
+     "potentiel": 0.056,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane",
+       "enonce": "suie : matière noire et épaisse que la fumée dépose là où elle passe."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "Grammaire",
+   "passages": 14,
+   "proba": 0.433,
+   "potentiel": 0.228,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.692,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 25,
+     "texte": "Lexique (classes de seconde et première) : Des activités sont régulièrement consacrées au renforcement des ressources trop souvent négligées du lexique. Si le rappel des modes de néologie (dérivation, composition, emprunt, etc.) ou des relations lexicales (synonymie, antonymie, hypéronymie, etc.) peut guider ou éclairer ponctuellement l’exploration du lexique, celle-ci doit aussi se déployer au gr",
+     "proba": 0.433,
+     "potentiel": 0.228,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-polynesie",
+       "enonce": "licol : dispositif qui sert à tenir et guider un animal."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 24,
+     "texte": "À l’échelle des textes, on peut observer le fonctionnement pragmatique de la négation (négations partielles, énonciations implicites, etc.) et les niveaux de langue utilisés.",
+     "proba": 0.249,
+     "potentiel": 0.058,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-polynesie",
+       "enonce": "licol : dispositif qui sert à tenir et guider un animal."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 23,
+     "texte": "L’expression de la négation (classe de première) : Il s’agit d’étudier les différentes formes de construction de la négation ; l’examen de la phrase négative, de la préfixation et de l’opposition lexicale (antonymie) permet de travailler sur des unités de niveaux différents (mot, proposition) et s’ouvre naturellement à l’expression écrite et orale.",
+     "proba": 0.249,
+     "potentiel": 0.047,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-polynesie",
+       "enonce": "licol : dispositif qui sert à tenir et guider un animal."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 7,
+   "titre": "Expression écrite et orale",
+   "passages": 4,
+   "proba": 0.175,
+   "potentiel": 0.149,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.287,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 44,
+     "texte": "Il dresse ensuite avec la classe une liste d’outils grammaticaux et lexicaux exprimant ou soutenant la même relation, et propose des exercices de complexité croissante : phrases à compléter, phrases à composer à partir de consignes, rédaction de paragraphes argumentatifs. L’objectif est de munir les élèves d’outils leur permettant de bâtir des énoncés et des discours de dimensions variées : phrase",
+     "proba": 0.172,
+     "potentiel": 0.149,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "colon / parcours / x trois / annee x trois",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-metropole-remplacement",
+       "enonce": "Faucilles : outils employés aux champs."
+      },
+      {
+       "sujet": "francais-premiere-2025-polynesie-remplacement",
+       "enonce": "indigo : colorant pour tissu."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 45,
+     "texte": "Le travail ainsi mené complète la pratique de l’écriture de textes qui, même strictement guidée, ne suffit pas à accroître les compétences d’expression de tous les lycéens, ni à combler leurs lacunes lexicales et syntaxiques.",
+     "proba": 0.175,
+     "potentiel": 0.109,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "xviiie siecle / idees x xvie / xvie / x xviiie siecle",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-antilles-guyane-remplacement",
+       "enonce": "Je ne sache pas que : je n’ai pas connaissance que."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "ineffable : qui ne peut être dit, inexprimable."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 42,
+     "texte": "Les exercices liés aux épreuves anticipées de français appellent un entraînement méthodique et régulier. Mais au-delà, en fonction de besoins précis de communication et prenant en compte les besoins de ses élèves, le professeur définit et met en œuvre dans sa classe les activités d’expression écrite et orale qu’il juge utiles.",
+     "proba": 0.164,
+     "potentiel": 0.079,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.88
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane",
+       "enonce": "fugace : de courte durée ; qui s’enfuit."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "quille : partie d’un bateau, située sous l’eau, qui en assure l’équilibre."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "L’analyse grammaticale ponctuelle",
+   "passages": 2,
+   "proba": 0.149,
+   "potentiel": 0.123,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.234,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 33,
+     "texte": "Le professeur peut consacrer une partie de la séance à un moment de grammaire. Il propose ainsi à ses élèves d’analyser un court énoncé tiré d’un texte à l’étude, avec l’objectif d’identifier une classe de mots, une fonction syntaxique, une structure de phrase ou une relation lexicale. Il peut s’agir de revenir sur les connaissances acquises au collège ou plus récemment au lycée.",
+     "proba": 0.134,
+     "potentiel": 0.123,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2021-antilles-guyane-remplacement",
+       "enonce": "Commentaire  Objet d’étude : Le roman et le récit du Moyen Âge au XXIe siècle Romain GARY, La Promesse de l’aube, Deuxième partie, chap. XXI, 1960."
+      },
+      {
+       "sujet": "francais-premiere-2021-polynesie-2-remplacement",
+       "enonce": "Commentaire  Objet d’étude « Le roman et le récit du Moyen Âge au XXIe siècle » TEXTE : Victor HUGO, Les Misérables, cinquième partie « Jean Valjean », Livre 4, chapitre 2, « Javert déraillé », 1862 L’inspecteur de polic"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 34,
+     "texte": "Ce moment de grammaire permet en outre de repérer des questions à traiter dans le cadre de l’accompagnement personnalisé.",
+     "proba": 0.149,
+     "potentiel": 0.02,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2023-antilles-guyane",
+       "enonce": "Pavillon : drapeau qui indique l’origine du navire."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "quille : partie d’un bateau, située sous l’eau, qui en assure l’équilibre."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "La leçon de grammaire",
+   "passages": 3,
+   "proba": 0.164,
+   "potentiel": 0.07,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.221,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 37,
+     "texte": "suppression, adjonction, pronominalisation, passage à la voix passive) qui permettent d’améliorer les compétences d’expression, l’objectif n’étant pas de faire des élèves des linguistes, mais des locuteurs possédant une maîtrise satisfaisante de la langue.",
+     "proba": 0.164,
+     "potentiel": 0.07,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "colon / parcours / x trois / annee x trois",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2025-polynesie-remplacement",
+       "enonce": "indigo : colorant pour tissu."
+      },
+      {
+       "sujet": "francais-premiere-2021-amerique-nord-1",
+       "enonce": "Commentaire  OBJET D’ÉTUDE : La poésie du XIXe siècle au XXIe siècle"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 35,
+     "texte": "Le professeur peut consacrer une séance à présenter dans le détail un point de grammaire accompagné d’exercices favorisant son appropriation. La leçon de grammaire autonome est une modalité particulièrement indiquée lorsqu’il s’agit par exemple d’aborder l’un des objets d’étude signalés plus haut, notamment pour les questions de syntaxe.",
+     "proba": 0.149,
+     "potentiel": 0.047,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.88
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane",
+       "enonce": "fugace : de courte durée ; qui s’enfuit."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "quille : partie d’un bateau, située sous l’eau, qui en assure l’équilibre."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 36,
+     "texte": "Il est toutefois essentiel de combiner la présentation des questions de grammaire avec des exercices de manipulation syntaxique et morphologique (commutation, déplacement,",
+     "proba": 0.162,
+     "potentiel": 0.023,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / x colon / colon / colon x",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "siecle / x poesie / x poesie x / poesie x xixe",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "x roman / roman / x roman x / roman x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane",
+       "enonce": "fugace : de courte durée ; qui s’enfuit."
+      },
+      {
+       "sujet": "francais-premiere-2024-antilles-guyane-remplacement",
+       "enonce": "quille : partie d’un bateau, située sous l’eau, qui en assure l’équilibre."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  }
+ ],
+ "auto_progression": {
+  "prevision": {
+   "familles": [],
+   "modele": "ancienne",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[], \"ancienne\", false]": 0.796
+   },
+   "score_rejoue": [
+    0.736,
+    1.1,
+    0.787,
+    0.677,
+    0.737,
+    0.739
+   ],
+   "fourchette": [
+    0.4020588235294117,
+    1.0
+   ]
+  },
+  "nouveaute": {
+   "familles": [
+    "lexique_du_professeur"
+   ],
+   "modele": "arbres",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.363
+   },
+   "score_rejoue": [
+    0.45,
+    0.299,
+    0.38,
+    0.28,
+    0.405
+   ],
+   "fourchette": [
+    0.005028129395217962,
+    0.7205274261603376
+   ]
+  }
+ },
+ "preuve_auto_progression": {
+  "prevision": {
+   "regle_sans_cette_matiere": [
+    [],
+    "ancienne",
+    false
+   ],
+   "avant_couverture": 0.57,
+   "couverture": 0.57,
+   "avant_auc": 0.767,
+   "auc": 0.767,
+   "regle_finale_couverture": 0.57,
+   "pseudo_domaines": {
+    "avant": 0.519,
+    "apres": 0.519,
+    "n": 15
+   }
+  },
+  "nouveaute": {
+   "regle_sans_cette_matiere": [
+    [
+     "lexique_du_professeur"
+    ],
+    "melange",
+    false
+   ],
+   "avant_couverture": 0.285,
+   "couverture": 0.141,
+   "avant_auc": 0.552,
+   "auc": 0.572,
+   "regle_finale_couverture": 0.252,
+   "pseudo_domaines": {
+    "avant": 0.354,
+    "apres": 0.417,
+    "n": 14
+   }
+  },
+  "auto_jugement": {
+   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
+   "fourchette_juste": 0.852,
+   "largeur_moyenne": 0.79,
+   "taches": 643
+  }
+ }
+}

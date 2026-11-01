@@ -1,0 +1,4846 @@
+{
+ "matiere": "allemand",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 427,
+  "passages_prevus": 42,
+  "hasard_questions_couvertes": 0.098,
+  "choix_par_annee": {
+   "2024": "arbres_12_generiques",
+   "2025": "arbres_12_generiques",
+   "2026": "arbres_12_generiques"
+  },
+  "famille_pour_l_annee_prevue": "arbres_12_generiques",
+  "popularite": {
+   "auc": 0.777,
+   "questions_couvertes": 0.667,
+   "questions_couvertes_a_un_passage_pres": 0.667,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 1.0,
+    "2025": 1.0,
+    "2026": 0.0
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.599,
+   "questions_couvertes": 0.611,
+   "questions_couvertes_a_un_passage_pres": 0.722,
+   "chapitres_prevus_tombes_sur_5": 1.0,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 1.0,
+    "2026": 0.5
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.769,
+   "questions_couvertes": 0.667,
+   "questions_couvertes_a_un_passage_pres": 0.667,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 1.0,
+    "2025": 1.0,
+    "2026": 0.0
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.708,
+   "questions_couvertes": 0.556,
+   "questions_couvertes_a_un_passage_pres": 0.833,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.667,
+    "2025": 1.0,
+    "2026": 0.0
+   }
+  },
+  "ensemble": {
+   "auc": 0.716,
+   "questions_couvertes": 0.5,
+   "questions_couvertes_a_un_passage_pres": 0.611,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 0.0,
+    "2025": 1.0,
+    "2026": 0.5
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.769,
+   "questions_couvertes": 0.667,
+   "questions_couvertes_a_un_passage_pres": 0.667,
+   "chapitres_prevus_tombes_sur_5": 1.333,
+   "par_annee": {
+    "2024": 1.0,
+    "2025": 1.0,
+    "2026": 0.0
+   }
+  }
+ },
+ "famille_choisie": "arbres_12_generiques",
+ "passages_les_plus_probables": [
+  {
+   "passage": 144,
+   "section": 14,
+   "section_titre": "Le voyage en Italie",
+   "probabilite": 0.962,
+   "texte": "• Im fernen Westen. Zwei eine Zigarette mit Helmut Erzählungen aus dem Schmidt (2009) [p. 21-24 et Indianerleben für die Jugend p. 100-102] [bande dessinée] Erika Fuchs, deutsche Übersetzerin des Micky-Maus- Heftes (von 1951 bis 1988)",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 7,
+     "nom": "x als / x als x / x fur x / hat",
+     "part": 0.33
+    },
+    {
+     "facette": 6,
+     "nom": "marchen / marchen x / x marchen / x marchen x",
+     "part": 0.22
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.11
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-metropole-remplacement",
+     "enonce": "(extrait du document D)\nDas Märchen überlässt es der Phantasie des Kindes, ob und wie es das, was die\nGeschichte vom Leben und vom Menschen erzählt, auf sich selbst beziehen will. Das\nMärchen entwickelt sich so, wie das "
+    },
+    {
+     "sujet": "spe-llcer-allemand-2023-metropole",
+     "enonce": "Paul, plötzlich hellwach: Das ist es! Der Wind, den er für die Flucht braucht. Er trinkt,\num nicht aufzufallen, die Kaffeetasse aus, obwohl er keinen Kaffee mehr braucht. Er\ngreift seinen Teil der Zeitung, versteckt sich"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 174,
+   "section": 16,
+   "section_titre": "Les écrivains et l’exil, les écrivains en exil",
+   "probabilite": 0.961,
+   "texte": "• Une vie de Français, mémoires (1997) L’immigration en Werke von Herta Müller, [discours politique] Allemagne • Immer der selbe Schnee und Frank-Walter Steinmeier beim immer der selbe Onkel (2011) Festakt zum Tag der (extraits) Deutschen Einheit am 3. Emine Sevgi Özdamar, Oktober 2017 in Mainz,",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "vous / x vous / vous x / x vous x",
+     "part": 0.17
+    },
+    {
+     "facette": 2,
+     "nom": "ich / sie x / sie / x sie",
+     "part": 0.17
+    },
+    {
+     "facette": 5,
+     "nom": "x durch / x durch x / durch x / durch",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2023-la-reunion",
+     "enonce": "Zum 30. Jahrestag des Mauerfalls hat Bundespräsident Frank-Walter Steinmeier dazu\naufgerufen, für die Demokratie zu streiten und neu entstandene Mauern in der Gesellschaft\nwieder einzureißen. In den vergangenen Jahren se"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2025-metropole",
+     "enonce": "Vous expliquerez à une amie française les différences constatées par Thaiana Santos\nentre l’exercice de son métier au Brésil et en Allemagne.\nEN_NNTM0NT8QzNjAo0ND5UzMsTYxMj3AwNjAU2MzeU0NVTMx\nDokument A\nDer Roman Lichtspi"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 379,
+   "section": 32,
+   "section_titre": "La forêt",
+   "probabilite": 0.937,
+   "texte": "• Unter Bäumen. Die Deutschen und der Wald [Deutsches Historisches Museum, Berlin (2011)] Herbert Heinzelmann,",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "stadt / x stadt / einer x / x einer x",
+     "part": 0.5
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.17
+    },
+    {
+     "facette": 6,
+     "nom": "marchen / marchen x / x marchen / x marchen x",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-zero-3",
+     "enonce": "„Der Wald spielte nicht erst in Grimms Märchen eine entscheidende Rolle. Die Germanen\netwa verehrten bestimmte Bäume, die ihnen heilig waren. […] Eine mythische Bedeutung\nbekam der Wald auch durch historische Schlachten "
+    },
+    {
+     "sujet": "spe-llcer-allemand-2021-zero-3",
+     "enonce": "„Shopping is coming home“ steht in gigantischen Lettern auf einer Werbefläche in Berlins\nMitte, wo gerade das größte Einkaufscenter der Stadt gebaut wurde. Besser einkaufen denn\nje. Konsumieren als Nachhausekommen, Kaufh"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 377,
+   "section": 32,
+   "section_titre": "La forêt",
+   "probabilite": 0.934,
+   "texte": "• « Der Wald und die Bäume » In: Über die Deutschen. Eine kleine Kulturgeschichte (2007) Günter Kunert,",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "baume"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "stadt / x stadt / einer x / x einer x",
+     "part": 0.5
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.17
+    },
+    {
+     "facette": 6,
+     "nom": "marchen / marchen x / x marchen / x marchen x",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+     "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2025-metropole",
+     "enonce": "Wie hätte ich wohl mein langes Leben gemeistert, ohne Bücher zu lesen. Es ist mir\nunvorstellbar, und ich verweigere sogar, es mir vorzustellen. Mit Erstaunen, ja leisem\nEntsetzen, betrachte ich Menschen, die anscheinend "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 235,
+   "section": 20,
+   "section_titre": "La vie politique : les partis, les institutions, la vie démocratique et la culture du débat en Allemagne",
+   "probabilite": 0.932,
+   "texte": "• Kinder- und Hausmärchen (1812-1815) dans les institutions Stefan Zweig, [icon.] scolaires et • Die Welt von gestern. Max Liebermann, universitaires Erinnerungen eines Europäers • Kleinkinderschule in Amsterdam « Die Schule im vorigen (1880) Jahrhundert » et « Universitas [entretien] vitae » ) Helmut Schmidt/Giovanni di Heinrich Mann, Lorenzo,",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "nicht / nicht x / x nicht / x ist x",
+     "part": 0.67
+    },
+    {
+     "facette": 5,
+     "nom": "x durch / x durch x / durch x / durch",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2023-liban",
+     "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2024-metropole",
+     "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 196,
+   "section": 16,
+   "section_titre": "Les écrivains et l’exil, les écrivains en exil",
+   "probabilite": 0.924,
+   "texte": "Elle peut donner lieu à une analyse interculturelle, en particulier franco-allemande, de la manière dont se construisent, s’organisent et se vivent les liens sociaux dans nos sociétés. Elle n’est pas sans résonance avec l’art de vivre ensemble ; on peut donc s’interroger sur les vecteurs permettant que se développe dans l’espace germanophone ce qu’Aristote appelait « l’amitié sociale » , qui suppose maîtrise des codes et respect des règles.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "vous / x vous / vous x / x vous x",
+     "part": 0.17
+    },
+    {
+     "facette": 2,
+     "nom": "ich / sie x / sie / x sie",
+     "part": 0.17
+    },
+    {
+     "facette": 5,
+     "nom": "x durch / x durch x / durch x / durch",
+     "part": 0.17
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-zero-1",
+     "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2023-la-reunion",
+     "enonce": "Zum 30. Jahrestag des Mauerfalls hat Bundespräsident Frank-Walter Steinmeier dazu\naufgerufen, für die Demokratie zu streiten und neu entstandene Mauern in der Gesellschaft\nwieder einzureißen. In den vergangenen Jahren se"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 143,
+   "section": 14,
+   "section_titre": "Le voyage en Italie",
+   "probabilite": 0.727,
+   "texte": "• Amerika (1927) Antiamerikaner » et « Lauter alte Freunde. Die letzte Karl May, Reise in die USA » in: Auf",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 7,
+     "nom": "x als / x als x / x fur x / hat",
+     "part": 0.33
+    },
+    {
+     "facette": 6,
+     "nom": "marchen / marchen x / x marchen / x marchen x",
+     "part": 0.22
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.11
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+     "enonce": "(Document A, lignes 11 à 18)\nSie ist zurück nach Deutschland geflohen, weil es kleiner war, überschaubarer, mit festen\nRegeln, die ihr wenigstens klar waren, und weil sie dort nicht das Gefühl hatte, einfach\nuntergehen z"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2024-centres-etrangers",
+     "enonce": "(Document A, lignes 10 à 16)\nWas für Märchen erzählen Sie Ihrem Publikum am liebsten?\nEs gibt unglaublich tolle Märchen aus der ganzen Welt. Wenn ich Kindern Märchen\nerzähle, dann solche, die sich um eher schwache Lebewe"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 226,
+   "section": 20,
+   "section_titre": "La vie politique : les partis, les institutions, la vie démocratique et la culture du débat en Allemagne",
+   "probabilite": 0.63,
+   "texte": "Die innere Sicherheit (2000) Stefan Aust,",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "nicht / nicht x / x nicht / x ist x",
+     "part": 0.67
+    },
+    {
+     "facette": 5,
+     "nom": "x durch / x durch x / durch x / durch",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+     "enonce": "Inzwischen näherte sich der Tag meiner endgültigen Vorladung auf das Konsulat der\nVereinigten Staaten. Ich war fest entschlossen, mir das Transit zu sichern. Für mich\nwar damals alles ein Spiel. Doch die Gesichter der Me"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2023-liban",
+     "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 419,
+   "section": 35,
+   "section_titre": "Le monde germanique et le monde latin",
+   "probabilite": 0.62,
+   "texte": "Napoleon und die Deutschen In : Die Deutschen, épisode 7 [essai] Herfried Münkler,",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "napoleon"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "nicht / nicht x / x nicht / x ist x",
+     "part": 0.5
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.5
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2023-liban",
+     "enonce": "(Document B, lignes 11 à 16)\nEr hatte die unwiderstehliche Aura des Abenteurers.\nEr war genauso alt wie Napoleon. Er war genauso berühmt wie Napoleon. Und er war\neinen Kopf größer.\nNapoleon mochte ihn nicht. „Er war voll"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+     "enonce": "(Document B, lignes 15 à 21)\nWir überschreiten die Grenze nicht als Eroberer, nicht als Feinde Deutschlands;\nNicht, um deutsche Verfassungen, Rechte, Sitten und Gebräuche zu vernichten, und\nFremde aufzudringen: Nicht, um"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 408,
+   "section": 35,
+   "section_titre": "Le monde germanique et le monde latin",
+   "probabilite": 0.618,
+   "texte": "Zur Geschichte der Religion und der Philosophie in Deutschland (1834) [1. Buch]",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "nicht / nicht x / x nicht / x ist x",
+     "part": 0.5
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.5
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+     "enonce": "(Document B, lignes 15 à 21)\nWir überschreiten die Grenze nicht als Eroberer, nicht als Feinde Deutschlands;\nNicht, um deutsche Verfassungen, Rechte, Sitten und Gebräuche zu vernichten, und\nFremde aufzudringen: Nicht, um"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2023-liban",
+     "enonce": "(Document B, lignes 11 à 16)\nEr hatte die unwiderstehliche Aura des Abenteurers.\nEr war genauso alt wie Napoleon. Er war genauso berühmt wie Napoleon. Und er war\neinen Kopf größer.\nNapoleon mochte ihn nicht. „Er war voll"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 282,
+   "section": 24,
+   "section_titre": "Société et sentiments L’amour et l’amitié, la famille",
+   "probabilite": 0.616,
+   "texte": "• Deutschland umsonst, zu Fuß verdienen in Politik und und ohne Geld durch ein Wirtschaft » ) Wohlstandsland (1982) Fritz Stern/Helmut Schmidt Friedrich Dürrenmatt, • Unser Jahrhundert. Ein",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 5,
+     "nom": "x durch / x durch x / durch x / durch",
+     "part": 0.67
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+     "enonce": "(Document A, lignes 22 à 30)\nMitten durch den Saal war ein beständiger Verkehr von hin und her gejagten Leuten. [...]\n„Du hast es wirklich weit gebracht“, sagte Karl einmal auf einem dieser Gänge durch den\nBetrieb [...]."
+    },
+    {
+     "sujet": "spe-llcer-allemand-2026-metropole",
+     "enonce": "Als er tatsächlich Gouverneur wurde, war der Spott groß, und am größten war\ner in Deutschland. Wie kann einer wie Schwarzenegger Gouverneur von Kalifornien\nwerden? Es bestätigte alle Vorurteile, die man hierzulande über "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 269,
+   "section": 24,
+   "section_titre": "Société et sentiments L’amour et l’amitié, la famille",
+   "probabilite": 0.608,
+   "texte": "Kleiner Mann, was nun? (1932) Erich Kästner,",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 5,
+     "nom": "x durch / x durch x / durch x / durch",
+     "part": 0.67
+    },
+    {
+     "facette": 4,
+     "nom": "war / x war / war x / x war x",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-zero-1",
+     "enonce": "„Sein zeichnerisches Werk bekam Anerkennung durch die Verbindung zu Erich Kästner. Nach seinem Grafik-Studium illustrierte er einige Gedichtbände von Erich Kästner. Durch die Bücherverbrennung am 10. Mai 1933 wurden auch"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+     "enonce": "(Document A, lignes 22 à 30)\nMitten durch den Saal war ein beständiger Verkehr von hin und her gejagten Leuten. [...]\n„Du hast es wirklich weit gebracht“, sagte Karl einmal auf einem dieser Gänge durch den\nBetrieb [...]."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 44,
+   "section": 6,
+   "section_titre": "Production",
+   "probabilite": 0.6,
+   "texte": "En cours d’année et de cycle, ils peuvent ainsi gagner en confiance et développer la fluidité, la précision et la richesse de l’expression orale sur le plan phonologique, lexical et syntaxique.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "vous / x vous / vous x / x vous x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+     "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+     "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 38,
+   "section": 6,
+   "section_titre": "Production",
+   "probabilite": 0.587,
+   "texte": "L’écriture créative peut s’appuyer sur des pratiques de la vie courante (lettres, blogues, etc.) ou s’inscrire dans des formes plus littéraires : dialogues, suites de textes, récits. Cette activité peut donner lieu à des exercices de médiation : résumé, compte-rendu, synthèse, adaptation, traduction, explicitation, reformulation, etc. L’écriture argumentative forme l’esprit critique et encourage la prise de position des élèves.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "lieu"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "vous / x vous / vous x / x vous x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+     "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+    },
+    {
+     "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+     "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 66,
+   "section": 11,
+   "section_titre": "La grammaire",
+   "probabilite": 0.545,
+   "texte": "De fait, l’approfondissement des savoirs et savoir-faire peut, dans le cadre de ce nouvel enseignement, être articulé aux pratiques de recherche et d’analyse qui ont cours à l’université ; cette démarche peut offrir l’occasion de pratiquer des exercices tels que la composition écrite sur la base des documents étudiés, la synthèse de documents, le commentaire ou la contraction de texte, qu’il s’agisse d’un texte de civilisation ou de littérature, et la traduction (version).",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "occasion"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "vous / x vous / vous x / x vous x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+     "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+    }
+   ],
+   "intention": null
+  }
+ ],
+ "preuve_sur_les_nouveautes": {
+  "annees_testees": [
+   2024,
+   2026
+  ],
+  "questions_nouvelles": 5,
+  "auc_potentiel_sur_passages_jamais_tombes": 0.726,
+  "nouvelles_couvertes_par_le_quart_retenu": 0.75,
+  "hasard": 0.25
+ },
+ "programme": [
+  {
+   "section": 16,
+   "titre": "Les écrivains et l’exil, les écrivains en exil",
+   "passages": 50,
+   "proba": 0.961,
+   "potentiel": 0.985,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.996,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 174,
+     "texte": "• Une vie de Français, mémoires (1997) L’immigration en Werke von Herta Müller, [discours politique] Allemagne • Immer der selbe Schnee und Frank-Walter Steinmeier beim immer der selbe Onkel (2011) Festakt zum Tag der (extraits) Deutschen Einheit am 3. Emine Sevgi Özdamar, Oktober 2017 in Mainz,",
+     "proba": 0.961,
+     "potentiel": 0.965,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.17
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.17
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-la-reunion",
+       "enonce": "Zum 30. Jahrestag des Mauerfalls hat Bundespräsident Frank-Walter Steinmeier dazu\naufgerufen, für die Demokratie zu streiten und neu entstandene Mauern in der Gesellschaft\nwieder einzureißen. In den vergangenen Jahren se"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Vous expliquerez à une amie française les différences constatées par Thaiana Santos\nentre l’exercice de son métier au Brésil et en Allemagne.\nEN_NNTM0NT8QzNjAo0ND5UzMsTYxMj3AwNjAU2MzeU0NVTMx\nDokument A\nDer Roman Lichtspi"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 193,
+     "texte": "• Empfang der französischen Flüchtlinge durch den großen Kurfürsten im Potsdamer Stadtschloss 1685 [gegen Ende 19. Jahrhundert] [adaptation filmique] Bettina Blümmer,",
+     "proba": 0.911,
+     "potentiel": 0.985,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.17
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.17
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-metropole",
+       "enonce": "Fast anderthalb Millionen Menschen leben in Hamburg. Hunderttausend sind im Krieg\noder im Bombenhagel gestorben, viele weitere aufs Land evakuiert worden. Dafür sind\nFlüchtlinge in der Stadt - und DPs, Displaced Persons,"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole-remplacement",
+       "enonce": "Als ich sie Jahre später einmal besuchte, um nach ihr zu sehen und mich für die Lehrstunden\nzu bedanken, konnte ich es nicht lassen und fragte sie danach, warum wir beim Lernen\nimmer so im Halbdunkel gesessen hatten. Vie"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 190,
+     "texte": "• Namen, die keiner mehr kennt Gespräche mit italienischen (2004) Arbeitern in der Schweiz, Zürich (1965) Christian Graf von Krockow,",
+     "proba": 0.777,
+     "potentiel": 0.951,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.17
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.17
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "(Document A, lignes 1 à 4 et 18 à 20)\nMittlerweile wohnt in so ziemlich jeder Hosentasche ein Smartphone. Und je besser die\nKameras und Mikrofone von diesen mit den Jahren wurden, umso lauter wurde die\nDiskussion um eine"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole-remplacement",
+       "enonce": "Als ich sie Jahre später einmal besuchte, um nach ihr zu sehen und mich für die Lehrstunden\nzu bedanken, konnte ich es nicht lassen und fragte sie danach, warum wir beim Lernen\nimmer so im Halbdunkel gesessen hatten. Vie"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 32,
+   "titre": "La forêt",
+   "passages": 24,
+   "proba": 0.937,
+   "potentiel": 0.934,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.986,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 377,
+     "texte": "• « Der Wald und die Bäume » In: Über die Deutschen. Eine kleine Kulturgeschichte (2007) Günter Kunert,",
+     "proba": 0.934,
+     "potentiel": 0.934,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "baume"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.17
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Wie hätte ich wohl mein langes Leben gemeistert, ohne Bücher zu lesen. Es ist mir\nunvorstellbar, und ich verweigere sogar, es mir vorzustellen. Mit Erstaunen, ja leisem\nEntsetzen, betrachte ich Menschen, die anscheinend "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 376,
+     "texte": "• « Mythos deutscher Wald » in: Der deutsche Wald, Heft 1/2001 Peter Wohlleben,",
+     "proba": 0.634,
+     "potentiel": 0.913,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.17
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-2",
+       "enonce": "Das Massensymbol der Deutschen war das Heer. Aber das Heer war mehr als das Heer:\nEs war der marschierende Wald. In keinem modernen Lande der Welt ist das Waldgefühl\nso lebendig geblieben, wie in Deutschland. Das Rigide "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 379,
+     "texte": "• Unter Bäumen. Die Deutschen und der Wald [Deutsches Historisches Museum, Berlin (2011)] Herbert Heinzelmann,",
+     "proba": 0.937,
+     "potentiel": 0.257,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.17
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-3",
+       "enonce": "„Der Wald spielte nicht erst in Grimms Märchen eine entscheidende Rolle. Die Germanen\netwa verehrten bestimmte Bäume, die ihnen heilig waren. […] Eine mythische Bedeutung\nbekam der Wald auch durch historische Schlachten "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-3",
+       "enonce": "„Shopping is coming home“ steht in gigantischen Lettern auf einer Werbefläche in Berlins\nMitte, wo gerade das größte Einkaufscenter der Stadt gebaut wurde. Besser einkaufen denn\nje. Konsumieren als Nachhausekommen, Kaufh"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 14,
+   "titre": "Le voyage en Italie",
+   "passages": 39,
+   "proba": 0.962,
+   "potentiel": 0.971,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.985,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 143,
+     "texte": "• Amerika (1927) Antiamerikaner » et « Lauter alte Freunde. Die letzte Karl May, Reise in die USA » in: Auf",
+     "proba": 0.727,
+     "potentiel": 0.971,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.33
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.22
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+       "enonce": "(Document A, lignes 11 à 18)\nSie ist zurück nach Deutschland geflohen, weil es kleiner war, überschaubarer, mit festen\nRegeln, die ihr wenigstens klar waren, und weil sie dort nicht das Gefühl hatte, einfach\nuntergehen z"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2024-centres-etrangers",
+       "enonce": "(Document A, lignes 10 à 16)\nWas für Märchen erzählen Sie Ihrem Publikum am liebsten?\nEs gibt unglaublich tolle Märchen aus der ganzen Welt. Wenn ich Kindern Märchen\nerzähle, dann solche, die sich um eher schwache Lebewe"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 144,
+     "texte": "• Im fernen Westen. Zwei eine Zigarette mit Helmut Erzählungen aus dem Schmidt (2009) [p. 21-24 et Indianerleben für die Jugend p. 100-102] [bande dessinée] Erika Fuchs, deutsche Übersetzerin des Micky-Maus- Heftes (von 1951 bis 1988)",
+     "proba": 0.962,
+     "potentiel": 0.872,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.33
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.22
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metropole-remplacement",
+       "enonce": "(extrait du document D)\nDas Märchen überlässt es der Phantasie des Kindes, ob und wie es das, was die\nGeschichte vom Leben und vom Menschen erzählt, auf sich selbst beziehen will. Das\nMärchen entwickelt sich so, wie das "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-metropole",
+       "enonce": "Paul, plötzlich hellwach: Das ist es! Der Wind, den er für die Flucht braucht. Er trinkt,\num nicht aufzufallen, die Kaffeetasse aus, obwohl er keinen Kaffee mehr braucht. Er\ngreift seinen Teil der Zeitung, versteckt sich"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 135,
+     "texte": "• Kamel in rhythmischer Baumlandschaft (1920) Le thème de l’Orient Rafik Schami, [essai] chez les écrivains • Reise zwischen Nacht und Morgen Annemarie Schwarzenbach, allemands (1999) • Orientreisen. Reportagen",
+     "proba": 0.7,
+     "potentiel": 0.959,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.33
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.22
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole",
+       "enonce": "Auch unsere Lehrer hatten an der Trostlosigkeit jenes Betriebes keine Schuld. […] Sie liebten\nuns nicht, sie haßten uns nicht, und warum auch, denn sie wußten von uns nichts […]. Sie\nsaßen oben auf dem Katheder und wir u"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2024-centres-etrangers",
+       "enonce": "(Document A, lignes 10 à 16)\nWas für Märchen erzählen Sie Ihrem Publikum am liebsten?\nEs gibt unglaublich tolle Märchen aus der ganzen Welt. Wenn ich Kindern Märchen\nerzähle, dann solche, die sich um eher schwache Lebewe"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 20,
+   "titre": "La vie politique : les partis, les institutions, la vie démocratique et la culture du débat en Allemagne",
+   "passages": 29,
+   "proba": 0.932,
+   "potentiel": 0.929,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.976,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 235,
+     "texte": "• Kinder- und Hausmärchen (1812-1815) dans les institutions Stefan Zweig, [icon.] scolaires et • Die Welt von gestern. Max Liebermann, universitaires Erinnerungen eines Europäers • Kleinkinderschule in Amsterdam « Die Schule im vorigen (1880) Jahrhundert » et « Universitas [entretien] vitae » ) Helmut Schmidt/Giovanni di Heinrich Mann, Lorenzo,",
+     "proba": 0.932,
+     "potentiel": 0.756,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.67
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2024-metropole",
+       "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 226,
+     "texte": "Die innere Sicherheit (2000) Stefan Aust,",
+     "proba": 0.63,
+     "potentiel": 0.929,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.67
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Inzwischen näherte sich der Tag meiner endgültigen Vorladung auf das Konsulat der\nVereinigten Staaten. Ich war fest entschlossen, mir das Transit zu sichern. Für mich\nwar damals alles ein Spiel. Doch die Gesichter der Me"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 244,
+     "texte": "• Mit dem Moskau-Paris-Express (2014) in die Freiheit. Eine Flucht in die Dennis Gansel, Freiheit (2003) • Napola, Elite für den Führer",
+     "proba": 0.088,
+     "potentiel": 0.338,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.67
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Inzwischen näherte sich der Tag meiner endgültigen Vorladung auf das Konsulat der\nVereinigten Staaten. Ich war fest entschlossen, mir das Transit zu sichern. Für mich\nwar damals alles ein Spiel. Doch die Gesichter der Me"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 35,
+   "titre": "Le monde germanique et le monde latin",
+   "passages": 21,
+   "proba": 0.62,
+   "potentiel": 0.975,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.974,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 408,
+     "texte": "Zur Geschichte der Religion und der Philosophie in Deutschland (1834) [1. Buch]",
+     "proba": 0.618,
+     "potentiel": 0.975,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "(Document B, lignes 15 à 21)\nWir überschreiten die Grenze nicht als Eroberer, nicht als Feinde Deutschlands;\nNicht, um deutsche Verfassungen, Rechte, Sitten und Gebräuche zu vernichten, und\nFremde aufzudringen: Nicht, um"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document B, lignes 11 à 16)\nEr hatte die unwiderstehliche Aura des Abenteurers.\nEr war genauso alt wie Napoleon. Er war genauso berühmt wie Napoleon. Und er war\neinen Kopf größer.\nNapoleon mochte ihn nicht. „Er war voll"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 419,
+     "texte": "Napoleon und die Deutschen In : Die Deutschen, épisode 7 [essai] Herfried Münkler,",
+     "proba": 0.62,
+     "potentiel": 0.956,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "napoleon"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document B, lignes 11 à 16)\nEr hatte die unwiderstehliche Aura des Abenteurers.\nEr war genauso alt wie Napoleon. Er war genauso berühmt wie Napoleon. Und er war\neinen Kopf größer.\nNapoleon mochte ihn nicht. „Er war voll"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "(Document B, lignes 15 à 21)\nWir überschreiten die Grenze nicht als Eroberer, nicht als Feinde Deutschlands;\nNicht, um deutsche Verfassungen, Rechte, Sitten und Gebräuche zu vernichten, und\nFremde aufzudringen: Nicht, um"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 421,
+     "texte": "« Luthers Kampf gegen Rom » in : Die Deutschen und ihre Mythen (2009) Lukas Cranach d. Ältere,",
+     "proba": 0.059,
+     "potentiel": 0.465,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "gegen"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document B, lignes 11 à 16)\nEr hatte die unwiderstehliche Aura des Abenteurers.\nEr war genauso alt wie Napoleon. Er war genauso berühmt wie Napoleon. Und er war\neinen Kopf größer.\nNapoleon mochte ihn nicht. „Er war voll"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "(Document B, lignes 15 à 21)\nWir überschreiten die Grenze nicht als Eroberer, nicht als Feinde Deutschlands;\nNicht, um deutsche Verfassungen, Rechte, Sitten und Gebräuche zu vernichten, und\nFremde aufzudringen: Nicht, um"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 24,
+   "titre": "Société et sentiments L’amour et l’amitié, la famille",
+   "passages": 36,
+   "proba": 0.616,
+   "potentiel": 0.954,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.967,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 282,
+     "texte": "• Deutschland umsonst, zu Fuß verdienen in Politik und und ohne Geld durch ein Wirtschaft » ) Wohlstandsland (1982) Fritz Stern/Helmut Schmidt Friedrich Dürrenmatt, • Unser Jahrhundert. Ein",
+     "proba": 0.616,
+     "potentiel": 0.954,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.67
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "(Document A, lignes 22 à 30)\nMitten durch den Saal war ein beständiger Verkehr von hin und her gejagten Leuten. [...]\n„Du hast es wirklich weit gebracht“, sagte Karl einmal auf einem dieser Gänge durch den\nBetrieb [...]."
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Als er tatsächlich Gouverneur wurde, war der Spott groß, und am größten war\ner in Deutschland. Wie kann einer wie Schwarzenegger Gouverneur von Kalifornien\nwerden? Es bestätigte alle Vorurteile, die man hierzulande über "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 269,
+     "texte": "Kleiner Mann, was nun? (1932) Erich Kästner,",
+     "proba": 0.608,
+     "potentiel": 0.848,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.67
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "„Sein zeichnerisches Werk bekam Anerkennung durch die Verbindung zu Erich Kästner. Nach seinem Grafik-Studium illustrierte er einige Gedichtbände von Erich Kästner. Durch die Bücherverbrennung am 10. Mai 1933 wurden auch"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "(Document A, lignes 22 à 30)\nMitten durch den Saal war ein beständiger Verkehr von hin und her gejagten Leuten. [...]\n„Du hast es wirklich weit gebracht“, sagte Karl einmal auf einem dieser Gänge durch den\nBetrieb [...]."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 287,
+     "texte": "• Liebelei (1894) [exposition – Deutsches Heinrich Mann historisches Museum Berlin]",
+     "proba": 0.043,
+     "potentiel": 0.53,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.67
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "„Sein zeichnerisches Werk bekam Anerkennung durch die Verbindung zu Erich Kästner. Nach seinem Grafik-Studium illustrierte er einige Gedichtbände von Erich Kästner. Durch die Bücherverbrennung am 10. Mai 1933 wurden auch"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "(Document A, lignes 22 à 30)\nMitten durch den Saal war ein beständiger Verkehr von hin und her gejagten Leuten. [...]\n„Du hast es wirklich weit gebracht“, sagte Karl einmal auf einem dieser Gänge durch den\nBetrieb [...]."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "La grammaire",
+   "passages": 36,
+   "proba": 0.545,
+   "potentiel": 0.957,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.963,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 66,
+     "texte": "De fait, l’approfondissement des savoirs et savoir-faire peut, dans le cadre de ce nouvel enseignement, être articulé aux pratiques de recherche et d’analyse qui ont cours à l’université ; cette démarche peut offrir l’occasion de pratiquer des exercices tels que la composition écrite sur la base des documents étudiés, la synthèse de documents, le commentaire ou la contraction de texte, qu’il s’agi",
+     "proba": 0.545,
+     "potentiel": 0.957,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "occasion"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 88,
+     "texte": "La réflexion peut d’emblée s’inscrire dans une diachronie, en évoquant par exemple le voyage de formation (« Bildungsreise » ) au XVIIIe siècle : voyage culturel prisé des jeunes gens de familles aisées, il était destiné à leur faire découvrir les places de commerce comme Francfort, Ulm, Augsbourg, mais aussi l’Alsace ou la Lorraine, destiné aussi à leur faire nouer des relations et à visiter les ",
+     "proba": 0.027,
+     "potentiel": 0.527,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "faire"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 89,
+     "texte": "Par ailleurs, les voyages donnent lieu, aux XVIIIe et XIXe siècles, à des correspondances et des récits qui contribuent à faire exister une communauté de gens de lettres. Pour le XIXe et le XXe siècles, on songe à présenter aux élèves les nombreux écrivains, artistes ou scientifiques de langue allemande contraints à l’exil sous la pression des circonstances économiques ou politiques.",
+     "proba": 0.027,
+     "potentiel": 0.221,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "faire"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Explorer la langue, la littérature et la culture de manière approfondie",
+   "passages": 15,
+   "proba": 0.53,
+   "potentiel": 0.883,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.952,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 9,
+     "texte": "Une initiation ponctuelle à la traduction en cohérence avec les enseignements est par ailleurs à même d’éclairer l’approche contrastive des systèmes linguistiques. Les langues régionales, pour ce qui les concerne, entretiennent une relation étroite avec le français et des relations spécifiques avec les langues étrangères. Le programme dédié à",
+     "proba": 0.53,
+     "potentiel": 0.883,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "relation"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 13,
+     "texte": "C’est dans le travail d’appropriation des contenus que cet enseignement participe à la transmission et à la valorisation d’un riche patrimoine linguistique et culturel. Comme tous les enseignements, cette spécialité contribue au développement des compétences orales à travers notamment la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter son raisonnement de manière ",
+     "proba": 0.02,
+     "potentiel": 0.358,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 6,
+     "texte": "Il a également pour objectif de favoriser une connaissance fine des langues et cultures concernées dans leur rapport à l’Histoire et de permettre une plus grande ouverture dans un espace européen et international élargi ainsi que de préparer les élèves à la mobilité. Il doit être pour les élèves l’occasion d’établir des relations de comparaison, de rapprochement et de contraste.",
+     "proba": 0.02,
+     "potentiel": 0.516,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "Production",
+   "passages": 8,
+   "proba": 0.6,
+   "potentiel": 0.826,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.952,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 38,
+     "texte": "L’écriture créative peut s’appuyer sur des pratiques de la vie courante (lettres, blogues, etc.) ou s’inscrire dans des formes plus littéraires : dialogues, suites de textes, récits. Cette activité peut donner lieu à des exercices de médiation : résumé, compte-rendu, synthèse, adaptation, traduction, explicitation, reformulation, etc. L’écriture argumentative forme l’esprit critique et encourage l",
+     "proba": 0.587,
+     "potentiel": 0.826,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "lieu"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 44,
+     "texte": "En cours d’année et de cycle, ils peuvent ainsi gagner en confiance et développer la fluidité, la précision et la richesse de l’expression orale sur le plan phonologique, lexical et syntaxique.",
+     "proba": 0.6,
+     "potentiel": 0.151,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 39,
+     "texte": "Il peut s’agir, par exemple, d’un commentaire de document, d’une synthèse de documents, d’une critique de film, d’un droit de réponse, d’un discours engagé, d’un essai, etc. Cette",
+     "proba": 0.031,
+     "potentiel": 0.122,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 33,
+   "titre": "L’eau, élément naturel et mythique",
+   "passages": 17,
+   "proba": 0.017,
+   "potentiel": 0.129,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.556,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 398,
+     "texte": "• Wasser (1844) Theodor Storm, • Meeresstrand (1853) • Der Schimmelreiter (1888) Bertolt Brecht, • Das Lied von der Moldau (1943) Alfred Andersch, • Sansibar oder der letzte Grund (1957) Erich Fried, • Meer (1964) Heinrich Böll, • Undines gewaltiger Vater (1957) Jens Sparschuh, • Der Zimmerspringbrunnen (1995) : Franz Marc, • Der Wasserfall (1912) Emil Nolde, • Meeresbilder Anselm Kiefer, • Der Rh",
+     "proba": 0.017,
+     "potentiel": 0.129,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2024-metropole",
+       "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 391,
+     "texte": "Gesang der Geister über den Wassern (1820)",
+     "proba": 0.016,
+     "potentiel": 0.064,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Wie hätte ich wohl mein langes Leben gemeistert, ohne Bücher zu lesen. Es ist mir\nunvorstellbar, und ich verweigere sogar, es mir vorzustellen. Mit Erstaunen, ja leisem\nEntsetzen, betrachte ich Menschen, die anscheinend "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 396,
+     "texte": "Mädchen, einen Wildbach überschreitend (1880-1882) Gustav Klimt,",
+     "proba": 0.017,
+     "potentiel": 0.053,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole",
+       "enonce": "Politische Motive waren ein weiterer Grund für Reisen: So lockte die Französische\nRevolution viele Reisende nach Paris. Auch kriegerische Auseinandersetzungen\nkonnten Anlässe für Reisen sein: Zum Beispiel kam der französ"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 28,
+   "titre": "L’individualisme La réalité virtuelle",
+   "passages": 25,
+   "proba": 0.014,
+   "potentiel": 0.295,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.533,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 337,
+     "texte": "• Colloquium in Utero (1932) et La dérision sociale au 19e siècle autres écrits satiriques à propos du « deutscher Erich Kästner, Michel »",
+     "proba": 0.013,
+     "potentiel": 0.295,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "„Sein zeichnerisches Werk bekam Anerkennung durch die Verbindung zu Erich Kästner. Nach seinem Grafik-Studium illustrierte er einige Gedichtbände von Erich Kästner. Durch die Bücherverbrennung am 10. Mai 1933 wurden auch"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-2",
+       "enonce": "Das Massensymbol der Deutschen war das Heer. Aber das Heer war mehr als das Heer:\nEs war der marschierende Wald. In keinem modernen Lande der Welt ist das Waldgefühl\nso lebendig geblieben, wie in Deutschland. Das Rigide "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 326,
+     "texte": "[icon.] Otto Dix L’architecture [Autriche] moderne en quête de • Le « Vorarlberg » ou le label nouveaux liens d’une l’architecture verte sociaux à créer [Allemagne]",
+     "proba": 0.01,
+     "potentiel": 0.054,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+       "enonce": "(Document D, lignes 11 à 17)\nFür den deutschen Komponisten Ludwig van Beethoven waren vor allem lange\nSpaziergänge durch die Natur eine Quelle der künstlerischen Inspiration. Zunächst in\nseiner Heimatstadt Bonn, später d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 342,
+     "texte": "Il donne alors naissance à un ensemble de récits formant un système cohérent : une mythologie. Dans un sens plus large, le terme est utilisé pour caractériser un processus de glorification ou au contraire de diabolisation d’une figure, d’un objet ou d’un événement. Véhiculés par la tradition orale, les mythes structurent la vie et la pensée collectives.",
+     "proba": 0.013,
+     "potentiel": 0.038,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.25
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 29,
+   "titre": "Axe d’étude 1 : La nature source de mythes",
+   "passages": 4,
+   "proba": 0.014,
+   "potentiel": 0.115,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.513,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 348,
+     "texte": "Dans un contexte réel et contemporain, on peut évoquer les problèmes liés à la mort lente de la forêt (Waldsterben) qui cristallise les peurs liées à la destruction de l’environnement et donne lieu à des mobilisations en faveur du développement durable (Nachhaltigkeit). L’eau, les fleuves, la mer façonnent également des mythes qui reflètent et construisent le patrimoine culturel de l’espace german",
+     "proba": 0.014,
+     "potentiel": 0.115,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 347,
+     "texte": "On peut attirer l’attention des élèves sur le rôle ambivalent que lui réserve le romantisme allemand dans les arts et la littérature. Lieu de tous les mystères et de tous les enchantements, elle peut être tout aussi angoissante que protectrice et reconduit souvent l’image de l’individu seul face à son destin. Elle est encore une contrée mystérieuse et initiatique pour les personnages des contes.",
+     "proba": 0.014,
+     "potentiel": 0.045,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 346,
+     "texte": "Pour cet axe, on peut envisager la manière dont les éléments naturels, essentiellement la forêt et l’eau, font l’objet de mythifications diverses. On étudie par exemple la place riche et singulière qu’occupe la forêt dans l’imaginaire collectif germanique : symbolisant la victoire des Germains sur les Romains, elle est un enjeu de mémoire pour l’identité nationale.",
+     "proba": 0.014,
+     "potentiel": 0.023,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 25,
+   "titre": "Lieux et rythmes de la socialisation et de la sociabilité",
+   "passages": 11,
+   "proba": 0.008,
+   "potentiel": 0.073,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.441,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 310,
+     "texte": "Parerga & Paralipomena (1851) (notamment la parabole du porc-épic et la définition de la bonne distance entre les individus pour « faire société » ) [icon.] tableaux de Hieronymus Bosch Max Liebermann,",
+     "proba": 0.008,
+     "potentiel": 0.073,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2024-metropole",
+       "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 303,
+     "texte": "Das lässt sich ändern (2011) Arthur Schnitzler,",
+     "proba": 0.008,
+     "potentiel": 0.046,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Vous expliquerez à une amie française les différences constatées par Thaiana Santos\nentre l’exercice de son métier au Brésil et en Allemagne.\nEN_NNTM0NT8QzNjAo0ND5UzMsTYxMj3AwNjAU2MzeU0NVTMx\nDokument A\nDer Roman Lichtspi"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-la-reunion",
+       "enonce": "Zum 30. Jahrestag des Mauerfalls hat Bundespräsident Frank-Walter Steinmeier dazu\naufgerufen, für die Demokratie zu streiten und neu entstandene Mauern in der Gesellschaft\nwieder einzureißen. In den vergangenen Jahren se"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 305,
+     "texte": "Die Welt von gestern. Erinnerungen eines Europäers (1944) et toutes les représentations littéraires, journalistiques ou filmiques de la « Gemütlichkeit » : Stammtisch, Kaffee-Kuchen, die Wiener Cafés, le « Kiez » berlinois, la vie et la langue du quartier, Neukölln, quartier berlinois « iconique » pour les immigrés, die Couch-Ecke, der Biergarten, der Wiener Heuriger, das Freibad, etc. Alma Mahler",
+     "proba": 0.008,
+     "potentiel": 0.036,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2024-metropole",
+       "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 12,
+   "titre": "Axe d’étude 1 : Voyages de découverte et d’exploration",
+   "passages": 4,
+   "proba": 0.004,
+   "potentiel": 0.236,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.408,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 100,
+     "texte": "Peuvent aussi être envisagés les voyages en France entrepris par des journalistes ou écrivains de langue allemande, tout comme les voyages en Allemagne qui montrent aux Allemands les aspects plus insolites de leur pays et en présentent aux étrangers les particularités et les paradoxes.",
+     "proba": 0.004,
+     "potentiel": 0.236,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole",
+       "enonce": "Auch unsere Lehrer hatten an der Trostlosigkeit jenes Betriebes keine Schuld. […] Sie liebten\nuns nicht, sie haßten uns nicht, und warum auch, denn sie wußten von uns nichts […]. Sie\nsaßen oben auf dem Katheder und wir u"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 99,
+     "texte": "Le voyage en Italie était le point d’orgue du « Grand Tour » qui comprenait l’Allemagne, l’Autriche, la France, la Suisse, et enfin, l’Italie. Le rêve américain, quant à lui, peut être perçu comme le contrepoint du voyage en Italie, car le voyage en Amérique est plutôt associé au désir d’expatriation dans l’espoir de commencer une nouvelle vie.",
+     "proba": 0.004,
+     "potentiel": 0.077,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 97,
+     "texte": "Motif littéraire très souvent rencontré dans la culture et la littérature germanophones, le voyage se situe dans une tension entre ce que les Allemands appellent « Fernweh » , c’est- à-dire l’appel irrésistible du lointain et le « Heimweh » , l’irrépressible désir d’un retour à sa terre natale ou son pays d’origine.",
+     "proba": 0.003,
+     "potentiel": 0.011,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 26,
+   "titre": "Architecture et urbanisme au service du vivre ensemble",
+   "passages": 6,
+   "proba": 0.009,
+   "potentiel": 0.036,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.395,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 314,
+     "texte": "Faust 1 (1808) (scènes « Spaziergang » « Auerbachs Keller » ) Poèmes expressionnistes sur la promiscuité et la misère dans les « Mietskasernen » Philipp Franck,",
+     "proba": 0.009,
+     "potentiel": 0.036,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.38
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2024-centres-etrangers",
+       "enonce": "(Document A, lignes 10 à 16)\nWas für Märchen erzählen Sie Ihrem Publikum am liebsten?\nEs gibt unglaublich tolle Märchen aus der ganzen Welt. Wenn ich Kindern Märchen\nerzähle, dann solche, die sich um eher schwache Lebewe"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 316,
+     "texte": "Das Ballsouper (1878) [architecture et société]",
+     "proba": 0.009,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2024-centres-etrangers",
+       "enonce": "(Document A, lignes 10 à 16)\nWas für Märchen erzählen Sie Ihrem Publikum am liebsten?\nEs gibt unglaublich tolle Märchen aus der ganzen Welt. Wenn ich Kindern Märchen\nerzähle, dann solche, die sich um eher schwache Lebewe"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 318,
+     "texte": "Die Hackerscher Höfe (Berlin) …et autres transformations d’usines désaffectées ou d’anciens parcs industriels en lieux de convivialité et de sociabilité (Ruhr-Gebiet)",
+     "proba": 0.009,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2024-centres-etrangers",
+       "enonce": "(Document A, lignes 10 à 16)\nWas für Märchen erzählen Sie Ihrem Publikum am liebsten?\nEs gibt unglaublich tolle Märchen aus der ganzen Welt. Wenn ich Kindern Märchen\nerzähle, dann solche, die sich um eher schwache Lebewe"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 8,
+   "titre": "À l’articulation des activités langagières, la médiation",
+   "passages": 8,
+   "proba": 0.003,
+   "potentiel": 0.195,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.384,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 49,
+     "texte": "En d’autres termes, si l’activité langagière de médiation peut ponctuellement supposer un usage du français, elle ne s’y réduit pas, car elle peut être envisagée à travers la traduction mais aussi la reformulation en langue cible afin de transmettre du sens à autrui dans une situation de communication en interaction.",
+     "proba": 0.003,
+     "potentiel": 0.195,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 50,
+     "texte": "À l’instar de l’enseignement commun de langues vivantes, les compétences linguistiques sont enseignées en contexte d’utilisation, à l’occasion de l’étude de documents authentiques de toute nature, écrits et oraux, par l’écoute d’enregistrements, le visionnage de documents iconographiques et audio-visuels et la lecture de textes.",
+     "proba": 0.003,
+     "potentiel": 0.175,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 52,
+     "texte": "réfléchie, dans une approche comparative entre la langue concernée, le français, les autres langues vivantes étudiées et, pour les langues régionales, les langues de l’Antiquité. À ce stade, les élèves savent qu’ils comprennent plus qu’ils ne sont capables d’exprimer, ils savent aussi distinguer grammaire et lexique de reconnaissance, d’une part, et grammaire et lexique de production, d’autre part",
+     "proba": 0.003,
+     "potentiel": 0.092,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 15,
+   "titre": "Le voyage de découverte ; le voyage exotique",
+   "passages": 8,
+   "proba": 0.005,
+   "potentiel": 0.066,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.37,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 146,
+     "texte": "Sternstunden der Menschheit, (1939) (plus particulièrement « Die Entdeckung Eldorados » ; « Das erste Wort über den Ozean » ; « Kampf um den Südpol » )",
+     "proba": 0.004,
+     "potentiel": 0.066,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Wie hätte ich wohl mein langes Leben gemeistert, ohne Bücher zu lesen. Es ist mir\nunvorstellbar, und ich verweigere sogar, es mir vorzustellen. Mit Erstaunen, ja leisem\nEntsetzen, betrachte ich Menschen, die anscheinend "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 152,
+     "texte": "Die Vermessung der Welt (2012) [icon.] Emil Nolde [biographies ou récits d’explorateurs germanophones du 18e siècle comme Adelbert von Chamisso, Georg Forster ou Alexander von Humboldt]",
+     "proba": 0.005,
+     "potentiel": 0.038,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2024-metropole",
+       "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 145,
+     "texte": "Die Vermessung der Welt (2005) Stefan Zweig,",
+     "proba": 0.004,
+     "potentiel": 0.029,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.38
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Inzwischen näherte sich der Tag meiner endgültigen Vorladung auf das Konsulat der\nVereinigten Staaten. Ich war fest entschlossen, mir das Transit zu sichern. Für mich\nwar damals alles ein Spiel. Doch die Gesichter der Me"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 23,
+   "titre": "Les centres d’intérêt et les loisirs comme ciment social",
+   "passages": 8,
+   "proba": 0.008,
+   "potentiel": 0.032,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.363,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 262,
+     "texte": "Auf eine Zigarette mit Helmut Schmidt (2009) (« Über Herbert von Karajan » ) [les foires aux livres]",
+     "proba": 0.007,
+     "potentiel": 0.032,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metropole-remplacement",
+       "enonce": "(extrait du document D)\nDas Märchen überlässt es der Phantasie des Kindes, ob und wie es das, was die\nGeschichte vom Leben und vom Menschen erzählt, auf sich selbst beziehen will. Das\nMärchen entwickelt sich so, wie das "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-metropole",
+       "enonce": "Paul, plötzlich hellwach: Das ist es! Der Wind, den er für die Flucht braucht. Er trinkt,\num nicht aufzufallen, die Kaffeetasse aus, obwohl er keinen Kaffee mehr braucht. Er\ngreift seinen Teil der Zeitung, versteckt sich"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 264,
+     "texte": "Sportvereine (Fussballverein, Turnverein)",
+     "proba": 0.008,
+     "potentiel": 0.022,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Wie hätte ich wohl mein langes Leben gemeistert, ohne Bücher zu lesen. Es ist mir\nunvorstellbar, und ich verweigere sogar, es mir vorzustellen. Mit Erstaunen, ja leisem\nEntsetzen, betrachte ich Menschen, die anscheinend "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 265,
+     "texte": "Burschenschaften [approche contrastive franco-allemande]",
+     "proba": 0.008,
+     "potentiel": 0.012,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 21,
+   "titre": "Le « Bildungsroman » (« roman de formation » ) et ses avatars",
+   "passages": 11,
+   "proba": 0.007,
+   "potentiel": 0.036,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.361,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 253,
+     "texte": "Die Kadetten (1933) Arnaud des Pallières,",
+     "proba": 0.007,
+     "potentiel": 0.036,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "„Sein zeichnerisches Werk bekam Anerkennung durch die Verbindung zu Erich Kästner. Nach seinem Grafik-Studium illustrierte er einige Gedichtbände von Erich Kästner. Durch die Bücherverbrennung am 10. Mai 1933 wurden auch"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+       "enonce": "(Document D, lignes 11 à 17)\nFür den deutschen Komponisten Ludwig van Beethoven waren vor allem lange\nSpaziergänge durch die Natur eine Quelle der künstlerischen Inspiration. Zunächst in\nseiner Heimatstadt Bonn, später d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 252,
+     "texte": "Die Banalität des Bösen (1963) [autobiographie] Ernst von Salomon,",
+     "proba": 0.007,
+     "potentiel": 0.01,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "(Document A, lignes 1 à 4 et 18 à 20)\nMittlerweile wohnt in so ziemlich jeder Hosentasche ein Smartphone. Und je besser die\nKameras und Mikrofone von diesen mit den Jahren wurden, umso lauter wurde die\nDiskussion um eine"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 247,
+     "texte": "Aus dem Leben eines Taugenichts (1826) Heinrich von Kleist,",
+     "proba": 0.006,
+     "potentiel": 0.008,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2022-mayotte-liban",
+       "enonce": "Eine ganz besondere Bedeutung hat die Linde im deutschsprachigen Raum als Symbol für die\nHeimat. Auch die unzähligen deutschen Gasthöfe lockten die Reisenden somit indirekt mit\neinem Heimatbegriff. 1991 wurde in der thür"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "Les outils numériques",
+   "passages": 6,
+   "proba": 0.002,
+   "potentiel": 0.12,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.352,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 34,
+     "texte": "La finalité de l’apprentissage des langues vivantes dans le cadre de l’enseignement de spécialité est de viser les niveaux de compétence suivants : le niveau attendu est B2 en fin de première et, en fin de terminale, le niveau C1 est visé, notamment dans les activités de réception selon le parcours linguistique de l’élève. (Cf. le volume complémentaire du CECRL, janvier 2018 pour la traduction fra",
+     "proba": 0.002,
+     "potentiel": 0.12,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 30,
+     "texte": "Il permet de renforcer les compétences des élèves en réception et en production, notamment grâce à :  l'accès à des ressources numériques d'archives ou de l’actualité la plus directe (écoute de documents en flux direct ou téléchargés librement, recherches documentaires sur internet, lecture audio, visionnage d’adaptations théâtrales et télévisées d’œuvres classiques, captations diverses, etc.) ; ",
+     "proba": 0.002,
+     "potentiel": 0.041,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 31,
+     "texte": "d’échanges, messageries électroniques, etc.). L’utilisation des outils numériques permet de sensibiliser les élèves à l’importance d’un regard critique sur les informations en ligne.",
+     "proba": 0.002,
+     "potentiel": 0.009,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 18,
+   "titre": "Axe d’étude 2 : Socialisation et sociabilité : espaces et enjeux",
+   "passages": 5,
+   "proba": 0.005,
+   "potentiel": 0.036,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.344,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 209,
+     "texte": "De même, on peut analyser comment les médias contribuent à façonner et à rythmer la vie sociale : les grands groupes de presse et leur public de prédilection (l’hebdomadaire « der Spiegel » , le groupe Axel Springer), la télévision avec le rythme social qu’elle peut engendrer (le « Tatort » du dimanche soir), mais aussi les réseaux sociaux et les différents espaces virtuels de socialisation.",
+     "proba": 0.005,
+     "potentiel": 0.036,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 206,
+     "texte": "Cet axe permet d’analyser la façon dont les sociétés dans l’espace germanophone se sont structurées dans l’histoire et se structurent encore aujourd’hui.",
+     "proba": 0.005,
+     "potentiel": 0.03,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 210,
+     "texte": "On s’efforce d’observer la variété des espaces dans lesquels le lien social se déploie dans les pays germanophones (clubs, associations, « Stammtisch » , cafés viennois, etc.) afin de sensibiliser les élèves à la nature diverse de la socialisation et aux enjeux qui la sous- tendent.",
+     "proba": 0.005,
+     "potentiel": 0.023,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 13,
+   "titre": "Axe d’étude 2 : Exil et migrations",
+   "passages": 5,
+   "proba": 0.004,
+   "potentiel": 0.04,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.328,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 103,
+     "texte": "L’attention est portée sur l’immigration en Allemagne et les diverses formes d’expression (poétique, romanesque, filmique) auxquelles elle a donné lieu ainsi qu’au traitement souvent humoristique qui sous-tend le récit de la rencontre interculturelle.",
+     "proba": 0.004,
+     "potentiel": 0.04,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 105,
+     "texte": "Axe d’étude 1 : Voyages de découverte et d’exploration",
+     "proba": 0.004,
+     "potentiel": 0.036,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 104,
+     "texte": "On peut, pour cet axe, envisager également la façon dont la langue varie, évolue et circule au gré des contacts avec d’autres langues et d’autres cultures ainsi qu’au fil des migrations vers l’espace germanophone ou hors de lui. Les élèves sont ainsi sensibilisés aux variations dialectales de la langue allemande.",
+     "proba": 0.004,
+     "potentiel": 0.016,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 34,
+   "titre": "Le monde grec entre ténèbres et lumières",
+   "passages": 7,
+   "proba": 0.018,
+   "potentiel": 0.004,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.312,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 400,
+     "texte": "Parzenlied in : Iphigenie auf Tauris (1779-1786) Friedrich Hölderlin,",
+     "proba": 0.017,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+       "enonce": "(Document D, lignes 11 à 17)\nFür den deutschen Komponisten Ludwig van Beethoven waren vor allem lange\nSpaziergänge durch die Natur eine Quelle der künstlerischen Inspiration. Zunächst in\nseiner Heimatstadt Bonn, später d"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Als er tatsächlich Gouverneur wurde, war der Spott groß, und am größten war\ner in Deutschland. Wie kann einer wie Schwarzenegger Gouverneur von Kalifornien\nwerden? Es bestätigte alle Vorurteile, die man hierzulande über "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 405,
+     "texte": "Franz Grillparzer, • Das Goldene Vlies (Der Gastfreund – Die Argonauten – Medea) (1818-1820) Bertolt Brecht, • Die Medea von Lodz (1934) Christa Wolf, • Kassandra (1983) • Medea. Stimmen (1996) Heiner Müller, • Verkommenes Ufer Medeamaterial Landschaft der Argonauten (1983) : [icon.] Anselm Feuerbach, • Iphigenie (1862) • Medea (1870) • Medea an der Urne (1873) Lovis Corinth, • Ariadne auf Naxos (",
+     "proba": 0.018,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+       "enonce": "(Document D, lignes 11 à 17)\nFür den deutschen Komponisten Ludwig van Beethoven waren vor allem lange\nSpaziergänge durch die Natur eine Quelle der künstlerischen Inspiration. Zunächst in\nseiner Heimatstadt Bonn, später d"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole",
+       "enonce": "Auch unsere Lehrer hatten an der Trostlosigkeit jenes Betriebes keine Schuld. […] Sie liebten\nuns nicht, sie haßten uns nicht, und warum auch, denn sie wußten von uns nichts […]. Sie\nsaßen oben auf dem Katheder und wir u"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 401,
+     "texte": "Hyperions Schicksalslied (1799) Hugo von Hofmannsthal,",
+     "proba": 0.018,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "(Document B, lignes 15 à 21)\nWir überschreiten die Grenze nicht als Eroberer, nicht als Feinde Deutschlands;\nNicht, um deutsche Verfassungen, Rechte, Sitten und Gebräuche zu vernichten, und\nFremde aufzudringen: Nicht, um"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-centres-etrangers",
+       "enonce": "(Document D, lignes 11 à 17)\nFür den deutschen Komponisten Ludwig van Beethoven waren vor allem lange\nSpaziergänge durch die Natur eine Quelle der künstlerischen Inspiration. Zunächst in\nseiner Heimatstadt Bonn, später d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 5,
+   "titre": "Réception",
+   "passages": 2,
+   "proba": 0.002,
+   "potentiel": 0.045,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.305,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 36,
+     "texte": "Tout au long des deux années d’enseignement de spécialité, les élèves sont progressivement entraînés à :  lire des textes de plus en plus longs, issus de la littérature, de la critique ou de la presse ;  lire des textes littéraires, classiques et contemporains, appartenant à différents genres ;  comprendre l’information contenue dans les documents audio-visuels (émissions de télévision ou radio",
+     "proba": 0.002,
+     "potentiel": 0.045,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 35,
+     "texte": "L’enseignement de spécialité cherche toutes les occasions d’exposer les élèves à la langue écrite et orale à travers tous types de médias. Ils sont exercés à comprendre des énoncés simples et de plus en plus élaborés, dans une langue authentique aux accents variés. Ils ne sont pas limités à la fréquentation d’une variante donnée et considèrent dans sa totalité la langue qu’ils étudient.",
+     "proba": 0.002,
+     "potentiel": 0.006,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 2,
+   "titre": "Perspective actionnelle et démarche de projet",
+   "passages": 2,
+   "proba": 0.001,
+   "potentiel": 0.055,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.302,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 25,
+     "texte": "Ainsi, la constitution par les élèves d’un dossier dans lequel ils présentent des documents vus en classe et choisis par eux-mêmes en lien avec les thématiques du programme, fait partie de la démarche globale qui vise à encourager leur esprit d’initiative. Ce dossier personnel rend compte du patrimoine linguistique, littéraire et culturel que l’enseignement de spécialité leur a offert.",
+     "proba": 0.001,
+     "potentiel": 0.055,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 24,
+     "texte": "L’enseignement de spécialité s’inscrit, comme l’enseignement commun de langues vivantes, dans une perspective actionnelle que les professeurs cherchent à mettre en œuvre afin d’installer les élèves dans une démarche de projet pour les rendre autonomes.",
+     "proba": 0.001,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 27,
+   "titre": "Les vecteurs de liens de citoyenneté nationale, européenne et mondiale",
+   "passages": 2,
+   "proba": 0.009,
+   "potentiel": 0.009,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.302,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 319,
+     "texte": "Les échanges de l’Office franco-allemand pour la jeunesse (Ofaj)",
+     "proba": 0.009,
+     "potentiel": 0.009,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-metropole",
+       "enonce": "Auch unsere Lehrer hatten an der Trostlosigkeit jenes Betriebes keine Schuld. […] Sie liebten\nuns nicht, sie haßten uns nicht, und warum auch, denn sie wußten von uns nichts […]. Sie\nsaßen oben auf dem Katheder und wir u"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 320,
+     "texte": "Axe d’étude 3 : Les liens sociaux entre fragilisation et mutation",
+     "proba": 0.009,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 30,
+   "titre": "Axe d’étude 2 : Relectures des mythologies",
+   "passages": 4,
+   "proba": 0.015,
+   "potentiel": 0.005,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.297,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 352,
+     "texte": "Sur la base d’une aspiration au réenchantement d’un monde marqué par l’affirmation du rationalisme, le romantisme joue un rôle essentiel dans la réhabilitation et la valorisation de mythes médiévaux (en particulier nordiques) ainsi que de récits issus de traditions orales qui constituent le substrat des contes populaires et plus largement du folklore incluant les forces magiques et maléfiques (dia",
+     "proba": 0.014,
+     "potentiel": 0.005,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 353,
+     "texte": "On étudie la fécondité artistique durable de ce patrimoine qui s’étend également au cinéma. On s’attache également aux processus de parodie et de détournement du mythe en contexte contemporain où sa fonction intégrative initiale fait place à une dimension de contestation du consensus social.",
+     "proba": 0.015,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 350,
+     "texte": "Les mythologies antiques, surtout grecque et latine, ont durablement imprégné les cultures européennes qui les retravaillent dans différents contextes historiques et esthétiques. On peut insister sur l’importance du monde grec pour la littérature, la peinture et la musique dans l’espace germanophone, du classicisme de Weimar à la fin du XIXe siècle.",
+     "proba": 0.014,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 31,
+   "titre": "Axe d’étude 3 : Mythes historiques et politiques fondateurs",
+   "passages": 4,
+   "proba": 0.015,
+   "potentiel": 0.004,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.275,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 357,
+     "texte": "Axe d’étude 1 : La nature source de mythes",
+     "proba": 0.015,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-2",
+       "enonce": "Das Massensymbol der Deutschen war das Heer. Aber das Heer war mehr als das Heer:\nEs war der marschierende Wald. In keinem modernen Lande der Welt ist das Waldgefühl\nso lebendig geblieben, wie in Deutschland. Das Rigide "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 356,
+     "texte": "Au début du XIXe siècle, alors que le nationalisme naissant avait besoin de mythes et de héros nationaux pouvant incarner de nouvelles valeurs, ces personnages historiques vont fonctionner comme des mythes fondateurs.",
+     "proba": 0.015,
+     "potentiel": 0.003,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 355,
+     "texte": "Les élèves sont sensibilisés aux enjeux sociaux et politiques que constituent les mythes et aux tentatives d’instrumentalisation politique dont ils ont fait et font encore l’objet. Ils peuvent par exemple explorer les liens complexes qui régissent le monde germanique et le monde latin (Rome, la France, etc.), illustrés par des figures mythifiées telles qu’Arminius, Barberousse et Luther.",
+     "proba": 0.015,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 10,
+   "titre": "Le lexique",
+   "passages": 3,
+   "proba": 0.003,
+   "potentiel": 0.021,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.267,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 60,
+     "texte": "Par ailleurs, le renforcement des compétences à l’oral comme à l’écrit ne saurait aller sans l’appropriation progressive d’un vocabulaire méthodologique de base. Ainsi l’apprentissage du vocabulaire du commentaire de texte littéraire ou non-fictionnel, du commentaire d’analyse d’images et de films trouve naturellement sa place au sein du nouvel enseignement de spécialité, sans en être cependant l’",
+     "proba": 0.003,
+     "potentiel": 0.021,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 59,
+     "texte": "Pour aider les élèves à s’approprier le lexique, on a recours à la mémorisation et à divers procédés qui ont fait leurs preuves : répétition, paraphrase, explicitation, médiation, etc., autant d’activités qui produisent à la fois des automatismes et du sens, à partir d’énoncés de plus en plus complexes et nuancés.",
+     "proba": 0.003,
+     "potentiel": 0.013,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 58,
+     "texte": "C’est à partir du programme littéraire et culturel que se diversifient et s’enrichissent les champs sémantiques. Le lexique ne donne pas lieu à un apprentissage hors-contexte mais prend sens par rapport aux énoncés et aux documents travaillés en classe. Les supports utilisés élargissent et affinent le lexique rencontré par les élèves.",
+     "proba": 0.003,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 19,
+   "titre": "Axe d’étude 3 : Les liens sociaux entre fragilisation et mutation",
+   "passages": 5,
+   "proba": 0.006,
+   "potentiel": 0.009,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.248,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 212,
+     "texte": "On insiste sur l’articulation entre la crise possible du lien social, générée notamment par la propension à l’individualisme, et les propositions envisagées pour sa reconfiguration.",
+     "proba": 0.006,
+     "potentiel": 0.009,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 215,
+     "texte": "Axe d’étude 1 : Construction et organisation des liens sociaux",
+     "proba": 0.006,
+     "potentiel": 0.006,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 213,
+     "texte": "On peut mettre par exemple en lumière l’émergence de nouvelles perspectives pour une vie en société plus harmonieuse : l’habitat, les villes, les initiatives locales sont à évoquer comme autant de champs investis pour lutter contre le possible délitement du lien entre les individus.",
+     "proba": 0.006,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 7,
+   "titre": "Interaction",
+   "passages": 2,
+   "proba": 0.002,
+   "potentiel": 0.021,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.243,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 46,
+     "texte": "En enseignement de spécialité, toutes les stratégies d’apprentissage en autonomie sont recherchées, notamment le travail par projet au sein d’un groupe d’élèves. L’interaction doit être perçue comme la condition de cette autonomie.",
+     "proba": 0.002,
+     "potentiel": 0.021,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 45,
+     "texte": "Une attention particulière est donnée à l’interaction. Elle suppose une attitude fondée sur l’écoute, le dialogue et les échanges dans le cadre de la construction collective du sens à partir d’un support. Elle suppose encore des activités en groupes : recherche de documents, résolution de problèmes rencontrés au fil des activités qui se déroulent en classe ou dans le cadre d’un projet spécifique.",
+     "proba": 0.002,
+     "potentiel": 0.006,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "Développer le goût de lire",
+   "passages": 9,
+   "proba": 0.001,
+   "potentiel": 0.027,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.241,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 22,
+     "texte": "Des documents de nature différente (textes littéraires à dimension philosophique ou politique, tableaux, gravures, photographies, films, articles de presse, données chiffrées, etc.) et de périodes différentes sont mis en regard les uns avec les autres pour permettre des lectures croisées ou souligner des continuités ou des ruptures.",
+     "proba": 0.001,
+     "potentiel": 0.027,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 21,
+     "texte": "général (architecture, chanson, cinéma, musique, peinture, photographie, sculpture et télévision) et de l’histoire des idées. Les artistes, les penseurs et leurs œuvres sont replacés dans leur contexte historique, politique et social.",
+     "proba": 0.001,
+     "potentiel": 0.023,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 16,
+     "texte": "Outre les œuvres du programme limitatif, la lecture d’œuvres intégrales est recommandée et s’accompagne de la lecture d’extraits significatifs d’autres œuvres permettant de découvrir des auteurs et des courants littéraires majeurs représentatifs de l’aire culturelle et linguistique étudiée.",
+     "proba": 0.001,
+     "potentiel": 0.022,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "Aspects phonologiques et graphie",
+   "passages": 3,
+   "proba": 0.003,
+   "potentiel": 0.013,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.229,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 57,
+     "texte": "On attire l’attention des élèves sur les particularités orthographiques et on leur fait prendre conscience du rapport propre à chaque langue entre orthographe et réalisation phonologique.",
+     "proba": 0.003,
+     "potentiel": 0.013,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 56,
+     "texte": "La précision de la prononciation et le respect des règles de la phonologie conditionnent la réussite de l’apprentissage d’une langue vivante tant dans le domaine de la compréhension que dans celui de l’expression orale. Les élèves doivent être entraînés à entendre rythmes, sonorités, accentuation, intonation pour les restituer dans une lecture à haute voix, une prise de parole préparée ou spontané",
+     "proba": 0.003,
+     "potentiel": 0.003,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "Dès la classe de première, une attention particulière est apportée à la phonologie par une sensibilisation accrue aux phonèmes spécifiques de la langue étudiée ainsi qu’à leurs variations que les élèves s’efforcent de reproduire avec la plus grande précision.",
+     "proba": 0.003,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2026-centres-etrangers",
+       "enonce": "Dans votre mairie a lieu une exposition sur le développement urbain. Vous présentez\ndifférentes visions d’urbanisation écologique en vous référant au document A.\n(environ 100 mots)\nEN_NNjgzNT8QzNjAo0ND5UzMsTYxMj0AwNjAU2M"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 17,
+   "titre": "Axe d’étude 1 : Construction et organisation des liens sociaux",
+   "passages": 3,
+   "proba": 0.005,
+   "potentiel": 0.007,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.216,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 204,
+     "texte": "Est ainsi analysée la manière dont les sociétés germanophones se sont emparées de la question des facteurs d’intégration et de cohésion sociale. Un éclairage historique tout autant que littéraire ou artistique peut être apporté : le roman d’apprentissage par exemple, comme représentation littéraire codifiée d’une trajectoire individuelle, thématise la rencontre de l’individu avec le monde en génér",
+     "proba": 0.005,
+     "potentiel": 0.007,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 205,
+     "texte": "Peuvent également être abordés des thèmes tels que l’argent, l’amour, le devoir qui traversent les sociétés de façon récurrente.",
+     "proba": 0.005,
+     "potentiel": 0.005,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "ich / sie x / sie / x sie",
+       "part": 0.12
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 203,
+     "texte": "Pour cet axe d’étude, on réfléchit aux modalités de construction de la relation entre l’individu et la société. La famille, les institutions scolaires ou universitaires, le monde du travail, les organisations syndicales, les institutions ecclésiastiques ou encore les mouvements impulsés par des citoyens comptent parmi les espaces qui favorisent l’intégration de l’individu dans la société.",
+     "proba": 0.005,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "nicht / nicht x / x nicht / x ist x",
+       "part": 0.12
+      },
+      {
+       "facette": 5,
+       "nom": "x durch / x durch x / durch x / durch",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2024-metropole",
+       "enonce": "„Schimpfen funktioniert einfach nicht, das ist vielfach in wissenschaftlichen Studien\nbelegt worden“, sagt Schmidt. Weder Schreien noch Strafen halte Kinder davon ab,\nVerbotenes zu tun. Vielmehr würden sie dadurch lernen"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-liban",
+       "enonce": "(Document C, lignes 13 à 21)\nEinmal die Woche kommt Sebastian nach der Schule im Caritas-Altenzentrum St.\nMaternus vorbei und verbringt zwei Stunden mit den Bewohnern, die alle an Demenz\nerkrankt sind. Seine Schule und d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 22,
+   "titre": "Solidarité et fraternité dans la structuration de la société",
+   "passages": 2,
+   "proba": 0.007,
+   "potentiel": 0.003,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.181,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 257,
+     "texte": "[peinture] Lucas Cranach der J., • Martin Luther und die Wittenberger Reformatoren (vers 1543) Lucas Cranach der Ä., • Porträt des Martin Luther (1525) [histoire et société] • Kulturkampf (1871-1878)",
+     "proba": 0.007,
+     "potentiel": 0.003,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.38
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "stadt / x stadt / einer x / x einer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-metro-cand-libre-2",
+       "enonce": "Hans Scharoun ist für die städtebauliche Gesamtplanung der „Ringsiedlung“\nzuständig. Er stellt sich einen für Berlin ganz neuen Siedlungstyp vor, in dem er seine\nIdee von „Nachbarschaft“ verwirklichen kann. Mit „Nachbars"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2025-metropole",
+       "enonce": "Wie hätte ich wohl mein langes Leben gemeistert, ohne Bücher zu lesen. Es ist mir\nunvorstellbar, und ich verweigere sogar, es mir vorzustellen. Mit Erstaunen, ja leisem\nEntsetzen, betrachte ich Menschen, die anscheinend "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 256,
+     "texte": "rôle de Luther et de la Réforme] Martin Luther,",
+     "proba": 0.007,
+     "potentiel": 0.003,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.5
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2022-mayotte-liban",
+       "enonce": "Eine ganz besondere Bedeutung hat die Linde im deutschsprachigen Raum als Symbol für die\nHeimat. Auch die unzähligen deutschen Gasthöfe lockten die Reisenden somit indirekt mit\neinem Heimatbegriff. 1991 wurde in der thür"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "Varier les supports",
+   "passages": 3,
+   "proba": 0.002,
+   "potentiel": 0.009,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.169,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 28,
+     "texte": "Un entraînement à l’analyse de l’image doit trouver toute sa place dans l’enseignement de spécialité. Les élèves peuvent ainsi s’approprier ce patrimoine de manière concrète, active et autonome.",
+     "proba": 0.002,
+     "potentiel": 0.009,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 7,
+       "nom": "x als / x als x / x fur x / hat",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 27,
+     "texte": "L’utilisation de supports riches et variés est donc recommandée. Elle peut aller de textes fictionnels et non fictionnels à des films et autres documents sonores et peut aussi, dès lors que le contenu s’y prête, donner lieu à une mise en perspective interculturelle. L’image fixe ou mobile, quant à elle, n’a pas vocation à être perçue comme simple illustration.",
+     "proba": 0.002,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2021-zero-1",
+       "enonce": "L’association philanthrope allemande « Aktion Mensch » a créé le visuel suivant pour\nexpliquer les enjeux du vivre ensemble en Allemagne :\nSur quels éléments du dossier pourriez-vous vous appuyer pour expliquer ce visuel"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2023-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion de la journée mondiale de l'environnement. Vous\nêtes chargé de présenter l’évolution de le forêt allemande et la relation toute particulière que les\nAllemands ont avec "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 26,
+     "texte": "Les élèves tirant le plus grand bénéfice à être confrontés à des supports variés et à une approche multimodale de l’enseignement de la langue étrangère, on veille à les familiariser non seulement avec des œuvres littéraires et des auteurs, mais aussi avec toute autre forme d’expression artistique et intellectuelle comme des articles de presse, des œuvres cinématographiques, picturales ou musicales",
+     "proba": 0.002,
+     "potentiel": 0.001,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "vous / x vous / vous x / x vous x",
+       "part": 0.62
+      },
+      {
+       "facette": 6,
+       "nom": "marchen / marchen x / x marchen / x marchen x",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "war / x war / war x / x war x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-llcer-allemand-2026-metropole",
+       "enonce": "Un jeune Français de passage dans le Brandebourg est témoin des incendies qui\nravagent la région. Vous lui expliquez comment Lisa Mattheis décrit pour le journal der\nSpiegel la relation des Allemands avec la forêt.\nEN_NN"
+      },
+      {
+       "sujet": "spe-llcer-allemand-2021-centres-etrangers",
+       "enonce": "Une exposition a lieu dans votre lycée à l’occasion des 30 ans de la réunification.\nVous êtes chargé de présenter l’évolution de Berlin et de certains lieux / quartiers\nemblématiques. Appuyez-vous pour ce faire sur le do"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  }
+ ],
+ "auto_progression": {
+  "prevision": {
+   "familles": [],
+   "modele": "ancienne",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[], \"ancienne\", false]": 0.55
+   },
+   "score_rejoue": [
+    0.576,
+    0.247,
+    0.58,
+    0.758,
+    1.097,
+    0.042
+   ],
+   "fourchette": [
+    0.0,
+    1.0
+   ]
+  },
+  "nouveaute": {
+   "familles": [
+    "lexique_du_professeur"
+   ],
+   "modele": "arbres",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.723
+   },
+   "score_rejoue": [
+    0.728,
+    0.398,
+    0.836,
+    1.095,
+    0.561
+   ],
+   "fourchette": [
+    0.12298922056384742,
+    1.0
+   ]
+  }
+ },
+ "preuve_auto_progression": {
+  "prevision": {
+   "regle_sans_cette_matiere": [
+    [],
+    "ancienne",
+    false
+   ],
+   "avant_couverture": 0.667,
+   "couverture": 0.667,
+   "avant_auc": 0.777,
+   "auc": 0.777,
+   "regle_finale_couverture": 0.667,
+   "pseudo_domaines": {
+    "avant": 0.595,
+    "apres": 0.595,
+    "n": 14
+   }
+  },
+  "nouveaute": {
+   "regle_sans_cette_matiere": [
+    [
+     "lexique_du_professeur"
+    ],
+    "arbres",
+    false
+   ],
+   "avant_couverture": 0.75,
+   "couverture": 0.75,
+   "avant_auc": 0.726,
+   "auc": 0.786,
+   "regle_finale_couverture": 0.75,
+   "pseudo_domaines": {
+    "avant": 0.762,
+    "apres": 0.762,
+    "n": 7
+   }
+  },
+  "auto_jugement": {
+   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
+   "fourchette_juste": 0.852,
+   "largeur_moyenne": 0.79,
+   "taches": 643
+  }
+ }
+}

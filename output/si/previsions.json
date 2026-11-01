@@ -720,17 +720,95 @@
    "titre": "Déterminer la grandeur flux (vitesse linéaire ou angulaire) lorsque les actions mécaniques sont imposées",
    "passages": 13,
    "proba": 0.965,
-   "potentiel": 0.988,
+   "potentiel": 0.985,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 1.0,
+   "priorite": 0.962,
    "niveau": "incontournable",
    "passages_cles": [
+    {
+     "passage": 94,
+     "texte": "- diagramme états-transitions (automates). La modélisation des actions mécaniques s’applique aux mécanismes, structures et ouvrages. Les méthodes graphiques peuvent être utilisées, mais leur maîitrise n’est pas exigée.",
+     "proba": 0.798,
+     "potentiel": 0.985,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.47
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.22
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
+       "enonce": "10 À l’aide du diagramme des exigences figure 2, préciser les exigences (en termes de normes ISO) concernant le matériau de la pièce 1 (Base) en contact avec la peau du patient (voir figure 18). La pièce 2 (Sonde réelle)"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-centres-etranger-1",
+       "enonce": "Question 1.3"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 82,
+     "texte": "Principe fondamental de la dynamique Solide en rotation autour d’un axe fixe dont le centre de gravité est sur l’axe de rotation Notion d’inertie et d’inertie équivalente Solide en translation rectiligne Tale",
+     "proba": 0.571,
+     "potentiel": 0.976,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "rotation",
+      "fixe",
+      "fondamental"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.47
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.22
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-polynesie-1",
+       "enonce": "Expliquer, à l’échelle microscopique, les origines de la variation de l’énergie interne du polyéthylène lorsque la température passe de 20 °C à 200 °C."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-polynesie-1",
+       "enonce": "Rappeler le premier principe de la thermodynamique appliqué au système étudié ici."
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 86,
      "texte": "- force appliquée en un point, couple, action de la pesanteur, torseurs d’action mécanique transmissible dans les liaisons, frottements sec et visqueux ; - principe fondamental de la dynamique pour les mouvements de translation et de rotation autour d’un axe fixe. Électrocinétique : - résistance, inductance, condensateur, interrupteurs parfaits de type diode et transistor ; - sources parfaites con",
      "proba": 0.965,
-     "potentiel": 0.988,
+     "potentiel": 0.874,
      "deja_tombe": 6,
      "evalue_sans_etre_dit": [
       "sources",
@@ -769,207 +847,48 @@
       }
      ],
      "intention": null
-    },
-    {
-     "passage": 85,
-     "texte": "Les connaissances associées dans les différents champs disciplinaires visent à apporter les bases nécessaires à la poursuite d’études supérieures scientifiques. Sont précisés de manière indicative les éléments suivants. Mécanique du point : - bases, repères et référentiels ; - fermeture géométrique ; - dérivée d’un vecteur position exprimé dans la base de dérivation ; - principe fondamental de la ",
-     "proba": 0.943,
-     "potentiel": 0.917,
-     "deja_tombe": 5,
-     "evalue_sans_etre_dit": [
-      "mouvements",
-      "fondamental"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.47
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.22
-      },
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
-       "enonce": "Identifier le référentiel adopté pour les valeurs de la vitesse indiquée par le compteur de la voiture."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
-       "enonce": "Déterminer la valeur de la distance nécessaire pour réaliser ce test. Commenter en la comparant au contexte quotidien de l’usage d’une voiture."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 94,
-     "texte": "- diagramme états-transitions (automates). La modélisation des actions mécaniques s’applique aux mécanismes, structures et ouvrages. Les méthodes graphiques peuvent être utilisées, mais leur maîitrise n’est pas exigée.",
-     "proba": 0.798,
-     "potentiel": 0.979,
-     "deja_tombe": 3,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.47
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.22
-      },
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
-       "enonce": "10 À l’aide du diagramme des exigences figure 2, préciser les exigences (en termes de normes ISO) concernant le matériau de la pièce 1 (Base) en contact avec la peau du patient (voir figure 18). La pièce 2 (Sonde réelle)"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-centres-etranger-1",
-       "enonce": "Question 1.3"
-      }
-     ],
-     "intention": null
     }
    ]
   },
   {
-   "section": 28,
-   "titre": "Caractériser les échanges d’informations",
-   "passages": 6,
-   "proba": 0.443,
-   "potentiel": 0.938,
-   "annees_tombees": 3,
+   "section": 27,
+   "titre": "Modéliser les mouvements Modéliser les actions mécaniques",
+   "passages": 1,
+   "proba": 0.365,
+   "potentiel": 0.984,
+   "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.885,
+   "priorite": 0.863,
    "niveau": "incontournable",
    "passages_cles": [
     {
-     "passage": 80,
-     "texte": "Déterminer les actions mécaniques (inconnues statiques de liaisons ou action mécanique extérieure) menant à l’équilibre statique d’un mécanisme, d’un ouvrage ou d’une structure : Principe fondamental de la statique Modèle de frottement – Loi de Coulomb ; Tale",
-     "proba": 0.443,
-     "potentiel": 0.938,
+     "passage": 74,
+     "texte": "Trajectoires et mouvement Liaisons Torseurs cinématiques et d’actions mécaniques transmissibles, de contact ou à distance Réciprocité mouvement relatif/actions mécaniques associées 1e",
+     "proba": 0.365,
+     "potentiel": 0.984,
      "deja_tombe": 2,
-     "evalue_sans_etre_dit": [],
+     "evalue_sans_etre_dit": [
+      "mecaniques",
+      "actions",
+      "liaisons",
+      "associees"
+     ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.56
-      },
-      {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.22
-      },
-      {
-       "facette": 4,
-       "nom": "x colon / colon / x colon x / colon x",
-       "part": 0.22
+       "part": 1.0
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
-       "enonce": "le robot se déplace jusqu’à la station de préparation ;"
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1",
+       "enonce": "Recopier le schéma de situation de la figure 1 et tracer l’allure de la trajectoire du ballon."
       },
       {
-       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
-       "enonce": "le robot stationne quelques secondes face à la station de préparation ;"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 77,
-     "texte": "Notion de système asservi : consigne d’entrée, grandeur de sortie, perturbation, erreur, correcteur proportionnel : Tale",
-     "proba": 0.428,
-     "potentiel": 0.683,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.56
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.22
-      },
-      {
-       "facette": 4,
-       "nom": "x colon / colon / x colon x / colon x",
-       "part": 0.22
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
-       "enonce": "le robot ramène l’étagère à son emplacement de départ ;"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2025-centres-etranger-2",
-       "enonce": "Temps t (s) 3 0 1 2 Temps t (s) 3 Figure 7 : réponse de l’asservissement à une variation de consigne Question 1.4 Déterminer le ou les réglages du correcteur qui permettent de satisfaire les exigences 1.1.3 et 1.1.4 (fig"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 79,
-     "texte": "Déterminer les grandeurs flux (courant) et effort (tension) dans un circuit électrique : Lois de Kirchhoff Lois de comportement ; 1e",
-     "proba": 0.274,
-     "potentiel": 0.838,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "flux",
-      "effort"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.56
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.22
-      },
-      {
-       "facette": 4,
-       "nom": "x colon / colon / x colon x / colon x",
-       "part": 0.22
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2026-metropole-1-remplacement",
-       "enonce": "Figure 7 : intensité du courant consommée par le propulseur A Question 1.4"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
-       "enonce": "le robot ramène l’étagère à son emplacement de départ ;"
+       "sujet": "spe-sciences-ingenieur-2022-polynesie-2",
+       "enonce": "À l’aide de la deuxième loi de Newton, obtenir une relation entre 𝑇𝑇, 𝑚𝑚, 𝑔𝑔 et 𝛼𝛼. On pourra utiliser la direction de la trajectoire comme axe de projection."
       }
      ],
      "intention": null
@@ -981,17 +900,17 @@
    "titre": "Quantifier les écarts de performances entre les valeurs attendues, les valeurs mesurées et les valeurs obtenues par simulation",
    "passages": 6,
    "proba": 0.805,
-   "potentiel": 0.912,
+   "potentiel": 0.967,
    "annees_tombees": 4,
    "sur": 6,
-   "priorite": 0.88,
+   "priorite": 0.86,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 62,
      "texte": "L’intelligence artificielle est présentée dans une approche simplifiée (machine learning, moteur d’inférence), du type de relation entrées/sorties. Celle-ci est purement applicative sans entrer dans les détails des outils mathématiques. Elle est abordée sous la forme d’activités dirigées de simulation. Les flux d’information liés aux échanges entre un produit et son environnement numérique sont ca",
      "proba": 0.805,
-     "potentiel": 0.742,
+     "potentiel": 0.906,
      "deja_tombe": 4,
      "evalue_sans_etre_dit": [
       "type",
@@ -1035,7 +954,7 @@
      "passage": 61,
      "texte": "L’outil d’ingénierie système actuellement proposé est le SysML. L’enseignement des outils de description de type SysML n’est pas une finalité et doit se limiter aux bases strictement nécessaires. Les supports d’étude sont pluri-technologiques et multi-physiques, ils peuvent aussi être une structure, une enveloppe ou un ouvrage. La puissance instantanée est caractérisée par le produit d’une grandeu",
      "proba": 0.506,
-     "potentiel": 0.846,
+     "potentiel": 0.902,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "grandeur",
@@ -1079,7 +998,7 @@
      "passage": 63,
      "texte": "Le langage informatique actuellement proposé est Python. De façon complémentaire, d’autres langages peuvent être présentés afin de sensibiliser les élèves à la diversité des langages informatiques. L’analyse des modulations-démodulations numériques est abordée de façon qualitative. Elle est fondée sur les résultats issus de simulations multi-physiques.",
      "proba": 0.292,
-     "potentiel": 0.912,
+     "potentiel": 0.967,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "actuellement",
@@ -1122,240 +1041,21 @@
    ]
   },
   {
-   "section": 31,
-   "titre": "Valider les performances d’un produit par les expérimentations et les simulations numériques",
-   "passages": 4,
-   "proba": 0.748,
-   "potentiel": 0.925,
-   "annees_tombees": 4,
-   "sur": 6,
-   "priorite": 0.867,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 98,
-     "texte": " proposer et mettre en œuvre un protocole expérimental permettant de quantifier les performances de tout ou partie d’un objet matériel ;  proposer et mettre en œuvre des outils de simulation numérique permettant de quantifier les performances de tout ou partie d’un jumeau numérique ;  mettre en œuvre un protocole afin de valider les échanges d’informations entre objets à travers un réseau de co",
-     "proba": 0.748,
-     "potentiel": 0.75,
-     "deja_tombe": 3,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.45
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.27
-      },
-      {
-       "facette": 5,
-       "nom": "commenter / commenter x / x commenter / x commenter x",
-       "part": 0.09
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
-       "enonce": "Exprimer l’aire balayée par le segment Soleil-Terre durant ∆𝑡 en fonction de 𝑅, 𝑣 et ∆𝑡."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
-       "enonce": "En déterminant la valeur de l’aire balayée par le segment Soleil-Terre durant ∆𝑡 1 s, vérifier que les données dans le cas de la Terre sont compatibles avec la seconde loi de Kepler."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 97,
-     "texte": "La comparaison des écarts entre les résultats de simulation, d’expérience et les niveaux attendus est aussi source de multiples réflexions quant à la pertinence du modèle, la pertinence du protocole expérimental ou encore la validité de la solution au regard du cahier des charges.",
-     "proba": 0.307,
-     "potentiel": 0.925,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.45
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.27
-      },
-      {
-       "facette": 5,
-       "nom": "commenter / commenter x / x commenter / x commenter x",
-       "part": 0.09
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "Conclure sur la pertinence de disposer d’un nombre très élevé de pixels."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
-       "enonce": "Exprimer l’aire balayée par le segment Soleil-Terre durant ∆𝑡 en fonction de 𝑅, 𝑣 et ∆𝑡."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 96,
-     "texte": "Elles permettent de réaliser des essais virtuels sur un jumeau numérique qui sont comparables à des expérimentations sur un objet matériel, voire d’effectuer des mesures qui seraient inaccessibles, impossibles ou dangereuses sur l’objet matériel.",
-     "proba": 0.3,
-     "potentiel": 0.879,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.45
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.27
-      },
-      {
-       "facette": 5,
-       "nom": "commenter / commenter x / x commenter / x commenter x",
-       "part": 0.09
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-centres-etranger-2",
-       "enonce": "10 Calculer le nombre de tours effectués par l'axe du codeur lors d'un trajet complet du robot. Vérifier que l'étendue de mesure du codeur est suffisante."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
-       "enonce": "Exprimer l’aire balayée par le segment Soleil-Terre durant ∆𝑡 en fonction de 𝑅, 𝑣 et ∆𝑡."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 40,
-   "titre": "Communiquer de façon convaincante",
-   "passages": 2,
-   "proba": 0.452,
-   "potentiel": 0.925,
-   "annees_tombees": 3,
-   "sur": 6,
-   "priorite": 0.818,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 118,
-     "texte": "Placement de la voix, qualité de l’expression, gestion du temps Tale",
-     "proba": 0.452,
-     "potentiel": 0.746,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "qualite"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.33
-      },
-      {
-       "facette": 4,
-       "nom": "x colon / colon / x colon x / colon x",
-       "part": 0.33
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.17
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
-       "enonce": "Temps en minute"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
-       "enonce": "Montrer que la position horizontale expression :"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 119,
-     "texte": "Les normes des croquis et schémas ne font pas l’objet de cours spécifiques et sont mis à disposition des élèves. La communication est une finalité liée à l’ensemble des activités et au projet. Elle sera à favoriser dès que possible. Le travail collaboratif est un axe majeur dans l’activité des ingénieurs.",
-     "proba": 0.291,
-     "potentiel": 0.925,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "possible",
-      "font",
-      "disposition",
-      "schemas",
-      "ensemble"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.33
-      },
-      {
-       "facette": 4,
-       "nom": "x colon / colon / x colon x / colon x",
-       "part": 0.33
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.17
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2023-la-reunion-1",
-       "enonce": "Grâce aux deux questions précédentes, en déduire que l’expression de la vitesse de l’électron au niveau de l’anode est 𝑣𝑣A = �"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2023-la-reunion-2",
-       "enonce": "Question 3."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 23,
    "titre": "Compétences développées",
    "passages": 2,
    "proba": 0.814,
-   "potentiel": 0.725,
+   "potentiel": 0.956,
    "annees_tombees": 4,
    "sur": 6,
-   "priorite": 0.813,
+   "priorite": 0.852,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 68,
      "texte": "Proposer et justifier des hypothèses ou simplification en vue d’une modélisation : Hypothèses simplificatrices Modélisation plane ; 1e",
      "proba": 0.814,
-     "potentiel": 0.583,
+     "potentiel": 0.886,
      "deja_tombe": 4,
      "evalue_sans_etre_dit": [
       "proposer"
@@ -1394,7 +1094,7 @@
      "passage": 69,
      "texte": "Caractériser les grandeurs physiques en entrées/sorties d’un modèle multi-physique traduisant la transmission de puissance : Grandeur effort, grandeur flux Énergie Puissance instantanée, moyenne Réversibilité de la chaîne de puissance ; 1e",
      "proba": 0.292,
-     "potentiel": 0.725,
+     "potentiel": 0.956,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "grandeur",
@@ -1437,125 +1137,391 @@
    ]
   },
   {
-   "section": 0,
-   "titre": "Les objectifs généraux",
-   "passages": 11,
-   "proba": 0.838,
-   "potentiel": 0.554,
-   "annees_tombees": 6,
+   "section": 29,
+   "titre": "Déterminer les grandeurs géométriques et cinématiques d’un mécanisme",
+   "passages": 1,
+   "proba": 0.375,
+   "potentiel": 0.972,
+   "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.803,
+   "priorite": 0.838,
    "niveau": "incontournable",
    "passages_cles": [
     {
-     "passage": 3,
-     "texte": "Elle modifie également la relation entre les machines elles-mêmes, capables d’échanger de façon autonome des quantités considérables d’informations en communiquant via ce que l’on nomme l’internet des objets. Grâce au déploiement et à la puissance des réseaux de communication, chacun accède rapidement à de multiples services en réponse à ses besoins, le bénéfice de l’usage l’emportant sur la posse",
-     "proba": 0.838,
-     "potentiel": 0.554,
-     "deja_tombe": 4,
+     "passage": 81,
+     "texte": "Positions, vitesses et accélérations linéaire et angulaire sous forme vectorielle Champ des vitesses Composition des vitesses dans le cas d’une chaîne ouverte Loi d’entrée/sortie d’un mécanisme dans le cas d’une chaîne fermée (fermeture géométrique) 1e",
+     "proba": 0.375,
+     "potentiel": 0.972,
+     "deja_tombe": 2,
      "evalue_sans_etre_dit": [
-      "reponse"
+      "chaine",
+      "sortie",
+      "mecanisme",
+      "geometrique",
+      "entree"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.46
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.18
-      },
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.13
+       "part": 1.0
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
-       "enonce": "Calculer l’intensité sonore"
+       "sujet": "spe-sciences-ingenieur-2023-la-reunion-1",
+       "enonce": "Donner l’expression vectorielle de �F⃗ en fonction de e et E"
       },
       {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
-       "enonce": "Déterminer à quelle distance du haut-parleur il doit se placer afin d’être exposé à un = 75 dB."
+       "sujet": "spe-sciences-ingenieur-2023-la-reunion-2",
+       "enonce": "Pour un objet de masse 𝑚𝑚 situé à la surface de la Terre, rappeler la relation vectorielle entre son poids 𝑃𝑃�⃗ et le champ de pesanteur terrestre 𝑔𝑔⃗."
       }
      ],
      "intention": null
-    },
+    }
+   ]
+  },
+  {
+   "section": 28,
+   "titre": "Caractériser les échanges d’informations",
+   "passages": 6,
+   "proba": 0.443,
+   "potentiel": 0.99,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.837,
+   "niveau": "incontournable",
+   "passages_cles": [
     {
-     "passage": 4,
-     "texte": "Cette nouvelle culture du partage développe des valeurs de solidarité et est l’expression d’une attention portée à la qualité de l’environnement qui sera laissée aux prochaines générations. Les ingénieurs, au terme de leur formation, sont capables d’imaginer des solutions innovantes qui ne se limitent pas à la conception des objets réduits à la seule dimension matérielle.",
-     "proba": 0.526,
-     "potentiel": 0.542,
+     "passage": 77,
+     "texte": "Notion de système asservi : consigne d’entrée, grandeur de sortie, perturbation, erreur, correcteur proportionnel : Tale",
+     "proba": 0.428,
+     "potentiel": 0.961,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.46
-      },
-      {
        "facette": 2,
        "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.18
+       "part": 0.56
       },
       {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.13
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.22
+      },
+      {
+       "facette": 4,
+       "nom": "x colon / colon / x colon x / colon x",
+       "part": 0.22
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2022-polynesie-2",
-       "enonce": "En s’appuyant sur les questions précédentes et le spectre de l’étoile Albiréo A (figure"
+       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
+       "enonce": "le robot ramène l’étagère à son emplacement de départ ;"
       },
       {
-       "sujet": "spe-sciences-ingenieur-2023-la-reunion-1",
-       "enonce": "Mise en situation\nLa règlementation de limitation des produits de désherbage (retrait du glyphosate annoncé)\nfavorise l’émergence de nouvelles techniques d’entretien des sols agricoles. De plus en plus\nde viticulteurs se"
+       "sujet": "spe-sciences-ingenieur-2025-centres-etranger-2",
+       "enonce": "Temps t (s) 3 0 1 2 Temps t (s) 3 Figure 7 : réponse de l’asservissement à une variation de consigne Question 1.4 Déterminer le ou les réglages du correcteur qui permettent de satisfaire les exigences 1.1.3 et 1.1.4 (fig"
       }
      ],
      "intention": null
     },
     {
-     "passage": 5,
-     "texte": "Ils proposent des solutions qui associent les dimensions matérielles et numériques, intégrées et complémentaires, non plus pensées successivement et séparément mais de façon simultanée. Les sciences de l’ingénieur s’intéressent aux objets et aux systèmes artificiels, appelés de façon plus générique « produits ». Cette appellation de « produit » réunit sous un même terme l’objet matériel et son jum",
-     "proba": 0.753,
-     "potentiel": 0.425,
+     "passage": 80,
+     "texte": "Déterminer les actions mécaniques (inconnues statiques de liaisons ou action mécanique extérieure) menant à l’équilibre statique d’un mécanisme, d’un ouvrage ou d’une structure : Principe fondamental de la statique Modèle de frottement – Loi de Coulomb ; Tale",
+     "proba": 0.443,
+     "potentiel": 0.937,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.56
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.22
+      },
+      {
+       "facette": 4,
+       "nom": "x colon / colon / x colon x / colon x",
+       "part": 0.22
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
+       "enonce": "le robot se déplace jusqu’à la station de préparation ;"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
+       "enonce": "le robot stationne quelques secondes face à la station de préparation ;"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 79,
+     "texte": "Déterminer les grandeurs flux (courant) et effort (tension) dans un circuit électrique : Lois de Kirchhoff Lois de comportement ; 1e",
+     "proba": 0.274,
+     "potentiel": 0.99,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "flux",
+      "effort"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.56
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.22
+      },
+      {
+       "facette": 4,
+       "nom": "x colon / colon / x colon x / colon x",
+       "part": 0.22
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2026-metropole-1-remplacement",
+       "enonce": "Figure 7 : intensité du courant consommée par le propulseur A Question 1.4"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2024-metropole-1-remplacement",
+       "enonce": "le robot ramène l’étagère à son emplacement de départ ;"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 40,
+   "titre": "Communiquer de façon convaincante",
+   "passages": 2,
+   "proba": 0.452,
+   "potentiel": 0.98,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.828,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 118,
+     "texte": "Placement de la voix, qualité de l’expression, gestion du temps Tale",
+     "proba": 0.452,
+     "potentiel": 0.949,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "qualite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.33
+      },
+      {
+       "facette": 4,
+       "nom": "x colon / colon / x colon x / colon x",
+       "part": 0.33
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
+       "enonce": "Temps en minute"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
+       "enonce": "Montrer que la position horizontale expression :"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 119,
+     "texte": "Les normes des croquis et schémas ne font pas l’objet de cours spécifiques et sont mis à disposition des élèves. La communication est une finalité liée à l’ensemble des activités et au projet. Elle sera à favoriser dès que possible. Le travail collaboratif est un axe majeur dans l’activité des ingénieurs.",
+     "proba": 0.291,
+     "potentiel": 0.98,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "possible",
+      "font",
+      "disposition",
+      "schemas",
+      "ensemble"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.33
+      },
+      {
+       "facette": 4,
+       "nom": "x colon / colon / x colon x / colon x",
+       "part": 0.33
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2023-la-reunion-1",
+       "enonce": "Grâce aux deux questions précédentes, en déduire que l’expression de la vitesse de l’électron au niveau de l’anode est 𝑣𝑣A = �"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2023-la-reunion-2",
+       "enonce": "Question 3."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 31,
+   "titre": "Valider les performances d’un produit par les expérimentations et les simulations numériques",
+   "passages": 4,
+   "proba": 0.748,
+   "potentiel": 0.981,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.81,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 96,
+     "texte": "Elles permettent de réaliser des essais virtuels sur un jumeau numérique qui sont comparables à des expérimentations sur un objet matériel, voire d’effectuer des mesures qui seraient inaccessibles, impossibles ou dangereuses sur l’objet matériel.",
+     "proba": 0.3,
+     "potentiel": 0.981,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.45
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.27
+      },
+      {
+       "facette": 5,
+       "nom": "commenter / commenter x / x commenter / x commenter x",
+       "part": 0.09
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-centres-etranger-2",
+       "enonce": "10 Calculer le nombre de tours effectués par l'axe du codeur lors d'un trajet complet du robot. Vérifier que l'étendue de mesure du codeur est suffisante."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
+       "enonce": "Exprimer l’aire balayée par le segment Soleil-Terre durant ∆𝑡 en fonction de 𝑅, 𝑣 et ∆𝑡."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 97,
+     "texte": "La comparaison des écarts entre les résultats de simulation, d’expérience et les niveaux attendus est aussi source de multiples réflexions quant à la pertinence du modèle, la pertinence du protocole expérimental ou encore la validité de la solution au regard du cahier des charges.",
+     "proba": 0.307,
+     "potentiel": 0.979,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.45
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.27
+      },
+      {
+       "facette": 5,
+       "nom": "commenter / commenter x / x commenter / x commenter x",
+       "part": 0.09
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
+       "enonce": "Conclure sur la pertinence de disposer d’un nombre très élevé de pixels."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
+       "enonce": "Exprimer l’aire balayée par le segment Soleil-Terre durant ∆𝑡 en fonction de 𝑅, 𝑣 et ∆𝑡."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 98,
+     "texte": " proposer et mettre en œuvre un protocole expérimental permettant de quantifier les performances de tout ou partie d’un objet matériel ;  proposer et mettre en œuvre des outils de simulation numérique permettant de quantifier les performances de tout ou partie d’un jumeau numérique ;  mettre en œuvre un protocole afin de valider les échanges d’informations entre objets à travers un réseau de co",
+     "proba": 0.748,
+     "potentiel": 0.542,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.46
-      },
-      {
        "facette": 2,
        "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.18
+       "part": 0.45
       },
       {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.13
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.27
+      },
+      {
+       "facette": 5,
+       "nom": "commenter / commenter x / x commenter / x commenter x",
+       "part": 0.09
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
-       "enonce": "Citer les deux options qui s’offrent à lui. Justifier en utilisant le vocabulaire associé à l’atténuation d’une onde."
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
+       "enonce": "Exprimer l’aire balayée par le segment Soleil-Terre durant ∆𝑡 en fonction de 𝑅, 𝑣 et ∆𝑡."
       },
       {
-       "sujet": "spe-sciences-ingenieur-2022-nouv-caledonie-1",
-       "enonce": "Déterminer si les interférences en P sont constructives ou destructives. Préciser ce qui sera observé en P sur l’écran."
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
+       "enonce": "En déterminant la valeur de l’aire balayée par le segment Soleil-Terre durant ∆𝑡 1 s, vérifier que les données dans le cas de la Terre sont compatibles avec la seconde loi de Kepler."
       }
      ],
      "intention": null
@@ -1567,17 +1533,56 @@
    "titre": "Rendre compte de résultats",
    "passages": 6,
    "proba": 0.451,
-   "potentiel": 0.946,
+   "potentiel": 0.973,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.783,
+   "priorite": 0.752,
    "niveau": "incontournable",
    "passages_cles": [
+    {
+     "passage": 115,
+     "texte": "Développer des tutoriels, établir une communication à distance : Montage audio / vidéo ; 1e",
+     "proba": 0.286,
+     "potentiel": 0.973,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "etablir"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.45
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.27
+      },
+      {
+       "facette": 6,
+       "nom": "x echelle / echelle / echelle x / x echelle x",
+       "part": 0.18
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2024-polynesie-2",
+       "enonce": "Établir l'expression de la période de révolution T du télescope spatial James-Webb en fonction de D et v."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2024-polynesie-2",
+       "enonce": "Schéma de l’orbite de la Terre et de J (en L2) autour du Soleil (l’échelle n’est pas respectée)."
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 116,
      "texte": "Travailler de manière collaborative Trouver un tiers expert Collaborer en direct ou sur une plateforme, via un espace de fichiers partagés : Espaces partagés et de stockage, ENT ; 1e",
      "proba": 0.287,
-     "potentiel": 0.946,
+     "potentiel": 0.959,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "stockage",
@@ -1619,7 +1624,7 @@
      "passage": 117,
      "texte": "Adapter sa communication au public visé et sélectionner les informations à transmettre Scénariser un document suivant le public visé : Média, outils multimédia, outils bureautiques, carte mentale, diagramme de l'ingénierie- système, schéma, croquis, prototype ; 1e",
      "proba": 0.291,
-     "potentiel": 0.85,
+     "potentiel": 0.941,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "adapter",
@@ -1655,94 +1660,92 @@
       }
      ],
      "intention": null
+    }
+   ]
+  },
+  {
+   "section": 34,
+   "titre": "Relever les grandeurs caractéristiques d’un protocole de communication",
+   "passages": 2,
+   "proba": 0.397,
+   "potentiel": 0.883,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.73,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 103,
+     "texte": "Caractéristiques des signaux Protocole, trame Débit maximal, débit utile 1e",
+     "proba": 0.397,
+     "potentiel": 0.817,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "debit",
+      "maximal",
+      "trame",
+      "utile",
+      "signaux"
+     ],
+     "toujours_nomme": [
+      "caracteristiques"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.67
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
+       "enonce": "En utilisant les caractéristiques des appareils photographiques, estimer la taille d’un pixel dans le cas du smartphone et dans le cas de l’appareil photographique plein format. On supposera que la surface d’un pixel est"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2024-centres-etranger-1",
+       "enonce": "3 À partir des caractéristiques des poulies, calculer le rapport de réduction du réducteur poulie-courroie r ="
+      }
+     ],
+     "intention": null
     },
     {
-     "passage": 115,
-     "texte": "Développer des tutoriels, établir une communication à distance : Montage audio / vidéo ; 1e",
-     "proba": 0.286,
-     "potentiel": 0.829,
+     "passage": 104,
+     "texte": "Modifier les paramètres influents et le programme de commande en vue d’optimiser les performances du produit : Processus itératif d’amélioration des performances ; Tale",
+     "proba": 0.244,
+     "potentiel": 0.883,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "etablir"
+      "commande",
+      "optimiser",
+      "programme"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.45
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.27
-      },
-      {
-       "facette": 6,
-       "nom": "x echelle / echelle / echelle x / x echelle x",
-       "part": 0.18
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2024-polynesie-2",
-       "enonce": "Établir l'expression de la période de révolution T du télescope spatial James-Webb en fonction de D et v."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2024-polynesie-2",
-       "enonce": "Schéma de l’orbite de la Terre et de J (en L2) autour du Soleil (l’échelle n’est pas respectée)."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 14,
-   "titre": "Caractériser la puissance et l’énergie nécessaire au fonctionnement d’un produit ou d’un système Repérer les échanges d’énergie sur un diagramme structurel",
-   "passages": 1,
-   "proba": 0.877,
-   "potentiel": 0.438,
-   "annees_tombees": 5,
-   "sur": 6,
-   "priorite": 0.777,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 48,
-     "texte": "Grandeurs physiques (mécanique, électrique, thermique, etc.) mobilisées par le fonctionnement d’un produit Grandeurs d’effort et de flux liées à la nature des procédés Rendements et pertes 1e",
-     "proba": 0.877,
-     "potentiel": 0.438,
-     "deja_tombe": 5,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "flux"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.25
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.21
+       "part": 0.67
       },
       {
        "facette": 0,
        "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.17
+       "part": 0.33
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
-       "enonce": "On souhaite effectuer le bilan d’énergie pour le système {eau + bouilloire} échangeant de l’énergie par un transfert thermique avec l’air extérieur entre les instants et + Δ ."
+       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
+       "enonce": "Nommer le phénomène optique observé sur l’image reproduite ci-dessus et citer des paramètres pouvant influencer les caractéristiques de cette image."
       },
       {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
-       "enonce": "Déterminer la valeur de la variation d’énergie interne du système constitué par 1 litre d’eau lorsque la température de celui-ci varie de = 20 C à = 90 C."
+       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
+       "enonce": "En utilisant les caractéristiques des appareils photographiques, estimer la taille d’un pixel dans le cas du smartphone et dans le cas de l’appareil photographique plein format. On supposera que la surface d’un pixel est"
       }
      ],
      "intention": null
@@ -1754,61 +1757,17 @@
    "titre": "Modéliser les produits pour prévoir leurs performances",
    "passages": 4,
    "proba": 0.354,
-   "potentiel": 0.879,
+   "potentiel": 0.977,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.76,
+   "priorite": 0.725,
    "niveau": "incontournable",
    "passages_cles": [
-    {
-     "passage": 66,
-     "texte": "Elle ne sera réalisée que si elle présente un intérêt pédagogique à l’acquisition et à la compréhension de la démarche scientifique, des lois et concepts associés. La résolution des équations de comportement et la simulation numérique des modèles multi- physiques permettent de prévoir les grandeurs associées aux performances attendues.",
-     "proba": 0.354,
-     "potentiel": 0.683,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "modeles",
-      "demarche",
-      "lois"
-     ],
-     "toujours_nomme": [
-      "simulation",
-      "associees"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.4
-      },
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.2
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.2
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
-       "enonce": "Définir le modèle de la « chute libre »."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-2",
-       "enonce": "10"
-      }
-     ],
-     "intention": null
-    },
     {
      "passage": 67,
      "texte": " construire un modèle multi-physique d’un objet par association de composants numériques issus d’une bibliothèque, en connaissant la constitution de l’objet matériel ou de sa maquette numérique ;  construire un modèle de composant ou d’une association de composants à partir des lois physiques, en établissant les équations analytiques du comportement ;  résoudre les équations issues de la modéli",
      "proba": 0.236,
-     "potentiel": 0.879,
+     "potentiel": 0.977,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "construire",
@@ -1849,10 +1808,54 @@
      "intention": null
     },
     {
+     "passage": 66,
+     "texte": "Elle ne sera réalisée que si elle présente un intérêt pédagogique à l’acquisition et à la compréhension de la démarche scientifique, des lois et concepts associés. La résolution des équations de comportement et la simulation numérique des modèles multi- physiques permettent de prévoir les grandeurs associées aux performances attendues.",
+     "proba": 0.354,
+     "potentiel": 0.66,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "modeles",
+      "demarche",
+      "lois"
+     ],
+     "toujours_nomme": [
+      "simulation",
+      "associees"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.4
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.2
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
+       "enonce": "Définir le modèle de la « chute libre »."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-2",
+       "enonce": "10"
+      }
+     ],
+     "intention": null
+    },
+    {
      "passage": 65,
      "texte": "Cela permet de construire des modèles à partir d’une organisation fonctionnelle et matérielle existantes ou imaginées. Ils disposent aussi d’outils théoriques leur permettant d’établir des équations de comportement de tout ou partie du produit. Pour les élèves du cycle terminal, la résolution des équations issues de la modélisation est conduite à l’aide d’outils numériques. Dans les cas les plus s",
      "proba": 0.232,
-     "potentiel": 0.592,
+     "potentiel": 0.878,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "fonctionnelle",
@@ -1897,179 +1900,179 @@
    ]
   },
   {
-   "section": 29,
-   "titre": "Déterminer les grandeurs géométriques et cinématiques d’un mécanisme",
+   "section": 14,
+   "titre": "Caractériser la puissance et l’énergie nécessaire au fonctionnement d’un produit ou d’un système Repérer les échanges d’énergie sur un diagramme structurel",
    "passages": 1,
-   "proba": 0.375,
-   "potentiel": 0.658,
-   "annees_tombees": 2,
+   "proba": 0.877,
+   "potentiel": 0.121,
+   "annees_tombees": 5,
    "sur": 6,
-   "priorite": 0.755,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 81,
-     "texte": "Positions, vitesses et accélérations linéaire et angulaire sous forme vectorielle Champ des vitesses Composition des vitesses dans le cas d’une chaîne ouverte Loi d’entrée/sortie d’un mécanisme dans le cas d’une chaîne fermée (fermeture géométrique) 1e",
-     "proba": 0.375,
-     "potentiel": 0.658,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "chaine",
-      "sortie",
-      "mecanisme",
-      "geometrique",
-      "entree"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2023-la-reunion-1",
-       "enonce": "Donner l’expression vectorielle de �F⃗ en fonction de e et E"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2023-la-reunion-2",
-       "enonce": "Pour un objet de masse 𝑚𝑚 situé à la surface de la Terre, rappeler la relation vectorielle entre son poids 𝑃𝑃�⃗ et le champ de pesanteur terrestre 𝑔𝑔⃗."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 27,
-   "titre": "Modéliser les mouvements Modéliser les actions mécaniques",
-   "passages": 1,
-   "proba": 0.365,
-   "potentiel": 0.613,
-   "annees_tombees": 2,
-   "sur": 6,
-   "priorite": 0.727,
+   "priorite": 0.723,
    "niveau": "probable",
    "passages_cles": [
     {
-     "passage": 74,
-     "texte": "Trajectoires et mouvement Liaisons Torseurs cinématiques et d’actions mécaniques transmissibles, de contact ou à distance Réciprocité mouvement relatif/actions mécaniques associées 1e",
-     "proba": 0.365,
-     "potentiel": 0.613,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "mecaniques",
-      "actions",
-      "liaisons",
-      "associees"
+     "passage": 48,
+     "texte": "Grandeurs physiques (mécanique, électrique, thermique, etc.) mobilisées par le fonctionnement d’un produit Grandeurs d’effort et de flux liées à la nature des procédés Rendements et pertes 1e",
+     "proba": 0.877,
+     "potentiel": 0.121,
+     "deja_tombe": 5,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "flux"
      ],
-     "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1",
-       "enonce": "Recopier le schéma de situation de la figure 1 et tracer l’allure de la trajectoire du ballon."
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.25
       },
       {
-       "sujet": "spe-sciences-ingenieur-2022-polynesie-2",
-       "enonce": "À l’aide de la deuxième loi de Newton, obtenir une relation entre 𝑇𝑇, 𝑚𝑚, 𝑔𝑔 et 𝛼𝛼. On pourra utiliser la direction de la trajectoire comme axe de projection."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 34,
-   "titre": "Relever les grandeurs caractéristiques d’un protocole de communication",
-   "passages": 2,
-   "proba": 0.397,
-   "potentiel": 0.879,
-   "annees_tombees": 2,
-   "sur": 6,
-   "priorite": 0.713,
-   "niveau": "probable",
-   "passages_cles": [
-    {
-     "passage": 104,
-     "texte": "Modifier les paramètres influents et le programme de commande en vue d’optimiser les performances du produit : Processus itératif d’amélioration des performances ; Tale",
-     "proba": 0.244,
-     "potentiel": 0.879,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "commande",
-      "optimiser",
-      "programme"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.67
+       "part": 0.21
       },
       {
        "facette": 0,
        "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.33
+       "part": 0.17
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
+       "enonce": "On souhaite effectuer le bilan d’énergie pour le système {eau + bouilloire} échangeant de l’énergie par un transfert thermique avec l’air extérieur entre les instants et + Δ ."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
+       "enonce": "Déterminer la valeur de la variation d’énergie interne du système constitué par 1 litre d’eau lorsque la température de celui-ci varie de = 20 C à = 90 C."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Les objectifs généraux",
+   "passages": 11,
+   "proba": 0.838,
+   "potentiel": 0.587,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.703,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 6,
+     "texte": "Il intègre le programme informatique utile à son fonctionnement et, lorsqu’elle est nécessaire, l’interface homme-machine connectée à un réseau de communication. Ces produits, supports d’activités des élèves au cycle terminal du lycée, répondent à des besoins et définissent des usages. Leurs définitions permettent de qualifier et de quantifier les performances du service attendu.",
+     "proba": 0.754,
+     "potentiel": 0.131,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [
+      "necessaire"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.46
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.18
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.13
       }
      ],
      "questions_passees_proches": [
       {
        "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "Nommer le phénomène optique observé sur l’image reproduite ci-dessus et citer des paramètres pouvant influencer les caractéristiques de cette image."
+       "enonce": "Reproduire le schéma précédent en indiquant la direction dans laquelle se situe le Soleil par rapport à la Lune."
       },
       {
        "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "En utilisant les caractéristiques des appareils photographiques, estimer la taille d’un pixel dans le cas du smartphone et dans le cas de l’appareil photographique plein format. On supposera que la surface d’un pixel est"
+       "enonce": "Montrer, en appliquant la deuxième loi de Newton, que l'accélération du CSM est indépendante de sa masse."
       }
      ],
      "intention": null
     },
     {
-     "passage": 103,
-     "texte": "Caractéristiques des signaux Protocole, trame Débit maximal, débit utile 1e",
-     "proba": 0.397,
-     "potentiel": 0.562,
+     "passage": 4,
+     "texte": "Cette nouvelle culture du partage développe des valeurs de solidarité et est l’expression d’une attention portée à la qualité de l’environnement qui sera laissée aux prochaines générations. Les ingénieurs, au terme de leur formation, sont capables d’imaginer des solutions innovantes qui ne se limitent pas à la conception des objets réduits à la seule dimension matérielle.",
+     "proba": 0.526,
+     "potentiel": 0.152,
      "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "debit",
-      "maximal",
-      "trame",
-      "utile",
-      "signaux"
-     ],
-     "toujours_nomme": [
-      "caracteristiques"
-     ],
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.67
+       "part": 0.46
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.18
       },
       {
        "facette": 0,
        "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.33
+       "part": 0.13
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "En utilisant les caractéristiques des appareils photographiques, estimer la taille d’un pixel dans le cas du smartphone et dans le cas de l’appareil photographique plein format. On supposera que la surface d’un pixel est"
+       "sujet": "spe-sciences-ingenieur-2022-polynesie-2",
+       "enonce": "En s’appuyant sur les questions précédentes et le spectre de l’étoile Albiréo A (figure"
       },
       {
-       "sujet": "spe-sciences-ingenieur-2024-centres-etranger-1",
-       "enonce": "3 À partir des caractéristiques des poulies, calculer le rapport de réduction du réducteur poulie-courroie r ="
+       "sujet": "spe-sciences-ingenieur-2023-la-reunion-1",
+       "enonce": "Mise en situation\nLa règlementation de limitation des produits de désherbage (retrait du glyphosate annoncé)\nfavorise l’émergence de nouvelles techniques d’entretien des sols agricoles. De plus en plus\nde viticulteurs se"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 3,
+     "texte": "Elle modifie également la relation entre les machines elles-mêmes, capables d’échanger de façon autonome des quantités considérables d’informations en communiquant via ce que l’on nomme l’internet des objets. Grâce au déploiement et à la puissance des réseaux de communication, chacun accède rapidement à de multiples services en réponse à ses besoins, le bénéfice de l’usage l’emportant sur la posse",
+     "proba": 0.838,
+     "potentiel": 0.089,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "reponse"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.46
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.18
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.13
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
+       "enonce": "Calculer l’intensité sonore"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-1",
+       "enonce": "Déterminer à quelle distance du haut-parleur il doit se placer afin d’être exposé à un = 75 dB."
       }
      ],
      "intention": null
@@ -2081,17 +2084,53 @@
    "titre": "Un enseignement contextualisé dans de grandes thématiques",
    "passages": 6,
    "proba": 0.267,
-   "potentiel": 0.762,
+   "potentiel": 0.94,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.685,
+   "priorite": 0.683,
    "niveau": "probable",
    "passages_cles": [
+    {
+     "passage": 30,
+     "texte": "L’évaluation de fin de cycle porte sur l’ensemble du programme des deux années.",
+     "proba": 0.267,
+     "potentiel": 0.94,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "programme"
+     ],
+     "toujours_nomme": [
+      "ensemble"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Indiquer comment varie le flux thermique global lorsqu'on : • double la surface (longueur × largeur) de l'ensemble (pièce en aluminium et couche d’aérogel). Justifier votre réponse ; • double l’épaisseur de l'ensemble (p"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2026-polynesie-1",
+       "enonce": "Partie 1 : les documents réponses DR1 à DR3 (pages 14 à 15) sont à rendre avec\nla copie\nARBRE ALGAL\nConstitution du sujet\nSujet .............................................................................. pages 2 à 13\n"
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 29,
      "texte": "Dans les tableaux ci-dessous, une indication précise le positionnement des enseignements dans le cycle. L’indication « 1e » signifie que les contenus doivent être acquis et sont évalués à la fin de la classe de première, mais qu’ils peuvent être remobilisés en classe terminale. L’indication « Tale » signifie que les contenus peuvent être développés sur l’ensemble du cycle et être acquis en fin de ",
      "proba": 0.258,
-     "potentiel": 0.762,
+     "potentiel": 0.924,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "premiere",
@@ -2126,46 +2165,10 @@
      "intention": null
     },
     {
-     "passage": 30,
-     "texte": "L’évaluation de fin de cycle porte sur l’ensemble du programme des deux années.",
-     "proba": 0.267,
-     "potentiel": 0.667,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "programme"
-     ],
-     "toujours_nomme": [
-      "ensemble"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.5
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
-       "enonce": "Indiquer comment varie le flux thermique global lorsqu'on : • double la surface (longueur × largeur) de l'ensemble (pièce en aluminium et couche d’aérogel). Justifier votre réponse ; • double l’épaisseur de l'ensemble (p"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2026-polynesie-1",
-       "enonce": "Partie 1 : les documents réponses DR1 à DR3 (pages 14 à 15) sont à rendre avec\nla copie\nARBRE ALGAL\nConstitution du sujet\nSujet .............................................................................. pages 2 à 13\n"
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 27,
      "texte": "L’homme assisté, réparé, augmenté : :  les produits d’assistance pour la santé et la sécurité ;  l’aide et la compensation du handicap ;  l’augmentation des performances du corps humain.",
      "proba": 0.255,
-     "potentiel": 0.592,
+     "potentiel": 0.92,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "homme"
@@ -2198,92 +2201,21 @@
    ]
   },
   {
-   "section": 36,
-   "titre": "Valider un modèle numérique de l’objet simulé",
-   "passages": 2,
-   "proba": 0.224,
-   "potentiel": 0.875,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.672,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 107,
-     "texte": "Les produits supports des expérimentations sont multi-physiques. Ils peuvent également être une structure ou un ouvrage. Les expérimentations peuvent s’effectuer sur tout ou partie du produit matériel ou son jumeau numérique. L’implantation de blocs de mesure préconfigurés (fournis dans des bibliothèques logicielles intégrées) dans un modèle multi-physique est à développer particulièrement. L’usag",
-     "proba": 0.224,
-     "potentiel": 0.875,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "peuvent",
-      "egalement",
-      "possible",
-      "effectuer",
-      "machine",
-      "homme"
-     ],
-     "toujours_nomme": [
-      "notamment",
-      "physique"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
-       "enonce": "10 Compléter, sur le document réponse DR2 (le bloc à compléter est repéré), l’élément manquant du modèle multi-physique de la force de résistance tangentielle au roulement liée à la gravité Px ."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 106,
-     "texte": "Écarts entre les performances simulées et mesurées Limites de validité d’un modèle Tale",
-     "proba": 0.14,
-     "potentiel": 0.237,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "ecarts"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
-       "enonce": "10 Compléter, sur le document réponse DR2 (le bloc à compléter est repéré), l’élément manquant du modèle multi-physique de la force de résistance tangentielle au roulement liée à la gravité Px ."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 37,
    "titre": "S’informer, choisir, produire de l’information pour communiquer au sein d’une équipe ou avec des intervenants extérieurs",
    "passages": 3,
    "proba": 0.226,
-   "potentiel": 0.8,
+   "potentiel": 0.965,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.653,
+   "priorite": 0.673,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 108,
      "texte": "Les ingénieurs communiquent avec de nombreuses personnes. Ils échangent avec des non spécialistes pour comprendre leur besoin ainsi qu’avec de nombreux intervenants au sein de l’entreprise et avec des partenaires. Les ingénieurs sélectionnent des informations pertinentes, ils produisent et présentent des informations relatives à leur activité.",
      "proba": 0.226,
-     "potentiel": 0.8,
+     "potentiel": 0.965,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "informations",
@@ -2320,7 +2252,7 @@
      "passage": 110,
      "texte": " rechercher, traiter et organiser des informations ;  choisir et produire un support de communication via un média adapté ;  argumenter et adapter les stratégies de communication au contexte ;  travailler de manière collaborative en présentiel ou à distance.",
      "proba": 0.157,
-     "potentiel": 0.725,
+     "potentiel": 0.413,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "contexte",
@@ -2359,7 +2291,7 @@
      "passage": 109,
      "texte": "Les ingénieurs proposent des solutions innovantes qu’ils présentent de façon argumentée pour convaincre partenaires et décideurs.",
      "proba": 0.141,
-     "potentiel": 0.637,
+     "potentiel": 0.062,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2390,109 +2322,21 @@
    ]
   },
   {
-   "section": 33,
-   "titre": "Instrumenter tout ou partie d’un produit en vue de mesurer les performances",
-   "passages": 2,
-   "proba": 0.22,
-   "potentiel": 0.808,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.647,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 101,
-     "texte": "Capteurs, composants d’une chaîne d’acquisition Paramétrage d’une chaîne d’acquisition Carte micro",
-     "proba": 0.22,
-     "potentiel": 0.808,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "acquisition",
-      "chaine",
-      "composants",
-      "carte",
-      "capteurs"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.67
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.33
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
-       "enonce": "Établir la relation qui donne le diamètre 𝑑𝑑 de la micro-algue en fonction de la longueur d’onde 𝜆𝜆𝑣𝑣 du laser, la largeur l de la tache centrale et de la distance 𝐷𝐷 entre la lamelle de microscope et l’écran, sachant qu"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
-       "enonce": "Calculer le diamètre d de la micro-algue. Donner cette valeur en m, puis en µm."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 102,
-     "texte": "Mettre en œuvre une communication entre objets dits intelligents : Paramètres de configuration d’un réseau ; Tale",
-     "proba": 0.138,
-     "potentiel": 0.396,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "dits",
-      "parametres",
-      "reseau",
-      "mettre"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.67
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.33
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
-       "enonce": "Établir la relation qui donne le diamètre 𝑑𝑑 de la micro-algue en fonction de la longueur d’onde 𝜆𝜆𝑣𝑣 du laser, la largeur l de la tache centrale et de la distance 𝐷𝐷 entre la lamelle de microscope et l’écran, sachant qu"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
-       "enonce": "Calculer le diamètre d de la micro-algue. Donner cette valeur en m, puis en µm."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 32,
    "titre": "Prévoir l’ordre de grandeur de la mesure",
    "passages": 2,
    "proba": 0.219,
-   "potentiel": 0.796,
+   "potentiel": 0.969,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.635,
+   "priorite": 0.665,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 100,
      "texte": "Conduire des essais en toute sécurité à partir d’un protocole expérimental fourni : Règle de raccordement des appareils de mesure et des capteurs ; 1e",
      "proba": 0.219,
-     "potentiel": 0.796,
+     "potentiel": 0.969,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "securite",
@@ -2522,7 +2366,7 @@
      "passage": 99,
      "texte": "Gamme d’appareils de mesure et capteurs 1e",
      "proba": 0.134,
-     "potentiel": 0.438,
+     "potentiel": 0.125,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "capteurs"
@@ -2550,21 +2394,176 @@
    ]
   },
   {
+   "section": 20,
+   "titre": "Analyser des résultats d’expérimentation et de simulation",
+   "passages": 1,
+   "proba": 0.213,
+   "potentiel": 0.976,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.662,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 57,
+     "texte": "Lois physiques associées au fonctionnement d’un produit Description qualitative et quantitative des grandeurs physiques caractéristiques du fonctionnement d’un produit Critères de performances Tale",
+     "proba": 0.213,
+     "potentiel": 0.976,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "caracteristiques",
+      "lois",
+      "associees"
+     ],
+     "toujours_nomme": [
+      "description"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 7,
+       "nom": "deduire x / deduire / x deduire x / x deduire",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-polynesie-2",
+       "enonce": "En déduire le coefficient 𝐶𝐶𝑥𝑥 en fonction de 𝑚𝑚, 𝑔𝑔, 𝛼𝛼, 𝜌𝜌, 𝑣𝑣 et 𝑆𝑆. Présenter le résultat accompagné de son incertitude-type associée."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 36,
+   "titre": "Valider un modèle numérique de l’objet simulé",
+   "passages": 2,
+   "proba": 0.224,
+   "potentiel": 0.956,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.648,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 107,
+     "texte": "Les produits supports des expérimentations sont multi-physiques. Ils peuvent également être une structure ou un ouvrage. Les expérimentations peuvent s’effectuer sur tout ou partie du produit matériel ou son jumeau numérique. L’implantation de blocs de mesure préconfigurés (fournis dans des bibliothèques logicielles intégrées) dans un modèle multi-physique est à développer particulièrement. L’usag",
+     "proba": 0.224,
+     "potentiel": 0.956,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "peuvent",
+      "egalement",
+      "possible",
+      "effectuer",
+      "machine",
+      "homme"
+     ],
+     "toujours_nomme": [
+      "notamment",
+      "physique"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
+       "enonce": "10 Compléter, sur le document réponse DR2 (le bloc à compléter est repéré), l’élément manquant du modèle multi-physique de la force de résistance tangentielle au roulement liée à la gravité Px ."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 106,
+     "texte": "Écarts entre les performances simulées et mesurées Limites de validité d’un modèle Tale",
+     "proba": 0.14,
+     "potentiel": 0.053,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "ecarts"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
+       "enonce": "10 Compléter, sur le document réponse DR2 (le bloc à compléter est repéré), l’élément manquant du modèle multi-physique de la force de résistance tangentielle au roulement liée à la gravité Px ."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 26,
+   "titre": "Modéliser sous une forme graphique une structure, un mécanisme ou un circuit",
+   "passages": 1,
+   "proba": 0.215,
+   "potentiel": 0.959,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.64,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 73,
+     "texte": "Circuit électrique Schéma cinématique Graphe de liaisons et des actions mécaniques 1e",
+     "proba": 0.215,
+     "potentiel": 0.959,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "cinematique",
+      "circuit",
+      "mecaniques",
+      "liaisons",
+      "actions"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-polynesie-1",
+       "enonce": "Schéma du canon à électrons"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 24,
    "titre": "Associer un modèle aux composants d’une chaîne de puissance",
    "passages": 1,
    "proba": 0.214,
-   "potentiel": 0.717,
+   "potentiel": 0.956,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.59,
+   "priorite": 0.62,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
      "passage": 70,
      "texte": "Sources parfaites de flux et d’effort Interrupteur parfait Modèle associé aux composants élémentaires de transformation, de modulation, de conversion ou de stockage de l’énergie 1e",
      "proba": 0.214,
-     "potentiel": 0.717,
+     "potentiel": 0.956,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "sources",
@@ -2596,17 +2595,17 @@
    "titre": "Une démarche scientifique affirmée",
    "passages": 3,
    "proba": 0.354,
-   "potentiel": 0.375,
+   "potentiel": 0.702,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.573,
+   "priorite": 0.607,
    "niveau": "probable",
    "passages_cles": [
     {
      "passage": 11,
      "texte": "L’approche en sciences de l’ingénieur mobilise une démarche scientifique reposant sur l’observation, l’élaboration d’hypothèses, la modélisation, la simulation et l’expérimentation matérielle ou virtuelle ainsi que l’analyse critique des résultats obtenus.",
      "proba": 0.354,
-     "potentiel": 0.338,
+     "potentiel": 0.137,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "hypotheses",
@@ -2650,7 +2649,7 @@
      "passage": 12,
      "texte": "Il s’agit de comprendre et de décrire les phénomènes mis en œuvre et les lois de comportement associées, pour qualifier et quantifier les performances du produit afin de vérifier si le besoin initialement défini est satisfait. Les enseignements du cycle terminal installent progressivement la démarche de l‘ingénieur qui consiste à comparer les différentes performances du cahier des charges avec cel",
      "proba": 0.227,
-     "potentiel": 0.375,
+     "potentiel": 0.702,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "cahier",
@@ -2694,7 +2693,7 @@
      "passage": 13,
      "texte": "Les élèves sont conduits à mettre en œuvre une analyse critique des résultats pour s’interroger sur leur validité, pour optimiser les modèles numériques et les objets matériels afin d’obtenir les performances attendues.",
      "proba": 0.16,
-     "potentiel": 0.346,
+     "potentiel": 0.143,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "optimiser",
@@ -2737,133 +2736,87 @@
    ]
   },
   {
-   "section": 19,
-   "titre": "Analyser le comportement d’un système asservi",
+   "section": 33,
+   "titre": "Instrumenter tout ou partie d’un produit en vue de mesurer les performances",
    "passages": 2,
-   "proba": 0.212,
-   "potentiel": 0.679,
+   "proba": 0.22,
+   "potentiel": 0.904,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.57,
+   "priorite": 0.597,
    "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
    "passages_cles": [
     {
-     "passage": 56,
-     "texte": "Analyser les charges appliquées à un ouvrage ou une structure : Charge permanente, charge d’exploitation ; Tale",
-     "proba": 0.212,
-     "potentiel": 0.679,
+     "passage": 101,
+     "texte": "Capteurs, composants d’une chaîne d’acquisition Paramétrage d’une chaîne d’acquisition Carte micro",
+     "proba": 0.22,
+     "potentiel": 0.904,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "charges",
-      "structure"
-     ],
-     "toujours_nomme": [
-      "analyser"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2025-centres-etranger-1",
-       "enonce": "Identifier la composante de Ffluide→pale⃗ (Fr , Fθ ) à l’origine du couple C appliqué à la turbine."
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 55,
-     "texte": "Systèmes asservis linéaires en régime permanent : structures par chaîne directe ou bouclée, perturbation, comparateur, correcteur proportionnel, précision (erreur statique) Tale",
-     "proba": 0.125,
-     "potentiel": 0.4,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "statique",
-      "precision",
-      "erreur",
-      "correcteur",
-      "systemes",
-      "chaine"
+      "acquisition",
+      "chaine",
+      "composants",
+      "carte",
+      "capteurs"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2025-centres-etranger-1",
-       "enonce": "Identifier la composante de Ffluide→pale⃗ (Fr , Fθ ) à l’origine du couple C appliqué à la turbine."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 25,
-   "titre": "Traduire le comportement attendu ou observé d’un objet",
-   "passages": 2,
-   "proba": 0.215,
-   "potentiel": 0.6,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.548,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 71,
-     "texte": "Comportement séquentiel Structures algorithmiques (variables, fonctions, structures séquentielles, itératives, répétitives, conditionnelles) Diagramme d’états-transitions 1e",
-     "proba": 0.215,
-     "potentiel": 0.6,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "fonctions"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
+       "part": 0.67
+      },
       {
        "facette": 2,
        "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 1.0
+       "part": 0.33
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2023-metropole-1",
-       "enonce": "10"
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Établir la relation qui donne le diamètre 𝑑𝑑 de la micro-algue en fonction de la longueur d’onde 𝜆𝜆𝑣𝑣 du laser, la largeur l de la tache centrale et de la distance 𝐷𝐷 entre la lamelle de microscope et l’écran, sachant qu"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Calculer le diamètre d de la micro-algue. Donner cette valeur en m, puis en µm."
       }
      ],
      "intention": null
     },
     {
-     "passage": 72,
-     "texte": "Traduire un algorithme en un programme exécutable : Langage de programmation ; Tale",
-     "proba": 0.125,
-     "potentiel": 0.379,
+     "passage": 102,
+     "texte": "Mettre en œuvre une communication entre objets dits intelligents : Paramètres de configuration d’un réseau ; Tale",
+     "proba": 0.138,
+     "potentiel": 0.164,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "programme"
+     "evalue_sans_etre_dit": [
+      "dits",
+      "parametres",
+      "reseau",
+      "mettre"
      ],
+     "toujours_nomme": [],
      "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.67
+      },
       {
        "facette": 2,
        "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 1.0
+       "part": 0.33
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2023-metropole-1",
-       "enonce": "10"
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Établir la relation qui donne le diamètre 𝑑𝑑 de la micro-algue en fonction de la longueur d’onde 𝜆𝜆𝑣𝑣 du laser, la largeur l de la tache centrale et de la distance 𝐷𝐷 entre la lamelle de microscope et l’écran, sachant qu"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Calculer le diamètre d de la micro-algue. Donner cette valeur en m, puis en µm."
       }
      ],
      "intention": null
@@ -2875,17 +2828,52 @@
    "titre": "Un enseignement scientifique ambitieux pour préparer à l’enseignement supérieur",
    "passages": 4,
    "proba": 0.231,
-   "potentiel": 0.458,
+   "potentiel": 0.821,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.525,
+   "priorite": 0.588,
    "niveau": "à connaître",
    "passages_cles": [
+    {
+     "passage": 17,
+     "texte": "Ainsi, les élèves qui choisissent l’enseignement de spécialité sciences de l’ingénieur en classe terminale développent les compétences attendues pour une orientation vers l’enseignement supérieur scientifique.",
+     "proba": 0.231,
+     "potentiel": 0.821,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "scientifique",
+      "attendues"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2024-metropole-1",
+       "enonce": "10"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-nouv-caledonie-2",
+       "enonce": "Une personne située dans un bâtiment fermé à proximité n’entend pas du tout l’avertisseur sonore. Expliquer brièvement, en utilisant un vocabulaire scientifique rigoureux, le type d’atténuation mis en jeu."
+      }
+     ],
+     "intention": null
+    },
     {
      "passage": 16,
      "texte": "Les champs abordés en sciences de l’ingénieur recouvrent le large spectre scientifique et technologique des champs de la mécanique, de l’électricité et du signal, de l’informatique et du numérique. Les simulations multi-physiques sont largement exploitées pour appréhender les performances des produits en établissant des liens entre ces différents champs.",
      "proba": 0.23,
-     "potentiel": 0.458,
+     "potentiel": 0.736,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "large",
@@ -2920,45 +2908,10 @@
      "intention": null
     },
     {
-     "passage": 17,
-     "texte": "Ainsi, les élèves qui choisissent l’enseignement de spécialité sciences de l’ingénieur en classe terminale développent les compétences attendues pour une orientation vers l’enseignement supérieur scientifique.",
-     "proba": 0.231,
-     "potentiel": 0.362,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "scientifique",
-      "attendues"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.5
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2024-metropole-1",
-       "enonce": "10"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-nouv-caledonie-2",
-       "enonce": "Une personne située dans un bâtiment fermé à proximité n’entend pas du tout l’avertisseur sonore. Expliquer brièvement, en utilisant un vocabulaire scientifique rigoureux, le type d’atténuation mis en jeu."
-      }
-     ],
-     "intention": null
-    },
-    {
      "passage": 15,
      "texte": "De plus, en classe terminale, les élèves ayant choisi l’enseignement de spécialité sciences de l’ingénieur bénéficient de deux heures de sciences physiques enseignées par un professeur de physique-chimie. Ces deux heures sont dédiées aux aspects fondamentaux de sciences physiques.",
      "proba": 0.161,
-     "potentiel": 0.312,
+     "potentiel": 0.182,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "heures",
@@ -2992,21 +2945,273 @@
    ]
   },
   {
+   "section": 18,
+   "titre": "Analyser les principes de modulation et démodulation numériques",
+   "passages": 2,
+   "proba": 0.2,
+   "potentiel": 0.922,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.575,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 53,
+     "texte": "Internet des objets Notions de modulation-démodulation de signaux numériques en amplitude, en fréquence Tale",
+     "proba": 0.2,
+     "potentiel": 0.922,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "frequence",
+      "amplitude"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "tres / tres x / x tres x / x tres",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
+       "enonce": "avec f la fréquence de l’onde émise, et k un nombre entier positif."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
+       "enonce": "Le piccolo est un des instruments de musique capable de produire les sons les plus aigus, comme le Si6 de fréquence fa = 3 951 Hz. La contrebasse produit quant à elle des sons très graves, comme le La0 de fréquence fb = "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 54,
+     "texte": "Analyser les principaux protocoles pour un réseau de communication et les supports matériels : Protocoles, trames, encapsulation Support filaire et sans fil ; 1e",
+     "proba": 0.125,
+     "potentiel": 0.176,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "tres / tres x / x tres x / x tres",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
+       "enonce": "avec f la fréquence de l’onde émise, et k un nombre entier positif."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
+       "enonce": "Le piccolo est un des instruments de musique capable de produire les sons les plus aigus, comme le Si6 de fréquence fa = 3 951 Hz. La contrebasse produit quant à elle des sons très graves, comme le La0 de fréquence fb = "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 25,
+   "titre": "Traduire le comportement attendu ou observé d’un objet",
+   "passages": 2,
+   "proba": 0.215,
+   "potentiel": 0.84,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.555,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 71,
+     "texte": "Comportement séquentiel Structures algorithmiques (variables, fonctions, structures séquentielles, itératives, répétitives, conditionnelles) Diagramme d’états-transitions 1e",
+     "proba": 0.215,
+     "potentiel": 0.84,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "fonctions"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2023-metropole-1",
+       "enonce": "10"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 72,
+     "texte": "Traduire un algorithme en un programme exécutable : Langage de programmation ; Tale",
+     "proba": 0.125,
+     "potentiel": 0.037,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "programme"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2023-metropole-1",
+       "enonce": "10"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 19,
+   "titre": "Analyser le comportement d’un système asservi",
+   "passages": 2,
+   "proba": 0.212,
+   "potentiel": 0.859,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.543,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 56,
+     "texte": "Analyser les charges appliquées à un ouvrage ou une structure : Charge permanente, charge d’exploitation ; Tale",
+     "proba": 0.212,
+     "potentiel": 0.859,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "charges",
+      "structure"
+     ],
+     "toujours_nomme": [
+      "analyser"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2025-centres-etranger-1",
+       "enonce": "Identifier la composante de Ffluide→pale⃗ (Fr , Fθ ) à l’origine du couple C appliqué à la turbine."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "Systèmes asservis linéaires en régime permanent : structures par chaîne directe ou bouclée, perturbation, comparateur, correcteur proportionnel, précision (erreur statique) Tale",
+     "proba": 0.125,
+     "potentiel": 0.183,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "statique",
+      "precision",
+      "erreur",
+      "correcteur",
+      "systemes",
+      "chaine"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2025-centres-etranger-1",
+       "enonce": "Identifier la composante de Ffluide→pale⃗ (Fr , Fθ ) à l’origine du couple C appliqué à la turbine."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 15,
+   "titre": "Analyser la réversibilité d’un élément de la chaîne de puissance",
+   "passages": 1,
+   "proba": 0.199,
+   "potentiel": 0.838,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.527,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 49,
+     "texte": "Sens des transmissions de puissance Stockage de l’énergie Réversibilité/irréversibilité des constituants d’une chaîne de puissance Tale",
+     "proba": 0.199,
+     "potentiel": 0.838,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "chaine"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2023-centres-etranger-1",
+       "enonce": "10"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 3,
    "titre": "Des projets innovants mobilisant une approche design",
    "passages": 7,
    "proba": 0.195,
-   "potentiel": 0.592,
+   "potentiel": 0.755,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.512,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "priorite": 0.505,
+   "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 24,
      "texte": "Pour mener à bien ce projet, les élèves disposent d’outils de prototypage accessibles dans des laboratoires de type laboratoire de fabrication (ou Fablab, espace partagé d’échanges, de recherche et de fabrication, doté d’outils numériques et technologiques), mettant à disposition l’ensemble des ressources matérielles et numériques nécessaires.",
      "proba": 0.195,
-     "potentiel": 0.592,
+     "potentiel": 0.755,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "recherche",
@@ -3047,7 +3252,7 @@
      "passage": 22,
      "texte": "nécessairement associée au projet. Elle peut prendre la forme d’une application qui installe le produit dans un environnement communicant. Parmi les productions attendues, chaque équipe rédige obligatoirement une note interdisciplinaire.",
      "proba": 0.195,
-     "potentiel": 0.475,
+     "potentiel": 0.524,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "note",
@@ -3085,18 +3290,17 @@
      "intention": null
     },
     {
-     "passage": 19,
-     "texte": "Les ingénieurs sont alors créateurs d’une réalité virtuelle et matérielle. Ces deux réalités s’enrichissent mutuellement en mobilisant le concept de jumeau numérique. Au cours de la classe de première, un projet de 12 heures mené en équipe permet aux élèves d’imaginer et de matérialiser tout ou partie d’une solution originale. Ce projet peut être commun à toutes les équipes d’une même classe ou d’",
-     "proba": 0.104,
-     "potentiel": 0.317,
+     "passage": 23,
+     "texte": "Limitée à quelques pages, cette note développe un point des programmes du cycle terminal d’enseignement de sciences physiques et de l’autre enseignement de spécialité, en montrant comment les notions liées à ces disciplines sont mobilisées dans le projet. Ce projet sert de support aux élèves qui choisissent les sciences de l’ingénieur pour soutenir l’épreuve orale terminale.",
+     "proba": 0.119,
+     "potentiel": 0.143,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
-      "realite",
-      "toutes",
-      "heures",
-      "premiere",
-      "equipe",
-      "solution"
+      "quelques",
+      "note",
+      "support",
+      "liees",
+      "developpe"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
@@ -3113,12 +3317,12 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-2",
-       "enonce": "Comparer avec la valeur de 100 µm annoncée par le fabricant."
-      },
-      {
        "sujet": "spe-sciences-ingenieur-2022-metropole-1",
        "enonce": "10 Relever sur la figure 13 la tension d’alimentation du moteur du vérin électrique pour obtenir une vitesse de sortie du vérin de 11 mm⋅s-1."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-2",
+       "enonce": "Comparer avec la valeur de 100 µm annoncée par le fabricant."
       }
      ],
      "intention": null
@@ -3126,201 +3330,51 @@
    ]
   },
   {
-   "section": 20,
-   "titre": "Analyser des résultats d’expérimentation et de simulation",
+   "section": 17,
+   "titre": "Analyser et caractériser les échanges d’information d’un système avec un réseau de communication",
    "passages": 1,
-   "proba": 0.213,
-   "potentiel": 0.529,
-   "annees_tombees": 1,
+   "proba": 0.097,
+   "potentiel": 0.143,
+   "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.502,
+   "priorite": 0.26,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 57,
-     "texte": "Lois physiques associées au fonctionnement d’un produit Description qualitative et quantitative des grandeurs physiques caractéristiques du fonctionnement d’un produit Critères de performances Tale",
-     "proba": 0.213,
-     "potentiel": 0.529,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "caracteristiques",
-      "lois",
-      "associees"
-     ],
-     "toujours_nomme": [
-      "description"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 7,
-       "nom": "deduire x / deduire / x deduire x / x deduire",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-polynesie-2",
-       "enonce": "En déduire le coefficient 𝐶𝐶𝑥𝑥 en fonction de 𝑚𝑚, 𝑔𝑔, 𝛼𝛼, 𝜌𝜌, 𝑣𝑣 et 𝑆𝑆. Présenter le résultat accompagné de son incertitude-type associée."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 18,
-   "titre": "Analyser les principes de modulation et démodulation numériques",
-   "passages": 2,
-   "proba": 0.2,
-   "potentiel": 0.483,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.485,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 53,
-     "texte": "Internet des objets Notions de modulation-démodulation de signaux numériques en amplitude, en fréquence Tale",
-     "proba": 0.2,
-     "potentiel": 0.483,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "frequence",
-      "amplitude"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.5
-      },
-      {
-       "facette": 3,
-       "nom": "tres / tres x / x tres x / x tres",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
-       "enonce": "avec f la fréquence de l’onde émise, et k un nombre entier positif."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
-       "enonce": "Le piccolo est un des instruments de musique capable de produire les sons les plus aigus, comme le Si6 de fréquence fa = 3 951 Hz. La contrebasse produit quant à elle des sons très graves, comme le La0 de fréquence fb = "
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 54,
-     "texte": "Analyser les principaux protocoles pour un réseau de communication et les supports matériels : Protocoles, trames, encapsulation Support filaire et sans fil ; 1e",
-     "proba": 0.125,
-     "potentiel": 0.296,
+     "passage": 52,
+     "texte": "Architecture Client/Serveur, cloud Architecture des réseaux de communication Débit/vitesse de transmission Tale",
+     "proba": 0.097,
+     "potentiel": 0.143,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.5
-      },
-      {
-       "facette": 3,
-       "nom": "tres / tres x / x tres x / x tres",
-       "part": 0.5
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
-       "enonce": "avec f la fréquence de l’onde émise, et k un nombre entier positif."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2022-metropole-1-remplacement",
-       "enonce": "Le piccolo est un des instruments de musique capable de produire les sons les plus aigus, comme le Si6 de fréquence fa = 3 951 Hz. La contrebasse produit quant à elle des sons très graves, comme le La0 de fréquence fb = "
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 26,
-   "titre": "Modéliser sous une forme graphique une structure, un mécanisme ou un circuit",
-   "passages": 1,
-   "proba": 0.215,
-   "potentiel": 0.412,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.463,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 73,
-     "texte": "Circuit électrique Schéma cinématique Graphe de liaisons et des actions mécaniques 1e",
-     "proba": 0.215,
-     "potentiel": 0.412,
-     "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "cinematique",
-      "circuit",
-      "mecaniques",
-      "liaisons",
-      "actions"
+      "debit"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 2,
        "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 1.0
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2022-polynesie-1",
-       "enonce": "Schéma du canon à électrons"
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 15,
-   "titre": "Analyser la réversibilité d’un élément de la chaîne de puissance",
-   "passages": 1,
-   "proba": 0.199,
-   "potentiel": 0.408,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.427,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 49,
-     "texte": "Sens des transmissions de puissance Stockage de l’énergie Réversibilité/irréversibilité des constituants d’une chaîne de puissance Tale",
-     "proba": 0.199,
-     "potentiel": 0.408,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "chaine"
-     ],
-     "manieres_de_demander": [
+       "sujet": "spe-sciences-ingenieur-2025-metropole-1",
+       "enonce": "10 DR2"
+      },
       {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2023-centres-etranger-1",
-       "enonce": "10"
+       "sujet": "spe-sciences-ingenieur-2026-metropole-1-remplacement",
+       "enonce": "Le caractère P est envoyé en premier pour indiquer que l'information qui suit est une profondeur en mètre avec comme séparateur une virgule."
       }
      ],
      "intention": null
@@ -3332,17 +3386,17 @@
    "titre": "Mettre en œuvre une simulation numérique à partir d’un modèle multi-physique pour qualifier et quantifier les performances d’un objet réel ou imaginé",
    "passages": 1,
    "proba": 0.098,
-   "potentiel": 0.458,
+   "potentiel": 0.082,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.3,
+   "priorite": 0.208,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 105,
      "texte": "Paramètres de simulation : durée, incrément temporel, choix des grandeurs affichées, échelles adaptées à l’amplitude et la dynamique des grandeurs simulées Tale",
      "proba": 0.098,
-     "potentiel": 0.458,
+     "potentiel": 0.082,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3378,21 +3432,111 @@
    ]
   },
   {
+   "section": 16,
+   "titre": "Analyser le traitement de l’information",
+   "passages": 2,
+   "proba": 0.096,
+   "potentiel": 0.085,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.202,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 51,
+     "texte": "Analyser le comportement d’un objet à partir d’une description à événements discrets : Diagramme états-transitions Algorithme ; Tale",
+     "proba": 0.096,
+     "potentiel": 0.085,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "x colon / colon / x colon x / colon x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2023-metropole-1",
+       "enonce": "10"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2026-antilles-guyane-1",
+       "enonce": "figure 6, DR1"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 50,
+     "texte": "Algorithme, programme Langage informatique Notions sur l’intelligence artificielle Tale",
+     "proba": 0.094,
+     "potentiel": 0.049,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "intelligence",
+      "programme"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
+       "enonce": "10"
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2023-centres-etranger-1",
+       "enonce": "Vélo à assistance électrique\nConstitution du sujet\nsujet .............................................................................. pages 3 à 13\ndocuments réponses.................................................... "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 38,
    "titre": "Compétences développées",
    "passages": 1,
    "proba": 0.102,
-   "potentiel": 0.383,
+   "potentiel": 0.048,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.25,
+   "priorite": 0.163,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 111,
      "texte": "Présenter un protocole, une démarche, une solution en réponse à un besoin Présenter et formaliser une idée : Diagrammes fonctionnels, schémas, croquis ; Tale",
      "proba": 0.102,
-     "potentiel": 0.383,
+     "potentiel": 0.048,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "reponse"
@@ -3434,54 +3578,17 @@
    "titre": "Analyser les produits existants pour appréhender leur complexité",
    "passages": 3,
    "proba": 0.086,
-   "potentiel": 0.354,
+   "potentiel": 0.053,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.203,
+   "priorite": 0.142,
    "niveau": "à connaître",
    "passages_cles": [
-    {
-     "passage": 46,
-     "texte": "Ainsi, à l’issue du cycle terminal, les élèves sont évalués sur leurs compétences à analyser :  l’organisation fonctionnelle et matérielle d’un produit ;  les échanges d’énergie, les transmissions de puissance, les échanges et le traitement des informations ;  les écarts entre les performances attendues, simulées ou mesurées.",
-     "proba": 0.086,
-     "potentiel": 0.354,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.38
-      },
-      {
-       "facette": 5,
-       "nom": "commenter / commenter x / x commenter / x commenter x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
-       "enonce": "Établir les équations horaires du mouvement du drone lors de la chute."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "Schématiser une expérience qui permet d’observer ce phénomène."
-      }
-     ],
-     "intention": null
-    },
     {
      "passage": 45,
      "texte": "À partir des prérequis installés au collège et des enseignements scientifiques communs en classe de seconde, le cycle terminal approfondit de façon qualitative l’analyse des produits d’une complexité croissante et quantifie les performances attendues. Il permet de constituer une large base de connaissances scientifiques et technologiques.",
      "proba": 0.083,
-     "potentiel": 0.25,
+     "potentiel": 0.053,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3518,7 +3625,7 @@
      "passage": 44,
      "texte": "La société attend des ingénieurs qu’ils lui proposent des solutions nouvelles pour répondre aux besoins émergents. La capacité à proposer des solutions innovantes repose en partie sur une analyse des solutions existantes et des enjeux de société associés. Ainsi, les ingénieurs sont capables de mener une analyse structurée des produits et d’utiliser une base de connaissances scientifiques et techno",
      "proba": 0.069,
-     "potentiel": 0.071,
+     "potentiel": 0.02,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "societe",
@@ -3559,6 +3666,43 @@
       }
      ],
      "intention": null
+    },
+    {
+     "passage": 46,
+     "texte": "Ainsi, à l’issue du cycle terminal, les élèves sont évalués sur leurs compétences à analyser :  l’organisation fonctionnelle et matérielle d’un produit ;  les échanges d’énergie, les transmissions de puissance, les échanges et le traitement des informations ;  les écarts entre les performances attendues, simulées ou mesurées.",
+     "proba": 0.086,
+     "potentiel": 0.015,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.38
+      },
+      {
+       "facette": 5,
+       "nom": "commenter / commenter x / x commenter / x commenter x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
+       "enonce": "Établir les équations horaires du mouvement du drone lors de la chute."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
+       "enonce": "Schématiser une expérience qui permet d’observer ce phénomène."
+      }
+     ],
+     "intention": null
     }
    ]
   },
@@ -3567,17 +3711,17 @@
    "titre": "Évaluer une solution",
    "passages": 3,
    "proba": 0.067,
-   "potentiel": 0.358,
+   "potentiel": 0.058,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.187,
+   "priorite": 0.137,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 42,
      "texte": "Les éléments d’histoire sont contextualisés par un exemple circonscrit à l’un des éléments d’une thématique. Cela permet d’illustrer des processus d’innovation de rupture ou d’innovation incrémentale. La compétence « Innover » se développe de façon privilégiée dans la démarche de projet. Les connaissances associées aux « méthodes agiles » et à l’« approche design » se limitent à quelques éléments ",
      "proba": 0.058,
-     "potentiel": 0.358,
+     "potentiel": 0.058,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "elements",
@@ -3621,7 +3765,7 @@
      "passage": 43,
      "texte": "Les élèves ont à disposition des équipements matériels et numériques disponibles dans un espace de type « FabLab ».",
      "proba": 0.067,
-     "potentiel": 0.25,
+     "potentiel": 0.051,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "espace",
@@ -3663,7 +3807,7 @@
      "passage": 41,
      "texte": "Mesures et tests des performances de tout ou partie de la solution innovante Amélioration continue Tale",
      "proba": 0.058,
-     "potentiel": 0.037,
+     "potentiel": 0.038,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "mesures",
@@ -3702,193 +3846,49 @@
    ]
   },
   {
-   "section": 16,
-   "titre": "Analyser le traitement de l’information",
-   "passages": 2,
-   "proba": 0.096,
-   "potentiel": 0.254,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.177,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 51,
-     "texte": "Analyser le comportement d’un objet à partir d’une description à événements discrets : Diagramme états-transitions Algorithme ; Tale",
-     "proba": 0.096,
-     "potentiel": 0.254,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.25
-      },
-      {
-       "facette": 4,
-       "nom": "x colon / colon / x colon x / colon x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2023-metropole-1",
-       "enonce": "10"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2026-antilles-guyane-1",
-       "enonce": "figure 6, DR1"
-      }
-     ],
-     "intention": null
-    },
-    {
-     "passage": 50,
-     "texte": "Algorithme, programme Langage informatique Notions sur l’intelligence artificielle Tale",
-     "proba": 0.094,
-     "potentiel": 0.113,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "intelligence",
-      "programme"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.25
-      },
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2021-metro-cand-libre-2",
-       "enonce": "10"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2023-centres-etranger-1",
-       "enonce": "Vélo à assistance électrique\nConstitution du sujet\nsujet .............................................................................. pages 3 à 13\ndocuments réponses.................................................... "
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
-   "section": 17,
-   "titre": "Analyser et caractériser les échanges d’information d’un système avec un réseau de communication",
-   "passages": 1,
-   "proba": 0.097,
-   "potentiel": 0.246,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.167,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 52,
-     "texte": "Architecture Client/Serveur, cloud Architecture des réseaux de communication Débit/vitesse de transmission Tale",
-     "proba": 0.097,
-     "potentiel": 0.246,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "debit"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.5
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.12
-      },
-      {
-       "facette": 0,
-       "nom": "justifier / justifier x / x justifier / sens",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2025-metropole-1",
-       "enonce": "10 DR2"
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2026-metropole-1-remplacement",
-       "enonce": "Le caractère P est envoyé en premier pour indiquer que l'information qui suit est une profondeur en mètre avec comme séparateur une virgule."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 5,
    "titre": "Créer des produits innovants",
    "passages": 5,
    "proba": 0.043,
-   "potentiel": 0.304,
+   "potentiel": 0.069,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.118,
+   "priorite": 0.107,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 33,
-     "texte": "Les solutions s’attachent à définir les aspects fonctionnel et esthétique en vue d’élaborer un prototype. La viabilité économique ainsi que l’industrialisation du produit seront abordées au cours des études supérieures. Au terme de la formation du cycle terminal, les élèves ont acquis de bonnes pratiques en termes de veille technologique et de questionnement permanent.",
-     "proba": 0.026,
-     "potentiel": 0.304,
+     "passage": 32,
+     "texte": "Créer des produits innovants mobilise l’ensemble des compétences du cycle terminal de sciences de l’ingénieur. Au cycle terminal, les élèves sont invités à proposer des solutions nouvelles sur des problématiques simples mais aussi des évolutions de solutions existantes pour prendre en compte une rupture technologique ou une évolution des attentes des clients.",
+     "proba": 0.025,
+     "potentiel": 0.069,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "termes"
-     ],
+     "toujours_nomme": [],
      "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.5
-      },
-      {
-       "facette": 7,
-       "nom": "deduire x / deduire / x deduire x / x deduire",
-       "part": 0.25
-      },
       {
        "facette": 2,
        "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.12
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.25
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "En déduire l’expression de la vitesse du CSM en fonction de , distance séparant le CSM du centre de la Lune."
+       "sujet": "spe-sciences-ingenieur-2024-metropole-1",
+       "enonce": "10"
       },
       {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "Reproduire le schéma précédent en indiquant la direction dans laquelle se situe le Soleil par rapport à la Lune."
+       "sujet": "spe-sciences-ingenieur-2021-metropole-1",
+       "enonce": "Établir les équations horaires du mouvement du drone lors de la chute."
       }
      ],
      "intention": null
@@ -3897,7 +3897,7 @@
      "passage": 34,
      "texte": "Ils proposent des solutions nouvelles, fruits d’une démarche organisée et collective. Ils sont capables de l’expliquer, de la décrire par des schémas et de convaincre un auditoire de sa pertinence. La compétence « innover » est essentiellement développée dans les activités de projet.",
      "proba": 0.042,
-     "potentiel": 0.25,
+     "potentiel": 0.036,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3931,44 +3931,42 @@
      "intention": null
     },
     {
-     "passage": 35,
-     "texte": " proposer tout ou partie d’une nouvelle solution sous forme virtuelle ou matérielle à partir d’un nouveau concept de produit ou d’un produit existant et susceptible d’évoluer ;  matérialiser la solution réalisable avec des outils de prototypage intégrés dans une chaîne numérique.",
-     "proba": 0.043,
-     "potentiel": 0.183,
+     "passage": 31,
+     "texte": "Au XXIe siècle, dans des contextes fortement évolutifs, la compétitivité des entreprises et l’efficience des administrations sont liées à leur capacité à innover de façon permanente. La formation des futurs ingénieurs doit stimuler leur créativité, les préparer à une disposition d’esprit propice à l’innovation et aborder des méthodes de recherche créative et d’organisation de projet.",
+     "proba": 0.011,
+     "potentiel": 0.038,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
-      "solution",
-      "nouvelle",
-      "evoluer",
-      "proposer",
-      "chaine"
+      "liees",
+      "recherche",
+      "disposition"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.38
+       "facette": 0,
+       "nom": "justifier / justifier x / x justifier / sens",
+       "part": 0.5
       },
       {
        "facette": 1,
        "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.38
+       "part": 0.25
       },
       {
-       "facette": 5,
-       "nom": "commenter / commenter x / x commenter / x commenter x",
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
        "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "Comparer les dimensions de la tache de diffraction avec celle d’un pixel dans les deux cas. Commenter à l’aide d’un schéma."
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Citer le principal mode de transfert thermique intervenant dans cette situation. Préciser s'il existe d'autres modes de transfert thermique."
       },
       {
-       "sujet": "spe-sciences-ingenieur-2021-metropole-2-remplacement",
-       "enonce": "Schématiser une expérience qui permet d’observer ce phénomène."
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-1",
+       "enonce": "Schématiser le sens du transfert thermique s'opérant entre l'intérieur et l'extérieur du rover sur le schéma situé en ANNEXE à rendre avec la copie. Expliquer ce sens."
       }
      ],
      "intention": null
@@ -3980,17 +3978,17 @@
    "titre": "Analyser le besoin, l’organisation matérielle et fonctionnelle d’un produit par une démarche d’ingénierie système",
    "passages": 1,
    "proba": 0.09,
-   "potentiel": 0.075,
+   "potentiel": 0.016,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.105,
+   "priorite": 0.098,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 47,
      "texte": "Outils d’ingénierie-système : diagrammes fonctionnels, définition des exigences et des critères associés, cas d’utilisations, analyse structurelle 1e",
      "proba": 0.09,
-     "potentiel": 0.075,
+     "potentiel": 0.016,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "analyse"
@@ -4028,21 +4026,73 @@
    ]
   },
   {
+   "section": 10,
+   "titre": "Matérialiser une solution virtuelle",
+   "passages": 1,
+   "proba": 0.058,
+   "potentiel": 0.02,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.073,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 40,
+     "texte": "Mise en œuvre d’outils de prototypage rapide Prototypage de la commande Tale",
+     "proba": 0.058,
+     "potentiel": 0.02,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "commande"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "x colon x / commenter / x justifier / commenter x",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "etablir x / etablir / donner / donner x",
+       "part": 0.25
+      },
+      {
+       "facette": 6,
+       "nom": "x echelle / echelle / echelle x / x echelle x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-2",
+       "enonce": "Comparer avec la valeur de 100 µm annoncée par le fabricant."
+      },
+      {
+       "sujet": "spe-sciences-ingenieur-2024-polynesie-2",
+       "enonce": "Schéma de l’orbite de la Terre et de J (en L2) autour du Soleil (l’échelle n’est pas respectée)."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
    "section": 8,
    "titre": "Imaginer une solution originale, appropriée et esthétique",
    "passages": 1,
    "proba": 0.053,
-   "potentiel": 0.212,
+   "potentiel": 0.024,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.097,
+   "priorite": 0.067,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 38,
      "texte": "Cartes heuristiques Méthodes de brainstorming, d’analogies, de détournement d’usage Scénarios d’usage et expériences utilisateurs Design d’interface et d’interaction Éléments d’ergonomie 1e",
      "proba": 0.053,
-     "potentiel": 0.212,
+     "potentiel": 0.024,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "usage",
@@ -4083,73 +4133,21 @@
    ]
   },
   {
-   "section": 10,
-   "titre": "Matérialiser une solution virtuelle",
-   "passages": 1,
-   "proba": 0.058,
-   "potentiel": 0.125,
-   "annees_tombees": 0,
-   "sur": 6,
-   "priorite": 0.09,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 40,
-     "texte": "Mise en œuvre d’outils de prototypage rapide Prototypage de la commande Tale",
-     "proba": 0.058,
-     "potentiel": 0.125,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "commande"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "x colon x / commenter / x justifier / commenter x",
-       "part": 0.38
-      },
-      {
-       "facette": 1,
-       "nom": "etablir x / etablir / donner / donner x",
-       "part": 0.25
-      },
-      {
-       "facette": 6,
-       "nom": "x echelle / echelle / echelle x / x echelle x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "spe-sciences-ingenieur-2022-mayotte-liban-2",
-       "enonce": "Comparer avec la valeur de 100 µm annoncée par le fabricant."
-      },
-      {
-       "sujet": "spe-sciences-ingenieur-2024-polynesie-2",
-       "enonce": "Schéma de l’orbite de la Terre et de J (en L2) autour du Soleil (l’échelle n’est pas respectée)."
-      }
-     ],
-     "intention": null
-    }
-   ]
-  },
-  {
    "section": 7,
    "titre": "Élaborer une démarche globale d'innovation",
    "passages": 1,
    "proba": 0.048,
-   "potentiel": 0.079,
+   "potentiel": 0.029,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.06,
+   "priorite": 0.065,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 37,
      "texte": "Méthodes agiles Approche design, apports et limites Veille technologique Tale",
      "proba": 0.048,
-     "potentiel": 0.079,
+     "potentiel": 0.029,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "design"
@@ -4191,7 +4189,7 @@
    "titre": "Représenter une solution originale",
    "passages": 1,
    "proba": 0.054,
-   "potentiel": 0.013,
+   "potentiel": 0.012,
    "annees_tombees": 0,
    "sur": 6,
    "priorite": 0.048,
@@ -4201,7 +4199,7 @@
      "passage": 39,
      "texte": "Outil numérique graphique Modeleur volumique Tale",
      "proba": 0.054,
-     "potentiel": 0.013,
+     "potentiel": 0.012,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "outil"
@@ -4243,17 +4241,17 @@
    "titre": "Rompre avec l’existant Améliorer l’existant",
    "passages": 1,
    "proba": 0.047,
-   "potentiel": 0.037,
+   "potentiel": 0.014,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.038,
+   "priorite": 0.037,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 36,
      "texte": "Éléments d’histoire des innovations et des produits 1e",
      "proba": 0.047,
-     "potentiel": 0.037,
+     "potentiel": 0.014,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "elements"
@@ -4314,24 +4312,24 @@
   },
   "nouveaute": {
    "familles": [
-    "voisinage"
+    "lexique_du_professeur"
    ],
-   "modele": "melange",
+   "modele": "arbres",
    "mele_a_l_ancienne": false,
    "essayes": {
-    "[[\"voisinage\"], \"melange\", false]": 0.443
+    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.37
    },
    "score_rejoue": [
-    0.331,
-    0.407,
-    0.659,
-    0.738,
-    0.045,
-    0.479
+    0.569,
+    0.259,
+    0.664,
+    0.234,
+    0.026,
+    0.469
    ],
    "fourchette": [
     0.0,
-    1.0
+    0.9892717086834734
    ]
   }
  },
@@ -4356,27 +4354,27 @@
   "nouveaute": {
    "regle_sans_cette_matiere": [
     [
-     "voisinage"
+     "lexique_du_professeur"
     ],
-    "melange",
+    "arbres",
     false
    ],
    "avant_couverture": 0.156,
-   "couverture": 0.222,
+   "couverture": 0.178,
    "avant_auc": 0.618,
-   "auc": 0.55,
-   "regle_finale_couverture": 0.222,
+   "auc": 0.49,
+   "regle_finale_couverture": 0.178,
    "pseudo_domaines": {
     "avant": 0.007,
-    "apres": 0.133,
+    "apres": 0.117,
     "n": 10
    }
   },
   "auto_jugement": {
    "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
-   "fourchette_juste": 0.854,
-   "largeur_moyenne": 0.789,
-   "taches": 445
+   "fourchette_juste": 0.852,
+   "largeur_moyenne": 0.79,
+   "taches": 643
   }
  }
 }

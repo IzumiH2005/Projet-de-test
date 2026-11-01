@@ -1,0 +1,2309 @@
+{
+ "matiere": "philo",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 115,
+  "passages_prevus": 11,
+  "hasard_questions_couvertes": 0.096,
+  "choix_par_annee": {
+   "2024": "arbres_generiques_et_propres_a_la_matiere",
+   "2025": "logistique_12_generiques",
+   "2026": "logistique_12_generiques"
+  },
+  "famille_pour_l_annee_prevue": "logistique_12_generiques",
+  "popularite": {
+   "auc": 0.837,
+   "questions_couvertes": 0.41,
+   "questions_couvertes_a_un_passage_pres": 0.554,
+   "chapitres_prevus_tombes_sur_5": 5.0,
+   "par_annee": {
+    "2024": 0.37,
+    "2025": 0.5,
+    "2026": 0.36
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.841,
+   "questions_couvertes": 0.473,
+   "questions_couvertes_a_un_passage_pres": 0.569,
+   "chapitres_prevus_tombes_sur_5": 5.0,
+   "par_annee": {
+    "2024": 0.593,
+    "2025": 0.425,
+    "2026": 0.4
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.834,
+   "questions_couvertes": 0.451,
+   "questions_couvertes_a_un_passage_pres": 0.563,
+   "chapitres_prevus_tombes_sur_5": 5.0,
+   "par_annee": {
+    "2024": 0.444,
+    "2025": 0.55,
+    "2026": 0.36
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.827,
+   "questions_couvertes": 0.469,
+   "questions_couvertes_a_un_passage_pres": 0.562,
+   "chapitres_prevus_tombes_sur_5": 5.0,
+   "par_annee": {
+    "2024": 0.481,
+    "2025": 0.525,
+    "2026": 0.4
+   }
+  },
+  "ensemble": {
+   "auc": 0.843,
+   "questions_couvertes": 0.461,
+   "questions_couvertes_a_un_passage_pres": 0.546,
+   "chapitres_prevus_tombes_sur_5": 5.0,
+   "par_annee": {
+    "2024": 0.444,
+    "2025": 0.5,
+    "2026": 0.44
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.824,
+   "questions_couvertes": 0.435,
+   "questions_couvertes_a_un_passage_pres": 0.532,
+   "chapitres_prevus_tombes_sur_5": 5.0,
+   "par_annee": {
+    "2024": 0.481,
+    "2025": 0.425,
+    "2026": 0.4
+   }
+  }
+ },
+ "famille_choisie": "logistique_12_generiques",
+ "passages_les_plus_probables": [
+  {
+   "passage": 109,
+   "section": 12,
+   "section_titre": "Les repères",
+   "probabilite": 0.97,
+   "texte": "• Le temps : le temps est-il absolu ou relatif ? est-il intuitif ou discursif ? idéal ou réel ? subjectif ou objectif ?",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.5
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.38
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.12
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-zero-2",
+     "enonce": "Y a-t-il de justes inégalités ?"
+    },
+    {
+     "sujet": "philosophie-2022-centres-etrangers",
+     "enonce": "Le bonheur nous échappe-t-il inévitablement ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 108,
+   "section": 12,
+   "section_titre": "Les repères",
+   "probabilite": 0.967,
+   "texte": "• La raison : quels sont les rôles de l’analyse et de la synthèse dans les processus démonstratifs ? raisonne-t-on sur des exemples ou sur des preuves ? qu’est-ce qui distingue raison théorique et raison pratique ? que sont un principe ou une fin ?",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [
+    "quels",
+    "synthese"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.5
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.38
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.12
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-amerique-nord",
+     "enonce": "De nos jours, ce n’est pas seulement dans les magasins, les marchés, les échanges,\nque les produits du travail entrent seuls en ligne de compte, et non les travaux qui les ont\nsuscités. Dans les usines modernes il en est"
+    },
+    {
+     "sujet": "philosophie-2022-amerique-nord",
+     "enonce": "Mais qu’est-ce donc qui est véritablement ? Ce qui est éternel, c’est-à-dire ce qui n’a\njamais eu de naissance, ni n’aura jamais de fin, et à quoi le temps n’apporte jamais aucune\nmutation. Car c’est chose mobile que le "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 59,
+   "section": 7,
+   "section_titre": "Les perspectives",
+   "probabilite": 0.955,
+   "texte": "Le fait de la tradition se voit ainsi doté d’une signification normative, les problèmes qu’elle recouvre ne sont ni identifiés, ni nommés comme tels, indépendamment de la reprise et de l’actualisation qu’en effectue le professeur. C’est donc à ce dernier qu’il revient, en toute liberté et suivant la logique de son propre parcours, de faire connaître les traditions les mieux adaptées à la progression intellectuelle qu’il souhaite pour ses élèves.",
+   "deja_tombe": 6,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.5
+    },
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.39
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.11
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-antilles-guyane",
+     "enonce": "Connaître le passé est-ce préparer l’avenir ?"
+    },
+    {
+     "sujet": "philosophie-2021-antilles-guyane",
+     "enonce": "Expliquer le texte suivant :\nOn peut entendre par liberté autre chose que la possibilité d’obtenir sans effort\nce qui plaît. Il existe une conception bien différente de la liberté, une conception\nhéroïque qui est celle d"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 77,
+   "section": 10,
+   "section_titre": "La religion",
+   "probabilite": 0.922,
+   "texte": "• une séquence sur « le langage » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (liberté d’expression et de parole), son rapport à « la raison » (la logique, l’indicible), son rapport « la nature » (les origines du langage, les langues naturelles), son rapport à « la vérité » (le mensonge, les sophismes), etc. ;",
+   "deja_tombe": 5,
+   "evalue_sans_etre_dit": [
+    "logique"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.62
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.22
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.16
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-antilles-guyane",
+     "enonce": "L’artiste peut-il dire la vérité ?"
+    },
+    {
+     "sujet": "philosophie-2021-zero-1",
+     "enonce": "Le langage trahit-il la pensée ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 94,
+   "section": 11,
+   "section_titre": "Les auteurs du programme1",
+   "probabilite": 0.912,
+   "texte": "Ainsi, d’une part, l’étude suivie ou non d’œuvres ne se surajoute pas à l’étude des notions, comme si elle constituait une autre partie des programmes, par exemple destinée à la seule préparation de l’oral dit « de rattrapage » ; et symétriquement, l’étude des notions, quelles que soient ces dernières, ne peut jamais être conduite sans des références explicites et soutenues à des œuvres de philosophie de ou de l’autre des périodes historiques désignées.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "jamais"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.56
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.39
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.06
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-asie",
+     "enonce": "Expliquer le texte suivant :\nOn dit volontiers : mon vouloir a été déterminé par ces mobiles, circonstances,\nexcitations et impulsions. La formule implique d'emblée1 que je me sois ici comporté de\nfaçon passive. Mais, en"
+    },
+    {
+     "sujet": "philosophie-2021-centres-etrangers",
+     "enonce": "Expliquer le texte suivant :\nUn des traits marquants de l’action humaine est qu’elle entreprend toujours du\nnouveau, ce qui ne signifie pas qu’elle puisse alors partir de rien, créer à partir du néant. On\nne peut faire p"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 79,
+   "section": 10,
+   "section_titre": "La religion",
+   "probabilite": 0.881,
+   "texte": "• une séquence sur « la conscience » peut diversement et de façon non exhaustive porter sur son rapport à « l’inconscient » (dualisme âme/corps, théorie du psychisme inconscient), à « la religion » (liberté de conscience, autonomie du sentiment religieux), au « temps » (psychologie rationnelle, perception du successif), à « la justice » (la décision judiciaire, les conflits de droit), etc.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.62
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.22
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.16
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-antilles-guyane-remplacement",
+     "enonce": "Suis-je ce que mon inconscient fait de moi ?"
+    },
+    {
+     "sujet": "philosophie-2021-metropole-remplacement",
+     "enonce": "La conscience nous fait-elle connaître la vérité de ce que nous sommes ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 9,
+   "section": 0,
+   "section_titre": "Préambule",
+   "probabilite": 0.845,
+   "texte": "Dans les travaux qui lui sont demandés, l’élève :  examine ses idées et ses connaissances pour en éprouver le bien-fondé ;  circonscrit les questions qui requièrent une réflexion préalable pour recevoir une réponse ;  confronte différents points de vue sur un problème avant d’y apporter une solution appropriée ;  justifie ce qu’il affirme et ce qu’il nie en formulant des propositions construites et des arguments instruits ;  mobilise de manière opportune les connaissances qu’il acquiert par la lecture et l’étude des textes et des œuvres philosophiques.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "idees"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.48
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.38
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.14
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-antilles-guyane-remplacement",
+     "enonce": "Expliquer le texte suivant :\nPour les hommes, l’heureuse disposition de l’âme naît de la modération du\nplaisir et de la mesure de la vie. Les manques et les excès vont fréquemment en\nempirant et produisent en l’âme de gr"
+    },
+    {
+     "sujet": "philosophie-2021-polynesie",
+     "enonce": "Il n’y a de droit de punir que fondé sur la loi positive ; c’est elle qui, en prévision\nde la transgression, a fixé une peine, destinée à menacer celui qui serait tenté, et à\njouer en lui le rôle d’un motif capable de te"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 82,
+   "section": 11,
+   "section_titre": "Les auteurs du programme1",
+   "probabilite": 0.751,
+   "texte": "L’étude d’œuvres de philosophes est inséparable de l’examen des notions. Au-delà de la culture qu’elle dispense, elle forme la matière même de l’enseignement de la philosophie.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "matiere"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.56
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.39
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.06
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-zero-2",
+     "enonce": "L’unanimité est-elle un critère de vérité ?"
+    },
+    {
+     "sujet": "philosophie-2025-metropole",
+     "enonce": "La vérité est-elle toujours convaincante ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 3,
+   "section": 0,
+   "section_titre": "Préambule",
+   "probabilite": 0.74,
+   "texte": "Il exclut la visée encyclopédique et la recherche de l’exhaustivité : il ne s’agit ni de parcourir toutes les étapes de la construction historique de la philosophie ni d’envisager tous les problèmes philosophiques que l’on peut légitimement poser.",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.48
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.38
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.14
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2023-antilles-guyane-remplacement",
+     "enonce": "Quelle vérité l’artiste recherche-t-il ?"
+    },
+    {
+     "sujet": "philosophie-2024-amerique-nord",
+     "enonce": "Peut-on parler sans savoir ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 56,
+   "section": 7,
+   "section_titre": "Les perspectives",
+   "probabilite": 0.604,
+   "texte": "Ainsi, à simple titre d’exemple, la notion de raison peut être abordée dans une réflexion sur la connaissance, mais tout aussi bien dans une perspective pratique ; l’art ou la technique peuvent donner lieu à une réflexion morale, à une interrogation sur le type de connaissance qu’ils procurent mais aussi sur leur place dans l’existence humaine et la culture.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "connaissance",
+    "lieu",
+    "donner",
+    "morale",
+    "existence"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.5
+    },
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.39
+    },
+    {
+     "facette": 2,
+     "nom": "etre / peut x / peut / qm",
+     "part": 0.11
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-centres-etrangers",
+     "enonce": "Tout le monde peut-il être artiste ?"
+    },
+    {
+     "sujet": "philosophie-2025-antilles-guyane-remplacement",
+     "enonce": "L’être humain est-il à sa place dans la nature ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 43,
+   "section": 6,
+   "section_titre": "Exercices et apprentissage de la réflexion philosophique",
+   "probabilite": 0.449,
+   "texte": "Cependant, composer une explication de texte ou une dissertation ne consiste pas à se soumettre à des règles purement formelles. Il s’agit avant tout de développer un travail philosophique personnel et instruit des connaissances acquises par l’étude des notions et des œuvres.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.5
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.5
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-zero-1",
+     "enonce": "La vie en société menace-t-elle notre liberté ?\nExplication de texte philosophique"
+    },
+    {
+     "sujet": "philosophie-2021-zero-2",
+     "enonce": "Faut-il du temps pour devenir soi-même ?\nExplication de texte philosophique"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 41,
+   "section": 6,
+   "section_titre": "Exercices et apprentissage de la réflexion philosophique",
+   "probabilite": 0.444,
+   "texte": "Il développe, en vue de l’élaboration d’une réponse fondée à la question posée, une réflexion étayée par des analyses conceptuelles, des références et des exemples pertinents. Il met en œuvre une pensée propre, déployée en un discours continu dont il prend la pleine responsabilité.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "references"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.5
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.5
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2025-metropole-remplacement",
+     "enonce": "La science doit-elle tout remettre en question ?"
+    },
+    {
+     "sujet": "philosophie-2026-amerique-nord",
+     "enonce": "« dogme » : affirmation indiscutable."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 66,
+   "section": 9,
+   "section_titre": "La science",
+   "probabilite": 0.079,
+   "texte": "Le programme de la voie technologique propose à l’étude sept notions.",
+   "deja_tombe": 0,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.75
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-metropole",
+     "enonce": "Sommes-nous responsables de l’avenir ?"
+    },
+    {
+     "sujet": "philosophie-2026-metropole",
+     "enonce": "Avons-nous la maîtrise de nos paroles ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 65,
+   "section": 8,
+   "section_titre": "Les notions",
+   "probabilite": 0.072,
+   "texte": "Le programme de la voie générale propose à l’étude dix-sept notions.",
+   "deja_tombe": 0,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.88
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.12
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2021-metropole",
+     "enonce": "Sommes-nous responsables de l’avenir ?"
+    },
+    {
+     "sujet": "philosophie-2026-metropole",
+     "enonce": "Avons-nous la maîtrise de nos paroles ?"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 64,
+   "section": 8,
+   "section_titre": "Les notions",
+   "probabilite": 0.058,
+   "texte": "Les notions retenues ne font donc l’objet d’aucune association privilégiée. Elles ne sont pas articulées à des champs de problèmes qui seraient prédéfinis ni n’appartiennent à des domaines qui indiqueraient soit une exclusivité soit une priorité de traitement. Le programme veille ainsi à n’imprimer aucune orientation doctrinale particulière ni aucune limitation arbitraire de leur traitement philosophique.",
+   "deja_tombe": 0,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "qm / x qm / elle / nous",
+     "part": 0.62
+    },
+    {
+     "facette": 0,
+     "nom": "colon / est / que / x est",
+     "part": 0.38
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "philosophie-2022-asie",
+     "enonce": "Expliquer le texte suivant :\nLa haine que les hommes portent au privilège s’augmente à mesure que les privilèges\ndeviennent plus rares et moins grands, de telle sorte qu'on dirait que les passions\ndémocratiques s'enflamm"
+    },
+    {
+     "sujet": "philosophie-2023-polynesie-remplacement",
+     "enonce": "Expliquer le texte suivant :\nLa liberté politique dans un citoyen est cette tranquillité d’esprit qui provient de\nl’opinion que chacun a de sa sûreté ; et pour qu’on ait cette liberté, il faut que le\ngouvernement soit te"
+    }
+   ],
+   "intention": null
+  }
+ ],
+ "preuve_sur_les_nouveautes": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "questions_nouvelles": 17,
+  "auc_potentiel_sur_passages_jamais_tombes": 0.754,
+  "nouvelles_couvertes_par_le_quart_retenu": 0.47,
+  "hasard": 0.25
+ },
+ "programme": [
+  {
+   "section": 10,
+   "titre": "La religion",
+   "passages": 14,
+   "proba": 0.922,
+   "potentiel": 0.992,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.957,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 79,
+     "texte": "• une séquence sur « la conscience » peut diversement et de façon non exhaustive porter sur son rapport à « l’inconscient » (dualisme âme/corps, théorie du psychisme inconscient), à « la religion » (liberté de conscience, autonomie du sentiment religieux), au « temps » (psychologie rationnelle, perception du successif), à « la justice » (la décision judiciaire, les conflits de droit), etc.",
+     "proba": 0.881,
+     "potentiel": 0.992,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.22
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane-remplacement",
+       "enonce": "Suis-je ce que mon inconscient fait de moi ?"
+      },
+      {
+       "sujet": "philosophie-2021-metropole-remplacement",
+       "enonce": "La conscience nous fait-elle connaître la vérité de ce que nous sommes ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 78,
+     "texte": "• une séquence sur « la technique » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (l’émancipation des forces de la nature), « la vérité » (la relation des sciences aux techniques), « le travail » (l’esclavage, l’organisation économique et sociale), « la justice » (les nouvelles technologies et les transformations du droit), etc.",
+     "proba": 0.864,
+     "potentiel": 0.989,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "travail"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.22
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane-remplacement",
+       "enonce": "La technique nuit-elle nécessairement à la nature ?"
+      },
+      {
+       "sujet": "philosophie-2021-asie",
+       "enonce": "Existe-t-il des techniques pour être heureux ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 77,
+     "texte": "• une séquence sur « le langage » peut diversement et de façon non exhaustive porter sur son rapport à « la liberté » (liberté d’expression et de parole), son rapport à « la raison » (la logique, l’indicible), son rapport « la nature » (les origines du langage, les langues naturelles), son rapport à « la vérité » (le mensonge, les sophismes), etc. ;",
+     "proba": 0.922,
+     "potentiel": 0.63,
+     "deja_tombe": 5,
+     "evalue_sans_etre_dit": [
+      "logique"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.22
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "L’artiste peut-il dire la vérité ?"
+      },
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Le langage trahit-il la pensée ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 7,
+   "titre": "Les perspectives",
+   "passages": 12,
+   "proba": 0.955,
+   "potentiel": 0.996,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.927,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 59,
+     "texte": "Le fait de la tradition se voit ainsi doté d’une signification normative, les problèmes qu’elle recouvre ne sont ni identifiés, ni nommés comme tels, indépendamment de la reprise et de l’actualisation qu’en effectue le professeur. C’est donc à ce dernier qu’il revient, en toute liberté et suivant la logique de son propre parcours, de faire connaître les traditions les mieux adaptées à la progressi",
+     "proba": 0.955,
+     "potentiel": 0.81,
+     "deja_tombe": 6,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "Connaître le passé est-ce préparer l’avenir ?"
+      },
+      {
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "Expliquer le texte suivant :\nOn peut entendre par liberté autre chose que la possibilité d’obtenir sans effort\nce qui plaît. Il existe une conception bien différente de la liberté, une conception\nhéroïque qui est celle d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 60,
+     "texte": "Les « perspectives » sont ainsi réputées déterminer et limiter tout à la fois les associations permises entre les notions du programme. Celui dispose donc que les professeurs sont « invités » à les prendre en compte, car elles déterminent et limitent tout à la fois les intitulés de sujet des épreuves écrites du baccalauréat.",
+     "proba": 0.543,
+     "potentiel": 0.996,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "prendre",
+      "compte"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2022-metropole",
+       "enonce": "Expliquer le texte suivant :\nPour qu’une observation puisse être qualifiée de scientifique, il faut qu’elle soit\nsusceptible d’être faite et répétée dans des circonstances qui comportent une définition\nexacte, de manière"
+      },
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Faut-il oublier le passé pour se donner un avenir ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "Ces perspectives ne s’ajoutent donc pas aux notions : elles définissent le cadre dans lequel elles peuvent donner lieu à des sujets de baccalauréat et orientent ainsi, sans le contraindre, le traitement des notions par les professeurs et leurs élèves. Elles excluent toute répartition prédéfinie des notions.",
+     "proba": 0.595,
+     "potentiel": 0.954,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "lieu",
+      "donner"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.11
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Faut-il oublier le passé pour se donner un avenir ?"
+      },
+      {
+       "sujet": "philosophie-2022-metropole",
+       "enonce": "Les pratiques artistiques transforment-elles le monde ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 12,
+   "titre": "Les repères",
+   "passages": 17,
+   "proba": 0.97,
+   "potentiel": 0.853,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.904,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 108,
+     "texte": "• La raison : quels sont les rôles de l’analyse et de la synthèse dans les processus démonstratifs ? raisonne-t-on sur des exemples ou sur des preuves ? qu’est-ce qui distingue raison théorique et raison pratique ? que sont un principe ou une fin ?",
+     "proba": 0.967,
+     "potentiel": 0.464,
+     "deja_tombe": 6,
+     "evalue_sans_etre_dit": [
+      "quels",
+      "synthese"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-amerique-nord",
+       "enonce": "De nos jours, ce n’est pas seulement dans les magasins, les marchés, les échanges,\nque les produits du travail entrent seuls en ligne de compte, et non les travaux qui les ont\nsuscités. Dans les usines modernes il en est"
+      },
+      {
+       "sujet": "philosophie-2022-amerique-nord",
+       "enonce": "Mais qu’est-ce donc qui est véritablement ? Ce qui est éternel, c’est-à-dire ce qui n’a\njamais eu de naissance, ni n’aura jamais de fin, et à quoi le temps n’apporte jamais aucune\nmutation. Car c’est chose mobile que le "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 109,
+     "texte": "• Le temps : le temps est-il absolu ou relatif ? est-il intuitif ou discursif ? idéal ou réel ? subjectif ou objectif ?",
+     "proba": 0.97,
+     "potentiel": 0.3,
+     "deja_tombe": 6,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-2",
+       "enonce": "Y a-t-il de justes inégalités ?"
+      },
+      {
+       "sujet": "philosophie-2022-centres-etrangers",
+       "enonce": "Le bonheur nous échappe-t-il inévitablement ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 107,
+     "texte": "• L’art : qu’est-ce que l’art abstrait ? y a-t-il de l’essentiel dans l’art ? l’art est-il simple intuition ? qu’est-ce qu’un idéal de l’art ? quels sont le principe et la fin de l’art ? Le goût est- il subjectif, objectif, intersubjectif ?",
+     "proba": 0.925,
+     "potentiel": 0.355,
+     "deja_tombe": 5,
+     "evalue_sans_etre_dit": [
+      "quels"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-metropole",
+       "enonce": "Discuter, est-ce renoncer à la violence ?"
+      },
+      {
+       "sujet": "philosophie-2021-metropole-remplacement",
+       "enonce": "Bien parler, est-ce bien penser ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Préambule",
+   "passages": 13,
+   "proba": 0.845,
+   "potentiel": 0.995,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.849,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 9,
+     "texte": "Dans les travaux qui lui sont demandés, l’élève :  examine ses idées et ses connaissances pour en éprouver le bien-fondé ;  circonscrit les questions qui requièrent une réflexion préalable pour recevoir une réponse ;  confronte différents points de vue sur un problème avant d’y apporter une solution appropriée ;  justifie ce qu’il affirme et ce qu’il nie en formulant des propositions construit",
+     "proba": 0.845,
+     "potentiel": 0.415,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "idees"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.48
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.14
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane-remplacement",
+       "enonce": "Expliquer le texte suivant :\nPour les hommes, l’heureuse disposition de l’âme naît de la modération du\nplaisir et de la mesure de la vie. Les manques et les excès vont fréquemment en\nempirant et produisent en l’âme de gr"
+      },
+      {
+       "sujet": "philosophie-2021-polynesie",
+       "enonce": "Il n’y a de droit de punir que fondé sur la loi positive ; c’est elle qui, en prévision\nde la transgression, a fixé une peine, destinée à menacer celui qui serait tenté, et à\njouer en lui le rôle d’un motif capable de te"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 3,
+     "texte": "Il exclut la visée encyclopédique et la recherche de l’exhaustivité : il ne s’agit ni de parcourir toutes les étapes de la construction historique de la philosophie ni d’envisager tous les problèmes philosophiques que l’on peut légitimement poser.",
+     "proba": 0.74,
+     "potentiel": 0.285,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.48
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.14
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2023-antilles-guyane-remplacement",
+       "enonce": "Quelle vérité l’artiste recherche-t-il ?"
+      },
+      {
+       "sujet": "philosophie-2024-amerique-nord",
+       "enonce": "Peut-on parler sans savoir ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 11,
+     "texte": "Il doit cependant fixer les conditions conciliant une liberté sans laquelle aucune philosophie ni aucun enseignement de la philosophie ne sont possibles, et",
+     "proba": 0.475,
+     "potentiel": 0.995,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.48
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.14
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2024-asie",
+       "enonce": "Doit-on se libérer de soi-même ?"
+      },
+      {
+       "sujet": "philosophie-2024-metropole",
+       "enonce": "L’État nous doit-il quelque chose ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "Les auteurs du programme1",
+   "passages": 17,
+   "proba": 0.912,
+   "potentiel": 0.58,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.807,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 96,
+     "texte": "forment positivement le savoir auquel s’adosse la réflexion philosophique, qui ne surgit jamais d’un fonds personnel, spontané et réfractaire à toute culture donnée, mais toujours de l’étude, du traitement et de l’interprétation des traditions auxquelles elle s’adosse.",
+     "proba": 0.633,
+     "potentiel": 0.58,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "jamais"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.06
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2023-polynesie",
+       "enonce": "Savoir rend-il malheureux ?"
+      },
+      {
+       "sujet": "philosophie-2024-polynesie",
+       "enonce": "Le savoir nous rend-il égaux ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 94,
+     "texte": "Ainsi, d’une part, l’étude suivie ou non d’œuvres ne se surajoute pas à l’étude des notions, comme si elle constituait une autre partie des programmes, par exemple destinée à la seule préparation de l’oral dit « de rattrapage » ; et symétriquement, l’étude des notions, quelles que soient ces dernières, ne peut jamais être conduite sans des références explicites et soutenues à des œuvres de philoso",
+     "proba": 0.912,
+     "potentiel": 0.088,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "jamais"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.06
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-asie",
+       "enonce": "Expliquer le texte suivant :\nOn dit volontiers : mon vouloir a été déterminé par ces mobiles, circonstances,\nexcitations et impulsions. La formule implique d'emblée1 que je me sois ici comporté de\nfaçon passive. Mais, en"
+      },
+      {
+       "sujet": "philosophie-2021-centres-etrangers",
+       "enonce": "Expliquer le texte suivant :\nUn des traits marquants de l’action humaine est qu’elle entreprend toujours du\nnouveau, ce qui ne signifie pas qu’elle puisse alors partir de rien, créer à partir du néant. On\nne peut faire p"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 95,
+     "texte": "Il en résulte que les textes ne sont pas abordés sous un angle historique et comme autant de concrétions culturelles passées, ils constituent « la matière » même de la réflexion conduite avec les élèves. S’ils ne forment ainsi pas des savoirs positifs, dispensés en tant que tels, ils",
+     "proba": 0.627,
+     "potentiel": 0.349,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "matiere"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.56
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.39
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.06
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2023-amerique-nord",
+       "enonce": "Expliquer le texte suivant :\nIl n’y a pas d’opposition entre ces deux exigences de l’action, à savoir que l’agent\nsoit libre et que le monde dans lequel il agit soit déterminé. Car ce n’est pas du même\npoint de vue et à "
+      },
+      {
+       "sujet": "philosophie-2023-antilles-guyane",
+       "enonce": "Les artistes nous rendent-ils heureux ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "Exercices et apprentissage de la réflexion philosophique",
+   "passages": 12,
+   "proba": 0.449,
+   "potentiel": 0.981,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.744,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 37,
+     "texte": "Le programme n’établit pas la liste exhaustive des exercices permettant aux élèves de maîtriser les contenus enseignés et de faire par eux-mêmes l’apprentissage de la réflexion philosophique. Il revient au professeur de leur proposer les exercices les mieux adaptés à leur formation comme à leurs progrès et d’utiliser dans la conduite de son cours diverses démarches philosophiques.",
+     "proba": 0.391,
+     "potentiel": 0.981,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "philosophiques"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2026-asie",
+       "enonce": "Expliquer le texte suivant :\nIl y a, en effet, un passage très périlleux dans la vie des peuples démocratiques.\nLorsque le goût des jouissances matérielles se développe chez un de ces\npeuples plus rapidement que les lumi"
+      },
+      {
+       "sujet": "philosophie-2026-amerique-nord",
+       "enonce": "« dogme » : affirmation indiscutable."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 38,
+     "texte": "Ce faisant, le professeur fournit des exemples du traitement des questions par les philosophes, que les élèves sont invités à s’approprier afin de progresser dans la construction et l’expression de leur pensée. Les apprentissages reposent toutefois sur deux formes majeures de composition : l’explication de texte et la dissertation.",
+     "proba": 0.405,
+     "potentiel": 0.953,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "reposent"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2026-amerique-nord",
+       "enonce": "« dogme » : affirmation indiscutable."
+      },
+      {
+       "sujet": "philosophie-2026-amerique-nord",
+       "enonce": "« prémisses » : principes."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 43,
+     "texte": "Cependant, composer une explication de texte ou une dissertation ne consiste pas à se soumettre à des règles purement formelles. Il s’agit avant tout de développer un travail philosophique personnel et instruit des connaissances acquises par l’étude des notions et des œuvres.",
+     "proba": 0.449,
+     "potentiel": 0.722,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "La vie en société menace-t-elle notre liberté ?\nExplication de texte philosophique"
+      },
+      {
+       "sujet": "philosophie-2021-zero-2",
+       "enonce": "Faut-il du temps pour devenir soi-même ?\nExplication de texte philosophique"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 8,
+   "titre": "Les notions",
+   "passages": 5,
+   "proba": 0.072,
+   "potentiel": 0.013,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.282,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 62,
+     "texte": "Le nombre et le choix des notions sont nécessairement liés aux conditions de l’enseignement de la philosophie dans les classes terminales. La cohérence et l’homogénéité de notions choisies en nombre adapté à l’horaire qui lui est dévolu assurent la limitation du programme.",
+     "proba": 0.054,
+     "potentiel": 0.013,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "nombre",
+      "conditions"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2026-polynesie-remplacement",
+       "enonce": "Expliquer le texte suivant :\nC’est dans les lois des phénomènes que consiste réellement la science, à\nlaquelle les faits proprement dits, quelque exacts et nombreux qu’ils puissent être, ne\nfournissent jamais que d’indis"
+      },
+      {
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "La nature nous impose-t-elle des devoirs ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 63,
+     "texte": "Elles permettent d’explorer les trois perspectives retenues, en étudiant les notions dans les relations essentielles qu’elles entretiennent entre elles et, ainsi, de conduire avec les élèves une authentique réflexion philosophique qui les prépare directement aux exercices qui leur seront proposés à l’examen.",
+     "proba": 0.055,
+     "potentiel": 0.009,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2026-asie",
+       "enonce": "Expliquer le texte suivant :\nIl y a, en effet, un passage très périlleux dans la vie des peuples démocratiques.\nLorsque le goût des jouissances matérielles se développe chez un de ces\npeuples plus rapidement que les lumi"
+      },
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Faut-il oublier le passé pour se donner un avenir ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 65,
+     "texte": "Le programme de la voie générale propose à l’étude dix-sept notions.",
+     "proba": 0.072,
+     "potentiel": 0.006,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.88
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-metropole",
+       "enonce": "Sommes-nous responsables de l’avenir ?"
+      },
+      {
+       "sujet": "philosophie-2026-metropole",
+       "enonce": "Avons-nous la maîtrise de nos paroles ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 5,
+   "titre": "Repères",
+   "passages": 3,
+   "proba": 0.052,
+   "potentiel": 0.018,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.275,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 34,
+     "texte": "L’examen des notions et l’étude des œuvres sont précisés et enrichis par des repères que le professeur sollicite dans la conduite de son enseignement. Explicitement formulés afin que les élèves se les approprient, les repères ne font en aucun cas l’objet d’un enseignement séparé ni ne constituent des parties de cours.",
+     "proba": 0.041,
+     "potentiel": 0.018,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2026-polynesie",
+       "enonce": "Apprend-on à faire usage de sa raison ?"
+      },
+      {
+       "sujet": "philosophie-2026-metropole",
+       "enonce": "Peut-on être heureux quand les autres ne le sont pas ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 35,
+     "texte": "Les repères prennent la forme de distinctions lexicales et conceptuelles qui, bien comprises, soutiennent la réflexion que l’élève construit pour traiter un problème. Leur caractère opératoire et leur usage ajusté à des situations déterminées d’étude et d’analyse interdisent de les réduire à des définitions figées. Les repères les plus fréquemment sollicités et les plus formateurs sont indiqués ci",
+     "proba": 0.048,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "caractere"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-antilles-guyane-remplacement",
+       "enonce": "Sans les mots, que serait la réalité ?"
+      },
+      {
+       "sujet": "philosophie-2021-polynesie-remplacement",
+       "enonce": "La méthode des mathématiciens dans la découverte et l’exposé des\nsciences – c’est-à-dire la démonstration des conclusions par définitions,\npostulats et axiomes – est la meilleure et la plus sûre pour chercher la vérité e"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 36,
+     "texte": "Absolu/relatif – Abstrait/concret – En acte/en puissance – Analyse/synthèse – Concept/image/métaphore – Contingent/nécessaire – Croire/savoir – Essentiel/accidentel – Exemple/preuve - Expliquer/comprendre – En fait/en droit – Formel/matériel – Genre/espèce/individu – Hypothèse/conséquence/conclusion – Idéal/réel – Identité/égalité/différence – Impossible/possible – Intuitif/discursif – Légal/légit",
+     "proba": 0.052,
+     "potentiel": 0.0,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "vrai",
+      "puissance",
+      "general",
+      "cause"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2023-polynesie-remplacement",
+       "enonce": "Est-il vrai que la nature fait bien les choses ?"
+      },
+      {
+       "sujet": "philosophie-2026-centres-etrangers",
+       "enonce": "Peut-on être certain d’avoir bien agi ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "Auteurs",
+   "passages": 8,
+   "proba": 0.04,
+   "potentiel": 0.026,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.25,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 26,
+     "texte": "L’étude d’œuvres de philosophes est inséparable de l’examen des notions. Au-delà de la culture qu’elle dispense, elle forme la matière même de l’enseignement de la philosophie.",
+     "proba": 0.032,
+     "potentiel": 0.026,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "matiere"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-2",
+       "enonce": "L’unanimité est-elle un critère de vérité ?"
+      },
+      {
+       "sujet": "philosophie-2025-metropole",
+       "enonce": "La vérité est-elle toujours convaincante ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 29,
+     "texte": "Elle n’est pas séparée du cours dont elle accompagne le développement selon des modalités que le professeur détermine à partir des besoins de ses élèves. L’étude suivie d’une œuvre ne signifie pas nécessairement son étude intégrale. Il convient cependant de développer",
+     "proba": 0.036,
+     "potentiel": 0.006,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "signifie",
+      "besoins"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2025-amerique-nord",
+       "enonce": "Une œuvre d’art doit-elle toujours plaire ?"
+      },
+      {
+       "sujet": "philosophie-2024-polynesie-remplacement",
+       "enonce": "L’inconscience est-elle la condition du bonheur ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 30,
+     "texte": "toujours une analyse précise d’œuvres ou de parties choisies qui présentent une ampleur suffisante, une unité et une continuité. Le professeur veille à ce que le choix de l’œuvre ou des parties qu’il retient soit propre à en favoriser la compréhension par tous les élèves.",
+     "proba": 0.036,
+     "potentiel": 0.005,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-centres-etrangers",
+       "enonce": "Existe-t-il des vérités définitives ?"
+      },
+      {
+       "sujet": "philosophie-2025-amerique-sud",
+       "enonce": "L’État nous protège-t-il des injustices ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "Perspectives",
+   "passages": 5,
+   "proba": 0.022,
+   "potentiel": 0.062,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.235,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 15,
+     "texte": "Ces perspectives ne s’ajoutent donc pas aux notions : elles définissent le cadre dans lequel elles peuvent donner lieu à des sujets de baccalauréat et orientent ainsi, sans le contraindre, le traitement des notions par les professeurs et leurs élèves. Elles excluent toute répartition prédéfinie des notions.",
+     "proba": 0.007,
+     "potentiel": 0.062,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "lequel",
+      "lieu",
+      "donner"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Faut-il oublier le passé pour se donner un avenir ?"
+      },
+      {
+       "sujet": "philosophie-2022-metropole",
+       "enonce": "Les pratiques artistiques transforment-elles le monde ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 17,
+     "texte": "Les notions retenues le sont précisément parce qu’on ne saurait réduire d’avance leur examen à une dimension unique de l’expérience humaine.",
+     "proba": 0.022,
+     "potentiel": 0.008,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "precisement",
+      "experience",
+      "parce"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2024-polynesie",
+       "enonce": "Décide-t-on d’être heureux ?"
+      },
+      {
+       "sujet": "philosophie-2024-metropole-remplacement",
+       "enonce": "Avons-nous le devoir d’être libres ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 16,
+     "texte": "Ainsi, à simple titre d’exemple, la notion de raison peut être abordée dans une réflexion sur la connaissance, mais tout aussi bien dans une perspective pratique ; l’art ou la technique peuvent donner lieu à une réflexion morale, à une interrogation sur le type de connaissance qu’ils procurent mais aussi sur leur place dans l’existence humaine et la culture.",
+     "proba": 0.009,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "connaissance",
+      "place",
+      "titre",
+      "technique",
+      "lieu",
+      "donner"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-centres-etrangers",
+       "enonce": "Tout le monde peut-il être artiste ?"
+      },
+      {
+       "sujet": "philosophie-2025-antilles-guyane-remplacement",
+       "enonce": "L’être humain est-il à sa place dans la nature ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "La science",
+   "passages": 4,
+   "proba": 0.031,
+   "potentiel": 0.021,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.233,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 24,
+     "texte": "Il faut et il suffit que, durant l’année scolaire, elles soient toutes examinées dans leurs dimensions essentielles. Communément partagées, ces notions font l’objet d’une élaboration conceptuelle mettant en évidence les problèmes que soulèvent leur définition et leur articulation entre elles. Elles peuvent être interrogées à la faveur de l’étude suivie d’une œuvre.",
+     "proba": 0.029,
+     "potentiel": 0.021,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.75
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2024-asie",
+       "enonce": "Faut-il se battre pour la vérité ?"
+      },
+      {
+       "sujet": "philosophie-2024-centres-etrangers",
+       "enonce": "Pourquoi faut-il se fier à la science ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 25,
+     "texte": "Le professeur veille toujours à souligner la complémentarité des approches dont une même notion a fait l’objet en des moments distincts de son enseignement. Si ce programme de notions veille à n’imprimer aucune orientation doctrinale particulière ni aucune limitation arbitraire du traitement philosophique des notions, il détermine et limite cependant les sujets qu’il est possible de proposer à l’e",
+     "proba": 0.031,
+     "potentiel": 0.009,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2022-asie",
+       "enonce": "Expliquer le texte suivant :\nLa haine que les hommes portent au privilège s’augmente à mesure que les privilèges\ndeviennent plus rares et moins grands, de telle sorte qu'on dirait que les passions\ndémocratiques s'enflamm"
+      },
+      {
+       "sujet": "philosophie-2023-polynesie-remplacement",
+       "enonce": "Expliquer le texte suivant :\nLa liberté politique dans un citoyen est cette tranquillité d’esprit qui provient de\nl’opinion que chacun a de sa sûreté ; et pour qu’on ait cette liberté, il faut que le\ngouvernement soit te"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 22,
+     "texte": "La présentation des notions doit être rapportée et subordonnée aux explications et aux orientations qui lui donnent sens et que ce programme énonce explicitement. Elle ne se réduit pas à une liste d’objets d’étude distincts et invite donc à ne pas traiter chaque notion comme un chapitre séparé des autres, sans toutefois imposer à l’avance au professeur une démarche philosophique dont il est seul r",
+     "proba": 0.027,
+     "potentiel": 0.007,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "seul",
+      "reduit",
+      "objets"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2022-polynesie",
+       "enonce": "Il suffit de tenir compte de la faiblesse humaine pour comprendre qu’une vie d’où la\nnotion même du travail aurait à peu près disparu serait livrée aux passions et peut-être à la\nfolie ; il n’y a pas de maîtrise de soi s"
+      },
+      {
+       "sujet": "philosophie-2022-nouvelle-caledonie",
+       "enonce": "Dépouiller autrui et augmenter ses aises aux dépens des autres, voilà qui est\ncontraire à la nature, bien plus encore que la mort, la pauvreté, la douleur, que tous les\naccidents qui peuvent arriver à notre corps ou à no"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "La science",
+   "passages": 1,
+   "proba": 0.079,
+   "potentiel": 0.002,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.205,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 66,
+     "texte": "Le programme de la voie technologique propose à l’étude sept notions.",
+     "proba": 0.079,
+     "potentiel": 0.002,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-metropole",
+       "enonce": "Sommes-nous responsables de l’avenir ?"
+      },
+      {
+       "sujet": "philosophie-2026-metropole",
+       "enonce": "Avons-nous la maîtrise de nos paroles ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 2,
+   "titre": "Notions",
+   "passages": 4,
+   "proba": 0.025,
+   "potentiel": 0.019,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.195,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 18,
+     "texte": "Le nombre et le choix des notions sont nécessairement liés aux conditions de l’enseignement de la philosophie dans les classes terminales. La cohérence et l’homogénéité de notions choisies en nombre adapté à l’horaire qui lui est dévolu assurent la limitation du programme.",
+     "proba": 0.022,
+     "potentiel": 0.019,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "nombre",
+      "conditions"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2026-polynesie-remplacement",
+       "enonce": "Expliquer le texte suivant :\nC’est dans les lois des phénomènes que consiste réellement la science, à\nlaquelle les faits proprement dits, quelque exacts et nombreux qu’ils puissent être, ne\nfournissent jamais que d’indis"
+      },
+      {
+       "sujet": "philosophie-2021-antilles-guyane",
+       "enonce": "La nature nous impose-t-elle des devoirs ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 21,
+     "texte": "Le programme propose à l’étude dix-sept notions :",
+     "proba": 0.025,
+     "potentiel": 0.003,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-centres-etrangers",
+       "enonce": "Existe-t-il des vérités définitives ?"
+      },
+      {
+       "sujet": "philosophie-2025-amerique-sud",
+       "enonce": "L’État nous protège-t-il des injustices ?"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 19,
+     "texte": "Elles permettent d’explorer les trois perspectives retenues, en étudiant les notions dans les relations essentielles qu’elles entretiennent entre elles et, ainsi, de conduire avec les élèves une authentique réflexion philosophique qui les prépare directement aux exercices qui leur seront proposés à l’examen. Les notions retenues ne font donc l’objet d’aucune association privilégiée.",
+     "proba": 0.023,
+     "potentiel": 0.004,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "colon / est / que / x est",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "qm / x qm / elle / nous",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "etre / peut x / peut / qm",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "philosophie-2021-zero-1",
+       "enonce": "Faut-il oublier le passé pour se donner un avenir ?"
+      },
+      {
+       "sujet": "philosophie-2022-metropole",
+       "enonce": "Les pratiques artistiques transforment-elles le monde ?"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  }
+ ],
+ "auto_progression": {
+  "prevision": {
+   "familles": [],
+   "modele": "ancienne",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[], \"ancienne\", false]": 0.588
+   },
+   "score_rejoue": [
+    0.572,
+    0.568,
+    0.757,
+    0.603,
+    0.588,
+    0.441
+   ],
+   "fourchette": [
+    0.16603070175438595,
+    1.0
+   ]
+  },
+  "nouveaute": {
+   "familles": [
+    "lexique_du_professeur"
+   ],
+   "modele": "arbres",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.585
+   },
+   "score_rejoue": [
+    1.095,
+    0.731,
+    0.071,
+    0.315,
+    1.088,
+    0.212
+   ],
+   "fourchette": [
+    0.0,
+    1.0
+   ]
+  }
+ },
+ "preuve_auto_progression": {
+  "prevision": {
+   "regle_sans_cette_matiere": [
+    [],
+    "ancienne",
+    false
+   ],
+   "avant_couverture": 0.41,
+   "couverture": 0.41,
+   "avant_auc": 0.837,
+   "auc": 0.837,
+   "regle_finale_couverture": 0.41,
+   "pseudo_domaines": {
+    "avant": 0.456,
+    "apres": 0.456,
+    "n": 15
+   }
+  },
+  "nouveaute": {
+   "regle_sans_cette_matiere": [
+    [
+     "lexique_du_professeur"
+    ],
+    "arbres",
+    false
+   ],
+   "avant_couverture": 0.387,
+   "couverture": 0.464,
+   "avant_auc": 0.761,
+   "auc": 0.769,
+   "regle_finale_couverture": 0.464,
+   "pseudo_domaines": {
+    "avant": 0.428,
+    "apres": 0.333,
+    "n": 15
+   }
+  },
+  "auto_jugement": {
+   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
+   "fourchette_juste": 0.852,
+   "largeur_moyenne": 0.79,
+   "taches": 643
+  }
+ }
+}
