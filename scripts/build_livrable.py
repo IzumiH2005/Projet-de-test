@@ -365,7 +365,7 @@ def main():
     qs, resume = questions()
     data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "probable": probable(), "meta": meta(), "apprendre": apprendre()}
     tpl = (ROOT / "scripts" / "livrable_template.html").read_text(encoding="utf-8")
-    html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
+    html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/").replace("\ufffd", ""))
     (OUT / "livrable.html").write_text(html, encoding="utf-8")
     print(f"[ok] {len(ex)} sujets, {len(qs)} questions -> {OUT / 'livrable.html'} ({len(html) // 1024} Ko)")
 
