@@ -349,7 +349,7 @@ def stage_judge(names):
 RULE_OUT = AP.ROOT / "output" / "meta" / "regle.json"
 DEFAULT_RULE = {"prevision": [["lexique_du_professeur"], "arbres", False],
                 "nouveaute": [["lexique_du_professeur"], "melange", True]}
-MARGE = 0.275  # élargit la fourchette annoncée ; calibrée sur 445 choix faits à l'aveugle (14 matières)
+MARGE = 0.275  # élargit la fourchette annoncée ; recalibrée sur 643 choix faits à l'aveugle (20 matières)
 
 
 # Prudence du choix : « moyenne + pire domaine » devient plus frileux à chaque domaine ajouté (le

@@ -75,10 +75,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.222,
-     "auc": 0.563,
-     "gain": -0.207,
-     "pseudo_gain": -0.237
+     "couverture": 0.333,
+     "auc": 0.538,
+     "gain": -0.098,
+     "pseudo_gain": -0.252
     },
     "juge": {
      "couverture": 0.333,
@@ -216,10 +216,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.35,
-     "auc": 0.629,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.517,
+     "auc": 0.75,
+     "gain": 0.179,
+     "pseudo_gain": 0.279
     },
     "juge": {
      "couverture": 0.35,
@@ -369,10 +369,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.312,
-     "auc": 0.482,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.286,
+     "auc": 0.574,
+     "gain": -0.016,
+     "pseudo_gain": 0.281
     },
     "juge": {
      "couverture": 0.342,
@@ -459,10 +459,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.355,
-     "auc": 0.483,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.622,
+     "auc": 0.647,
+     "gain": 0.283,
+     "pseudo_gain": -0.163
     },
     "juge": {
      "couverture": 0.655,
@@ -563,10 +563,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.435,
-     "auc": 0.701,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.463,
+     "auc": 0.707,
+     "gain": 0.028,
+     "pseudo_gain": 0.108
     },
     "juge": {
      "couverture": 0.5,
@@ -689,9 +689,9 @@
     },
     "regle": {
      "couverture": 0.0,
-     "auc": 0.331,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "auc": 0.702,
+     "gain": 0.037,
+     "pseudo_gain": 0.002
     },
     "juge": {
      "couverture": 0.0,
@@ -813,10 +813,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.167,
-     "auc": 0.545,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.833,
+     "auc": 0.858,
+     "gain": 0.698,
+     "pseudo_gain": 0.07
     },
     "juge": {
      "couverture": 0.333,
@@ -917,10 +917,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.717,
-     "auc": 0.791,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.544,
+     "auc": 0.672,
+     "gain": -0.184,
+     "pseudo_gain": -0.208
     },
     "juge": {
      "couverture": 0.661,
@@ -1028,10 +1028,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.479,
-     "auc": 0.675,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.516,
+     "auc": 0.603,
+     "gain": 0.03,
+     "pseudo_gain": -0.075
     },
     "juge": {
      "couverture": 0.653,
@@ -1146,10 +1146,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.602,
-     "auc": 0.688,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.607,
+     "auc": 0.729,
+     "gain": 0.009,
+     "pseudo_gain": 0.007
     },
     "juge": {
      "couverture": 0.649,
@@ -1264,10 +1264,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.156,
-     "auc": 0.618,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.178,
+     "auc": 0.49,
+     "gain": 0.009,
+     "pseudo_gain": 0.101
     },
     "juge": {
      "couverture": 0.267,
@@ -1382,10 +1382,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.478,
-     "auc": 0.704,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.576,
+     "auc": 0.74,
+     "gain": 0.101,
+     "pseudo_gain": 0.104
     },
     "juge": {
      "couverture": 0.682,
@@ -1493,10 +1493,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.507,
-     "auc": 0.7,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.843,
+     "auc": 0.865,
+     "gain": 0.352,
+     "pseudo_gain": 0.075
     },
     "juge": {
      "couverture": 0.676,
@@ -1618,10 +1618,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.672,
-     "auc": 0.782,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.905,
+     "auc": 0.886,
+     "gain": 0.243,
+     "pseudo_gain": 0.517
     },
     "juge": {
      "couverture": 0.946,
@@ -1708,10 +1708,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.387,
-     "auc": 0.761,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.464,
+     "auc": 0.769,
+     "gain": 0.078,
+     "pseudo_gain": -0.103
     },
     "juge": {
      "couverture": 0.554,
@@ -1861,10 +1861,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.285,
-     "auc": 0.552,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.141,
+     "auc": 0.572,
+     "gain": -0.142,
+     "pseudo_gain": -0.009
     },
     "juge": {
      "couverture": 0.289,
@@ -2000,10 +2000,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.595,
-     "auc": 0.689,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.621,
+     "auc": 0.725,
+     "gain": 0.029,
+     "pseudo_gain": 0.026
     },
     "juge": {
      "couverture": 0.635,
@@ -2151,10 +2151,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.056,
-     "auc": 0.508,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.722,
+     "auc": 0.791,
+     "gain": 0.695,
+     "pseudo_gain": 0.154
     },
     "juge": {
      "couverture": 0.5,
@@ -2275,9 +2275,9 @@
     },
     "regle": {
      "couverture": 0.75,
-     "auc": 0.726,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "auc": 0.786,
+     "gain": 0.006,
+     "pseudo_gain": 0.005
     },
     "juge": {
      "couverture": 0.5,
@@ -2385,10 +2385,10 @@
      "pseudo_gain": 0.0
     },
     "regle": {
-     "couverture": 0.531,
-     "auc": 0.68,
-     "gain": 0.0,
-     "pseudo_gain": 0.0
+     "couverture": 0.686,
+     "auc": 0.78,
+     "gain": 0.166,
+     "pseudo_gain": 0.159
     },
     "juge": {
      "couverture": 0.644,
@@ -2480,13 +2480,13 @@
     "auc_moyenne": 0.634
    },
    "regle": {
-    "gain_moyen": -0.0103,
-    "pire_matiere": -0.207,
-    "matieres_gagnees": 0,
-    "matieres_perdues": 1,
-    "pseudo_gain_moyen": -0.0118,
-    "couverture_moyenne": 0.403,
-    "auc_moyenne": 0.63
+    "gain_moyen": 0.1251,
+    "pire_matiere": -0.184,
+    "matieres_gagnees": 16,
+    "matieres_perdues": 4,
+    "pseudo_gain_moyen": 0.0539,
+    "couverture_moyenne": 0.53,
+    "auc_moyenne": 0.709
    },
    "juge": {
     "gain_moyen": 0.0982,
@@ -2649,29 +2649,33 @@
     ]
    ],
    "seuil": 0.0,
+   "prudence": "moyenne+pire",
    "critere": {
     "ancienne": 0.0,
     "regle": 0.0,
     "se_regler": 0.0
    },
-   "marge": 0.3
+   "marge": 0.275
   },
   "nouveaute": {
-   "strategie": "ancienne",
+   "strategie": "regle",
    "liste": [
     [
-     [],
-     "ancienne",
+     [
+      "lexique_du_professeur"
+     ],
+     "arbres",
      false
     ]
    ],
    "seuil": 0.0,
+   "prudence": "moyenne",
    "critere": {
     "ancienne": 0.0,
-    "regle": -0.2173,
-    "se_regler": -0.0905
+    "regle": 0.1251,
+    "se_regler": 0.0095
    },
-   "marge": 0.3
+   "marge": 0.275
   }
  },
  "auto_jugement": {
@@ -2682,9 +2686,9 @@
    "taches": 643
   },
   "regle": {
-   "marge": 0.3,
-   "fourchette_juste": 0.862,
-   "largeur_moyenne": 0.831,
+   "marge": 0.275,
+   "fourchette_juste": 0.855,
+   "largeur_moyenne": 0.79,
    "taches": 643
   },
   "juge": {

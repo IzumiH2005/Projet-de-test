@@ -396,26 +396,32 @@ Ce qu'il a fallu rendre générique, sans aucune règle propre à une matière :
   sujet. S'il garde moins de 20 % des parties, il n'a pas trouvé d'intrus et garde tout.
 
 Stade `learn` : chaque matière est traitée comme inconnue. Tout ce qui est appris (règle, juge,
-liste de réglages, seuil) l'est sur les 13 autres. Quatre stratégies sont comparées :
+liste de réglages, seuil, prudence) l'est sur les 19 autres. Méta-entraînement sur **20 matières**
+(643 tâches) : les 14 précédentes plus philosophie, français, LLCER anglais, espagnol, allemand,
+physique-chimie-maths STI2D. L'italien est écarté : 12 questions sur 4 années.
 
-| Nouveautés (passages jamais tombés) | Gain moyen | Pire matière | Gagnées / perdues |
-|---|---|---|---|
-| Ancienne méthode | 0 | 0 | — |
-| Juge appris | +0,049 | −0,215 | 8 / 6 |
-| Se régler soi-même (liste apprise + choix sur ses propres années) | **+0,100** | −0,096 | 9 / 2 |
-| **Règle unique (retenue)** | +0,067 | **−0,018** | **10 / 2** |
+| Nouveautés (passages jamais tombés), matière exclue | Couverture | AUC | Gagnées / perdues | Pire matière |
+|---|---|---|---|---|
+| Ancienne méthode | 41 % | 0,63 | — | — |
+| Juge appris | 51 % | 0,66 | 14 / 5 | −0,255 |
+| Se régler soi-même | 42 % | 0,64 | 4 / 3 | −0,100 |
+| **Règle unique, prudence apprise (retenue)** | **53 %** | **0,71** | **16 / 4** | −0,184 |
 
-- **Nouveautés** : la couverture moyenne passe de 40 % à 47 %. La règle retenue est « voisinage
-  + mélange ». Se régler soi-même gagne plus en moyenne (50 %), mais peut perdre beaucoup sur une
-  matière. Le critère « moyenne + pire matière » préfère donc la règle.
-- **Prévision** : sur 14 matières, aucun réglage ne bat l'ancienne méthode de façon fiable. Le
-  gain vu sur 3 matières (lexique + arbres) venait de leurs particularités. Le méta-entraînement
-  le détecte et garde l'ancienne méthode.
-- Le **juge appris** reste le moins sûr, même avec 13 matières d'entraînement : il apprend des
-  matières, pas une manière de faire.
-- **Auto-jugement** : avec l'ancienne marge (0,15), la fourchette annoncée ne contenait le vrai
-  résultat que dans 73 % des 445 tâches. Recalibrée sur les choix faits à l'aveugle (marge
-  0,275), elle le contient dans 85 % des cas.
+- **Prudence apprise.** L'ancien critère « moyenne + pire domaine » se durcit à chaque domaine
+  ajouté : le pire de 120 domaines est presque toujours mauvais. À 20 matières, il ne retenait plus
+  aucune règle (couverture retombée à 41 %). Le degré de prudence (pire, quantile 10 %, quantile
+  25 %, moyenne) est désormais choisi par validation emboîtée : pour chaque matière testée, il est
+  choisi sur les autres seulement. Il retient « moyenne » pour les nouveautés et garde le plus
+  prudent pour la prévision.
+- La règle retenue n'est plus « voisinage + mélange » (14 matières) mais « lexique du professeur
+  + arbres ». Avec plus de matières, la règle change : c'est le but du méta-entraînement.
+- **Prévision** : sur 20 matières, aucun réglage ne bat l'ancienne méthode (couverture 50 %,
+  AUC 0,78). Le moteur garde l'ancienne méthode.
+- **Auto-jugement** : la fourchette annoncée contient le vrai résultat dans 85 % des 643 tâches,
+  mais elle est large (0,79 en moyenne) : elle informe peu.
+- **Contrôle** : les caches ont été effacés et tout a été recalculé à froid. Sur les 14 anciennes
+  matières, on retrouve exactement l'ancien résultat (40 % → 47 %). L'écart vient donc des
+  nouvelles matières, pas des caches.
 
 `apply()` relit `output/meta/apprendre.json` (stratégie adoptée par objectif) et peut choisir
 seul dans une liste si un futur méta-entraînement la retient.
@@ -423,8 +429,8 @@ seul dans une liste si un futur méta-entraînement la retient.
 ```bash
 scripts/fetch_matieres.sh && scripts/fetch_programmes.sh   # annales + programmes -> data/
 python -m examgen.meta.transfer tasks ses                  # une matière par processus
-python -m examgen.meta.transfer learn sss management cbph i2d hggsp hlp ses droit eco svt si nsi physique maths
-python -m examgen.meta.transfer rule  sss management cbph i2d hggsp hlp ses droit eco svt si nsi physique maths
+python -m examgen.meta.transfer learn sss management cbph i2d hggsp hlp ses droit eco svt si nsi physique maths philo francais anglais espagnol allemand pcm
+python -m examgen.meta.transfer rule  sss management cbph i2d hggsp hlp ses droit eco svt si nsi physique maths philo francais anglais espagnol allemand pcm
 ```
 
 `forecast.run` applique cette règle à la vraie prévision de l'année suivante, sans réglage par matière.
