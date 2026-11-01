@@ -352,8 +352,18 @@ DEFAULT_RULE = {"prevision": [["lexique_du_professeur"], "arbres", False],
 MARGE = 0.275  # élargit la fourchette annoncée ; calibrée sur 445 choix faits à l'aveugle (14 matières)
 
 
-def select_rule(tasks, obj):
-    """Le candidat dont le gain sur l'ancienne méthode est bon en moyenne ET dans le pire domaine."""
+# Prudence du choix : « moyenne + pire domaine » devient plus frileux à chaque domaine ajouté (le
+# minimum de 120 domaines est presque toujours mauvais). Le degré de prudence est donc lui aussi
+# appris : celui dont la règle marche le mieux sur des matières laissées de côté (ordre = du plus
+# prudent au moins prudent ; à égalité, le plus prudent).
+AGGS = {"moyenne+pire": lambda g: g.mean() + g.min(),
+        "moyenne+q10": lambda g: g.mean() + np.quantile(g, 0.10),
+        "moyenne+q25": lambda g: g.mean() + np.quantile(g, 0.25),
+        "moyenne": lambda g: g.mean()}
+
+
+def _gains(tasks, obj):
+    """Candidat -> domaine -> gains de score sur l'ancienne méthode."""
     rows = {}
     for t in tasks:
         if t["objectif"] != obj:
@@ -362,9 +372,38 @@ def select_rule(tasks, obj):
         dom = (t["matiere"], t["domaine"] == "complet")
         for r in t["candidats"]:
             rows.setdefault(json.dumps(r["c"]), {}).setdefault(dom, []).append(r["score"] - ref["score"])
+    return rows
+
+
+def _select(tasks, obj, agg):
+    rows = _gains(tasks, obj)
     doms = set.intersection(*[set(d) for d in rows.values()])
-    crit = {k: np.mean([np.mean(d[x]) for x in doms]) + min(np.mean(d[x]) for x in doms) for k, d in rows.items()}
+    crit = {k: AGGS[agg](np.array([np.mean(d[x]) for x in doms])) for k, d in rows.items()}
     return json.loads(max(crit, key=crit.get))
+
+
+def _held_out(tasks, obj, agg):
+    """Gain de score de la règle sur chaque matière, choisie sans elle (domaine complet)."""
+    subs = sorted({t["matiere"] for t in tasks})
+    out = []
+    for n in subs:
+        c = _select([t for t in tasks if t["matiere"] != n], obj, agg)
+        T = [t for t in tasks if t["matiere"] == n and t["domaine"] == "complet" and t["objectif"] == obj]
+        if T:
+            out.append(np.mean([next(x for x in t["candidats"] if x["c"] == c)["score"] - _ref(t)["score"] for t in T]))
+    return np.array(out)
+
+
+def choose_agg(tasks, obj):
+    if len({t["matiere"] for t in tasks}) < 4:
+        return "moyenne+pire"
+    sc = {a: round(float(_held_out(tasks, obj, a).mean()), 4) for a in AGGS}
+    return max(AGGS, key=lambda a: sc[a])  # max garde le premier à égalité : le plus prudent
+
+
+def select_rule(tasks, obj):
+    """La règle, avec le degré de prudence qui généralise le mieux d'une matière à l'autre."""
+    return _select(tasks, obj, choose_agg(tasks, obj))
 
 
 def fourchette(interne, interne_min, marge=MARGE):
@@ -541,7 +580,7 @@ def stage_learn(names):
                 jsel.append(keys.index(json.dumps(c)))
             ri = np.arange(len(te))
             sel = {"ancienne": np.full(len(te), keys.index(json.dumps(_ref(te[0])["c"]))),
-                   "regle": np.full(len(te), _first(Mtr)), "juge": np.array(jsel),
+                   "regle": np.full(len(te), keys.index(json.dumps(select_rule(Ttr, obj)))), "juge": np.array(jsel),
                    "se_regler": Mte.pick(sh, pol["seuil"])}
             full = np.array([t["domaine"] == "complet" for t in te])
             for m, s_ in sel.items():
@@ -571,12 +610,14 @@ def stage_learn(names):
     # (le juge, trop dépendant des matières vues, n'est retenu que comme témoin)
     rep["adoptee"] = {}
     for obj in OBJ:
-        crit = {m: summ[obj][m]["gain_moyen"] + summ[obj][m]["pire_matiere"] for m in ("ancienne", "regle", "se_regler")}
+        agg = choose_agg(every, obj)  # même prudence que celle apprise pour la règle
+        gm = lambda m: np.array([rep["matieres"][n][obj][m]["gain"] for n in names])
+        crit = {m: float(AGGS[agg](gm(m))) for m in ("ancienne", "regle", "se_regler")}
         win = max(crit, key=lambda m: (round(crit[m], 4), m == "regle"))
         pf = rep["politique_finale"][obj]
         liste = {"ancienne": [[[], "ancienne", False]], "regle": [select_rule(every, obj)], "se_regler": pf["liste"]}[win]
         rep["adoptee"][obj] = {"strategie": win, "liste": liste, "seuil": pf["seuil"] if win == "se_regler" else 0.0,
-                               "critere": {m: round(v, 4) for m, v in crit.items()}}
+                               "prudence": agg, "critere": {m: round(v, 4) for m, v in crit.items()}}
     # auto-jugement : la plus petite marge dont la fourchette contient le vrai résultat ≥ 85 % du temps
     rep["auto_jugement"] = {}
     for m in meth:
