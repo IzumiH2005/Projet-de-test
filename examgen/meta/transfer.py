@@ -418,14 +418,14 @@ class _M:
         ix = {k: j for j, k in enumerate(self.keys)}
         n, c = len(tasks), len(self.keys)
         self.G, self.I = np.zeros((n, c)), np.full((n, c), -np.inf)
-        self.C, self.A = np.zeros((n, c)), np.zeros((n, c))
+        self.C, self.A, self.Im = np.zeros((n, c)), np.zeros((n, c)), np.zeros((n, c))
         for i, t in enumerate(tasks):
             ref = _ref(t)
             self.C[i], self.A[i] = ref["couverture"], ref["auc"]
             for r in t["candidats"]:
                 j = ix[json.dumps(r["c"])]
                 self.G[i, j], self.I[i, j] = r["score"] - ref["score"], r["interne"]
-                self.C[i, j], self.A[i, j] = r["couverture"], r["auc"]
+                self.C[i, j], self.A[i, j], self.Im[i, j] = r["couverture"], r["auc"], r["interne_min"]
         doms = sorted({_dom(t) for t in tasks})
         self.d = np.array([doms.index(_dom(t)) for t in tasks])
         self.nd = len(doms)
@@ -506,6 +506,7 @@ def stage_learn(names):
     meth = ("ancienne", "regle", "juge", "se_regler")
     rep = {"principe": "Chaque matière est traitée comme un domaine inconnu : tout ce qui est appris "
                        "(règle, juge, liste de réglages, seuil) l'est sans elle.", "matieres": {}}
+    blind = {m: [] for m in meth}  # (interne, interne_min, vraie couverture) des choix faits à l'aveugle
     for n in names:
         tr = [t for t in every if t["matiere"] != n]
         J = fit_judge(tr)
@@ -530,6 +531,8 @@ def stage_learn(names):
                    "regle": np.full(len(te), _first(Mtr)), "juge": np.array(jsel),
                    "se_regler": Mte.pick(sh, pol["seuil"])}
             full = np.array([t["domaine"] == "complet" for t in te])
+            for m, s_ in sel.items():
+                blind[m] += list(zip(Mte.I[ri, s_], Mte.Im[ri, s_], Mte.C[ri, s_]))
             f = lambda v: round(float(np.mean(v)), 3) if len(v) else None
             res[obj] = {m: {"couverture": f(Mte.C[ri, s][full]), "auc": f(Mte.A[ri, s][full]),
                             "gain": f(Mte.G[ri, s][full]), "pseudo_gain": f(Mte.G[ri, s][~full])}
@@ -561,9 +564,22 @@ def stage_learn(names):
         liste = {"ancienne": [[[], "ancienne", False]], "regle": [select_rule(every, obj)], "se_regler": pf["liste"]}[win]
         rep["adoptee"][obj] = {"strategie": win, "liste": liste, "seuil": pf["seuil"] if win == "se_regler" else 0.0,
                                "critere": {m: round(v, 4) for m, v in crit.items()}}
+    # auto-jugement : la plus petite marge dont la fourchette contient le vrai résultat ≥ 85 % du temps
+    rep["auto_jugement"] = {}
+    for m in meth:
+        b = np.array(blind[m])
+        cal = {}
+        for mg in np.arange(0.0, 0.41, 0.025):
+            lo, hi = np.maximum(0, b[:, 1] - mg), np.minimum(1, 2 * b[:, 0] - b[:, 1] + mg)
+            cal[round(float(mg), 3)] = (float(np.mean((lo <= b[:, 2]) & (b[:, 2] <= hi))), float(np.mean(hi - lo)))
+        mg = min([k for k, v in cal.items() if v[0] >= 0.85] or [max(cal)])
+        rep["auto_jugement"][m] = {"marge": mg, "fourchette_juste": round(cal[mg][0], 3),
+                                   "largeur_moyenne": round(cal[mg][1], 3), "taches": len(b)}
+    for obj in OBJ:
+        rep["adoptee"][obj]["marge"] = rep["auto_jugement"][rep["adoptee"][obj]["strategie"]]["marge"]
     rep["appris_sur"] = names
     LEARN_OUT.write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
-    print(json.dumps({"synthese": summ, "adoptee": rep["adoptee"], "politique_finale": {o: {k: v for k, v in p.items() if k != "grille"}
+    print(json.dumps({"synthese": summ, "adoptee": rep["adoptee"], "auto_jugement": rep["auto_jugement"], "politique_finale": {o: {k: v for k, v in p.items() if k != "grille"}
                                                               for o, p in rep["politique_finale"].items()}},
                      ensure_ascii=False, indent=1))
 
@@ -599,7 +615,7 @@ def apply(fc, log=print) -> dict:
         else:
             c, ins = liste[0], []
         gs, m, mix = c
-        f = fourchette(float(np.mean(ins)), float(np.min(ins))) if ins else None
+        f = fourchette(float(np.mean(ins)), float(np.min(ins)), pol.get(obj, {}).get("marge", MARGE)) if ins else None
         out[obj] = {"familles": gs, "modele": m, "mele_a_l_ancienne": mix,
                     "essayes": {k: round(float(np.mean(v)), 3) for k, v in rej.items()},
                     "score_rejoue": [round(v, 3) for v in ins], "fourchette": f,

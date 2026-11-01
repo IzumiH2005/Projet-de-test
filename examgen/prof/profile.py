@@ -199,6 +199,8 @@ class Teacher:
             for k, ok in zip(keys, keep):
                 vote[tkey(k)].append(ok)
             keep = np.array([np.mean(vote[tkey(k)]) > 0.5 if len(vote[tkey(k)]) >= 3 else ok for k, ok in zip(keys, keep)])
+            if keep.mean() < 0.2:  # presque tout « hors cours » : le mélange n'a pas isolé d'intrus, on garde tout
+                keep = np.ones(len(keys), bool)
         self.keep_idx = [i for k, ok in zip(keys, keep) if ok for i in parts[k]]
         self.parts = {k: parts[k] for k, ok in zip(keys, keep) if ok}
         dropped = Counter(k[1] for k, ok in zip(keys, keep) if not ok)
