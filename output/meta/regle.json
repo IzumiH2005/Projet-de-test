@@ -2,123 +2,88 @@
  "principe": "Une seule règle pour tous les domaines, choisie pour marcher partout ; chaque matière est testée avec la règle choisie sans elle.",
  "regle": {
   "prevision": [
-   [
-    "lexique_du_professeur"
-   ],
-   "arbres",
+   [],
+   "ancienne",
    false
   ],
   "nouveaute": [
    [
-    "lexique_du_professeur"
+    "voisinage"
    ],
    "melange",
-   true
+   false
   ]
  },
  "appris_sur": [
+  "sss",
+  "management",
+  "cbph",
+  "i2d",
+  "hggsp",
+  "hlp",
+  "ses",
   "droit",
+  "eco",
+  "svt",
+  "si",
   "nsi",
-  "eco"
+  "physique",
+  "maths"
  ],
  "matieres": {
-  "droit": {
+  "sss": {
    "prevision": {
     "regle_sans_cette_matiere": [
-     [
-      "memoire_ponderee"
-     ],
-     "melange",
-     true
+     [],
+     "ancienne",
+     false
     ],
-    "avant_couverture": 0.297,
-    "couverture": 0.428,
-    "avant_auc": 0.761,
-    "auc": 0.814,
-    "regle_finale_couverture": 0.492,
+    "avant_couverture": 0.192,
+    "couverture": 0.192,
+    "avant_auc": 0.674,
+    "auc": 0.674,
+    "regle_finale_couverture": 0.192,
     "pseudo_domaines": {
-     "avant": 0.412,
-     "apres": 0.478,
+     "avant": 0.147,
+     "apres": 0.147,
      "n": 14
     }
    },
    "nouveaute": {
     "regle_sans_cette_matiere": [
      [
-      "lexique_du_professeur"
+      "proximite_au_deja_demande"
      ],
-     "melange",
+     "logistique",
      true
     ],
-    "avant_couverture": 0.796,
-    "couverture": 0.796,
-    "avant_auc": 0.835,
-    "auc": 0.838,
-    "regle_finale_couverture": 0.796,
+    "avant_couverture": 0.422,
+    "couverture": 0.478,
+    "avant_auc": 0.628,
+    "auc": 0.605,
+    "regle_finale_couverture": 0.589,
     "pseudo_domaines": {
-     "avant": 0.635,
-     "apres": 0.685,
+     "avant": 0.596,
+     "apres": 0.59,
      "n": 14
     }
    }
   },
-  "nsi": {
+  "management": {
    "prevision": {
     "regle_sans_cette_matiere": [
-     [
-      "lexique_du_professeur"
-     ],
-     "arbres",
+     [],
+     "ancienne",
      false
     ],
-    "avant_couverture": 0.719,
-    "couverture": 0.754,
-    "avant_auc": 0.8,
-    "auc": 0.824,
-    "regle_finale_couverture": 0.754,
+    "avant_couverture": 0.4,
+    "couverture": 0.4,
+    "avant_auc": 0.642,
+    "auc": 0.642,
+    "regle_finale_couverture": 0.4,
     "pseudo_domaines": {
-     "avant": 0.676,
-     "apres": 0.667,
-     "n": 15
-    }
-   },
-   "nouveaute": {
-    "regle_sans_cette_matiere": [
-     [
-      "lexique_du_professeur"
-     ],
-     "melange",
-     true
-    ],
-    "avant_couverture": 0.48,
-    "couverture": 0.639,
-    "avant_auc": 0.624,
-    "auc": 0.73,
-    "regle_finale_couverture": 0.639,
-    "pseudo_domaines": {
-     "avant": 0.529,
-     "apres": 0.649,
-     "n": 15
-    }
-   }
-  },
-  "eco": {
-   "prevision": {
-    "regle_sans_cette_matiere": [
-     [
-      "lexique_du_professeur"
-     ],
-     "melange",
-     false
-    ],
-    "avant_couverture": 0.254,
-    "couverture": 0.189,
-    "avant_auc": 0.729,
-    "auc": 0.763,
-    "regle_finale_couverture": 0.278,
-    "pseudo_domaines": {
-     "avant": 0.234,
-     "apres": 0.274,
+     "avant": 0.536,
+     "apres": 0.536,
      "n": 15
     }
    },
@@ -127,26 +92,478 @@
      [
       "voisinage"
      ],
-     "arbres",
-     true
+     "melange",
+     false
     ],
-    "avant_couverture": 0.411,
-    "couverture": 0.668,
-    "avant_auc": 0.689,
-    "auc": 0.779,
-    "regle_finale_couverture": 0.698,
+    "avant_couverture": 0.35,
+    "couverture": 0.45,
+    "avant_auc": 0.629,
+    "auc": 0.682,
+    "regle_finale_couverture": 0.45,
+    "pseudo_domaines": {
+     "avant": 0.359,
+     "apres": 0.601,
+     "n": 15
+    }
+   }
+  },
+  "cbph": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.562,
+    "couverture": 0.562,
+    "avant_auc": 0.768,
+    "auc": 0.768,
+    "regle_finale_couverture": 0.562,
+    "pseudo_domaines": {
+     "avant": 0.408,
+     "apres": 0.408,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.312,
+    "couverture": 0.342,
+    "avant_auc": 0.482,
+    "auc": 0.518,
+    "regle_finale_couverture": 0.342,
+    "pseudo_domaines": {
+     "avant": 0.225,
+     "apres": 0.478,
+     "n": 12
+    }
+   }
+  },
+  "i2d": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.4,
+    "couverture": 0.4,
+    "avant_auc": 0.666,
+    "auc": 0.666,
+    "regle_finale_couverture": 0.4,
+    "pseudo_domaines": {
+     "avant": 0.262,
+     "apres": 0.262,
+     "n": 14
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.355,
+    "couverture": 0.355,
+    "avant_auc": 0.483,
+    "auc": 0.623,
+    "regle_finale_couverture": 0.355,
+    "pseudo_domaines": {
+     "avant": 0.492,
+     "apres": 0.423,
+     "n": 12
+    }
+   }
+  },
+  "hggsp": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.369,
+    "couverture": 0.369,
+    "avant_auc": 0.731,
+    "auc": 0.731,
+    "regle_finale_couverture": 0.369,
+    "pseudo_domaines": {
+     "avant": 0.341,
+     "apres": 0.341,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.435,
+    "couverture": 0.444,
+    "avant_auc": 0.701,
+    "auc": 0.737,
+    "regle_finale_couverture": 0.444,
+    "pseudo_domaines": {
+     "avant": 0.399,
+     "apres": 0.543,
+     "n": 15
+    }
+   }
+  },
+  "hlp": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.6,
+    "couverture": 0.6,
+    "avant_auc": 0.901,
+    "auc": 0.901,
+    "regle_finale_couverture": 0.6,
+    "pseudo_domaines": {
+     "avant": 0.743,
+     "apres": 0.743,
+     "n": 7
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.0,
+    "couverture": 0.0,
+    "avant_auc": 0.331,
+    "auc": 0.149,
+    "regle_finale_couverture": 0.0,
+    "pseudo_domaines": {
+     "avant": 0.0,
+     "apres": 0.0,
+     "n": 2
+    }
+   }
+  },
+  "ses": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.355,
+    "couverture": 0.355,
+    "avant_auc": 0.862,
+    "auc": 0.862,
+    "regle_finale_couverture": 0.355,
+    "pseudo_domaines": {
+     "avant": 0.375,
+     "apres": 0.375,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.167,
+    "couverture": 0.167,
+    "avant_auc": 0.545,
+    "auc": 0.545,
+    "regle_finale_couverture": 0.667,
+    "pseudo_domaines": {
+     "avant": 0.574,
+     "apres": 0.685,
+     "n": 9
+    }
+   }
+  },
+  "droit": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.582,
+    "couverture": 0.582,
+    "avant_auc": 0.812,
+    "auc": 0.812,
+    "regle_finale_couverture": 0.582,
+    "pseudo_domaines": {
+     "avant": 0.494,
+     "apres": 0.494,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.717,
+    "couverture": 0.717,
+    "avant_auc": 0.791,
+    "auc": 0.722,
+    "regle_finale_couverture": 0.717,
+    "pseudo_domaines": {
+     "avant": 0.544,
+     "apres": 0.438,
+     "n": 15
+    }
+   }
+  },
+  "eco": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.505,
+    "couverture": 0.505,
+    "avant_auc": 0.722,
+    "auc": 0.722,
+    "regle_finale_couverture": 0.505,
+    "pseudo_domaines": {
+     "avant": 0.513,
+     "apres": 0.513,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.479,
+    "couverture": 0.632,
+    "avant_auc": 0.675,
+    "auc": 0.668,
+    "regle_finale_couverture": 0.632,
+    "pseudo_domaines": {
+     "avant": 0.379,
+     "apres": 0.544,
+     "n": 15
+    }
+   }
+  },
+  "svt": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.438,
+    "couverture": 0.438,
+    "avant_auc": 0.766,
+    "auc": 0.766,
+    "regle_finale_couverture": 0.438,
+    "pseudo_domaines": {
+     "avant": 0.315,
+     "apres": 0.315,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.602,
+    "couverture": 0.655,
+    "avant_auc": 0.688,
+    "auc": 0.714,
+    "regle_finale_couverture": 0.655,
+    "pseudo_domaines": {
+     "avant": 0.484,
+     "apres": 0.564,
+     "n": 15
+    }
+   }
+  },
+  "si": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.488,
+    "couverture": 0.488,
+    "avant_auc": 0.662,
+    "auc": 0.662,
+    "regle_finale_couverture": 0.488,
+    "pseudo_domaines": {
+     "avant": 0.445,
+     "apres": 0.445,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.156,
+    "couverture": 0.222,
+    "avant_auc": 0.618,
+    "auc": 0.55,
+    "regle_finale_couverture": 0.222,
+    "pseudo_domaines": {
+     "avant": 0.007,
+     "apres": 0.133,
+     "n": 10
+    }
+   }
+  },
+  "nsi": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.752,
+    "couverture": 0.752,
+    "avant_auc": 0.795,
+    "auc": 0.795,
+    "regle_finale_couverture": 0.752,
+    "pseudo_domaines": {
+     "avant": 0.735,
+     "apres": 0.735,
+     "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.478,
+    "couverture": 0.588,
+    "avant_auc": 0.704,
+    "auc": 0.733,
+    "regle_finale_couverture": 0.588,
+    "pseudo_domaines": {
+     "avant": 0.486,
+     "apres": 0.528,
+     "n": 15
+    }
+   }
+  },
+  "physique": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.579,
+    "couverture": 0.579,
+    "avant_auc": 0.869,
+    "auc": 0.869,
+    "regle_finale_couverture": 0.579,
     "pseudo_domaines": {
      "avant": 0.543,
-     "apres": 0.64,
+     "apres": 0.543,
      "n": 15
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    "avant_couverture": 0.507,
+    "couverture": 0.857,
+    "avant_auc": 0.7,
+    "auc": 0.862,
+    "regle_finale_couverture": 0.857,
+    "pseudo_domaines": {
+     "avant": 0.535,
+     "apres": 0.628,
+     "n": 13
+    }
+   }
+  },
+  "maths": {
+   "prevision": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.54,
+    "couverture": 0.54,
+    "avant_auc": 0.909,
+    "auc": 0.909,
+    "regle_finale_couverture": 0.54,
+    "pseudo_domaines": {
+     "avant": 0.475,
+     "apres": 0.475,
+     "n": 10
+    }
+   },
+   "nouveaute": {
+    "regle_sans_cette_matiere": [
+     [],
+     "ancienne",
+     false
+    ],
+    "avant_couverture": 0.672,
+    "couverture": 0.672,
+    "avant_auc": 0.782,
+    "auc": 0.782,
+    "regle_finale_couverture": 0.946,
+    "pseudo_domaines": {
+     "avant": 0.429,
+     "apres": 0.936,
+     "n": 10
     }
    }
   }
  },
  "auto_jugement": {
   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
-  "fourchette_juste": 0.858,
-  "largeur_moyenne": 0.654,
-  "taches": 106
+  "fourchette_juste": 0.733,
+  "largeur_moyenne": 0.652,
+  "taches": 445
  }
 }
