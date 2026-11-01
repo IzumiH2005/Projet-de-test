@@ -49,7 +49,8 @@ from sklearn.ensemble import HistGradientBoostingRegressor, IsolationForest
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.inspection import permutation_importance
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import f1_score, roc_auc_score, silhouette_score
+from sklearn.metrics import f1_score, silhouette_score
+from .fast import auc as roc_auc_score
 from sklearn.mixture import GaussianMixture
 from sklearn.model_selection import GroupKFold, cross_val_predict
 from sklearn.pipeline import make_pipeline

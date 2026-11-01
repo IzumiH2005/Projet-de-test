@@ -33,7 +33,7 @@ from pathlib import Path
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from ..fast import auc as roc_auc_score
 from sklearn.mixture import GaussianMixture
 from sklearn.preprocessing import StandardScaler
 
@@ -115,14 +115,17 @@ class Teacher:
         pairs = D.pair_files(Path(sujets_dir))
         self.n_files = len(pairs)
         raw_corr = {}
+        texts = D.read_many([f for _, s, c in pairs for f in (s, c) if f])
         for key, s, c in pairs:
-            qs = D.parse_exam(D.read_text(s), key)
+            qs = D.parse_exam(texts[Path(s)], key)
             self.qs += qs
             if c:
-                raw_corr[key] = D.read_text(c)
+                raw_corr[key] = texts[Path(c)]
         self.ref_ids = RefModel(self.sections)
         self._fit_vectorizer()
-        sim = lambda a, b: float((self.vec.transform([a]) @ self.vec.transform([b]).T).toarray()[0, 0])
+        memo = {}
+        vec = lambda a: memo[a] if a in memo else memo.setdefault(a, self.vec.transform([a]))
+        sim = lambda a, b: float((vec(a) @ vec(b).T).toarray()[0, 0])
         for key, txt in raw_corr.items():
             idx = [i for i, q in enumerate(self.qs) if q.exam == key]
             res = D.parse_correction(txt, [self.qs[i] for i in idx], sim)

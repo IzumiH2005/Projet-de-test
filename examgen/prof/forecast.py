@@ -23,7 +23,7 @@ from pathlib import Path
 
 import joblib
 import numpy as np
-from sklearn.metrics import roc_auc_score
+from ..fast import auc as roc_auc_score
 
 from ..meta import align as A, loop as LP, selftrain as ST
 from ..meta.domain import eval_labels, load
@@ -38,15 +38,15 @@ EXTRA = ["section_tombee_l_an_dernier", "annees_depuis_la_section", "passage_tom
 def reading(name: str, log=print):
     """Lecture complète des anciens sujets (mise en cache : c'est la partie longue)."""
     cache = ROOT / "data" / "cache" / f"lecture_{name}.joblib"
-    t = load(name)
     if cache.exists():
-        S, loop_rep = joblib.load(cache)
+        t, S, loop_rep = joblib.load(cache)  # t compris : le réglage choisi le modifie
     else:
+        t = load(name)
         meta = json.loads((ROOT / "data" / "model" / "meta.json").read_text())
         cfg, w, _ = A.self_tune(t, meta["poids"])
         S, _ = ST.improve(t, A.combine(A.views(t, cfg), w))
         S, _, loop_rep = LP.run(t, S, gens=2, log=log)
-        joblib.dump((S, loop_rep), cache)
+        joblib.dump((t, S, loop_rep), cache)
     t.rep = getattr(t, "rep", {})
     for q, s in zip(t.Q, S.argmax(1)):
         q.sec = int(s)

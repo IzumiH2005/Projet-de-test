@@ -21,7 +21,8 @@ from scipy.stats import spearmanr
 from sklearn.decomposition import NMF
 from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics import roc_auc_score
+from ..fast import auc as roc_auc_score
+from ..fast import pmap
 
 from . import align as A, deep as DP, selftrain as ST
 from .intent import Intent
@@ -74,7 +75,7 @@ def testability(X, y, g, nm, T, tnames, n_pass) -> dict:
     years = [k for k in np.unique(g) if len(set(y[g == k])) > 1]
     per = {f: [] for f in FAMILIES}
     chosen, auc_chosen, prob = [], [], np.zeros(len(y))
-    for k in np.unique(g):
+    def one(k):  # une année testée : indépendante des autres
         tr, te = g != k, g == k
         inner = {}
         for f in FAMILIES:
@@ -84,7 +85,11 @@ def testability(X, y, g, nm, T, tnames, n_pass) -> dict:
                 sc.append(roc_auc_score(y[ite], _fit_pred(f, X, Xf, y, itr, ite)))
             inner[f] = np.mean(sc)
         best = max(inner, key=inner.get)
-        p = {f: _fit_pred(f, X, Xf, y, tr, te) for f in FAMILIES}
+        return best, {f: _fit_pred(f, X, Xf, y, tr, te) for f in FAMILIES}
+
+    ks = list(np.unique(g))
+    for k, (best, p) in zip(ks, pmap(one, ks)):
+        te = g == k
         prob[te] = p[best]
         if k in years:
             for f in FAMILIES:

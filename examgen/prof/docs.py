@@ -6,6 +6,7 @@ sont typographiques (une question commence par « 1. », « 2) », « Question 3
 """
 from __future__ import annotations
 
+import os
 import re
 import subprocess
 import unicodedata
@@ -17,10 +18,37 @@ CORR = re.compile(r"(corrig|correction|bareme|barème|solution)", re.I)
 YEAR = re.compile(r"(?<!\d)(19[89]\d|20[0-4]\d)(?!\d)")
 
 
+TEXT_CACHE = Path(__file__).resolve().parents[2] / "data" / "cache" / "textes"
+
+
 def read_text(path: Path) -> str:
-    if path.suffix.lower() == ".pdf":
-        return subprocess.run(["pdftotext", str(path), "-"], capture_output=True, text=True).stdout
-    return path.read_text(encoding="utf-8", errors="ignore")
+    """Texte d'un fichier. Un PDF déjà lu (même contenu, où qu'il soit) n'est pas relu."""
+    path = Path(path)
+    if path.suffix.lower() != ".pdf":
+        return path.read_text(encoding="utf-8", errors="ignore")
+    import hashlib
+    f = TEXT_CACHE / (hashlib.sha1(path.read_bytes()).hexdigest() + ".txt")
+    try:
+        return f.read_text(encoding="utf-8")
+    except OSError:
+        pass
+    txt = subprocess.run(["pdftotext", str(path), "-"], capture_output=True, text=True).stdout
+    try:
+        TEXT_CACHE.mkdir(parents=True, exist_ok=True)
+        tmp = f.with_suffix(f".{os.getpid()}.tmp")
+        tmp.write_text(txt, encoding="utf-8")
+        tmp.replace(f)
+    except OSError:
+        pass
+    return txt
+
+
+def read_many(paths) -> dict:
+    """Lit plusieurs fichiers en parallèle (pdftotext tourne hors de Python)."""
+    from concurrent.futures import ThreadPoolExecutor
+    paths = list(dict.fromkeys(Path(p) for p in paths))
+    with ThreadPoolExecutor(max(1, min(8, len(paths)))) as ex:
+        return dict(zip(paths, ex.map(read_text, paths)))
 
 
 def norm(s: str) -> str:

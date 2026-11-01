@@ -31,9 +31,10 @@ import joblib
 import numpy as np
 from scipy.stats import rankdata
 from sklearn.ensemble import ExtraTreesRegressor
-from sklearn.metrics import roc_auc_score
+from ..fast import auc as roc_auc_score
 
 from . import autoprog as AP
+from ..fast import pmap
 
 CACHE = AP.CACHE
 OUT = AP.ROOT / "output" / "meta" / "transfer.json"
@@ -193,6 +194,26 @@ def _fc(name):
     return fc, TVars(fc)
 
 
+_CTX = {}  # matière en cours, partagée avec les processus forkés sans copie
+
+
+def _mask_tasks(k):
+    """Toutes les tâches d'un domaine (ou pseudo-domaine) ; indépendant des autres domaines."""
+    name, fc, V, tests = _CTX["name"], _CTX["fc"], _CTX["V"], _CTX["tests"]
+    mname, mask = _CTX["masks"][k]
+    D = Domain(fc, V, mask)
+    out = []
+    for y in tests:
+        past = [z for z in fc.years if z < y]
+        tr = D.traits(past)
+        for obj in OBJ:
+            rows = run_task(D, y, past, obj)
+            if rows:
+                out.append({"matiere": name, "domaine": mname, "annee": y, "objectif": obj, "traits": tr, "candidats": rows})
+        print(name, mname, y, flush=True)
+    return out
+
+
 def stage_tasks(name, min_hist=3, seed=0):
     fc, V = _fc(name)
     secs = sorted(set(np.asarray(fc.t.pass_sec).tolist()))
@@ -202,17 +223,9 @@ def stage_tasks(name, min_hist=3, seed=0):
         keep = set(rng.choice(secs, max(2, len(secs) // 2), replace=False).tolist())
         masks.append((f"moitie_{k}", np.isin(np.asarray(fc.t.pass_sec), list(keep))))
     tests = [y for y in fc.years if len([z for z in fc.years if z < y]) >= min_hist]
-    tasks = []
-    for mname, mask in masks:
-        D = Domain(fc, V, mask)
-        for y in tests:
-            past = [z for z in fc.years if z < y]
-            tr = D.traits(past)
-            for obj in OBJ:
-                rows = run_task(D, y, past, obj)
-                if rows:
-                    tasks.append({"matiere": name, "domaine": mname, "annee": y, "objectif": obj, "traits": tr, "candidats": rows})
-            print(name, mname, y, flush=True)
+    # chaque domaine sur son cœur : mêmes calculs, même ordre de sortie
+    _CTX.update(name=name, fc=fc, V=V, tests=tests, masks=masks)
+    tasks = [t for part in pmap(_mask_tasks, range(len(masks))) for t in part]
     (CACHE / f"transfer_tasks_{name}.json").write_text(json.dumps(tasks), encoding="utf-8")
 
 

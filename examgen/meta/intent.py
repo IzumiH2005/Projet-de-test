@@ -30,7 +30,8 @@ from scipy.stats import spearmanr
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.inspection import permutation_importance
 from sklearn.linear_model import LogisticRegression, Ridge
-from sklearn.metrics import log_loss, roc_auc_score
+from sklearn.metrics import log_loss
+from ..fast import auc as roc_auc_score
 from sklearn.mixture import GaussianMixture
 from sklearn.model_selection import GroupKFold
 from sklearn.pipeline import make_pipeline

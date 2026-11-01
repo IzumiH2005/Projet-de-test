@@ -29,7 +29,7 @@ from pathlib import Path
 import numpy as np
 from scipy.stats import rankdata
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score
+from ..fast import auc as roc_auc_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
