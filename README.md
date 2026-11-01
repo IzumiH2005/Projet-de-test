@@ -431,6 +431,22 @@ python -m examgen.meta.transfer rule  sss management cbph i2d hggsp hlp ses droi
 Le moteur limite OpenMP à un thread (`examgen/__init__.py`) : sur ces petits jeux, plusieurs
 threads rendaient le modèle par arbres 300 fois plus lent.
 
+**Vitesse, à résultats identiques** (`examgen/fast.py`). Chaque accélération a été vérifiée en
+comparant les sorties à celles de l'ancien code, nombre par nombre (écart maximal 2e-16).
+
+| Étape (SI) | Avant | Après |
+|---|---|---|
+| Tâches de méta-entraînement | 134 s | 39 s |
+| Prévision à froid | 75 s | 19 s |
+| Prévision avec cache | 9 s | 5 s |
+
+- AUC calculée par les rangs : même formule que scikit-learn, sans ses vérifications (15× plus rapide).
+- Les calculs indépendants (pseudo-domaines, années de validation) sont répartis sur tous les
+  cœurs, sans changer leur ordre. `EXAMGEN_JOBS=1` revient au calcul sur un seul cœur.
+- Le texte des PDF est mis en cache (clé : empreinte du fichier) et lu en parallèle.
+- Correctif trouvé au passage : le cache de lecture oubliait le réglage choisi par le moteur. Un
+  second passage donnait donc une autre prévision que le premier. Les deux sont maintenant identiques.
+
 `python -m examgen.meta.learn` → `output/meta/rapport.json` et `data/model/meta.json`.
 
 - `align.py` : le moteur choisit seul sa façon de lire (règle apprise sur une matière, testée sur l'autre).

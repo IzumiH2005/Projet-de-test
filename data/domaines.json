@@ -50,5 +50,25 @@
  "philo": [
   "data/sources/annales_philo",
   "data/philo/cours"
+ ],
+ "francais": [
+  "data/sources/annales_francais",
+  "data/francais/cours"
+ ],
+ "anglais": [
+  "data/sources/annales_anglais",
+  "data/anglais/cours"
+ ],
+ "espagnol": [
+  "data/sources/annales_espagnol",
+  "data/espagnol/cours"
+ ],
+ "allemand": [
+  "data/sources/annales_allemand",
+  "data/allemand/cours"
+ ],
+ "pcm": [
+  "data/sources/annales_pcm",
+  "data/pcm/cours"
  ]
 }
