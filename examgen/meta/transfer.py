@@ -396,27 +396,215 @@ def stage_rule(names):
     print(json.dumps(rep, ensure_ascii=False, indent=1, default=float))
 
 
+# ---------------------------------------------------------------------------- apprendre à apprendre
+# Avec beaucoup de matières, on ne cherche plus seulement « le » bon réglage : on apprend une
+# manière de se régler. Le méta-entraînement retient une courte liste de réglages robustes (ordre =
+# a priori) et un seuil ; sur un domaine neuf, le moteur choisit seul dans cette liste en rejouant
+# ses propres années passées, et ne quitte le premier réglage que si la preuve interne dépasse le
+# seuil. Liste et seuil sont choisis en laissant de côté chaque matière d'entraînement tour à tour.
+LEARN_OUT = AP.ROOT / "output" / "meta" / "apprendre.json"
+KS = (1, 2, 3, 4, 6, 8)
+DELTAS = (0.0, 0.02, 0.05, 0.1, 0.2)
+
+
+def _dom(t):
+    return (t["matiere"], t["domaine"] == "complet")
+
+
+class _M:
+    """Tâches d'un objectif en matrices : gain sur l'ancienne (G) et score interne (I) par candidat."""
+    def __init__(self, tasks, keys=None):
+        self.keys = keys or sorted({json.dumps(r["c"]) for t in tasks for r in t["candidats"]})
+        ix = {k: j for j, k in enumerate(self.keys)}
+        n, c = len(tasks), len(self.keys)
+        self.G, self.I = np.zeros((n, c)), np.full((n, c), -np.inf)
+        self.C, self.A = np.zeros((n, c)), np.zeros((n, c))
+        for i, t in enumerate(tasks):
+            ref = _ref(t)
+            self.C[i], self.A[i] = ref["couverture"], ref["auc"]
+            for r in t["candidats"]:
+                j = ix[json.dumps(r["c"])]
+                self.G[i, j], self.I[i, j] = r["score"] - ref["score"], r["interne"]
+                self.C[i, j], self.A[i, j] = r["couverture"], r["auc"]
+        doms = sorted({_dom(t) for t in tasks})
+        self.d = np.array([doms.index(_dom(t)) for t in tasks])
+        self.nd = len(doms)
+
+    def robust(self, g):
+        """Moyenne des domaines + pire domaine (même critère que la règle universelle) ; g : (n,) ou (n, k)."""
+        g = g.reshape(len(self.d), -1)
+        m = np.stack([g[self.d == k].mean(0) for k in range(self.nd)])
+        return m.mean(0) + m.min(0)
+
+    def pick(self, short, delta):
+        """Indice choisi par tâche : le meilleur interne de la liste s'il bat le premier de plus du seuil."""
+        sub = self.I[:, short]
+        b = np.array(short)[np.argmax(sub, 1)]
+        r = np.arange(len(self.d))
+        return np.where(self.I[r, b] - self.I[:, short[0]] > delta, b, short[0])
+
+    def greedy(self, first, K, delta):
+        """Liste gloutonne : chaque ajout est le réglage qui améliore le plus la politique."""
+        short, r = [first], np.arange(len(self.d))
+        while len(short) < K:
+            sub = self.I[:, short]
+            bI = sub.max(1)
+            b = np.array(short)[np.argmax(sub, 1)]
+            nb = np.where(self.I > bI[:, None], np.arange(self.I.shape[1])[None, :], b[:, None])
+            ch = np.where(self.I[r[:, None], nb] - self.I[:, [short[0]]] > delta, nb, short[0])
+            val = self.robust(self.G[r[:, None], ch])
+            val[short] = -np.inf
+            short.append(int(np.argmax(val)))
+        return short
+
+
+def _first(M):
+    return int(np.argmax(M.robust(M.G)))  # = la règle universelle
+
+
+def learn_policy(tasks, obj):
+    """(K, seuil) choisis en laissant de côté chaque matière d'entraînement ; puis liste finale."""
+    T = [t for t in tasks if t["objectif"] == obj]
+    keys = sorted({json.dumps(r["c"]) for t in T for r in t["candidats"]})
+    names = sorted({t["matiere"] for t in T})
+    Mall = _M(T, keys)
+    gains = {(K, d): np.zeros(len(T)) for K in KS for d in DELTAS}
+    for m in names:
+        tr = np.array([t["matiere"] != m for t in T])
+        Mtr = _M([t for t, k in zip(T, tr) if k], keys)
+        Mte = _M([t for t, k in zip(T, tr) if not k], keys)
+        f = _first(Mtr)
+        for d in DELTAS:
+            sh = Mtr.greedy(f, max(KS), d)
+            for K in KS:
+                ch = Mte.pick(sh[:K], d)
+                gains[(K, d)][~tr] = Mte.G[np.arange(len(ch)), ch]
+    grid = {k: float(Mall.robust(v)[0]) for k, v in gains.items()}
+    K, d = max(grid, key=lambda k: (round(grid[k], 4), -k[0], k[1]))
+    sh = Mall.greedy(_first(Mall), K, d)
+    return {"K": K, "seuil": d, "liste": [json.loads(keys[j]) for j in sh],
+            "grille": {f"K={k[0]} seuil={k[1]}": round(v, 4) for k, v in grid.items()}}
+
+
+def choose(cands, pol):
+    """Production : dans la liste apprise, le moteur choisit seul d'après ses propres années passées.
+    cands : {json(c): score interne}."""
+    sh = [json.dumps(c) for c in pol["liste"] if json.dumps(c) in cands]
+    best = max(sh, key=cands.get)
+    return json.loads(best if cands[best] - cands[sh[0]] > pol["seuil"] else sh[0])
+
+
+def stage_learn(names):
+    """Compare, matière par matière (chaque matière absente de son propre entraînement) :
+    ancienne méthode, règle universelle, juge appris, et « se régler soi-même »."""
+    warnings.filterwarnings("ignore")
+    allt = {n: json.loads((CACHE / f"transfer_tasks_{n}.json").read_text(encoding="utf-8")) for n in names}
+    for n in names:
+        for t in allt[n]:
+            t["matiere"] = n
+    every = [t for n in names for t in allt[n]]
+    meth = ("ancienne", "regle", "juge", "se_regler")
+    rep = {"principe": "Chaque matière est traitée comme un domaine inconnu : tout ce qui est appris "
+                       "(règle, juge, liste de réglages, seuil) l'est sans elle.", "matieres": {}}
+    for n in names:
+        tr = [t for t in every if t["matiere"] != n]
+        J = fit_judge(tr)
+        res = {}
+        for obj in OBJ:
+            Ttr = [t for t in tr if t["objectif"] == obj]
+            keys = sorted({json.dumps(r["c"]) for t in Ttr for r in t["candidats"]})
+            Mtr = _M(Ttr, keys)
+            pol = learn_policy(tr, obj)
+            sh = [keys.index(json.dumps(c)) for c in pol["liste"]]
+            te = [t for t in allt[n] if t["objectif"] == obj]
+            Mte = _M(te, keys)
+            jsel = []
+            for t in te:
+                ref = _ref(t)
+                X = np.array([featurize(t, r, ref["interne"]) for r in t["candidats"]])
+                g = J["gain"].predict(X)
+                c = t["candidats"][int(np.argmax(g))]["c"] if g.max() > 0 else ref["c"]
+                jsel.append(keys.index(json.dumps(c)))
+            ri = np.arange(len(te))
+            sel = {"ancienne": np.full(len(te), keys.index(json.dumps(_ref(te[0])["c"]))),
+                   "regle": np.full(len(te), _first(Mtr)), "juge": np.array(jsel),
+                   "se_regler": Mte.pick(sh, pol["seuil"])}
+            full = np.array([t["domaine"] == "complet" for t in te])
+            f = lambda v: round(float(np.mean(v)), 3) if len(v) else None
+            res[obj] = {m: {"couverture": f(Mte.C[ri, s][full]), "auc": f(Mte.A[ri, s][full]),
+                            "gain": f(Mte.G[ri, s][full]), "pseudo_gain": f(Mte.G[ri, s][~full])}
+                        for m, s in sel.items()}
+            res[obj]["politique"] = {"K": pol["K"], "seuil": pol["seuil"], "liste": pol["liste"]}
+            print(n, obj, {m: (res[obj][m]["couverture"], res[obj][m]["gain"], res[obj][m]["pseudo_gain"]) for m in meth}, flush=True)
+        rep["matieres"][n] = res
+    summ = {}
+    for obj in OBJ:
+        summ[obj] = {}
+        for m in meth:
+            v = lambda k: [rep["matieres"][n][obj][m][k] for n in names]
+            g = v("gain")
+            summ[obj][m] = {"gain_moyen": round(float(np.mean(g)), 4), "pire_matiere": round(float(min(g)), 4),
+                            "matieres_gagnees": int(sum(x > 0.005 for x in g)),
+                            "matieres_perdues": int(sum(x < -0.005 for x in g)),
+                            "pseudo_gain_moyen": round(float(np.mean(v("pseudo_gain"))), 4),
+                            "couverture_moyenne": round(float(np.mean(v("couverture"))), 3),
+                            "auc_moyenne": round(float(np.mean(v("auc"))), 3)}
+    rep["synthese"] = summ
+    rep["politique_finale"] = {obj: learn_policy(every, obj) for obj in OBJ}
+    # adoption : la stratégie de production est celle qui gagne en moyenne ET dans la pire matière
+    # (le juge, trop dépendant des matières vues, n'est retenu que comme témoin)
+    rep["adoptee"] = {}
+    for obj in OBJ:
+        crit = {m: summ[obj][m]["gain_moyen"] + summ[obj][m]["pire_matiere"] for m in ("ancienne", "regle", "se_regler")}
+        win = max(crit, key=lambda m: (round(crit[m], 4), m == "regle"))
+        pf = rep["politique_finale"][obj]
+        liste = {"ancienne": [[[], "ancienne", False]], "regle": [select_rule(every, obj)], "se_regler": pf["liste"]}[win]
+        rep["adoptee"][obj] = {"strategie": win, "liste": liste, "seuil": pf["seuil"] if win == "se_regler" else 0.0,
+                               "critere": {m: round(v, 4) for m, v in crit.items()}}
+    rep["appris_sur"] = names
+    LEARN_OUT.write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
+    print(json.dumps({"synthese": summ, "adoptee": rep["adoptee"], "politique_finale": {o: {k: v for k, v in p.items() if k != "grille"}
+                                                              for o, p in rep["politique_finale"].items()}},
+                     ensure_ascii=False, indent=1))
+
+
+def _replay(D, c, ys, obj):
+    ins = []
+    for z in ys:  # auto-jugement : le réglage rejoué sur ses propres années (même calcul qu'à la calibration)
+        tr = [w for w in ys if w != z]
+        if len(tr) >= 2:
+            r = D.score(cand_pred(D, c, z, tr, obj), z, tr, obj)
+            if r:
+                ins.append(r["score"])
+    return ins
+
+
 def apply(fc, log=print) -> dict:
-    """Production : la même règle, quel que soit le domaine ; aucun choix propre à la matière."""
+    """Production, aucun choix propre à la matière : le moteur rejoue sur ses années passées les
+    réglages de la liste apprise (méta-entraînement multi-matières) et choisit seul ; sans liste,
+    la règle universelle."""
+    pol = json.loads(LEARN_OUT.read_text(encoding="utf-8")).get("adoptee", {}) if LEARN_OUT.exists() else {}
     rule = json.loads(RULE_OUT.read_text(encoding="utf-8"))["regle"] if RULE_OUT.exists() else DEFAULT_RULE
     D = Domain(fc, TVars(fc), np.ones(fc.n, bool))
     nxt, ys = fc.years[-1] + 1, list(fc.years)
     out = {}
     for obj in OBJ:
-        gs, m, mix = rule[obj]
-        c = (tuple(gs), m, mix)
-        ins = []
-        for z in ys:  # auto-jugement : la règle rejouée sur ses années (même calcul qu'à la calibration)
-            tr = [w for w in ys if w != z]
-            if len(tr) >= 2:
-                r = D.score(cand_pred(D, c, z, tr, obj), z, tr, obj)
-                if r:
-                    ins.append(r["score"])
+        liste = pol[obj]["liste"] if obj in pol else [rule[obj]]
+        rej = {json.dumps(c): _replay(D, (tuple(c[0]), c[1], c[2]), ys, obj) for c in liste}
+        rej = {k: v for k, v in rej.items() if v}
+        if rej:
+            c = choose({k: float(np.mean(v)) for k, v in rej.items()},
+                       pol.get(obj, {"liste": liste, "seuil": 0.0})) if obj in pol else liste[0]
+            ins = rej[json.dumps(c)]
+        else:
+            c, ins = liste[0], []
+        gs, m, mix = c
         f = fourchette(float(np.mean(ins)), float(np.min(ins))) if ins else None
         out[obj] = {"familles": gs, "modele": m, "mele_a_l_ancienne": mix,
+                    "essayes": {k: round(float(np.mean(v)), 3) for k, v in rej.items()},
                     "score_rejoue": [round(v, 3) for v in ins], "fourchette": f,
-                    "p": cand_pred(D, c, nxt, ys, obj)}
-        log(f"  règle universelle ({obj}) : {gs} / {m}{' + ancienne' if mix else ''}, fourchette {f}")
+                    "p": cand_pred(D, (tuple(gs), m, mix), nxt, ys, obj)}
+        log(f"  réglage choisi seul ({obj}, parmi {len(liste)}) : {gs} / {m}{' + ancienne' if mix else ''}, fourchette {f}")
     return out
 
 
@@ -428,5 +616,7 @@ if __name__ == "__main__":
             stage_tasks(n)
     elif st == "judge":
         stage_judge(names)
+    elif st == "learn":
+        stage_learn(names)
     else:
         stage_rule(names)
