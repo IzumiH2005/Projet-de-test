@@ -338,7 +338,49 @@ python -m examgen.meta.autoprog honest droit droit nsi eco  # preuve (une matiè
 python -m examgen.meta.autoprog combine droit nsi eco  # règle -> data/model/autoprog.json
 ```
 
-`forecast.run` applique ensuite cette auto-progression à la vraie prévision de l'année suivante.
+### Règle universelle pour les domaines inconnus (`examgen/meta/transfer.py`)
+
+En production, le moteur ne sera pas entraîné pour chaque matière : il reçoit le cours et les
+anciens sujets, et doit répondre. Le méta-entraînement vise donc les matières **jamais vues**.
+
+- **Tâches** : chaque (matière, année) et 5 « pseudo-domaines » par matière (la moitié des
+  chapitres tirée au hasard), soit 106 tâches ; 61 candidats (familles × modèles, purs ou mêlés).
+- **Ce qui n'a pas marché** : un juge appris (ExtraTrees sur les traits du domaine) qui choisit
+  le candidat par matière. Testé sur une matière exclue, il fait moins bien qu'une règle fixe :
+  avec deux matières d'entraînement, il apprend leurs particularités, pas une loi générale.
+  Le choix glouton par matière (`autoprog`) sur-apprend aussi quand il y a peu de données.
+- **Ce qui est retenu** : une seule règle, la même partout, choisie pour marcher en moyenne
+  **et** dans le pire domaine. Prévision : lexique du professeur + arbres. Nouveautés : lexique
+  du professeur + mélange, mêlé à l'ancienne méthode.
+
+Preuve « matière inconnue » : la règle est choisie sans la matière testée, puis appliquée à elle
+(chaque année 2024–2026 prédite avec les seules années d'avant).
+
+| Matière | Questions de l'année (10 %) | AUC | Questions jamais posées (quart) | AUC |
+|---|---|---|---|---|
+| Droit | 30 % → **43 %** | 0,76 → 0,81 | 80 % → 80 % | 0,84 → 0,84 |
+| NSI | 72 % → **75 %** | 0,80 → 0,82 | 48 % → **64 %** | 0,62 → 0,73 |
+| Économie | 25 % → 19 % | 0,73 → 0,76 | 41 % → **67 %** | 0,69 → 0,78 |
+
+L'AUC monte dans les 6 cas. La couverture monte ou reste égale 5 fois sur 6 ; la prévision en
+économie (peu de questions par an) reste le point faible. Sur les pseudo-domaines, la règle finale
+gagne 5 fois sur 6 (NSI prévision : 68 % → 67 %).
+
+**Auto-jugement** : avant de répondre, le moteur rejoue la règle sur ses propres années et
+annonce une fourchette de couverture. Mesuré sur les 106 tâches, la fourchette contient le vrai
+résultat 86 % du temps (largeur moyenne 0,65 : peu d'années donnent une estimation large, et le
+moteur le dit au lieu d'annoncer un chiffre trop précis).
+
+**Piste principale** : 3 matières, c'est peu pour prouver qu'une règle est universelle. Avec
+10 à 20 matières variées (cours + annales), on pourrait réessayer le juge et resserrer la fourchette.
+
+```bash
+python -m examgen.meta.transfer tasks droit        # (une matière par processus)
+python -m examgen.meta.transfer judge droit nsi eco  # juge appris (pour comparaison)
+python -m examgen.meta.transfer rule droit nsi eco   # règle retenue -> output/meta/regle.json
+```
+
+`forecast.run` applique cette règle à la vraie prévision de l'année suivante, sans réglage par matière.
 Le moteur limite OpenMP à un thread (`examgen/__init__.py`) : sur ces petits jeux, plusieurs
 threads rendaient le modèle par arbres 300 fois plus lent.
 

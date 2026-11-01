@@ -18,6 +18,7 @@ et le bon modèle, et annoncer à l'avance quelle qualité on peut en attendre.
 
     python -m examgen.meta.transfer tasks droit      # (une matière par processus)
     python -m examgen.meta.transfer judge droit nsi eco
+    python -m examgen.meta.transfer rule droit nsi eco   # règle universelle retenue (voir plus bas)
 """
 from __future__ import annotations
 
@@ -327,11 +328,105 @@ def stage_judge(names):
     print("guide :", rep["ce_qui_guide_le_choix"][:8])
 
 
+# ---------------------------------------------------------------------------- règle universelle
+# Résultat du méta-entraînement : le juge appris (ci-dessus) se trompe sur une matière inconnue,
+# car deux matières d'entraînement ne suffisent pas à apprendre quand changer de choix. Une seule
+# règle, la même pour tous les domaines, fait mieux. Elle est choisie pour marcher partout
+# (moyenne + pire domaine), jamais pour une matière précise.
+RULE_OUT = AP.ROOT / "output" / "meta" / "regle.json"
+DEFAULT_RULE = {"prevision": [["lexique_du_professeur"], "arbres", False],
+                "nouveaute": [["lexique_du_professeur"], "melange", True]}
+MARGE = 0.15  # élargit la fourchette annoncée ; calibrée sur toutes les tâches
+
+
+def select_rule(tasks, obj):
+    """Le candidat dont le gain sur l'ancienne méthode est bon en moyenne ET dans le pire domaine."""
+    rows = {}
+    for t in tasks:
+        if t["objectif"] != obj:
+            continue
+        ref = _ref(t)
+        dom = (t["matiere"], t["domaine"] == "complet")
+        for r in t["candidats"]:
+            rows.setdefault(json.dumps(r["c"]), {}).setdefault(dom, []).append(r["score"] - ref["score"])
+    doms = set.intersection(*[set(d) for d in rows.values()])
+    crit = {k: np.mean([np.mean(d[x]) for x in doms]) + min(np.mean(d[x]) for x in doms) for k, d in rows.items()}
+    return json.loads(max(crit, key=crit.get))
+
+
+def fourchette(interne, interne_min, marge=MARGE):
+    return [max(0.0, interne_min - marge), min(1.0, 2 * interne - interne_min + marge)]
+
+
+def stage_rule(names):
+    """Preuve « matière inconnue » de la règle : choisie sans la matière, testée sur elle."""
+    allt = {n: json.loads((CACHE / f"transfer_tasks_{n}.json").read_text(encoding="utf-8")) for n in names}
+    every = [t for n in names for t in allt[n]]
+    final = {o: select_rule(every, o) for o in OBJ}
+    rep = {"principe": "Une seule règle pour tous les domaines, choisie pour marcher partout ; "
+                       "chaque matière est testée avec la règle choisie sans elle.",
+           "regle": final, "appris_sur": names, "matieres": {}}
+    get = lambda t, c: next(x for x in t["candidats"] if x["c"] == c)
+    for n in names:
+        res = {}
+        for obj in OBJ:
+            c = select_rule([t for m in names if m != n for t in allt[m]], obj)
+            T = [t for t in allt[n] if t["domaine"] == "complet" and t["objectif"] == obj]
+            P = [t for t in allt[n] if t["domaine"] != "complet" and t["objectif"] == obj]
+            mean = lambda ts, k, cc: round(float(np.mean([get(t, cc)[k] for t in ts])), 3)
+            anc = [[], "ancienne", False]
+            res[obj] = {"regle_sans_cette_matiere": c,
+                        "avant_couverture": mean(T, "couverture", anc), "couverture": mean(T, "couverture", c),
+                        "avant_auc": mean(T, "auc", anc), "auc": mean(T, "auc", c),
+                        "regle_finale_couverture": mean(T, "couverture", final[obj]),
+                        "pseudo_domaines": {"avant": mean(P, "couverture", anc), "apres": mean(P, "couverture", final[obj]),
+                                            "n": len(P)}}
+        rep["matieres"][n] = res
+    hit, wid = [], []
+    for t in every:
+        x = get(t, final[t["objectif"]])
+        lo, hi = fourchette(x["interne"], x["interne_min"])
+        hit.append(lo <= x["couverture"] <= hi)
+        wid.append(hi - lo)
+    rep["auto_jugement"] = {"principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées "
+                                        "et annonce une fourchette de couverture.",
+                            "fourchette_juste": round(float(np.mean(hit)), 3), "largeur_moyenne": round(float(np.mean(wid)), 3),
+                            "taches": len(every)}
+    RULE_OUT.write_text(json.dumps(rep, ensure_ascii=False, indent=1, default=float), encoding="utf-8")
+    print(json.dumps(rep, ensure_ascii=False, indent=1, default=float))
+
+
+def apply(fc, log=print) -> dict:
+    """Production : la même règle, quel que soit le domaine ; aucun choix propre à la matière."""
+    rule = json.loads(RULE_OUT.read_text(encoding="utf-8"))["regle"] if RULE_OUT.exists() else DEFAULT_RULE
+    D = Domain(fc, TVars(fc), np.ones(fc.n, bool))
+    nxt, ys = fc.years[-1] + 1, list(fc.years)
+    out = {}
+    for obj in OBJ:
+        gs, m, mix = rule[obj]
+        c = (tuple(gs), m, mix)
+        ins = []
+        for z in ys:  # auto-jugement : la règle rejouée sur ses années (même calcul qu'à la calibration)
+            tr = [w for w in ys if w != z]
+            if len(tr) >= 2:
+                r = D.score(cand_pred(D, c, z, tr, obj), z, tr, obj)
+                if r:
+                    ins.append(r["score"])
+        f = fourchette(float(np.mean(ins)), float(np.min(ins))) if ins else None
+        out[obj] = {"familles": gs, "modele": m, "mele_a_l_ancienne": mix,
+                    "score_rejoue": [round(v, 3) for v in ins], "fourchette": f,
+                    "p": cand_pred(D, c, nxt, ys, obj)}
+        log(f"  règle universelle ({obj}) : {gs} / {m}{' + ancienne' if mix else ''}, fourchette {f}")
+    return out
+
+
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
     st, names = sys.argv[1], sys.argv[2:] or ["droit", "nsi", "eco"]
     if st == "tasks":
         for n in names:
             stage_tasks(n)
-    else:
+    elif st == "judge":
         stage_judge(names)
+    else:
+        stage_rule(names)

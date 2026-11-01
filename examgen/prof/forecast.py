@@ -334,9 +334,9 @@ def run(name: str, log=print) -> dict:
     bt = fc.backtest()
     log(f"  preuve : {json.dumps({k: v for k, v in bt.items() if isinstance(v, dict)}, ensure_ascii=False)[:600]}")
     fc.next_year()
-    from ..meta import autoprog as AP
-    auto = AP.apply(fc, name, log)  # variables et modèles choisis par le moteur lui-même
-    # le classement vient de l'auto-progression ; les probabilités affichées gardent la loi de
+    from ..meta import transfer as TR
+    auto = TR.apply(fc, log)  # même règle pour tous les domaines, sans choix propre à la matière
+    # le classement vient de la règle universelle ; les probabilités affichées gardent la loi de
     # l'ancien modèle (même nombre attendu de passages), réordonnées selon ce classement
     order = np.argsort(np.argsort(auto["prevision"]["p"], kind="stable"), kind="stable")
     fc.prob, fc.pot = np.sort(fc.prob)[order], auto["nouveaute"]["p"]
@@ -352,9 +352,9 @@ def run(name: str, log=print) -> dict:
            "famille_choisie": fc.final, "passages_les_plus_probables": rk,
            "preuve_sur_les_nouveautes": nov, "programme": prog,
            "auto_progression": {o: {k: v for k, v in a.items() if k != "p"} for o, a in auto.items()}}
-    ap = ROOT / "output" / "meta" / "autoprog.json"
-    if ap.exists():
-        rep["preuve_auto_progression"] = json.loads(ap.read_text(encoding="utf-8"))["preuve"].get(name)
+    if TR.RULE_OUT.exists():
+        rg = json.loads(TR.RULE_OUT.read_text(encoding="utf-8"))
+        rep["preuve_auto_progression"] = {**rg["matieres"].get(name, {}), "auto_jugement": rg["auto_jugement"]}
     from ..meta.domain import out_dir
     out = out_dir(name)
     out.mkdir(parents=True, exist_ok=True)

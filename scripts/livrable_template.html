@@ -453,9 +453,10 @@ $("#es").oninput = renderE; renderE();
     if (!P || !P.prevision) return "";
     const L = {prevision: "Questions de l'année (10 % des passages)", nouveaute: "Questions jamais posées (quart retenu)"};
     const row = (o) => { const x = P[o]; return x ? `<tr><td>${L[o]}</td><td>${pct(x.avant_couverture)}</td><td class="${x.couverture > x.avant_couverture ? "up" : ""}">${pct(x.couverture)}</td><td>${x.avant_auc.toFixed(2)} → ${x.auc.toFixed(2)}</td></tr>` : ""; };
-    return `<p><b>Auto-progression.</b> Le moteur fabrique lui-même de nouvelles variables (mémoire pondérée, voisinage dans le cours, proximité avec ce qui a déjà été demandé, lexique du professeur, rotation des chapitres, thèmes du cours) et choisit, génération après génération, celles et le modèle qui marchent, en ne regardant que les années passées. Les autres matières lui servent de point de départ. Même test qu'au-dessus :</p>
+    const J = P.auto_jugement || {}, F = (c) => c.fourchette ? ` ; attendu entre ${pct(c.fourchette[0])} et ${pct(c.fourchette[1])}` : "";
+    return `<p><b>Règle universelle.</b> Le moteur n'est pas réglé pour chaque matière : il applique la même règle partout (variables construites seul à partir du lexique du professeur, mêlées à l'ancienne méthode pour les nouveautés). Cette règle a été choisie sur les <i>autres</i> matières, sans voir celle-ci, comme pour une matière inconnue. Même test qu'au-dessus :</p>
       <div class="tw"><table><thead><tr><th>Objectif</th><th>Avant</th><th>Après</th><th>AUC</th></tr></thead><tbody>${row("prevision")}${row("nouveaute")}</tbody></table></div>
-      <p class="m">Choisi pour ${M.annee} : ${Object.entries(C).map(([o, c]) => `${o === "prevision" ? "prévision" : "nouveautés"} → ${c.familles.length ? c.familles.join(", ") : "variables de base"} (${c.modele})`).join(" ; ")}. Le choix est mêlé à l'ancienne méthode pour rester prudent quand il y a peu d'années.</p>`;
+      <p class="m">Pour ${M.annee} : ${Object.entries(C).map(([o, c]) => `${o === "prevision" ? "prévision" : "nouveautés"} → ${c.familles.length ? c.familles.join(", ") : "variables de base"} (${c.modele}${c.mele ? " + ancienne" : ""})${F(c)}`).join(" ; ")}.${J.fourchette_juste ? ` Auto-jugement : avant de répondre, le moteur rejoue la règle sur ses propres années et annonce une fourchette ; elle contient le vrai résultat dans ${pct(J.fourchette_juste)} des ${J.taches} essais.` : ""}</p>`;
   }
   function render() {
     const M = PR[+$("#pmat").value || 0], V = M.validation || {}, P = M.programme || [];

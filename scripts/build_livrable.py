@@ -314,7 +314,8 @@ def probable():
                     "famille": FAM.get(pv.get("famille_choisie"), pv.get("famille_choisie")), "back": back, "passages": pas,
                     "items": items, "validation": val["resume"], "nouveautes": pv.get("preuve_sur_les_nouveautes"),
                     "auto": {"preuve": pv.get("preuve_auto_progression"),
-                             "choix": {o: {"familles": [x.replace("_", " ") for x in (v.get("familles") or [])], "modele": v.get("modele")}
+                             "choix": {o: {"familles": [x.replace("_", " ") for x in (v.get("familles") or [])], "modele": v.get("modele"),
+                                           "mele": v.get("mele_a_l_ancienne"), "fourchette": v.get("fourchette")}
                                        for o, v in (pv.get("auto_progression") or {}).items()}},
                     "programme": programme(D, pv, fac)})
     return out or None
