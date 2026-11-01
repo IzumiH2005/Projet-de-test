@@ -209,9 +209,27 @@ def _mask_tasks(k):
         for obj in OBJ:
             rows = run_task(D, y, past, obj)
             if rows:
-                out.append({"matiere": name, "domaine": mname, "annee": y, "objectif": obj, "traits": tr, "candidats": rows})
+                out.append({"matiere": name, "domaine": mname, "annee": y, "objectif": obj, "traits": tr, "candidats": rows,
+                            "_preds": preds_of(D, y, past, obj)})
         print(name, mname, y, flush=True)
     return out
+
+
+BASE = [((), "ancienne")] + [(gs, m) for gs in SETS for m in FIT_MODELS]  # tout candidat en est un mélange de rangs
+
+
+def preds_of(D, y, past, obj):
+    """Rangs (0..1) de chaque candidat de base sur l'année testée puis sur chaque année rejouée,
+    avec de quoi les noter : sert à l'autocritique (critique.py) sans tout recalculer."""
+    pos = {int(g): k for k, g in enumerate(D.idx)}
+    ev = []
+    for z, tr in [(y, past)] + [(z, [w for w in past if w != z]) for z in past]:
+        if len(tr) < 2 and z != y:
+            continue
+        P = np.stack([rankdata(D.predict(gs, m, z, tr, obj)) / D.n for gs, m in BASE]).astype(np.float32)
+        seen = np.any([D.y(w) for w in tr], 0) if tr else np.zeros(D.n, bool)
+        ev.append({"P": P, "y": D.y(z).astype(bool), "q": np.array([pos[q] for q in D.qs(z)], np.int32), "seen": seen})
+    return {"sec": np.asarray(D.fc.t.pass_sec)[D.idx], "ev": ev}
 
 
 def stage_tasks(name, min_hist=3, seed=0):
@@ -226,6 +244,7 @@ def stage_tasks(name, min_hist=3, seed=0):
     # chaque domaine sur son cœur : mêmes calculs, même ordre de sortie
     _CTX.update(name=name, fc=fc, V=V, tests=tests, masks=masks)
     tasks = [t for part in pmap(_mask_tasks, range(len(masks))) for t in part]
+    joblib.dump([t.pop("_preds") for t in tasks], CACHE / f"critique_preds_{name}.joblib", compress=3)
     (CACHE / f"transfer_tasks_{name}.json").write_text(json.dumps(tasks), encoding="utf-8")
 
 

@@ -9,7 +9,8 @@
                 une annexe inventée n'est admise que dans un type de support où le professeur
                 invente aussi (extraits de contrat, règlement…), ce que mesure le taux de reprise
                 des sources réelles par type de support, appris sur les anciens sujets ;
-  nouveaute_ok  la situation n'est pas une ancienne situation (cosinus < 0,85) et l'énoncé n'est
+  nouveaute_ok  la situation n'est pas une ancienne situation (cosinus sous le seuil appris par
+                meta/controle.py, 0,85 tant qu'aucun meilleur n'a été trouvé) et l'énoncé n'est
                 pas un ancien énoncé, sauf formule rituelle : énoncé ou début d'énoncé (trigramme des
                 premiers mots) que le professeur repose dans au moins 10 % des sujets (min. 3), détecté
                 sur le corpus ; la comparaison ignore noms propres, guillemets et nombres ;
@@ -45,6 +46,9 @@ class Checker:
     def __init__(self, t: Teacher, plans: list[dict]):
         self.t = t
         self.plans = {p["id"]: p for p in plans}
+        # seuils de nouveauté calibrés sur le vrai professeur (meta/controle.py), 0,85 à défaut
+        from ..meta.controle import seuils
+        self.tau = seuils(t)
         self.past = t.vec.transform([_mask(q.stem) for q in t.qs])
         # sources réelles : passages du cours + annexes des anciens sujets
         src = [(p, "cours") for p in t.pass_text]
@@ -194,10 +198,10 @@ class Checker:
             sims = (t.vec.transform([_mask(stem)]) @ self.past.T).toarray().ravel() if stem else np.zeros(1)
             nov = float(sims.max())
             r["nouveaute_sim_max"] = round(nov, 3)
-            r["formule_rituelle"] = bool(nov >= 0.85 and (self.ritual[int(sims.argmax())] or bool(self._head(stem) & self.rit_heads)))
+            r["formule_rituelle"] = bool(nov >= self.tau["enonce"] and (self.ritual[int(sims.argmax())] or bool(self._head(stem) & self.rit_heads)))
             ss = float((t.vec.transform([_mask(situation)]) @ self.past_sit.T).max()) if self.past_sit is not None and len(situation) > 80 else 0.0
             r["situation_sim_max"] = round(ss, 3)
-            r["nouveaute_ok"] = (nov < 0.85 or r["formule_rituelle"]) and ss < 0.85
+            r["nouveaute_ok"] = (nov < self.tau["enonce"] or r["formule_rituelle"]) and ss < self.tau["situation"]
             pts = q.get("points") or ps.get("points") or 1
             cpp = t.detail_stats["chars_par_point_p10_p50_p90"]
             L = len(ans)
