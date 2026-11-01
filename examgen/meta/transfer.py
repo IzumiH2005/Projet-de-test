@@ -336,7 +336,7 @@ def stage_judge(names):
 RULE_OUT = AP.ROOT / "output" / "meta" / "regle.json"
 DEFAULT_RULE = {"prevision": [["lexique_du_professeur"], "arbres", False],
                 "nouveaute": [["lexique_du_professeur"], "melange", True]}
-MARGE = 0.15  # élargit la fourchette annoncée ; calibrée sur toutes les tâches
+MARGE = 0.275  # élargit la fourchette annoncée ; calibrée sur 445 choix faits à l'aveugle (14 matières)
 
 
 def select_rule(tasks, obj):

@@ -371,13 +371,60 @@ annonce une fourchette de couverture. Mesuré sur les 106 tâches, la fourchette
 résultat 86 % du temps (largeur moyenne 0,65 : peu d'années donnent une estimation large, et le
 moteur le dit au lieu d'annoncer un chiffre trop précis).
 
-**Piste principale** : 3 matières, c'est peu pour prouver qu'une règle est universelle. Avec
-10 à 20 matières variées (cours + annales), on pourrait réessayer le juge et resserrer la fourchette.
+Avec seulement 3 matières, cette règle n'était pas prouvée universelle : voir ci-dessous, le méta-entraînement sur 14 matières.
 
 ```bash
 python -m examgen.meta.transfer tasks droit        # (une matière par processus)
 python -m examgen.meta.transfer judge droit nsi eco  # juge appris (pour comparaison)
 python -m examgen.meta.transfer rule droit nsi eco   # règle retenue -> output/meta/regle.json
+```
+
+### Méta-entraînement sur 14 matières : apprendre à se régler
+
+Pour ne pas se spécialiser, le moteur a été méta-entraîné sur 14 matières de bac aux formats très
+différents : droit, économie, NSI, SES, SVT, physique-chimie, maths, HGGSP, HLP, SI, management,
+ST2S (SSS), STL (CBPH) et STI2D (I2D). Cela représente 445 tâches (années et pseudo-domaines).
+Cours : programmes officiels publiés sur eduscol. Annales : sujets de bac 2021–2026.
+
+Ce qu'il a fallu rendre générique, sans aucune règle propre à une matière :
+- `prof/pdfcours.py` : lit un cours PDF quelconque d'après sa typographie (taille, gras, couleur
+  des titres, tableaux). Le niveau de titre qui sert de « section » est choisi sur le document
+  lui-même. Sert aussi en production, quand un élève envoie son cours en PDF.
+- `prof/docs.py` : sujets en « QUESTION n : » et sujets à consigne unique (dissertation,
+  commentaire), en plus des questions numérotées.
+- `prof/profile.py` : le filtre des parties « hors cours » ne peut plus écarter presque tout un
+  sujet. S'il garde moins de 20 % des parties, il n'a pas trouvé d'intrus et garde tout.
+
+Stade `learn` : chaque matière est traitée comme inconnue. Tout ce qui est appris (règle, juge,
+liste de réglages, seuil) l'est sur les 13 autres. Quatre stratégies sont comparées :
+
+| Nouveautés (passages jamais tombés) | Gain moyen | Pire matière | Gagnées / perdues |
+|---|---|---|---|
+| Ancienne méthode | 0 | 0 | — |
+| Juge appris | +0,049 | −0,215 | 8 / 6 |
+| Se régler soi-même (liste apprise + choix sur ses propres années) | **+0,100** | −0,096 | 9 / 2 |
+| **Règle unique (retenue)** | +0,067 | **−0,018** | **10 / 2** |
+
+- **Nouveautés** : la couverture moyenne passe de 40 % à 47 %. La règle retenue est « voisinage
+  + mélange ». Se régler soi-même gagne plus en moyenne (50 %), mais peut perdre beaucoup sur une
+  matière. Le critère « moyenne + pire matière » préfère donc la règle.
+- **Prévision** : sur 14 matières, aucun réglage ne bat l'ancienne méthode de façon fiable. Le
+  gain vu sur 3 matières (lexique + arbres) venait de leurs particularités. Le méta-entraînement
+  le détecte et garde l'ancienne méthode.
+- Le **juge appris** reste le moins sûr, même avec 13 matières d'entraînement : il apprend des
+  matières, pas une manière de faire.
+- **Auto-jugement** : avec l'ancienne marge (0,15), la fourchette annoncée ne contenait le vrai
+  résultat que dans 73 % des 445 tâches. Recalibrée sur les choix faits à l'aveugle (marge
+  0,275), elle le contient dans 85 % des cas.
+
+`apply()` relit `output/meta/apprendre.json` (stratégie adoptée par objectif) et peut choisir
+seul dans une liste si un futur méta-entraînement la retient.
+
+```bash
+scripts/fetch_matieres.sh && scripts/fetch_programmes.sh   # annales + programmes -> data/
+python -m examgen.meta.transfer tasks ses                  # une matière par processus
+python -m examgen.meta.transfer learn sss management cbph i2d hggsp hlp ses droit eco svt si nsi physique maths
+python -m examgen.meta.transfer rule  sss management cbph i2d hggsp hlp ses droit eco svt si nsi physique maths
 ```
 
 `forecast.run` applique cette règle à la vraie prévision de l'année suivante, sans réglage par matière.

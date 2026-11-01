@@ -348,10 +348,22 @@ def meta():
                        for n, v in r.get("auto_entrainement", {}).items() if v.get("boucle_intentions_alignement")}}
 
 
+def apprendre():
+    """Méta-entraînement multi-matières : chaque matière testée comme inconnue."""
+    f = OUT / "meta" / "apprendre.json"
+    if not f.exists():
+        return None
+    r = json.loads(f.read_text(encoding="utf-8"))
+    return {"n": len(r["appris_sur"]), "synthese": r["synthese"], "adoptee": {o: v["strategie"] for o, v in r["adoptee"].items()},
+            "jugement": r["auto_jugement"].get(r["adoptee"]["nouveaute"]["strategie"]),
+            "matieres": {n: {o: {m: v[o][m]["couverture"] for m in ("ancienne", "regle", "se_regler")} for o in v}
+                         for n, v in r["matieres"].items()}}
+
+
 def main():
     ex = exams()
     qs, resume = questions()
-    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "probable": probable(), "meta": meta()}
+    data = {"exams": ex, "questions": qs, "modele": model_summary(resume), "droit": droit(), "probable": probable(), "meta": meta(), "apprendre": apprendre()}
     tpl = (ROOT / "scripts" / "livrable_template.html").read_text(encoding="utf-8")
     html = tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     (OUT / "livrable.html").write_text(html, encoding="utf-8")

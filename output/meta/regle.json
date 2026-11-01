@@ -562,8 +562,8 @@
  },
  "auto_jugement": {
   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
-  "fourchette_juste": 0.733,
-  "largeur_moyenne": 0.652,
+  "fourchette_juste": 0.854,
+  "largeur_moyenne": 0.789,
   "taches": 445
  }
 }

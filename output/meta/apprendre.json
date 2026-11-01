@@ -1,0 +1,1714 @@
+{
+ "principe": "Chaque matière est traitée comme un domaine inconnu : tout ce qui est appris (règle, juge, liste de réglages, seuil) l'est sans elle.",
+ "matieres": {
+  "sss": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.192,
+     "auc": 0.674,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.192,
+     "auc": 0.674,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.108,
+     "auc": 0.636,
+     "gain": -0.087,
+     "pseudo_gain": 0.04
+    },
+    "se_regler": {
+     "couverture": 0.192,
+     "auc": 0.674,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.422,
+     "auc": 0.628,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.478,
+     "auc": 0.605,
+     "gain": 0.053,
+     "pseudo_gain": -0.202
+    },
+    "juge": {
+     "couverture": 0.222,
+     "auc": 0.479,
+     "gain": -0.215,
+     "pseudo_gain": -0.231
+    },
+    "se_regler": {
+     "couverture": 0.333,
+     "auc": 0.561,
+     "gain": -0.096,
+     "pseudo_gain": -0.326
+    },
+    "politique": {
+     "K": 8,
+     "seuil": 0.02,
+     "liste": [
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "lexique_du_professeur"
+       ],
+       "arbres",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "lexique_du_professeur"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "recence"
+       ],
+       "arbres",
+       false
+      ],
+      [
+       [],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "management": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4,
+     "auc": 0.642,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4,
+     "auc": 0.642,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.3,
+     "auc": 0.663,
+     "gain": -0.098,
+     "pseudo_gain": -0.039
+    },
+    "se_regler": {
+     "couverture": 0.4,
+     "auc": 0.642,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 1,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.35,
+     "auc": 0.629,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.45,
+     "auc": 0.682,
+     "gain": 0.105,
+     "pseudo_gain": 0.25
+    },
+    "juge": {
+     "couverture": 0.35,
+     "auc": 0.572,
+     "gain": -0.006,
+     "pseudo_gain": -0.036
+    },
+    "se_regler": {
+     "couverture": 0.45,
+     "auc": 0.682,
+     "gain": 0.105,
+     "pseudo_gain": 0.196
+    },
+    "politique": {
+     "K": 6,
+     "seuil": 0.1,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "recence"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "arbres",
+       true
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "cbph": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.562,
+     "auc": 0.768,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.562,
+     "auc": 0.768,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.541,
+     "auc": 0.794,
+     "gain": -0.018,
+     "pseudo_gain": -0.019
+    },
+    "se_regler": {
+     "couverture": 0.562,
+     "auc": 0.768,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.312,
+     "auc": 0.482,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.342,
+     "auc": 0.518,
+     "gain": 0.034,
+     "pseudo_gain": 0.266
+    },
+    "juge": {
+     "couverture": 0.209,
+     "auc": 0.505,
+     "gain": -0.1,
+     "pseudo_gain": 0.088
+    },
+    "se_regler": {
+     "couverture": 0.312,
+     "auc": 0.505,
+     "gain": 0.002,
+     "pseudo_gain": 0.18
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "i2d": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.4,
+     "auc": 0.666,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.4,
+     "auc": 0.666,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.4,
+     "auc": 0.666,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "se_regler": {
+     "couverture": 0.4,
+     "auc": 0.666,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 1,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.355,
+     "auc": 0.483,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.355,
+     "auc": 0.623,
+     "gain": 0.014,
+     "pseudo_gain": -0.069
+    },
+    "juge": {
+     "couverture": 0.439,
+     "auc": 0.619,
+     "gain": 0.098,
+     "pseudo_gain": -0.177
+    },
+    "se_regler": {
+     "couverture": 0.355,
+     "auc": 0.607,
+     "gain": 0.012,
+     "pseudo_gain": -0.041
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "hggsp": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.369,
+     "auc": 0.731,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.369,
+     "auc": 0.731,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.369,
+     "auc": 0.731,
+     "gain": 0.0,
+     "pseudo_gain": 0.009
+    },
+    "se_regler": {
+     "couverture": 0.369,
+     "auc": 0.731,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 1,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.435,
+     "auc": 0.701,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.444,
+     "auc": 0.737,
+     "gain": 0.013,
+     "pseudo_gain": 0.144
+    },
+    "juge": {
+     "couverture": 0.463,
+     "auc": 0.774,
+     "gain": 0.035,
+     "pseudo_gain": -0.0
+    },
+    "se_regler": {
+     "couverture": 0.472,
+     "auc": 0.745,
+     "gain": 0.041,
+     "pseudo_gain": 0.098
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "hlp": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.6,
+     "auc": 0.901,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.6,
+     "auc": 0.901,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.6,
+     "auc": 0.901,
+     "gain": 0.0,
+     "pseudo_gain": -0.008
+    },
+    "se_regler": {
+     "couverture": 0.6,
+     "auc": 0.901,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.0,
+     "auc": 0.331,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.0,
+     "auc": 0.149,
+     "gain": -0.018,
+     "pseudo_gain": -0.023
+    },
+    "juge": {
+     "couverture": 0.0,
+     "auc": 0.149,
+     "gain": -0.018,
+     "pseudo_gain": -0.003
+    },
+    "se_regler": {
+     "couverture": 0.0,
+     "auc": 0.331,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 6,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "ses": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.355,
+     "auc": 0.862,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.355,
+     "auc": 0.862,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.355,
+     "auc": 0.862,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "se_regler": {
+     "couverture": 0.355,
+     "auc": 0.862,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 1,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.167,
+     "auc": 0.545,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.167,
+     "auc": 0.545,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.5,
+     "auc": 0.784,
+     "gain": 0.357,
+     "pseudo_gain": 0.008
+    },
+    "se_regler": {
+     "couverture": 0.667,
+     "auc": 0.84,
+     "gain": 0.53,
+     "pseudo_gain": 0.122
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "droit": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.582,
+     "auc": 0.812,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.582,
+     "auc": 0.812,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.582,
+     "auc": 0.812,
+     "gain": 0.0,
+     "pseudo_gain": -0.033
+    },
+    "se_regler": {
+     "couverture": 0.529,
+     "auc": 0.816,
+     "gain": -0.053,
+     "pseudo_gain": 0.019
+    },
+    "politique": {
+     "K": 3,
+     "seuil": 0.02,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "arbres",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "arbres",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.717,
+     "auc": 0.791,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.717,
+     "auc": 0.722,
+     "gain": -0.007,
+     "pseudo_gain": -0.114
+    },
+    "juge": {
+     "couverture": 0.578,
+     "auc": 0.661,
+     "gain": -0.152,
+     "pseudo_gain": -0.148
+    },
+    "se_regler": {
+     "couverture": 0.717,
+     "auc": 0.785,
+     "gain": -0.001,
+     "pseudo_gain": -0.082
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "recence"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "eco": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.505,
+     "auc": 0.722,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.505,
+     "auc": 0.722,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.48,
+     "auc": 0.707,
+     "gain": -0.027,
+     "pseudo_gain": -0.017
+    },
+    "se_regler": {
+     "couverture": 0.505,
+     "auc": 0.722,
+     "gain": 0.0,
+     "pseudo_gain": -0.004
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.1,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "recence",
+        "memoire_ponderee",
+        "voisinage",
+        "proximite_au_deja_demande",
+        "lexique_du_professeur",
+        "rotation_des_chapitres",
+        "themes_du_cours",
+        "croisements"
+       ],
+       "arbres",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.479,
+     "auc": 0.675,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.632,
+     "auc": 0.668,
+     "gain": 0.152,
+     "pseudo_gain": 0.164
+    },
+    "juge": {
+     "couverture": 0.368,
+     "auc": 0.673,
+     "gain": -0.111,
+     "pseudo_gain": 0.082
+    },
+    "se_regler": {
+     "couverture": 0.59,
+     "auc": 0.671,
+     "gain": 0.111,
+     "pseudo_gain": 0.016
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "svt": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.438,
+     "auc": 0.766,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.438,
+     "auc": 0.766,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.428,
+     "auc": 0.798,
+     "gain": -0.007,
+     "pseudo_gain": -0.007
+    },
+    "se_regler": {
+     "couverture": 0.438,
+     "auc": 0.766,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.602,
+     "auc": 0.688,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.655,
+     "auc": 0.714,
+     "gain": 0.056,
+     "pseudo_gain": 0.084
+    },
+    "juge": {
+     "couverture": 0.629,
+     "auc": 0.742,
+     "gain": 0.033,
+     "pseudo_gain": 0.022
+    },
+    "se_regler": {
+     "couverture": 0.544,
+     "auc": 0.688,
+     "gain": -0.058,
+     "pseudo_gain": 0.04
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "logistique",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "si": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.488,
+     "auc": 0.662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.488,
+     "auc": 0.662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.488,
+     "auc": 0.662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "se_regler": {
+     "couverture": 0.488,
+     "auc": 0.662,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.156,
+     "auc": 0.618,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.222,
+     "auc": 0.55,
+     "gain": 0.06,
+     "pseudo_gain": 0.115
+    },
+    "juge": {
+     "couverture": 0.267,
+     "auc": 0.594,
+     "gain": 0.109,
+     "pseudo_gain": 0.037
+    },
+    "se_regler": {
+     "couverture": 0.222,
+     "auc": 0.56,
+     "gain": 0.061,
+     "pseudo_gain": 0.118
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   }
+  },
+  "nsi": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.752,
+     "auc": 0.795,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.752,
+     "auc": 0.795,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.752,
+     "auc": 0.795,
+     "gain": 0.0,
+     "pseudo_gain": 0.016
+    },
+    "se_regler": {
+     "couverture": 0.752,
+     "auc": 0.795,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 3,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.478,
+     "auc": 0.704,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.588,
+     "auc": 0.733,
+     "gain": 0.113,
+     "pseudo_gain": 0.043
+    },
+    "juge": {
+     "couverture": 0.661,
+     "auc": 0.759,
+     "gain": 0.188,
+     "pseudo_gain": 0.069
+    },
+    "se_regler": {
+     "couverture": 0.612,
+     "auc": 0.741,
+     "gain": 0.138,
+     "pseudo_gain": 0.069
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "physique": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.579,
+     "auc": 0.869,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.579,
+     "auc": 0.869,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.594,
+     "auc": 0.874,
+     "gain": 0.015,
+     "pseudo_gain": 0.019
+    },
+    "se_regler": {
+     "couverture": 0.579,
+     "auc": 0.869,
+     "gain": 0.0,
+     "pseudo_gain": 0.007
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "croisements"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.507,
+     "auc": 0.7,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.857,
+     "auc": 0.862,
+     "gain": 0.366,
+     "pseudo_gain": 0.101
+    },
+    "juge": {
+     "couverture": 0.676,
+     "auc": 0.792,
+     "gain": 0.178,
+     "pseudo_gain": 0.098
+    },
+    "se_regler": {
+     "couverture": 0.761,
+     "auc": 0.812,
+     "gain": 0.265,
+     "pseudo_gain": 0.157
+    },
+    "politique": {
+     "K": 4,
+     "seuil": 0.0,
+     "liste": [
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "rotation_des_chapitres"
+       ],
+       "melange",
+       true
+      ],
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       false
+      ]
+     ]
+    }
+   }
+  },
+  "maths": {
+   "prevision": {
+    "ancienne": {
+     "couverture": 0.54,
+     "auc": 0.909,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.54,
+     "auc": 0.909,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.54,
+     "auc": 0.909,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "se_regler": {
+     "couverture": 0.54,
+     "auc": 0.909,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "politique": {
+     "K": 2,
+     "seuil": 0.2,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "themes_du_cours"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   },
+   "nouveaute": {
+    "ancienne": {
+     "couverture": 0.672,
+     "auc": 0.782,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "regle": {
+     "couverture": 0.672,
+     "auc": 0.782,
+     "gain": 0.0,
+     "pseudo_gain": 0.0
+    },
+    "juge": {
+     "couverture": 0.946,
+     "auc": 0.909,
+     "gain": 0.286,
+     "pseudo_gain": 0.479
+    },
+    "se_regler": {
+     "couverture": 0.946,
+     "auc": 0.9,
+     "gain": 0.285,
+     "pseudo_gain": 0.475
+    },
+    "politique": {
+     "K": 6,
+     "seuil": 0.02,
+     "liste": [
+      [
+       [],
+       "ancienne",
+       false
+      ],
+      [
+       [
+        "voisinage"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "memoire_ponderee"
+       ],
+       "logistique",
+       true
+      ],
+      [
+       [
+        "recence"
+       ],
+       "melange",
+       false
+      ],
+      [
+       [
+        "proximite_au_deja_demande"
+       ],
+       "logistique",
+       false
+      ],
+      [
+       [
+        "recence"
+       ],
+       "melange",
+       true
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "synthese": {
+  "prevision": {
+   "ancienne": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "pseudo_gain_moyen": 0.0,
+    "couverture_moyenne": 0.483,
+    "auc_moyenne": 0.77
+   },
+   "regle": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "pseudo_gain_moyen": 0.0,
+    "couverture_moyenne": 0.483,
+    "auc_moyenne": 0.77
+   },
+   "juge": {
+    "gain_moyen": -0.0159,
+    "pire_matiere": -0.098,
+    "matieres_gagnees": 1,
+    "matieres_perdues": 5,
+    "pseudo_gain_moyen": -0.0028,
+    "couverture_moyenne": 0.467,
+    "auc_moyenne": 0.772
+   },
+   "se_regler": {
+    "gain_moyen": -0.0038,
+    "pire_matiere": -0.053,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 1,
+    "pseudo_gain_moyen": 0.0016,
+    "couverture_moyenne": 0.479,
+    "auc_moyenne": 0.77
+   }
+  },
+  "nouveaute": {
+   "ancienne": {
+    "gain_moyen": 0.0,
+    "pire_matiere": 0.0,
+    "matieres_gagnees": 0,
+    "matieres_perdues": 0,
+    "pseudo_gain_moyen": 0.0,
+    "couverture_moyenne": 0.404,
+    "auc_moyenne": 0.625
+   },
+   "regle": {
+    "gain_moyen": 0.0672,
+    "pire_matiere": -0.018,
+    "matieres_gagnees": 10,
+    "matieres_perdues": 2,
+    "pseudo_gain_moyen": 0.0542,
+    "couverture_moyenne": 0.47,
+    "auc_moyenne": 0.635
+   },
+   "juge": {
+    "gain_moyen": 0.0487,
+    "pire_matiere": -0.215,
+    "matieres_gagnees": 8,
+    "matieres_perdues": 6,
+    "pseudo_gain_moyen": 0.0206,
+    "couverture_moyenne": 0.451,
+    "auc_moyenne": 0.644
+   },
+   "se_regler": {
+    "gain_moyen": 0.0996,
+    "pire_matiere": -0.096,
+    "matieres_gagnees": 9,
+    "matieres_perdues": 2,
+    "pseudo_gain_moyen": 0.073,
+    "couverture_moyenne": 0.499,
+    "auc_moyenne": 0.673
+   }
+  }
+ },
+ "politique_finale": {
+  "prevision": {
+   "K": 2,
+   "seuil": 0.2,
+   "liste": [
+    [
+     [],
+     "ancienne",
+     false
+    ],
+    [
+     [
+      "themes_du_cours"
+     ],
+     "melange",
+     true
+    ]
+   ],
+   "grille": {
+    "K=1 seuil=0.0": 0.0,
+    "K=1 seuil=0.02": 0.0,
+    "K=1 seuil=0.05": 0.0,
+    "K=1 seuil=0.1": 0.0,
+    "K=1 seuil=0.2": 0.0,
+    "K=2 seuil=0.0": -0.0314,
+    "K=2 seuil=0.02": -0.0536,
+    "K=2 seuil=0.05": -0.071,
+    "K=2 seuil=0.1": -0.0145,
+    "K=2 seuil=0.2": 0.0001,
+    "K=3 seuil=0.0": -0.2451,
+    "K=3 seuil=0.02": -0.0525,
+    "K=3 seuil=0.05": -0.3582,
+    "K=3 seuil=0.1": -0.1762,
+    "K=3 seuil=0.2": -0.0457,
+    "K=4 seuil=0.0": -0.2455,
+    "K=4 seuil=0.02": -0.0536,
+    "K=4 seuil=0.05": -0.3547,
+    "K=4 seuil=0.1": -0.1779,
+    "K=4 seuil=0.2": -0.0449,
+    "K=6 seuil=0.0": -0.2465,
+    "K=6 seuil=0.02": -0.1809,
+    "K=6 seuil=0.05": -0.2824,
+    "K=6 seuil=0.1": -0.1767,
+    "K=6 seuil=0.2": -0.083,
+    "K=8 seuil=0.0": -0.2711,
+    "K=8 seuil=0.02": -0.2694,
+    "K=8 seuil=0.05": -0.2444,
+    "K=8 seuil=0.1": -0.1775,
+    "K=8 seuil=0.2": -0.1796
+   }
+  },
+  "nouveaute": {
+   "K": 2,
+   "seuil": 0.0,
+   "liste": [
+    [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ],
+    [
+     [
+      "rotation_des_chapitres"
+     ],
+     "melange",
+     true
+    ]
+   ],
+   "grille": {
+    "K=1 seuil=0.0": -0.1415,
+    "K=1 seuil=0.02": -0.1415,
+    "K=1 seuil=0.05": -0.1415,
+    "K=1 seuil=0.1": -0.1415,
+    "K=1 seuil=0.2": -0.1415,
+    "K=2 seuil=0.0": -0.0534,
+    "K=2 seuil=0.02": -0.3195,
+    "K=2 seuil=0.05": -0.3034,
+    "K=2 seuil=0.1": -0.1059,
+    "K=2 seuil=0.2": -0.1481,
+    "K=3 seuil=0.0": -0.2404,
+    "K=3 seuil=0.02": -0.3201,
+    "K=3 seuil=0.05": -0.2938,
+    "K=3 seuil=0.1": -0.0913,
+    "K=3 seuil=0.2": -0.1506,
+    "K=4 seuil=0.0": -0.2281,
+    "K=4 seuil=0.02": -0.2648,
+    "K=4 seuil=0.05": -0.2163,
+    "K=4 seuil=0.1": -0.0972,
+    "K=4 seuil=0.2": -0.149,
+    "K=6 seuil=0.0": -0.2361,
+    "K=6 seuil=0.02": -0.261,
+    "K=6 seuil=0.05": -0.2219,
+    "K=6 seuil=0.1": -0.093,
+    "K=6 seuil=0.2": -0.1512,
+    "K=8 seuil=0.0": -0.1878,
+    "K=8 seuil=0.02": -0.2525,
+    "K=8 seuil=0.05": -0.224,
+    "K=8 seuil=0.1": -0.09,
+    "K=8 seuil=0.2": -0.1538
+   }
+  }
+ },
+ "adoptee": {
+  "prevision": {
+   "strategie": "regle",
+   "liste": [
+    [
+     [],
+     "ancienne",
+     false
+    ]
+   ],
+   "seuil": 0.0,
+   "critere": {
+    "ancienne": 0.0,
+    "regle": 0.0,
+    "se_regler": -0.0568
+   },
+   "marge": 0.275
+  },
+  "nouveaute": {
+   "strategie": "regle",
+   "liste": [
+    [
+     [
+      "voisinage"
+     ],
+     "melange",
+     false
+    ]
+   ],
+   "seuil": 0.0,
+   "critere": {
+    "ancienne": 0.0,
+    "regle": 0.0492,
+    "se_regler": 0.0036
+   },
+   "marge": 0.275
+  }
+ },
+ "auto_jugement": {
+  "ancienne": {
+   "marge": 0.3,
+   "fourchette_juste": 0.861,
+   "largeur_moyenne": 0.832,
+   "taches": 445
+  },
+  "regle": {
+   "marge": 0.275,
+   "fourchette_juste": 0.852,
+   "largeur_moyenne": 0.803,
+   "taches": 445
+  },
+  "juge": {
+   "marge": 0.3,
+   "fourchette_juste": 0.863,
+   "largeur_moyenne": 0.803,
+   "taches": 445
+  },
+  "se_regler": {
+   "marge": 0.325,
+   "fourchette_juste": 0.863,
+   "largeur_moyenne": 0.83,
+   "taches": 445
+  }
+ },
+ "appris_sur": [
+  "sss",
+  "management",
+  "cbph",
+  "i2d",
+  "hggsp",
+  "hlp",
+  "ses",
+  "droit",
+  "eco",
+  "svt",
+  "si",
+  "nsi",
+  "physique",
+  "maths"
+ ]
+}
