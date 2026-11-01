@@ -826,21 +826,174 @@
  },
  "programme": [
   {
+   "section": 21,
+   "titre": "8.3 Le respect de la concurrence",
+   "passages": 12,
+   "proba": 0.995,
+   "potentiel": 0.992,
+   "annees_tombees": 5,
+   "sur": 6,
+   "priorite": 0.997,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 260,
+     "texte": "Article L462-3 du Code de commerce : L'Autorité peut être consultée par les juridictions sur les pratiques anticoncurrentielles définies aux articles L. 420-1 à L. 420-2-2 et L. 420-5 ainsi qu'aux articles 101 et 102 du traité sur le fonctionnement de l'Union européenne et relevées dans les affaires dont elles sont saisies. Elle ne peut donner un avis qu'après une procédure contradictoire. Toutefo",
+     "proba": 0.995,
+     "potentiel": 0.992,
+     "deja_tombe": 5,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.9
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.06
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.03
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’internationalisation de l’économie française favorise-t-elle sa croissance ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?"
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 256,
+     "texte": "Son étude doit permettre d’aborder la protection dont elle bénéficie au niveau européen (articles 101 et 102 du traité sur le fonctionnement de l’Union européenne) parfois bien plus importante qu’en droit national. Il est juste fait mention du rôle de l’Autorité de la concurrence, qui veille au respect de la libre concurrence en France. En matière de concurrence déloyale, l’élève doit comprendre q",
+     "proba": 0.961,
+     "potentiel": 0.97,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "niveau"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.9
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.06
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.03
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Expliquez les raisons qui attirent les investissements directs étrangers en France."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Expliquez le lien entre l’augmentation du revenu d’un ménage et sa propension marginale à consommer."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 259,
+     "texte": "Article L481-2 du Code de commerce : <div align=\"left\"> Une pratique anticoncurrentielle mentionnée à l'article L. 481-1 est présumée établie de manière irréfragable à l'égard de la personne physique ou morale désignée au même article dès lors que son existence et son imputation à cette personne ont été constatées par une décision qui ne peut plus faire l'objet d'une voie de recours ordinaire pour",
+     "proba": 0.934,
+     "potentiel": 0.989,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.9
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.06
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.03
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les accords commerciaux de l’Union européenne avec des pays tiers profitent-ils aux entreprises européennes ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Identifiez l’arbitrage que fait chaque ménage à partir de son revenu disponible."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    }
+   ]
+  },
+  {
    "section": 18,
    "titre": "7.3 Les libertés individuelles et collectives",
    "passages": 15,
    "proba": 0.998,
-   "potentiel": 0.976,
+   "potentiel": 0.98,
    "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.997,
+   "priorite": 0.974,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 219,
      "texte": "Article L2281-10 du Code du travail : A défaut d'accord prévu à l'article L. 2242-11 ou en cas de non-respect de ses stipulations, l'accord traitant du droit d'expression comporte des stipulations sur : 1° Le niveau, le mode d'organisation, la fréquence et la durée des réunions permettant l'expression des salariés ; 2° Les outils numériques disponibles dans l'entreprise, permettant l'expression de",
      "proba": 0.998,
-     "potentiel": 0.976,
+     "potentiel": 0.921,
      "deja_tombe": 6,
      "evalue_sans_etre_dit": [
       "salaries",
@@ -886,14 +1039,12 @@
      }
     },
     {
-     "passage": 216,
-     "texte": "Le respect de la vie privée du salarié au travail et de la liberté d’expression est étudié au travers de situations mobilisant les outils numériques mis à disposition des salariés par l’entreprise et leur utilisation des réseaux sociaux. On montre que, si le droit de grève est constitutionnellement reconnu, le caractère illicite d’une grève ne permet pas au salarié d’être protégé par ce droit. L’é",
-     "proba": 0.977,
-     "potentiel": 0.967,
-     "deja_tombe": 4,
-     "evalue_sans_etre_dit": [
-      "salaries"
-     ],
+     "passage": 218,
+     "texte": "Article L1321-3 du Code du travail : Le règlement intérieur ne peut contenir : 1° Des dispositions contraires aux lois et règlements ainsi qu'aux stipulations des conventions et accords collectifs de travail applicables dans l'entreprise ou l'établissement ; 2° Des dispositions apportant aux droits des personnes et aux libertés individuelles et collectives des restrictions qui ne seraient pas just",
+     "proba": 0.899,
+     "potentiel": 0.98,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
@@ -914,12 +1065,12 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
-       "enonce": "Analysez les variations de la croissance française."
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
-       "enonce": "Expliquez l’évolution des dépenses publiques de 2018 à 2019."
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Proposez l’argumentation juridique que l’employeur pourra opposer à Mélina Semper."
       }
      ],
      "intention": {
@@ -937,7 +1088,7 @@
      "passage": 215,
      "texte": "Les limitations des libertés individuelles des salariés, notamment du fait des technologies numériques, sont admises dès lors qu’elles « sont justifiées par la nature de la tâche et proportionnées au but recherché ». Elles sont étudiées au travers du respect de la vie personnelle du salarié au travail et de la liberté d’expression. Le droit de grève, exemple emblématique des libertés collectives d",
      "proba": 0.97,
-     "potentiel": 0.925,
+     "potentiel": 0.8,
      "deja_tombe": 4,
      "evalue_sans_etre_dit": [
       "notamment"
@@ -984,67 +1135,65 @@
    ]
   },
   {
-   "section": 21,
-   "titre": "8.3 Le respect de la concurrence",
-   "passages": 12,
+   "section": 11,
+   "titre": "5.1 La formation du contrat",
+   "passages": 25,
    "proba": 0.995,
-   "potentiel": 0.998,
-   "annees_tombees": 5,
+   "potentiel": 0.869,
+   "annees_tombees": 6,
    "sur": 6,
-   "priorite": 0.995,
+   "priorite": 0.933,
    "niveau": "incontournable",
    "passages_cles": [
     {
-     "passage": 260,
-     "texte": "Article L462-3 du Code de commerce : L'Autorité peut être consultée par les juridictions sur les pratiques anticoncurrentielles définies aux articles L. 420-1 à L. 420-2-2 et L. 420-5 ainsi qu'aux articles 101 et 102 du traité sur le fonctionnement de l'Union européenne et relevées dans les affaires dont elles sont saisies. Elle ne peut donner un avis qu'après une procédure contradictoire. Toutefo",
-     "proba": 0.995,
-     "potentiel": 0.995,
-     "deja_tombe": 5,
+     "passage": 94,
+     "texte": "La plupart des contrats classiques simples ou simplifiés, y compris ceux conclus par des procédés numériques, peuvent servir de supports pédagogiques dès lors que les élèves peuvent à partir de ressources complémentaires manipuler ces objets en les rattachant au droit général des contrats.",
+     "proba": 0.964,
+     "potentiel": 0.844,
+     "deja_tombe": 4,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.9
+       "part": 0.67
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.11
       },
       {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.06
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.03
+       "part": 0.11
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : L’internationalisation de l’économie française favorise-t-elle sa croissance ?"
+       "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+       "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metropole",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques économiques de demande permettent-elles toujours de relancer la croissance ?"
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Commentez l’évolution des dépenses et des recettes publiques des administrations publiques."
       }
      ],
      "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
+      "fort": [],
       "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
        "forme_interrogative"
       ]
      }
     },
     {
-     "passage": 259,
-     "texte": "Article L481-2 du Code de commerce : <div align=\"left\"> Une pratique anticoncurrentielle mentionnée à l'article L. 481-1 est présumée établie de manière irréfragable à l'égard de la personne physique ou morale désignée au même article dès lors que son existence et son imputation à cette personne ont été constatées par une décision qui ne peut plus faire l'objet d'une voie de recours ordinaire pour",
-     "proba": 0.934,
-     "potentiel": 0.998,
+     "passage": 96,
+     "texte": "L’étude permettra aux élèves de comprendre la notion de contrat et de repérer l’existence d’un contrat valable dans une situation juridique ainsi que les principales obligations de chacune des parties.",
+     "proba": 0.94,
+     "potentiel": 0.861,
      "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1052,106 +1201,43 @@
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.9
+       "part": 0.67
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.11
       },
       {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.06
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.03
+       "part": 0.11
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les accords commerciaux de l’Union européenne avec des pays tiers profitent-ils aux entreprises européennes ?"
+       "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
+       "enonce": "Présentez la notion de taux d’épargne et retrouvez par le calcul la propension moyenne à épargner en 2020."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metropole",
-       "enonce": "Identifiez l’arbitrage que fait chaque ménage à partir de son revenu disponible."
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Montrez en quoi les dépenses publiques favorisent la consommation."
       }
      ],
      "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
+      "fort": [],
       "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
        "forme_interrogative"
       ]
      }
     },
     {
-     "passage": 256,
-     "texte": "Son étude doit permettre d’aborder la protection dont elle bénéficie au niveau européen (articles 101 et 102 du traité sur le fonctionnement de l’Union européenne) parfois bien plus importante qu’en droit national. Il est juste fait mention du rôle de l’Autorité de la concurrence, qui veille au respect de la libre concurrence en France. En matière de concurrence déloyale, l’élève doit comprendre q",
-     "proba": 0.961,
-     "potentiel": 0.918,
-     "deja_tombe": 4,
-     "evalue_sans_etre_dit": [
-      "niveau"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.9
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.06
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.03
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Expliquez les raisons qui attirent les investissements directs étrangers en France."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole",
-       "enonce": "Expliquez le lien entre l’augmentation du revenu d’un ménage et sa propension marginale à consommer."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "section": 11,
-   "titre": "5.1 La formation du contrat",
-   "passages": 25,
-   "proba": 0.995,
-   "potentiel": 0.932,
-   "annees_tombees": 6,
-   "sur": 6,
-   "priorite": 0.98,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
      "passage": 98,
      "texte": "L’étude des clauses particulières de contrats a pour objectif de montrer qu’elles permettent de répondre aux besoins particuliers des parties et à un impératif de prévision et de sécurité juridique. La qualité de consommateur et de professionnel est désormais définie dans la loi (Code de la consommation article liminaire). La qualification juridique des parties permet de distinguer le consommateur",
      "proba": 0.995,
-     "potentiel": 0.932,
+     "potentiel": 0.43,
      "deja_tombe": 5,
      "evalue_sans_etre_dit": [
       "consentement"
@@ -1192,247 +1278,6 @@
        "forme_interrogative"
       ]
      }
-    },
-    {
-     "passage": 102,
-     "texte": "Article 1124 du Code civil : La promesse unilatérale est le contrat par lequel une partie, le promettant, accorde à l'autre, le bénéficiaire, le droit d'opter pour la conclusion d'un contrat dont les éléments essentiels sont déterminés, et pour la formation duquel ne manque que le consentement du bénéficiaire. La révocation de la promesse pendant le temps laissé au bénéficiaire pour opter n'empêch",
-     "proba": 0.97,
-     "potentiel": 0.834,
-     "deja_tombe": 4,
-     "evalue_sans_etre_dit": [
-      "consentement"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.67
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.11
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.11
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
-       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
-       "enonce": "Retrouvez les conséquences du manque de coordination des politiques budgétaires au sein de la zone euro."
-      }
-     ],
-     "intention": {
-      "fort": [],
-      "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 94,
-     "texte": "La plupart des contrats classiques simples ou simplifiés, y compris ceux conclus par des procédés numériques, peuvent servir de supports pédagogiques dès lors que les élèves peuvent à partir de ressources complémentaires manipuler ces objets en les rattachant au droit général des contrats.",
-     "proba": 0.964,
-     "potentiel": 0.741,
-     "deja_tombe": 4,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.67
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.11
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.11
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2022-nouvelle-caledonie",
-       "enonce": "Montrez-en quoi les investissements directs à l’étranger (IDE) ainsi que le label relance peuvent être bénéfiques à l’activité économique de la France."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2023-liban",
-       "enonce": "Commentez l’évolution des dépenses et des recettes publiques des administrations publiques."
-      }
-     ],
-     "intention": {
-      "fort": [],
-      "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "section": 12,
-   "titre": "5.2 L’exécution du contrat",
-   "passages": 18,
-   "proba": 0.956,
-   "potentiel": 0.932,
-   "annees_tombees": 5,
-   "sur": 6,
-   "priorite": 0.939,
-   "niveau": "incontournable",
-   "passages_cles": [
-    {
-     "passage": 118,
-     "texte": "L’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en demeure est une formalité exigée pour constater l’inexécution d’un débiteur. Elle est nécessaire lorsque l’exécution du contrat reste possible. On distingue résiliation et résolution d’un contrat synall",
-     "proba": 0.912,
-     "potentiel": 0.932,
-     "deja_tombe": 3,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.56
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.21
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
-       "enonce": "Déterminez les enjeux de la requalification d’un contrat en contrat de travail pour le salarié et pour l’entreprise."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Décrivez l’évolution du taux de croissance entre 2007 et 2020."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 129,
-     "texte": "Article L642-11 du Code de commerce : Le cessionnaire rend compte au liquidateur de l'application des dispositions prévues par le plan de cession. Si le cessionnaire n'exécute pas ses engagements, le tribunal peut, à la demande du ministère public d'une part, du liquidateur, d'un créancier, de tout intéressé ou d'office, après avoir recueilli l'avis du ministère public, d'autre part, prononcer la ",
-     "proba": 0.927,
-     "potentiel": 0.816,
-     "deja_tombe": 3,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.56
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.21
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Déterminez les effets de la crise sur la demande de biens et services pour les entreprises françaises."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 131,
-     "texte": "Capacités attendues : l'élève est capable de distinguer la responsabilité civile de la responsabilité pénale ; d’analyser ; et de qualifier les faits pour identifier le ou les régimes de responsabilité ; applicables (régimes spéciaux, responsabilité contractuelle et extracontractuelle) ; de qualifier les dommages juridiquement réparables ; conditions d’application des règles relatives à la ; de vé",
-     "proba": 0.887,
-     "potentiel": 0.852,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.56
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.21
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2025-asie",
-       "enonce": "Après avoir rappelé comment fonctionne le mécanisme assurantiel, vous répondrez à la question suivante à l’aide de l’annexe 4 : Pourquoi le mécanisme assurantiel est-il indispensable au bon fonctionnement du droit de la "
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
-       "enonce": "Développez l'argumentation juridique qu’Ellen DIAGNOU peut avancer pour engager la responsabilité civile de Jared CORNEY."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
     }
    ]
   },
@@ -1441,17 +1286,17 @@
    "titre": "4.1 Les droits extra- patrimoniaux",
    "passages": 10,
    "proba": 0.848,
-   "potentiel": 0.949,
+   "potentiel": 0.976,
    "annees_tombees": 3,
    "sur": 6,
-   "priorite": 0.92,
+   "priorite": 0.924,
    "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 77,
      "texte": "Article L228-3-6 du Code de commerce : I.-Les données à caractère personnel collectées par les personnes mentionnées aux articles L. 228-2 à L. 228-3-1 selon les modalités définies aux mêmes articles L. 228-2 à L. 228-3-1 font l'objet d'un traitement automatisé mis en œuvre par la société émettrice aux fins d'identification des propriétaires de ses titres et de communication avec ces propriétaires",
      "proba": 0.848,
-     "potentiel": 0.949,
+     "potentiel": 0.976,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1497,7 +1342,7 @@
      "passage": 79,
      "texte": "Article 479 du Code civil : Lorsque le mandat s'étend à la protection de la personne, les droits et obligations du mandataire sont définis par les articles 457-1 à 459-2. Toute stipulation contraire est réputée non écrite. Le mandat peut prévoir que le mandataire exercera les missions que le code de la santé publique et le code de l'action sociale et des familles confient au représentant de la per",
      "proba": 0.736,
-     "potentiel": 0.909,
+     "potentiel": 0.965,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -1542,14 +1387,12 @@
      }
     },
     {
-     "passage": 72,
-     "texte": "Le droit confère à la personne, par le seul fait de son existence, des droits inaliénables, insaisissables et imprescriptibles. Les données formelles et informelles laissées par une personne juridique sur internet constituent son identité numérique. Les données à caractère personnel doivent être particulièrement protégées. Pour illustrer les caractères et la protection des droits extrapatrimoniaux",
-     "proba": 0.726,
-     "potentiel": 0.914,
+     "passage": 74,
+     "texte": "Article L1263-2 du Code du travail : La nature des informations communicables et les conditions dans lesquelles est assurée la protection des données à caractère personnel sont précisées par décret en Conseil d'Etat.",
+     "proba": 0.732,
+     "potentiel": 0.96,
      "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "travers"
-     ],
+     "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
@@ -1570,12 +1413,12 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
-       "enonce": "Développez l’argumentation juridique que la société pourrait lui opposer."
+       "sujet": "stmg-spe-droit-economie-2022-metropole-remplacement",
+       "enonce": "Commentez l’évolution de la dette publique en France entre 2010 et 2020."
       },
       {
        "sujet": "stmg-spe-droit-economie-2023-la-reunion",
-       "enonce": "Le RGPD protège-t-il efficacement les données formelles et informelles laissées par une personne juridique sur internet ?"
+       "enonce": "Développez l’argumentation juridique que Bryan SANDERS peut avancer pour contester le licenciement."
       }
      ],
      "intention": {
@@ -1592,148 +1435,150 @@
    ]
   },
   {
-   "section": 13,
-   "titre": "6.1 Le dommage réparable",
-   "passages": 11,
-   "proba": 0.844,
-   "potentiel": 0.96,
-   "annees_tombees": 2,
+   "section": 12,
+   "titre": "5.2 L’exécution du contrat",
+   "passages": 18,
+   "proba": 0.956,
+   "potentiel": 0.919,
+   "annees_tombees": 5,
    "sur": 6,
    "priorite": 0.919,
    "niveau": "incontournable",
    "passages_cles": [
     {
-     "passage": 136,
-     "texte": "L’étude de cas concrets doit permettre aux élèves de comprendre la notion de dommages réparables et de qualifier ceux-ci en ayant recours à l’une des deux classifications juridiques classiques : --les dommages matériels, moraux et corporels ; --les dommages patrimoniaux et extrapatrimoniaux. L’étude des caractères du dommage réparable permet aux élèves de distinguer entre les dommages qui pourront",
-     "proba": 0.844,
-     "potentiel": 0.96,
+     "passage": 129,
+     "texte": "Article L642-11 du Code de commerce : Le cessionnaire rend compte au liquidateur de l'application des dispositions prévues par le plan de cession. Si le cessionnaire n'exécute pas ses engagements, le tribunal peut, à la demande du ministère public d'une part, du liquidateur, d'un créancier, de tout intéressé ou d'office, après avoir recueilli l'avis du ministère public, d'autre part, prononcer la ",
+     "proba": 0.927,
+     "potentiel": 0.876,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.56
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.21
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Déterminez les effets de la crise sur la demande de biens et services pour les entreprises françaises."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Distinguez les principaux éléments du plan de relance de la France en 2020."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 131,
+     "texte": "Capacités attendues : l'élève est capable de distinguer la responsabilité civile de la responsabilité pénale ; d’analyser ; et de qualifier les faits pour identifier le ou les régimes de responsabilité ; applicables (régimes spéciaux, responsabilité contractuelle et extracontractuelle) ; de qualifier les dommages juridiquement réparables ; conditions d’application des règles relatives à la ; de vé",
+     "proba": 0.887,
+     "potentiel": 0.872,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.56
+      },
+      {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.5
+       "part": 0.21
       },
       {
        "facette": 4,
        "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.25
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.25
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Qualifiez juridiquement les faits et les dommages."
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Après avoir rappelé comment fonctionne le mécanisme assurantiel, vous répondrez à la question suivante à l’aide de l’annexe 4 : Pourquoi le mécanisme assurantiel est-il indispensable au bon fonctionnement du droit de la "
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Développez l’argumentation juridique que l’entreprise Energymax peut avancer pour s’exonérer de sa responsabilité."
+       "sujet": "stmg-spe-droit-economie-2025-nouvelle-caledonie",
+       "enonce": "Développez l'argumentation juridique qu’Ellen DIAGNOU peut avancer pour engager la responsabilité civile de Jared CORNEY."
       }
      ],
      "intention": {
-      "fort": [],
-      "faible": [
+      "fort": [
        "proximite_corrige_section",
-       "questions_dans_la_partie",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
        "forme_interrogative"
       ]
      }
     },
     {
-     "passage": 141,
-     "texte": "Article 1247 du Code civil : Est réparable, dans les conditions prévues au présent titre, le préjudice écologique consistant en une atteinte non négligeable aux éléments ou aux fonctions des écosystèmes ou aux bénéfices collectifs tirés par l'homme de l'environnement.",
-     "proba": 0.675,
-     "potentiel": 0.714,
-     "deja_tombe": 1,
+     "passage": 118,
+     "texte": "L’étude de situations juridiques intégrant des dispositions contractuelles permet de montrer les différentes sanctions de l’inexécution du contrat et d’aborder l’exception d’inexécution. La mise en demeure est une formalité exigée pour constater l’inexécution d’un débiteur. Elle est nécessaire lorsque l’exécution du contrat reste possible. On distingue résiliation et résolution d’un contrat synall",
+     "proba": 0.912,
+     "potentiel": 0.801,
+     "deja_tombe": 3,
      "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "atteinte"
-     ],
+     "toujours_nomme": [],
      "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.56
+      },
       {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.5
+       "part": 0.21
       },
       {
        "facette": 4,
        "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.25
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.25
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable."
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Déterminez les enjeux de la requalification d’un contrat en contrat de travail pour le salarié et pour l’entreprise."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi."
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Décrivez l’évolution du taux de croissance entre 2007 et 2020."
       }
      ],
      "intention": {
-      "fort": [],
-      "faible": [
+      "fort": [
        "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 138,
-     "texte": "Article 1252 du Code civil : Indépendamment de la réparation du préjudice écologique, le juge, saisi d'une demande en ce sens par une personne mentionnée à l'article 1248, peut prescrire les mesures raisonnables propres à prévenir ou faire cesser le dommage.",
-     "proba": 0.669,
-     "potentiel": 0.527,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [
-      "reparation"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.5
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.25
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable."
-      }
-     ],
-     "intention": {
-      "fort": [],
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
       "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
        "forme_interrogative"
       ]
      }
@@ -1745,17 +1590,17 @@
    "titre": "7.1 Le contrat de travail à durée indéterminée formes de contrat de travail",
    "passages": 23,
    "proba": 0.911,
-   "potentiel": 0.922,
+   "potentiel": 0.965,
    "annees_tombees": 4,
    "sur": 6,
-   "priorite": 0.913,
-   "niveau": "probable",
+   "priorite": 0.911,
+   "niveau": "incontournable",
    "passages_cles": [
     {
      "passage": 191,
      "texte": "Article L1243-11-1 du Code du travail : Lorsque l'employeur propose que la relation contractuelle de travail se poursuive après l'échéance du terme du contrat à durée déterminée sous la forme d'un contrat à durée indéterminée pour occuper le même emploi ou un emploi similaire, assorti d'une rémunération au moins équivalente pour une durée de travail équivalente, relevant de la même classification ",
      "proba": 0.848,
-     "potentiel": 0.922,
+     "potentiel": 0.955,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1799,7 +1644,7 @@
      "passage": 194,
      "texte": "Article L1252-9 du Code du travail : La rupture du contrat de travail à temps partagé est réalisée selon les dispositions prévues au titre III, relative aux règles de rupture du contrat de travail à durée indéterminée.",
      "proba": 0.748,
-     "potentiel": 0.854,
+     "potentiel": 0.965,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1843,7 +1688,7 @@
      "passage": 195,
      "texte": "Article L6325-5 du Code du travail : Le contrat de professionnalisation est un contrat de travail à durée déterminée ou à durée indéterminée. Il est établi par écrit. Lorsqu'il est à durée déterminée, il est conclu en application de l'article L. 1242-3. Le contrat de professionnalisation est déposé auprès de l'autorité administrative.",
      "proba": 0.765,
-     "potentiel": 0.841,
+     "potentiel": 0.901,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1890,17 +1735,17 @@
    "titre": "7.2 La rupture du contrat de travail",
    "passages": 14,
    "proba": 0.931,
-   "potentiel": 0.936,
+   "potentiel": 0.982,
    "annees_tombees": 5,
    "sur": 6,
-   "priorite": 0.878,
+   "priorite": 0.887,
    "niveau": "probable",
    "passages_cles": [
     {
      "passage": 209,
      "texte": "Article L1237-19-2 du Code du travail : L'acceptation par l'employeur de la candidature du salarié dans le cadre de la rupture conventionnelle collective emporte rupture du contrat de travail d'un commun accord des parties, le cas échéant dans les conditions prévues à l'article L. 1237-18-4. Les salariés bénéficiant d'une protection mentionnée au chapitre Ier du titre Ier du livre IV de la deuxièm",
      "proba": 0.779,
-     "potentiel": 0.936,
+     "potentiel": 0.982,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -1941,10 +1786,62 @@
      }
     },
     {
+     "passage": 206,
+     "texte": "Article L1235-7 du Code du travail : Toute contestation portant sur le licenciement pour motif économique se prescrit par douze mois à compter de la dernière réunion du comité social et économique ou, dans le cadre de l'exercice par le salarié de son droit individuel à contester le licenciement pour motif économique, à compter de la notification de celui-ci.",
+     "proba": 0.931,
+     "potentiel": 0.74,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [
+      "notification",
+      "salarie"
+     ],
+     "toujours_nomme": [
+      "motif",
+      "licenciement",
+      "contester",
+      "derniere"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.29
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.29
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.19
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Justifiez l’existence des règles de procédure en matière de licenciement individuel."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-asie",
+       "enonce": "Présentez l’argumentation juridique que Matthieu FONTET pourrait opposer à Pascal MADANI pour contester son licenciement."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
      "passage": 207,
      "texte": "Article L1237-11 du Code du travail : L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du licenciement ou de la démission, ne peut être imposée par l'une ou l'autre des parties. Elle résulte d'une convention signée par les parties au contrat. Elle est soumise aux dispositions de la présente se",
      "proba": 0.893,
-     "potentiel": 0.768,
+     "potentiel": 0.728,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [
       "salarie"
@@ -1987,46 +1884,147 @@
        "forme_interrogative"
       ]
      }
-    },
+    }
+   ]
+  },
+  {
+   "section": 13,
+   "titre": "6.1 Le dommage réparable",
+   "passages": 11,
+   "proba": 0.844,
+   "potentiel": 0.891,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.881,
+   "niveau": "probable",
+   "passages_cles": [
     {
-     "passage": 199,
-     "texte": "L’étude de la rupture du contrat de travail porte sur les ruptures traditionnelles (démission, retraite, licenciement) mais aussi sur des ruptures plus récentes (rupture conventionnelle individuelle et collective) et insiste sur l’encadrement par le droit des ruptures à l’initiative de l’employeur et conventionnelles. Dans ce cadre, la validité d’un licenciement pour motif personnel ou pour motif ",
-     "proba": 0.888,
-     "potentiel": 0.73,
+     "passage": 136,
+     "texte": "L’étude de cas concrets doit permettre aux élèves de comprendre la notion de dommages réparables et de qualifier ceux-ci en ayant recours à l’une des deux classifications juridiques classiques : --les dommages matériels, moraux et corporels ; --les dommages patrimoniaux et extrapatrimoniaux. L’étude des caractères du dommage réparable permet aux élèves de distinguer entre les dommages qui pourront",
+     "proba": 0.844,
+     "potentiel": 0.852,
      "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "aussi"
-     ],
-     "toujours_nomme": [
-      "motif",
-      "licenciement",
-      "mais"
-     ],
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
      "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.29
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.29
-      },
       {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.19
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.25
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Résumez les faits, les parties en utilisant des qualifications juridiques."
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Qualifiez juridiquement les faits et les dommages."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Précisez le type de licenciement mis en œuvre."
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Développez l’argumentation juridique que l’entreprise Energymax peut avancer pour s’exonérer de sa responsabilité."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 141,
+     "texte": "Article 1247 du Code civil : Est réparable, dans les conditions prévues au présent titre, le préjudice écologique consistant en une atteinte non négligeable aux éléments ou aux fonctions des écosystèmes ou aux bénéfices collectifs tirés par l'homme de l'environnement.",
+     "proba": 0.675,
+     "potentiel": 0.891,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "atteinte"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Développez l’argumentation juridique que l’association SLP peut avancer pour demander la réparation du préjudice subi."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 139,
+     "texte": "Article L152-1 du Code de commerce : Toute atteinte au secret des affaires telle que prévue aux articles L. 151-4 à L. 151-6 engage la responsabilité civile de son auteur.",
+     "proba": 0.67,
+     "potentiel": 0.661,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "civile"
+     ],
+     "toujours_nomme": [
+      "atteinte"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2026-polynesie",
+       "enonce": "Après avoir rappelé la distinction entre responsabilité civile et responsabilité pénale, vous répondrez à la question suivante à l’aide de l’annexe 4 et de vos connaissances personnelles : Pourquoi existe-t-il plusieurs "
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Expliquez pourquoi, d'une manière générale, la force majeure permet l'exonération du responsable."
       }
      ],
      "intention": {
@@ -2045,64 +2043,17 @@
    "titre": "8.2 La société commerciale",
    "passages": 14,
    "proba": 0.725,
-   "potentiel": 0.915,
+   "potentiel": 0.968,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.819,
+   "priorite": 0.827,
    "niveau": "probable",
    "passages_cles": [
-    {
-     "passage": 246,
-     "texte": "Article L249-1 du Code de commerce : Les personnes physiques coupables des infractions prévues aux chapitres Ier à VIII du présent titre encourent également à titre de peines complémentaires l'interdiction, suivant les modalités prévues par l'article 131-27 du code pénal, soit d'exercer une fonction publique ou d'exercer l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'ex",
-     "proba": 0.714,
-     "potentiel": 0.915,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "commerciale",
-      "soit"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.25
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
-       "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
-       "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi."
-      }
-     ],
-     "intention": {
-      "fort": [],
-      "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
-    },
     {
      "passage": 245,
      "texte": "Article 1840 du Code civil : Les fondateurs, ainsi que les premiers membres des organes de gestion, de direction ou d'administration sont solidairement responsables du préjudice causé soit par le défaut d'une mention obligatoire dans les statuts, soit par l'omission ou l'accomplissement irrégulier d'une formalité prescrite pour la constitution de la société. En cas de modification des statuts, les",
      "proba": 0.71,
-     "potentiel": 0.891,
+     "potentiel": 0.968,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "soit"
@@ -2147,10 +2098,57 @@
      }
     },
     {
+     "passage": 246,
+     "texte": "Article L249-1 du Code de commerce : Les personnes physiques coupables des infractions prévues aux chapitres Ier à VIII du présent titre encourent également à titre de peines complémentaires l'interdiction, suivant les modalités prévues par l'article 131-27 du code pénal, soit d'exercer une fonction publique ou d'exercer l'activité professionnelle ou sociale dans l'exercice ou à l'occasion de l'ex",
+     "proba": 0.714,
+     "potentiel": 0.96,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "commerciale",
+      "soit"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+       "enonce": "Expliquez pour quelles raisons les firmes multinationales organisent leur production au niveau mondial."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
+       "enonce": "Montrez l’effet de la mondialisation des chaînes de valeur pour les consommateurs et pour le marché de l’emploi."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
      "passage": 248,
      "texte": "Article L223-33 du Code de commerce : Si l'augmentation du capital est réalisée, soit en totalité, soit en partie par des apports en nature, les dispositions de l'article L. 223-9 sont applicables. Le commissaire aux apports est désigné à l'unanimité des associés ou, à défaut, par une décision de justice à la demande d'un associé ou du gérant. Lorsqu'il n'y a pas eu de commissaire aux apports ou l",
      "proba": 0.725,
-     "potentiel": 0.865,
+     "potentiel": 0.942,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "soit"
@@ -2198,342 +2196,21 @@
    ]
   },
   {
-   "section": 14,
-   "titre": "6.2 Les différents régimes de responsabilité régimes spéciaux responsabilité contractuelle responsabilité extra- contractuelle",
-   "passages": 19,
-   "proba": 0.845,
-   "potentiel": 0.914,
-   "annees_tombees": 2,
-   "sur": 6,
-   "priorite": 0.799,
-   "niveau": "probable",
-   "passages_cles": [
-    {
-     "passage": 158,
-     "texte": "Dans tous les autres cas, les règles de la responsabilité civile extracontractuelle (anciennement délictuelle) sont seules applicables. Le régime de la responsabilité du fait personnel est le plus souvent cumulable avec l’un des autres régimes. Les autres régimes de responsabilité applicables en fonction de la qualification des faits constituent des responsabilités objectives qui dispensent la vic",
-     "proba": 0.68,
-     "potentiel": 0.914,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "civile",
-      "auteur",
-      "extracontractuelle",
-      "qualification",
-      "faute",
-      "regime"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.31
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.15
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 159,
-     "texte": "Article 1245-17 du Code civil : Les dispositions du présent chapitre ne portent pas atteinte aux droits dont la victime d'un dommage peut se prévaloir au titre du droit de la responsabilité contractuelle ou extracontractuelle ou au titre d'un régime spécial de responsabilité. Le producteur reste responsable des conséquences de sa faute et de celle des personnes dont il répond.",
-     "proba": 0.681,
-     "potentiel": 0.887,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "extracontractuelle",
-      "faute",
-      "regime",
-      "victime",
-      "dommage"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.31
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.15
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
-       "enonce": "Qualifiez juridiquement les parties, les faits et les dommages."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique que l’association MER & TERRE peut avancer pour engager la responsabilité de la société GADGET."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 143,
-     "texte": "L’étude porte sur les seuls éléments constitutifs de la responsabilité que devra prouver la victime pour obtenir la réparation de ses dommages. Ces éléments sont étudiés dans des situations juridiques concrètes qui font appel aux différents régimes de responsabilité (cf. 6.2.2. et 6.2.3.). Il ne s’agit pas de connaître le détail des règles d’indemnisation selon les régimes de responsabilité ou sel",
-     "proba": 0.675,
-     "potentiel": 0.863,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "indemnisation",
-      "regime",
-      "victime"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.38
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.31
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.15
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Justifiez l’intérêt de la diversité des régimes de responsabilité civile."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "section": 19,
-   "titre": "8.1 L’entreprise individuelle",
-   "passages": 12,
-   "proba": 0.647,
-   "potentiel": 0.973,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.795,
-   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
-   "passages_cles": [
-    {
-     "passage": 233,
-     "texte": "Article L223-1 du Code de commerce : La société à responsabilité limitée est instituée par une ou plusieurs personnes qui ne supportent les pertes qu'à concurrence de leurs apports. Lorsque la société ne comporte qu'une seule personne, celle-ci est dénommée \"associé unique\". L'associé unique exerce les pouvoirs dévolus à l'assemblée des associés par les dispositions du présent chapitre. Un décret ",
-     "proba": 0.641,
-     "potentiel": 0.973,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.77
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.15
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique sociale en France réduit-elle les inégalités de revenus ?"
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Retrouvez par le calcul le taux d’épargne de l’ensemble des ménages."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 231,
-     "texte": "Article L526-6 du Code de commerce : Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligatio",
-     "proba": 0.634,
-     "potentiel": 0.951,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "patrimoine"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.77
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.15
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
-       "enonce": "Qualifiez le poids des impôts sur le revenu par rapport à l’ensemble des prélèvements obligatoires."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Comparez l’évolution du taux d’épargne des ménages selon le quintile de revenus."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 234,
-     "texte": "Article 233 du Code civil : Le divorce peut être demandé conjointement par les époux lorsqu'ils acceptent le principe de la rupture du mariage sans considération des faits à l'origine de celle-ci. Il peut être demandé par l'un ou l'autre des époux ou par les deux lorsque chacun d'eux, assisté d'un avocat, a accepté le principe de la rupture du mariage par acte sous signature privée contresigné par",
-     "proba": 0.642,
-     "potentiel": 0.892,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.77
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.15
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
-       "part": 0.08
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-polynesie",
-       "enonce": "Qualifiez juridiquement les faits, les parties et les dommages."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-polynesie",
-       "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    }
-   ]
-  },
-  {
    "section": 15,
    "titre": "6.3 Les moyens d’exonération",
    "passages": 11,
    "proba": 0.692,
-   "potentiel": 0.878,
+   "potentiel": 0.975,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.794,
+   "priorite": 0.823,
    "niveau": "probable",
    "passages_cles": [
     {
      "passage": 169,
      "texte": "Article L5134-31 du Code du travail : Les embauches réalisées en contrat d'accompagnement dans l'emploi donnent droit à l'exonération : 1° Pour les personnes morales mentionnées aux 1° et 2° de l'article L. 5134-21 du présent code, des cotisations à la charge de l'employeur au titre des assurances sociales et des allocations familiales, pendant la durée d'attribution de l'aide à l'insertion profes",
      "proba": 0.689,
-     "potentiel": 0.878,
+     "potentiel": 0.975,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -2579,60 +2256,10 @@
      }
     },
     {
-     "passage": 166,
-     "texte": "Article 1245-12 du Code civil : La responsabilité du producteur peut être réduite ou supprimée, compte tenu de toutes les circonstances, lorsque le dommage est causé conjointement par un défaut du produit et par la faute de la victime ou d'une personne dont la victime est responsable.",
-     "proba": 0.686,
-     "potentiel": 0.847,
-     "deja_tombe": 1,
-     "evalue_sans_etre_dit": [
-      "victime",
-      "faute",
-      "dommage"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 0,
-       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
-       "part": 0.29
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.29
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.29
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2021-polynesie",
-       "enonce": "Expliquez pourquoi une victime ne peut agir sur le fondement de la responsabilité extracontractuelle en cas de dommages causés à l’occasion de l’exécution d’un contrat."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-polynesie",
-       "enonce": "Proposez l'argumentation juridique que la SARL « Ardicuisines » pourrait développer pour s’exonérer de sa responsabilité."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "centralite_de_la_section"
-      ],
-      "faible": [
-       "questions_dans_la_partie",
-       "taille_de_la_section",
-       "proximite_enonce_passage"
-      ]
-     }
-    },
-    {
      "passage": 172,
      "texte": "Capacités attendues : l'élève est capable de qualifier une relation de travail dans une situation donnée ; de distinguer le contrat de travail et le contrat d’entreprise ; les éléments essentiels d’un contrat de travail à partir d’un contrat donné ; de repérer ; de caractériser le contrat de travail dans une situation donnée ; la conformité d’un contrat de travail à durée indéterminée aux normes ;",
      "proba": 0.692,
-     "potentiel": 0.834,
+     "potentiel": 0.963,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "donnee",
@@ -2677,6 +2304,368 @@
        "proximite_enonce_passage"
       ]
      }
+    },
+    {
+     "passage": 166,
+     "texte": "Article 1245-12 du Code civil : La responsabilité du producteur peut être réduite ou supprimée, compte tenu de toutes les circonstances, lorsque le dommage est causé conjointement par un défaut du produit et par la faute de la victime ou d'une personne dont la victime est responsable.",
+     "proba": 0.686,
+     "potentiel": 0.806,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "victime",
+      "faute",
+      "dommage"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
+       "part": 0.29
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.29
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.29
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Expliquez pourquoi une victime ne peut agir sur le fondement de la responsabilité extracontractuelle en cas de dommages causés à l’occasion de l’exécution d’un contrat."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Proposez l'argumentation juridique que la SARL « Ardicuisines » pourrait développer pour s’exonérer de sa responsabilité."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "centralite_de_la_section"
+      ],
+      "faible": [
+       "questions_dans_la_partie",
+       "taille_de_la_section",
+       "proximite_enonce_passage"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 19,
+   "titre": "8.1 L’entreprise individuelle",
+   "passages": 12,
+   "proba": 0.647,
+   "potentiel": 0.986,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.795,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 233,
+     "texte": "Article L223-1 du Code de commerce : La société à responsabilité limitée est instituée par une ou plusieurs personnes qui ne supportent les pertes qu'à concurrence de leurs apports. Lorsque la société ne comporte qu'une seule personne, celle-ci est dénommée \"associé unique\". L'associé unique exerce les pouvoirs dévolus à l'assemblée des associés par les dispositions du présent chapitre. Un décret ",
+     "proba": 0.641,
+     "potentiel": 0.984,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.77
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.15
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique sociale en France réduit-elle les inégalités de revenus ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Retrouvez par le calcul le taux d’épargne de l’ensemble des ménages."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 231,
+     "texte": "Article L526-6 du Code de commerce : Pour l'exercice de son activité en tant qu'entrepreneur individuel à responsabilité limitée, l'entrepreneur individuel affecte à son activité professionnelle un patrimoine séparé de son patrimoine personnel, sans création d'une personne morale, dans les conditions prévues à l'article L. 526-7. Ce patrimoine est composé de l'ensemble des biens, droits, obligatio",
+     "proba": 0.634,
+     "potentiel": 0.986,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "patrimoine"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.77
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.15
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Qualifiez le poids des impôts sur le revenu par rapport à l’ensemble des prélèvements obligatoires."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Comparez l’évolution du taux d’épargne des ménages selon le quintile de revenus."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 236,
+     "texte": "Article L680-5 du Code de commerce : Lorsque les dispositions des titres Ier à VI du présent livre sont appliquées à raison d'une activité professionnelle exercée sans affectation de patrimoine, les éléments d'actif et de passif qui, le cas échéant, proviennent d'un patrimoine dont l'affectation a cessé de produire ses effets en application de l'article L. 526-15 sont considérés comme étant hors d",
+     "proba": 0.647,
+     "potentiel": 0.914,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "patrimoine"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.77
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.15
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.08
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metro-cand-libre",
+       "enonce": "Identifiez les sources des inégalités de revenus."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Identifiez les déterminants de l’épargne des ménages français."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "3.1 La personne juridique physique morale",
+   "passages": 7,
+   "proba": 0.838,
+   "potentiel": 0.904,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.781,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 57,
+     "texte": "Article L645-8 du Code de commerce : Le mandataire judiciaire ou la personne choisie sur le fondement du premier alinéa du II de l'article L. 812-2 ou sur le fondement du III de ce même article informe sans délai les créanciers connus de l'ouverture de la procédure et les invite à lui communiquer, dans un délai de deux mois à compter de la réception de cet avis, le montant de leur créance avec ind",
+     "proba": 0.664,
+     "potentiel": 0.904,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "reception",
+      "avis"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 55,
+     "texte": "Article 1243 du Code civil : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il fût égaré ou échappé.",
+     "proba": 0.838,
+     "potentiel": 0.008,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "soit",
+      "proprietaire",
+      "responsable"
+     ],
+     "toujours_nomme": [
+      "pendant"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-centres-etrangers",
+       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-centres-etrangers",
+       "enonce": "Développez l’argumentation juridique que peut avancer Marc PONTEAU pour faire reconnaître la responsabilité de l’établissement « Animaux en vacances »."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 54,
+     "texte": "Article L654-1 du Code de commerce : Les dispositions de la présente section sont applicables : 1° A toute personne exerçant une activité commerciale ou artisanale, à tout agriculteur et à toute personne physique exerçant une activité professionnelle indépendante, y compris une profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ; 2° A toute personne qu",
+     "proba": 0.367,
+     "potentiel": 0.105,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "protege",
+      "commerciale"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
+       "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
     }
    ]
   },
@@ -2685,17 +2674,17 @@
    "titre": "2.3 Le recours au juge",
    "passages": 14,
    "proba": 0.837,
-   "potentiel": 0.779,
+   "potentiel": 0.88,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.731,
+   "priorite": 0.771,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 38,
      "texte": "Le recours au juge obéit à plusieurs principes fondamentaux. Sont exclusivement abordés le droit au procès équitable, le droit au double degré de juridiction, les principes relatifs à la compétence d’attribution, les droits de la la présomption d’innocence. défense, L’étude de procès civil et pénal permet d’identifier et de mesurer les enjeux des différentes phases qui caractérisent le procès : l'",
      "proba": 0.648,
-     "potentiel": 0.779,
+     "potentiel": 0.88,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -2741,7 +2730,7 @@
      "passage": 42,
      "texte": "Article L464-8 du Code de commerce : Les décisions de l'Autorité de la concurrence mentionnées aux articles L. 462-8, L. 464-2, L. 464-3, L. 464-6, L. 464-6-1 et L. 752-27 sont notifiées aux parties en cause et au ministre chargé de l'économie, qui peuvent, dans le délai d'un mois, introduire un recours en annulation ou en réformation devant la cour d'appel de Paris. Le recours n'est pas suspensif",
      "proba": 0.662,
-     "potentiel": 0.679,
+     "potentiel": 0.469,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "appel",
@@ -2792,7 +2781,7 @@
      "passage": 46,
      "texte": "Article L3122-1 du Code du travail : Le recours au travail de nuit est exceptionnel. Il prend en compte les impératifs de protection de la santé et de la sécurité des travailleurs et est justifié par la nécessité d'assurer la continuité de l'activité économique ou des services d'utilité sociale.",
      "proba": 0.837,
-     "potentiel": 0.405,
+     "potentiel": 0.004,
      "deja_tombe": 2,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -2839,263 +2828,169 @@
    ]
   },
   {
-   "section": 6,
-   "titre": "3.1 La personne juridique physique morale",
-   "passages": 7,
-   "proba": 0.838,
-   "potentiel": 0.746,
+   "section": 14,
+   "titre": "6.2 Les différents régimes de responsabilité régimes spéciaux responsabilité contractuelle responsabilité extra- contractuelle",
+   "passages": 19,
+   "proba": 0.845,
+   "potentiel": 0.788,
    "annees_tombees": 2,
    "sur": 6,
-   "priorite": 0.727,
+   "priorite": 0.758,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 57,
-     "texte": "Article L645-8 du Code de commerce : Le mandataire judiciaire ou la personne choisie sur le fondement du premier alinéa du II de l'article L. 812-2 ou sur le fondement du III de ce même article informe sans délai les créanciers connus de l'ouverture de la procédure et les invite à lui communiquer, dans un délai de deux mois à compter de la réception de cet avis, le montant de leur créance avec ind",
-     "proba": 0.664,
-     "potentiel": 0.746,
+     "passage": 159,
+     "texte": "Article 1245-17 du Code civil : Les dispositions du présent chapitre ne portent pas atteinte aux droits dont la victime d'un dommage peut se prévaloir au titre du droit de la responsabilité contractuelle ou extracontractuelle ou au titre d'un régime spécial de responsabilité. Le producteur reste responsable des conséquences de sa faute et de celle des personnes dont il répond.",
+     "proba": 0.681,
+     "potentiel": 0.788,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
-      "reception",
-      "avis"
+      "extracontractuelle",
+      "faute",
+      "regime",
+      "victime",
+      "dommage"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.25
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.25
+       "part": 0.38
       },
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.25
+       "part": 0.31
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.15
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
-       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+       "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
+       "enonce": "Qualifiez juridiquement les parties, les faits et les dommages."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables."
+       "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
+       "enonce": "Développez l’argumentation juridique que l’association MER & TERRE peut avancer pour engager la responsabilité de la société GADGET."
       }
      ],
      "intention": {
-      "fort": [],
-      "faible": [
+      "fort": [
        "proximite_corrige_section",
-       "questions_dans_la_partie",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
        "forme_interrogative"
       ]
      }
     },
     {
-     "passage": 55,
-     "texte": "Article 1243 du Code civil : Le propriétaire d'un animal, ou celui qui s'en sert, pendant qu'il est à son usage, est responsable du dommage que l'animal a causé, soit que l'animal fût sous sa garde, soit qu'il fût égaré ou échappé.",
-     "proba": 0.838,
-     "potentiel": 0.27,
-     "deja_tombe": 2,
-     "evalue_sans_etre_dit": [
-      "soit",
-      "proprietaire",
-      "responsable"
-     ],
-     "toujours_nomme": [
-      "pendant"
-     ],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.25
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.25
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2023-centres-etrangers",
-       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2023-centres-etrangers",
-       "enonce": "Développez l’argumentation juridique que peut avancer Marc PONTEAU pour faire reconnaître la responsabilité de l’établissement « Animaux en vacances »."
-      }
-     ],
-     "intention": {
-      "fort": [],
-      "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 54,
-     "texte": "Article L654-1 du Code de commerce : Les dispositions de la présente section sont applicables : 1° A toute personne exerçant une activité commerciale ou artisanale, à tout agriculteur et à toute personne physique exerçant une activité professionnelle indépendante, y compris une profession libérale soumise à un statut législatif ou réglementaire ou dont le titre est protégé ; 2° A toute personne qu",
-     "proba": 0.367,
-     "potentiel": 0.425,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "protege",
-      "commerciale"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.25
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.25
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.25
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
-       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables."
-      }
-     ],
-     "intention": {
-      "fort": [],
-      "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "section": 2,
-   "titre": "1.3 Les sources du droit",
-   "passages": 7,
-   "proba": 0.62,
-   "potentiel": 0.653,
-   "annees_tombees": 1,
-   "sur": 6,
-   "priorite": 0.654,
-   "niveau": "à connaître",
-   "passages_cles": [
-    {
-     "passage": 19,
-     "texte": "Capacités attendues : l'élève est capable d’identifier les éléments d’un ; litige : parties, faits, prétentions, question de droit ; au moyen d’une argumentation si le litige est causé par un acte ou ; de déterminer par ; un fait juridique afin d'envisager un mode de preuve adapté ; d’apprécier ; la force probante d'un élément de preuve dans une situation donnée ; de déterminer la juridiction qui ",
-     "proba": 0.62,
-     "potentiel": 0.653,
+     "passage": 158,
+     "texte": "Dans tous les autres cas, les règles de la responsabilité civile extracontractuelle (anciennement délictuelle) sont seules applicables. Le régime de la responsabilité du fait personnel est le plus souvent cumulable avec l’un des autres régimes. Les autres régimes de responsabilité applicables en fonction de la qualification des faits constituent des responsabilités objectives qui dispensent la vic",
+     "proba": 0.68,
+     "potentiel": 0.688,
      "deja_tombe": 1,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 1.0
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2023-liban",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
-      }
-     ],
-     "intention": {
-      "fort": [
-       "forme_interrogative",
-       "longueur_enonce",
-       "rang_dans_la_partie"
-      ],
-      "faible": []
-     }
-    },
-    {
-     "passage": 18,
-     "texte": "Article L2222-1 du Code du travail : Les conventions et accords collectifs de travail, ci-après désignés \" conventions \" et \" accords \" dans le présent livre, déterminent leur champ d'application territorial et professionnel. Le champ d'application professionnel est défini en termes d'activités économiques. Pour ce qui concerne les professions agricoles mentionnées aux 1° à 3°, 6° et 7° de l'artic",
-     "proba": 0.277,
-     "potentiel": 0.467,
-     "deja_tombe": 0,
      "evalue_sans_etre_dit": [
-      "economiques"
+      "civile",
+      "auteur",
+      "extracontractuelle",
+      "qualification",
+      "faute",
+      "regime"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.38
+      },
+      {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 1.0
+       "part": 0.31
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.15
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2023-liban",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Développez l’argumentation juridique que la famille Vidal pourrait lui opposer."
       }
      ],
      "intention": {
       "fort": [
-       "forme_interrogative",
-       "longueur_enonce",
-       "rang_dans_la_partie"
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
       ],
-      "faible": []
+      "faible": [
+       "forme_interrogative"
+      ]
      }
     },
     {
-     "passage": 15,
-     "texte": "Article L232-3 du Code de la consommation : Nonobstant toute stipulation contraire, le consommateur ne peut être privé de la protection que lui assurent les dispositions prises par un Etat membre de l'Union européenne en application de la directive 2011/83/UE du Parlement européen et du Conseil du 25 octobre 2011 relative aux droits des consommateurs, modifiant la directive 93/13/CEE du Conseil et",
-     "proba": 0.263,
-     "potentiel": 0.411,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
+     "passage": 143,
+     "texte": "L’étude porte sur les seuls éléments constitutifs de la responsabilité que devra prouver la victime pour obtenir la réparation de ses dommages. Ces éléments sont étudiés dans des situations juridiques concrètes qui font appel aux différents régimes de responsabilité (cf. 6.2.2. et 6.2.3.). Il ne s’agit pas de connaître le détail des règles d’indemnisation selon les régimes de responsabilité ou sel",
+     "proba": 0.675,
+     "potentiel": 0.681,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "indemnisation",
+      "regime",
+      "victime"
+     ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.38
+      },
+      {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 1.0
+       "part": 0.31
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.15
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2023-liban",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Justifiez l’intérêt de la diversité des régimes de responsabilité civile."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Développez l’argumentation juridique que Jean Palain peut avancer pour obtenir réparation de son préjudice."
       }
      ],
      "intention": {
       "fort": [
-       "forme_interrogative",
-       "longueur_enonce",
-       "rang_dans_la_partie"
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
       ],
-      "faible": []
+      "faible": [
+       "forme_interrogative"
+      ]
      }
     }
    ]
@@ -3105,17 +3000,17 @@
    "titre": "4.2 Le droit de propriété de propriété sur les biens corporels de propriété sur les biens incorporels",
    "passages": 7,
    "proba": 0.625,
-   "potentiel": 0.555,
+   "potentiel": 0.67,
    "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.612,
+   "priorite": 0.704,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 85,
      "texte": "Article 2510 du Code civil : L'immatriculation d'un immeuble garantit le droit de propriété ainsi que tous les autres droits reconnus dans le titre de propriété établi au terme d'une procédure permettant de révéler l'ensemble des droits déjà constitués sur cet immeuble. Les modalités de cette procédure sont fixées par décret en Conseil d'Etat.",
      "proba": 0.625,
-     "potentiel": 0.533,
+     "potentiel": 0.67,
      "deja_tombe": 1,
      "evalue_sans_etre_dit": [
       "tous"
@@ -3165,7 +3060,7 @@
      "passage": 82,
      "texte": "Parmi les droits patrimoniaux, le droit de propriété est caractéristique du pouvoir juridique le plus complet qu’une personne peut exercer directement sur une chose. Le droit de propriété peut porter sur des biens corporels et incorporels. Les attributs du droit de propriété et ses caractères sont identifiés dans des situations variées. Les limites apportées au droit de propriété sont illustrées n",
      "proba": 0.281,
-     "potentiel": 0.555,
+     "potentiel": 0.175,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "bien",
@@ -3213,15 +3108,12 @@
      }
     },
     {
-     "passage": 84,
-     "texte": "Article 543 du Code civil : On peut avoir sur les biens, ou un droit de propriété, ou un simple droit de jouissance, ou seulement des services fonciers à prétendre.",
-     "proba": 0.282,
-     "potentiel": 0.403,
+     "passage": 87,
+     "texte": "Article 2329 du Code civil : Les sûretés sur les meubles sont : 1° Les privilèges mobiliers ; 2° Le gage de meubles corporels ; 3° Le nantissement de meubles incorporels ; 4° La propriété retenue ou cédée à titre de garantie.",
+     "proba": 0.297,
+     "potentiel": 0.118,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "services",
-      "biens"
-     ],
+     "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
@@ -3264,50 +3156,202 @@
    ]
   },
   {
-   "section": 22,
-   "titre": "8.4 Les partenariats contractuels",
-   "passages": 11,
-   "proba": 0.243,
-   "potentiel": 0.502,
-   "annees_tombees": 0,
+   "section": 2,
+   "titre": "1.3 Les sources du droit",
+   "passages": 7,
+   "proba": 0.62,
+   "potentiel": 0.623,
+   "annees_tombees": 1,
    "sur": 6,
-   "priorite": 0.319,
+   "priorite": 0.693,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 268,
-     "texte": "Une distinction est faite entre ces relations contractuelles et la relation de travail qui nécessite la présence d’un lien de subordination. À partir d’illustrations de contrats de partenariat, l’élève repère les principales obligations qui pèsent sur chaque contractant. Ce qu’on appelle sous-traitance est l’opération par laquelle un entrepreneur confie tout ou partie de son activité à un autre en",
-     "proba": 0.217,
-     "potentiel": 0.502,
+     "passage": 19,
+     "texte": "Capacités attendues : l'élève est capable d’identifier les éléments d’un ; litige : parties, faits, prétentions, question de droit ; au moyen d’une argumentation si le litige est causé par un acte ou ; de déterminer par ; un fait juridique afin d'envisager un mode de preuve adapté ; d’apprécier ; la force probante d'un élément de preuve dans une situation donnée ; de déterminer la juridiction qui ",
+     "proba": 0.62,
+     "potentiel": 0.623,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
+      }
+     ],
+     "intention": {
+      "fort": [
+       "forme_interrogative",
+       "longueur_enonce",
+       "rang_dans_la_partie"
+      ],
+      "faible": []
+     }
+    },
+    {
+     "passage": 18,
+     "texte": "Article L2222-1 du Code du travail : Les conventions et accords collectifs de travail, ci-après désignés \" conventions \" et \" accords \" dans le présent livre, déterminent leur champ d'application territorial et professionnel. Le champ d'application professionnel est défini en termes d'activités économiques. Pour ce qui concerne les professions agricoles mentionnées aux 1° à 3°, 6° et 7° de l'artic",
+     "proba": 0.277,
+     "potentiel": 0.23,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
-      "entrepreneur",
-      "relations",
-      "contractant",
-      "subordination",
-      "relation"
+      "economiques"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.88
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
+      }
+     ],
+     "intention": {
+      "fort": [
+       "forme_interrogative",
+       "longueur_enonce",
+       "rang_dans_la_partie"
+      ],
+      "faible": []
+     }
+    },
+    {
+     "passage": 15,
+     "texte": "Article L232-3 du Code de la consommation : Nonobstant toute stipulation contraire, le consommateur ne peut être privé de la protection que lui assurent les dispositions prises par un Etat membre de l'Union européenne en application de la directive 2011/83/UE du Parlement européen et du Conseil du 25 octobre 2011 relative aux droits des consommateurs, modifiant la directive 93/13/CEE du Conseil et",
+     "proba": 0.263,
+     "potentiel": 0.158,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
+      }
+     ],
+     "intention": {
+      "fort": [
+       "forme_interrogative",
+       "longueur_enonce",
+       "rang_dans_la_partie"
+      ],
+      "faible": []
+     }
+    }
+   ]
+  },
+  {
+   "section": 22,
+   "titre": "8.4 Les partenariats contractuels",
+   "passages": 11,
+   "proba": 0.243,
+   "potentiel": 0.145,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.284,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 265,
+     "texte": "Différentes solutions contractuelles s’offrent aux entrepreneurs pour développer ou organiser leur activité économique. Elles doivent être nettement distinguées de la relation de travail qui implique un lien de subordination.",
+     "proba": 0.186,
+     "potentiel": 0.145,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "implique",
+      "doivent",
+      "subordination"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.75
       },
       {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
        "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-zero-1",
-       "enonce": "Expliquez les enjeux de l’arrêt du 4 mars 2020 pour les sociétés utilisant des plateformes numériques."
+       "sujet": "stmg-spe-droit-economie-2023-nouvelle-caledonie",
+       "enonce": "Pourquoi l’exercice des droits du salarié fait-il l’objet d’un encadrement spécifique ?"
       },
       {
-       "sujet": "stmg-spe-droit-economie-2026-polynesie",
-       "enonce": "Rédigez une argumentation pour répondre à la question suivante : Les dépenses publiques favorisent-elles la croissance économique française ?"
+       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+       "enonce": "Expliquez comment les mesures prises par les gouvernements peuvent réduire le chômage."
+      }
+     ],
+     "intention": {
+      "fort": [],
+      "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
+     "passage": 271,
+     "texte": "Article L7121-6 du Code du travail : Le contrat de travail d'un artiste du spectacle est individuel.",
+     "proba": 0.232,
+     "potentiel": 0.114,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les politiques de lutte contre le chômage permettent-elles de réduire les inégalités sur le marché de du travail ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
+       "enonce": "Identifiez les différentes sources d’inégalités sur le marché du travail."
       }
      ],
      "intention": {
@@ -3323,7 +3367,7 @@
      "passage": 273,
      "texte": "Article L430-9 du Code de commerce : L'Autorité de la concurrence peut, en cas d'exploitation abusive d'une position dominante ou d'un état de dépendance économique, enjoindre, par décision motivée, à l'entreprise ou au groupe d'entreprises en cause de modifier, de compléter ou de résilier, dans un délai déterminé, tous accords et tous actes par lesquels s'est réalisée la concentration de la puiss",
      "proba": 0.243,
-     "potentiel": 0.453,
+     "potentiel": 0.072,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "tous",
@@ -3369,47 +3413,6 @@
        "forme_interrogative"
       ]
      }
-    },
-    {
-     "passage": 263,
-     "texte": "Différentes solutions contractuelles s’offrent aux entrepreneurs pour développer ou organiser leur activité économique. Elles doivent être nettement distinguées de la relation de travail qui implique un lien de subordination. Les entreprises peuvent conclure des partenariats avec d’autres entreprises tels que le contrat de franchise et le contrat d’entreprise (sous-traitance), dès lors que ces acc",
-     "proba": 0.179,
-     "potentiel": 0.489,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "implique"
-     ],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.88
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
-       "enonce": "Expliquez comment les mesures prises par les gouvernements peuvent réduire le chômage."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
-       "enonce": "Identifiez les types de politiques économiques mises en place pour limiter les conséquences de la hausse des prix."
-      }
-     ],
-     "intention": {
-      "fort": [],
-      "faible": [
-       "proximite_corrige_section",
-       "questions_dans_la_partie",
-       "forme_interrogative"
-      ]
-     }
     }
    ]
   },
@@ -3418,17 +3421,17 @@
    "titre": "3.3 Le patrimoine",
    "passages": 6,
    "proba": 0.175,
-   "potentiel": 0.277,
+   "potentiel": 0.133,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.2,
+   "priorite": 0.27,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 71,
      "texte": "Capacités attendues : l'élève est capable de distinguer entre les droits patrimoniaux et les droits extrapatrimoniaux ; d’identifier ; une atteinte à un droit extrapatrimonial ; d’appliquer ; les règles relatives aux droits extrapatrimoniaux dans une situation ; d’expliquer ; les enjeux de la protection des données à caractère personnel ; de vérifier le respect des obligations liées à la protectio",
      "proba": 0.175,
-     "potentiel": 0.272,
+     "potentiel": 0.133,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [
@@ -3474,7 +3477,7 @@
      "passage": 68,
      "texte": "Article 474 du Code civil : La personne en tutelle est représentée dans les actes nécessaires à la gestion de son patrimoine dans les conditions et selon les modalités prévues au titre XII.",
      "proba": 0.173,
-     "potentiel": 0.277,
+     "potentiel": 0.035,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3517,14 +3520,13 @@
      }
     },
     {
-     "passage": 69,
-     "texte": "Article 2030 du Code civil : Lorsque le contrat de fiducie prend fin en l'absence de bénéficiaire, les droits, biens ou sûretés présents dans le patrimoine fiduciaire font de plein droit retour au constituant. Lorsqu'il prend fin par le décès du constituant, le patrimoine fiduciaire fait de plein droit retour à la succession.",
-     "proba": 0.173,
-     "potentiel": 0.241,
+     "passage": 67,
+     "texte": "Article L2221-2 du Code du travail : La convention collective a vocation à traiter de l'ensemble des matières mentionnées à l'article L. 2221-1, pour toutes les catégories professionnelles intéressées. L'accord collectif traite un ou plusieurs sujets déterminés dans cet ensemble.",
+     "proba": 0.169,
+     "potentiel": 0.031,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
-      "patrimoine",
-      "succession"
+      "ensemble"
      ],
      "toujours_nomme": [],
      "manieres_de_demander": [
@@ -3536,21 +3538,19 @@
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2022-polynesie-remplacement",
-       "enonce": "Rappelez les effets du mécanisme du taux d’intérêt directeur de la BCE sur le crédit bancaire."
+       "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+       "enonce": "Rédigez une argumentation pour répondre à la question suivante : L’intervention de l’État en faveur du pouvoir d’achat des ménages permet-elle de stimuler la croissance économique ?"
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Montrez qu’il existe un lien entre les niveaux de revenu, d’épargne et de patrimoine pour les ménages."
+       "sujet": "stmg-spe-droit-economie-2025-metropole-remplacement",
+       "enonce": "Expliquez le mécanisme qui relie niveau des prix, revenu disponible et pouvoir d’achat."
       }
      ],
      "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
+      "fort": [],
       "faible": [
+       "proximite_corrige_section",
+       "questions_dans_la_partie",
        "forme_interrogative"
       ]
      }
@@ -3562,17 +3562,17 @@
    "titre": "2.1 Le litige",
    "passages": 6,
    "proba": 0.085,
-   "potentiel": 0.396,
+   "potentiel": 0.117,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.185,
+   "priorite": 0.204,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 24,
      "texte": "Article L612-2 du Code de la consommation : Un litige ne peut être examiné par le médiateur de la consommation lorsque : 1° Le consommateur ne justifie pas avoir tenté, au préalable, de résoudre son litige directement auprès du professionnel par une réclamation écrite selon les modalités prévues, le cas échéant, dans le contrat ; 2° La demande est manifestement infondée ou abusive ; 3° Le litige a",
      "proba": 0.085,
-     "potentiel": 0.396,
+     "potentiel": 0.117,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "consommateur",
@@ -3623,7 +3623,7 @@
      "passage": 22,
      "texte": "Article 2065 du Code civil : Tant qu'elle est en cours, la convention de procédure participative conclue avant la saisine d'un juge rend irrecevable tout recours au juge pour qu'il statue sur le litige. Toutefois, l'inexécution de la convention par l'une des parties autorise une autre partie à saisir le juge pour qu'il statue sur le litige. En cas d'urgence, la convention ne fait pas obstacle à ce",
      "proba": 0.075,
-     "potentiel": 0.184,
+     "potentiel": 0.069,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "rend",
@@ -3669,42 +3669,38 @@
      }
     },
     {
-     "passage": 20,
-     "texte": "Le droit est un système de normes dont l'un des objectifs est de pacifier les relations sociales. La transformation d’un conflit en litige impose la qualification juridique des faits et la recherche des moyens de droit à l'appui des prétentions des parties. L’étude est menée à partir de situations juridiques de nature conflictuelle dans laquelle sont identifiés les éléments du litige (faits, parti",
-     "proba": 0.066,
-     "potentiel": 0.131,
+     "passage": 25,
+     "texte": "Article L611-10-4 du Code de commerce : La caducité ou la résolution de l'accord amiable ne prive pas d'effets les clauses dont l'objet est d'en organiser les conséquences.",
+     "proba": 0.085,
+     "potentiel": 0.011,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "qualification"
-     ],
-     "toujours_nomme": [
-      "laquelle"
-     ],
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.62
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.12
+       "part": 0.75
       },
       {
        "facette": 3,
        "nom": "presentez x / presentez / x arguments / arguments",
        "part": 0.12
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2023-liban",
-       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Retrouvez par le calcul, l’élasticité prix de la demande d’énergie entre juillet 2021 et juillet 2022."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-metropole",
-       "enonce": "Indiquez les enjeux de la décision de la Cour de cassation du 11 décembre 2019 (annexe 4) pour le cadre des relations contractuelles entre un professionnel et un non-professionnel."
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Rappelez le lien entre offre, demande et prix des biens et services."
       }
      ],
      "intention": {
@@ -3725,17 +3721,17 @@
    "titre": "2.2 La preuve",
    "passages": 12,
    "proba": 0.134,
-   "potentiel": 0.318,
+   "potentiel": 0.057,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.18,
+   "priorite": 0.165,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 37,
      "texte": "Article 1383-1 du Code civil : L'aveu extrajudiciaire purement verbal n'est reçu que dans les cas où la loi permet la preuve par tout moyen. Sa valeur probante est laissée à l'appréciation du juge.",
      "proba": 0.134,
-     "potentiel": 0.31,
+     "potentiel": 0.043,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3776,10 +3772,10 @@
      }
     },
     {
-     "passage": 31,
-     "texte": "Article 1362 du Code civil : Constitue un commencement de preuve par écrit tout écrit qui, émanant de celui qui conteste un acte ou de celui qu'il représente, rend vraisemblable ce qui est allégué. Peuvent être considérés par le juge comme équivalant à un commencement de preuve par écrit les déclarations faites par une partie lors de sa comparution personnelle, son refus de répondre ou son absence",
-     "proba": 0.123,
-     "potentiel": 0.318,
+     "passage": 27,
+     "texte": "Notions : Acte et fait juridiques. Présomption. Charge et mode de preuve. Preuve électronique. Acte authentique et sous signature privée. Témoignage, aveu. Intime conviction du juge.",
+     "proba": 0.105,
+     "potentiel": 0.057,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3787,7 +3783,7 @@
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.25
+       "part": 0.5
       },
       {
        "facette": 3,
@@ -3795,63 +3791,67 @@
        "part": 0.25
       },
       {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.25
+       "facette": 4,
+       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
-       "enonce": "Qualifiez juridiquement les parties, les faits et les dommages."
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : La politique budgétaire de l’État est-elle efficace en temps de crise ?"
       },
       {
-       "sujet": "stmg-spe-droit-economie-2025-polynesie-remplacement",
-       "enonce": "Après avoir rappelé les différents moyens d’exonération, vous répondrez à la question suivante à l’aide des annexes 3 et 4 : Pourquoi le législateur a-t-il prévu des causes d’exonération de la responsabilité ?"
+       "sujet": "stmg-spe-droit-economie-2021-polynesie",
+       "enonce": "Qualifiez juridiquement les faits, les parties et les dommages."
       }
      ],
      "intention": {
-      "fort": [],
-      "faible": [
+      "fort": [
        "proximite_corrige_section",
-       "questions_dans_la_partie",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
        "forme_interrogative"
       ]
      }
     },
     {
-     "passage": 34,
-     "texte": "Article 259 du Code civil : Les faits invoqués en tant que causes de divorce ou comme défenses à une demande peuvent être établis par tout mode de preuve, y compris l'aveu. Toutefois, les descendants ne peuvent jamais être entendus sur les griefs invoqués par les époux.",
-     "proba": 0.127,
-     "potentiel": 0.192,
+     "passage": 30,
+     "texte": "Article 1200 du Code civil : Les tiers doivent respecter la situation juridique créée par le contrat. Ils peuvent s'en prévaloir notamment pour apporter la preuve d'un fait.",
+     "proba": 0.113,
+     "potentiel": 0.053,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
+     "evalue_sans_etre_dit": [
+      "doivent"
+     ],
      "toujours_nomme": [],
      "manieres_de_demander": [
       {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
        "part": 0.38
       },
       {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
        "part": 0.25
       },
       {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "facette": 0,
+       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
        "part": 0.25
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2021-polynesie",
-       "enonce": "Proposez l’argumentation juridique que peut avancer Maëlys pour rechercher la responsabilité de Thomas."
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Présentez l’argumentation juridique que Fabienne et Loïc Fabre pourraient avancer pour demander la nullité du contrat de vente."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2021-polynesie",
-       "enonce": "Qualifiez juridiquement les faits, les parties et les dommages."
+       "sujet": "stmg-spe-droit-economie-2023-liban",
+       "enonce": "Développez l’argumentation juridique que John BEEBOP peut avancer pour demander l’annulation de la vente."
       }
      ],
      "intention": {
@@ -3872,17 +3872,17 @@
    "titre": "3.2 La capacité et l’incapacité",
    "passages": 7,
    "proba": 0.157,
-   "potentiel": 0.179,
+   "potentiel": 0.035,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.147,
+   "priorite": 0.157,
    "niveau": "à connaître",
    "passages_cles": [
     {
-     "passage": 63,
-     "texte": "Article 2410 du Code civil : L'hypothèque conventionnelle ne peut être consentie que par celui qui a la capacité de disposer de l'immeuble qu'il y soumet.",
-     "proba": 0.152,
-     "potentiel": 0.179,
+     "passage": 59,
+     "texte": "Les personnes juridiques disposent d’une capacité juridique qui débute à leur naissance et s’éteint à leur mort. Cette capacité délimite leur aptitude à avoir des droits et à les exercer eux-mêmes ou par l’intermédiaire de leurs représentants.",
+     "proba": 0.134,
+     "potentiel": 0.035,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3890,34 +3890,36 @@
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.38
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
+       "part": 0.25
       },
       {
        "facette": 3,
        "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.38
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.12
+       "part": 0.25
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2025-asie",
-       "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques."
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2024-asie",
-       "enonce": "Montrez que la hausse des prix a des conséquences inégales sur les ménages français."
+       "sujet": "stmg-spe-droit-economie-2021-metropole",
+       "enonce": "Proposez l’argumentation juridique que l’employeur pourra opposer à Mélina Semper."
       }
      ],
      "intention": {
-      "fort": [],
-      "faible": [
+      "fort": [
        "proximite_corrige_section",
-       "questions_dans_la_partie",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
        "forme_interrogative"
       ]
      }
@@ -3926,7 +3928,7 @@
      "passage": 62,
      "texte": "Article 1145 du Code civil : Toute personne physique peut contracter sauf en cas d'incapacité prévue par la loi. La capacité des personnes morales est limitée par les règles applicables à chacune d'entre elles.",
      "proba": 0.15,
-     "potentiel": 0.175,
+     "potentiel": 0.025,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [],
      "toujours_nomme": [],
@@ -3969,42 +3971,33 @@
      }
     },
     {
-     "passage": 65,
-     "texte": "Article 222 du Code civil : Si l'un des époux se présente seul pour faire un acte d'administration, de jouissance ou de disposition sur un bien meuble qu'il détient individuellement, il est réputé, à l'égard des tiers de bonne foi, avoir le pouvoir de faire seul cet acte. Cette disposition n'est pas applicable aux meubles meublants visés à l'article 215, alinéa 3, non plus qu'aux meubles corporels",
-     "proba": 0.157,
-     "potentiel": 0.146,
+     "passage": 64,
+     "texte": "Article L134-3 du Code de commerce : L'agent commercial peut accepter sans autorisation la représentation de nouveaux mandants. Toutefois, il ne peut accepter la représentation d'une entreprise concurrente de celle de l'un de ses mandants sans accord de ce dernier.",
+     "proba": 0.156,
+     "potentiel": 0.021,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [
-      "pouvoir"
-     ],
-     "toujours_nomme": [
-      "bien"
-     ],
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
      "manieres_de_demander": [
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
-       "part": 0.38
+       "part": 0.88
       },
       {
        "facette": 3,
        "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.25
-      },
-      {
-       "facette": 4,
-       "nom": "juridiquement / juridiquement x / qualifiez juridiquement / qualifiez juridiquement x",
        "part": 0.12
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
-       "enonce": "Commentez l’évolution des échanges liés aux chaînes de valeur mondiales (CVM)."
+       "sujet": "stmg-spe-droit-economie-2025-asie",
+       "enonce": "Montrez que la fiscalité environnementale modifie le comportement des agents économiques."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2022-mayotte-liban",
-       "enonce": "Décrivez le processus de mondialisation de la chaîne de valeur ajoutée d’un produit."
+       "sujet": "stmg-spe-droit-economie-2024-asie",
+       "enonce": "Montrez que la hausse des prix a des conséquences inégales sur les ménages français."
       }
      ],
      "intention": {
@@ -4023,17 +4016,63 @@
    "titre": "1.2 La règle de droit",
    "passages": 4,
    "proba": 0.064,
-   "potentiel": 0.093,
+   "potentiel": 0.024,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.042,
+   "priorite": 0.092,
    "niveau": "à connaître",
    "passages_cles": [
+    {
+     "passage": 10,
+     "texte": "Notions : Caractères de la règle de droit. Autorité légitime.",
+     "proba": 0.062,
+     "potentiel": 0.024,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
+       "enonce": "Développez l’argumentation juridique que Bryan SANDERS peut avancer pour contester le licenciement."
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Montrez qu’il existe un lien entre les niveaux de revenu, d’épargne et de patrimoine pour les ménages."
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
     {
      "passage": 9,
      "texte": "La règle de droit est légitime, générale et obligatoire. En prenant appui sur quelques règles provenant de divers codes (Code civil, Code du travail, Code pénal par exemple) et à partir de situations concrètes de mise en œuvre, les élèves comprennent que la règle de droit émane d’autorités compétentes. Sa formulation en termes généraux lui permet de garantir l’égalité devant la loi de toutes les p",
      "proba": 0.052,
-     "potentiel": 0.093,
+     "potentiel": 0.011,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "toutes"
@@ -4078,84 +4117,41 @@
      }
     },
     {
-     "passage": 10,
-     "texte": "Notions : Caractères de la règle de droit. Autorité légitime.",
+     "passage": 11,
+     "texte": "Article 1179 du Code civil : La nullité est absolue lorsque la règle violée a pour objet la sauvegarde de l'intérêt général. Elle est relative lorsque la règle violée a pour seul objet la sauvegarde d'un intérêt privé.",
      "proba": 0.062,
-     "potentiel": 0.04,
+     "potentiel": 0.005,
      "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
+     "evalue_sans_etre_dit": [
+      "absolue",
+      "nullite"
+     ],
      "toujours_nomme": [],
      "manieres_de_demander": [
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.5
-      },
       {
        "facette": 2,
        "nom": "qm / x france / france / expliquez",
        "part": 0.38
       },
       {
-       "facette": 0,
-       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2023-la-reunion",
-       "enonce": "Développez l’argumentation juridique que Bryan SANDERS peut avancer pour contester le licenciement."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
-       "enonce": "Montrez qu’il existe un lien entre les niveaux de revenu, d’épargne et de patrimoine pour les ménages."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
-    },
-    {
-     "passage": 12,
-     "texte": "Article L643-7-1 du Code de commerce : Le créancier qui a reçu un paiement en violation de la règle de l'égalité des créanciers chirographaires ou par suite d'une erreur sur l'ordre des privilèges doit restituer les sommes ainsi versées.",
-     "proba": 0.064,
-     "potentiel": 0.018,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
        "facette": 1,
        "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
        "part": 0.38
       },
       {
-       "facette": 0,
-       "nom": "qualifications juridiques / qualifications / x qualifications / x qualifications juridiques",
-       "part": 0.25
-      },
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
+       "facette": 3,
+       "nom": "presentez x / presentez / x arguments / arguments",
        "part": 0.25
       }
      ],
      "questions_passees_proches": [
       {
-       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
-       "enonce": "Résumez les faits en utilisant des qualifications juridiques."
+       "sujet": "stmg-spe-droit-economie-2024-asie",
+       "enonce": "Montrez que la hausse des prix a des conséquences inégales sur les ménages français."
       },
       {
-       "sujet": "stmg-spe-droit-economie-2023-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique conduisant Karima PORTEUR à considérer que certaines clauses du contrat ne sont pas valables."
+       "sujet": "stmg-spe-droit-economie-2021-centres-etrangers",
+       "enonce": "Exposez les arguments que M. Marcellin pourrait leur opposer."
       }
      ],
      "intention": {
@@ -4174,17 +4170,17 @@
    "titre": "1.1 Le droit et les fonctions du droit",
    "passages": 9,
    "proba": 0.044,
-   "potentiel": 0.103,
+   "potentiel": 0.021,
    "annees_tombees": 0,
    "sur": 6,
-   "priorite": 0.039,
+   "priorite": 0.069,
    "niveau": "à connaître",
    "passages_cles": [
     {
      "passage": 4,
      "texte": "Article L4451-1 du Code du travail : Les règles de prévention des risques pour la santé et la sécurité des travailleurs, y compris les travailleurs indépendants et les employeurs, exposés aux rayonnements ionisants sont fixées dans le respect des principes généraux de radioprotection des personnes énoncés aux articles L. 1333-2 et L. 1333-3 du code de la santé publique, sans préjudice des principe",
      "proba": 0.027,
-     "potentiel": 0.099,
+     "potentiel": 0.021,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "sante",
@@ -4230,10 +4226,51 @@
      }
     },
     {
+     "passage": 7,
+     "texte": "Article L3111-3 du Code du travail : A l'exception du chapitre II du titre III ainsi que des titres VI et VII, le présent livre définit les règles d'ordre public, le champ de la négociation collective et les règles supplétives applicables en l'absence d'accord.",
+     "proba": 0.04,
+     "potentiel": 0.01,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "qm / x france / france / expliquez",
+       "part": 0.88
+      },
+      {
+       "facette": 1,
+       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "stmg-spe-droit-economie-2024-asie",
+       "enonce": "Quels sont les intérêts de la rupture conventionnelle par rapport aux autres modes de rupture du contrat de travail ?"
+      },
+      {
+       "sujet": "stmg-spe-droit-economie-2021-metropole-remplacement",
+       "enonce": "Rédigez une argumentation qui vous permette de répondre à la question suivante : Les inégalités socio-économiques expliquent-elles les différences de taux d’épargne entre les ménages français?"
+      }
+     ],
+     "intention": {
+      "fort": [
+       "proximite_corrige_section",
+       "annees_depuis_la_derniere_fois",
+       "questions_dans_la_partie"
+      ],
+      "faible": [
+       "forme_interrogative"
+      ]
+     }
+    },
+    {
      "passage": 2,
      "texte": "Article L2314-28 du Code du travail : Les modalités d'organisation et de déroulement des opérations électorales font l'objet d'un accord entre l'employeur et les organisations syndicales, conclu conformément à l'article L. 2314-6. Cet accord respecte les principes généraux du droit électoral. Les modalités sur lesquelles aucun accord n'a pu intervenir peuvent être fixées par une décision du juge j",
      "proba": 0.013,
-     "potentiel": 0.103,
+     "potentiel": 0.012,
      "deja_tombe": 0,
      "evalue_sans_etre_dit": [
       "intervenir",
@@ -4277,52 +4314,6 @@
        "proximite_enonce_passage"
       ]
      }
-    },
-    {
-     "passage": 8,
-     "texte": "Article L314-26 du Code de la consommation : Les dispositions des chapitres II et III et des sections 2 à 7 du présent chapitre sont d'ordre public.",
-     "proba": 0.044,
-     "potentiel": 0.053,
-     "deja_tombe": 0,
-     "evalue_sans_etre_dit": [],
-     "toujours_nomme": [],
-     "manieres_de_demander": [
-      {
-       "facette": 2,
-       "nom": "qm / x france / france / expliquez",
-       "part": 0.5
-      },
-      {
-       "facette": 3,
-       "nom": "presentez x / presentez / x arguments / arguments",
-       "part": 0.25
-      },
-      {
-       "facette": 1,
-       "nom": "developpez x argumentation / developpez / developpez x / x argumentation",
-       "part": 0.12
-      }
-     ],
-     "questions_passees_proches": [
-      {
-       "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
-       "enonce": "Développez l’argumentation juridique que l’association MER & TERRE peut avancer pour engager la responsabilité de la société GADGET."
-      },
-      {
-       "sujet": "stmg-spe-droit-economie-2024-metropole-remplacement",
-       "enonce": "Présentez l’argumentation juridique que la société GADGET peut lui opposer."
-      }
-     ],
-     "intention": {
-      "fort": [
-       "proximite_corrige_section",
-       "annees_depuis_la_derniere_fois",
-       "questions_dans_la_partie"
-      ],
-      "faible": [
-       "forme_interrogative"
-      ]
-     }
     }
    ]
   }
@@ -4350,20 +4341,20 @@
   },
   "nouveaute": {
    "familles": [
-    "voisinage"
+    "lexique_du_professeur"
    ],
-   "modele": "melange",
+   "modele": "arbres",
    "mele_a_l_ancienne": false,
    "essayes": {
-    "[[\"voisinage\"], \"melange\", false]": 0.596
+    "[[\"lexique_du_professeur\"], \"arbres\", false]": 0.418
    },
    "score_rejoue": [
-    0.766,
-    0.73,
-    0.441,
-    0.778,
-    0.033,
-    0.826
+    0.667,
+    0.472,
+    0.568,
+    0.367,
+    0.034,
+    0.4
    ],
    "fourchette": [
     0.0,
@@ -4392,27 +4383,27 @@
   "nouveaute": {
    "regle_sans_cette_matiere": [
     [
-     "voisinage"
+     "lexique_du_professeur"
     ],
-    "melange",
+    "arbres",
     false
    ],
    "avant_couverture": 0.717,
-   "couverture": 0.717,
+   "couverture": 0.544,
    "avant_auc": 0.791,
-   "auc": 0.722,
-   "regle_finale_couverture": 0.717,
+   "auc": 0.672,
+   "regle_finale_couverture": 0.544,
    "pseudo_domaines": {
     "avant": 0.544,
-    "apres": 0.438,
+    "apres": 0.352,
     "n": 15
    }
   },
   "auto_jugement": {
    "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
-   "fourchette_juste": 0.854,
-   "largeur_moyenne": 0.789,
-   "taches": 445
+   "fourchette_juste": 0.852,
+   "largeur_moyenne": 0.79,
+   "taches": 643
   }
  }
 }
