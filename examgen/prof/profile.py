@@ -185,10 +185,12 @@ class Teacher:
                     self.sec_scores([" ".join(x for _, x in q.annexes)[:8000] or q.situation[:3000] for q in first]).max(1),
                     self.sec_scores([q.situation[:3000] for q in first]).max(1)]
         z = StandardScaler().fit_transform(np.log(sig + 1e-3))
-        g1 = GaussianMixture(1, covariance_type="diag", random_state=SEED).fit(z)
-        g2 = GaussianMixture(2, covariance_type="diag", random_state=SEED, n_init=8).fit(z)
+        if len(keys) < 6:  # trop peu de parties pour un mélange : on garde tout
+            z = None
+        g1 = None if z is None else GaussianMixture(1, covariance_type="diag", random_state=SEED).fit(z)
+        g2 = None if z is None else GaussianMixture(2, covariance_type="diag", random_state=SEED, n_init=8).fit(z)
         keep = np.ones(len(keys), bool)
-        if g2.bic(z) < g1.bic(z):
+        if z is not None and g2.bic(z) < g1.bic(z):
             hi = int(np.argmax(g2.means_.sum(1)))
             keep = g2.predict(z) == hi
             # lissage par titre de partie (même mise en page d'un sujet à l'autre) : vote majoritaire

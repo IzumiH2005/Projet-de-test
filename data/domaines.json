@@ -2,5 +2,49 @@
  "eco": [
   "data/sources/droit_stmg",
   "data/eco/cours"
+ ],
+ "ses": [
+  "data/sources/annales_ses",
+  "data/ses/cours"
+ ],
+ "svt": [
+  "data/sources/annales_svt",
+  "data/svt/cours"
+ ],
+ "physique": [
+  "data/sources/annales_physique",
+  "data/physique/cours"
+ ],
+ "maths": [
+  "data/sources/annales_maths",
+  "data/maths/cours"
+ ],
+ "hggsp": [
+  "data/sources/annales_hggsp",
+  "data/hggsp/cours"
+ ],
+ "hlp": [
+  "data/sources/annales_hlp",
+  "data/hlp/cours"
+ ],
+ "si": [
+  "data/sources/annales_si",
+  "data/si/cours"
+ ],
+ "management": [
+  "data/sources/annales_management",
+  "data/management/cours"
+ ],
+ "sss": [
+  "data/sources/annales_sss",
+  "data/sss/cours"
+ ],
+ "cbph": [
+  "data/sources/annales_cbph",
+  "data/cbph/cours"
+ ],
+ "i2d": [
+  "data/sources/annales_i2d",
+  "data/i2d/cours"
  ]
 }

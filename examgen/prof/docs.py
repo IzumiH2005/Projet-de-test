@@ -115,8 +115,34 @@ def _blocks(lines: list[str]):
             yield ("txt", s)
 
 
+BARE_Q = re.compile(r"^\s*(?:QUESTION|Question)\s*(\d{1,2})?\s*[:.)–-]?\s*(.*)$")
+
+
+def _join_bare_questions(lines: list[str]) -> list[str]:
+    """« QUESTION 2 : » seul sur sa ligne (énoncé dessous) ou « QUESTION : énoncé » sans numéro :
+    on réécrit en « n. énoncé » pour que la numérotation commune s'applique."""
+    out, auto, i = [], 0, 0
+    while i < len(lines):
+        m = BARE_Q.match(lines[i])
+        if m and not POINTS.fullmatch(m.group(2).strip() or "x") and not re.search(r"\.{4,}", lines[i]):
+            num = int(m.group(1)) if m.group(1) else None
+            rest = m.group(2).strip()
+            j = i + 1
+            while not rest and j < len(lines) and j - i <= 3:
+                rest = lines[j].strip()
+                j += 1
+            if rest and len(rest) > 8:
+                auto = num if num else auto + 1
+                out.append(f"{auto}. {rest}")
+                i = j if not m.group(2).strip() else i + 1
+                continue
+        out.append(lines[i])
+        i += 1
+    return out
+
+
 def parse_exam(text: str, exam_id: str) -> list[Question]:
-    lines = strip_noise(text)
+    lines = _join_bare_questions(strip_noise(text))
     parts: list[dict] = []
     cur = {"title": "Sujet", "pre": [], "qs": [], "annexes": [], "mode": "pre"}
     parts.append(cur)
@@ -150,7 +176,16 @@ def parse_exam(text: str, exam_id: str) -> list[Question]:
     out = []
     year = YEAR.search(exam_id)
     for p in parts:
-        if len(p["qs"]) < 2:
+        if len(p["qs"]) == 1 and p["title"] != "Sujet":
+            pass  # partie à une seule consigne (dissertation, exercice, étude de documents)
+        elif len(p["qs"]) == 0 and p["title"] != "Sujet":
+            body = "\n".join(p["pre"]).strip()
+            if len(body) < 200 and not (len(body) >= 25 and "?" in body):
+                continue
+            # partie sans question numérotée : la partie entière est l'unité interrogée
+            p["qs"] = [{"num": 1, "lines": [body[:1500]], "pre": []}]
+            p["pre"] = []
+        elif len(p["qs"]) < 2:
             continue
         sit = "\n".join(p["pre"]).strip()
         anx = [(t, "\n".join(x).strip()) for t, x in p["annexes"]]
