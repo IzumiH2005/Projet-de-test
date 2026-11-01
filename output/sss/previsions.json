@@ -1,0 +1,2488 @@
+{
+ "matiere": "sss",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 109,
+  "passages_prevus": 10,
+  "hasard_questions_couvertes": 0.092,
+  "choix_par_annee": {
+   "2024": "arbres_12_generiques",
+   "2025": "arbres_12_generiques",
+   "2026": "arbres_generiques_et_propres_a_la_matiere"
+  },
+  "famille_pour_l_annee_prevue": "arbres_12_generiques",
+  "popularite": {
+   "auc": 0.784,
+   "questions_couvertes": 0.294,
+   "questions_couvertes_a_un_passage_pres": 0.294,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.3,
+    "2026": 0.25
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.605,
+   "questions_couvertes": 0.192,
+   "questions_couvertes_a_un_passage_pres": 0.267,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.0,
+    "2025": 0.2,
+    "2026": 0.375
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.761,
+   "questions_couvertes": 0.328,
+   "questions_couvertes_a_un_passage_pres": 0.394,
+   "chapitres_prevus_tombes_sur_5": 2.333,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.4,
+    "2026": 0.25
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.697,
+   "questions_couvertes": 0.319,
+   "questions_couvertes_a_un_passage_pres": 0.461,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.5,
+    "2026": 0.125
+   }
+  },
+  "ensemble": {
+   "auc": 0.712,
+   "questions_couvertes": 0.294,
+   "questions_couvertes_a_un_passage_pres": 0.294,
+   "chapitres_prevus_tombes_sur_5": 1.667,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.3,
+    "2026": 0.25
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.686,
+   "questions_couvertes": 0.286,
+   "questions_couvertes_a_un_passage_pres": 0.394,
+   "chapitres_prevus_tombes_sur_5": 2.333,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.4,
+    "2026": 0.125
+   }
+  }
+ },
+ "famille_choisie": "arbres_12_generiques",
+ "passages_les_plus_probables": [
+  {
+   "passage": 91,
+   "section": 16,
+   "section_titre": "Module Politiques, dispositifs de santé publique et d’action sociale",
+   "probabilite": 0.923,
+   "texte": "Illustrer la place de la personne dans le système de santé, le système de soins. Présenter un système de veille sanitaire. Analyser une intervention en promotion ou en prévention de santé. Présenter la place de la protection sociale dans le système de soins. Montrer la complémentarité des différentes composantes du système de soins sur un territoire.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.65
+    },
+    {
+     "facette": 5,
+     "nom": "priorite x / priorite / x priorite / x priorite x",
+     "part": 0.13
+    },
+    {
+     "facette": 2,
+     "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+     "part": 0.13
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-specimen-3",
+     "enonce": "Présentez le système de surveillance épidémiologique du VIH-SIDA."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-specimen-3",
+     "enonce": "Montrez que les différentes composantes du système de soins se complètent pour prendre en charge les personnes infectées par le VIH."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 89,
+   "section": 16,
+   "section_titre": "Module Politiques, dispositifs de santé publique et d’action sociale",
+   "probabilite": 0.911,
+   "texte": "Politique de santé et gouvernance du système de santé Approche historique, évolution de la politique de santé et des objectifs de santé. Élaboration de la politique de santé aux différents échelons territoriaux locaux, nationaux et internationaux ; démocratie sanitaire. Composantes du système de santé. Gouvernance et financement du système de santé. Du système de santé au système de soins Dispositifs, actions en santé sur un territoire ; lutte contre les inégalités de santé et accès aux soins. Système de soins : diversité et complémentarité des acteurs.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.65
+    },
+    {
+     "facette": 5,
+     "nom": "priorite x / priorite / x priorite / x priorite x",
+     "part": 0.13
+    },
+    {
+     "facette": 2,
+     "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+     "part": 0.13
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-polynesie",
+     "enonce": "Présenter les acteurs intervenant dans la politique de prévention de la lombalgie."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-specimen-1",
+     "enonce": "Présenter le rôle des acteurs impliqués dans la lutte contre l’antibiorésistance."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 77,
+   "section": 14,
+   "section_titre": "Repères pour l’enseignement",
+   "probabilite": 0.547,
+   "texte": "Le professeur :  situe les acquis des sciences et techniques sanitaires et sociales dans la démarche technologique ;  permet et encadre l’expression par les élèves de leurs conceptions initiales ;  procède régulièrement à des synthèses pour expliciter et structurer les savoirs et savoir-faire, propose des temps pédagogiques permettant de les réinvestir dans des contextes différents et aide ainsi au développement des capacités exigibles ;  établit des liens aussi bien entre les différentes parties du programme, entre les notions et les capacités, qu’avec les autres enseignements, notamment ",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "montrer x / montrer / charge / complementarite",
+     "part": 0.67
+    },
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+     "enonce": "Montrer que le chômage impacte la santé des personnes en recherche d’emploi."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+     "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 33,
+   "section": 8,
+   "section_titre": "Quelles interventions pour agir sur les problèmes sociaux ?",
+   "probabilite": 0.547,
+   "texte": "L’intervention sociale : Des objectifs de l’intervention sociale Pluralité des modes d’intervention Diversité des acteurs Droit de la personne, place de la personne, du groupe accompagné Principales notions : Diagnostic social - intervention sociale - développement social local - accompagnement social - insertion sociale : Caractériser les modes d’intervention sociale. Mettre en relation une intervention sociale avec la question sociale qui en est à l’origine. Présenter le rôle des différents acteurs dans une intervention sociale.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 3,
+     "nom": "modes / intervention x / modes x / intervention",
+     "part": 0.67
+    },
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+     "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-nouvelle-caledonie",
+     "enonce": "Expliquer comment des modes d’intervention en santé permettent de lutter contre l’obésité."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 27,
+   "section": 6,
+   "section_titre": "Qu’est-ce que la protection sociale ?",
+   "probabilite": 0.535,
+   "texte": "Illustrer le principe d’universalité de l’assurance maladie. Présenter l’organisation du principal régime de sécurité sociale.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "securite"
+   ],
+   "toujours_nomme": [
+    "assurance"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.5
+    },
+    {
+     "facette": 3,
+     "nom": "modes / intervention x / modes x / intervention",
+     "part": 0.25
+    },
+    {
+     "facette": 2,
+     "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-nouvelle-caledonie",
+     "enonce": ""
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-nouvelle-caledonie",
+     "enonce": ""
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 76,
+   "section": 13,
+   "section_titre": "Organisation du programme",
+   "probabilite": 0.314,
+   "texte": "Les acquis de l’enseignement de sciences et techniques sanitaires et sociales, particulièrement ceux en lien avec la méthodologie appliquée au secteur sanitaire et social, sont évalués dans le cadre de l’épreuve orale terminale du baccalauréat. Selon la thématique du travail de l’élève, les deux enseignements de spécialité peuvent être mobilisés.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.75
+    },
+    {
+     "facette": 3,
+     "nom": "modes / intervention x / modes x / intervention",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+     "enonce": ""
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+     "enonce": ""
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 61,
+   "section": 13,
+   "section_titre": "Organisation du programme",
+   "probabilite": 0.304,
+   "texte": "Le module Modes d’intervention en santé et action sociale prolonge la réflexion engagée dans la partie Santé, bien-être et cohésion sociale par une approche des différents modes d’intervention en santé et en action sociale qui visent à assurer le bien-être, la cohésion sociale, la santé des groupes et personnes aux différentes échelles territoriales.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.75
+    },
+    {
+     "facette": 3,
+     "nom": "modes / intervention x / modes x / intervention",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-nouvelle-caledonie",
+     "enonce": "Montrer que différents modes d’intervention en santé sont mobilisés pour lutter contre les conduites addictives."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+     "enonce": "Expliquer comment les différents acteurs favorisent l’intégration  sociale des personnes en situation de handicap."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 19,
+   "section": 4,
+   "section_titre": "Comment émerge un problème de santé ?",
+   "probabilite": 0.3,
+   "texte": "Des préoccupations de santé publique à la reconnaissance de problèmes sanitaires par la collectivité Différentes dimensions d’un problème de santé publique Principales notions : Préoccupation - risque - risque sanitaire - alerte sanitaire - crise sanitaire - problème de santé : Identifier la dimension sociale des questions de santé. Analyser comment une société identifie un risque sanitaire, un problème de santé publique. Montrer la place relative de l’épidémiologie dans la reconnaissance des problèmes de santé publique. Analyser les composantes d’une situation de crise sanitaire.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "risque"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metropole-remplacement",
+     "enonce": "Expliquer en quoi les troubles du sommeil constituent un problème de santé publique."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole",
+     "enonce": "Présenter différents déterminants influençant la baisse de la natalité."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 18,
+   "section": 4,
+   "section_titre": "Comment émerge un problème de santé ?",
+   "probabilite": 0.299,
+   "texte": "État de santé : une articulation de déterminants Diversités des déterminants Interactions des déterminants : modèles explicatifs Principales notions : Facteurs de risque - déterminants - déterminants sociaux et environnementaux : Mobiliser les différents déterminants pour explorer une question de santé. Présenter l’impact des déterminants sociaux sur l’état de santé d’une personne, d’un groupe. Analyser les interactions entre différents déterminants de l’état de santé d’une population.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "etat",
+    "risque"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-nouvelle-caledonie",
+     "enonce": "Présenter des déterminants sociaux des conduites addictives."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole",
+     "enonce": "Présenter différents déterminants influençant la baisse de la natalité."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 26,
+   "section": 6,
+   "section_titre": "Qu’est-ce que la protection sociale ?",
+   "probabilite": 0.275,
+   "texte": "Organisation générale du système de protection sociale : une pluralité de dispositifs et d’acteurs Principales notions : Composantes du système de protection sociale - aide sociale - protection universelle - protection complémentaire - régimes de sécurité sociale - caractère subsidiaire : Illustrer le caractère complémentaire, subsidiaire ou supplémentaire des différentes composantes du système de protection sociale. Repérer la complémentarité entre les prestations d’assurance maladie de sécurité sociale et les prestations des organismes complémentaires de l’assurance maladie.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "securite"
+   ],
+   "toujours_nomme": [
+    "assurance"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.5
+    },
+    {
+     "facette": 3,
+     "nom": "modes / intervention x / modes x / intervention",
+     "part": 0.25
+    },
+    {
+     "facette": 2,
+     "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+     "enonce": "Présenter le rôle du citoyen dans la mise en œuvre de différents modes d’intervention agissant sur la maladie de Lyme."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+     "enonce": "Montrer la complémentarité des acteurs de l’offre de soins dans la prise en charge de la maladie de Lyme."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 22,
+   "section": 5,
+   "section_titre": "Comment émerge un problème social ?",
+   "probabilite": 0.259,
+   "texte": "L’étude du système de protection sociale permet de situer sa spécificité, de comprendre son apport à la santé et au bien-être des personnes et des groupes, ainsi que son lien avec les différentes interventions de la puissance publique et des acteurs du domaine.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+     "enonce": "Montrer les spécificités de la politique sociale en faveur des  personnes en situation de handicap."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+     "enonce": "Montrer que la précarité des étudiants est un problème social."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 21,
+   "section": 5,
+   "section_titre": "Comment émerge un problème social ?",
+   "probabilite": 0.255,
+   "texte": "Problématiques sociales et reconnaissance des problèmes sociaux : Des inégalités multiples Des situations de précarité aux ruptures Reconnaissance des problèmes sociaux par la collectivité Principales notions : Problème social - précarité - pauvreté - processus d’exclusion : Expliquer comment la cohésion sociale peut être fragilisée par les inégalités sociales et territoriales. Distinguer précarité, pauvreté et exclusion. Montrer que l’exclusion est le résultat d’un processus. Analyser les conditions d’émergence d’un problème social et sa reconnaissance par la collectivité.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "precarite",
+    "reconnaissance",
+    "probleme"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+     "enonce": "Montrer que la précarité des étudiants est un problème social."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+     "enonce": "Montrer les spécificités de la politique sociale en faveur des  personnes en situation de handicap."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 16,
+   "section": 3,
+   "section_titre": "Comment mesurer l’état de santé, de bien-être et la cohésion sociale ?",
+   "probabilite": 0.254,
+   "texte": "Présenter la complémentarité des indicateurs mobilisés pour mesurer un phénomène particulier. Recueillir, traiter et analyser un ensemble de données pour caractériser une population quant à sa santé ou sa cohésion sociale. Porter un regard critique sur la mesure d’un phénomène sanitaire ou social par un ou plusieurs indicateurs. Repérer les contrastes et inégalités existant au sein des populations et entre elles.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "ensemble"
+   ],
+   "toujours_nomme": [
+    "elles"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "montrer / comment / comment x / intervention x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+     "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-mayotte-liban",
+     "enonce": "Caractériser l’état de santé des proches aidants."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 13,
+   "section": 3,
+   "section_titre": "Comment mesurer l’état de santé, de bien-être et la cohésion sociale ?",
+   "probabilite": 0.247,
+   "texte": "La notion d’indicateur est construite à partir de la mise en évidence de la nécessité de mesurer l’état de santé d’une population, ses caractéristiques sociales, ses besoins en matière de santé et de cohésion sociale pour envisager des actions adaptées. L’utilisation du tableur est indispensable pour caractériser des évolutions, pour montrer l’importance relative",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [
+    "relative",
+    "etat"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "montrer / comment / comment x / intervention x",
+     "part": 1.0
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-mayotte-liban",
+     "enonce": "Caractériser l’état de santé des proches aidants."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+     "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 49,
+   "section": 11,
+   "section_titre": "Objectifs",
+   "probabilite": 0.24,
+   "texte": "L’étude des relations effectives entre les institutions et les dispositifs concernés par la mise en œuvre des politiques sanitaires et sociales s'avère utile pour que les élèves confrontent leurs représentations à la réalité des secteurs concernés et développent des compétences d’observation, d’analyse, de synthèse et de restitution.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "montrer x / montrer / charge / complementarite",
+     "part": 0.5
+    },
+    {
+     "facette": 1,
+     "nom": "presenter / presenter x / comment x / comment",
+     "part": 0.5
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+     "enonce": "Montrer que la prostitution des mineurs impacte leur santé."
+    },
+    {
+     "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+     "enonce": "Présenter le rôle des différents acteurs impliqués dans la politique de  lutte contre la prostitution des mineurs."
+    }
+   ],
+   "intention": null
+  }
+ ],
+ "preuve_sur_les_nouveautes": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "questions_nouvelles": 10,
+  "auc_potentiel_sur_passages_jamais_tombes": 0.574,
+  "nouvelles_couvertes_par_le_quart_retenu": 0.5,
+  "hasard": 0.25
+ },
+ "programme": [
+  {
+   "section": 16,
+   "titre": "Module Politiques, dispositifs de santé publique et d’action sociale",
+   "passages": 25,
+   "proba": 0.923,
+   "potentiel": 0.936,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.956,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 101,
+     "texte": "Comment les organisations sanitaires et sociales mettent-elles en place un plan d’action pour améliorer la santé ou le bien-être des populations ? : Cette partie permet aux élèves de situer la place particulière du projet dans le secteur sanitaire et social et les caractéristiques spécifiques des actions dans ce secteur : diagnostic des besoins, place de la population cible, cadre juridique et pol",
+     "proba": 0.892,
+     "potentiel": 0.876,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.65
+      },
+      {
+       "facette": 5,
+       "nom": "priorite x / priorite / x priorite / x priorite x",
+       "part": 0.13
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.13
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-metropole",
+       "enonce": "Justifier que l’usage détourné du protoxyde d’azote constitue un problème de santé publique."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-metropole-remplacement",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 95,
+     "texte": "Prenant appui sur les modules Modes d’intervention en santé et action sociale et Protection sociale de la classe de première, l’étude de différents dispositifs de lutte contre la précarité, la pauvreté et l’exclusion sociale permet de lier le diagnostic des besoins sociaux sur un territoire avec les dispositifs et actions mis en place. Le lien entre les politiques sociales et les dispositifs de pr",
+     "proba": 0.445,
+     "potentiel": 0.922,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.65
+      },
+      {
+       "facette": 5,
+       "nom": "priorite x / priorite / x priorite / x priorite x",
+       "part": 0.13
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.13
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metro-cand-libre",
+       "enonce": "Présenter les modes d'intervention en santé mobilisés dans la lutte contre le tabagisme."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metropole-remplacement",
+       "enonce": "Présenter les modes d’intervention en santé mis en œuvre pour améliorer la qualité du sommeil."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 103,
+     "texte": "Elle permet d’étudier notamment le fonctionnement d’une organisation du secteur d’activité. Les méthodes et outils étudiés sont systématiquement ancrés dans une démarche de projet précise qui permet d’appréhender la logique des choix effectués.",
+     "proba": 0.51,
+     "potentiel": 0.853,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.65
+      },
+      {
+       "facette": 5,
+       "nom": "priorite x / priorite / x priorite / x priorite x",
+       "part": 0.13
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.13
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "Comment émerge un problème de santé ?",
+   "passages": 3,
+   "proba": 0.3,
+   "potentiel": 1.0,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.906,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 19,
+     "texte": "Des préoccupations de santé publique à la reconnaissance de problèmes sanitaires par la collectivité Différentes dimensions d’un problème de santé publique Principales notions : Préoccupation - risque - risque sanitaire - alerte sanitaire - crise sanitaire - problème de santé : Identifier la dimension sociale des questions de santé. Analyser comment une société identifie un risque sanitaire, un pr",
+     "proba": 0.3,
+     "potentiel": 1.0,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "risque"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metropole-remplacement",
+       "enonce": "Expliquer en quoi les troubles du sommeil constituent un problème de santé publique."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole",
+       "enonce": "Présenter différents déterminants influençant la baisse de la natalité."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 18,
+     "texte": "État de santé : une articulation de déterminants Diversités des déterminants Interactions des déterminants : modèles explicatifs Principales notions : Facteurs de risque - déterminants - déterminants sociaux et environnementaux : Mobiliser les différents déterminants pour explorer une question de santé. Présenter l’impact des déterminants sociaux sur l’état de santé d’une personne, d’un groupe. An",
+     "proba": 0.299,
+     "potentiel": 0.94,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "etat",
+      "risque"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-nouvelle-caledonie",
+       "enonce": "Présenter des déterminants sociaux des conduites addictives."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole",
+       "enonce": "Présenter différents déterminants influençant la baisse de la natalité."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 17,
+     "texte": "Les dimensions sociale et épidémiologique de la reconnaissance des problèmes de santé, des risques et des crises sanitaires sont illustrées au travers d’exemples en lien avec l’actualité. La contribution de la recherche scientifique à l’identification des différents déterminants d’une problématique de santé est mise en évidence.",
+     "proba": 0.282,
+     "potentiel": 0.959,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole",
+       "enonce": "Présenter différents déterminants influençant la baisse de la natalité."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metropole-remplacement",
+       "enonce": "Expliquer en quoi les troubles du sommeil constituent un problème de santé publique."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 13,
+   "titre": "Organisation du programme",
+   "passages": 21,
+   "proba": 0.314,
+   "potentiel": 0.821,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.877,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 61,
+     "texte": "Le module Modes d’intervention en santé et action sociale prolonge la réflexion engagée dans la partie Santé, bien-être et cohésion sociale par une approche des différents modes d’intervention en santé et en action sociale qui visent à assurer le bien-être, la cohésion sociale, la santé des groupes et personnes aux différentes échelles territoriales.",
+     "proba": 0.304,
+     "potentiel": 0.821,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-nouvelle-caledonie",
+       "enonce": "Montrer que différents modes d’intervention en santé sont mobilisés pour lutter contre les conduites addictives."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+       "enonce": "Expliquer comment les différents acteurs favorisent l’intégration  sociale des personnes en situation de handicap."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 76,
+     "texte": "Les acquis de l’enseignement de sciences et techniques sanitaires et sociales, particulièrement ceux en lien avec la méthodologie appliquée au secteur sanitaire et social, sont évalués dans le cadre de l’épreuve orale terminale du baccalauréat. Selon la thématique du travail de l’élève, les deux enseignements de spécialité peuvent être mobilisés.",
+     "proba": 0.314,
+     "potentiel": 0.56,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 57,
+     "texte": "Chacun de ces modules est composé d’une ou plusieurs parties, introduites par un questionnement.",
+     "proba": 0.304,
+     "potentiel": 0.615,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+       "enonce": "Expliquer comment les différents acteurs favorisent l’intégration  sociale des personnes en situation de handicap."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-nouvelle-caledonie",
+       "enonce": "Montrer que différents modes d’intervention en santé sont mobilisés pour lutter contre les conduites addictives."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "Qu’est-ce que la protection sociale ?",
+   "passages": 6,
+   "proba": 0.535,
+   "potentiel": 0.862,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.864,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 26,
+     "texte": "Organisation générale du système de protection sociale : une pluralité de dispositifs et d’acteurs Principales notions : Composantes du système de protection sociale - aide sociale - protection universelle - protection complémentaire - régimes de sécurité sociale - caractère subsidiaire : Illustrer le caractère complémentaire, subsidiaire ou supplémentaire des différentes composantes du système de",
+     "proba": 0.275,
+     "potentiel": 0.862,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "securite"
+     ],
+     "toujours_nomme": [
+      "assurance"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+       "enonce": "Présenter le rôle du citoyen dans la mise en œuvre de différents modes d’intervention agissant sur la maladie de Lyme."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+       "enonce": "Montrer la complémentarité des acteurs de l’offre de soins dans la prise en charge de la maladie de Lyme."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 27,
+     "texte": "Illustrer le principe d’universalité de l’assurance maladie. Présenter l’organisation du principal régime de sécurité sociale.",
+     "proba": 0.535,
+     "potentiel": 0.495,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "securite"
+     ],
+     "toujours_nomme": [
+      "assurance"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-nouvelle-caledonie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-nouvelle-caledonie",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 28,
+     "texte": "Par l’étude de ce module, les élèves découvrent la diversité et les caractéristiques des modes d’intervention visant à favoriser la santé ou le bien-être des personnes et des groupes. Ils se préparent ainsi à l’exploration des politiques publiques de santé menée en classe terminale. Les liens avec l’étude de la protection sociale sont assurés.",
+     "proba": 0.063,
+     "potentiel": 0.72,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+       "enonce": "Présenter le rôle du citoyen dans la mise en œuvre de différents modes d’intervention agissant sur la maladie de Lyme."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+       "enonce": "Montrer la complémentarité des acteurs de l’offre de soins dans la prise en charge de la maladie de Lyme."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "Comment mesurer l’état de santé, de bien-être et la cohésion sociale ?",
+   "passages": 4,
+   "proba": 0.254,
+   "potentiel": 0.853,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.842,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 16,
+     "texte": "Présenter la complémentarité des indicateurs mobilisés pour mesurer un phénomène particulier. Recueillir, traiter et analyser un ensemble de données pour caractériser une population quant à sa santé ou sa cohésion sociale. Porter un regard critique sur la mesure d’un phénomène sanitaire ou social par un ou plusieurs indicateurs. Repérer les contrastes et inégalités existant au sein des populations",
+     "proba": 0.254,
+     "potentiel": 0.853,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "ensemble"
+     ],
+     "toujours_nomme": [
+      "elles"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+       "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-mayotte-liban",
+       "enonce": "Caractériser l’état de santé des proches aidants."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 13,
+     "texte": "La notion d’indicateur est construite à partir de la mise en évidence de la nécessité de mesurer l’état de santé d’une population, ses caractéristiques sociales, ses besoins en matière de santé et de cohésion sociale pour envisager des actions adaptées. L’utilisation du tableur est indispensable pour caractériser des évolutions, pour montrer l’importance relative",
+     "proba": 0.247,
+     "potentiel": 0.683,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "relative",
+      "etat"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-mayotte-liban",
+       "enonce": "Caractériser l’état de santé des proches aidants."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+       "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 14,
+     "texte": "de certaines données, pour comparer les caractéristiques de différentes populations ou groupes sociaux, par exemple.",
+     "proba": 0.048,
+     "potentiel": 0.716,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+       "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-mayotte-liban",
+       "enonce": "Caractériser l’état de santé des proches aidants."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 5,
+   "titre": "Comment émerge un problème social ?",
+   "passages": 3,
+   "proba": 0.259,
+   "potentiel": 0.771,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.818,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 22,
+     "texte": "L’étude du système de protection sociale permet de situer sa spécificité, de comprendre son apport à la santé et au bien-être des personnes et des groupes, ainsi que son lien avec les différentes interventions de la puissance publique et des acteurs du domaine.",
+     "proba": 0.259,
+     "potentiel": 0.771,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+       "enonce": "Montrer les spécificités de la politique sociale en faveur des  personnes en situation de handicap."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Montrer que la précarité des étudiants est un problème social."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 21,
+     "texte": "Problématiques sociales et reconnaissance des problèmes sociaux : Des inégalités multiples Des situations de précarité aux ruptures Reconnaissance des problèmes sociaux par la collectivité Principales notions : Problème social - précarité - pauvreté - processus d’exclusion : Expliquer comment la cohésion sociale peut être fragilisée par les inégalités sociales et territoriales. Distinguer précarit",
+     "proba": 0.255,
+     "potentiel": 0.761,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "precarite",
+      "reconnaissance",
+      "probleme"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Montrer que la précarité des étudiants est un problème social."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+       "enonce": "Montrer les spécificités de la politique sociale en faveur des  personnes en situation de handicap."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 20,
+     "texte": "L’étude des conditions d’émergence d’un problème social est menée à partir d’exemples d’actualité.",
+     "proba": 0.054,
+     "potentiel": 0.463,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "probleme"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Montrer que la précarité des étudiants est un problème social."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-la-reunion",
+       "enonce": "Montrer les spécificités de la politique sociale en faveur des  personnes en situation de handicap."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 2,
+   "titre": "Qu’est-ce que la santé ? Qu’est-ce que le bien-être ? Qu’est-ce que la cohésion sociale ?",
+   "passages": 6,
+   "proba": 0.231,
+   "potentiel": 0.784,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.739,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 11,
+     "texte": "Identifier l’influence des normes sociales sur la santé.",
+     "proba": 0.231,
+     "potentiel": 0.679,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-specimen-2",
+       "enonce": "LE MAL-LOGEMENT, UNE CONSEQUENCE SUR LA SANTE ?\nLe mal-logement regroupe trois dimensions différentes : la qualité de l’habitat, la taille du\nlogement et la possibilité de disposer de son propre logement. Être mal-logé, "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 12,
+     "texte": "Les concepts de ce champ peuvent être abordés et travaillés dans une construction progressive, en lien avec les autres points de ce module, comme la question des déterminants sociaux. Les concepts d’intégration sociale sont mis en perspective avec les leviers d’intervention possible.",
+     "proba": 0.034,
+     "potentiel": 0.784,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "autres"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-specimen-2",
+       "enonce": "LE MAL-LOGEMENT, UNE CONSEQUENCE SUR LA SANTE ?\nLe mal-logement regroupe trois dimensions différentes : la qualité de l’habitat, la taille du\nlogement et la possibilité de disposer de son propre logement. Être mal-logé, "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 8,
+     "texte": "De la santé des individus à la santé de la population Diversité des approches de la santé Principales notions : Santé, santé globale - santé individuelle, santé collective - santé publique : Montrer la relativité des notions de santé. Analyser une question sanitaire en mobilisant la notion de santé. Identifier les préoccupations en santé publique.",
+     "proba": 0.033,
+     "potentiel": 0.78,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-specimen-2",
+       "enonce": "LE MAL-LOGEMENT, UNE CONSEQUENCE SUR LA SANTE ?\nLe mal-logement regroupe trois dimensions différentes : la qualité de l’habitat, la taille du\nlogement et la possibilité de disposer de son propre logement. Être mal-logé, "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "Objectifs",
+   "passages": 8,
+   "proba": 0.24,
+   "potentiel": 0.661,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.73,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 49,
+     "texte": "L’étude des relations effectives entre les institutions et les dispositifs concernés par la mise en œuvre des politiques sanitaires et sociales s'avère utile pour que les élèves confrontent leurs représentations à la réalité des secteurs concernés et développent des compétences d’observation, d’analyse, de synthèse et de restitution.",
+     "proba": 0.24,
+     "potentiel": 0.651,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Montrer que la prostitution des mineurs impacte leur santé."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Présenter le rôle des différents acteurs impliqués dans la politique de  lutte contre la prostitution des mineurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 43,
+     "texte": "L’enseignement de sciences et techniques sanitaires et sociales se déploie selon une approche systémique permettant aux élèves de la série Sciences et technologies de la santé et du social d’analyser, dans leur complexité, des situations d’actualité sanitaire ou sociale et d’en comprendre les enjeux. Les élèves identifient et analysent les besoins de santé et les besoins des individus et des group",
+     "proba": 0.037,
+     "potentiel": 0.661,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Montrer que la prostitution des mineurs impacte leur santé."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Présenter le rôle des différents acteurs impliqués dans la politique de  lutte contre la prostitution des mineurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 50,
+     "texte": "Ces relations peuvent prendre des formes différentes : rencontres avec des professionnels, observations et visites sur le terrain, communication à distance, études de documents techniques, suivis d’actions et de projet, etc. Les acquis de ces activités sont intégrés à l’enseignement dispensé.",
+     "proba": 0.045,
+     "potentiel": 0.573,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Montrer que la prostitution des mineurs impacte leur santé."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Présenter le rôle des différents acteurs impliqués dans la politique de  lutte contre la prostitution des mineurs."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 14,
+   "titre": "Repères pour l’enseignement",
+   "passages": 5,
+   "proba": 0.547,
+   "potentiel": 0.514,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.633,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 77,
+     "texte": "Le professeur :  situe les acquis des sciences et techniques sanitaires et sociales dans la démarche technologique ;  permet et encadre l’expression par les élèves de leurs conceptions initiales ;  procède régulièrement à des synthèses pour expliciter et structurer les savoirs et savoir-faire, propose des temps pédagogiques permettant de les réinvestir dans des contextes différents et aide ains",
+     "proba": 0.547,
+     "potentiel": 0.211,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+       "enonce": "Montrer que le chômage impacte la santé des personnes en recherche d’emploi."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 79,
+     "texte": "La construction du questionnement en santé et social, la mobilisation des acquis, la recherche et l’exploitation des ressources dans une démarche raisonnée et rigoureuse, la mise en œuvre de méthodes y sont développées, de même que les capacités à s’organiser et à travailler en équipe.",
+     "proba": 0.072,
+     "potentiel": 0.514,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+       "enonce": "Montrer que le chômage impacte la santé des personnes en recherche d’emploi."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 80,
+     "texte": "La complexité des situations ou des faits étudiés, la richesse des ressources, la finesse des questionnements concourent au développement des compétences d’analyse et de l’esprit critique. À l’issue des travaux de groupes ou de recherche personnelle menés par l’élève ou le groupe d’élèves, un temps est dédié à la mise en commun, à la confrontation des démarches, des résultats, des travaux.",
+     "proba": 0.082,
+     "potentiel": 0.321,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+       "enonce": "Montrer que le chômage impacte la santé des personnes en recherche d’emploi."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 8,
+   "titre": "Quelles interventions pour agir sur les problèmes sociaux ?",
+   "passages": 3,
+   "proba": 0.547,
+   "potentiel": 0.463,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.571,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 33,
+     "texte": "L’intervention sociale : Des objectifs de l’intervention sociale Pluralité des modes d’intervention Diversité des acteurs Droit de la personne, place de la personne, du groupe accompagné Principales notions : Diagnostic social - intervention sociale - développement social local - accompagnement social - insertion sociale : Caractériser les modes d’intervention sociale. Mettre en relation une inter",
+     "proba": 0.547,
+     "potentiel": 0.018,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-nouvelle-caledonie",
+       "enonce": "Expliquer comment des modes d’intervention en santé permettent de lutter contre l’obésité."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 32,
+     "texte": "Les différents modes d’intervention sont mis en relation avec les caractéristiques des situations sur lesquels ils agissent. La diversité des acteurs et la pluralité des actions sont mises en évidence à partir d’exemples locaux. La place des groupes sociaux, des besoins exprimés ou identifiés, est présente dans l’étude d’exemples d’actions menées.",
+     "proba": 0.065,
+     "potentiel": 0.463,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-nouvelle-caledonie",
+       "enonce": "Expliquer comment des modes d’intervention en santé permettent de lutter contre l’obésité."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 34,
+     "texte": "Analyser la participation de la personne, du groupe dans une intervention sociale. Illustrer le rôle de la protection sociale dans la lutte contre l’exclusion, les inégalités sociales.",
+     "proba": 0.068,
+     "potentiel": 0.385,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-nouvelle-caledonie",
+       "enonce": "Expliquer comment des modes d’intervention en santé permettent de lutter contre l’obésité."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "Comment les études scientifiques en santé-social contribuent-elles à la connaissance d’une population ?",
+   "passages": 4,
+   "proba": 0.022,
+   "potentiel": 0.523,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.286,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 37,
+     "texte": "Rechercher les études scientifiques déjà menées sur le sujet concerné est un préalable à toute étude. Cette recherche documentaire est également indispensable à l’analyse des différents thèmes du programme. Elle permet la mobilisation des connaissances et représente souvent le socle des activités menées par les élèves. L’apprentissage de la démarche de recherche documentaire nécessite un temps déd",
+     "proba": 0.022,
+     "potentiel": 0.523,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-metropole",
+       "enonce": "Justifier que l’usage détourné du protoxyde d’azote constitue un problème de santé publique."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-metropole-remplacement",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 38,
+     "texte": "La démarche, une fois maîtrisée par les élèves, est régulièrement mise en œuvre dans l’ensemble des activités de sciences et techniques sanitaires et sociales.",
+     "proba": 0.022,
+     "potentiel": 0.459,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "ensemble"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Présenter le rôle des différents acteurs impliqués dans la politique de  lutte contre la prostitution des mineurs."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2023-metropole-remplacement",
+       "enonce": "Montrer que la prostitution des mineurs impacte leur santé."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 36,
+     "texte": "Recherche documentaire dans le domaine sanitaire et social : Questionnement, collecte, analyse critique des sources, synthèse Principales notions : Source d’information - fiabilité de la source - qualité de l’information - requête - références, typologie des principales bases documentaires du champ : Constituer et structurer un corpus documentaire correspondant à un sujet dans le domaine sanitaire",
+     "proba": 0.021,
+     "potentiel": 0.303,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-metropole",
+       "enonce": "Justifier que l’usage détourné du protoxyde d’azote constitue un problème de santé publique."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-metropole-remplacement",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "Le module « Méthodologies appliquées au secteur sanitaire et social » accompagne de",
+   "passages": 6,
+   "proba": 0.014,
+   "potentiel": 0.541,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.27,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 6,
+     "texte": "Les différentes parties du programme de Sciences et technologies sanitaires et sociales prennent appui sur les acquis du programme de seconde, en Sciences économiques et sociales particulièrement, et sont enrichies par les apports des autres disciplines. L’enseignement technologique en langue vivante étrangère (ETLV) contribue à renforcer l’ouverture sur l’Europe et à l’international et aide à ren",
+     "proba": 0.014,
+     "potentiel": 0.541,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.25
+      },
+      {
+       "facette": 5,
+       "nom": "priorite x / priorite / x priorite / x priorite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 3,
+     "texte": "« Capacités exigibles » : sont présentées ici les activités intellectuelles stabilisées et reproductibles qui sont attendues des élèves à la fin du cycle, et qui prennent appui sur la mobilisation des contenus du programme. La progression de l’enseignement, pour chacun des pôles, relève de l’initiative du professeur au sein de l’équipe pédagogique.",
+     "proba": 0.011,
+     "potentiel": 0.362,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 5,
+     "texte": "L’utilisation de l’outil numérique (logiciels, applications, bases de données, ressources numériques du secteur sanitaire et social) doit être systématique dans le pôle méthodologique et intégrée tout au long des deux années pour les deux pôles. Comme pour toutes les disciplines, la pratique du numérique en STSS participe au développement des compétences numériques des lycéens futurs étudiants et ",
+     "proba": 0.013,
+     "potentiel": 0.298,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 12,
+   "titre": "Compétences visées",
+   "passages": 5,
+   "proba": 0.028,
+   "potentiel": 0.413,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.268,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 54,
+     "texte": "Cet enseignement contribue au développement des compétences orales à travers notamment la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter son raisonnement de manière à convaincre. Elle permet à chacun de faire évoluer sa pensée, jusqu’à la remettre en cause si nécessaire, pour accéder progressivement à la vérité par la preuve.",
+     "proba": 0.026,
+     "potentiel": 0.413,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.38
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2026-polynesie",
+       "enonce": "Montrer que les risques psychosociaux peuvent affecter la santé des travailleurs."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 55,
+     "texte": "Elle prend un relief particulier pour ceux qui choisiront de préparer l’épreuve orale terminale du baccalauréat en l'adossant à cet enseignement de spécialité.",
+     "proba": 0.028,
+     "potentiel": 0.284,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.88
+      },
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 52,
+     "texte": "Ces compétences sont travaillées en lien avec celles spécifiques au champ santé- social :  analyser des faits de société posant des questions sanitaires ou sociales ;  caractériser la cohésion sociale, le bien-être et la santé des populations, des groupes sociaux ;  questionner la relation entre les déterminants, les besoins en matière de santé et de vie sociale et les réponses politiques et in",
+     "proba": 0.025,
+     "potentiel": 0.275,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.12
+      },
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-nouvelle-caledonie",
+       "enonce": "Montrer que différents modes d’intervention en santé sont mobilisés pour lutter contre les conduites addictives."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-mayotte-liban",
+       "enonce": "Caractériser l’état de santé des proches aidants."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 10,
+   "titre": "Contenu",
+   "passages": 4,
+   "proba": 0.024,
+   "potentiel": 0.431,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.239,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 40,
+     "texte": "Mettre en relation un objet d’étude avec la demande ou le besoin, la commande initiale et le contexte institutionnel. Repérer les différentes questions éthiques et réglementaires posées par une étude. Argumenter le choix de la méthode et des outils de recueil de données utilisés dans une étude. Présenter le choix de construction de l’échantillon d’une étude. Traiter les données quantitatives pour ",
+     "proba": 0.023,
+     "potentiel": 0.431,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+       "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 41,
+     "texte": "Principales notions : Démarche - protocole d’étude - méthode de recueil de données - producteur de données - objet d’étude - hypothèses - outils de recueil de données - spécificités des données et des informations à caractère sanitaire et social - protection de l’information - éthique - échantillon - traitement des données : d’une étude. Expliquer l’importance de la présentation d’une étude et de ",
+     "proba": 0.024,
+     "potentiel": 0.248,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.62
+      },
+      {
+       "facette": 4,
+       "nom": "montrer / comment / comment x / intervention x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-zero-1",
+       "enonce": "LE BON USAGE DU MÉDICAMENT\nL’antibiorésistance est le phénomène qui consiste, pour une bactérie, à devenir résistante aux\nantibiotiques. Les bactéries exposées aux antibiotiques évoluent et développent des mécanismes\nde "
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-metropole-remplacement",
+       "enonce": "Présenter le rôle du citoyen dans la mise en œuvre de différents modes d’intervention agissant sur la maladie de Lyme."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 42,
+     "texte": "L’analyse d’études, la conception voire la participation à une étude adaptée au cadre de formation des élèves peuvent faciliter la compréhension de la démarche et permettre d’acquérir les capacités associées.",
+     "proba": 0.024,
+     "potentiel": 0.106,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-metropole",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-metropole",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 15,
+   "titre": "Articulation entre enseignement de sciences et techniques sanitaires et sociales, et épreuve orale terminale",
+   "passages": 2,
+   "proba": 0.031,
+   "potentiel": 0.128,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.169,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 83,
+     "texte": "Ainsi, l’épreuve orale terminale prend appui sur l’enseignement de sciences et techniques sanitaires et sociales dans le cadre de l’étude d’une question de santé ou sociale contextualisée où l’élève est amené à :  questionner, explorer un fait, une question de santé ou sociale ;  recueillir les éléments nécessaires à son projet : recherche documentaire en appui sur les bases spécifiques au domai",
+     "proba": 0.031,
+     "potentiel": 0.128,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "prise"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.88
+      },
+      {
+       "facette": 5,
+       "nom": "priorite x / priorite / x priorite / x priorite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 82,
+     "texte": "Le questionnement de l’élève, qui fonde le cadre du projet présenté lors de l’épreuve orale terminale, se développe à partir de l’ensemble des acquis de sciences et techniques sanitaires et sociales.",
+     "proba": 0.031,
+     "potentiel": 0.128,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "ensemble"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "montrer x / montrer / charge / complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2024-polynesie",
+       "enonce": ""
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 7,
+   "titre": "Quelle action en santé pour agir sur les déterminants de santé et garantir la santé des personnes ?",
+   "passages": 3,
+   "proba": 0.017,
+   "potentiel": 0.312,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.161,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 31,
+     "texte": "Illustrer l’apport de la protection sociale à la santé des populations. Présenter le rôle des différents acteurs dans une intervention en santé. Analyser la participation de la personne dans une action en santé.",
+     "proba": 0.017,
+     "potentiel": 0.312,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "complementarite x / montrer x complementarite / complementarite / x complementarite",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+       "enonce": "Montrer comment les acteurs du dispositif de l’insertion par l’activité économique se complètent pour favoriser l’insertion sociale des personnes en difficultés."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 30,
+     "texte": "L’action en santé Pluralité des modes d’intervention en santé Diversité des acteurs en santé Droit de la personne Principales notions : Veille et sécurité sanitaire - promotion de la santé, éducation pour la santé, prévention, restauration de la santé - droits de la personne - acteurs en santé - parcours de santé : Caractériser les modes d’intervention en santé. Mettre en relation une action de sa",
+     "proba": 0.016,
+     "potentiel": 0.069,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "securite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.38
+      },
+      {
+       "facette": 5,
+       "nom": "priorite x / priorite / x priorite / x priorite x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+       "enonce": "Montrer comment les acteurs du dispositif de l’insertion par l’activité économique se complètent pour favoriser l’insertion sociale des personnes en difficultés."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 29,
+     "texte": "Les différents modes d’intervention sont mis en relation avec les questions de santé sur lesquels ils agissent. À partir d’exemples locaux, l’élève découvre la diversité des acteurs et des structures, et la pluralité des actions engagées. La place des groupes sociaux, des besoins exprimés ou identifiés est présente dans l’étude de ces exemples.",
+     "proba": 0.014,
+     "potentiel": 0.046,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2022-polynesie",
+       "enonce": "Présenter les modes d’intervention sociale mis en œuvre pour lutter contre ce problème."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2025-polynesie",
+       "enonce": "Montrer comment les acteurs du dispositif de l’insertion par l’activité économique se complètent pour favoriser l’insertion sociale des personnes en difficultés."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Le module « Politiques, dispositifs de santé publique et d'action sociale » explique la",
+   "passages": 1,
+   "proba": 0.004,
+   "potentiel": 0.151,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.05,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 0,
+     "texte": "construction de la politique sanitaire et sociale comme réponse aux attentes et besoins des populations. Il identifie les dispositifs, les structures qui rendent opérationnels les choix politiques et situe la place et le rôle des principaux acteurs. La place particulière de la protection sociale dans la lutte contre les inégalités est mise en évidence. Ce pôle ouvre l’étude aux niveaux européen et",
+     "proba": 0.004,
+     "potentiel": 0.151,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "presenter / presenter x / comment x / comment",
+       "part": 0.75
+      },
+      {
+       "facette": 3,
+       "nom": "modes / intervention x / modes x / intervention",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metro-cand-libre",
+       "enonce": "Présenter les modes d'intervention en santé mobilisés dans la lutte contre le tabagisme."
+      },
+      {
+       "sujet": "st2s-spe-sciences-sanitaires-sociales-2021-metropole-remplacement",
+       "enonce": "Présenter les modes d’intervention en santé mis en œuvre pour améliorer la qualité du sommeil."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  }
+ ],
+ "auto_progression": {
+  "prevision": {
+   "familles": [],
+   "modele": "ancienne",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[], \"ancienne\", false]": 0.392
+   },
+   "score_rejoue": [
+    0.571,
+    0.37,
+    0.288,
+    0.406,
+    0.378,
+    0.338
+   ],
+   "fourchette": [
+    0.012838468720821616,
+    0.7710952897266976
+   ]
+  },
+  "nouveaute": {
+   "familles": [
+    "voisinage"
+   ],
+   "modele": "melange",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[\"voisinage\"], \"melange\", false]": 0.613
+   },
+   "score_rejoue": [
+    0.912,
+    0.476,
+    0.05,
+    0.05,
+    1.099,
+    1.089
+   ],
+   "fourchette": [
+    0.0,
+    1.0
+   ]
+  }
+ },
+ "preuve_auto_progression": {
+  "prevision": {
+   "regle_sans_cette_matiere": [
+    [],
+    "ancienne",
+    false
+   ],
+   "avant_couverture": 0.192,
+   "couverture": 0.192,
+   "avant_auc": 0.674,
+   "auc": 0.674,
+   "regle_finale_couverture": 0.192,
+   "pseudo_domaines": {
+    "avant": 0.147,
+    "apres": 0.147,
+    "n": 14
+   }
+  },
+  "nouveaute": {
+   "regle_sans_cette_matiere": [
+    [
+     "proximite_au_deja_demande"
+    ],
+    "logistique",
+    true
+   ],
+   "avant_couverture": 0.422,
+   "couverture": 0.478,
+   "avant_auc": 0.628,
+   "auc": 0.605,
+   "regle_finale_couverture": 0.589,
+   "pseudo_domaines": {
+    "avant": 0.596,
+    "apres": 0.59,
+    "n": 14
+   }
+  },
+  "auto_jugement": {
+   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
+   "fourchette_juste": 0.854,
+   "largeur_moyenne": 0.789,
+   "taches": 445
+  }
+ }
+}

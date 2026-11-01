@@ -1,0 +1,5199 @@
+{
+ "matiere": "svt",
+ "annee_prevue": 2027,
+ "annees_connues": [
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "preuve_comme_en_vrai": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "passages_du_cours": 522,
+  "passages_prevus": 52,
+  "hasard_questions_couvertes": 0.1,
+  "choix_par_annee": {
+   "2024": "arbres_generiques_et_propres_a_la_matiere",
+   "2025": "ensemble",
+   "2026": "ensemble"
+  },
+  "famille_pour_l_annee_prevue": "ensemble",
+  "popularite": {
+   "auc": 0.762,
+   "questions_couvertes": 0.294,
+   "questions_couvertes_a_un_passage_pres": 0.504,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.242,
+    "2026": 0.308
+   }
+  },
+  "logistique_12_generiques": {
+   "auc": 0.792,
+   "questions_couvertes": 0.395,
+   "questions_couvertes_a_un_passage_pres": 0.573,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.375,
+    "2025": 0.424,
+    "2026": 0.385
+   }
+  },
+  "arbres_12_generiques": {
+   "auc": 0.765,
+   "questions_couvertes": 0.393,
+   "questions_couvertes_a_un_passage_pres": 0.564,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.417,
+    "2025": 0.455,
+    "2026": 0.308
+   }
+  },
+  "arbres_generiques_et_propres_a_la_matiere": {
+   "auc": 0.765,
+   "questions_couvertes": 0.404,
+   "questions_couvertes_a_un_passage_pres": 0.574,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.455,
+    "2026": 0.423
+   }
+  },
+  "ensemble": {
+   "auc": 0.783,
+   "questions_couvertes": 0.469,
+   "questions_couvertes_a_un_passage_pres": 0.587,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.5,
+    "2025": 0.485,
+    "2026": 0.423
+   }
+  },
+  "choisie_seule": {
+   "auc": 0.781,
+   "questions_couvertes": 0.414,
+   "questions_couvertes_a_un_passage_pres": 0.545,
+   "chapitres_prevus_tombes_sur_5": 4.333,
+   "par_annee": {
+    "2024": 0.333,
+    "2025": 0.485,
+    "2026": 0.423
+   }
+  }
+ },
+ "famille_choisie": "ensemble",
+ "passages_les_plus_probables": [
+  {
+   "passage": 505,
+   "section": 37,
+   "section_titre": "Corps humain et santé",
+   "probabilite": 0.999,
+   "texte": "Comportements et stress : vers une vision intégrée de l’organisme : Pour faire face aux perturbations de son environnement, l’organisme est capable de s’adapter : il dispose d’un ensemble de réponses adaptatives, rassemblées sous le terme de stress biologique, qui permettent un comportement approprié à la situation. Le système nerveux est impliqué dans ces mécanismes physiologiques et interagit avec les autres systèmes biologiques de l’organisme. Il s’agit d’une réponse normale de l’organisme (stress aigu). À plus long terme, la structure et le fonctionnement du cerveau peuvent être perturbés ",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "organisme",
+    "capable",
+    "adaptatives",
+    "reponses",
+    "aigu",
+    "comportement"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.6
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.17
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.15
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+     "enonce": "Plastes et amidon\n\nLes angiospermes sont composées de cellules contenant des organites particuliers appelés\nplastes. Suivant la localisation de la cellule au sein d’une même plante, les plastes peuvent se\ndifférencier en"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2021-metropole-1-remplacement",
+     "enonce": "Stress aigu et réponse comportementale\n\nLorsqu’un individu est exposé à un agent stresseur, son organisme réagit en se préparant à la\nfuite ou la lutte, réponses mettant en jeu la réalisation de mouvements assurés par de"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 502,
+   "section": 37,
+   "section_titre": "Corps humain et santé",
+   "probabilite": 0.997,
+   "texte": "entraîne des complications qui peuvent être à l’origine de diabètes. L’insuline entraîne l’entrée de glucose dans les cellules musculaires (et hépatiques) et le glucagon provoque la sortie du glucose des cellules hépatiques, grâce à des protéines membranaires transportant le glucose. Notions fondamentales : hormones hyper et hypo glycémiantes, système de régulation, organisation fonctionnelle du pancréas endocrine, récepteurs à insuline et à glucagon, diabète insulinodépendant ou non insulinodépendant.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [
+    "entraine",
+    "provoque"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.6
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.17
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.15
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-metropole-2-remplacement",
+     "enonce": "L’effet hypoglycémiant d’une molécule de synthèse\n\nPour obtenir expérimentalement des souris diabétiques on peut leur administrer une molécule,\nl’alloxane, qui détruit spécifiquement les cellules du pancréas produisant l"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2022-nouv-caledonie-1",
+     "enonce": "Le diabète entraîne des complications graves à long terme. En France, environ 3,5 millions\nde personnes sont traitées pour une forme de diabète dont 90% des cas sont des diabètes\nde type 2 (diabète non insulinodépendant)"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 438,
+   "section": 36,
+   "section_titre": "Enjeux planétaires contemporains",
+   "probabilite": 0.99,
+   "texte": "Reconstituer et comprendre les variations climatiques passées",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.44
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.27
+    },
+    {
+     "facette": 3,
+     "nom": "organique / matiere organique / matiere / x matiere organique",
+     "part": 0.16
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-asie-2",
+     "enonce": "Reconstituer et comprendre les variations climatiques passées\nProduction et destruction des lithosphères : influence sur les\névolutions climatiques à l’échelle des temps géologiques\nLa concentration de dioxyde de carbone"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2021-centres-etranger-2",
+     "enonce": "Reconstituer et comprendre les variations climatiques passées\nLes indices des variations du climat\nLes scientifiques indiquent une variation cyclique du climat pendant les derniers 800\nmilliers d’années.\nExpliquer quels "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 434,
+   "section": 36,
+   "section_titre": "Enjeux planétaires contemporains",
+   "probabilite": 0.989,
+   "texte": "Les climats de la Terre : comprendre le passé pour agir aujourd’hui et demain : Depuis 150 ans, le climat planétaire présente un réchauffement d’environ 1°C. Les scientifiques pointent le fait que ce changement climatique a des conséquences importantes déjà observables sur la météorologie, la biosphère et l’humanité. L’objectif de ce thème est de s’approprier les outils nécessaires pour appréhender les enjeux climatiques contemporains en établissant des comparaisons avec différents exemples de variations climatiques passées.",
+   "deja_tombe": 4,
+   "evalue_sans_etre_dit": [],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.44
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.27
+    },
+    {
+     "facette": 3,
+     "nom": "organique / matiere organique / matiere / x matiere organique",
+     "part": 0.16
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-centres-etranger-1",
+     "enonce": "Les climats de la Terre : comprendre le passé pour agir aujourd’hui et demain\nReconstitution climatique d’une période récente\nLe Petit Âge Glaciaire aurait été une période climatique relativement froide à l’échelle\nplané"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2022-amerique-nord-1",
+     "enonce": "Les climats de la Terre : comprendre le passé pour agir aujourd’hui et demain\nL’effet de serre au cours de l’histoire de notre planète\nAu cours de son histoire notre planète a connu des changements climatiques globaux.\nL"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 206,
+   "section": 18,
+   "section_titre": "Mutations et santé",
+   "probabilite": 0.958,
+   "texte": "• établir l’origine génétique d’une maladie ou d’un syndrome à partir d’arbres",
+   "deja_tombe": 3,
+   "evalue_sans_etre_dit": [
+    "arbres"
+   ],
+   "toujours_nomme": [
+    "maladie"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.73
+    },
+    {
+     "facette": 3,
+     "nom": "organique / matiere organique / matiere / x matiere organique",
+     "part": 0.09
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.09
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-amerique-nord-1",
+     "enonce": "Le Gui, une plante qui se développe sur d’autres végétaux\nLe Gui est une plante qui pousse sur les branches d’arbres comme les peupliers par\nexemple. L’abondance du Gui sur certains arbres peut conduire à la mort de l’ar"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2022-metropole-2-remplacement",
+     "enonce": "Montrer qu’une mutation du gène de l’ATP synthase transmise par hérédité cytoplasmique peut être à l’origine du syndrome NARP."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 383,
+   "section": 35,
+   "section_titre": "La Terre, la vie et l’organisation du vivant",
+   "probabilite": 0.911,
+   "texte": "Il importe de comprendre comment un objet géologique, quelles que soient ses dimensions, témoigne d’une histoire que l’on peut reconstituer par l’application de méthodes chronologiques. Cette étude temporelle permet de comprendre comment a été établie l’échelle internationale des temps géologiques et combien l’histoire de la Terre et l’histoire de la vie sont indissociables. Les dimensions spatiale et temporelle sont présentes dans l’étude des paléogéographies de la Terre. Les traces des mobilités tectoniques passées sont alors découvertes et interprétées.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "echelle",
+    "temps"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "diversite / x diversite / diversite x / x diversite x",
+     "part": 0.41
+    },
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.31
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.24
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+     "enonce": "Le temps géologique\n\nUn objet géologique comme le Grand Canyon du Colorado témoigne d’une histoire géologique\nque l’on peut reconstituer.\nExposer les principes et les méthodes qui permettent de reconstituer la chronologi"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2023-polynesie-2",
+     "enonce": "Le temps et les roches sédimentaires\nLes roches sédimentaires témoignent d’une histoire géologique et climatique que l’on peut\nreconstituer.\nExpliquer comment les géologues reconstituent l’histoire climatique et géologiq"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 355,
+   "section": 35,
+   "section_titre": "La Terre, la vie et l’organisation du vivant",
+   "probabilite": 0.911,
+   "texte": "En l’absence d’échanges génétiques avec l’extérieur, la diversité génétique dans un clone résulte de l’accumulation de mutations successives dans les différentes cellules. Tout accident génétique irréversible (perte de gène par exemple) devient pérenne pour toute la lignée (sous-clone) qui dérive du mutant. Le brassage des génomes à chaque génération : la reproduction sexuée des eucaryotes La fécondation entre gamètes haploïdes rassemble, dans une même cellule diploïde, deux génomes d’origine indépendante apportant chacun un lot d’allèles.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "genomes"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "diversite / x diversite / diversite x / x diversite x",
+     "part": 0.41
+    },
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.31
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.24
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-amerique-sud-2",
+     "enonce": "La diversité génétique produite au cours des divisions cellulaires\nUne cellule initiale qui subit de nombreuses divisions cellulaires forme un clone cellulaire. Dans\nun clone cellulaire certaines cellules peuvent présent"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+     "enonce": "Génétique et évolution\nL’origine du placenta de la lignée humaine\nLe placenta est un organe transitoire, lors de la grossesse, dont la fonction première est d’assurer\nles échanges entre le fœtus et sa mère. On cherche à "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 205,
+   "section": 18,
+   "section_titre": "Mutations et santé",
+   "probabilite": 0.907,
+   "texte": "Objectifs : les élèves comprennent les causes, le mode de transmission, les effets phénotypiques et les traitements possibles d’une maladie génétique monogénique.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "traitements",
+    "transmission"
+   ],
+   "toujours_nomme": [
+    "maladie"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.73
+    },
+    {
+     "facette": 3,
+     "nom": "organique / matiere organique / matiere / x matiere organique",
+     "part": 0.09
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.09
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2022-asie-1",
+     "enonce": "Génétique et évolution \nLa mucoviscidose est une maladie génétique humaine, affectant les épithéliums de\nnombreux organes. Elle est provoquée par la transmission de mutations du gène CFTR.\nDepuis quelques années, un nouv"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+     "enonce": "Expliquer le mode d’action de la clémastine pour traiter les patients atteints de sclérose en plaques."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 87,
+   "section": 11,
+   "section_titre": "La structure du globe terrestre Des contrastes entre les continents et les océans",
+   "probabilite": 0.906,
+   "texte": "La distribution bimodale des altitudes observée entre continents et le fond des océans reflète un contraste géologique, qui se retrouve dans la nature des roches et leur densité. Si la composition de la croûte continentale présente une certaine hétérogénéité visible en surface (roches magmatiques, sédimentaires, métamorphiques), une étude en profondeur révèle que les granites en sont les roches les plus représentatives.",
+   "deja_tombe": 2,
+   "evalue_sans_etre_dit": [
+    "roches",
+    "presente"
+   ],
+   "toujours_nomme": [
+    "oceans",
+    "continentale",
+    "croute",
+    "geologique"
+   ],
+   "manieres_de_demander": [
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.5
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.5
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2024-centres-etranger-1",
+     "enonce": "Expliquer comment l’analyse quantitative des isotopes est utilisée pour l’étude du passé géologique de notre planète."
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2026-polynesie-1-remplacement",
+     "enonce": "Les marges passives, formées lors de l’ouverture des océans, sont des zones géologiques\nsituées à la transition entre la croûte continentale et la croûte océanique. Elles sont\ncaractérisées par une faible activité tecton"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 13,
+   "section": 5,
+   "section_titre": "Les divisions cellulaires des eucaryotes",
+   "probabilite": 0.828,
+   "texte": "- Réaliser et observer des préparations au microscope de cellules eucaryotes en cours de",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "realiser"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "diversite / x diversite / diversite x / x diversite x",
+     "part": 0.5
+    },
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.25
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2026-asie-1",
+     "enonce": "Expliquer comment, au cours de l’évolution, les cellules eucaryotes ont acquis la capacité de produire de l’ATP en utilisant le dioxygène."
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+     "enonce": "La transmission génétique de l’hypophosphatémie\nLe caryotype humain comporte 23 paires de chromosomes dont une paire d’hétérosomes X-Y.\nCertaines maladies sont dues à des mutations touchant des gènes portés par le chromo"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 12,
+   "section": 5,
+   "section_titre": "Les divisions cellulaires des eucaryotes",
+   "probabilite": 0.826,
+   "texte": "Notions fondamentales : diploïde, haploïde, méiose, phases du cycle cellulaire eucaryote : G1, S (synthèse d'ADN), G2, mitose (division cellulaire), fuseau mitotique ou méiotique.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "cellulaire",
+    "synthese",
+    "cycle"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 1,
+     "nom": "diversite / x diversite / diversite x / x diversite x",
+     "part": 0.5
+    },
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.25
+    },
+    {
+     "facette": 0,
+     "nom": "expliquer comment / comment / expliquer comment x / comment x",
+     "part": 0.25
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+     "enonce": "Divisions cellulaires et diversité génétique\nQuelles soient mitotiques ou méiotiques, les divisions cellulaires sont sources de diversité.\nExpliquer comment les divisions cellulaires participent à la diversité génétique "
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2023-centres-etranger-1",
+     "enonce": "L’ORIGINE DU GENOTYPE DES INDIVIDUS\nUn nombre de chromosome anormal\nExpliquer comment une anomalie qui survient pendant la méiose conduit à un\nnombre anormal de chromosomes dans toutes les cellules d’un embryon.\nVous réd"
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 260,
+   "section": 21,
+   "section_titre": "Variation génétique bactérienne et résistance aux antibiotiques",
+   "probabilite": 0.822,
+   "texte": "Ce système comprend deux étages de défenses aux stratégies différentes :  l’immunité́ innée, la première à s’être mise en place aux cours de l’évolution, chez l’ancêtre commun des animaux ;  l’immunité́ adaptative qui apparaît chez les vertébrés, s’ajoute et se combine à l’immunité innée. Les capacités immunitaires d’un individu évoluent au cours de sa vie suite au contact avec différents antigènes. Elles faiblissent chez les personnes âgées.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "animaux",
+    "place"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.8
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2025-metropole-1-remplacement",
+     "enonce": "Expliquer en quoi la nutrition du fugu, à partir d’aliments contenant de la tétrodotoxine, lui confère un avantage pour sa survie."
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+     "enonce": "La pyridostigmine, un traitement contre la myasthénie\n\nLa myasthénie est une maladie neuromusculaire auto-immune, c’est-à-dire que des réactions\nimmunitaires se déclenchent contre les parties saines de l’organisme. Elle "
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 259,
+   "section": 21,
+   "section_titre": "Variation génétique bactérienne et résistance aux antibiotiques",
+   "probabilite": 0.822,
+   "texte": "Chez les animaux, ces systèmes comprennent des dispositifs de surveillance qui fonctionnent sans relâche et qui patrouillent dans tout l’organisme, ainsi que des mécanismes de réaction déclenchés par la perception d’un élément étranger ou la modification d’une cellule de l’organisme.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "animaux"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 4,
+     "nom": "etre / variations / x etre / variations x",
+     "part": 0.8
+    },
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.2
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+     "enonce": "La pyridostigmine, un traitement contre la myasthénie\n\nLa myasthénie est une maladie neuromusculaire auto-immune, c’est-à-dire que des réactions\nimmunitaires se déclenchent contre les parties saines de l’organisme. Elle "
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2025-metropole-1-remplacement",
+     "enonce": "Expliquer en quoi la nutrition du fugu, à partir d’aliments contenant de la tétrodotoxine, lui confère un avantage pour sa survie."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 68,
+   "section": 9,
+   "section_titre": "L’expression du patrimoine génétique",
+   "probabilite": 0.813,
+   "texte": "- Rechercher et exploiter des documents montrant la synthèse et la présence d'ARN dans",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "synthese"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.67
+    },
+    {
+     "facette": 1,
+     "nom": "diversite / x diversite / diversite x / x diversite x",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2021-amerique-sud-1",
+     "enonce": "Caractéristiques d’un élevage de poules\nLes poules Padoues font partie des animaux d’ornement. Elles sont recherchées car\nleur esthétique est appréciée. On cherche à expliquer les caractéristiques d’un\nélevage.\nExpliquer"
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2026-asie-1",
+     "enonce": "Expliquer les rôles respectifs des protéines Pax7 et syncytine dans la régénération musculaire après une lésion."
+    }
+   ],
+   "intention": null
+  },
+  {
+   "passage": 58,
+   "section": 9,
+   "section_titre": "L’expression du patrimoine génétique",
+   "probabilite": 0.812,
+   "texte": "Chez les eucaryotes, la transcription a lieu dans le noyau et certains des ARN formés, après maturation éventuelle, sont exportés dans le cytoplasme. Parmi ceux-ci se trouvent les ARN messagers qui dirigent la synthèse de protéines lors d’un processus dénommé traduction. Le code génétique est un système de correspondance, universel à l’ensemble du monde vivant, qui permet la traduction de l’ARN messager en protéines.",
+   "deja_tombe": 1,
+   "evalue_sans_etre_dit": [
+    "synthese",
+    "processus"
+   ],
+   "toujours_nomme": [],
+   "manieres_de_demander": [
+    {
+     "facette": 2,
+     "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+     "part": 0.67
+    },
+    {
+     "facette": 1,
+     "nom": "diversite / x diversite / diversite x / x diversite x",
+     "part": 0.33
+    }
+   ],
+   "questions_passees_proches": [
+    {
+     "sujet": "spe-sciences-vie-terre-2026-asie-1",
+     "enonce": "Expliquer les rôles respectifs des protéines Pax7 et syncytine dans la régénération musculaire après une lésion."
+    },
+    {
+     "sujet": "spe-sciences-vie-terre-2024-asie-2",
+     "enonce": "Une protéine « poison » du grain de pollen\nEn croisant deux variétés d’une plante nommée « arabette des dames », des scientifiques\nont remarqué que les proportions des génotypes des descendants étaient différentes de\ncel"
+    }
+   ],
+   "intention": null
+  }
+ ],
+ "preuve_sur_les_nouveautes": {
+  "annees_testees": [
+   2024,
+   2025,
+   2026
+  ],
+  "questions_nouvelles": 46,
+  "auc_potentiel_sur_passages_jamais_tombes": 0.707,
+  "nouvelles_couvertes_par_le_quart_retenu": 0.574,
+  "hasard": 0.25
+ },
+ "programme": [
+  {
+   "section": 37,
+   "titre": "Corps humain et santé",
+   "passages": 58,
+   "proba": 0.999,
+   "potentiel": 0.94,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.985,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 502,
+     "texte": "entraîne des complications qui peuvent être à l’origine de diabètes. L’insuline entraîne l’entrée de glucose dans les cellules musculaires (et hépatiques) et le glucagon provoque la sortie du glucose des cellules hépatiques, grâce à des protéines membranaires transportant le glucose. Notions fondamentales : hormones hyper et hypo glycémiantes, système de régulation, organisation fonctionnelle du p",
+     "proba": 0.997,
+     "potentiel": 0.938,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "entraine",
+      "provoque"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.17
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.15
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-2-remplacement",
+       "enonce": "L’effet hypoglycémiant d’une molécule de synthèse\n\nPour obtenir expérimentalement des souris diabétiques on peut leur administrer une molécule,\nl’alloxane, qui détruit spécifiquement les cellules du pancréas produisant l"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-nouv-caledonie-1",
+       "enonce": "Le diabète entraîne des complications graves à long terme. En France, environ 3,5 millions\nde personnes sont traitées pour une forme de diabète dont 90% des cas sont des diabètes\nde type 2 (diabète non insulinodépendant)"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 487,
+     "texte": "Le muscle strié est un ensemble de cellules musculaires dites striées, organisées en faisceaux musculaires. Le raccourcissement et l’épaississement des muscles lors de la contraction musculaire permettent le mouvement relatif des deux os auxquels ils sont reliés par des tendons. La cellule musculaire, cellule spécialisée, est caractérisée par un cytosquelette particulier (actine et myosine) permet",
+     "proba": 0.994,
+     "potentiel": 0.932,
+     "deja_tombe": 4,
+     "evalue_sans_etre_dit": [
+      "faisceaux",
+      "cytosquelette",
+      "actine",
+      "myosine",
+      "muscle",
+      "muscles"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.17
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.15
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-1",
+       "enonce": "Une pathologie suite au vêlage\nOn peut observer chez les ruminants et en particulier chez la vache laitière, une\npathologie liée au vêlage caractérisée par un symptôme particulier, la paralysie. Elle\nest qualifiée par le"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-metropole-1",
+       "enonce": "Expliquer les mécanismes nerveux qui permettent de moduler la contraction d’une cellule musculaire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 500,
+     "texte": "Les cellules musculaires ont besoin de nutriments, principalement de glucose et de dioxygène, puisés dans le sang. Les réserves de glucose se trouvent sous forme de glycogène dans les cellules musculaires et dans les cellules hépatiques. Elles servent à entretenir des flux de glucose, variables selon l’activité, entre les organes sources (intestin et foie) et les organes consommateurs (dont les mu",
+     "proba": 0.941,
+     "potentiel": 0.932,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "sang",
+      "muscles",
+      "concentration"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.6
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.17
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.15
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-nord-2",
+       "enonce": "Comportements, mouvements et système nerveux\nLe contrôle des flux de glucose, source essentielle d’énergie des cellules\nmusculaires\nLa glycémie est la concentration de glucose dans le sang, qui est maintenue dans un\ninte"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-1",
+       "enonce": "Corps humain et santé \nLa glycémie est un paramètre réglé autour d’une valeur constante. Cependant, au cours d’un\nstress aigu, sa valeur est modifiée.\nMontrer que les modifications de la glycémie, lors de l’exposition à "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 36,
+   "titre": "Enjeux planétaires contemporains",
+   "passages": 62,
+   "proba": 0.99,
+   "potentiel": 0.987,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.975,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 420,
+     "texte": "Dans une majorité de cas, la pollinisation repose sur une collaboration entre plante et pollinisateur en relation avec la structure florale ; le vent peut aussi transporter le pollen. À l’issue de la fécondation, la fleur qui porte des ovules se transforme en un fruit qui renferme des graines. La graine contient l’embryon d’une future plante qu’elle protège (enveloppe résistante) et nourrit à la g",
+     "proba": 0.98,
+     "potentiel": 0.933,
+     "deja_tombe": 3,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.44
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.27
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-nord-1",
+       "enonce": "Quand les fourmis dispersent les graines …\nLes fourmis dispersent massivement des graines dont par ailleurs elles peuvent se\nnourrir. Dans nos régions il s’agit le plus souvent de plantes herbacées des sous-bois qui\ndisp"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-amerique-nord-2",
+       "enonce": "Collaboration interspécifique Angiospermes-Animaux\nLe cycle de développement des végétaux, à mode de vie fixée, implique des interactions\navec les animaux notamment au moment de la reproduction et de la dispersion des\ngr"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 418,
+     "texte": "Les plantes ont deux modalités de reproduction : sexuée et asexuée. La reproduction asexuée repose sur la totipotence des cellules végétales et les capacités de croissance indéfinie des plantes, à partir de presque n’importe quelle partie du végétal (tiges, racines, feuilles). La reproduction sexuée est assurée chez les : Mettre en œuvre un protocole de reproduction asexuée (bouturage, marcottage)",
+     "proba": 0.922,
+     "potentiel": 0.946,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.44
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.27
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2-remplacement",
+       "enonce": "domestiquée \nLa reproduction des plantes\nDans un milieu naturel, on trouve parfois des plantes d’une même espèce qui recouvrent\nde grande surface (c’est l’exemple de l’ortie ci-dessous). Les plantes peuvent également\ncol"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-2",
+       "enonce": "Expliquer comment la radulanine inhibe la croissance de végétaux."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 419,
+     "texte": "Angiospermes par la fleur où se trouvent les gamètes femelles, au sein du pistil, et les grains de pollen, portés par les étamines, vecteurs des gamètes mâles. Chez certaines espèces, la fécondation des gamètes femelles par les gamètes mâles de la même fleur est possible, voire obligatoire. Dans les autres cas, elle est rendue impossible par divers mécanismes d’incompatibilité. La fécondation croi",
+     "proba": 0.923,
+     "potentiel": 0.938,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.44
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.27
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.16
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-metropole-1",
+       "enonce": "Allogamie chez les angiospermes\n\nContrairement à l’autogamie, l’allogamie correspond à la fécondation croisée entre individus\ndistincts d’une même espèce. D’une manière générale, l’allogamie est plus favorable à la\ndiver"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-nouv-caledonie-1",
+       "enonce": "Après avoir expliqué les mécanismes permettant la rencontre des gamètes chez ces Angiospermes, montrer comment la fécondation croisée est favorisée chez certaines plantes (en s’appuyant éventuellement sur le document pro"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 35,
+   "titre": "La Terre, la vie et l’organisation du vivant",
+   "passages": 50,
+   "proba": 0.911,
+   "potentiel": 0.99,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.959,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 383,
+     "texte": "Il importe de comprendre comment un objet géologique, quelles que soient ses dimensions, témoigne d’une histoire que l’on peut reconstituer par l’application de méthodes chronologiques. Cette étude temporelle permet de comprendre comment a été établie l’échelle internationale des temps géologiques et combien l’histoire de la Terre et l’histoire de la vie sont indissociables. Les dimensions spatial",
+     "proba": 0.911,
+     "potentiel": 0.969,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "echelle",
+      "temps"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.41
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.31
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.24
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "Le temps géologique\n\nUn objet géologique comme le Grand Canyon du Colorado témoigne d’une histoire géologique\nque l’on peut reconstituer.\nExposer les principes et les méthodes qui permettent de reconstituer la chronologi"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-polynesie-2",
+       "enonce": "Le temps et les roches sédimentaires\nLes roches sédimentaires témoignent d’une histoire géologique et climatique que l’on peut\nreconstituer.\nExpliquer comment les géologues reconstituent l’histoire climatique et géologiq"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 396,
+     "texte": "La recherche d’océans disparus Les ophiolites sont des roches de la lithosphère océanique. La présence de complexes ophiolitiques formant des sutures au sein des chaînes de montagnes témoigne de la fermeture de domaines océaniques, suivie de la collision de blocs continentaux par convergence de plaques lithosphériques. L’émergence d’ophiolites résulte de phénomènes d’obduction ou de subduction, su",
+     "proba": 0.859,
+     "potentiel": 0.99,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.41
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.31
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.24
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-amerique-sud-2",
+       "enonce": "Passé géologique des chaînes de montagnes\nDes témoins de la dynamique lithosphérique sont identifiables depuis la\nformation des océans jusqu’à la formation d’une chaîne de montagnes.\nMontrer que des marqueurs dans les ch"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-2-remplacement",
+       "enonce": "Expliquer comment les géologues ont pu établir l’existence passée et l’âge d’océans disparus."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 397,
+     "texte": "Les marques de la fragmentation continentale et de l’ouverture océanique Les marges passives bordant un océan portent des marques de distension (failles normales et blocs basculés) qui témoignent de la fragmentation initiale avant l’accrétion océanique. Les stades initiaux de la fragmentation continentale correspondent aux rifts continentaux.",
+     "proba": 0.86,
+     "potentiel": 0.985,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.41
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.31
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.24
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-sud-1",
+       "enonce": "aujourd’hui et demain \nL’effet de serre au cours de l’histoire de notre planète\nAu cours de son histoire notre planète a connu des changements climatiques\nglobaux. L’effet de serre contrôle pour une grande partie la temp"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-liban-2",
+       "enonce": "On peut trouver différents indices dans les roches qui permettent de reconstituer le\ncontexte de leur formation et de les dater. On s’intéresse ici à la chronologie de la mise\nen place de trois granites situés à proximit"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 18,
+   "titre": "Mutations et santé",
+   "passages": 15,
+   "proba": 0.958,
+   "potentiel": 0.967,
+   "annees_tombees": 6,
+   "sur": 6,
+   "priorite": 0.893,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 203,
+     "texte": "Dans le cas d’une maladie monogénique à transmission autosomique récessive, seuls les homozygotes pour l’allèle muté sont atteints. Les hétérozygotes sont des porteurs sains. Selon les cas, les traitements apportés visent à compenser par des médicaments la fonction altérée ou à contrôler les conditions de milieu. Dans certains cas, on peut envisager une thérapie génique visant à remplacer l’allèle",
+     "proba": 0.83,
+     "potentiel": 0.967,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "traitements",
+      "transmission"
+     ],
+     "toujours_nomme": [
+      "maladie"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.73
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.09
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.09
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-1",
+       "enonce": "Génétique et médecine prédictive\nUn couple désirant avoir un enfant consulte un médecin généticien, parce que le frère\nde la future mère est atteint d’une maladie génétique. Les futurs parents ne sont pas\natteints et une"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-1",
+       "enonce": "Génétique et évolution \nLa mucoviscidose est une maladie génétique humaine, affectant les épithéliums de\nnombreux organes. Elle est provoquée par la transmission de mutations du gène CFTR.\nDepuis quelques années, un nouv"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 205,
+     "texte": "Objectifs : les élèves comprennent les causes, le mode de transmission, les effets phénotypiques et les traitements possibles d’une maladie génétique monogénique.",
+     "proba": 0.907,
+     "potentiel": 0.799,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "traitements",
+      "transmission"
+     ],
+     "toujours_nomme": [
+      "maladie"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.73
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.09
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.09
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-1",
+       "enonce": "Génétique et évolution \nLa mucoviscidose est une maladie génétique humaine, affectant les épithéliums de\nnombreux organes. Elle est provoquée par la transmission de mutations du gène CFTR.\nDepuis quelques années, un nouv"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer le mode d’action de la clémastine pour traiter les patients atteints de sclérose en plaques."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 216,
+     "texte": "Précisions : aucune connaissance spécifique concernant une maladie génétique précise n’est attendue mais un élève doit pouvoir conduire une étude à partir des documents fournis (en se limitant au cas de maladies autosomales monogéniques).",
+     "proba": 0.838,
+     "potentiel": 0.908,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "maladie"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.73
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.09
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.09
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-2",
+       "enonce": "Expliquer les deux origines possibles de la couleur très claire de ce poulain, dont l’une serait liée à une maladie génétique."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-1",
+       "enonce": "Le Gui, une plante qui se développe sur d’autres végétaux\nLe Gui est une plante qui pousse sur les branches d’arbres comme les peupliers par\nexemple. L’abondance du Gui sur certains arbres peut conduire à la mort de l’ar"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 5,
+   "titre": "Les divisions cellulaires des eucaryotes",
+   "passages": 8,
+   "proba": 0.828,
+   "potentiel": 0.962,
+   "annees_tombees": 4,
+   "sur": 6,
+   "priorite": 0.888,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 10,
+     "texte": "Les chromosomes sont des structures universelles aux cellules eucaryotes (organismes dont les cellules ont un noyau). À chaque cycle de division cellulaire, chaque chromosome est dupliqué et donne un chromosome à deux chromatides, chacune transmise à une des deux cellules obtenues. C’est la base de la reproduction conforme. Chez les eucaryotes, les chromosomes subissent une alternance de condensat",
+     "proba": 0.824,
+     "potentiel": 0.962,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "chaque",
+      "cellulaire",
+      "cycle",
+      "structures",
+      "organismes",
+      "reproduction"
+     ],
+     "toujours_nomme": [
+      "chromosome",
+      "chromosomes"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La transmission génétique de l’hypophosphatémie\nLe caryotype humain comporte 23 paires de chromosomes dont une paire d’hétérosomes X-Y.\nCertaines maladies sont dues à des mutations touchant des gènes portés par le chromo"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-centres-etranger-1",
+       "enonce": "L’ORIGINE DU GENOTYPE DES INDIVIDUS\nUn nombre de chromosome anormal\nExpliquer comment une anomalie qui survient pendant la méiose conduit à un\nnombre anormal de chromosomes dans toutes les cellules d’un embryon.\nVous réd"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 11,
+     "texte": "La division cellulaire mitotique est une reproduction conforme. Toutes les caractéristiques du caryotype de la cellule parentale (nombre et morphologie des chromosomes) sont conservées dans les deux cellules filles. La méiose conduit à quatre cellules haploïdes, qui ont, chacune, la moitié des chromosomes de la cellule diploïde initiale.",
+     "proba": 0.824,
+     "potentiel": 0.95,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "cellule",
+      "caracteristiques",
+      "cellulaire",
+      "reproduction"
+     ],
+     "toujours_nomme": [
+      "chromosomes"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-centres-etranger-1",
+       "enonce": "L’ORIGINE DU GENOTYPE DES INDIVIDUS\nUn nombre de chromosome anormal\nExpliquer comment une anomalie qui survient pendant la méiose conduit à un\nnombre anormal de chromosomes dans toutes les cellules d’un embryon.\nVous réd"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La transmission génétique de l’hypophosphatémie\nLe caryotype humain comporte 23 paires de chromosomes dont une paire d’hétérosomes X-Y.\nCertaines maladies sont dues à des mutations touchant des gènes portés par le chromo"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 12,
+     "texte": "Notions fondamentales : diploïde, haploïde, méiose, phases du cycle cellulaire eucaryote : G1, S (synthèse d'ADN), G2, mitose (division cellulaire), fuseau mitotique ou méiotique.",
+     "proba": 0.826,
+     "potentiel": 0.842,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "cellulaire",
+      "synthese",
+      "cycle"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Divisions cellulaires et diversité génétique\nQuelles soient mitotiques ou méiotiques, les divisions cellulaires sont sources de diversité.\nExpliquer comment les divisions cellulaires participent à la diversité génétique "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-centres-etranger-1",
+       "enonce": "L’ORIGINE DU GENOTYPE DES INDIVIDUS\nUn nombre de chromosome anormal\nExpliquer comment une anomalie qui survient pendant la méiose conduit à un\nnombre anormal de chromosomes dans toutes les cellules d’un embryon.\nVous réd"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 21,
+   "titre": "Variation génétique bactérienne et résistance aux antibiotiques",
+   "passages": 18,
+   "proba": 0.822,
+   "potentiel": 0.828,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.829,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 260,
+     "texte": "Ce système comprend deux étages de défenses aux stratégies différentes :  l’immunité́ innée, la première à s’être mise en place aux cours de l’évolution, chez l’ancêtre commun des animaux ;  l’immunité́ adaptative qui apparaît chez les vertébrés, s’ajoute et se combine à l’immunité innée. Les capacités immunitaires d’un individu évoluent au cours de sa vie suite au contact avec différents antigè",
+     "proba": 0.822,
+     "potentiel": 0.828,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "animaux",
+      "place"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.8
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1-remplacement",
+       "enonce": "Expliquer en quoi la nutrition du fugu, à partir d’aliments contenant de la tétrodotoxine, lui confère un avantage pour sa survie."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+       "enonce": "La pyridostigmine, un traitement contre la myasthénie\n\nLa myasthénie est une maladie neuromusculaire auto-immune, c’est-à-dire que des réactions\nimmunitaires se déclenchent contre les parties saines de l’organisme. Elle "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 259,
+     "texte": "Chez les animaux, ces systèmes comprennent des dispositifs de surveillance qui fonctionnent sans relâche et qui patrouillent dans tout l’organisme, ainsi que des mécanismes de réaction déclenchés par la perception d’un élément étranger ou la modification d’une cellule de l’organisme.",
+     "proba": 0.822,
+     "potentiel": 0.801,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "animaux"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.8
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+       "enonce": "La pyridostigmine, un traitement contre la myasthénie\n\nLa myasthénie est une maladie neuromusculaire auto-immune, c’est-à-dire que des réactions\nimmunitaires se déclenchent contre les parties saines de l’organisme. Elle "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1-remplacement",
+       "enonce": "Expliquer en quoi la nutrition du fugu, à partir d’aliments contenant de la tétrodotoxine, lui confère un avantage pour sa survie."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 244,
+     "texte": "Parmi les mutations spontanées ou induites qui se produisent aléatoirement dans les populations de bactéries, certaines confèrent des résistances aux antibiotiques. L’application d’un antibiotique sur une population bactérienne sélectionne les mutants résistants à cet antibiotique, d’autant plus qu’il élimine les bactéries compétitrices sensibles et permet donc leur développement numérique.",
+     "proba": 0.814,
+     "potentiel": 0.724,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "donc"
+     ],
+     "toujours_nomme": [
+      "populations"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.8
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.2
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+       "enonce": "La féminisation des populations de cloportes\n\nDans de nombreuses populations de cloportes (Armadillidium vulgare), on\nobserve bien plus de femelles que de mâles.\nd'après Wikipédia\nDéterminer les mécanismes qui expliquent"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1-remplacement",
+       "enonce": "Un mécanisme de résistance des plantes\n\nDepuis les débuts de l’agriculture, l’être humain désherbe les champs, éliminant ainsi les\nespèces végétales susceptibles de gêner le développement des plantes cultivées. Un\nproblè"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 11,
+   "titre": "La structure du globe terrestre Des contrastes entre les continents et les océans",
+   "passages": 9,
+   "proba": 0.906,
+   "potentiel": 0.635,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.82,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 87,
+     "texte": "La distribution bimodale des altitudes observée entre continents et le fond des océans reflète un contraste géologique, qui se retrouve dans la nature des roches et leur densité. Si la composition de la croûte continentale présente une certaine hétérogénéité visible en surface (roches magmatiques, sédimentaires, métamorphiques), une étude en profondeur révèle que les granites en sont les roches le",
+     "proba": 0.906,
+     "potentiel": 0.635,
+     "deja_tombe": 2,
+     "evalue_sans_etre_dit": [
+      "roches",
+      "presente"
+     ],
+     "toujours_nomme": [
+      "oceans",
+      "continentale",
+      "croute",
+      "geologique"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-1",
+       "enonce": "Expliquer comment l’analyse quantitative des isotopes est utilisée pour l’étude du passé géologique de notre planète."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-polynesie-1-remplacement",
+       "enonce": "Les marges passives, formées lors de l’ouverture des océans, sont des zones géologiques\nsituées à la transition entre la croûte continentale et la croûte océanique. Elles sont\ncaractérisées par une faible activité tecton"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 95,
+     "texte": "Précisions : les différences de relief ne sont pas, à ce niveau, expliquées par les mécanismes de l’isostasie. L’étude pétrographique se limite à l’étude des principales caractéristiques des roches citées.",
+     "proba": 0.511,
+     "potentiel": 0.519,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "niveau",
+      "caracteristiques",
+      "roches"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-1",
+       "enonce": "Expliquer comment l’analyse quantitative des isotopes est utilisée pour l’étude du passé géologique de notre planète."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-polynesie-1-remplacement",
+       "enonce": "Les marges passives, formées lors de l’ouverture des océans, sont des zones géologiques\nsituées à la transition entre la croûte continentale et la croûte océanique. Elles sont\ncaractérisées par une faible activité tecton"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 89,
+     "texte": "- Mettre en relation des cartes et/ou des logiciels de visualisation des reliefs avec la courbe",
+     "proba": 0.5,
+     "potentiel": 0.485,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "relation"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-1",
+       "enonce": "Expliquer comment l’analyse quantitative des isotopes est utilisée pour l’étude du passé géologique de notre planète."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-polynesie-1-remplacement",
+       "enonce": "Les marges passives, formées lors de l’ouverture des océans, sont des zones géologiques\nsituées à la transition entre la croûte continentale et la croûte océanique. Elles sont\ncaractérisées par une faible activité tecton"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 9,
+   "titre": "L’expression du patrimoine génétique",
+   "passages": 21,
+   "proba": 0.813,
+   "potentiel": 0.812,
+   "annees_tombees": 3,
+   "sur": 6,
+   "priorite": 0.817,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 58,
+     "texte": "Chez les eucaryotes, la transcription a lieu dans le noyau et certains des ARN formés, après maturation éventuelle, sont exportés dans le cytoplasme. Parmi ceux-ci se trouvent les ARN messagers qui dirigent la synthèse de protéines lors d’un processus dénommé traduction. Le code génétique est un système de correspondance, universel à l’ensemble du monde vivant, qui permet la traduction de l’ARN me",
+     "proba": 0.812,
+     "potentiel": 0.812,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "synthese",
+      "processus"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-1",
+       "enonce": "Expliquer les rôles respectifs des protéines Pax7 et syncytine dans la régénération musculaire après une lésion."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-2",
+       "enonce": "Une protéine « poison » du grain de pollen\nEn croisant deux variétés d’une plante nommée « arabette des dames », des scientifiques\nont remarqué que les proportions des génotypes des descendants étaient différentes de\ncel"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 57,
+     "texte": "La séquence de l'ADN, succession des quatre désoxyribonucléotides le long des brins de la molécule, est une information. Cette information est transmise de générations en générations. À chaque génération, cette information est exprimée par l’intermédiaire d’un autre acide nucléique : l’ARN. Les molécules d'ARN sont synthétisées par complémentarité des nucléotides à partir de l'ADN lors d’un proces",
+     "proba": 0.811,
+     "potentiel": 0.806,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "processus"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-2",
+       "enonce": "Une protéine « poison » du grain de pollen\nEn croisant deux variétés d’une plante nommée « arabette des dames », des scientifiques\nont remarqué que les proportions des génotypes des descendants étaient différentes de\ncel"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-1",
+       "enonce": "Expliquer les rôles respectifs des protéines Pax7 et syncytine dans la régénération musculaire après une lésion."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 68,
+     "texte": "- Rechercher et exploiter des documents montrant la synthèse et la présence d'ARN dans",
+     "proba": 0.813,
+     "potentiel": 0.509,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "synthese"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.67
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-sud-1",
+       "enonce": "Caractéristiques d’un élevage de poules\nLes poules Padoues font partie des animaux d’ornement. Elles sont recherchées car\nleur esthétique est appréciée. On cherche à expliquer les caractéristiques d’un\nélevage.\nExpliquer"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-1",
+       "enonce": "Expliquer les rôles respectifs des protéines Pax7 et syncytine dans la régénération musculaire après une lésion."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 7,
+   "titre": "Mutations de l’ADN et variabilité génétique",
+   "passages": 15,
+   "proba": 0.81,
+   "potentiel": 0.793,
+   "annees_tombees": 2,
+   "sur": 6,
+   "priorite": 0.802,
+   "niveau": "incontournable",
+   "passages_cles": [
+    {
+     "passage": 46,
+     "texte": "Précisions : on distinguera les mutations spontanées de l’ADN des modifications introduites volontairement par génie génétique conduisant par exemple à la création d’OGM, aux thérapies géniques, etc. L’action des agents mutagènes est étudiée à titre d’exemple mais le mécanisme n’est pas attendu. Aucune exhaustivité n’est attendue pour la présentation de ces agents. La liste des mutations possibles",
+     "proba": 0.81,
+     "potentiel": 0.793,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "mutations",
+      "action"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.67
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1-remplacement",
+       "enonce": "Expliquer comment les cycles orogéniques peuvent être à l’origine de variations\nclimatiques à long terme.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre ex"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1",
+       "enonce": "Caractériser le climat au Dryas récent et proposer une hypothèse permettant d’expliquer l’entrée dans cette période climatique."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 40,
+     "texte": "mutagènes physiques (rayonnements) ou chimiques (molécules).",
+     "proba": 0.807,
+     "potentiel": 0.715,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.67
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-2",
+       "enonce": "Proposer un mécanisme expliquant comment la température peut influencer la germination des graines d’Arabidopsis thaliana."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1-remplacement",
+       "enonce": "Expliquer comment les cycles orogéniques peuvent être à l’origine de variations\nclimatiques à long terme.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre ex"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 41,
+     "texte": "- Recenser et exploiter des informations permettant de caractériser des mutations.",
+     "proba": 0.808,
+     "potentiel": 0.572,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "mutations"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.67
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.33
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1",
+       "enonce": "Caractériser le climat au Dryas récent et proposer une hypothèse permettant d’expliquer l’entrée dans cette période climatique."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1-remplacement",
+       "enonce": "Expliquer comment les cycles orogéniques peuvent être à l’origine de variations\nclimatiques à long terme.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre ex"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 17,
+   "titre": "L’humanité et les écosystèmes : les services écosystémiques et leur gestion",
+   "passages": 24,
+   "proba": 0.799,
+   "potentiel": 0.689,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.753,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 181,
+     "texte": "Pourtant, l’humanité tire un grand bénéfice de fonctions assurées gratuitement par les écosystèmes : ce sont les services écosystémiques d’approvisionnement (bois, champignons, pollinisation, fruits et graines, etc.), de régulation (dépollution de l’eau et de l’air, lutte contre l’érosion, les ravageurs et les maladies, recyclage de matière organique, fixation de carbone, etc.) et de culture (récr",
+     "proba": 0.799,
+     "potentiel": 0.689,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "ravageurs",
+      "lutte",
+      "culture"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2",
+       "enonce": "La culture des arbres fruitiers est importante pour l’alimentation et l’économie d’un pays. La\nlutte contre les ravageurs de culture est donc essentielle. Le puceron vert, Myzus persicae, est\nun parasite du pêcher et sa "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 200,
+     "texte": "Dans l’espèce humaine comme chez toutes les espèces vivantes, les génomes des individus diffèrent les uns des autres suite aux mutations qui se sont produites au cours des générations successives et ont été conservées dans la population. Ces différences peuvent avoir des conséquences en matière de santé : prédisposition à certains types de pathologies ou sensibilité différentes aux agents pathogèn",
+     "proba": 0.382,
+     "potentiel": 0.465,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "espece",
+      "especes",
+      "humaine"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2",
+       "enonce": "La culture des arbres fruitiers est importante pour l’alimentation et l’économie d’un pays. La\nlutte contre les ravageurs de culture est donc essentielle. Le puceron vert, Myzus persicae, est\nun parasite du pêcher et sa "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 201,
+     "texte": "Le développement de la génomique conduit à l’idée d’une médecine personnalisée et ouvre la voie à la thérapie génique. De même, la variabilité génétique des micro-organismes peut avoir des implications en termes de pathogénicité ou de résistance aux drogues (médicaments) sensées les combattre.",
+     "proba": 0.384,
+     "potentiel": 0.461,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2",
+       "enonce": "La culture des arbres fruitiers est importante pour l’alimentation et l’économie d’un pays. La\nlutte contre les ravageurs de culture est donc essentielle. Le puceron vert, Myzus persicae, est\nun parasite du pêcher et sa "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 23,
+   "titre": "L'immunité adaptative",
+   "passages": 16,
+   "proba": 0.805,
+   "potentiel": 0.648,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.744,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 279,
+     "texte": "Le système immunitaire n’est pas un organe isolé dans l’organisme ; il est diffus et interagit avec les différentes parties du corps (cerveau, intestins, etc.). Notions fondamentales : cellules présentatrices de l'antigène, lymphocytes B, plasmocytes, immunoglobulines (anticorps), lymphocytes T CD4, lymphocytes T auxiliaire, lymphocytes T CD8, lymphocytes T cytotoxiques ; sélection, amplification ",
+     "proba": 0.805,
+     "potentiel": 0.648,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "parties",
+      "organisme"
+     ],
+     "toujours_nomme": [
+      "lymphocytes"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-1",
+       "enonce": "Le lymphome de Burkitt\nLe lymphome de Burkitt est un cancer affectant les lymphocytes B. Il se développe\net se propage rapidement, souvent de la moelle osseuse au sang et au système\nnerveux central. Les lymphocytes B ano"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 275,
+     "texte": "Des mécanismes particuliers engendrent des combinatoires immenses de gènes et de protéines composites notamment dans le cas des anticorps :  recombinaison de segments de gènes exprimant les parties constantes et variables des chaînes lourdes et légères des immunoglobulines ;  assemblage des chaînes lourdes et légères. Ces mécanismes aléatoires engendrent une diversité telle que tous les antigène",
+     "proba": 0.421,
+     "potentiel": 0.579,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "genes",
+      "parties",
+      "notamment",
+      "diversite"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-1",
+       "enonce": "Le lymphome de Burkitt\nLe lymphome de Burkitt est un cancer affectant les lymphocytes B. Il se développe\net se propage rapidement, souvent de la moelle osseuse au sang et au système\nnerveux central. Les lymphocytes B ano"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 276,
+     "texte": "Dans la diversité produite, une première sélection élimine ce qui est incompatible avec le soi, évitant des réactions immunitaires qui se déclencheraient contre des parties saines de l'organisme. Les cellules restantes de l'immunité adaptative circulent dans un état dormant dans le sang et dans la lymphe. Lors d’une deuxième phase de sélection, quelques-unes sont activées après une première rencon",
+     "proba": 0.425,
+     "potentiel": 0.57,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "parties",
+      "contre",
+      "lors",
+      "organisme",
+      "diversite"
+     ],
+     "toujours_nomme": [
+      "sang"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-1",
+       "enonce": "Le lymphome de Burkitt\nLe lymphome de Burkitt est un cancer affectant les lymphocytes B. Il se développe\net se propage rapidement, souvent de la moelle osseuse au sang et au système\nnerveux central. Les lymphocytes B ano"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 10,
+   "titre": "Les enzymes, des biomolécules aux propriétés catalytiques",
+   "passages": 9,
+   "proba": 0.795,
+   "potentiel": 0.654,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.741,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 85,
+     "texte": "Précisions : les caractéristiques de la cinétique enzymatiques, les compétitions au site actif ne sont pas attendues. Le contrôle de l’activité enzymatique par des effecteurs (exemples : T, pH) peut être utilisé par le professeur dans sa démarche mais n’est pas un attendu du programme.",
+     "proba": 0.795,
+     "potentiel": 0.654,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "site",
+      "attendu",
+      "controle",
+      "activite"
+     ],
+     "toujours_nomme": [
+      "caracteristiques"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La vie terrestre des végétaux\nLes végétaux terrestres sont des organismes fixés qui utilisent des nutriments et d’énergie pour\nproduire leur propre matière organique.\nPrésenter les caractéristiques des végétaux terrestre"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 86,
+     "texte": "Les élèves découvrent le fonctionnement interne actuel de la Terre, une planète active. Ils apprennent comment les méthodes des géosciences permettent de construire une approche scientifique de la dynamique terrestre. C’est aussi l’occasion pour eux de s’approprier les ordres de grandeur des objets (échelles de temps, échelle de taille) et des mécanismes de la géologie, en mobilisant différents ob",
+     "proba": 0.33,
+     "potentiel": 0.507,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "objets",
+      "actuel",
+      "roche",
+      "planete",
+      "echelles",
+      "echelle"
+     ],
+     "toujours_nomme": [
+      "terrestre"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La vie terrestre des végétaux\nLes végétaux terrestres sont des organismes fixés qui utilisent des nutriments et d’énergie pour\nproduire leur propre matière organique.\nPrésenter les caractéristiques des végétaux terrestre"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 78,
+     "texte": "Les protéines enzymatiques sont des catalyseurs de réactions chimiques spécifiques dans le métabolisme d’une cellule. La structure tridimensionnelle de l’enzyme lui permet d’interagir avec ses substrats et explique ses spécificités en termes de substrat et de réaction catalytique. Notions fondamentales : catalyse, substrat, produit, spécificité.",
+     "proba": 0.322,
+     "potentiel": 0.466,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "explique",
+      "metabolisme",
+      "produit",
+      "reactions",
+      "reaction",
+      "structure"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La vie terrestre des végétaux\nLes végétaux terrestres sont des organismes fixés qui utilisent des nutriments et d’énergie pour\nproduire leur propre matière organique.\nPrésenter les caractéristiques des végétaux terrestre"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 12,
+   "titre": "L’apport des études sismologiques et thermiques à la connaissance du globe terrestre",
+   "passages": 25,
+   "proba": 0.798,
+   "potentiel": 0.619,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.728,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 119,
+     "texte": "tomographies sismiques, tout en attirant l’attention sur l’amplitude des variations par",
+     "proba": 0.798,
+     "potentiel": 0.619,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1",
+       "enonce": "Expliquer comment des éruptions volcaniques majeures ont pu provoquer des variations de température atmosphérique à différentes échelles de temps."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1-remplacement",
+       "enonce": "Expliquer comment la formation, l’altération et l’utilisation de certaines roches entraînent des modifications de la température atmosphérique de la Terre."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 115,
+     "texte": "- Calculer la température au centre de la Terre en utilisant le gradient géothermique de",
+     "proba": 0.795,
+     "potentiel": 0.563,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "temperature",
+      "terre"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1-remplacement",
+       "enonce": "Expliquer comment la formation, l’altération et l’utilisation de certaines roches entraînent des modifications de la température atmosphérique de la Terre."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1",
+       "enonce": "Expliquer comment des éruptions volcaniques majeures ont pu provoquer des variations de température atmosphérique à différentes échelles de temps."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 120,
+     "texte": "Précisions : les caractéristiques d’un séisme sont dégagées à partir de l’étude de cas concrets et en utilisant des outils numériques enrichissant les possibilités d’analyse par les élèves. La connaissance des mécanismes au foyer n’est pas attendue.",
+     "proba": 0.354,
+     "potentiel": 0.563,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1-remplacement",
+       "enonce": "Expliquer comment la formation, l’altération et l’utilisation de certaines roches entraînent des modifications de la température atmosphérique de la Terre."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1",
+       "enonce": "Expliquer comment des éruptions volcaniques majeures ont pu provoquer des variations de température atmosphérique à différentes échelles de temps."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 24,
+   "titre": "L’utilisation de l’immunité adaptative en santé humaine",
+   "passages": 16,
+   "proba": 0.807,
+   "potentiel": 0.606,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.714,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 291,
+     "texte": "Cela résulte du fait que l’on peut porter et transmettre l’agent infectieux sans être soi-même malade (porteur sain). Des procédés d’immunothérapie (vaccins thérapeutiques et anticorps monoclonaux) ont été développés pour lutter contre certains types de cancer, et de nombreux sont en cours de développement. C’est un champ de recherche aux implications sociétales importantes.",
+     "proba": 0.807,
+     "potentiel": 0.565,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "agent",
+      "types",
+      "certains"
+     ],
+     "toujours_nomme": [
+      "therapeutiques",
+      "contre"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-sud-1",
+       "enonce": "L’apicoplaste, une cible thérapeutique\nLes Apicomplexa constituent un groupe de parasites responsables de maladies graves chez\nl’être humain, telles que le paludisme et la toxoplasmose. Les parasites responsables de\nces "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 289,
+     "texte": "La vaccination préventive induit une réaction immunitaire contre certains agents infectieux. L'injection de produits immunogènes mais non pathogènes (particules virales, virus atténués, etc.) provoque la formation d'un réservoir de cellules mémoire dirigées contre l'agent d'une maladie. L'adjuvant du vaccin aide à déclencher la réaction innée indispensable à l'installation de la réaction adaptativ",
+     "proba": 0.443,
+     "potentiel": 0.606,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "reaction",
+      "agent",
+      "certains"
+     ],
+     "toujours_nomme": [
+      "contre",
+      "vaccin"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-sud-1",
+       "enonce": "L’apicoplaste, une cible thérapeutique\nLes Apicomplexa constituent un groupe de parasites responsables de maladies graves chez\nl’être humain, telles que le paludisme et la toxoplasmose. Les parasites responsables de\nces "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 290,
+     "texte": "Cette vaccination préventive améliore les capacités de défense d'un individu dont le phénotype immunitaire est modelé au gré des expositions aux antigènes. Elle peut être appliquée à tout âge. Dans une population, cette vaccination n’offre une protection optimale qu’au-delà d’un certain taux de couverture vaccinale, qui bloque la circulation de l’agent infectieux au sein de cette population.",
+     "proba": 0.446,
+     "potentiel": 0.576,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "taux",
+      "agent",
+      "individu",
+      "sein",
+      "dont"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-sud-1",
+       "enonce": "L’apicoplaste, une cible thérapeutique\nLes Apicomplexa constituent un groupe de parasites responsables de maladies graves chez\nl’être humain, telles que le paludisme et la toxoplasmose. Les parasites responsables de\nces "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 19,
+   "titre": "Patrimoine génétique et santé",
+   "passages": 15,
+   "proba": 0.804,
+   "potentiel": 0.577,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.699,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 227,
+     "texte": "entendues concernant la responsabilité d’un gène ou d’un facteur de l’environnement dans",
+     "proba": 0.803,
+     "potentiel": 0.531,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "gene"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-2-remplacement",
+       "enonce": "Expliquer comment certains tardigrades sont devenus capables de résister à des conditions extrêmes de l’environnement."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 228,
+     "texte": "- Savoir expliciter ses comportements face à un risque de santé pour exercer sa",
+     "proba": 0.804,
+     "potentiel": 0.515,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [
+      "risque",
+      "face"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-2-remplacement",
+       "enonce": "Expliquer comment certains tardigrades sont devenus capables de résister à des conditions extrêmes de l’environnement."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 230,
+     "texte": "Précisions : à partir de l’exemple choisi, les élèves discernent les principes généraux d’une approche épidémiologique, sans formalisme mathématique complexe. Ils ne développent",
+     "proba": 0.411,
+     "potentiel": 0.577,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "developpent"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-2-remplacement",
+       "enonce": "Expliquer comment certains tardigrades sont devenus capables de résister à des conditions extrêmes de l’environnement."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 29,
+   "titre": "Enseignement de spécialité de SVT et épreuve orale terminale",
+   "passages": 3,
+   "proba": 0.807,
+   "potentiel": 0.505,
+   "annees_tombees": 1,
+   "sur": 6,
+   "priorite": 0.689,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 326,
+     "texte": "Toutes les thématiques traitées par l’enseignement de spécialité se prêtent à l’élaboration de projets que les élèves peuvent présenter lors de l’épreuve orale terminale.",
+     "proba": 0.807,
+     "potentiel": 0.505,
+     "deja_tombe": 1,
+     "evalue_sans_etre_dit": [
+      "presenter",
+      "toutes",
+      "lors"
+     ],
+     "toujours_nomme": [
+      "epreuve",
+      "specialite",
+      "enseignement"
+     ],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+       "enonce": "SCIENCES DE LA VIE ET DE LA TERRE\nDurée de l'épreuve : 3h30\nCoefficient : 16\nENSEIGNEMENT DE SPÉCIALITÉ\nLe candidat traite :\nL’un des deux exercices 1 au choix\net\nL’un des deux exercices 2 au choix.\nL'usage de la calcula"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 327,
+     "texte": "Ces projets peuvent adopter des approches variées, par exemple l’approfondissement d’un concept scientifique (par une approche bibliographique ou expérimentale, par un travail historique sur l’émergence de ce concept…), l’identification des applications pratiques (en santé, alimentation, énergie…) qui sont liées à telle ou telle découverte scientifique, les implications éthiques ou sociétales de t",
+     "proba": 0.469,
+     "potentiel": 0.446,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "decouverte",
+      "emergence",
+      "alimentation",
+      "energie"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+       "enonce": "SCIENCES DE LA VIE ET DE LA TERRE\nDurée de l'épreuve : 3h30\nCoefficient : 16\nENSEIGNEMENT DE SPÉCIALITÉ\nLe candidat traite :\nL’un des deux exercices 1 au choix\net\nL’un des deux exercices 2 au choix.\nL'usage de la calcula"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 328,
+     "texte": "Les élèves peuvent, avec l’aide de leur professeur, exploiter les capacités données à titre d’exemple dans le programme pour enrichir leurs projets.",
+     "proba": 0.47,
+     "potentiel": 0.284,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "capacites",
+      "aide"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+       "enonce": "SCIENCES DE LA VIE ET DE LA TERRE\nDurée de l'épreuve : 3h30\nCoefficient : 16\nENSEIGNEMENT DE SPÉCIALITÉ\nLe candidat traite :\nL’un des deux exercices 1 au choix\net\nL’un des deux exercices 2 au choix.\nL'usage de la calcula"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 25,
+   "titre": "Les objectifs de l’enseignement des sciences de la vie et de la Terre au lycée",
+   "passages": 12,
+   "proba": 0.259,
+   "potentiel": 0.497,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.347,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 315,
+     "texte": "les sciences de l’environnement et du développement durable, en géosciences, en gestion des ressources et des risques, ainsi que les métiers liés aux domaines de la santé et du sport. Comme tous les enseignements, cet enseignement de spécialité contribue au développement des compétences orales à travers notamment la pratique de l’argumentation. Celle-ci conduit à préciser sa pensée et à expliciter",
+     "proba": 0.257,
+     "potentiel": 0.497,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "developpement",
+      "conduit",
+      "lies",
+      "environnement"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+       "enonce": "À la recherche du passé géologique de notre planète\nReconstitution de l’histoire géologique d’une partie de l’île de Groix\nL'île de Groix est située au sud de la Bretagne, au large de Lorient. On y trouve des roches qui\n"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 309,
+     "texte": "Dans ses programmes, la discipline porte trois objectifs majeurs :  renforcer la maîtrise de connaissances validées scientifiquement et de modes de raisonnement propres aux sciences et, plus généralement, assurer l’acquisition d’une culture scientifique assise sur les concepts fondamentaux de la biologie et de la géologie ;  participer à la formation de l’esprit critique et à l’éducation civique",
+     "proba": 0.246,
+     "potentiel": 0.48,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "formation"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Une gestion forestière durable\nDans la forêt de Verzy située dans la Marne, il existe un peuplement de hêtres aux branches\ntortueuses. Ces hêtres tortillards, encore appelés faux de Verzy, sont reconnus comme une variété"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-1",
+       "enonce": "Datation et climat\nMontrer que l’analyse de fossiles et de la composition chimique des roches\napporte des informations sur l’histoire climatique d’une région.\nVous rédigerez un texte argumenté. On attend des expériences,"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 316,
+     "texte": "Elle permet à chacun de faire évoluer sa pensée, jusqu’à la remettre en cause si nécessaire, pour accéder progressivement à la vérité par la preuve. Elle prend un relief particulier pour ceux qui choisiront de préparer l’épreuve orale terminale du baccalauréat en l'adossant à cet enseignement de spécialité.",
+     "proba": 0.259,
+     "potentiel": 0.437,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "elle",
+      "necessaire"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+       "enonce": "SCIENCES DE LA VIE ET DE LA TERRE\nDurée de l'épreuve : 3h30\nCoefficient : 16\nENSEIGNEMENT DE SPÉCIALITÉ\nLe candidat traite :\nL’un des deux exercices 1 au choix\net\nL’un des deux exercices 2 au choix.\nL'usage de la calcula"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-centres-etranger-2",
+       "enonce": "Accumulation de TTX chez les poissons-globes\nDe nombreux animaux sont dits « porteurs de TTX » car leurs tissus contiennent une substance\nneurotoxique : la tétrodotoxine (TTX).\nCertains poissons-globes du genre Takifugu "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 26,
+   "titre": "Mise en œuvre du programme",
+   "passages": 3,
+   "proba": 0.262,
+   "potentiel": 0.458,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.328,
+   "niveau": "probable",
+   "passages_cles": [
+    {
+     "passage": 318,
+     "texte": "Le programme détermine les connaissances et les compétences que les élèves doivent acquérir pour réussir dans leur poursuite d’études, quelle qu’elle soit. Les activités expérimentales occupent une place centrale en SVT : pour répondre à un problème scientifique, l’élève examine la validité d’une hypothèse par la mise au point d’un protocole ; il confronte les résultats de l’expérience aux attente",
+     "proba": 0.261,
+     "potentiel": 0.458,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "repondre",
+      "quelle",
+      "hypothese",
+      "eleve",
+      "etudes",
+      "resultats"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-liban-2",
+       "enonce": "On peut trouver différents indices dans les roches qui permettent de reconstituer le\ncontexte de leur formation et de les dater. On s’intéresse ici à la chronologie de la mise\nen place de trois granites situés à proximit"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "La Grande Coupure\n\nAu début du XXème siècle, les paléontologues ont décrit de grandes modifications de la\nbiodiversité à la limite de l'Éocène et de l'Oligocène, il y a environ 34 millions d'années. Cet\névénement, connu "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 319,
+     "texte": "Les études et prélèvements sur le terrain favorisent les apprentissages : les élèves mettent en œuvre des stratégies d’observation, d’échantillonnage, de recueil de données, qu’ils peuvent ensuite traiter avec des outils d’analyse. Activités expérimentales et sorties favorisent l’éducation à la sécurité et aux risques par le respect des règles de sécurité indispensables.",
+     "proba": 0.262,
+     "potentiel": 0.393,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "traiter",
+      "ensuite",
+      "etudes",
+      "analyse"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Une gestion forestière durable\nDans la forêt de Verzy située dans la Marne, il existe un peuplement de hêtres aux branches\ntortueuses. Ces hêtres tortillards, encore appelés faux de Verzy, sont reconnus comme une variété"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-la-reunion-2",
+       "enonce": "Les différents objets géologiques, quelle que soit leur dimension, témoignent d’évènements\ndont la chronologie peut être reconstituée sur le terrain et en laboratoire.\nPrésenter les méthodes de datation utilisées par le "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 317,
+     "texte": "Le programme est conçu pour laisser une large part à l’initiative du professeur et/ou de l’équipe disciplinaire, et ainsi préserver leur liberté pédagogique qui porte sur :  les modalités didactiques ;  l’ordre dans lequel seront étudiés les thèmes et introduites les notions ;  les exemples choisis ;  le degré d’approfondissement pour aborder tel ou tel sujet, tout en préservant la logique d’u",
+     "proba": 0.26,
+     "potentiel": 0.368,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "modalites",
+      "traitement",
+      "tout"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1",
+       "enonce": "Expliquer comment des éruptions volcaniques majeures ont pu provoquer des variations de température atmosphérique à différentes échelles de temps."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La vie terrestre des végétaux\nLes végétaux terrestres sont des organismes fixés qui utilisent des nutriments et d’énergie pour\nproduire leur propre matière organique.\nPrésenter les caractéristiques des végétaux terrestre"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 15,
+   "titre": "La dynamique des zones de convergence",
+   "passages": 24,
+   "proba": 0.185,
+   "potentiel": 0.562,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.313,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 156,
+     "texte": "Dans la progression ici proposée, les élèves apprennent d’abord à décrire le système puis à distinguer les mécanismes fonctionnels et la dynamique spatio-temporelle, notamment actuelle ;  un enjeu de capacité, avec l’apport de la démarche scientifique à la compréhension des changements écologiques actuels et des tentatives d’y remédier ;  un enjeu d’attitude : l’espèce humaine est repositionnée ",
+     "proba": 0.181,
+     "potentiel": 0.562,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.62
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-specimen-1",
+       "enonce": "À la recherche du passé géologique de notre planète\nReconstitution de l’histoire géologique d’une partie de l’île de Groix\nL'île de Groix est située au sud de la Bretagne, au large de Lorient. On y trouve des roches qui\n"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-1",
+       "enonce": "l’organisme \nL’affaiblissement de la réponse immunitaire des grands brûlés\nUne des conséquences des brûlures sévères est un affaiblissement important du système\nimmunitaire. Celui-ci se traduit par un risque élevé d’infe"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 155,
+     "texte": "Trois enjeux sont abordés dans cette partie d’écologie, où les élèves saisissent le contexte des politiques de préservation de la biodiversité en crise :  un enjeu de connaissance, avec l’étude de la notion d’écosystème à partir d’exemples.",
+     "proba": 0.176,
+     "potentiel": 0.522,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "partie"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-asie-2",
+       "enonce": "Génétique et évolution\nDes mécanismes à l’origine de la diversité génétique des individus\nMontrer comment les crossing-over peuvent être source de diversité génétique.\nVous rédigerez un texte argumenté. On attend des arg"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Une gestion forestière durable\nDans la forêt de Verzy située dans la Marne, il existe un peuplement de hêtres aux branches\ntortueuses. Ces hêtres tortillards, encore appelés faux de Verzy, sont reconnus comme une variété"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 154,
+     "texte": "Pour l'étude de marqueurs de la collision, des exemples pourront être pris dans toute chaîne active ou récente (Alpes, Pyrénées et Himalaya). Dans cette partie, les élèves trouvent aussi une explication à la formation des types de roches qu’ils ont identifiés dans la première partie. Précisions : on n’attend ni une interprétation des inversions magnétiques, ni une étude exhaustive des roches de zo",
+     "proba": 0.174,
+     "potentiel": 0.514,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "partie",
+      "zones"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-2-remplacement",
+       "enonce": "Expliquer comment les géologues ont pu établir l’existence passée et l’âge d’océans disparus."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-polynesie-2-remplacement",
+       "enonce": "Ouverture, fermeture des océans et climat\nDes phénomènes géologiques peuvent avoir une influence sur la concentration du CO2\ndans l’atmosphère, comme par exemple l’érosion des chaines de montagnes et\nl’ouverture des océa"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 16,
+   "titre": "Les écosystèmes : des interactions dynamiques entre les êtres vivants et entre eux et leur milieu",
+   "passages": 20,
+   "proba": 0.205,
+   "potentiel": 0.503,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.311,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 176,
+     "texte": "Précisions : l’étude des agrosystèmes et des sols a été traitée en seconde. Il ne s’agit pas dans cette partie de faire un catalogue exhaustif des écosystèmes (structure et fonctionnement) mais, à partir d’un exemple observable, d’appréhender la diversité des interactions dans un écosystème et leurs effets sur sa dynamique.",
+     "proba": 0.204,
+     "potentiel": 0.503,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "partie",
+      "fonctionnement",
+      "interactions"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-asie-2",
+       "enonce": "Génétique et évolution\nDes mécanismes à l’origine de la diversité génétique des individus\nMontrer comment les crossing-over peuvent être source de diversité génétique.\nVous rédigerez un texte argumenté. On attend des arg"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1",
+       "enonce": "Expliquer comment les géologues datent la formation et la disparition d’une chaîne\nde montagnes.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre exposé et a"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 162,
+     "texte": "Même sans l’action de l’Homme, les écosystèmes montrent une dynamique spatio- temporelle avec des perturbations (incendies, maladies) affectant les populations. La complexité du réseau d’interactions et la diversité fonctionnelle favorisent la résilience des écosystèmes, qui jusqu’à un certain seuil de perturbation, est la capacité de retrouver un état initial après perturbation.",
+     "proba": 0.193,
+     "potentiel": 0.466,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "fonctionnelle",
+      "interactions"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-centres-etranger-1",
+       "enonce": "Exercice 1 – Génétique de la reproduction sexuée et sélection des plantes \nAujourd’hui, de nombreuses techniques, comme l’hybridation, permettent la création\nde variétés végétales. Ces méthodes sont fondées sur la compré"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2",
+       "enonce": "La culture des arbres fruitiers est importante pour l’alimentation et l’économie d’un pays. La\nlutte contre les ravageurs de culture est donc essentielle. Le puceron vert, Myzus persicae, est\nun parasite du pêcher et sa "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 161,
+     "texte": "En particulier, les êtres vivants génèrent ou facilitent des flux de matière (eau, carbone, azote, etc.) qui entrent (absorption racinaire, photosynthèse, respiration), circulent (réseau trophique) et sortent (évapotranspiration, érosion) de l’écosystème. Une partie de la matière est recyclée, notamment grâce au sol. L’effet des écosystèmes dans les cycles géochimiques ainsi constitués, se mesure ",
+     "proba": 0.192,
+     "potentiel": 0.462,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "partie",
+      "effet"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.75
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2",
+       "enonce": "La culture des arbres fruitiers est importante pour l’alimentation et l’économie d’un pays. La\nlutte contre les ravageurs de culture est donc essentielle. Le puceron vert, Myzus persicae, est\nun parasite du pêcher et sa "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-1",
+       "enonce": "domestiquée \nLa plante, productrice de matière organique\nAfin de survivre à la mauvaise saison, certains végétaux constituent des réserves de matière\norganique lorsque les conditions du milieu leur sont favorables. C’est"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 22,
+   "titre": "L’immunité innée",
+   "passages": 11,
+   "proba": 0.236,
+   "potentiel": 0.401,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.287,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 264,
+     "texte": "Très rapidement mise en œuvre et présente en tout point de l’organisme, l'immunité innée est la première à intervenir lors de situations variées (atteintes des tissus, infection, cancérisation). C'est une première ligne de défense immunitaire qui agit d'abord seule puis se prolonge pendant toute la réaction immunitaire.",
+     "proba": 0.227,
+     "potentiel": 0.401,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "infection",
+      "tres",
+      "presente"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1-remplacement",
+       "enonce": "Expliquer en quoi la nutrition du fugu, à partir d’aliments contenant de la tétrodotoxine, lui confère un avantage pour sa survie."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+       "enonce": "La pyridostigmine, un traitement contre la myasthénie\n\nLa myasthénie est une maladie neuromusculaire auto-immune, c’est-à-dire que des réactions\nimmunitaires se déclenchent contre les parties saines de l’organisme. Elle "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 268,
+     "texte": "- Observer et comparer une coupe histologique ou des documents en microscopie avant et",
+     "proba": 0.232,
+     "potentiel": 0.383,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-centres-etranger-1",
+       "enonce": "Exercice 1 – Génétique de la reproduction sexuée et sélection des plantes \nAujourd’hui, de nombreuses techniques, comme l’hybridation, permettent la création\nde variétés végétales. Ces méthodes sont fondées sur la compré"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-2",
+       "enonce": "Brassage génétique \nExpliquer comment l’analyse des résultats de croisements permet de connaître la\nposition relative de deux gènes sur le ou les chromosomes.\nVous limiterez votre analyse aux gènes situés sur des chromos"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 263,
+     "texte": "Elle repose sur des mécanismes de reconnaissance et d'action très conservés au cours de l'évolution : une dizaine de types cellulaires différents (récepteurs de surface pour la reconnaissance de motifs étrangers partagés par de nombreux intrus) et une centaine de molécules circulantes (interleukines pour la communication entre cellules).",
+     "proba": 0.225,
+     "potentiel": 0.385,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "tres",
+      "molecules"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-1",
+       "enonce": "Thermogénèse chez la souris\nChez les animaux capables de réguler leur température corporelle, la lutte contre le\nfroid peut se faire grâce à la thermogénèse qui correspond à la libération de chaleur\nau cours de l’activit"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-2",
+       "enonce": "Expliquer comment une plante cultivée produit des molécules de réserve et par quels processus la domestication peut créer des variétés avec des organes de stockage plus développés que chez les plantes sauvages."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 28,
+   "titre": "Liens avec les autres disciplines scientifiques",
+   "passages": 2,
+   "proba": 0.271,
+   "potentiel": 0.288,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.266,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 324,
+     "texte": "Les SVT intègrent naturellement dans leurs pratiques les acquis des autres disciplines scientifiques, en particulier la physique-chimie et l’informatique, et utilisent les concepts et",
+     "proba": 0.269,
+     "potentiel": 0.288,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "physique",
+      "particulier",
+      "scientifiques",
+      "autres"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.75
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-asie-2",
+       "enonce": "Génétique et évolution\nDes mécanismes à l’origine de la diversité génétique des individus\nMontrer comment les crossing-over peuvent être source de diversité génétique.\nVous rédigerez un texte argumenté. On attend des arg"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-liban-2",
+       "enonce": "EXERCICE 1 – Action du glucagon et de l’adrénaline sur la glycémie \nLa glycémie est contrôlée par de nombreuses hormones, dont le glucagon et\nl’adrénaline.\nPrésenter, en les comparant, la production et l’action de ces de"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 325,
+     "texte": "outils mathématiques. Le programme mobilise les apports de ces disciplines dans d’autres contextes, au nom d’autres usages et d’autres intérêts. Une attention particulière doit être portée à la cohérence du vocabulaire scientifique employé d’une discipline à l’autre.",
+     "proba": 0.271,
+     "potentiel": 0.277,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-metropole-1",
+       "enonce": "Expliquer comment des éruptions volcaniques majeures ont pu provoquer des variations de température atmosphérique à différentes échelles de temps."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-sud-2",
+       "enonce": "Le glucose, molécule carrefour du métabolisme des cellules de feuille\nLes cellules chlorophylliennes produisent du glucose à partir de matière minérale et d’énergie.\nCette molécule intervient ensuite dans de nombreuses r"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 14,
+   "titre": "La dynamique des zones de divergence",
+   "passages": 5,
+   "proba": 0.126,
+   "potentiel": 0.509,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.261,
+   "niveau": "peu ou jamais tombé, mais dans la manière du professeur",
+   "passages_cles": [
+    {
+     "passage": 129,
+     "texte": "La divergence des plaques de part et d’autre des dorsales permet la mise en place d’une nouvelle lithosphère. Celle-ci se met en place par apport de magmas mantelliques à l’origine d’une nouvelle croûte océanique. Ce magmatisme à l’aplomb des dorsales s’explique par la décompression du manteau. Dans certaines dorsales (dorsales lentes) l’activité magmatique est plus réduite et la divergence met di",
+     "proba": 0.119,
+     "potentiel": 0.509,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "directement",
+      "celle",
+      "activite",
+      "zones",
+      "autre"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-liban-2",
+       "enonce": "On peut trouver différents indices dans les roches qui permettent de reconstituer le\ncontexte de leur formation et de les dater. On s’intéresse ici à la chronologie de la mise\nen place de trois granites situés à proximit"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-2",
+       "enonce": "Expliquer en quoi différentes étapes du cycle orogénique sont à l’origine de variations du climat mondial."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 130,
+     "texte": "La nouvelle lithosphère formée se refroidit en s’éloignant de l’axe et s’épaissit. Cet épaississement induit une augmentation progressive de la densité de la lithosphère. La croûte océanique et les niveaux superficiels du manteau sont le siège d’une circulation d’eau qui modifie les minéraux.",
+     "proba": 0.121,
+     "potentiel": 0.461,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "augmentation"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-2",
+       "enonce": "Expliquer en quoi différentes étapes du cycle orogénique sont à l’origine de variations du climat mondial."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-1",
+       "enonce": "Expliquer comment l’analyse quantitative des isotopes est utilisée pour l’étude du passé géologique de notre planète."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 132,
+     "texte": "- Calcul de la densité moyenne de l’ensemble croûte – manteau lithosphérique en fonction",
+     "proba": 0.126,
+     "potentiel": 0.124,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "moyenne",
+      "ensemble"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-centres-etranger-1",
+       "enonce": "Expliquer comment l’analyse quantitative des isotopes est utilisée pour l’étude du passé géologique de notre planète."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-polynesie-1-remplacement",
+       "enonce": "Les marges passives, formées lors de l’ouverture des océans, sont des zones géologiques\nsituées à la transition entre la croûte continentale et la croûte océanique. Elles sont\ncaractérisées par une faible activité tecton"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 27,
+   "titre": "Le numérique et les SVT",
+   "passages": 4,
+   "proba": 0.269,
+   "potentiel": 0.264,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.251,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 322,
+     "texte": "Ce sont autant de possibilités offertes aux lycéens de manipuler les outils actuels des sciences du vivant et de la Terre, qui leur ouvrent de nouvelles perspectives de formation, comme la bio-informatique ou l’exploitation de données. Une formation scientifique développe les compétences d’analyse critique pour permettre aux élèves de vérifier les sources d’information et leur légitimité, puis de ",
+     "proba": 0.267,
+     "potentiel": 0.264,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "formation",
+      "developpe",
+      "permettre",
+      "exploitation",
+      "puis",
+      "vivant"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-centres-etranger-1",
+       "enonce": "Les climats de la Terre : comprendre le passé pour agir aujourd’hui et demain\nReconstitution climatique d’une période récente\nLe Petit Âge Glaciaire aurait été une période climatique relativement froide à l’échelle\nplané"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-nord-1",
+       "enonce": "Les climats de la Terre : comprendre le passé pour agir aujourd’hui et demain\nL’effet de serre au cours de l’histoire de notre planète\nAu cours de son histoire notre planète a connu des changements climatiques globaux.\nL"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 321,
+     "texte": "Elles doivent aussi développer de nouvelles compétences numériques chez les élèves : l’usage des bases de données scientifiques, de systèmes d’informations géoscientifiques, de la modélisation numérique, de la programmation, des calculs quantitatifs, voire de la réalité virtuelle et de la réalité augmentée.",
+     "proba": 0.265,
+     "potentiel": 0.24,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "developper",
+      "nouvelles",
+      "scientifiques",
+      "aussi"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-amerique-nord-1",
+       "enonce": "La reproduction sexuée, une source de diversité\nChez les êtres vivants, la reproduction sexuée permet l’émergence de nouveaux\ngénomes et contribue à la diversité des individus.\nAu sein d’une population d’individus de la "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-liban-2",
+       "enonce": "On peut trouver différents indices dans les roches qui permettent de reconstituer le\ncontexte de leur formation et de les dater. On s’intéresse ici à la chronologie de la mise\nen place de trois granites situés à proximit"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 323,
+     "texte": "Ces démarches sont particulièrement importantes en SVT, qui font souvent l’objet de publications « pseudo-scientifiques », voire idéologiques : les professeurs de SVT contribuent à l’éducation des élèves aux médias et à l’information par un travail régulier d’approche critique des informations.",
+     "proba": 0.269,
+     "potentiel": 0.227,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "particulierement",
+      "importantes",
+      "souvent"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-2",
+       "enonce": "Expliquer comment l’étude d’ophiolites permet de reconstituer et de\ndater l’histoire d’un domaine océanique.\nVous rédigerez un texte argumenté. On attend des expériences, des observations,\ndes exemples pour appuyer votre"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1",
+       "enonce": "Expliquer comment les géologues datent la formation et la disparition d’une chaîne\nde montagnes.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre exposé et a"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 20,
+   "titre": "Altérations du génome et cancérisation",
+   "passages": 12,
+   "proba": 0.224,
+   "potentiel": 0.365,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.25,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 232,
+     "texte": "Des modifications du génome des cellules somatiques surviennent au cours de la vie individuelle par mutations spontanées ou induites par un agent mutagène ou certaines infections virales. Elles peuvent donner naissance à une lignée cellulaire dont la prolifération incontrôlée est à l’origine de cancers. On connaît, de plus, des facteurs génétiques hérités qui modifient la susceptibilité des indivi",
+     "proba": 0.21,
+     "potentiel": 0.365,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "agent"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-2",
+       "enonce": "La féminisation des populations de cloportes\n\nDans de nombreuses populations de cloportes (Armadillidium vulgare), on\nobserve bien plus de femelles que de mâles.\nd'après Wikipédia\nDéterminer les mécanismes qui expliquent"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1-remplacement",
+       "enonce": "Expliquer comment les cycles orogéniques peuvent être à l’origine de variations\nclimatiques à long terme.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre ex"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 243,
+     "texte": "Précisions : les mécanismes moléculaires de la cancérisation ne sont pas à traiter.",
+     "proba": 0.224,
+     "potentiel": 0.33,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-centres-etranger-2",
+       "enonce": "Génétique et évolution\nBactéries et résistance à un antibiotique\nLa résistance des bactéries aux antibiotiques est un problème majeur de santé\npublique. En milieu hospitalier notamment, la propagation de bactéries résist"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-sud-2",
+       "enonce": "Le glucose, molécule carrefour du métabolisme des cellules de feuille\nLes cellules chlorophylliennes produisent du glucose à partir de matière minérale et d’énergie.\nCette molécule intervient ensuite dans de nombreuses r"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 234,
+     "texte": "Objectifs : les élèves acquièrent les connaissances fondamentales sur le développement des cancers, sur leurs origines et leurs formes multiples. Ils comprennent que l’identification de l’origine de certains cancers permet la mise en œuvre de mesures de santé publique.",
+     "proba": 0.211,
+     "potentiel": 0.325,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "developpement",
+      "certains"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-la-reunion-2",
+       "enonce": "Les différents objets géologiques, quelle que soit leur dimension, témoignent d’évènements\ndont la chronologie peut être reconstituée sur le terrain et en laboratoire.\nPrésenter les méthodes de datation utilisées par le "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-1",
+       "enonce": "Génétique et évolution \nLa mucoviscidose est une maladie génétique humaine, affectant les épithéliums de\nnombreux organes. Elle est provoquée par la transmission de mutations du gène CFTR.\nDepuis quelques années, un nouv"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 34,
+   "titre": "Adopter un comportement éthique et responsable",
+   "passages": 6,
+   "proba": 0.318,
+   "potentiel": 0.202,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.249,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 347,
+     "texte": "Fonder sur des arguments scientifiques ses choix de comportement vis- à-vis de la santé ou de l’environnement.",
+     "proba": 0.307,
+     "potentiel": 0.202,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "arguments",
+      "scientifiques",
+      "environnement"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-2-remplacement",
+       "enonce": "Expliquer comment certains tardigrades sont devenus capables de résister à des conditions extrêmes de l’environnement."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-amerique-nord-1",
+       "enonce": "Les conséquences d’une lésion cérébrale\nÀ la suite d’une lésion cérébrale, un patient présente une paralysie de la main gauche.\nAprès plusieurs mois de rééducation il récupère une partie de la motricité de sa main.\nExpli"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 351,
+     "texte": "La colonne de droite indique les capacités et attitudes qui peuvent être mises en œuvre : pour travailler l’item décrit. Elle donne des pistes aux professeurs pour développer les compétences attendues et décrites plus bas. Des activités sont parfois proposées à seul titre d’exemples.",
+     "proba": 0.318,
+     "potentiel": 0.198,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "developper",
+      "capacites",
+      "seul",
+      "elle"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "La Grande Coupure\n\nAu début du XXème siècle, les paléontologues ont décrit de grandes modifications de la\nbiodiversité à la limite de l'Éocène et de l'Oligocène, il y a environ 34 millions d'années. Cet\névénement, connu "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1-remplacement",
+       "enonce": "Expliquer en quoi la nutrition du fugu, à partir d’aliments contenant de la tétrodotoxine, lui confère un avantage pour sa survie."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 350,
+     "texte": "Pour chaque tableau, la colonne de gauche mentionne, d’une part, les connaissances : (en caractères droits) qui doivent être acquises par l’élève et, d’autre part, les notions fondamentales (en italiques) qui doivent être connues par l’élève à l’issue de la formation. Elles recouvrent des notions qui n’ont pas été placées explicitement dans le programme pour de simples questions d'écriture et d’ai",
+     "proba": 0.314,
+     "potentiel": 0.165,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "eleve",
+      "formation",
+      "chaque"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-centres-etranger-2",
+       "enonce": "Accumulation de TTX chez les poissons-globes\nDe nombreux animaux sont dits « porteurs de TTX » car leurs tissus contiennent une substance\nneurotoxique : la tétrodotoxine (TTX).\nCertains poissons-globes du genre Takifugu "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La vie terrestre des végétaux\nLes végétaux terrestres sont des organismes fixés qui utilisent des nutriments et d’énergie pour\nproduire leur propre matière organique.\nPrésenter les caractéristiques des végétaux terrestre"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 33,
+   "titre": "Pratiquer des langages",
+   "passages": 4,
+   "proba": 0.298,
+   "potentiel": 0.158,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.227,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 344,
+     "texte": "conduire une recherche d’informations sur internet pour répondre à une question ou pour résoudre un problème scientifique, en choisissant des mots-clés pertinents, et en évaluant la fiabilité des sources et la validité des résultats ;",
+     "proba": 0.296,
+     "potentiel": 0.158,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "repondre",
+      "conduire",
+      "recherche"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.88
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-2",
+       "enonce": "Expliquer les deux origines possibles de la couleur très claire de ce poulain, dont l’une serait liée à une maladie génétique."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-2",
+       "enonce": "Brassage génétique \nExpliquer comment l’analyse des résultats de croisements permet de connaître la\nposition relative de deux gènes sur le ou les chromosomes.\nVous limiterez votre analyse aux gènes situés sur des chromos"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 345,
+     "texte": "utiliser des logiciels d’acquisition, de simulation et de traitement de données.",
+     "proba": 0.298,
+     "potentiel": 0.05,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "traitement",
+      "utiliser"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Une gestion forestière durable\nDans la forêt de Verzy située dans la Marne, il existe un peuplement de hêtres aux branches\ntortueuses. Ces hêtres tortillards, encore appelés faux de Verzy, sont reconnus comme une variété"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1-remplacement",
+       "enonce": "Histoire géologique de la région d'Andlau\n\nComme d'autres villages alsaciens, Andlau présente une production viticole qui se caractérise\npar la diversité des types de raisins produits. Cette dernière s'explique par les d"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 342,
+     "texte": "Communiquer sur ses démarches, ses résultats et ses choix, en argumentant.",
+     "proba": 0.292,
+     "potentiel": 0.036,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "La Grande Coupure\n\nAu début du XXème siècle, les paléontologues ont décrit de grandes modifications de la\nbiodiversité à la limite de l'Éocène et de l'Oligocène, il y a environ 34 millions d'années. Cet\névénement, connu "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-polynesie-2-remplacement",
+       "enonce": "Le dopage à l’EPO\nL’Agence Française de lutte contre le dopage a introduit en France en 2014, le “passeport\nbiologique de l’athlète”, afin de suivre les résultats des contrôles à l’antidopage passés par le\nsportif. L’une"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 8,
+   "titre": "L’histoire humaine lue dans son génome",
+   "passages": 9,
+   "proba": 0.102,
+   "potentiel": 0.467,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.218,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 48,
+     "texte": "La diversité allélique entre les génomes humains individuels permet de les identifier et, par comparaison, de reconstituer leurs relations de parentés. Grâce aux techniques modernes, on peut connaître les génomes d’êtres humains disparus à partir de restes fossiles. En les comparant aux génomes actuels, on peut ainsi reconstituer les principales étapes de l’histoire humaine récente.",
+     "proba": 0.089,
+     "potentiel": 0.467,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "genomes",
+      "recente",
+      "fossiles",
+      "etres",
+      "humaine"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-amerique-nord-1",
+       "enonce": "Le méliphage régent : une espèce en danger critique d’extinction\nLe méliphage régent (photographie ci-contre) est un oiseau\nvivant exclusivement dans certaines régions d’Australie. Chez\ncette espèce, les mâles par leur c"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-1",
+       "enonce": "Thermogénèse chez la souris\nChez les animaux capables de réguler leur température corporelle, la lutte contre le\nfroid peut se faire grâce à la thermogénèse qui correspond à la libération de chaleur\nau cours de l’activit"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 49,
+     "texte": "Certaines variations génétiques résultent d’une sélection actuelle (tolérance au lactose, résistance à la haute altitude) ou passée (résistance à la peste). Objectifs : les élèves apprennent que les génomes portent en eux-mêmes les traces de l’histoire de leurs ancêtres. Ces traces s’altèrent avec le temps mais permettent néanmoins de remonter à un grand nombre de générations.",
+     "proba": 0.091,
+     "potentiel": 0.408,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "traces",
+      "resistance",
+      "memes",
+      "actuelle",
+      "genomes",
+      "nombre"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "Le temps géologique\n\nUn objet géologique comme le Grand Canyon du Colorado témoigne d’une histoire géologique\nque l’on peut reconstituer.\nExposer les principes et les méthodes qui permettent de reconstituer la chronologi"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-polynesie-2",
+       "enonce": "Le temps et les roches sédimentaires\nLes roches sédimentaires témoignent d’une histoire géologique et climatique que l’on peut\nreconstituer.\nExpliquer comment les géologues reconstituent l’histoire climatique et géologiq"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 56,
+     "texte": "Précisions : les divers composants d’un génome (gènes, pseudo gènes, éléments mobiles, séquences répétées, etc.) ne sont pas exigibles.",
+     "proba": 0.102,
+     "potentiel": 0.331,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "genes",
+      "divers",
+      "genome"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-sud-2",
+       "enonce": "Le glucose, molécule carrefour du métabolisme des cellules de feuille\nLes cellules chlorophylliennes produisent du glucose à partir de matière minérale et d’énergie.\nCette molécule intervient ensuite dans de nombreuses r"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-metropole-1-remplacement",
+       "enonce": "Conversion d’énergie dans les écosystèmes \nVoilà ce qu’on peut lire sur un site de vulgarisation scientifique sur l’énergie :\nSource : Les explorateurs de l’énergie - www.explorateurs-energie.ch\nAinsi, au sein des écosys"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 4,
+   "titre": "Adopter un comportement éthique et responsable",
+   "passages": 4,
+   "proba": 0.054,
+   "potentiel": 0.499,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.217,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 9,
+     "texte": "Les mécanismes de transcription et de traduction de l'information génétique sont explicités jusqu’à leur aboutissement : la synthèse de molécules d'ARN et de protéines qui sont à la base du fonctionnement d’une cellule vivante.",
+     "proba": 0.054,
+     "potentiel": 0.499,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "jusqu",
+      "synthese",
+      "fonctionnement",
+      "molecules",
+      "cellule"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-1",
+       "enonce": "Expliquer les rôles respectifs des protéines Pax7 et syncytine dans la régénération musculaire après une lésion."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-2",
+       "enonce": "Une protéine « poison » du grain de pollen\nEn croisant deux variétés d’une plante nommée « arabette des dames », des scientifiques\nont remarqué que les proportions des génotypes des descendants étaient différentes de\ncel"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 8,
+     "texte": "L’étude s’appuie sur les connaissances acquises en collège et en classe de seconde sur la molécule d'ADN et les divisions cellulaires. Les élèves apprennent comment le matériel génétique est transmis lors de la multiplication cellulaire, d'une génération à l'autre et comment il s’exprime dans les cellules vivantes. La reproduction conforme et la variation génétique issue des mutations sont expliqu",
+     "proba": 0.052,
+     "potentiel": 0.473,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "divisions",
+      "multiplication",
+      "variation",
+      "cellulaires",
+      "molecule",
+      "cellulaire"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-2",
+       "enonce": "Une protéine « poison » du grain de pollen\nEn croisant deux variétés d’une plante nommée « arabette des dames », des scientifiques\nont remarqué que les proportions des génotypes des descendants étaient différentes de\ncel"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-asie-2",
+       "enonce": "Génétique et évolution\nDes mécanismes à l’origine de la diversité génétique des individus\nMontrer comment les crossing-over peuvent être source de diversité génétique.\nVous rédigerez un texte argumenté. On attend des arg"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 6,
+     "texte": "Identifier les impacts (bénéfices et nuisances) des activités humaines sur l’environnement à différentes échelles. Fonder ses choix de comportement responsable vis-à-vis de sa santé ou de l’environnement en prenant en compte des arguments scientifiques. Comprendre les responsabilités individuelle et collective en matière de préservation des ressources de la planète (biodiversité́, ressources minér",
+     "proba": 0.047,
+     "potentiel": 0.372,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "environnement",
+      "responsable",
+      "planete",
+      "echelles"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.75
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-2-remplacement",
+       "enonce": "Expliquer comment certains tardigrades sont devenus capables de résister à des conditions extrêmes de l’environnement."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 32,
+   "titre": "Utiliser des outils et mobiliser des méthodes pour apprendre",
+   "passages": 3,
+   "proba": 0.292,
+   "potentiel": 0.125,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.205,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 340,
+     "texte": "Recenser, extraire, organiser et exploiter des informations à partir de documents en citant ses sources, à des fins de connaissance et pas seulement d’information.",
+     "proba": 0.289,
+     "potentiel": 0.125,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1",
+       "enonce": "Caractériser le climat au Dryas récent et proposer une hypothèse permettant d’expliquer l’entrée dans cette période climatique."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "Lésion cérébrale et motricité\n\nUn accident vasculaire cérébral, ou AVC, est une atteinte des tissus cérébraux suite à une\ninterruption brusque du flux sanguin vers une partie du cerveau. Il peut affecter une ou plusieurs"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 341,
+     "texte": "Coopérer et collaborer dans le cadre de démarches de projet.",
+     "proba": 0.292,
+     "potentiel": 0.037,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.88
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-amerique-nord-1",
+       "enonce": "Un nouveau traitement pour le diabète insulino-dépendant\nLe diabète de type I ou diabète insulino-dépendant est actuellement traité par des\ninjections d’insuline lorsque la glycémie dépasse 1,4 g.L-1. Toutefois ce traite"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-liban-2",
+       "enonce": "EXERCICE 1 – Action du glucagon et de l’adrénaline sur la glycémie \nLa glycémie est contrôlée par de nombreuses hormones, dont le glucagon et\nl’adrénaline.\nPrésenter, en les comparant, la production et l’action de ces de"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 339,
+     "texte": "Garder trace de ses recherches (à l’oral et à l’écrit) et mémoire de ses acquis précédents.",
+     "proba": 0.288,
+     "potentiel": 0.026,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-amerique-nord-2",
+       "enonce": "Mécanismes de diversification du vivant autres que les brassages génétiques\nLa reproduction sexuée produit de la diversité en partie grâce aux mécanismes du\nbrassage génétique. Il existe également d’autres mécanismes gén"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-polynesie-1",
+       "enonce": "Dans les années 1960, la biologiste américaine Lynn Margulis rédige un article intitulé\n« L'origine des cellules eucaryotes ». Elle propose que les chloroplastes présents au sein des\ncellules eucaryotes actuelles provien"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 30,
+   "titre": "Pratiquer des démarches scientifiques",
+   "passages": 8,
+   "proba": 0.286,
+   "potentiel": 0.101,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.191,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 335,
+     "texte": "Discerner, dans la complexité apparente des phénomènes observables, des éléments et des principes fondamentaux.",
+     "proba": 0.285,
+     "potentiel": 0.101,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "phenomenes"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.75
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-2",
+       "enonce": "Fibres contractiles et non contractiles dans un muscle\nLes muscles squelettiques comportent majoritairement des fibres contractiles et des\nfibres non contractiles faisant partie d’une structure appelée fuseau neuro-muscu"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-metropole-2",
+       "enonce": "Fleur et diversité génétique des végétaux\n\nMême s’il existe différents types d’organisation florale, la fleur présente une architecture\ncommune constituée de pièces stériles et fertiles. Cet appareil clé de la reproducti"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 330,
+     "texte": "Concevoir et mettre en œuvre des stratégies de résolution.",
+     "proba": 0.278,
+     "potentiel": 0.089,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-2",
+       "enonce": "La Néottie : une orchidée mangeuse d'arbre ?\nLa néottie nid d'oiseau (Neottia nidus-avis) est une orchidée sauvage de sous-bois.\nCette orchidée ne synthétise jamais de chlorophylle.\nExpliquer comment la néottie subvient "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-polynesie-2-remplacement",
+       "enonce": "Le dopage à l’EPO\nL’Agence Française de lutte contre le dopage a introduit en France en 2014, le “passeport\nbiologique de l’athlète”, afin de suivre les résultats des contrôles à l’antidopage passés par le\nsportif. L’une"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 336,
+     "texte": "Distinguer ce qui relève d’une croyance ou d’une opinion et ce qui constitue un savoir scientifique.",
+     "proba": 0.286,
+     "potentiel": 0.075,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "constitue"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-1",
+       "enonce": "domestiquée \nReproductions des plantes à fleur\nLes plantes ont deux modalités de reproduction, sexuée et asexuée.\nMontrer que les deux modalités de reproduction, sexuée et asexuée, chez les végétaux,\nprésentent chacune d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 31,
+   "titre": "Concevoir, créer, réaliser",
+   "passages": 2,
+   "proba": 0.287,
+   "potentiel": 0.086,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.188,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 337,
+     "texte": "Identifier et choisir des notions, des outils et des techniques, ou des modèles simples pour mettre en œuvre une démarche scientifique.",
+     "proba": 0.287,
+     "potentiel": 0.086,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2-remplacement",
+       "enonce": "domestiquée \nLa reproduction des plantes\nDans un milieu naturel, on trouve parfois des plantes d’une même espèce qui recouvrent\nde grande surface (c’est l’exemple de l’ortie ci-dessous). Les plantes peuvent également\ncol"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-2",
+       "enonce": "Expliquer comment la radulanine inhibe la croissance de végétaux."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 338,
+     "texte": "Concevoir et mettre en œuvre un protocole.",
+     "proba": 0.287,
+     "potentiel": 0.038,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-2",
+       "enonce": "La Néottie : une orchidée mangeuse d'arbre ?\nLa néottie nid d'oiseau (Neottia nidus-avis) est une orchidée sauvage de sous-bois.\nCette orchidée ne synthétise jamais de chlorophylle.\nExpliquer comment la néottie subvient "
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2-remplacement",
+       "enonce": "domestiquée \nLa reproduction des plantes\nDans un milieu naturel, on trouve parfois des plantes d’une même espèce qui recouvrent\nde grande surface (c’est l’exemple de l’ortie ci-dessous). Les plantes peuvent également\ncol"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 6,
+   "titre": "La réplication de l'ADN",
+   "passages": 15,
+   "proba": 0.086,
+   "potentiel": 0.358,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.166,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 32,
+     "texte": "Précisions : les points suivants sont hors programme : machinerie enzymatique de synthèse des nucléotides et de réplication semi-conservative. Le détail des constituants des chromatides autre que l'ADN n’est pas attendu.",
+     "proba": 0.086,
+     "potentiel": 0.356,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-amerique-nord-2",
+       "enonce": "La vie terrestre des végétaux\nLes végétaux terrestres sont des organismes fixés qui utilisent des nutriments et d’énergie pour\nproduire leur propre matière organique.\nPrésenter les caractéristiques des végétaux terrestre"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2025-asie-1-remplacement",
+       "enonce": "Expliquer comment les cycles orogéniques peuvent être à l’origine de variations\nclimatiques à long terme.\nVous rédigerez un texte argumenté. On attend des expériences, des observations, des\nexemples pour appuyer votre ex"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 18,
+     "texte": "Chaque chromatide est constituée d'une longue molécule d'ADN associée à des protéines structurantes. Au cours de la phase S, l’ADN subit la réplication semi-conservative. Il s’agit de la formation de deux copies qui, en observant les règles d’appariement des bases, conservent chacune la séquence des nucléotides de la molécule initiale.",
+     "proba": 0.056,
+     "potentiel": 0.358,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "molecule",
+      "chaque"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2024-asie-2",
+       "enonce": "Une protéine « poison » du grain de pollen\nEn croisant deux variétés d’une plante nommée « arabette des dames », des scientifiques\nont remarqué que les proportions des génotypes des descendants étaient différentes de\ncel"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-centres-etranger-1",
+       "enonce": "Génétique et évolution\nReproduction sexuée et diversité génétique\nLa diversité génétique des individus issus de la reproduction sexuée est immense. Les\nallèles des gènes sont recombinés par brassages génétiques pendant l"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 28,
+     "texte": "- Observer des images montrant des molécules d'ADN en cours de réplication.",
+     "proba": 0.075,
+     "potentiel": 0.325,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "cours"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-1",
+       "enonce": "Expliquer comment, au cours de l’évolution, les cellules eucaryotes ont acquis la capacité de produire de l’ATP en utilisant le dioxygène."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-amerique-sud-1",
+       "enonce": "L’apicoplaste, une cible thérapeutique\nLes Apicomplexa constituent un groupe de parasites responsables de maladies graves chez\nl’être humain, telles que le paludisme et la toxoplasmose. Les parasites responsables de\nces "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 13,
+   "titre": "La dynamique de la lithosphère La caractérisation de la mobilité horizontale",
+   "passages": 8,
+   "proba": 0.119,
+   "potentiel": 0.27,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.142,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 121,
+     "texte": "La lithosphère terrestre est découpée en plaques animées de mouvements. Le mouvement des plaques, dans le passé et actuellement, peut être quantifié par différentes méthodes géologiques : études des anomalies magnétiques, mesures géodésiques, détermination de l’âge des roches par rapport à la dorsale, alignements volcaniques liés aux points chauds.",
+     "proba": 0.105,
+     "potentiel": 0.27,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "terrestre",
+      "etudes",
+      "lies",
+      "methodes"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metro-cand-libre-1",
+       "enonce": "A partir de l’exploitation de l’ensemble des documents et de l’apport des connaissances nécessaires, proposer une hypothèse expliquant les vitesses de raccourcissement différentes des cellules musculaires."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-asie-2",
+       "enonce": "Comportements, mouvements et système nerveux \nExpliquer ce qui différencie le circuit nerveux impliqué dans un mouvement\nvolontaire de celui intervenant dans un réflexe, en illustrant vos propos à l’aide de\nschémas.\nVous"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 122,
+     "texte": "La distinction de l’ensemble des indices géologiques et les mesures actuelles permettent d’identifier des zones de divergence et des zones de convergence aux caractéristiques géologiques différentes (marqueurs sismologiques, thermiques, pétrologique).",
+     "proba": 0.105,
+     "potentiel": 0.222,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "zones",
+      "geologiques",
+      "actuelles",
+      "marqueurs",
+      "indices",
+      "caracteristiques"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-metropole-1",
+       "enonce": "Montrer que les grandes forêts du Carbonifère ont pu participer au piégeage du CO2 atmosphérique, contribuant ainsi au refroidissement constaté au cours de cette période."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2023-amerique-nord-1",
+       "enonce": "Cycle du carbone et variations climatiques passées\nLe cycle du carbone est constitué de flux entre les grandes enveloppes terrestres : la\nbiosphère, la lithosphère, l’atmosphère et l’hydrosphère. Ces échanges sont à l’or"
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 128,
+     "texte": "- Étude de données sur les dorsales (bathymétrie, forages, etc.).",
+     "proba": 0.119,
+     "potentiel": 0.156,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-metropole-1-remplacement",
+       "enonce": "L’amyotrophie spinale\n\nL’amyotrophie spinale est une maladie héréditaire rare et grave. Les symptômes de la maladie\nsont divers : difficultés à se tenir assis, debout ou à marcher, difficultés à respirer, perte de\nréflex"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2",
+       "enonce": "La culture des arbres fruitiers est importante pour l’alimentation et l’économie d’un pays. La\nlutte contre les ravageurs de culture est donc essentielle. Le puceron vert, Myzus persicae, est\nun parasite du pêcher et sa "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 0,
+   "titre": "Pratiquer des démarches scientifiques",
+   "passages": 2,
+   "proba": 0.029,
+   "potentiel": 0.247,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.095,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 1,
+     "texte": "Comprendre qu'un effet peut avoir plusieurs causes. Disséquer la complexité apparente des phénomènes observables en éléments et principes fondamentaux. Distinguer ce qui relève d’une croyance ou d’une opinion et ce qui constitue un savoir scientifique.",
+     "proba": 0.029,
+     "potentiel": 0.247,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "constitue",
+      "avoir",
+      "effet"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 1.0
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Une gestion forestière durable\nDans la forêt de Verzy située dans la Marne, il existe un peuplement de hêtres aux branches\ntortueuses. Ces hêtres tortillards, encore appelés faux de Verzy, sont reconnus comme une variété"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-metropole-1-remplacement",
+       "enonce": "Expliquer pourquoi un enfant dont l’un des parents est porteur d’un allèle dominant du gène MYH7, codant pour une myosine anormale, a un risque important de développer des problèmes de contraction musculaire."
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 0,
+     "texte": "Formuler et résoudre une question ou un problème scientifique. Concevoir et mettre en œuvre des stratégies de résolution. Observer, questionner, formuler une hypothèse, en déduire ses conséquences testables ou vérifiables, expérimenter, raisonner avec rigueur, modéliser, argumenter. Interpréter des résultats et en tirer des conclusions. Comprendre le lien entre les phénomènes naturels et le langag",
+     "proba": 0.025,
+     "potentiel": 0.141,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "hypothese",
+      "phenomenes",
+      "lien"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.25
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-polynesie-2-remplacement",
+       "enonce": "Le dopage à l’EPO\nL’Agence Française de lutte contre le dopage a introduit en France en 2014, le “passeport\nbiologique de l’athlète”, afin de suivre les résultats des contrôles à l’antidopage passés par le\nsportif. L’une"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2024-polynesie-2",
+       "enonce": "La Néottie : une orchidée mangeuse d'arbre ?\nLa néottie nid d'oiseau (Neottia nidus-avis) est une orchidée sauvage de sous-bois.\nCette orchidée ne synthétise jamais de chlorophylle.\nExpliquer comment la néottie subvient "
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 2,
+   "titre": "Utiliser des outils et mobiliser des méthodes pour apprendre",
+   "passages": 1,
+   "proba": 0.037,
+   "potentiel": 0.232,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.091,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 3,
+     "texte": "Apprendre à organiser son travail. Identifier et choisir les outils et les techniques pour garder trace de ses recherches (à l’oral et à l’écrit). Recenser, extraire, organiser et exploiter des informations à partir de documents en citant ses sources, à des fins de connaissance et pas seulement d’information. Coopérer et collaborer dans le cadre de démarches de projet.",
+     "proba": 0.037,
+     "potentiel": 0.232,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.25
+      },
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2025-metropole-1",
+       "enonce": "Caractériser le climat au Dryas récent et proposer une hypothèse permettant d’expliquer l’entrée dans cette période climatique."
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1-remplacement",
+       "enonce": "Moustiques et diversification des génomes\n\nCulex pipiens, un moustique commun en France, est responsable de nuisances importantes\npar ses piqûres et les maladies qu'il véhicule. Des insecticides sont utilisés pour l'élim"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 3,
+   "titre": "Pratiquer des langages",
+   "passages": 2,
+   "proba": 0.043,
+   "potentiel": 0.226,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.088,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 4,
+     "texte": "Communiquer sur ses démarches, ses résultats et ses choix, en argumentant. Communiquer dans un langage scientifiquement approprié : oral, écrit, graphique, numérique. Utiliser des outils numériques. Conduire une recherche d’informations sur internet en lien avec une question ou un problème scientifique, en choisissant des mots-clés pertinents, et en évaluant la fiabilité des sources et la validité",
+     "proba": 0.039,
+     "potentiel": 0.226,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.5
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2023-polynesie-2-remplacement",
+       "enonce": "Le dopage à l’EPO\nL’Agence Française de lutte contre le dopage a introduit en France en 2014, le “passeport\nbiologique de l’athlète”, afin de suivre les résultats des contrôles à l’antidopage passés par le\nsportif. L’une"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1",
+       "enonce": "La Grande Coupure\n\nAu début du XXème siècle, les paléontologues ont décrit de grandes modifications de la\nbiodiversité à la limite de l'Éocène et de l'Oligocène, il y a environ 34 millions d'années. Cet\névénement, connu "
+      }
+     ],
+     "intention": null
+    },
+    {
+     "passage": 5,
+     "texte": "Utiliser des logiciels d’acquisition, de simulation et de traitement de données.",
+     "proba": 0.043,
+     "potentiel": 0.187,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [
+      "traitement",
+      "utiliser"
+     ],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.62
+      },
+      {
+       "facette": 3,
+       "nom": "organique / matiere organique / matiere / x matiere organique",
+       "part": 0.25
+      },
+      {
+       "facette": 1,
+       "nom": "diversite / x diversite / diversite x / x diversite x",
+       "part": 0.12
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-mayotte-liban-2",
+       "enonce": "Une gestion forestière durable\nDans la forêt de Verzy située dans la Marne, il existe un peuplement de hêtres aux branches\ntortueuses. Ces hêtres tortillards, encore appelés faux de Verzy, sont reconnus comme une variété"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2021-metropole-1-remplacement",
+       "enonce": "Histoire géologique de la région d'Andlau\n\nComme d'autres villages alsaciens, Andlau présente une production viticole qui se caractérise\npar la diversité des types de raisins produits. Cette dernière s'explique par les d"
+      }
+     ],
+     "intention": null
+    }
+   ]
+  },
+  {
+   "section": 1,
+   "titre": "Concevoir, créer, réaliser",
+   "passages": 1,
+   "proba": 0.033,
+   "potentiel": 0.174,
+   "annees_tombees": 0,
+   "sur": 6,
+   "priorite": 0.062,
+   "niveau": "à connaître",
+   "passages_cles": [
+    {
+     "passage": 2,
+     "texte": "Identifier et choisir des notions, des outils et des techniques, ou des modèles simples pour mettre en œuvre une démarche scientifique. Concevoir et mettre en œuvre un protocole.",
+     "proba": 0.033,
+     "potentiel": 0.174,
+     "deja_tombe": 0,
+     "evalue_sans_etre_dit": [],
+     "toujours_nomme": [],
+     "manieres_de_demander": [
+      {
+       "facette": 2,
+       "nom": "mecanismes x / mecanismes / expliquer / expliquer x",
+       "part": 0.38
+      },
+      {
+       "facette": 4,
+       "nom": "etre / variations / x etre / variations x",
+       "part": 0.38
+      },
+      {
+       "facette": 0,
+       "nom": "expliquer comment / comment / expliquer comment x / comment x",
+       "part": 0.25
+      }
+     ],
+     "questions_passees_proches": [
+      {
+       "sujet": "spe-sciences-vie-terre-2022-polynesie-2-remplacement",
+       "enonce": "domestiquée \nLa reproduction des plantes\nDans un milieu naturel, on trouve parfois des plantes d’une même espèce qui recouvrent\nde grande surface (c’est l’exemple de l’ortie ci-dessous). Les plantes peuvent également\ncol"
+      },
+      {
+       "sujet": "spe-sciences-vie-terre-2026-asie-2",
+       "enonce": "Expliquer comment la radulanine inhibe la croissance de végétaux."
+      }
+     ],
+     "intention": null
+    }
+   ]
+  }
+ ],
+ "auto_progression": {
+  "prevision": {
+   "familles": [],
+   "modele": "ancienne",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[], \"ancienne\", false]": 0.465
+   },
+   "score_rejoue": [
+    0.493,
+    0.516,
+    0.522,
+    0.492,
+    0.382,
+    0.384
+   ],
+   "fourchette": [
+    0.10703633924760686,
+    0.8228027430729726
+   ]
+  },
+  "nouveaute": {
+   "familles": [
+    "voisinage"
+   ],
+   "modele": "melange",
+   "mele_a_l_ancienne": false,
+   "essayes": {
+    "[[\"voisinage\"], \"melange\", false]": 0.788
+   },
+   "score_rejoue": [
+    0.849,
+    0.677,
+    0.924,
+    0.707,
+    0.726,
+    0.845
+   ],
+   "fourchette": [
+    0.40190359762486894,
+    1.0
+   ]
+  }
+ },
+ "preuve_auto_progression": {
+  "prevision": {
+   "regle_sans_cette_matiere": [
+    [],
+    "ancienne",
+    false
+   ],
+   "avant_couverture": 0.438,
+   "couverture": 0.438,
+   "avant_auc": 0.766,
+   "auc": 0.766,
+   "regle_finale_couverture": 0.438,
+   "pseudo_domaines": {
+    "avant": 0.315,
+    "apres": 0.315,
+    "n": 15
+   }
+  },
+  "nouveaute": {
+   "regle_sans_cette_matiere": [
+    [
+     "voisinage"
+    ],
+    "melange",
+    false
+   ],
+   "avant_couverture": 0.602,
+   "couverture": 0.655,
+   "avant_auc": 0.688,
+   "auc": 0.714,
+   "regle_finale_couverture": 0.655,
+   "pseudo_domaines": {
+    "avant": 0.484,
+    "apres": 0.564,
+    "n": 15
+   }
+  },
+  "auto_jugement": {
+   "principe": "Avant de répondre, le moteur rejoue la règle sur ses propres années passées et annonce une fourchette de couverture.",
+   "fourchette_juste": 0.854,
+   "largeur_moyenne": 0.789,
+   "taches": 445
+  }
+ }
+}
