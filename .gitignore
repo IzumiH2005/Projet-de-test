@@ -8,3 +8,6 @@ data/cache/
 output/droit/teacher.joblib
 output/nsi_prof/teacher.joblib
 output/logs/
+
+# Échantillons de voix clonée (privés, non versionnés)
+audio_piper/
