@@ -1,0 +1,141 @@
+{
+ "ton_tweet": {
+  "total": 59852,
+  "test": 1000,
+  "sources": {
+   "tweet_eval_fr": 59852
+  },
+  "etiquettes": {
+   "neutre": 27448,
+   "positif": 21029,
+   "négatif": 11375
+  }
+ },
+ "matiere": {
+  "total": 11345,
+  "test": 1000,
+  "sources": {
+   "alloprof_questions": 11345
+  },
+  "etiquettes": {
+   "mathématiques": 3448,
+   "français": 2608,
+   "sciences": 2506,
+   "histoire": 1290,
+   "chimie": 587,
+   "physique": 419,
+   "géographie": 209,
+   "anglais": 179
+  }
+ },
+ "toxique": {
+  "total": 10942,
+  "test": 1000,
+  "sources": {
+   "hatespeech_fr_train": 9845,
+   "hatespeech_fr": 1097
+  },
+  "etiquettes": {
+   "True": 5635,
+   "False": 5307
+  }
+ },
+ "toxique_en": {
+  "total": 63076,
+  "test": 1000,
+  "sources": {
+   "offensive_multi_en": 36232,
+   "tweet_eval_hate": 12806,
+   "tweet_eval_offensive": 14038
+  },
+  "etiquettes": {
+   "True": 33304,
+   "False": 29772
+  }
+ },
+ "ironie": {
+  "total": 40432,
+  "test": 1000,
+  "sources": {
+   "tweet_eval_irony_en": 4599,
+   "headlines_en": 26602,
+   "isarcasm_en": 7927,
+   "humour_taquin_fr": 439,
+   "isarcasm_rephrase_en": 865
+  },
+  "etiquettes": {
+   "False": 22569,
+   "True": 17863
+  }
+ },
+ "emotion": {
+  "total": 33896,
+  "test": 1000,
+  "sources": {
+   "emotion_fr_6": 19899,
+   "french_emotion": 13997
+  },
+  "etiquettes": {
+   "joie": 8725,
+   "tristesse": 7763,
+   "colère": 4696,
+   "peur": 4364,
+   "surprise": 2712,
+   "dégoût": 2000,
+   "neutre": 1997,
+   "amour": 1639
+  }
+ },
+ "note_nuance": {
+  "total": 9985,
+  "test": 998,
+  "sources": {
+   "movie_emotion_valence": 9985
+  },
+  "etiquettes": {
+   "4": 3104,
+   "0": 3008,
+   "1": 2056,
+   "3": 1454,
+   "2": 363
+  }
+ },
+ "nli_choix": {
+  "total": 9685,
+  "test": 968,
+  "sources": {
+   "sick_fr": 9685
+  },
+  "etiquettes": {
+   "indéterminée": 5532,
+   "appuyée": 2746,
+   "contredite": 1407
+  }
+ },
+ "similarite": {
+  "total": 2119,
+  "test": 211,
+  "sources": {
+   "sick_fr": 1946,
+   "sts22_fr": 173
+  },
+  "etiquettes": {
+   "3": 684,
+   "2": 606,
+   "4": 495,
+   "0": 182,
+   "1": 152
+  }
+ },
+ "sentiment": {
+  "total": 25611,
+  "test": 1000,
+  "sources": {
+   "film_reviews_fr": 25611
+  },
+  "etiquettes": {
+   "False": 13488,
+   "True": 12123
+  }
+ }
+}
