@@ -1,0 +1,4 @@
+{"id": "silverreandal/laya-moyenne-essai", "title": "laya-moyenne-essai", "code_file": "moyenne.py",
+ "language": "python", "kernel_type": "script", "is_private": true, "enable_gpu": true,
+ "enable_internet": true, "dataset_sources": ["silverreandal/laya-fr-decisions-v2", "silverreandal/laya-fr-en-nuit2"],
+ "competition_sources": [], "kernel_sources": ["silverreandal/laya-nuit3-int8"], "machine_shape": "NvidiaTeslaT4"}
