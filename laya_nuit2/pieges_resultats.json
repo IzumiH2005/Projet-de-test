@@ -1,0 +1,434 @@
+[
+ {
+  "cat": "Sarcasme",
+  "piege": "ironie : mots positifs, sens négatif",
+  "texte": "Génial, encore un colis livré avec trois semaines de retard et la boîte écrasée. Vraiment, bravo.",
+  "attendu": "négatif",
+  "base": {
+   "ok": true,
+   "rep": "négatif",
+   "conf": 0.91
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "négatif",
+   "conf": 0.76
+  }
+ },
+ {
+  "cat": "Sarcasme",
+  "piege": "ironie subtile",
+  "texte": "Merveilleux ce téléphone, la batterie tient presque jusqu'au petit-déjeuner.",
+  "attendu": "négatif",
+  "base": {
+   "ok": true,
+   "rep": "négatif",
+   "conf": 0.54
+  },
+  "nuit2": {
+   "ok": false,
+   "rep": "positif",
+   "conf": 0.91
+  }
+ },
+ {
+  "cat": "Négation",
+  "piege": "double négation",
+  "texte": "Je ne peux pas dire que je n'ai pas aimé ce film, bien au contraire.",
+  "attendu": "positif",
+  "base": {
+   "ok": false,
+   "rep": "négatif",
+   "conf": 0.52
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "positif",
+   "conf": 0.68
+  }
+ },
+ {
+  "cat": "Négation",
+  "piege": "mots négatifs, avis positif",
+  "texte": "Aucun défaut, rien à redire, pas une seule déception.",
+  "attendu": "positif",
+  "base": {
+   "ok": true,
+   "rep": "positif",
+   "conf": 0.59
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "positif",
+   "conf": 0.56
+  }
+ },
+ {
+  "cat": "Note",
+  "piege": "mitigé : un plus, un moins",
+  "texte": "La qualité est correcte mais le prix est vraiment excessif pour ce que c'est. Bof.",
+  "attendu": 2,
+  "base": {
+   "ok": false,
+   "rep": 0,
+   "conf": 0.81
+  },
+  "nuit2": {
+   "ok": false,
+   "rep": 1,
+   "conf": 0.63
+  }
+ },
+ {
+  "cat": "Note",
+  "piege": "enthousiasme total",
+  "texte": "Un chef-d'œuvre absolu, je l'ai déjà offert à toute ma famille !",
+  "attendu": 4,
+  "base": {
+   "ok": false,
+   "rep": 0,
+   "conf": 0.61
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": 4,
+   "conf": 0.96
+  }
+ },
+ {
+  "cat": "Logique",
+  "piege": "chiffre modifié",
+  "texte": "Texte : Marie est arrivée à Lyon en 2015 après dix ans passés à Marseille.\nAffirmation : Marie a vécu cinq ans à Marseille.",
+  "attendu": "contredite",
+  "base": {
+   "ok": true,
+   "rep": "contredite",
+   "conf": 0.99
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "contredite",
+   "conf": 0.78
+  }
+ },
+ {
+  "cat": "Logique",
+  "piege": "déduction temporelle",
+  "texte": "Texte : Marie est arrivée à Lyon en 2015 après dix ans passés à Marseille.\nAffirmation : En 2010, Marie vivait à Marseille.",
+  "attendu": "appuyée",
+  "base": {
+   "ok": false,
+   "rep": "indéterminée",
+   "conf": 0.75
+  },
+  "nuit2": {
+   "ok": false,
+   "rep": "contredite",
+   "conf": 0.39
+  }
+ },
+ {
+  "cat": "Logique",
+  "piege": "info absente (ne pas inventer)",
+  "texte": "Texte : Marie est arrivée à Lyon en 2015 après dix ans passés à Marseille.\nAffirmation : Marie travaille dans un hôpital.",
+  "attendu": "indéterminée",
+  "base": {
+   "ok": false,
+   "rep": "contredite",
+   "conf": 0.61
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "indéterminée",
+   "conf": 0.9
+  }
+ },
+ {
+  "cat": "Logique",
+  "piege": "quantificateur « tous / certains »",
+  "texte": "Texte : Certains élèves de la classe ont réussi l'examen.\nAffirmation : Tous les élèves ont réussi l'examen.",
+  "attendu": "indéterminée",
+  "base": {
+   "ok": false,
+   "rep": "contredite",
+   "conf": 0.86
+  },
+  "nuit2": {
+   "ok": false,
+   "rep": "contredite",
+   "conf": 0.74
+  }
+ },
+ {
+  "cat": "Logique",
+  "piege": "inversion des rôles",
+  "texte": "Texte : Le chat a été poursuivi par le chien dans le jardin.\nAffirmation : Le chat poursuivait le chien.",
+  "attendu": "contredite",
+  "base": {
+   "ok": true,
+   "rep": "contredite",
+   "conf": 0.94
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "contredite",
+   "conf": 0.43
+  }
+ },
+ {
+  "cat": "Logique",
+  "piege": "négation cachée",
+  "texte": "Texte : Le ministre a refusé de confirmer sa démission.\nAffirmation : Le ministre a confirmé sa démission.",
+  "attendu": "contredite",
+  "base": {
+   "ok": true,
+   "rep": "contredite",
+   "conf": 0.99
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "contredite",
+   "conf": 0.78
+  }
+ },
+ {
+  "cat": "Paraphrase",
+  "piege": "mêmes mots, sens inversé",
+  "texte": "Phrase 1 : Paul a prêté de l'argent à Julie.\nPhrase 2 : Julie a prêté de l'argent à Paul.",
+  "attendu": false,
+  "base": {
+   "ok": true,
+   "rep": false,
+   "conf": 0.98
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": false,
+   "conf": 0.98
+  }
+ },
+ {
+  "cat": "Paraphrase",
+  "piege": "mots différents, même sens",
+  "texte": "Phrase 1 : Le magasin ouvre à neuf heures.\nPhrase 2 : L'ouverture de la boutique a lieu à 9h.",
+  "attendu": true,
+  "base": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.98
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.88
+  }
+ },
+ {
+  "cat": "Toxicité",
+  "piege": "insulte polie / déguisée",
+  "texte": "Avec tout le respect que je vous dois, vous êtes d'une stupidité rare.",
+  "attendu": true,
+  "base": {
+   "ok": false,
+   "rep": false,
+   "conf": 0.78
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.95
+  }
+ },
+ {
+  "cat": "Toxicité",
+  "piege": "gros mot mais bienveillant",
+  "texte": "Putain, t'es trop fort, bravo pour ton concours !",
+  "attendu": false,
+  "base": {
+   "ok": true,
+   "rep": false,
+   "conf": 0.76
+  },
+  "nuit2": {
+   "ok": false,
+   "rep": true,
+   "conf": 0.98
+  }
+ },
+ {
+  "cat": "Toxicité",
+  "piege": "critique ferme mais respectueuse",
+  "texte": "Je ne suis pas du tout d'accord avec votre analyse, les chiffres disent l'inverse.",
+  "attendu": false,
+  "base": {
+   "ok": true,
+   "rep": false,
+   "conf": 0.99
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": false,
+   "conf": 1.0
+  }
+ },
+ {
+  "cat": "Intention",
+  "piege": "demande indirecte",
+  "texte": "Je vais finir par être en retard demain si personne ne me réveille à 6h30...",
+  "attendu": "régler une alarme",
+  "base": {
+   "ok": true,
+   "rep": "régler une alarme",
+   "conf": 0.95
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "régler une alarme",
+   "conf": 0.82
+  }
+ },
+ {
+  "cat": "Intention",
+  "piege": "mot-piège « musique »",
+  "texte": "Est-ce qu'il va pleuvoir pendant le festival de musique samedi ?",
+  "attendu": "météo",
+  "base": {
+   "ok": true,
+   "rep": "météo",
+   "conf": 1.0
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "météo",
+   "conf": 0.99
+  }
+ },
+ {
+  "cat": "Question",
+  "piege": "bon thème mais pas de réponse",
+  "texte": "Question : En quelle année la tour Eiffel a-t-elle été construite ?\nPassage : La tour Eiffel est le monument le plus visité de Paris, avec ses 330 mètres de hauteur.",
+  "attendu": false,
+  "base": {
+   "ok": true,
+   "rep": false,
+   "conf": 1.0
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": false,
+   "conf": 0.84
+  }
+ },
+ {
+  "cat": "Question",
+  "piege": "réponse formulée autrement",
+  "texte": "Question : Qui a écrit Les Misérables ?\nPassage : Publié en 1862, ce roman fleuve est l'œuvre de Victor Hugo, alors en exil à Guernesey.",
+  "attendu": true,
+  "base": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.87
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.67
+  }
+ },
+ {
+  "cat": "Matière",
+  "piege": "sujet scolaire",
+  "texte": "On calcule la dérivée de f(x)=x² pour trouver la pente de la tangente en x=3.",
+  "attendu": "mathématiques",
+  "base": {
+   "ok": true,
+   "rep": "mathématiques",
+   "conf": 1.0
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "mathématiques",
+   "conf": 0.9
+  }
+ },
+ {
+  "cat": "Matière",
+  "piege": "piège : vocabulaire mixte",
+  "texte": "Newton publie ses Principia en 1687, un tournant qui change la vision de la gravitation.",
+  "attendu": "physique",
+  "base": {
+   "ok": true,
+   "rep": "physique",
+   "conf": 0.8
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "physique",
+   "conf": 0.71
+  }
+ },
+ {
+  "cat": "Inédit",
+  "piege": "urgence d'un message",
+  "texte": "Bonjour, la canalisation vient d'exploser, l'eau coule partout dans l'appartement !",
+  "attendu": "urgent",
+  "base": {
+   "ok": true,
+   "rep": "urgent",
+   "conf": 0.92
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "urgent",
+   "conf": 0.89
+  }
+ },
+ {
+  "cat": "Inédit",
+  "piege": "demande de remboursement",
+  "texte": "Le produit est arrivé cassé, je souhaite récupérer mon argent.",
+  "attendu": true,
+  "base": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.99
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.65
+  }
+ },
+ {
+  "cat": "Inédit",
+  "piege": "spam",
+  "texte": "FÉLICITATIONS !!! Vous avez gagné un iPhone, cliquez vite ici pour réclamer votre cadeau",
+  "attendu": true,
+  "base": {
+   "ok": true,
+   "rep": true,
+   "conf": 1.0
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": true,
+   "conf": 0.79
+  }
+ },
+ {
+  "cat": "Inédit",
+  "piege": "dialogue de dresseur Pokémon",
+  "texte": "Hé toi ! Nos regards se sont croisés, tu sais ce que ça veut dire : combat !",
+  "attendu": "dresseur",
+  "base": {
+   "ok": true,
+   "rep": "dresseur",
+   "conf": 0.98
+  },
+  "nuit2": {
+   "ok": true,
+   "rep": "dresseur",
+   "conf": 0.95
+  }
+ }
+]
