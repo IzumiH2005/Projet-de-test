@@ -1,0 +1,275 @@
+{
+ "avant": {
+  "cmp_avis": 0.544,
+  "cmp_intention": 0.524,
+  "cmp_verif": 0.732,
+  "intention": 0.712,
+  "nli_choix": 0.68,
+  "note": 0.332,
+  "paraphrase": 0.564,
+  "sentiment": 0.604,
+  "verif": 0.82,
+  "MOYENNE": 0.612,
+  "_confiance_moy": {
+   "cmp_avis": 0.765,
+   "cmp_intention": 0.888,
+   "cmp_verif": 0.845,
+   "intention": 0.804,
+   "nli_choix": 0.811,
+   "note": 0.825,
+   "paraphrase": 0.867,
+   "sentiment": 0.879,
+   "verif": 0.927
+  }
+ },
+ "duree_h": 0.72,
+ "resume_finetune": {
+  "train_items": 32062,
+  "calibration_items": 400,
+  "eval_items": 2250,
+  "skipped": {},
+  "epoch_loss": [
+   0.4246763230360461,
+   0.46684763637334215,
+   0.6348506704325501
+  ],
+  "temperature": [
+   5.0,
+   5.0,
+   5.0
+  ],
+  "temperature_by_options": {},
+  "n_by_bucket": {
+   "noul:2": 100,
+   "choice:6-10": 94,
+   "choice:3-5": 48,
+   "score:3-5": 57,
+   "choice:2": 101
+  },
+  "calibration": {
+   "choice": {
+    "items": 243,
+    "temperature": 5.0,
+    "issues": [
+     "the fitted temperature 5 is on the [0.5, 5] clamp"
+    ],
+    "accuracy": 0.9218106995884774,
+    "mean_confidence": 0.9595441986119868
+   },
+   "score": {
+    "items": 57,
+    "temperature": 5.0,
+    "issues": [
+     "the fitted temperature 5 is on the [0.5, 5] clamp"
+    ],
+    "accuracy": 0.5789473684210527,
+    "mean_confidence": 0.6912092438777515
+   },
+   "noul": {
+    "items": 100,
+    "temperature": 5.0,
+    "issues": [
+     "the fitted temperature 5 is on the [0.5, 5] clamp"
+    ],
+    "accuracy": 0.87,
+    "mean_confidence": 0.9696337660066716
+   }
+  },
+  "abstention_thresholds": {
+   "noul:2": 0.9145,
+   "choice:6-10": 0.151,
+   "choice:3-5": 0.9763,
+   "score:3-5": 1.0,
+   "choice:2": 0.5331
+  },
+  "train_report": {
+   "eval_source": "/kaggle/input/datasets/silverreandal/laya-fr-decisions/eval.jsonl",
+   "eval_mode": "overlapping_eval",
+   "is_held_out": false,
+   "eval_items": 2250,
+   "note": "Evaluation set contains rows that overlap training data (1/2250 items); metrics do not reflect strictly independent held-out evaluation.",
+   "before": {
+    "items": 2250,
+    "loss": 1.1921,
+    "accuracy": 0.612,
+    "mean_confidence": 0.8458,
+    "ece": 0.2338,
+    "brier": 0.5845,
+    "brier_top1": 0.2756,
+    "by_type": {
+     "choice": {
+      "items": 1250,
+      "loss": 1.0309,
+      "accuracy": 0.6376,
+      "mean_confidence": 0.8229,
+      "ece": 0.1853,
+      "brier": 0.5331,
+      "brier_top1": 0.2508
+     },
+     "score": {
+      "items": 250,
+      "loss": 3.0173,
+      "accuracy": 0.332,
+      "mean_confidence": 0.8253,
+      "ece": 0.4989,
+      "brier": 1.106,
+      "brier_top1": 0.4813
+     },
+     "noul": {
+      "items": 750,
+      "loss": 0.8525,
+      "accuracy": 0.6627,
+      "mean_confidence": 0.8908,
+      "ece": 0.2281,
+      "brier": 0.4964,
+      "brier_top1": 0.2482
+     }
+    }
+   },
+   "after": {
+    "items": 2250,
+    "loss": 0.4732,
+    "accuracy": 0.8538,
+    "mean_confidence": 0.9271,
+    "ece": 0.081,
+    "brier": 0.2328,
+    "brier_top1": 0.1082,
+    "by_type": {
+     "choice": {
+      "items": 1250,
+      "loss": 0.3322,
+      "accuracy": 0.9032,
+      "mean_confidence": 0.9574,
+      "ece": 0.0566,
+      "brier": 0.1594,
+      "brier_top1": 0.0769
+     },
+     "score": {
+      "items": 250,
+      "loss": 1.3655,
+      "accuracy": 0.524,
+      "mean_confidence": 0.6683,
+      "ece": 0.2005,
+      "brier": 0.6857,
+      "brier_top1": 0.283
+     },
+     "noul": {
+      "items": 750,
+      "loss": 0.4107,
+      "accuracy": 0.8813,
+      "mean_confidence": 0.9627,
+      "ece": 0.0882,
+      "brier": 0.2042,
+      "brier_top1": 0.1021
+     }
+    }
+   },
+   "comparison": {
+    "delta_accuracy": 0.2418,
+    "delta_loss": -0.7189,
+    "delta_ece": -0.1528,
+    "delta_brier": -0.3517,
+    "delta_brier_top1": -0.1674,
+    "delta_mean_confidence": 0.0813
+   },
+   "calibration": {
+    "choice": {
+     "items": 243,
+     "temperature": 5.0,
+     "issues": [
+      "the fitted temperature 5 is on the [0.5, 5] clamp"
+     ],
+     "accuracy": 0.9218106995884774,
+     "mean_confidence": 0.9595441986119868
+    },
+    "score": {
+     "items": 57,
+     "temperature": 5.0,
+     "issues": [
+      "the fitted temperature 5 is on the [0.5, 5] clamp"
+     ],
+     "accuracy": 0.5789473684210527,
+     "mean_confidence": 0.6912092438777515
+    },
+    "noul": {
+     "items": 100,
+     "temperature": 5.0,
+     "issues": [
+      "the fitted temperature 5 is on the [0.5, 5] clamp"
+     ],
+     "accuracy": 0.87,
+     "mean_confidence": 0.9696337660066716
+    }
+   },
+   "abstention_thresholds": {
+    "noul:2": 0.9145,
+    "choice:6-10": 0.151,
+    "choice:3-5": 0.9763,
+    "score:3-5": 1.0,
+    "choice:2": 0.5331
+   },
+   "training": {
+    "epochs": 3,
+    "micro_batch": 8,
+    "grad_accum": 8,
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "loss": "rlcd",
+    "rl_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "w_sph": 0.75,
+    "w_rps": 1.0,
+    "shuffle_options": [
+     "choice"
+    ],
+    "option_layout": null,
+    "freeze_encoder": false,
+    "calib_max": 400,
+    "calib_frac": 0.1,
+    "calib_seed": 20260922,
+    "seed": 0,
+    "max_len": 384,
+    "head_max_len": 192,
+    "amp": null,
+    "gradient_checkpointing": null,
+    "log_every": 50,
+    "label_smoothing": 0.0,
+    "text_column": "text",
+    "label_column": "label",
+    "question_id": "label",
+    "instructions": null,
+    "eval_data": "/kaggle/input/datasets/silverreandal/laya-fr-decisions/eval.jsonl",
+    "target_error": 0.1,
+    "min_abstain_n": 10
+   }
+  },
+  "output_dir": "/kaggle/working/laya_fr"
+ },
+ "apres": {
+  "cmp_avis": 0.94,
+  "cmp_intention": 0.944,
+  "cmp_verif": 0.932,
+  "intention": 0.944,
+  "nli_choix": 0.756,
+  "note": 0.524,
+  "paraphrase": 0.884,
+  "sentiment": 0.9,
+  "verif": 0.864,
+  "MOYENNE": 0.854,
+  "_confiance_moy": {
+   "cmp_avis": 0.976,
+   "cmp_intention": 0.985,
+   "cmp_verif": 0.987,
+   "intention": 0.946,
+   "nli_choix": 0.893,
+   "note": 0.668,
+   "paraphrase": 0.958,
+   "sentiment": 0.975,
+   "verif": 0.955
+  }
+ }
+}
