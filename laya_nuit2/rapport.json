@@ -1,0 +1,308 @@
+{
+ "avant": {
+  "cmp_avis": 0.544,
+  "cmp_intention": 0.524,
+  "cmp_qa": 0.596,
+  "cmp_verif": 0.732,
+  "intention": 0.712,
+  "matiere": 0.64,
+  "nli_choix": 0.68,
+  "nli_dur": 0.68,
+  "note": 0.332,
+  "note_livre": 0.06,
+  "paraphrase": 0.564,
+  "qa_phrase": 0.39,
+  "qa_repond": 0.864,
+  "sentiment": 0.604,
+  "similarite": 0.288,
+  "theme_info": 0.656,
+  "ton_tweet": 0.472,
+  "toxique": 0.684,
+  "verif": 0.82,
+  "verif_dur": 0.776,
+  "MOYENNE": 0.581,
+  "_confiance_moy": {
+   "cmp_avis": 0.765,
+   "cmp_intention": 0.888,
+   "cmp_qa": 0.752,
+   "cmp_verif": 0.845,
+   "intention": 0.804,
+   "matiere": 0.751,
+   "nli_choix": 0.811,
+   "nli_dur": 0.846,
+   "note": 0.825,
+   "note_livre": 0.76,
+   "paraphrase": 0.867,
+   "qa_phrase": 0.505,
+   "qa_repond": 0.896,
+   "sentiment": 0.879,
+   "similarite": 0.522,
+   "theme_info": 0.885,
+   "ton_tweet": 0.711,
+   "toxique": 0.86,
+   "verif": 0.927,
+   "verif_dur": 0.921
+  }
+ },
+ "duree_h": 4.52,
+ "resume_finetune": {
+  "train_items": 229972,
+  "calibration_items": 2000,
+  "eval_items": 4950,
+  "skipped": {
+   "empty_text": 13
+  },
+  "epoch_loss": [
+   0.4177444902312163,
+   0.3632774756783558
+  ],
+  "temperature": [
+   2.6877784729003906,
+   1.7124296426773071,
+   3.296978235244751
+  ],
+  "temperature_by_options": {},
+  "n_by_bucket": {
+   "score:3-5": 353,
+   "choice:3-5": 472,
+   "choice:2": 326,
+   "noul:2": 725,
+   "choice:6-10": 124
+  },
+  "calibration": {
+   "choice": {
+    "items": 922,
+    "temperature": 2.6877784729003906,
+    "issues": [],
+    "accuracy": 0.841648590021692,
+    "mean_confidence": 0.8601266489103202
+   },
+   "score": {
+    "items": 353,
+    "temperature": 1.7124296426773071,
+    "issues": [],
+    "accuracy": 0.6090651558073654,
+    "mean_confidence": 0.6311205888855719
+   },
+   "noul": {
+    "items": 725,
+    "temperature": 3.296978235244751,
+    "issues": [],
+    "accuracy": 0.8896551724137931,
+    "mean_confidence": 0.892003681395521
+   }
+  },
+  "abstention_thresholds": {
+   "score:3-5": 1.0,
+   "choice:3-5": 0.8016,
+   "choice:2": 0.5035,
+   "noul:2": 0.544,
+   "choice:6-10": 0.3208
+  },
+  "train_report": {
+   "eval_source": "/kaggle/input/datasets/silverreandal/laya-fr-decisions-v2/eval.jsonl",
+   "eval_mode": "overlapping_eval",
+   "is_held_out": false,
+   "eval_items": 4950,
+   "note": "Evaluation set contains rows that overlap training data (20/4950 items); metrics do not reflect strictly independent held-out evaluation.",
+   "before": {
+    "items": 4950,
+    "loss": 1.2311,
+    "accuracy": 0.5824,
+    "mean_confidence": 0.804,
+    "ece": 0.2225,
+    "brier": 0.5989,
+    "brier_top1": 0.265,
+    "by_type": {
+     "choice": {
+      "items": 2700,
+      "loss": 1.0634,
+      "accuracy": 0.6056,
+      "mean_confidence": 0.7836,
+      "ece": 0.182,
+      "brier": 0.5551,
+      "brier_top1": 0.2505
+     },
+     "score": {
+      "items": 750,
+      "loss": 2.9128,
+      "accuracy": 0.2267,
+      "mean_confidence": 0.7024,
+      "ece": 0.4757,
+      "brier": 1.1429,
+      "brier_top1": 0.4415
+     },
+     "noul": {
+      "items": 1500,
+      "loss": 0.6922,
+      "accuracy": 0.7187,
+      "mean_confidence": 0.8917,
+      "ece": 0.173,
+      "brier": 0.4057,
+      "brier_top1": 0.2029
+     }
+    }
+   },
+   "after": {
+    "items": 4950,
+    "loss": 0.413,
+    "accuracy": 0.838,
+    "mean_confidence": 0.8446,
+    "ece": 0.0167,
+    "brier": 0.2261,
+    "brier_top1": 0.1011,
+    "by_type": {
+     "choice": {
+      "items": 2700,
+      "loss": 0.3245,
+      "accuracy": 0.8833,
+      "mean_confidence": 0.8736,
+      "ece": 0.0167,
+      "brier": 0.1731,
+      "brier_top1": 0.0808
+     },
+     "score": {
+      "items": 750,
+      "loss": 1.1043,
+      "accuracy": 0.544,
+      "mean_confidence": 0.6246,
+      "ece": 0.0806,
+      "brier": 0.5983,
+      "brier_top1": 0.2414
+     },
+     "noul": {
+      "items": 1500,
+      "loss": 0.2266,
+      "accuracy": 0.9033,
+      "mean_confidence": 0.9025,
+      "ece": 0.0217,
+      "brier": 0.1354,
+      "brier_top1": 0.0677
+     }
+    }
+   },
+   "comparison": {
+    "delta_accuracy": 0.2556,
+    "delta_loss": -0.8181,
+    "delta_ece": -0.2058,
+    "delta_brier": -0.3728,
+    "delta_brier_top1": -0.1639,
+    "delta_mean_confidence": 0.0406
+   },
+   "calibration": {
+    "choice": {
+     "items": 922,
+     "temperature": 2.6877784729003906,
+     "issues": [],
+     "accuracy": 0.841648590021692,
+     "mean_confidence": 0.8601266489103202
+    },
+    "score": {
+     "items": 353,
+     "temperature": 1.7124296426773071,
+     "issues": [],
+     "accuracy": 0.6090651558073654,
+     "mean_confidence": 0.6311205888855719
+    },
+    "noul": {
+     "items": 725,
+     "temperature": 3.296978235244751,
+     "issues": [],
+     "accuracy": 0.8896551724137931,
+     "mean_confidence": 0.892003681395521
+    }
+   },
+   "abstention_thresholds": {
+    "score:3-5": 1.0,
+    "choice:3-5": 0.8016,
+    "choice:2": 0.5035,
+    "noul:2": 0.544,
+    "choice:6-10": 0.3208
+   },
+   "training": {
+    "epochs": 2,
+    "micro_batch": 8,
+    "grad_accum": 8,
+    "encoder_lr": 2.5e-05,
+    "head_lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "loss": "rlcd",
+    "rl_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "w_sph": 0.75,
+    "w_rps": 1.0,
+    "shuffle_options": [
+     "choice"
+    ],
+    "option_layout": null,
+    "freeze_encoder": false,
+    "calib_max": 2000,
+    "calib_frac": 0.1,
+    "calib_seed": 20260922,
+    "seed": 0,
+    "max_len": 384,
+    "head_max_len": 192,
+    "amp": null,
+    "gradient_checkpointing": null,
+    "log_every": 50,
+    "label_smoothing": 0.0,
+    "text_column": "text",
+    "label_column": "label",
+    "question_id": "label",
+    "instructions": null,
+    "eval_data": "/kaggle/input/datasets/silverreandal/laya-fr-decisions-v2/eval.jsonl",
+    "target_error": 0.1,
+    "min_abstain_n": 10
+   }
+  },
+  "output_dir": "/kaggle/working/laya_fr"
+ },
+ "apres": {
+  "cmp_avis": 0.972,
+  "cmp_intention": 0.984,
+  "cmp_qa": 0.988,
+  "cmp_verif": 0.948,
+  "intention": 0.96,
+  "matiere": 0.924,
+  "nli_choix": 0.772,
+  "nli_dur": 0.788,
+  "note": 0.536,
+  "note_livre": 0.524,
+  "paraphrase": 0.892,
+  "qa_phrase": 0.805,
+  "qa_repond": 0.92,
+  "sentiment": 0.916,
+  "similarite": 0.576,
+  "theme_info": 0.872,
+  "ton_tweet": 0.688,
+  "toxique": 0.976,
+  "verif": 0.884,
+  "verif_dur": 0.832,
+  "MOYENNE": 0.838,
+  "_confiance_moy": {
+   "cmp_avis": 0.956,
+   "cmp_intention": 0.984,
+   "cmp_qa": 0.989,
+   "cmp_verif": 0.954,
+   "intention": 0.936,
+   "matiere": 0.859,
+   "nli_choix": 0.775,
+   "nli_dur": 0.786,
+   "note": 0.618,
+   "note_livre": 0.601,
+   "paraphrase": 0.887,
+   "qa_phrase": 0.794,
+   "qa_repond": 0.926,
+   "sentiment": 0.92,
+   "similarite": 0.655,
+   "theme_info": 0.866,
+   "ton_tweet": 0.695,
+   "toxique": 0.969,
+   "verif": 0.868,
+   "verif_dur": 0.846
+  }
+ }
+}
