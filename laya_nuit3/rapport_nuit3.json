@@ -1,0 +1,791 @@
+{
+ "reserve": {
+  "total": 422888,
+  "inedits": 190903
+ },
+ "analyse_orig": {
+  "cmp_avis": {
+   "facile": 22027,
+   "hesitant": 392,
+   "faux": 581
+  },
+  "cmp_intention": {
+   "facile": 7936,
+   "hesitant": 37,
+   "faux": 27
+  },
+  "cmp_qa": {
+   "facile": 14874,
+   "hesitant": 44,
+   "faux": 82
+  },
+  "cmp_verif": {
+   "facile": 6834,
+   "hesitant": 51,
+   "faux": 87
+  },
+  "intention": {
+   "facile": 10667,
+   "hesitant": 530,
+   "faux": 317
+  },
+  "matiere": {
+   "facile": 1769,
+   "faux": 84,
+   "hesitant": 203
+  },
+  "nli_choix": {
+   "facile": 31035,
+   "hesitant": 7321,
+   "faux": 6644
+  },
+  "nli_dur": {
+   "facile": 37934,
+   "hesitant": 14600,
+   "faux": 12466
+  },
+  "note": {
+   "facile": 12786,
+   "hesitant": 25940,
+   "faux": 26274
+  },
+  "note_livre": {
+   "hesitant": 4699,
+   "faux": 3620,
+   "facile": 839
+  },
+  "paraphrase": {
+   "facile": 35914,
+   "hesitant": 1952,
+   "faux": 2134
+  },
+  "qa_phrase": {
+   "facile": 6713,
+   "hesitant": 1901,
+   "faux": 1309
+  },
+  "qa_repond": {
+   "facile": 21028,
+   "faux": 822,
+   "hesitant": 1150
+  },
+  "sentiment": {
+   "facile": 27498,
+   "faux": 1166,
+   "hesitant": 1336
+  },
+  "similarite": {
+   "facile": 1870,
+   "hesitant": 2360,
+   "faux": 1519
+  },
+  "theme_info": {
+   "hesitant": 200,
+   "facile": 1871,
+   "faux": 106
+  },
+  "ton_tweet": {
+   "facile": 888,
+   "hesitant": 688,
+   "faux": 263
+  },
+  "toxique": {
+   "facile": 4432,
+   "hesitant": 43,
+   "faux": 25
+  },
+  "verif": {
+   "faux": 5172,
+   "facile": 44659,
+   "hesitant": 5169
+  }
+ },
+ "train": {
+  "lignes": 280000,
+  "par_cat": {
+   "facile": 52336,
+   "faux": 165674,
+   "hesitant": 61990
+  },
+  "par_tache": {
+   "sentiment": 9453,
+   "nli_dur": 54767,
+   "note": 95634,
+   "nli_choix": 30539,
+   "qa_phrase": 6322,
+   "intention": 3005,
+   "verif": 26777,
+   "paraphrase": 14075,
+   "note_livre": 11616,
+   "cmp_avis": 5775,
+   "ton_tweet": 1315,
+   "qa_repond": 6970,
+   "theme_info": 711,
+   "similarite": 5469,
+   "cmp_intention": 1532,
+   "toxique": 889,
+   "cmp_qa": 2986,
+   "cmp_verif": 1496,
+   "matiere": 669
+  }
+ },
+ "resume_finetune": {
+  "train_items": 277980,
+  "calibration_items": 2000,
+  "eval_items": 2000,
+  "skipped": {
+   "empty_text": 20
+  },
+  "epoch_loss": [
+   0.7693703807356516,
+   0.5021581585111944
+  ],
+  "temperature": [
+   1.6623021364212036,
+   1.329324722290039,
+   1.7051076889038086
+  ],
+  "temperature_by_options": {},
+  "n_by_bucket": {
+   "choice:3-5": 663,
+   "score:3-5": 823,
+   "noul:2": 383,
+   "choice:2": 98,
+   "choice:6-10": 33
+  },
+  "calibration": {
+   "choice": {
+    "items": 794,
+    "temperature": 1.6623021364212036,
+    "issues": [],
+    "accuracy": 0.845088161209068,
+    "mean_confidence": 0.8478222495558057
+   },
+   "score": {
+    "items": 823,
+    "temperature": 1.329324722290039,
+    "issues": [],
+    "accuracy": 0.5759416767922235,
+    "mean_confidence": 0.5950058451823048
+   },
+   "noul": {
+    "items": 383,
+    "temperature": 1.7051076889038086,
+    "issues": [],
+    "accuracy": 0.8929503916449086,
+    "mean_confidence": 0.8843278876573855
+   }
+  },
+  "abstention_thresholds": {
+   "choice:3-5": 0.7726,
+   "score:3-5": 1.0,
+   "noul:2": 0.6052,
+   "choice:2": 0.5779,
+   "choice:6-10": 0.8523
+  },
+  "train_report": {
+   "eval_source": "calibration_slice",
+   "eval_mode": "in_sample_calibration",
+   "is_held_out": false,
+   "eval_items": 2000,
+   "note": "Metrics reflect in-sample calibration fit, not independent held-out evaluation. Provide --eval for held-out validation.",
+   "before": {
+    "items": 2000,
+    "loss": 1.1754,
+    "accuracy": 0.4055,
+    "mean_confidence": 0.6766,
+    "ece": 0.272,
+    "brier": 0.7069,
+    "brier_top1": 0.2896,
+    "by_type": {
+     "choice": {
+      "items": 794,
+      "loss": 1.1566,
+      "accuracy": 0.4408,
+      "mean_confidence": 0.7143,
+      "ece": 0.2744,
+      "brier": 0.6986,
+      "brier_top1": 0.2957
+     },
+     "score": {
+      "items": 823,
+      "loss": 1.3811,
+      "accuracy": 0.2892,
+      "mean_confidence": 0.5803,
+      "ece": 0.2924,
+      "brier": 0.7936,
+      "brier_top1": 0.2934
+     },
+     "noul": {
+      "items": 383,
+      "loss": 0.7724,
+      "accuracy": 0.5822,
+      "mean_confidence": 0.8055,
+      "ece": 0.2233,
+      "brier": 0.5378,
+      "brier_top1": 0.2689
+     }
+    }
+   },
+   "after": {
+    "items": 2000,
+    "loss": 0.6122,
+    "accuracy": 0.7435,
+    "mean_confidence": 0.7508,
+    "ece": 0.0245,
+    "brier": 0.3514,
+    "brier_top1": 0.1586,
+    "by_type": {
+     "choice": {
+      "items": 794,
+      "loss": 0.4257,
+      "accuracy": 0.8451,
+      "mean_confidence": 0.8478,
+      "ece": 0.0181,
+      "brier": 0.2367,
+      "brier_top1": 0.1149
+     },
+     "score": {
+      "items": 823,
+      "loss": 0.9452,
+      "accuracy": 0.5759,
+      "mean_confidence": 0.595,
+      "ece": 0.0489,
+      "brier": 0.5457,
+      "brier_top1": 0.2345
+     },
+     "noul": {
+      "items": 383,
+      "loss": 0.2835,
+      "accuracy": 0.893,
+      "mean_confidence": 0.8843,
+      "ece": 0.0258,
+      "brier": 0.1717,
+      "brier_top1": 0.0859
+     }
+    }
+   },
+   "comparison": {
+    "delta_accuracy": 0.338,
+    "delta_loss": -0.5632,
+    "delta_ece": -0.2475,
+    "delta_brier": -0.3555,
+    "delta_brier_top1": -0.131,
+    "delta_mean_confidence": 0.0742
+   },
+   "calibration": {
+    "choice": {
+     "items": 794,
+     "temperature": 1.6623021364212036,
+     "issues": [],
+     "accuracy": 0.845088161209068,
+     "mean_confidence": 0.8478222495558057
+    },
+    "score": {
+     "items": 823,
+     "temperature": 1.329324722290039,
+     "issues": [],
+     "accuracy": 0.5759416767922235,
+     "mean_confidence": 0.5950058451823048
+    },
+    "noul": {
+     "items": 383,
+     "temperature": 1.7051076889038086,
+     "issues": [],
+     "accuracy": 0.8929503916449086,
+     "mean_confidence": 0.8843278876573855
+    }
+   },
+   "abstention_thresholds": {
+    "choice:3-5": 0.7726,
+    "score:3-5": 1.0,
+    "noul:2": 0.6052,
+    "choice:2": 0.5779,
+    "choice:6-10": 0.8523
+   },
+   "training": {
+    "epochs": 2,
+    "micro_batch": 8,
+    "grad_accum": 8,
+    "encoder_lr": 2e-05,
+    "head_lr": 0.0001,
+    "min_lr": 1e-06,
+    "weight_decay": 0.01,
+    "grad_clip": 1.0,
+    "loss": "rlcd",
+    "rl_samples": 4,
+    "sigma_start": 0.4,
+    "sigma_end": 0.1,
+    "w_sph": 0.75,
+    "w_rps": 1.0,
+    "shuffle_options": [
+     "choice"
+    ],
+    "option_layout": null,
+    "freeze_encoder": false,
+    "calib_max": 2000,
+    "calib_frac": 0.1,
+    "calib_seed": 20260922,
+    "seed": 0,
+    "max_len": 384,
+    "head_max_len": 192,
+    "amp": null,
+    "gradient_checkpointing": null,
+    "log_every": 200,
+    "label_smoothing": 0.0,
+    "text_column": "text",
+    "label_column": "label",
+    "question_id": "label",
+    "instructions": null,
+    "eval_data": null,
+    "target_error": 0.1,
+    "min_abstain_n": 10
+   }
+  },
+  "output_dir": "/kaggle/working/laya_nuit3_fp16"
+ },
+ "duree_entrainement_h": 4.48,
+ "test": {
+  "original_459": {
+   "cmp_avis": 0.972,
+   "cmp_intention": 0.984,
+   "cmp_qa": 0.988,
+   "cmp_verif": 0.948,
+   "intention": 0.96,
+   "matiere": 0.924,
+   "nli_choix": 0.772,
+   "nli_dur": 0.788,
+   "note": 0.536,
+   "note_livre": 0.524,
+   "paraphrase": 0.892,
+   "qa_phrase": 0.805,
+   "qa_repond": 0.92,
+   "sentiment": 0.916,
+   "similarite": 0.576,
+   "theme_info": 0.872,
+   "ton_tweet": 0.688,
+   "toxique": 0.976,
+   "verif": 0.884,
+   "verif_dur": 0.832,
+   "MOYENNE": 0.8379
+  },
+  "nuit3_int8_242": {
+   "cmp_avis": 0.964,
+   "cmp_intention": 0.964,
+   "cmp_qa": 0.984,
+   "cmp_verif": 0.92,
+   "intention": 0.932,
+   "matiere": 0.9,
+   "nli_choix": 0.728,
+   "nli_dur": 0.72,
+   "note": 0.36,
+   "note_livre": 0.448,
+   "paraphrase": 0.868,
+   "qa_phrase": 0.775,
+   "qa_repond": 0.912,
+   "sentiment": 0.904,
+   "similarite": 0.552,
+   "theme_info": 0.836,
+   "ton_tweet": 0.66,
+   "toxique": 0.968,
+   "verif": 0.852,
+   "verif_dur": 0.812,
+   "MOYENNE": 0.803
+  },
+  "pieges": {
+   "original_459": 22,
+   "nuit3_int8_242": 19,
+   "detail_original": [
+    {
+     "cat": "Sarcasme",
+     "piege": "ironie : mots positifs, sens négatif",
+     "attendu": "négatif",
+     "rep": "négatif",
+     "ok": true
+    },
+    {
+     "cat": "Sarcasme",
+     "piege": "ironie subtile",
+     "attendu": "négatif",
+     "rep": "positif",
+     "ok": false
+    },
+    {
+     "cat": "Négation",
+     "piege": "double négation",
+     "attendu": "positif",
+     "rep": "positif",
+     "ok": true
+    },
+    {
+     "cat": "Négation",
+     "piege": "mots négatifs, avis positif",
+     "attendu": "positif",
+     "rep": "positif",
+     "ok": true
+    },
+    {
+     "cat": "Note",
+     "piege": "mitigé : un plus, un moins",
+     "attendu": 2,
+     "rep": 1,
+     "ok": false
+    },
+    {
+     "cat": "Note",
+     "piege": "enthousiasme total",
+     "attendu": 4,
+     "rep": 4,
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "chiffre modifié",
+     "attendu": "contredite",
+     "rep": "contredite",
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "déduction temporelle",
+     "attendu": "appuyée",
+     "rep": "contredite",
+     "ok": false
+    },
+    {
+     "cat": "Logique",
+     "piege": "info absente (ne pas inventer)",
+     "attendu": "indéterminée",
+     "rep": "indéterminée",
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "quantificateur « tous / certains »",
+     "attendu": "indéterminée",
+     "rep": "contredite",
+     "ok": false
+    },
+    {
+     "cat": "Logique",
+     "piege": "inversion des rôles",
+     "attendu": "contredite",
+     "rep": "contredite",
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "négation cachée",
+     "attendu": "contredite",
+     "rep": "contredite",
+     "ok": true
+    },
+    {
+     "cat": "Paraphrase",
+     "piege": "mêmes mots, sens inversé",
+     "attendu": false,
+     "rep": false,
+     "ok": true
+    },
+    {
+     "cat": "Paraphrase",
+     "piege": "mots différents, même sens",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Toxicité",
+     "piege": "insulte polie / déguisée",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Toxicité",
+     "piege": "gros mot mais bienveillant",
+     "attendu": false,
+     "rep": true,
+     "ok": false
+    },
+    {
+     "cat": "Toxicité",
+     "piege": "critique ferme mais respectueuse",
+     "attendu": false,
+     "rep": false,
+     "ok": true
+    },
+    {
+     "cat": "Intention",
+     "piege": "demande indirecte",
+     "attendu": "régler une alarme",
+     "rep": "régler une alarme",
+     "ok": true
+    },
+    {
+     "cat": "Intention",
+     "piege": "mot-piège « musique »",
+     "attendu": "météo",
+     "rep": "météo",
+     "ok": true
+    },
+    {
+     "cat": "Question",
+     "piege": "bon thème mais pas de réponse",
+     "attendu": false,
+     "rep": false,
+     "ok": true
+    },
+    {
+     "cat": "Question",
+     "piege": "réponse formulée autrement",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Matière",
+     "piege": "sujet scolaire",
+     "attendu": "mathématiques",
+     "rep": "mathématiques",
+     "ok": true
+    },
+    {
+     "cat": "Matière",
+     "piege": "piège : vocabulaire mixte",
+     "attendu": "physique",
+     "rep": "physique",
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "urgence d'un message",
+     "attendu": "urgent",
+     "rep": "urgent",
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "demande de remboursement",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "spam",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "dialogue de dresseur Pokémon",
+     "attendu": "dresseur",
+     "rep": "dresseur",
+     "ok": true
+    }
+   ],
+   "detail_nuit3": [
+    {
+     "cat": "Sarcasme",
+     "piege": "ironie : mots positifs, sens négatif",
+     "attendu": "négatif",
+     "rep": "positif",
+     "ok": false
+    },
+    {
+     "cat": "Sarcasme",
+     "piege": "ironie subtile",
+     "attendu": "négatif",
+     "rep": "positif",
+     "ok": false
+    },
+    {
+     "cat": "Négation",
+     "piege": "double négation",
+     "attendu": "positif",
+     "rep": "négatif",
+     "ok": false
+    },
+    {
+     "cat": "Négation",
+     "piege": "mots négatifs, avis positif",
+     "attendu": "positif",
+     "rep": "positif",
+     "ok": true
+    },
+    {
+     "cat": "Note",
+     "piege": "mitigé : un plus, un moins",
+     "attendu": 2,
+     "rep": 1,
+     "ok": false
+    },
+    {
+     "cat": "Note",
+     "piege": "enthousiasme total",
+     "attendu": 4,
+     "rep": 4,
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "chiffre modifié",
+     "attendu": "contredite",
+     "rep": "contredite",
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "déduction temporelle",
+     "attendu": "appuyée",
+     "rep": "appuyée",
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "info absente (ne pas inventer)",
+     "attendu": "indéterminée",
+     "rep": "indéterminée",
+     "ok": true
+    },
+    {
+     "cat": "Logique",
+     "piege": "quantificateur « tous / certains »",
+     "attendu": "indéterminée",
+     "rep": "contredite",
+     "ok": false
+    },
+    {
+     "cat": "Logique",
+     "piege": "inversion des rôles",
+     "attendu": "contredite",
+     "rep": "appuyée",
+     "ok": false
+    },
+    {
+     "cat": "Logique",
+     "piege": "négation cachée",
+     "attendu": "contredite",
+     "rep": "contredite",
+     "ok": true
+    },
+    {
+     "cat": "Paraphrase",
+     "piege": "mêmes mots, sens inversé",
+     "attendu": false,
+     "rep": false,
+     "ok": true
+    },
+    {
+     "cat": "Paraphrase",
+     "piege": "mots différents, même sens",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Toxicité",
+     "piege": "insulte polie / déguisée",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Toxicité",
+     "piege": "gros mot mais bienveillant",
+     "attendu": false,
+     "rep": true,
+     "ok": false
+    },
+    {
+     "cat": "Toxicité",
+     "piege": "critique ferme mais respectueuse",
+     "attendu": false,
+     "rep": false,
+     "ok": true
+    },
+    {
+     "cat": "Intention",
+     "piege": "demande indirecte",
+     "attendu": "régler une alarme",
+     "rep": "régler une alarme",
+     "ok": true
+    },
+    {
+     "cat": "Intention",
+     "piege": "mot-piège « musique »",
+     "attendu": "météo",
+     "rep": "météo",
+     "ok": true
+    },
+    {
+     "cat": "Question",
+     "piege": "bon thème mais pas de réponse",
+     "attendu": false,
+     "rep": false,
+     "ok": true
+    },
+    {
+     "cat": "Question",
+     "piege": "réponse formulée autrement",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Matière",
+     "piege": "sujet scolaire",
+     "attendu": "mathématiques",
+     "rep": "mathématiques",
+     "ok": true
+    },
+    {
+     "cat": "Matière",
+     "piege": "piège : vocabulaire mixte",
+     "attendu": "physique",
+     "rep": "mathématiques",
+     "ok": false
+    },
+    {
+     "cat": "Inédit",
+     "piege": "urgence d'un message",
+     "attendu": "urgent",
+     "rep": "urgent",
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "demande de remboursement",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "spam",
+     "attendu": true,
+     "rep": true,
+     "ok": true
+    },
+    {
+     "cat": "Inédit",
+     "piege": "dialogue de dresseur Pokémon",
+     "attendu": "dresseur",
+     "rep": "dresseur",
+     "ok": true
+    }
+   ]
+  },
+  "cas_rates_par_original": {
+   "nombre": 801,
+   "maintenant_reussis": 249
+  },
+  "cas_reussis_par_original": {
+   "nombre": 4149,
+   "maintenant_rates": 422
+  }
+ },
+ "duree_totale_h": 5.4
+}
