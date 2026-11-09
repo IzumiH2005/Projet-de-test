@@ -1,0 +1,4 @@
+{"id": "silverreandal/laya-fr-decisions-train-v2", "title": "laya-fr-decisions-train-v2", "code_file": "train.py",
+ "language": "python", "kernel_type": "script", "is_private": true, "enable_gpu": true,
+ "enable_internet": true, "dataset_sources": ["silverreandal/laya-fr-decisions-v2"],
+ "competition_sources": [], "kernel_sources": [], "machine_shape": "NvidiaTeslaT4"}
