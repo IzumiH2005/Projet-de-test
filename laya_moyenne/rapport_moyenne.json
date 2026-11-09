@@ -1,0 +1,94 @@
+{
+ "alpha_0.0": {
+  "A": 0.8344,
+  "B": 0.8416,
+  "pieges": 22
+ },
+ "alpha_0.15": {
+  "A": 0.8412,
+  "B": 0.8409,
+  "pieges": 22
+ },
+ "alpha_0.3": {
+  "A": 0.8369,
+  "B": 0.8396,
+  "pieges": 21
+ },
+ "alpha_0.45": {
+  "A": 0.836,
+  "B": 0.8315,
+  "pieges": 21
+ },
+ "alpha_0.6": {
+  "A": 0.8284,
+  "B": 0.8257,
+  "pieges": 21
+ },
+ "alpha_1.0": {
+  "A": 0.8065,
+  "B": 0.7993,
+  "pieges": 19
+ },
+ "verdict": {
+  "alpha_choisi_sur_A": 0.15,
+  "original_B": {
+   "cmp_avis": 0.985,
+   "cmp_intention": 0.992,
+   "cmp_qa": 0.983,
+   "cmp_verif": 0.924,
+   "intention": 0.981,
+   "matiere": 0.94,
+   "nli_choix": 0.783,
+   "nli_dur": 0.807,
+   "note": 0.533,
+   "note_livre": 0.552,
+   "paraphrase": 0.85,
+   "qa_phrase": 0.74,
+   "qa_repond": 0.959,
+   "sentiment": 0.917,
+   "similarite": 0.594,
+   "theme_info": 0.895,
+   "ton_tweet": 0.659,
+   "toxique": 0.992,
+   "verif": 0.908,
+   "verif_dur": 0.837,
+   "MOYENNE": 0.8416
+  },
+  "melange_B": {
+   "cmp_avis": 0.978,
+   "cmp_intention": 0.992,
+   "cmp_qa": 0.983,
+   "cmp_verif": 0.916,
+   "intention": 0.981,
+   "matiere": 0.94,
+   "nli_choix": 0.775,
+   "nli_dur": 0.8,
+   "note": 0.533,
+   "note_livre": 0.552,
+   "paraphrase": 0.85,
+   "qa_phrase": 0.76,
+   "qa_repond": 0.959,
+   "sentiment": 0.901,
+   "similarite": 0.617,
+   "theme_info": 0.902,
+   "ton_tweet": 0.659,
+   "toxique": 0.992,
+   "verif": 0.899,
+   "verif_dur": 0.83,
+   "MOYENNE": 0.8409
+  },
+  "gain_moyenne_B": -0.0007,
+  "taches_qui_baissent_de_plus_de_2pts": {},
+  "pieges": {
+   "original": 22,
+   "melange": 22,
+   "detail": []
+  },
+  "B_rates_orig_maintenant_reussis": 16,
+  "B_rates_orig": 399,
+  "B_reussis_orig_maintenant_rates": 18,
+  "B_reussis_orig": 2115,
+  "accepte": false
+ },
+ "duree_min": 17
+}
